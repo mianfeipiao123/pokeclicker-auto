@@ -8,7 +8,7 @@
     "ACHIEVE": "成就",
     "QUEST": "任务",
     "FOUND": "发现",
-    "FRONTIER": "边境",
+    "FRONTIER": "开拓区",
     "WANDER": "游荡",
     "OTHER": "其他"
   },
@@ -44,6 +44,6 @@
   "roamerShinyDupe": "[[roamerShiny]] (重复)",
   "completedQuest": "已完成\"{{ quest }}\"",
   "completedQuestWithPoints": "完成\"{{ quest }}\"，获得 {{ points }} 任务点数.",
-  "questLevelUp": "任务等级提升为 level {{ level }}!",
+  "questLevelUp": "任务等级提升为 {{ level }} 级!",
   "resistantToPokerus": "{{ pokemon, pokemon }} 已治愈."
 }

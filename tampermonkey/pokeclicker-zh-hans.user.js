@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.2
+// @version      0.1.3
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
 // @match        http://localhost:*/*
 // @match        http://127.0.0.1:*/*
-// @updateURL    https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/%E7%BF%BB%E8%AF%91/tampermonkey/pokeclicker-zh-hans.user.js
-// @downloadURL  https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/%E7%BF%BB%E8%AF%91/tampermonkey/pokeclicker-zh-hans.user.js
+// @updateURL    https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/tampermonkey/pokeclicker-zh-hans.user.js
+// @downloadURL  https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/tampermonkey/pokeclicker-zh-hans.user.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
@@ -17,13 +17,26 @@
     'use strict';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
-    const TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main/翻译';
+    const TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
 
     // 2) 源码写死文本替换词典（raw 链接）
-    const HARDCODED_MAP_URL = 'https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/%E7%BF%BB%E8%AF%91/hardcoded/zh-Hans.map.json';
+    const HARDCODED_MAP_URL = 'https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/hardcoded/zh-Hans.map.json';
 
     const FORCE_LANG = 'zh-Hans';
     const TRANSLATIONS_QUERY_KEY = 'translations';
+
+    const INLINE_OVERRIDES = {
+        // Intro.js / common UI
+        Next: '下一步',
+        Back: '上一步',
+        Skip: '跳过',
+        Done: '完成',
+        Close: '关闭',
+        Cancel: '取消',
+        OK: '确定',
+        Yes: '是',
+        No: '否',
+    };
 
     const CSS_OVERRIDES = `
 @media (min-width: 768px) {
@@ -96,31 +109,89 @@
 
     const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title'];
 
-    const applyMapToTextNode = (textNode, map) => {
+    const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    const buildPatterns = (map) => {
+        const placeholder = '${...}';
+        const patterns = [];
+        for (const [en, zh] of Object.entries(map)) {
+            if (!en.includes(placeholder)) continue;
+            if (typeof zh !== 'string' || !zh.includes(placeholder)) continue;
+            const enParts = en.split(placeholder);
+            const zhParts = zh.split(placeholder);
+            if (enParts.length <= 1) continue;
+            if (zhParts.length !== enParts.length) continue;
+            const re = new RegExp(`^${enParts.map(escapeRegExp).join('(.+?)')}$`);
+            patterns.push({ re, zhParts });
+        }
+        // Longer regex first to reduce accidental matches
+        patterns.sort((a, b) => b.re.source.length - a.re.source.length);
+        return patterns;
+    };
+
+    const applyPatterns = (text, patterns) => {
+        for (const p of patterns) {
+            const m = text.match(p.re);
+            if (!m) continue;
+            let out = p.zhParts[0] ?? '';
+            for (let i = 1; i < p.zhParts.length; i += 1) {
+                out += (m[i] ?? '') + (p.zhParts[i] ?? '');
+            }
+            return out;
+        }
+        return null;
+    };
+
+    const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
         const raw = textNode.nodeValue;
         const key = normalizeText(raw);
         if (!key) return;
-        const zh = map[key];
+
+        const cached = cache.get(key);
+        if (cached != null) {
+            if (cached && cached !== raw) textNode.nodeValue = cached;
+            return;
+        }
+
+        let zh = map[key] ?? INLINE_OVERRIDES[key];
+        if (!zh && patterns.length) {
+            zh = applyPatterns(key, patterns);
+        }
+
+        cache.set(key, zh ?? '');
         if (zh && zh !== raw) textNode.nodeValue = zh;
     };
 
-    const applyMapToElementAttributes = (element, map) => {
+    const applyMapToElementAttributes = (element, map, patterns, cache) => {
         if (!element || element.nodeType !== Node.ELEMENT_NODE) return;
         for (const attr of attrNames) {
             if (!element.hasAttribute(attr)) continue;
             const raw = element.getAttribute(attr);
             const key = normalizeText(raw);
-            const zh = map[key];
+            if (!key) continue;
+
+            const cached = cache.get(key);
+            if (cached != null) {
+                if (cached && cached !== raw) element.setAttribute(attr, cached);
+                continue;
+            }
+
+            let zh = map[key] ?? INLINE_OVERRIDES[key];
+            if (!zh && patterns.length) {
+                zh = applyPatterns(key, patterns);
+            }
+
+            cache.set(key, zh ?? '');
             if (zh && zh !== raw) element.setAttribute(attr, zh);
         }
     };
 
-    const applyMapToRoot = (root, map) => {
+    const applyMapToRoot = (root, map, patterns, cache) => {
         if (!root) return;
         if (root.nodeType === Node.TEXT_NODE) {
-            applyMapToTextNode(root, map);
+            applyMapToTextNode(root, map, patterns, cache);
             return;
         }
 
@@ -129,28 +200,28 @@
         let node;
         // eslint-disable-next-line no-cond-assign
         while (node = walker.nextNode()) {
-            applyMapToTextNode(node, map);
+            applyMapToTextNode(node, map, patterns, cache);
         }
 
         // Common attributes (root + descendants)
         if (root.nodeType === Node.ELEMENT_NODE) {
-            applyMapToElementAttributes(root, map);
+            applyMapToElementAttributes(root, map, patterns, cache);
         }
-        root.querySelectorAll?.('*')?.forEach((el) => applyMapToElementAttributes(el, map));
+        root.querySelectorAll?.('*')?.forEach((el) => applyMapToElementAttributes(el, map, patterns, cache));
     };
 
-    const applyMapToNode = (node, map) => {
+    const applyMapToNode = (node, map, patterns, cache) => {
         if (!node) return;
         if (node.nodeType === Node.TEXT_NODE) {
-            applyMapToTextNode(node, map);
+            applyMapToTextNode(node, map, patterns, cache);
             return;
         }
         if (node.nodeType === Node.ELEMENT_NODE) {
-            applyMapToRoot(node, map);
+            applyMapToRoot(node, map, patterns, cache);
             return;
         }
         if (node.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
-            node.childNodes?.forEach((c) => applyMapToNode(c, map));
+            node.childNodes?.forEach((c) => applyMapToNode(c, map, patterns, cache));
         }
     };
 
@@ -165,17 +236,19 @@
         }
 
         const map = mapData?.entries ?? {};
+        const patterns = buildPatterns(map);
+        const cache = new Map();
 
-        applyMapToRoot(document.documentElement, map);
+        applyMapToRoot(document.documentElement, map, patterns, cache);
 
         const observer = new MutationObserver((mutations) => {
             for (const m of mutations) {
                 if (m.type === 'childList') {
                     for (const n of m.addedNodes) {
-                        applyMapToNode(n, map);
+                        applyMapToNode(n, map, patterns, cache);
                     }
                 } else if (m.type === 'characterData') {
-                    applyMapToTextNode(m.target, map);
+                    applyMapToTextNode(m.target, map, patterns, cache);
                 }
             }
         });

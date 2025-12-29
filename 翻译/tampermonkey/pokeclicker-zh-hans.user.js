@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.0
+// @version      0.1.1
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -24,6 +24,32 @@
 
     const FORCE_LANG = 'zh-Hans';
     const TRANSLATIONS_QUERY_KEY = 'translations';
+
+    const CSS_OVERRIDES = `
+@media (min-width: 768px) {
+  #left-column:empty::after,
+  #middle-sort-column:empty::after,
+  #right-column:empty::after {
+    content: '将模块拖拽到此处' !important;
+  }
+}
+
+.badgeEntry p::after {
+  content: ' 徽章' !important;
+}
+
+.gender-toggle.toggler-wrapper .toggler-knob::after {
+  content: '男' !important;
+}
+
+.gender-toggle.toggler-wrapper.style-1 input[type="checkbox"]:checked + .toggler-slider .toggler-knob::after {
+  content: '女' !important;
+}
+
+.pokedexEntry span.attack::before {
+  content: '攻击： ' !important;
+}
+`;
 
     const normalizeText = (text) =>
         String(text ?? '')
@@ -55,6 +81,16 @@
             window.location.replace(url.toString());
             return;
         }
+    } catch {
+        // ignore
+    }
+
+    // CSS pseudo-element content can't be replaced via DOM text nodes.
+    try {
+        const style = document.createElement('style');
+        style.id = 'pokeclicker-zh-hans-css-overrides';
+        style.textContent = CSS_OVERRIDES;
+        (document.head || document.documentElement).appendChild(style);
     } catch {
         // ignore
     }

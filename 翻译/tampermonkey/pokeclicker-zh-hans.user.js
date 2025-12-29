@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.1
+// @version      0.1.2
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -17,7 +17,7 @@
     'use strict';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
-    const TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main/%E7%BF%BB%E8%AF%91';
+    const TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main/翻译';
 
     // 2) 源码写死文本替换词典（raw 链接）
     const HARDCODED_MAP_URL = 'https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/%E7%BF%BB%E8%AF%91/hardcoded/zh-Hans.map.json';
@@ -78,8 +78,7 @@
         const current = url.searchParams.get(TRANSLATIONS_QUERY_KEY);
         if (current !== TRANSLATIONS_PARAM_VALUE) {
             url.searchParams.set(TRANSLATIONS_QUERY_KEY, TRANSLATIONS_PARAM_VALUE);
-            window.location.replace(url.toString());
-            return;
+            history.replaceState(null, '', url.toString());
         }
     } catch {
         // ignore
@@ -95,31 +94,64 @@
         // ignore
     }
 
+    const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title'];
+
+    const applyMapToTextNode = (textNode, map) => {
+        if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
+        if (shouldSkipNode(textNode)) return;
+        const raw = textNode.nodeValue;
+        const key = normalizeText(raw);
+        if (!key) return;
+        const zh = map[key];
+        if (zh && zh !== raw) textNode.nodeValue = zh;
+    };
+
+    const applyMapToElementAttributes = (element, map) => {
+        if (!element || element.nodeType !== Node.ELEMENT_NODE) return;
+        for (const attr of attrNames) {
+            if (!element.hasAttribute(attr)) continue;
+            const raw = element.getAttribute(attr);
+            const key = normalizeText(raw);
+            const zh = map[key];
+            if (zh && zh !== raw) element.setAttribute(attr, zh);
+        }
+    };
+
     const applyMapToRoot = (root, map) => {
+        if (!root) return;
+        if (root.nodeType === Node.TEXT_NODE) {
+            applyMapToTextNode(root, map);
+            return;
+        }
+
         // Text nodes
         const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
         let node;
         // eslint-disable-next-line no-cond-assign
         while (node = walker.nextNode()) {
-            if (shouldSkipNode(node)) continue;
-            const raw = node.nodeValue;
-            const key = normalizeText(raw);
-            if (!key) continue;
-            const zh = map[key];
-            if (zh) node.nodeValue = zh;
+            applyMapToTextNode(node, map);
         }
 
-        // Common attributes
-        const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title'];
-        root.querySelectorAll?.('*')?.forEach((el) => {
-            for (const attr of attrNames) {
-                if (!el.hasAttribute(attr)) continue;
-                const raw = el.getAttribute(attr);
-                const key = normalizeText(raw);
-                const zh = map[key];
-                if (zh) el.setAttribute(attr, zh);
-            }
-        });
+        // Common attributes (root + descendants)
+        if (root.nodeType === Node.ELEMENT_NODE) {
+            applyMapToElementAttributes(root, map);
+        }
+        root.querySelectorAll?.('*')?.forEach((el) => applyMapToElementAttributes(el, map));
+    };
+
+    const applyMapToNode = (node, map) => {
+        if (!node) return;
+        if (node.nodeType === Node.TEXT_NODE) {
+            applyMapToTextNode(node, map);
+            return;
+        }
+        if (node.nodeType === Node.ELEMENT_NODE) {
+            applyMapToRoot(node, map);
+            return;
+        }
+        if (node.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
+            node.childNodes?.forEach((c) => applyMapToNode(c, map));
+        }
     };
 
     const start = async () => {
@@ -138,12 +170,12 @@
 
         const observer = new MutationObserver((mutations) => {
             for (const m of mutations) {
-                for (const n of m.addedNodes) {
-                    if (!(n instanceof HTMLElement)) continue;
-                    applyMapToRoot(n, map);
-                }
-                if (m.type === 'characterData' && m.target?.nodeType === Node.TEXT_NODE) {
-                    applyMapToRoot(m.target.parentElement ?? document.documentElement, map);
+                if (m.type === 'childList') {
+                    for (const n of m.addedNodes) {
+                        applyMapToNode(n, map);
+                    }
+                } else if (m.type === 'characterData') {
+                    applyMapToTextNode(m.target, map);
                 }
             }
         });

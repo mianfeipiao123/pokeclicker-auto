@@ -107,7 +107,7 @@
         // ignore
     }
 
-    const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title'];
+    const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content'];
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 

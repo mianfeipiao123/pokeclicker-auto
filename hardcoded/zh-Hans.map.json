@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2025-12-29T07:27:01.140Z",
+  "generatedAt": "2025-12-29T07:35:28.086Z",
   "normalize": "collapseWhitespaceAndTrim",
   "entries": {
     "_animated": "_动画",
@@ -2949,6 +2949,7 @@
     "Click to Backup Save!": "点击备份保存！",
     "Click to Discharge (": "点击放电（",
     "Click to mute all sounds.": "单击可将所有声音静音。",
+    "Click to see your total gems<br/>Click on flutes to toggle effects": "点击查看您的宝石总数<br/>点击笛子切换效果",
     "Click to unmute all sounds.": "单击可取消所有声音静音。",
     "clickable": "可点击的",
     "clickAttack": "点击攻击",
@@ -7469,6 +7470,9 @@
     "left ${...}ms linear, top ${...}ms ${...}": "左侧 ${...}ms 线性，顶部 ${...}ms ${...}",
     "Left click to give, Right click to take": "左键点击给予，右键点击获取",
     "Left-Left-Right-Right-A-B-A-B - Hey, 1 Million!": "左-左-右-右-A-B-A-B - 嘿，一百万！",
+    "Left/right click to cycle amount <br/>Click on Pokémon to use": "左/右键循环数量<br/>点击宝可梦即可使用",
+    "Left/right click to cycle amount<br/>Applies to single and Mulch All": "左/右键单击循环量<br/>适用于单个和覆盖全部",
+    "Left/right click to cycle amount<br/>Click on item image to use": "左/右键循环金额<br/>点击商品图片使用",
     "Left/Right click to take": "左/右键单击拍摄",
     "Legend": "传奇",
     "Legend Plate": "铭牌",

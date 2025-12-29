@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.4
+// @version      0.1.5
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -36,6 +36,28 @@
         OK: '确定',
         Yes: '是',
         No: '否',
+    };
+
+    let DEBUG = false;
+    try {
+        DEBUG = localStorage.getItem('pokeclickerZhHansDebug') === '1';
+    } catch {
+        DEBUG = false;
+    }
+
+    const missingSet = new Set();
+    const recordMissing = (key) => {
+        if (!DEBUG) return;
+        if (!key || missingSet.has(key)) return;
+        missingSet.add(key);
+        // eslint-disable-next-line no-console
+        console.warn('[PokéClicker zh-Hans missing]', key);
+    };
+    // Quick way to export missing strings from console.
+    // Example: `copy(PokeClickerZhHans.dumpMissing().join('\\n'))`
+    // eslint-disable-next-line no-undef
+    window.PokeClickerZhHans = {
+        dumpMissing: () => Array.from(missingSet).sort((a, b) => a.localeCompare(b)),
     };
 
     const CSS_OVERRIDES = `
@@ -161,6 +183,7 @@
         }
 
         cache.set(key, zh ?? '');
+        if (!zh) recordMissing(key);
         if (zh && zh !== raw) textNode.nodeValue = zh;
     };
 
@@ -184,6 +207,7 @@
             }
 
             cache.set(key, zh ?? '');
+            if (!zh) recordMissing(key);
             if (zh && zh !== raw) element.setAttribute(attr, zh);
         }
     };

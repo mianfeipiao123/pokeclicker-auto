@@ -14959,6 +14959,12 @@
     "at the farm": "在农场",
     "in the Underground": "在地下",
     "times": "次",
-    "Gym": "道馆"
+    "Gym": "道馆",
+    "Quests (${...}/${...})": "任务（${...}/${...}）",
+    "Quests(${...}/${...})": "任务（${...}/${...}）",
+    "+${...}% bonus to ${...}": "+${...}% ${...}加成",
+    "Consuming ${...} Gem(s)/Second": "每秒消耗 ${...} 宝石",
+    "Pokédollar gain": "宝可币获取",
+    "Dungeon Token gain": "迷宫代币获取"
   }
 }

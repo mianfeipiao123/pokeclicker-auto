@@ -25,6 +25,15 @@
     const FORCE_LANG = 'zh-Hans';
     const TRANSLATIONS_QUERY_KEY = 'translations';
 
+    const TRANSLATIONS_BASE_URL = (() => {
+        if (TRANSLATIONS_PARAM_VALUE.startsWith('github:')) {
+            return `https://raw.githubusercontent.com/${TRANSLATIONS_PARAM_VALUE.split(':')[1]}`;
+        }
+        return TRANSLATIONS_PARAM_VALUE;
+    })();
+
+    const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/locales/${FORCE_LANG}/pokemon.json`;
+
     const INLINE_OVERRIDES = {
         // Intro.js / common UI
         Next: '下一步',
@@ -37,6 +46,9 @@
         Yes: '是',
         No: '否',
     };
+
+    /** @type {Record<string,string>} */
+    let pokemonTranslations = {};
 
     let DEBUG = false;
     try {
@@ -133,6 +145,82 @@
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
+    const TYPE_TRANSLATIONS = {
+        None: '无属性',
+        Normal: '一般系',
+        Fire: '火系',
+        Water: '水系',
+        Grass: '草系',
+        Electric: '电系',
+        Ice: '冰系',
+        Fighting: '格斗系',
+        Poison: '毒系',
+        Ground: '地面系',
+        Flying: '飞行系',
+        Psychic: '超能力系',
+        Bug: '虫系',
+        Rock: '岩石系',
+        Ghost: '幽灵系',
+        Dragon: '龙系',
+        Dark: '恶系',
+        Steel: '钢系',
+        Fairy: '妖精系',
+    };
+
+    const resolveI18NextNesting = (text, dict) => {
+        let out = String(text ?? '');
+        for (let i = 0; i < 6; i += 1) {
+            const next = out.replace(/\[\[([^[\]]+?)\]\]/g, (_, key) => dict?.[key] ?? key);
+            if (next === out) break;
+            out = next;
+        }
+        return out;
+    };
+
+    const translateDynamicSegment = (segment, map) => {
+        const key = normalizeText(segment);
+        if (!key) return segment;
+
+        const mapped = map?.[key];
+        if (typeof mapped === 'string' && !mapped.includes('${...}')) {
+            return mapped;
+        }
+
+        const gymAtMatch = key.match(/^(.+?)'s Gym at (.+)$/);
+        if (gymAtMatch) {
+            const leader = gymAtMatch[1];
+            const town = gymAtMatch[2];
+            const leaderGymKey = `${leader}'s Gym`;
+            const leaderGym = translateDynamicSegment(leaderGymKey, map);
+            const townName = translateDynamicSegment(town, map);
+            return `${leaderGym}（${townName}）`;
+        }
+
+        const trialAtMatch = key.match(/^(.+? Trial) at (.+)$/);
+        if (trialAtMatch) {
+            const trialName = translateDynamicSegment(trialAtMatch[1], map);
+            const trialTown = translateDynamicSegment(trialAtMatch[2], map);
+            return `${trialName}（${trialTown}）`;
+        }
+
+        const pokemon = pokemonTranslations?.[key];
+        if (typeof pokemon === 'string') {
+            return resolveI18NextNesting(pokemon, pokemonTranslations);
+        }
+
+        const type = TYPE_TRANSLATIONS[key];
+        if (type) return type;
+
+        const routeMatch = key.match(/^Route\s+(\d+)(?:\s+in\s+(.+))?$/);
+        if (routeMatch) {
+            const routeNumber = routeMatch[1];
+            const regionOrSub = routeMatch[2] ? translateDynamicSegment(routeMatch[2], map) : '';
+            return regionOrSub ? `${routeNumber}号道路（${regionOrSub}）` : `${routeNumber}号道路`;
+        }
+
+        return segment;
+    };
+
     const buildPatterns = (map) => {
         const placeholder = '${...}';
         const patterns = [];
@@ -154,13 +242,13 @@
         return patterns;
     };
 
-    const applyPatterns = (text, patterns) => {
+    const applyPatterns = (text, patterns, map) => {
         for (const p of patterns) {
             const m = text.match(p.re);
             if (!m) continue;
             let out = p.zhParts[0] ?? '';
             for (let i = 1; i < p.zhParts.length; i += 1) {
-                out += (m[i] ?? '') + (p.zhParts[i] ?? '');
+                out += translateDynamicSegment(m[i] ?? '', map) + (p.zhParts[i] ?? '');
             }
             return out;
         }
@@ -182,7 +270,7 @@
 
         let zh = map[key] ?? INLINE_OVERRIDES[key];
         if (!zh && patterns.length) {
-            zh = applyPatterns(key, patterns);
+            zh = applyPatterns(key, patterns, map);
         }
 
         cache.set(key, zh ?? '');
@@ -206,7 +294,7 @@
 
             let zh = map[key] ?? INLINE_OVERRIDES[key];
             if (!zh && patterns.length) {
-                zh = applyPatterns(key, patterns);
+                zh = applyPatterns(key, patterns, map);
             }
 
             cache.set(key, zh ?? '');
@@ -258,6 +346,21 @@
         try {
             const res = await fetch(HARDCODED_MAP_URL, { cache: 'no-cache' });
             if (res.ok) mapData = await res.json();
+        } catch {
+            // ignore
+        }
+
+        try {
+            const res = await fetch(POKEMON_TRANSLATIONS_URL, { cache: 'no-cache' });
+            if (res.ok) {
+                const json = await res.json();
+                const dict = {};
+                for (const [k, v] of Object.entries(json ?? {})) {
+                    if (k === 'alt') continue;
+                    if (typeof v === 'string') dict[k] = v;
+                }
+                pokemonTranslations = dict;
+            }
         } catch {
             // ignore
         }

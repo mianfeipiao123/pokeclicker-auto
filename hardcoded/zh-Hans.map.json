@@ -10179,7 +10179,7 @@
     "Raihan": "奇巴纳",
     "Raikou": "赖光",
     "Rail Staff": "铁路工作人员",
-    "Rain": "雨",
+    "Rain": "雨天",
     "Rainbow": "彩虹",
     "Rainbow Guardian": "彩虹守护者",
     "Rainbow Rocket Grunt": "彩虹火箭步兵",
@@ -15190,6 +15190,14 @@
     "Dark gems": "恶系宝石",
     "Steel gems": "钢系宝石",
     "Fairy gems": "妖精系宝石",
-    "${...} ms": "${...} 毫秒"
+    "${...} ms": "${...} 毫秒",
+    "Overcast": "阴天",
+    "Thunderstorm": "雷暴",
+    "Snow": "雪",
+    "Hail": "冰雹",
+    "Blizzard": "暴风雪",
+    "Harsh Sunlight": "烈日",
+    "Sandstorm": "沙暴",
+    "Windy": "大风"
   }
 }

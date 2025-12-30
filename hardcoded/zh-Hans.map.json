@@ -15172,6 +15172,24 @@
     "in this dungeon!": "在这个迷宫中！",
     "Base Attack:": "基础攻击：",
     "Egg Steps:": "孵化步数：",
-    "Total Attack:": "总攻击："
+    "Total Attack:": "总攻击：",
+    "Normal gems": "一般系宝石",
+    "Fire gems": "火系宝石",
+    "Water gems": "水系宝石",
+    "Electric gems": "电系宝石",
+    "Grass gems": "草系宝石",
+    "Ice gems": "冰系宝石",
+    "Fighting gems": "格斗系宝石",
+    "Poison gems": "毒系宝石",
+    "Ground gems": "地面系宝石",
+    "Flying gems": "飞行系宝石",
+    "Psychic gems": "超能力系宝石",
+    "Bug gems": "虫系宝石",
+    "Rock gems": "岩石系宝石",
+    "Ghost gems": "幽灵系宝石",
+    "Dragon gems": "龙系宝石",
+    "Dark gems": "恶系宝石",
+    "Steel gems": "钢系宝石",
+    "Fairy gems": "妖精系宝石"
   }
 }

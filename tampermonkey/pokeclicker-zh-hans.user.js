@@ -104,6 +104,15 @@
             .replace(/\s+/g, ' ')
             .trim();
 
+    const shouldUseHardcodedMap = (text) => {
+        const s = String(text ?? '');
+        const latinCount = (s.match(/[A-Za-z]/g) || []).length;
+        const hanCount = (s.match(/[\u4E00-\u9FFF]/g) || []).length;
+        // Only apply the hardcoded map to strings that are mostly Latin-script (i.e. likely untranslated English).
+        // This prevents bad map entries from rewriting already-translated Chinese Pokémon names.
+        return latinCount >= 2 && latinCount >= hanCount;
+    };
+
     const shouldSkipNode = (node) => {
         if (!node) return true;
         const parent = node.parentElement;
@@ -181,7 +190,7 @@
         const key = normalizeText(segment);
         if (!key) return segment;
 
-        const mapped = map?.[key];
+        const mapped = shouldUseHardcodedMap(key) ? map?.[key] : undefined;
         if (typeof mapped === 'string' && !mapped.includes('${...}')) {
             return mapped;
         }
@@ -261,6 +270,7 @@
         const raw = textNode.nodeValue;
         const key = normalizeText(raw);
         if (!key) return;
+        const useMap = shouldUseHardcodedMap(key);
 
         const cached = cache.get(key);
         if (cached != null) {
@@ -268,8 +278,11 @@
             return;
         }
 
-        let zh = map[key] ?? INLINE_OVERRIDES[key];
-        if (!zh && patterns.length) {
+        let zh = INLINE_OVERRIDES[key];
+        if (useMap) {
+            zh = map[key] ?? zh;
+        }
+        if (!zh && useMap && patterns.length) {
             zh = applyPatterns(key, patterns, map);
         }
 
@@ -285,6 +298,7 @@
             const raw = element.getAttribute(attr);
             const key = normalizeText(raw);
             if (!key) continue;
+            const useMap = shouldUseHardcodedMap(key);
 
             const cached = cache.get(key);
             if (cached != null) {
@@ -292,8 +306,11 @@
                 continue;
             }
 
-            let zh = map[key] ?? INLINE_OVERRIDES[key];
-            if (!zh && patterns.length) {
+            let zh = INLINE_OVERRIDES[key];
+            if (useMap) {
+                zh = map[key] ?? zh;
+            }
+            if (!zh && useMap && patterns.length) {
                 zh = applyPatterns(key, patterns, map);
             }
 

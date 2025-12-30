@@ -14913,7 +14913,7 @@
     "White Flute": "白色长笛",
     "Yellow Flute": "黄色长笛",
     "Time Flute": "时间长笛",
-    "bonus to": "加成到",
+    "bonus to": "加成",
     "Pokédollar": "宝可币",
     "Gem(s)/Second": "宝石/秒",
     "Consuming": "消耗",
@@ -14965,6 +14965,18 @@
     "+${...}% bonus to ${...}": "+${...}% ${...}加成",
     "Consuming ${...} Gem(s)/Second": "每秒消耗 ${...} 宝石",
     "Pokédollar gain": "宝可币获取",
-    "Dungeon Token gain": "迷宫代币获取"
+    "Dungeon Token gain": "迷宫代币获取",
+    "bonus to Click Attack": "点击攻击加成",
+    "bonus to Pokémon Attack": "宝可梦攻击加成",
+    "bonus to Egg Steps": "孵化步数加成",
+    "bonus to EV Yield": "努力值产出加成",
+    "bonus to Shiny Chance": "闪光几率加成",
+    "bonus to Gym and Dungeon Timers": "道馆和迷宫计时器加成",
+    "+${...}% bonus to Pokémon Attack": "+${...}% 宝可梦攻击加成",
+    "+${...}% bonus to Click Attack": "+${...}% 点击攻击加成",
+    "+${...}% bonus to Gym and Dungeon Timers": "+${...}% 道馆和迷宫计时器加成",
+    "+${...}% bonus to Egg Steps": "+${...}% 孵化步数加成",
+    "+${...}% bonus to Shiny Chance": "+${...}% 闪光几率加成",
+    "+${...}% bonus to EV Yield": "+${...}% 努力值产出加成"
   }
 }

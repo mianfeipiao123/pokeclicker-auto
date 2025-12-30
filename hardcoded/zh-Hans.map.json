@@ -9722,7 +9722,7 @@
     "Pokéfan Derek": "宝可梦德里克",
     "Pokéfan Trevor": "宝可梦特雷弗",
     "PokéManiac": "精灵宝可梦",
-    "Pokémon": "宝可梦",
+    "Pokémon": "只宝可梦",
     "pokemon": "宝可梦",
     "Pokémon alternate forms can now be obtained": "现在可以获得宝可梦的替代形态",
     "Pokémon Army": "宝可梦军团",
@@ -15158,6 +15158,8 @@
     "You don't have enough ${...} to hire me...": "你没有足够的 ${...} 来雇佣我...",
     "It looks like you are a little short on ${...} right now...": "看起来你现在的 ${...} 有点不够...",
     "Let me know when you're hiring again!": "下次招聘时请告诉我！",
-    "Congratulations on beating ${...} at his best! Come back to fight him again at any time.": "恭喜你以最佳状态击败了 ${...}！随时可以回来再次挑战。"
+    "Congratulations on beating ${...} at his best! Come back to fight him again at any time.": "恭喜你以最佳状态击败了 ${...}！随时可以回来再次挑战。",
+    "Defeated:": "击败：",
+    "Earned:": "获得："
   }
 }

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.9
+// @version      0.1.10
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -16,11 +16,19 @@
 (() => {
     'use strict';
 
-    // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
-    const TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
+    const SCRIPT_VERSION = '0.1.10';
 
-    // 2) 源码写死文本替换词典（raw 链接）
-    const HARDCODED_MAP_URL = 'https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/hardcoded/zh-Hans.map.json';
+    // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
+    // You can override this per-browser via:
+    // `localStorage.setItem('pokeclickerZhHansTranslations', 'github:...')`
+    // or a custom URL base that hosts `/locales` and `/hardcoded`.
+    const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
+    let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
+    try {
+        TRANSLATIONS_PARAM_VALUE = localStorage.getItem('pokeclickerZhHansTranslations') || DEFAULT_TRANSLATIONS_PARAM_VALUE;
+    } catch {
+        TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
+    }
 
     const FORCE_LANG = 'zh-Hans';
     const TRANSLATIONS_QUERY_KEY = 'translations';
@@ -33,6 +41,7 @@
     })();
 
     const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/locales/${FORCE_LANG}/pokemon.json`;
+    const HARDCODED_MAP_URL = `${TRANSLATIONS_BASE_URL}/hardcoded/${FORCE_LANG}.map.json`;
 
     const INLINE_OVERRIDES = {
         // Intro.js / common UI
@@ -46,6 +55,11 @@
         Yes: '是',
         No: '否',
         '使用 这个': '使用这个',
+        使用这个: '使用它',
+        'to move to between different': '在不同的',
+        'to move between different': '在不同的',
+        'Routes,Towns and Dungeon。': '路线、城镇和地下城之间移动。',
+        'Routes,Towns and Dungeons。': '路线、城镇和地下城之间移动。',
     };
 
     /** @type {Record<string,string>} */
@@ -71,6 +85,13 @@
     // eslint-disable-next-line no-undef
     window.PokeClickerZhHans = {
         dumpMissing: () => Array.from(missingSet).sort((a, b) => a.localeCompare(b)),
+        getConfig: () => ({
+            scriptVersion: SCRIPT_VERSION,
+            forceLang: FORCE_LANG,
+            translations: TRANSLATIONS_PARAM_VALUE,
+            translationsBaseUrl: TRANSLATIONS_BASE_URL,
+            hardcodedMapUrl: HARDCODED_MAP_URL,
+        }),
     };
 
     const CSS_OVERRIDES = `
@@ -104,6 +125,20 @@
             .replace(/\u00A0/g, ' ')
             .replace(/\s+/g, ' ')
             .trim();
+
+    const normalizeForLookup = (text) => {
+        let s = String(text ?? '');
+        s = s
+            .replace(/\u00A0/g, ' ')
+            .replace(/，/g, ',')
+            .replace(/。/g, '.')
+            .replace(/：/g, ':')
+            .replace(/；/g, ';');
+        s = s.replace(/\s*,\s*/g, ', ');
+        s = s.replace(/\bto move to between\b/gi, 'to move between');
+        s = s.replace(/\bRoutes,\s*Towns\b/gi, 'Routes, Towns');
+        return normalizeText(s);
+    };
 
     const splitOuterWhitespace = (text) => {
         const s = String(text ?? '').replace(/\u00A0/g, ' ');
@@ -277,23 +312,34 @@
 
     const resolveTranslation = (key, map, patterns) => {
         if (!key) return null;
-        const cachedInline = INLINE_OVERRIDES[key];
-        if (typeof cachedInline === 'string' && cachedInline) return cachedInline;
+        const altKey = normalizeForLookup(key);
+        const candidates = altKey && altKey !== key ? [key, altKey] : [key];
 
-        const useMap = shouldUseHardcodedMap(key);
-        if (!useMap) return null;
-
-        const pokemon = pokemonTranslations?.[key];
-        if (typeof pokemon === 'string') {
-            return resolveI18NextNesting(pokemon, pokemonTranslations);
+        for (const k of candidates) {
+            const inline = INLINE_OVERRIDES[k];
+            if (typeof inline === 'string' && inline) return inline;
         }
 
-        const direct = map?.[key];
-        if (typeof direct === 'string' && direct) return direct;
+        const useMap = candidates.some((k) => shouldUseHardcodedMap(k));
+        if (!useMap) return null;
+
+        for (const k of candidates) {
+            const pokemon = pokemonTranslations?.[k];
+            if (typeof pokemon === 'string') {
+                return resolveI18NextNesting(pokemon, pokemonTranslations);
+            }
+        }
+
+        for (const k of candidates) {
+            const direct = map?.[k];
+            if (typeof direct === 'string' && direct) return direct;
+        }
 
         if (patterns.length) {
-            const matched = applyPatterns(key, patterns, map);
-            if (typeof matched === 'string' && matched) return matched;
+            for (const k of candidates) {
+                const matched = applyPatterns(k, patterns, map);
+                if (typeof matched === 'string' && matched) return matched;
+            }
         }
 
         return null;
@@ -442,6 +488,11 @@
     };
 
     const start = async () => {
+        if (DEBUG) {
+            // eslint-disable-next-line no-console
+            console.info('[PokéClicker zh-Hans]', window.PokeClickerZhHans.getConfig());
+        }
+
         /** @type {{ entries?: Record<string,string> }} */
         let mapData;
         try {

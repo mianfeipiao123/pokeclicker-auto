@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.6
+// @version      0.1.7
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -190,6 +190,11 @@
         const key = normalizeText(segment);
         if (!key) return segment;
 
+        const pokemon = pokemonTranslations?.[key];
+        if (typeof pokemon === 'string') {
+            return resolveI18NextNesting(pokemon, pokemonTranslations);
+        }
+
         const mapped = shouldUseHardcodedMap(key) ? map?.[key] : undefined;
         if (typeof mapped === 'string' && !mapped.includes('${...}')) {
             return mapped;
@@ -210,11 +215,6 @@
             const trialName = translateDynamicSegment(trialAtMatch[1], map);
             const trialTown = translateDynamicSegment(trialAtMatch[2], map);
             return `${trialName}（${trialTown}）`;
-        }
-
-        const pokemon = pokemonTranslations?.[key];
-        if (typeof pokemon === 'string') {
-            return resolveI18NextNesting(pokemon, pokemonTranslations);
         }
 
         const type = TYPE_TRANSLATIONS[key];
@@ -280,7 +280,11 @@
 
         let zh = INLINE_OVERRIDES[key];
         if (useMap) {
-            zh = map[key] ?? zh;
+            const pokemon = pokemonTranslations?.[key];
+            if (!zh && typeof pokemon === 'string') {
+                zh = resolveI18NextNesting(pokemon, pokemonTranslations);
+            }
+            zh = zh ?? map[key];
         }
         if (!zh && useMap && patterns.length) {
             zh = applyPatterns(key, patterns, map);
@@ -308,7 +312,11 @@
 
             let zh = INLINE_OVERRIDES[key];
             if (useMap) {
-                zh = map[key] ?? zh;
+                const pokemon = pokemonTranslations?.[key];
+                if (!zh && typeof pokemon === 'string') {
+                    zh = resolveI18NextNesting(pokemon, pokemonTranslations);
+                }
+                zh = zh ?? map[key];
             }
             if (!zh && useMap && patterns.length) {
                 zh = applyPatterns(key, patterns, map);

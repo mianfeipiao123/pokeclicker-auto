@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.8
+// @version      0.1.9
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -45,6 +45,7 @@
         OK: '确定',
         Yes: '是',
         No: '否',
+        '使用 这个': '使用这个',
     };
 
     /** @type {Record<string,string>} */
@@ -274,6 +275,30 @@
         return null;
     };
 
+    const resolveTranslation = (key, map, patterns) => {
+        if (!key) return null;
+        const cachedInline = INLINE_OVERRIDES[key];
+        if (typeof cachedInline === 'string' && cachedInline) return cachedInline;
+
+        const useMap = shouldUseHardcodedMap(key);
+        if (!useMap) return null;
+
+        const pokemon = pokemonTranslations?.[key];
+        if (typeof pokemon === 'string') {
+            return resolveI18NextNesting(pokemon, pokemonTranslations);
+        }
+
+        const direct = map?.[key];
+        if (typeof direct === 'string' && direct) return direct;
+
+        if (patterns.length) {
+            const matched = applyPatterns(key, patterns, map);
+            if (typeof matched === 'string' && matched) return matched;
+        }
+
+        return null;
+    };
+
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
@@ -281,7 +306,6 @@
         const { leading, core, trailing } = splitOuterWhitespace(raw);
         const key = normalizeText(core);
         if (!key) return;
-        const useMap = shouldUseHardcodedMap(key);
 
         const cached = cache.get(key);
         if (cached != null) {
@@ -292,23 +316,46 @@
             return;
         }
 
-        let zh = INLINE_OVERRIDES[key];
-        if (useMap) {
-            const pokemon = pokemonTranslations?.[key];
-            if (!zh && typeof pokemon === 'string') {
-                zh = resolveI18NextNesting(pokemon, pokemonTranslations);
-            }
-            zh = zh ?? map[key];
-        }
-        if (!zh && useMap && patterns.length) {
-            zh = applyPatterns(key, patterns, map);
-        }
+        let zh = resolveTranslation(key, map, patterns);
 
         cache.set(key, zh ?? '');
         if (!zh) recordMissing(key);
         if (zh) {
             const out = `${leading}${zh}${trailing}`;
             if (out !== raw) textNode.nodeValue = out;
+            return;
+        }
+
+        if (/[\r\n]/.test(core)) {
+            const parts = core.split(/(\r?\n+)/);
+            let changed = false;
+            for (let i = 0; i < parts.length; i += 1) {
+                const part = parts[i];
+                if (!part || /^\r?\n+$/.test(part)) continue;
+                const { leading: l, core: c, trailing: t } = splitOuterWhitespace(part);
+                const partKey = normalizeText(c);
+                if (!partKey) continue;
+
+                let partCached = cache.get(partKey);
+                if (partCached == null) {
+                    const resolved = resolveTranslation(partKey, map, patterns);
+                    cache.set(partKey, resolved ?? '');
+                    partCached = resolved ?? '';
+                }
+
+                if (partCached) {
+                    const outPart = `${l}${partCached}${t}`;
+                    if (outPart !== part) {
+                        parts[i] = outPart;
+                        changed = true;
+                    }
+                }
+            }
+
+            if (changed) {
+                const out = `${leading}${parts.join('')}${trailing}`;
+                if (out !== raw) textNode.nodeValue = out;
+            }
         }
     };
 
@@ -346,17 +393,7 @@
                 continue;
             }
 
-            let zh = INLINE_OVERRIDES[key];
-            if (useMap) {
-                const pokemon = pokemonTranslations?.[key];
-                if (!zh && typeof pokemon === 'string') {
-                    zh = resolveI18NextNesting(pokemon, pokemonTranslations);
-                }
-                zh = zh ?? map[key];
-            }
-            if (!zh && useMap && patterns.length) {
-                zh = applyPatterns(key, patterns, map);
-            }
+            let zh = resolveTranslation(key, map, patterns);
 
             cache.set(key, zh ?? '');
             if (!zh) recordMissing(key);

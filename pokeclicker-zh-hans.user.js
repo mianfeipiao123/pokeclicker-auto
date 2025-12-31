@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.7
+// @version      0.1.8
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -104,6 +104,16 @@
             .replace(/\s+/g, ' ')
             .trim();
 
+    const splitOuterWhitespace = (text) => {
+        const s = String(text ?? '').replace(/\u00A0/g, ' ');
+        const m = s.match(/^(\s*)([\s\S]*?)(\s*)$/);
+        return {
+            leading: m?.[1] ?? '',
+            core: m?.[2] ?? s,
+            trailing: m?.[3] ?? '',
+        };
+    };
+
     const shouldUseHardcodedMap = (text) => {
         const s = String(text ?? '');
         const latinCount = (s.match(/[A-Za-z]/g) || []).length;
@@ -150,7 +160,7 @@
         // ignore
     }
 
-    const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content'];
+    const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content', 'data-intro'];
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
@@ -267,14 +277,18 @@
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
-        const raw = textNode.nodeValue;
-        const key = normalizeText(raw);
+        const raw = String(textNode.nodeValue ?? '');
+        const { leading, core, trailing } = splitOuterWhitespace(raw);
+        const key = normalizeText(core);
         if (!key) return;
         const useMap = shouldUseHardcodedMap(key);
 
         const cached = cache.get(key);
         if (cached != null) {
-            if (cached && cached !== raw) textNode.nodeValue = cached;
+            if (cached) {
+                const out = `${leading}${cached}${trailing}`;
+                if (out !== raw) textNode.nodeValue = out;
+            }
             return;
         }
 
@@ -292,7 +306,10 @@
 
         cache.set(key, zh ?? '');
         if (!zh) recordMissing(key);
-        if (zh && zh !== raw) textNode.nodeValue = zh;
+        if (zh) {
+            const out = `${leading}${zh}${trailing}`;
+            if (out !== raw) textNode.nodeValue = out;
+        }
     };
 
     const applyMapToElementAttributes = (element, map, patterns, cache) => {
@@ -300,13 +317,32 @@
         for (const attr of attrNames) {
             if (!element.hasAttribute(attr)) continue;
             const raw = element.getAttribute(attr);
-            const key = normalizeText(raw);
+            if (raw == null) continue;
+
+            if (attr === 'data-intro') {
+                try {
+                    const template = document.createElement('template');
+                    template.innerHTML = raw;
+                    applyMapToNode(template.content, map, patterns, cache);
+                    const out = template.innerHTML;
+                    if (out && out !== raw) element.setAttribute(attr, out);
+                } catch {
+                    // ignore
+                }
+                continue;
+            }
+
+            const { leading, core, trailing } = splitOuterWhitespace(raw);
+            const key = normalizeText(core);
             if (!key) continue;
             const useMap = shouldUseHardcodedMap(key);
 
             const cached = cache.get(key);
             if (cached != null) {
-                if (cached && cached !== raw) element.setAttribute(attr, cached);
+                if (cached) {
+                    const out = `${leading}${cached}${trailing}`;
+                    if (out !== raw) element.setAttribute(attr, out);
+                }
                 continue;
             }
 
@@ -324,7 +360,10 @@
 
             cache.set(key, zh ?? '');
             if (!zh) recordMissing(key);
-            if (zh && zh !== raw) element.setAttribute(attr, zh);
+            if (zh) {
+                const out = `${leading}${zh}${trailing}`;
+                if (out !== raw) element.setAttribute(attr, out);
+            }
         }
     };
 

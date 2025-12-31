@@ -7,8 +7,8 @@
 // @match        https://www.pokeclicker.com/*
 // @match        http://localhost:*/*
 // @match        http://127.0.0.1:*/*
-// @updateURL    https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/tampermonkey/pokeclicker-zh-hans.user.js
-// @downloadURL  https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/tampermonkey/pokeclicker-zh-hans.user.js
+// @updateURL    https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.user.js
+// @downloadURL  https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.user.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==

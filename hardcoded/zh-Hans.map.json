@@ -14026,7 +14026,6 @@
     "You found ${...} ${...} Berry!": "你发现了${...} ${...}树果！",
     "Defeated: ${...} Pokémon\\nEarned: <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}": "击败：${...}只宝可梦\\n获得：<img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}",
     "Gained ${...} Dream Orbs while offline:<br /><ul class=\"mb-0\">${...}</ul>": "离线期间获得了${...}个梦境球：<br /><ul class=\"mb-0\">${...}</ul>",
-    "Your ${...} evolved into ${...} ${...}!": "你的${...}进化成了${...} ${...}！",
     "${...} couldn\\'t be modified for Pokémon in Hatchery or Queue.": "${...}无法修改孵化屋或队列中的宝可梦。",
     "You have completed your quest!\\nYou claimed <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}!": "你完成了任务！\\n你获得了 <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}！",
     "You can complete your quest for <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}!": "你可以完成任务获得 <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}！",

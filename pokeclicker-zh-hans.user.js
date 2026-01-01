@@ -16,6 +16,27 @@
 (() => {
     'use strict';
 
+    // 拦截 Notifier.notify 替换翻译加载通知
+    const hookNotifier = () => {
+        if (window.Notifier?.notify) {
+            const originalNotify = window.Notifier.notify.bind(window.Notifier);
+            window.Notifier.notify = (options) => {
+                if (options?.message?.startsWith('Using ') && options.message.includes(' for translations')) {
+                    options.message = '已加载中文翻译';
+                }
+                return originalNotify(options);
+            };
+            return true;
+        }
+        return false;
+    };
+    if (!hookNotifier()) {
+        const interval = setInterval(() => {
+            if (hookNotifier()) clearInterval(interval);
+        }, 50);
+        setTimeout(() => clearInterval(interval), 10000);
+    }
+
     const SCRIPT_VERSION = '0.1.12';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）

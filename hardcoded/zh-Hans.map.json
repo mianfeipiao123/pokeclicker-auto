@@ -4,6 +4,7 @@
   "normalize": "collapseWhitespaceAndTrim",
   "entries": {
     "[Achievement]": "[成就]",
+    "[Achievement] ${...}": "[成就] ${...}",
     "✨ You found a shiny ${...}! ✨": "✨ 你发现了异色${...}！ ✨",
     "✨ You obtained a shiny ${...}! ✨": "✨ 你获得了异色${...}！ ✨",
     "✨ You hatched a shiny ${...}! ✨": "✨ 你孵化了异色${...}！ ✨",
@@ -85,6 +86,7 @@
     "This is not a valid savefile": "这不是有效的存档文件",
     "This is not a valid decoded savefile": "这不是有效的解码存档文件",
     "[Secret Achievement]": "[隐藏成就]",
+    "[Secret Achievement] ${...}": "[隐藏成就] ${...}",
     "You have captured a ${...}!": "你捕获了${...}！",
     "You have captured an ${...}!": "你捕获了${...}！",
     "You hatched a ${...}!": "你孵化了${...}！",

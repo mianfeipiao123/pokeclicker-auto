@@ -61,7 +61,7 @@
         return TRANSLATIONS_PARAM_VALUE;
     })();
 
-    const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/locales/${FORCE_LANG}/pokemon.json`;
+    const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/locales/pokemon.json`;
     const HARDCODED_MAP_URL = `${TRANSLATIONS_BASE_URL}/hardcoded/${FORCE_LANG}.map.json`;
 
     // Keep script logic generic; prefer maintaining translations in `hardcoded/zh-Hans.map.json`.
@@ -588,13 +588,48 @@
             console.info('[PokéClicker zh-Hans]', window.PokeClickerZhHans.getConfig());
         }
 
-        /** @type {{ entries?: Record<string,string> }} */
-        let mapData;
+        /** @type {Record<string,string>} */
+        let map = {};
+
+        // 尝试加载新的分类目录结构
         try {
-            const res = await fetch(HARDCODED_MAP_URL, { cache: 'no-cache' });
-            if (res.ok) mapData = await res.json();
+            const indexUrl = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/_index.json`;
+            const indexRes = await fetch(indexUrl, { cache: 'no-cache' });
+            if (indexRes.ok) {
+                const index = await indexRes.json();
+                const files = Object.keys(index.files || {}).filter(f => !f.includes('/code.json') && !f.startsWith('locales/')); // 排除代码文件和locales
+                const results = await Promise.all(
+                    files.map(file =>
+                        fetch(`${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/${file}`, { cache: 'no-cache' })
+                            .then(r => r.ok ? r.json() : null)
+                            .catch(() => null)
+                    )
+                );
+                for (const data of results) {
+                    if (data?.entries) {
+                        Object.assign(map, data.entries);
+                    }
+                }
+                if (DEBUG) {
+                    // eslint-disable-next-line no-console
+                    console.info('[PokéClicker zh-Hans] 已加载分类翻译文件:', files.length, '个文件,', Object.keys(map).length, '条翻译');
+                }
+            }
         } catch {
-            // ignore
+            // 回退到旧的单文件加载
+        }
+
+        // 如果新结构加载失败，回退到旧的单文件
+        if (Object.keys(map).length === 0) {
+            try {
+                const res = await fetch(HARDCODED_MAP_URL, { cache: 'no-cache' });
+                if (res.ok) {
+                    const mapData = await res.json();
+                    map = mapData?.entries ?? {};
+                }
+            } catch {
+                // ignore
+            }
         }
 
         try {
@@ -612,7 +647,6 @@
             // ignore
         }
 
-        const map = mapData?.entries ?? {};
         const patterns = buildPatterns(map);
         const cache = new Map();
 

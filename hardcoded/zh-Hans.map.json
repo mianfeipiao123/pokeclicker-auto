@@ -17,6 +17,7 @@
     "You found a Master Ball!": "你发现了大师球！",
     "You found Melmetal!": "你发现了美录梅塔！",
     "You have completed your quest!": "你完成了任务！",
+    "You claimed <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}!": "你获得了 <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}！",
     "You have completed a quest!": "你完成了一个任务！",
     "You cannot start more quests.": "你无法开始更多任务。",
     "You cannot quit this quest.": "你无法退出这个任务。",
@@ -14044,6 +14045,11 @@
     "Please Note: \n\nYou may experience performance issues playing on mobile, especially on older models. \n\nWhile it is ": "请注意：\n\n在移动设备上玩游戏可能会遇到性能问题，尤其是在较旧的机型上。\n\n虽然",
     "You obtained ${amount > 1 ? ": "你获得了${amount > 1 ? ",
     "${...}": "${...}",
-    "Please Note: \\n\\nYou may experience performance issues playing on mobile, especially on older models. \\n\\nWhile it is ": "请注意：\\n\\n在移动设备上玩游戏可能会遇到性能问题，尤其是在较旧的机型上。\\n\\n虽然"
+    "Please Note: \\n\\nYou may experience performance issues playing on mobile, especially on older models. \\n\\nWhile it is ": "请注意：\\n\\n在移动设备上玩游戏可能会遇到性能问题，尤其是在较旧的机型上。\\n\\n虽然",
+    "You received <img src=\"./assets/images/currency/battlePoint.svg\" height=\"24px\"/> ${...}.": "你获得了 <img src=\"./assets/images/currency/battlePoint.svg\" height=\"24px\"/> ${...}。",
+    "You received <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}.": "你获得了 <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}。",
+    "Earned: <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}": "获得：<img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}",
+    "<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>!": "<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>！",
+    "<i>You have a free quest refresh.</i>": "<i>你有一次免费的任务刷新机会。</i>"
   }
 }

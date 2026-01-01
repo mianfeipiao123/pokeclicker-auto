@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.10
+// @version      0.1.12
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -16,7 +16,7 @@
 (() => {
     'use strict';
 
-    const SCRIPT_VERSION = '0.1.10';
+    const SCRIPT_VERSION = '0.1.12';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -43,24 +43,8 @@
     const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/locales/${FORCE_LANG}/pokemon.json`;
     const HARDCODED_MAP_URL = `${TRANSLATIONS_BASE_URL}/hardcoded/${FORCE_LANG}.map.json`;
 
-    const INLINE_OVERRIDES = {
-        // Intro.js / common UI
-        Next: '下一步',
-        Back: '上一步',
-        Skip: '跳过',
-        Done: '完成',
-        Close: '关闭',
-        Cancel: '取消',
-        OK: '确定',
-        Yes: '是',
-        No: '否',
-        '使用 这个': '使用这个',
-        使用这个: '使用它',
-        'to move to between different': '在不同的',
-        'to move between different': '在不同的',
-        'Routes,Towns and Dungeon。': '路线、城镇和地下城之间移动。',
-        'Routes,Towns and Dungeons。': '路线、城镇和地下城之间移动。',
-    };
+    // Keep script logic generic; prefer maintaining translations in `hardcoded/zh-Hans.map.json`.
+    const INLINE_OVERRIDES = {};
 
     /** @type {Record<string,string>} */
     let pokemonTranslations = {};
@@ -135,8 +119,6 @@
             .replace(/：/g, ':')
             .replace(/；/g, ';');
         s = s.replace(/\s*,\s*/g, ', ');
-        s = s.replace(/\bto move to between\b/gi, 'to move between');
-        s = s.replace(/\bRoutes,\s*Towns\b/gi, 'Routes, Towns');
         return normalizeText(s);
     };
 
@@ -320,6 +302,11 @@
             if (typeof inline === 'string' && inline) return inline;
         }
 
+        for (const k of candidates) {
+            const direct = map?.[k];
+            if (typeof direct === 'string' && direct) return direct;
+        }
+
         const useMap = candidates.some((k) => shouldUseHardcodedMap(k));
         if (!useMap) return null;
 
@@ -328,11 +315,6 @@
             if (typeof pokemon === 'string') {
                 return resolveI18NextNesting(pokemon, pokemonTranslations);
             }
-        }
-
-        for (const k of candidates) {
-            const direct = map?.[k];
-            if (typeof direct === 'string' && direct) return direct;
         }
 
         if (patterns.length) {
@@ -345,6 +327,60 @@
         return null;
     };
 
+    const translateSegmentsFallback = (text, map, patterns, cache) => {
+        const input = String(text ?? '');
+        if (!input) return null;
+
+        const hasHan = /[\u4E00-\u9FFF]/.test(input);
+        const hasLatin = /[A-Za-z]/.test(input);
+        if (!hasHan && !hasLatin) return null;
+
+        const translatePiece = (piece) => {
+            if (!piece) return piece;
+            const { leading: l, core: c, trailing: t } = splitOuterWhitespace(piece);
+            const pieceKey = normalizeText(c);
+            if (!pieceKey) return piece;
+
+            let cached = cache.get(pieceKey);
+            if (cached == null) {
+                const resolved = resolveTranslation(pieceKey, map, patterns);
+                cache.set(pieceKey, resolved ?? '');
+                cached = resolved ?? '';
+            }
+            if (!cached) return piece;
+
+            const out = `${l}${cached}${t}`;
+            return out === piece ? piece : out;
+        };
+
+        const englishRunRe = /[A-Za-z][A-Za-z0-9\s,.\"'!?():/\\-]*/g;
+        let out = '';
+        let lastIndex = 0;
+        let changed = false;
+        let m;
+        // eslint-disable-next-line no-cond-assign
+        while (m = englishRunRe.exec(input)) {
+            const before = input.slice(lastIndex, m.index);
+            const beforeOut = translatePiece(before);
+            if (beforeOut !== before) changed = true;
+            out += beforeOut;
+
+            const seg = m[0];
+            const segOut = translatePiece(seg);
+            if (segOut !== seg) changed = true;
+            out += segOut;
+
+            lastIndex = m.index + seg.length;
+        }
+
+        const tail = input.slice(lastIndex);
+        const tailOut = translatePiece(tail);
+        if (tailOut !== tail) changed = true;
+        out += tailOut;
+
+        return changed ? out : null;
+    };
+
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
@@ -353,21 +389,23 @@
         const key = normalizeText(core);
         if (!key) return;
 
-        const cached = cache.get(key);
-        if (cached != null) {
+        if (cache.has(key)) {
+            const cached = cache.get(key);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
                 if (out !== raw) textNode.nodeValue = out;
+                return;
             }
-            return;
         }
 
-        let zh = resolveTranslation(key, map, patterns);
+        if (!cache.has(key)) {
+            const resolved = resolveTranslation(key, map, patterns);
+            cache.set(key, resolved ?? '');
+        }
 
-        cache.set(key, zh ?? '');
-        if (!zh) recordMissing(key);
-        if (zh) {
-            const out = `${leading}${zh}${trailing}`;
+        const cached = cache.get(key);
+        if (cached) {
+            const out = `${leading}${cached}${trailing}`;
             if (out !== raw) textNode.nodeValue = out;
             return;
         }
@@ -395,14 +433,37 @@
                         parts[i] = outPart;
                         changed = true;
                     }
+                    continue;
+                }
+
+                const segOut = translateSegmentsFallback(c, map, patterns, cache);
+                if (segOut) {
+                    const outPart = `${l}${segOut}${t}`;
+                    if (outPart !== part) {
+                        parts[i] = outPart;
+                        changed = true;
+                    }
                 }
             }
 
             if (changed) {
-                const out = `${leading}${parts.join('')}${trailing}`;
+                const newCore = parts.join('');
+                cache.set(key, newCore);
+                const out = `${leading}${newCore}${trailing}`;
                 if (out !== raw) textNode.nodeValue = out;
+                return;
             }
         }
+
+        const segOut = translateSegmentsFallback(core, map, patterns, cache);
+        if (segOut) {
+            cache.set(key, segOut);
+            const out = `${leading}${segOut}${trailing}`;
+            if (out !== raw) textNode.nodeValue = out;
+            return;
+        }
+
+        recordMissing(key);
     };
 
     const applyMapToElementAttributes = (element, map, patterns, cache) => {
@@ -430,23 +491,36 @@
             if (!key) continue;
             const useMap = shouldUseHardcodedMap(key);
 
-            const cached = cache.get(key);
-            if (cached != null) {
+            if (cache.has(key)) {
+                const cached = cache.get(key);
                 if (cached) {
                     const out = `${leading}${cached}${trailing}`;
                     if (out !== raw) element.setAttribute(attr, out);
+                    continue;
                 }
+            }
+
+            if (!cache.has(key)) {
+                const resolved = resolveTranslation(key, map, patterns);
+                cache.set(key, resolved ?? '');
+            }
+
+            const cached = cache.get(key);
+            if (cached) {
+                const out = `${leading}${cached}${trailing}`;
+                if (out !== raw) element.setAttribute(attr, out);
                 continue;
             }
 
-            let zh = resolveTranslation(key, map, patterns);
-
-            cache.set(key, zh ?? '');
-            if (!zh) recordMissing(key);
-            if (zh) {
-                const out = `${leading}${zh}${trailing}`;
+            const segOut = translateSegmentsFallback(core, map, patterns, cache);
+            if (segOut) {
+                cache.set(key, segOut);
+                const out = `${leading}${segOut}${trailing}`;
                 if (out !== raw) element.setAttribute(attr, out);
+                continue;
             }
+
+            if (useMap) recordMissing(key);
         }
     };
 

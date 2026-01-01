@@ -14050,6 +14050,14 @@
     "You received <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}.": "你获得了 <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}。",
     "Earned: <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}": "获得：<img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}",
     "<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>!": "<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>！",
-    "<i>You have a free quest refresh.</i>": "<i>你有一次免费的任务刷新机会。</i>"
+    "<i>You have a free quest refresh.</i>": "<i>你有一次免费的任务刷新机会。</i>",
+    "You claimed": "你获得了",
+    "You received": "你获得了",
+    "You can complete your quest for": "你可以完成任务获得",
+    "You got the": "你获得了",
+    "You opened the gift and received": "你打开礼物并获得了",
+    "All quests completed. Your quest list has been refreshed and you gained an extra": "所有任务已完成。你的任务列表已刷新，你额外获得了",
+    "You earned": "你获得了",
+    "Contest Tokens!": "竞赛代币！"
   }
 }

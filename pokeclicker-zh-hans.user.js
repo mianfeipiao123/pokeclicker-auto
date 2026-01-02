@@ -607,7 +607,13 @@
                 );
                 for (const data of results) {
                     if (data?.entries) {
-                        Object.assign(map, data.entries);
+                        for (const [key, value] of Object.entries(data.entries)) {
+                            if (typeof value === 'string') {
+                                if (value) map[key] = value;
+                            } else if (value?.translation) {
+                                map[key] = value.translation;
+                            }
+                        }
                     }
                 }
                 if (DEBUG) {

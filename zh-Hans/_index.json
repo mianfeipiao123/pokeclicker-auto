@@ -1,11 +1,17 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-01-01T21:42:46.656Z",
+  "generatedAt": "2026-01-02T06:00:00.000Z",
   "stats": {
     "totalFiles": 418,
     "totalStrings": 26650,
     "translatedStrings": 21647,
     "coverage": "81.23%",
     "orphanedTranslations": 4452
+  },
+  "files": {
+    "hardcoded-map.json": {
+      "description": "合并后的翻译映射",
+      "entries": 15855
+    }
   }
 }

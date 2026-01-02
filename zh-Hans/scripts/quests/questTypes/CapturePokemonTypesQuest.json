@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/CapturePokemonTypesQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 45
+    },
+    "Capture or hatch ${this.amount.toLocaleString('en-US')} ${PokemonType[this.type]}-type Pokémon.": {
+      "translation": "",
+      "line": 45
+    }
+  }
+}

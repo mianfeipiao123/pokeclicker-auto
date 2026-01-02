@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/StarterRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 4
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 5
+    },
+    "Requires ${starter} to be chosen as your ${camelCaseToString(Region[this.region])} starter Pokémon.": {
+      "translation": "",
+      "line": 19
+    }
+  }
+}

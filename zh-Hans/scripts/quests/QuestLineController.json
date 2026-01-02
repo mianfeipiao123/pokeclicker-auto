@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/QuestLineController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "show": {
+      "translation": "展示",
+      "line": 7
+    },
+    "hidden.bs.modal": {
+      "translation": "",
+      "line": 7
+    }
+  }
+}

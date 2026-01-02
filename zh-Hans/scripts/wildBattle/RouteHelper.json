@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/wildBattle/RouteHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 3
+  },
+  "entries": {
+    "Rattata": {
+      "translation": "小拉达",
+      "line": 19
+    },
+    "All Pokémon on this route are resistant!": {
+      "translation": "这条路线上的所有宝可梦都有抵抗力！",
+      "line": 44
+    },
+    "EVs until all Pokémon are resistant on this route: ${currentEVs}&nbsp;/&nbsp;${50 * possiblePokemon.length}.": {
+      "translation": "",
+      "line": 47
+    },
+    "All Pokémon in this dungeon are resistant!": {
+      "translation": "这个迷宫中的所有宝可梦都具有抵抗力！",
+      "line": 53
+    },
+    "EVs until all Pokémon are resistant in this dungeon: ${currentEVs}&nbsp;/&nbsp;${50 * possiblePokemon.length}.": {
+      "translation": "",
+      "line": 56
+    }
+  }
+}

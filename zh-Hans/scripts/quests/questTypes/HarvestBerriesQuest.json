@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/HarvestBerriesQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 2
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 40
+    },
+    "Berry": {
+      "translation": "树果",
+      "line": 40
+    },
+    "Harvest ${this.amount.toLocaleString('en-US')} ${BerryType[this.berryType]} ${GameConstants.pluralizeString('Berry', this.amount)} at the farm.": {
+      "translation": "",
+      "line": 40
+    }
+  }
+}

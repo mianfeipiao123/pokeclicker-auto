@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/BattleItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 9,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../effectEngine/effectEngineRunner": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../multiplier/MultiplierType": {
+      "translation": "",
+      "line": 3
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 5
+    },
+    "./Item": {
+      "translation": "",
+      "line": 6
+    },
+    "Challenge Mode": {
+      "translation": "挑战模式",
+      "line": 32
+    },
+    "Battle Items are disabled": {
+      "translation": "战斗物品被禁用",
+      "line": 33
+    },
+    "You don't have any ${this.displayName}s left...": {
+      "translation": "",
+      "line": 40
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/specialEvents/SpecialEvent.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 18,
+    "translatedCount": 5
+  },
+  "entries": {
+    "./SpecialEventsNotifiedStatus": {
+      "translation": "",
+      "line": 1
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 2
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../notifications/NotificationOption": {
+      "translation": "",
+      "line": 5
+    },
+    "./SpecialEventTitleType": {
+      "translation": "",
+      "line": 6
+    },
+    "Cannot afford": {
+      "translation": "无法购买",
+      "line": 94
+    },
+    "This costs ${price} QP.": {
+      "translation": "",
+      "line": 95
+    },
+    "Do you want to start this event early?": {
+      "translation": "你想早点开始这个活动吗？",
+      "line": 101
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 102
+    },
+    "Starting '${this.title}' early will cost you ${price.toLocaleString('en-US')} Quest Points for 24 hours of event time.": {
+      "translation": "",
+      "line": 102
+    },
+    "[EVENT] ${this.title}": {
+      "translation": "",
+      "line": 113
+    },
+    "${this.description}\n\n<strong>Start time:</strong> ${this.startTime.toLocaleString()}\n<strong>End time:</strong> ${this.endTime.toLocaleString()}": {
+      "translation": "",
+      "line": 114
+    },
+    "starts in ${formatTimeShortWords(timeTillEventStart)}!": {
+      "translation": "",
+      "line": 142
+    },
+    "starts in ${formatTimeShortWords(notificationTimeout)}!": {
+      "translation": "",
+      "line": 162
+    },
+    "on now!": {
+      "translation": "正在进行！",
+      "line": 178
+    },
+    "ends in ${formatTimeShortWords(notificationTimeout)}!": {
+      "translation": "",
+      "line": 204
+    },
+    "just ended!": {
+      "translation": "刚刚结束！",
+      "line": 216
+    }
+  }
+}

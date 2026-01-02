@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/WeatherRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../weather/Weather": {
+      "translation": "",
+      "line": 2
+    },
+    "../weather/WeatherType": {
+      "translation": "",
+      "line": 3
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 4
+    },
+    " or ": {
+      "translation": "",
+      "line": 19
+    },
+    "The weather needs to be ${this.weather.map((weather) => humanifyString(WeatherType[weather])).join(' or ')}": {
+      "translation": "",
+      "line": 19
+    }
+  }
+}

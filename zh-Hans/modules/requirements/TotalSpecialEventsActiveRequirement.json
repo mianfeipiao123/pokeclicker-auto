@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/TotalSpecialEventsActiveRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Have ${this.requiredValue} or more Special Events active simultaneously.": {
+      "translation": "",
+      "line": 14
+    }
+  }
+}

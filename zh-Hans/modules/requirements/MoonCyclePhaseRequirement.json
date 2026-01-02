@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/MoonCyclePhaseRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    "../moonCycle/MoonCyclePhase": {
+      "translation": "",
+      "line": 3
+    },
+    "../moonCycle/MoonCycle": {
+      "translation": "",
+      "line": 4
+    },
+    " or ": {
+      "translation": "",
+      "line": 16
+    },
+    "The moon phase must be ${camelCaseToString(this.moonCyclePhases.map((moonCyclePhase) => MoonCyclePhase[moonCyclePhase]).join(' or '))}": {
+      "translation": "",
+      "line": 16
+    }
+  }
+}

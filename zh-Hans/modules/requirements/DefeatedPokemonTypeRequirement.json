@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/DefeatedPokemonTypeRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 9,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 4
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 5
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 6
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 31
+    },
+    "pure ": {
+      "translation": "",
+      "line": 31
+    },
+    "Defeat ${this.requiredValue.toLocaleString('en-US')} ${this.monoType ? 'pure ' : ''}${PokemonType[this.type]}-type Pokémon.": {
+      "translation": "",
+      "line": 31
+    }
+  }
+}

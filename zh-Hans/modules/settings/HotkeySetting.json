@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/HotkeySetting.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 1
+    },
+    "./Setting": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

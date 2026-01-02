@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/codes/RedeemableCode.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 1
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 3
+    },
+    "You have already redeemed this code.": {
+      "translation": "你已经兑换过这个代码了。",
+      "line": 12
+    },
+    "Cannot redeem this code yet.": {
+      "translation": "暂时无法兑换此代码。",
+      "line": 20
+    }
+  }
+}

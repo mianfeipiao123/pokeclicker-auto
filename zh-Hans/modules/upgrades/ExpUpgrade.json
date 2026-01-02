@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/upgrades/ExpUpgrade.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 4
+    },
+    "./Upgrade": {
+      "translation": "",
+      "line": 5
+    }
+  }
+}

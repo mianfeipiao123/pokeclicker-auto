@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/Item.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 21,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 8
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 9
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 10
+    },
+    "./types": {
+      "translation": "",
+      "line": 11
+    },
+    "Item '${name}' created with invalid nonpositive base price, defaulting to Infinity": {
+      "translation": "",
+      "line": 48
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 98
+    },
+    "You can only buy ${this.maxAmount.toLocaleString('en-US')} &times; ${displayName}!": {
+      "translation": "",
+      "line": 98
+    },
+    "${displayName} is sold out!": {
+      "translation": "",
+      "line": 106
+    },
+    "You bought ${n.toLocaleString('en-US')} × <img src=\"${this.image}\" height=\"24px\"/> ${displayName}.": {
+      "translation": "",
+      "line": 116
+    },
+    "Pokédollars": {
+      "translation": "",
+      "line": 124
+    },
+    "t have enough ${curr} to buy ${n.toLocaleString(": {
+      "translation": "",
+      "line": 131
+    },
+    "You don't have enough ${curr} to buy ${n.toLocaleString('en-US')} ${displayName}!": {
+      "translation": "",
+      "line": 131
+    },
+    "You don't have any ${this.displayName}s left...": {
+      "translation": "",
+      "line": 149
+    },
+    "${this.imageDirectory}/": {
+      "translation": "",
+      "line": 214
+    },
+    "assets/images/items/${subDirectory}${this.name}.png": {
+      "translation": "",
+      "line": 215
+    },
+    "<u>${this.displayName}:</u>": {
+      "translation": "",
+      "line": 223
+    },
+    "<br/>${this.description}": {
+      "translation": "",
+      "line": 225
+    },
+    "<br/><br/>In Bag: ${this.getBagAmount().toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 228
+    }
+  }
+}

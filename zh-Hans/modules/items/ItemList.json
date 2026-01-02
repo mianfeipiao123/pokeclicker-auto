@@ -1,0 +1,2518 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/ItemList.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 627,
+    "translatedCount": 492
+  },
+  "entries": {
+    "../enums/BerryType": {
+      "translation": "",
+      "line": 2
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 3
+    },
+    "../enums/MulchType": {
+      "translation": "",
+      "line": 4
+    },
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 5
+    },
+    "./BattleItem": {
+      "translation": "",
+      "line": 6
+    },
+    "./BerryItem": {
+      "translation": "",
+      "line": 7
+    },
+    "./buyKeyItem": {
+      "translation": "",
+      "line": 8
+    },
+    "./buyOakItem": {
+      "translation": "",
+      "line": 9
+    },
+    "./FluteItem": {
+      "translation": "",
+      "line": 10
+    },
+    "./EnergyRestore": {
+      "translation": "",
+      "line": 11
+    },
+    "./Item": {
+      "translation": "",
+      "line": 12
+    },
+    "./MulchItem": {
+      "translation": "",
+      "line": 13
+    },
+    "./PokeballItem": {
+      "translation": "",
+      "line": 14
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 28
+    },
+    "./ShovelItem": {
+      "translation": "",
+      "line": 29
+    },
+    "./PokeBlock": {
+      "translation": "",
+      "line": 30
+    },
+    "./MegaStoneItem": {
+      "translation": "",
+      "line": 31
+    },
+    "./Vitamin": {
+      "translation": "",
+      "line": 32
+    },
+    "./EggItem": {
+      "translation": "",
+      "line": 33
+    },
+    "./PokemonItem": {
+      "translation": "",
+      "line": 34
+    },
+    "../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 35
+    },
+    "../requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 36
+    },
+    "../requirements/QuestLineStepCompletedRequirement": {
+      "translation": "",
+      "line": 37
+    },
+    "../requirements/SpecialEventRequirement": {
+      "translation": "",
+      "line": 38
+    },
+    "../requirements/MultiRequirement": {
+      "translation": "",
+      "line": 39
+    },
+    "./QuestItem": {
+      "translation": "",
+      "line": 40
+    },
+    "./ChristmasPresent": {
+      "translation": "",
+      "line": 41
+    },
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 42
+    },
+    "./TreasureItem": {
+      "translation": "",
+      "line": 43
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 44
+    },
+    "./AttackGainConsumable": {
+      "translation": "",
+      "line": 45
+    },
+    "+50% Bonus to Pokémon attack for 30 seconds": {
+      "translation": "30秒内宝可梦攻击力+50%",
+      "line": 49
+    },
+    "X Attack": {
+      "translation": "X攻击",
+      "line": 49
+    },
+    "+50% Bonus to click attack for 30 seconds": {
+      "translation": "+50% 点击攻击奖励30秒",
+      "line": 50
+    },
+    "X Click": {
+      "translation": "X点击",
+      "line": 50
+    },
+    "+50% Bonus to experience gained for 30 seconds": {
+      "translation": "+50% 30秒内获得的经验奖励",
+      "line": 51
+    },
+    "Lucky Egg": {
+      "translation": "幸运蛋",
+      "line": 51
+    },
+    "exp": {
+      "translation": "经验值",
+      "line": 51
+    },
+    "+50% Bonus to Dungeon Tokens gained for 30 seconds": {
+      "translation": "+50% 迷宫代币奖励持续30秒",
+      "line": 52
+    },
+    "Token Collector": {
+      "translation": "代币收集者",
+      "line": 52
+    },
+    "Increases chance for Pokémon to drop rare hold items and chance to multiply loot from dungeon chests, for 30 seconds.": {
+      "translation": "增加宝可梦掉落稀有物品的几率以及从迷宫宝箱中获得大量战利品的几率，持续30秒。",
+      "line": 53
+    },
+    "Dowsing Machine": {
+      "translation": "探宝仪",
+      "line": 53
+    },
+    "+50% Bonus to Pokédollars gained for 30 seconds": {
+      "translation": "",
+      "line": 54
+    },
+    "Lucky Incense": {
+      "translation": "幸运香",
+      "line": 54
+    },
+    "money": {
+      "translation": "钱",
+      "line": 54
+    },
+    "Small Restore": {
+      "translation": "小型体力恢复剂",
+      "line": 61
+    },
+    "Medium Restore": {
+      "translation": "中型体力恢复剂",
+      "line": 62
+    },
+    "Large Restore": {
+      "translation": "大型体力恢复剂",
+      "line": 63
+    },
+    "Dungeon Ticket": {
+      "translation": "迷宫门票",
+      "line": 65
+    },
+    "Explorer Kit": {
+      "translation": "探索者套件",
+      "line": 66
+    },
+    "Event Calendar": {
+      "translation": "活动日历",
+      "line": 67
+    },
+    "Pokémon Attack": {
+      "translation": "宝可梦攻击",
+      "line": 74
+    },
+    "Grass": {
+      "translation": "草",
+      "line": 74
+    },
+    "Flying": {
+      "translation": "飞行",
+      "line": 74
+    },
+    "Electric": {
+      "translation": "电",
+      "line": 74
+    },
+    "Click Attack": {
+      "translation": "点击攻击",
+      "line": 75
+    },
+    "Dark": {
+      "translation": "恶",
+      "line": 75
+    },
+    "Psychic": {
+      "translation": "超能力",
+      "line": 75
+    },
+    "Fighting": {
+      "translation": "格斗",
+      "line": 75
+    },
+    "Gym and Dungeon Timers": {
+      "translation": "道馆和迷宫计时器",
+      "line": 76
+    },
+    "Ground": {
+      "translation": "地面",
+      "line": 76
+    },
+    "Poison": {
+      "translation": "毒",
+      "line": 76
+    },
+    "Steel": {
+      "translation": "钢",
+      "line": 76
+    },
+    "Egg Steps": {
+      "translation": "孵化步数",
+      "line": 77
+    },
+    "Fire": {
+      "translation": "火",
+      "line": 77
+    },
+    "Rock": {
+      "translation": "岩石",
+      "line": 77
+    },
+    "Dragon": {
+      "translation": "龙",
+      "line": 77
+    },
+    "Shiny Chance": {
+      "translation": "闪光几率",
+      "line": 78
+    },
+    "Normal": {
+      "translation": "一般",
+      "line": 78
+    },
+    "Fairy": {
+      "translation": "妖精",
+      "line": 78
+    },
+    "Ice": {
+      "translation": "冰",
+      "line": 78
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 78
+    },
+    "EV Yield": {
+      "translation": "努力值产出",
+      "line": 79
+    },
+    "Water": {
+      "translation": "水",
+      "line": 79
+    },
+    "Bug": {
+      "translation": "虫",
+      "line": 79
+    },
+    "Ghost": {
+      "translation": "鬼",
+      "line": 79
+    },
+    "ev": {
+      "translation": "落雷兽",
+      "line": 79
+    },
+    "Boost Mulch": {
+      "translation": "增强肥料",
+      "line": 81
+    },
+    "Increases Berry growth rate.": {
+      "translation": "提高树果生长速度。",
+      "line": 81
+    },
+    "Rich Mulch": {
+      "translation": "丰收肥料",
+      "line": 82
+    },
+    "Increases Berry harvest rate and replant chances.": {
+      "translation": "提高树果收获率和重新种植的机会。",
+      "line": 82
+    },
+    "Surprise Mulch": {
+      "translation": "惊喜肥料",
+      "line": 83
+    },
+    "Increases Berry mutation rate.": {
+      "translation": "增加树果突变率。",
+      "line": 83
+    },
+    "Amaze Mulch": {
+      "translation": "惊奇肥料",
+      "line": 84
+    },
+    "A weaker combination of Boost, Rich and Surprise mulch.": {
+      "translation": "Boost、Rich 和 Surprise 肥料的较弱组合。",
+      "line": 84
+    },
+    "Freeze Mulch": {
+      "translation": "冷冻肥料",
+      "line": 85
+    },
+    "Stops Berry growth and auras. Mutations will still occur while berries are frozen.": {
+      "translation": "阻止树果生长和光环。当树果被冷冻时，突变仍然会发生。",
+      "line": 85
+    },
+    "Gooey Mulch": {
+      "translation": "黏性肥料",
+      "line": 86
+    },
+    "Helps attract rarer species. Gooed Pokémon are more likely to be caught.": {
+      "translation": "有助于吸引稀有物种。被粘住的宝可梦更有可能被抓住。",
+      "line": 86
+    },
+    "Poké Ball": {
+      "translation": "精灵球",
+      "line": 88
+    },
+    "Great Ball": {
+      "translation": "超级球",
+      "line": 89
+    },
+    "Ultra Ball": {
+      "translation": "高级球",
+      "line": 90
+    },
+    "Master Ball": {
+      "translation": "大师球",
+      "line": 91
+    },
+    "Fast Ball": {
+      "translation": "快球",
+      "line": 93
+    },
+    "Quick Ball": {
+      "translation": "快球",
+      "line": 94
+    },
+    "Timer Ball": {
+      "translation": "计时球",
+      "line": 95
+    },
+    "Dusk Ball": {
+      "translation": "黄昏球",
+      "line": 96
+    },
+    "Luxury Ball": {
+      "translation": "豪华球",
+      "line": 97
+    },
+    "Dive Ball": {
+      "translation": "潜水球",
+      "line": 98
+    },
+    "Lure Ball": {
+      "translation": "诱饵球",
+      "line": 99
+    },
+    "Nest Ball": {
+      "translation": "巢穴球",
+      "line": 100
+    },
+    "Repeat Ball": {
+      "translation": "重复球",
+      "line": 101
+    },
+    "Beast Ball": {
+      "translation": "野兽球",
+      "line": 102
+    },
+    "Moon Ball": {
+      "translation": "月亮球",
+      "line": 103
+    },
+    "Berry Shovel": {
+      "translation": "树果铲",
+      "line": 105
+    },
+    "Removes Berry Plants in the Farm.": {
+      "translation": "移除农场中的树果植物。",
+      "line": 105
+    },
+    "Mulch Shovel": {
+      "translation": "地膜铲",
+      "line": 106
+    },
+    "Removes Mulch from a plot in the Farm.": {
+      "translation": "从农场的一块地块上移除肥料。",
+      "line": 106
+    },
+    "Abomasnow": {
+      "translation": "暴雪王",
+      "line": 125
+    },
+    "Absol": {
+      "translation": "阿勃梭鲁",
+      "line": 126
+    },
+    "Aerodactyl": {
+      "translation": "化石翼龙",
+      "line": 127
+    },
+    "Aggron": {
+      "translation": "波士可多拉",
+      "line": 128
+    },
+    "Alakazam": {
+      "translation": "胡地",
+      "line": 129
+    },
+    "Ampharos": {
+      "translation": "电龙",
+      "line": 131
+    },
+    "Audino": {
+      "translation": "差不多娃娃",
+      "line": 132
+    },
+    "Banette": {
+      "translation": "诅咒娃娃",
+      "line": 133
+    },
+    "Beedrill": {
+      "translation": "大针蜂",
+      "line": 134
+    },
+    "Blastoise": {
+      "translation": "水箭龟",
+      "line": 135
+    },
+    "Blastoisinite": {
+      "translation": "芽生岩",
+      "line": 136
+    },
+    "A Mega Stone for Blastoise.": {
+      "translation": "",
+      "line": 136
+    },
+    "Blaziken": {
+      "translation": "火焰鸡",
+      "line": 137
+    },
+    "Blazikenite": {
+      "translation": "钾镁石",
+      "line": 138
+    },
+    "A Mega Stone for Blaziken.": {
+      "translation": "",
+      "line": 138
+    },
+    "Kyogre": {
+      "translation": "盖欧卡",
+      "line": 139
+    },
+    "Camerupt": {
+      "translation": "喷火驼",
+      "line": 140
+    },
+    "Charizard": {
+      "translation": "喷火龙",
+      "line": 141
+    },
+    "Charizardite X": {
+      "translation": "",
+      "line": 142
+    },
+    "A Mega Stone for Charizard.": {
+      "translation": "",
+      "line": 142
+    },
+    "Charizardite Y": {
+      "translation": "",
+      "line": 144
+    },
+    "Diancie": {
+      "translation": "蒂安希",
+      "line": 145
+    },
+    "Gallade": {
+      "translation": "艾路雷朵",
+      "line": 146
+    },
+    "Garchomp": {
+      "translation": "烈咬陆鲨",
+      "line": 147
+    },
+    "Gardevoir": {
+      "translation": "沙奈朵",
+      "line": 148
+    },
+    "Gengar": {
+      "translation": "耿鬼",
+      "line": 149
+    },
+    "Glalie": {
+      "translation": "冰鬼护",
+      "line": 150
+    },
+    "Gyarados": {
+      "translation": "暴鲤龙",
+      "line": 151
+    },
+    "Heracross": {
+      "translation": "赫拉克罗斯",
+      "line": 152
+    },
+    "Houndoom": {
+      "translation": "黑鲁加",
+      "line": 153
+    },
+    "Kangaskhan": {
+      "translation": "袋兽",
+      "line": 154
+    },
+    "Latias": {
+      "translation": "拉帝亚斯",
+      "line": 155
+    },
+    "Latios": {
+      "translation": "拉帝欧斯",
+      "line": 156
+    },
+    "Lopunny": {
+      "translation": "长耳兔",
+      "line": 157
+    },
+    "Lucario": {
+      "translation": "路卡利欧",
+      "line": 158
+    },
+    "Manectric": {
+      "translation": "雷电兽",
+      "line": 159
+    },
+    "Mawile": {
+      "translation": "大嘴娃",
+      "line": 160
+    },
+    "Medicham": {
+      "translation": "恰雷姆",
+      "line": 161
+    },
+    "Metagross": {
+      "translation": "巨金怪",
+      "line": 162
+    },
+    "Rayquaza": {
+      "translation": "烈空坐",
+      "line": 163
+    },
+    "Mewtwo": {
+      "translation": "超梦",
+      "line": 164
+    },
+    "Pidgeot": {
+      "translation": "大比鸟",
+      "line": 166
+    },
+    "Pinsir": {
+      "translation": "凯罗斯",
+      "line": 167
+    },
+    "Groudon": {
+      "translation": "固拉多",
+      "line": 168
+    },
+    "Sableye": {
+      "translation": "勾魂眼",
+      "line": 169
+    },
+    "Salamence": {
+      "translation": "暴飞龙",
+      "line": 170
+    },
+    "Sceptile": {
+      "translation": "蜥蜴王",
+      "line": 171
+    },
+    "Sceptilite": {
+      "translation": "锂辉石",
+      "line": 172
+    },
+    "A Mega Stone for Sceptile.": {
+      "translation": "",
+      "line": 172
+    },
+    "Scizor": {
+      "translation": "巨钳螳螂",
+      "line": 173
+    },
+    "Sharpedo": {
+      "translation": "巨牙鲨",
+      "line": 174
+    },
+    "Slowbro": {
+      "translation": "呆壳兽",
+      "line": 175
+    },
+    "Steelix": {
+      "translation": "大钢蛇",
+      "line": 176
+    },
+    "Swampert": {
+      "translation": "巨沼怪",
+      "line": 177
+    },
+    "Swampertite": {
+      "translation": "沼泽矿",
+      "line": 178
+    },
+    "A Mega Stone for Swampert.": {
+      "translation": "",
+      "line": 178
+    },
+    "Tyranitar": {
+      "translation": "班基拉斯",
+      "line": 179
+    },
+    "Venusaur": {
+      "translation": "妙蛙花",
+      "line": 180
+    },
+    "Venusaurite": {
+      "translation": "",
+      "line": 181
+    },
+    "A Mega Stone for Venusaur.": {
+      "translation": "",
+      "line": 181
+    },
+    "Fire Egg": {
+      "translation": "火蛋",
+      "line": 184
+    },
+    "Water Egg": {
+      "translation": "水蛋",
+      "line": 185
+    },
+    "Grass Egg": {
+      "translation": "草蛋",
+      "line": 186
+    },
+    "Fighting Egg": {
+      "translation": "战斗蛋",
+      "line": 187
+    },
+    "Electric Egg": {
+      "translation": "电蛋",
+      "line": 188
+    },
+    "Dragon Egg": {
+      "translation": "龙蛋",
+      "line": 189
+    },
+    "Mystery Egg": {
+      "translation": "神秘蛋",
+      "line": 190
+    },
+    "Meteorite_Bills_Errand": {
+      "translation": "陨石_账单_差事",
+      "line": 193
+    },
+    "Meteorite for Celio": {
+      "translation": "给西利奥的陨石",
+      "line": 193
+    },
+    "A Meteorite the Game Corner owner gave you for find his daughter": {
+      "translation": "游戏角老板送给你一颗陨石来寻找他的女儿",
+      "line": 193
+    },
+    "Bill's Errand": {
+      "translation": "比尔的差事",
+      "line": 193
+    },
+    "Tidal_Bell_Lugia": {
+      "translation": "潮汐钟洛奇亚",
+      "line": 194
+    },
+    "Tidal Bell": {
+      "translation": "潮汐钟",
+      "line": 194
+    },
+    "A Bell that can summon the Legendary Pokémon Lugia": {
+      "translation": "",
+      "line": 194
+    },
+    "Whirl Guardian": {
+      "translation": "旋风守护者",
+      "line": 194
+    },
+    "Clear_Bell_Hooh": {
+      "translation": "清除_贝尔_胡",
+      "line": 195
+    },
+    "Clear Bell": {
+      "translation": "清铃",
+      "line": 195
+    },
+    "A Bell that can summon the Legendary Pokémon Ho-oh": {
+      "translation": "可以召唤传说中的宝可梦凤王的铃铛",
+      "line": 195
+    },
+    "Rainbow Guardian": {
+      "translation": "彩虹守护者",
+      "line": 195
+    },
+    "GS_Ball_Celebi": {
+      "translation": "GS_球_塞拉比",
+      "line": 196
+    },
+    "GS Ball": {
+      "translation": "GS球",
+      "line": 196
+    },
+    "A Strange Pokéball that Professor Ivy gave you": {
+      "translation": "艾薇教授给你的一个奇怪的精灵球",
+      "line": 196
+    },
+    "Unfinished Business": {
+      "translation": "未竟的事业",
+      "line": 196
+    },
+    "Eon_Ticket_Latis": {
+      "translation": "Eon_Ticket_Latis",
+      "line": 197
+    },
+    "Eon Ticket": {
+      "translation": "永安票",
+      "line": 197
+    },
+    "A limited edition ticket for a cruise to the Southern Island.": {
+      "translation": "南岛游轮限量版船票。",
+      "line": 197
+    },
+    "The Eon Duo": {
+      "translation": "亿恩二人组",
+      "line": 197
+    },
+    "Celios_Errand_Ruby": {
+      "translation": "Celios_差事_Ruby",
+      "line": 198
+    },
+    "Ruby": {
+      "translation": "红宝石",
+      "line": 198
+    },
+    "A Ruby found in Ruby Path": {
+      "translation": "在 Ruby Path 中发现的 Ruby",
+      "line": 198
+    },
+    "Celio's Errand": {
+      "translation": "西利奥的任务",
+      "line": 198
+    },
+    "Celios_Errand_Sapphire": {
+      "translation": "Celios_差事_蓝宝石",
+      "line": 199
+    },
+    "Sapphire": {
+      "translation": "蓝宝石",
+      "line": 199
+    },
+    "A Sapphire you've recovered from Scientist Gideon": {
+      "translation": "你从科学家吉迪恩那里找到的蓝宝石",
+      "line": 199
+    },
+    "Crystalline_Cocoon_Jirachi": {
+      "translation": "水晶_茧_基拉祈",
+      "line": 200
+    },
+    "Crystalline Cocoon": {
+      "translation": "水晶茧",
+      "line": 200
+    },
+    "A Purple Crystal that Butler gave you at Mt. Chimney Crater": {
+      "translation": "巴特勒在烟囱火山口给你的紫色水晶",
+      "line": 200
+    },
+    "Wish Maker": {
+      "translation": "许愿者",
+      "line": 200
+    },
+    "Meteorite_Shard_Delta": {
+      "translation": "陨石_碎片_Delta",
+      "line": 201
+    },
+    "Meteorite Shard": {
+      "translation": "陨石碎片",
+      "line": 201
+    },
+    "A Shard of a Meteorite": {
+      "translation": "一块陨石碎片",
+      "line": 201
+    },
+    "The Delta Episode": {
+      "translation": "三角洲情节",
+      "line": 201
+    },
+    "Mysterious_Vial_Detective_Pikachu": {
+      "translation": "",
+      "line": 202
+    },
+    "Mysterious Vial": {
+      "translation": "神秘的小瓶",
+      "line": 202
+    },
+    "An Aipom dropped this while running away, I wonder what it is?": {
+      "translation": "",
+      "line": 202
+    },
+    "Detective Pikachu": {
+      "translation": "[[alt.detective]][[Pikachu]]",
+      "line": 202
+    },
+    "Heart_Diamond_Diancie": {
+      "translation": "心_钻石_蒂安希",
+      "line": 203
+    },
+    "Heart Diamond": {
+      "translation": "心形钻石",
+      "line": 203
+    },
+    "The energy core of the Diamond domain": {
+      "translation": "钻石领域的能量核心",
+      "line": 203
+    },
+    "Princess Diancie": {
+      "translation": "蒂安希公主",
+      "line": 203
+    },
+    "Red_Petal_Mina": {
+      "translation": "红花瓣米娜",
+      "line": 204
+    },
+    "Red Petal": {
+      "translation": "红色花瓣",
+      "line": 204
+    },
+    "One of the Petals you need for Mina's trial given by Captain Kiawe": {
+      "translation": "米娜审判所需的花瓣之一，由基亚威船长提供",
+      "line": 204
+    },
+    "Island Challenge": {
+      "translation": "岛屿巡礼",
+      "line": 204
+    },
+    "Orange_Petal_Mina": {
+      "translation": "橙色_花瓣_米娜",
+      "line": 205
+    },
+    "Orange Petal": {
+      "translation": "橙色花瓣",
+      "line": 205
+    },
+    "One of the Petals you need for Mina's trial given by Captain Ilima": {
+      "translation": "伊利马队长给予米娜审判所需的花瓣之一",
+      "line": 205
+    },
+    "Yellow_Petal_Mina": {
+      "translation": "黄色_花瓣_米娜",
+      "line": 206
+    },
+    "Yellow Petal": {
+      "translation": "黄色花瓣",
+      "line": 206
+    },
+    "One of the Petals you need for Mina's trial given by Captain Sophocles": {
+      "translation": "索福克勒斯船长给予米娜审判所需的花瓣之一",
+      "line": 206
+    },
+    "Green_Petal_Mina": {
+      "translation": "绿花瓣米娜",
+      "line": 207
+    },
+    "Green Petal": {
+      "translation": "绿色花瓣",
+      "line": 207
+    },
+    "One of the Petals you need for Mina's trial given by Captain Mallow": {
+      "translation": "米娜审判所需的花瓣之一，由马洛船长提供",
+      "line": 207
+    },
+    "Blue_Petal_Mina": {
+      "translation": "蓝色_花瓣_米娜",
+      "line": 208
+    },
+    "Blue Petal": {
+      "translation": "蓝色花瓣",
+      "line": 208
+    },
+    "One of the Petals you need for Mina's trial given by Captain Lana": {
+      "translation": "拉娜队长给予米娜审判所需的花瓣之一",
+      "line": 208
+    },
+    "Purple_Petal_Mina": {
+      "translation": "紫色_花瓣_米娜",
+      "line": 209
+    },
+    "Purple Petal": {
+      "translation": "紫色花瓣",
+      "line": 209
+    },
+    "One of the Petals you need for Mina's trial given by Kahuna Nanu": {
+      "translation": "卡胡纳·纳努 (卡胡纳 Nanu) 提供的米娜审判所需的花瓣之一",
+      "line": 209
+    },
+    "Pink_Petal_Mina": {
+      "translation": "粉色_花瓣_米娜",
+      "line": 210
+    },
+    "Pink Petal": {
+      "translation": "粉红花瓣",
+      "line": 210
+    },
+    "One of the Petals you need for Mina's trial given by Captain Mina": {
+      "translation": "米娜队长给予米娜审判所需的花瓣之一",
+      "line": 210
+    },
+    "Sand_Bag_Magikarp_Jump": {
+      "translation": "",
+      "line": 211
+    },
+    "Sand Bag": {
+      "translation": "沙袋",
+      "line": 211
+    },
+    "One of the materials Dr. Splash asked you for his laboratory": {
+      "translation": "Splash博士向你索要他实验室的材料之一",
+      "line": 211
+    },
+    "Dr. Splash's Research Project": {
+      "translation": "Splash博士的研究项目",
+      "line": 211
+    },
+    "Jump_Counter_Magikarp_Jump": {
+      "translation": "",
+      "line": 212
+    },
+    "Jump Counter": {
+      "translation": "跳跃计数器",
+      "line": 212
+    },
+    "Timber_Magikarp_Jump": {
+      "translation": "",
+      "line": 213
+    },
+    "Timber": {
+      "translation": "木材",
+      "line": 213
+    },
+    "Rock_Cruncher_Magikarp_Jump": {
+      "translation": "",
+      "line": 214
+    },
+    "Rock Cruncher": {
+      "translation": "岩石破碎机",
+      "line": 214
+    },
+    "Power_Generator_Magikarp_Jump": {
+      "translation": "",
+      "line": 215
+    },
+    "Power Generator": {
+      "translation": "发电机",
+      "line": 215
+    },
+    "Pokeball_Smash_Magikarp_Jump": {
+      "translation": "",
+      "line": 216
+    },
+    "Pokéball Smash": {
+      "translation": "精灵球粉碎",
+      "line": 216
+    },
+    "Push_Dwebble_Magikarp_Jump": {
+      "translation": "",
+      "line": 217
+    },
+    "Push Dwebble": {
+      "translation": "",
+      "line": 217
+    },
+    "One of the pushing Pokémons Dr. Splash asked you for his laboratory": {
+      "translation": "一只咄咄逼人的宝可梦水花博士向你询问他的实验室",
+      "line": 217
+    },
+    "Push_Boldore_Magikarp_Jump": {
+      "translation": "",
+      "line": 218
+    },
+    "Push Boldore": {
+      "translation": "",
+      "line": 218
+    },
+    "Push_Forretress_Magikarp_Jump": {
+      "translation": "",
+      "line": 219
+    },
+    "Push Forretress": {
+      "translation": "",
+      "line": 219
+    },
+    "Push_Golem_Magikarp_Jump": {
+      "translation": "",
+      "line": 220
+    },
+    "Push Golem": {
+      "translation": "",
+      "line": 220
+    },
+    "Push_Steelix_Magikarp_Jump": {
+      "translation": "",
+      "line": 221
+    },
+    "Push Steelix": {
+      "translation": "",
+      "line": 221
+    },
+    "Prison_Bottle": {
+      "translation": "监狱瓶",
+      "line": 222
+    },
+    "Prison Bottle": {
+      "translation": "监狱之瓶",
+      "line": 222
+    },
+    "A magical bottle used to bind Hoopa": {
+      "translation": "用于束缚胡帕的魔法瓶",
+      "line": 222
+    },
+    "Clash of Ages": {
+      "translation": "时代的冲突",
+      "line": 222
+    },
+    "Island_Challenge_Amulet": {
+      "translation": "岛屿_挑战_护身符",
+      "line": 223
+    },
+    "Island Challenge Amulet": {
+      "translation": "岛屿巡礼护身符",
+      "line": 223
+    },
+    "A symbol that denotes your pilgramige on the Island Challenge of Alola. Stronger Trials await you with this in your bag!": {
+      "translation": "表示你在阿罗拉岛挑战赛上朝圣的符号。包里有更强大的试炼等待着你！",
+      "line": 223
+    },
+    "Fighting_Memory_Silvally": {
+      "translation": "",
+      "line": 224
+    },
+    "Fighting Memory": {
+      "translation": "战斗记忆",
+      "line": 224
+    },
+    "One of Silvally's memories, obtained from Kahuna Hala in Iki Town": {
+      "translation": "",
+      "line": 224
+    },
+    "Typing some Memories": {
+      "translation": "打字一些记忆",
+      "line": 224
+    },
+    "Rock_Memory_Silvally": {
+      "translation": "",
+      "line": 225
+    },
+    "Rock Memory": {
+      "translation": "岩石记忆",
+      "line": 225
+    },
+    "One of Silvally's memories, obtained from Kahuna Olivia in Konikoni City": {
+      "translation": "",
+      "line": 225
+    },
+    "Dark_Memory_Silvally": {
+      "translation": "",
+      "line": 226
+    },
+    "Dark Memory": {
+      "translation": "黑暗记忆",
+      "line": 226
+    },
+    "One of Silvally's memories, obtained from Kahuna Nanu in Malie City": {
+      "translation": "",
+      "line": 226
+    },
+    "Fairy_Memory_Silvally": {
+      "translation": "",
+      "line": 227
+    },
+    "Fairy Memory": {
+      "translation": "童话记忆",
+      "line": 227
+    },
+    "One of Silvally's memories, obtained from Captain Mina in Seafolk Village": {
+      "translation": "",
+      "line": 227
+    },
+    "Water_Memory_Silvally": {
+      "translation": "",
+      "line": 228
+    },
+    "Water Memory": {
+      "translation": "水记忆",
+      "line": 228
+    },
+    "One of Silvally's memories, obtained from Captain Lana in Brooklet Hill": {
+      "translation": "",
+      "line": 228
+    },
+    "Grass_Memory_Silvally": {
+      "translation": "",
+      "line": 229
+    },
+    "Grass Memory": {
+      "translation": "草的记忆",
+      "line": 229
+    },
+    "One of Silvally's memories, obtained from Captain Mallow in Lush Jungle": {
+      "translation": "",
+      "line": 229
+    },
+    "Fire_Memory_Silvally": {
+      "translation": "",
+      "line": 230
+    },
+    "Fire Memory": {
+      "translation": "火焰记忆",
+      "line": 230
+    },
+    "One of Silvally's memories, obtained from Captain Kiawe in Wela Volcano Park": {
+      "translation": "",
+      "line": 230
+    },
+    "Electric_Memory_Silvally": {
+      "translation": "",
+      "line": 231
+    },
+    "Electric Memory": {
+      "translation": "电记忆",
+      "line": 231
+    },
+    "One of Silvally's memories, obtained from Captain Sophocles in Hokulani Observatory": {
+      "translation": "",
+      "line": 231
+    },
+    "Ice_Memory_Silvally": {
+      "translation": "",
+      "line": 232
+    },
+    "Ice Memory": {
+      "translation": "冰记忆",
+      "line": 232
+    },
+    "One of Silvally's memories, obtained from Veteran Aristo in Mt. Lanakila": {
+      "translation": "",
+      "line": 232
+    },
+    "Ground_Memory_Silvally": {
+      "translation": "",
+      "line": 233
+    },
+    "Ground Memory": {
+      "translation": "地面记忆",
+      "line": 233
+    },
+    "One of Silvally's memories, obtained from Kahuna Hapu on Exeggutor Island Hill": {
+      "translation": "",
+      "line": 233
+    },
+    "Bug_Memory_Silvally": {
+      "translation": "",
+      "line": 234
+    },
+    "Bug Memory": {
+      "translation": "错误记忆",
+      "line": 234
+    },
+    "One of Silvally's memories, obtained from Guzma in Po Town": {
+      "translation": "",
+      "line": 234
+    },
+    "Flying_Memory_Silvally": {
+      "translation": "",
+      "line": 235
+    },
+    "Flying Memory": {
+      "translation": "飞翔的记忆",
+      "line": 235
+    },
+    "One of Silvally's memories, obtained from Kahili on Ten Carat Hill": {
+      "translation": "",
+      "line": 235
+    },
+    "Poison_Memory_Silvally": {
+      "translation": "",
+      "line": 236
+    },
+    "Poison Memory": {
+      "translation": "毒记忆",
+      "line": 236
+    },
+    "One of Silvally's memories, obtained from Plumeria in Vast Poni Canyon": {
+      "translation": "",
+      "line": 236
+    },
+    "Ghost_Memory_Silvally": {
+      "translation": "",
+      "line": 237
+    },
+    "Ghost Memory": {
+      "translation": "幽灵记忆",
+      "line": 237
+    },
+    "One of Silvally's memories, obtained from Captain Acerola in Thrifty Megamart": {
+      "translation": "",
+      "line": 237
+    },
+    "Psychic_Memory_Silvally": {
+      "translation": "",
+      "line": 238
+    },
+    "Psychic Memory": {
+      "translation": "心灵记忆",
+      "line": 238
+    },
+    "One of Silvally's memories, obtained from Aether Branch Chief Faba in Aether Paradise": {
+      "translation": "",
+      "line": 238
+    },
+    "Steel_Memory_Silvally": {
+      "translation": "",
+      "line": 239
+    },
+    "Steel Memory": {
+      "translation": "钢记忆",
+      "line": 239
+    },
+    "One of Silvally's memories, obtained from Molayne in Royal Avenue": {
+      "translation": "",
+      "line": 239
+    },
+    "Dragon_Memory_Silvally": {
+      "translation": "",
+      "line": 240
+    },
+    "Dragon Memory": {
+      "translation": "龙之记忆",
+      "line": 240
+    },
+    "One of Silvally's memories, obtained from Ryuki in A Tree Maybe": {
+      "translation": "",
+      "line": 240
+    },
+    "Max_Mushroom_IoA": {
+      "translation": "最大蘑菇IoA",
+      "line": 241
+    },
+    "Max Mushroom": {
+      "translation": "最大蘑菇",
+      "line": 241
+    },
+    "A Mushroom that contains the power of Dynamax forms": {
+      "translation": "含有 Dynamax 形态力量的蘑菇",
+      "line": 241
+    },
+    "The Dojo's Armor": {
+      "translation": "道场的铠甲",
+      "line": 241
+    },
+    "Shaderoot_Carrot_Calyrex": {
+      "translation": "Shaderoot_Carrot_Calyrex",
+      "line": 242
+    },
+    "Shaderoot Carrot": {
+      "translation": "荫根胡萝卜",
+      "line": 242
+    },
+    "Carrot that the King of Bountiful Harvest's beloved steed likes to eat. It grew in a gloomy field.": {
+      "translation": "丰收王的爱马喜欢吃的胡萝卜。它生长在一片阴暗的田野里。",
+      "line": 242
+    },
+    "The Crown of Galar": {
+      "translation": "伽勒尔王冠",
+      "line": 242
+    },
+    "Iceroot_Carrot_Calyrex": {
+      "translation": "冰根_胡萝卜_花萼",
+      "line": 243
+    },
+    "Iceroot Carrot": {
+      "translation": "冰根胡萝卜",
+      "line": 243
+    },
+    "Carrot that the King of Bountiful Harvest's beloved steed likes to eat. It grew in a field covered in snow.": {
+      "translation": "丰收王的爱马喜欢吃的胡萝卜。它生长在一片被雪覆盖的田野里。",
+      "line": 243
+    },
+    "Wishing_Piece": {
+      "translation": "许愿片",
+      "line": 244
+    },
+    "Wishing Piece": {
+      "translation": "许愿片",
+      "line": 244
+    },
+    "Attracts Gigantamax Pokémon to the Max Lair": {
+      "translation": "",
+      "line": 244
+    },
+    "The Lair of Giants": {
+      "translation": "巨人的巢穴",
+      "line": 244
+    },
+    "Increases Pokémon attack bonus.<br/><i>(attack gained per breeding cycle)</i><br/>Increases steps required when hatching by 20": {
+      "translation": "",
+      "line": 251
+    },
+    "Increases Pokémon attack bonus %.<br/><i>(attack gained per breeding cycle)</i><br/>Increases steps required when hatching by 20": {
+      "translation": "",
+      "line": 257
+    },
+    "Reduces steps required when hatching": {
+      "translation": "减少孵化时所需的步骤",
+      "line": 263
+    },
+    "Rare Candy": {
+      "translation": "神奇糖果",
+      "line": 266
+    },
+    "Raises the level of a Pokémon and permanently increases its attack": {
+      "translation": "提高宝可梦的等级并永久增加其攻击力",
+      "line": 266
+    },
+    "Strengthen your Magikarp": {
+      "translation": "",
+      "line": 267
+    },
+    "Rare_bone": {
+      "translation": "稀有骨",
+      "line": 274
+    },
+    "Rare Bone": {
+      "translation": "稀有骨头",
+      "line": 274
+    },
+    "Star_piece": {
+      "translation": "明星作品",
+      "line": 275
+    },
+    "Star Piece": {
+      "translation": "星星片",
+      "line": 275
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 276
+    },
+    "Max_revive": {
+      "translation": "最大复活",
+      "line": 277
+    },
+    "Max Revive": {
+      "translation": "最大复活",
+      "line": 277
+    },
+    "Iron_ball": {
+      "translation": "铁球",
+      "line": 278
+    },
+    "Iron Ball": {
+      "translation": "铁球",
+      "line": 278
+    },
+    "Heart_scale": {
+      "translation": "Heart_scale",
+      "line": 279
+    },
+    "Heart Scale": {
+      "translation": "心脏量表",
+      "line": 279
+    },
+    "Light_clay": {
+      "translation": "轻粘土",
+      "line": 280
+    },
+    "Light Clay": {
+      "translation": "轻粘土",
+      "line": 280
+    },
+    "Odd_keystone": {
+      "translation": "奇数梯形校正",
+      "line": 281
+    },
+    "Odd Keystone": {
+      "translation": "奇数梯形校正",
+      "line": 281
+    },
+    "Hard_stone": {
+      "translation": "硬石",
+      "line": 282
+    },
+    "Hard Stone": {
+      "translation": "坚硬的石头",
+      "line": 282
+    },
+    "Oval_stone": {
+      "translation": "椭圆石",
+      "line": 283
+    },
+    "Oval Stone": {
+      "translation": "椭圆形石",
+      "line": 283
+    },
+    "Smooth_rock": {
+      "translation": "平滑岩石",
+      "line": 284
+    },
+    "Smooth Rock": {
+      "translation": "平滑岩石",
+      "line": 284
+    },
+    "Heat_rock": {
+      "translation": "热岩石",
+      "line": 285
+    },
+    "Heat Rock": {
+      "translation": "热岩石",
+      "line": 285
+    },
+    "Icy_rock": {
+      "translation": "冰冷的岩石",
+      "line": 286
+    },
+    "Icy Rock": {
+      "translation": "冰冷的岩石",
+      "line": 286
+    },
+    "Damp_rock": {
+      "translation": "潮湿的岩石",
+      "line": 287
+    },
+    "Damp Rock": {
+      "translation": "潮湿的岩石",
+      "line": 287
+    },
+    "Draco_plate": {
+      "translation": "德拉科_盘",
+      "line": 289
+    },
+    "Draco Plate": {
+      "translation": "德拉科板甲",
+      "line": 289
+    },
+    "Dread_plate": {
+      "translation": "恐惧板",
+      "line": 290
+    },
+    "Dread Plate": {
+      "translation": "恐惧板甲",
+      "line": 290
+    },
+    "Earth_plate": {
+      "translation": "地球板",
+      "line": 291
+    },
+    "Earth Plate": {
+      "translation": "地球板",
+      "line": 291
+    },
+    "Fist_plate": {
+      "translation": "拳头板",
+      "line": 292
+    },
+    "Fist Plate": {
+      "translation": "拳头板",
+      "line": 292
+    },
+    "Flame_plate": {
+      "translation": "火焰板",
+      "line": 293
+    },
+    "Flame Plate": {
+      "translation": "火焰板",
+      "line": 293
+    },
+    "Icicle_plate": {
+      "translation": "冰柱_板",
+      "line": 294
+    },
+    "Icicle Plate": {
+      "translation": "冰柱板",
+      "line": 294
+    },
+    "Insect_plate": {
+      "translation": "昆虫盘",
+      "line": 295
+    },
+    "Insect Plate": {
+      "translation": "昆虫盘",
+      "line": 295
+    },
+    "Iron_plate": {
+      "translation": "铁板",
+      "line": 296
+    },
+    "Iron Plate": {
+      "translation": "铁板",
+      "line": 296
+    },
+    "Meadow_plate": {
+      "translation": "草地盘",
+      "line": 297
+    },
+    "Meadow Plate": {
+      "translation": "草甸板",
+      "line": 297
+    },
+    "Mind_plate": {
+      "translation": "思维板",
+      "line": 298
+    },
+    "Mind Plate": {
+      "translation": "思维板",
+      "line": 298
+    },
+    "Sky_plate": {
+      "translation": "天空盘",
+      "line": 299
+    },
+    "Sky Plate": {
+      "translation": "天空板",
+      "line": 299
+    },
+    "Splash_plate": {
+      "translation": "飞溅板",
+      "line": 300
+    },
+    "Splash Plate": {
+      "translation": "防溅板",
+      "line": 300
+    },
+    "Spooky_plate": {
+      "translation": "幽灵盘",
+      "line": 301
+    },
+    "Spooky Plate": {
+      "translation": "幽灵盘",
+      "line": 301
+    },
+    "Stone_plate": {
+      "translation": "石板",
+      "line": 302
+    },
+    "Stone Plate": {
+      "translation": "石板",
+      "line": 302
+    },
+    "Toxic_plate": {
+      "translation": "有毒_板",
+      "line": 303
+    },
+    "Toxic Plate": {
+      "translation": "剧毒板",
+      "line": 303
+    },
+    "Zap_plate": {
+      "translation": "Zap_plate",
+      "line": 304
+    },
+    "Zap Plate": {
+      "translation": "电击板",
+      "line": 304
+    },
+    "Pixie_plate": {
+      "translation": "小精灵_盘",
+      "line": 305
+    },
+    "Pixie Plate": {
+      "translation": "精灵盘",
+      "line": 305
+    },
+    "Blank_plate": {
+      "translation": "空白板",
+      "line": 306
+    },
+    "Blank Plate": {
+      "translation": "空白板",
+      "line": 306
+    },
+    "Helix_fossil": {
+      "translation": "螺旋化石",
+      "line": 308
+    },
+    "Helix Fossil": {
+      "translation": "贝壳化石",
+      "line": 308
+    },
+    "Dome_fossil": {
+      "translation": "圆顶化石",
+      "line": 309
+    },
+    "Dome Fossil": {
+      "translation": "甲壳化石",
+      "line": 309
+    },
+    "Old_amber": {
+      "translation": "老琥珀",
+      "line": 310
+    },
+    "Old Amber": {
+      "translation": "秘琥珀",
+      "line": 310
+    },
+    "Root_fossil": {
+      "translation": "根化石",
+      "line": 311
+    },
+    "Root Fossil": {
+      "translation": "根状化石",
+      "line": 311
+    },
+    "Claw_fossil": {
+      "translation": "爪化石",
+      "line": 312
+    },
+    "Claw Fossil": {
+      "translation": "爪子化石",
+      "line": 312
+    },
+    "Armor_fossil": {
+      "translation": "铠甲化石",
+      "line": 313
+    },
+    "Armor Fossil": {
+      "translation": "铠甲化石",
+      "line": 313
+    },
+    "Skull_fossil": {
+      "translation": "头骨化石",
+      "line": 314
+    },
+    "Skull Fossil": {
+      "translation": "头骨化石",
+      "line": 314
+    },
+    "Cover_fossil": {
+      "translation": "封面_化石",
+      "line": 315
+    },
+    "Cover Fossil": {
+      "translation": "盖盖虫化石",
+      "line": 315
+    },
+    "Plume_fossil": {
+      "translation": "羽化石",
+      "line": 316
+    },
+    "Plume Fossil": {
+      "translation": "羽毛化石",
+      "line": 316
+    },
+    "Jaw_fossil": {
+      "translation": "下颌化石",
+      "line": 317
+    },
+    "Jaw Fossil": {
+      "translation": "颚骨化石",
+      "line": 317
+    },
+    "Sail_fossil": {
+      "translation": "帆化石",
+      "line": 318
+    },
+    "Sail Fossil": {
+      "translation": "帆帆化石",
+      "line": 318
+    },
+    "Fossilized_bird": {
+      "translation": "化石鸟",
+      "line": 319
+    },
+    "Fossilized Bird": {
+      "translation": "化石鸟",
+      "line": 319
+    },
+    "Fossilized_fish": {
+      "translation": "化石鱼",
+      "line": 320
+    },
+    "Fossilized Fish": {
+      "translation": "鱼化石",
+      "line": 320
+    },
+    "Fossilized_drake": {
+      "translation": "化石龙",
+      "line": 321
+    },
+    "Fossilized Drake": {
+      "translation": "化石幼龙",
+      "line": 321
+    },
+    "Fossilized_dino": {
+      "translation": "恐龙化石",
+      "line": 322
+    },
+    "Fossilized Dino": {
+      "translation": "恐龙化石",
+      "line": 322
+    },
+    "Red_shard": {
+      "translation": "红_碎片",
+      "line": 324
+    },
+    "Red Shard": {
+      "translation": "红色碎片",
+      "line": 324
+    },
+    "Yellow_shard": {
+      "translation": "黄_碎片",
+      "line": 325
+    },
+    "Yellow Shard": {
+      "translation": "黄色碎片",
+      "line": 325
+    },
+    "Green_shard": {
+      "translation": "绿色_碎片",
+      "line": 326
+    },
+    "Green Shard": {
+      "translation": "绿色碎片",
+      "line": 326
+    },
+    "Blue_shard": {
+      "translation": "蓝_碎片",
+      "line": 327
+    },
+    "Blue Shard": {
+      "translation": "蓝色碎片",
+      "line": 327
+    },
+    "Grey_shard": {
+      "translation": "灰_碎片",
+      "line": 328
+    },
+    "Grey Shard": {
+      "translation": "灰色碎片",
+      "line": 328
+    },
+    "Purple_shard": {
+      "translation": "紫色碎片",
+      "line": 329
+    },
+    "Purple Shard": {
+      "translation": "紫色碎片",
+      "line": 329
+    },
+    "Ochre_shard": {
+      "translation": "赭石_碎片",
+      "line": 330
+    },
+    "Ochre Shard": {
+      "translation": "赭色碎片",
+      "line": 330
+    },
+    "Black_shard": {
+      "translation": "黑碎片",
+      "line": 331
+    },
+    "Black Shard": {
+      "translation": "黑色碎片",
+      "line": 331
+    },
+    "Crimson_shard": {
+      "translation": "Crimson_shard",
+      "line": 332
+    },
+    "Crimson Shard": {
+      "translation": "深红碎片",
+      "line": 332
+    },
+    "Lime_shard": {
+      "translation": "石灰_碎片",
+      "line": 333
+    },
+    "Lime Shard": {
+      "translation": "石灰碎片",
+      "line": 333
+    },
+    "White_shard": {
+      "translation": "白碎片",
+      "line": 334
+    },
+    "White Shard": {
+      "translation": "白色碎片",
+      "line": 334
+    },
+    "Pink_shard": {
+      "translation": "粉红_碎片",
+      "line": 335
+    },
+    "Pink Shard": {
+      "translation": "粉色碎片",
+      "line": 335
+    },
+    "Cyan_shard": {
+      "translation": "青色_碎片",
+      "line": 336
+    },
+    "Cyan Shard": {
+      "translation": "青色碎片",
+      "line": 336
+    },
+    "Rose_shard": {
+      "translation": "玫瑰碎片",
+      "line": 337
+    },
+    "Rose Shard": {
+      "translation": "玫瑰碎片",
+      "line": 337
+    },
+    "Brown_shard": {
+      "translation": "棕色碎片",
+      "line": 338
+    },
+    "Brown Shard": {
+      "translation": "棕色碎片",
+      "line": 338
+    },
+    "Beige_shard": {
+      "translation": "米色_碎片",
+      "line": 339
+    },
+    "Beige Shard": {
+      "translation": "米色碎片",
+      "line": 339
+    },
+    "Slate_shard": {
+      "translation": "石板分片",
+      "line": 340
+    },
+    "Slate Shard": {
+      "translation": "板岩碎片",
+      "line": 340
+    },
+    "Palaeontologist_token": {
+      "translation": "古生物学家_token",
+      "line": 342
+    },
+    "Palaeontologist Token": {
+      "translation": "古生物学家令牌",
+      "line": 342
+    },
+    "Pinkan Arbok": {
+      "translation": "[[alt.pinkan]][[Arbok]]",
+      "line": 347
+    },
+    "Pinkan Oddish": {
+      "translation": "[[alt.pinkan]][[Oddish]]",
+      "line": 348
+    },
+    "Pinkan Poliwhirl": {
+      "translation": "[[alt.pinkan]][[Poliwhirl]]",
+      "line": 349
+    },
+    "Pinkan Geodude": {
+      "translation": "[[alt.pinkan]][[Geodude]]",
+      "line": 350
+    },
+    "Pinkan Dodrio": {
+      "translation": "[[alt.pinkan]][[Dodrio]]",
+      "line": 351
+    },
+    "Charity Chansey": {
+      "translation": "慈善[[Chansey]]",
+      "line": 352
+    },
+    "Exeggcute (Single)": {
+      "translation": "[[Exeggcute]] (单个)",
+      "line": 353
+    },
+    "Lickitung": {
+      "translation": "大舌头",
+      "line": 354
+    },
+    "Pinkan Weezing": {
+      "translation": "[[alt.pinkan]][[Weezing]]",
+      "line": 355
+    },
+    "Pinkan Scyther": {
+      "translation": "[[alt.pinkan]][[Scyther]]",
+      "line": 356
+    },
+    "Mr. Mime": {
+      "translation": "魔墙人偶",
+      "line": 357
+    },
+    "Pinkan Electabuzz": {
+      "translation": "[[alt.pinkan]][[Electabuzz]]",
+      "line": 358
+    },
+    "Jynx": {
+      "translation": "迷唇姐",
+      "line": 359
+    },
+    "Magikarp": {
+      "translation": "鲤鱼王",
+      "line": 360
+    },
+    "Magikarp Brown Stripes": {
+      "translation": "[[Magikarp]] [[alt.karp.stripes]]（[[alt.karp.brown]]）",
+      "line": 361
+    },
+    "Magikarp Blue Raindrops": {
+      "translation": "[[Magikarp]] [[alt.karp.raindrops]]（[[alt.karp.blue]]）",
+      "line": 362
+    },
+    "Magikarp Saucy Violet": {
+      "translation": "[[Magikarp]] [[alt.karp.saucy]]（[[alt.karp.violet]]）",
+      "line": 363
+    },
+    "Probably Feebas": {
+      "translation": "",
+      "line": 364
+    },
+    "Magikarp (Feebas)": {
+      "translation": "[[Magikarp]] ([[Feebas]])",
+      "line": 364
+    },
+    "Eevee": {
+      "translation": "伊布",
+      "line": 365
+    },
+    "Porygon": {
+      "translation": "多边兽",
+      "line": 366
+    },
+    "Togepi": {
+      "translation": "波克比",
+      "line": 367
+    },
+    "Pikachu (Palaeontologist)": {
+      "translation": "古生物学家[[Pikachu]]",
+      "line": 368
+    },
+    "Probably Chimecho": {
+      "translation": "",
+      "line": 371
+    },
+    "Hoppip (Chimecho)": {
+      "translation": "[[Hoppip]] ([[Chimecho]])",
+      "line": 371
+    },
+    "Beldum": {
+      "translation": "铁哑铃",
+      "line": 372
+    },
+    "Deoxys (Clone)": {
+      "translation": "[[Deoxys]] [[alt.clone]]",
+      "line": 373
+    },
+    "Grotle (Acorn)": {
+      "translation": "[[Grotle]] (橡果)",
+      "line": 375
+    },
+    "Combee": {
+      "translation": "三蜜蜂",
+      "line": 376
+    },
+    "Burmy (Plant)": {
+      "translation": "[[Burmy]] [[alt.plant]]",
+      "line": 377
+    },
+    "Cherubi": {
+      "translation": "樱花宝",
+      "line": 378
+    },
+    "Spiritomb": {
+      "translation": "花岩怪",
+      "line": 379
+    },
+    "Zorua": {
+      "translation": "索罗亚",
+      "line": 381
+    },
+    "Meloetta (Pirouette)": {
+      "translation": "[[Meloetta]] 舞步形态",
+      "line": 382
+    },
+    "Furfrou (Debutante)": {
+      "translation": "[[Furfrou]] 淑女造型",
+      "line": 384
+    },
+    "Furfrou (Diamond)": {
+      "translation": "[[Furfrou]] 菱形造型",
+      "line": 385
+    },
+    "Furfrou (Matron)": {
+      "translation": "[[Furfrou]] 贵妇造型",
+      "line": 386
+    },
+    "Furfrou (Dandy)": {
+      "translation": "[[Furfrou]] 绅士造型",
+      "line": 387
+    },
+    "Furfrou (Kabuki)": {
+      "translation": "[[Furfrou]] 歌舞伎造型",
+      "line": 388
+    },
+    "Furfrou (Pharaoh)": {
+      "translation": "[[Furfrou]] 国王造型",
+      "line": 389
+    },
+    "Furfrou (Star)": {
+      "translation": "[[Furfrou]] 星形造型",
+      "line": 390
+    },
+    "Furfrou (La Reine)": {
+      "translation": "[[Furfrou]] 女王造型",
+      "line": 391
+    },
+    "Furfrou (Heart)": {
+      "translation": "[[Furfrou]] 心形造型",
+      "line": 392
+    },
+    "Probably Not Pikachu": {
+      "translation": "",
+      "line": 393
+    },
+    "Inkay (Pikachu)": {
+      "translation": "[[Inkay]] ([[Pikachu]])",
+      "line": 393
+    },
+    "Type: Null": {
+      "translation": "属性：空",
+      "line": 395
+    },
+    "Poipole": {
+      "translation": "毒贝比",
+      "line": 396
+    },
+    "Silvally (Fighting) 1": {
+      "translation": "",
+      "line": 398
+    },
+    "Silvally (Fighting)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.fighting]])",
+      "line": 398
+    },
+    "Silvally (Fighting) 2": {
+      "translation": "",
+      "line": 400
+    },
+    "Silvally (Rock) 1": {
+      "translation": "",
+      "line": 402
+    },
+    "Silvally (Rock)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.rock]])",
+      "line": 402
+    },
+    "Silvally (Rock) 2": {
+      "translation": "",
+      "line": 404
+    },
+    "Silvally (Dark) 1": {
+      "translation": "",
+      "line": 406
+    },
+    "Silvally (Dark)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.dark]])",
+      "line": 406
+    },
+    "Silvally (Dark) 2": {
+      "translation": "",
+      "line": 408
+    },
+    "Silvally (Fairy) 1": {
+      "translation": "",
+      "line": 410
+    },
+    "Silvally (Fairy)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.fairy]])",
+      "line": 410
+    },
+    "Silvally (Fairy) 2": {
+      "translation": "",
+      "line": 412
+    },
+    "Silvally (Water) 1": {
+      "translation": "",
+      "line": 414
+    },
+    "Silvally (Water)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.water]])",
+      "line": 414
+    },
+    "Silvally (Water) 2": {
+      "translation": "",
+      "line": 416
+    },
+    "Silvally (Grass) 1": {
+      "translation": "",
+      "line": 418
+    },
+    "Silvally (Grass)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.grass]])",
+      "line": 418
+    },
+    "Silvally (Grass) 2": {
+      "translation": "",
+      "line": 420
+    },
+    "Silvally (Fire) 1": {
+      "translation": "",
+      "line": 422
+    },
+    "Silvally (Fire)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.fire]])",
+      "line": 422
+    },
+    "Silvally (Fire) 2": {
+      "translation": "",
+      "line": 424
+    },
+    "Silvally (Electric) 1": {
+      "translation": "",
+      "line": 426
+    },
+    "Silvally (Electric)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.electric]])",
+      "line": 426
+    },
+    "Silvally (Electric) 2": {
+      "translation": "",
+      "line": 428
+    },
+    "Silvally (Ice) 1": {
+      "translation": "",
+      "line": 430
+    },
+    "Silvally (Ice)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.ice]])",
+      "line": 430
+    },
+    "Silvally (Ice) 2": {
+      "translation": "",
+      "line": 432
+    },
+    "Silvally (Ground) 1": {
+      "translation": "",
+      "line": 434
+    },
+    "Silvally (Ground)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.ground]])",
+      "line": 434
+    },
+    "Silvally (Ground) 2": {
+      "translation": "",
+      "line": 436
+    },
+    "Silvally (Bug) 1": {
+      "translation": "",
+      "line": 438
+    },
+    "Silvally (Bug)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.bug]])",
+      "line": 438
+    },
+    "Silvally (Bug) 2": {
+      "translation": "",
+      "line": 440
+    },
+    "Silvally (Flying) 1": {
+      "translation": "",
+      "line": 442
+    },
+    "Silvally (Flying)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.flying]])",
+      "line": 442
+    },
+    "Silvally (Flying) 2": {
+      "translation": "",
+      "line": 444
+    },
+    "Silvally (Poison) 1": {
+      "translation": "",
+      "line": 446
+    },
+    "Silvally (Poison)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.poison]])",
+      "line": 446
+    },
+    "Silvally (Poison) 2": {
+      "translation": "",
+      "line": 448
+    },
+    "Silvally (Ghost) 1": {
+      "translation": "",
+      "line": 450
+    },
+    "Silvally (Ghost)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.ghost]])",
+      "line": 450
+    },
+    "Silvally (Ghost) 2": {
+      "translation": "",
+      "line": 452
+    },
+    "Silvally (Psychic) 1": {
+      "translation": "",
+      "line": 454
+    },
+    "Silvally (Psychic)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.psychic]])",
+      "line": 454
+    },
+    "Silvally (Psychic) 2": {
+      "translation": "",
+      "line": 456
+    },
+    "Silvally (Steel) 1": {
+      "translation": "",
+      "line": 458
+    },
+    "Silvally (Steel)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.steel]])",
+      "line": 458
+    },
+    "Silvally (Steel) 2": {
+      "translation": "",
+      "line": 460
+    },
+    "Silvally (Dragon) 1": {
+      "translation": "",
+      "line": 462
+    },
+    "Silvally (Dragon)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.dragon]])",
+      "line": 462
+    },
+    "Silvally (Dragon) 2": {
+      "translation": "",
+      "line": 464
+    },
+    "Dracozolt": {
+      "translation": "雷鸟龙",
+      "line": 467
+    },
+    "Arctozolt": {
+      "translation": "雷鸟海兽",
+      "line": 468
+    },
+    "Dracovish": {
+      "translation": "鳃鱼龙",
+      "line": 469
+    },
+    "Arctovish": {
+      "translation": "鳃鱼海兽",
+      "line": 470
+    },
+    "Zarude (Dada)": {
+      "translation": "[[Zarude]] 阿爸",
+      "line": 471
+    },
+    "Staryu": {
+      "translation": "海星星",
+      "line": 473
+    },
+    "Igglybuff": {
+      "translation": "宝宝丁",
+      "line": 474
+    },
+    "Shuckle": {
+      "translation": "壶壶",
+      "line": 475
+    },
+    "Smoochum": {
+      "translation": "迷唇娃",
+      "line": 476
+    },
+    "Ralts": {
+      "translation": "拉鲁拉丝",
+      "line": 477
+    },
+    "Swablu": {
+      "translation": "青绵鸟",
+      "line": 478
+    },
+    "Drifloon": {
+      "translation": "飘飘球",
+      "line": 479
+    },
+    "Bronzor": {
+      "translation": "铜镜怪",
+      "line": 480
+    },
+    "Riolu": {
+      "translation": "利欧路",
+      "line": 481
+    },
+    "Rotom": {
+      "translation": "洛托姆",
+      "line": 482
+    },
+    "Munna": {
+      "translation": "食梦梦",
+      "line": 483
+    },
+    "Sigilyph": {
+      "translation": "象征鸟",
+      "line": 484
+    },
+    "Tornadus (Therian)": {
+      "translation": "[[Tornadus]] [[alt.therian]]",
+      "line": 485
+    },
+    "Thundurus (Therian)": {
+      "translation": "[[Thundurus]] [[alt.therian]]",
+      "line": 486
+    },
+    "Landorus (Therian)": {
+      "translation": "[[Landorus]] [[alt.therian]]",
+      "line": 487
+    },
+    "Dugtrio (Punk)": {
+      "translation": "[[Dugtrio]] (朋克)",
+      "line": 489
+    },
+    "Gengar (Punk)": {
+      "translation": "[[Gengar]] (朋克)",
+      "line": 490
+    },
+    "Goldeen (Diva)": {
+      "translation": "[[Goldeen]] (天后)",
+      "line": 491
+    },
+    "Onix (Rocker)": {
+      "translation": "[[Onix]] (硬岩石)",
+      "line": 492
+    },
+    "Tangela (Pom-pom)": {
+      "translation": "[[Tangela]] (啪滋啪滋)",
+      "line": 493
+    },
+    "Weepinbell (Fancy)": {
+      "translation": "[[Weepinbell]] (幻彩)",
+      "line": 494
+    },
+    "Sudowoodo (Golden)": {
+      "translation": "[[Sudowoodo]] (金色)",
+      "line": 495
+    },
+    "Pikachu (Rock Star)": {
+      "translation": "硬岩石[[Pikachu]]",
+      "line": 496
+    },
+    "Pikachu (Belle)": {
+      "translation": "贵妇[[Pikachu]]",
+      "line": 497
+    },
+    "Pikachu (Pop Star)": {
+      "translation": "偶像[[Pikachu]]",
+      "line": 498
+    },
+    "Pikachu (Ph. D.)": {
+      "translation": "博士[[Pikachu]]",
+      "line": 499
+    },
+    "Pikachu (Libre)": {
+      "translation": "面罩摔角手[[Pikachu]]",
+      "line": 500
+    },
+    "Elf Munchlax": {
+      "translation": "精灵 [[Munchlax]]",
+      "line": 502
+    },
+    "Merry Christmas!": {
+      "translation": "圣诞快乐！",
+      "line": 503
+    },
+    "Santa Snorlax": {
+      "translation": "圣诞老人 [[Snorlax]]",
+      "line": 503
+    },
+    "Omanyte": {
+      "translation": "菊石兽",
+      "line": 505
+    },
+    "Omastar": {
+      "translation": "多刺菊石兽",
+      "line": 506
+    },
+    "Kabuto": {
+      "translation": "化石盔",
+      "line": 507
+    },
+    "Kabutops": {
+      "translation": "镰刀盔",
+      "line": 508
+    },
+    "Lileep": {
+      "translation": "触手百合",
+      "line": 510
+    },
+    "Cradily": {
+      "translation": "摇篮百合",
+      "line": 511
+    },
+    "Anorith": {
+      "translation": "太古羽虫",
+      "line": 512
+    },
+    "Armaldo": {
+      "translation": "太古盔甲",
+      "line": 513
+    },
+    "Cranidos": {
+      "translation": "头盖龙",
+      "line": 514
+    },
+    "Rampardos": {
+      "translation": "战槌龙",
+      "line": 515
+    },
+    "Shieldon": {
+      "translation": "盾甲龙",
+      "line": 516
+    },
+    "Bastiodon": {
+      "translation": "护城龙",
+      "line": 517
+    },
+    "Tirtouga": {
+      "translation": "原盖海龟",
+      "line": 518
+    },
+    "Carracosta": {
+      "translation": "肋骨海龟",
+      "line": 519
+    },
+    "Archen": {
+      "translation": "始祖小鸟",
+      "line": 520
+    },
+    "Archeops": {
+      "translation": "始祖大鸟",
+      "line": 521
+    },
+    "Tyrunt": {
+      "translation": "宝宝暴龙",
+      "line": 522
+    },
+    "Tyrantrum": {
+      "translation": "怪颚龙",
+      "line": 523
+    },
+    "Amaura": {
+      "translation": "冰雪龙",
+      "line": 524
+    },
+    "Aurorus": {
+      "translation": "冰雪巨龙",
+      "line": 525
+    }
+  }
+}

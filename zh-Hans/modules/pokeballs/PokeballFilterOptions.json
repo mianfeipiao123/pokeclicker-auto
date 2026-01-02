@@ -1,0 +1,154 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokeballs/PokeballFilterOptions.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 36,
+    "translatedCount": 16
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../settings/BooleanSetting": {
+      "translation": "",
+      "line": 2
+    },
+    "../settings/Setting": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 4
+    },
+    "../settings/SettingOption": {
+      "translation": "",
+      "line": 5
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 6
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 7
+    },
+    "../requirements/CustomRequirement": {
+      "translation": "",
+      "line": 8
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 9
+    },
+    "../enums/EncounterType": {
+      "translation": "",
+      "line": 10
+    },
+    "../requirements/QuestLineStepCompletedRequirement": {
+      "translation": "",
+      "line": 11
+    },
+    "../party/Category": {
+      "translation": "",
+      "line": 12
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 33
+    },
+    "Ultra Beast Hunt": {
+      "translation": "究极野兽狩猎",
+      "line": 37
+    },
+    "Shiny": {
+      "translation": "异色",
+      "line": 44
+    },
+    "not ": {
+      "translation": "",
+      "line": 48
+    },
+    "Shadow": {
+      "translation": "暗影",
+      "line": 55
+    },
+    "Caught": {
+      "translation": "已捕获",
+      "line": 67
+    },
+    "Already": {
+      "translation": "",
+      "line": 71
+    },
+    "Not yet": {
+      "translation": "",
+      "line": 71
+    },
+    "pokeballFilterCaughtShiny": {
+      "translation": "pokeballFilter已捕获Shiny",
+      "line": 77
+    },
+    "Caught Shiny": {
+      "translation": "已捕获（异色）",
+      "line": 78
+    },
+    "already ": {
+      "translation": "",
+      "line": 82
+    },
+    "not yet ": {
+      "translation": "",
+      "line": 82
+    },
+    "pokeballFilterCaughtShadow": {
+      "translation": "pokeballFilter已捕获Shadow",
+      "line": 88
+    },
+    "Caught Shadow": {
+      "translation": "已捕获（暗影）",
+      "line": 89
+    },
+    "Pokérus State": {
+      "translation": "宝客状态",
+      "line": 101
+    },
+    "Pokérus virus is required": {
+      "translation": "需要宝可病毒病毒",
+      "line": 110
+    },
+    "pokeballFilterPokemonType": {
+      "translation": "pokeballFilterPokemonType",
+      "line": 115
+    },
+    "Pokémon Type": {
+      "translation": "宝可梦类型",
+      "line": 115
+    },
+    "Is ${PokemonType[pokemonType]} type": {
+      "translation": "",
+      "line": 121
+    },
+    "pokeballFilterEncounterType": {
+      "translation": "pokeballFilterEncounterType",
+      "line": 131
+    },
+    "Encounter Type": {
+      "translation": "遭遇类型",
+      "line": 132
+    },
+    "Is ${GameHelper.anOrA(type)} ${type} encounter": {
+      "translation": "",
+      "line": 136
+    },
+    "Category": {
+      "translation": "类别",
+      "line": 142
+    },
+    "In the ${PokemonCategories.categories().find(c => c.id == category)?.name()} category": {
+      "translation": "",
+      "line": 146
+    }
+  }
+}

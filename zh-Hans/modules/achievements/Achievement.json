@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/achievements/Achievement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 5
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 4
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 6
+    },
+    "../requirements/AchievementRequirement": {
+      "translation": "",
+      "line": 7
+    },
+    "../logbook/LogBookTypes": {
+      "translation": "",
+      "line": 8
+    },
+    "../logbook/helpers": {
+      "translation": "",
+      "line": 9
+    },
+    "./AchievementCategory": {
+      "translation": "",
+      "line": 10
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 17
+    },
+    "trunc": {
+      "translation": "截断",
+      "line": 17
+    },
+    "Achievement": {
+      "translation": "成就",
+      "line": 22
+    },
+    "[${this.notificationTitle}] ${this.name}": {
+      "translation": "",
+      "line": 51
+    },
+    "function": {
+      "translation": "功能",
+      "line": 77
+    }
+  }
+}

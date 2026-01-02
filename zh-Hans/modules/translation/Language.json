@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/translation/Language.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 21,
+    "translatedCount": 21
+  },
+  "entries": {
+    "de": {
+      "translation": "德",
+      "line": 3
+    },
+    "en": {
+      "translation": "zh",
+      "line": 4
+    },
+    "es": {
+      "translation": "英语",
+      "line": 5
+    },
+    "fr": {
+      "translation": "FR",
+      "line": 6
+    },
+    "it": {
+      "translation": "它",
+      "line": 7
+    },
+    "ja": {
+      "translation": "贾",
+      "line": 8
+    },
+    "ko": {
+      "translation": "科",
+      "line": 9
+    },
+    "zh-Hans": {
+      "translation": "zh-汉斯",
+      "line": 10
+    },
+    "zh-Hant": {
+      "translation": "zh-汉特",
+      "line": 11
+    },
+    "ru": {
+      "translation": "茹",
+      "line": 12
+    },
+    "tr": {
+      "translation": "t",
+      "line": 13
+    },
+    "nl": {
+      "translation": "NL",
+      "line": 14
+    },
+    "pt-BR": {
+      "translation": "PT-BR",
+      "line": 15
+    },
+    "Deutsch": {
+      "translation": "德语",
+      "line": 19
+    },
+    "English": {
+      "translation": "英语",
+      "line": 20
+    },
+    "Español": {
+      "translation": "西班牙语",
+      "line": 21
+    },
+    "Français": {
+      "translation": "法国人",
+      "line": 22
+    },
+    "Italiano": {
+      "translation": "意大利人",
+      "line": 23
+    },
+    "Türkçe": {
+      "translation": "图尔克切",
+      "line": 29
+    },
+    "Nederlands": {
+      "translation": "荷兰",
+      "line": 30
+    },
+    "Português Brasileiro": {
+      "translation": "巴西葡萄牙语",
+      "line": 31
+    }
+  }
+}

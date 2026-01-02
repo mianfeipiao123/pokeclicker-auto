@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/challenges/Challenge.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 9,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 3
+    },
+    "../notifications/NotificationOption": {
+      "translation": "",
+      "line": 4
+    },
+    "DISABLE CHALLENGE": {
+      "translation": "禁用挑战",
+      "line": 30
+    },
+    "text-center m-2": {
+      "translation": "",
+      "line": 31
+    },
+    "<p class=\"text-center m-2\"><b>Warning</b>: Disabling \"${this.type}\" challenge is <b>permanent</b>.<br/><br/>Are you sure you want to continue?</p>": {
+      "translation": "",
+      "line": 31
+    },
+    "<span style=\"white-space: nowrap;\">Permanently disable</span>": {
+      "translation": "",
+      "line": 32
+    },
+    "white-space: nowrap;": {
+      "translation": "",
+      "line": 32
+    }
+  }
+}

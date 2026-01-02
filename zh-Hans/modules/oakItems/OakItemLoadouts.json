@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/oakItems/OakItemLoadouts.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 4
+    },
+    "../koExtenders": {
+      "translation": "",
+      "line": 5
+    },
+    "../DataStore/common/Saveable": {
+      "translation": "",
+      "line": 6
+    },
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 7
+    },
+    "./OakItemLoadout": {
+      "translation": "",
+      "line": 8
+    },
+    "Loadout ${i + 1}": {
+      "translation": "",
+      "line": 17
+    }
+  }
+}

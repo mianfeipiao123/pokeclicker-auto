@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/QuestLineStartedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../quests/QuestLineState": {
+      "translation": "",
+      "line": 2
+    },
+    "../quests/QuestLineNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "../TemporaryScriptTypes": {
+      "translation": "",
+      "line": 4
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 6
+    },
+    "be started": {
+      "translation": "",
+      "line": 26
+    },
+    "not be started yet": {
+      "translation": "",
+      "line": 26
+    },
+    "Questline ${this.quest.displayName} needs to ${this.option !== AchievementOption.less ? 'be started' : 'not be started yet'}.": {
+      "translation": "",
+      "line": 26
+    }
+  }
+}

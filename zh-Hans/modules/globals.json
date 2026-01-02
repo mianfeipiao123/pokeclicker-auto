@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/globals.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./TemporaryScriptTypes": {
+      "translation": "",
+      "line": 1
+    }
+  }
+}

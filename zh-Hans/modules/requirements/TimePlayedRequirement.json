@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/TimePlayedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 14
+    },
+    "Be in-game for a total of ${this.requiredValue.toLocaleString('en-US')} seconds.": {
+      "translation": "",
+      "line": 14
+    }
+  }
+}

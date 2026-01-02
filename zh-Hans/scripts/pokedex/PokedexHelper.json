@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/pokedex/PokedexHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 24,
+    "translatedCount": 15
+  },
+  "entries": {
+    "hide": {
+      "translation": "隐藏",
+      "line": 13
+    },
+    "grey": {
+      "translation": "灰色的",
+      "line": 23
+    },
+    "linear-gradient(90deg,${GameConstants.TypeColor[pokemon.type1]} 50%, ${GameConstants.TypeColor[pokemon.type2]} 50%)": {
+      "translation": "",
+      "line": 28
+    },
+    "show": {
+      "translation": "展示",
+      "line": 48
+    },
+    "pokedexIDFilter": {
+      "translation": "pokedexIDFilter",
+      "line": 61
+    },
+    "pokedexType1Filter": {
+      "translation": "pokedexType1过滤器",
+      "line": 131
+    },
+    "pokedexType2Filter": {
+      "translation": "pokedexType2过滤器",
+      "line": 132
+    },
+    "uncaught": {
+      "translation": "未捕获的",
+      "line": 156
+    },
+    "caught": {
+      "translation": "捕捉",
+      "line": 161
+    },
+    "caught-not-shiny": {
+      "translation": "",
+      "line": 166
+    },
+    "caught-shiny": {
+      "translation": "",
+      "line": 171
+    },
+    "caught-not-shadow": {
+      "translation": "",
+      "line": 176
+    },
+    "caught-shadow": {
+      "translation": "",
+      "line": 181
+    },
+    "caught-purified": {
+      "translation": "",
+      "line": 186
+    },
+    "pokedexHideAltFilter": {
+      "translation": "pokedexHideAltFilter",
+      "line": 193
+    },
+    "pokedexHeldItemFilter": {
+      "translation": "pokedexHeldItemFilter",
+      "line": 198
+    },
+    "pokedexUniqueTransformationFilter": {
+      "translation": "pokedexUniqueTransformationFilter",
+      "line": 225
+    },
+    "mega-available": {
+      "translation": "",
+      "line": 227
+    },
+    "mega-unobtained": {
+      "translation": "",
+      "line": 232
+    },
+    "mega-evolution": {
+      "translation": "",
+      "line": 236
+    },
+    "male": {
+      "translation": "男性",
+      "line": 248
+    },
+    "female": {
+      "translation": "女性",
+      "line": 248
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 260
+    },
+    "#pokedex-pokemon-list-container .scrolling-div-pokedex": {
+      "translation": "#pokedex-pokemon-list-container .scrolling-div-pokedex",
+      "line": 263
+    }
+  }
+}

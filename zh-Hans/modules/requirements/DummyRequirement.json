@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/DummyRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Dummy!": {
+      "translation": "假的！",
+      "line": 14
+    }
+  }
+}

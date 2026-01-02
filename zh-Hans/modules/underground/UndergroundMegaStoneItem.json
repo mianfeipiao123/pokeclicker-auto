@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundMegaStoneItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    "../requirements/MultiRequirement": {
+      "translation": "",
+      "line": 5
+    },
+    "../requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 6
+    },
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 7
+    },
+    "../requirements/ItemOwnedRequirement": {
+      "translation": "",
+      "line": 8
+    }
+  }
+}

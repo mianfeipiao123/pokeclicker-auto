@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/DefeatDungeonBossQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "Invalid dungeon for quest: ${this.dungeon}": {
+      "translation": "",
+      "line": 7
+    },
+    "Defeat ${this.dungeonBoss} in ${this.dungeon}.": {
+      "translation": "",
+      "line": 13
+    }
+  }
+}

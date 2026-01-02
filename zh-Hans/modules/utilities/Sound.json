@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/Sound.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 5
+  },
+  "entries": {
+    "../settings/Settings": {
+      "translation": "",
+      "line": 1
+    },
+    "audio": {
+      "translation": "",
+      "line": 4
+    },
+    "assets/sounds/${fileName}.mp3": {
+      "translation": "",
+      "line": 9
+    },
+    "preload": {
+      "translation": "",
+      "line": 11
+    },
+    "auto": {
+      "translation": "自动",
+      "line": 11
+    },
+    "controls": {
+      "translation": "",
+      "line": 12
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 12
+    },
+    "click": {
+      "translation": "点击",
+      "line": 20
+    },
+    "sound.volume": {
+      "translation": "音量",
+      "line": 31
+    },
+    "Error updating volume for ${this.name}:\n": {
+      "translation": "",
+      "line": 41
+    },
+    "sound.muted": {
+      "translation": "静音",
+      "line": 64
+    },
+    "sound.${this.name}": {
+      "translation": "",
+      "line": 67
+    }
+  }
+}

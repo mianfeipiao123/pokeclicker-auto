@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/battleFrontier/BattleFrontierMilestoneItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 21
+    }
+  }
+}

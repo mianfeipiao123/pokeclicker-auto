@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/GameHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 18,
+    "translatedCount": 4
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 4
+    },
+    "${hours}h${GameHelper.twoDigitNumber(minutes)}m": {
+      "translation": "",
+      "line": 36
+    },
+    "function": {
+      "translation": "功能",
+      "line": 43
+    },
+    "${Math.floor(n / 1e9)}b": {
+      "translation": "",
+      "line": 86
+    },
+    "${Math.floor(n / 1e6)}m": {
+      "translation": "",
+      "line": 87
+    },
+    "${Math.floor(n / 1e3)}k": {
+      "translation": "",
+      "line": 88
+    },
+    "an": {
+      "translation": "",
+      "line": 122
+    },
+    " Backup": {
+      "translation": "",
+      "line": 158
+    },
+    "${Object.entries(changes).reduce((filename, [format, value]) => filename.replace(format, value), nameFormat)}${isBackup ? ' Backup' : ''}.txt": {
+      "translation": "",
+      "line": 158
+    },
+    "0${n}": {
+      "translation": "",
+      "line": 182
+    },
+    "<div>": {
+      "translation": "",
+      "line": 202
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 202
+    },
+    "scroll": {
+      "translation": "",
+      "line": 202
+    },
+    "body": {
+      "translation": "",
+      "line": 202
+    },
+    "$DEVELOPMENT": {
+      "translation": "",
+      "line": 244
+    },
+    "textarea": {
+      "translation": "",
+      "line": 253
+    },
+    "input": {
+      "translation": "输入",
+      "line": 253
+    },
+    "select": {
+      "translation": "",
+      "line": 253
+    }
+  }
+}

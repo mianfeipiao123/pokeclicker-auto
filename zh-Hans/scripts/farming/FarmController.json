@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/FarmController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 21,
+    "translatedCount": 11
+  },
+  "entries": {
+    "All": {
+      "translation": "全部",
+      "line": 20
+    },
+    "show": {
+      "translation": "展示",
+      "line": 45
+    },
+    "You need the ${GameConstants.humanifyString(KeyItemType[KeyItemType.Wailmer_pail])} to access this location.\n<i>Clear Route 6 first.</i>": {
+      "translation": "",
+      "line": 48
+    },
+    "assets/images/farm/AllTreeSeed.png": {
+      "translation": "",
+      "line": 60
+    },
+    "assets/images/farm/AllTreeSprout.png": {
+      "translation": "",
+      "line": 62
+    },
+    "assets/images/farm/${BerryType[plot.berry]}Tree${PlotStage[plot.stage()]}.png": {
+      "translation": "",
+      "line": 64
+    },
+    "PlotSafeLockSelected": {
+      "translation": "绘图安全锁已选择",
+      "line": 70
+    },
+    "MulchShovelSelected": {
+      "translation": "地膜铲Selected",
+      "line": 76
+    },
+    "confirmBeformeMulchingAllPlots": {
+      "translation": "confirmBeformeMulchingAllPlots",
+      "line": 181
+    },
+    "Mulch All": {
+      "translation": "全部施肥",
+      "line": 186
+    },
+    "Are you sure you want to use ${this.getAmount()} ${MulchType[FarmController.selectedMulch()].replace('_', ' ')} on all plots?": {
+      "translation": "",
+      "line": 187
+    },
+    "Mulch": {
+      "translation": "肥料",
+      "line": 189
+    },
+    "assets/images/items/berry/${BerryType[index]}.png": {
+      "translation": "",
+      "line": 253
+    },
+    "undefined": {
+      "translation": "不明确的",
+      "line": 275
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 279
+    },
+    "<u>External Auras</u>": {
+      "translation": "",
+      "line": 286
+    },
+    "<br>": {
+      "translation": "<br>",
+      "line": 289
+    },
+    "url('assets/images/dynamic-background/pokemon/sparkle.png'), ": {
+      "translation": "",
+      "line": 318
+    },
+    "assets/images/dynamic-background/pokemon/${forgedID}.png": {
+      "translation": "",
+      "line": 318
+    },
+    "${plot.wanderer.shiny ? 'url('assets/images/dynamic-background/pokemon/sparkle.png'), ' :  ''}url('assets/images/dynamic-background/pokemon/${forgedID}.png')": {
+      "translation": "",
+      "line": 318
+    },
+    "never": {
+      "translation": "绝不",
+      "line": 335
+    }
+  }
+}

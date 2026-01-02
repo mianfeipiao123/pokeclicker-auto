@@ -1,0 +1,1790 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/Update.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 445,
+    "translatedCount": 337
+  },
+  "entries": {
+    "update": {
+      "translation": "",
+      "line": 3
+    },
+    "$VERSION": {
+      "translation": "",
+      "line": 6
+    },
+    "Tutorial Quests": {
+      "translation": "教程任务",
+      "line": 64
+    },
+    "Mining Expedition": {
+      "translation": "采矿探险",
+      "line": 106
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 145
+    },
+    "Active Challenge Mode?": {
+      "translation": "激活挑战模式？",
+      "line": 300
+    },
+    "btn btn-block btn-danger": {
+      "translation": "btn btn-阻止 btn-危险",
+      "line": 303
+    },
+    "App.game.challenges.list.disableClickAttack.activate();": {
+      "translation": "",
+      "line": 303
+    },
+    "toast": {
+      "translation": "",
+      "line": 303
+    },
+    "App.game.challenges.list.disableBattleItems.activate(); Object.values(player.effectList).forEach(e => e(0));": {
+      "translation": "",
+      "line": 312
+    },
+    "App.game.challenges.list.disableMasterballs.activate();": {
+      "translation": "",
+      "line": 321
+    },
+    "App.game.challenges.list.disableOakItems.activate();": {
+      "translation": "",
+      "line": 331
+    },
+    "App.game.challenges.list.disableShards.activate();": {
+      "translation": "",
+      "line": 341
+    },
+    "App.game.challenges.list.disableVitamins.activate();": {
+      "translation": "",
+      "line": 351
+    },
+    "Trainer": {
+      "translation": "训练师",
+      "line": 362
+    },
+    "Lets go Pikachu": {
+      "translation": "",
+      "line": 369
+    },
+    "Let's Go Pikachu": {
+      "translation": "[[alt.letsGo]] [[Pikachu]]",
+      "line": 369
+    },
+    "Lets go Eevee": {
+      "translation": "",
+      "line": 370
+    },
+    "Let's Go Eevee": {
+      "translation": "[[alt.letsGo]] [[Eevee]]",
+      "line": 370
+    },
+    "The Great Vivillon Hunt!": {
+      "translation": "维维永大狩猎！",
+      "line": 404
+    },
+    "Safari_ticket": {
+      "translation": "Safari_门票",
+      "line": 409
+    },
+    "Shard_case": {
+      "translation": "分片箱",
+      "line": 410
+    },
+    "Vivillon": {
+      "translation": "彩粉蝶",
+      "line": 422
+    },
+    "Vivillon (Meadow)": {
+      "translation": "[[Vivillon]] 花园花纹",
+      "line": 422
+    },
+    "25 x Pokéball": {
+      "translation": "25个精灵球",
+      "line": 426
+    },
+    "100 x Pokéball": {
+      "translation": "100个精灵球",
+      "line": 427
+    },
+    "100 x Greatball": {
+      "translation": "100 x 伟大的球",
+      "line": 428
+    },
+    "100 x Ultraball": {
+      "translation": "100 x 超级球",
+      "line": 429
+    },
+    "100 x xClick": {
+      "translation": "100 x x点击",
+      "line": 430
+    },
+    "100 x xAttack": {
+      "translation": "100 x x攻击",
+      "line": 431
+    },
+    "100 x Small Restore": {
+      "translation": "100 x 小恢复",
+      "line": 432
+    },
+    "Deoxys": {
+      "translation": "代欧奇希斯",
+      "line": 433
+    },
+    "10 x Water Stone": {
+      "translation": "10 x 水石",
+      "line": 434
+    },
+    "10 x Leaf Stone": {
+      "translation": "10 x 叶石",
+      "line": 435
+    },
+    "10 x Thunder Stone": {
+      "translation": "10 x 雷之石",
+      "line": 436
+    },
+    "10 x Fire Stone": {
+      "translation": "10 x 火石",
+      "line": 437
+    },
+    "200 x Medium Restore": {
+      "translation": "200 x 中等恢复",
+      "line": 438
+    },
+    "Deoxys (attack)": {
+      "translation": "",
+      "line": 439
+    },
+    "100 x Lucky Egg": {
+      "translation": "100个幸运蛋",
+      "line": 440
+    },
+    "100 x Lucky Incense": {
+      "translation": "100 x 幸运香",
+      "line": 441
+    },
+    "100 x Item Magnet": {
+      "translation": "100 x 物品磁铁",
+      "line": 442
+    },
+    "10 x Mystery Egg": {
+      "translation": "10个神秘蛋",
+      "line": 443
+    },
+    "100 x Large Restore": {
+      "translation": "100 x 大恢复",
+      "line": 444
+    },
+    "40 x Water Stone": {
+      "translation": "40 x 水石",
+      "line": 445
+    },
+    "40 x Leaf Stone": {
+      "translation": "40 x 叶石",
+      "line": 446
+    },
+    "40 x Thunder Stone": {
+      "translation": "40 x 雷之石",
+      "line": 447
+    },
+    "40 x Moon Stone": {
+      "translation": "40 x 月之石",
+      "line": 448
+    },
+    "6400 x Ultraball": {
+      "translation": "6400 x 超级球",
+      "line": 449
+    },
+    "Deoxys (defense)": {
+      "translation": "",
+      "line": 450
+    },
+    "100 x Linking Cord": {
+      "translation": "100 x 连接线",
+      "line": 451
+    },
+    "Deoxys (speed)": {
+      "translation": "",
+      "line": 452
+    },
+    "Importing this save will cause errors!": {
+      "translation": "导入此存档将导致错误！",
+      "line": 484
+    },
+    "Please only use saves from the main website https://pokeclicker.com/": {
+      "translation": "请只使用来自官方网站 https://pokeclicker.com/ 的存档",
+      "line": 485
+    },
+    "Importing this save will cause errors": {
+      "translation": "导入此保存会导致错误",
+      "line": 489
+    },
+    "Team Rocket Again": {
+      "translation": "再次火箭队",
+      "line": 505
+    },
+    "Regional Attack Debuff (recommended)": {
+      "translation": "区域攻击减益（推荐）",
+      "line": 510
+    },
+    "New challenge mode added: Regional Attack Debuff.\n\nLowers Pokémon attack based on native region and highest reached region.\n\nThis is the default and recommended way to play, but is now an optional challenge.\n\nPlease choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": {
+      "translation": "",
+      "line": 510
+    },
+    "Disable": {
+      "translation": "禁用",
+      "line": 510
+    },
+    "Enable": {
+      "translation": "启用",
+      "line": 510
+    },
+    "Require Complete Pokédex (recommended)": {
+      "translation": "需要完成图鉴（推荐）",
+      "line": 511
+    },
+    "New challenge mode added: Require Complete Pokédex.\n\nRequires a complete regional pokédex before moving on to the next region.\n\nThis is the default and recommended way to play, but is now an optional challenge.\n\nPlease choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": {
+      "translation": "",
+      "line": 511
+    },
+    "Land vs. Water": {
+      "translation": "土地与水",
+      "line": 524
+    },
+    "Quest for the DNA Splicers": {
+      "translation": "寻找 DNA拼合器",
+      "line": 543
+    },
+    "GainShardsQuest": {
+      "translation": "获得碎片任务",
+      "line": 557
+    },
+    "GainGemsQuest": {
+      "translation": "获得宝石任务",
+      "line": 558
+    },
+    "A New World": {
+      "translation": "新世界",
+      "line": 656
+    },
+    "exp": {
+      "translation": "经验值",
+      "line": 680
+    },
+    "breeding": {
+      "translation": "选育",
+      "line": 681
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 682
+    },
+    "category": {
+      "translation": "类别",
+      "line": 683
+    },
+    "Mina's Trial": {
+      "translation": "米娜的审判",
+      "line": 717
+    },
+    "Team Rocket": {
+      "translation": "火箭队",
+      "line": 726
+    },
+    "Land vs Water": {
+      "translation": "土地与水",
+      "line": 731
+    },
+    "Slow EVs": {
+      "translation": "慢速努力值",
+      "line": 752
+    },
+    "New challenge mode added: Slow EVs.\n\nDiminishes the rate at which EVs are gained.\n\nThis is an optional challenge and is NOT the recommended way to play.\n\nPlease choose if you would like this challenge mode to be disabled or enabled.\n\nCan be disabled later. Can NOT be enabled later!": {
+      "translation": "",
+      "line": 752
+    },
+    "Loadout ${index + 1}": {
+      "translation": "",
+      "line": 785
+    },
+    "Bill's Errand": {
+      "translation": "比尔的差事",
+      "line": 809
+    },
+    "Persons of Interest": {
+      "translation": "感兴趣的人",
+      "line": 813
+    },
+    "notification.common_dungeon_item_found": {
+      "translation": "地下城宝箱中发现常见物品",
+      "line": 856
+    },
+    "notification.dungeon_item_found": {
+      "translation": "",
+      "line": 856
+    },
+    "notification.common_dungeon_item_found.desktop": {
+      "translation": "[[notification.common_dungeon_item_found]]",
+      "line": 857
+    },
+    "notification.dungeon_item_found.desktop": {
+      "translation": "",
+      "line": 857
+    },
+    "notification.rare_dungeon_item_found": {
+      "translation": "地下城宝箱中发现稀有物品",
+      "line": 858
+    },
+    "notification.rare_dungeon_item_found.desktop": {
+      "translation": "[[notification.rare_dungeon_item_found]]",
+      "line": 859
+    },
+    "25 x Poké Ball": {
+      "translation": "25个精灵球",
+      "line": 898
+    },
+    "100 x Poké Ball": {
+      "translation": "100个精灵球",
+      "line": 899
+    },
+    "100 x Great Ball": {
+      "translation": "100个大球",
+      "line": 900
+    },
+    "100 x Ultra Ball": {
+      "translation": "100 x 超级球",
+      "line": 901
+    },
+    "100 x X Click": {
+      "translation": "100 x X 点击",
+      "line": 902
+    },
+    "100 x X Attack": {
+      "translation": "100 x X 攻击",
+      "line": 903
+    },
+    "Deoxys (Attack)": {
+      "translation": "[[Deoxys]] 攻击形态",
+      "line": 911
+    },
+    "100 x Dowsing Machine": {
+      "translation": "100 x 探矿机",
+      "line": 914
+    },
+    "6,400 x Ultra Ball": {
+      "translation": "6,400 x 超级球",
+      "line": 921
+    },
+    "Deoxys (Defense)": {
+      "translation": "[[Deoxys]] 防御形态",
+      "line": 922
+    },
+    "Deoxys (Speed)": {
+      "translation": "[[Deoxys]] 速度形态",
+      "line": 924
+    },
+    "Bulbasaur (clone)": {
+      "translation": "",
+      "line": 934
+    },
+    "Bulbasaur (Clone)": {
+      "translation": "[[Bulbasaur]] [[alt.clone]]",
+      "line": 934
+    },
+    "Ivysaur (clone)": {
+      "translation": "",
+      "line": 935
+    },
+    "Ivysaur (Clone)": {
+      "translation": "[[Ivysaur]] [[alt.clone]]",
+      "line": 935
+    },
+    "Venusaur (clone)": {
+      "translation": "",
+      "line": 936
+    },
+    "Venusaur (Clone)": {
+      "translation": "[[Venusaur]] [[alt.clone]]",
+      "line": 936
+    },
+    "Charmander (clone)": {
+      "translation": "",
+      "line": 937
+    },
+    "Charmander (Clone)": {
+      "translation": "[[Charmander]] [[alt.clone]]",
+      "line": 937
+    },
+    "Charmeleon (clone)": {
+      "translation": "",
+      "line": 938
+    },
+    "Charmeleon (Clone)": {
+      "translation": "[[Charmeleon]] [[alt.clone]]",
+      "line": 938
+    },
+    "Charizard (clone)": {
+      "translation": "",
+      "line": 939
+    },
+    "Charizard (Clone)": {
+      "translation": "[[Charizard]] [[alt.clone]]",
+      "line": 939
+    },
+    "Pikachu (Original cap)": {
+      "translation": "",
+      "line": 940
+    },
+    "Pikachu (Original Cap)": {
+      "translation": "[[Pikachu]] 初始帽子",
+      "line": 940
+    },
+    "Pikachu (Hoenn cap)": {
+      "translation": "",
+      "line": 941
+    },
+    "Pikachu (Hoenn Cap)": {
+      "translation": "[[Pikachu]] 丰缘帽子",
+      "line": 941
+    },
+    "Pikachu (Sinnoh cap)": {
+      "translation": "",
+      "line": 942
+    },
+    "Pikachu (Sinnoh Cap)": {
+      "translation": "[[Pikachu]] 神奥帽子",
+      "line": 942
+    },
+    "Pikachu (Unova cap)": {
+      "translation": "",
+      "line": 943
+    },
+    "Pikachu (Unova Cap)": {
+      "translation": "[[Pikachu]] 合众帽子",
+      "line": 943
+    },
+    "Pikachu (Kalos cap)": {
+      "translation": "",
+      "line": 944
+    },
+    "Pikachu (Kalos Cap)": {
+      "translation": "[[Pikachu]] 卡洛斯帽子",
+      "line": 944
+    },
+    "Pikachu (Alola cap)": {
+      "translation": "",
+      "line": 945
+    },
+    "Pikachu (Alola Cap)": {
+      "translation": "[[Pikachu]] 阿罗拉帽子",
+      "line": 945
+    },
+    "Pikachu (Partner cap)": {
+      "translation": "",
+      "line": 946
+    },
+    "Pikachu (Partner Cap)": {
+      "translation": "[[Pikachu]] 就决定是你了之帽子",
+      "line": 946
+    },
+    "Castform (sunny)": {
+      "translation": "",
+      "line": 947
+    },
+    "Castform (Sunny)": {
+      "translation": "[[Castform]] 太阳的样子",
+      "line": 947
+    },
+    "Castform (rainy)": {
+      "translation": "",
+      "line": 948
+    },
+    "Castform (Rainy)": {
+      "translation": "[[Castform]] 雨水的样子",
+      "line": 948
+    },
+    "Castform (snowy)": {
+      "translation": "",
+      "line": 949
+    },
+    "Castform (Snowy)": {
+      "translation": "[[Castform]] 雪云的样子",
+      "line": 949
+    },
+    "Burmy (plant)": {
+      "translation": "",
+      "line": 953
+    },
+    "Burmy (Plant)": {
+      "translation": "[[Burmy]] [[alt.plant]]",
+      "line": 953
+    },
+    "Burmy (sand)": {
+      "translation": "",
+      "line": 954
+    },
+    "Burmy (Sand)": {
+      "translation": "[[Burmy]] [[alt.sand]]",
+      "line": 954
+    },
+    "Burmy (trash)": {
+      "translation": "",
+      "line": 955
+    },
+    "Burmy (Trash)": {
+      "translation": "[[Burmy]] [[alt.trash]]",
+      "line": 955
+    },
+    "Wormadam (plant)": {
+      "translation": "",
+      "line": 956
+    },
+    "Wormadam (Plant)": {
+      "translation": "[[Wormadam]] [[alt.plant]]",
+      "line": 956
+    },
+    "Wormadam (sand)": {
+      "translation": "",
+      "line": 957
+    },
+    "Wormadam (Sand)": {
+      "translation": "[[Wormadam]] [[alt.sand]]",
+      "line": 957
+    },
+    "Wormadam (trash)": {
+      "translation": "",
+      "line": 958
+    },
+    "Wormadam (Trash)": {
+      "translation": "[[Wormadam]] [[alt.trash]]",
+      "line": 958
+    },
+    "Cherrim (overcast)": {
+      "translation": "",
+      "line": 959
+    },
+    "Cherrim (Overcast)": {
+      "translation": "[[Cherrim]] 阴天形态",
+      "line": 959
+    },
+    "Cherrim (sunshine)": {
+      "translation": "",
+      "line": 960
+    },
+    "Cherrim (Sunshine)": {
+      "translation": "[[Cherrim]] 晴天形态",
+      "line": 960
+    },
+    "Shellos (west)": {
+      "translation": "",
+      "line": 961
+    },
+    "Shellos (West)": {
+      "translation": "[[Shellos]] [[alt.west]]",
+      "line": 961
+    },
+    "Shellos (east)": {
+      "translation": "",
+      "line": 962
+    },
+    "Shellos (East)": {
+      "translation": "[[Shellos]] [[alt.east]]",
+      "line": 962
+    },
+    "Gastrodon (west)": {
+      "translation": "",
+      "line": 963
+    },
+    "Gastrodon (West)": {
+      "translation": "[[Gastrodon]] [[alt.west]]",
+      "line": 963
+    },
+    "Gastrodon (east)": {
+      "translation": "",
+      "line": 964
+    },
+    "Gastrodon (East)": {
+      "translation": "[[Gastrodon]] [[alt.east]]",
+      "line": 964
+    },
+    "Rotom (heat)": {
+      "translation": "",
+      "line": 965
+    },
+    "Rotom (Heat)": {
+      "translation": "加热[[Rotom]]",
+      "line": 965
+    },
+    "Rotom (wash)": {
+      "translation": "",
+      "line": 966
+    },
+    "Rotom (Wash)": {
+      "translation": "清洗[[Rotom]]",
+      "line": 966
+    },
+    "Rotom (frost)": {
+      "translation": "",
+      "line": 967
+    },
+    "Rotom (Frost)": {
+      "translation": "结冰[[Rotom]]",
+      "line": 967
+    },
+    "Rotom (fan)": {
+      "translation": "",
+      "line": 968
+    },
+    "Rotom (Fan)": {
+      "translation": "旋转[[Rotom]]",
+      "line": 968
+    },
+    "Rotom (mow)": {
+      "translation": "",
+      "line": 969
+    },
+    "Rotom (Mow)": {
+      "translation": "切割[[Rotom]]",
+      "line": 969
+    },
+    "Rotom (discord)": {
+      "translation": "",
+      "line": 970
+    },
+    "Rotom (Discord)": {
+      "translation": "Discord[[Rotom]]",
+      "line": 970
+    },
+    "Giratina (altered)": {
+      "translation": "",
+      "line": 971
+    },
+    "Giratina (Altered)": {
+      "translation": "[[Giratina]] 别种形态",
+      "line": 971
+    },
+    "Shaymin (land)": {
+      "translation": "",
+      "line": 972
+    },
+    "Shaymin (Land)": {
+      "translation": "[[Shaymin]] 陆上形态",
+      "line": 972
+    },
+    "Shaymin (sky)": {
+      "translation": "",
+      "line": 973
+    },
+    "Shaymin (Sky)": {
+      "translation": "[[Shaymin]] 天空形态",
+      "line": 973
+    },
+    "Arceus (normal)": {
+      "translation": "",
+      "line": 974
+    },
+    "Arceus (Normal)": {
+      "translation": "[[Arceus]] ([[alt.type.normal]])",
+      "line": 974
+    },
+    "Meloetta (aria)": {
+      "translation": "",
+      "line": 975
+    },
+    "Meloetta (Aria)": {
+      "translation": "[[Meloetta]] 歌声形态",
+      "line": 975
+    },
+    "Meloetta (pirouette)": {
+      "translation": "",
+      "line": 976
+    },
+    "Meloetta (Pirouette)": {
+      "translation": "[[Meloetta]] 舞步形态",
+      "line": 976
+    },
+    "Ash Greninja": {
+      "translation": "阿什·格林尼加",
+      "line": 977
+    },
+    "Ash-Greninja": {
+      "translation": "小智版[[Greninja]]",
+      "line": 977
+    },
+    "Vivillon (Pokéball)": {
+      "translation": "",
+      "line": 978
+    },
+    "Vivillon (Poké Ball)": {
+      "translation": "[[Vivillon]] 球球花纹",
+      "line": 978
+    },
+    "Oricorio (Pom-pom)": {
+      "translation": "",
+      "line": 979
+    },
+    "Oricorio (Pom-Pom)": {
+      "translation": "[[Oricorio]] 啪滋啪滋风格",
+      "line": 979
+    },
+    "Minior (Blue-core)": {
+      "translation": "",
+      "line": 980
+    },
+    "Minior (Blue Core)": {
+      "translation": "[[Minior]] 浅蓝色核心",
+      "line": 980
+    },
+    "Minior (Green-core)": {
+      "translation": "",
+      "line": 981
+    },
+    "Minior (Green Core)": {
+      "translation": "[[Minior]] 绿色核心",
+      "line": 981
+    },
+    "Minior (Indigo-core)": {
+      "translation": "",
+      "line": 982
+    },
+    "Minior (Indigo Core)": {
+      "translation": "[[Minior]] 蓝色核心",
+      "line": 982
+    },
+    "Minior (Orange-core)": {
+      "translation": "",
+      "line": 983
+    },
+    "Minior (Orange Core)": {
+      "translation": "[[Minior]] 橙色核心",
+      "line": 983
+    },
+    "Minior (Red-core)": {
+      "translation": "",
+      "line": 984
+    },
+    "Minior (Red Core)": {
+      "translation": "[[Minior]] 红色核心",
+      "line": 984
+    },
+    "Minior (Violet-core)": {
+      "translation": "",
+      "line": 985
+    },
+    "Minior (Violet Core)": {
+      "translation": "[[Minior]] 紫色核心",
+      "line": 985
+    },
+    "Minior (Yellow-core)": {
+      "translation": "",
+      "line": 986
+    },
+    "Minior (Yellow Core)": {
+      "translation": "[[Minior]] 黄色核心",
+      "line": 986
+    },
+    "A new world": {
+      "translation": "一个新世界",
+      "line": 990
+    },
+    "Diamond": {
+      "translation": "钻石",
+      "line": 997
+    },
+    "Shard": {
+      "translation": "碎片",
+      "line": 999
+    },
+    "Mine Egg": {
+      "translation": "矿蛋",
+      "line": 1006
+    },
+    "Iki Town Outskirts": {
+      "translation": "壹岐町近郊",
+      "line": 1030
+    },
+    "Team Plasma Assault": {
+      "translation": "等离子突击队",
+      "line": 1091
+    },
+    "Opelucid City": {
+      "translation": "奥珀透明城",
+      "line": 1092
+    },
+    "Plasma Frigate": {
+      "translation": "等离子护卫舰",
+      "line": 1095
+    },
+    "Humilau City": {
+      "translation": "胡米劳市",
+      "line": 1096
+    },
+    "Giant Chasm": {
+      "translation": "巨大的鸿沟",
+      "line": 1099
+    },
+    "Aegislash": {
+      "translation": "坚盾剑怪",
+      "line": 1121
+    },
+    "Aegislash (Shield)": {
+      "translation": "[[Aegislash]] 盾牌形态",
+      "line": 1121
+    },
+    "Pumpkaboo": {
+      "translation": "南瓜精",
+      "line": 1122
+    },
+    "Pumpkaboo (Average)": {
+      "translation": "[[Pumpkaboo]] 普通尺寸",
+      "line": 1122
+    },
+    "Gourgeist": {
+      "translation": "南瓜怪人",
+      "line": 1123
+    },
+    "Gourgeist (Average)": {
+      "translation": "[[Gourgeist]] 普通尺寸",
+      "line": 1123
+    },
+    "Team Rocket's Pinkan Themepark": {
+      "translation": "火箭队的粉红主题乐园",
+      "line": 1175
+    },
+    "Team Rocket's Pinkan Theme Park": {
+      "translation": "火箭队的粉红主题乐园",
+      "line": 1176
+    },
+    "Brawlers Cave": {
+      "translation": "争吵者洞穴",
+      "line": 1367
+    },
+    "Brawlers' Cave": {
+      "translation": "斗士洞穴",
+      "line": 1368
+    },
+    "The Legendary Beasts": {
+      "translation": "传说中的野兽",
+      "line": 1511
+    },
+    "The Darkest Day": {
+      "translation": "最黑暗的一天",
+      "line": 1853
+    },
+    "Bede 3": {
+      "translation": "贝德3",
+      "line": 1857
+    },
+    "Hop 6": {
+      "translation": "赫普6",
+      "line": 1860
+    },
+    "Hop 7": {
+      "translation": "赫普7",
+      "line": 1863
+    },
+    "Eternatus": {
+      "translation": "无极汰那",
+      "line": 1866
+    },
+    "Eusine's Chase": {
+      "translation": "尤辛的追逐",
+      "line": 1874
+    },
+    "Unfinished Business": {
+      "translation": "未竟的事业",
+      "line": 1894
+    },
+    "Princess Diancie": {
+      "translation": "蒂安希公主",
+      "line": 1895
+    },
+    "A Mystery Gift": {
+      "translation": "神秘礼物",
+      "line": 1896
+    },
+    "A Beautiful World": {
+      "translation": "美丽的世界",
+      "line": 2131
+    },
+    "Caught": {
+      "translation": "已捕获",
+      "line": 2138
+    },
+    "Contagious": {
+      "translation": "传染期",
+      "line": 2143
+    },
+    "Caught Shiny": {
+      "translation": "已捕获（异色）",
+      "line": 2148
+    },
+    "New": {
+      "translation": "新的",
+      "line": 2153
+    },
+    "New Shiny": {
+      "translation": "新异色",
+      "line": 2158
+    },
+    "Abomasite": {
+      "translation": "菱形石",
+      "line": 2191
+    },
+    "Absolite": {
+      "translation": "绝对",
+      "line": 2192
+    },
+    "Aerodactylite": {
+      "translation": "",
+      "line": 2193
+    },
+    "Aggronite": {
+      "translation": "花岗岩",
+      "line": 2194
+    },
+    "Alakazite": {
+      "translation": "铝钾石",
+      "line": 2195
+    },
+    "Ampharosite": {
+      "translation": "水铝镁石",
+      "line": 2196
+    },
+    "Audinite": {
+      "translation": "奥金石",
+      "line": 2197
+    },
+    "Beedrillite": {
+      "translation": "铍石",
+      "line": 2198
+    },
+    "Cameruptite": {
+      "translation": "钙辉石",
+      "line": 2199
+    },
+    "Diancite": {
+      "translation": "红铁矿",
+      "line": 2200
+    },
+    "Galladite": {
+      "translation": "铅铜矿",
+      "line": 2201
+    },
+    "Garchompite": {
+      "translation": "",
+      "line": 2202
+    },
+    "Gardevoirite": {
+      "translation": "黄檀",
+      "line": 2203
+    },
+    "Gengarite": {
+      "translation": "",
+      "line": 2204
+    },
+    "Glalitite": {
+      "translation": "格拉利特石",
+      "line": 2205
+    },
+    "Heracronite": {
+      "translation": "赫拉克朗石",
+      "line": 2206
+    },
+    "Houndoominite": {
+      "translation": "黑云石",
+      "line": 2207
+    },
+    "Kangaskhanite": {
+      "translation": "",
+      "line": 2208
+    },
+    "Latiasite": {
+      "translation": "拉铁矿",
+      "line": 2209
+    },
+    "Latiosite": {
+      "translation": "拉硫石",
+      "line": 2210
+    },
+    "Lopunnite": {
+      "translation": "长辉石",
+      "line": 2211
+    },
+    "Lucarionite": {
+      "translation": "",
+      "line": 2212
+    },
+    "Manectite": {
+      "translation": "钙锰矿",
+      "line": 2213
+    },
+    "Mawilite": {
+      "translation": "马维利特",
+      "line": 2214
+    },
+    "Metagrossite": {
+      "translation": "巨花岗岩",
+      "line": 2215
+    },
+    "Meteorite": {
+      "translation": "陨石",
+      "line": 2216
+    },
+    "Pidgeotite": {
+      "translation": "云杉",
+      "line": 2217
+    },
+    "Sablenite": {
+      "translation": "沙长石",
+      "line": 2218
+    },
+    "Salamencite": {
+      "translation": "萨拉门石",
+      "line": 2219
+    },
+    "Sharpedonite": {
+      "translation": "尖石",
+      "line": 2220
+    },
+    "Slowbronite": {
+      "translation": "慢锰矿",
+      "line": 2221
+    },
+    "Steelixite": {
+      "translation": "",
+      "line": 2222
+    },
+    "Tyranitarite": {
+      "translation": "",
+      "line": 2223
+    },
+    "Hollow Truth and Ideals": {
+      "translation": "空洞的真理和理想",
+      "line": 2237
+    },
+    "object": {
+      "translation": "目的",
+      "line": 2276
+    },
+    "string": {
+      "translation": "细绳",
+      "line": 2279
+    },
+    "Unable to decode save file string": {
+      "translation": "无法解码保存文件字符串",
+      "line": 2283
+    },
+    "Zero's Ambition": {
+      "translation": "零的野心",
+      "line": 2296
+    },
+    "Normalium Z": {
+      "translation": "正态Z",
+      "line": 2374
+    },
+    "Fightinium Z": {
+      "translation": "格斗Z",
+      "line": 2375
+    },
+    "Waterium Z": {
+      "translation": "水Z",
+      "line": 2376
+    },
+    "Firium Z": {
+      "translation": "菲瑞姆Z",
+      "line": 2377
+    },
+    "Grassium Z": {
+      "translation": "草Z",
+      "line": 2378
+    },
+    "Rockium Z": {
+      "translation": "岩Z",
+      "line": 2379
+    },
+    "Electrium Z": {
+      "translation": "电金 Z",
+      "line": 2380
+    },
+    "Ghostium Z": {
+      "translation": "鬼魂Z",
+      "line": 2381
+    },
+    "Darkinium Z": {
+      "translation": "达金合金 Z",
+      "line": 2382
+    },
+    "Dragonium Z": {
+      "translation": "龙金Z",
+      "line": 2383
+    },
+    "Fairium Z": {
+      "translation": "仙气Z",
+      "line": 2384
+    },
+    "Groundium Z": {
+      "translation": "根Z",
+      "line": 2385
+    },
+    "Memory_Silvally": {
+      "translation": "",
+      "line": 2395
+    },
+    "ClearBattleFrontier": {
+      "translation": "清除对战开拓区",
+      "line": 2474
+    },
+    "ClearBattleFrontierQuest": {
+      "translation": "清除对战开拓区任务",
+      "line": 2475
+    },
+    "An Unrivaled Power": {
+      "translation": "无与伦比的力量",
+      "line": 2537
+    },
+    "Pink_Bow": {
+      "translation": "粉色_蝴蝶结",
+      "line": 2554
+    },
+    "Fairy_Feather": {
+      "translation": "仙女羽毛",
+      "line": 2555
+    },
+    "Rare_bone": {
+      "translation": "稀有骨",
+      "line": 2561
+    },
+    "Star_piece": {
+      "translation": "明星作品",
+      "line": 2561
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 2561
+    },
+    "Max_revive": {
+      "translation": "最大复活",
+      "line": 2561
+    },
+    "Iron_ball": {
+      "translation": "铁球",
+      "line": 2561
+    },
+    "Heart_scale": {
+      "translation": "Heart_scale",
+      "line": 2561
+    },
+    "Light_clay": {
+      "translation": "轻粘土",
+      "line": 2561
+    },
+    "Odd_keystone": {
+      "translation": "奇数梯形校正",
+      "line": 2561
+    },
+    "Hard_stone": {
+      "translation": "硬石",
+      "line": 2561
+    },
+    "Oval_stone": {
+      "translation": "椭圆石",
+      "line": 2561
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 2561
+    },
+    "Smooth_rock": {
+      "translation": "平滑岩石",
+      "line": 2561
+    },
+    "Heat_rock": {
+      "translation": "热岩石",
+      "line": 2561
+    },
+    "Icy_rock": {
+      "translation": "冰冷的岩石",
+      "line": 2561
+    },
+    "Damp_rock": {
+      "translation": "潮湿的岩石",
+      "line": 2561
+    },
+    "Draco_plate": {
+      "translation": "德拉科_盘",
+      "line": 2562
+    },
+    "Dread_plate": {
+      "translation": "恐惧板",
+      "line": 2562
+    },
+    "Earth_plate": {
+      "translation": "地球板",
+      "line": 2562
+    },
+    "Fist_plate": {
+      "translation": "拳头板",
+      "line": 2562
+    },
+    "Flame_plate": {
+      "translation": "火焰板",
+      "line": 2562
+    },
+    "Icicle_plate": {
+      "translation": "冰柱_板",
+      "line": 2562
+    },
+    "Insect_plate": {
+      "translation": "昆虫盘",
+      "line": 2562
+    },
+    "Iron_plate": {
+      "translation": "铁板",
+      "line": 2562
+    },
+    "Meadow_plate": {
+      "translation": "草地盘",
+      "line": 2562
+    },
+    "Mind_plate": {
+      "translation": "思维板",
+      "line": 2562
+    },
+    "Sky_plate": {
+      "translation": "天空盘",
+      "line": 2562
+    },
+    "Splash_plate": {
+      "translation": "飞溅板",
+      "line": 2562
+    },
+    "Spooky_plate": {
+      "translation": "幽灵盘",
+      "line": 2562
+    },
+    "Stone_plate": {
+      "translation": "石板",
+      "line": 2562
+    },
+    "Toxic_plate": {
+      "translation": "有毒_板",
+      "line": 2562
+    },
+    "Zap_plate": {
+      "translation": "Zap_plate",
+      "line": 2562
+    },
+    "Pixie_plate": {
+      "translation": "小精灵_盘",
+      "line": 2562
+    },
+    "Helix_fossil": {
+      "translation": "螺旋化石",
+      "line": 2563
+    },
+    "Dome_fossil": {
+      "translation": "圆顶化石",
+      "line": 2563
+    },
+    "Old_amber": {
+      "translation": "老琥珀",
+      "line": 2563
+    },
+    "Root_fossil": {
+      "translation": "根化石",
+      "line": 2563
+    },
+    "Claw_fossil": {
+      "translation": "爪化石",
+      "line": 2563
+    },
+    "Armor_fossil": {
+      "translation": "铠甲化石",
+      "line": 2563
+    },
+    "Skull_fossil": {
+      "translation": "头骨化石",
+      "line": 2563
+    },
+    "Cover_fossil": {
+      "translation": "封面_化石",
+      "line": 2563
+    },
+    "Plume_fossil": {
+      "translation": "羽化石",
+      "line": 2563
+    },
+    "Jaw_fossil": {
+      "translation": "下颌化石",
+      "line": 2563
+    },
+    "Sail_fossil": {
+      "translation": "帆化石",
+      "line": 2563
+    },
+    "Fossilized_bird": {
+      "translation": "化石鸟",
+      "line": 2563
+    },
+    "Fossilized_fish": {
+      "translation": "化石鱼",
+      "line": 2563
+    },
+    "Fossilized_drake": {
+      "translation": "化石龙",
+      "line": 2563
+    },
+    "Fossilized_dino": {
+      "translation": "恐龙化石",
+      "line": 2563
+    },
+    "Fire_stone": {
+      "translation": "火石",
+      "line": 2564
+    },
+    "Water_stone": {
+      "translation": "水石",
+      "line": 2564
+    },
+    "Thunder_stone": {
+      "translation": "雷石",
+      "line": 2564
+    },
+    "Leaf_stone": {
+      "translation": "叶石",
+      "line": 2564
+    },
+    "Moon_stone": {
+      "translation": "月光石",
+      "line": 2564
+    },
+    "Sun_stone": {
+      "translation": "日之石",
+      "line": 2564
+    },
+    "Shiny_stone": {
+      "translation": "异色的石头",
+      "line": 2564
+    },
+    "Dusk_stone": {
+      "translation": "黄昏石",
+      "line": 2564
+    },
+    "Dawn_stone": {
+      "translation": "黎明石",
+      "line": 2564
+    },
+    "Ice_stone": {
+      "translation": "冰石",
+      "line": 2564
+    },
+    "Red_shard": {
+      "translation": "红_碎片",
+      "line": 2565
+    },
+    "Yellow_shard": {
+      "translation": "黄_碎片",
+      "line": 2565
+    },
+    "Green_shard": {
+      "translation": "绿色_碎片",
+      "line": 2565
+    },
+    "Blue_shard": {
+      "translation": "蓝_碎片",
+      "line": 2565
+    },
+    "Grey_shard": {
+      "translation": "灰_碎片",
+      "line": 2565
+    },
+    "Purple_shard": {
+      "translation": "紫色碎片",
+      "line": 2565
+    },
+    "Ochre_shard": {
+      "translation": "赭石_碎片",
+      "line": 2565
+    },
+    "Black_shard": {
+      "translation": "黑碎片",
+      "line": 2565
+    },
+    "Crimson_shard": {
+      "translation": "Crimson_shard",
+      "line": 2565
+    },
+    "Lime_shard": {
+      "translation": "石灰_碎片",
+      "line": 2565
+    },
+    "White_shard": {
+      "translation": "白碎片",
+      "line": 2565
+    },
+    "Pink_shard": {
+      "translation": "粉红_碎片",
+      "line": 2565
+    },
+    "Cyan_shard": {
+      "translation": "青色_碎片",
+      "line": 2565
+    },
+    "Rose_shard": {
+      "translation": "玫瑰碎片",
+      "line": 2565
+    },
+    "Brown_shard": {
+      "translation": "棕色碎片",
+      "line": 2565
+    },
+    "${it.name} is not a valid item to store.": {
+      "translation": "",
+      "line": 2572
+    },
+    "catchFilters.invertPriorityOrder": {
+      "translation": "捕获过滤器优先级反转（从下到上）",
+      "line": 2609
+    },
+    "The Sick Ampharos": {
+      "translation": "",
+      "line": 2627
+    },
+    "Eater of Light": {
+      "translation": "光之吞噬者",
+      "line": 2658
+    },
+    "Welcome to Paradise, Cousin!": {
+      "translation": "欢迎来到天堂，表弟！",
+      "line": 2678
+    },
+    "Z-Power_Ring": {
+      "translation": "Z-Power_Ring",
+      "line": 2683
+    },
+    "Symbiotic Relations": {
+      "translation": "共生关系",
+      "line": 2688
+    },
+    "Child of the Stars": {
+      "translation": "星星之子",
+      "line": 2692
+    },
+    "breedingType1Filter": {
+      "translation": "养殖Type1过滤器",
+      "line": 2720
+    },
+    "breedingType2Filter": {
+      "translation": "养殖Type2过滤器",
+      "line": 2720
+    },
+    "breedingRegionalAttackDebuffSetting": {
+      "translation": "breedingRegionalAttackDebuffSetting",
+      "line": 2720
+    },
+    "true": {
+      "translation": "真的",
+      "line": 2730
+    },
+    "Route 3 Pokémon Center": {
+      "translation": "3号公路宝可梦中心",
+      "line": 2739
+    },
+    "Route 4 Pokémon Center": {
+      "translation": "4号公路宝可梦中心",
+      "line": 2740
+    },
+    "all": {
+      "translation": "全部",
+      "line": 2756
+    },
+    "Energy_Max": {
+      "translation": "最大能量",
+      "line": 2767
+    },
+    "Items_Max": {
+      "translation": "最大物品数",
+      "line": 2768
+    },
+    "Items_Min": {
+      "translation": "物品_最小值",
+      "line": 2769
+    },
+    "Energy_Gain": {
+      "translation": "能量增益",
+      "line": 2770
+    },
+    "Energy_Regen_Time": {
+      "translation": "能量_再生_时间",
+      "line": 2771
+    },
+    "Daily_Deals_Max": {
+      "translation": "每日交易最多",
+      "line": 2772
+    },
+    "Bomb_Efficiency": {
+      "translation": "炸弹效率",
+      "line": 2773
+    },
+    "Survey_Cost": {
+      "translation": "调查_成本",
+      "line": 2774
+    },
+    "Items_All": {
+      "translation": "物品_全部",
+      "line": 2775
+    },
+    "Reduced_Shards": {
+      "translation": "减少_碎片",
+      "line": 2776
+    },
+    "Reduced_Plates": {
+      "translation": "减少_板块",
+      "line": 2777
+    },
+    "Reduced_Evolution_Items": {
+      "translation": "减少的_进化_项目",
+      "line": 2778
+    },
+    "Reduced_Fossil_Pieces": {
+      "translation": "减少化石碎片",
+      "line": 2779
+    },
+    "Underground refund": {
+      "translation": "采掘场退款",
+      "line": 2790
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 2794
+    },
+    "./assets/images/currency/diamond.svg": {
+      "translation": "",
+      "line": 2794
+    },
+    "Underground changes": {
+      "translation": "采掘场变更",
+      "line": 2800
+    },
+    "btn btn-block btn-secondary": {
+      "translation": "",
+      "line": 2804
+    },
+    "UndergroundController.openUndergroundModal()": {
+      "translation": "",
+      "line": 2804
+    },
+    "never": {
+      "translation": "绝不",
+      "line": 2824
+    },
+    "limited": {
+      "translation": "有限的",
+      "line": 2826
+    },
+    "extended": {
+      "translation": "扩展",
+      "line": 2826
+    },
+    "Pokemon HQ Lab": {
+      "translation": "宝可梦总部实验室",
+      "line": 2831
+    },
+    "Pokémon HQ Lab": {
+      "translation": "宝可梦总部实验室",
+      "line": 2832
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 2900
+    },
+    "New Shadow": {
+      "translation": "新暗影",
+      "line": 2902
+    },
+    "discord-rp.line-1": {
+      "translation": "不和谐-rp.line-1",
+      "line": 2927
+    },
+    "{underground_trades}": {
+      "translation": "",
+      "line": 2928
+    },
+    "discord-rp.line-2": {
+      "translation": "不和谐-rp.line-2",
+      "line": 2930
+    },
+    "eternalfloettegift": {
+      "translation": "永恒的飘逸礼物",
+      "line": 2949
+    },
+    "magearnamysterygift": {
+      "translation": "玛格纳神秘礼物",
+      "line": 2953
+    },
+    "./package.json": {
+      "translation": "",
+      "line": 2981
+    },
+    "json": {
+      "translation": "",
+      "line": 2982
+    },
+    "[UPDATE] v${result.version}": {
+      "translation": "",
+      "line": 2988
+    },
+    "A newer version of the game is available:\n\n<a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">Reload Page</a>": {
+      "translation": "",
+      "line": 2989
+    },
+    "btn btn-warning btn-block": {
+      "translation": "",
+      "line": 2989
+    },
+    "location.reload(true);": {
+      "translation": "",
+      "line": 2989
+    },
+    "[update] Unable to check for new version": {
+      "translation": "[更新] 无法检查新版本",
+      "line": 2996
+    },
+    "btn btn-block btn-warning": {
+      "translation": "btn btn-阻止 btn-警告",
+      "line": 3029
+    },
+    "Click to Backup Save!": {
+      "translation": "点击备份保存！",
+      "line": 3030
+    },
+    "Failed to create backup button data:": {
+      "translation": "无法创建备份按钮数据：",
+      "line": 3032
+    },
+    "Save version is newer than game version!": {
+      "translation": "存档版本比游戏版本更新！",
+      "line": 3060
+    },
+    "Please update your game before attempting to load this save..\n\nSave version: ${this.saveVersion}\nGame version: ${this.version}": {
+      "translation": "",
+      "line": 3061
+    },
+    "Save is newer than game version\nSave version: ${this.saveVersion}\nGame version: ${this.version}": {
+      "translation": "",
+      "line": 3065
+    },
+    "Applying update v${version}": {
+      "translation": "",
+      "line": 3088
+    },
+    "Caught error while applying update v${version}:\n": {
+      "translation": "",
+      "line": 3092
+    },
+    "Caught error while backing up save file to localStorage:\n": {
+      "translation": "",
+      "line": 3097
+    },
+    "Failed to update to v${this.version}!": {
+      "translation": "",
+      "line": 3103
+    },
+    "Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a>.\n\nUnable to prepare backup save for download. Your save file is safe, but report this error as well.": {
+      "translation": "",
+      "line": 3104
+    },
+    "text-light": {
+      "translation": "",
+      "line": 3104
+    },
+    "Reset your save - This is not reversible": {
+      "translation": "重置你的保存 - 这是不可逆的",
+      "line": 3113
+    },
+    "failedUpdateResetButton": {
+      "translation": "",
+      "line": 3114
+    },
+    "Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a> along with your save file.\n\n${backupButton.outerHTML}\n${resetButton.outerHTML}": {
+      "translation": "",
+      "line": 3118
+    },
+    "Reset save": {
+      "translation": "重置存档",
+      "line": 3127
+    },
+    "Are you sure you want to reset your save?\n\nThis cannot be undone, so please make sure you have a backup first!": {
+      "translation": "",
+      "line": 3128
+    },
+    "Reset": {
+      "translation": "重置",
+      "line": 3130
+    },
+    "player${Save.key}": {
+      "translation": "",
+      "line": 3135
+    },
+    "save${Save.key}": {
+      "translation": "",
+      "line": 3136
+    },
+    "settings${Save.key}": {
+      "translation": "",
+      "line": 3137
+    },
+    "[v${this.version}] Game has been updated!": {
+      "translation": "",
+      "line": 3155
+    },
+    "modal": {
+      "translation": "",
+      "line": 3156
+    },
+    "Check the <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>changelog</u></a> for details!\n\n${backupButton.outerHTML}": {
+      "translation": "",
+      "line": 3156
+    },
+    "Error trying to convert backup save": {
+      "translation": "尝试转换备份保存时出错",
+      "line": 3161
+    },
+    "Check the <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>changelog</u></a> for details!\n\n<i>Failed to download old save. Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a>.</i>": {
+      "translation": "",
+      "line": 3164
+    },
+    "Caught error while backing up old save file to localStorage:\n": {
+      "translation": "",
+      "line": 3171
+    },
+    "Error getting player data": {
+      "translation": "获取玩家数据时出错",
+      "line": 3447
+    },
+    "Error setting player data": {
+      "translation": "设置玩家数据时出错",
+      "line": 3457
+    },
+    "Error getting save data": {
+      "translation": "获取保存数据时出错",
+      "line": 3466
+    },
+    "Error setting save data": {
+      "translation": "设置保存数据错误",
+      "line": 3476
+    },
+    "Error getting settings data": {
+      "translation": "获取设置数据时出错",
+      "line": 3485
+    },
+    "Error setting settings data": {
+      "translation": "设置数据错误",
+      "line": 3495
+    }
+  }
+}

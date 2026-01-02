@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/UndergroundItemsFoundRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Collect ${this.requiredValue} item${suffix} from the Underground mines.": {
+      "translation": "",
+      "line": 15
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/ChristmasPresent.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 4
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 3
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 4
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 5
+    },
+    "./Item": {
+      "translation": "",
+      "line": 6
+    },
+    "Christmas_present": {
+      "translation": "圣诞礼物",
+      "line": 11
+    },
+    "Christmas Present": {
+      "translation": "圣诞礼物",
+      "line": 11
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 28
+    },
+    "assets/images/currency/${Currency[cur]}.svg": {
+      "translation": "",
+      "line": 28
+    },
+    "You opened the gift and received <img src=\"assets/images/currency/${Currency[cur]}.svg\" height=\"24px\"/> ${amount.toLocaleString('en-US')}.": {
+      "translation": "",
+      "line": 28
+    },
+    "A lovely Christmas Present.": {
+      "translation": "一份可爱的圣诞礼物。",
+      "line": 36
+    }
+  }
+}

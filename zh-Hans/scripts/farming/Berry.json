@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/Berry.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 28,
+    "translatedCount": 28
+  },
+  "entries": {
+    "Tangela": {
+      "translation": "蔓藤怪",
+      "line": 17
+    },
+    "Scyther": {
+      "translation": "飞天螳螂",
+      "line": 17
+    },
+    "Pineco": {
+      "translation": "榛果球",
+      "line": 18
+    },
+    "Heracross": {
+      "translation": "赫拉克罗斯",
+      "line": 18
+    },
+    "Cherubi": {
+      "translation": "樱花宝",
+      "line": 19
+    },
+    "Sewaddle": {
+      "translation": "虫宝包",
+      "line": 20
+    },
+    "Karrablast": {
+      "translation": "盖盖虫",
+      "line": 20
+    },
+    "Scatterbug": {
+      "translation": "粉蝶虫",
+      "line": 21
+    },
+    "Cutiefly": {
+      "translation": "萌虻",
+      "line": 22
+    },
+    "Bounsweet": {
+      "translation": "甜竹竹",
+      "line": 22
+    },
+    "Blipbug": {
+      "translation": "索侦虫",
+      "line": 23
+    },
+    "Gossifleur": {
+      "translation": "幼棉棉",
+      "line": 23
+    },
+    "Ledyba": {
+      "translation": "芭瓢虫",
+      "line": 31
+    },
+    "Flabébé (Red)": {
+      "translation": "[[Flabébé]] [[alt.red]]",
+      "line": 31
+    },
+    "Oricorio (Baile)": {
+      "translation": "[[Oricorio]] 热辣热辣风格",
+      "line": 31
+    },
+    "Illumise": {
+      "translation": "甜甜萤",
+      "line": 32
+    },
+    "Oricorio (Sensu)": {
+      "translation": "[[Oricorio]] 轻盈轻盈风格",
+      "line": 32
+    },
+    "Spewpa": {
+      "translation": "粉蝶蛹",
+      "line": 33
+    },
+    "Oricorio (Pa'u)": {
+      "translation": "[[Oricorio]] 呼拉呼拉风格",
+      "line": 33
+    },
+    "Burmy (Plant)": {
+      "translation": "[[Burmy]] [[alt.plant]]",
+      "line": 34
+    },
+    "Combee": {
+      "translation": "三蜜蜂",
+      "line": 35
+    },
+    "Flabébé (Yellow)": {
+      "translation": "[[Flabébé]] [[alt.yellow]]",
+      "line": 35
+    },
+    "Oricorio (Pom-Pom)": {
+      "translation": "[[Oricorio]] 啪滋啪滋风格",
+      "line": 35
+    },
+    "Volbeat": {
+      "translation": "电萤虫",
+      "line": 36
+    },
+    "Flabébé (Blue)": {
+      "translation": "[[Flabébé]] [[alt.blue]]",
+      "line": 36
+    },
+    "Flabébé (White)": {
+      "translation": "[[Flabébé]] [[alt.white]]",
+      "line": 37
+    },
+    "Flabébé (Orange)": {
+      "translation": "[[Flabébé]] [[alt.orange]]",
+      "line": 38
+    },
+    "<br/>": {
+      "translation": "<br/>",
+      "line": 65
+    }
+  }
+}

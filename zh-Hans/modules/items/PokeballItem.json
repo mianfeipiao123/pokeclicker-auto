@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/PokeballItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Item": {
+      "translation": "",
+      "line": 2
+    },
+    "./types": {
+      "translation": "",
+      "line": 3
+    },
+    "A ball for catching Pokémon.": {
+      "translation": "用于捕捉宝可梦的球。",
+      "line": 9
+    },
+    "pokeball": {
+      "translation": "精灵球",
+      "line": 9
+    }
+  }
+}

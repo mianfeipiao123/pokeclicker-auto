@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/BerryItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/BerryType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "./Item": {
+      "translation": "",
+      "line": 3
+    },
+    "${BerryType[berry]}Berry": {
+      "translation": "",
+      "line": 9
+    },
+    "${BerryType[berry]} Berry": {
+      "translation": "",
+      "line": 9
+    },
+    "Obtain a ${this.berryName}<br/><i>(No Oak Item challenge runs only)</i>": {
+      "translation": "",
+      "line": 18
+    },
+    "assets/images/items/berry/${this.berryName}.png": {
+      "translation": "",
+      "line": 29
+    }
+  }
+}

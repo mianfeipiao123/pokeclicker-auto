@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/MulchItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../enums/MulchType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 3
+    },
+    "./Item": {
+      "translation": "",
+      "line": 4
+    },
+    "./types": {
+      "translation": "",
+      "line": 5
+    },
+    "farm": {
+      "translation": "农场",
+      "line": 11
+    }
+  }
+}

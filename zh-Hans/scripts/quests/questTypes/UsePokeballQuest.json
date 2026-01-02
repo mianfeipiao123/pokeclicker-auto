@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/UsePokeballQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 3
+  },
+  "entries": {
+    "Lavender Town": {
+      "translation": "薰衣草小镇",
+      "line": 15
+    },
+    "Fuchsia City": {
+      "translation": "浅红市",
+      "line": 18
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 34
+    },
+    "Use ${this.amount.toLocaleString('en-US')} ${ItemList[GameConstants.Pokeball[this.pokeball]].displayName}s.": {
+      "translation": "",
+      "line": 34
+    }
+  }
+}

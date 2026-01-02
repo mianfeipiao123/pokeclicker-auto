@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/CaptureSpecificPokemonQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "or hatch ": {
+      "translation": "",
+      "line": 17
+    },
+    "Capture ${this.includeBreeding ? 'or hatch ' : ''}${this.pokemon.name}.": {
+      "translation": "",
+      "line": 17
+    },
+    "Capture ${this.includeBreeding ? 'or hatch ' : ''}${this.pokemon.name} ${this.amount} times.": {
+      "translation": "",
+      "line": 19
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/NotificationSetting.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 8
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../notifications/NotificationOption": {
+      "translation": "",
+      "line": 2
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 3
+    },
+    "./BooleanSetting": {
+      "translation": "",
+      "line": 4
+    },
+    "${name}.desktop": {
+      "translation": "",
+      "line": 17
+    },
+    "Notification": {
+      "translation": "通知",
+      "line": 20
+    },
+    "Desktop notifications blocked": {
+      "translation": "桌面通知已被阻止",
+      "line": 23
+    },
+    "Your browser does not support desktop notifications.": {
+      "translation": "你的浏览器不支持桌面通知。",
+      "line": 24
+    },
+    "granted": {
+      "translation": "的确",
+      "line": 29
+    },
+    "denied": {
+      "translation": "被拒绝",
+      "line": 29
+    },
+    "Your browser is blocking desktop notifications.": {
+      "translation": "你的浏览器阻止了桌面通知。",
+      "line": 36
+    },
+    "settings": {
+      "translation": "设置",
+      "line": 48
+    }
+  }
+}

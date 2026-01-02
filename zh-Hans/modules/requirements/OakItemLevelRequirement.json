@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/OakItemLevelRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./Requirement": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 3
+    }
+  }
+}

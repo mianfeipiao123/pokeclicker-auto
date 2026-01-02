@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/UndergroundUseToolRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 1
+    },
+    "../underground/tools/UndergroundToolType": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "any tool": {
+      "translation": "",
+      "line": 20
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 20
+    },
+    "Requires using ${this.toolType ? humanifyString(UndergroundToolType[this.toolType]) : 'any tool'} ${this.requiredValue.toLocaleString('en-US')} times.": {
+      "translation": "",
+      "line": 20
+    }
+  }
+}

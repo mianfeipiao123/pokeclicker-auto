@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/SubregionRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../subRegion/SubRegions": {
+      "translation": "",
+      "line": 2
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 3
+    },
+    "You need to be in the ${SubRegions.getSubRegionById(this.region, this.subregion)} subregion of ${camelCaseToString(Region[this.region])}.": {
+      "translation": "",
+      "line": 15
+    }
+  }
+}

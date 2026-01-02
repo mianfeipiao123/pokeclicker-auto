@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/Setting.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 5
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 4
+    },
+    "./SettingOption": {
+      "translation": "",
+      "line": 5
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 6
+    },
+    "../utilities/GameLoadState": {
+      "translation": "",
+      "line": 7
+    },
+    "function": {
+      "translation": "功能",
+      "line": 39
+    },
+    "string": {
+      "translation": "细绳",
+      "line": 61
+    },
+    "\"${value}\"": {
+      "translation": "",
+      "line": 61
+    },
+    "[object Object]": {
+      "translation": "[对象对象]",
+      "line": 62
+    },
+    "${value.constructor.name} object": {
+      "translation": "",
+      "line": 63
+    },
+    "settings": {
+      "translation": "设置",
+      "line": 109
+    }
+  }
+}

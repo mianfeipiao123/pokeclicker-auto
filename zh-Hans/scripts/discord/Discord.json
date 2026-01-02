@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/discord/Discord.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 24,
+    "translatedCount": 20
+  },
+  "entries": {
+    "discord": {
+      "translation": "不和谐",
+      "line": 2
+    },
+    "Unown (D)": {
+      "translation": "[[Unown]] (D)",
+      "line": 11
+    },
+    "An alternate form of Unown.": {
+      "translation": "",
+      "line": 11
+    },
+    "Unown (I)": {
+      "translation": "[[Unown]] (一)",
+      "line": 12
+    },
+    "Unown (S)": {
+      "translation": "[[Unown]] (S)",
+      "line": 13
+    },
+    "Unown (C)": {
+      "translation": "[[Unown]] (C)",
+      "line": 14
+    },
+    "Unown (O)": {
+      "translation": "[[Unown]] (O)",
+      "line": 15
+    },
+    "Unown (R)": {
+      "translation": "[[Unown]] (R)",
+      "line": 16
+    },
+    "Surfing Pikachu": {
+      "translation": "冲浪[[Pikachu]]",
+      "line": 17
+    },
+    "It's a Pikachu on a surfboard!": {
+      "translation": "",
+      "line": 17
+    },
+    "Rotom (Discord)": {
+      "translation": "Discord[[Rotom]]",
+      "line": 18
+    },
+    "A Discord-style Rotom!": {
+      "translation": "不和谐风格的洛托姆！",
+      "line": 18
+    },
+    "HatcheryHelperLeslie": {
+      "translation": "孵化场助手莱斯利",
+      "line": 19
+    },
+    "Someone to hire in your Daycare.": {
+      "translation": "你的日托中心雇用的人。",
+      "line": 19
+    },
+    "$DISCORD_ENABLED": {
+      "translation": "$DISCORD_ENABLED",
+      "line": 25
+    },
+    "discordID": {
+      "translation": "discordID",
+      "line": 34
+    },
+    "Successfully logged in to Discord!": {
+      "translation": "已成功登录Discord！",
+      "line": 38
+    },
+    "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${encodeURIComponent(location.origin + location.pathname)}": {
+      "translation": "",
+      "line": 48
+    },
+    "Unlink Discord?": {
+      "translation": "解除不和谐链接？",
+      "line": 54
+    },
+    "Are you sure?": {
+      "translation": "你确定吗？",
+      "line": 55
+    },
+    "Continue": {
+      "translation": "继续",
+      "line": 57
+    },
+    "Discord integration not enabled": {
+      "translation": "未启用 Discord 集成",
+      "line": 107
+    },
+    "You must sign in to Discord before attempting to use this code": {
+      "translation": "在尝试使用此代码之前，你必须先登录Discord",
+      "line": 115
+    },
+    "Invalid code ${enteredCode}": {
+      "translation": "",
+      "line": 127
+    }
+  }
+}

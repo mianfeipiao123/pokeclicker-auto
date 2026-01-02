@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/BuyPokeballsQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 14
+    },
+    "Buy ${this.amount.toLocaleString('en-US')} ${ItemList[GameConstants.Pokeball[this.pokeball]].displayName}s.": {
+      "translation": "",
+      "line": 14
+    }
+  }
+}

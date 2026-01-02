@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/translation/Translation.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 26,
+    "translatedCount": 10
+  },
+  "entries": {
+    "i18next": {
+      "translation": "i18下一个",
+      "line": 1
+    },
+    "i18next-chained-backend": {
+      "translation": "",
+      "line": 2
+    },
+    "i18next-http-backend": {
+      "translation": "",
+      "line": 3
+    },
+    "i18next-browser-languagedetector": {
+      "translation": "",
+      "line": 4
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 5
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 6
+    },
+    "../settings/Setting": {
+      "translation": "",
+      "line": 7
+    },
+    "../utilities/memoize": {
+      "translation": "",
+      "line": 8
+    },
+    "./Language": {
+      "translation": "",
+      "line": 9
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 10
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 11
+    },
+    "pokemon": {
+      "translation": "宝可梦",
+      "line": 13
+    },
+    "logbook": {
+      "translation": "航海日志",
+      "line": 13
+    },
+    "settings": {
+      "translation": "设置",
+      "line": 13
+    },
+    "questlines": {
+      "translation": "任务线",
+      "line": 13
+    },
+    "translations": {
+      "translation": "翻译",
+      "line": 51
+    },
+    "github:": {
+      "translation": "",
+      "line": 52
+    },
+    "Using ${translationsUrlOverride} for translations": {
+      "translation": "",
+      "line": 57
+    },
+    "true": {
+      "translation": "真的",
+      "line": 61
+    },
+    "en": {
+      "translation": "zh",
+      "line": 73
+    },
+    "$TRANSLATIONS_URL": {
+      "translation": "",
+      "line": 78
+    },
+    "${translationsUrlOverride ?? '$TRANSLATIONS_URL'}/locales/{{lng}}/{{ns}}.json": {
+      "translation": "",
+      "line": 78
+    },
+    "./locales/{{lng}}/{{ns}}.json": {
+      "translation": "",
+      "line": 79
+    },
+    "initialized": {
+      "translation": "已初始化",
+      "line": 91
+    },
+    "Failed to create hashed translation key for '${namespace}.${key}' as the default translation was missing or blank": {
+      "translation": "",
+      "line": 120
+    },
+    "Translation cache encountered conflicting default values for key '${namespace}.${key}':\n\"${cached}\"\n\"${defaultValue}\"": {
+      "translation": "",
+      "line": 132
+    }
+  }
+}

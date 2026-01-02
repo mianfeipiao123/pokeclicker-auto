@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/weather/WeatherForecast.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../enums/WeatherForecastStatus": {
+      "translation": "",
+      "line": 2
+    },
+    "./WeatherType": {
+      "translation": "",
+      "line": 3
+    }
+  }
+}

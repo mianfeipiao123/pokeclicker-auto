@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/pokeballs/Pokeballs.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 21,
+    "translatedCount": 21
+  },
+  "entries": {
+    "Pokeballs": {
+      "translation": "精灵球",
+      "line": 5
+    },
+    "pokeballs": {
+      "translation": "精灵球",
+      "line": 6
+    },
+    "A standard Poké Ball": {
+      "translation": "一个标准的精灵球",
+      "line": 17
+    },
+    "+5% chance to catch": {
+      "translation": "+5% 抓住机会",
+      "line": 18
+    },
+    "+10% chance to catch": {
+      "translation": "+10% 抓住机会",
+      "line": 19
+    },
+    "100% chance to catch": {
+      "translation": "100%抓住机会",
+      "line": 20
+    },
+    "Reduced catch time": {
+      "translation": "减少捕获时间",
+      "line": 21
+    },
+    "Increased catch rate on routes with less Pokémon defeated": {
+      "translation": "击败宝可梦较少的路线上的捕获率提高",
+      "line": 35
+    },
+    "Increased catch rate on routes with more Pokémon defeated": {
+      "translation": "打败更多宝可梦的路线上的捕获率提高",
+      "line": 52
+    },
+    "Increased catch rate at night time or in dungeons": {
+      "translation": "夜间或迷宫中的捕获率提高",
+      "line": 60
+    },
+    "A Luxury Poké Ball, awards a random currency for catches": {
+      "translation": "豪华精灵球，捕获后奖励随机货币",
+      "line": 62
+    },
+    "Water": {
+      "translation": "水",
+      "line": 70
+    },
+    "Increased catch rate in water environments": {
+      "translation": "提高水环境中的捕获率",
+      "line": 74
+    },
+    "Increased catch rate on fished Pokémon": {
+      "translation": "提高了捕获的宝可梦的捕获率",
+      "line": 90
+    },
+    "Increased catch rate on earlier routes": {
+      "translation": "提高早期路线的捕获率",
+      "line": 109
+    },
+    "Increased catch rate for Pokémon captured more times, plus higher EV gains": {
+      "translation": "提高了宝可梦的捕获率，捕获了更多次，并且获得了更高的努力值增益",
+      "line": 115
+    },
+    "Can only be used on Ultra Beasts": {
+      "translation": "只能对究极异兽使用",
+      "line": 119
+    },
+    "Anabel": {
+      "translation": "安娜贝尔",
+      "line": 119
+    },
+    "Increased catch rate by the light of the moon": {
+      "translation": "借助月光提高捕获率",
+      "line": 129
+    },
+    "Challenge Mode": {
+      "translation": "挑战模式",
+      "line": 146
+    },
+    "Master Balls are disabled!": {
+      "translation": "大师球被禁用！",
+      "line": 147
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/MegaEvolveRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 9,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/mapProvider": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 4
+    },
+    "Use a Key Stone to Mega Evolve.": {
+      "translation": "使用钥匙石进行超级进化。",
+      "line": 21
+    },
+    "${this.name} needs the ${humanifyString(MegaStoneType[this.megaStone])} Mega Stone.": {
+      "translation": "",
+      "line": 25
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 28
+    },
+    "Needs at least ${attackRequired.toLocaleString('en-US')} attack to Mega Evolve.": {
+      "translation": "",
+      "line": 28
+    },
+    "<br />": {
+      "translation": "",
+      "line": 30
+    }
+  }
+}

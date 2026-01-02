@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/shop/ShardTraderShop.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 3
+  },
+  "entries": {
+    "Shard Trader": {
+      "translation": "碎片交易者",
+      "line": 6
+    },
+    "Item": {
+      "translation": "物品",
+      "line": 8
+    },
+    "show": {
+      "translation": "展示",
+      "line": 15
+    }
+  }
+}

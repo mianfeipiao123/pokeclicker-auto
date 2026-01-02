@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/BattleFrontierHighestStageRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Battle Frontier": {
+      "translation": "对战开拓区",
+      "line": 6
+    },
+    "Stage ${this.requiredValue} needs to be completed at the Battle Frontier.": {
+      "translation": "",
+      "line": 14
+    }
+  }
+}

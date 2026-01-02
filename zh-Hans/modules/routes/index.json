@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/routes/index.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./RouteData": {
+      "translation": "",
+      "line": 1
+    },
+    "./Routes": {
+      "translation": "",
+      "line": 3
+    },
+    "./RegionRoute": {
+      "translation": "",
+      "line": 4
+    },
+    "./RoutePokemon": {
+      "translation": "",
+      "line": 5
+    },
+    "./SpecialRoutePokemon": {
+      "translation": "",
+      "line": 6
+    }
+  }
+}

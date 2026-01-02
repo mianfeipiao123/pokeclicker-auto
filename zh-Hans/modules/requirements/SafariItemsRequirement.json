@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/SafariItemsRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "${this.requiredValue} Items needs to be picked up in a Safari Zone.": {
+      "translation": "",
+      "line": 14
+    }
+  }
+}

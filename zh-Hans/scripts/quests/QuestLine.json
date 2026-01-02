@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/QuestLine.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 4
+  },
+  "entries": {
+    "New Quest Line Started!": {
+      "translation": "新任务线开启！",
+      "line": 85
+    },
+    "${this.description}\n<i>\"${this.name}\" added to the Quest List!</i>": {
+      "translation": "",
+      "line": 86
+    },
+    "${this.name}.displayName": {
+      "translation": "",
+      "line": 150
+    },
+    "questlines": {
+      "translation": "任务线",
+      "line": 151
+    },
+    "${this.name}.description": {
+      "translation": "",
+      "line": 161
+    },
+    "This quest line cannot be paused. It is either a story, progression related, or otherwise required quest.": {
+      "translation": "该任务线无法暂停。它要么是一个故事，要么是与进程相关的，要么是其他必需的任务。",
+      "line": 171
+    },
+    "Quest Lines can only be paused while in a town or fighting on a route.": {
+      "translation": "任务线只能在城镇中或在路线上战斗时暂停。",
+      "line": 175
+    },
+    "Pausing this quest line will remove it from your quest list and prevent any progress.<br /><br />It can be resumed from the current step at the Bulletin Board it was originally accepted.": {
+      "translation": "",
+      "line": 178
+    }
+  }
+}

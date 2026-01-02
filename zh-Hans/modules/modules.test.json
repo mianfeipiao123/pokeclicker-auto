@@ -1,0 +1,362 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/modules.test.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 88,
+    "translatedCount": 50
+  },
+  "entries": {
+    "random": {
+      "translation": "随机的",
+      "line": 6
+    },
+    "./Credits": {
+      "translation": "",
+      "line": 10
+    },
+    "Test Credits": {
+      "translation": "测试学分",
+      "line": 12
+    },
+    "should have the correct properties": {
+      "translation": "应该具有正确的属性",
+      "line": 13
+    },
+    "name": {
+      "translation": "名称",
+      "line": 15
+    },
+    "link": {
+      "translation": "",
+      "line": 16
+    },
+    "image": {
+      "translation": "图像",
+      "line": 17
+    },
+    "resources": {
+      "translation": "",
+      "line": 18
+    },
+    "./GameConstants": {
+      "translation": "",
+      "line": 42
+    },
+    "Test GameConstants": {
+      "translation": "测试游戏常数",
+      "line": 44
+    },
+    "clean html strings": {
+      "translation": "干净的 html 字符串",
+      "line": 45
+    },
+    "<div onclick=\"alert('test')\">Text here</div>": {
+      "translation": "",
+      "line": 46
+    },
+    "&#60;div onclick=&#34;alert&#40;'test'&#41;&#34;&#62;Text here&#60;/div&#62;": {
+      "translation": "",
+      "line": 46
+    },
+    "alert('test')": {
+      "translation": "",
+      "line": 46
+    },
+    "humanify variable strings": {
+      "translation": "人性化变量字符串",
+      "line": 48
+    },
+    "probably_a_variable_name": {
+      "translation": "",
+      "line": 49
+    },
+    "probably a variable name": {
+      "translation": "可能是变量名",
+      "line": 49
+    },
+    "humanify camelcase strings": {
+      "translation": "人性化驼峰字符串",
+      "line": 51
+    },
+    "probablyAVariableName": {
+      "translation": "",
+      "line": 52
+    },
+    "Probably A Variable Name": {
+      "translation": "可能是变量名",
+      "line": 52
+    },
+    "pluralize strings": {
+      "translation": "复数字符串",
+      "line": 54
+    },
+    "test": {
+      "translation": "",
+      "line": 55
+    },
+    "tests": {
+      "translation": "",
+      "line": 56
+    },
+    "crunch": {
+      "translation": "",
+      "line": 57
+    },
+    "crunches": {
+      "translation": "",
+      "line": 57
+    },
+    "crunchy": {
+      "translation": "",
+      "line": 58
+    },
+    "crunchies": {
+      "translation": "",
+      "line": 58
+    },
+    "glasses": {
+      "translation": "",
+      "line": 59
+    },
+    "format dates": {
+      "translation": "设置日期格式",
+      "line": 61
+    },
+    "format time string from seconds": {
+      "translation": "从秒开始格式化时间字符串",
+      "line": 64
+    },
+    "Ready": {
+      "translation": "准备好",
+      "line": 66
+    },
+    "format times from seconds with full letters": {
+      "translation": "用完整字母格式化从秒开始的时间",
+      "line": 69
+    },
+    "01w 04d 13h": {
+      "translation": "01周04日13小时",
+      "line": 70
+    },
+    "02h 46m 40s": {
+      "translation": "02小时46分40秒",
+      "line": 71
+    },
+    "format times until ms with short words": {
+      "translation": "用简短的单词格式化时间直到毫秒",
+      "line": 74
+    },
+    "< 2 days": {
+      "translation": "< 2天",
+      "line": 75
+    },
+    "< 3 hours": {
+      "translation": "< 3小时",
+      "line": 76
+    },
+    "< 17 mins": {
+      "translation": "< 17分钟",
+      "line": 77
+    },
+    "now": {
+      "translation": "",
+      "line": 78
+    },
+    "format time names from seconds": {
+      "translation": "从秒开始格式化时间名称",
+      "line": 80
+    },
+    "1 week</br>4 days</br>13 hours</br>46 mins</br>40 secs": {
+      "translation": "",
+      "line": 81
+    },
+    "format number amount to string": {
+      "translation": "将数字金额格式化为字符串",
+      "line": 83
+    },
+    "9.8T": {
+      "translation": "",
+      "line": 84
+    },
+    "9.8B": {
+      "translation": "",
+      "line": 85
+    },
+    "6.5M": {
+      "translation": "",
+      "line": 86
+    },
+    "3.2K": {
+      "translation": "",
+      "line": 87
+    },
+    "Aspertia City": {
+      "translation": "阿斯佩蒂亚市",
+      "line": 98
+    },
+    "Not a real gym": {
+      "translation": "不是真正的道馆",
+      "line": 99
+    },
+    "Abundant Shrine": {
+      "translation": "丰富的神社",
+      "line": 106
+    },
+    "Not a real dungeon": {
+      "translation": "不是真正的迷宫",
+      "line": 107
+    },
+    "Underground Fighting Ring": {
+      "translation": "地下格斗场",
+      "line": 114
+    },
+    "Not a real temp battle": {
+      "translation": "不是真正的临时战",
+      "line": 115
+    },
+    "./GameHelper": {
+      "translation": "",
+      "line": 119
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 121
+    },
+    "Test GameHelper": {
+      "translation": "测试游戏助手",
+      "line": 124
+    },
+    "current time": {
+      "translation": "当前时间",
+      "line": 125
+    },
+    "time until tomorrow": {
+      "translation": "直到明天的时间",
+      "line": 128
+    },
+    "23h14m": {
+      "translation": "",
+      "line": 130
+    },
+    "increment observables": {
+      "translation": "增加可观察量",
+      "line": 133
+    },
+    "less": {
+      "translation": "",
+      "line": 144
+    },
+    "equal": {
+      "translation": "",
+      "line": 144
+    },
+    "more": {
+      "translation": "",
+      "line": 144
+    },
+    "tick": {
+      "translation": "",
+      "line": 151
+    },
+    "update day, today": {
+      "translation": "更新日，今天",
+      "line": 157
+    },
+    "format number amount string": {
+      "translation": "格式数字金额字符串",
+      "line": 164
+    },
+    "9876b": {
+      "translation": "",
+      "line": 165
+    },
+    "9b": {
+      "translation": "",
+      "line": 166
+    },
+    "6m": {
+      "translation": "",
+      "line": 167
+    },
+    "3k": {
+      "translation": "",
+      "line": 168
+    },
+    "create an array": {
+      "translation": "创建一个数组",
+      "line": 172
+    },
+    "remove falsy values from end of an array": {
+      "translation": "从数组末尾删除虚假值",
+      "line": 176
+    },
+    "Pikachu": {
+      "translation": "皮卡丘",
+      "line": 181
+    },
+    "Eevee": {
+      "translation": "伊布",
+      "line": 182
+    },
+    "an": {
+      "translation": "",
+      "line": 182
+    },
+    "escape regex values from a string": {
+      "translation": "从字符串中转义正则表达式值",
+      "line": 185
+    },
+    "/[Just a test](.*?)/": {
+      "translation": "",
+      "line": 186
+    },
+    "\\\\/\\\\[Just a test\\\\]\\\\(\\\\.\\\\*\\\\?\\\\)\\\\/": {
+      "translation": "",
+      "line": 186
+    },
+    "./SaveSelector": {
+      "translation": "",
+      "line": 190
+    },
+    "encoding": {
+      "translation": "",
+      "line": 192
+    },
+    "encodes and decodes chinese characters": {
+      "translation": "对汉字进行编码和解码",
+      "line": 193
+    },
+    "JUU1JUE2JTk5JUU4JTlCJTk5JUU3JUE3JThEJUU1JUFEJTkw": {
+      "translation": "JUU1JUE2JTk5JUU4JTlCJTk5JUU3JUE3JTheJUU1JUFEJTkw",
+      "line": 196
+    },
+    "encodes and decodes emoji": {
+      "translation": "编码和解码表情符号",
+      "line": 201
+    },
+    "JUYwJTlGJTk5JTgy": {
+      "translation": "JUYwJTlGJTk5JTgy",
+      "line": 204
+    },
+    "encodes and decodes uri encoded strings": {
+      "translation": "对 uri 编码的字符串进行编码和解码",
+      "line": 209
+    },
+    "hello %20 world": {
+      "translation": "你好%20世界",
+      "line": 210
+    },
+    "aGVsbG8gJTI1MjAgd29ybGQ=": {
+      "translation": "",
+      "line": 212
+    },
+    "encodes and decodes non-uri % characters": {
+      "translation": "编码和解码非 uri % 字符",
+      "line": 217
+    },
+    "JTI1ICUyNSAlMjUgJTI1": {
+      "translation": "JTI1ICUYNSALMJUGJTI1",
+      "line": 220
+    }
+  }
+}

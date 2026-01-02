@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/VitaminController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../koExtenders": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "Max": {
+      "translation": "最大",
+      "line": 7
+    },
+    "assets/images/items/vitamin/${vitaminName}.png": {
+      "translation": "",
+      "line": 24
+    }
+  }
+}

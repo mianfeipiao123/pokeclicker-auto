@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/DataStore/BadgeCase.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "./common/Feature": {
+      "translation": "",
+      "line": 2
+    },
+    "../enums/Badges": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 4
+    },
+    "Badge Case": {
+      "translation": "徽章盒",
+      "line": 9
+    },
+    "Earning badges raises the maximum possible level of your Pokémon, up to 100.<br>The max level your Pokémon can currently reach is <b>${maxLevel}</b>.": {
+      "translation": "",
+      "line": 22
+    }
+  }
+}

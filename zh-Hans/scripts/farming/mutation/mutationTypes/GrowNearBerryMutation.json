@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/mutation/mutationTypes/GrowNearBerryMutation.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 0
+  },
+  "entries": {
+    "I've heard that growing ${BerryType[this.berryReqs[0]]} Berries can spread a new Berry into nearby empty plots!": {
+      "translation": "",
+      "line": 53
+    },
+    "ve heard that growing ${this.berryReqs.map(b => BerryType[b]).join(": {
+      "translation": "",
+      "line": 56
+    },
+    ").replace(/, ([\\w\\s]+)$/, ": {
+      "translation": "",
+      "line": 56
+    },
+    "I've heard that growing ${this.berryReqs.map(b => BerryType[b]).join(', ').replace(/, ([\\w\\s]+)$/, ' and $1')} Berries near each other will produce something interesting!": {
+      "translation": "",
+      "line": 56
+    }
+  }
+}

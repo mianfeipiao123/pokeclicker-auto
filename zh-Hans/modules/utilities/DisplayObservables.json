@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/DisplayObservables.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 8
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 4
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 5
+    },
+    "show": {
+      "translation": "展示",
+      "line": 6
+    },
+    "#${elemID}": {
+      "translation": "",
+      "line": 10
+    },
+    "DisplayObservables: ${type} ${elemID} not found, cannot subscribe state observable": {
+      "translation": "",
+      "line": 12
+    },
+    "Observable": {
+      "translation": "可观察的",
+      "line": 31
+    },
+    "modal": {
+      "translation": "",
+      "line": 46
+    },
+    "collapse": {
+      "translation": "坍塌",
+      "line": 53
+    },
+    ".pokeclicker-optional-module [data-toggle=\"collapse\"]": {
+      "translation": "",
+      "line": 63
+    },
+    "href": {
+      "translation": "链接地址",
+      "line": 64
+    },
+    "DisplayObservables: Cannot detect collapse state within an optional module without a static collapse target ID": {
+      "translation": "DisplayObservables：如果没有静态折叠目标 ID，则无法检测可选模块内的折叠状态",
+      "line": 66
+    },
+    "${collapseID}Observable": {
+      "translation": "",
+      "line": 68
+    },
+    "#${collapseID}": {
+      "translation": "",
+      "line": 77
+    }
+  }
+}

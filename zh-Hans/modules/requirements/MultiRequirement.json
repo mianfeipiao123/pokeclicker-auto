@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/MultiRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    " and ": {
+      "translation": "",
+      "line": 20
+    },
+    "${output.join(' and ')}.": {
+      "translation": "",
+      "line": 20
+    }
+  }
+}

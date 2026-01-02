@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/keyItems/KeyItems.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 49,
+    "translatedCount": 36
+  },
+  "entries": {
+    "./KeyItem": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 2
+    },
+    "../utilities/Information": {
+      "translation": "",
+      "line": 3
+    },
+    "./KeyItemController": {
+      "translation": "",
+      "line": 4
+    },
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 8
+    },
+    "Key Items": {
+      "translation": "关键项目",
+      "line": 11
+    },
+    "A television set that is tuned to a program with useful tips for novice TRAINERS.": {
+      "translation": "一台调谐到节目的电视机，其中包含对新手训练者有用的提示。",
+      "line": 24
+    },
+    "Teachy TV": {
+      "translation": "教学电视",
+      "line": 24
+    },
+    "A case for holding Pokédollars.": {
+      "translation": "",
+      "line": 25
+    },
+    "Coin Case": {
+      "translation": "零钱盒",
+      "line": 25
+    },
+    "A small bag that can hold many different types of Poké Balls.": {
+      "translation": "一个小包，可以容纳多种不同类型的精灵球。",
+      "line": 26
+    },
+    "Poké Ball Bag": {
+      "translation": "精灵球袋",
+      "line": 26
+    },
+    "A very convenient map that can be viewed anytime. It even shows you your present location in the region.": {
+      "translation": "非常方便的地图，可以随时查看。它甚至会向你显示你在该地区的当前位置。",
+      "line": 27
+    },
+    "This is the Town Map.<br/>Use this to move to between different Routes, Towns and Dungeons.": {
+      "translation": "",
+      "line": 35
+    },
+    "Town Map": {
+      "translation": "城镇地图",
+      "line": 39
+    },
+    "This ticket grants access to all dungeons in the Kanto region and beyond.<br/><strong>Tip:</strong> You gain Dungeon Tokens by capturing Pokémon.": {
+      "translation": "",
+      "line": 40
+    },
+    "Dungeon Ticket": {
+      "translation": "迷宫门票",
+      "line": 40
+    },
+    "The best fishing rod for catching wild water Pokémon.": {
+      "translation": "捕捉野生水宝可梦的最佳钓鱼竿。",
+      "line": 41
+    },
+    "Super Rod": {
+      "translation": "超级棒",
+      "line": 42
+    },
+    "A device that allows users to see and track Achievements. Completing Achievements gives useful bonuses.": {
+      "translation": "允许用户查看和跟踪成就的设备。完成成就可以获得有用的奖金。",
+      "line": 43
+    },
+    "Victory Road": {
+      "translation": "胜利路",
+      "line": 44
+    },
+    "Holo Caster": {
+      "translation": "全息脚轮",
+      "line": 44
+    },
+    "A mysterious Egg obtained from Mr. Pokémon. This allows you to use the Pokémon Day Care to help improve your Pokémon Attack. Some baby Pokémon can only be found through breeding, too!": {
+      "translation": "从宝可梦先生那里得到的神秘蛋。这使你可以使用宝可梦日托来帮助提高你的宝可梦攻击力。有些宝可梦宝宝也只能通过繁殖才能找到！",
+      "line": 45
+    },
+    "Mystery Egg": {
+      "translation": "神秘蛋",
+      "line": 46
+    },
+    "This ticket grants access to the Safari Zone right outside Fuchsia City.": {
+      "translation": "持此门票可进入浅红市外的野生动物区。",
+      "line": 47
+    },
+    "Safari Ticket": {
+      "translation": "野生动物园门票",
+      "line": 47
+    },
+    "This is a tool for watering Berries to allow you to operate the farm.": {
+      "translation": "这是一个给树果浇水的工具，可以让你经营农场。",
+      "line": 48
+    },
+    "Wailmer Pail": {
+      "translation": "",
+      "line": 49
+    },
+    "A bag filled with convenient tools for exploring. It provides access to the Underground.": {
+      "translation": "一个装满便利探索工具的袋子。它提供通往地铁的通道。",
+      "line": 51
+    },
+    "Explorer Kit": {
+      "translation": "探索者套件",
+      "line": 51
+    },
+    "A limited edition ticket for a cruise to the Southern Island.": {
+      "translation": "南岛游轮限量版船票。",
+      "line": 52
+    },
+    "Eon Ticket": {
+      "translation": "永安票",
+      "line": 52
+    },
+    "This calendar will keep you up to date on the latest events and let you start events early.": {
+      "translation": "此日历将使你了解最新活动并让你尽早开始活动。",
+      "line": 53
+    },
+    "Event Calendar": {
+      "translation": "活动日历",
+      "line": 53
+    },
+    "A case specifically designed for holding gems.": {
+      "translation": "专为存放宝石而设计的盒子。",
+      "line": 54
+    },
+    "Gem Case": {
+      "translation": "宝石盒",
+      "line": 54
+    },
+    "A splicer that fuses certain Pokémon.": {
+      "translation": "融合某些宝可梦的拼接器。",
+      "line": 55
+    },
+    "DNA Splicers": {
+      "translation": "DNA拼合器",
+      "line": 55
+    },
+    "Reins that people presented to the king. They enhance Calyrex’s power over bountiful harvests and unite Calyrex with its beloved steeds.": {
+      "translation": "人们献给国王的缰绳。它们增强了卡里克斯获得丰收的力量，并将卡里克斯与其心爱的战马联合起来。",
+      "line": 56
+    },
+    "Reins of Unity": {
+      "translation": "团结的缰绳",
+      "line": 56
+    },
+    "A virus sample collected from your starter Pokémon. Infect more Pokémon in the hatchery, and use the new Pokérus Poké Ball option to focus catching Contagious pokemon for a damage boost.": {
+      "translation": "从你的入门宝可梦中收集的病毒样本。在孵化场感染更多宝可梦，并使用新的宝可梦球选项集中捕捉传染性宝可梦，以提高伤害。",
+      "line": 58
+    },
+    "Distortion World": {
+      "translation": "扭曲世界",
+      "line": 59
+    },
+    "You can now choose a different ball for Pokémon which are Contagious with Pokérus. This will be helpful for gaining EVs on those Pokémon.</br></br>Note: If you set the Contagious selector to \"Do not catch\", you will not catch Contagious pokemon - even if your Caught selector is set to catch Pokémon.": {
+      "translation": "",
+      "line": 67
+    },
+    "Do not catch": {
+      "translation": "不要抓住",
+      "line": 67
+    },
+    "Pokérus Virus": {
+      "translation": "宝可梦病毒",
+      "line": 73
+    },
+    "Z-Power_Ring": {
+      "translation": "Z-Power_Ring",
+      "line": 80
+    },
+    "A gift from Melemele's kahuna that enables the use of Z-Crystals. What they do is still under development.": {
+      "translation": "",
+      "line": 82
+    },
+    "Z-Power Ring": {
+      "translation": "",
+      "line": 83
+    }
+  }
+}

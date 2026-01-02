@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/ProfNPC.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "${GameConstants.camelCaseToString(GameConstants.Region[this.region])} Master": {
+      "translation": "",
+      "line": 17
+    },
+    "<p>${this.pokedexCompleteText}</p>": {
+      "translation": "",
+      "line": 28
+    },
+    "<p>To progress to the next region, you need to catch all Pokémon native to this region.</p>": {
+      "translation": "",
+      "line": 31
+    },
+    "<p>You still have ${completeDexAchievement.property.requiredValue - completeDexAchievement.getProgress()} left to catch in this region! You're almost there!</p>": {
+      "translation": "",
+      "line": 33
+    },
+    "<p>${this.nextRegionUnlockedText}</p>": {
+      "translation": "",
+      "line": 37
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/types/DamageCalculator.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../weather/WeatherType": {
+      "translation": "",
+      "line": 3
+    },
+    "../pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 5
+    },
+    "../TemporaryScriptTypes": {
+      "translation": "",
+      "line": 6
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/NPCController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 2
+  },
+  "entries": {
+    "npc-modalObservable": {
+      "translation": "npc-modalObservable",
+      "line": 9
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 10
+    }
+  }
+}

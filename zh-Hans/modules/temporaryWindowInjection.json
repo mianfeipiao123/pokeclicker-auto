@@ -1,0 +1,910 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/temporaryWindowInjection.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 225,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./SaveSelector": {
+      "translation": "",
+      "line": 4
+    },
+    "./profile/Profile": {
+      "translation": "",
+      "line": 5
+    },
+    "./DataStore": {
+      "translation": "",
+      "line": 6
+    },
+    "./GameConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "./GameHelper": {
+      "translation": "",
+      "line": 8
+    },
+    "./enums/AuraType": {
+      "translation": "",
+      "line": 10
+    },
+    "./enums/Badges": {
+      "translation": "",
+      "line": 11
+    },
+    "./enums/BerryColor": {
+      "translation": "",
+      "line": 12
+    },
+    "./enums/BerryFirmness": {
+      "translation": "",
+      "line": 13
+    },
+    "./enums/BerryType": {
+      "translation": "",
+      "line": 14
+    },
+    "./enums/SizeUnits": {
+      "translation": "",
+      "line": 15
+    },
+    "./enums/PokemonType": {
+      "translation": "",
+      "line": 16
+    },
+    "./enums/CaughtStatus": {
+      "translation": "",
+      "line": 17
+    },
+    "./enums/EvolutionType": {
+      "translation": "",
+      "line": 18
+    },
+    "./enums/FarmNotificationType": {
+      "translation": "",
+      "line": 19
+    },
+    "./enums/FlavorType": {
+      "translation": "",
+      "line": 20
+    },
+    "./enums/ItemType": {
+      "translation": "",
+      "line": 21
+    },
+    "./enums/KeyItemType": {
+      "translation": "",
+      "line": 22
+    },
+    "./enums/MulchType": {
+      "translation": "",
+      "line": 23
+    },
+    "./enums/PlotStage": {
+      "translation": "",
+      "line": 24
+    },
+    "./quests/QuestLineState": {
+      "translation": "",
+      "line": 25
+    },
+    "./enums/WeatherForecastStatus": {
+      "translation": "",
+      "line": 26
+    },
+    "./enums/SafariEnvironments": {
+      "translation": "",
+      "line": 27
+    },
+    "./enums/FarmingTool": {
+      "translation": "",
+      "line": 28
+    },
+    "./battles/Battle": {
+      "translation": "",
+      "line": 30
+    },
+    "./battles/BattlePokemon": {
+      "translation": "",
+      "line": 31
+    },
+    "./battles/Trainer": {
+      "translation": "",
+      "line": 32
+    },
+    "./gym/GymPokemon": {
+      "translation": "",
+      "line": 33
+    },
+    "./settings/BooleanSetting": {
+      "translation": "",
+      "line": 34
+    },
+    "./settings/RangeSetting": {
+      "translation": "",
+      "line": 35
+    },
+    "./settings/Setting": {
+      "translation": "",
+      "line": 36
+    },
+    "./settings/SettingOption": {
+      "translation": "",
+      "line": 37
+    },
+    "./weather/WeatherType": {
+      "translation": "",
+      "line": 38
+    },
+    "./weather/Weather": {
+      "translation": "",
+      "line": 39
+    },
+    "./weather/WeatherApp": {
+      "translation": "",
+      "line": 40
+    },
+    "./weather/RegionalForecast": {
+      "translation": "",
+      "line": 41
+    },
+    "./weather/WeatherForecast": {
+      "translation": "",
+      "line": 42
+    },
+    "./dayCycle/DayCycle": {
+      "translation": "",
+      "line": 43
+    },
+    "./dayCycle/DayCyclePart": {
+      "translation": "",
+      "line": 44
+    },
+    "./requirements/DayCyclePartRequirement": {
+      "translation": "",
+      "line": 45
+    },
+    "./moonCycle/MoonCycle": {
+      "translation": "",
+      "line": 46
+    },
+    "./moonCycle/MoonCyclePhase": {
+      "translation": "",
+      "line": 47
+    },
+    "./requirements/MoonCyclePhaseRequirement": {
+      "translation": "",
+      "line": 48
+    },
+    "./utilities/SeededRand": {
+      "translation": "",
+      "line": 49
+    },
+    "./utilities/SeededDateRand": {
+      "translation": "",
+      "line": 50
+    },
+    "./utilities/Rand": {
+      "translation": "",
+      "line": 51
+    },
+    "./settings/index": {
+      "translation": "",
+      "line": 52
+    },
+    "./settings/SortOptions": {
+      "translation": "",
+      "line": 53
+    },
+    "./achievements/AchievementSortOptions": {
+      "translation": "",
+      "line": 54
+    },
+    "./achievements/AchievementCategory": {
+      "translation": "",
+      "line": 55
+    },
+    "./notifications/NotificationConstants": {
+      "translation": "",
+      "line": 56
+    },
+    "./notifications/Notifier": {
+      "translation": "",
+      "line": 57
+    },
+    "./logbook/LogBook": {
+      "translation": "",
+      "line": 58
+    },
+    "./logbook/LogBookTypes": {
+      "translation": "",
+      "line": 59
+    },
+    "./changelog/ChangelogItems": {
+      "translation": "",
+      "line": 60
+    },
+    "./codes/RedeemableCode": {
+      "translation": "",
+      "line": 61
+    },
+    "./codes/RedeemableCodes": {
+      "translation": "",
+      "line": 62
+    },
+    "./codes/RedeemableCodeController": {
+      "translation": "",
+      "line": 63
+    },
+    "./breeding/EggType": {
+      "translation": "",
+      "line": 64
+    },
+    "./multiplier/Multiplier": {
+      "translation": "",
+      "line": 65
+    },
+    "./multiplier/MultiplierType": {
+      "translation": "",
+      "line": 66
+    },
+    "./specialEvents/SpecialEvent": {
+      "translation": "",
+      "line": 67
+    },
+    "./specialEvents/SpecialEvents": {
+      "translation": "",
+      "line": 68
+    },
+    "./challenges/Challenges": {
+      "translation": "",
+      "line": 69
+    },
+    "./party/LevelType": {
+      "translation": "",
+      "line": 70
+    },
+    "./wallet/inject": {
+      "translation": "",
+      "line": 71
+    },
+    "./utilities/GenericProxy": {
+      "translation": "",
+      "line": 72
+    },
+    "./Credits": {
+      "translation": "",
+      "line": 73
+    },
+    "./utilities/DisplayObservables": {
+      "translation": "",
+      "line": 74
+    },
+    "./party/Category": {
+      "translation": "",
+      "line": 75
+    },
+    "./utilities/Information": {
+      "translation": "",
+      "line": 76
+    },
+    "./types/TypeHelper": {
+      "translation": "",
+      "line": 77
+    },
+    "./upgrades/Upgrade": {
+      "translation": "",
+      "line": 78
+    },
+    "./upgrades/ExpUpgrade": {
+      "translation": "",
+      "line": 79
+    },
+    "./enums/OakItemType": {
+      "translation": "",
+      "line": 80
+    },
+    "./oakItems/OakItem": {
+      "translation": "",
+      "line": 81
+    },
+    "./oakItems/OakItems": {
+      "translation": "",
+      "line": 82
+    },
+    "./oakItems/BoughtOakItem": {
+      "translation": "",
+      "line": 83
+    },
+    "./oakItems/OakItemController": {
+      "translation": "",
+      "line": 84
+    },
+    "./oakItems/OakItemLoadout": {
+      "translation": "",
+      "line": 85
+    },
+    "./oakItems/OakItemLoadouts": {
+      "translation": "",
+      "line": 86
+    },
+    "./routes": {
+      "translation": "",
+      "line": 89
+    },
+    "./subRegion/SubRegion": {
+      "translation": "",
+      "line": 90
+    },
+    "./subRegion/SubRegions": {
+      "translation": "",
+      "line": 91
+    },
+    "./requirements/Requirement": {
+      "translation": "",
+      "line": 92
+    },
+    "./requirements/AchievementRequirement": {
+      "translation": "",
+      "line": 93
+    },
+    "./requirements/NullRequirement": {
+      "translation": "",
+      "line": 94
+    },
+    "./requirements/MultiRequirement": {
+      "translation": "",
+      "line": 95
+    },
+    "./requirements/OneFromManyRequirement": {
+      "translation": "",
+      "line": 96
+    },
+    "./requirements/AttackRequirement": {
+      "translation": "",
+      "line": 97
+    },
+    "./requirements/BattleFrontierHighestStageRequirement": {
+      "translation": "",
+      "line": 98
+    },
+    "./requirements/BattleFrontierTotalStageRequirement": {
+      "translation": "",
+      "line": 99
+    },
+    "./requirements/BerriesUnlockedRequirement": {
+      "translation": "",
+      "line": 100
+    },
+    "./requirements/CapturedRequirement": {
+      "translation": "",
+      "line": 101
+    },
+    "./requirements/CaughtPokemonRequirement": {
+      "translation": "",
+      "line": 102
+    },
+    "./requirements/ClearDungeonRequirement": {
+      "translation": "",
+      "line": 103
+    },
+    "./requirements/ClearGymRequirement": {
+      "translation": "",
+      "line": 104
+    },
+    "./requirements/ClickRequirement": {
+      "translation": "",
+      "line": 105
+    },
+    "./requirements/CustomRequirement": {
+      "translation": "",
+      "line": 106
+    },
+    "./requirements/DefeatedRequirement": {
+      "translation": "",
+      "line": 107
+    },
+    "./requirements/DevelopmentRequirement": {
+      "translation": "",
+      "line": 108
+    },
+    "./requirements/DiamondRequirement": {
+      "translation": "",
+      "line": 109
+    },
+    "./requirements/FarmHandRequirement": {
+      "translation": "",
+      "line": 110
+    },
+    "./requirements/FarmPlotsUnlockedRequirement": {
+      "translation": "",
+      "line": 111
+    },
+    "./requirements/FarmPointsRequirement": {
+      "translation": "",
+      "line": 112
+    },
+    "./requirements/GymBadgeRequirement": {
+      "translation": "",
+      "line": 113
+    },
+    "./requirements/HatchRequirement": {
+      "translation": "",
+      "line": 114
+    },
+    "./requirements/HatcheryHelperRequirement": {
+      "translation": "",
+      "line": 115
+    },
+    "./requirements/InRegionRequirement": {
+      "translation": "",
+      "line": 116
+    },
+    "./requirements/MoneyRequirement": {
+      "translation": "",
+      "line": 117
+    },
+    "./requirements/MaxLevelOakItemRequirement": {
+      "translation": "",
+      "line": 118
+    },
+    "./requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 119
+    },
+    "./requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 120
+    },
+    "./requirements/PokeballRequirement": {
+      "translation": "",
+      "line": 121
+    },
+    "./requirements/PokemonLevelRequirement": {
+      "translation": "",
+      "line": 122
+    },
+    "./requirements/PokerusStatusRequirement": {
+      "translation": "",
+      "line": 123
+    },
+    "./requirements/VitaminObtainRequirement": {
+      "translation": "",
+      "line": 124
+    },
+    "./requirements/QuestRequirement": {
+      "translation": "",
+      "line": 125
+    },
+    "./requirements/QuestLevelRequirement": {
+      "translation": "",
+      "line": 126
+    },
+    "./requirements/RouteKillRequirement": {
+      "translation": "",
+      "line": 127
+    },
+    "./requirements/SeededDateRequirement": {
+      "translation": "",
+      "line": 128
+    },
+    "./requirements/SeededDateSelectNRequirement": {
+      "translation": "",
+      "line": 129
+    },
+    "./requirements/PokemonDefeatedSelectNRequirement": {
+      "translation": "",
+      "line": 130
+    },
+    "./requirements/SeviiCaughtRequirement": {
+      "translation": "",
+      "line": 131
+    },
+    "./requirements/ShinyPokemonRequirement": {
+      "translation": "",
+      "line": 132
+    },
+    "./requirements/ShadowPokemonRequirement": {
+      "translation": "",
+      "line": 133
+    },
+    "./requirements/StatisticRequirement": {
+      "translation": "",
+      "line": 134
+    },
+    "./requirements/SubregionRequirement": {
+      "translation": "",
+      "line": 135
+    },
+    "./requirements/StarterRequirement": {
+      "translation": "",
+      "line": 136
+    },
+    "./requirements/TokenRequirement": {
+      "translation": "",
+      "line": 137
+    },
+    "./requirements/TotalMegaStoneObtainedRequirement": {
+      "translation": "",
+      "line": 138
+    },
+    "./requirements/UndergroundItemsFoundRequirement": {
+      "translation": "",
+      "line": 139
+    },
+    "./enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 140
+    },
+    "./underground/UndergroundItem": {
+      "translation": "",
+      "line": 141
+    },
+    "./underground/UndergroundItems": {
+      "translation": "",
+      "line": 142
+    },
+    "./requirements/UndergroundLayersMinedRequirement": {
+      "translation": "",
+      "line": 143
+    },
+    "./requirements/UndergroundHelperRequirement": {
+      "translation": "",
+      "line": 144
+    },
+    "./requirements/UndergroundLevelRequirement": {
+      "translation": "",
+      "line": 145
+    },
+    "./requirements/UndergroundUseToolRequirement": {
+      "translation": "",
+      "line": 146
+    },
+    "./requirements/UndergroundLayersFullyMinedRequirement": {
+      "translation": "",
+      "line": 147
+    },
+    "./requirements/CaptureSpecificPokemonRequirement": {
+      "translation": "",
+      "line": 148
+    },
+    "./requirements/ClearAnyDungeonRequirement": {
+      "translation": "",
+      "line": 149
+    },
+    "./requirements/EVBonusRequirement": {
+      "translation": "",
+      "line": 150
+    },
+    "./requirements/TimePlayedRequirement": {
+      "translation": "",
+      "line": 151
+    },
+    "./requirements/TotalSpecialEventsActiveRequirement": {
+      "translation": "",
+      "line": 152
+    },
+    "./requirements/PokeballFilterCountRequirement": {
+      "translation": "",
+      "line": 153
+    },
+    "./requirements/DefeatedPokemonTypeRequirement": {
+      "translation": "",
+      "line": 154
+    },
+    "./requirements/AllFlutesTimeActiveRequirement": {
+      "translation": "",
+      "line": 155
+    },
+    "./requirements/DummyRequirement": {
+      "translation": "",
+      "line": 156
+    },
+    "./requirements/WeatherRequirement": {
+      "translation": "",
+      "line": 157
+    },
+    "./requirements/MegaEvolveRequirement": {
+      "translation": "",
+      "line": 158
+    },
+    "./requirements/PokemonAttackRequirement": {
+      "translation": "",
+      "line": 159
+    },
+    "./Sortable": {
+      "translation": "",
+      "line": 160
+    },
+    "./keyItems/KeyItemController": {
+      "translation": "",
+      "line": 161
+    },
+    "./keyItems/KeyItem": {
+      "translation": "",
+      "line": 162
+    },
+    "./keyItems/KeyItems": {
+      "translation": "",
+      "line": 163
+    },
+    "./achievements/Achievement": {
+      "translation": "",
+      "line": 164
+    },
+    "./achievements/SecretAchievement": {
+      "translation": "",
+      "line": 165
+    },
+    "./gems/Gems": {
+      "translation": "",
+      "line": 166
+    },
+    "./gems/GemDeals": {
+      "translation": "",
+      "line": 167
+    },
+    "./gems/FluteEffectRunner": {
+      "translation": "",
+      "line": 168
+    },
+    "./requirements/QuestLineCompletedRequirement": {
+      "translation": "",
+      "line": 169
+    },
+    "./requirements/QuestLineStepCompletedRequirement": {
+      "translation": "",
+      "line": 170
+    },
+    "./requirements/QuestLineStartedRequirement": {
+      "translation": "",
+      "line": 171
+    },
+    "./requirements/TemporaryBattleRequirement": {
+      "translation": "",
+      "line": 172
+    },
+    "./translation/Translation": {
+      "translation": "",
+      "line": 173
+    },
+    "./requirements/DayOfWeekRequirement": {
+      "translation": "",
+      "line": 174
+    },
+    "./saveReminder/SaveReminder": {
+      "translation": "",
+      "line": 175
+    },
+    "./requirements/ClientRequirement": {
+      "translation": "",
+      "line": 176
+    },
+    "./utilities/LazyLoader": {
+      "translation": "",
+      "line": 177
+    },
+    "./pokemons/evolutions/Base": {
+      "translation": "",
+      "line": 180
+    },
+    "./pokemons/evolutions/Methods": {
+      "translation": "",
+      "line": 181
+    },
+    "./pokemons/PokemonList": {
+      "translation": "",
+      "line": 182
+    },
+    "./pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 183
+    },
+    "./logbook/helpers": {
+      "translation": "",
+      "line": 184
+    },
+    "./items/ItemList": {
+      "translation": "",
+      "line": 185
+    },
+    "./items/Item": {
+      "translation": "",
+      "line": 186
+    },
+    "./items/types": {
+      "translation": "",
+      "line": 187
+    },
+    "./items/EnergyRestore": {
+      "translation": "",
+      "line": 188
+    },
+    "./effectEngine/effectEngineRunner": {
+      "translation": "",
+      "line": 189
+    },
+    "./items/ItemHandler": {
+      "translation": "",
+      "line": 190
+    },
+    "./items/CaughtIndicatingItem": {
+      "translation": "",
+      "line": 191
+    },
+    "./items/PokerusIndicatingItem": {
+      "translation": "",
+      "line": 192
+    },
+    "./items/PokemonItem": {
+      "translation": "",
+      "line": 193
+    },
+    "./items/EggItem": {
+      "translation": "",
+      "line": 194
+    },
+    "./items/MegaStoneItem": {
+      "translation": "",
+      "line": 195
+    },
+    "./items/PokeballItem": {
+      "translation": "",
+      "line": 196
+    },
+    "./items/QuestItem": {
+      "translation": "",
+      "line": 197
+    },
+    "./items/Vitamin": {
+      "translation": "",
+      "line": 198
+    },
+    "./items/VitaminController": {
+      "translation": "",
+      "line": 199
+    },
+    "./items/Consumable": {
+      "translation": "",
+      "line": 200
+    },
+    "./items/ConsumableController": {
+      "translation": "",
+      "line": 201
+    },
+    "./pokemons/RoamingPokemonList": {
+      "translation": "",
+      "line": 202
+    },
+    "./pokemons/DataPokemon": {
+      "translation": "",
+      "line": 203
+    },
+    "./pokemons/RoamingPokemon": {
+      "translation": "",
+      "line": 204
+    },
+    "./underground/UndergroundMegaStoneItem": {
+      "translation": "",
+      "line": 205
+    },
+    "./pokeballs/PokeballFilter": {
+      "translation": "",
+      "line": 206
+    },
+    "./pokeballs/PokeballFilters": {
+      "translation": "",
+      "line": 207
+    },
+    "./utilities/TextMerger": {
+      "translation": "",
+      "line": 208
+    },
+    "./pokeballs/PokeballFilterOptions": {
+      "translation": "",
+      "line": 209
+    },
+    "./underground/mine/Mine": {
+      "translation": "",
+      "line": 210
+    },
+    "./underground/mine/MineConfig": {
+      "translation": "",
+      "line": 211
+    },
+    "./underground/ShardDeal": {
+      "translation": "",
+      "line": 212
+    },
+    "./underground/Underground": {
+      "translation": "",
+      "line": 213
+    },
+    "./underground/UndergroundController": {
+      "translation": "",
+      "line": 214
+    },
+    "./underground/UndergroundTrading": {
+      "translation": "",
+      "line": 215
+    },
+    "./underground/helper/UndergroundHelper": {
+      "translation": "",
+      "line": 216
+    },
+    "./underground/tools/UndergroundToolType": {
+      "translation": "",
+      "line": 217
+    },
+    "./requirements/SpecialEventRandomRequirement": {
+      "translation": "",
+      "line": 218
+    },
+    "./requirements/SpecialEventRequirement": {
+      "translation": "",
+      "line": 219
+    },
+    "./enums/EncounterType": {
+      "translation": "",
+      "line": 220
+    },
+    "./requirements/SafariBaitRequirement": {
+      "translation": "",
+      "line": 221
+    },
+    "./requirements/SafariStepsRequirement": {
+      "translation": "",
+      "line": 222
+    },
+    "./requirements/SafariRocksRequirement": {
+      "translation": "",
+      "line": 223
+    },
+    "./requirements/SafariItemsRequirement": {
+      "translation": "",
+      "line": 224
+    },
+    "./requirements/SafariCatchRequirement": {
+      "translation": "",
+      "line": 225
+    },
+    "./requirements/ItemOwnedRequirement": {
+      "translation": "",
+      "line": 226
+    },
+    "./requirements/UniqueItemOwnedRequirement": {
+      "translation": "",
+      "line": 227
+    },
+    "./items/ChristmasPresent": {
+      "translation": "",
+      "line": 228
+    },
+    "./types/DamageCalculator": {
+      "translation": "",
+      "line": 229
+    },
+    "./utilities/GameLoadState": {
+      "translation": "",
+      "line": 230
+    },
+    "./deal/GenericDeal": {
+      "translation": "",
+      "line": 231
+    },
+    "./enums/AreaStatus": {
+      "translation": "",
+      "line": 232
+    },
+    "./translation/TranslationHelper": {
+      "translation": "",
+      "line": 233
+    },
+    "./utilities/DownloadUtil": {
+      "translation": "",
+      "line": 234
+    }
+  }
+}

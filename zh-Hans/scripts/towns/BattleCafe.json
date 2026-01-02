@@ -1,0 +1,334 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/BattleCafe.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 81,
+    "translatedCount": 81
+  },
+  "entries": {
+    "Milcery": {
+      "translation": "小仙奶",
+      "line": 3
+    },
+    "btn btn-info": {
+      "translation": "btn btn-信息",
+      "line": 7
+    },
+    "show": {
+      "translation": "展示",
+      "line": 11
+    },
+    "Battle Café": {
+      "translation": "战斗咖啡馆",
+      "line": 15
+    },
+    "Milcery (Cheesy)": {
+      "translation": "[[Milcery]] (干酪)",
+      "line": 99
+    },
+    "No sweet selected.": {
+      "translation": "没有选择甜食。",
+      "line": 132
+    },
+    "Already spinning.": {
+      "translation": "已经在旋转了。",
+      "line": 139
+    },
+    "No spins left today.": {
+      "translation": "今天没有旋转了。",
+      "line": 146
+    },
+    "Can't spin for more than 20 seconds, unless...": {
+      "translation": "旋转时间不能超过20秒，除非...",
+      "line": 153
+    },
+    "It only counts as spinning, if you spin for some time...": {
+      "translation": "它只算旋转，如果你旋转一段时间......",
+      "line": 160
+    },
+    "Not enough berries for this sweet.": {
+      "translation": "没有足够的树果来制作这种甜点。",
+      "line": 167
+    },
+    "Strawberry Sweet": {
+      "translation": "草莓甜",
+      "line": 202
+    },
+    "Clover Sweet": {
+      "translation": "三叶草甜",
+      "line": 209
+    },
+    "Star Sweet": {
+      "translation": "星甜",
+      "line": 216
+    },
+    "Berry Sweet": {
+      "translation": "树果甜",
+      "line": 223
+    },
+    "Ribbon Sweet": {
+      "translation": "丝带甜",
+      "line": 230
+    },
+    "Flower Sweet": {
+      "translation": "花甜",
+      "line": 237
+    },
+    "Love Sweet": {
+      "translation": "爱甜甜",
+      "line": 244
+    },
+    "Alcremie (Strawberry Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.vanilla]]",
+      "line": 268
+    },
+    "Alcremie (Strawberry Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.rubycream]]",
+      "line": 269
+    },
+    "Alcremie (Strawberry Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.matcha]]",
+      "line": 270
+    },
+    "Alcremie (Strawberry Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.mint]]",
+      "line": 271
+    },
+    "Alcremie (Strawberry Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.lemon]]",
+      "line": 272
+    },
+    "Alcremie (Strawberry Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.salted]]",
+      "line": 273
+    },
+    "Alcremie (Strawberry Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 274
+    },
+    "Alcremie (Strawberry Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.caramel]]",
+      "line": 275
+    },
+    "Alcremie (Strawberry Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.rainbow]]",
+      "line": 276
+    },
+    "Alcremie (Love Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.vanilla]]",
+      "line": 280
+    },
+    "Alcremie (Love Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.rubycream]]",
+      "line": 281
+    },
+    "Alcremie (Love Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.matcha]]",
+      "line": 282
+    },
+    "Alcremie (Love Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.mint]]",
+      "line": 283
+    },
+    "Alcremie (Love Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.lemon]]",
+      "line": 284
+    },
+    "Alcremie (Love Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.salted]]",
+      "line": 285
+    },
+    "Alcremie (Love Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 286
+    },
+    "Alcremie (Love Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.caramel]]",
+      "line": 287
+    },
+    "Alcremie (Love Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.rainbow]]",
+      "line": 288
+    },
+    "Alcremie (Berry Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.vanilla]]",
+      "line": 292
+    },
+    "Alcremie (Berry Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.rubycream]]",
+      "line": 293
+    },
+    "Alcremie (Berry Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.matcha]]",
+      "line": 294
+    },
+    "Alcremie (Berry Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.mint]]",
+      "line": 295
+    },
+    "Alcremie (Berry Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.lemon]]",
+      "line": 296
+    },
+    "Alcremie (Berry Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.salted]]",
+      "line": 297
+    },
+    "Alcremie (Berry Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 298
+    },
+    "Alcremie (Berry Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.caramel]]",
+      "line": 299
+    },
+    "Alcremie (Berry Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.rainbow]]",
+      "line": 300
+    },
+    "Alcremie (Clover Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.vanilla]]",
+      "line": 304
+    },
+    "Alcremie (Clover Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.rubycream]]",
+      "line": 305
+    },
+    "Alcremie (Clover Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.matcha]]",
+      "line": 306
+    },
+    "Alcremie (Clover Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.mint]]",
+      "line": 307
+    },
+    "Alcremie (Clover Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.lemon]]",
+      "line": 308
+    },
+    "Alcremie (Clover Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.salted]]",
+      "line": 309
+    },
+    "Alcremie (Clover Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 310
+    },
+    "Alcremie (Clover Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.caramel]]",
+      "line": 311
+    },
+    "Alcremie (Clover Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.rainbow]]",
+      "line": 312
+    },
+    "Alcremie (Flower Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.vanilla]]",
+      "line": 316
+    },
+    "Alcremie (Flower Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.rubycream]]",
+      "line": 317
+    },
+    "Alcremie (Flower Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.matcha]]",
+      "line": 318
+    },
+    "Alcremie (Flower Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.mint]]",
+      "line": 319
+    },
+    "Alcremie (Flower Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.lemon]]",
+      "line": 320
+    },
+    "Alcremie (Flower Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.salted]]",
+      "line": 321
+    },
+    "Alcremie (Flower Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 322
+    },
+    "Alcremie (Flower Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.caramel]]",
+      "line": 323
+    },
+    "Alcremie (Flower Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.rainbow]]",
+      "line": 324
+    },
+    "Alcremie (Star Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.vanilla]]",
+      "line": 328
+    },
+    "Alcremie (Star Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.rubycream]]",
+      "line": 329
+    },
+    "Alcremie (Star Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.matcha]]",
+      "line": 330
+    },
+    "Alcremie (Star Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.mint]]",
+      "line": 331
+    },
+    "Alcremie (Star Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.lemon]]",
+      "line": 332
+    },
+    "Alcremie (Star Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.salted]]",
+      "line": 333
+    },
+    "Alcremie (Star Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 334
+    },
+    "Alcremie (Star Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.caramel]]",
+      "line": 335
+    },
+    "Alcremie (Star Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.rainbow]]",
+      "line": 336
+    },
+    "Alcremie (Ribbon Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.vanilla]]",
+      "line": 340
+    },
+    "Alcremie (Ribbon Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.rubycream]]",
+      "line": 341
+    },
+    "Alcremie (Ribbon Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.matcha]]",
+      "line": 342
+    },
+    "Alcremie (Ribbon Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.mint]]",
+      "line": 343
+    },
+    "Alcremie (Ribbon Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.lemon]]",
+      "line": 344
+    },
+    "Alcremie (Ribbon Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.salted]]",
+      "line": 345
+    },
+    "Alcremie (Ribbon Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 346
+    },
+    "Alcremie (Ribbon Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.caramel]]",
+      "line": 347
+    },
+    "Alcremie (Ribbon Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.rainbow]]",
+      "line": 348
+    }
+  }
+}

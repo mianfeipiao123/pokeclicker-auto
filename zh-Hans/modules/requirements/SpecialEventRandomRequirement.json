@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/SpecialEventRandomRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../specialEvents/SpecialEventTitleType": {
+      "translation": "",
+      "line": 1
+    },
+    "../utilities/SeededRand": {
+      "translation": "",
+      "line": 2
+    },
+    "./SpecialEventRequirement": {
+      "translation": "",
+      "line": 3
+    },
+    "The Pokémon seems to be avoiding the area this year.": {
+      "translation": "宝可梦今年似乎避开了这个地区。",
+      "line": 18
+    }
+  }
+}

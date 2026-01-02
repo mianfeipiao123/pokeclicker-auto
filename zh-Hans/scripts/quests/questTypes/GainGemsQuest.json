@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/GainGemsQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 52
+    },
+    "Gain ${this.amount.toLocaleString('en-US')} ${PokemonType[this.type]} gems.": {
+      "translation": "",
+      "line": 52
+    }
+  }
+}

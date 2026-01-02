@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/deal/GenericDeal.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 33,
+    "translatedCount": 24
+  },
+  "entries": {
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 1
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 2
+    },
+    "../enums/BerryType": {
+      "translation": "",
+      "line": 3
+    },
+    "../items/Item": {
+      "translation": "",
+      "line": 4
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 6
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 8
+    },
+    "../requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 9
+    },
+    "Palaeontologist": {
+      "translation": "古生物学家",
+      "line": 12
+    },
+    "FossilCinnabarLab": {
+      "translation": "化石朱砂实验室",
+      "line": 14
+    },
+    "FossilDevonCorporation": {
+      "translation": "化石德文公司",
+      "line": 15
+    },
+    "FossilOreburghMiningMuseum": {
+      "translation": "奥勒堡化石矿业博物馆",
+      "line": 16
+    },
+    "FossilNacreneMuseum": {
+      "translation": "化石珍珠母博物馆",
+      "line": 17
+    },
+    "FossilAmbretteFossilLab": {
+      "translation": "化石琥珀化石实验室",
+      "line": 18
+    },
+    "FossilMasterGalarRoute6": {
+      "translation": "FossilMaster伽勒尔Route6",
+      "line": 19
+    },
+    "Gem": {
+      "translation": "宝石",
+      "line": 23
+    },
+    "Shard": {
+      "translation": "碎片",
+      "line": 24
+    },
+    "Berry": {
+      "translation": "树果",
+      "line": 25
+    },
+    "Item": {
+      "translation": "物品",
+      "line": 26
+    },
+    "Amount": {
+      "translation": "数量",
+      "line": 27
+    },
+    "Pikachu (Palaeontologist)": {
+      "translation": "古生物学家[[Pikachu]]",
+      "line": 246
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 265
+    },
+    "Omastar": {
+      "translation": "多刺菊石兽",
+      "line": 271
+    },
+    "Kabutops": {
+      "translation": "镰刀盔",
+      "line": 282
+    },
+    "Cradily": {
+      "translation": "摇篮百合",
+      "line": 301
+    },
+    "Armaldo": {
+      "translation": "太古盔甲",
+      "line": 312
+    },
+    "Rampardos": {
+      "translation": "战槌龙",
+      "line": 326
+    },
+    "Bastiodon": {
+      "translation": "护城龙",
+      "line": 337
+    },
+    "Carracosta": {
+      "translation": "肋骨海龟",
+      "line": 351
+    },
+    "Archeops": {
+      "translation": "始祖大鸟",
+      "line": 362
+    },
+    "Tyrantrum": {
+      "translation": "怪颚龙",
+      "line": 376
+    },
+    "Aurorus": {
+      "translation": "冰雪巨龙",
+      "line": 387
+    }
+  }
+}

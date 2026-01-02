@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/MineLayersQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 27
+    },
+    "Collect all buried treasure ${this.amount.toLocaleString('en-US')} time${suffix} in the Underground mines.": {
+      "translation": "",
+      "line": 27
+    }
+  }
+}

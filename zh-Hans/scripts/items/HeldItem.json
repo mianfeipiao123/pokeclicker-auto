@@ -1,0 +1,550 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/items/HeldItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 135,
+    "translatedCount": 122
+  },
+  "entries": {
+    "Pokémon Restricted": {
+      "translation": "宝可梦限制",
+      "line": 27
+    },
+    "Type Restricted": {
+      "translation": "类型受限",
+      "line": 31
+    },
+    "EV Gain": {
+      "translation": "努力值获取",
+      "line": 35
+    },
+    "EXP Gain": {
+      "translation": "经验增益",
+      "line": 39
+    },
+    "Other": {
+      "translation": "其他",
+      "line": 43
+    },
+    "AttackBonusHeldItem": {
+      "translation": "攻击奖励持有物品",
+      "line": 44
+    },
+    "the Pokémon": {
+      "translation": "宝可梦",
+      "line": 63
+    },
+    "raises": {
+      "translation": "",
+      "line": 67
+    },
+    "lowers": {
+      "translation": "",
+      "line": 67
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 67
+    },
+    "percent": {
+      "translation": "百分比",
+      "line": 67
+    },
+    "A held item that ${_attackBonus > 1 ? 'raises' : 'lowers'} the attack of ${pokemonDescription} by ${(Math.abs(_attackBonus - 1)).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 0 })}${additionDescription}.": {
+      "translation": "",
+      "line": 67
+    },
+    "${GameHelper.anOrA(PokemonType[type])} ${PokemonType[type]}-type Pokémon": {
+      "translation": "",
+      "line": 100
+    },
+    " and ${_clickAttackBonus > 1 ? 'raises' : 'lowers'} its click attack contribution by ${(Math.abs(_clickAttackBonus - 1) * 100).toFixed(0)}%": {
+      "translation": "",
+      "line": 141
+    },
+    "A held item that increases EV gains for the holding Pokémon by ${(gainedBonus - 1).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 0 })}.": {
+      "translation": "",
+      "line": 158
+    },
+    "the holding Pokémon": {
+      "translation": "持有的宝可梦",
+      "line": 173
+    },
+    "A held item that earns ${pokemonDescription} ${(gainedBonus - 1).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 0 })} bonus Experience Points.": {
+      "translation": "",
+      "line": 175
+    },
+    "Wonder_Chest": {
+      "translation": "奇迹宝箱",
+      "line": 179
+    },
+    "Wonder Chest": {
+      "translation": "奇迹宝箱",
+      "line": 179
+    },
+    "Miracle_Chest": {
+      "translation": "奇迹宝箱",
+      "line": 180
+    },
+    "Miracle Chest": {
+      "translation": "奇迹宝箱",
+      "line": 180
+    },
+    "Joy_Scent": {
+      "translation": "欢乐香氛",
+      "line": 181
+    },
+    "Joy Scent": {
+      "translation": "欢乐香氛",
+      "line": 181
+    },
+    " the holding Shadow Pokémon": {
+      "translation": "",
+      "line": 181
+    },
+    "Excite_Scent": {
+      "translation": "兴奋_气味",
+      "line": 183
+    },
+    "Excite Scent": {
+      "translation": "激发香气",
+      "line": 183
+    },
+    "the holding Shadow Pokémon": {
+      "translation": "持有的暗影宝可梦",
+      "line": 183
+    },
+    "Vivid_Scent": {
+      "translation": "生动_香味",
+      "line": 185
+    },
+    "Vivid Scent": {
+      "translation": "香气浓郁",
+      "line": 185
+    },
+    "Muscle_Band": {
+      "translation": "肌肉带",
+      "line": 187
+    },
+    "Muscle Band": {
+      "translation": "肌肉带",
+      "line": 187
+    },
+    "Light_Ball": {
+      "translation": "光球",
+      "line": 189
+    },
+    "Light Ball": {
+      "translation": "光球",
+      "line": 189
+    },
+    "Pikachu": {
+      "translation": "皮卡丘",
+      "line": 189
+    },
+    "Lucky_Punch": {
+      "translation": "幸运拳",
+      "line": 191
+    },
+    "Lucky Punch": {
+      "translation": "幸运拳",
+      "line": 191
+    },
+    "Happiny, Chansey or Blissey": {
+      "translation": "",
+      "line": 191
+    },
+    "Quick_Powder": {
+      "translation": "快粉",
+      "line": 193
+    },
+    "Quick Powder": {
+      "translation": "速溶粉",
+      "line": 193
+    },
+    "Ditto": {
+      "translation": "百变怪",
+      "line": 193
+    },
+    "Thick_Club": {
+      "translation": "粗俱乐部",
+      "line": 195
+    },
+    "Thick Club": {
+      "translation": "厚俱乐部",
+      "line": 195
+    },
+    "Cubone or Marowak": {
+      "translation": "",
+      "line": 195
+    },
+    "Soul_Dew": {
+      "translation": "灵魂露",
+      "line": 197
+    },
+    "Soul Dew": {
+      "translation": "灵魂露",
+      "line": 197
+    },
+    "Latias or Latios": {
+      "translation": "",
+      "line": 197
+    },
+    "Adamant_Orb": {
+      "translation": "金刚球",
+      "line": 199
+    },
+    "Adamant Orb": {
+      "translation": "精金宝珠",
+      "line": 199
+    },
+    "Dialga": {
+      "translation": "帝牙卢卡",
+      "line": 199
+    },
+    "Lustrous_Orb": {
+      "translation": "光泽宝珠",
+      "line": 201
+    },
+    "Lustrous Orb": {
+      "translation": "光泽宝珠",
+      "line": 201
+    },
+    "Palkia": {
+      "translation": "帕路奇亚",
+      "line": 201
+    },
+    "Griseous_Orb": {
+      "translation": "Griseous_Orb",
+      "line": 203
+    },
+    "Griseous Orb": {
+      "translation": "可怕的宝珠",
+      "line": 203
+    },
+    "Giratina": {
+      "translation": "骑拉帝纳",
+      "line": 203
+    },
+    "Gracidea": {
+      "translation": "格拉西代亚",
+      "line": 205
+    },
+    "Shaymin": {
+      "translation": "谢米",
+      "line": 205
+    },
+    "Burn_Drive": {
+      "translation": "刻录驱动器",
+      "line": 207
+    },
+    "Burn Drive": {
+      "translation": "刻录驱动器",
+      "line": 207
+    },
+    "Genesect": {
+      "translation": "盖诺赛克特",
+      "line": 207
+    },
+    "Chill_Drive": {
+      "translation": "冷静驾驶",
+      "line": 209
+    },
+    "Chill Drive": {
+      "translation": "寒冷驾驶",
+      "line": 209
+    },
+    "Douse_Drive": {
+      "translation": "杜斯_驱动器",
+      "line": 211
+    },
+    "Douse Drive": {
+      "translation": "杜斯驱动器",
+      "line": 211
+    },
+    "Shock_Drive": {
+      "translation": "冲击_驱动",
+      "line": 213
+    },
+    "Shock Drive": {
+      "translation": "冲击驱动",
+      "line": 213
+    },
+    "Great_Twisted_Spoon": {
+      "translation": "伟大的扭曲勺子",
+      "line": 215
+    },
+    "Great Twisted Spoon": {
+      "translation": "大扭勺",
+      "line": 215
+    },
+    "Mewtwo": {
+      "translation": "超梦",
+      "line": 215
+    },
+    "Leek": {
+      "translation": "韭葱",
+      "line": 217
+    },
+    "Farfetch'd or Sirfetch'd": {
+      "translation": "",
+      "line": 217
+    },
+    "Rusted_Sword": {
+      "translation": "生锈的剑",
+      "line": 219
+    },
+    "Rusted Sword": {
+      "translation": "生锈的剑",
+      "line": 219
+    },
+    "Zacian": {
+      "translation": "苍响",
+      "line": 219
+    },
+    "Rusted_Shield": {
+      "translation": "生锈的盾牌",
+      "line": 221
+    },
+    "Rusted Shield": {
+      "translation": "生锈的盾牌",
+      "line": 221
+    },
+    "Zamazenta": {
+      "translation": "藏玛然特",
+      "line": 221
+    },
+    "Wellspring_Mask": {
+      "translation": "泉源面膜",
+      "line": 223
+    },
+    "Wellspring Mask": {
+      "translation": "泉水面膜",
+      "line": 223
+    },
+    "Ogerpon": {
+      "translation": "厄诡椪",
+      "line": 223
+    },
+    "Hearthflame_Mask": {
+      "translation": "炉火_面具",
+      "line": 225
+    },
+    "Hearthflame Mask": {
+      "translation": "炉火面具",
+      "line": 225
+    },
+    "Cornerstone_Mask": {
+      "translation": "基石_面具",
+      "line": 227
+    },
+    "Cornerstone Mask": {
+      "translation": "基石面具",
+      "line": 227
+    },
+    "Booster_Energy": {
+      "translation": "助推器_能量",
+      "line": 229
+    },
+    "Booster Energy": {
+      "translation": "助推器能量",
+      "line": 229
+    },
+    "Paradox Pokémon": {
+      "translation": "悖论宝可梦",
+      "line": 229
+    },
+    "Black_Belt": {
+      "translation": "黑带",
+      "line": 233
+    },
+    "Black Belt": {
+      "translation": "黑带",
+      "line": 233
+    },
+    "Black_Glasses": {
+      "translation": "黑色_眼镜",
+      "line": 235
+    },
+    "Black Glasses": {
+      "translation": "黑色眼镜",
+      "line": 235
+    },
+    "Squad Leader Squirtle": {
+      "translation": "小队长[[Squirtle]]",
+      "line": 235
+    },
+    "Charcoal": {
+      "translation": "木炭",
+      "line": 236
+    },
+    "Dragon_Fang": {
+      "translation": "龙牙",
+      "line": 237
+    },
+    "Dragon Fang": {
+      "translation": "龙牙",
+      "line": 237
+    },
+    "Magnet": {
+      "translation": "磁铁",
+      "line": 238
+    },
+    "Metal_Powder": {
+      "translation": "金属_粉末",
+      "line": 239
+    },
+    "Metal Powder": {
+      "translation": "金属粉末",
+      "line": 239
+    },
+    "Miracle_Seed": {
+      "translation": "奇迹种子",
+      "line": 240
+    },
+    "Miracle Seed": {
+      "translation": "奇迹种子",
+      "line": 240
+    },
+    "Mystic_Water": {
+      "translation": "神秘水",
+      "line": 241
+    },
+    "Mystic Water": {
+      "translation": "神秘水",
+      "line": 241
+    },
+    "Never_Melt_Ice": {
+      "translation": "永不融化的冰",
+      "line": 242
+    },
+    "Never-Melt Ice": {
+      "translation": "永不融化的冰",
+      "line": 242
+    },
+    "Fairy_Feather": {
+      "translation": "仙女羽毛",
+      "line": 243
+    },
+    "Fairy Feather": {
+      "translation": "仙女之羽",
+      "line": 243
+    },
+    "Poison_Barb": {
+      "translation": "毒倒刺",
+      "line": 244
+    },
+    "Poison Barb": {
+      "translation": "毒倒刺",
+      "line": 244
+    },
+    "Rock_Incense": {
+      "translation": "岩石香",
+      "line": 245
+    },
+    "Rock Incense": {
+      "translation": "岩香",
+      "line": 245
+    },
+    "Sharp_Beak": {
+      "translation": "尖嘴",
+      "line": 246
+    },
+    "Sharp Beak": {
+      "translation": "尖嘴",
+      "line": 246
+    },
+    "Silk_Scarf": {
+      "translation": "丝绸围巾",
+      "line": 247
+    },
+    "Silk Scarf": {
+      "translation": "真丝围巾",
+      "line": 247
+    },
+    "Silver_Powder": {
+      "translation": "银粉",
+      "line": 248
+    },
+    "Silver Powder": {
+      "translation": "银粉",
+      "line": 248
+    },
+    "Soft_Sand": {
+      "translation": "软沙",
+      "line": 249
+    },
+    "Soft Sand": {
+      "translation": "软沙",
+      "line": 249
+    },
+    "Spell_Tag": {
+      "translation": "拼写标签",
+      "line": 250
+    },
+    "Spell Tag": {
+      "translation": "拼写标签",
+      "line": 250
+    },
+    "Twisted_Spoon": {
+      "translation": "扭曲勺子",
+      "line": 251
+    },
+    "Twisted Spoon": {
+      "translation": "扭勺",
+      "line": 251
+    },
+    "Agile_Scroll": {
+      "translation": "敏捷_滚动",
+      "line": 253
+    },
+    "Agile Scroll": {
+      "translation": "敏捷卷轴",
+      "line": 253
+    },
+    "Strong_Scroll": {
+      "translation": "强卷轴",
+      "line": 254
+    },
+    "Strong Scroll": {
+      "translation": "强力卷轴",
+      "line": 254
+    },
+    "Power_Herb": {
+      "translation": "能量草本",
+      "line": 256
+    },
+    "Power Herb": {
+      "translation": "强力药草",
+      "line": 256
+    },
+    " in the Battle Frontier": {
+      "translation": "",
+      "line": 257
+    },
+    "Macho_Brace": {
+      "translation": "Macho_Brace",
+      "line": 259
+    },
+    "Macho Brace": {
+      "translation": "男子气概的支撑",
+      "line": 259
+    },
+    "Power_Bracer": {
+      "translation": "力量护腕",
+      "line": 260
+    },
+    "Power Bracer": {
+      "translation": "动力护腕",
+      "line": 260
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 262
+    },
+    "Stops the holder from evolving due to level or a stone being used. Also prevents new baby Pokémon from hatching.": {
+      "translation": "阻止持有者因等级或使用的石头而进化。还可以防止新的宝可梦宝宝孵化。",
+      "line": 262
+    }
+  }
+}

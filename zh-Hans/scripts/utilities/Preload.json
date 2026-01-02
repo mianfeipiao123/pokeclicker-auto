@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/utilities/Preload.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 25,
+    "translatedCount": 12
+  },
+  "entries": {
+    "preload-progress-bar": {
+      "translation": "",
+      "line": 27
+    },
+    "${(loaded + errored) / toLoad * 100}%": {
+      "translation": "",
+      "line": 28
+    },
+    "preload-progress-text": {
+      "translation": "",
+      "line": 31
+    },
+    "loading": {
+      "translation": "",
+      "line": 36
+    },
+    "slow": {
+      "translation": "慢的",
+      "line": 40
+    },
+    "color:#8e44ad;font-weight:900;": {
+      "translation": "颜色：#8e44ad；字体粗细：900；",
+      "line": 49
+    },
+    "[${GameConstants.formatDate(new Date())}] %cPreloading Images..": {
+      "translation": "",
+      "line": 49
+    },
+    "color:#c0392b;font-weight:900;": {
+      "translation": "颜色：#c0392b；字体粗细：900；",
+      "line": 64
+    },
+    "[${GameConstants.formatDate(new Date())}] %cPreloading images taking too long, Skipping..": {
+      "translation": "",
+      "line": 64
+    },
+    "color:#2ecc71;font-weight:900;": {
+      "translation": "颜色：#2ecc71；字体粗细：900；",
+      "line": 76
+    },
+    "[${GameConstants.formatDate(new Date())}] %cPreloaded images": {
+      "translation": "",
+      "line": 76
+    },
+    "[${GameConstants.formatDate(new Date())}] %cPreload images failed..": {
+      "translation": "",
+      "line": 82
+    },
+    "Preload images failed:": {
+      "translation": "预加载图像失败：",
+      "line": 83
+    },
+    "Elite": {
+      "translation": "精英",
+      "line": 101
+    },
+    "Champion": {
+      "translation": "冠军",
+      "line": 101
+    },
+    "town-${name}": {
+      "translation": "",
+      "line": 108
+    },
+    "Failed to load town image:": {
+      "translation": "无法加载城镇图片：",
+      "line": 113
+    },
+    "assets/images/towns/${name}.png": {
+      "translation": "",
+      "line": 116
+    },
+    "Failed to load image for pokemon:": {
+      "translation": "无法加载宝可梦图像：",
+      "line": 135
+    },
+    "assets/images/pokemon/${i}.png": {
+      "translation": "",
+      "line": 138
+    },
+    "Failed to load image for Underground item:": {
+      "translation": "无法加载采掘场物品图像：",
+      "line": 157
+    },
+    "image": {
+      "translation": "图像",
+      "line": 180
+    },
+    "href": {
+      "translation": "链接地址",
+      "line": 181
+    },
+    "assets/images/kanto.png": {
+      "translation": "",
+      "line": 181
+    },
+    "Failed to load map image:": {
+      "translation": "",
+      "line": 185
+    }
+  }
+}

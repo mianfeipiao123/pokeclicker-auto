@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/GameController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 74,
+    "translatedCount": 53
+  },
+  "entries": {
+    "visibility": {
+      "translation": "",
+      "line": 9
+    },
+    "visible": {
+      "translation": "",
+      "line": 9
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 16
+    },
+    "Space": {
+      "translation": "空间",
+      "line": 22
+    },
+    "keydown": {
+      "translation": "",
+      "line": 27
+    },
+    "key": {
+      "translation": "",
+      "line": 28
+    },
+    "key${type}": {
+      "translation": "",
+      "line": 28
+    },
+    "HTMLEvents": {
+      "translation": "HTML事件",
+      "line": 30
+    },
+    "[data-toggle=\"popover\"]": {
+      "translation": "",
+      "line": 44
+    },
+    "popover": {
+      "translation": "",
+      "line": 44
+    },
+    "[data-toggle=\"tooltip\"]": {
+      "translation": "",
+      "line": 45
+    },
+    "tooltip": {
+      "translation": "工具提示",
+      "line": 45
+    },
+    "hide.bs.modal": {
+      "translation": "",
+      "line": 57
+    },
+    "disable-toggle": {
+      "translation": "",
+      "line": 57
+    },
+    "hidden.bs.modal shown.bs.modal": {
+      "translation": "",
+      "line": 58
+    },
+    "#${this}": {
+      "translation": "",
+      "line": 105
+    },
+    "show": {
+      "translation": "展示",
+      "line": 106
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 106
+    },
+    "modalCollapse.${this}": {
+      "translation": "",
+      "line": 106
+    },
+    "show.bs.collapse": {
+      "translation": "",
+      "line": 109
+    },
+    "modalCollapse.${this.id}": {
+      "translation": "",
+      "line": 110
+    },
+    "hide.bs.collapse": {
+      "translation": "",
+      "line": 111
+    },
+    ".modal:visible": {
+      "translation": "",
+      "line": 133
+    },
+    "hotkey.pokeballSelection": {
+      "translation": "hotkey.pokeballSelection",
+      "line": 137
+    },
+    "bs.modal": {
+      "translation": "",
+      "line": 139
+    },
+    "#pokeballSelectorBody .clickable.pokeball-selected": {
+      "translation": "#pokeballSelectorBody .clickable.pokeball-selected",
+      "line": 141
+    },
+    "click": {
+      "translation": "点击",
+      "line": 141
+    },
+    "hotkey.dungeon.up": {
+      "translation": "热键.dungeon.up",
+      "line": 151
+    },
+    "up": {
+      "translation": "向上",
+      "line": 152
+    },
+    "hotkey.dungeon.left": {
+      "translation": "热键.迷宫.左",
+      "line": 155
+    },
+    "left": {
+      "translation": "左边",
+      "line": 156
+    },
+    "hotkey.dungeon.down": {
+      "translation": "热键.dungeon.down",
+      "line": 159
+    },
+    "down": {
+      "translation": "向下",
+      "line": 160
+    },
+    "hotkey.dungeon.right": {
+      "translation": "热键.dungeon.right",
+      "line": 163
+    },
+    "right": {
+      "translation": "正确的",
+      "line": 164
+    },
+    "hotkey.safari.ball": {
+      "translation": "热键.safari.ball",
+      "line": 166
+    },
+    "hotkey.safari.bait": {
+      "translation": "热键.safari.bait",
+      "line": 169
+    },
+    "hotkey.safari.rock": {
+      "translation": "热键.safari.rock",
+      "line": 172
+    },
+    "hotkey.safari.run": {
+      "translation": "热键.safari.运行",
+      "line": 175
+    },
+    "hotkey.farm.toggleShovel": {
+      "translation": "hotkey.farm.toggleShovel",
+      "line": 187
+    },
+    "hotkey.farm.togglePlotSafeLock": {
+      "translation": "hotkey.farm.togglePlotSafeLock",
+      "line": 190
+    },
+    "hotkey.underground.hammer": {
+      "translation": "快捷键.采掘场.锤子",
+      "line": 197
+    },
+    "hotkey.underground.chisel": {
+      "translation": "快捷键.采掘场.凿子",
+      "line": 200
+    },
+    "hotkey.underground.bomb": {
+      "translation": "快捷键.采掘场.炸弹",
+      "line": 203
+    },
+    "hotkey.underground.survey": {
+      "translation": "快捷键.采掘场.探测",
+      "line": 206
+    },
+    "hotkey.underground.discharge": {
+      "translation": "快捷键.采掘场.放电",
+      "line": 209
+    },
+    "disabled": {
+      "translation": "残疾人",
+      "line": 245
+    },
+    "hotkey.shop.buy": {
+      "translation": "热键.商店.购买",
+      "line": 260
+    },
+    "hotkey.shop.max": {
+      "translation": "热键.shop.max",
+      "line": 263
+    },
+    "hotkey.shop.reset": {
+      "translation": "热键.商店.重置",
+      "line": 266
+    },
+    "hotkey.shop.increase": {
+      "translation": "热键.商店.增加",
+      "line": 269
+    },
+    "original": {
+      "translation": "原来的",
+      "line": 272
+    },
+    "multiplication": {
+      "translation": "乘法",
+      "line": 275
+    },
+    "bigplus": {
+      "translation": "大加",
+      "line": 278
+    },
+    "hotkey.dungeon.interact": {
+      "translation": "热键.迷宫.交互",
+      "line": 336
+    },
+    "hotkey.town.start": {
+      "translation": "热键.town.start",
+      "line": 345
+    },
+    "hotkey.farm": {
+      "translation": "热键农场",
+      "line": 378
+    },
+    "toggle": {
+      "translation": "",
+      "line": 382
+    },
+    "hotkey.hatchery": {
+      "translation": "热键孵化场",
+      "line": 386
+    },
+    "hotkey.achievementsTracker": {
+      "translation": "热键.成就追踪器",
+      "line": 394
+    },
+    "hotkey.oakItems": {
+      "translation": "热键.oakItems",
+      "line": 403
+    },
+    "hotkey.underground": {
+      "translation": "快捷键.采掘场",
+      "line": 411
+    },
+    "hotkey.shop": {
+      "translation": "热键商店",
+      "line": 419
+    },
+    "Champion Lance": {
+      "translation": "冠军渡",
+      "line": 421
+    },
+    "hotkey.forceSave": {
+      "translation": "强制存档",
+      "line": 428
+    },
+    "hotkey.downloadSave": {
+      "translation": "导出存档",
+      "line": 434
+    },
+    "hotkey.mute": {
+      "translation": "热键.静音",
+      "line": 440
+    },
+    "sound.muted": {
+      "translation": "静音",
+      "line": 442
+    },
+    "hotkey.dailyQuests": {
+      "translation": "hotkey.daily任务",
+      "line": 446
+    },
+    "hotkey.castformApp": {
+      "translation": "热键.castformApp",
+      "line": 454
+    },
+    "hotkey.purifyChamber": {
+      "translation": "热键.purifyChamber",
+      "line": 461
+    },
+    "keyup": {
+      "translation": "按键",
+      "line": 475
+    },
+    "hidden.bs.modal": {
+      "translation": "",
+      "line": 519
+    },
+    "modal-open": {
+      "translation": "",
+      "line": 520
+    }
+  }
+}

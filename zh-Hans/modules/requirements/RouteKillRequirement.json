@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/RouteKillRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../routes/Routes": {
+      "translation": "",
+      "line": 7
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 8
+    },
+    "Route Defeats": {
+      "translation": "路线失败",
+      "line": 17
+    },
+    "${this.requiredValue} Pokémon need to be defeated on ${Routes.getName(this.route, this.region, true)}.": {
+      "translation": "",
+      "line": 27
+    },
+    "${Routes.getName(this.route, this.region, true)} still needs to be completed.": {
+      "translation": "",
+      "line": 30
+    }
+  }
+}

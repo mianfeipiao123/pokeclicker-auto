@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/party/PartyController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 26,
+    "translatedCount": 21
+  },
+  "entries": {
+    "<br>": {
+      "translation": "<br>",
+      "line": 64
+    },
+    "Remove All ${GameConstants.VitaminType[vitamin]}?": {
+      "translation": "",
+      "line": 87
+    },
+    "All ${GameConstants.VitaminType[vitamin]} will be removed from <u>every</u> Pokémon in your party.": {
+      "translation": "",
+      "line": 88
+    },
+    "${GameConstants.VitaminType[vitamin]} couldn't be modified for Pokémon in Hatchery or Queue.": {
+      "translation": "",
+      "line": 107
+    },
+    "Remove All Vitamins?": {
+      "translation": "移除所有营养剂？",
+      "line": 116
+    },
+    "All vitamins will be removed from <u>every</u> Pokémon in your party.": {
+      "translation": "所有营养剂将从你队伍中的<u>每只</u>宝可梦身上移除。",
+      "line": 117
+    },
+    "Vitamins couldn't be modified for Pokémon in Hatchery or Queue.": {
+      "translation": "无法修改孵化室或队列中宝可梦的营养剂。",
+      "line": 139
+    },
+    "show": {
+      "translation": "展示",
+      "line": 159
+    },
+    "vitaminHideMaxedPokemon": {
+      "translation": "vitaminHideMaxedPokemon",
+      "line": 184
+    },
+    "vitaminHideShinyPokemon": {
+      "translation": "vitaminHideShinyPokemon",
+      "line": 187
+    },
+    "heldItemSortDirection": {
+      "translation": "反向",
+      "line": 200
+    },
+    "heldItemSearchFilter": {
+      "translation": "heldItemSearchFilter",
+      "line": 214
+    },
+    "heldItemDropdownPokemonOrItem": {
+      "translation": "heldItemDropdownPokemonOrItem",
+      "line": 218
+    },
+    "pokemon": {
+      "translation": "宝可梦",
+      "line": 218
+    },
+    "heldItemRegionFilter": {
+      "translation": "heldItemRegionFilter",
+      "line": 228
+    },
+    "heldItemTypeFilter": {
+      "translation": "heldItemTypeFilter",
+      "line": 233
+    },
+    "heldItemType2Filter": {
+      "translation": "持有项目类型2过滤器",
+      "line": 234
+    },
+    "heldItemHideHoldingPokemon": {
+      "translation": "heldItemHideHoldingPokemon",
+      "line": 247
+    },
+    "heldItemHideHoldingThisItem": {
+      "translation": "heldItemHideHoldingThisItem",
+      "line": 250
+    },
+    "consumableHideShinyPokemon": {
+      "translation": "consumableHideShinyPokemon",
+      "line": 290
+    },
+    "Batch Add Category": {
+      "translation": "批量添加分类",
+      "line": 333
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 334
+    },
+    "Add the <strong>${categoryName}</strong> category to ${pokemonList.length.toLocaleString('en-US')} Pokémon?": {
+      "translation": "",
+      "line": 334
+    },
+    "Yes": {
+      "translation": "是",
+      "line": 336
+    },
+    "Batch Remove Category": {
+      "translation": "批量移除分类",
+      "line": 353
+    },
+    "Remove the <strong>${categoryName}</strong> category from ${pokemonList.length.toLocaleString('en-US')} Pokémon?": {
+      "translation": "",
+      "line": 354
+    }
+  }
+}

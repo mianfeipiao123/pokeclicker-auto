@@ -1,0 +1,3954 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/gym/GymList.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 986,
+    "translatedCount": 938
+  },
+  "entries": {
+    "Pewter City": {
+      "translation": "尼比市",
+      "line": 6
+    },
+    "Brock": {
+      "translation": "小刚",
+      "line": 7
+    },
+    "Geodude": {
+      "translation": "小拳石",
+      "line": 10
+    },
+    "Onix": {
+      "translation": "大岩蛇",
+      "line": 11
+    },
+    "I took you for granted, and so I lost. As proof of your victory, I confer on you this... the official Pokémon League BoulderBadge.": {
+      "translation": "我把你视为理所当然，所以我输了。作为你胜利的证明，我授予你这个……官方的宝可梦联盟 BoulderBadge。",
+      "line": 15
+    },
+    "Cerulean City": {
+      "translation": "华蓝城",
+      "line": 18
+    },
+    "Misty": {
+      "translation": "小霞",
+      "line": 19
+    },
+    "Staryu": {
+      "translation": "海星星",
+      "line": 22
+    },
+    "Starmie": {
+      "translation": "宝石海星",
+      "line": 23
+    },
+    "Wow! You're too much, all right! You can have the CascadeBadge to show that you beat me.": {
+      "translation": "哇！你太过分了，好吧！你可以拥有 CascadeBadge 来证明你打败了我。",
+      "line": 27
+    },
+    "Team Rocket": {
+      "translation": "火箭队",
+      "line": 30
+    },
+    "Vermilion City": {
+      "translation": "枯叶市",
+      "line": 33
+    },
+    "Lt. Surge": {
+      "translation": "马志士",
+      "line": 34
+    },
+    "Voltorb": {
+      "translation": "霹雳电球",
+      "line": 37
+    },
+    "Pikachu": {
+      "translation": "皮卡丘",
+      "line": 38
+    },
+    "Raichu": {
+      "translation": "雷丘",
+      "line": 39
+    },
+    "Now that's a shocker! You're the real deal, kid! Fine, then, take the ThunderBadge!": {
+      "translation": "现在真是令人震惊！你真是货真价实的孩子！好吧，那么，拿下 ThunderBadge！",
+      "line": 43
+    },
+    "Blue 3": {
+      "translation": "蓝色3",
+      "line": 45
+    },
+    "Celadon City": {
+      "translation": "玉虹市",
+      "line": 49
+    },
+    "Erika": {
+      "translation": "莉佳",
+      "line": 50
+    },
+    "Victreebel": {
+      "translation": "大食花",
+      "line": 53
+    },
+    "Tangela": {
+      "translation": "蔓藤怪",
+      "line": 54
+    },
+    "Vileplume": {
+      "translation": "霸王花",
+      "line": 55
+    },
+    "Oh! I concede defeat. You are remarkably strong. I must confer on you the RainbowBadge.": {
+      "translation": "哦！我认输了。你非常坚强。我必须授予你彩虹徽章。",
+      "line": 59
+    },
+    "Saffron City": {
+      "translation": "金黄市",
+      "line": 62
+    },
+    "Sabrina": {
+      "translation": "娜姿",
+      "line": 63
+    },
+    "Kadabra": {
+      "translation": "勇基拉",
+      "line": 66
+    },
+    "Mr. Mime": {
+      "translation": "魔墙人偶",
+      "line": 67
+    },
+    "Venomoth": {
+      "translation": "摩鲁蛾",
+      "line": 68
+    },
+    "Alakazam": {
+      "translation": "胡地",
+      "line": 69
+    },
+    "This loss shocks me! But a loss is a loss. I admit I didn't work hard enough to win. You earned the MarshBadge.": {
+      "translation": "这个损失让我震惊！但损失就是损失。我承认我没有努力去赢得胜利。你赢得了 MarshBadge。",
+      "line": 73
+    },
+    "Fuchsia City": {
+      "translation": "浅红市",
+      "line": 76
+    },
+    "Koga": {
+      "translation": "阿桔",
+      "line": 77
+    },
+    "Koffing": {
+      "translation": "瓦斯弹",
+      "line": 80
+    },
+    "Muk": {
+      "translation": "臭臭泥",
+      "line": 81
+    },
+    "Weezing": {
+      "translation": "双弹瓦斯",
+      "line": 83
+    },
+    "Humph! You have proven your worth! Here! Take the Soul Badge!": {
+      "translation": "哼!你已经证明了你的价值！这里！拿走灵魂徽章！",
+      "line": 87
+    },
+    "Mining Expedition": {
+      "translation": "采矿探险",
+      "line": 96
+    },
+    "Cinnabar Island": {
+      "translation": "红莲岛",
+      "line": 99
+    },
+    "Blaine": {
+      "translation": "夏伯",
+      "line": 100
+    },
+    "Growlithe": {
+      "translation": "卡蒂狗",
+      "line": 103
+    },
+    "Ponyta": {
+      "translation": "小火马",
+      "line": 104
+    },
+    "Rapidash": {
+      "translation": "烈焰马",
+      "line": 105
+    },
+    "Arcanine": {
+      "translation": "风速狗",
+      "line": 106
+    },
+    "I have burned down to nothing! Not even ashes remain! You have earned the VolcanoBadge.": {
+      "translation": "我已经被烧得一无所有了！连骨灰都没有留下！你已获得火山徽章。",
+      "line": 110
+    },
+    "Pokémon Mansion": {
+      "translation": "宝可梦馆",
+      "line": 111
+    },
+    "Bill's Errand": {
+      "translation": "比尔的差事",
+      "line": 113
+    },
+    "Viridian City": {
+      "translation": "常磐城",
+      "line": 116
+    },
+    "Giovanni": {
+      "translation": "坂木",
+      "line": 117
+    },
+    "Rhyhorn": {
+      "translation": "独角犀牛",
+      "line": 120
+    },
+    "Dugtrio": {
+      "translation": "三地鼠",
+      "line": 121
+    },
+    "Nidoqueen": {
+      "translation": "尼多后",
+      "line": 122
+    },
+    "Nidoking": {
+      "translation": "尼多王",
+      "line": 123
+    },
+    "Ha! That was a truly intense fight. You have won! As proof, here is the Earth Badge!": {
+      "translation": "哈!那真是一场激烈的战斗。你赢了！作为证据，这是地球徽章！",
+      "line": 128
+    },
+    "Persons of Interest": {
+      "translation": "感兴趣的人",
+      "line": 137
+    },
+    "Team Rocket Boss Giovanni": {
+      "translation": "火箭队老大乔瓦尼",
+      "line": 140
+    },
+    "Elite Lorelei": {
+      "translation": "四天王科拿",
+      "line": 144
+    },
+    "Lorelei": {
+      "translation": "科拿",
+      "line": 145
+    },
+    "Dewgong": {
+      "translation": "白海狮",
+      "line": 148
+    },
+    "Cloyster": {
+      "translation": "刺甲贝",
+      "line": 149
+    },
+    "Slowbro": {
+      "translation": "呆壳兽",
+      "line": 150
+    },
+    "Jynx": {
+      "translation": "迷唇姐",
+      "line": 151
+    },
+    "Lapras": {
+      "translation": "拉普拉斯",
+      "line": 152
+    },
+    "...Things shouldn't be this way!": {
+      "translation": "",
+      "line": 156
+    },
+    "Ice": {
+      "translation": "冰",
+      "line": 160
+    },
+    "Elite Bruno": {
+      "translation": "四天王希巴",
+      "line": 162
+    },
+    "Bruno": {
+      "translation": "希巴",
+      "line": 163
+    },
+    "Hitmonchan": {
+      "translation": "快拳郎",
+      "line": 167
+    },
+    "Hitmonlee": {
+      "translation": "飞腿郎",
+      "line": 168
+    },
+    "Machamp": {
+      "translation": "怪力",
+      "line": 170
+    },
+    "Why? How could I lose?": {
+      "translation": "为什么？我怎么会输呢？",
+      "line": 174
+    },
+    "Cave": {
+      "translation": "洞穴",
+      "line": 178
+    },
+    "Elite Agatha": {
+      "translation": "四天王菊子",
+      "line": 180
+    },
+    "Agatha": {
+      "translation": "菊子",
+      "line": 181
+    },
+    "Gengar": {
+      "translation": "耿鬼",
+      "line": 184
+    },
+    "Golbat": {
+      "translation": "大嘴蝠",
+      "line": 185
+    },
+    "Haunter": {
+      "translation": "鬼斯通",
+      "line": 186
+    },
+    "Arbok": {
+      "translation": "阿柏怪",
+      "line": 187
+    },
+    "Oh, my! You're something special, child!": {
+      "translation": "哦，天哪！你很特别，孩子！",
+      "line": 192
+    },
+    "Graveyard": {
+      "translation": "墓地",
+      "line": 196
+    },
+    "Elite Lance": {
+      "translation": "四天王渡",
+      "line": 198
+    },
+    "Lance": {
+      "translation": "渡",
+      "line": 199
+    },
+    "Gyarados": {
+      "translation": "暴鲤龙",
+      "line": 202
+    },
+    "Dragonair": {
+      "translation": "哈克龙",
+      "line": 203
+    },
+    "Aerodactyl": {
+      "translation": "化石翼龙",
+      "line": 205
+    },
+    "Dragonite": {
+      "translation": "快龙",
+      "line": 206
+    },
+    "That's it! I hate to admit it, but you are a Pokémon master!": {
+      "translation": "就是这样！我不愿意承认，但你是宝可梦大师！",
+      "line": 210
+    },
+    "Champion Blue": {
+      "translation": "冠军青绿",
+      "line": 217
+    },
+    "Blue": {
+      "translation": "蓝色",
+      "line": 218
+    },
+    "Pidgeot": {
+      "translation": "大比鸟",
+      "line": 221
+    },
+    "Rhydon": {
+      "translation": "钻角犀兽",
+      "line": 223
+    },
+    "Exeggutor": {
+      "translation": "椰蛋树",
+      "line": 224
+    },
+    "Charizard": {
+      "translation": "喷火龙",
+      "line": 226
+    },
+    "Blastoise": {
+      "translation": "水箭龟",
+      "line": 229
+    },
+    "Venusaur": {
+      "translation": "妙蛙花",
+      "line": 232
+    },
+    "NO! That can't be! You beat me at my best! After all that work to become the League Champ? My reign is over already? It's not fair!": {
+      "translation": "不！那不可能！你用尽全力击败了我！经过所有努力成为联赛冠军？我的统治已经结束了吗？这不公平！",
+      "line": 239
+    },
+    "Violet City": {
+      "translation": "紫城",
+      "line": 247
+    },
+    "Falkner": {
+      "translation": "阿速",
+      "line": 248
+    },
+    "Pidgey": {
+      "translation": "波波",
+      "line": 251
+    },
+    "Pidgeotto": {
+      "translation": "比比鸟",
+      "line": 252
+    },
+    "...Darn! My Dad's cherished bird Pokémon... All right. Take this. It's the official Pokémon League Zephyr Badge.": {
+      "translation": "",
+      "line": 256
+    },
+    "Sprout Tower": {
+      "translation": "芽芽塔",
+      "line": 257
+    },
+    "Azalea Town": {
+      "translation": "杜鹃花镇",
+      "line": 259
+    },
+    "Bugsy": {
+      "translation": "阿笔",
+      "line": 260
+    },
+    "Metapod": {
+      "translation": "铁甲蛹",
+      "line": 263
+    },
+    "Kakuna": {
+      "translation": "铁壳蛹",
+      "line": 264
+    },
+    "Scyther": {
+      "translation": "飞天螳螂",
+      "line": 265
+    },
+    "Whoa, amazing! You're an expert on Pokémon! My research isn't complete yet. Ok, you win. Take this Badge.": {
+      "translation": "哇，太棒了！你是宝可梦专家！我的研究还没有完成。好吧，你赢了。拿着这个徽章。",
+      "line": 269
+    },
+    "Slowpoke Well": {
+      "translation": "",
+      "line": 270
+    },
+    "Goldenrod City": {
+      "translation": "满金市",
+      "line": 272
+    },
+    "Whitney": {
+      "translation": "小茜",
+      "line": 273
+    },
+    "Clefairy": {
+      "translation": "皮皮",
+      "line": 276
+    },
+    "Miltank": {
+      "translation": "大奶罐",
+      "line": 277
+    },
+    "...Sniff... What? What do you want? A badge? Oh, right. I forgot. Here's the Plain Badge.": {
+      "translation": "",
+      "line": 281
+    },
+    "Ecruteak City": {
+      "translation": "圆朱市",
+      "line": 284
+    },
+    "Morty": {
+      "translation": "松叶",
+      "line": 285
+    },
+    "Gastly": {
+      "translation": "鬼斯",
+      "line": 288
+    },
+    "I'm not good enough yet... All right. This Badge is yours.": {
+      "translation": "我还不够好...好吧。这枚徽章是你的。",
+      "line": 295
+    },
+    "Team Rocket Again": {
+      "translation": "再次火箭队",
+      "line": 298
+    },
+    "The Sick Ampharos": {
+      "translation": "",
+      "line": 299
+    },
+    "Cianwood City": {
+      "translation": "西安伍德城",
+      "line": 302
+    },
+    "Chuck": {
+      "translation": "阿四",
+      "line": 303
+    },
+    "Primeape": {
+      "translation": "火暴猴",
+      "line": 306
+    },
+    "Poliwrath": {
+      "translation": "蚊香泳士",
+      "line": 307
+    },
+    "Wha? Huh? I lost? How about that! You're worthy of the Storm Badge!": {
+      "translation": "世界卫生大会？啊？我输了？怎么样！你值得拥有风暴徽章！",
+      "line": 311
+    },
+    "Olivine City": {
+      "translation": "浅葱市",
+      "line": 314
+    },
+    "Jasmine": {
+      "translation": "阿蜜",
+      "line": 315
+    },
+    "Magnemite": {
+      "translation": "小磁怪",
+      "line": 318
+    },
+    "Steelix": {
+      "translation": "大钢蛇",
+      "line": 320
+    },
+    "...You are a better trainer than me, in both skill and kindness. In accordance with League rules, I confer upon you this Badge.": {
+      "translation": "",
+      "line": 324
+    },
+    "Mahogany Town": {
+      "translation": "红木镇",
+      "line": 327
+    },
+    "Pryce": {
+      "translation": "柳伯",
+      "line": 328
+    },
+    "Seel": {
+      "translation": "小海狮",
+      "line": 331
+    },
+    "Piloswine": {
+      "translation": "长毛猪",
+      "line": 333
+    },
+    "Ah, I am impressed by your prowess. With your strong will, I know you will overcome all life's obstacles. You are worthy of this Badge!": {
+      "translation": "啊，你的实力让我印象深刻。我知道，凭借你坚强的意志，你将克服生活中的所有障碍。你值得拥有这枚徽章！",
+      "line": 337
+    },
+    "Team Rocket's Hideout": {
+      "translation": "火箭队的藏身处",
+      "line": 338
+    },
+    "Blackthorn City": {
+      "translation": "烟墨市",
+      "line": 340
+    },
+    "Clair": {
+      "translation": "小椿",
+      "line": 341
+    },
+    "Kingdra": {
+      "translation": "刺龙王",
+      "line": 347
+    },
+    "Here, this is the Rising Badge... Hurry up! Take it!": {
+      "translation": "这儿，这是崛起徽章……快点！拿走吧！",
+      "line": 351
+    },
+    "Elite Will": {
+      "translation": "四天王一树",
+      "line": 356
+    },
+    "Will": {
+      "translation": "一树",
+      "line": 357
+    },
+    "Xatu": {
+      "translation": "天然鸟",
+      "line": 360
+    },
+    "Even though I was defeated, I won't change my course. I will continue battling until I stand above all Trainers! Now move on and experience the true ferocity of the Elite Four.": {
+      "translation": "即使我失败了，我也不会改变我的方针。我会继续战斗，直到超越所有训练家为止！现在继续前进，体验四强的真正凶猛。",
+      "line": 368
+    },
+    "Silver 5": {
+      "translation": "银5",
+      "line": 369
+    },
+    "Elite Koga": {
+      "translation": "四天王阿桔",
+      "line": 371
+    },
+    "Koga2": {
+      "translation": "古贺2",
+      "line": 372
+    },
+    "Ariados": {
+      "translation": "阿利多斯",
+      "line": 375
+    },
+    "Forretress": {
+      "translation": "佛烈托斯",
+      "line": 377
+    },
+    "Crobat": {
+      "translation": "叉字蝠",
+      "line": 379
+    },
+    "I subjected you to everything I could muster. But my efforts failed. I must hone my skills. Go on to the next room, and put your abilities to the test!": {
+      "translation": "我让你尽我所能。但我的努力失败了。我必须磨练我的技能。前往下一个房间，测试一下你的能力！",
+      "line": 383
+    },
+    "Elite Bruno2": {
+      "translation": "四天王希巴2",
+      "line": 387
+    },
+    "Bruno2": {
+      "translation": "希巴2",
+      "line": 388
+    },
+    "Hitmontop": {
+      "translation": "战舞郎",
+      "line": 391
+    },
+    "Having lost, I have no right to say anything… Go face your next challenge!": {
+      "translation": "输了，我已经没有权利说什么了……去迎接下一个挑战吧！",
+      "line": 399
+    },
+    "Elite Karen": {
+      "translation": "四天王梨花",
+      "line": 403
+    },
+    "Karen": {
+      "translation": "梨花",
+      "line": 404
+    },
+    "Umbreon": {
+      "translation": "月亮伊布",
+      "line": 407
+    },
+    "Murkrow": {
+      "translation": "黑暗鸦",
+      "line": 409
+    },
+    "Houndoom": {
+      "translation": "黑鲁加",
+      "line": 411
+    },
+    "Strong Pokémon. Weak Pokémon. That is only the selfish perception of people. Truly skilled Trainers should try to win with the Pokémon they love best. I like your style. You understand what's important. Go on — — the Champion is waiting.": {
+      "translation": "强力的宝可梦。弱小的宝可梦。这只是人们自私的看法。真正熟练的训练家应该尝试用他们最喜欢的宝可梦来获胜。我喜欢你的风格。你明白什么是重要的。继续吧——冠军正在等待。",
+      "line": 415
+    },
+    "Champion Lance": {
+      "translation": "冠军渡",
+      "line": 419
+    },
+    "Lance2": {
+      "translation": "兰斯2",
+      "line": 420
+    },
+    "…It's over. But it's an odd feeling. I'm not angry that I lost. In fact, I feel happy. Happy that I witnessed the rise of a great new Champion!": {
+      "translation": "…结束了。但这是一种奇怪的感觉。我并不因为输了而生气。事实上，我感觉很幸福。很高兴我见证了一位伟大新冠军的崛起！",
+      "line": 432
+    },
+    "Rustboro City": {
+      "translation": "卡那兹市",
+      "line": 439
+    },
+    "Roxanne": {
+      "translation": "杜娟",
+      "line": 440
+    },
+    "Nosepass": {
+      "translation": "朝北鼻",
+      "line": 445
+    },
+    "So… I lost… It seems that I still have much more to learn… I understand. The Pokémon League's rules state that Trainers are to be given this if they defeat a Gym Leader. Please accept the official Pokémon League Stone Badge.": {
+      "translation": "所以……我输了……看来我还有很多东西要学……我明白了。宝可梦联盟的规则规定，如果训练师击败道馆馆主，他们将获得此奖励。请接受官方的宝可梦联盟石徽章。",
+      "line": 449
+    },
+    "Dewford Town": {
+      "translation": "杜福德镇",
+      "line": 452
+    },
+    "Brawly": {
+      "translation": "藤树",
+      "line": 453
+    },
+    "Machop": {
+      "translation": "腕力",
+      "line": 456
+    },
+    "Meditite": {
+      "translation": "玛沙那",
+      "line": 457
+    },
+    "Makuhita": {
+      "translation": "幕下力士",
+      "line": 458
+    },
+    "Whoah, wow! You made a much bigger splash than I expected! You swamped me! Okay, you've got me. Take this Gym Badge!": {
+      "translation": "哇哇哇！你引起的轰动比我想象的要大得多！你淹没了我！好吧，你有我了。收下这张健身徽章吧！",
+      "line": 462
+    },
+    "May 2": {
+      "translation": "5月2日",
+      "line": 463
+    },
+    "Mauville City": {
+      "translation": "紫堇市",
+      "line": 465
+    },
+    "Wattson": {
+      "translation": "铁旋",
+      "line": 466
+    },
+    "Electrike": {
+      "translation": "落雷兽",
+      "line": 470
+    },
+    "Magneton": {
+      "translation": "三合一磁怪",
+      "line": 471
+    },
+    "Manectric": {
+      "translation": "雷电兽",
+      "line": 472
+    },
+    "Wahahahah! Fine, I lost! You ended up giving me a thrill! Take this Badge!": {
+      "translation": "哇哈哈哈！好吧，我输了！你最终给了我一个惊喜！拿着这个徽章！",
+      "line": 476
+    },
+    "Wally 1": {
+      "translation": "沃利1",
+      "line": 477
+    },
+    "Land vs. Water": {
+      "translation": "土地与水",
+      "line": 479
+    },
+    "Lavaridge Town": {
+      "translation": "釜炎镇",
+      "line": 482
+    },
+    "Flannery": {
+      "translation": "亚莎",
+      "line": 483
+    },
+    "Numel": {
+      "translation": "呆火驼",
+      "line": 486
+    },
+    "Slugma": {
+      "translation": "熔岩虫",
+      "line": 487
+    },
+    "Camerupt": {
+      "translation": "喷火驼",
+      "line": 488
+    },
+    "Torkoal": {
+      "translation": "煤炭龟",
+      "line": 489
+    },
+    "Oh... I guess I was trying too hard... I... I've only recently become a Gym Leader. I tried too hard to be someone I'm not. I have to do things my natural way. If I don't, my Pokémon will be confused. Thanks for teaching me that. For that, you deserve this.": {
+      "translation": "哦...我想我太努力了...我...我最近才成为道馆馆主。我太努力地想成为一个不是我的人。我必须以自然的方式做事。如果我不这样做，我的宝可梦就会感到困惑。谢谢你教我这一点。为此，你应得的。",
+      "line": 493
+    },
+    "Jagged Pass": {
+      "translation": "锯齿状通行证",
+      "line": 494
+    },
+    "Petalburg City": {
+      "translation": "橙华市",
+      "line": 496
+    },
+    "Norman": {
+      "translation": "千里",
+      "line": 497
+    },
+    "Spinda": {
+      "translation": "晃晃斑",
+      "line": 500
+    },
+    "Vigoroth": {
+      "translation": "过动猿",
+      "line": 501
+    },
+    "Linoone": {
+      "translation": "直冲熊",
+      "line": 502
+    },
+    "Slaking": {
+      "translation": "请假王",
+      "line": 503
+    },
+    "… I… I can't… I can't believe it. I lost to you? But, rules are rules! Here, take this.": {
+      "translation": "……我……我不能……我不敢相信。我输给你了？但是，规则就是规则！给，拿着这个。",
+      "line": 507
+    },
+    "Fortree City": {
+      "translation": "茵郁市",
+      "line": 513
+    },
+    "Winona": {
+      "translation": "娜琪",
+      "line": 514
+    },
+    "Swablu": {
+      "translation": "青绵鸟",
+      "line": 517
+    },
+    "Tropius": {
+      "translation": "热带龙",
+      "line": 518
+    },
+    "Pelipper": {
+      "translation": "大嘴鸥",
+      "line": 519
+    },
+    "Skarmory": {
+      "translation": "盔甲鸟",
+      "line": 520
+    },
+    "Altaria": {
+      "translation": "七夕青鸟",
+      "line": 521
+    },
+    "Never before have I seen a Trainer command Pokémon with more grace than I... In recognition of your prowess, I present to you this Gym Badge.": {
+      "translation": "我从来没有见过训练家比我更优雅地指挥宝可梦......为了表彰你的实力，我向你赠送这个道馆徽章。",
+      "line": 525
+    },
+    "Kecleon 1": {
+      "translation": "",
+      "line": 526
+    },
+    "Mossdeep City": {
+      "translation": "莫斯迪普城",
+      "line": 528
+    },
+    "Tate & Liza": {
+      "translation": "泰特和丽莎",
+      "line": 529
+    },
+    "Claydol": {
+      "translation": "念力土偶",
+      "line": 532
+    },
+    "Lunatone": {
+      "translation": "月石",
+      "line": 534
+    },
+    "Solrock": {
+      "translation": "太阳岩",
+      "line": 535
+    },
+    "What? Our combination... was shattered! It can't be helped. You've won... So, in recognition, take this Gym Badge.": {
+      "translation": "什么？我们的组合……破碎了！这是没办法的事。你赢了……所以，为了表示认可，请收下这张道馆徽章。",
+      "line": 539
+    },
+    "Sootopolis City": {
+      "translation": "琉璃市",
+      "line": 542
+    },
+    "Juan": {
+      "translation": "亚当",
+      "line": 543
+    },
+    "Luvdisc": {
+      "translation": "爱心鱼",
+      "line": 546
+    },
+    "Whiscash": {
+      "translation": "鲶鱼王",
+      "line": 547
+    },
+    "Sealeo": {
+      "translation": "海魔狮",
+      "line": 548
+    },
+    "Crawdaunt": {
+      "translation": "铁螯龙虾",
+      "line": 549
+    },
+    "Ahahaha, excellent! Very well, you are the winner. From you, I sense the brilliant shine of skill that will overcome all. However, compared with me or even Wallace, you are lacking in elegance. Perhaps I should make you a loan of my outfit? ... Hahaha, I merely jest! Rather than my clothes, I shall reward you with this, the Rain Badge.": {
+      "translation": "啊哈哈哈，太棒了！很好，你是赢家。从你身上，我感受到了克服一切的技能的灿烂光芒。然而，与我甚至与米可利相比，你却缺乏优雅。也许我应该借给你我的衣服？ ……哈哈哈，我只是开玩笑！我不会用我的衣服来奖励你，而是用这个，雨之徽章。",
+      "line": 554
+    },
+    "Sky Pillar": {
+      "translation": "天柱",
+      "line": 555
+    },
+    "Elite Sidney": {
+      "translation": "四天王花月",
+      "line": 559
+    },
+    "Sidney": {
+      "translation": "花月",
+      "line": 560
+    },
+    "Mightyena": {
+      "translation": "大狼犬",
+      "line": 563
+    },
+    "Shiftry": {
+      "translation": "狡猾天狗",
+      "line": 564
+    },
+    "Cacturne": {
+      "translation": "梦歌仙人掌",
+      "line": 565
+    },
+    "Absol": {
+      "translation": "阿勃梭鲁",
+      "line": 567
+    },
+    "Well, listen to what this loser has to say. You've got what it takes to go far. Now, go on to the next room and enjoy your next battle!": {
+      "translation": "好吧，听听这个失败者怎么说。你拥有走得更远所需的一切。现在，前往下一个房间，享受下一场战斗吧！",
+      "line": 571
+    },
+    "Wally 2": {
+      "translation": "沃利2",
+      "line": 574
+    },
+    "Elite Phoebe": {
+      "translation": "四天王芙蓉",
+      "line": 577
+    },
+    "Phoebe": {
+      "translation": "芙蓉",
+      "line": 578
+    },
+    "Dusclops": {
+      "translation": "彷徨夜灵",
+      "line": 581
+    },
+    "Banette": {
+      "translation": "诅咒娃娃",
+      "line": 582
+    },
+    "Sableye": {
+      "translation": "勾魂眼",
+      "line": 583
+    },
+    "There's a definite bond between you and your Pokémon, too. I didn't recognize it, so it's only natural that I lost. Yup, I'd like to see how far your bond will carry you. Go ahead, move to the next room.": {
+      "translation": "你和你的宝可梦之间也有明确的联系。我没认出来，所以我输了也是理所当然的。是的，我想看看你的纽带能带你走多远。继续，移动到下一个房间。",
+      "line": 589
+    },
+    "Elite Glacia": {
+      "translation": "四天王波妮",
+      "line": 592
+    },
+    "Glacia": {
+      "translation": "波妮",
+      "line": 593
+    },
+    "Glalie": {
+      "translation": "冰鬼护",
+      "line": 597
+    },
+    "Walrein": {
+      "translation": "帝牙海狮",
+      "line": 600
+    },
+    "Advance to the next room. And there, confirm the truly fearsome side of the Pokémon League.": {
+      "translation": "前进到下一个房间。在那里，确认宝可梦联盟真正可怕的一面。",
+      "line": 604
+    },
+    "Elite Drake": {
+      "translation": "四天王源治",
+      "line": 607
+    },
+    "Drake": {
+      "translation": "源治",
+      "line": 608
+    },
+    "Shelgon": {
+      "translation": "甲壳龙",
+      "line": 611
+    },
+    "Flygon": {
+      "translation": "沙漠蜻蜓",
+      "line": 614
+    },
+    "Salamence": {
+      "translation": "暴飞龙",
+      "line": 615
+    },
+    "You deserve every credit for coming this far as a Trainer of Pokémon. You do seem to know what is needed. Yes, what a Trainer needs is a virtuous heart. Pokémon touch the good hearts of Trainers and learn good from wrong. They touch the good hearts of Trainers and grow strong. Go! Go onwards! The Champion is waiting!": {
+      "translation": "作为一名宝可梦训练师，你能走到这一步，值得所有的赞誉。看来你确实知道需要什么。是的，修炼者需要的是一颗善良的心。宝可梦触动了训练家的善良之心，并从错误中吸取教训。他们触动了训练师的善良之心并变得坚强。去！继续前进！冠军正在等待！",
+      "line": 619
+    },
+    "Champion Wallace": {
+      "translation": "冠军米可利",
+      "line": 624
+    },
+    "Wallace": {
+      "translation": "米可利",
+      "line": 625
+    },
+    "Wailord": {
+      "translation": "吼鲸王",
+      "line": 628
+    },
+    "Tentacruel": {
+      "translation": "毒刺水母",
+      "line": 629
+    },
+    "Ludicolo": {
+      "translation": "乐天河童",
+      "line": 630
+    },
+    "Milotic": {
+      "translation": "美纳斯",
+      "line": 633
+    },
+    "I, the Champion, fall in defeat… That was wonderful work. You were elegant, infuriatingly so. And yet it was utterly glorious! Kudos to you! You are a truly noble Pokémon Trainer!": {
+      "translation": "我，冠军，失败了……那真是太棒了。你优雅得令人恼火。但它却是极其荣耀的！向你致敬！你是一位真正高贵的宝可梦训练家！",
+      "line": 637
+    },
+    "Mikan Island": {
+      "translation": "蜜柑岛",
+      "line": 644
+    },
+    "Cissy": {
+      "translation": "西西",
+      "line": 645
+    },
+    "Seadra": {
+      "translation": "海刺龙",
+      "line": 648
+    },
+    "Coral-Eye": {
+      "translation": "珊瑚眼",
+      "line": 651
+    },
+    "I can see why you made it so far in the Indigo League, and I bet you'll do pretty well in the Orange League.\n": {
+      "translation": "",
+      "line": 653
+    },
+    "This is the Coral-Eye Badge of the Mikan Gym, to prove that you won your match!": {
+      "translation": "这是蜜柑道馆的珊瑚眼徽章，证明你赢得了比赛！",
+      "line": 654
+    },
+    "Tanoby Ruins": {
+      "translation": "塔诺比遗址",
+      "line": 655
+    },
+    "Navel Island": {
+      "translation": "肚脐岛",
+      "line": 657
+    },
+    "Danny": {
+      "translation": "丹尼",
+      "line": 658
+    },
+    "Machoke": {
+      "translation": "豪力",
+      "line": 663
+    },
+    "Electrode": {
+      "translation": "顽皮雷弹",
+      "line": 665
+    },
+    "You and the others were great.\nNow I'd like to give you and your fellow challengers something you really deserve. The Sea Ruby badge. It's yours.": {
+      "translation": "",
+      "line": 669
+    },
+    "Lost Cave": {
+      "translation": "失落的洞穴",
+      "line": 670
+    },
+    "Trovita Island": {
+      "translation": "特罗维塔岛",
+      "line": 672
+    },
+    "Rudy": {
+      "translation": "鲁迪",
+      "line": 673
+    },
+    "Electabuzz": {
+      "translation": "电击兽",
+      "line": 676
+    },
+    "Nice job, guys. Here are your Spike Shell badges, guys.": {
+      "translation": "干得好，伙计们。伙计们，这是你们的 Spike Shell 徽章。",
+      "line": 682
+    },
+    "Kumquat Island": {
+      "translation": "金橘岛",
+      "line": 685
+    },
+    "Luana": {
+      "translation": "卢安娜",
+      "line": 686
+    },
+    "Marowak": {
+      "translation": "嘎啦嘎啦",
+      "line": 690
+    },
+    "You did a fine job.\nAnd now, as Kumquat Island gym leader, and a member of the Orange Crew, I happily present this token of your victory.": {
+      "translation": "",
+      "line": 694
+    },
+    "Icefall Cave": {
+      "translation": "冰瀑布洞",
+      "line": 695
+    },
+    "Supreme Gym Leader Drake": {
+      "translation": "至尊道馆馆主德雷克",
+      "line": 699
+    },
+    "Ditto": {
+      "translation": "百变怪",
+      "line": 703
+    },
+    "You really deserve that trophy. You're a great Pokémon trainer.": {
+      "translation": "你真的值得那个奖杯。你是一位出色的宝可梦训练家。",
+      "line": 712
+    },
+    "Cipher Admin Ein": {
+      "translation": "密码管理员",
+      "line": 722
+    },
+    "Urrrgh… What unbelievable power…": {
+      "translation": "呃……好不可思议的力量……",
+      "line": 734
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 735
+    },
+    "Challenge Ein": {
+      "translation": "挑战艾因",
+      "line": 736
+    },
+    "Cipher Admin Miror B.": {
+      "translation": "密码管理镜像 B.",
+      "line": 738
+    },
+    "Cipher Admin Miror B": {
+      "translation": "密码管理镜像 B",
+      "line": 739
+    },
+    "Loudred": {
+      "translation": "吼爆弹",
+      "line": 744
+    },
+    "Golduck": {
+      "translation": "哥达鸭",
+      "line": 745
+    },
+    "Armaldo": {
+      "translation": "太古盔甲",
+      "line": 746
+    },
+    "I'm an awesome dancer… But I can't win in battles!": {
+      "translation": "我是一名出色的舞者……但我无法在战斗中获胜！",
+      "line": 750
+    },
+    "Challenge Miror B.": {
+      "translation": "挑战镜子B.",
+      "line": 752
+    },
+    "Cipher Admin Dakim": {
+      "translation": "密码管理员达基姆",
+      "line": 754
+    },
+    "This can't be! The mighty Dakim loses again?": {
+      "translation": "这不可能！强大的达基姆又输了？",
+      "line": 766
+    },
+    "Challenge Dakim": {
+      "translation": "挑战达基姆",
+      "line": 768
+    },
+    "Cipher Admin Venus": {
+      "translation": "密码管理员维纳斯",
+      "line": 770
+    },
+    "Bellossom": {
+      "translation": "美丽花",
+      "line": 774
+    },
+    "Misdreavus": {
+      "translation": "梦妖",
+      "line": 775
+    },
+    "Wigglytuff": {
+      "translation": "胖可丁",
+      "line": 777
+    },
+    "I shall forget that I ever battled with you. Yes, that's what I'll do. Ohohohoh!": {
+      "translation": "我会忘记我曾与你战斗过。是的，这就是我要做的。噢噢噢！",
+      "line": 782
+    },
+    "Challenge Venus": {
+      "translation": "挑战金星",
+      "line": 784
+    },
+    "Cipher Admin Lovrina": {
+      "translation": "密码管理员洛夫里纳",
+      "line": 786
+    },
+    "Shuckle": {
+      "translation": "壶壶",
+      "line": 790
+    },
+    "Wobbuffet": {
+      "translation": "果然翁",
+      "line": 792
+    },
+    "Blissey": {
+      "translation": "幸福蛋",
+      "line": 793
+    },
+    "Meganium": {
+      "translation": "大竺葵",
+      "line": 795
+    },
+    "I was so impressed by your toughness! Because you are so tough, I'll let you be the first member in my fan club! Doesn't that so make your day?": {
+      "translation": "你的坚强给我留下了深刻的印象！因为你这么厉害，我就让你成为我粉丝俱乐部的第一位会员！这不是让你很高兴吗？",
+      "line": 799
+    },
+    "Gale of Darkness": {
+      "translation": "黑暗之风",
+      "line": 800
+    },
+    "Challenge Lovrina": {
+      "translation": "挑战洛夫里娜",
+      "line": 801
+    },
+    "Cipher Admin Snattle": {
+      "translation": "密码管理小窍门",
+      "line": 803
+    },
+    "Regirock": {
+      "translation": "雷吉洛克",
+      "line": 811
+    },
+    "Regice": {
+      "translation": "雷吉艾斯",
+      "line": 812
+    },
+    "In the near future, when I become the Governor of Orre, I shall appoint you as my official secretary. Let that be a motivation for you to constantly better your skills!": {
+      "translation": "在不久的将来，当我成为奥尔州长时，我将任命你为我的正式秘书。让它成为你不断提高技能的动力！",
+      "line": 816
+    },
+    "Challenge Snattle": {
+      "translation": "挑战小食",
+      "line": 818
+    },
+    "Cipher Admin Gorigan": {
+      "translation": "密码管理员 Gorigan",
+      "line": 820
+    },
+    "Granbull": {
+      "translation": "布鲁皇",
+      "line": 825
+    },
+    "Tauros": {
+      "translation": "肯泰罗",
+      "line": 827
+    },
+    "You're some kind of special! You're worthy of sharing my camaraderie as a friend.": {
+      "translation": "你有点特别！你值得分享我作为朋友的友情。",
+      "line": 833
+    },
+    "Challenge Gorigan": {
+      "translation": "挑战高里根",
+      "line": 835
+    },
+    "Cipher Admin Ardos": {
+      "translation": "密码管理员 Ardos",
+      "line": 837
+    },
+    "Sceptile": {
+      "translation": "蜥蜴王",
+      "line": 841
+    },
+    "In all of Orre, I've never seen a Pokémon Trainer of your caliber. You appear to be the biggest threat to Cipher. To make sure my underlings watch you with caution, I give you the title “Cipher's Biggest Enemy.”": {
+      "translation": "在整个欧雷，我从未见过像你这样水平的宝可梦训练家。你似乎是 暗影密码 的最大威胁。为了确保我的下属小心翼翼地看着你，我给你起了“暗影密码最大的敌人”的称号。",
+      "line": 850
+    },
+    "Challenge Ardos": {
+      "translation": "挑战阿多斯",
+      "line": 852
+    },
+    "Cipher Admin Eldes": {
+      "translation": "密码管理埃尔德斯",
+      "line": 854
+    },
+    "Latios": {
+      "translation": "拉帝欧斯",
+      "line": 858
+    },
+    "Latias": {
+      "translation": "拉帝亚斯",
+      "line": 859
+    },
+    "Metagross": {
+      "translation": "巨金怪",
+      "line": 861
+    },
+    "Snorlax": {
+      "translation": "卡比兽",
+      "line": 862
+    },
+    "I'm satisfied that I was able to battle to my heart's content. I would like to confer on you the title “Eldes's Top Rival.”": {
+      "translation": "我很满意自己能够尽情地战斗。我想授予你“埃尔德斯顶级对手”的称号。",
+      "line": 867
+    },
+    "Challenge Eldes": {
+      "translation": "挑战埃尔德斯",
+      "line": 869
+    },
+    "Oreburgh City": {
+      "translation": "奥勒堡市",
+      "line": 872
+    },
+    "Roark": {
+      "translation": "瓢太",
+      "line": 873
+    },
+    "Cranidos": {
+      "translation": "头盖龙",
+      "line": 878
+    },
+    "This is embarrassing... I went and lost to a Trainer who didn't have a single Gym Badge... But that's tough. You were strong, and I was weak. That's all there is. According to Pokémon League rules, I have to give you our Gym Badge since you've beaten me, the Leader. Heres your official Pokémon League Coal Badge.": {
+      "translation": "真是丢人啊……我竟然输给了一个连道馆徽章都没有的训练家……不过这也太难受了吧。你很坚强，而我却很弱小。仅此而已。根据宝可梦联盟的规则，既然你打败了我，队长，我就必须给你道馆徽章。这是你的官方宝可梦联盟煤炭徽章。",
+      "line": 882
+    },
+    "A New World": {
+      "translation": "新世界",
+      "line": 885
+    },
+    "Eterna City": {
+      "translation": "绮年华城",
+      "line": 888
+    },
+    "Gardenia": {
+      "translation": "菜种",
+      "line": 889
+    },
+    "Turtwig": {
+      "translation": "草苗龟",
+      "line": 892
+    },
+    "Cherrim (Overcast)": {
+      "translation": "[[Cherrim]] 阴天形态",
+      "line": 893
+    },
+    "Roserade": {
+      "translation": "罗丝雷朵",
+      "line": 894
+    },
+    "I might've said it before, but you're really tough! Wasn't it hard for you to raise your Pokémon to be so good? I guess that's a measure of how much you love your Pokémon. In recognition of that, I proudly grant you this!\"": {
+      "translation": "我之前可能已经说过了，但你真的很坚强！你把自己的宝可梦养到这么优秀不是很难吗？我想这可以衡量你有多爱你的宝可梦。为了认识到这一点，我自豪地授予你这个！”",
+      "line": 898
+    },
+    "Hearthome City": {
+      "translation": "心家城",
+      "line": 901
+    },
+    "Fantina": {
+      "translation": "梅丽莎",
+      "line": 902
+    },
+    "Duskull": {
+      "translation": "夜巡灵",
+      "line": 905
+    },
+    "Mismagius": {
+      "translation": "梦妖魔",
+      "line": 907
+    },
+    "I am dumbfounded! So very, very strong! You, your Pokémon, so strong! Your power is admirable! I shall honor it with this Gym Badge!\"": {
+      "translation": "我傻眼了！所以非常非常强！你，你的宝可梦，好强啊！你的力量令人钦佩！我将用这枚道馆徽章来纪念它！”",
+      "line": 911
+    },
+    "Veilstone City": {
+      "translation": "面纱城",
+      "line": 914
+    },
+    "Maylene": {
+      "translation": "阿李",
+      "line": 915
+    },
+    "Lucario": {
+      "translation": "路卡利欧",
+      "line": 920
+    },
+    "...OK. You win. That was a tough loss. I learned a lot from it. Please, accept this Gym Badge.": {
+      "translation": "",
+      "line": 924
+    },
+    "Pastoria City": {
+      "translation": "帕斯托里亚市",
+      "line": 927
+    },
+    "Crasher Wake": {
+      "translation": "吉宪",
+      "line": 928
+    },
+    "Quagsire": {
+      "translation": "沼王",
+      "line": 932
+    },
+    "Floatzel": {
+      "translation": "浮潜鼬",
+      "line": 933
+    },
+    "It seems the undertow pulled me under... But I had a great time battling with you! You've earned this!": {
+      "translation": "似乎是被一股暗流卷入了水中……不过，我和你战斗得很开心！这是你应得的！",
+      "line": 937
+    },
+    "Barry 4": {
+      "translation": "巴里4",
+      "line": 938
+    },
+    "Canalave City": {
+      "translation": "卡纳拉夫城",
+      "line": 940
+    },
+    "Byron": {
+      "translation": "东钢",
+      "line": 941
+    },
+    "Bastiodon": {
+      "translation": "护城龙",
+      "line": 946
+    },
+    "You were strong enough to take down my prized team of Pokémon. In recognition of that power, I give you this: the Mine Badge!": {
+      "translation": "你足够强大，足以击败我珍贵的宝可梦团队。为了表彰这种力量，我给你这个：矿井徽章！",
+      "line": 950
+    },
+    "Barry 5": {
+      "translation": "巴里5号",
+      "line": 951
+    },
+    "Snowpoint City": {
+      "translation": "雪点城",
+      "line": 953
+    },
+    "Candice": {
+      "translation": "小菘",
+      "line": 954
+    },
+    "Sneasel": {
+      "translation": "狃拉",
+      "line": 957
+    },
+    "Abomasnow": {
+      "translation": "暴雪王",
+      "line": 959
+    },
+    "Froslass": {
+      "translation": "雪妖女",
+      "line": 960
+    },
+    "Wow! You're great! You've earned my respect! I think your focus and will bowled us over totally. Oh, that's right! I'm supposed to give you this!": {
+      "translation": "哇！你太棒了！你赢得了我的尊重！我认为你的专注和意志会让我们彻底崩溃。哦，原来如此！我应该给你这个！",
+      "line": 964
+    },
+    "Sunyshore City": {
+      "translation": "阳光海岸城",
+      "line": 967
+    },
+    "Volkner": {
+      "translation": "电次",
+      "line": 968
+    },
+    "Jolteon": {
+      "translation": "雷伊布",
+      "line": 971
+    },
+    "Luxray": {
+      "translation": "伦琴猫",
+      "line": 973
+    },
+    "Electivire": {
+      "translation": "电击魔兽",
+      "line": 974
+    },
+    "...Hehehe. Hahahah! ...That was the most fun I've had in a battle since...I don't know when! It's also made me excited to know you and your team will keep battling to greater heights! This is your eighth Gym Badge. You've earned this!": {
+      "translation": "",
+      "line": 978
+    },
+    "Elite Aaron": {
+      "translation": "四天王阿柳",
+      "line": 983
+    },
+    "Aaron": {
+      "translation": "阿柳",
+      "line": 984
+    },
+    "Yanmega": {
+      "translation": "远古巨蜓",
+      "line": 987
+    },
+    "Scizor": {
+      "translation": "巨钳螳螂",
+      "line": 988
+    },
+    "Vespiquen": {
+      "translation": "蜂女王",
+      "line": 989
+    },
+    "Heracross": {
+      "translation": "赫拉克罗斯",
+      "line": 990
+    },
+    "Drapion": {
+      "translation": "龙王蝎",
+      "line": 991
+    },
+    "I lost with the most beautiful and toughest of the bug Pokémon... We lost because I wasn't good enough... That's it! Back to training camp! Let's hear it for me! No... That was wrong... Anyway... Go on to the next room! Three Trainers are waiting for you. They are all tougher than me.": {
+      "translation": "我输给了最美丽、最难对付的虫宝可梦……我们输了，因为我不够好……就是这样！回到训练营！给我听听吧！不……那是错误的……总之……去隔壁房间吧！三位训练师正在等你。他们都比我坚强。",
+      "line": 995
+    },
+    "Barry 6": {
+      "translation": "巴里6",
+      "line": 996
+    },
+    "Elite Bertha": {
+      "translation": "四天王菊野",
+      "line": 998
+    },
+    "Bertha": {
+      "translation": "菊野",
+      "line": 999
+    },
+    "Gliscor": {
+      "translation": "天蝎王",
+      "line": 1003
+    },
+    "Hippowdon": {
+      "translation": "河马兽",
+      "line": 1004
+    },
+    "Golem": {
+      "translation": "隆隆岩",
+      "line": 1005
+    },
+    "Rhyperior": {
+      "translation": "超甲狂犀",
+      "line": 1006
+    },
+    "You're quite something, youngster. I like how you and your Pokémon earned the win by working as one. That's what makes you so strong. Ahahaha! I think that you can go as far as you want.": {
+      "translation": "你真是了不起，年轻人。我喜欢你和你的宝可梦通过团结一致赢得胜利。这就是让你如此坚强的原因。啊哈哈哈！我认为你可以走多远就走多远。",
+      "line": 1010
+    },
+    "Elite Flint": {
+      "translation": "四天王大叶",
+      "line": 1013
+    },
+    "Flint": {
+      "translation": "大叶",
+      "line": 1014
+    },
+    "Flareon": {
+      "translation": "火伊布",
+      "line": 1018
+    },
+    "Infernape": {
+      "translation": "烈焰猴",
+      "line": 1020
+    },
+    "Magmortar": {
+      "translation": "鸭嘴炎兽",
+      "line": 1021
+    },
+    ".........Keep going...I know your spirit burns hot. Your whole team does.": {
+      "translation": "",
+      "line": 1025
+    },
+    "Elite Lucian": {
+      "translation": "四天王悟松",
+      "line": 1028
+    },
+    "Lucian": {
+      "translation": "悟松",
+      "line": 1029
+    },
+    "Espeon": {
+      "translation": "太阳伊布",
+      "line": 1033
+    },
+    "Bronzong": {
+      "translation": "青铜钟",
+      "line": 1034
+    },
+    "Gallade": {
+      "translation": "艾路雷朵",
+      "line": 1036
+    },
+    "Congratulations. You have beaten the Elite Four. However, that doesn't mean you're done with the Pokémon league. There remains the Champion. I should warn you—the Champion is far stronger than the Elite Four. Now, go on. Step through the doorway to your final battle.": {
+      "translation": "恭喜。你已经击败了精英四人组。然而，这并不意味着你已经完成了宝可梦联盟。冠军依然存在。我要警告你——冠军远比四强强。现在，继续吧。跨过大门，进入最后的战斗。",
+      "line": 1040
+    },
+    "Champion Cynthia": {
+      "translation": "冠军竹兰",
+      "line": 1045
+    },
+    "Cynthia": {
+      "translation": "竹兰",
+      "line": 1046
+    },
+    "Spiritomb": {
+      "translation": "花岩怪",
+      "line": 1049
+    },
+    "Togekiss": {
+      "translation": "波克基斯",
+      "line": 1051
+    },
+    "Garchomp": {
+      "translation": "烈咬陆鲨",
+      "line": 1054
+    },
+    "That was excellent. Truly, an outstanding battle. You gave the support your Pokémon needed to maximize their power. And you guided them with certainty to secure victory. You have both passion and calculating coolness. Together, you and your Pokémon can overcome any challenge that may come your way. Those are the impressions I got from our battle. I'm glad I got to take part in the crowning of Sinnoh's new Champion!": {
+      "translation": "那太好了。确实，这是一场出色的战斗。你为你的宝可梦提供了最大限度发挥其力量所需的支持。你坚定地引导他们取得胜利。你既有激情，又有精于算计的冷静。你和你的宝可梦可以一起克服可能遇到的任何挑战。这些是我从我们的战斗中得到的印象。我很高兴能够参加神奥新冠军的加冕！",
+      "line": 1058
+    },
+    "Aspertia City": {
+      "translation": "阿斯佩蒂亚市",
+      "line": 1065
+    },
+    "Cheren": {
+      "translation": "切伦",
+      "line": 1066
+    },
+    "Patrat": {
+      "translation": "探探鼠",
+      "line": 1069
+    },
+    "Pidove": {
+      "translation": "豆豆鸽",
+      "line": 1070
+    },
+    "Lillipup": {
+      "translation": "小约克",
+      "line": 1071
+    },
+    "That battle has made me feel really glad you were my first challenger as a Gym Leader… I give you this in honor of the strength you and your Pokémon showed!": {
+      "translation": "那场战斗让我感到非常高兴你是我作为道馆馆主的第一个挑战者......我给你这个是为了纪念你和你的宝可梦所表现出的力量！",
+      "line": 1075
+    },
+    "Floccesy Ranch": {
+      "translation": "絮状牧场",
+      "line": 1076
+    },
+    "Virbank City": {
+      "translation": "维尔班克市",
+      "line": 1078
+    },
+    "Roxie": {
+      "translation": "罗克西",
+      "line": 1079
+    },
+    "Grimer": {
+      "translation": "臭泥",
+      "line": 1083
+    },
+    "Whirlipede": {
+      "translation": "车轮球",
+      "line": 1084
+    },
+    "Sigh! What are you doing losing, Roxie?! Well…I guess that means you're strong! This stinks, but I gave it everything I had, and I feel revitalized and refreshed now! Here! Proof that you beat me!": {
+      "translation": "叹！罗克西，你在输什么？嗯……我想这意味着你很坚强！这很臭，但我给了它我所拥有的一切，我现在感觉焕发了活力和神清气爽！这里！证明你打败了我！",
+      "line": 1088
+    },
+    "Hollow Truth and Ideals": {
+      "translation": "空洞的真理和理想",
+      "line": 1091
+    },
+    "Castelia City": {
+      "translation": "卡斯特利亚市",
+      "line": 1094
+    },
+    "Burgh": {
+      "translation": "伯格",
+      "line": 1095
+    },
+    "Dwebble": {
+      "translation": "石居蟹",
+      "line": 1098
+    },
+    "Shelmet": {
+      "translation": "小嘴蜗",
+      "line": 1099
+    },
+    "Karrablast": {
+      "translation": "盖盖虫",
+      "line": 1100
+    },
+    "Leavanny": {
+      "translation": "保姆虫",
+      "line": 1101
+    },
+    "Oh hoo… You are very strong indeed! I guess it's no surprise I lost. Here! Take this Insect Badge! I think it'll suit you!": {
+      "translation": "呵呵……你确实很强啊！我想我输了并不奇怪。这里！收下这个昆虫徽章吧！我想它会适合你！",
+      "line": 1105
+    },
+    "Castelia Sewers": {
+      "translation": "卡斯特利亚下水道",
+      "line": 1106
+    },
+    "Nimbasa City": {
+      "translation": "宁巴萨市",
+      "line": 1108
+    },
+    "Elesa": {
+      "translation": "埃莱莎",
+      "line": 1109
+    },
+    "Emolga": {
+      "translation": "电飞鼠",
+      "line": 1112
+    },
+    "Flaaffy": {
+      "translation": "茸茸羊",
+      "line": 1113
+    },
+    "Joltik": {
+      "translation": "电电虫",
+      "line": 1114
+    },
+    "Zebstrika": {
+      "translation": "雷电斑马",
+      "line": 1115
+    },
+    "Well… Now you… you're an even more wonderful Trainer than I expected. Your sweet fighting style swept me off my feet! Take this!": {
+      "translation": "嗯……现在你……你是一个比我想象的更出色的训练家。你甜美的战斗风格让我神魂颠倒！拿着这个！",
+      "line": 1119
+    },
+    "Driftveil City": {
+      "translation": "漂流城",
+      "line": 1122
+    },
+    "Clay": {
+      "translation": "黏土",
+      "line": 1123
+    },
+    "Krokorok": {
+      "translation": "混混鳄",
+      "line": 1126
+    },
+    "Sandslash": {
+      "translation": "穿山王",
+      "line": 1127
+    },
+    "Excadrill": {
+      "translation": "龙头地鼠",
+      "line": 1129
+    },
+    "Phew… You're really somethin'! Li'l whippersnapper Trainers who pack a real punch keep showin' up one after another. Mrmph. Here! Take this!": {
+      "translation": "唷……你真是了不起！实力强劲的自命不凡训练家不断涌现。先生。这里！拿着这个！",
+      "line": 1133
+    },
+    "Mistralton City": {
+      "translation": "米斯特拉尔顿市",
+      "line": 1136
+    },
+    "Skyla": {
+      "translation": "斯凯拉",
+      "line": 1137
+    },
+    "Swoobat": {
+      "translation": "心蝙蝠",
+      "line": 1140
+    },
+    "Sigilyph": {
+      "translation": "象征鸟",
+      "line": 1142
+    },
+    "Swanna": {
+      "translation": "舞天鹅",
+      "line": 1143
+    },
+    "You're an amazing Pokémon Trainer. My Pokémon and I are happy because for the first time in quite a while--about two years, I'd say--we could fight with our full strength. This is an official League Gym Badge. But this is just a stepping-stone.": {
+      "translation": "你是一位了不起的宝可梦训练师。我和我的宝可梦很高兴，因为很长一段时间（我想说大约两年）以来我们第一次可以全力战斗。这是官方联盟道馆徽章。但这只是一个踏脚石。",
+      "line": 1147
+    },
+    "Opelucid City": {
+      "translation": "奥珀透明城",
+      "line": 1150
+    },
+    "Drayden": {
+      "translation": "德雷登",
+      "line": 1151
+    },
+    "Druddigon": {
+      "translation": "赤面龙",
+      "line": 1154
+    },
+    "Haxorus": {
+      "translation": "双斧战龙",
+      "line": 1157
+    },
+    "Wonderful. I'm grateful that we had a chance to meet and battle. It reminded me that Pokémon battles are about working with others to meet our challenges together.": {
+      "translation": "精彩的。我很感激我们有机会见面并战斗。它提醒我，宝可梦对战就是与他人合作，共同应对挑战。",
+      "line": 1161
+    },
+    "Humilau City": {
+      "translation": "胡米劳市",
+      "line": 1164
+    },
+    "Marlon": {
+      "translation": "马龙",
+      "line": 1165
+    },
+    "Mantine": {
+      "translation": "巨翅飞鱼",
+      "line": 1169
+    },
+    "Carracosta": {
+      "translation": "肋骨海龟",
+      "line": 1170
+    },
+    "Jellicent": {
+      "translation": "胖嘟嘟",
+      "line": 1171
+    },
+    "You don't just look strong, you're strong fo' reals! Eh, I was swept away, too! Oh yeah, yo. I was so surprised that I forgot! I gotta give this to you!": {
+      "translation": "你不只是外表坚强，你是真正的坚强！嗯，我也被迷倒了！哦，是的，哟。我太惊讶了，竟然忘记了！我必须把这个给你！",
+      "line": 1175
+    },
+    "Elite Shauntal": {
+      "translation": "四天王婉龙",
+      "line": 1180
+    },
+    "Shauntal": {
+      "translation": "婉龙",
+      "line": 1181
+    },
+    "Cofagrigus": {
+      "translation": "迭失棺",
+      "line": 1184
+    },
+    "Drifblim": {
+      "translation": "随风球",
+      "line": 1185
+    },
+    "Golurk": {
+      "translation": "泥偶巨人",
+      "line": 1186
+    },
+    "Chandelure": {
+      "translation": "水晶灯火灵",
+      "line": 1188
+    },
+    "My Pokémon and the challenger's Pokémon. Everyone battled even though they were hurt... Thank you.": {
+      "translation": "我的宝可梦和挑战者的宝可梦。每个人都在战斗，即使他们受伤了……谢谢你们。",
+      "line": 1192
+    },
+    "Elite Marshal": {
+      "translation": "四天王连武",
+      "line": 1195
+    },
+    "Marshal": {
+      "translation": "连武",
+      "line": 1196
+    },
+    "Throh": {
+      "translation": "投摔鬼",
+      "line": 1199
+    },
+    "Sawk": {
+      "translation": "打击鬼",
+      "line": 1200
+    },
+    "Mienshao": {
+      "translation": "师父鼬",
+      "line": 1201
+    },
+    "Conkeldurr": {
+      "translation": "修建老匠",
+      "line": 1203
+    },
+    "Whew! Well done! As your battles continue, aim for even greater heights!": {
+      "translation": "哇！干得好！随着战斗的继续，瞄准更高的高度！",
+      "line": 1207
+    },
+    "Elite Grimsley": {
+      "translation": "四天王越橘",
+      "line": 1210
+    },
+    "Grimsley": {
+      "translation": "越橘",
+      "line": 1211
+    },
+    "Liepard": {
+      "translation": "酷豹",
+      "line": 1214
+    },
+    "Scrafty": {
+      "translation": "头巾混混",
+      "line": 1215
+    },
+    "Krookodile": {
+      "translation": "流氓鳄",
+      "line": 1216
+    },
+    "Bisharp": {
+      "translation": "劈斩司令",
+      "line": 1218
+    },
+    "Whether or not you get to fight at full strength, whether or not luck smiles on you--none of that matters. Only results matter. And a loss is a loss. See, victory shines like a bright light. And right now, you and your Pokémon are shining brilliantly.": {
+      "translation": "无论你是否能够全力战斗，无论运气是否向你微笑——这些都不重要。只有结果才重要。损失就是损失。看吧，胜利就像一道耀眼的光芒。现在，你和你的宝可梦正在闪闪发光。",
+      "line": 1222
+    },
+    "Elite Caitlin": {
+      "translation": "四天王嘉德丽雅",
+      "line": 1225
+    },
+    "Caitlin": {
+      "translation": "嘉德丽雅",
+      "line": 1226
+    },
+    "Musharna": {
+      "translation": "梦梦蚀",
+      "line": 1229
+    },
+    "Reuniclus": {
+      "translation": "人造细胞卵",
+      "line": 1231
+    },
+    "Gothitelle": {
+      "translation": "哥德小姐",
+      "line": 1232
+    },
+    "You and your Pokémon are both excellent and elegant. To have been able to battle against such a splendid team... My Pokémon and I learned a lot! I offer you my thanks.": {
+      "translation": "你和你的宝可梦都非常优秀而且优雅。能够和如此优秀的队伍对战……我和我的宝可梦学到了很多东西！我向你表示感谢。",
+      "line": 1237
+    },
+    "Champion Iris": {
+      "translation": "冠军艾莉丝",
+      "line": 1242
+    },
+    "Iris": {
+      "translation": "艾莉丝",
+      "line": 1243
+    },
+    "Hydreigon": {
+      "translation": "三首恶龙",
+      "line": 1246
+    },
+    "Archeops": {
+      "translation": "始祖大鸟",
+      "line": 1248
+    },
+    "Aggron": {
+      "translation": "波士可多拉",
+      "line": 1249
+    },
+    "I'm upset I couldn't win! But you know what? More than that, I'm happy! I mean, come on. By having a serious battle, you and your Pokémon, and me and my Pokémon, we all got to know one another better than before! Yep, we sure did! OK, let's go!": {
+      "translation": "没能获胜我很沮丧！但你知道吗？更重要的是，我很高兴！我的意思是，来吧。通过一场认真的战斗，你和你的宝可梦，我和我的宝可梦，我们都比以前更加了解彼此了！是的，我们确实做到了！好的，我们走吧！",
+      "line": 1255
+    },
+    "Santalune City": {
+      "translation": "桑塔鲁恩城",
+      "line": 1267
+    },
+    "Viola": {
+      "translation": "中提琴",
+      "line": 1268
+    },
+    "Surskit": {
+      "translation": "溜溜糖球",
+      "line": 1271
+    },
+    "Vivillon (Meadow)": {
+      "translation": "[[Vivillon]] 花园花纹",
+      "line": 1272
+    },
+    "Young Trainer, you... No, it wasn't you alone. You and your Pokémon have shown me a whole new depth of field! Fantastic! Just fantastic!": {
+      "translation": "少训练家，你……不，不是你一个人。你和你的宝可梦向我展示了全新的景深！极好的！太棒了！",
+      "line": 1276
+    },
+    "Cyllage City": {
+      "translation": "赛利吉城",
+      "line": 1279
+    },
+    "Grant": {
+      "translation": "授予",
+      "line": 1280
+    },
+    "Amaura": {
+      "translation": "冰雪龙",
+      "line": 1283
+    },
+    "Tyrunt": {
+      "translation": "宝宝暴龙",
+      "line": 1284
+    },
+    "There are some things that seem out of reach no matter how hard you try. However, it's important that you never give up--no matter the opponent or the odds. I could tell from our battle that you and your Pokémon understand that. To commemorate such an impressive show of teamwork, please accept the Cliff Badge!": {
+      "translation": "有些事情，无论你多么努力，似乎都遥不可及。然而，重要的是你永远不要放弃——无论对手如何，胜算如何。从我们的战斗中我可以看出你和你的宝可梦都明白这一点。为了纪念如此令人印象深刻的团队合作表现，请接受悬崖徽章！",
+      "line": 1288
+    },
+    "Shalour City": {
+      "translation": "夏洛尔城",
+      "line": 1291
+    },
+    "Korrina": {
+      "translation": "科里纳",
+      "line": 1292
+    },
+    "Mienfoo": {
+      "translation": "功夫鼬",
+      "line": 1295
+    },
+    "Hawlucha": {
+      "translation": "摔角鹰人",
+      "line": 1297
+    },
+    "Oh! I have been defeated! Alack, alay! Lady Korrina gave a terrible display! This is it. I must give up my title and admit that your strength far exceeds-- Just teasing! But here's your Badge. Boy, you'll be rolling in 'em soon!": {
+      "translation": "哦！我被打败了！哎呀，哎呀！科琳娜女士表现得很糟糕！就是这样。我必须放弃我的头衔，承认你的实力远远超过——开玩笑！但这是你的徽章。孩子，你很快就会在他们身上打滚了！",
+      "line": 1301
+    },
+    "Calem 1": {
+      "translation": "卡勒姆1号",
+      "line": 1302
+    },
+    "Coumarine City": {
+      "translation": "香豆素城",
+      "line": 1304
+    },
+    "Ramos": {
+      "translation": "拉莫斯",
+      "line": 1305
+    },
+    "Jumpluff": {
+      "translation": "毽子棉",
+      "line": 1308
+    },
+    "Weepinbell": {
+      "translation": "口呆花",
+      "line": 1309
+    },
+    "Gogoat": {
+      "translation": "坐骑山羊",
+      "line": 1310
+    },
+    "Yeh believe in yer Pokémon... And they believe in yeh, too... Mighty oaks from acorns grow. Go on, then. Yeh've earned it. Here's yer own Plant Badge, sprout.": {
+      "translation": "你相信你的宝可梦......他们也相信你......强大的橡树从橡子中生长出来。那么，继续吧。耶已经赚到了。这是你自己的植物徽章，芽芽。",
+      "line": 1314
+    },
+    "Calem 2": {
+      "translation": "卡勒姆2号",
+      "line": 1315
+    },
+    "Lumiose City": {
+      "translation": "卢米奥塞城",
+      "line": 1317
+    },
+    "Clemont": {
+      "translation": "克莱蒙",
+      "line": 1318
+    },
+    "Heliolisk": {
+      "translation": "光电伞蜥",
+      "line": 1323
+    },
+    "Oh, Bonnie... When will you learn there's no shame in losing? I'm glad whenever I get to learn something new thanks to strong challengers like you here.": {
+      "translation": "哦，邦妮……你什么时候才能知道失败并不可耻？每当我能学到新东西时，我都很高兴，感谢像你这样强大的挑战者。",
+      "line": 1327
+    },
+    "A Beautiful World": {
+      "translation": "美丽的世界",
+      "line": 1328
+    },
+    "Laverre City": {
+      "translation": "拉维尔市",
+      "line": 1330
+    },
+    "Valerie": {
+      "translation": "瓦莱丽",
+      "line": 1331
+    },
+    "Mawile": {
+      "translation": "大嘴娃",
+      "line": 1334
+    },
+    "Sylveon": {
+      "translation": "仙子伊布",
+      "line": 1336
+    },
+    "Yes... That was a fine battle. I shall reward you for this great victory. This is the Fairy Badge. It is yours now. Its beauty is captivating, is it not? ... ... ... ... ... ... Ah... Do forgive me. I was so captivated, I forgot for a moment that it is yours.": {
+      "translation": "是的……那是一场精彩的战斗。我将奖励你这次伟大的胜利。这就是妖精徽章。现在它是你的了。它的美丽令人着迷，不是吗？ ………………啊……请原谅我。我太着迷了，一时忘记了这是你的。",
+      "line": 1340
+    },
+    "Anistar City": {
+      "translation": "安妮斯塔城",
+      "line": 1343
+    },
+    "Olympia": {
+      "translation": "奥林匹亚",
+      "line": 1344
+    },
+    "Slowking": {
+      "translation": "呆呆王",
+      "line": 1348
+    },
+    "Meowstic": {
+      "translation": "超能妙喵",
+      "line": 1349
+    },
+    "Now, the Psychic Badge. A testament to your skill. Proof of your power.": {
+      "translation": "现在，心灵徽章。对你技能的证明。证明你的力量。",
+      "line": 1353
+    },
+    "Calem 4": {
+      "translation": "卡勒姆4",
+      "line": 1354
+    },
+    "Snowbelle City": {
+      "translation": "雪贝城",
+      "line": 1356
+    },
+    "Wulfric": {
+      "translation": "乌尔弗里克",
+      "line": 1357
+    },
+    "Cryogonal": {
+      "translation": "几何雪花",
+      "line": 1361
+    },
+    "Avalugg": {
+      "translation": "冰岩怪",
+      "line": 1362
+    },
+    "Impressive! Your Pokémon fought with great courage. I can tell that you've trained your Pokémon well.": {
+      "translation": "感人的！你的宝可梦勇敢地战斗。我看得出你的宝可梦训练得很好。",
+      "line": 1366
+    },
+    "Pokémon Village": {
+      "translation": "宝可梦村",
+      "line": 1367
+    },
+    "Elite Malva": {
+      "translation": "四天王帕琦拉",
+      "line": 1370
+    },
+    "Malva": {
+      "translation": "帕琦拉",
+      "line": 1371
+    },
+    "Pyroar": {
+      "translation": "火炎狮",
+      "line": 1374
+    },
+    "Talonflame": {
+      "translation": "烈箭鹰",
+      "line": 1377
+    },
+    "What news... So a new challenger has defeated Malva of the Elite Four!": {
+      "translation": "什么消息……新的挑战者击败了四强中的马尔瓦！",
+      "line": 1381
+    },
+    "Elite Siebold": {
+      "translation": "四天王志米",
+      "line": 1384
+    },
+    "Siebold": {
+      "translation": "志米",
+      "line": 1385
+    },
+    "Clawitzer": {
+      "translation": "钢炮臂虾",
+      "line": 1388
+    },
+    "Barbaracle": {
+      "translation": "龟足巨铠",
+      "line": 1391
+    },
+    "I shall store my memory of you and your Pokémon forever away within my heart.": {
+      "translation": "我会把关于你和你的宝可梦的记忆永远储存在我的心里。",
+      "line": 1395
+    },
+    "Elite Wikstrom": {
+      "translation": "四天王钢铁",
+      "line": 1398
+    },
+    "Wikstrom": {
+      "translation": "钢铁",
+      "line": 1399
+    },
+    "Klefki": {
+      "translation": "钥圈儿",
+      "line": 1402
+    },
+    "Probopass": {
+      "translation": "大朝北鼻",
+      "line": 1403
+    },
+    "Aegislash (Shield)": {
+      "translation": "[[Aegislash]] 盾牌形态",
+      "line": 1405
+    },
+    "Glorious! The trust that you share with your honorable Pokémon surpasses even mine!": {
+      "translation": "辉煌！你对尊贵的宝可梦的信任甚至超过了我！",
+      "line": 1409
+    },
+    "Elite Drasna": {
+      "translation": "四天王朵拉赛娜",
+      "line": 1412
+    },
+    "Drasna": {
+      "translation": "朵拉赛娜",
+      "line": 1413
+    },
+    "Dragalge": {
+      "translation": "毒藻龙",
+      "line": 1416
+    },
+    "Noivern": {
+      "translation": "音波龙",
+      "line": 1419
+    },
+    "Oh, dear me. That sure was a quick battle... I do hope you'll come back again sometime!": {
+      "translation": "哦，亲爱的我。这确实是一场快速的战斗……我真的希望你能有一天再次回来！",
+      "line": 1423
+    },
+    "Champion Diantha": {
+      "translation": "冠军卡露乃",
+      "line": 1428
+    },
+    "Diantha": {
+      "translation": "卡露乃",
+      "line": 1429
+    },
+    "Tyrantrum": {
+      "translation": "怪颚龙",
+      "line": 1433
+    },
+    "Aurorus": {
+      "translation": "冰雪巨龙",
+      "line": 1434
+    },
+    "Gourgeist (Average)": {
+      "translation": "[[Gourgeist]] 普通尺寸",
+      "line": 1435
+    },
+    "Goodra": {
+      "translation": "黏美龙",
+      "line": 1436
+    },
+    "Mega Gardevoir": {
+      "translation": "[[alt.mega]][[Gardevoir]]",
+      "line": 1437
+    },
+    "Witnessing the noble spirits of you and your Pokémon in battle has really touched my heart...": {
+      "translation": "目睹你和你的宝可梦在战斗中展现出的高贵精神真的让我很感动……",
+      "line": 1441
+    },
+    "Iki Town": {
+      "translation": "壹岐町",
+      "line": 1453
+    },
+    "Hala": {
+      "translation": "哈拉",
+      "line": 1454
+    },
+    "Crabrawler": {
+      "translation": "好胜蟹",
+      "line": 1459
+    },
+    "The results come as no surprise to me. What a fine Trainer...and what fine Pokémon, too! Accept this Z-Crystal! It allows Trainers to share their power with their partner Pokémon!</br><img width=\"100\" src=\"assets/images/items/zCrystal/Fightinium Z.svg\"/></br>With this victory... you have cleared all of the trials of Melemele Island, the first of Alola's islands! The Melemele stamp is proof of your accomplishments.": {
+      "translation": "",
+      "line": 1463
+    },
+    "assets/images/items/zCrystal/Fightinium Z.svg": {
+      "translation": "",
+      "line": 1463
+    },
+    "Welcome to Paradise, Cousin!": {
+      "translation": "欢迎来到天堂，表弟！",
+      "line": 1464
+    },
+    "Hau 3": {
+      "translation": "哈乌3",
+      "line": 1464
+    },
+    "Hala's Grand Trial": {
+      "translation": "哈拉的大考验",
+      "line": 1465
+    },
+    "Konikoni City": {
+      "translation": "科尼科尼市",
+      "line": 1467
+    },
+    "Olivia": {
+      "translation": "丽姿",
+      "line": 1468
+    },
+    "Anorith": {
+      "translation": "太古羽虫",
+      "line": 1471
+    },
+    "Lileep": {
+      "translation": "触手百合",
+      "line": 1472
+    },
+    "Lycanroc (Midnight)": {
+      "translation": "[[Lycanroc]] 黑夜的样子",
+      "line": 1473
+    },
+    "How lovely. Diamonds only sparkle after coal is pushed to its absolute limit. Here. The Rock-type Z-Crystal... The Rockium Z is all yours!</br><img width=\"100\" src=\"assets/images/items/zCrystal/Rockium Z.svg\"/></br>I think your journey will hold many surprises. And I hope it holds many joys.": {
+      "translation": "",
+      "line": 1477
+    },
+    "assets/images/items/zCrystal/Rockium Z.svg": {
+      "translation": "",
+      "line": 1477
+    },
+    "Symbiotic Relations": {
+      "translation": "共生关系",
+      "line": 1478
+    },
+    "Olivia's Grand Trial": {
+      "translation": "丽姿的大考验",
+      "line": 1479
+    },
+    "Malie City": {
+      "translation": "马列市",
+      "line": 1481
+    },
+    "Nanu": {
+      "translation": "纳努",
+      "line": 1482
+    },
+    "Alolan Persian": {
+      "translation": "[[alt.alolan]][[Persian]]",
+      "line": 1487
+    },
+    "Hmph... heh. Let me fix your team up for you. Here. This is yours.</br><img width=\"100\" src=\"assets/images/items/zCrystal/Darkinium Z.svg\"/></br>There. Congratulations or whatever. You've officially finished your Ula'ula trials. You've got somewhere else to be, don't you? Try not to destroy the whole place.": {
+      "translation": "",
+      "line": 1491
+    },
+    "assets/images/items/zCrystal/Darkinium Z.svg": {
+      "translation": "",
+      "line": 1491
+    },
+    "Gladion 2": {
+      "translation": "格拉吉欧2",
+      "line": 1492
+    },
+    "Nanu's Grand Trial": {
+      "translation": "纳努的大考验",
+      "line": 1493
+    },
+    "Exeggutor Island": {
+      "translation": "",
+      "line": 1495
+    },
+    "Hapu": {
+      "translation": "哈普",
+      "line": 1496
+    },
+    "Alolan Dugtrio": {
+      "translation": "[[alt.alolan]][[Dugtrio]]",
+      "line": 1499
+    },
+    "Emissary of Light": {
+      "translation": "光之使者",
+      "line": 1499
+    },
+    "Gastrodon (East)": {
+      "translation": "[[Gastrodon]] [[alt.east]]",
+      "line": 1500
+    },
+    "Mudsdale": {
+      "translation": "重泥挽马",
+      "line": 1502
+    },
+    "You have succeeded in your final grand trial! That was enjoyable. Looks like I cannot beat you even when I am not holding back... Take your Ground-type Z-Crystal then... This Groundium Z is yours!</br><img width=\"100\" src=\"assets/images/items/zCrystal/Groundium Z.svg\"/></br>Then go on with you two! Head straight through here and find the altar!": {
+      "translation": "",
+      "line": 1510
+    },
+    "assets/images/items/zCrystal/Groundium Z.svg": {
+      "translation": "",
+      "line": 1510
+    },
+    "Hapu's Grand Trial": {
+      "translation": "哈普的大考验",
+      "line": 1512
+    },
+    "Elite Molayne": {
+      "translation": "四天王马睿因",
+      "line": 1519
+    },
+    "Molayne": {
+      "translation": "马睿因",
+      "line": 1520
+    },
+    "Magnezone": {
+      "translation": "自爆磁怪",
+      "line": 1525
+    },
+    "That Kukui... He certainly found an interesting Trainer for me to face!": {
+      "translation": "那个库库伊……果然是给我找了一个有趣的训练家来面对啊！",
+      "line": 1531
+    },
+    "Elite Olivia": {
+      "translation": "四天王丽姿",
+      "line": 1534
+    },
+    "Cradily": {
+      "translation": "摇篮百合",
+      "line": 1539
+    },
+    "Gigalith": {
+      "translation": "庞岩怪",
+      "line": 1540
+    },
+    "I don't see the same look in your eyes that I saw when we first met on Akala Island. Have you had some experiences that you'll carry with you in your heart forever? Well, it's time for you to move on.": {
+      "translation": "我在你眼中看不到我们第一次在阿卡拉岛见面时的表情。你有没有经历过一些让你永远铭记在心的经历？好吧，你是时候继续前进了。",
+      "line": 1546
+    },
+    "Elite Acerola": {
+      "translation": "四天王阿塞萝拉",
+      "line": 1549
+    },
+    "Acerola": {
+      "translation": "阿塞萝拉",
+      "line": 1550
+    },
+    "Dhelmise": {
+      "translation": "破破舵轮",
+      "line": 1555
+    },
+    "Palossand": {
+      "translation": "噬沙堡爷",
+      "line": 1557
+    },
+    "I'm...I'm speechless! You've done me in!": {
+      "translation": "我……我无语了！你已经把我搞垮了！",
+      "line": 1561
+    },
+    "Elite Kahili": {
+      "translation": "四天王卡希丽",
+      "line": 1564
+    },
+    "Kahili": {
+      "translation": "卡希丽",
+      "line": 1565
+    },
+    "Braviary": {
+      "translation": "勇士雄鹰",
+      "line": 1568
+    },
+    "Oricorio (Baile)": {
+      "translation": "[[Oricorio]] 热辣热辣风格",
+      "line": 1570
+    },
+    "Mandibuzz": {
+      "translation": "秃鹰娜",
+      "line": 1571
+    },
+    "Toucannon": {
+      "translation": "铳嘴大鸟",
+      "line": 1572
+    },
+    "It's frustrating to me as a member of the Elite Four, but it seems your strength is the real deal.": {
+      "translation": "作为四强的一员，这让我很沮丧，但看来你的实力是货真价实的。",
+      "line": 1576
+    },
+    "Champion Hau": {
+      "translation": "冠军哈乌",
+      "line": 1581
+    },
+    "Hau": {
+      "translation": "哈乌",
+      "line": 1582
+    },
+    "Alolan Raichu": {
+      "translation": "[[alt.alolan]][[Raichu]]",
+      "line": 1585
+    },
+    "Crabominable": {
+      "translation": "好胜毛蟹",
+      "line": 1588
+    },
+    "Primarina": {
+      "translation": "西狮海壬",
+      "line": 1590
+    },
+    "Vaporeon": {
+      "translation": "水伊布",
+      "line": 1591
+    },
+    "Decidueye": {
+      "translation": "狙射树枭",
+      "line": 1592
+    },
+    "Leafeon": {
+      "translation": "叶伊布",
+      "line": 1593
+    },
+    "Incineroar": {
+      "translation": "炽焰咆哮虎",
+      "line": 1594
+    },
+    "We're gonna keep moving forward, by staying at full power all the time!": {
+      "translation": "我们将继续前行，始终保持全力以赴！",
+      "line": 1598
+    },
+    "Friend League": {
+      "translation": "友盟",
+      "line": 1610
+    },
+    "Karson": {
+      "translation": "卡森",
+      "line": 1611
+    },
+    "Magikarp": {
+      "translation": "鲤鱼王",
+      "line": 1613
+    },
+    "Your Karp is really Magic!": {
+      "translation": "你的卡普真的很魔法！",
+      "line": 1616
+    },
+    "You were awarded a Magikarp Biscuit!": {
+      "translation": "你获得了鲤鱼王饼干！",
+      "line": 1620
+    },
+    "Magikarp_Biscuit": {
+      "translation": "",
+      "line": 1624
+    },
+    "Jump Champ Red": {
+      "translation": "跳跃冠军红",
+      "line": 1627
+    },
+    "Quick League": {
+      "translation": "快速联赛",
+      "line": 1630
+    },
+    "Koichiro": {
+      "translation": "光一郎",
+      "line": 1631
+    },
+    "Magikarp Skelly": {
+      "translation": "[[Magikarp]] [[alt.karp.skelly]]",
+      "line": 1633
+    },
+    "Looks like I flailed...": {
+      "translation": "看来我摔倒了...",
+      "line": 1636
+    },
+    "Magikarp Jump Koylee": {
+      "translation": "",
+      "line": 1637
+    },
+    "Jump Champ Blue": {
+      "translation": "跳跃冠军蓝色",
+      "line": 1647
+    },
+    "Heavy League": {
+      "translation": "重联盟",
+      "line": 1650
+    },
+    "Kareign": {
+      "translation": "卡林",
+      "line": 1651
+    },
+    "Magikarp Orange Two-Tone": {
+      "translation": "[[Magikarp]] [[alt.karp.twoTone]]（[[alt.karp.orange]]）",
+      "line": 1653
+    },
+    "Karpe Diem": {
+      "translation": "卡普·迪姆",
+      "line": 1656
+    },
+    "Magikarp Jump Karpen": {
+      "translation": "",
+      "line": 1657
+    },
+    "Kareign's Heavy League Gym": {
+      "translation": "卡林的重联盟道馆",
+      "line": 1668
+    },
+    "Jump Champ Green": {
+      "translation": "跳跃冠军绿色",
+      "line": 1669
+    },
+    "Great League": {
+      "translation": "大联盟",
+      "line": 1673
+    },
+    "Karbuck": {
+      "translation": "卡巴克",
+      "line": 1674
+    },
+    "Guess ya got me. Hook, line and sinker!": {
+      "translation": "我猜你明白我的意思了。钩子、线和坠子！",
+      "line": 1679
+    },
+    "Magikarp Jump Karpress": {
+      "translation": "",
+      "line": 1680
+    },
+    "Fast League": {
+      "translation": "快速联赛",
+      "line": 1693
+    },
+    "Kareign 2": {
+      "translation": "卡林2号",
+      "line": 1694
+    },
+    "Magikarp Pink Dapples": {
+      "translation": "[[Magikarp]] [[alt.karp.dapples]]（[[alt.karp.pink]]）",
+      "line": 1696
+    },
+    "This life is not for me... I will become a Karpenter now...": {
+      "translation": "这种生活不适合我……我现在要成为一名卡彭特……",
+      "line": 1699
+    },
+    "Magikarp Jump Karson": {
+      "translation": "",
+      "line": 1700
+    },
+    "Kareign's Fast League Gym": {
+      "translation": "卡林的快速联盟道馆",
+      "line": 1711
+    },
+    "Luxury League": {
+      "translation": "豪华联赛",
+      "line": 1716
+    },
+    "Jump Champ": {
+      "translation": "跳跃冠军",
+      "line": 1717
+    },
+    "Magikarp Pink Orca": {
+      "translation": "[[Magikarp]] [[alt.karp.orca]]（[[alt.karp.pink]]）",
+      "line": 1719
+    },
+    "Just wait 'til my Magikarp evolves and you will all see how great I am! <i>Cries</i>": {
+      "translation": "",
+      "line": 1722
+    },
+    "Magikarp Jump Karbuck": {
+      "translation": "",
+      "line": 1723
+    },
+    "Jump Champ's Luxury League Gym": {
+      "translation": "Jump Champ 的豪华联盟道馆",
+      "line": 1734
+    },
+    "Heal League": {
+      "translation": "治愈联盟",
+      "line": 1739
+    },
+    "Karami": {
+      "translation": "卡拉米",
+      "line": 1740
+    },
+    "Magikarp Purple Bubbles": {
+      "translation": "[[Magikarp]] [[alt.karp.bubbles]]（[[alt.karp.purple]]）",
+      "line": 1742
+    },
+    "I'm getting more old than my rod...": {
+      "translation": "我已经比我的鱼竿还老了...",
+      "line": 1745
+    },
+    "Magikarp Jump Karpella 2": {
+      "translation": "",
+      "line": 1746
+    },
+    "Ultra League": {
+      "translation": "超级联赛",
+      "line": 1759
+    },
+    "Jump Champ 2": {
+      "translation": "跳跃冠军2",
+      "line": 1760
+    },
+    "Magikarp Brown Tiger": {
+      "translation": "[[Magikarp]] [[alt.karp.tiger]]（[[alt.karp.brown]]）",
+      "line": 1762
+    },
+    "I knew I smelled something fishy...": {
+      "translation": "我知道我闻到了一股鱼腥味……",
+      "line": 1765
+    },
+    "Magikarp Jump Koylee 2": {
+      "translation": "",
+      "line": 1766
+    },
+    "Jump Champ's Ultra League Gym": {
+      "translation": "Jump Champ 的 Ultra League 道馆",
+      "line": 1777
+    },
+    "E4 League": {
+      "translation": "E4联赛",
+      "line": 1782
+    },
+    "Jump Champ 3": {
+      "translation": "跳跃冠军3",
+      "line": 1783
+    },
+    "Magikarp Orange Forehead": {
+      "translation": "[[Magikarp]] [[alt.karp.forehead]]（[[alt.karp.orange]]）",
+      "line": 1785
+    },
+    "That jump really splashed!": {
+      "translation": "那一跳真是溅了！",
+      "line": 1788
+    },
+    "Magikarp Jump Karpella 3": {
+      "translation": "",
+      "line": 1789
+    },
+    "Jump Champ's Elite League Gym": {
+      "translation": "Jump Champ 的精英联盟道馆",
+      "line": 1800
+    },
+    "Master League": {
+      "translation": "大师联赛",
+      "line": 1805
+    },
+    "Mayor Karp will be proud of you!": {
+      "translation": "卡普市长将为你感到骄傲！",
+      "line": 1811
+    },
+    "Magikarp Jump Tykarp 2": {
+      "translation": "",
+      "line": 1812
+    },
+    "Milo": {
+      "translation": "亚洛",
+      "line": 1825
+    },
+    "Turffield": {
+      "translation": "草路镇",
+      "line": 1826
+    },
+    "Gossifleur": {
+      "translation": "幼棉棉",
+      "line": 1828
+    },
+    "Eldegoss": {
+      "translation": "白蓬蓬",
+      "line": 1829
+    },
+    "The power of Grass has wilted... What an incredible Gym Challenger!": {
+      "translation": "草的力量已经枯萎了……真是不可思议的道馆挑战者啊！",
+      "line": 1833
+    },
+    "Nessa": {
+      "translation": "露璃娜",
+      "line": 1837
+    },
+    "Hulbury": {
+      "translation": "水舟镇",
+      "line": 1838
+    },
+    "Goldeen": {
+      "translation": "角金鱼",
+      "line": 1840
+    },
+    "Arrokuda": {
+      "translation": "刺梭鱼",
+      "line": 1841
+    },
+    "Gigantamax Drednaw": {
+      "translation": "[[alt.gigantamax]][[Drednaw]]",
+      "line": 1842
+    },
+    "I may proudly be the strongest member of this Gym, but I was totally washed away!": {
+      "translation": "我可能自豪地成为这个道馆最强的成员，但我完全被冲垮了！",
+      "line": 1846
+    },
+    "Hop 4": {
+      "translation": "赫普4",
+      "line": 1847
+    },
+    "Kabu": {
+      "translation": "卡芜",
+      "line": 1850
+    },
+    "Motostoke": {
+      "translation": "机擎市",
+      "line": 1851
+    },
+    "Ninetales": {
+      "translation": "九尾",
+      "line": 1853
+    },
+    "Gigantamax Centiskorch": {
+      "translation": "[[alt.gigantamax]][[Centiskorch]]",
+      "line": 1855
+    },
+    "I'm often regarded as the first real roadblock of the Gym Challenge, and yet you defeated me! Clearly, your talent surpassed my many years of experience. I still have much to learn!": {
+      "translation": "我经常被认为是道馆挑战的第一道真正的障碍，但你却打败了我！显然，你的才华超越了我多年的经验。我还有很多东西要学！",
+      "line": 1859
+    },
+    "Marnie 1": {
+      "translation": "玛俐1",
+      "line": 1860
+    },
+    "Stow-on-Side1": {
+      "translation": "侧面存放1",
+      "line": 1862
+    },
+    "Bea": {
+      "translation": "彩豆",
+      "line": 1863
+    },
+    "Pangoro": {
+      "translation": "霸道熊猫",
+      "line": 1867
+    },
+    "Sirfetch'd": {
+      "translation": "葱游兵",
+      "line": 1868
+    },
+    "Gigantamax Machamp": {
+      "translation": "[[alt.gigantamax]][[Machamp]]",
+      "line": 1869
+    },
+    "Your strength nearly made me want to turn and run in my bare feet.": {
+      "translation": "你的力量几乎让我想转身赤脚奔跑。",
+      "line": 1873
+    },
+    "Hop 5": {
+      "translation": "赫普5",
+      "line": 1874
+    },
+    "The Darkest Day": {
+      "translation": "最黑暗的一天",
+      "line": 1878
+    },
+    "Bea's Stow-on-Side Gym": {
+      "translation": "比亚的侧边存放道馆",
+      "line": 1880
+    },
+    "Stow-on-Side2": {
+      "translation": "侧面存放2",
+      "line": 1882
+    },
+    "Allister": {
+      "translation": "欧尼奥",
+      "line": 1883
+    },
+    "Galarian Yamask": {
+      "translation": "[[alt.galarian]][[Yamask]]",
+      "line": 1886
+    },
+    "Mimikyu": {
+      "translation": "谜拟丘",
+      "line": 1887
+    },
+    "Cursola": {
+      "translation": "魔灵珊瑚",
+      "line": 1888
+    },
+    "Gigantamax Gengar": {
+      "translation": "[[alt.gigantamax]][[Gengar]]",
+      "line": 1889
+    },
+    "Maybe my mask... kept me from seeing just how strong you really are...": {
+      "translation": "也许是我的面具……让我看不到你到底有多坚强……",
+      "line": 1893
+    },
+    "Allister's Stow-on-Side Gym": {
+      "translation": "阿利斯特的侧边存放道馆",
+      "line": 1900
+    },
+    "Opal": {
+      "translation": "波普菈",
+      "line": 1903
+    },
+    "Ballonlea": {
+      "translation": "舞姿镇",
+      "line": 1904
+    },
+    "Galarian Weezing": {
+      "translation": "[[alt.galarian]][[Weezing]]",
+      "line": 1906
+    },
+    "Gigantamax Alcremie": {
+      "translation": "[[alt.gigantamax]][[Alcremie]]",
+      "line": 1909
+    },
+    "Your pink is still lacking, but you're an excellent Trainer with some excellent Pokémon.": {
+      "translation": "你的粉红色仍然缺乏，但你是一位优秀的训练家，拥有一些优秀的宝可梦。",
+      "line": 1913
+    },
+    "Glimwood Tangle": {
+      "translation": "格林伍德缠结",
+      "line": 1914
+    },
+    "Gordie": {
+      "translation": "玛瓜",
+      "line": 1917
+    },
+    "Circhester1": {
+      "translation": "环切斯特1",
+      "line": 1918
+    },
+    "Stonjourner": {
+      "translation": "巨石丁",
+      "line": 1922
+    },
+    "Gigantamax Coalossal": {
+      "translation": "[[alt.gigantamax]][[Coalossal]]",
+      "line": 1923
+    },
+    "I just want to climb into a hole... Well, I guess it'd be more like falling from here.": {
+      "translation": "我只想爬进洞里……好吧，我想这更像是从这里掉下来。",
+      "line": 1927
+    },
+    "Gordie's Circhester Gym": {
+      "translation": "戈迪的环形道馆",
+      "line": 1929
+    },
+    "Melony": {
+      "translation": "美蓉",
+      "line": 1932
+    },
+    "Circhester2": {
+      "translation": "环切斯特2",
+      "line": 1933
+    },
+    "Frosmoth": {
+      "translation": "雪绒蛾",
+      "line": 1935
+    },
+    "Galarian Darmanitan": {
+      "translation": "[[alt.galarian]][[Darmanitan]]",
+      "line": 1936
+    },
+    "Eiscue (Ice Face)": {
+      "translation": "[[Eiscue]] 结冻头",
+      "line": 1937
+    },
+    "Eiscue (Noice Face)": {
+      "translation": "[[Eiscue]] 解冻头",
+      "line": 1938
+    },
+    "Gigantamax Lapras": {
+      "translation": "[[alt.gigantamax]][[Lapras]]",
+      "line": 1939
+    },
+    "I think you took breaking the ice a little too literally...": {
+      "translation": "我觉得你把打破僵局看得有点太字面意思了……",
+      "line": 1943
+    },
+    "Melony's Circhester Gym": {
+      "translation": "Melony's Circhester 道馆",
+      "line": 1945
+    },
+    "Piers": {
+      "translation": "聂梓",
+      "line": 1948
+    },
+    "Spikemuth": {
+      "translation": "尖钉镇",
+      "line": 1949
+    },
+    "Malamar": {
+      "translation": "乌贼王",
+      "line": 1952
+    },
+    "Skuntank": {
+      "translation": "坦克臭鼬",
+      "line": 1953
+    },
+    "Obstagoon": {
+      "translation": "堵拦熊",
+      "line": 1954
+    },
+    "Me an' my team gave it our best. Let's meet up again for a battle some time...": {
+      "translation": "我和我的团队竭尽全力。有时间我们再见面，再战吧……",
+      "line": 1958
+    },
+    "Marnie 2": {
+      "translation": "玛俐2",
+      "line": 1959
+    },
+    "Raihan": {
+      "translation": "奇巴纳",
+      "line": 1962
+    },
+    "Hammerlocke": {
+      "translation": "宫门市",
+      "line": 1963
+    },
+    "Sandaconda": {
+      "translation": "沙螺蟒",
+      "line": 1967
+    },
+    "Gigantamax Duraludon": {
+      "translation": "[[alt.gigantamax]][[Duraludon]]",
+      "line": 1968
+    },
+    "I might have lost, but I still look good. Maybe I should snap a quick selfie...": {
+      "translation": "我可能输了，但我看起来仍然很好。也许我应该快速拍一张自拍照……",
+      "line": 1972
+    },
+    "Elite Trainer Marnie": {
+      "translation": "精英训练师玛俐",
+      "line": 1975
+    },
+    "Marnie": {
+      "translation": "玛俐",
+      "line": 1976
+    },
+    "Toxicroak": {
+      "translation": "毒骷蛙",
+      "line": 1980
+    },
+    "Morpeko": {
+      "translation": "莫鲁贝可",
+      "line": 1982
+    },
+    "Gigantamax Grimmsnarl": {
+      "translation": "[[alt.gigantamax]][[Grimmsnarl]]",
+      "line": 1983
+    },
+    "OK, so I lost... but I got to see a lot of the good points of you and your Pokémon!": {
+      "translation": "好吧，所以我输了……但我看到了你和你的宝可梦的很多优点！",
+      "line": 1987
+    },
+    "Elite Gym Leader Bede": {
+      "translation": "精英道馆领队Bede",
+      "line": 1990
+    },
+    "Bede": {
+      "translation": "彼特",
+      "line": 1991
+    },
+    "Gardevoir": {
+      "translation": "沙奈朵",
+      "line": 1996
+    },
+    "Galarian Rapidash": {
+      "translation": "[[alt.galarian]][[Rapidash]]",
+      "line": 1997
+    },
+    "Gigantamax Hatterene": {
+      "translation": "[[alt.gigantamax]][[Hatterene]]",
+      "line": 1998
+    },
+    "I couldn't win, but at least I was able to show everyone how great Fairy types are.": {
+      "translation": "虽然没能赢，但至少可以让大家见识一下妖精系的厉害。",
+      "line": 2002
+    },
+    "Gym Leader Bede": {
+      "translation": "道馆馆主彼特",
+      "line": 2006
+    },
+    "Elite Trainer Hop": {
+      "translation": "精英训练师赫普",
+      "line": 2008
+    },
+    "Hop": {
+      "translation": "赫普",
+      "line": 2009
+    },
+    "Dubwool": {
+      "translation": "毛毛角羊",
+      "line": 2012
+    },
+    "Pincurchin": {
+      "translation": "啪嚓海胆",
+      "line": 2013
+    },
+    "Corviknight": {
+      "translation": "钢铠鸦",
+      "line": 2015
+    },
+    "Gigantamax Inteleon": {
+      "translation": "[[alt.gigantamax]][[Inteleon]]",
+      "line": 2016
+    },
+    "Gigantamax Rillaboom": {
+      "translation": "[[alt.gigantamax]][[Rillaboom]]",
+      "line": 2017
+    },
+    "Gigantamax Cinderace": {
+      "translation": "[[alt.gigantamax]][[Cinderace]]",
+      "line": 2018
+    },
+    "Thanks, mate. I'm really glad you were the one here with me.": {
+      "translation": "谢谢，伙计。我真的很高兴你是和我在一起的人。",
+      "line": 2022
+    },
+    "Champion Leon": {
+      "translation": "冠军丹帝",
+      "line": 2026
+    },
+    "Leon": {
+      "translation": "丹帝",
+      "line": 2027
+    },
+    "Dragapult": {
+      "translation": "多龙巴鲁托",
+      "line": 2031
+    },
+    "Seismitoad": {
+      "translation": "蟾蜍王",
+      "line": 2033
+    },
+    "Cinderace": {
+      "translation": "闪焰王牌",
+      "line": 2034
+    },
+    "Mr. Rime": {
+      "translation": "踏冰人偶",
+      "line": 2035
+    },
+    "Inteleon": {
+      "translation": "千面避役",
+      "line": 2036
+    },
+    "Rillaboom": {
+      "translation": "轰擂金刚猩",
+      "line": 2038
+    },
+    "Gigantamax Charizard": {
+      "translation": "[[alt.gigantamax]][[Charizard]]",
+      "line": 2039
+    },
+    "My time as Champion is over... But what a champion time it's been! Thank you for the greatest battle I've ever had!": {
+      "translation": "我作为冠军的时代结束了……但这真是一个冠军时代！谢谢你给我带来了我经历过的最伟大的战斗！",
+      "line": 2043
+    },
+    "Elite Gym Leader Klara": {
+      "translation": "精英道馆领队克拉拉",
+      "line": 2050
+    },
+    "Klara": {
+      "translation": "克拉拉",
+      "line": 2051
+    },
+    "Galarian Slowking": {
+      "translation": "[[alt.galarian]][[Slowking]]",
+      "line": 2054
+    },
+    "Scolipede": {
+      "translation": "蜈蚣王",
+      "line": 2057
+    },
+    "Galarian Slowbro": {
+      "translation": "[[alt.galarian]][[Slowbro]]",
+      "line": 2058
+    },
+    "Aww, come on! What a drag! But...I guess it was also kinda fun!": {
+      "translation": "哇哦，来吧！真是太累了！但是……我想这也很有趣！",
+      "line": 2062
+    },
+    "The Dojo's Armor": {
+      "translation": "道场的铠甲",
+      "line": 2063
+    },
+    "Elite Gym Leader Avery": {
+      "translation": "精英道馆领队艾弗里",
+      "line": 2065
+    },
+    "Avery": {
+      "translation": "艾弗里",
+      "line": 2066
+    },
+    "More! I require more! Show me your Stored Power!": {
+      "translation": "更多的！我需要更多！让我看看你储存的力量！",
+      "line": 2077
+    },
+    "Elite Dojo Matron Honey": {
+      "translation": "精英道场护士长蜂蜜",
+      "line": 2080
+    },
+    "Honey": {
+      "translation": "蜂蜜",
+      "line": 2081
+    },
+    "Salazzle": {
+      "translation": "焰后蜥",
+      "line": 2086
+    },
+    "Gigantamax Venusaur": {
+      "translation": "[[alt.gigantamax]][[Venusaur]]",
+      "line": 2088
+    },
+    "Gigantamax Blastoise": {
+      "translation": "[[alt.gigantamax]][[Blastoise]]",
+      "line": 2089
+    },
+    "That was a delight! Nice battling, love!": {
+      "translation": "那真是令人高兴！战斗精彩，爱！",
+      "line": 2093
+    },
+    "Elite Dojo Master Mustard": {
+      "translation": "精英道场芥末大师",
+      "line": 2101
+    },
+    "Mustard": {
+      "translation": "芥末",
+      "line": 2102
+    },
+    "Lycanroc (Midday)": {
+      "translation": "[[Lycanroc]] 白昼的样子",
+      "line": 2107
+    },
+    "Kommo-o": {
+      "translation": "杖尾鳞甲龙",
+      "line": 2108
+    },
+    "Gigantamax Urshifu (Single Strike)": {
+      "translation": "[[alt.gigantamax]][[Urshifu (Single Strike)]]",
+      "line": 2109
+    },
+    "Gigantamax Urshifu (Rapid Strike)": {
+      "translation": "[[alt.gigantamax]][[Urshifu (Rapid Strike)]]",
+      "line": 2110
+    },
+    "That strength of yours doesn't bend easily!": {
+      "translation": "你的力量可不是轻易就能屈服的！",
+      "line": 2114
+    },
+    "Mustard Elite": {
+      "translation": "芥末精英",
+      "line": 2118
+    },
+    "Elite Trainer Peony": {
+      "translation": "精英训练师皮欧尼",
+      "line": 2120
+    },
+    "Peony": {
+      "translation": "皮欧尼",
+      "line": 2121
+    },
+    "Perrserker": {
+      "translation": "喵头目",
+      "line": 2124
+    },
+    "Copperajah": {
+      "translation": "大王铜象",
+      "line": 2128
+    },
+    "Gone and got stronger again, have you? Ah well! Hats off to you-in more ways than one!": {
+      "translation": "走了又变得更强了，不是吗？啊好吧！以多种方式向你致敬！",
+      "line": 2132
+    },
+    "The Crown of Galar": {
+      "translation": "伽勒尔王冠",
+      "line": 2135
+    },
+    "The Birds of the Dyna Tree": {
+      "translation": "戴纳树上的鸟儿",
+      "line": 2136
+    },
+    "The Ancient Golems": {
+      "translation": "",
+      "line": 2137
+    },
+    "Peony Elite": {
+      "translation": "精英皮欧尼",
+      "line": 2142
+    },
+    "Grandtree Arena": {
+      "translation": "格兰特里竞技场",
+      "line": 2147
+    },
+    "Lord of the Woods: Kleavor": {
+      "translation": "森林之王：克莱沃尔",
+      "line": 2148
+    },
+    "Noble Kleavor": {
+      "translation": "[[Kleavor]] [[alt.noble]]",
+      "line": 2150
+    },
+    "You defeated Lord Kleavor once again!": {
+      "translation": "你再次击败了克利沃勋爵！",
+      "line": 2153
+    },
+    "Lord Kleavor": {
+      "translation": "克莱沃勋爵",
+      "line": 2155
+    },
+    "../pokemon/900.01": {
+      "translation": "",
+      "line": 2155
+    },
+    "Brava Arena": {
+      "translation": "布拉瓦竞技场",
+      "line": 2157
+    },
+    "Lady of the Ridge: Lilligant": {
+      "translation": "山脊女士：Lilligant",
+      "line": 2158
+    },
+    "Noble Lilligant": {
+      "translation": "[[Lilligant]] 女王的样子",
+      "line": 2160
+    },
+    "You defeated Lady Lilligant once again!": {
+      "translation": "你再次击败了莉莉甘特女士！",
+      "line": 2163
+    },
+    "Lady Lilligant": {
+      "translation": "莉莉甘夫人",
+      "line": 2165
+    },
+    "../pokemon/549.02": {
+      "translation": "",
+      "line": 2165
+    },
+    "Molten Arena": {
+      "translation": "熔火竞技场",
+      "line": 2167
+    },
+    "Lord of the Isles: Arcanine": {
+      "translation": "",
+      "line": 2168
+    },
+    "Noble Arcanine": {
+      "translation": "[[Arcanine]] [[alt.noble]]",
+      "line": 2170
+    },
+    "You defeated Lord Arcanine once again!": {
+      "translation": "",
+      "line": 2173
+    },
+    "Lord Arcanine": {
+      "translation": "",
+      "line": 2175
+    },
+    "../pokemon/59.02": {
+      "translation": "",
+      "line": 2175
+    },
+    "Moonview Arena": {
+      "translation": "月景竞技场",
+      "line": 2177
+    },
+    "Lord of the Hollow: Electrode": {
+      "translation": "",
+      "line": 2178
+    },
+    "Noble Electrode": {
+      "translation": "[[Electrode]] [[alt.noble]]",
+      "line": 2180
+    },
+    "You defeated Lord Electrode once again!": {
+      "translation": "",
+      "line": 2183
+    },
+    "Lord Electrode": {
+      "translation": "",
+      "line": 2185
+    },
+    "../pokemon/101.02": {
+      "translation": "",
+      "line": 2185
+    },
+    "Icepeak Arena": {
+      "translation": "冰峰竞技场",
+      "line": 2187
+    },
+    "Lord of the Tundra: Avalugg": {
+      "translation": "苔原领主：阿瓦鲁格",
+      "line": 2188
+    },
+    "Noble Avalugg": {
+      "translation": "[[Avalugg]] [[alt.noble]]",
+      "line": 2190
+    },
+    "You defeated Lord Avalugg once again!": {
+      "translation": "你再次击败了阿瓦鲁格大人！",
+      "line": 2193
+    },
+    "Lord Avalugg": {
+      "translation": "阿瓦鲁格勋爵",
+      "line": 2195
+    },
+    "../pokemon/713.02": {
+      "translation": "",
+      "line": 2195
+    },
+    "Temple of Sinnoh": {
+      "translation": "神奥寺",
+      "line": 2197
+    },
+    "Volo": {
+      "translation": "沃洛",
+      "line": 2198
+    },
+    "Hisuian Arcanine": {
+      "translation": "[[alt.hisuian]][[Arcanine]]",
+      "line": 2204
+    },
+    "Giratina (Altered)": {
+      "translation": "[[Giratina]] 别种形态",
+      "line": 2207
+    },
+    "Volo 3": {
+      "translation": "沃罗3号",
+      "line": 2207
+    },
+    "Giratina (Origin)": {
+      "translation": "[[Giratina]] 起源形态",
+      "line": 2208
+    },
+    "Why? Why you?! Why do you have the blessing of Arceus?!": {
+      "translation": "为什么？为什么是你？！为什么你能得到阿尔宙斯的祝福？！",
+      "line": 2212
+    },
+    "Pokémon Wielder Volo": {
+      "translation": "宝可梦使用者沃洛",
+      "line": 2216
+    },
+    "Katy": {
+      "translation": "凯蒂",
+      "line": 2221
+    },
+    "Cortondo": {
+      "translation": "科尔通多",
+      "line": 2222
+    },
+    "Nymble": {
+      "translation": "豆蟋蟀",
+      "line": 2224
+    },
+    "Tarountula": {
+      "translation": "团珠蛛",
+      "line": 2225
+    },
+    "Teddiursa": {
+      "translation": "熊宝宝",
+      "line": 2226
+    },
+    "Brassius": {
+      "translation": "布拉修斯",
+      "line": 2234
+    },
+    "Artazon": {
+      "translation": "阿塔松",
+      "line": 2235
+    },
+    "Petilil": {
+      "translation": "百合根娃娃",
+      "line": 2237
+    },
+    "Smoliv": {
+      "translation": "迷你芙",
+      "line": 2238
+    },
+    "Sudowoodo": {
+      "translation": "树才怪",
+      "line": 2239
+    },
+    "Iono": {
+      "translation": "伊奥诺",
+      "line": 2247
+    },
+    "Levincia": {
+      "translation": "莱文西亚",
+      "line": 2248
+    },
+    "Wattrel": {
+      "translation": "电海燕",
+      "line": 2250
+    },
+    "Bellibolt": {
+      "translation": "电肚蛙",
+      "line": 2251
+    },
+    "Luxio": {
+      "translation": "勒克猫",
+      "line": 2252
+    },
+    "Kofu": {
+      "translation": "甲府",
+      "line": 2261
+    },
+    "Cascarrafa": {
+      "translation": "卡斯卡拉法",
+      "line": 2262
+    },
+    "Veluza": {
+      "translation": "轻身鳕",
+      "line": 2264
+    },
+    "Wugtrio": {
+      "translation": "三海地鼠",
+      "line": 2265
+    },
+    "Larry": {
+      "translation": "青木",
+      "line": 2274
+    },
+    "Medali": {
+      "translation": "梅达利",
+      "line": 2275
+    },
+    "Komala": {
+      "translation": "树枕尾熊",
+      "line": 2277
+    },
+    "Dudunsparce (Two-Segment)": {
+      "translation": "[[Dudunsparce]] 二节形态",
+      "line": 2278
+    },
+    "Staraptor": {
+      "translation": "姆克鹰",
+      "line": 2279
+    },
+    "Ryme": {
+      "translation": "莱姆",
+      "line": 2287
+    },
+    "Montenevera": {
+      "translation": "蒙特内韦拉",
+      "line": 2288
+    },
+    "Houndstone": {
+      "translation": "墓扬犬",
+      "line": 2292
+    },
+    "Toxtricity (Low Key)": {
+      "translation": "[[Toxtricity]] 低调的样子",
+      "line": 2293
+    },
+    "Tulip": {
+      "translation": "郁金香",
+      "line": 2301
+    },
+    "Alfornada": {
+      "translation": "阿尔福纳达",
+      "line": 2302
+    },
+    "Farigiraf": {
+      "translation": "奇麒麟",
+      "line": 2304
+    },
+    "Espathra": {
+      "translation": "超能艳鸵",
+      "line": 2306
+    },
+    "Florges (Red)": {
+      "translation": "[[Florges]] [[alt.red]]",
+      "line": 2307
+    },
+    "Glaseado Mountain": {
+      "translation": "格拉塞多山",
+      "line": 2314
+    },
+    "Grusha": {
+      "translation": "格鲁沙",
+      "line": 2315
+    },
+    "Beartic": {
+      "translation": "冻原熊",
+      "line": 2319
+    },
+    "Cetitan": {
+      "translation": "浩大鲸",
+      "line": 2320
+    },
+    "Elite Rika": {
+      "translation": "四天王琪朵",
+      "line": 2328
+    },
+    "Rika": {
+      "translation": "琪朵",
+      "line": 2329
+    },
+    "Donphan": {
+      "translation": "顿甲",
+      "line": 2334
+    },
+    "Clodsire": {
+      "translation": "土王",
+      "line": 2336
+    },
+    "Elite Poppy": {
+      "translation": "四天王波琵",
+      "line": 2343
+    },
+    "Poppy": {
+      "translation": "波琵",
+      "line": 2344
+    },
+    "Tinkaton": {
+      "translation": "巨锻匠",
+      "line": 2351
+    },
+    "Elite Larry": {
+      "translation": "四天王青木",
+      "line": 2358
+    },
+    "Oricorio (Pom-Pom)": {
+      "translation": "[[Oricorio]] 啪滋啪滋风格",
+      "line": 2363
+    },
+    "Flamigo": {
+      "translation": "缠红鹤",
+      "line": 2366
+    },
+    "Elite Hassel": {
+      "translation": "四天王海岱",
+      "line": 2373
+    },
+    "Hassel": {
+      "translation": "海岱",
+      "line": 2374
+    },
+    "Flapple": {
+      "translation": "苹裹龙",
+      "line": 2380
+    },
+    "Baxcalibur": {
+      "translation": "戟脊龙",
+      "line": 2381
+    },
+    "Top Champion Geeta": {
+      "translation": "首席冠军也慈",
+      "line": 2388
+    },
+    "Geeta": {
+      "translation": "也慈",
+      "line": 2389
+    },
+    "Kingambit": {
+      "translation": "仆刀将军",
+      "line": 2396
+    },
+    "Glimmora": {
+      "translation": "晶光花",
+      "line": 2397
+    },
+    "Champion Nemona": {
+      "translation": "冠军妮莫",
+      "line": 2406
+    },
+    "Nemona": {
+      "translation": "妮莫",
+      "line": 2407
+    },
+    "Dudunsparce (Three-Segment)": {
+      "translation": "[[Dudunsparce]] 三节形态",
+      "line": 2412
+    },
+    "Orthworm": {
+      "translation": "拖拖蚓",
+      "line": 2413
+    },
+    "Pawmot": {
+      "translation": "巴布土拨",
+      "line": 2414
+    },
+    "Quaquaval": {
+      "translation": "狂欢浪舞鸭",
+      "line": 2415
+    },
+    "Meowscarada": {
+      "translation": "魔幻假面喵",
+      "line": 2416
+    },
+    "Skeledirge": {
+      "translation": "骨纹巨声鳄",
+      "line": 2417
+    },
+    "Segin Squad's Base": {
+      "translation": "塞金小队基地",
+      "line": 2425
+    },
+    "Giacomo": {
+      "translation": "贾科莫",
+      "line": 2426
+    },
+    "Pawniard": {
+      "translation": "驹刀小兵",
+      "line": 2429
+    },
+    "Segin Starmobile": {
+      "translation": "阁道二[[Starmobile]]",
+      "line": 2430
+    },
+    "Giacomo of Team Star": {
+      "translation": "明星队的贾科莫",
+      "line": 2436
+    },
+    "Schedar Squad's Base": {
+      "translation": "施达小队基地",
+      "line": 2438
+    },
+    "Mela": {
+      "translation": "梅拉",
+      "line": 2439
+    },
+    "Schedar Starmobile": {
+      "translation": "王良四[[Starmobile]]",
+      "line": 2443
+    },
+    "Mela of Team Star": {
+      "translation": "明星队梅拉",
+      "line": 2449
+    },
+    "Navi Squad's Base": {
+      "translation": "导航小队的基地",
+      "line": 2451
+    },
+    "Atticus": {
+      "translation": "阿蒂克斯",
+      "line": 2452
+    },
+    "Revavroom": {
+      "translation": "普隆隆姆",
+      "line": 2457
+    },
+    "Navi Starmobile": {
+      "translation": "策星[[Starmobile]]",
+      "line": 2458
+    },
+    "Atticus of Team Star": {
+      "translation": "明星队阿蒂克斯",
+      "line": 2464
+    },
+    "Ruchbah Squad's Base": {
+      "translation": "鲁奇巴小队基地",
+      "line": 2466
+    },
+    "Ortega": {
+      "translation": "奥尔特加",
+      "line": 2467
+    },
+    "Azumarill": {
+      "translation": "玛力露丽",
+      "line": 2470
+    },
+    "Dachsbun": {
+      "translation": "麻花犬",
+      "line": 2472
+    },
+    "Ruchbah Starmobile": {
+      "translation": "阁道三[[Starmobile]]",
+      "line": 2473
+    },
+    "Ortega of Team Star": {
+      "translation": "明星队的奥尔特加",
+      "line": 2479
+    },
+    "Caph Squad's Base": {
+      "translation": "卡夫小队的基地",
+      "line": 2481
+    },
+    "Eri": {
+      "translation": "埃里",
+      "line": 2482
+    },
+    "Passimian": {
+      "translation": "投掷猴",
+      "line": 2486
+    },
+    "Annihilape": {
+      "translation": "弃世猴",
+      "line": 2488
+    },
+    "Caph Starmobile": {
+      "translation": "王良一[[Starmobile]]",
+      "line": 2489
+    },
+    "Eri of Team Star": {
+      "translation": "Team Star 的 Eri",
+      "line": 2495
+    },
+    "Director Clavell": {
+      "translation": "克拉维尔导演",
+      "line": 2497
+    },
+    "Clavell": {
+      "translation": "克拉维尔",
+      "line": 2498
+    },
+    "Oranguru": {
+      "translation": "智挥猩",
+      "line": 2501
+    },
+    "Polteageist": {
+      "translation": "怖思壶",
+      "line": 2503
+    },
+    "Amoonguss": {
+      "translation": "败露球菇",
+      "line": 2504
+    },
+    "Penny of Team Star": {
+      "translation": "明星队的佩妮",
+      "line": 2520
+    },
+    "Penny": {
+      "translation": "一分钱",
+      "line": 2521
+    },
+    "Stony Cliff Titan": {
+      "translation": "石崖泰坦",
+      "line": 2537
+    },
+    "Titan Klawf": {
+      "translation": "[[alt.titan]] [[Klawf]]",
+      "line": 2540
+    },
+    "../pokemon/950.01": {
+      "translation": "",
+      "line": 2545
+    },
+    "Open Sky Titan": {
+      "translation": "开天泰坦",
+      "line": 2547
+    },
+    "Titan Bombirdier": {
+      "translation": "[[alt.titan]] [[Bombirdier]]",
+      "line": 2550
+    },
+    "../pokemon/962.01": {
+      "translation": "",
+      "line": 2555
+    },
+    "Lurking Steel Titan": {
+      "translation": "潜伏的钢泰坦",
+      "line": 2557
+    },
+    "Titan Orthworm": {
+      "translation": "[[alt.titan]] [[Orthworm]]",
+      "line": 2560
+    },
+    "../pokemon/968.01": {
+      "translation": "",
+      "line": 2565
+    },
+    "Asado Desert": {
+      "translation": "阿萨多沙漠",
+      "line": 2567
+    },
+    "Quaking Earth Titan": {
+      "translation": "震动大地泰坦",
+      "line": 2568
+    },
+    "Titan Great Tusk": {
+      "translation": "[[alt.titan]] [[Great Tusk]]",
+      "line": 2571
+    },
+    "Titan Iron Treads": {
+      "translation": "[[alt.titan]] [[Iron Treads]]",
+      "line": 2572
+    },
+    "Casseroya Lake": {
+      "translation": "卡塞罗亚湖",
+      "line": 2579
+    },
+    "False Dragon Titan": {
+      "translation": "伪龙泰坦",
+      "line": 2580
+    },
+    "Titan Dondozo": {
+      "translation": "[[alt.titan]] [[Dondozo]]",
+      "line": 2583
+    },
+    "Titan Tatsugiri": {
+      "translation": "[[alt.titan]] [[Tatsugiri]]",
+      "line": 2584
+    },
+    "Pokémon Trainer Arven": {
+      "translation": "宝可梦训练家阿尔文",
+      "line": 2591
+    },
+    "Arven": {
+      "translation": "阿尔文",
+      "line": 2592
+    },
+    "Greedent": {
+      "translation": "藏饱栗鼠",
+      "line": 2595
+    },
+    "Scovillain": {
+      "translation": "狠辣椒",
+      "line": 2597
+    },
+    "Toedscruel": {
+      "translation": "陆地水母",
+      "line": 2598
+    },
+    "Garganacl": {
+      "translation": "盐石巨灵",
+      "line": 2599
+    },
+    "Mabosstiff": {
+      "translation": "獒教父",
+      "line": 2600
+    },
+    "AI Sada": {
+      "translation": "艾萨达",
+      "line": 2608
+    },
+    "Slither Wing": {
+      "translation": "爬地翅",
+      "line": 2612
+    },
+    "Scream Tail": {
+      "translation": "吼叫尾",
+      "line": 2613
+    },
+    "Brute Bonnet": {
+      "translation": "猛恶菇",
+      "line": 2614
+    },
+    "Flutter Mane": {
+      "translation": "振翼发",
+      "line": 2615
+    },
+    "Sandy Shocks": {
+      "translation": "沙铁皮",
+      "line": 2616
+    },
+    "Roaring Moon": {
+      "translation": "轰鸣月",
+      "line": 2617
+    },
+    "AI Turo": {
+      "translation": "艾图罗",
+      "line": 2625
+    },
+    "Iron Moth": {
+      "translation": "铁毒蛾",
+      "line": 2629
+    },
+    "Iron Bundle": {
+      "translation": "铁包袱",
+      "line": 2630
+    },
+    "Iron Hands": {
+      "translation": "铁臂膀",
+      "line": 2631
+    },
+    "Iron Jugulis": {
+      "translation": "铁脖颈",
+      "line": 2632
+    },
+    "Iron Thorns": {
+      "translation": "铁荆棘",
+      "line": 2633
+    },
+    "Iron Valiant": {
+      "translation": "铁武者",
+      "line": 2634
+    }
+  }
+}

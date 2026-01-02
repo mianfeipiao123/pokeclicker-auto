@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/shop/Shop.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 5
+  },
+  "entries": {
+    "btn btn-secondary": {
+      "translation": "btn btn-次要",
+      "line": 5
+    },
+    "Poké Mart": {
+      "translation": "宝可超市",
+      "line": 8
+    },
+    "show": {
+      "translation": "展示",
+      "line": 18
+    },
+    "Visit shops to buy items.": {
+      "translation": "前往商店购买物品。",
+      "line": 20
+    },
+    "Poké Mart ${this.parent.name}": {
+      "translation": "",
+      "line": 47
+    },
+    "input[name=\"amountOfItems\"]": {
+      "translation": "输入[名称=“项目数量”]",
+      "line": 50
+    }
+  }
+}

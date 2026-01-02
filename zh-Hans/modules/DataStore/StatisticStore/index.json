@@ -1,0 +1,158 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/DataStore/StatisticStore/index.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 37,
+    "translatedCount": 32
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../../koExtenders": {
+      "translation": "",
+      "line": 2
+    },
+    "../../pokemons/PokemonList": {
+      "translation": "",
+      "line": 3
+    },
+    "../common/Saveable": {
+      "translation": "",
+      "line": 4
+    },
+    "./getRouteKillsProxy": {
+      "translation": "",
+      "line": 5
+    },
+    "id": {
+      "translation": "ID",
+      "line": 9
+    },
+    "statistics": {
+      "translation": "统计数据",
+      "line": 13
+    },
+    "berryDailyDealTrades": {
+      "translation": "berryDailyDealTrades",
+      "line": 181
+    },
+    "farmWandererFarmPointsObtained": {
+      "translation": "farmWandererFarmPointsObtained",
+      "line": 182
+    },
+    "farmWandererDungeonTokensObtained": {
+      "translation": "farmWandererDungeonTokensObtained",
+      "line": 183
+    },
+    "battleFrontierTotalStagesCompleted": {
+      "translation": "battleFrontierTotalStagesCompleted",
+      "line": 184
+    },
+    "battleFrontierHighestStageCompleted": {
+      "translation": "battleFrontierHighestStageCompleted",
+      "line": 185
+    },
+    "safariShinyPokemonCaptured": {
+      "translation": "safariShinyPokemonCaptured",
+      "line": 191
+    },
+    "totalShinyTrainerPokemonSeen": {
+      "translation": "totalShinyTrainerPokemonSeen",
+      "line": 197
+    },
+    "undergroundLayersFullyMined": {
+      "translation": "undergroundLayersFullyMined",
+      "line": 198
+    },
+    "undergroundSpecificItemsFound": {
+      "translation": "undergroundSpecificItemsFound",
+      "line": 232
+    },
+    "undergroundSpecificLayersMined": {
+      "translation": "undergroundSpecificLayersMined",
+      "line": 233
+    },
+    "Male": {
+      "translation": "雄性",
+      "line": 240
+    },
+    "Female": {
+      "translation": "雌性",
+      "line": 240
+    },
+    "Genderless": {
+      "translation": "无性别",
+      "line": 240
+    },
+    "total{{GENDER}}PokemonCaptured": {
+      "translation": "总计{{GENDER}}PokemonCaptured",
+      "line": 243
+    },
+    "total{{GENDER}}PokemonDefeated": {
+      "translation": "总计{{GENDER}}宝可梦击败",
+      "line": 244
+    },
+    "total{{GENDER}}PokemonEncountered": {
+      "translation": "总共{{GENDER}}遇到的宝可梦",
+      "line": 245
+    },
+    "total{{GENDER}}PokemonHatched": {
+      "translation": "总计{{GENDER}}PokemonHatched",
+      "line": 246
+    },
+    "totalShiny{{GENDER}}PokemonCaptured": {
+      "translation": "TotalShiny{{GENDER}}PokemonCaptured",
+      "line": 247
+    },
+    "totalShiny{{GENDER}}PokemonDefeated": {
+      "translation": "TotalShiny{{GENDER}}PokemonDefeed",
+      "line": 248
+    },
+    "totalShiny{{GENDER}}PokemonEncountered": {
+      "translation": "TotalShiny{{GENDER}}PokemonEncountered",
+      "line": 249
+    },
+    "totalShiny{{GENDER}}PokemonHatched": {
+      "translation": "TotalShiny{{GENDER}}PokemonHatched",
+      "line": 250
+    },
+    "totalShadow{{GENDER}}PokemonCaptured": {
+      "translation": "TotalShadow{{GENDER}}PokemonCaptured",
+      "line": 251
+    },
+    "totalShadow{{GENDER}}PokemonDefeated": {
+      "translation": "TotalShadow{{GENDER}}PokemonDefeed",
+      "line": 252
+    },
+    "{{GENDER}}": {
+      "translation": "{{GENDER}}",
+      "line": 257
+    },
+    "undefined": {
+      "translation": "不明确的",
+      "line": 276
+    },
+    "[Statistics] [${array}] Invalid property requested:": {
+      "translation": "",
+      "line": 285
+    },
+    "highestID": {
+      "translation": "highestID",
+      "line": 321
+    },
+    "object": {
+      "translation": "目的",
+      "line": 368
+    },
+    "[Statistics] Could not set:": {
+      "translation": "[统计] 无法设置：",
+      "line": 437
+    },
+    "[Statistics] Could not determine action to take for set:": {
+      "translation": "[统计] 无法确定对集合采取的操作：",
+      "line": 453
+    }
+  }
+}

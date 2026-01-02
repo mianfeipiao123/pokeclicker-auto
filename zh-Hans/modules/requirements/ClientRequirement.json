@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/ClientRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Use the client": {
+      "translation": "使用客户端",
+      "line": 17
+    },
+    "Use the browser version": {
+      "translation": "使用浏览器版本",
+      "line": 17
+    }
+  }
+}

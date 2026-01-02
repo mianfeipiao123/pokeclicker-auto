@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/PurifyChamber.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 6
+  },
+  "entries": {
+    "btn btn-info": {
+      "translation": "btn btn-信息",
+      "line": 6
+    },
+    "Purify Chamber": {
+      "translation": "净化室",
+      "line": 9
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 30
+    },
+    "Maximum Flow has accumulated at the Purify Chamber in Orre!": {
+      "translation": "奥尔雷的净化室已累积最大流量！",
+      "line": 90
+    },
+    "show": {
+      "translation": "展示",
+      "line": 100
+    },
+    "You need to progress in the Shadows in the Desert quest line to unlock this feature.": {
+      "translation": "你需要在\"沙漠中的阴影\"任务线中进一步推进才能解锁此功能。",
+      "line": 103
+    }
+  }
+}

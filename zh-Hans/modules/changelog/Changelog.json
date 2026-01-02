@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/changelog/Changelog.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 7
+  },
+  "entries": {
+    "dark": {
+      "translation": "黑暗的",
+      "line": 17
+    },
+    "success": {
+      "translation": "成功",
+      "line": 18
+    },
+    "primary": {
+      "translation": "基本的",
+      "line": 19
+    },
+    "warning": {
+      "translation": "警告",
+      "line": 20
+    },
+    "danger": {
+      "translation": "危险",
+      "line": 21
+    },
+    "info": {
+      "translation": "信息",
+      "line": 22
+    },
+    "default": {
+      "translation": "默认",
+      "line": 23
+    }
+  }
+}

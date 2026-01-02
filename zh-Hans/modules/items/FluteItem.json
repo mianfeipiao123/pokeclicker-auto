@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/FluteItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 15,
+    "translatedCount": 3
+  },
+  "entries": {
+    "./Item": {
+      "translation": "",
+      "line": 1
+    },
+    "../gems/FluteEffectRunner": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 4
+    },
+    "../multiplier/MultiplierType": {
+      "translation": "",
+      "line": 5
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 7
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 28
+    },
+    "percent": {
+      "translation": "百分比",
+      "line": 28
+    },
+    "+${(this.getMultiplier() - 1).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 2, maximumFractionDigits: 2 })} bonus to ${this.description}": {
+      "translation": "",
+      "line": 28
+    },
+    "<div><strong>${this.displayName}</strong></div>": {
+      "translation": "",
+      "line": 33
+    },
+    "<div>${this.getDescription()}</div>": {
+      "translation": "",
+      "line": 34
+    },
+    "<div>Consuming ${FluteEffectRunner.numActiveFlutes()} Gem(s)/Second</div>": {
+      "translation": "",
+      "line": 35
+    },
+    "You don't have the ${this.displayName}...": {
+      "translation": "",
+      "line": 50
+    },
+    "You don't have enough gems to use this Flute.": {
+      "translation": "你没有足够的宝石来使用这个笛子。",
+      "line": 57
+    }
+  }
+}

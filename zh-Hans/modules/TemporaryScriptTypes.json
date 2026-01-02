@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/TemporaryScriptTypes.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 31,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 6
+    },
+    "./logbook/LogBook": {
+      "translation": "",
+      "line": 7
+    },
+    "./DataStore/BadgeCase": {
+      "translation": "",
+      "line": 8
+    },
+    "./profile/Profile": {
+      "translation": "",
+      "line": 9
+    },
+    "./DataStore/StatisticStore": {
+      "translation": "",
+      "line": 10
+    },
+    "./challenges/Challenges": {
+      "translation": "",
+      "line": 11
+    },
+    "./multiplier/Multiplier": {
+      "translation": "",
+      "line": 12
+    },
+    "./GameConstants": {
+      "translation": "",
+      "line": 13
+    },
+    "./wallet/Wallet": {
+      "translation": "",
+      "line": 14
+    },
+    "./party/Category": {
+      "translation": "",
+      "line": 15
+    },
+    "./oakItems/OakItems": {
+      "translation": "",
+      "line": 16
+    },
+    "./oakItems/OakItemLoadouts": {
+      "translation": "",
+      "line": 17
+    },
+    "./saveReminder/SaveReminder": {
+      "translation": "",
+      "line": 18
+    },
+    "./translation/Translation": {
+      "translation": "",
+      "line": 19
+    },
+    "./achievements/Achievement": {
+      "translation": "",
+      "line": 20
+    },
+    "./achievements/AchievementSortOptions": {
+      "translation": "",
+      "line": 21
+    },
+    "./achievements/AchievementCategory": {
+      "translation": "",
+      "line": 22
+    },
+    "./keyItems/KeyItems": {
+      "translation": "",
+      "line": 23
+    },
+    "./pokeballs/PokeballFilters": {
+      "translation": "",
+      "line": 24
+    },
+    "./underground/Underground": {
+      "translation": "",
+      "line": 25
+    },
+    "./subRegion/SubRegion": {
+      "translation": "",
+      "line": 26
+    },
+    "./settings/CssVariableSetting": {
+      "translation": "",
+      "line": 27
+    },
+    "./pokemons/evolutions/Base": {
+      "translation": "",
+      "line": 28
+    },
+    "./pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 29
+    },
+    "./enums/CaughtStatus": {
+      "translation": "",
+      "line": 30
+    },
+    "./specialEvents/SpecialEvents": {
+      "translation": "",
+      "line": 31
+    },
+    "./enums/PokemonType": {
+      "translation": "",
+      "line": 32
+    },
+    "./weather/WeatherType": {
+      "translation": "",
+      "line": 33
+    },
+    "./items/types": {
+      "translation": "",
+      "line": 34
+    },
+    "./interfaces/BagItem": {
+      "translation": "",
+      "line": 35
+    },
+    "./battles/BattlePokemon": {
+      "translation": "",
+      "line": 36
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/shop/BerryMasterShop.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 3
+  },
+  "entries": {
+    "Berry Master": {
+      "translation": "树果大师",
+      "line": 7
+    },
+    "show": {
+      "translation": "展示",
+      "line": 14
+    },
+    "input[name=\"amountOfItems\"]": {
+      "translation": "输入[名称=“项目数量”]",
+      "line": 17
+    }
+  }
+}

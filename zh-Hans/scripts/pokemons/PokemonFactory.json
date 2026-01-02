@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/pokemons/PokemonFactory.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 20,
+    "translatedCount": 17
+  },
+  "entries": {
+    "MissingNo.": {
+      "translation": "Missing No.",
+      "line": 13
+    },
+    "✨ You encountered a shiny ${PokemonHelper.displayName(name)}! ✨": {
+      "translation": "",
+      "line": 45
+    },
+    "You encountered a roaming ${name}!": {
+      "translation": "",
+      "line": 54
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 114
+    },
+    "roaming": {
+      "translation": "漫游",
+      "line": 265
+    },
+    "Griseous_Orb": {
+      "translation": "Griseous_Orb",
+      "line": 304
+    },
+    "Black_DNA": {
+      "translation": "黑色_DNA",
+      "line": 307
+    },
+    "White_DNA": {
+      "translation": "白色_DNA",
+      "line": 308
+    },
+    "Solar_light": {
+      "translation": "太阳能灯",
+      "line": 311
+    },
+    "Lunar_light": {
+      "translation": "月光",
+      "line": 312
+    },
+    "Pure_light": {
+      "translation": "纯光",
+      "line": 313
+    },
+    "Crystallized_shadow": {
+      "translation": "结晶阴影",
+      "line": 316
+    },
+    "Rusted_Sword": {
+      "translation": "生锈的剑",
+      "line": 319
+    },
+    "Rusted_Shield": {
+      "translation": "生锈的盾牌",
+      "line": 320
+    },
+    "Black_mane_hair": {
+      "translation": "黑鬃毛",
+      "line": 323
+    },
+    "White_mane_hair": {
+      "translation": "白鬃毛",
+      "line": 324
+    },
+    "Magikarp_Biscuit": {
+      "translation": "",
+      "line": 327
+    },
+    "Rare_Candy": {
+      "translation": "神奇糖果",
+      "line": 330
+    },
+    "Christmas_present": {
+      "translation": "圣诞礼物",
+      "line": 333
+    },
+    "Invalid gender": {
+      "translation": "性别无效",
+      "line": 380
+    }
+  }
+}

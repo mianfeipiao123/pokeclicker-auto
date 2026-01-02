@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/oakItems/OakItems.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 44,
+    "translatedCount": 33
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 2
+    },
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 5
+    },
+    "../multiplier/Multiplier": {
+      "translation": "",
+      "line": 6
+    },
+    "../multiplier/MultiplierType": {
+      "translation": "",
+      "line": 7
+    },
+    "../wallet/AmountFactory": {
+      "translation": "",
+      "line": 8
+    },
+    "./BoughtOakItem": {
+      "translation": "",
+      "line": 9
+    },
+    "./OakItem": {
+      "translation": "",
+      "line": 10
+    },
+    "Oak Items": {
+      "translation": "大木博士道具",
+      "line": 13
+    },
+    "Magic Ball": {
+      "translation": "魔力球",
+      "line": 36
+    },
+    "Gives a bonus to your catchrate": {
+      "translation": "给你的捕获率带来奖励",
+      "line": 36
+    },
+    "Amulet Coin": {
+      "translation": "护符金币",
+      "line": 38
+    },
+    "Gain more Pokédollars from battling": {
+      "translation": "",
+      "line": 38
+    },
+    "Rocky Helmet": {
+      "translation": "凸凸头盔",
+      "line": 40
+    },
+    "Clicks do more damage": {
+      "translation": "点击造成更多伤害",
+      "line": 40
+    },
+    "EXP Share": {
+      "translation": "经验分享",
+      "line": 42
+    },
+    "Gain more exp from battling": {
+      "translation": "从战斗中获得更多经验",
+      "line": 42
+    },
+    "Sprayduck": {
+      "translation": "喷雾鸭",
+      "line": 44
+    },
+    "Makes your berries grow faster": {
+      "translation": "让你的树果长得更快",
+      "line": 44
+    },
+    "Shiny Charm": {
+      "translation": "闪耀护符",
+      "line": 46
+    },
+    "Encounter shinies more often": {
+      "translation": "更频繁地遇到异色宝可梦",
+      "line": 46
+    },
+    "Magma Stone": {
+      "translation": "岩浆石",
+      "line": 48
+    },
+    "Hatch eggs faster": {
+      "translation": "孵化鸡蛋更快",
+      "line": 48
+    },
+    "Cell Battery": {
+      "translation": "蓄电池",
+      "line": 50
+    },
+    "Reduce the charges needed to discharge": {
+      "translation": "减少放电所需的电荷",
+      "line": 50
+    },
+    " Charges": {
+      "translation": "",
+      "line": 51
+    },
+    "Squirtbottle": {
+      "translation": "杰尼龟喷壶",
+      "line": 52
+    },
+    "Increases the chance of berry mutations": {
+      "translation": "增加树果突变的机会",
+      "line": 52
+    },
+    "Johto Berry Master": {
+      "translation": "城都树果大师",
+      "line": 52
+    },
+    "Sprinklotad": {
+      "translation": "莲叶童子喷壶",
+      "line": 54
+    },
+    "Increases the duration of Mulch": {
+      "translation": "增加肥料的持续时间",
+      "line": 54
+    },
+    "Hoenn Berry Master": {
+      "translation": "丰缘树果大师",
+      "line": 54
+    },
+    "Explosive Charge": {
+      "translation": "爆破装置",
+      "line": 56
+    },
+    "Increases the number of tiles the Bomb tool can target": {
+      "translation": "增加炸弹工具可以瞄准的图块数量",
+      "line": 56
+    },
+    "Cinnabar Island Shop": {
+      "translation": "红莲岛店",
+      "line": 56
+    },
+    "Treasure Scanner": {
+      "translation": "宝藏扫描仪",
+      "line": 58
+    },
+    "Chance to multiply mining rewards": {
+      "translation": "有机会倍增挖矿奖励",
+      "line": 58
+    },
+    "exp": {
+      "translation": "经验值",
+      "line": 63
+    },
+    "money": {
+      "translation": "钱",
+      "line": 64
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 65
+    },
+    "Could not find oakItem": {
+      "translation": "找不到 OakItem",
+      "line": 74
+    },
+    "This could have unintended consequences": {
+      "translation": "这可能会产生意想不到的后果",
+      "line": 74
+    }
+  }
+}

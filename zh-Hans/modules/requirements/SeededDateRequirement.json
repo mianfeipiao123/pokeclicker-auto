@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/SeededDateRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 2
+    },
+    "../utilities/SeededDateRand": {
+      "translation": "",
+      "line": 3
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 4
+    },
+    "Try again another day.": {
+      "translation": "改天再试一次。",
+      "line": 20
+    }
+  }
+}

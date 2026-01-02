@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/breeding/Egg.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 4
+  },
+  "entries": {
+    "egg": {
+      "translation": "蛋",
+      "line": 6
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 39
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 80
+    },
+    "${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)} is ready to hatch!": {
+      "translation": "",
+      "line": 102
+    },
+    "An egg is ready to hatch!": {
+      "translation": "一颗蛋已经准备好孵化了！",
+      "line": 104
+    },
+    "✨ You hatched a shiny ${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)}! ✨": {
+      "translation": "",
+      "line": 154
+    },
+    "You hatched ${GameHelper.anOrA(PokemonHelper.getPokemonById(this.pokemon).name)} ${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)}!": {
+      "translation": "",
+      "line": 169
+    },
+    "You also found ${GameHelper.anOrA(baseFormName)} ${baseFormName} nearby!": {
+      "translation": "",
+      "line": 186
+    }
+  }
+}

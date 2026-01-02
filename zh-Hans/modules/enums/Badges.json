@@ -1,0 +1,674 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/enums/Badges.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 166,
+    "translatedCount": 164
+  },
+  "entries": {
+    "None": {
+      "translation": "无",
+      "line": 2
+    },
+    "Boulder": {
+      "translation": "博尔德",
+      "line": 4
+    },
+    "Cascade": {
+      "translation": "级联",
+      "line": 5
+    },
+    "Thunder": {
+      "translation": "雷",
+      "line": 6
+    },
+    "Rainbow": {
+      "translation": "彩虹",
+      "line": 7
+    },
+    "Soul": {
+      "translation": "灵魂",
+      "line": 8
+    },
+    "Marsh": {
+      "translation": "沼泽",
+      "line": 9
+    },
+    "Volcano": {
+      "translation": "火山",
+      "line": 10
+    },
+    "Earth": {
+      "translation": "地球",
+      "line": 11
+    },
+    "Elite_Lorelei": {
+      "translation": "四天王科拿",
+      "line": 12
+    },
+    "Elite_Bruno": {
+      "translation": "四天王希巴",
+      "line": 13
+    },
+    "Elite_Agatha": {
+      "translation": "四天王菊子",
+      "line": 14
+    },
+    "Elite_Lance": {
+      "translation": "四天王渡",
+      "line": 15
+    },
+    "Elite_KantoChampion": {
+      "translation": "精英_关东冠军",
+      "line": 16
+    },
+    "Zephyr": {
+      "translation": "和风",
+      "line": 18
+    },
+    "Hive": {
+      "translation": "蜂巢",
+      "line": 19
+    },
+    "Plain": {
+      "translation": "清楚的",
+      "line": 20
+    },
+    "Fog": {
+      "translation": "雾",
+      "line": 21
+    },
+    "Storm": {
+      "translation": "风暴",
+      "line": 22
+    },
+    "Mineral": {
+      "translation": "矿物",
+      "line": 23
+    },
+    "Glacier": {
+      "translation": "冰川",
+      "line": 24
+    },
+    "Rising": {
+      "translation": "瑞星",
+      "line": 25
+    },
+    "Elite_Will": {
+      "translation": "四天王一树",
+      "line": 26
+    },
+    "Elite_Koga": {
+      "translation": "四天王阿桔",
+      "line": 27
+    },
+    "Elite_Bruno2": {
+      "translation": "四天王希巴2",
+      "line": 28
+    },
+    "Elite_Karen": {
+      "translation": "四天王梨花",
+      "line": 29
+    },
+    "Elite_JohtoChampion": {
+      "translation": "精英_JohtoChampion",
+      "line": 30
+    },
+    "Stone": {
+      "translation": "石头",
+      "line": 32
+    },
+    "Knuckle": {
+      "translation": "指关节",
+      "line": 33
+    },
+    "Dynamo": {
+      "translation": "发电机",
+      "line": 34
+    },
+    "Heat": {
+      "translation": "热",
+      "line": 35
+    },
+    "Balance": {
+      "translation": "平衡",
+      "line": 36
+    },
+    "Feather": {
+      "translation": "羽毛",
+      "line": 37
+    },
+    "Mind": {
+      "translation": "头脑",
+      "line": 38
+    },
+    "Rain": {
+      "translation": "雨天",
+      "line": 39
+    },
+    "Elite_Sidney": {
+      "translation": "四天王花月",
+      "line": 40
+    },
+    "Elite_Phoebe": {
+      "translation": "四天王芙蓉",
+      "line": 41
+    },
+    "Elite_Glacia": {
+      "translation": "四天王波妮",
+      "line": 42
+    },
+    "Elite_Drake": {
+      "translation": "四天王源治",
+      "line": 43
+    },
+    "Elite_HoennChampion": {
+      "translation": "精英_HoennChampion",
+      "line": 44
+    },
+    "Coral-Eye": {
+      "translation": "珊瑚眼",
+      "line": 46
+    },
+    "Sea_Ruby": {
+      "translation": "海红宝石",
+      "line": 47
+    },
+    "Spike_Shell": {
+      "translation": "穗壳",
+      "line": 48
+    },
+    "Jade_Star": {
+      "translation": "翡翠星",
+      "line": 49
+    },
+    "Elite_OrangeChampion": {
+      "translation": "精英_OrangeChampion",
+      "line": 50
+    },
+    "Elite_F_Disk": {
+      "translation": "精英_F_磁盘",
+      "line": 52
+    },
+    "Elite_L_Disk": {
+      "translation": "精英_L_磁盘",
+      "line": 53
+    },
+    "Elite_R_Disk": {
+      "translation": "精英_R_磁盘",
+      "line": 54
+    },
+    "Elite_U_Disk": {
+      "translation": "精英U盘",
+      "line": 55
+    },
+    "Elite_ColosseumLovrina": {
+      "translation": "Elite_ColosseumLovrina",
+      "line": 56
+    },
+    "Elite_ColosseumSnattle": {
+      "translation": "Elite_Colosseum斯纳奇姆",
+      "line": 57
+    },
+    "Elite_ColosseumGorigan": {
+      "translation": "Elite_ColosseumGorigan",
+      "line": 58
+    },
+    "Elite_ColosseumArdos": {
+      "translation": "精英_阿多斯斗兽场",
+      "line": 59
+    },
+    "Elite_ColosseumEldes": {
+      "translation": "精英_Colosseum埃尔德斯",
+      "line": 60
+    },
+    "Coal": {
+      "translation": "煤炭",
+      "line": 62
+    },
+    "Forest": {
+      "translation": "森林",
+      "line": 63
+    },
+    "Relic": {
+      "translation": "遗迹",
+      "line": 64
+    },
+    "Cobble": {
+      "translation": "鹅卵石",
+      "line": 65
+    },
+    "Fen": {
+      "translation": "分",
+      "line": 66
+    },
+    "Mine": {
+      "translation": "矿",
+      "line": 67
+    },
+    "Icicle": {
+      "translation": "冰柱",
+      "line": 68
+    },
+    "Beacon": {
+      "translation": "灯塔",
+      "line": 69
+    },
+    "Elite_Aaron": {
+      "translation": "四天王阿柳",
+      "line": 70
+    },
+    "Elite_Bertha": {
+      "translation": "四天王菊野",
+      "line": 71
+    },
+    "Elite_Flint": {
+      "translation": "四天王大叶",
+      "line": 72
+    },
+    "Elite_Lucian": {
+      "translation": "四天王悟松",
+      "line": 73
+    },
+    "Elite_SinnohChampion": {
+      "translation": "精英_神奥冠军",
+      "line": 74
+    },
+    "Basic": {
+      "translation": "基本的",
+      "line": 76
+    },
+    "Toxic": {
+      "translation": "有毒的",
+      "line": 77
+    },
+    "Insect": {
+      "translation": "昆虫",
+      "line": 78
+    },
+    "Bolt": {
+      "translation": "螺栓",
+      "line": 79
+    },
+    "Quake": {
+      "translation": "雷神之锤",
+      "line": 80
+    },
+    "Jet": {
+      "translation": "喷射",
+      "line": 81
+    },
+    "Legend": {
+      "translation": "图例",
+      "line": 82
+    },
+    "Wave": {
+      "translation": "海浪",
+      "line": 83
+    },
+    "Elite_Shauntal": {
+      "translation": "四天王婉龙",
+      "line": 84
+    },
+    "Elite_Marshal": {
+      "translation": "四天王连武",
+      "line": 85
+    },
+    "Elite_Grimsley": {
+      "translation": "四天王越橘",
+      "line": 86
+    },
+    "Elite_Caitlin": {
+      "translation": "四天王嘉德丽雅",
+      "line": 87
+    },
+    "Elite_UnovaChampion": {
+      "translation": "Elite_UnovaChampion",
+      "line": 88
+    },
+    "Bug": {
+      "translation": "虫",
+      "line": 90
+    },
+    "Cliff": {
+      "translation": "悬崖",
+      "line": 91
+    },
+    "Rumble": {
+      "translation": "隆隆",
+      "line": 92
+    },
+    "Plant": {
+      "translation": "种植",
+      "line": 93
+    },
+    "Voltage": {
+      "translation": "电压",
+      "line": 94
+    },
+    "Fairy": {
+      "translation": "妖精",
+      "line": 95
+    },
+    "Psychic": {
+      "translation": "超能力",
+      "line": 96
+    },
+    "Iceberg": {
+      "translation": "冰山",
+      "line": 97
+    },
+    "Elite_Malva": {
+      "translation": "四天王帕琦拉",
+      "line": 98
+    },
+    "Elite_Siebold": {
+      "translation": "四天王志米",
+      "line": 99
+    },
+    "Elite_Wikstrom": {
+      "translation": "四天王钢铁",
+      "line": 100
+    },
+    "Elite_Drasna": {
+      "translation": "四天王朵拉赛娜",
+      "line": 101
+    },
+    "Elite_KalosChampion": {
+      "translation": "精英_KalosChampion",
+      "line": 102
+    },
+    "Melemele_Stamp": {
+      "translation": "美乐美乐_邮票",
+      "line": 104
+    },
+    "Akala_Stamp": {
+      "translation": "阿卡拉_邮票",
+      "line": 105
+    },
+    "Ula_Ula_Stamp": {
+      "translation": "乌拉乌拉邮票",
+      "line": 106
+    },
+    "Poni_Stamp": {
+      "translation": "波尼_斯坦普",
+      "line": 107
+    },
+    "Elite_Olivia": {
+      "translation": "四天王丽姿",
+      "line": 108
+    },
+    "Elite_Acerola": {
+      "translation": "四天王阿塞萝拉",
+      "line": 109
+    },
+    "Elite_Molayne": {
+      "translation": "四天王马睿因",
+      "line": 110
+    },
+    "Elite_Kahili": {
+      "translation": "四天王卡希丽",
+      "line": 111
+    },
+    "Champion_Stamp": {
+      "translation": "冠军_邮票",
+      "line": 112
+    },
+    "Friend_League": {
+      "translation": "朋友联盟",
+      "line": 114
+    },
+    "Quick_League": {
+      "translation": "快速联赛",
+      "line": 115
+    },
+    "Heavy_League": {
+      "translation": "重联盟",
+      "line": 116
+    },
+    "Great_League": {
+      "translation": "伟大联盟",
+      "line": 117
+    },
+    "Fast_League": {
+      "translation": "快速联盟",
+      "line": 118
+    },
+    "Luxury_League": {
+      "translation": "豪华联赛",
+      "line": 119
+    },
+    "Heal_League": {
+      "translation": "治愈联盟",
+      "line": 120
+    },
+    "Ultra_League": {
+      "translation": "超级联赛",
+      "line": 121
+    },
+    "E4_League": {
+      "translation": "E4_联赛",
+      "line": 122
+    },
+    "Master_League": {
+      "translation": "大师联赛",
+      "line": 123
+    },
+    "Galar_Grass": {
+      "translation": "伽勒尔草",
+      "line": 125
+    },
+    "Galar_Water": {
+      "translation": "伽勒尔_水",
+      "line": 126
+    },
+    "Galar_Fire": {
+      "translation": "伽勒尔火",
+      "line": 127
+    },
+    "Galar_Fighting": {
+      "translation": "伽勒尔_格斗",
+      "line": 128
+    },
+    "Galar_Ghost": {
+      "translation": "伽勒尔_幽灵",
+      "line": 129
+    },
+    "Galar_Fairy": {
+      "translation": "伽勒尔_妖精",
+      "line": 130
+    },
+    "Galar_Rock": {
+      "translation": "伽勒尔岩",
+      "line": 131
+    },
+    "Galar_Ice": {
+      "translation": "伽勒尔_冰",
+      "line": 132
+    },
+    "Galar_Dark": {
+      "translation": "伽勒尔_暗",
+      "line": 133
+    },
+    "Galar_Dragon": {
+      "translation": "伽勒尔_龙",
+      "line": 134
+    },
+    "Elite_Marnie": {
+      "translation": "精英_玛俐",
+      "line": 135
+    },
+    "Elite_Bede": {
+      "translation": "精英_贝德",
+      "line": 136
+    },
+    "Elite_Hop": {
+      "translation": "精英_赫普",
+      "line": 137
+    },
+    "Elite_GalarChampion": {
+      "translation": "精英_伽勒尔冠军",
+      "line": 138
+    },
+    "Elite_ArmorPoison": {
+      "translation": "精英_装甲毒药",
+      "line": 140
+    },
+    "Elite_ArmorPsychic": {
+      "translation": "Elite_ArmorPsychic",
+      "line": 141
+    },
+    "Elite_ArmorMatron": {
+      "translation": "精英_ArmorMatron",
+      "line": 142
+    },
+    "Elite_ArmorChampion": {
+      "translation": "Elite_ArmorChampion",
+      "line": 143
+    },
+    "Elite_CrownChampion": {
+      "translation": "精英_皇冠冠军",
+      "line": 145
+    },
+    "Noble_Kleavor": {
+      "translation": "Noble_Kleavor",
+      "line": 147
+    },
+    "Noble_Lilligant": {
+      "translation": "贵族_Lilligant",
+      "line": 148
+    },
+    "Noble_Arcanine": {
+      "translation": "",
+      "line": 149
+    },
+    "Noble_Electrode": {
+      "translation": "",
+      "line": 150
+    },
+    "Noble_Avalugg": {
+      "translation": "贵族_阿瓦鲁格",
+      "line": 151
+    },
+    "Azure": {
+      "translation": "天蓝色",
+      "line": 152
+    },
+    "Bug_Gym": {
+      "translation": "虫系道馆",
+      "line": 154
+    },
+    "Grass_Gym": {
+      "translation": "草系道馆",
+      "line": 155
+    },
+    "Electric_Gym": {
+      "translation": "电系道馆",
+      "line": 156
+    },
+    "Water_Gym": {
+      "translation": "水系道馆",
+      "line": 157
+    },
+    "Normal_Gym": {
+      "translation": "一般系道馆",
+      "line": 158
+    },
+    "Ghost_Gym": {
+      "translation": "幽灵系道馆",
+      "line": 159
+    },
+    "Psychic_Gym": {
+      "translation": "超能力系道馆",
+      "line": 160
+    },
+    "Ice_Gym": {
+      "translation": "冰系道馆",
+      "line": 161
+    },
+    "Elite_Rika": {
+      "translation": "四天王琪朵",
+      "line": 162
+    },
+    "Elite_Poppy": {
+      "translation": "四天王波琵",
+      "line": 163
+    },
+    "Elite_Larry": {
+      "translation": "四天王青木",
+      "line": 164
+    },
+    "Elite_Hassel": {
+      "translation": "四天王海岱",
+      "line": 165
+    },
+    "Elite_PaldeaChampion": {
+      "translation": "精英_PaldeaChampion",
+      "line": 166
+    },
+    "Elite_Nemona": {
+      "translation": "精英_妮莫",
+      "line": 167
+    },
+    "Dark_Star": {
+      "translation": "暗星",
+      "line": 169
+    },
+    "Fire_Star": {
+      "translation": "火星",
+      "line": 170
+    },
+    "Poison_Star": {
+      "translation": "毒星",
+      "line": 171
+    },
+    "Fairy_Star": {
+      "translation": "仙女星",
+      "line": 172
+    },
+    "Fighting_Star": {
+      "translation": "格斗明星",
+      "line": 173
+    },
+    "Elite_Clavell": {
+      "translation": "精英_克拉维尔",
+      "line": 174
+    },
+    "Elite_Penny": {
+      "translation": "精英_佩妮",
+      "line": 175
+    },
+    "Rock_Titan": {
+      "translation": "岩石泰坦",
+      "line": 177
+    },
+    "Flying_Titan": {
+      "translation": "飞行泰坦",
+      "line": 178
+    },
+    "Steel_Titan": {
+      "translation": "钢_泰坦",
+      "line": 179
+    },
+    "Ground_Titan": {
+      "translation": "地面_泰坦",
+      "line": 180
+    },
+    "Dragon_Titan": {
+      "translation": "龙_泰坦",
+      "line": 181
+    },
+    "Elite_Arven": {
+      "translation": "精英_阿文",
+      "line": 182
+    },
+    "Scarlet": {
+      "translation": "猩红",
+      "line": 184
+    },
+    "Violet": {
+      "translation": "紫色",
+      "line": 185
+    }
+  }
+}

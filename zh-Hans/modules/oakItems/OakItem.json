@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/oakItems/OakItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 9,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 5
+    },
+    "../upgrades/ExpUpgrade": {
+      "translation": "",
+      "line": 6
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 7
+    },
+    "../wallet/AmountFactory": {
+      "translation": "",
+      "line": 8
+    },
+    "Capture ${this.unlockReq - App.game.party.caughtPokemon.length} more unique Pokémon": {
+      "translation": "",
+      "line": 53
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 90
+    },
+    "<u>${this.displayName}</u><br/><p>${this.description}</p>Level: <strong>${this.level}/${this.maxLevel}</strong><br/>Bonus: <strong>${this.bonusText}</strong>": {
+      "translation": "",
+      "line": 106
+    }
+  }
+}

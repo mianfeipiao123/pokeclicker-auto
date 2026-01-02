@@ -1,0 +1,742 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/breeding/Breeding.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 183,
+    "translatedCount": 175
+  },
+  "entries": {
+    "Breeding": {
+      "translation": "培育",
+      "line": 8
+    },
+    "breeding": {
+      "translation": "选育",
+      "line": 9
+    },
+    "Charmander": {
+      "translation": "小火龙",
+      "line": 27
+    },
+    "Vulpix": {
+      "translation": "六尾",
+      "line": 27
+    },
+    "Growlithe": {
+      "translation": "卡蒂狗",
+      "line": 27
+    },
+    "Magmar": {
+      "translation": "鸭嘴火兽",
+      "line": 27
+    },
+    "Cyndaquil": {
+      "translation": "火球鼠",
+      "line": 28
+    },
+    "Slugma": {
+      "translation": "熔岩虫",
+      "line": 28
+    },
+    "Houndour": {
+      "translation": "戴鲁比",
+      "line": 28
+    },
+    "Magby": {
+      "translation": "鸭嘴宝宝",
+      "line": 28
+    },
+    "Torchic": {
+      "translation": "火稚鸡",
+      "line": 29
+    },
+    "Numel": {
+      "translation": "呆火驼",
+      "line": 29
+    },
+    "Chimchar": {
+      "translation": "小火焰猴",
+      "line": 30
+    },
+    "Tepig": {
+      "translation": "暖暖猪",
+      "line": 31
+    },
+    "Pansear": {
+      "translation": "爆香猴",
+      "line": 31
+    },
+    "Darumaka": {
+      "translation": "火红不倒翁",
+      "line": 31
+    },
+    "Fennekin": {
+      "translation": "火狐狸",
+      "line": 32
+    },
+    "Litleo": {
+      "translation": "小狮狮",
+      "line": 32
+    },
+    "Litten": {
+      "translation": "火斑喵",
+      "line": 33
+    },
+    "Salandit": {
+      "translation": "夜盗火蜥",
+      "line": 33
+    },
+    "Scorbunny": {
+      "translation": "炎兔儿",
+      "line": 34
+    },
+    "Sizzlipede": {
+      "translation": "烧火蚣",
+      "line": 34
+    },
+    "Fuecoco": {
+      "translation": "呆火鳄",
+      "line": 35
+    },
+    "Charcadet": {
+      "translation": "炭小侍",
+      "line": 35
+    },
+    "Squirtle": {
+      "translation": "杰尼龟",
+      "line": 38
+    },
+    "Lapras": {
+      "translation": "拉普拉斯",
+      "line": 38
+    },
+    "Staryu": {
+      "translation": "海星星",
+      "line": 38
+    },
+    "Slowpoke": {
+      "translation": "呆呆兽",
+      "line": 38
+    },
+    "Totodile": {
+      "translation": "小锯鳄",
+      "line": 39
+    },
+    "Wooper": {
+      "translation": "乌波",
+      "line": 39
+    },
+    "Marill": {
+      "translation": "玛力露",
+      "line": 39
+    },
+    "Qwilfish": {
+      "translation": "千针鱼",
+      "line": 39
+    },
+    "Mudkip": {
+      "translation": "水跃鱼",
+      "line": 40
+    },
+    "Feebas": {
+      "translation": "丑丑鱼",
+      "line": 40
+    },
+    "Clamperl": {
+      "translation": "珍珠贝",
+      "line": 40
+    },
+    "Piplup": {
+      "translation": "波加曼",
+      "line": 41
+    },
+    "Finneon": {
+      "translation": "荧光鱼",
+      "line": 41
+    },
+    "Buizel": {
+      "translation": "泳圈鼬",
+      "line": 41
+    },
+    "Oshawott": {
+      "translation": "水水獭",
+      "line": 42
+    },
+    "Panpour": {
+      "translation": "冷水猴",
+      "line": 42
+    },
+    "Tympole": {
+      "translation": "圆蝌蚪",
+      "line": 42
+    },
+    "Froakie": {
+      "translation": "呱呱泡蛙",
+      "line": 43
+    },
+    "Clauncher": {
+      "translation": "铁臂枪虾",
+      "line": 43
+    },
+    "Skrelp": {
+      "translation": "垃垃藻",
+      "line": 43
+    },
+    "Popplio": {
+      "translation": "球球海狮",
+      "line": 44
+    },
+    "Wimpod": {
+      "translation": "胆小虫",
+      "line": 44
+    },
+    "Mareanie": {
+      "translation": "好坏星",
+      "line": 44
+    },
+    "Sobble": {
+      "translation": "泪眼蜥",
+      "line": 45
+    },
+    "Chewtle": {
+      "translation": "咬咬龟",
+      "line": 45
+    },
+    "Arrokuda": {
+      "translation": "刺梭鱼",
+      "line": 45
+    },
+    "Quaxly": {
+      "translation": "润水鸭",
+      "line": 46
+    },
+    "Bulbasaur": {
+      "translation": "妙蛙种子",
+      "line": 49
+    },
+    "Oddish": {
+      "translation": "走路草",
+      "line": 49
+    },
+    "Tangela": {
+      "translation": "蔓藤怪",
+      "line": 49
+    },
+    "Paras": {
+      "translation": "派拉斯",
+      "line": 49
+    },
+    "Chikorita": {
+      "translation": "菊草叶",
+      "line": 50
+    },
+    "Hoppip": {
+      "translation": "毽子草",
+      "line": 50
+    },
+    "Sunkern": {
+      "translation": "向日种子",
+      "line": 50
+    },
+    "Treecko": {
+      "translation": "木守宫",
+      "line": 51
+    },
+    "Tropius": {
+      "translation": "热带龙",
+      "line": 51
+    },
+    "Roselia": {
+      "translation": "毒蔷薇",
+      "line": 51
+    },
+    "Turtwig": {
+      "translation": "草苗龟",
+      "line": 52
+    },
+    "Snover": {
+      "translation": "雪笠怪",
+      "line": 52
+    },
+    "Budew": {
+      "translation": "含羞苞",
+      "line": 52
+    },
+    "Snivy": {
+      "translation": "藤藤蛇",
+      "line": 53
+    },
+    "Pansage": {
+      "translation": "花椰猴",
+      "line": 53
+    },
+    "Maractus": {
+      "translation": "沙铃仙人掌",
+      "line": 53
+    },
+    "Chespin": {
+      "translation": "哈力栗",
+      "line": 54
+    },
+    "Skiddo": {
+      "translation": "坐骑小羊",
+      "line": 54
+    },
+    "Phantump": {
+      "translation": "小木灵",
+      "line": 54
+    },
+    "Rowlet": {
+      "translation": "木木枭",
+      "line": 55
+    },
+    "Morelull": {
+      "translation": "睡睡菇",
+      "line": 55
+    },
+    "Fomantis": {
+      "translation": "伪螳草",
+      "line": 55
+    },
+    "Grookey": {
+      "translation": "敲音猴",
+      "line": 56
+    },
+    "Gossifleur": {
+      "translation": "幼棉棉",
+      "line": 56
+    },
+    "Applin": {
+      "translation": "啃果虫",
+      "line": 56
+    },
+    "Sprigatito": {
+      "translation": "新叶喵",
+      "line": 57
+    },
+    "Hitmonlee": {
+      "translation": "飞腿郎",
+      "line": 60
+    },
+    "Hitmonchan": {
+      "translation": "快拳郎",
+      "line": 60
+    },
+    "Machop": {
+      "translation": "腕力",
+      "line": 60
+    },
+    "Mankey": {
+      "translation": "猴怪",
+      "line": 60
+    },
+    "Tyrogue": {
+      "translation": "无畏小子",
+      "line": 61
+    },
+    "Heracross": {
+      "translation": "赫拉克罗斯",
+      "line": 61
+    },
+    "Makuhita": {
+      "translation": "幕下力士",
+      "line": 62
+    },
+    "Meditite": {
+      "translation": "玛沙那",
+      "line": 62
+    },
+    "Riolu": {
+      "translation": "利欧路",
+      "line": 63
+    },
+    "Croagunk": {
+      "translation": "不良蛙",
+      "line": 63
+    },
+    "Throh": {
+      "translation": "投摔鬼",
+      "line": 64
+    },
+    "Sawk": {
+      "translation": "打击鬼",
+      "line": 64
+    },
+    "Scraggy": {
+      "translation": "滑滑小子",
+      "line": 64
+    },
+    "Pancham": {
+      "translation": "顽皮熊猫",
+      "line": 65
+    },
+    "Hawlucha": {
+      "translation": "摔角鹰人",
+      "line": 65
+    },
+    "Crabrawler": {
+      "translation": "好胜蟹",
+      "line": 66
+    },
+    "Stufful": {
+      "translation": "童偶熊",
+      "line": 66
+    },
+    "Falinks": {
+      "translation": "列阵兵",
+      "line": 67
+    },
+    "Clobbopus": {
+      "translation": "拳拳蛸",
+      "line": 67
+    },
+    "Galarian Farfetch'd": {
+      "translation": "[[alt.galarian]][[Farfetch'd]]",
+      "line": 67
+    },
+    "Magnemite": {
+      "translation": "小磁怪",
+      "line": 70
+    },
+    "Pikachu": {
+      "translation": "皮卡丘",
+      "line": 70
+    },
+    "Voltorb": {
+      "translation": "霹雳电球",
+      "line": 70
+    },
+    "Electabuzz": {
+      "translation": "电击兽",
+      "line": 70
+    },
+    "Chinchou": {
+      "translation": "灯笼鱼",
+      "line": 71
+    },
+    "Mareep": {
+      "translation": "咩利羊",
+      "line": 71
+    },
+    "Elekid": {
+      "translation": "电击怪",
+      "line": 71
+    },
+    "Plusle": {
+      "translation": "正电拍拍",
+      "line": 72
+    },
+    "Minun": {
+      "translation": "负电拍拍",
+      "line": 72
+    },
+    "Electrike": {
+      "translation": "落雷兽",
+      "line": 72
+    },
+    "Pachirisu": {
+      "translation": "帕奇利兹",
+      "line": 73
+    },
+    "Shinx": {
+      "translation": "小猫怪",
+      "line": 73
+    },
+    "Blitzle": {
+      "translation": "斑斑马",
+      "line": 74
+    },
+    "Stunfisk": {
+      "translation": "泥巴鱼",
+      "line": 74
+    },
+    "Joltik": {
+      "translation": "电电虫",
+      "line": 74
+    },
+    "Helioptile": {
+      "translation": "伞电蜥",
+      "line": 75
+    },
+    "Dedenne": {
+      "translation": "咚咚鼠",
+      "line": 75
+    },
+    "Togedemaru": {
+      "translation": "托戈德玛尔",
+      "line": 76
+    },
+    "Toxel": {
+      "translation": "电音婴",
+      "line": 77
+    },
+    "Pincurchin": {
+      "translation": "啪嚓海胆",
+      "line": 77
+    },
+    "Morpeko": {
+      "translation": "莫鲁贝可",
+      "line": 77
+    },
+    "Dratini": {
+      "translation": "迷你龙",
+      "line": 80
+    },
+    "Dragonair": {
+      "translation": "哈克龙",
+      "line": 80
+    },
+    "Dragonite": {
+      "translation": "快龙",
+      "line": 80
+    },
+    "Bagon": {
+      "translation": "宝贝龙",
+      "line": 82
+    },
+    "Shelgon": {
+      "translation": "甲壳龙",
+      "line": 82
+    },
+    "Salamence": {
+      "translation": "暴飞龙",
+      "line": 82
+    },
+    "Gible": {
+      "translation": "圆陆鲨",
+      "line": 83
+    },
+    "Gabite": {
+      "translation": "尖牙陆鲨",
+      "line": 83
+    },
+    "Garchomp": {
+      "translation": "烈咬陆鲨",
+      "line": 83
+    },
+    "Deino": {
+      "translation": "单首龙",
+      "line": 84
+    },
+    "Zweilous": {
+      "translation": "双首暴龙",
+      "line": 84
+    },
+    "Hydreigon": {
+      "translation": "三首恶龙",
+      "line": 84
+    },
+    "Goomy": {
+      "translation": "黏黏宝",
+      "line": 85
+    },
+    "Sliggoo": {
+      "translation": "黏美儿",
+      "line": 85
+    },
+    "Goodra": {
+      "translation": "黏美龙",
+      "line": 85
+    },
+    "Turtonator": {
+      "translation": "爆焰龟兽",
+      "line": 86
+    },
+    "Drampa": {
+      "translation": "老翁龙",
+      "line": 86
+    },
+    "Jangmo-o": {
+      "translation": "心鳞宝",
+      "line": 86
+    },
+    "Hakamo-o": {
+      "translation": "鳞甲龙",
+      "line": 86
+    },
+    "Kommo-o": {
+      "translation": "杖尾鳞甲龙",
+      "line": 86
+    },
+    "Dreepy": {
+      "translation": "多龙梅西亚",
+      "line": 87
+    },
+    "Drakloak": {
+      "translation": "多龙奇",
+      "line": 87
+    },
+    "Dragapult": {
+      "translation": "多龙巴鲁托",
+      "line": 87
+    },
+    "Duraludon": {
+      "translation": "铝钢龙",
+      "line": 87
+    },
+    "Frigibax": {
+      "translation": "凉脊龙",
+      "line": 88
+    },
+    "Arctibax": {
+      "translation": "冻脊龙",
+      "line": 88
+    },
+    "Baxcalibur": {
+      "translation": "戟脊龙",
+      "line": 88
+    },
+    "Gastly": {
+      "translation": "鬼斯",
+      "line": 91
+    },
+    "Jigglypuff": {
+      "translation": "胖丁",
+      "line": 91
+    },
+    "Geodude": {
+      "translation": "小拳石",
+      "line": 91
+    },
+    "Doduo": {
+      "translation": "嘟嘟",
+      "line": 91
+    },
+    "Yanma": {
+      "translation": "蜻蜻蜓",
+      "line": 92
+    },
+    "Stantler": {
+      "translation": "惊角鹿",
+      "line": 92
+    },
+    "Trapinch": {
+      "translation": "大颚蚁",
+      "line": 93
+    },
+    "Sableye": {
+      "translation": "勾魂眼",
+      "line": 93
+    },
+    "Spoink": {
+      "translation": "跳跳猪",
+      "line": 93
+    },
+    "Stunky": {
+      "translation": "臭鼬噗",
+      "line": 94
+    },
+    "Bronzor": {
+      "translation": "铜镜怪",
+      "line": 94
+    },
+    "Vanillite": {
+      "translation": "迷你冰",
+      "line": 95
+    },
+    "Drilbur": {
+      "translation": "螺钉地鼠",
+      "line": 95
+    },
+    "Carbink": {
+      "translation": "小碎钻",
+      "line": 96
+    },
+    "Honedge": {
+      "translation": "独剑鞘",
+      "line": 96
+    },
+    "Mudbray": {
+      "translation": "泥驴仔",
+      "line": 97
+    },
+    "Rockruff": {
+      "translation": "岩狗狗",
+      "line": 97
+    },
+    "Rolycoly": {
+      "translation": "小炭仔",
+      "line": 98
+    },
+    "Milcery": {
+      "translation": "小仙奶",
+      "line": 98
+    },
+    "breedingQueueSizeSetting": {
+      "translation": "breedingQueueSizeSetting",
+      "line": 108
+    },
+    "Error: Could not place ${EggType[e.type]} Egg": {
+      "translation": "",
+      "line": 204
+    },
+    "Tried to add ${pokemon.name} to the hatchery while already being bred!": {
+      "translation": "",
+      "line": 267
+    },
+    "You don't have any free egg slots": {
+      "translation": "你没有空余的蛋位",
+      "line": 278
+    },
+    "<br/>Your queue is full": {
+      "translation": "",
+      "line": 280
+    },
+    "Undefined EggItem could not be added to the hatchery!": {
+      "translation": "无法将未定义的 EggItem 添加到孵化场！",
+      "line": 292
+    },
+    "Invalidly-typed data detected in hatchery queue: ${queueData}": {
+      "translation": "",
+      "line": 352
+    },
+    "Clear Queue": {
+      "translation": "清除队列",
+      "line": 361
+    },
+    "Are you sure?\n\nAll Pokémon will be removed from your breeding queue.": {
+      "translation": "",
+      "line": 362
+    },
+    "Clear": {
+      "translation": "晴朗",
+      "line": 364
+    },
+    "Hatchery queue is empty.": {
+      "translation": "孵化场队列为空。",
+      "line": 424
+    },
+    "Cannot gain another eggslot.": {
+      "translation": "无法获得另一个蛋槽。",
+      "line": 514
+    },
+    "queue": {
+      "translation": "队列",
+      "line": 559
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 560
+    },
+    "egg": {
+      "translation": "蛋",
+      "line": 562
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 586
+    },
+    "assets/images/profile/trainer-${x.trainerSprite}.png": {
+      "translation": "",
+      "line": 586
+    },
+    "assets/images/currency/${GameConstants.Currency[x.cost.currency]}.svg": {
+      "translation": "",
+      "line": 586
+    },
+    "<img src=\"assets/images/profile/trainer-${x.trainerSprite}.png\" width=\"20px\">&nbsp; ${x.name} <img src=\"assets/images/currency/${GameConstants.Currency[x.cost.currency]}.svg\" width=\"20px\">&nbsp;${(x.cost.amount).toLocaleString('en-US')} <br/>": {
+      "translation": "",
+      "line": 586
+    }
+  }
+}

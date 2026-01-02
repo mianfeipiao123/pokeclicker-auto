@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/ItemOwnedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 2
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 3
+    },
+    "${this.requiredValue} or more": {
+      "translation": "",
+      "line": 16
+    },
+    "less than ${this.requiredValue}": {
+      "translation": "",
+      "line": 16
+    },
+    "You must own ${amountHint} ${ItemList[this.itemName].displayName}.": {
+      "translation": "",
+      "line": 17
+    }
+  }
+}

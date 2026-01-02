@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/Quests.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 22,
+    "translatedCount": 17
+  },
+  "entries": {
+    "quests": {
+      "translation": "任务",
+      "line": 5
+    },
+    "hideQuestsOnFull": {
+      "translation": "hideQuestsOnFull",
+      "line": 85
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 86
+    },
+    "You cannot start more quests.": {
+      "translation": "你无法开始更多任务。",
+      "line": 90
+    },
+    "You cannot quit this quest.": {
+      "translation": "你无法退出这个任务。",
+      "line": 103
+    },
+    "Medicham": {
+      "translation": "恰雷姆",
+      "line": 114
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 127
+    },
+    "./assets/images/currency/questPoint.svg": {
+      "translation": "",
+      "line": 127
+    },
+    "All quests completed. Your quest list has been refreshed and you gained an extra <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${bonus.toLocaleString('en-US')}.": {
+      "translation": "",
+      "line": 127
+    },
+    "cannot claim quest..": {
+      "translation": "无法领取任务..",
+      "line": 134
+    },
+    "You cannot claim this quest.": {
+      "translation": "你无法领取这个任务。",
+      "line": 136
+    },
+    "Your quest level has increased to ${this.level()}!\n<i>You have a free quest refresh.</i>": {
+      "translation": "",
+      "line": 162
+    },
+    "Refresh Quest List": {
+      "translation": "刷新任务列表",
+      "line": 194
+    },
+    "Are you sure you want to refresh the quest list?": {
+      "translation": "你确定要刷新任务列表吗？",
+      "line": 195
+    },
+    "Refresh": {
+      "translation": "刷新",
+      "line": 197
+    },
+    "Picky Quester": {
+      "translation": "挑剔的探索者",
+      "line": 208
+    },
+    "You cannot afford to do that!": {
+      "translation": "你负担不起！",
+      "line": 214
+    },
+    "hover": {
+      "translation": "徘徊",
+      "line": 296
+    },
+    "Tutorial Quests": {
+      "translation": "教程任务",
+      "line": 300
+    },
+    "name": {
+      "translation": "名称",
+      "line": 308
+    },
+    "Quest \"${questData.name}\" failed to load": {
+      "translation": "",
+      "line": 316
+    },
+    "Quest line \"${questLine.name}\" failed to load": {
+      "translation": "",
+      "line": 349
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/SortOptions.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 14
+  },
+  "entries": {
+    "Pokémon ID #": {
+      "translation": "宝可梦 ID#",
+      "line": 32
+    },
+    "Name": {
+      "translation": "名称",
+      "line": 37
+    },
+    "Attack": {
+      "translation": "攻击",
+      "line": 42
+    },
+    "Level": {
+      "translation": "等级",
+      "line": 47
+    },
+    "Shiny": {
+      "translation": "异色",
+      "line": 52
+    },
+    "Attack at Level 100": {
+      "translation": "100级时攻击力",
+      "line": 57
+    },
+    "Base Attack": {
+      "translation": "基础攻击力",
+      "line": 62
+    },
+    "Attack Bonus": {
+      "translation": "攻击加成",
+      "line": 67
+    },
+    "Breeding Efficiency": {
+      "translation": "培育效率",
+      "line": 72
+    },
+    "Egg Steps": {
+      "translation": "孵化步数",
+      "line": 77
+    },
+    "Times Hatched": {
+      "translation": "孵化次数",
+      "line": 82
+    },
+    "Category": {
+      "translation": "类别",
+      "line": 87
+    },
+    "Vitamins Used": {
+      "translation": "使用的维生素",
+      "line": 93
+    },
+    "EVs": {
+      "translation": "努力值",
+      "line": 98
+    }
+  }
+}

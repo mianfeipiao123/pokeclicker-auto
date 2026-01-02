@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/BerryDeal.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 26,
+    "translatedCount": 25
+  },
+  "entries": {
+    "None": {
+      "translation": "无",
+      "line": 33
+    },
+    "Black_DNA": {
+      "translation": "黑色_DNA",
+      "line": 33
+    },
+    "White_DNA": {
+      "translation": "白色_DNA",
+      "line": 33
+    },
+    "Solar_light": {
+      "translation": "太阳能灯",
+      "line": 33
+    },
+    "Key_stone": {
+      "translation": "基石",
+      "line": 33
+    },
+    "Lunar_light": {
+      "translation": "月光",
+      "line": 33
+    },
+    "Pure_light": {
+      "translation": "纯光",
+      "line": 33
+    },
+    "Crystallized_shadow": {
+      "translation": "结晶阴影",
+      "line": 33
+    },
+    "Black_mane_hair": {
+      "translation": "黑鬃毛",
+      "line": 33
+    },
+    "White_mane_hair": {
+      "translation": "白鬃毛",
+      "line": 33
+    },
+    "Goldenrod City": {
+      "translation": "满金市",
+      "line": 127
+    },
+    "Mauville City": {
+      "translation": "紫堇市",
+      "line": 127
+    },
+    "Hearthome City": {
+      "translation": "心家城",
+      "line": 127
+    },
+    "Pinkan Pokémon Reserve": {
+      "translation": "粉红宝可梦保护区",
+      "line": 127
+    },
+    "Secret Berry Shop": {
+      "translation": "秘密树果店",
+      "line": 127
+    },
+    "Driftveil City": {
+      "translation": "漂流城",
+      "line": 127
+    },
+    "Pinkan Arbok": {
+      "translation": "[[alt.pinkan]][[Arbok]]",
+      "line": 270
+    },
+    "Pinkan Oddish": {
+      "translation": "[[alt.pinkan]][[Oddish]]",
+      "line": 276
+    },
+    "Pinkan Poliwhirl": {
+      "translation": "[[alt.pinkan]][[Poliwhirl]]",
+      "line": 282
+    },
+    "Pinkan Geodude": {
+      "translation": "[[alt.pinkan]][[Geodude]]",
+      "line": 288
+    },
+    "Pinkan Weezing": {
+      "translation": "[[alt.pinkan]][[Weezing]]",
+      "line": 294
+    },
+    "Pinkan Scyther": {
+      "translation": "[[alt.pinkan]][[Scyther]]",
+      "line": 300
+    },
+    "Pinkan Electabuzz": {
+      "translation": "[[alt.pinkan]][[Electabuzz]]",
+      "line": 306
+    },
+    "Grotle (Acorn)": {
+      "translation": "[[Grotle]] (橡果)",
+      "line": 318
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 453
+    },
+    "You traded for ${amount.toLocaleString('en-US')} × <img src=\"${deal.item.itemType.image}\" height=\"24px\"/> ${GameConstants.pluralizeString(GameConstants.humanifyString(deal.item.itemType.displayName), amount)}.": {
+      "translation": "",
+      "line": 453
+    }
+  }
+}

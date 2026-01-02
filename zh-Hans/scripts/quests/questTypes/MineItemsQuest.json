@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/MineItemsQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 27
+    },
+    "Collect ${this.amount.toLocaleString('en-US')} item${suffix} from the Underground mines.": {
+      "translation": "",
+      "line": 27
+    }
+  }
+}

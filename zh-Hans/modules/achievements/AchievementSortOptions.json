@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/achievements/AchievementSortOptions.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 3
+  },
+  "entries": {
+    "Default": {
+      "translation": "默认",
+      "line": 20
+    },
+    "Progress": {
+      "translation": "进度",
+      "line": 25
+    },
+    "Bonus %": {
+      "translation": "奖金 ％",
+      "line": 30
+    }
+  }
+}

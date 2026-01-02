@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/UI.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 5
+  },
+  "entries": {
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 3
+    },
+    "../settings": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "./Rand": {
+      "translation": "",
+      "line": 6
+    },
+    "showCurrencyGainedAnimation": {
+      "translation": "showCurrencyGainedAnimation",
+      "line": 11
+    },
+    "showCurrencyLostAnimation": {
+      "translation": "showCurrencyLostAnimation",
+      "line": 14
+    },
+    "#animateCurrency-${Currency[currency]}": {
+      "translation": "",
+      "line": 17
+    },
+    "text-danger": {
+      "translation": "文字危险",
+      "line": 27
+    },
+    "${amount > 0 ? '' : 'text-danger'} animated-currency": {
+      "translation": "",
+      "line": 27
+    },
+    "top: ${top}px; left: ${left}px; font-size: ${10 + 0.5 * Math.log(Math.abs(amount))}px;": {
+      "translation": "",
+      "line": 28
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 29
+    },
+    "linear": {
+      "translation": "线性",
+      "line": 38
+    }
+  }
+}

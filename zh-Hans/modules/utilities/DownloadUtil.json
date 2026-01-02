@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/DownloadUtil.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "href": {
+      "translation": "链接地址",
+      "line": 3
+    },
+    "data:text/plain;charset=utf-8,${encodeURIComponent(data)}": {
+      "translation": "",
+      "line": 3
+    },
+    "download": {
+      "translation": "",
+      "line": 4
+    }
+  }
+}

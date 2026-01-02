@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/routes/RoutePokemon.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 7
+    },
+    "./SpecialRoutePokemon": {
+      "translation": "",
+      "line": 8
+    }
+  }
+}

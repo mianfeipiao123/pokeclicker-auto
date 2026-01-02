@@ -1,0 +1,5478 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/changelog/ChangelogItems.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1367,
+    "translatedCount": 1130
+  },
+  "entries": {
+    "./Changelog": {
+      "translation": "",
+      "line": 1
+    },
+    "./ChangelogUpdate": {
+      "translation": "",
+      "line": 2
+    },
+    "v0.10.25": {
+      "translation": "",
+      "line": 14
+    },
+    "New Pokémon": {
+      "translation": "新宝可梦",
+      "line": 15
+    },
+    "Added quest line <b>Destiny Deoxys</b>, available at the Unova bulletin board after completing <i>Hollow Truth and Ideals</i>": {
+      "translation": "",
+      "line": 16
+    },
+    "Removed <i>Incomplete Area</i> status from Battle Café": {
+      "translation": "",
+      "line": 17
+    },
+    "Secret achievements are now only shown when the <i>Secret</i> category is selected": {
+      "translation": "",
+      "line": 18
+    },
+    "Adjusted requirement for <i>Blue is my favorite color</i> secret achievement (1,000,000 → 123,456)": {
+      "translation": "",
+      "line": 19
+    },
+    "Pokémon search fields now support searching by nickname, current language name, and English name": {
+      "translation": "宝可梦搜索字段现在支持按昵称、当前语言名称和英文名称进行搜索",
+      "line": 20
+    },
+    "Reduced clear requirement for Castelia Sewers in <i>Hollow Truth and Ideals</i> (10 → 1)": {
+      "translation": "",
+      "line": 21
+    },
+    "Farm mutation indicator will now appear even if the player has not discovered the hint for the mutated berry": {
+      "translation": "即使玩家没有发现突变树果的提示，农场突变指示器现在也会出现",
+      "line": 22
+    },
+    "Adjustments to where some Pokémon can be obtained": {
+      "translation": "调整了部分宝可梦的获取地点",
+      "line": 23
+    },
+    "Fixed bug that allowed duplicate Pokémon to be added to the hatchery queue": {
+      "translation": "修复了允许将重复的宝可梦添加到孵化队列中的错误",
+      "line": 24
+    },
+    "Fixed ability to sell/trade fractional items": {
+      "translation": "",
+      "line": 25
+    },
+    "Fixed issues with several secret achievements": {
+      "translation": "修复了几个秘密成就的问题",
+      "line": 26
+    },
+    "Fixed Farm Hands instantly regaining all energy after being fired": {
+      "translation": "修复了农场帮手被解雇后立即恢复所有能量的问题",
+      "line": 27
+    },
+    "v0.10.24": {
+      "translation": "",
+      "line": 30
+    },
+    "New Achievements": {
+      "translation": "新成果",
+      "line": 31
+    },
+    "New Held Items": {
+      "translation": "新持有物品",
+      "line": 32
+    },
+    "Map Colors can now be reordered in the Display settings": {
+      "translation": "现在可以在显示设置中重新排序地图颜色",
+      "line": 33
+    },
+    "Fossil revive system - fossils are now revived by a NPC in each region rather than in the hatchery": {
+      "translation": "化石复活系统 - 化石现在由每个地区的 NPC 复活，而不是在孵化场",
+      "line": 34
+    },
+    "Eggs can now be added to the hatchery queue": {
+      "translation": "现在可以将鸡蛋添加到孵化场队列中",
+      "line": 35
+    },
+    "Completing all quests in the list now awards bonus Quest Points": {
+      "translation": "完成列表中的所有任务现在会奖励奖励任务点数",
+      "line": 36
+    },
+    "Ability to bulk sell Underground treasures": {
+      "translation": "可批量出售采掘宝藏",
+      "line": 37
+    },
+    "Shortcut for the Castform (weather) App available after clearing Weather Institute 250 times": {
+      "translation": "",
+      "line": 38
+    },
+    "Shortcut for the Purify Chamber available upon purifying your first Shadow Pokémon": {
+      "translation": "净化你的第一个暗影宝可梦后即可使用净化室的快捷方式",
+      "line": 39
+    },
+    "Added the ability to quickly search for berries in the Farm view": {
+      "translation": "添加了在农场视图中快速搜索树果的功能",
+      "line": 40
+    },
+    "Farm plots will now indicate where mutations can occur if the player has unlocked the berry or seen the hint": {
+      "translation": "如果玩家解锁了树果或看到了提示，农场地块现在将指示突变可能发生的位置",
+      "line": 41
+    },
+    "Eggs tab in the Hatchery now lists which Pokémon can be hatched from each egg along with their odds": {
+      "translation": "孵化场中的“鸡蛋”选项卡现在列出了每个鸡蛋可以孵化哪些宝可梦及其几率",
+      "line": 42
+    },
+    "Added keybinds to open the Achievement Tracker (T) and activate Battery Discharge (D) in the Underground": {
+      "translation": "新增快捷键：在采掘场中打开成就追踪器(T)和激活电池释放(D)",
+      "line": 43
+    },
+    "Shop item tooltip now displays how much of the item the player owns": {
+      "translation": "商店物品工具提示现在显示玩家拥有的物品数量",
+      "line": 44
+    },
+    "Clicking the Moon Phase icon will now display information about Moon Phases": {
+      "translation": "点击月相图标现在将显示有关月相的信息",
+      "line": 45
+    },
+    "Players can now select a starter in regions after Kanto if one was mistakenly (or deliberately) skipped": {
+      "translation": "如果错误（或故意）跳过关东之后的地区，玩家现在可以选择首发球员",
+      "line": 46
+    },
+    "Click Attack breakdown added to Statistics menu": {
+      "translation": "点击“统计”菜单中添加的“攻击细分”",
+      "line": 47
+    },
+    "Sprinklotad Oak Item changed to boost mulch duration. Its level progress has also been reset.": {
+      "translation": "喷洒大木博士道具已更改以增加肥料的持续时间。其等级进度也已重置。",
+      "line": 48
+    },
+    "Underground Bomb tool has a high chance to destroy items when fully uncovering them, including bombs used by Experts": {
+      "translation": "挖掘炸弹工具在完全挖出物品时有较高几率损坏它们，包括专家使用的炸弹",
+      "line": 49
+    },
+    "Battery Discharge (Underground) can now be used without equipping the Cell Battery Oak Item": {
+      "translation": "采掘场电池释放现在无需装备电池大木博士道具即可使用",
+      "line": 50
+    },
+    "Cell Battery Oak Item now reduces the charges required to discharge": {
+      "translation": "电池 Oak Item 现在减少了放电所需的电量",
+      "line": 51
+    },
+    "Palaeontologist Token can now be traded for Diamonds": {
+      "translation": "古生物学家代币现在可以兑换钻石",
+      "line": 52
+    },
+    "Energy Restore prices adjusted": {
+      "translation": "能源恢复价格调整",
+      "line": 53
+    },
+    "Underground Helpers renamed to Underground Experts and Mines given unique names": {
+      "translation": "挖掘助手已重命名为挖掘专家，矿洞也有了独特名称",
+      "line": 54
+    },
+    "Dungeon loot list now indicates items that are not affected by the dungeon loot debuff": {
+      "translation": "迷宫战利品列表现在显示不受迷宫战利品减益影响的物品",
+      "line": 55
+    },
+    "Pokémon in the route encounter list can now be clicked to open the Pokédex statistics window": {
+      "translation": "",
+      "line": 56
+    },
+    "Kanto Berry Master will no longer give duplicate Enigma Berry directional hints": {
+      "translation": "关东树果大师将不再给出重复的谜树果方向提示",
+      "line": 57
+    },
+    "Battle Café now affects map overlay colors": {
+      "translation": "战斗咖啡馆现在影响地图叠加颜色",
+      "line": 58
+    },
+    "Mystery Gift quest line has been replaced by a Gift NPC; requirements are unchanged": {
+      "translation": "神秘礼物任务线已被礼物 NPC 取代；要求不变",
+      "line": 59
+    },
+    "Held Item UI updated with additional filters & Pokérus/Shadow/Purified indicators": {
+      "translation": "",
+      "line": 60
+    },
+    "Vitamin distributions can now be freely entered in the vitamin menu as an alternative to using the plus or minus buttons": {
+      "translation": "现在可以在维生素菜单中自由输入维生素分布，作为使用加号或减号按钮的替代方法",
+      "line": 61
+    },
+    "Dungeon loot now has a (reduced) chance to be multiplied without Dowsing Machine": {
+      "translation": "迷宫战利品现在在没有探矿机的情况下有（减少）倍增的机会",
+      "line": 62
+    },
+    "Activating Dowsing Machine now increases the chance to multiply loot from dungeon chests": {
+      "translation": "激活探矿机现在会增加迷宫箱中战利品倍增的机会",
+      "line": 63
+    },
+    "Adjusted Nomel berry mutation requirement": {
+      "translation": "调整后的诺梅尔树果突变要求",
+      "line": 64
+    },
+    "Defeating a regions Champion will now reveal the Pokédex for that region": {
+      "translation": "",
+      "line": 65
+    },
+    "Aggronite obtain method changed to Legendary loot in Rusturf Tunnel": {
+      "translation": "锈石隧道中的 Aggronite 获取方法更改为传奇战利品",
+      "line": 66
+    },
+    "Wild shiny Pokémon will now always drop their rare hold item upon being defeated": {
+      "translation": "野生异色宝可梦现在在被击败时总是会掉落稀有的持有物品",
+      "line": 67
+    },
+    "Magikarp Jump subregion no longer affected by the regional debuff": {
+      "translation": "",
+      "line": 68
+    },
+    "Currency display module will now dynamically show additional currencies as they are unlocked or earned": {
+      "translation": "货币显示模块现在将动态显示解锁或赚取的其他货币",
+      "line": 69
+    },
+    "Manaphy and Phione now have unique egg patterns": {
+      "translation": "玛纳菲和菲奥涅现在拥有独特的蛋图案",
+      "line": 70
+    },
+    "Adjustments to the types of some Pokémon": {
+      "translation": "调整部分宝可梦的种类",
+      "line": 72
+    },
+    "MissingNo. is now removed on update to better serve its purpose as a failsafe and bug indicator": {
+      "translation": "失踪号现在在更新时被删除，以更好地发挥其作为故障安全和错误指示器的作用",
+      "line": 73
+    },
+    "Various text, image, UI/UX, and performance changes": {
+      "translation": "",
+      "line": 74
+    },
+    "Fixed sortable elements (Pokéball Filters, Categories) becoming desynced when reordering": {
+      "translation": "修复了重新排序时可排序元素（精灵球过滤器、类别）变得不同步的问题",
+      "line": 75
+    },
+    "Fixed EV count display on routes with duplicate Pokémon (Magikarp Jump)": {
+      "translation": "",
+      "line": 76
+    },
+    "Fixed potential softlock in the An Unrivaled Power quest line": {
+      "translation": "修复了“无与伦比的力量”任务线中潜在的软锁",
+      "line": 77
+    },
+    "Fixed softlock when using Dungeon Guides and the dungeon becomes unavailable": {
+      "translation": "修复了使用迷宫指南时的软锁并且迷宫变得不可用的问题",
+      "line": 78
+    },
+    "Fixed several bugs and errors when updating very old save files": {
+      "translation": "修复了更新非常旧的保存文件时的几个错误和错误",
+      "line": 79
+    },
+    "Fixed softlock during tutorial": {
+      "translation": "修复了教程期间的软锁问题",
+      "line": 80
+    },
+    "Fixed Dungeon Guides triggering click attacks during battles": {
+      "translation": "修复了迷宫指南在战斗中触发点击攻击的问题",
+      "line": 81
+    },
+    "v0.10.23": {
+      "translation": "",
+      "line": 84
+    },
+    "Underground images not loading or displaying incorrectly (might not kick in until a new layer)": {
+      "translation": "采掘场图像未加载或显示不正确（可能需要进入新层才会生效）",
+      "line": 85
+    },
+    "Dungeon debuff indicator incorrectly displaying on non-debuffed dungeons": {
+      "translation": "迷宫减益指示器在非减益迷宫上错误显示",
+      "line": 86
+    },
+    "Ability to sell negative underground treasure": {
+      "translation": "可出售负值采掘宝藏",
+      "line": 87
+    },
+    "v0.10.22": {
+      "translation": "",
+      "line": 90
+    },
+    "Underground Helpers": {
+      "translation": "挖掘助手",
+      "line": 93
+    },
+    "Added a subregion option to the Damage Calculator": {
+      "translation": "在伤害计算器中添加了子区域选项",
+      "line": 94
+    },
+    "Shadow sprites can be used on the Trainer Profile": {
+      "translation": "",
+      "line": 95
+    },
+    "Underground feature has been overhauled - see Help tab in-game": {
+      "translation": "采掘场功能已全面改版 - 请参阅游戏内的帮助选项卡",
+      "line": 96
+    },
+    "Additional Unown appear in each dungeon after 100 and 250 clears": {
+      "translation": "",
+      "line": 97
+    },
+    "Key Stone pricing adjusted - starts low and increases after each purchase until reaching a cap": {
+      "translation": "Key Stone 定价调整 - 起始价格较低，每次购买后价格上涨，直至达到上限",
+      "line": 98
+    },
+    "Gems menu UI has been overhauled": {
+      "translation": "宝石菜单 UI 已彻底修改",
+      "line": 99
+    },
+    "Shiny farm wanderers now give 5x as many Farm Points": {
+      "translation": "异色的农场流浪者现在提供5倍的农场点数",
+      "line": 100
+    },
+    "Dungeon trainer pokemon HP has been nerfed": {
+      "translation": "迷宫训练师宝可梦HP已被削弱",
+      "line": 101
+    },
+    "Pokémon with a single type now award double Gems of that type": {
+      "translation": "单一类型的宝可梦现在会奖励该类型的双倍宝石",
+      "line": 102
+    },
+    "Rare Candy now also gives +1 level and can trigger level evolutions": {
+      "translation": "神奇糖果现在也提供 +1等级并可以触发等级进化",
+      "line": 103
+    },
+    "Quest Lines UI section can now be collapsed as a whole": {
+      "translation": "任务线 UI 部分现在可以整体折叠",
+      "line": 104
+    },
+    "Held Item menu searching and display improvements": {
+      "translation": "持有物品菜单搜索和显示改进",
+      "line": 105
+    },
+    "Dungeons will now display an indicator when they are debuffed": {
+      "translation": "迷宫现在在被减益时会显示一个指示器",
+      "line": 106
+    },
+    "Farfetch'd can now drop a Leek after reaching Galar": {
+      "translation": "",
+      "line": 107
+    },
+    "Attack Bonus display value now includes additional attack modifiers": {
+      "translation": "攻击加值显示值现在包括额外的攻击修正值",
+      "line": 108
+    },
+    "Roaming Pokémon encounter rate on subregion routes has been adjusted": {
+      "translation": "分区路线的漫游宝可梦遭遇率已调整",
+      "line": 109
+    },
+    "Number keys can now be used to select a save on the save selection menu": {
+      "translation": "现在可以使用数字键在保存选择菜单上选择保存",
+      "line": 110
+    },
+    "Nickname and categories now transfer in Real Evolution": {
+      "translation": "昵称和类别现已在 Real Evolution 中转移",
+      "line": 111
+    },
+    "Gift/reward Pokémon and regional starters now have a chance to be shiny": {
+      "translation": "",
+      "line": 112
+    },
+    "Special pokéballs now fallback to Ultra/Great/Poke if they run out": {
+      "translation": "",
+      "line": 113
+    },
+    "Chilan Berry now has an aura that decreases egg steps": {
+      "translation": "赤兰莓现在拥有减少蛋步的光环",
+      "line": 114
+    },
+    "Defeat pokémon, gym, and dungeon quests now mention the subregion when applicable": {
+      "translation": "击败宝可梦、道馆和迷宫任务现在会在适用时提及分区",
+      "line": 115
+    },
+    "Some Gyms have had their monetary reward adjusted": {
+      "translation": "一些道馆的金钱奖励已调整",
+      "line": 116
+    },
+    "Pokémon Attack achievements are no longer affected by Weather bonuses": {
+      "translation": "宝可梦攻击成就不再受天气奖励影响",
+      "line": 117
+    },
+    "Tanoby Ruins dungeon is now considered a water environment": {
+      "translation": "塔诺比遗址迷宫现在被认为是水环境",
+      "line": 118
+    },
+    "Various other text, image, UI, and performance changes": {
+      "translation": "其他各种文本、图像、UI 和性能更改",
+      "line": 120
+    },
+    "Route Encounter & Dungeon Loot menus were not scrollable": {
+      "translation": "路线遭遇和迷宫战利品菜单不可滚动",
+      "line": 121
+    },
+    "Dungeon Loot appeared locked even when requirements were met": {
+      "translation": "即使满足要求，迷宫战利品也会被锁定",
+      "line": 122
+    },
+    "Butler NPC in the A Meta Discovery quest line appearing in the wrong town": {
+      "translation": "元发现任务线中的管家 NPC 出现在错误的城镇",
+      "line": 123
+    },
+    "Dungeon Guides failing to progress quests that required defeating certain bosses": {
+      "translation": "迷宫指南无法完成需要击败某些首领的任务",
+      "line": 124
+    },
+    "Dungeon Guides charging more than once when clicking Hire multiple times quickly": {
+      "translation": "快速多次点击“雇佣”时，《迷宫指南》会多次充电",
+      "line": 125
+    },
+    "Shiny farm wanderers now trigger the correct audio cue": {
+      "translation": "异色的农场流浪者现在会触发正确的音频提示",
+      "line": 126
+    },
+    "Using a Moon Ball on a farm wanderer while in a town": {
+      "translation": "在城镇中对农场流浪者使用月球",
+      "line": 127
+    },
+    "Attack boosting held items now work correctly after transferring in Real Evolution": {
+      "translation": "现在，在真实进化中转移后，攻击增强持有的物品可以正常工作",
+      "line": 128
+    },
+    "Sealed Chamber dungeon not having any bosses under certain conditions": {
+      "translation": "密封室迷宫在某些条件下没有任何 Boss",
+      "line": 129
+    },
+    "v0.10.21": {
+      "translation": "",
+      "line": 132
+    },
+    "Ability to view route Pokémon encounters": {
+      "translation": "能够查看宝可梦遭遇的路线",
+      "line": 134
+    },
+    "Ability to view loot available in a dungeon": {
+      "translation": "能够查看迷宫中可用的战利品",
+      "line": 135
+    },
+    "Setting to disable the flashing animation before traveling to a new region": {
+      "translation": "设置在前往新区域之前禁用闪烁动画",
+      "line": 136
+    },
+    "Renamed Ditto (Transforming) to Ditto (Magikarp)": {
+      "translation": "",
+      "line": 137
+    },
+    "Added Pokémon name translations to several additional locations": {
+      "translation": "在其他几个位置添加了宝可梦名称翻译",
+      "line": 138
+    },
+    "Removed Z-Power Ring from Key Items list as it is not yet obtainable": {
+      "translation": "从关键物品列表中删除了 Z-Power 戒指，因为它尚未获得",
+      "line": 139
+    },
+    "Effect of Petaya berry will be shown with altered berry growth times": {
+      "translation": "改变树果生长时间将显示番石榴树果的效果",
+      "line": 140
+    },
+    "Miscellaneous text changes": {
+      "translation": "各种文本更改",
+      "line": 141
+    },
+    "Crash while loading when certain conditions were met": {
+      "translation": "满足某些条件时加载时崩溃",
+      "line": 142
+    },
+    "Pokéballs going negative while catching farm wanderers": {
+      "translation": "捕捉农场流浪者时精灵球变为负值",
+      "line": 143
+    },
+    "Lucky Punch held item not available until Galar": {
+      "translation": "Lucky Punch 持有的物品直到伽勒尔才可用",
+      "line": 144
+    },
+    "Farm module sometimes not rendering after being disabled and re-enabled": {
+      "translation": "Farm 模块在禁用并重新启用后有时不会呈现",
+      "line": 145
+    },
+    "Treasure Scanner notifications not respecting the underground item found notification setting": {
+      "translation": "宝藏扫描仪通知不尊重地下物品发现通知设置",
+      "line": 146
+    },
+    "Accidentally leaving a dungeon and firing a Dungeon Guide while clicking": {
+      "translation": "点击时意外离开迷宫并发射迷宫指南",
+      "line": 147
+    },
+    "v0.10.20": {
+      "translation": "",
+      "line": 150
+    },
+    "New Quest Lines": {
+      "translation": "新任务线",
+      "line": 152
+    },
+    "New Items": {
+      "translation": "新商品",
+      "line": 154
+    },
+    "Dungeon Guides": {
+      "translation": "迷宫指南",
+      "line": 155
+    },
+    "Farm & Underground modules added to main view; can be disabled in settings": {
+      "translation": "农场和采掘场模块已添加到主视图；可在设置中禁用",
+      "line": 156
+    },
+    "Moon Phase system & Moon Ball": {
+      "translation": "月相系统和月球",
+      "line": 157
+    },
+    "Fish Pond safari area in Magikarp Jump sub-region": {
+      "translation": "",
+      "line": 158
+    },
+    "Setting to disable auto-save": {
+      "translation": "设置禁用自动保存",
+      "line": 159
+    },
+    "Setting to disable the held item remove/replace prompt": {
+      "translation": "",
+      "line": 160
+    },
+    "New Hatchery Helper available in Discord shop": {
+      "translation": "Discord 商店提供新的孵化场助手",
+      "line": 161
+    },
+    "Farm Wanderers have been reworked": {
+      "translation": "农场流浪者已被重新设计",
+      "line": 162
+    },
+    "Underground, diamonds, and daily deals adjusted": {
+      "translation": "采掘场、钻石和每日交易已调整",
+      "line": 163
+    },
+    "Alola has been rebalanced and story quests revamped": {
+      "translation": "阿罗拉已重新平衡，故事任务也已修改",
+      "line": 164
+    },
+    "Locations of several Pokémon have been adjusted": {
+      "translation": "调整了部分宝可梦的位置",
+      "line": 165
+    },
+    "Pokémon can now belong to multiple categories": {
+      "translation": "宝可梦现在可以属于多个类别",
+      "line": 166
+    },
+    "Additional category management tools added to the Pokédex & Hatchery": {
+      "translation": "",
+      "line": 167
+    },
+    "Everstone can now be used as a held item to prevent evolution": {
+      "translation": "永恒石现在可以用作持有物品以防止进化",
+      "line": 168
+    },
+    "Auto-gym feature reworked": {
+      "translation": "Auto-gym 功能重新设计",
+      "line": 169
+    },
+    "Roseli Berry aura buffed": {
+      "translation": "罗塞莉树果光环增强",
+      "line": 170
+    },
+    "Added Mimic & Wanderer encounter types to pokéball filters": {
+      "translation": "在精灵球过滤器中添加了模仿者和流浪者遭遇类型",
+      "line": 171
+    },
+    "Purified Pokémon now give a bonus to click attack": {
+      "translation": "净化的宝可梦现在为点击攻击提供奖励",
+      "line": 172
+    },
+    "Battle Frontier now uses Clear weather at all times": {
+      "translation": "对战开拓区现在始终使用晴朗天气",
+      "line": 173
+    },
+    "Flutes can now be used regardless of active challenges": {
+      "translation": "现在无论挑战如何，都可以使用长笛",
+      "line": 174
+    },
+    "Removed 3x activation limit on Treasure Scanner Oak Item": {
+      "translation": "取消了宝藏扫描仪大木博士道具的3倍激活限制",
+      "line": 175
+    },
+    "Right click (or long press on mobile) to enable/disable Pokéball filters from the main view": {
+      "translation": "",
+      "line": 176
+    },
+    "Orre dungeons have an updated encounter display": {
+      "translation": "奥雷迷宫有更新的遭遇显示",
+      "line": 177
+    },
+    "Safari Zones now have an encounter display similar to dungeons": {
+      "translation": "野生动物园区域现在有类似于迷宫的遭遇显示",
+      "line": 178
+    },
+    "The \"Caught Not Shadow\" Pokédex filter will now only show Pokémon with a shadow form": {
+      "translation": "",
+      "line": 179
+    },
+    "Caught Not Shadow": {
+      "translation": "已捕获（无暗影）",
+      "line": 179
+    },
+    "Farm Hands not regaining energy when not hired": {
+      "translation": "农场帮手未被雇用时不会恢复能量",
+      "line": 181
+    },
+    "Nest Ball catch chance inside dungeons": {
+      "translation": "巢球在迷宫内抓住机会",
+      "line": 182
+    },
+    "Egg Hunt quest NPC inaccessible": {
+      "translation": "寻蛋任务 NPC 无法访问",
+      "line": 183
+    },
+    "Various tooltip display issues": {
+      "translation": "各种工具提示显示问题",
+      "line": 184
+    },
+    "v0.10.19": {
+      "translation": "",
+      "line": 187
+    },
+    "Added setting to disable hatchery clear confirmation": {
+      "translation": "添加了禁用孵化场清除确认的设置",
+      "line": 188
+    },
+    "Adjusted Holocaster unlock requirements": {
+      "translation": "调整后的 Holocaster 解锁要求",
+      "line": 189
+    },
+    "Misc text changes": {
+      "translation": "其他文本更改",
+      "line": 190
+    },
+    "Misc UI changes": {
+      "translation": "其他 UI 更改",
+      "line": 191
+    },
+    "Misc image changes": {
+      "translation": "其他图像更改",
+      "line": 192
+    },
+    "Duplicate notifications when removing all Vitamins": {
+      "translation": "删除所有维生素时出现重复通知",
+      "line": 193
+    },
+    "Tutorial Pokéball selector": {
+      "translation": "教程 Pokéball 选择器",
+      "line": 194
+    },
+    "Egg steps are now capped at 4800": {
+      "translation": "蛋步现在上限为4800",
+      "line": 195
+    },
+    "Some daily occurrences not resetting correctly": {
+      "translation": "一些日常事件无法正确重置",
+      "line": 196
+    },
+    "Hatchery sorting/filters not always working correctly": {
+      "translation": "",
+      "line": 197
+    },
+    "Lazy loading items": {
+      "translation": "延迟加载项目",
+      "line": 198
+    },
+    "Reduced lag": {
+      "translation": "减少滞后",
+      "line": 199
+    },
+    "v0.10.18": {
+      "translation": "",
+      "line": 202
+    },
+    "Alternate Berrydex viewing mode (enabled in Display settings)": {
+      "translation": "备用 Berrydex 查看模式（在显示设置中启用）",
+      "line": 204
+    },
+    "Audio cue when Max Flow has been gathered": {
+      "translation": "收集最大流量时的音频提示",
+      "line": 205
+    },
+    "Farm button to invert locked plots": {
+      "translation": "农场按钮可反转锁定的地块",
+      "line": 206
+    },
+    "Hatchery, battle, and clicking performance optimizations": {
+      "translation": "孵化场、战斗和点击性能优化",
+      "line": 207
+    },
+    "Pink Bow replaced with Fairy Feather": {
+      "translation": "粉色蝴蝶结替换为仙女羽毛",
+      "line": 208
+    },
+    "Mega Pokémon now have the same egg steps as their base form": {
+      "translation": "超级宝可梦现在拥有与其基本形态相同的蛋步",
+      "line": 209
+    },
+    "Hatching a shiny Pokémon now awards 5x the normal attack gained": {
+      "translation": "孵化异色的宝可梦现在奖励普通攻击力的5倍",
+      "line": 210
+    },
+    "Pokéball filter priority order can now be changed (Gameplay settings)": {
+      "translation": "现在可以更改神奇球过滤器的优先顺序（游戏设置）",
+      "line": 211
+    },
+    "Currency display on main view moved to own module": {
+      "translation": "主视图上的货币显示已移至自己的模块",
+      "line": 212
+    },
+    "Map hover tooltip for routes": {
+      "translation": "路线的地图悬停工具提示",
+      "line": 213
+    },
+    "Pokédex EVs display now includes decimals": {
+      "translation": "",
+      "line": 214
+    },
+    "Pokéball Selector & Pokémon List modules can be vertically resized": {
+      "translation": "宝可梦球选择器和宝可梦列表模块可以垂直调整大小",
+      "line": 215
+    },
+    "Poor randomization of certain daily occurrences": {
+      "translation": "某些日常事件的随机性较差",
+      "line": 219
+    },
+    "Galar Max Raid dens not appearing active on daily reset": {
+      "translation": "伽勒尔最大突袭据点在每日重置时未显示为活跃状态",
+      "line": 220
+    },
+    "Catching a shiny shadow Pokémon not awarding the shiny": {
+      "translation": "捕捉异色的暗影宝可梦不会奖励异色",
+      "line": 221
+    },
+    "Various other minor bug fixes": {
+      "translation": "各种其他小错误修复",
+      "line": 222
+    },
+    "v0.10.17": {
+      "translation": "",
+      "line": 225
+    },
+    "Incorrect egg steps for several Pokémon": {
+      "translation": "多个宝可梦的蛋步骤不正确",
+      "line": 226
+    },
+    "Friend Safari rotation": {
+      "translation": "好友 Safari 轮换",
+      "line": 227
+    },
+    "Some achievements appearing in the wrong category": {
+      "translation": "一些成就出现在错误的类别中",
+      "line": 228
+    },
+    "Various minor bugs and typos": {
+      "translation": "各种小错误和打字错误",
+      "line": 229
+    },
+    "v0.10.16": {
+      "translation": "",
+      "line": 232
+    },
+    "Orre - Gale of Darkness": {
+      "translation": "奥雷 - 黑暗之风",
+      "line": 233
+    },
+    "Gigantamax": {
+      "translation": "",
+      "line": 234
+    },
+    "Bug Catching Contest in Johto": {
+      "translation": "城都捉虫大赛",
+      "line": 235
+    },
+    "Great Marsh Safari Zone in Sinnoh": {
+      "translation": "神奥大沼泽野生动物区",
+      "line": 236
+    },
+    "Pokéball filter option - Category": {
+      "translation": "精灵球过滤器选项 - 类别",
+      "line": 237
+    },
+    "Easter & Christmas events reworked": {
+      "translation": "复活节和圣诞节活动重新设计",
+      "line": 241
+    },
+    "Daily deal UI improvements": {
+      "translation": "每日交易 UI 改进",
+      "line": 242
+    },
+    "Galar rebalanced": {
+      "translation": "伽勒尔重新平衡",
+      "line": 243
+    },
+    "Weather adjustments": {
+      "translation": "天气调整",
+      "line": 244
+    },
+    "Scent held items can now be used on purified Pokémon": {
+      "translation": "带有香味的物品现在可以用于纯化的宝可梦",
+      "line": 245
+    },
+    "Dungeon loot adjustments": {
+      "translation": "迷宫战利品调整",
+      "line": 246
+    },
+    "Regional map improvements": {
+      "translation": "区域地图改进",
+      "line": 247
+    },
+    "Performance improvements": {
+      "translation": "性能改进",
+      "line": 248
+    },
+    "Negative & decreasing quest progress (again)": {
+      "translation": "任务进度为负且不断减少（再次）",
+      "line": 252
+    },
+    "v0.10.15": {
+      "translation": "",
+      "line": 255
+    },
+    "Pokédex shadow and purified caught status filters": {
+      "translation": "",
+      "line": 256
+    },
+    "Notification for when the Purify Chamber is ready": {
+      "translation": "净化室准备就绪时的通知",
+      "line": 257
+    },
+    "Dungeon chests could not be opened in rare instances": {
+      "translation": "迷宫宝箱在极少数情况下无法打开",
+      "line": 260
+    },
+    "Orre Poké Spots not accessible": {
+      "translation": "Orre Poké 地点无法访问",
+      "line": 261
+    },
+    "v0.10.14": {
+      "translation": "",
+      "line": 264
+    },
+    "Enter the Colosseum - Orre is now available!": {
+      "translation": "进入罗马斗兽场 - Orre 现已上线！",
+      "line": 265
+    },
+    "Snover Berry": {
+      "translation": "斯诺弗树果",
+      "line": 266
+    },
+    "Unova Berry Master": {
+      "translation": "合众树果大师",
+      "line": 267
+    },
+    "Quest Lines menu": {
+      "translation": "任务线菜单",
+      "line": 268
+    },
+    "Rare Candy": {
+      "translation": "神奇糖果",
+      "line": 269
+    },
+    "New Megas": {
+      "translation": "新巨型",
+      "line": 271
+    },
+    "Added ability to Surf on water in Safari zone": {
+      "translation": "增加了在野生动物区水上冲浪的能力",
+      "line": 274
+    },
+    "Safari animation speed increases with level": {
+      "translation": "Safari 动画速度随等级提高",
+      "line": 275
+    },
+    "Weather rebalanced slightly": {
+      "translation": "天气略有恢复平衡",
+      "line": 276
+    },
+    "Blaze Cassette replaced with Magma Stone": {
+      "translation": "火焰盒替换为岩浆石",
+      "line": 277
+    },
+    "Mewtwo strikes back! event reworked": {
+      "translation": "",
+      "line": 278
+    },
+    "Halloween! event can now be activated with the Event Calendar": {
+      "translation": "万圣节！现在可以使用事件日历激活事件",
+      "line": 279
+    },
+    "EXP Aura added to Custap berry": {
+      "translation": "卡斯塔普树果中添加了 EXP 光环",
+      "line": 280
+    },
+    "Catching a shiny in the Safari zone grants additional Safari EXP": {
+      "translation": "在 Safari 区域捕获异色会获得额外的 狩猎经验",
+      "line": 281
+    },
+    "Safari items spawning in inaccessible locations": {
+      "translation": "Safari 物品在无法到达的位置生成",
+      "line": 285
+    },
+    "Gem & Shard traders not having map overlay colors": {
+      "translation": "宝石和碎片交易者没有地图叠加颜色",
+      "line": 286
+    },
+    "Friend Safari appearing as uncaught on the map": {
+      "translation": "Friend Safari 在地图上显示为未捕获",
+      "line": 287
+    },
+    "v0.10.13": {
+      "translation": "",
+      "line": 290
+    },
+    "New Battle Frontier reward": {
+      "translation": "新的对战开拓区奖励",
+      "line": 291
+    },
+    "More held items": {
+      "translation": "更多持有物品",
+      "line": 292
+    },
+    "More profile trainers": {
+      "translation": "更多个人资料培训师",
+      "line": 293
+    },
+    "Safari Zone based achievements": {
+      "translation": "基于 Safari Zone 的成就",
+      "line": 294
+    },
+    "Adjust Safari Zone item spawning": {
+      "translation": "调整 Safari 区域物品生成",
+      "line": 295
+    },
+    "Replaced Pancham with Carbink in Mystery Eggs": {
+      "translation": "将神秘蛋中的 Pancham 替换为 Carbink",
+      "line": 296
+    },
+    "Safari broken fences": {
+      "translation": "Safari 打破围栏",
+      "line": 300
+    },
+    "Saves with encoded text": {
+      "translation": "使用编码文本保存",
+      "line": 301
+    },
+    "Zero's Ambition questline re-starting or starting early": {
+      "translation": "零的野心任务线重新开始或提前开始",
+      "line": 302
+    },
+    "v0.10.12": {
+      "translation": "",
+      "line": 305
+    },
+    "Friend Safari is now open!": {
+      "translation": "朋友野生动物园现已开放！",
+      "line": 306
+    },
+    "Safari XP & Safari Level - see the Help tab in the Safari Zone for more information": {
+      "translation": "狩猎经验 和 狩猎等级 - 请参阅 Safari 区域中的“帮助”选项卡以获取更多信息",
+      "line": 307
+    },
+    "Safari keybinds": {
+      "translation": "Safari 按键绑定",
+      "line": 308
+    },
+    "Event Calendar - Halloween not included (purchased in Hammerlocke)": {
+      "translation": "活动日历 - 不包括万圣节（在 Hammerlocke 购买）",
+      "line": 309
+    },
+    "Added additional catch filters": {
+      "translation": "添加了额外的捕获过滤器",
+      "line": 310
+    },
+    "Multipliers tab in the Statistics menu": {
+      "translation": "“统计”菜单中的“乘数”选项卡",
+      "line": 311
+    },
+    "Added additional Held Item filters": {
+      "translation": "添加了额外的持有物品过滤器",
+      "line": 312
+    },
+    "New Quest Line": {
+      "translation": "新任务线",
+      "line": 314
+    },
+    "Improved category management": {
+      "translation": "改进品类管理",
+      "line": 316
+    },
+    "Improved hatchery helper customization": {
+      "translation": "改进孵化场助手定制",
+      "line": 317
+    },
+    "Several held items added to Galar dungeons": {
+      "translation": "伽勒尔迷宫中添加了一些持有物品",
+      "line": 318
+    },
+    "Item Bag & Pokedex entry UI refresh": {
+      "translation": "物品袋和图鉴入口 UI 刷新",
+      "line": 319
+    },
+    "Number of bosses in legendary dungeons rebalanced": {
+      "translation": "传奇迷宫中的 Boss 数量重新平衡",
+      "line": 320
+    },
+    "Berrydex improvements": {
+      "translation": "Berrydex 改进",
+      "line": 321
+    },
+    "Quest Point rebalance": {
+      "translation": "任务点重新平衡",
+      "line": 322
+    },
+    "Quest progress decreasing or becoming negative": {
+      "translation": "任务进度减少或变为负值",
+      "line": 325
+    },
+    "Various performance optimizations": {
+      "translation": "各种性能优化",
+      "line": 326
+    },
+    "Pokedex & Hatchery filtering now works with party nickname": {
+      "translation": "图鉴和孵化场筛选现在支持队伍昵称",
+      "line": 327
+    },
+    "Broken Gym Leader sprites": {
+      "translation": "破碎的道馆领袖精灵",
+      "line": 328
+    },
+    "Delete save triggering if cancelled after typing DELETE": {
+      "translation": "如果在键入 DELETE 后取消，则删除保存触发",
+      "line": 329
+    },
+    "v0.10.11": {
+      "translation": "",
+      "line": 332
+    },
+    "Advanced capture filters": {
+      "translation": "高级捕获过滤器",
+      "line": 333
+    },
+    "Weather forecast at the Weather Institute in Hoenn": {
+      "translation": "丰缘气象研究所的天气预报",
+      "line": 334
+    },
+    "Hotkey to open the quest list": {
+      "translation": "打开任务列表的热键",
+      "line": 337
+    },
+    "Hotkey to open Poké Mart shop": {
+      "translation": "打开 Poké Mart 商店的热键",
+      "line": 338
+    },
+    "Dungeon chests have a visual difference based on loot tier": {
+      "translation": "迷宫箱子根据战利品等级有视觉差异",
+      "line": 339
+    },
+    "S.S. Anne visible on all maps at dock location": {
+      "translation": "S.S. Anne 在码头位置的所有地图上均可见",
+      "line": 340
+    },
+    "Adjusted some pokémon locations": {
+      "translation": "调整了一些宝可梦的位置",
+      "line": 341
+    },
+    "Pokédex filter improvements": {
+      "translation": "",
+      "line": 342
+    },
+    "Pokémon in the hatchery/queue can be seen in the vitamin list": {
+      "translation": "",
+      "line": 343
+    },
+    "Acquired Mega Stones displayed in item bag": {
+      "translation": "获得的巨型石头显示在物品袋中",
+      "line": 344
+    },
+    "Updated egg colors in Hatchery": {
+      "translation": "更新了孵化场的鸡蛋颜色",
+      "line": 345
+    },
+    "Misc map changes": {
+      "translation": "其他地图更改",
+      "line": 347
+    },
+    "Pokédex & hatchery unusable at certain resolutions": {
+      "translation": "",
+      "line": 348
+    },
+    "Deleting a category sometimes causing a game crash": {
+      "translation": "删除类别有时会导致游戏崩溃",
+      "line": 349
+    },
+    "Various broken images": {
+      "translation": "各种破碎的图像",
+      "line": 350
+    },
+    "v0.10.10": {
+      "translation": "",
+      "line": 353
+    },
+    "Added Pokérus icon to more places": {
+      "translation": "在更多地方添加了宝可病毒图标",
+      "line": 356
+    },
+    "Battle Café now gives more spins on full shiny/resistant set": {
+      "translation": "",
+      "line": 357
+    },
+    "Faster growth berry auras no longer affects matured plants": {
+      "translation": "生长更快的树果光环不再影响成熟的植物",
+      "line": 358
+    },
+    "Slower growth berry auras now only affects matured plants": {
+      "translation": "生长缓慢的树果光环现在只影响成熟的植物",
+      "line": 359
+    },
+    "More berry information added": {
+      "translation": "添加了更多树果信息",
+      "line": 360
+    },
+    "Manaphy is now a wandering Pokémon again": {
+      "translation": "玛纳霏现在再次成为流浪宝可梦",
+      "line": 361
+    },
+    "Real evolution challenge now correctly keeps track of level": {
+      "translation": "真正的进化挑战现在可以正确跟踪等级",
+      "line": 365
+    },
+    "Some requirements for routes and towns": {
+      "translation": "对路线和城镇的一些要求",
+      "line": 366
+    },
+    "v0.10.9": {
+      "translation": "",
+      "line": 369
+    },
+    "New catch option for contagious Pokémon": {
+      "translation": "传染性宝可梦的新捕捉选项",
+      "line": 372
+    },
+    "Redeemable code to refund all Vitamins: REFUND-VITAMINS (one time use)": {
+      "translation": "可兑换所有维生素退款的代码：REFUND-VITAMINS（一次性使用）",
+      "line": 373
+    },
+    "Adjusted Luxury Ball, now awards random currencies": {
+      "translation": "调整后的豪华舞会，现在奖励随机货币",
+      "line": 374
+    },
+    "Adjusted wandering Pokémon on the Farm": {
+      "translation": "调整了农场里徘徊的宝可梦",
+      "line": 375
+    },
+    "Adjusted some fossil sizes in Underground": {
+      "translation": "调整了采掘场中部分化石的尺寸",
+      "line": 376
+    },
+    "Hatchery search no longer uses Regex by default": {
+      "translation": "默认情况下，孵化场搜索不再使用正则表达式",
+      "line": 377
+    },
+    "Adjusted how locked evolutions are shown in evolution item menu": {
+      "translation": "调整了锁定进化在进化项目菜单中的显示方式",
+      "line": 378
+    },
+    "Multiple tiers of flash in Dungeons": {
+      "translation": "迷宫中的多层异色",
+      "line": 379
+    },
+    "Dawn is now during 5am-6am": {
+      "translation": "黎明时间为凌晨5点至6点",
+      "line": 380
+    },
+    "Roamer NPCs now reveal the Pokémon in the Pokédex": {
+      "translation": "",
+      "line": 381
+    },
+    "Totem Marowak can now drop Thick Club": {
+      "translation": "",
+      "line": 382
+    },
+    "No more Mega Stones in berry trades": {
+      "translation": "树果交易中不再有巨型石头",
+      "line": 386
+    },
+    "Farm aura displays": {
+      "translation": "农场光环展示",
+      "line": 387
+    },
+    "Underground buried item locations": {
+      "translation": "采掘场埋藏物品位置",
+      "line": 388
+    },
+    "Fixed subregion for Altar of the Sunne and Moone": {
+      "translation": "修复了Sunne和Moone祭坛的分区",
+      "line": 389
+    },
+    "Real evolution challenge, using stones on Pokémon in the Hatchery": {
+      "translation": "真正的进化挑战，在孵化场对宝可梦使用石头",
+      "line": 390
+    },
+    "Evolution item caught indication including future regions": {
+      "translation": "进化项目捕获了包括未来区域在内的指示",
+      "line": 391
+    },
+    "v0.10.8": {
+      "translation": "",
+      "line": 393
+    },
+    "New Mega": {
+      "translation": "新兆丰",
+      "line": 394
+    },
+    "New Held Item": {
+      "translation": "新持有物品",
+      "line": 395
+    },
+    "Fixed scrollbar for vitamin modal": {
+      "translation": "修复了维生素模式的滚动条",
+      "line": 398
+    },
+    "Fixed shops": {
+      "translation": "固定店铺",
+      "line": 399
+    },
+    "Fixed Maelstrom showing up at the wrong time": {
+      "translation": "修复了漩涡在错误时间出现的问题",
+      "line": 400
+    },
+    "v0.10.7": {
+      "translation": "",
+      "line": 403
+    },
+    "Improved Vitamin UI": {
+      "translation": "改进维生素用户界面",
+      "line": 407
+    },
+    "Can now open multiple Dream Orbs at a time": {
+      "translation": "现在可以一次打开多个梦境宝珠",
+      "line": 408
+    },
+    "Oak Items now have 5 loadouts": {
+      "translation": "大木博士道具现在有5个装载",
+      "line": 409
+    },
+    "Misc Hatchery fixes": {
+      "translation": "其他孵化场修复",
+      "line": 412
+    },
+    "v0.10.6": {
+      "translation": "",
+      "line": 415
+    },
+    "Added new Aura to the Farm (Repel)": {
+      "translation": "为农场添加了新的光环（击退）",
+      "line": 416
+    },
+    "Misc fixes for Quests": {
+      "translation": "任务的其他修复",
+      "line": 420
+    },
+    "Fixed some reward Pokémon": {
+      "translation": "修复了一些奖励宝可梦",
+      "line": 421
+    },
+    "v0.10.5": {
+      "translation": "",
+      "line": 426
+    },
+    "Added Magikarp Jump Subregion": {
+      "translation": "",
+      "line": 427
+    },
+    "Added new Vitamins": {
+      "translation": "添加了新的维生素",
+      "line": 428
+    },
+    "Added more Mega Evolutions": {
+      "translation": "添加了更多巨型进化",
+      "line": 429
+    },
+    "Added PokéRus indicator to shops and Safari Zone": {
+      "translation": "为商店和 Safari Zone 添加了 PokéRus 指示器",
+      "line": 430
+    },
+    "Added more Held Items": {
+      "translation": "添加了更多持有物品",
+      "line": 431
+    },
+    "Mapcolor for missing PokéRus Resistant": {
+      "translation": "缺少 PokéRus Resistant 的地图颜色",
+      "line": 432
+    },
+    "Added a mute button": {
+      "translation": "添加了静音按钮",
+      "line": 433
+    },
+    "Can now change default file name of saves": {
+      "translation": "现在可以更改保存的默认文件名",
+      "line": 434
+    },
+    "Adjusted Proteins": {
+      "translation": "调整后的蛋白质",
+      "line": 435
+    },
+    "Buffed shiny chance for Safari Zone": {
+      "translation": "增加了 Safari Zone 的异色几率",
+      "line": 436
+    },
+    "Changed evoluion items layout": {
+      "translation": "改变了进化项目的布局",
+      "line": 437
+    },
+    "More than six Pokémon can now hold held items at a time": {
+      "translation": "超过六只宝可梦现在可以同时持有物品",
+      "line": 438
+    },
+    "Adjusted some Mega Evolution requirements": {
+      "translation": "调整了一些Mega Evolution的要求",
+      "line": 439
+    },
+    "Mimics now give more EVs": {
+      "translation": "模仿者现在提供更多努力值",
+      "line": 440
+    },
+    "Changed Battle Café times to match the rest of the game": {
+      "translation": "更改了战斗咖啡馆时间以匹配游戏的其余部分",
+      "line": 441
+    },
+    "Reduce CPU usage when game is minimized": {
+      "translation": "游戏最小化时减少 CPU 使用率",
+      "line": 445
+    },
+    "Misc fixes for Suicune Quest": {
+      "translation": "",
+      "line": 446
+    },
+    "Attack Achievements appearing again on reload": {
+      "translation": "攻击成就在重新加载时再次出现",
+      "line": 447
+    },
+    "v0.10.4": {
+      "translation": "",
+      "line": 450
+    },
+    "Shop Magikarp no longer awards EVs": {
+      "translation": "",
+      "line": 451
+    },
+    "Base wandering Pokémon no longer award EVs": {
+      "translation": "基地徘徊的宝可梦不再奖励努力值",
+      "line": 452
+    },
+    "Starter not gaining Pokérus status": {
+      "translation": "首发者未获得宝可病毒状态",
+      "line": 456
+    },
+    "Game not loading in special instances when you are at particular quest steps": {
+      "translation": "当你处于特定任务步骤时，游戏不会在特殊情况下加载",
+      "line": 457
+    },
+    "Potential script execution exploit - Remember to only import trusted save files": {
+      "translation": "潜在的脚本执行漏洞 - 请记住仅导入受信任的保存文件",
+      "line": 458
+    },
+    "v0.10.3": {
+      "translation": "",
+      "line": 461
+    },
+    "Some questline steps causing players to be stuck": {
+      "translation": "一些任务线步骤导致玩家被卡住",
+      "line": 463
+    },
+    "Real evolution challenge mode": {
+      "translation": "真实进化挑战模式",
+      "line": 464
+    },
+    "Shard quests not updating in specific instances": {
+      "translation": "碎片任务在特定情况下不更新",
+      "line": 465
+    },
+    "v0.10.2": {
+      "translation": "",
+      "line": 468
+    },
+    "Kecleon overworld battles added": {
+      "translation": "",
+      "line": 469
+    },
+    "New Challenge mode added": {
+      "translation": "添加了新的挑战模式",
+      "line": 470
+    },
+    "Translations for some game componenets": {
+      "translation": "一些游戏组件的翻译",
+      "line": 471
+    },
+    "Desktop Client exclusive Pokémon": {
+      "translation": "桌面客户端专属宝可梦",
+      "line": 472
+    },
+    "Able to nickname Pokémon": {
+      "translation": "可以给宝可梦起昵称",
+      "line": 473
+    },
+    "More offline progress rewards added": {
+      "translation": "增加更多离线进度奖励",
+      "line": 474
+    },
+    "Some mega evolutions are now available": {
+      "translation": "一些超级进化现已可用",
+      "line": 475
+    },
+    "Meltan questline": {
+      "translation": "美录坦任务线",
+      "line": 476
+    },
+    "Giratina questline": {
+      "translation": "骑拉帝纳任务线",
+      "line": 477
+    },
+    "Rival battles": {
+      "translation": "对手的战斗",
+      "line": 478
+    },
+    "Adjusted click attack calculations": {
+      "translation": "调整点击攻击计算",
+      "line": 479
+    },
+    "Adjusted Kalos Elite Four": {
+      "translation": "调整后的卡洛斯四天王",
+      "line": 480
+    },
+    "EV bonus now taken into account for Breeding Effeciency sorting": {
+      "translation": "育种效率排序现在考虑了努力值奖励",
+      "line": 481
+    },
+    "Removed guaranteed Unown (A) from Ruins of Alph": {
+      "translation": "",
+      "line": 482
+    },
+    "Adjusted some Pokémon teams": {
+      "translation": "调整了部分宝可梦队伍",
+      "line": 483
+    },
+    "Adjusted some Pokémon encounter locations": {
+      "translation": "调整了一些宝可梦遭遇地点",
+      "line": 484
+    },
+    "Reduced some lag caused by achievements": {
+      "translation": "减少了成就造成的一些滞后",
+      "line": 488
+    },
+    "v0.10.1": {
+      "translation": "",
+      "line": 491
+    },
+    "Spooky Togepi evolution line": {
+      "translation": "",
+      "line": 492
+    },
+    "Increased chance of undiscovered fossils appearing in the Underground": {
+      "translation": "采掘场中出现未发现化石的几率提高",
+      "line": 493
+    },
+    "Adjusted held item drop locations": {
+      "translation": "调整了持有物品的掉落位置",
+      "line": 494
+    },
+    "Adjusted battle café spins per day": {
+      "translation": "调整战斗咖啡馆每天的旋转次数",
+      "line": 495
+    },
+    "More profile options": {
+      "translation": "更多配置文件选项",
+      "line": 496
+    },
+    "Some people not being able to create a new save": {
+      "translation": "有些人无法创建新的保存",
+      "line": 500
+    },
+    "v0.10.0": {
+      "translation": "",
+      "line": 503
+    },
+    "Galar": {
+      "translation": "伽勒尔",
+      "line": 503
+    },
+    "The Galar region is now available": {
+      "translation": "伽勒尔地区现已开放",
+      "line": 504
+    },
+    "Farm Point hatchery helper added": {
+      "translation": "添加了农场点孵化场助手",
+      "line": 505
+    },
+    "More questlines": {
+      "translation": "更多任务线",
+      "line": 506
+    },
+    "Pokémon now have genders": {
+      "translation": "宝可梦现在有性别了",
+      "line": 508
+    },
+    "Routes and dungeons now show the EV status of all encounters": {
+      "translation": "路线和迷宫现在显示所有遭遇的努力值状态",
+      "line": 509
+    },
+    "Battle Frontier reward Pokémon now have a chance to be shiny": {
+      "translation": "对战开拓区奖励宝可梦现在有机会是异色的",
+      "line": 510
+    },
+    "Adjusted shard prices": {
+      "translation": "调整后的分片价格",
+      "line": 511
+    },
+    "Adjusted farm wanderers": {
+      "translation": "调整后的农场流浪者",
+      "line": 512
+    },
+    "Town to be sent to after snorlax and sudowoodo battles": {
+      "translation": "打完snorlax和sudowoodo战斗后将被送往的城镇",
+      "line": 516
+    },
+    "v0.9.18": {
+      "translation": "",
+      "line": 519
+    },
+    "Some saves not being able to update to v0.9.17": {
+      "translation": "",
+      "line": 520
+    },
+    "v0.9.17": {
+      "translation": "",
+      "line": 523
+    },
+    "Held items [BETA]": {
+      "translation": "持有物品[测试版]",
+      "line": 524
+    },
+    "Sudowoodo overworld battles added": {
+      "translation": "",
+      "line": 525
+    },
+    "Sevii now has it's own achievement pool": {
+      "translation": "Sevii 现在拥有自己的成就池",
+      "line": 526
+    },
+    "Dungeon floors added for dungeons of size 10 or bigger": {
+      "translation": "为10或更大尺寸的迷宫添加了迷宫楼层",
+      "line": 527
+    },
+    "Updated Kalos route 1 encounters": {
+      "translation": "更新了卡洛斯1号道路遭遇战",
+      "line": 528
+    },
+    "Hoenn badge requirement ordering": {
+      "translation": "Hoenn 徽章要求订购",
+      "line": 529
+    },
+    "Updated typed egg pools": {
+      "translation": "更新了类型蛋池",
+      "line": 530
+    },
+    "Caught indicator for berry deals": {
+      "translation": "捕获树果交易指标",
+      "line": 531
+    },
+    "Dungeon Token flute now helps with EVs instead": {
+      "translation": "迷宫代币笛子现在可以帮助获得努力值",
+      "line": 532
+    },
+    "Farm hands will no longer attempt to place berries you do not have": {
+      "translation": "农场帮手将不再尝试放置你没有的树果",
+      "line": 533
+    },
+    "Global achievement bonus increased to 150%": {
+      "translation": "全球成就奖金增加至150%",
+      "line": 534
+    },
+    "Improved Hatchery and Pokédex loading times": {
+      "translation": "",
+      "line": 535
+    },
+    "Adjusted Underground layer generation": {
+      "translation": "调整了采掘场层生成",
+      "line": 536
+    },
+    "Enigma will now show the full hint once unlocked": {
+      "translation": "一旦解锁，Enigma 现在将显示完整提示",
+      "line": 540
+    },
+    "Diancie Questline requirements": {
+      "translation": "蒂安希任务线要求",
+      "line": 541
+    },
+    "Farm aura calculations": {
+      "translation": "农场光环计算",
+      "line": 542
+    },
+    "Pokérus spreading between helpers": {
+      "translation": "宝可乐在助手之间传播",
+      "line": 543
+    },
+    "v0.9.16": {
+      "translation": "",
+      "line": 546
+    },
+    "New Furfrou form added": {
+      "translation": "添加了新的 Furfrou 表单",
+      "line": 547
+    },
+    "Buffed Pinkan berry harvest rate": {
+      "translation": "增强粉红树果收获率",
+      "line": 548
+    },
+    "Added a Dock to Seafolk Village": {
+      "translation": "为海民之村添加了一个码头",
+      "line": 552
+    },
+    "Re-adjusted when hatchery sounds play": {
+      "translation": "当孵化场声音播放时重新调整",
+      "line": 553
+    },
+    "Fix farm harvested statistics": {
+      "translation": "修复农场收获统计数据",
+      "line": 554
+    },
+    "Master Farmer achievement": {
+      "translation": "农民大师成就",
+      "line": 555
+    },
+    "v0.9.15": {
+      "translation": "",
+      "line": 558
+    },
+    "More Pokémon forms added": {
+      "translation": "添加了更多宝可梦形式",
+      "line": 559
+    },
+    "More one off battles added": {
+      "translation": "添加了更多一场战斗",
+      "line": 560
+    },
+    "New questlines": {
+      "translation": "新任务线",
+      "line": 561
+    },
+    "New setting added for quest modal": {
+      "translation": "为任务模式添加了新设置",
+      "line": 562
+    },
+    "Hatchery size settings": {
+      "translation": "孵化场尺寸设置",
+      "line": 563
+    },
+    "Updated Alola maps": {
+      "translation": "更新了阿罗拉地图",
+      "line": 564
+    },
+    "Added Pinkan berry": {
+      "translation": "新增粉红树果",
+      "line": 565
+    },
+    "Unova, Kalos and Alola Elite 4 can now be challenged in any order": {
+      "translation": "Unova、Kalos 和 Alola Elite 4现在可以按任意顺序进行挑战",
+      "line": 566
+    },
+    "Misc Pokémon stats updated": {
+      "translation": "其他宝可梦统计数据已更新",
+      "line": 570
+    },
+    "Misc NPC changes": {
+      "translation": "其他 NPC 变化",
+      "line": 571
+    },
+    "Improved load times for Pokédex and Hatchery": {
+      "translation": "",
+      "line": 572
+    },
+    "Harvest rates for berries with a 0.5 harvest rate": {
+      "translation": "收获率0.5的树果的收获率",
+      "line": 573
+    },
+    "Farm hands not remembering to focus Cheri berries": {
+      "translation": "农场帮手不记得集中切里树果",
+      "line": 574
+    },
+    "Farm hands not ignoring locked plots": {
+      "translation": "农场帮手不会忽视锁定的地块",
+      "line": 575
+    },
+    "Discord login should be more consistent": {
+      "translation": "Discord 登录应该更加一致",
+      "line": 576
+    },
+    "Fixed disappearing Pokémon bug for most players": {
+      "translation": "修复了大多数玩家消失的宝可梦错误",
+      "line": 577
+    },
+    "Buying multiple Pokémon at the shop now applies the correct amount of EVs": {
+      "translation": "现在在商店购买多个宝可梦会应用正确数量的努力值",
+      "line": 578
+    },
+    "v0.9.14": {
+      "translation": "",
+      "line": 581
+    },
+    "Pinkan Dodrio is now purchasable in place of Pinkan Exeggutor": {
+      "translation": "",
+      "line": 582
+    },
+    "Sevii island fixes": {
+      "translation": "塞维岛修复",
+      "line": 585
+    },
+    "Alola islands being inaccessible for some people": {
+      "translation": "阿罗拉群岛对某些人来说无法进入",
+      "line": 586
+    },
+    "Questline requirements": {
+      "translation": "任务线要求",
+      "line": 587
+    },
+    "All badges now displayed in badge case when available": {
+      "translation": "所有徽章现在都显示在徽章盒中（如有）",
+      "line": 588
+    },
+    "v0.9.13": {
+      "translation": "",
+      "line": 591
+    },
+    "Sevii islands 4, 5, 6 and 7": {
+      "translation": "塞维岛4、5、6和7",
+      "line": 592
+    },
+    "Sevii questline": {
+      "translation": "塞维任务线",
+      "line": 593
+    },
+    "Detective Pikachu questline": {
+      "translation": "大侦探皮卡丘任务线",
+      "line": 594
+    },
+    "Adjusted Team Plasma questline": {
+      "translation": "调整后的等离子团队任务线",
+      "line": 595
+    },
+    "Adjusted Underground item sorting": {
+      "translation": "调整了采掘场物品排序",
+      "line": 596
+    },
+    "v0.9.12": {
+      "translation": "",
+      "line": 602
+    },
+    "Revert regional update": {
+      "translation": "恢复区域更新",
+      "line": 603
+    },
+    "v0.9.11": {
+      "translation": "",
+      "line": 606
+    },
+    "Celebi questline": {
+      "translation": "",
+      "line": 607
+    },
+    "Added ability to lock plots in the farm": {
+      "translation": "增加了锁定农场地块的能力",
+      "line": 608
+    },
+    "Bulletin Board, With misc quests available": {
+      "translation": "公告板，提供其他任务",
+      "line": 609
+    },
+    "More Battle Frontier rewards": {
+      "translation": "更多对战开拓区奖励",
+      "line": 610
+    },
+    "Pokérus status not visually updating in the hatchery": {
+      "translation": "孵化场中的宝可病毒状态未在视觉上更新",
+      "line": 614
+    },
+    "Multi quest progression": {
+      "translation": "多任务进展",
+      "line": 615
+    },
+    "v0.9.10": {
+      "translation": "",
+      "line": 618
+    },
+    "Added Furfrou (star)": {
+      "translation": "添加了弗芙鲁（明星）",
+      "line": 619
+    },
+    "Underground survey now shows shards": {
+      "translation": "采掘探测现在会显示碎片",
+      "line": 623
+    },
+    "Correct amount of Chest/Enemies shown in Dungeon": {
+      "translation": "",
+      "line": 624
+    },
+    "Dungeon loot requirements": {
+      "translation": "迷宫战利品要求",
+      "line": 625
+    },
+    "v0.9.9": {
+      "translation": "",
+      "line": 628
+    },
+    "Hatching new Pokémon causing errors": {
+      "translation": "孵化新宝可梦会导致错误",
+      "line": 629
+    },
+    "Pokémon gaining Pokérus and EVs early": {
+      "translation": "宝可梦尽早获得宝可病毒和努力值",
+      "line": 630
+    },
+    "v0.9.8": {
+      "translation": "",
+      "line": 633
+    },
+    "Ability to name Oak item loadouts": {
+      "translation": "能够命名 Oak 物品装载",
+      "line": 634
+    },
+    "Shards now appear in Underground": {
+      "translation": "碎片现在出现在采掘场",
+      "line": 635
+    },
+    "Shard traders": {
+      "translation": "碎片交易者",
+      "line": 636
+    },
+    "New one time battles": {
+      "translation": "新的一次性战斗",
+      "line": 637
+    },
+    "First 3 Sevii islands": {
+      "translation": "前3个塞维岛",
+      "line": 639
+    },
+    "Freeze mulch added to Farm": {
+      "translation": "添加到农场的冷冻肥料",
+      "line": 640
+    },
+    "Rowap berry now affects EVs gained": {
+      "translation": "Rowap 树果现在会影响获得的努力值",
+      "line": 641
+    },
+    "More methods to gain EVs": {
+      "translation": "更多获得努力值的方法",
+      "line": 642
+    },
+    "More sounds": {
+      "translation": "更多声音",
+      "line": 643
+    },
+    "Pokérus can now spread between Pokémon sharing a type": {
+      "translation": "宝可梦现在可以在共享类型的宝可梦之间传播",
+      "line": 644
+    },
+    "Updated current location to use player sprite": {
+      "translation": "更新了当前位置以使用玩家精灵",
+      "line": 645
+    },
+    "Updated default quest location color": {
+      "translation": "更新了默认任务位置颜色",
+      "line": 646
+    },
+    "More notification options": {
+      "translation": "更多通知选项",
+      "line": 647
+    },
+    "Unlock extra quest slots 5 levels earlier": {
+      "translation": "提前5级解锁额外任务槽位",
+      "line": 648
+    },
+    "Trade stone is now Linking cord": {
+      "translation": "贸易石现在是连接线",
+      "line": 649
+    },
+    "More filters and sorting options added": {
+      "translation": "添加了更多过滤器和排序选项",
+      "line": 650
+    },
+    "Updated Tutorial quests": {
+      "translation": "更新了教程任务",
+      "line": 651
+    },
+    "Baby Pokémon can now be obtained by breeding any evolution in the line": {
+      "translation": "现在可以通过培育该系列的任何进化来获得小宝可梦",
+      "line": 652
+    },
+    "Display chests and Pokémon remaining in dungeon": {
+      "translation": "显示迷宫中剩余的宝箱和宝可梦",
+      "line": 653
+    },
+    "Some Sinnoh and Alola stones added to Underground": {
+      "translation": "采掘场新增部分神奥和阿罗拉进化石",
+      "line": 654
+    },
+    "Adjusted loot found in dungeon chests": {
+      "translation": "调整后的迷宫箱子中发现的战利品",
+      "line": 655
+    },
+    "Updated some Pokémon evolution methods": {
+      "translation": "更新了部分宝可梦进化方法",
+      "line": 656
+    },
+    "Setting for wider game UI": {
+      "translation": "设置更宽的游戏 UI",
+      "line": 657
+    },
+    "Updated some sprites": {
+      "translation": "更新了一些精灵",
+      "line": 658
+    },
+    "Withered berries statistics not increasing correctly": {
+      "translation": "枯萎树果统计数据未正确增加",
+      "line": 661
+    },
+    "Some dungeons rewarding fighting eggs every time they were completed": {
+      "translation": "有些迷宫每次完成都会奖励战斗蛋",
+      "line": 662
+    },
+    "Unable to use some battle items on mobile": {
+      "translation": "无法在移动设备上使用某些战斗物品",
+      "line": 663
+    },
+    "Missing town images": {
+      "translation": "失踪的小镇图片",
+      "line": 664
+    },
+    "v0.9.7": {
+      "translation": "",
+      "line": 667
+    },
+    "Added Fighting Dojo to Saffron City": {
+      "translation": "为金黄市添加了战斗道场",
+      "line": 668
+    },
+    "Removed 'None' region from hatchery filters": {
+      "translation": "从孵化场过滤器中删除了“无”区域",
+      "line": 669
+    },
+    "Adjusted some dungeons environments": {
+      "translation": "调整了一些迷宫环境",
+      "line": 670
+    },
+    "Updated Floette (Eternal) stats": {
+      "translation": "更新了 Floette（永恒）统计数据",
+      "line": 671
+    },
+    "Display EV stats in pokédex": {
+      "translation": "在图鉴中显示努力值统计数据",
+      "line": 672
+    },
+    "Recieve fighting eggs from some fights": {
+      "translation": "从一些战斗中获得战斗蛋",
+      "line": 673
+    },
+    "Survival Area shop breaking other shops": {
+      "translation": "生存区商店破坏其他商店",
+      "line": 674
+    },
+    "Incorrect trainer showing in dungeons": {
+      "translation": "迷宫中显示的训练师不正确",
+      "line": 675
+    },
+    "Fixed incorrect experience debuff": {
+      "translation": "修复了错误的经验减益",
+      "line": 676
+    },
+    "Not applying Pokérus if modal was not closed correctly": {
+      "translation": "如果模式未正确关闭，则不应用宝可病毒",
+      "line": 677
+    },
+    "Can no longer bomb/survey before new layer loaded in the Underground": {
+      "translation": "",
+      "line": 678
+    },
+    "v0.9.6": {
+      "translation": "",
+      "line": 682
+    },
+    "Able to disable offline money gains in settngs menu": {
+      "translation": "能够在设置菜单中禁用离线金钱收益",
+      "line": 683
+    },
+    "Added a some more NPCs to towns": {
+      "translation": "向城镇添加了更多 NPC",
+      "line": 684
+    },
+    "Able to filter Pokémon in Protein menu": {
+      "translation": "能够在蛋白质菜单中过滤宝可梦",
+      "line": 685
+    },
+    "Currency lost animation": {
+      "translation": "货币丢失动画",
+      "line": 686
+    },
+    "Save reminder notifications": {
+      "translation": "保存提醒通知",
+      "line": 687
+    },
+    "Kanto Team Rocket quest line": {
+      "translation": "关东火箭队任务线",
+      "line": 688
+    },
+    "Mina's Trial quest line": {
+      "translation": "米娜的试炼任务线",
+      "line": 689
+    },
+    "Added EVs and Pokérus": {
+      "translation": "添加了努力值和宝可病毒",
+      "line": 690
+    },
+    "Open links in a new tab": {
+      "translation": "在新选项卡中打开链接",
+      "line": 691
+    },
+    "Buffed Diglett's cave": {
+      "translation": "",
+      "line": 692
+    },
+    "Roaming Pokémon encounters now use their own sound and notification": {
+      "translation": "漫游宝可梦遭遇现在使用自己的声音和通知",
+      "line": 693
+    },
+    "Experience gain has been rebalanced": {
+      "translation": "经验增益已重新平衡",
+      "line": 694
+    },
+    "Flutes have been adjusted": {
+      "translation": "笛子已调整",
+      "line": 695
+    },
+    "Adjusted shops stock of items": {
+      "translation": "调整商店商品库存",
+      "line": 696
+    },
+    "Updated encounter environment backgrounds": {
+      "translation": "更新了遭遇环境背景",
+      "line": 697
+    },
+    "Discord Pokémon can no longer be obtained before you reach the respective regions": {
+      "translation": "在到达相应区域之前，无法再获得不和谐的宝可梦",
+      "line": 698
+    },
+    "Save data can be copied to clipboard if unable to download": {
+      "translation": "如果无法下载，可以将保存的数据复制到剪贴板",
+      "line": 699
+    },
+    "Changed Kanto encounters to follow Fire Red and Leaf Green instead of Yellow version": {
+      "translation": "将关东遭遇更改为火红和叶绿，而不是黄色版本",
+      "line": 700
+    },
+    "Town and Route requirements": {
+      "translation": "城镇和路线要求",
+      "line": 703
+    },
+    "Having negative quest amounts": {
+      "translation": "任务金额为负数",
+      "line": 704
+    },
+    "Unown (A) HP in Ruins of Alph": {
+      "translation": "",
+      "line": 705
+    },
+    "Being able to leave the region early if pokédex challenge enabled": {
+      "translation": "如果启用了图鉴挑战，就可以提前离开该地区",
+      "line": 706
+    },
+    "Some quest lines not starting when they should have": {
+      "translation": "有些任务线没有在应该开始的时候开始",
+      "line": 707
+    },
+    "Farm hands being reset on reload": {
+      "translation": "农场手在重新加载时重置",
+      "line": 708
+    },
+    "Some battle modals not closing": {
+      "translation": "一些战斗模式未关闭",
+      "line": 709
+    },
+    "Some achievements not showing as completed": {
+      "translation": "一些成就未显示为已完成",
+      "line": 710
+    },
+    "Hatchery queue not filling empty slots occasionally": {
+      "translation": "孵化场队列偶尔无法填满空位",
+      "line": 711
+    },
+    "Area completion status highlighting": {
+      "translation": "区域完成状态突出显示",
+      "line": 712
+    },
+    "v0.9.5": {
+      "translation": "",
+      "line": 715
+    },
+    "Starter modal appearing multiple times when grass type picked": {
+      "translation": "选择草类型时，启动模式会多次出现",
+      "line": 716
+    },
+    "Error when obtaining a badge": {
+      "translation": "获取徽章时出错",
+      "line": 717
+    },
+    "Key items not being obtained": {
+      "translation": "关键物品未获得",
+      "line": 718
+    },
+    "Underground hammer sprite not appearing": {
+      "translation": "挖掘锤子图标未显示",
+      "line": 719
+    },
+    "v0.9.4": {
+      "translation": "",
+      "line": 723
+    },
+    "Quest locations now highlighted where possible": {
+      "translation": "现在尽可能突出显示任务地点",
+      "line": 724
+    },
+    "Battle Frontier now saves your stage if you leave early": {
+      "translation": "如果你提早离开，对战开拓区现在可以保存你的阶段",
+      "line": 725
+    },
+    "You will now choose a starter each time you reach a new region": {
+      "translation": "现在，每次到达新地区时，你都将选择一个首发者",
+      "line": 726
+    },
+    "Added weather selection to Damage Calculator": {
+      "translation": "为伤害计算器添加了天气选择",
+      "line": 727
+    },
+    "Added Shop hotkeys": {
+      "translation": "添加了商店热键",
+      "line": 728
+    },
+    "Added ability to sort Achievements": {
+      "translation": "添加了对成就进行排序的功能",
+      "line": 729
+    },
+    "Show current sub region name": {
+      "translation": "显示当前子区域名称",
+      "line": 730
+    },
+    "Updated Hammer and Chisel sprites in Underground": {
+      "translation": "更新了地下的锤子和凿子精灵",
+      "line": 731
+    },
+    "Updated Hatchery sort options and directions, Added a tooltip": {
+      "translation": "更新了孵化场排序选项和方向，添加了工具提示",
+      "line": 732
+    },
+    "Display highest stage reached while in Battle Frontier": {
+      "translation": "显示在对战开拓区中达到的最高阶段",
+      "line": 733
+    },
+    "Added option to display Proteins used in Hatchery": {
+      "translation": "添加了显示孵化场中使用的蛋白质的选项",
+      "line": 734
+    },
+    "Updated Pokémon League sprites on map": {
+      "translation": "更新了地图上的宝可梦联盟精灵",
+      "line": 735
+    },
+    "Adjusted some themes": {
+      "translation": "调整了部分主题",
+      "line": 736
+    },
+    "Adjusted dungeon loot": {
+      "translation": "调整后的迷宫战利品",
+      "line": 737
+    },
+    "Grouped Mt. Chimney surrounding Dungeons": {
+      "translation": "迷宫周围分组的烟囱山",
+      "line": 738
+    },
+    "Can now change movement keys for Safari Zone": {
+      "translation": "现在可以更改 Safari Zone 的移动键",
+      "line": 739
+    },
+    "Timer now starts in Dungeons once you have moved": {
+      "translation": "一旦你移动，迷宫的计时器就会开始计时",
+      "line": 740
+    },
+    "Professor Oak will now tell you how many Pokémon you still need to obtain to move on": {
+      "translation": "大木博士现在会告诉你还需要获得多少宝可梦才能继续前进",
+      "line": 741
+    },
+    "Reduce load time, no longer preload all town images": {
+      "translation": "减少加载时间，不再预加载所有城镇图像",
+      "line": 742
+    },
+    "Fossils display caught status in Hatchery": {
+      "translation": "化石显示孵化场的捕获状况",
+      "line": 743
+    },
+    "Links on the Save Selector screen will now open in a new tab": {
+      "translation": "保存选择器屏幕上的链接现在将在新选项卡中打开",
+      "line": 744
+    },
+    "Updated Pokédex filtering options": {
+      "translation": "",
+      "line": 745
+    },
+    "Added option to hide Shiny Pokémon in the Protein menu": {
+      "translation": "添加了在蛋白质菜单中隐藏异色宝可梦的选项",
+      "line": 746
+    },
+    "Berry Master shop buttons": {
+      "translation": "树果大师商店按钮",
+      "line": 747
+    },
+    "Safari Zone movement animations": {
+      "translation": "Safari Zone 移动动画",
+      "line": 748
+    },
+    "Shiny code wrong name displayed occasionally": {
+      "translation": "异色代码偶尔显示错误名称",
+      "line": 749
+    },
+    "Damage calculator updates correctly when you hatch Pokémon": {
+      "translation": "当你孵化宝可梦时，伤害计算器会正确更新",
+      "line": 750
+    },
+    "v0.9.3": {
+      "translation": "",
+      "line": 754
+    },
+    "Added Hatchery Helpers [BETA]": {
+      "translation": "添加了孵化场助手 [测试版]",
+      "line": 755
+    },
+    "Added Flutes [BETA]": {
+      "translation": "添加了长笛 [BETA]",
+      "line": 756
+    },
+    "Changed default setting for Farm timer": {
+      "translation": "更改了农场计时器的默认设置",
+      "line": 757
+    },
+    "Added some more settings": {
+      "translation": "添加了更多设置",
+      "line": 758
+    },
+    "Grouped Mt. Coronet and Melemele Woods surrounding Dungeons": {
+      "translation": "迷宫周围分组的皇冠山和美乐美乐森林",
+      "line": 759
+    },
+    "Moved sell all button in Underground to the Treasures tab": {
+      "translation": "将采掘场的全部出售按钮移至宝藏选项卡",
+      "line": 760
+    },
+    "Ruins of Alph added Unown (A) as a boss until caught": {
+      "translation": "",
+      "line": 761
+    },
+    "Pokémon now sorted by ID in the evolution stone menu": {
+      "translation": "宝可梦现在在进化石菜单中按 ID 排序",
+      "line": 762
+    },
+    "v0.9.2": {
+      "translation": "",
+      "line": 765
+    },
+    "Updated Alola Akala map": {
+      "translation": "更新了阿罗拉阿卡拉地图",
+      "line": 766
+    },
+    "Select region with number keys while dock modal is open": {
+      "translation": "当扩展坞模式打开时，使用数字键选择区域",
+      "line": 767
+    },
+    "Updated save selector view on mobile": {
+      "translation": "更新了移动设备上的保存选择器视图",
+      "line": 768
+    },
+    "Badge case split up by region": {
+      "translation": "按地区划分的徽章盒",
+      "line": 769
+    },
+    "Updated some dungeon encounters": {
+      "translation": "更新了一些迷宫遭遇",
+      "line": 770
+    },
+    "Updated Unown encounters": {
+      "translation": "",
+      "line": 771
+    },
+    "Updated webworker and game ticks": {
+      "translation": "更新了网络工作者和游戏刻度",
+      "line": 772
+    },
+    "Updated some sprite inconsistencies": {
+      "translation": "更新了一些精灵不一致的问题",
+      "line": 773
+    },
+    "Underground sell all no longer starts breeding fossils": {
+      "translation": "采掘场全部出售不再自动开始孵化化石",
+      "line": 774
+    },
+    "v0.9.1": {
+      "translation": "",
+      "line": 777
+    },
+    "Easter quest line not starting on new saves": {
+      "translation": "复活节任务线不会在新的保存中开始",
+      "line": 778
+    },
+    "Save deletion/importing in game": {
+      "translation": "",
+      "line": 779
+    },
+    "Shop Pokémon prices rounding": {
+      "translation": "商店宝可梦价格四舍五入",
+      "line": 780
+    },
+    "On screen Safari Zone controls not working": {
+      "translation": "屏幕上的 Safari Zone 控件不起作用",
+      "line": 781
+    },
+    "Achievement filtering": {
+      "translation": "成就过滤",
+      "line": 782
+    },
+    "Dungeon showing as incomplete if locked Pokémon not obtained yet": {
+      "translation": "如果尚未获得锁定的宝可梦，迷宫将显示为不完整",
+      "line": 783
+    },
+    "v0.9.0": {
+      "translation": "",
+      "line": 786
+    },
+    "Alola": {
+      "translation": "阿罗拉",
+      "line": 786
+    },
+    "The Alola region is now available": {
+      "translation": "阿罗拉地区现已开放",
+      "line": 787
+    },
+    "More hotkeys": {
+      "translation": "更多热键",
+      "line": 788
+    },
+    "Customizable hotkeys": {
+      "translation": "可定制的热键",
+      "line": 789
+    },
+    "Desktop notifications": {
+      "translation": "桌面通知",
+      "line": 790
+    },
+    "Added Sell-all button to Underground": {
+      "translation": "新增采掘场全部出售按钮",
+      "line": 791
+    },
+    "Sinnoh Quest Line": {
+      "translation": "神奥任务线",
+      "line": 792
+    },
+    "Adjusted Dungeon Achievement amounts required": {
+      "translation": "调整后的迷宫成就所需金额",
+      "line": 793
+    },
+    "Adjusted shop Evolution Stone caught indicator": {
+      "translation": "调整了商店进化石捕获指示器",
+      "line": 794
+    },
+    "Adjusted some sprites": {
+      "translation": "调整了一些精灵",
+      "line": 795
+    },
+    "Indicate HP buff when opening chests in Dungeons": {
+      "translation": "在迷宫中打开宝箱时显示生命值增益",
+      "line": 796
+    },
+    "Changed some Sinnoh Dungeons": {
+      "translation": "改变了一些神奥迷宫",
+      "line": 797
+    },
+    "Ruins of Alph Unown encounters": {
+      "translation": "",
+      "line": 798
+    },
+    "Save profiles not loading if they contained a % symbol": {
+      "translation": "如果保存配置文件包含 % 符号，则不会加载",
+      "line": 799
+    },
+    "v0.8.17": {
+      "translation": "",
+      "line": 802
+    },
+    "Added Shiny achievements per region": {
+      "translation": "为每个地区添加了异色成就",
+      "line": 803
+    },
+    "Show Evolution Stones from future regions in the items menu if you have at least 1": {
+      "translation": "如果你至少有1个，则在项目菜单中显示未来地区的进化石",
+      "line": 804
+    },
+    "Incorrect regions for some evolution items": {
+      "translation": "某些进化项目的区域不正确",
+      "line": 805
+    },
+    "Damage calculator showing NaN": {
+      "translation": "伤害计算器显示 NaN",
+      "line": 806
+    },
+    "v0.8.16": {
+      "translation": "",
+      "line": 809
+    },
+    "Added map colors for Achievement not yet complete": {
+      "translation": "为尚未完成的成就添加了地图颜色",
+      "line": 810
+    },
+    "Show Dungeon and Gym clears": {
+      "translation": "显示迷宫和道馆通关",
+      "line": 811
+    },
+    "Can re-order saves on the save selection screen": {
+      "translation": "可以在保存选择屏幕上重新排序保存",
+      "line": 812
+    },
+    "Notification and sounds settings now grouped": {
+      "translation": "通知和声音设置现已分组",
+      "line": 813
+    },
+    "Increased size of Gem icons": {
+      "translation": "增加了 Gem 图标的大小",
+      "line": 814
+    },
+    "Added option to damage calculator that ignores Pokémon level": {
+      "translation": "添加了忽略宝可梦等级的伤害计算器选项",
+      "line": 815
+    },
+    "Updated the Quest Point cost for some Pokémon": {
+      "translation": "更新了一些宝可梦的任务点成本",
+      "line": 816
+    },
+    "Different Champion defeat message per region": {
+      "translation": "每个地区的冠军失败信息不同",
+      "line": 817
+    },
+    "Hide Evolution Stones from future regions in the items menu": {
+      "translation": "在项目菜单中隐藏未来区域的进化石",
+      "line": 818
+    },
+    "Progress bar showing as incomplete when an Oak Item is ready to be upgraded": {
+      "translation": "当 Oak 物品准备好升级时，进度条显示为不完整",
+      "line": 819
+    },
+    "v0.8.15": {
+      "translation": "",
+      "line": 822
+    },
+    "Team Plasma questline": {
+      "translation": "等离子队任务线",
+      "line": 823
+    },
+    "Shards are now called Gems": {
+      "translation": "碎片现在称为宝石",
+      "line": 824
+    },
+    "Adjusted some dungeon loot": {
+      "translation": "调整了一些迷宫战利品",
+      "line": 825
+    },
+    "DNA no longer shows in master farmer trades": {
+      "translation": "DNA 不再出现在农民大师的交易中",
+      "line": 826
+    },
+    "Lum berry now affects Haban": {
+      "translation": "腰果现在影响哈班",
+      "line": 827
+    },
+    "Updated route movement hotkeys order (-, +)": {
+      "translation": "更新了路线移动热键顺序（-、+）",
+      "line": 828
+    },
+    "Adjusted Timerball effect": {
+      "translation": "调整了计时器效果",
+      "line": 829
+    },
+    "Updated Sinnoh route 224 requirements": {
+      "translation": "更新了神奥224号线的要求",
+      "line": 830
+    },
+    "Updated dungeon achievement order": {
+      "translation": "更新了迷宫成就顺序",
+      "line": 831
+    },
+    "Updated start menu order": {
+      "translation": "更新了开始菜单顺序",
+      "line": 832
+    },
+    "Trim search text in Pokédex": {
+      "translation": "",
+      "line": 833
+    },
+    "Weather changes": {
+      "translation": "天气变化",
+      "line": 834
+    },
+    "Show players trainer image as the trainer in the dungeon": {
+      "translation": "向玩家展示迷宫中的训练师形象",
+      "line": 835
+    },
+    "Missing shop items": {
+      "translation": "商店物品丢失",
+      "line": 836
+    },
+    "Enigma Discord requirement": {
+      "translation": "Enigma Discord 要求",
+      "line": 837
+    },
+    "Updated some achivement descriptions": {
+      "translation": "更新了一些成就描述",
+      "line": 838
+    },
+    "Updated message about disabling challenges": {
+      "translation": "更新了有关禁用挑战的消息",
+      "line": 839
+    },
+    "Town images breaking if they contained a ' character": {
+      "translation": "如果城镇图像包含 ' 字符，它们就会被破坏",
+      "line": 840
+    },
+    "Some notifications containing extra . characters": {
+      "translation": "一些通知包含额外的 .人物",
+      "line": 841
+    },
+    "MissingNo. appearing in Gyms/Routes": {
+      "translation": "",
+      "line": 842
+    },
+    "Shop evolution items showing incorrect caught status": {
+      "translation": "商店进化物品显示错误的捕获状态",
+      "line": 843
+    },
+    "Dungeon XP gained for defeating Pokémon": {
+      "translation": "击败宝可梦获得迷宫经验",
+      "line": 844
+    },
+    "Minor theme adjustments": {
+      "translation": "小幅主题调整",
+      "line": 845
+    },
+    "New day message no longer appears on new saves": {
+      "translation": "新的一天消息不再出现在新的保存中",
+      "line": 846
+    },
+    "v0.8.14": {
+      "translation": "",
+      "line": 849
+    },
+    "Land vs Water questline in Hoenn": {
+      "translation": "丰缘的陆地与水任务线",
+      "line": 850
+    },
+    "Can now shovel away Mulch in the Farm": {
+      "translation": "现在可以铲掉农场的肥料",
+      "line": 851
+    },
+    "Added some new Pokéball types": {
+      "translation": "添加了一些新的精灵球类型",
+      "line": 852
+    },
+    "Updated Undella Bay on the Unova map": {
+      "translation": "更新了合众地图上的安德拉湾",
+      "line": 853
+    },
+    "Reduced cost of Furfrou (Kabuki)": {
+      "translation": "降低 Furfrou（歌舞伎）的成本",
+      "line": 854
+    },
+    "Adjusted some NPCs": {
+      "translation": "调整了部分NPC",
+      "line": 855
+    },
+    "Extra loot gained from Treasure Scanner now counts towards quests": {
+      "translation": "从宝藏扫描仪获得的额外战利品现在计入任务",
+      "line": 857
+    },
+    "Challenges can now be disabled at any point": {
+      "translation": "现在可以随时禁用挑战",
+      "line": 858
+    },
+    "Can now download saves from main menu": {
+      "translation": "现在可以从主菜单下载保存内容",
+      "line": 859
+    },
+    "Adjusted some shops items": {
+      "translation": "调整了部分商店物品",
+      "line": 860
+    },
+    "Adjusted the way evolutions are shown in Evolution Item modal": {
+      "translation": "调整了进化项目模式中进化的显示方式",
+      "line": 861
+    },
+    "Pokémon have variable health on routes based on HP stat": {
+      "translation": "根据生命值统计，宝可梦在路线上的健康状况各不相同",
+      "line": 862
+    },
+    "Can hide Pokémon that have max protein in the protein menu": {
+      "translation": "可以隐藏蛋白质菜单中蛋白质含量最高的宝可梦",
+      "line": 863
+    },
+    "Saves Shard menu collapsed state": {
+      "translation": "保存碎片菜单折叠状态",
+      "line": 864
+    },
+    "Added more options for notifications relating to the Farm": {
+      "translation": "添加了更多与农场相关的通知选项",
+      "line": 865
+    },
+    "Fixed a problem with dungeons having incorrect item names for loot": {
+      "translation": "修复了迷宫战利品项目名称不正确的问题",
+      "line": 866
+    },
+    "Attack value shown on hover in Battle Frontier": {
+      "translation": "对战开拓区中悬停时显示的攻击值",
+      "line": 867
+    },
+    "Distortion World image on map": {
+      "translation": "地图上的扭曲世界图像",
+      "line": 868
+    },
+    "Progress bar percentages shown": {
+      "translation": "显示进度条百分比",
+      "line": 869
+    },
+    "Extended Johto Pokémon League to cover more map": {
+      "translation": "扩展城都宝可梦联盟以覆盖更多地图",
+      "line": 870
+    },
+    "Gaining dungeon tokens based on new route while catching": {
+      "translation": "捕捉时根据新路线获得迷宫代币",
+      "line": 871
+    },
+    "Offline progress message not shown on new game creation": {
+      "translation": "新游戏创建时不显示离线进度消息",
+      "line": 872
+    },
+    "New Underground deals notification not shown if Underground not unlocked": {
+      "translation": "如果地铁未解锁，则不会显示新的地铁交易通知",
+      "line": 873
+    },
+    "v0.8.13": {
+      "translation": "",
+      "line": 876
+    },
+    "Dungeon loot Mimic encounters": {
+      "translation": "迷宫战利品模拟遭遇",
+      "line": 877
+    },
+    "Added new Furfrou forms": {
+      "translation": "添加了新的弗夫鲁形式",
+      "line": 878
+    },
+    "Team Rocket HP": {
+      "translation": "火箭队生命值",
+      "line": 879
+    },
+    "Dungeon loot not being tracked in statistics": {
+      "translation": "统计中未跟踪迷宫战利品",
+      "line": 880
+    },
+    "Nerfed dungeon loot (still being re-worked)": {
+      "translation": "削弱了迷宫战利品（仍在重新设计中）",
+      "line": 881
+    },
+    "v0.8.12": {
+      "translation": "",
+      "line": 884
+    },
+    "Added 2 new optional (recommended) challenges": {
+      "translation": "添加了2个新的可选（推荐）挑战",
+      "line": 885
+    },
+    "Added 2 new x-mas Pokémon": {
+      "translation": "添加了2个新的圣诞宝可梦",
+      "line": 886
+    },
+    "Added new Johto questline": {
+      "translation": "添加了新的城都任务线",
+      "line": 887
+    },
+    "Added new Johto trainers": {
+      "translation": "添加了新的城都训练师",
+      "line": 888
+    },
+    "Added new Johto dungeons": {
+      "translation": "添加了新的城都迷宫",
+      "line": 889
+    },
+    "Kyurem forms are now obtainable": {
+      "translation": "酋雷姆形态现在可以获得",
+      "line": 890
+    },
+    "Better looting in dungeons": {
+      "translation": "更好地在迷宫中进行掠夺",
+      "line": 891
+    },
+    "Added a Roamer encounter increase boost to Jaboca berries": {
+      "translation": "添加了漫游者遭遇，增加了哈博卡树果的提升",
+      "line": 892
+    },
+    "Updated Logbook encounter message formatting": {
+      "translation": "更新了日志遭遇消息格式",
+      "line": 893
+    },
+    "Reduced Plume Fossil sizing": {
+      "translation": "减少羽化石尺寸",
+      "line": 894
+    },
+    "Adjusted Castform encounters": {
+      "translation": "",
+      "line": 895
+    },
+    "Adjusted some items purchase locations": {
+      "translation": "调整了部分物品购买地点",
+      "line": 897
+    },
+    "Shuffled around some item orders in menus": {
+      "translation": "调整了菜单中的一些项目顺序",
+      "line": 898
+    },
+    "Minor text fixes": {
+      "translation": "小文本修复",
+      "line": 899
+    },
+    "Being able to go into Bait debt in the Safari Zone": {
+      "translation": "能够在野生动物区陷入诱饵债务",
+      "line": 900
+    },
+    "v0.8.11": {
+      "translation": "",
+      "line": 903
+    },
+    "Trainers and Background will now show a list of images when changing them on your profile": {
+      "translation": "现在，在你的个人资料上更改图像时，培训师和背景将显示图像列表",
+      "line": 904
+    },
+    "Hatchery and Protein list now sort independently of Party": {
+      "translation": "孵化场和蛋白质列表现在独立于派对进行排序",
+      "line": 905
+    },
+    "Hatchery and Protein list not sorting": {
+      "translation": "孵化场和蛋白质列表未排序",
+      "line": 906
+    },
+    "v0.8.10": {
+      "translation": "",
+      "line": 909
+    },
+    "Allow using web workers for game ticks": {
+      "translation": "允许使用网络工作者进行游戏刻度",
+      "line": 910
+    },
+    "Added setting to not reset shop amount when purchasing": {
+      "translation": "新增购买时不重置商店金额的设置",
+      "line": 911
+    },
+    "Updated Sinnoh route orders and encounters": {
+      "translation": "更新了神奥路线顺序和遭遇",
+      "line": 912
+    },
+    "Updated Slowpoke rare item drops": {
+      "translation": "",
+      "line": 913
+    },
+    "Added Farm, Daycare, Underground locations to all maps": {
+      "translation": "在所有地图中添加了农场、日托、采掘场位置",
+      "line": 914
+    },
+    "Moved a few dungeons out of towns": {
+      "translation": "将一些迷宫移出了城镇",
+      "line": 915
+    },
+    "Updated Kalos visually": {
+      "translation": "更新了卡洛斯的视觉效果",
+      "line": 916
+    },
+    "Lowered some berry unlock requirements": {
+      "translation": "降低了一些树果解锁要求",
+      "line": 917
+    },
+    "When shoveling a fully grown crop it will be harvested instead": {
+      "translation": "当铲掉完全成熟的农作物时，它将被收获",
+      "line": 918
+    },
+    "Lag caused by sorting by Pokémon attack": {
+      "translation": "因宝可梦攻击造成的排序延迟",
+      "line": 919
+    },
+    "Auto Gym button sizing": {
+      "translation": "自动健身按钮大小",
+      "line": 920
+    },
+    "Reduce some lag": {
+      "translation": "减少一些滞后",
+      "line": 921
+    },
+    "v0.8.9": {
+      "translation": "",
+      "line": 925
+    },
+    "Log book can now be filtered by event type": {
+      "translation": "现在可以按事件类型过滤日志",
+      "line": 926
+    },
+    "Regional Pokédex achievements": {
+      "translation": "",
+      "line": 927
+    },
+    "Protein achievements": {
+      "translation": "蛋白质成就",
+      "line": 928
+    },
+    "Gym auto re-battle system": {
+      "translation": "道馆自动重战系统",
+      "line": 929
+    },
+    "Updated Kalos environments": {
+      "translation": "更新了 Kalos 环境",
+      "line": 930
+    },
+    "Added a legend to the map": {
+      "translation": "向地图添加了图例",
+      "line": 931
+    },
+    "Misc text fixes": {
+      "translation": "其他文本修复",
+      "line": 932
+    },
+    "Some locations not showing as locked": {
+      "translation": "某些位置未显示为锁定状态",
+      "line": 933
+    },
+    "Missing/incorrect code contributors links": {
+      "translation": "",
+      "line": 934
+    },
+    "Dungeon grid lines not appearing on FireFox": {
+      "translation": "迷宫网格线未出现在 FireFox 上",
+      "line": 935
+    },
+    "MissingNo. appearing in log book": {
+      "translation": "失踪号出现在日志中",
+      "line": 936
+    },
+    "MissingNo. appearing in Battle Frontier": {
+      "translation": "失踪号出现在对战开拓区中",
+      "line": 937
+    },
+    "v0.8.8": {
+      "translation": "",
+      "line": 940
+    },
+    "Credits modal for sprites and code contributions": {
+      "translation": "精灵和代码贡献的积分模式",
+      "line": 941
+    },
+    "Can only move to tiles adjacent to visited tiles within Dungeons": {
+      "translation": "只能移动到迷宫内与访问过的图块相邻的图块",
+      "line": 942
+    },
+    "Can start attacking Gyms as soon as the GO text appears": {
+      "translation": "一旦出现 GO 文本就可以开始攻击道馆",
+      "line": 943
+    },
+    "Added more NPCs": {
+      "translation": "添加了更多 NPC",
+      "line": 944
+    },
+    "Farm hands will restore energy while not hired": {
+      "translation": "农场帮手在不被雇佣的情况下会恢复能量",
+      "line": 945
+    },
+    "Game settings are now stored within the each individual save": {
+      "translation": "游戏设置现在存储在每个单独的保存中",
+      "line": 946
+    },
+    "Route highlights for uncaught Pokémon, uncaught shiny Pokémon": {
+      "translation": "未捕获的宝可梦、未捕获的异色宝可梦的路线亮点",
+      "line": 947
+    },
+    "Settings to change colors of route highlights": {
+      "translation": "更改路线高亮颜色的设置",
+      "line": 948
+    },
+    "Dungeons now decrease in size for every 10, 100, 1000 etc clears": {
+      "translation": "现在，每通关10、100、1000次等，迷宫的大小就会减小",
+      "line": 949
+    },
+    "Show net value of Underground in footer": {
+      "translation": "在页脚中显示采掘场的净值",
+      "line": 950
+    },
+    "Some Fossils appearing in the underground too early": {
+      "translation": "部分化石过早出现在采掘场",
+      "line": 951
+    },
+    "Dungeon trainers re-appearing after failing them previously": {
+      "translation": "迷宫训练师在之前失败后重新出现",
+      "line": 952
+    },
+    "v0.8.7": {
+      "translation": "",
+      "line": 955
+    },
+    "(BETA) Added Farm Hands (Farm Automation) - Check out the Help tab in the Farm for more info": {
+      "translation": "（测试版）添加了农场帮手（农场自动化） - 查看农场中的“帮助”选项卡以获取更多信息",
+      "line": 956
+    },
+    "Added an option to hide challenge related modules": {
+      "translation": "添加了隐藏挑战相关模块的选项",
+      "line": 957
+    },
+    "Display total route defeats when on a route": {
+      "translation": "显示路线上的总路线失败次数",
+      "line": 958
+    },
+    "Player will return to last Dungeon/Town they were in before closing game": {
+      "translation": "",
+      "line": 959
+    },
+    "Buffed Pokémon typed quest reward amounts": {
+      "translation": "增强宝可梦类型的任务奖励金额",
+      "line": 960
+    },
+    "Should no longer receive quest that cannot be completed right now (unless starting a new region)": {
+      "translation": "不应再收到现在无法完成的任务（除非开始一个新区域）",
+      "line": 961
+    },
+    "Nerfed Dungeon Token gains in Dungeons": {
+      "translation": "Nerfed 迷宫代币在迷宫中获得",
+      "line": 962
+    },
+    "Added unobtainable berries for No Oak Item saves to Johto Berry Master (must have prerequisites to purchase)": {
+      "translation": "添加了无法获得的树果，用于无大木博士道具保存到城都树果大师（必须满足购买先决条件）",
+      "line": 963
+    },
+    "Minor theme fixes": {
+      "translation": "小主题修复",
+      "line": 964
+    },
+    "Trainer image fixes": {
+      "translation": "教练图像修复",
+      "line": 965
+    },
+    "Being able to win and lose when fighting a Gym": {
+      "translation": "在道馆战斗时能够获胜和失败",
+      "line": 966
+    },
+    "v0.8.6": {
+      "translation": "",
+      "line": 969
+    },
+    "Buffed Capture Pokémon Type quest rewards": {
+      "translation": "增强捕捉宝可梦类型任务奖励",
+      "line": 971
+    },
+    "Buffed Pledge Grove": {
+      "translation": "抛光的承诺格罗夫",
+      "line": 972
+    },
+    "Decrease shop multiplier when fighting Trainers/Gyms/Elite 4": {
+      "translation": "",
+      "line": 973
+    },
+    "Boss icon visible on light themes": {
+      "translation": "浅色主题上可见的 Boss 图标",
+      "line": 974
+    },
+    "Some Pokémon level speed types": {
+      "translation": "一些宝可梦等级速度类型",
+      "line": 975
+    },
+    "Achievements percentage going above maximum": {
+      "translation": "成就百分比高于最高值",
+      "line": 976
+    },
+    "Quest box sometimes dissapearing": {
+      "translation": "任务箱有时会消失",
+      "line": 977
+    },
+    "v0.8.5": {
+      "translation": "",
+      "line": 981
+    },
+    "Battle Frontier not awarding items": {
+      "translation": "对战开拓区不奖励物品",
+      "line": 982
+    },
+    "v0.8.4": {
+      "translation": "",
+      "line": 985
+    },
+    "Able to unlock Apicot and Lancat berries": {
+      "translation": "能够解锁 Apicot 和 Lancat 树果",
+      "line": 986
+    },
+    "Added Farming related achievements": {
+      "translation": "添加了农业相关成就",
+      "line": 987
+    },
+    "Added Battle Frontier related achievements": {
+      "translation": "添加了与对战开拓区相关的成就",
+      "line": 988
+    },
+    "Added option to settings menu to shorten currency amounts displayed on main game screen": {
+      "translation": "在设置菜单中添加了选项，以缩短主游戏屏幕上显示的货币金额",
+      "line": 989
+    },
+    "Added Offline earnings for money (max of 24 hours)": {
+      "translation": "添加了离线金钱收入（最多24小时）",
+      "line": 990
+    },
+    "Added a couple of new quest types": {
+      "translation": "添加了一些新的任务类型",
+      "line": 991
+    },
+    "Buffed click attack calculation": {
+      "translation": "buffed点击攻击计算",
+      "line": 992
+    },
+    "Nerfed Kalos Route 22 HP": {
+      "translation": "削弱卡洛斯22号道路 HP",
+      "line": 993
+    },
+    "Englarged clickable area for Kanto map towns and dungeons": {
+      "translation": "关东地图城镇和迷宫的放大可点击区域",
+      "line": 994
+    },
+    "Vivillon base form changed to Vivillon (Meadow)": {
+      "translation": "Vivillon 基础形态更改为 Vivillon（草地）",
+      "line": 995
+    },
+    "Removed Rare Candy from shops until it has a use": {
+      "translation": "将神奇糖果从商店中移除直至其有用途",
+      "line": 996
+    },
+    "Vivillon quest step not being completable if you had already defeated stage 666 in the Battle Frontier": {
+      "translation": "如果你已经在对战开拓区击败了第666关，则 Vivillon 任务步骤无法完成",
+      "line": 997
+    },
+    "Some Gyms had incorrect HP": {
+      "translation": "一些道馆的生命值不正确",
+      "line": 998
+    },
+    "Some trainers teams": {
+      "translation": "部分教练团队",
+      "line": 999
+    },
+    "Some Pokémon were not counted towards the catch a type quests": {
+      "translation": "一些宝可梦不计入捕捉类型任务",
+      "line": 1000
+    },
+    "Show item count for non Underground items in the Daily deals": {
+      "translation": "在每日交易中显示非采掘场物品的数量",
+      "line": 1001
+    },
+    "Being able to enter some dungeons early": {
+      "translation": "能够尽早进入一些迷宫",
+      "line": 1002
+    },
+    "v0.8.3": {
+      "translation": "",
+      "line": 1005
+    },
+    "Vivillon quest line": {
+      "translation": "维维永任务线",
+      "line": 1006
+    },
+    "Achievement bonus percentage now also applies to Dungeon Tokens": {
+      "translation": "成就奖励百分比现在也适用于迷宫代币",
+      "line": 1007
+    },
+    "Added Mystery Egg to Unova shop": {
+      "translation": "向 Unova 商店添加了神秘蛋",
+      "line": 1008
+    },
+    "Updated the look of most maps": {
+      "translation": "更新了大多数地图的外观",
+      "line": 1009
+    },
+    "Added an icon to dungeon bosses": {
+      "translation": "为迷宫首领添加了图标",
+      "line": 1010
+    },
+    "Show inventory amount of item you are receiving from Underground daily deal": {
+      "translation": "显示你从 Underground 每日交易中收到的商品的库存量",
+      "line": 1011
+    },
+    "Updated Oak Item achivements for no click challenge players": {
+      "translation": "为无点击挑战玩家更新了大木博士道具成就",
+      "line": 1012
+    },
+    "Underground not refreshing after completing layer and purchasing size upgrade": {
+      "translation": "完成挖掘层并购买尺寸升级后采掘场未刷新",
+      "line": 1013
+    },
+    "Softlock from Safari Ticket and Shard Case if the user refreshed the page after obtaining a badge": {
+      "translation": "如果用户在获得徽章后刷新页面，则 Safari Ticket 和 Shard Case 会出现软锁",
+      "line": 1014
+    },
+    "Gym/Elite Four money reward amounts": {
+      "translation": "",
+      "line": 1016
+    },
+    "Kanto dock ship not showing on client": {
+      "translation": "关东码头船未显示在客户端上",
+      "line": 1017
+    },
+    "Pokémon League images": {
+      "translation": "宝可梦联盟图像",
+      "line": 1018
+    },
+    "When purchasing multiple shop Pokémon the shiny chance was only rolled once": {
+      "translation": "当购买多个商店宝可梦时，异色的机会只会滚动一次",
+      "line": 1019
+    },
+    "Some Pokémon silhouettes showing colors when not obtained yet": {
+      "translation": "一些尚未获得的宝可梦轮廓会显示颜色",
+      "line": 1020
+    },
+    "v0.8.2": {
+      "translation": "",
+      "line": 1023
+    },
+    "Added in game FAQ": {
+      "translation": "新增游戏常见问题解答",
+      "line": 1024
+    },
+    "Updated look of Kanto map": {
+      "translation": "更新了关东地图的外观",
+      "line": 1025
+    },
+    "Added achievement for maxing all 12 Oak items": {
+      "translation": "添加了最大化所有12个大木博士道具的成就",
+      "line": 1026
+    },
+    "Hatched display value not updating in hatchery": {
+      "translation": "孵化场中的孵化显示值未更新",
+      "line": 1027
+    },
+    "Various text fixes": {
+      "translation": "各种文本修复",
+      "line": 1028
+    },
+    "Dungeon bosses can now drop held items": {
+      "translation": "迷宫首领现在可以掉落持有的物品",
+      "line": 1029
+    },
+    "Update some dungeon trainers HP": {
+      "translation": "更新部分迷宫训练师HP",
+      "line": 1030
+    },
+    "2nd part of re-capturing tutorial is now optional, as may still appear odd on some browsers": {
+      "translation": "重新捕获教程的第二部分现在是可选的，因为在某些浏览器上可能仍然显得奇怪",
+      "line": 1031
+    },
+    "v0.8.1": {
+      "translation": "",
+      "line": 1034
+    },
+    "Added Kalos fossil Pokémon": {
+      "translation": "添加了卡洛斯化石宝可梦",
+      "line": 1035
+    },
+    "Added trainers to Hoenn dungeons": {
+      "translation": "为 Hoenn 迷宫添加了训练师",
+      "line": 1036
+    },
+    "Added trainers to Unova dungeons": {
+      "translation": "为合众迷宫添加了训练师",
+      "line": 1037
+    },
+    "Tidy up some badge sprites": {
+      "translation": "整理一些徽章精灵",
+      "line": 1038
+    },
+    "Starting tutorial no longer skippable": {
+      "translation": "开始教程不再可跳过",
+      "line": 1039
+    },
+    "Hide unobtainable achievements when running challenge modes": {
+      "translation": "运行挑战模式时隐藏无法获得的成就",
+      "line": 1040
+    },
+    "Added starting towns to Unova and Kalos": {
+      "translation": "为乌诺瓦和卡洛斯添加了起始城镇",
+      "line": 1041
+    },
+    "Fixed a few Pokémon sprites": {
+      "translation": "修复了一些宝可梦精灵",
+      "line": 1042
+    },
+    "Added some missing/unobtainable Kalos Pokémon": {
+      "translation": "",
+      "line": 1044
+    },
+    "v0.8.0": {
+      "translation": "",
+      "line": 1047
+    },
+    "Kalos": {
+      "translation": "卡洛斯",
+      "line": 1047
+    },
+    "The Kalos region is now available!\n<i>Some trainer sprites will be missing</i>": {
+      "translation": "",
+      "line": 1048
+    },
+    "Fixed missing Battle Frontier images": {
+      "translation": "修复了丢失的对战开拓区图像",
+      "line": 1049
+    },
+    "Attempt to fix svg image on map for older Safari versions": {
+      "translation": "尝试修复旧版 Safari 地图上的 svg 图像",
+      "line": 1050
+    },
+    "v0.7.9": {
+      "translation": "",
+      "line": 1053
+    },
+    "Attempting to fix some lag, please report on Discord/Github if you are still having major lag compared with v0.7.7, there may be a few patches pushed out for testing": {
+      "translation": "",
+      "line": 1054
+    },
+    "v0.7.8": {
+      "translation": "",
+      "line": 1057
+    },
+    "Increased roamer odds on specific routes changing every 8 hours, NPCs in certain towns will tell you the current route": {
+      "translation": "每8小时改变一次特定路线的漫游几率增加，某些城镇的NPC会告诉你当前的路线",
+      "line": 1058
+    },
+    "Mine items quest in Underground": {
+      "translation": "采掘场挖掘物品任务",
+      "line": 1059
+    },
+    "Fixed dungeon token gain": {
+      "translation": "修复了迷宫代币增益",
+      "line": 1060
+    },
+    "Safari Zone animations": {
+      "translation": "Safari 区动画",
+      "line": 1061
+    },
+    "Safari Zone encounter statistics": {
+      "translation": "Safari Zone 遭遇统计",
+      "line": 1062
+    },
+    "Some roaming event mons": {
+      "translation": "一些漫游事件",
+      "line": 1063
+    },
+    "Not being able to import saves from < v0.5.x": {
+      "translation": "无法导入 v0.5.x 以下版本的存档",
+      "line": 1064
+    },
+    "v0.7.7": {
+      "translation": "",
+      "line": 1067
+    },
+    "Fixed currency quests": {
+      "translation": "固定货币任务",
+      "line": 1068
+    },
+    "Fixed currency multipliers": {
+      "translation": "固定货币乘数",
+      "line": 1069
+    },
+    "Fixed quest refreshing without waiting for confirmation": {
+      "translation": "修复任务刷新无需等待确认的问题",
+      "line": 1070
+    },
+    "v0.7.6": {
+      "translation": "",
+      "line": 1073
+    },
+    "Oak item loadouts": {
+      "translation": "大木博士道具装载",
+      "line": 1074
+    },
+    "No more impossible quest when doing challenges": {
+      "translation": "挑战时不再有不可能的任务",
+      "line": 1075
+    },
+    "Able to delete saves on the windows client": {
+      "translation": "能够在Windows客户端上删除保存",
+      "line": 1076
+    },
+    "Dungeon Trainers Pokémon will now reward Dungeon Tokens when defeated": {
+      "translation": "迷宫训练师宝可梦现在在被击败时会奖励迷宫代币",
+      "line": 1077
+    },
+    "Dungeon Trainers will now reward Money when defeated": {
+      "translation": "迷宫训练师现在在被击败时会奖励金钱",
+      "line": 1078
+    },
+    "Sound not remembering previously set volume": {
+      "translation": "声音不记得之前设置的音量",
+      "line": 1079
+    },
+    "Let's Go mons not showing in Pokémon list": {
+      "translation": "Let's Go mons 未出现在宝可梦列表中",
+      "line": 1080
+    },
+    "Some missing stone evolutions": {
+      "translation": "一些缺失的石头进化",
+      "line": 1081
+    },
+    "Elite four shortcut keys working again": {
+      "translation": "精英四快捷键再次可用",
+      "line": 1082
+    },
+    "Fixed some Pokémon shop sprites": {
+      "translation": "修复了一些宝可梦商店精灵",
+      "line": 1083
+    },
+    "Fixed some missing trainer sprites": {
+      "translation": "修复了一些缺失的训练师精灵",
+      "line": 1084
+    },
+    "Fixed some routes/dungeons showing incorrect backgrounds": {
+      "translation": "",
+      "line": 1085
+    },
+    "Saved game not importing if settings are not set": {
+      "translation": "如果未设置设置，则不会导入已保存的游戏",
+      "line": 1086
+    },
+    "v0.7.5": {
+      "translation": "",
+      "line": 1089
+    },
+    "Fix proteins not increasing on usage": {
+      "translation": "修复蛋白质在使用时不增加的问题",
+      "line": 1090
+    },
+    "Some trainer images not loading": {
+      "translation": "一些教练图片无法加载",
+      "line": 1091
+    },
+    "Dynamic Pokémon disappearing  before leaving screen": {
+      "translation": "",
+      "line": 1092
+    },
+    "v0.7.4": {
+      "translation": "",
+      "line": 1095
+    },
+    "Challenges, Trainers and Saves": {
+      "translation": "挑战、教练和救球",
+      "line": 1095
+    },
+    "Multiple save file support": {
+      "translation": "多个保存文件支持",
+      "line": 1096
+    },
+    "Challenge modes": {
+      "translation": "挑战模式",
+      "line": 1097
+    },
+    "Trainers added to Kanto Dungeons": {
+      "translation": "关东迷宫添加训练师",
+      "line": 1098
+    },
+    "Log wandering Pokémon for Farm": {
+      "translation": "农场的日志流浪宝可梦",
+      "line": 1099
+    },
+    "Change Lum berry Aura effect": {
+      "translation": "改变 Lum berry 光环效果",
+      "line": 1100
+    },
+    "Add more Burmy forms": {
+      "translation": "添加更多 Burmy 表格",
+      "line": 1101
+    },
+    "Underground items can spawn in any rotation": {
+      "translation": "采掘物品可以任意旋转生成",
+      "line": 1102
+    },
+    "Quest generation updated": {
+      "translation": "任务生成已更新",
+      "line": 1103
+    },
+    "Dynamic background Pokémon now have variable speed": {
+      "translation": "动态背景宝可梦现在具有可变速度",
+      "line": 1104
+    },
+    "Leave button won't appear in Dungeon until the player has moved": {
+      "translation": "在玩家移动之前，离开按钮不会出现在迷宫中",
+      "line": 1105
+    },
+    "Underground survey upgrade display": {
+      "translation": "采掘探测升级显示",
+      "line": 1106
+    },
+    "Fix Heatran & Kyurem HP": {
+      "translation": "修复 Heatran 和 Kyurem HP",
+      "line": 1107
+    },
+    "Underground no longer notifies on new game": {
+      "translation": "新游戏时采掘场不再弹出通知",
+      "line": 1108
+    },
+    "Hide future region forms from Battle Frontier": {
+      "translation": "从《对战开拓区》中隐藏未来的区域形态",
+      "line": 1109
+    },
+    "Fixed quick catch glitch": {
+      "translation": "修复了快速捕获故障",
+      "line": 1110
+    },
+    "v0.7.3": {
+      "translation": "",
+      "line": 1113
+    },
+    "Underground": {
+      "translation": "采掘场",
+      "line": 1113
+    },
+    "Underground revamped": {
+      "translation": "采掘场改版",
+      "line": 1114
+    },
+    "More Pokémon held items added": {
+      "translation": "添加了更多宝可梦持有的物品",
+      "line": 1115
+    },
+    "Add tooltips to battle item values": {
+      "translation": "为战斗物品值添加工具提示",
+      "line": 1116
+    },
+    "Misc Farm changes and fixes": {
+      "translation": "其他农场的更改和修复",
+      "line": 1117
+    },
+    "Add Leave button to dungeon entrance": {
+      "translation": "在迷宫入口添加离开按钮",
+      "line": 1118
+    },
+    "Hatchery steps given from Unvoa dungeons": {
+      "translation": "Unvoa 迷宫给出的孵化场步骤",
+      "line": 1119
+    },
+    "Old Amber quest reward": {
+      "translation": "老琥珀任务奖励",
+      "line": 1120
+    },
+    "Event description line breaks": {
+      "translation": "事件描述换行符",
+      "line": 1121
+    },
+    "v0.7.2": {
+      "translation": "",
+      "line": 1124
+    },
+    "Poison Barb not gaining experience": {
+      "translation": "毒倒刺无法获得经验",
+      "line": 1125
+    },
+    "Map tooltips not always showing": {
+      "translation": "地图工具提示并不总是显示",
+      "line": 1126
+    },
+    "v0.7.1": {
+      "translation": "",
+      "line": 1129
+    },
+    "Unova Fossils now available in the Underground": {
+      "translation": "合众化石现在可在地下获得",
+      "line": 1130
+    },
+    "Add option to display Pokédex ID in hatchery": {
+      "translation": "",
+      "line": 1131
+    },
+    "Save achievement filters": {
+      "translation": "保存成就过滤器",
+      "line": 1132
+    },
+    "Use multiple Protein at once": {
+      "translation": "一次使用多种蛋白质",
+      "line": 1133
+    },
+    "Buff P2 Lab, increase boss pool": {
+      "translation": "增强P2实验室，增加boss池",
+      "line": 1134
+    },
+    "Fixed some parasitic Farm mutations": {
+      "translation": "修复了一些寄生农场突变",
+      "line": 1135
+    },
+    "Fixed shiny chance when hatching and using Shiny Charm": {
+      "translation": "修复了孵化和使用异色护符时的异色几率",
+      "line": 1136
+    },
+    "Vermilion City image & name": {
+      "translation": "枯叶市形象和名称",
+      "line": 1137
+    },
+    "Quest changing when traveling to a new region": {
+      "translation": "前往新地区时任务会发生变化",
+      "line": 1138
+    },
+    "v0.7.0": {
+      "translation": "",
+      "line": 1141
+    },
+    "Unova": {
+      "translation": "合众",
+      "line": 1141
+    },
+    "The Unova region is now available!": {
+      "translation": "合众地区现已开放！",
+      "line": 1142
+    },
+    "Added notification for when Berry about to wither": {
+      "translation": "添加了树果即将枯萎时的通知",
+      "line": 1143
+    },
+    "Route HP slightly buffed": {
+      "translation": "路线生命值略有提升",
+      "line": 1145
+    },
+    "Some Gyms and Dungeons HP buffed": {
+      "translation": "一些道馆和迷宫的生命值得到增强",
+      "line": 1146
+    },
+    "Babiri berry removed from Enigma pool": {
+      "translation": "巴比里树果从恩尼格玛池中移除",
+      "line": 1147
+    },
+    "v0.6.9": {
+      "translation": "",
+      "line": 1150
+    },
+    "Give free quest refresh on all quests completed": {
+      "translation": "为所有已完成的任务提供免费的任务刷新",
+      "line": 1151
+    },
+    "Updated some environments": {
+      "translation": "更新了一些环境",
+      "line": 1152
+    },
+    "Buffed Babiri berry effect": {
+      "translation": "抛光巴比里树果效果",
+      "line": 1153
+    },
+    "Buffed Enigma berry": {
+      "translation": "抛光恩尼格玛树果",
+      "line": 1154
+    },
+    "Buffed Farm wandering Pokémon rate": {
+      "translation": "农场流浪宝可梦率提高",
+      "line": 1155
+    },
+    "Updated Petaya berry effect": {
+      "translation": "更新了 Petaya 树果效果",
+      "line": 1156
+    },
+    "Updated Kasib berry effect": {
+      "translation": "更新了卡西布树果效果",
+      "line": 1157
+    },
+    "Added hints for more berries": {
+      "translation": "添加了更多树果的提示",
+      "line": 1158
+    },
+    "Updated some NPC text": {
+      "translation": "更新了一些 NPC 文本",
+      "line": 1159
+    },
+    "Buffed egg steps for baby Pokémon": {
+      "translation": "宝可梦宝宝的抛光蛋步",
+      "line": 1160
+    },
+    "Nerfed egg steps for evolved Pokémon forms": {
+      "translation": "削弱了进化宝可梦形态的蛋步",
+      "line": 1161
+    },
+    "Fixed Farm auras not updating": {
+      "translation": "固定农场光环不更新",
+      "line": 1162
+    },
+    "Modals locking game if clicked too fast": {
+      "translation": "如果点击太快，模态会锁定游戏",
+      "line": 1163
+    },
+    "v0.6.8": {
+      "translation": "",
+      "line": 1166
+    },
+    "Added weather to the regions": {
+      "translation": "为各地区添加天气",
+      "line": 1167
+    },
+    "Empty Hatchery queue notification added": {
+      "translation": "添加了空孵化场队列通知",
+      "line": 1168
+    },
+    "Nerfed Heatran": {
+      "translation": "削弱希特兰",
+      "line": 1169
+    },
+    "Fixed some Farm mutations": {
+      "translation": "修复了一些农场突变",
+      "line": 1171
+    },
+    "Can no longer move around the Safari Zone before paying": {
+      "translation": "付款前无法再在 Safari 区域内移动",
+      "line": 1173
+    },
+    "v0.6.7": {
+      "translation": "",
+      "line": 1176
+    },
+    "Added some more NPC around Kanto": {
+      "translation": "在关东地区添加了更多 NPC",
+      "line": 1177
+    },
+    "Doubled the chance of encountering uncaught Roaming Pokémon": {
+      "translation": "遇到未捕获的漫游宝可梦的几率翻倍",
+      "line": 1178
+    },
+    "Save category filter in Hatchery upon reloading": {
+      "translation": "重新加载后将类别过滤器保存在孵化场中",
+      "line": 1179
+    },
+    "Decreased the Shovel cost": {
+      "translation": "降低了铲子成本",
+      "line": 1180
+    },
+    "Farm items cost decreases faster based on berry type harvested": {
+      "translation": "根据收获的树果类型，农产品成本下降得更快",
+      "line": 1181
+    },
+    "Recalculate Pokémon attack upon hatch": {
+      "translation": "重新计算宝可梦孵化时的攻击",
+      "line": 1183
+    },
+    "Fixed larger BerryDex timers": {
+      "translation": "修复了较大的 BerryDex 计时器",
+      "line": 1185
+    },
+    "Fixed quests auto refreshing if you gain a level then refreshed the page": {
+      "translation": "修复了如果你获得等级然后刷新页面，任务会自动刷新的问题",
+      "line": 1186
+    },
+    "Fix Quickball on routes with less than 10 kills": {
+      "translation": "修复击杀人数少于10人的路线上的 Quickball",
+      "line": 1187
+    },
+    "v0.6.6": {
+      "translation": "",
+      "line": 1190
+    },
+    "Show shiny symbol for Pokémon in Protein modal": {
+      "translation": "在蛋白质模式中显示宝可梦的异色符号",
+      "line": 1191
+    },
+    "Achievement pages being empty after completing last item on page": {
+      "translation": "完成页面上的最后一项后，成就页面为空",
+      "line": 1192
+    },
+    "Start menu visible while loading screen shown": {
+      "translation": "显示加载屏幕时可见开始菜单",
+      "line": 1193
+    },
+    "Save update from older versions": {
+      "translation": "保存旧版本的更新",
+      "line": 1194
+    },
+    "Time displayed in BerryDex": {
+      "translation": "BerryDex 中显示的时间",
+      "line": 1195
+    },
+    "Pokédex hide shiny images toggle correctly reflects current state": {
+      "translation": "",
+      "line": 1196
+    },
+    "v0.6.5": {
+      "translation": "",
+      "line": 1199
+    },
+    "Added toggle to hide shiny images in Pokédex": {
+      "translation": "",
+      "line": 1200
+    },
+    "New display options added to Hatchery": {
+      "translation": "孵化场添加了新的显示选项",
+      "line": 1201
+    },
+    "Can sort Pokémon list by total proteins used": {
+      "translation": "可以按使用的总蛋白质对宝可梦列表进行排序",
+      "line": 1202
+    },
+    "New Pokéball types added, Can be obtained by trading with the Johto Berry Master": {
+      "translation": "添加了新的神奇球类型，可以通过与城都树果大师交易获得",
+      "line": 1203
+    },
+    "Add setting to switch between different growth timers in the Farm": {
+      "translation": "添加设置以在农场中的不同生长计时器之间切换",
+      "line": 1204
+    },
+    "Nerfed Protein, only 5 can be used per region visited": {
+      "translation": "Nerfed Protein，每个访问区域只能使用5个",
+      "line": 1205
+    },
+    "Protein is now used from the Items menu": {
+      "translation": "现在可以从“物品”菜单中使用蛋白质",
+      "line": 1206
+    },
+    "Updated BerryDex to show more readable time format": {
+      "translation": "更新了 BerryDex 以显示更易读的时间格式",
+      "line": 1207
+    },
+    "Berries are less likely to mutate nearby plots to themselves": {
+      "translation": "树果不太可能使附近的地块发生变异",
+      "line": 1208
+    },
+    "Berries are less likely to create mutations of themselves": {
+      "translation": "树果不太可能产生自身突变",
+      "line": 1209
+    },
+    "Nerfed some of the Berry Auras": {
+      "translation": "削弱了一些树果光环",
+      "line": 1210
+    },
+    "Increase Farm wandering Pokémon shiny chance": {
+      "translation": "增加农场流浪宝可梦异色的机会",
+      "line": 1211
+    },
+    "Misc Farm changes": {
+      "translation": "其他农场变化",
+      "line": 1212
+    },
+    "Hotkeys will no longer activate while focused on inputs": {
+      "translation": "专注于输入时热键将不再激活",
+      "line": 1214
+    },
+    "Category list no longer cut off in Hacthery": {
+      "translation": "Hactery 中的类别列表不再被切断",
+      "line": 1215
+    },
+    "v0.6.4": {
+      "translation": "",
+      "line": 1218
+    },
+    "More Farm statistics": {
+      "translation": "更多农场统计数据",
+      "line": 1219
+    },
+    "UI/text changes": {
+      "translation": "",
+      "line": 1220
+    },
+    "Farm flavor mutations are more strict and less invasive": {
+      "translation": "农场风味突变更严格、侵入性更小",
+      "line": 1221
+    },
+    "Hide locked berries in trade window": {
+      "translation": "将锁定的树果隐藏在贸易窗口中",
+      "line": 1222
+    },
+    "Quest not completing if restarted after being quit": {
+      "translation": "退出后重新启动任务无法完成",
+      "line": 1223
+    },
+    "Farm mulches can now be applied multiple times per plot": {
+      "translation": "农场肥料现在可以在每个地块上多次施用",
+      "line": 1224
+    },
+    "Oak items upgraded currency shows correct currency": {
+      "translation": "大木博士道具升级货币显示正确的货币",
+      "line": 1225
+    },
+    "Berry hints updating correctly each day": {
+      "translation": "Berry 提示每天正确更新",
+      "line": 1226
+    },
+    "Fixed some lag": {
+      "translation": "修复了一些滞后",
+      "line": 1227
+    },
+    "v0.6.3": {
+      "translation": "",
+      "line": 1230
+    },
+    "Show Berry hints in BerryDex": {
+      "translation": "在 BerryDex 中显示 Berry 提示",
+      "line": 1231
+    },
+    "Farm mulch should work correctly now": {
+      "translation": "农场肥料现在应该可以正常工作",
+      "line": 1232
+    },
+    "Update Pokémon native regions": {
+      "translation": "更新宝可梦原生区域",
+      "line": 1233
+    },
+    "Proteins used not based on Battle Item multiplier": {
+      "translation": "使用的蛋白质不基于战斗物品乘数",
+      "line": 1234
+    },
+    "v0.6.1": {
+      "translation": "",
+      "line": 1237
+    },
+    "Added Protein trade to Sinnoh Berry Master": {
+      "translation": "为神奥树果大师添加了蛋白质交易",
+      "line": 1239
+    },
+    "Added multiple button to Mulch in Farm": {
+      "translation": "在农场的肥料中添加了多个按钮",
+      "line": 1240
+    },
+    "Fix Pokémon not appearing in Battle Frontier": {
+      "translation": "修复宝可梦未出现在对战开拓区中的问题",
+      "line": 1241
+    },
+    "Evolution Stones not working": {
+      "translation": "进化石不起作用",
+      "line": 1242
+    },
+    "v0.6.0": {
+      "translation": "",
+      "line": 1245
+    },
+    "Farming": {
+      "translation": "农业",
+      "line": 1245
+    },
+    "Complete Farm overhaul": {
+      "translation": "完成农场大修",
+      "line": 1246
+    },
+    "Hotkeys added for oak items modal (O to open, number keys to toggle items)": {
+      "translation": "为橡木项目模式添加热键（O 打开，数字键切换项目）",
+      "line": 1247
+    },
+    "Hotkeys added for Pokéball selector modal (P + number to open, number keys to toggle items)": {
+      "translation": "为 Pokéball 选择器模式添加了热键（P + 数字键打开，数字键切换项目）",
+      "line": 1248
+    },
+    "More NPCs added around the regions": {
+      "translation": "地区周围添加了更多 NPC",
+      "line": 1249
+    },
+    "Other Deoxys forms obtainable in the Battle Frontier": {
+      "translation": "",
+      "line": 1250
+    },
+    "Protein item now has a use, buy from Pokémon League, use in Hatchery": {
+      "translation": "蛋白质物品现在有用途了，从宝可梦联盟购买，在孵化场使用",
+      "line": 1251
+    },
+    "Free quest refreshes": {
+      "translation": "免费任务刷新",
+      "line": 1252
+    },
+    "Hatchery filters are now saved upon reload": {
+      "translation": "孵化场过滤器现在在重新加载时保存",
+      "line": 1253
+    },
+    "Damage output modified, dual types nerfed, single types buffed": {
+      "translation": "伤害输出修改，双类型削弱，单类型增强",
+      "line": 1254
+    },
+    "Unlock Kanto route 22 earlier in the game": {
+      "translation": "在游戏早期解锁关东22号公路",
+      "line": 1255
+    },
+    "Show currently locked Dungeon Bosses": {
+      "translation": "显示当前锁定的迷宫首领",
+      "line": 1256
+    },
+    "Modified Sinnoh route difficulty": {
+      "translation": "修改神奥路线难度",
+      "line": 1257
+    },
+    "Display time played as a readable value": {
+      "translation": "将播放时间显示为可读值",
+      "line": 1258
+    },
+    "Quests list not auto refreshed on new day or level up": {
+      "translation": "任务列表不会在新的一天或升级时自动刷新",
+      "line": 1259
+    },
+    "Update Masterball image": {
+      "translation": "更新大师球图像",
+      "line": 1260
+    },
+    "All eggs will auto hatch when steps reached if Pokémon still in the queue": {
+      "translation": "如果宝可梦仍在队列中，当达到步数时，所有鸡蛋都会自动孵化",
+      "line": 1261
+    },
+    "Backup save data corrected": {
+      "translation": "备份保存数据已修正",
+      "line": 1262
+    },
+    "Pokémon List resorted when new Pokémon obtained": {
+      "translation": "当新的宝可梦获得时，宝可梦列表就会重新排列",
+      "line": 1263
+    },
+    "Attack display error": {
+      "translation": "攻击显示错误",
+      "line": 1264
+    },
+    "Acheivements re-filter once acheivement completed": {
+      "translation": "成就完成后会重新过滤成就",
+      "line": 1265
+    },
+    "Swapped Kanto routes 7 and 8": {
+      "translation": "关东7号线和8号线交换",
+      "line": 1266
+    },
+    "Reduce svg image sizes, fix some lag": {
+      "translation": "减小 svg 图像大小，修复一些延迟",
+      "line": 1267
+    },
+    "Reduce screen movement on mobile battle view": {
+      "translation": "减少移动战斗视图中的屏幕移动",
+      "line": 1268
+    },
+    "v0.5.8": {
+      "translation": "",
+      "line": 1271
+    },
+    "Queue functionality added to Hatchery": {
+      "translation": "孵化场添加了队列功能",
+      "line": 1272
+    },
+    "Can add Pokémon to custom Categories, and sort/filter by those": {
+      "translation": "",
+      "line": 1273
+    },
+    "Safari Zone Pokémon can now appear as overworld sprites": {
+      "translation": "Safari Zone 宝可梦现在可以显示为主世界精灵",
+      "line": 1274
+    },
+    "Completed Quest and Achievements will show in the Log Book": {
+      "translation": "已完成的任务和成就将显示在日志中",
+      "line": 1275
+    },
+    "See Pokémon Attack after calculations by hovering Pokémon Attack value": {
+      "translation": "通过悬停宝可梦攻击值计算后查看宝可梦攻击力",
+      "line": 1276
+    },
+    "Add sparkle to shiny overworld sprites for Dynamic Background and Safari Zone": {
+      "translation": "为动态背景和 Safari 区域的异色主世界精灵添加异色",
+      "line": 1277
+    },
+    "Can sort Pokémon by Times Hatched": {
+      "translation": "可以按孵化次数对宝可梦进行排序",
+      "line": 1278
+    },
+    "Boost Dungeon Tokens gained slightly": {
+      "translation": "Boost Dungeon 代币略有增加",
+      "line": 1279
+    },
+    "Updated images, Use svg images for Currency and Pokéballs": {
+      "translation": "更新图像，对货币和精灵球使用 svg 图像",
+      "line": 1280
+    },
+    "Evolution Stones will show a caught indicator in shops": {
+      "translation": "进化石将在商店中显示捕获指示器",
+      "line": 1281
+    },
+    "Display date in changelog when updates occured": {
+      "translation": "更新发生时在变更日志中显示日期",
+      "line": 1282
+    },
+    "Update Gyms Pokémon and defeated text": {
+      "translation": "更新道馆宝可梦和击败文本",
+      "line": 1283
+    },
+    "Update Kanto Pokémon encounters to be based on Pokémon Yellow version": {
+      "translation": "将关东宝可梦遭遇更新为基于宝可梦黄色版本",
+      "line": 1284
+    },
+    "Updated layout of Pokémon List": {
+      "translation": "更新了宝可梦列表的布局",
+      "line": 1285
+    },
+    "Show event Pokémon in the Pokédex": {
+      "translation": "",
+      "line": 1286
+    },
+    "Can no longer upgrade shard effectiveness where there is no usage": {
+      "translation": "无法再升级未使用的分片有效性",
+      "line": 1287
+    },
+    "Roaming Pokémon chance of appearing is now based on route difficulty": {
+      "translation": "漫游宝可梦的出现几率现在取决于路线难度",
+      "line": 1288
+    },
+    "Doubled the chance of encountering uncaught Pokémon in the Safari Zone": {
+      "translation": "在野生动物区遇到未捕获的宝可梦的几率增加了一倍",
+      "line": 1289
+    },
+    "Display Pokéball amount in selector modal": {
+      "translation": "在选择器模式中显示 Pokéball 数量",
+      "line": 1290
+    },
+    "Can no longer start a new Pokémon League battle if modal open": {
+      "translation": "如果模式打开，则无法再开始新的宝可梦联盟战斗",
+      "line": 1291
+    },
+    "Shop cost will no longer go above 100× the base cost": {
+      "translation": "商店成本将不再超过基本成本的100倍",
+      "line": 1292
+    },
+    "Underground hammer will display red box when on edge tiles": {
+      "translation": "挖掘锤子在边缘格子上时会显示红框",
+      "line": 1293
+    },
+    "Mine should no longer soft lock players": {
+      "translation": "采掘场不应再导致玩家卡住",
+      "line": 1294
+    },
+    "Alternate Form Pokémon statistics shown correctly": {
+      "translation": "正确显示替代形态宝可梦统计数据",
+      "line": 1295
+    },
+    "When hatching shop eggs, the Pokémon level will no longer be reset": {
+      "translation": "孵化商店鸡蛋时，宝可梦等级将不再重置",
+      "line": 1296
+    },
+    "Underground daily trades statistic will increment correctly when doing multiple trades": {
+      "translation": "进行多次交易时，采掘场每日交易统计将正确增加",
+      "line": 1297
+    },
+    "Minor display and text fixes": {
+      "translation": "较小的显示和文本修复",
+      "line": 1298
+    },
+    "v0.5.7": {
+      "translation": "",
+      "line": 1301
+    },
+    "Added setting for Hatchery egg ready to hatch animations": {
+      "translation": "添加了孵化场鸡蛋准备孵化动画的设置",
+      "line": 1302
+    },
+    "More NPCs in towns around Johto and Hoenn": {
+      "translation": "城都和丰缘周边城镇有更多 NPC",
+      "line": 1303
+    },
+    "Types displayed in Pokémon statistics modal": {
+      "translation": "宝可梦统计模式中显示的类型",
+      "line": 1304
+    },
+    "Underground Bomb is now upgradable": {
+      "translation": "挖掘炸弹现在可以升级",
+      "line": 1305
+    },
+    "Buttons added to achievement modal to jump to first and last pages": {
+      "translation": "添加到成就模式的按钮可跳转到第一页和最后一页",
+      "line": 1306
+    },
+    "Number keys (1-9) can now be used to start Pokémon League battles": {
+      "translation": "现在可以使用数字键（1-9）开始宝可梦联盟战斗",
+      "line": 1307
+    },
+    "Pokéball selector made smaller, now makes use of a modal": {
+      "translation": "Pokéball 选择器变得更小，现在使用模态",
+      "line": 1308
+    },
+    "Add some spacing to Damage Calculator": {
+      "translation": "在伤害计算器中添加一些间距",
+      "line": 1309
+    },
+    "Hatchery eggs will display in a row of 4 when module is in the middle columnn": {
+      "translation": "当模块位于中间栏时，孵化场鸡蛋将显示为4行",
+      "line": 1310
+    },
+    "Always show total levels in Oak Item tooltips": {
+      "translation": "始终在 Oak Item 工具提示中显示总级别",
+      "line": 1311
+    },
+    "Updated images for shop Pokémon": {
+      "translation": "更新了宝可梦商店的图像",
+      "line": 1312
+    },
+    "Farm images made sharper": {
+      "translation": "农场图像变得更加清晰",
+      "line": 1313
+    },
+    "Dungeons with a large amount of Pokémon will no longer hide the start button": {
+      "translation": "拥有大量宝可梦的迷宫将不再隐藏开始按钮",
+      "line": 1314
+    },
+    "Updated Hatchery sort display": {
+      "translation": "更新了孵化场排序显示",
+      "line": 1315
+    },
+    "Notification sounds normalized": {
+      "translation": "通知声音正常化",
+      "line": 1316
+    },
+    "Sprout images displayed in Farm": {
+      "translation": "农场中显示的发芽图像",
+      "line": 1317
+    },
+    "Achievement modal pages should now show the correct numbers": {
+      "translation": "成就模式页面现在应该显示正确的数字",
+      "line": 1318
+    },
+    "Mine data contained in save data": {
+      "translation": "挖掘保存数据中包含的数据",
+      "line": 1319
+    },
+    "Saves should no longer have issues downloading": {
+      "translation": "保存应该不再有下载问题",
+      "line": 1320
+    },
+    "v0.5.6": {
+      "translation": "",
+      "line": 1323
+    },
+    "Added Damage Calculator to Start Menu": {
+      "translation": "在开始菜单中添加了伤害计算器",
+      "line": 1324
+    },
+    "Background settings Night and Dynamic added": {
+      "translation": "添加了背景设置夜间和动态",
+      "line": 1325
+    },
+    "Walking in the Safari Zone will now add steps to your eggs": {
+      "translation": "现在，在野生动物区行走将为你的鸡蛋添加步骤",
+      "line": 1326
+    },
+    "Achievements added for reaching maximum level on oak items": {
+      "translation": "添加成就以达到大木博士道具的最高水平",
+      "line": 1327
+    },
+    "Added Achievement Tracker module": {
+      "translation": "添加了成就追踪模块",
+      "line": 1328
+    },
+    "Added region filter to Pokédex": {
+      "translation": "",
+      "line": 1329
+    },
+    "Added sort dropdown to the Hatchery": {
+      "translation": "为孵化场添加了排序下拉列表",
+      "line": 1330
+    },
+    "Added setting for shop value increment amount": {
+      "translation": "新增店铺增值金额设置",
+      "line": 1331
+    },
+    "Introduction to some gameplay elements added for new players": {
+      "translation": "为新玩家添加的一些游戏元素介绍",
+      "line": 1332
+    },
+    "Eggs will wobble when they are ready to hatch": {
+      "translation": "当鸡蛋准备孵化时会摇晃",
+      "line": 1333
+    },
+    "Start Menu contains a link to the Wiki": {
+      "translation": "开始菜单包含 Wiki 的链接",
+      "line": 1334
+    },
+    "Can hide the Pokémon filter in the Hatchery": {
+      "translation": "可以隐藏孵化场中的宝可梦过滤器",
+      "line": 1335
+    },
+    "Energy use disabled once you complete a layer in Underground until refreshed": {
+      "translation": "在采掘场完成一层后能量使用将被禁用，直到刷新",
+      "line": 1336
+    },
+    "Added player icon in Dungeons": {
+      "translation": "在迷宫中添加了玩家图标",
+      "line": 1337
+    },
+    "Can see your list of eggs and fossils even if you cannot breed them": {
+      "translation": "即使你无法繁殖，也可以查看你的鸡蛋和化石列表",
+      "line": 1338
+    },
+    "Unobtained Pokémon will show as white on dark themes": {
+      "translation": "未获得的宝可梦将在深色主题上显示为白色",
+      "line": 1339
+    },
+    "Underground will no longer contain multiple deals with the same items": {
+      "translation": "采掘场不再包含相同物品的多个交易",
+      "line": 1340
+    },
+    "Shop prices should no longer overflow when too large": {
+      "translation": "商店价格太大时不应再溢出",
+      "line": 1341
+    },
+    "Discord usernames should no longer affect saves": {
+      "translation": "不和谐的用户名不应再影响保存",
+      "line": 1342
+    },
+    "v0.5.5": {
+      "translation": "",
+      "line": 1345
+    },
+    "Achievements can now be filtered": {
+      "translation": "现在可以过滤成就",
+      "line": 1346
+    },
+    "Can sort Underground items by clicking on table titles": {
+      "translation": "可通过点击表格标题对采掘场物品排序",
+      "line": 1347
+    },
+    "NPCs now in towns, will provide dialog that will help the player complete their Pokédex": {
+      "translation": "",
+      "line": 1348
+    },
+    "More notification settings have been added": {
+      "translation": "添加了更多通知设置",
+      "line": 1349
+    },
+    "Increase shiny chance when using an evolution item": {
+      "translation": "使用进化物品时增加异色的机会",
+      "line": 1350
+    },
+    "Increase shiny chance for dungeon Pokémon": {
+      "translation": "增加迷宫宝可梦的异色几率",
+      "line": 1351
+    },
+    "More shops added to towns": {
+      "translation": "城镇中增加了更多商店",
+      "line": 1352
+    },
+    "More Pokémon added to typed eggs": {
+      "translation": "更多宝可梦添加到打字蛋中",
+      "line": 1353
+    },
+    "Electrike is now exclusive to eggs": {
+      "translation": "",
+      "line": 1354
+    },
+    "\"Complete the Kanto Pokédex!\" achievement now requires all 151 Kanto Pokémon": {
+      "translation": "",
+      "line": 1355
+    },
+    "Complete the Kanto Pokédex!": {
+      "translation": "",
+      "line": 1355
+    },
+    "Regirock, Regice and Registeel no longer Roaming, now in Sealed Chamber dungeon": {
+      "translation": "",
+      "line": 1356
+    },
+    "Kyogre and Groudon will only appear in their dungeon after defeating the Hoenn Elite 4": {
+      "translation": "",
+      "line": 1357
+    },
+    "If you encounter a new Pokémon that is also shiny, the higher tier ball will be selected": {
+      "translation": "如果你遇到同样异色的新宝可梦，将选择更高级别的球",
+      "line": 1358
+    },
+    "Battle item effect timers now display upto 99 hours": {
+      "translation": "战斗物品效果计时器现在显示长达99小时",
+      "line": 1359
+    },
+    "Phione now obtained by breeding Manaphy": {
+      "translation": "Phione现在可以通过繁殖Manaphy获得",
+      "line": 1360
+    },
+    "Quest list should only auto refresh if all quest are claimed or it is a new day": {
+      "translation": "仅当所有任务均已领取或新的一天到来时，任务列表才应自动刷新",
+      "line": 1361
+    },
+    "Gym Pokémon can no longer be captured by players": {
+      "translation": "道馆宝可梦不再能被玩家捕获",
+      "line": 1362
+    },
+    "Reduce some lag caused by hatchery filters": {
+      "translation": "减少孵化场过滤器造成的一些滞后",
+      "line": 1363
+    },
+    "Mystery egg can now hatch Pokémon from the Dragon Egg pool": {
+      "translation": "神秘蛋现在可以从龙蛋池中孵化宝可梦",
+      "line": 1364
+    },
+    "Travelling to the next Region now requires all of that regions Pokémon (excluding different forms)": {
+      "translation": "现在前往下一个区域需要所有该区域的宝可梦（不包括不同形式）",
+      "line": 1365
+    },
+    "v0.5.4": {
+      "translation": "",
+      "line": 1368
+    },
+    "More stores and items added in Johto, Hoenn and Sinnoh": {
+      "translation": "城都、丰缘、神奥新增更多商店和商品",
+      "line": 1369
+    },
+    "Added notifications for the Farm": {
+      "translation": "添加了农场的通知",
+      "line": 1370
+    },
+    "Can now sort Pokémon list by Breeding Efficiency": {
+      "translation": "现在可以按繁殖效率对宝可梦列表进行排序",
+      "line": 1371
+    },
+    "Can now sort Pokémon list by Egg Steps": {
+      "translation": "现在可以按蛋步对宝可梦列表进行排序",
+      "line": 1372
+    },
+    "New Rotom forms available": {
+      "translation": "新的洛托姆形态可用",
+      "line": 1373
+    },
+    "Added ability to use multiple battle items in 1 click": {
+      "translation": "新增一键使用多个战斗物品的功能",
+      "line": 1374
+    },
+    "Shards types can now be collapsed": {
+      "translation": "碎片类型现在可以折叠",
+      "line": 1375
+    },
+    "Game should now load in older versions of Firefox": {
+      "translation": "游戏现在应该可以在旧版本的 Firefox 中加载",
+      "line": 1376
+    },
+    "Mesprit and Cresselia are now roaming in Sinnoh": {
+      "translation": "麦斯普利特和克雷色利亚现在正在神奥漫游",
+      "line": 1377
+    },
+    "Updated Burmy (plant) shop image": {
+      "translation": "更新了 Burmy（植物）商店形象",
+      "line": 1378
+    },
+    "Safari Zone modal should no longer be able to close without clicking the intended buttons": {
+      "translation": "Safari 区域模式应该不再能够在不点击预期按钮的情况下关闭",
+      "line": 1379
+    },
+    "Updated Shoal Cave entry cost": {
+      "translation": "更新了浅滩洞入场费用",
+      "line": 1380
+    },
+    "Hatchery should no longer cause lag when hatching": {
+      "translation": "孵化场在孵化时不应再造成滞后",
+      "line": 1381
+    },
+    "Old Quests will no longer give a notification when completed once they are refreshed": {
+      "translation": "旧任务刷新后完成后不再提示",
+      "line": 1382
+    },
+    "v0.5.3": {
+      "translation": "",
+      "line": 1385
+    },
+    "Can filter Daycare Pokémon by name (regex supported)": {
+      "translation": "可以按名称过滤日托宝可梦（支持正则表达式）",
+      "line": 1386
+    },
+    "Select which information is displayed under each Pokémon in the Daycare": {
+      "translation": "选择日托中每个宝可梦下方显示的信息",
+      "line": 1387
+    },
+    "Possible to start with a Pikachu if no starter Pokémon selected enough times": {
+      "translation": "",
+      "line": 1388
+    },
+    "Some Roaming Pokémon will only appear after certain requirements have been met": {
+      "translation": "一些漫游宝可梦只有在满足某些要求后才会出现",
+      "line": 1389
+    },
+    "Some Dungeon Pokémon will only appear after certain requirements have been met": {
+      "translation": "一些迷宫宝可梦只有在满足某些要求后才会出现",
+      "line": 1390
+    },
+    "Flower Paradise dungeon HP corrected": {
+      "translation": "鲜花天堂迷宫生命值修正",
+      "line": 1391
+    },
+    "Route 40 should no longer unlock before reaching it": {
+      "translation": "40号公路在到达之前不应再解锁",
+      "line": 1392
+    },
+    "Reduce some checks firing too often": {
+      "translation": "减少一些过于频繁触发的检查",
+      "line": 1393
+    },
+    "Game controls will be ignored if focused on an input element": {
+      "translation": "如果专注于输入元素，游戏控件将被忽略",
+      "line": 1394
+    },
+    "Backgrounds should no longer overflow in breeding modal": {
+      "translation": "背景不应再在育种模式中溢出",
+      "line": 1395
+    },
+    "v0.5.2": {
+      "translation": "",
+      "line": 1398
+    },
+    "Underground quest line created": {
+      "translation": "采掘场任务线已创建",
+      "line": 1399
+    },
+    "More statistics added": {
+      "translation": "添加了更多统计数据",
+      "line": 1400
+    },
+    "Some minor Discord integration": {
+      "translation": "一些小的 Discord 集成",
+      "line": 1401
+    },
+    "Attack achievement no longer based on current region": {
+      "translation": "攻击成就不再基于当前区域",
+      "line": 1402
+    },
+    "Modified the way game ticks are handled": {
+      "translation": "修改了游戏刻度的处理方式",
+      "line": 1403
+    },
+    "Fixed breeding filter displayed options being reset after hatchery filled up": {
+      "translation": "修复了孵化场填满后重置的繁殖过滤器显示选项",
+      "line": 1404
+    },
+    "v0.5.1": {
+      "translation": "",
+      "line": 1407
+    },
+    "Added a notification for when the game has an update available": {
+      "translation": "添加了游戏有可用更新时的通知",
+      "line": 1408
+    },
+    "Add Croagunk to Route 212": {
+      "translation": "将 Croagunk 添加到212号公路",
+      "line": 1409
+    },
+    "Move Hippopotas from Route 210 → Route 214": {
+      "translation": "将河马从210号公路移至214号公路",
+      "line": 1410
+    },
+    "Updated Fight Area requirements": {
+      "translation": "更新了战斗区域要求",
+      "line": 1411
+    },
+    "Buffed Erika Victreebel": {
+      "translation": "",
+      "line": 1412
+    },
+    "Unobtainable items will no longer remain in the Underground": {
+      "translation": "无法获得的物品将不再留在地下",
+      "line": 1413
+    },
+    "Pacifidlog town shop now available": {
+      "translation": "Pacifidlog 镇商店现已上线",
+      "line": 1414
+    },
+    "Hide alternate forms from Pokédex that have not yet been caught": {
+      "translation": "",
+      "line": 1415
+    },
+    "Shaymin (sky) form types corrected": {
+      "translation": "Shaymin（天空）表单类型已更正",
+      "line": 1416
+    },
+    "v0.5.0": {
+      "translation": "",
+      "line": 1419
+    },
+    "Sinnoh": {
+      "translation": "神奥",
+      "line": 1419
+    },
+    "The Sinnoh region is now available": {
+      "translation": "神奥地区现已开放",
+      "line": 1420
+    },
+    "New evolution stones": {
+      "translation": "新进化石",
+      "line": 1421
+    },
+    "Dungeon based evolutions": {
+      "translation": "基于迷宫的进化",
+      "line": 1422
+    },
+    "Time based evolutions": {
+      "translation": "基于时间的演化",
+      "line": 1423
+    },
+    "2 new fossils added to the Underground": {
+      "translation": "采掘场新增2种化石",
+      "line": 1424
+    },
+    "Pokémon alternate forms can now be obtained": {
+      "translation": "现在可以获得宝可梦的替代形态",
+      "line": 1425
+    },
+    "Decrease attack reduction in newer regions": {
+      "translation": "减少新区域的攻击减少",
+      "line": 1426
+    },
+    "All Happiness/Friendship evolutions now make use of the Soothe Bell": {
+      "translation": "",
+      "line": 1427
+    },
+    "Added base exp per quest completed": {
+      "translation": "添加每个完成的任务的基础经验",
+      "line": 1428
+    },
+    "Updated the order Routes, Dungeons and Gyms need to be completed in the Kanto region": {
+      "translation": "更新了关东地区路线、迷宫和道馆需要完成的顺序",
+      "line": 1429
+    },
+    "Gyms should award correct amount of Egg steps now": {
+      "translation": "道馆现在应该奖励正确数量的孵蛋步数",
+      "line": 1430
+    },
+    "Removed Time Stone": {
+      "translation": "移除了时间宝石",
+      "line": 1431
+    },
+    "Removed hold evolution items from the Underground": {
+      "translation": "从采掘场移除了持有进化物品",
+      "line": 1432
+    },
+    "v0.4.20": {
+      "translation": "",
+      "line": 1435
+    },
+    "Battle Frontier": {
+      "translation": "对战开拓区",
+      "line": 1435
+    },
+    "Added the Battle Frontier in the Hoenn region": {
+      "translation": "在丰缘地区添加了对战开拓区",
+      "line": 1436
+    },
+    "Buffed Dungeon Token gain in higher regions": {
+      "translation": "增强了较高区域的迷宫代币增益",
+      "line": 1437
+    },
+    "Updated the order Routes, Dungeons and Gyms need to be completed in the Johto region": {
+      "translation": "更新了城都地区路线、迷宫和道馆需要完成的顺序",
+      "line": 1438
+    },
+    "Questline progress restored correctly": {
+      "translation": "任务线进度已正确恢复",
+      "line": 1440
+    },
+    "v0.4.19": {
+      "translation": "",
+      "line": 1443
+    },
+    "Filters added to the Day Care": {
+      "translation": "添加到日托中心的过滤器",
+      "line": 1444
+    },
+    "Achievements available for all regions": {
+      "translation": "所有地区均可取得的成就",
+      "line": 1445
+    },
+    "Buffed bonus for the Cell Battery": {
+      "translation": "电池的增益加成",
+      "line": 1446
+    },
+    "Sounds will now play if enabled even if the notification is disabled": {
+      "translation": "即使禁用通知，如果启用，现在也会播放声音",
+      "line": 1447
+    },
+    "v0.4.18": {
+      "translation": "",
+      "line": 1450
+    },
+    "Added Prospect ability to the Underground to see which types of items are in the current layer": {
+      "translation": "新增采掘场探测功能，可查看当前层有哪些类型的物品",
+      "line": 1451
+    },
+    "Added Bomb ability to the Underground which will mine random tiles for you": {
+      "translation": "新增采掘场炸弹功能，可为你随机挖掘格子",
+      "line": 1452
+    },
+    "Added ability to Skip layers in the Underground": {
+      "translation": "新增采掘场跳过层功能",
+      "line": 1453
+    },
+    "Added ability to sell/trade multiple items at once in the Underground": {
+      "translation": "",
+      "line": 1454
+    },
+    "Added volume control for notification sounds": {
+      "translation": "添加了通知声音的音量控制",
+      "line": 1455
+    },
+    "Some Pokémon now have a chance to drop rare items upon defeat": {
+      "translation": "一些宝可梦现在有机会在失败时掉落稀有物品",
+      "line": 1456
+    },
+    "Added Pokédex filter for Pokémon that drop rare items": {
+      "translation": "",
+      "line": 1457
+    },
+    "Added Deoxys quest line": {
+      "translation": "",
+      "line": 1458
+    },
+    "Deoxys no longer roaming": {
+      "translation": "",
+      "line": 1459
+    },
+    "Separate Day Care modal into individual tabs for Pokémon, Eggs and Fossils": {
+      "translation": "将日托模式分为宝可梦、鸡蛋和化石的单独选项卡",
+      "line": 1460
+    },
+    "Update modal displays": {
+      "translation": "更新模态显示",
+      "line": 1461
+    },
+    "Event Pokémon no longer displayed in Pokédex": {
+      "translation": "",
+      "line": 1462
+    },
+    "Reduce memory usage in Underground": {
+      "translation": "减少采掘场的内存使用",
+      "line": 1463
+    },
+    "v0.4.17": {
+      "translation": "",
+      "line": 1466
+    },
+    "Update maps": {
+      "translation": "更新地图",
+      "line": 1467
+    },
+    "Add notification settings": {
+      "translation": "添加通知设置",
+      "line": 1468
+    },
+    "Add more notification sounds and settings": {
+      "translation": "添加更多通知声音和设置",
+      "line": 1469
+    },
+    "Can now filter the Pokédex by pure type Pokémon by selecting None for the second type": {
+      "translation": "",
+      "line": 1470
+    },
+    "Added statistic for Hatched Shiny Pokémon": {
+      "translation": "添加了孵化的异色宝可梦的统计数据",
+      "line": 1471
+    },
+    "Caught indicator on eggs showing if you have obtained all the Pokémon available in that egg type": {
+      "translation": "鸡蛋上的捕获指示器显示你是否已获得该鸡蛋类型中的所有宝可梦",
+      "line": 1472
+    },
+    "Move some dungeons to be standalone": {
+      "translation": "将一些迷宫移动为独立的",
+      "line": 1473
+    },
+    "Safari Zone should no longer lock up": {
+      "translation": "Safari Zone 不应再锁定",
+      "line": 1474
+    },
+    "Event Pokémon can now evolve": {
+      "translation": "活动宝可梦现在可以进化了",
+      "line": 1475
+    },
+    "Helix fossil now displays correctly when mining in the Underground": {
+      "translation": "在采掘场挖掘时螺旋化石现在可以正确显示",
+      "line": 1476
+    },
+    "v0.4.16": {
+      "translation": "",
+      "line": 1479
+    },
+    "Added sounds for specific events": {
+      "translation": "为特定事件添加声音",
+      "line": 1480
+    },
+    "Added more settings": {
+      "translation": "添加了更多设置",
+      "line": 1481
+    },
+    "New maps": {
+      "translation": "新地图",
+      "line": 1482
+    },
+    "Updated settings menu": {
+      "translation": "更新的设置菜单",
+      "line": 1483
+    },
+    "Shops will now only show the balance of currencies used there": {
+      "translation": "商店现在只会显示那里使用的货币余额",
+      "line": 1484
+    },
+    "Gyms and Dungeons in the Johto and Hoenn regions have been buffed": {
+      "translation": "城都和丰缘地区的道馆和迷宫已得到增强",
+      "line": 1485
+    },
+    "v0.4.15": {
+      "translation": "",
+      "line": 1488
+    },
+    "Eggs now have multiple different styles": {
+      "translation": "鸡蛋现在有多种不同的样式",
+      "line": 1489
+    },
+    "xExp is now the Lucky Egg": {
+      "translation": "xExp 现在是幸运蛋",
+      "line": 1490
+    },
+    "Updated Currency, Item, Berry, Egg and Fossil images": {
+      "translation": "更新了货币、物品、树果、鸡蛋和化石图像",
+      "line": 1491
+    },
+    "Day Care is now unlocked once you defeat Route 5": {
+      "translation": "一旦击败5号公路，日托中心现已解锁",
+      "line": 1492
+    },
+    "Fossils will now show in the Hatchery": {
+      "translation": "化石现在将在孵化场展示",
+      "line": 1493
+    },
+    "Update Farm layout for smaller displays": {
+      "translation": "更新农场布局以适应较小的显示器",
+      "line": 1494
+    },
+    "Update Safari Zone cost": {
+      "translation": "更新 Safari 区费用",
+      "line": 1495
+    },
+    "Underground now shows the 3 x 3 area which will be mined when using the hammer": {
+      "translation": "采掘场现在会显示使用锤子时将挖掘的3×3区域",
+      "line": 1496
+    },
+    "Underground total items should now be correct": {
+      "translation": "采掘场物品总数现在应该正确了",
+      "line": 1497
+    },
+    "v0.4.14": {
+      "translation": "",
+      "line": 1500
+    },
+    "Added Dratini to Route 45": {
+      "translation": "",
+      "line": 1501
+    },
+    "Underground should now work better on smaller screens": {
+      "translation": "采掘场现在在小屏幕上运行更流畅",
+      "line": 1502
+    },
+    "Enlarge buttons in Shortcut menu, Safari Zone": {
+      "translation": "放大快捷菜单、Safari Zone 中的按钮",
+      "line": 1503
+    },
+    "Make Shop items fit better": {
+      "translation": "让商店商品更合身",
+      "line": 1504
+    },
+    "Breeding display takes up less space on smaller screens now": {
+      "translation": "现在，育种显示在较小的屏幕上占用的空间更少",
+      "line": 1505
+    },
+    "Add confirmation when refreshing quest list": {
+      "translation": "添加刷新任务列表时的确认",
+      "line": 1506
+    },
+    "Update Oak items tooltip when upgraded": {
+      "translation": "升级时更新 Oak 物品工具提示",
+      "line": 1507
+    },
+    "Auto refresh Daily Deals when upgrade purchased": {
+      "translation": "购买升级时自动刷新每日优惠",
+      "line": 1508
+    },
+    "v0.4.13": {
+      "translation": "",
+      "line": 1511
+    },
+    "Added shortcut module": {
+      "translation": "新增快捷模块",
+      "line": 1512
+    },
+    "Added Poké Mart to shortcuts module": {
+      "translation": "将 Poké Mart 添加到快捷方式模块",
+      "line": 1513
+    },
+    "Updated Masterball pricing": {
+      "translation": "更新了大师球定价",
+      "line": 1514
+    },
+    "Allow the game to continue running while Day Care is open": {
+      "translation": "允许游戏在日托中心开放时继续运行",
+      "line": 1515
+    },
+    "Allow the game to continue running while Underground is open": {
+      "translation": "允许游戏在采掘场打开时继续运行",
+      "line": 1516
+    },
+    "Don't send the player back to Route 11 when leaving the Underground": {
+      "translation": "离开地铁时不要将玩家送回11号公路",
+      "line": 1517
+    },
+    "Allow the game to continue running while Farm is open": {
+      "translation": "允许游戏在农场打开时继续运行",
+      "line": 1518
+    },
+    "Don't send the player back to Route 14 when leaving the Farm": {
+      "translation": "离开农场时不要将玩家送回14号公路",
+      "line": 1519
+    },
+    "Added button to open Dock for cities located nearby": {
+      "translation": "添加了打开附近城市 Dock 的按钮",
+      "line": 1520
+    },
+    "Moved shiny icon further into the corner in the Day Care view, to make it easier to spot already shiny Pokémon": {
+      "translation": "将异色图标移至日托视图的角落，以便更容易发现已经异色的宝可梦",
+      "line": 1521
+    },
+    "Dungeon size scales depending on region": {
+      "translation": "迷宫的大小取决于地区",
+      "line": 1522
+    },
+    "v0.4.12": {
+      "translation": "",
+      "line": 1525
+    },
+    "Modules can now be sorted/arranged any way you like, just drag and drop": {
+      "translation": "",
+      "line": 1526
+    },
+    "Added confirmation when quiting a quest": {
+      "translation": "添加退出任务时的确认",
+      "line": 1527
+    },
+    "Updated dungeon token cost in Hoenn dungeons": {
+      "translation": "更新了丰缘迷宫中的迷宫代币成本",
+      "line": 1528
+    },
+    "Updated the gym fight view": {
+      "translation": "更新了道馆战斗视图",
+      "line": 1529
+    },
+    "Updated some messages shown when you cannot access a location yet": {
+      "translation": "更新了当你还无法访问某个位置时显示的一些消息",
+      "line": 1530
+    },
+    "Some battle background images were not showing, they should now appear correctly": {
+      "translation": "一些战斗背景图像没有显示，现在应该正确显示",
+      "line": 1531
+    },
+    "Town Map will now be fully hidden when it is supposed to be": {
+      "translation": "城镇地图现在将在应该隐藏的时候完全隐藏",
+      "line": 1532
+    },
+    "v0.4.11": {
+      "translation": "",
+      "line": 1535
+    },
+    "Towns will show as orange if you have not yet completed the gym": {
+      "translation": "如果你尚未完成道馆，城镇将显示为橙色",
+      "line": 1536
+    },
+    "Map is able to be hidden now": {
+      "translation": "地图现在可以隐藏了",
+      "line": 1537
+    },
+    "Added mobile support to the Safari Zone": {
+      "translation": "为 Safari 区域添加了移动支持",
+      "line": 1538
+    },
+    "The Cell Battery Oak Item will now gain points each time you find an item": {
+      "translation": "现在，每次找到物品时，电池大木博士道具都会获得积分",
+      "line": 1539
+    },
+    "Updated the layout of the Shard modal": {
+      "translation": "更新了 Shard 模式的布局",
+      "line": 1540
+    },
+    "Updated the layout of the Safari Zone": {
+      "translation": "更新了 Safari 区域的布局",
+      "line": 1541
+    },
+    "Stone evolutions will now only show the Pokéball if all possible evolutions have been caught": {
+      "translation": "如果所有可能的进化都被捕获，石头进化现在只会显示精灵球",
+      "line": 1542
+    },
+    "v0.4.10": {
+      "translation": "",
+      "line": 1545
+    },
+    "Added preload progress indicator": {
+      "translation": "添加预加载进度指示器",
+      "line": 1546
+    },
+    "Game will still load if not all the images preload correctly": {
+      "translation": "如果并非所有图像都正确预加载，游戏仍会加载",
+      "line": 1547
+    },
+    "v0.4.9": {
+      "translation": "",
+      "line": 1550
+    },
+    "Added option to disable found berries notifications": {
+      "translation": "添加了禁用发现树果通知的选项",
+      "line": 1551
+    },
+    "Added different background images when battling Pokémon depending on route/dungeon": {
+      "translation": "",
+      "line": 1552
+    },
+    "Updated Bootstrap, TypeScript and other dependencies, please report any problems you may notice": {
+      "translation": "更新了 Bootstrap、TypeScript 和其他依赖项，请报告你可能注意到的任何问题",
+      "line": 1553
+    },
+    "Limit maximum Quest Points for Dungeon and Gym quests": {
+      "translation": "限制迷宫和道馆任务的最大任务点数",
+      "line": 1554
+    },
+    "Updated quest list layout": {
+      "translation": "更新了任务列表布局",
+      "line": 1555
+    },
+    "Format numbers in shop and Pokéball selector": {
+      "translation": "在商店和 Pokéball 选择器中设置数字格式",
+      "line": 1556
+    },
+    "Dungeons should now award Dungeon Tokens when catching a Pokémon": {
+      "translation": "迷宫现在在捕捉宝可梦时应该奖励迷宫代币",
+      "line": 1557
+    },
+    "Badge names should display correctly now": {
+      "translation": "徽章名称现在应该正确显示",
+      "line": 1558
+    },
+    "v0.4.8": {
+      "translation": "",
+      "line": 1561
+    },
+    "More events": {
+      "translation": "更多活动",
+      "line": 1562
+    },
+    "Added caught status indicator to Safari Zone entrance": {
+      "translation": "在 Safari 区域入口处添加了捕获状态指示器",
+      "line": 1563
+    },
+    "Added caught status indicator to Dungeons": {
+      "translation": "为迷宫添加了捕获状态指示器",
+      "line": 1564
+    },
+    "Show Oak Item details on hover on main screen": {
+      "translation": "将鼠标悬停在主屏幕上时显示 Oak 项目详细信息",
+      "line": 1565
+    },
+    "Updated Oak Items modal to show current experience on hover": {
+      "translation": "更新了 Oak Items 模式以显示悬停时的当前体验",
+      "line": 1566
+    },
+    "Animate town and dungeon background images": {
+      "translation": "动画城镇和迷宫背景图像",
+      "line": 1567
+    },
+    "Updated battle views of routes and dungeons": {
+      "translation": "更新了路线和迷宫的战斗视图",
+      "line": 1568
+    },
+    "Event notifications showing way before event start": {
+      "translation": "活动通知在活动开始前显示",
+      "line": 1569
+    },
+    "Reduce lag when hatching Pokémon": {
+      "translation": "减少孵化宝可梦时的延迟",
+      "line": 1570
+    },
+    "v0.4.7": {
+      "translation": "",
+      "line": 1573
+    },
+    "Layout": {
+      "translation": "布局",
+      "line": 1573
+    },
+    "Added option to sort Pokémon list by base attack": {
+      "translation": "添加了按基本攻击对宝可梦列表进行排序的选项",
+      "line": 1574
+    },
+    "Added information and confirmation check before traveling to next available region": {
+      "translation": "在前往下一个可用区域之前添加信息和确认检查",
+      "line": 1575
+    },
+    "Updated the Oak Items layout": {
+      "translation": "更新了大木博士道具布局",
+      "line": 1576
+    },
+    "Updated layout of Towns and Dungeons": {
+      "translation": "更新了城镇和迷宫的布局",
+      "line": 1577
+    },
+    "Updated the Hoenn map": {
+      "translation": "更新了丰缘地图",
+      "line": 1578
+    },
+    "Show the amount of Pokémon visible in Pokédex with filters active": {
+      "translation": "",
+      "line": 1579
+    },
+    "Event Pokémon no longer count towards achievements or being able to travel to next region": {
+      "translation": "活动宝可梦不再计入成就或能够前往下一个区域",
+      "line": 1580
+    },
+    "Mt. Chimney dungeon is now more powerful": {
+      "translation": "烟囱山迷宫现在更加强大",
+      "line": 1581
+    },
+    "v0.4.6": {
+      "translation": "",
+      "line": 1584
+    },
+    "Old save can be backed up when the game updates incase anything goes wrong<br/><i>You can disable auto download in the settings</i>": {
+      "translation": "",
+      "line": 1585
+    },
+    "Add events modal": {
+      "translation": "添加事件模式",
+      "line": 1586
+    },
+    "Safari now uses a Safari Ball": {
+      "translation": "Safari 现在使用 Safari Ball",
+      "line": 1587
+    },
+    "Added ability to track event Pokémon statistics": {
+      "translation": "添加了跟踪事件宝可梦统计数据的功能",
+      "line": 1588
+    },
+    "Update Discord link": {
+      "translation": "更新 Discord 链接",
+      "line": 1589
+    },
+    "Pokéball should appear in dungeons again": {
+      "translation": "精灵球应该会再次出现在迷宫中",
+      "line": 1590
+    },
+    "Fix Eeveelutions": {
+      "translation": "",
+      "line": 1591
+    },
+    "v0.4.5": {
+      "translation": "",
+      "line": 1594
+    },
+    "Special events": {
+      "translation": "特别活动",
+      "line": 1594
+    },
+    "Flying Pikachu Event": {
+      "translation": "",
+      "line": 1595
+    },
+    "Special events can now appear in game": {
+      "translation": "特殊事件现在可以出现在游戏中",
+      "line": 1596
+    },
+    "Modified the look of the dock": {
+      "translation": "修改了码头的外观",
+      "line": 1597
+    },
+    "Always add caught Shiny Pokémon to the Log Book": {
+      "translation": "务必将捕获的异色宝可梦添加到日志中",
+      "line": 1598
+    },
+    "Added close button on the top right of more modals": {
+      "translation": "更多模态右上角添加关闭按钮",
+      "line": 1599
+    },
+    "Dungeon layout should be shuffled again": {
+      "translation": "迷宫布局应该再次洗牌",
+      "line": 1600
+    },
+    "Hopefully fixed some values becoming NaN": {
+      "translation": "希望修复一些值变成 NaN",
+      "line": 1601
+    },
+    "v0.4.4": {
+      "translation": "",
+      "line": 1604
+    },
+    "Add some new game codes": {
+      "translation": "添加一些新的游戏代码",
+      "line": 1605
+    },
+    "Statistics can now be viewed from the Start Menu": {
+      "translation": "现在可以从“开始”菜单查看统计信息",
+      "line": 1606
+    },
+    "Pokémon statistics can be viewed by clicking a Pokémon in the Pokédex": {
+      "translation": "",
+      "line": 1607
+    },
+    "Update some game codes": {
+      "translation": "更新部分游戏代码",
+      "line": 1608
+    },
+    "Remove old game codes": {
+      "translation": "删除旧游戏代码",
+      "line": 1609
+    },
+    "Can no longer breed fossils from regions you have not reached yet": {
+      "translation": "无法再从你尚未到达的地区培育化石",
+      "line": 1610
+    },
+    "Added missing notifications for stone evolution Pokémon": {
+      "translation": "添加了石头进化宝可梦缺失的通知",
+      "line": 1611
+    },
+    "v0.4.3": {
+      "translation": "",
+      "line": 1614
+    },
+    "Add setting to disable currency animations": {
+      "translation": "添加设置以禁用货币动画",
+      "line": 1615
+    },
+    "Increase some notifications display time": {
+      "translation": "增加一些通知的显示时间",
+      "line": 1616
+    },
+    "Decreased price multiplier": {
+      "translation": "价格乘数降低",
+      "line": 1617
+    },
+    "Modified Pokémon list reverse checkbox to show arrows instead": {
+      "translation": "修改宝可梦列表反向复选框以显示箭头",
+      "line": 1618
+    },
+    "Updated changelog layout": {
+      "translation": "更新了变更日志布局",
+      "line": 1619
+    },
+    "Fix LilyCove City naming and image": {
+      "translation": "修复 LilyCove 城市命名和形象",
+      "line": 1620
+    },
+    "Tidy up Key items, Evolution stones selector": {
+      "translation": "整理关键物品，进化石选择器",
+      "line": 1621
+    },
+    "Sketchy theme checkboxes and close icons should display correctly now": {
+      "translation": "粗略的主题复选框和关闭图标现在应该正确显示",
+      "line": 1622
+    },
+    "v0.4.2": {
+      "translation": "",
+      "line": 1625
+    },
+    "Fixed some Key items not being given when supposed to": {
+      "translation": "修复了一些应该提供的关键物品却没有提供的问题",
+      "line": 1626
+    },
+    "v0.4.1": {
+      "translation": "",
+      "line": 1629
+    },
+    "More items added to underground": {
+      "translation": "采掘场新增更多物品",
+      "line": 1630
+    },
+    "All Hoenn Pokémon should be obtainable now": {
+      "translation": "所有丰缘宝可梦现在都应该可以获得",
+      "line": 1631
+    },
+    "Pokédex filtering should be working again": {
+      "translation": "",
+      "line": 1632
+    },
+    "Some items showing _ in their name in notifications": {
+      "translation": "某些项目在通知中的名称中显示 _",
+      "line": 1633
+    },
+    "v0.4.0": {
+      "translation": "",
+      "line": 1636
+    },
+    "Statistics update": {
+      "translation": "统计数据更新",
+      "line": 1636
+    },
+    "Current save data should be compatible with future versions!": {
+      "translation": "当前的保存数据应该与未来的版本兼容！",
+      "line": 1637
+    },
+    "More statistics have been added": {
+      "translation": "添加了更多统计数据",
+      "line": 1638
+    },
+    "Updated the way statistics are stored": {
+      "translation": "更新了统计数据的存储方式",
+      "line": 1639
+    },
+    "Updated notifications": {
+      "translation": "更新通知",
+      "line": 1640
+    },
+    "Fix some missing Hoenn Pokémon": {
+      "translation": "修复一些缺失的丰缘宝可梦",
+      "line": 1641
+    },
+    "Fix some missing images": {
+      "translation": "修复一些缺失的图像",
+      "line": 1642
+    },
+    "v0.3.1": {
+      "translation": "",
+      "line": 1645
+    },
+    "Bug catcher": {
+      "translation": "捕虫器",
+      "line": 1645
+    },
+    "Eevee will now evolve into Espeon or Umbreon depending on the time of day (when using Time stone)": {
+      "translation": "",
+      "line": 1646
+    },
+    "Can no longer evolve Magmar and Electabuzz before you are allowed": {
+      "translation": "",
+      "line": 1647
+    },
+    "Fix breeding steps gained for newer regions": {
+      "translation": "修复新地区获得的育种步骤",
+      "line": 1648
+    },
+    "Fix roaming encounters for newer regions": {
+      "translation": "修复新地区的漫游问题",
+      "line": 1649
+    },
+    "Fix route rewards for newer regions": {
+      "translation": "修复新地区的路线奖励",
+      "line": 1650
+    },
+    "v0.3.0": {
+      "translation": "",
+      "line": 1653
+    },
+    "Hoenn": {
+      "translation": "丰缘",
+      "line": 1653
+    },
+    "Add initial Hoenn region": {
+      "translation": "添加初始丰缘地区",
+      "line": 1654
+    },
+    "Shiny Pokémon now increase click damage at a 50% rate compared to normal Pokémon": {
+      "translation": "与普通宝可梦相比，异色宝可梦现在以50% 的速度增加点击伤害",
+      "line": 1655
+    },
+    "Allow better control of which type of ball to use when capturing a Pokémon": {
+      "translation": "捕捉宝可梦时可以更好地控制使用哪种类型的球",
+      "line": 1656
+    },
+    "v0.2.1": {
+      "translation": "",
+      "line": 1659
+    },
+    "Remove Hoenn dungeons for now to avoid triggering errors": {
+      "translation": "暂时删除 Hoenn 迷宫以避免触发错误",
+      "line": 1660
+    },
+    "Other berries will now be tasked in Quests": {
+      "translation": "其他树果现在将在任务中承担任务",
+      "line": 1661
+    },
+    "v0.2.0": {
+      "translation": "",
+      "line": 1664
+    },
+    "Redeemable codes": {
+      "translation": "可兑换代码",
+      "line": 1664
+    },
+    "Add redeemable codes to get a quick boost. You can enter them under the Save tab": {
+      "translation": "添加可兑换代码以快速提升。你可以在“保存”选项卡下输入它们",
+      "line": 1665
+    },
+    "Gyms no longer reset 1 second in": {
+      "translation": "道馆不再重置1秒",
+      "line": 1666
+    },
+    "v0.1.0": {
+      "translation": "",
+      "line": 1669
+    },
+    "Farming refactor": {
+      "translation": "农业重构",
+      "line": 1669
+    },
+    "Farming plots are a bit more expensive": {
+      "translation": "农田有点贵",
+      "line": 1670
+    },
+    "Wailmer pail unlocks at 3 Cheri berries instead of 5": {
+      "translation": "",
+      "line": 1671
+    },
+    "Tooltips no longer overstay their welcome on the Farm": {
+      "translation": "工具提示在农场中不再受欢迎",
+      "line": 1672
+    },
+    "v0.0.5": {
+      "translation": "",
+      "line": 1675
+    },
+    "Can now use spacebar to start Gym/Dungeon": {
+      "translation": "",
+      "line": 1676
+    },
+    "Stones now work with multiple evolutions": {
+      "translation": "石头现在可以进行多种进化",
+      "line": 1677
+    },
+    "Pokémon will no longer evolve into evolutions you have already obtained": {
+      "translation": "宝可梦将不再进化成你已经获得的进化",
+      "line": 1678
+    },
+    "Can obtain Pokémon from future generations by re-breeding": {
+      "translation": "通过重新培育可以从后代获得宝可梦",
+      "line": 1679
+    },
+    "Devolutions are obtained when breeding evolved forms": {
+      "translation": "当繁殖进化形式时获得权力下放",
+      "line": 1680
+    },
+    "Add setting to toggle egg percentage/step count": {
+      "translation": "",
+      "line": 1681
+    },
+    "Total shiny Pokémon caught no longer adds to your click attack": {
+      "translation": "捕获的异色宝可梦总数不再增加你的点击攻击",
+      "line": 1682
+    },
+    "Halve xp needed to upgrade Oak items": {
+      "translation": "升级大木博士道具所需的经验值减半",
+      "line": 1683
+    },
+    "BattleItems now buy correctly": {
+      "translation": "战斗物品现在可以正确购买",
+      "line": 1684
+    },
+    "Increase dungeon tokens received when catching Pokémon": {
+      "translation": "增加捕捉宝可梦时收到的迷宫代币",
+      "line": 1685
+    },
+    "Going to the breeder will no longer send you to route 5": {
+      "translation": "去找饲养员不再会把你送到5号公路",
+      "line": 1686
+    },
+    "You will now start the game with 25 Pokéballs": {
+      "translation": "现在你将拥有25个 Pokéball 来开始游戏",
+      "line": 1687
+    },
+    "Tutorial quest buy Pokéballs amount reduced": {
+      "translation": "教程任务购买精灵球数量减少",
+      "line": 1688
+    },
+    "Selecting \"max\" in store will no longer freeze the game for key items": {
+      "translation": "在商店中选择“最大”将不再冻结游戏中的关键物品",
+      "line": 1689
+    },
+    "max": {
+      "translation": "",
+      "line": 1689
+    },
+    "v0.0.4": {
+      "translation": "",
+      "line": 1692
+    },
+    "Show Pokéball image by caught Pokémon in the Pokédex": {
+      "translation": "",
+      "line": 1693
+    },
+    "Show the reason you cannot access a location": {
+      "translation": "显示你无法访问某个位置的原因",
+      "line": 1694
+    },
+    "Total shiny Pokémon caught now add to your total click attack": {
+      "translation": "现在捕获的异色宝可梦总数会添加到你的总点击攻击中",
+      "line": 1695
+    },
+    "Display floored dungeon tokens amount": {
+      "translation": "显示迷宫的代币数量",
+      "line": 1696
+    },
+    "v0.0.3": {
+      "translation": "",
+      "line": 1699
+    },
+    "Can now progress in multiple quest at a time <i>(amount based on Quest Level)</i>": {
+      "translation": "",
+      "line": 1700
+    },
+    "Side cards can now be collapsed for more space": {
+      "translation": "现在可以折叠侧卡以获得更多空间",
+      "line": 1701
+    },
+    "Move battle item container": {
+      "translation": "移动战斗物品容器",
+      "line": 1702
+    },
+    "Update how achievement percentages are shown": {
+      "translation": "更新成就百分比的显示方式",
+      "line": 1703
+    },
+    "Update hatch/catch notification message": {
+      "translation": "",
+      "line": 1704
+    },
+    "Show the hatchery \"list\" button once Johto unlocked without page refresh": {
+      "translation": "Johto 解锁后显示孵化场“列表”按钮，无需刷新页面",
+      "line": 1705
+    },
+    "list": {
+      "translation": "",
+      "line": 1705
+    },
+    "Plates from underground should now sell for their correct value": {
+      "translation": "采掘场的石板现在应该以正确的价格出售",
+      "line": 1706
+    },
+    "v0.0.2": {
+      "translation": "",
+      "line": 1709
+    },
+    "Added changelog": {
+      "translation": "添加了变更日志",
+      "line": 1710
+    },
+    "Show battle item names and descriptions": {
+      "translation": "显示战斗物品名称和描述",
+      "line": 1711
+    },
+    "Item magnet now works in dungeons": {
+      "translation": "物品磁铁现在可以在迷宫中使用",
+      "line": 1712
+    },
+    "Battle items no longer always active": {
+      "translation": "战斗物品不再始终有效",
+      "line": 1713
+    },
+    "v0.0.1": {
+      "translation": "",
+      "line": 1716
+    },
+    "Add battle items": {
+      "translation": "添加战斗物品",
+      "line": 1717
+    }
+  }
+}

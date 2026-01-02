@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/keyItems/KeyItemController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 3
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 4
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 13
+    },
+    "static": {
+      "translation": "静止的",
+      "line": 15
+    }
+  }
+}

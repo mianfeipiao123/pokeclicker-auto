@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/translation/TranslationHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 6
+  },
+  "entries": {
+    "./Translation": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 2
+    },
+    "../utilities/DownloadUtil": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 4
+    },
+    "The translation cache is only available by default in development builds. To cache translatable text in this game version, add \"?translationCache=true\" to the end of the URL and reload the game.": {
+      "translation": "翻译缓存仅在开发版本中默认可用。要在此游戏版本中缓存可翻译文本，请将“?translationCache=true”添加到 URL 末尾并重新加载游戏。",
+      "line": 13
+    },
+    "?translationCache=true": {
+      "translation": "",
+      "line": 13
+    },
+    "Translations may not be properly cached before the game is running.": {
+      "translation": "在游戏运行之前，翻译可能无法正确缓存。",
+      "line": 16
+    },
+    "Could not find cache for translation namespace '${namespace}'": {
+      "translation": "",
+      "line": 19
+    },
+    "object": {
+      "translation": "目的",
+      "line": 51
+    },
+    "(?<!\\w|\\[\\[pokemon::)(${p.name.replace(/([()-.?])/g, '\\\\$1')})(?!\\w|]])": {
+      "translation": "",
+      "line": 79
+    },
+    "[[pokemon::$1]]": {
+      "translation": "[[pokemon::$1]]",
+      "line": 80
+    },
+    "questlines": {
+      "translation": "任务线",
+      "line": 82
+    },
+    "description": {
+      "translation": "描述",
+      "line": 93
+    },
+    "step ": {
+      "translation": "",
+      "line": 96
+    }
+  }
+}

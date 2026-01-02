@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundGemItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 2
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 3
+    },
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 4
+    }
+  }
+}

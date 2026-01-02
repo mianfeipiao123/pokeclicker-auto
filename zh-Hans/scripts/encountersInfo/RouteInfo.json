@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/encountersInfo/RouteInfo.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 11
+  },
+  "entries": {
+    "land": {
+      "translation": "土地",
+      "line": 11
+    },
+    "water": {
+      "translation": "水",
+      "line": 16
+    },
+    "headbutt": {
+      "translation": "头撞",
+      "line": 21
+    },
+    "special": {
+      "translation": "特别的",
+      "line": 26
+    },
+    "roamer": {
+      "translation": "漫游者",
+      "line": 35
+    },
+    "Event Roaming Pokémon": {
+      "translation": "活动漫游宝可梦",
+      "line": 44
+    },
+    "Roaming Pokémon": {
+      "translation": "漫游宝可梦",
+      "line": 46
+    },
+    "Event Pokémon": {
+      "translation": "活动宝可梦",
+      "line": 50
+    },
+    "Weather Pokémon": {
+      "translation": "天气宝可梦",
+      "line": 52
+    },
+    "Day of Week Pokémon": {
+      "translation": "星期几宝可梦",
+      "line": 54
+    },
+    "Fishing Pokémon": {
+      "translation": "钓鱼宝可梦",
+      "line": 57
+    },
+    "${RouteInfo.getRouteName()} - ${RouteInfo.getRegionName()} (${RouteInfo.getSubregionName()})": {
+      "translation": "",
+      "line": 78
+    }
+  }
+}

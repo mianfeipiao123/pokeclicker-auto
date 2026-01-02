@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/DataStore/common/Feature.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./Saveable": {
+      "translation": "",
+      "line": 1
+    }
+  }
+}

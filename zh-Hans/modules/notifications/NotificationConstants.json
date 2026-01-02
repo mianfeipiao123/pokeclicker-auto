@@ -1,0 +1,430 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/notifications/NotificationConstants.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 105,
+    "translatedCount": 85
+  },
+  "entries": {
+    "../settings/NotificationSetting": {
+      "translation": "",
+      "line": 1
+    },
+    "../utilities/Sound": {
+      "translation": "",
+      "line": 2
+    },
+    "./NotificationOption": {
+      "translation": "",
+      "line": 3
+    },
+    "shiny_long": {
+      "translation": "",
+      "line": 13
+    },
+    "Shiny Pokémon encountered/hatched/wandering": {
+      "translation": "",
+      "line": 13
+    },
+    "new_catch": {
+      "translation": "",
+      "line": 14
+    },
+    "New Pokémon/shiny captured": {
+      "translation": "捕获了新宝可梦/异色宝可梦",
+      "line": 14
+    },
+    "roaming": {
+      "translation": "漫游",
+      "line": 15
+    },
+    "Roaming Pokémon encountered": {
+      "translation": "遇到漫游宝可梦",
+      "line": 15
+    },
+    "achievement": {
+      "translation": "成就",
+      "line": 16
+    },
+    "New achievement earned": {
+      "translation": "获得新成就",
+      "line": 16
+    },
+    "battle_item_timer": {
+      "translation": "",
+      "line": 17
+    },
+    "Battle item about to wear off": {
+      "translation": "战斗道具即将失效",
+      "line": 17
+    },
+    "underground_energy_full": {
+      "translation": "",
+      "line": 18
+    },
+    "Mining tool reached maximum free use storage": {
+      "translation": "挖矿工具达到最大免费使用存储空间",
+      "line": 18
+    },
+    "battle_frontier": {
+      "translation": "",
+      "line": 19
+    },
+    "Battle Frontier": {
+      "translation": "对战开拓区",
+      "line": 19
+    },
+    "dream_orb": {
+      "translation": "",
+      "line": 20
+    },
+    "Opening Dream Orb": {
+      "translation": "打开梦境宝珠",
+      "line": 20
+    },
+    "pokerus_resistant": {
+      "translation": "",
+      "line": 21
+    },
+    "Pokémon has become Resistant to Pokérus": {
+      "translation": "宝可梦对宝可病毒具有抵抗力",
+      "line": 21
+    },
+    "max_flow": {
+      "translation": "",
+      "line": 22
+    },
+    "Maximum Flow has accumulated at the Purify Chamber": {
+      "translation": "净化室已累积最大流量",
+      "line": 22
+    },
+    "Dungeon Guide has completed all dungeon attempts": {
+      "translation": "迷宫指南已完成所有迷宫尝试",
+      "line": 23
+    },
+    "ready_to_hatch": {
+      "translation": "",
+      "line": 26
+    },
+    "Egg ready to hatch": {
+      "translation": "蛋准备孵化",
+      "line": 26
+    },
+    "empty_queue": {
+      "translation": "",
+      "line": 27
+    },
+    "Hatchery queue is empty": {
+      "translation": "孵化场队列为空",
+      "line": 27
+    },
+    "quest_ready_to_complete": {
+      "translation": "",
+      "line": 30
+    },
+    "Quest is ready to be completed": {
+      "translation": "任务已准备好完成",
+      "line": 30
+    },
+    "quest_level_increased": {
+      "translation": "",
+      "line": 31
+    },
+    "Quest level increased": {
+      "translation": "任务等级增加",
+      "line": 31
+    },
+    "berry_discovered": {
+      "translation": "",
+      "line": 34
+    },
+    "New Berry discovered": {
+      "translation": "发现新树果",
+      "line": 34
+    },
+    "ready_to_harvest": {
+      "translation": "",
+      "line": 35
+    },
+    "Berry ready to harvest": {
+      "translation": "树果准备收获",
+      "line": 35
+    },
+    "Berry about to wither/has withered": {
+      "translation": "",
+      "line": 36
+    },
+    "Berry has mutated": {
+      "translation": "树果发生了变异",
+      "line": 37
+    },
+    "Berry has been replanted": {
+      "translation": "树果已被重新种植",
+      "line": 38
+    },
+    "Berry has been dropped": {
+      "translation": "树果已掉落",
+      "line": 39
+    },
+    "Mulch has run out": {
+      "translation": "肥料已用完",
+      "line": 40
+    },
+    "wandering": {
+      "translation": "徘徊",
+      "line": 41
+    },
+    "Wandering Pokémon encountered": {
+      "translation": "遭遇游荡宝可梦",
+      "line": 41
+    },
+    "notification.encountered_shiny": {
+      "translation": "遭遇异色宝可梦",
+      "line": 46
+    },
+    "Encountered a shiny Pokémon": {
+      "translation": "遇到了异色的宝可梦",
+      "line": 46
+    },
+    "notification.encountered_roaming": {
+      "translation": "遭遇漫游宝可梦",
+      "line": 47
+    },
+    "Encountered a roaming Pokémon": {
+      "translation": "遇到了漫游的宝可梦",
+      "line": 47
+    },
+    "notification.quest_ready_to_complete": {
+      "translation": "任务即将完成",
+      "line": 48
+    },
+    "notification.quest_completed": {
+      "translation": "任务已完成",
+      "line": 49
+    },
+    "Quest completed": {
+      "translation": "任务完成",
+      "line": 49
+    },
+    "notification.event_start_end": {
+      "translation": "事件开始/结束信息",
+      "line": 50
+    },
+    "Event start/end information": {
+      "translation": "活动开始/结束信息",
+      "line": 50
+    },
+    "notification.gym_won": {
+      "translation": "通关道馆",
+      "line": 51
+    },
+    "Gym leader defeated": {
+      "translation": "道馆馆主被击败",
+      "line": 51
+    },
+    "notification.offline_earnings": {
+      "translation": "离线收益",
+      "line": 52
+    },
+    "Offline earnings": {
+      "translation": "离线收益",
+      "line": 52
+    },
+    "notification.achievement_complete": {
+      "translation": "获得成就",
+      "line": 53
+    },
+    "Achievement complete": {
+      "translation": "成就完成",
+      "line": 53
+    },
+    "notification.new_catch": {
+      "translation": "捕捉新宝可梦（包含异色）",
+      "line": 54
+    },
+    "notification.battle_frontier": {
+      "translation": "战斗开拓区",
+      "line": 55
+    },
+    "notification.pokerus": {
+      "translation": "治愈宝可梦",
+      "line": 56
+    },
+    "notification.ready_to_hatch": {
+      "translation": "准备孵化宝可梦",
+      "line": 59
+    },
+    "notification.hatched": {
+      "translation": "孵化宝可梦",
+      "line": 60
+    },
+    "Egg hatched": {
+      "translation": "蛋孵化了",
+      "line": 60
+    },
+    "notification.hatched_shiny": {
+      "translation": "孵化异色宝可梦",
+      "line": 61
+    },
+    "Egg hatched a shiny": {
+      "translation": "孵化出异色宝可梦",
+      "line": 61
+    },
+    "notification.hatchery_helper": {
+      "translation": "雇佣/解雇孵化场助手",
+      "line": 63
+    },
+    "Hatchery Helper Hired/Fired": {
+      "translation": "孵化助手已雇佣/解雇",
+      "line": 63
+    },
+    "notification.dungeon_complete": {
+      "translation": "通关地下城",
+      "line": 66
+    },
+    "Dungeon completed": {
+      "translation": "迷宫完成",
+      "line": 66
+    },
+    "notification.common_dungeon_item_found": {
+      "translation": "地下城宝箱中发现常见物品",
+      "line": 67
+    },
+    "Common Item found in dungeon chest": {
+      "translation": "迷宫箱中发现的常见物品",
+      "line": 67
+    },
+    "notification.rare_dungeon_item_found": {
+      "translation": "地下城宝箱中发现稀有物品",
+      "line": 68
+    },
+    "Rare Item found in dungeon chest": {
+      "translation": "在迷宫箱子中发现稀有物品",
+      "line": 68
+    },
+    "notification.route_item_found": {
+      "translation": "道路战斗中发现树果",
+      "line": 71
+    },
+    "Berry found during route battle": {
+      "translation": "道路战斗中发现树果",
+      "line": 71
+    },
+    "notification.battle_item_timer": {
+      "translation": "战斗物品即将失效",
+      "line": 72
+    },
+    "notification.dropped_item": {
+      "translation": "敌方宝可梦掉落物品",
+      "line": 73
+    },
+    "Enemy Pokémon dropped an item": {
+      "translation": "敌方宝可梦掉落了一个物品",
+      "line": 73
+    },
+    "notification.item_bought": {
+      "translation": "购买物品",
+      "line": 74
+    },
+    "Item bought": {
+      "translation": "物品已购买",
+      "line": 74
+    },
+    "notification.underground_energy_full": {
+      "translation": "采矿能量达到最大容量",
+      "line": 77
+    },
+    "notification.underground_energy_restore": {
+      "translation": "采矿能量已恢复",
+      "line": 78
+    },
+    "Mining tool restored 1 free use": {
+      "translation": "挖矿工具恢复1次免费使用",
+      "line": 78
+    },
+    "notification.underground_dig_deeper": {
+      "translation": "",
+      "line": 79
+    },
+    "You dig deeper...": {
+      "translation": "你挖得更深...",
+      "line": 79
+    },
+    "notification.underground_item_found": {
+      "translation": "挖矿中发现物品",
+      "line": 80
+    },
+    "Item found while mining": {
+      "translation": "挖掘时发现了物品",
+      "line": 80
+    },
+    "notification.underground_helper": {
+      "translation": "雇用/解雇地下帮手",
+      "line": 81
+    },
+    "Underground Expert Hired/Fired": {
+      "translation": "挖掘专家已雇佣/解雇",
+      "line": 81
+    },
+    "notification.battery_full": {
+      "translation": "地下电池已准备好放电",
+      "line": 82
+    },
+    "Underground Battery is ready to be discharged": {
+      "translation": "挖掘电池已蓄满，可以释放",
+      "line": 82
+    },
+    "notification.berry_discovered": {
+      "translation": "发现新的树果",
+      "line": 85
+    },
+    "notification.ready_to_harvest": {
+      "translation": "树果即将收获",
+      "line": 86
+    },
+    "notification.about_to_wither": {
+      "translation": "树果即将枯萎",
+      "line": 87
+    },
+    "Berry about to wither": {
+      "translation": "树果即将枯萎",
+      "line": 87
+    },
+    "notification.berry_withered": {
+      "translation": "树果已经枯萎",
+      "line": 88
+    },
+    "Berry has withered": {
+      "translation": "树果已经枯萎了",
+      "line": 88
+    },
+    "notification.berry_mutated": {
+      "translation": "树果发生变异",
+      "line": 89
+    },
+    "notification.berry_replanted": {
+      "translation": "树果已重新种植",
+      "line": 90
+    },
+    "notification.berry_dropped": {
+      "translation": "树果已掉落",
+      "line": 91
+    },
+    "notification.mulch_ran_out": {
+      "translation": "肥料效果已失效",
+      "line": 92
+    },
+    "notification.wandering_pokemon": {
+      "translation": "吸引游荡宝可梦",
+      "line": 93
+    },
+    "notification.farm_hand": {
+      "translation": "农场手工雇用/解雇",
+      "line": 94
+    },
+    "Farm Hand Hired/Fired": {
+      "translation": "农场助手已雇佣/解雇",
+      "line": 94
+    }
+  }
+}

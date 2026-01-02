@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/UseOakItemQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "Equip the ${GameConstants.humanifyString(OakItemType[this.item])} and": {
+      "translation": "",
+      "line": 45
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 47
+    },
+    "capture ${this.amount.toLocaleString('en-US')} wild Pokémon.": {
+      "translation": "",
+      "line": 47
+    },
+    "earn bonus Pokédollars ${this.amount.toLocaleString('en-US')} times.": {
+      "translation": "",
+      "line": 49
+    },
+    "defeat ${this.amount.toLocaleString('en-US')} Pokémon.": {
+      "translation": "",
+      "line": 51
+    },
+    "gain its benefit ${this.amount.toLocaleString('en-US')} times.": {
+      "translation": "",
+      "line": 53
+    }
+  }
+}

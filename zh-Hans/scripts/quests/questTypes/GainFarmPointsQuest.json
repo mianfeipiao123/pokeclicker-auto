@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/GainFarmPointsQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 26
+    },
+    "Gain ${this.amount.toLocaleString('en-US')} Farm Points.": {
+      "translation": "",
+      "line": 26
+    }
+  }
+}

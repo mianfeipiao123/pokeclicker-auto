@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/logbook/helpers.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 8
+  },
+  "entries": {
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 1
+    },
+    "../translation/Translation": {
+      "translation": "",
+      "line": 2
+    },
+    "gainBattleFrontierReward": {
+      "translation": "gainBattleFrontierReward",
+      "line": 19
+    },
+    "gainBattleFrontierPoints": {
+      "translation": "gainBattleFrontierPoints",
+      "line": 20
+    },
+    "unableToPayHatcheryHelper": {
+      "translation": "unableToPayHatcheryHelper",
+      "line": 23
+    },
+    "unableToPayFarmHand": {
+      "translation": "unableToPayFarmHand",
+      "line": 24
+    },
+    "fluteRanOutOfGems": {
+      "translation": "fluteRanOutOfGems",
+      "line": 29
+    },
+    "captured": {
+      "translation": "被捕获",
+      "line": 34
+    },
+    "roamer": {
+      "translation": "漫游者",
+      "line": 39
+    },
+    "completedQuestWithPoints": {
+      "translation": "completedQuestWithPoints",
+      "line": 43
+    }
+  }
+}

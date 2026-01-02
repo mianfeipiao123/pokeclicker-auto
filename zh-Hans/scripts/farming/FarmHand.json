@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/FarmHand.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 35,
+    "translatedCount": 25
+  },
+  "entries": {
+    "energy": {
+      "translation": "活力",
+      "line": 2
+    },
+    "efficiency": {
+      "translation": "效率",
+      "line": 3
+    },
+    "accuracy": {
+      "translation": "准确性",
+      "line": 4
+    },
+    "cost": {
+      "translation": "成本",
+      "line": 5
+    },
+    "Random": {
+      "translation": "随机",
+      "line": 29
+    },
+    "Replant": {
+      "translation": "补种",
+      "line": 30
+    },
+    "assets/images/profile/trainer-${this.trainerSprite}.png": {
+      "translation": "",
+      "line": 129
+    },
+    "pixelated": {
+      "translation": "",
+      "line": 129
+    },
+    "[FARM HAND] <img src=\"assets/images/profile/trainer-${this.trainerSprite}.png\" height=\"24px\" class=\"pixelated\"/> ${this.name}": {
+      "translation": "",
+      "line": 129
+    },
+    "t have enough Farm Points to hire me...\nCost: <img src=\"./assets/images/currency/farmPoint.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString(": {
+      "translation": "",
+      "line": 130
+    },
+    "./assets/images/currency/farmPoint.svg": {
+      "translation": "",
+      "line": 130
+    },
+    "You don't have enough Farm Points to hire me...\nCost: <img src=\"./assets/images/currency/farmPoint.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 130
+    },
+    "Thanks for hiring me,\nI won't let you down!": {
+      "translation": "感谢雇佣我，\n我不会让你失望的！",
+      "line": 140
+    },
+    "Thanks for the work.\nLet me know when you're hiring again!": {
+      "translation": "感谢工作。\n下次需要帮手时请联系我！",
+      "line": 150
+    },
+    "re hiring again!\nCost: <img src=\"./assets/images/currency/farmPoint.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString(": {
+      "translation": "",
+      "line": 290
+    },
+    "It looks like you are a little short on Farm Points right now...\nLet me know when you're hiring again!\nCost: <img src=\"./assets/images/currency/farmPoint.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 290
+    },
+    "s your bill for the hour!\nCost: <img src=\"./assets/images/currency/farmPoint.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString(": {
+      "translation": "",
+      "line": 304
+    },
+    "Here's your bill for the hour!\nCost: <img src=\"./assets/images/currency/farmPoint.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 304
+    },
+    "Alex": {
+      "translation": "亚历克斯",
+      "line": 398
+    },
+    "Logan": {
+      "translation": "洛根",
+      "line": 399
+    },
+    "Joey": {
+      "translation": "乔伊",
+      "line": 400
+    },
+    "Charlie": {
+      "translation": "查理",
+      "line": 401
+    },
+    "Bailey": {
+      "translation": "贝利",
+      "line": 402
+    },
+    "FarmHandBailey": {
+      "translation": "农场手贝利",
+      "line": 402
+    },
+    "purchase": {
+      "translation": "购买",
+      "line": 402
+    },
+    "Purchased in the Johto region.": {
+      "translation": "城都地区购买。",
+      "line": 402
+    },
+    "Kerry": {
+      "translation": "凯里",
+      "line": 403
+    },
+    "FarmHandKerry": {
+      "translation": "农手嘉里",
+      "line": 403
+    },
+    "Purchased in the Hoenn region.": {
+      "translation": "丰缘地区购买。",
+      "line": 403
+    },
+    "Riley": {
+      "translation": "莱利",
+      "line": 404
+    },
+    "FarmHandRiley": {
+      "translation": "农场手莱利",
+      "line": 404
+    },
+    "Purchased in the Sinnoh region.": {
+      "translation": "在神奥地区购买。",
+      "line": 404
+    },
+    "Jamie": {
+      "translation": "杰米",
+      "line": 405
+    },
+    "FarmHandJamie": {
+      "translation": "农场帮手杰米",
+      "line": 405
+    },
+    "Jessie": {
+      "translation": "杰西",
+      "line": 406
+    }
+  }
+}

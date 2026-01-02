@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/CaptureSpecificPokemonRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    " or breed": {
+      "translation": "",
+      "line": 28
+    },
+    " and ": {
+      "translation": "",
+      "line": 28
+    },
+    "Catch${this.includeBreeding ? ' or breed' : ''} a total of ${this.requiredValue} ${this.pokemon.map(p => p.name).join(' and ')}.": {
+      "translation": "",
+      "line": 28
+    }
+  }
+}

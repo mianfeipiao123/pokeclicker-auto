@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/dungeons/DungeonTile.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 3
+  },
+  "entries": {
+    "tile tile-invisible": {
+      "translation": "瓷砖瓷砖-隐形",
+      "line": 49
+    },
+    "tile tile-player": {
+      "translation": "瓷砖瓷砖播放器",
+      "line": 53
+    },
+    "tile": {
+      "translation": "瓦",
+      "line": 57
+    },
+    "tile-visited": {
+      "translation": "",
+      "line": 60
+    },
+    "tile-${GameConstants.DungeonTileType[this.type()]}": {
+      "translation": "",
+      "line": 63
+    },
+    "tile-chest-${(this.metadata as ChestMetaData).tier}": {
+      "translation": "",
+      "line": 66
+    }
+  }
+}

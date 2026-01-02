@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/shop/GemMasterShop.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 2
+  },
+  "entries": {
+    "Gem Master": {
+      "translation": "宝石大师",
+      "line": 6
+    },
+    "show": {
+      "translation": "展示",
+      "line": 15
+    }
+  }
+}

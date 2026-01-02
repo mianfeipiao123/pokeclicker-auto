@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/mine/MineConfig.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 7
+  },
+  "entries": {
+    "../UndergroundItems": {
+      "translation": "",
+      "line": 1
+    },
+    "../../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 2
+    },
+    "../UndergroundItem": {
+      "translation": "",
+      "line": 3
+    },
+    "Chaos Cavern": {
+      "translation": "混沌洞穴",
+      "line": 34
+    },
+    "Treasure Trove": {
+      "translation": "宝藏",
+      "line": 37
+    },
+    "Arceus' Forge": {
+      "translation": "阿尔宙斯熔炉",
+      "line": 40
+    },
+    "Fractured Quarry": {
+      "translation": "破碎的采石场",
+      "line": 43
+    },
+    "Ancient Excavation": {
+      "translation": "古代发掘",
+      "line": 46
+    },
+    "Evolution Nexus": {
+      "translation": "进化枢纽",
+      "line": 49
+    },
+    "Mystery Mine": {
+      "translation": "神秘矿井",
+      "line": 52
+    }
+  }
+}

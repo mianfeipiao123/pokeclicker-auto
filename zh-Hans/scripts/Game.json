@@ -1,0 +1,170 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/Game.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 40,
+    "translatedCount": 24
+  },
+  "entries": {
+    "save${Save.key}": {
+      "translation": "",
+      "line": 93
+    },
+    "Unable to load sava data from JSON for:": {
+      "translation": "无法从 JSON 加载 sava 数据：",
+      "line": 103
+    },
+    "\nError:\n": {
+      "translation": "",
+      "line": 103
+    },
+    "MissingNo.": {
+      "translation": "Missing No.",
+      "line": 139
+    },
+    "Auto Save Disabled": {
+      "translation": "自动保存已禁用",
+      "line": 165
+    },
+    "You have disabled auto saving! Be sure to manually save before exiting or any progress will be lost!": {
+      "translation": "你已禁用自动保存！退出前请务必手动保存，否则所有进度将丢失！",
+      "line": 166
+    },
+    "Offline Bonus": {
+      "translation": "离线奖励",
+      "line": 209
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 210
+    },
+    "./assets/images/currency/money.svg": {
+      "translation": "",
+      "line": 210
+    },
+    "Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Pokémon\nEarned: <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${moneyToEarn.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 210
+    },
+    "Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Pokémon\nEarned: ${moneyToEarn.toLocaleString('en-US')} Pokédollars": {
+      "translation": "",
+      "line": 211
+    },
+    "<li>${orbAmounts[key]} ${key}</li>": {
+      "translation": "",
+      "line": 227
+    },
+    "Dream Orbs": {
+      "translation": "梦境宝珠",
+      "line": 230
+    },
+    "mb-0": {
+      "translation": "",
+      "line": 231
+    },
+    "Gained ${orbsEarned} Dream Orbs while offline:<br /><ul class=\"mb-0\">${messageAppend}</ul>": {
+      "translation": "",
+      "line": 231
+    },
+    "Tutorial Quests": {
+      "translation": "教程任务",
+      "line": 242
+    },
+    "Pewter City": {
+      "translation": "尼比市",
+      "line": 243
+    },
+    "Mining Expedition": {
+      "translation": "采矿探险",
+      "line": 253
+    },
+    "Client Island": {
+      "translation": "客户岛",
+      "line": 304
+    },
+    "One Island": {
+      "translation": "一岛",
+      "line": 305
+    },
+    "color:#2ecc71;font-weight:900;": {
+      "translation": "颜色：#2ecc71；字体粗细：900；",
+      "line": 310
+    },
+    "[${GameConstants.formatDate(new Date())}] %cGame started": {
+      "translation": "",
+      "line": 310
+    },
+    "color:#8e44ad;font-weight:900;": {
+      "translation": "颜色：#8e44ad；字体粗细：900；",
+      "line": 345
+    },
+    "[${GameConstants.formatDate(new Date())}] %cStarting web worker..": {
+      "translation": "",
+      "line": 345
+    },
+    "tick": {
+      "translation": "",
+      "line": 361
+    },
+    "message": {
+      "translation": "",
+      "line": 369
+    },
+    "useWebWorkerForGameTicks": {
+      "translation": "useWebWorkerForGameTicks",
+      "line": 369
+    },
+    "visibilitychange": {
+      "translation": "",
+      "line": 371
+    },
+    "game": {
+      "translation": "",
+      "line": 379
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 380
+    },
+    "[${GameConstants.formatDate(new Date())}] %cWeb worker started": {
+      "translation": "",
+      "line": 384
+    },
+    "[${GameConstants.formatDate(new Date())}] Web worker error": {
+      "translation": "",
+      "line": 387
+    },
+    "%cStop!": {
+      "translation": "%c停止！",
+      "line": 394
+    },
+    "color: red; font-size: 36px; font-weight: bold;": {
+      "translation": "颜色: 红色;字体大小：36px；字体粗细：粗体；",
+      "line": 394
+    },
+    "%cThis is a browser feature intended for developers. If you were told to copy-paste or enter something here to obtain an easter egg or unlock a secret, it can corrupt your save file, cause bugs, or otherwise break your game.": {
+      "translation": "%c这是面向开发人员的浏览器功能。如果你被告知在此处复制粘贴或输入某些内容来获取复活节彩蛋或解锁秘密，则可能会损坏你的保存文件、导致错误或以其他方式破坏你的游戏。",
+      "line": 395
+    },
+    "color: red; font-size: 16px;": {
+      "translation": "颜色: 红色;字体大小：16px；",
+      "line": 395
+    },
+    "Welcome Time Traveller!": {
+      "translation": "欢迎，时间旅行者！",
+      "line": 467
+    },
+    "It's a new day!": {
+      "translation": "新的一天！",
+      "line": 487
+    },
+    "<i>You have a free quest refresh.</i>": {
+      "translation": "<i>你有一次免费的任务刷新机会。</i>",
+      "line": 488
+    },
+    "Milcery": {
+      "translation": "小仙奶",
+      "line": 494
+    }
+  }
+}

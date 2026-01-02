@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/SafariPokemon.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 2
+  },
+  "entries": {
+    "✨ You encountered a shiny ${this.displayName}! ✨": {
+      "translation": "",
+      "line": 39
+    },
+    "base": {
+      "translation": "根据",
+      "line": 54
+    },
+    "self": {
+      "translation": "自己",
+      "line": 56
+    }
+  }
+}

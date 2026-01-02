@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/weather/RegionalForecast.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "./WeatherForecast": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    }
+  }
+}

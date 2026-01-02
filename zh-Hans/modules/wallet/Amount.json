@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/wallet/Amount.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "Amount(${this.amount}, ${Currency[this.currency]})": {
+      "translation": "",
+      "line": 13
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/PokerusIndicatingItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./CaughtIndicatingItem": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

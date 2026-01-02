@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/ClearGymRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Clear Gym": {
+      "translation": "通关道馆",
+      "line": 8
+    },
+    "Requires the ${GameConstants.RegionGyms.flat()[this.gymIndex]} Gym to be completed.": {
+      "translation": "",
+      "line": 18
+    },
+    "Requires the ${GameConstants.RegionGyms.flat()[this.gymIndex]} Gym to be defeated ${this.requiredValue} times.": {
+      "translation": "",
+      "line": 20
+    }
+  }
+}

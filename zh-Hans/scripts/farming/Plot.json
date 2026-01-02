@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/Plot.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 25,
+    "translatedCount": 8
+  },
+  "entries": {
+    "Growth: ×${this.auraGrowth().toFixed(2)}": {
+      "translation": "",
+      "line": 158
+    },
+    "Harvest: ×${this.auraHarvest().toFixed(2)}": {
+      "translation": "",
+      "line": 162
+    },
+    "Mutation: ×${this.auraMutation().toFixed(2)}": {
+      "translation": "",
+      "line": 166
+    },
+    "Replant: ×${this.auraReplant().toFixed(2)}": {
+      "translation": "",
+      "line": 170
+    },
+    "Death: ×${this.auraDeath().toFixed(2)}": {
+      "translation": "",
+      "line": 174
+    },
+    "Decay: ×${this.auraDecay().toFixed(2)}": {
+      "translation": "",
+      "line": 178
+    },
+    "Boost: ×${this.auraBoost().toFixed(2)}": {
+      "translation": "",
+      "line": 182
+    },
+    "<br/>": {
+      "translation": "<br/>",
+      "line": 184
+    },
+    "<u>${BerryType[this.berry]}</u>": {
+      "translation": "",
+      "line": 206
+    },
+    "∞ until death": {
+      "translation": "无穷大直到死亡",
+      "line": 211
+    },
+    "(altered from ${this.formattedBaseStageTimeLeft()})": {
+      "translation": "",
+      "line": 213
+    },
+    "${formattedTime} until sprout": {
+      "translation": "",
+      "line": 230
+    },
+    "${formattedTime} until grown": {
+      "translation": "",
+      "line": 233
+    },
+    "${formattedTime} until bloom": {
+      "translation": "",
+      "line": 236
+    },
+    "${formattedTime} until ripe": {
+      "translation": "",
+      "line": 239
+    },
+    "${formattedTime} until death": {
+      "translation": "",
+      "line": 242
+    },
+    "(altered from ${formattedBaseTime})": {
+      "translation": "",
+      "line": 263
+    },
+    "<u>Aura Emitted:</u>": {
+      "translation": "<u>发出的光环：</u>",
+      "line": 271
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 272
+    },
+    "<u>Aura Received:</u>": {
+      "translation": "<u>接收的光环：</u>",
+      "line": 276
+    },
+    "<u>Mulch</u>": {
+      "translation": "<u>肥料</u>",
+      "line": 283
+    },
+    "_Mulch": {
+      "translation": "",
+      "line": 284
+    },
+    "A wild <strong>${PokemonHelper.displayName(this.wanderer.name)}</strong> is wandering around": {
+      "translation": "",
+      "line": 289
+    },
+    "<u>Possible Mutations</u>": {
+      "translation": "<u>可能的变异</u>",
+      "line": 295
+    },
+    "Banette": {
+      "translation": "诅咒娃娃",
+      "line": 403
+    }
+  }
+}

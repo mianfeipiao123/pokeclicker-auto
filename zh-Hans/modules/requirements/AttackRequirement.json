@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/AttackRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../weather/WeatherType": {
+      "translation": "",
+      "line": 3
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    "${this.requiredValue} Attack needed.": {
+      "translation": "",
+      "line": 21
+    }
+  }
+}

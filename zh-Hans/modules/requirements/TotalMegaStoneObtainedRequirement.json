@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/TotalMegaStoneObtainedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 2
+    },
+    "../items/MegaStoneItem": {
+      "translation": "",
+      "line": 3
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    "Mega Stone": {
+      "translation": "超级石",
+      "line": 8
+    },
+    "${this.requiredValue} Mega Stones need to be obtained.": {
+      "translation": "",
+      "line": 16
+    }
+  }
+}

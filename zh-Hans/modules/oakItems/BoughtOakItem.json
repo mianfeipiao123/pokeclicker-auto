@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/oakItems/BoughtOakItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 5
+    },
+    "../wallet/AmountFactory": {
+      "translation": "",
+      "line": 6
+    },
+    "./OakItem": {
+      "translation": "",
+      "line": 7
+    },
+    "Purchase from the ${this.shopName}": {
+      "translation": "",
+      "line": 35
+    }
+  }
+}

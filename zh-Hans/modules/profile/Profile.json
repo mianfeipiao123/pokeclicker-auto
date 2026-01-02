@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/profile/Profile.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 30,
+    "translatedCount": 11
+  },
+  "entries": {
+    "../koExtenders": {
+      "translation": "",
+      "line": 1
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 4
+    },
+    "../DataStore/common/Saveable": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 7
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 8
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 9
+    },
+    "../pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 10
+    },
+    "profile": {
+      "translation": "轮廓",
+      "line": 16
+    },
+    "Trainer": {
+      "translation": "训练师",
+      "line": 44
+    },
+    "../assets/images/profile/trainer-${t}.png": {
+      "translation": "",
+      "line": 52
+    },
+    "url('../assets/images/profile/trainer-${t}.png')": {
+      "translation": "",
+      "line": 52
+    },
+    "whitesmoke": {
+      "translation": "白烟",
+      "line": 69
+    },
+    "trainer-bg-${background}": {
+      "translation": "",
+      "line": 87
+    },
+    "click": {
+      "translation": "点击",
+      "line": 90
+    },
+    "context-menu-button": {
+      "translation": "",
+      "line": 91
+    },
+    "What a lovely profile!": {
+      "translation": "多么可爱的档案！",
+      "line": 96
+    },
+    "assets/images/profile/trainer-${trainer}.png": {
+      "translation": "",
+      "line": 104
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 116
+    },
+    "shadow": {
+      "translation": "阴影",
+      "line": 116
+    },
+    "-f": {
+      "translation": "",
+      "line": 116
+    },
+    "assets/images/${pokemonShiny ? 'shiny' : ''}${pokemonShadow ? 'shadow' : ''}pokemon/${pokemon}${pokemonFemale ? '-f' : ''}.png": {
+      "translation": "",
+      "line": 116
+    },
+    "v${version}": {
+      "translation": "",
+      "line": 118
+    },
+    "img": {
+      "translation": "图像",
+      "line": 123
+    },
+    "m-1": {
+      "translation": "",
+      "line": 125
+    },
+    "assets/images/challenges/${c}.png": {
+      "translation": "",
+      "line": 127
+    },
+    "tooltip": {
+      "translation": "工具提示",
+      "line": 129
+    },
+    "top": {
+      "translation": "顶部",
+      "line": 130
+    },
+    "#${id}": {
+      "translation": "",
+      "line": 134
+    },
+    "profile-trainer-card": {
+      "translation": "",
+      "line": 162
+    }
+  }
+}

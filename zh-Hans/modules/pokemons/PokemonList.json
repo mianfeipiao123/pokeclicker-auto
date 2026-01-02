@@ -1,0 +1,6858 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/PokemonList.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1712,
+    "translatedCount": 1695
+  },
+  "entries": {
+    "./evolutions/Methods": {
+      "translation": "",
+      "line": 22
+    },
+    "../enums/BerryType": {
+      "translation": "",
+      "line": 23
+    },
+    "../enums/ItemType": {
+      "translation": "",
+      "line": 24
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 25
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 28
+    },
+    "../interfaces/BagItem": {
+      "translation": "",
+      "line": 29
+    },
+    "./evolutions/Base": {
+      "translation": "",
+      "line": 32
+    },
+    "../party/LevelType": {
+      "translation": "",
+      "line": 33
+    },
+    "../utilities/GenericProxy": {
+      "translation": "",
+      "line": 34
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 35
+    },
+    "../weather/WeatherType": {
+      "translation": "",
+      "line": 36
+    },
+    "./PokemonNameType": {
+      "translation": "",
+      "line": 38
+    },
+    "./mapProvider": {
+      "translation": "",
+      "line": 39
+    },
+    "../dayCycle/DayCyclePart": {
+      "translation": "",
+      "line": 40
+    },
+    "../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 41
+    },
+    "id": {
+      "translation": "ID",
+      "line": 117
+    },
+    "name": {
+      "translation": "名称",
+      "line": 118
+    },
+    "Bulbasaur": {
+      "translation": "妙蛙种子",
+      "line": 118
+    },
+    "type": {
+      "translation": "类型",
+      "line": 120
+    },
+    "exp": {
+      "translation": "经验值",
+      "line": 122
+    },
+    "evolutions": {
+      "translation": "进化",
+      "line": 124
+    },
+    "Ivysaur": {
+      "translation": "妙蛙草",
+      "line": 124
+    },
+    "base": {
+      "translation": "根据",
+      "line": 125
+    },
+    "hitpoints": {
+      "translation": "生命值",
+      "line": 126
+    },
+    "attack": {
+      "translation": "攻击",
+      "line": 127
+    },
+    "defense": {
+      "translation": "防御",
+      "line": 129
+    },
+    "speed": {
+      "translation": "速度",
+      "line": 131
+    },
+    "gender": {
+      "translation": "性别",
+      "line": 133
+    },
+    "Bulbasaur (Clone)": {
+      "translation": "[[Bulbasaur]] [[alt.clone]]",
+      "line": 139
+    },
+    "Ivysaur (Clone)": {
+      "translation": "[[Ivysaur]] [[alt.clone]]",
+      "line": 145
+    },
+    "Spooky Bulbasaur": {
+      "translation": "[[alt.spooky]] [[Bulbasaur]]",
+      "line": 160
+    },
+    "Spooky Ivysaur": {
+      "translation": "[[alt.spooky]] [[Ivysaur]]",
+      "line": 166
+    },
+    "Rare_Candy": {
+      "translation": "神奇糖果",
+      "line": 178
+    },
+    "Bulbasaur (Rose)": {
+      "translation": "[[Bulbasaur]] [[alt.rose]]",
+      "line": 182
+    },
+    "Ivysaur (Rose)": {
+      "translation": "[[Ivysaur]] [[alt.rose]]",
+      "line": 188
+    },
+    "Venusaur": {
+      "translation": "妙蛙花",
+      "line": 210
+    },
+    "Gigantamax Venusaur": {
+      "translation": "[[alt.gigantamax]][[Venusaur]]",
+      "line": 211
+    },
+    "Venusaur (Clone)": {
+      "translation": "[[Venusaur]] [[alt.clone]]",
+      "line": 233
+    },
+    "Spooky Venusaur": {
+      "translation": "[[alt.spooky]] [[Venusaur]]",
+      "line": 254
+    },
+    "Venusaur (Rose)": {
+      "translation": "[[Venusaur]] [[alt.rose]]",
+      "line": 275
+    },
+    "Mega Venusaur": {
+      "translation": "[[alt.mega]][[Venusaur]]",
+      "line": 296
+    },
+    "Charmander": {
+      "translation": "小火龙",
+      "line": 413
+    },
+    "Charmeleon": {
+      "translation": "火恐龙",
+      "line": 419
+    },
+    "Charmander (Clone)": {
+      "translation": "[[Charmander]] [[alt.clone]]",
+      "line": 434
+    },
+    "Charmeleon (Clone)": {
+      "translation": "[[Charmeleon]] [[alt.clone]]",
+      "line": 440
+    },
+    "Charizard": {
+      "translation": "喷火龙",
+      "line": 462
+    },
+    "Gigantamax Charizard": {
+      "translation": "[[alt.gigantamax]][[Charizard]]",
+      "line": 463
+    },
+    "Charizard (Clone)": {
+      "translation": "[[Charizard]] [[alt.clone]]",
+      "line": 485
+    },
+    "Mega Charizard X": {
+      "translation": "[[alt.mega]][[Charizard]]Ｘ",
+      "line": 507
+    },
+    "Mega Charizard Y": {
+      "translation": "[[alt.mega]][[Charizard]]Ｙ",
+      "line": 508
+    },
+    "Squirtle": {
+      "translation": "杰尼龟",
+      "line": 604
+    },
+    "Wartortle": {
+      "translation": "卡咪龟",
+      "line": 611
+    },
+    "Black_Glasses": {
+      "translation": "黑色_眼镜",
+      "line": 612
+    },
+    "Squad Leader Squirtle": {
+      "translation": "小队长[[Squirtle]]",
+      "line": 612
+    },
+    "Squirtle (Clone)": {
+      "translation": "[[Squirtle]] [[alt.clone]]",
+      "line": 628
+    },
+    "Wartortle (Clone)": {
+      "translation": "[[Wartortle]] [[alt.clone]]",
+      "line": 634
+    },
+    "Blastoise": {
+      "translation": "水箭龟",
+      "line": 676
+    },
+    "Gigantamax Blastoise": {
+      "translation": "[[alt.gigantamax]][[Blastoise]]",
+      "line": 677
+    },
+    "Blastoise (Clone)": {
+      "translation": "[[Blastoise]] [[alt.clone]]",
+      "line": 699
+    },
+    "Mega Blastoise": {
+      "translation": "[[alt.mega]][[Blastoise]]",
+      "line": 720
+    },
+    "Caterpie": {
+      "translation": "绿毛虫",
+      "line": 795
+    },
+    "Metapod": {
+      "translation": "铁甲蛹",
+      "line": 801
+    },
+    "Pinkan Caterpie": {
+      "translation": "[[alt.pinkan]][[Caterpie]]",
+      "line": 813
+    },
+    "Butterfree": {
+      "translation": "巴大蝶",
+      "line": 837
+    },
+    "Valencian Butterfree": {
+      "translation": "[[alt.valencian]][[Butterfree]]",
+      "line": 838
+    },
+    "Pink Butterfree": {
+      "translation": "粉红色[[Butterfree]]",
+      "line": 839
+    },
+    "Ash's Butterfree": {
+      "translation": "小智的[[Butterfree]]",
+      "line": 840
+    },
+    "Gigantamax Butterfree": {
+      "translation": "[[alt.gigantamax]][[Butterfree]]",
+      "line": 841
+    },
+    "Weedle": {
+      "translation": "独角虫",
+      "line": 951
+    },
+    "Kakuna": {
+      "translation": "铁壳蛹",
+      "line": 957
+    },
+    "Pinkan Weedle": {
+      "translation": "[[alt.pinkan]][[Weedle]]",
+      "line": 969
+    },
+    "Beedrill": {
+      "translation": "大针蜂",
+      "line": 992
+    },
+    "Mega Beedrill": {
+      "translation": "[[alt.mega]][[Beedrill]]",
+      "line": 1010
+    },
+    "Pidgey": {
+      "translation": "波波",
+      "line": 1039
+    },
+    "Pidgeotto": {
+      "translation": "比比鸟",
+      "line": 1045
+    },
+    "Pinkan Pidgey": {
+      "translation": "[[alt.pinkan]][[Pidgey]]",
+      "line": 1057
+    },
+    "Team Rocket's Pinkan Theme Park": {
+      "translation": "火箭队的粉红主题乐园",
+      "line": 1063
+    },
+    "Pinkan Pidgeotto": {
+      "translation": "[[alt.pinkan]][[Pidgeotto]]",
+      "line": 1063
+    },
+    "Pidgeot": {
+      "translation": "大比鸟",
+      "line": 1081
+    },
+    "Mega Pidgeot": {
+      "translation": "[[alt.mega]][[Pidgeot]]",
+      "line": 1116
+    },
+    "Rattata": {
+      "translation": "小拉达",
+      "line": 1145
+    },
+    "Raticate": {
+      "translation": "拉达",
+      "line": 1152
+    },
+    "Valencian Raticate": {
+      "translation": "[[alt.valencian]][[Raticate]]",
+      "line": 1153
+    },
+    "Alolan Rattata": {
+      "translation": "[[alt.alolan]][[Rattata]]",
+      "line": 1169
+    },
+    "Alolan Raticate": {
+      "translation": "[[alt.alolan]][[Raticate]]",
+      "line": 1176
+    },
+    "Pinkan Rattata": {
+      "translation": "[[alt.pinkan]][[Rattata]]",
+      "line": 1188
+    },
+    "Totem Raticate": {
+      "translation": "[[alt.totem]][[Raticate]]",
+      "line": 1246
+    },
+    "Spearow": {
+      "translation": "烈雀",
+      "line": 1284
+    },
+    "Fearow": {
+      "translation": "大嘴雀",
+      "line": 1290
+    },
+    "Red Spearow": {
+      "translation": "赤色[[Spearow]]",
+      "line": 1302
+    },
+    "Ekans": {
+      "translation": "阿柏蛇",
+      "line": 1336
+    },
+    "Arbok": {
+      "translation": "阿柏怪",
+      "line": 1343
+    },
+    "Pinkan Arbok": {
+      "translation": "[[alt.pinkan]][[Arbok]]",
+      "line": 1344
+    },
+    "Pikachu": {
+      "translation": "皮卡丘",
+      "line": 1391
+    },
+    "Raichu": {
+      "translation": "雷丘",
+      "line": 1398
+    },
+    "Alolan Raichu": {
+      "translation": "[[alt.alolan]][[Raichu]]",
+      "line": 1399
+    },
+    "Pikachu (Original Cap)": {
+      "translation": "[[Pikachu]] 初始帽子",
+      "line": 1415
+    },
+    "Pikachu (Hoenn Cap)": {
+      "translation": "[[Pikachu]] 丰缘帽子",
+      "line": 1435
+    },
+    "Pikachu (Sinnoh Cap)": {
+      "translation": "[[Pikachu]] 神奥帽子",
+      "line": 1455
+    },
+    "Pikachu (Unova Cap)": {
+      "translation": "[[Pikachu]] 合众帽子",
+      "line": 1475
+    },
+    "Pikachu (Kalos Cap)": {
+      "translation": "[[Pikachu]] 卡洛斯帽子",
+      "line": 1495
+    },
+    "Pikachu (Alola Cap)": {
+      "translation": "[[Pikachu]] 阿罗拉帽子",
+      "line": 1515
+    },
+    "Pikachu (World Cap)": {
+      "translation": "[[Pikachu]] 世界帽子",
+      "line": 1536
+    },
+    "Pikachu (Partner Cap)": {
+      "translation": "[[Pikachu]] 就决定是你了之帽子",
+      "line": 1556
+    },
+    "Gigantamax Pikachu": {
+      "translation": "[[alt.gigantamax]][[Pikachu]]",
+      "line": 1576
+    },
+    "Flying Pikachu": {
+      "translation": "飞翔[[Pikachu]]",
+      "line": 1593
+    },
+    "Surfing Pikachu": {
+      "translation": "冲浪[[Pikachu]]",
+      "line": 1610
+    },
+    "Pikachu (Gengar)": {
+      "translation": "[[Pikachu]] ([[Gengar]])",
+      "line": 1627
+    },
+    "Let's Go Pikachu": {
+      "translation": "[[alt.letsGo]] [[Pikachu]]",
+      "line": 1648
+    },
+    "Pinkan Pikachu": {
+      "translation": "[[alt.pinkan]][[Pikachu]]",
+      "line": 1668
+    },
+    "Detective Pikachu": {
+      "translation": "[[alt.detective]][[Pikachu]]",
+      "line": 1688
+    },
+    "Detective Raichu": {
+      "translation": "[[alt.detective]][[Raichu]]",
+      "line": 1694
+    },
+    "Pikachu (Clone)": {
+      "translation": "[[Pikachu]] [[alt.clone]]",
+      "line": 1709
+    },
+    "Pikachu (Rock Star)": {
+      "translation": "硬岩石[[Pikachu]]",
+      "line": 1729
+    },
+    "Pikachu (Belle)": {
+      "translation": "贵妇[[Pikachu]]",
+      "line": 1749
+    },
+    "Pikachu (Pop Star)": {
+      "translation": "偶像[[Pikachu]]",
+      "line": 1769
+    },
+    "Pikachu (Ph. D.)": {
+      "translation": "博士[[Pikachu]]",
+      "line": 1789
+    },
+    "Pikachu (Libre)": {
+      "translation": "面罩摔角手[[Pikachu]]",
+      "line": 1809
+    },
+    "Pikachu (Easter)": {
+      "translation": "[[Pikachu]] (复活节)",
+      "line": 1829
+    },
+    "Pikachu (Palaeontologist)": {
+      "translation": "古生物学家[[Pikachu]]",
+      "line": 1849
+    },
+    "Sandshrew": {
+      "translation": "穿山鼠",
+      "line": 1927
+    },
+    "Sandslash": {
+      "translation": "穿山王",
+      "line": 1933
+    },
+    "Alolan Sandshrew": {
+      "translation": "[[alt.alolan]][[Sandshrew]]",
+      "line": 1945
+    },
+    "Alolan Sandslash": {
+      "translation": "[[alt.alolan]][[Sandslash]]",
+      "line": 1952
+    },
+    "Nidoran(F)": {
+      "translation": "尼多兰",
+      "line": 1999
+    },
+    "Nidorina": {
+      "translation": "尼多娜",
+      "line": 2005
+    },
+    "Pinkan Nidoran(F)": {
+      "translation": "[[alt.pinkan]][[Nidoran(F)]]",
+      "line": 2020
+    },
+    "Nidoqueen": {
+      "translation": "尼多后",
+      "line": 2046
+    },
+    "Nidoran(M)": {
+      "translation": "尼多朗",
+      "line": 2081
+    },
+    "Nidorino": {
+      "translation": "尼多力诺",
+      "line": 2087
+    },
+    "Pinkan Nidoran(M)": {
+      "translation": "[[alt.pinkan]][[Nidoran(M)]]",
+      "line": 2102
+    },
+    "Nidoking": {
+      "translation": "尼多王",
+      "line": 2129
+    },
+    "Pinkan Nidoking": {
+      "translation": "[[alt.pinkan]][[Nidoking]]",
+      "line": 2130
+    },
+    "Clefairy": {
+      "translation": "皮皮",
+      "line": 2186
+    },
+    "Clefable": {
+      "translation": "皮可西",
+      "line": 2192
+    },
+    "Moon_stone": {
+      "translation": "月光石",
+      "line": 2201
+    },
+    "Vulpix": {
+      "translation": "六尾",
+      "line": 2229
+    },
+    "Ninetales": {
+      "translation": "九尾",
+      "line": 2235
+    },
+    "Alolan Vulpix": {
+      "translation": "[[alt.alolan]][[Vulpix]]",
+      "line": 2250
+    },
+    "Alolan Ninetales": {
+      "translation": "[[alt.alolan]][[Ninetales]]",
+      "line": 2257
+    },
+    "Jigglypuff": {
+      "translation": "胖丁",
+      "line": 2313
+    },
+    "Wigglytuff": {
+      "translation": "胖可丁",
+      "line": 2319
+    },
+    "Zubat": {
+      "translation": "超音蝠",
+      "line": 2354
+    },
+    "Golbat": {
+      "translation": "大嘴蝠",
+      "line": 2360
+    },
+    "Crobat": {
+      "translation": "叉字蝠",
+      "line": 2381
+    },
+    "Oddish": {
+      "translation": "走路草",
+      "line": 2396
+    },
+    "Gloom": {
+      "translation": "臭臭花",
+      "line": 2402
+    },
+    "Pinkan Oddish": {
+      "translation": "[[alt.pinkan]][[Oddish]]",
+      "line": 2414
+    },
+    "Vileplume": {
+      "translation": "霸王花",
+      "line": 2438
+    },
+    "Valencian Vileplume": {
+      "translation": "[[alt.valencian]][[Vileplume]]",
+      "line": 2439
+    },
+    "Pinkan Vileplume": {
+      "translation": "[[alt.pinkan]][[Vileplume]]",
+      "line": 2440
+    },
+    "Bellossom": {
+      "translation": "美丽花",
+      "line": 2441
+    },
+    "Paras": {
+      "translation": "派拉斯",
+      "line": 2514
+    },
+    "Parasect": {
+      "translation": "派拉斯特",
+      "line": 2520
+    },
+    "Valencian Paras": {
+      "translation": "[[alt.valencian]][[Paras]]",
+      "line": 2532
+    },
+    "Pinkan Paras": {
+      "translation": "[[alt.pinkan]][[Paras]]",
+      "line": 2549
+    },
+    "Venonat": {
+      "translation": "毛球",
+      "line": 2583
+    },
+    "Venomoth": {
+      "translation": "摩鲁蛾",
+      "line": 2589
+    },
+    "Pinkan Venonat": {
+      "translation": "[[alt.pinkan]][[Venonat]]",
+      "line": 2601
+    },
+    "Diglett": {
+      "translation": "地鼠",
+      "line": 2635
+    },
+    "Dugtrio": {
+      "translation": "三地鼠",
+      "line": 2642
+    },
+    "Dugtrio (Punk)": {
+      "translation": "[[Dugtrio]] (朋克)",
+      "line": 2643
+    },
+    "Alolan Diglett": {
+      "translation": "[[alt.alolan]][[Diglett]]",
+      "line": 2656
+    },
+    "Alolan Dugtrio": {
+      "translation": "[[alt.alolan]][[Dugtrio]]",
+      "line": 2663
+    },
+    "Pinkan Diglett": {
+      "translation": "[[alt.pinkan]][[Diglett]]",
+      "line": 2675
+    },
+    "Meowth": {
+      "translation": "喵喵",
+      "line": 2744
+    },
+    "Persian": {
+      "translation": "猫老大",
+      "line": 2750
+    },
+    "Gigantamax Meowth": {
+      "translation": "[[alt.gigantamax]][[Meowth]]",
+      "line": 2763
+    },
+    "Alolan Meowth": {
+      "translation": "[[alt.alolan]][[Meowth]]",
+      "line": 2780
+    },
+    "Alolan Persian": {
+      "translation": "[[alt.alolan]][[Persian]]",
+      "line": 2787
+    },
+    "Galarian Meowth": {
+      "translation": "[[alt.galarian]][[Meowth]]",
+      "line": 2799
+    },
+    "Perrserker": {
+      "translation": "喵头目",
+      "line": 2806
+    },
+    "Meowth (Phanpy)": {
+      "translation": "[[Meowth]] ([[Phanpy]])",
+      "line": 2818
+    },
+    "Psyduck": {
+      "translation": "可达鸭",
+      "line": 2874
+    },
+    "Golduck": {
+      "translation": "哥达鸭",
+      "line": 2880
+    },
+    "Mankey": {
+      "translation": "猴怪",
+      "line": 2909
+    },
+    "Primeape": {
+      "translation": "火暴猴",
+      "line": 2915
+    },
+    "Pinkan Mankey": {
+      "translation": "[[alt.pinkan]][[Mankey]]",
+      "line": 2927
+    },
+    "Pinkan Primeape": {
+      "translation": "[[alt.pinkan]][[Primeape]]",
+      "line": 2933
+    },
+    "Annihilape": {
+      "translation": "弃世猴",
+      "line": 2951
+    },
+    "Growlithe": {
+      "translation": "卡蒂狗",
+      "line": 2980
+    },
+    "Arcanine": {
+      "translation": "风速狗",
+      "line": 2986
+    },
+    "Hisuian Growlithe": {
+      "translation": "[[alt.hisuian]][[Growlithe]]",
+      "line": 3001
+    },
+    "Hisuian Arcanine": {
+      "translation": "[[alt.hisuian]][[Arcanine]]",
+      "line": 3008
+    },
+    "Noble Arcanine": {
+      "translation": "[[Arcanine]] [[alt.noble]]",
+      "line": 3064
+    },
+    "Poliwag": {
+      "translation": "蚊香蝌蚪",
+      "line": 3085
+    },
+    "Poliwhirl": {
+      "translation": "蚊香君",
+      "line": 3092
+    },
+    "Pinkan Poliwhirl": {
+      "translation": "[[alt.pinkan]][[Poliwhirl]]",
+      "line": 3093
+    },
+    "Poliwrath": {
+      "translation": "蚊香泳士",
+      "line": 3112
+    },
+    "Politoed": {
+      "translation": "蚊香蛙皇",
+      "line": 3112
+    },
+    "Kings_rock": {
+      "translation": "王者岩石",
+      "line": 3121
+    },
+    "Abra": {
+      "translation": "凯西",
+      "line": 3160
+    },
+    "Kadabra": {
+      "translation": "勇基拉",
+      "line": 3166
+    },
+    "Alakazam": {
+      "translation": "胡地",
+      "line": 3187
+    },
+    "Mega Alakazam": {
+      "translation": "[[alt.mega]][[Alakazam]]",
+      "line": 3209
+    },
+    "Machop": {
+      "translation": "腕力",
+      "line": 3242
+    },
+    "Machoke": {
+      "translation": "豪力",
+      "line": 3248
+    },
+    "Machamp": {
+      "translation": "怪力",
+      "line": 3270
+    },
+    "Gigantamax Machamp": {
+      "translation": "[[alt.gigantamax]][[Machamp]]",
+      "line": 3271
+    },
+    "Bellsprout": {
+      "translation": "喇叭芽",
+      "line": 3327
+    },
+    "Weepinbell": {
+      "translation": "口呆花",
+      "line": 3334
+    },
+    "Valencian Weepinbell": {
+      "translation": "[[alt.valencian]][[Weepinbell]]",
+      "line": 3335
+    },
+    "Weepinbell (Fancy)": {
+      "translation": "[[Weepinbell]] (幻彩)",
+      "line": 3336
+    },
+    "Pinkan Bellsprout": {
+      "translation": "[[alt.pinkan]][[Bellsprout]]",
+      "line": 3349
+    },
+    "Victreebel": {
+      "translation": "大食花",
+      "line": 3372
+    },
+    "Tentacool": {
+      "translation": "玛瑙水母",
+      "line": 3435
+    },
+    "Tentacruel": {
+      "translation": "毒刺水母",
+      "line": 3441
+    },
+    "Geodude": {
+      "translation": "小拳石",
+      "line": 3470
+    },
+    "Graveler": {
+      "translation": "隆隆石",
+      "line": 3476
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 3485
+    },
+    "Alolan Geodude": {
+      "translation": "[[alt.alolan]][[Geodude]]",
+      "line": 3489
+    },
+    "Alolan Graveler": {
+      "translation": "[[alt.alolan]][[Graveler]]",
+      "line": 3496
+    },
+    "Pinkan Geodude": {
+      "translation": "[[alt.pinkan]][[Geodude]]",
+      "line": 3508
+    },
+    "Golem": {
+      "translation": "隆隆岩",
+      "line": 3532
+    },
+    "Hard Stone": {
+      "translation": "坚硬的石头",
+      "line": 3541
+    },
+    "Alolan Golem": {
+      "translation": "[[alt.alolan]][[Golem]]",
+      "line": 3552
+    },
+    "Ponyta": {
+      "translation": "小火马",
+      "line": 3600
+    },
+    "Rapidash": {
+      "translation": "烈焰马",
+      "line": 3606
+    },
+    "Galarian Ponyta": {
+      "translation": "[[alt.galarian]][[Ponyta]]",
+      "line": 3618
+    },
+    "Galarian Rapidash": {
+      "translation": "[[alt.galarian]][[Rapidash]]",
+      "line": 3625
+    },
+    "Slowpoke": {
+      "translation": "呆呆兽",
+      "line": 3672
+    },
+    "Slowbro": {
+      "translation": "呆壳兽",
+      "line": 3679
+    },
+    "Slowking": {
+      "translation": "呆呆王",
+      "line": 3680
+    },
+    "Galarian Slowpoke": {
+      "translation": "[[alt.galarian]][[Slowpoke]]",
+      "line": 3694
+    },
+    "Galarian Slowbro": {
+      "translation": "[[alt.galarian]][[Slowbro]]",
+      "line": 3702
+    },
+    "Galarian Slowking": {
+      "translation": "[[alt.galarian]][[Slowking]]",
+      "line": 3703
+    },
+    "Mega Slowbro": {
+      "translation": "[[alt.mega]][[Slowbro]]",
+      "line": 3722
+    },
+    "Magnemite": {
+      "translation": "小磁怪",
+      "line": 3770
+    },
+    "Magneton": {
+      "translation": "三合一磁怪",
+      "line": 3776
+    },
+    "Metal_coat": {
+      "translation": "金属涂层",
+      "line": 3785
+    },
+    "Magnezone": {
+      "translation": "自爆磁怪",
+      "line": 3799
+    },
+    "Farfetch'd": {
+      "translation": "大葱鸭",
+      "line": 3817
+    },
+    "Leek": {
+      "translation": "韭葱",
+      "line": 3831
+    },
+    "Galarian Farfetch'd": {
+      "translation": "[[alt.galarian]][[Farfetch'd]]",
+      "line": 3835
+    },
+    "Sirfetch'd": {
+      "translation": "葱游兵",
+      "line": 3842
+    },
+    "Doduo": {
+      "translation": "嘟嘟",
+      "line": 3855
+    },
+    "Dodrio": {
+      "translation": "嘟嘟利",
+      "line": 3862
+    },
+    "Pinkan Dodrio": {
+      "translation": "[[alt.pinkan]][[Dodrio]]",
+      "line": 3863
+    },
+    "Seel": {
+      "translation": "小海狮",
+      "line": 3919
+    },
+    "Dewgong": {
+      "translation": "白海狮",
+      "line": 3925
+    },
+    "Grimer": {
+      "translation": "臭泥",
+      "line": 3954
+    },
+    "Muk": {
+      "translation": "臭臭泥",
+      "line": 3960
+    },
+    "Alolan Grimer": {
+      "translation": "[[alt.alolan]][[Grimer]]",
+      "line": 3972
+    },
+    "Alolan Muk": {
+      "translation": "[[alt.alolan]][[Muk]]",
+      "line": 3979
+    },
+    "Shellder": {
+      "translation": "大舌贝",
+      "line": 4026
+    },
+    "Cloyster": {
+      "translation": "刺甲贝",
+      "line": 4032
+    },
+    "Gastly": {
+      "translation": "鬼斯",
+      "line": 4061
+    },
+    "Haunter": {
+      "translation": "鬼斯通",
+      "line": 4067
+    },
+    "Gengar": {
+      "translation": "耿鬼",
+      "line": 4086
+    },
+    "Gigantamax Gengar": {
+      "translation": "[[alt.gigantamax]][[Gengar]]",
+      "line": 4087
+    },
+    "Gengar (Punk)": {
+      "translation": "[[Gengar]] (朋克)",
+      "line": 4088
+    },
+    "Mega Gengar": {
+      "translation": "[[alt.mega]][[Gengar]]",
+      "line": 4107
+    },
+    "Onix": {
+      "translation": "大岩蛇",
+      "line": 4170
+    },
+    "Steelix": {
+      "translation": "大钢蛇",
+      "line": 4176
+    },
+    "Crystal Onix": {
+      "translation": "水晶[[Onix]]",
+      "line": 4189
+    },
+    "Crystal Steelix": {
+      "translation": "水晶[[Steelix]]",
+      "line": 4195
+    },
+    "Ice Stone": {
+      "translation": "冰石",
+      "line": 4204
+    },
+    "Onix (Rocker)": {
+      "translation": "[[Onix]] (硬岩石)",
+      "line": 4208
+    },
+    "Drowzee": {
+      "translation": "催眠貘",
+      "line": 4226
+    },
+    "Hypno": {
+      "translation": "引梦貘人",
+      "line": 4232
+    },
+    "Krabby": {
+      "translation": "大钳蟹",
+      "line": 4264
+    },
+    "Kingler": {
+      "translation": "巨钳蟹",
+      "line": 4271
+    },
+    "Gigantamax Kingler": {
+      "translation": "[[alt.gigantamax]][[Kingler]]",
+      "line": 4272
+    },
+    "Voltorb": {
+      "translation": "霹雳电球",
+      "line": 4319
+    },
+    "Electrode": {
+      "translation": "顽皮雷弹",
+      "line": 4325
+    },
+    "Hisuian Voltorb": {
+      "translation": "[[alt.hisuian]][[Voltorb]]",
+      "line": 4340
+    },
+    "Hisuian Electrode": {
+      "translation": "[[alt.hisuian]][[Electrode]]",
+      "line": 4347
+    },
+    "Noble Electrode": {
+      "translation": "[[Electrode]] [[alt.noble]]",
+      "line": 4403
+    },
+    "Exeggcute": {
+      "translation": "蛋蛋",
+      "line": 4424
+    },
+    "Exeggutor": {
+      "translation": "椰蛋树",
+      "line": 4431
+    },
+    "Alolan Exeggutor": {
+      "translation": "[[alt.alolan]][[Exeggutor]]",
+      "line": 4432
+    },
+    "Pinkan Exeggutor": {
+      "translation": "[[alt.pinkan]][[Exeggutor]]",
+      "line": 4433
+    },
+    "Exeggcute (Single)": {
+      "translation": "[[Exeggcute]] (单个)",
+      "line": 4446
+    },
+    "Cubone": {
+      "translation": "卡拉卡拉",
+      "line": 4515
+    },
+    "Marowak": {
+      "translation": "嘎啦嘎啦",
+      "line": 4522
+    },
+    "Alolan Marowak": {
+      "translation": "[[alt.alolan]][[Marowak]]",
+      "line": 4523
+    },
+    "Rare Bone": {
+      "translation": "稀有骨头",
+      "line": 4533
+    },
+    "Thick_Club": {
+      "translation": "粗俱乐部",
+      "line": 4570
+    },
+    "Totem Marowak": {
+      "translation": "[[alt.totem]][[Marowak]]",
+      "line": 4574
+    },
+    "Hitmonlee": {
+      "translation": "飞腿郎",
+      "line": 4593
+    },
+    "Hitmonchan": {
+      "translation": "快拳郎",
+      "line": 4613
+    },
+    "Lickitung": {
+      "translation": "大舌头",
+      "line": 4633
+    },
+    "Lickilicky": {
+      "translation": "大舌舔",
+      "line": 4638
+    },
+    "Koffing": {
+      "translation": "瓦斯弹",
+      "line": 4651
+    },
+    "Weezing": {
+      "translation": "双弹瓦斯",
+      "line": 4658
+    },
+    "Galarian Weezing": {
+      "translation": "[[alt.galarian]][[Weezing]]",
+      "line": 4659
+    },
+    "Pinkan Weezing": {
+      "translation": "[[alt.pinkan]][[Weezing]]",
+      "line": 4660
+    },
+    "Rhyhorn": {
+      "translation": "独角犀牛",
+      "line": 4725
+    },
+    "Rhydon": {
+      "translation": "钻角犀兽",
+      "line": 4731
+    },
+    "Pinkan Rhyhorn": {
+      "translation": "[[alt.pinkan]][[Rhyhorn]]",
+      "line": 4746
+    },
+    "Pinkan Rhydon": {
+      "translation": "[[alt.pinkan]][[Rhydon]]",
+      "line": 4752
+    },
+    "Rhyperior": {
+      "translation": "超甲狂犀",
+      "line": 4773
+    },
+    "Chansey": {
+      "translation": "吉利蛋",
+      "line": 4808
+    },
+    "Blissey": {
+      "translation": "幸福蛋",
+      "line": 4814
+    },
+    "Lucky_Punch": {
+      "translation": "幸运拳",
+      "line": 4823
+    },
+    "Charity Chansey": {
+      "translation": "慈善[[Chansey]]",
+      "line": 4830
+    },
+    "Blessing Blissey": {
+      "translation": "祈愿[[Blissey]]",
+      "line": 4836
+    },
+    "Tangela": {
+      "translation": "蔓藤怪",
+      "line": 4852
+    },
+    "Tangrowth": {
+      "translation": "巨蔓藤",
+      "line": 4858
+    },
+    "Tangela (Pom-pom)": {
+      "translation": "[[Tangela]] (啪滋啪滋)",
+      "line": 4870
+    },
+    "Kangaskhan": {
+      "translation": "袋兽",
+      "line": 4887
+    },
+    "Mega Kangaskhan": {
+      "translation": "[[alt.mega]][[Kangaskhan]]",
+      "line": 4893
+    },
+    "Baby Kangaskhan": {
+      "translation": "小[[Kangaskhan]]",
+      "line": 4928
+    },
+    "baby": {
+      "translation": "婴儿",
+      "line": 4934
+    },
+    "Horsea": {
+      "translation": "墨海马",
+      "line": 4950
+    },
+    "Seadra": {
+      "translation": "海刺龙",
+      "line": 4956
+    },
+    "Dragon_scale": {
+      "translation": "龙鳞",
+      "line": 4965
+    },
+    "Kingdra": {
+      "translation": "刺龙王",
+      "line": 4975
+    },
+    "Goldeen": {
+      "translation": "角金鱼",
+      "line": 4988
+    },
+    "Seaking": {
+      "translation": "金鱼王",
+      "line": 4994
+    },
+    "Goldeen (Diva)": {
+      "translation": "[[Goldeen]] (天后)",
+      "line": 5009
+    },
+    "Staryu": {
+      "translation": "海星星",
+      "line": 5046
+    },
+    "Starmie": {
+      "translation": "宝石海星",
+      "line": 5052
+    },
+    "Mr. Mime": {
+      "translation": "魔墙人偶",
+      "line": 5087
+    },
+    "Galarian Mr. Mime": {
+      "translation": "[[alt.galarian]][[Mr. Mime]]",
+      "line": 5104
+    },
+    "Mr. Rime": {
+      "translation": "踏冰人偶",
+      "line": 5111
+    },
+    "Scyther": {
+      "translation": "飞天螳螂",
+      "line": 5123
+    },
+    "Scizor": {
+      "translation": "巨钳螳螂",
+      "line": 5130
+    },
+    "Kleavor": {
+      "translation": "劈斧螳螂",
+      "line": 5131
+    },
+    "Pinkan Scyther": {
+      "translation": "[[alt.pinkan]][[Scyther]]",
+      "line": 5147
+    },
+    "Jynx": {
+      "translation": "迷唇姐",
+      "line": 5167
+    },
+    "Santa Jynx": {
+      "translation": "圣诞老人 [[Jynx]]",
+      "line": 5187
+    },
+    "Christmas_present": {
+      "translation": "圣诞礼物",
+      "line": 5201
+    },
+    "Electabuzz": {
+      "translation": "电击兽",
+      "line": 5208
+    },
+    "Electivire": {
+      "translation": "电击魔兽",
+      "line": 5214
+    },
+    "Electirizer": {
+      "translation": "起电器",
+      "line": 5223
+    },
+    "Pinkan Electabuzz": {
+      "translation": "[[alt.pinkan]][[Electabuzz]]",
+      "line": 5230
+    },
+    "Magmar": {
+      "translation": "鸭嘴火兽",
+      "line": 5250
+    },
+    "Magmortar": {
+      "translation": "鸭嘴炎兽",
+      "line": 5256
+    },
+    "Magmarizer": {
+      "translation": "",
+      "line": 5265
+    },
+    "Pinsir": {
+      "translation": "凯罗斯",
+      "line": 5272
+    },
+    "Mega Pinsir": {
+      "translation": "[[alt.mega]][[Pinsir]]",
+      "line": 5278
+    },
+    "Tauros": {
+      "translation": "肯泰罗",
+      "line": 5307
+    },
+    "Paldean Tauros (Combat)": {
+      "translation": "[[alt.paldean]][[Tauros]] 斗战种",
+      "line": 5327
+    },
+    "Paldean Tauros (Blaze)": {
+      "translation": "[[alt.paldean]][[Tauros]] 火炽种",
+      "line": 5348
+    },
+    "Paldean Tauros (Aqua)": {
+      "translation": "[[alt.paldean]][[Tauros]] 水澜种",
+      "line": 5369
+    },
+    "Magikarp": {
+      "translation": "鲤鱼王",
+      "line": 5390
+    },
+    "Gyarados": {
+      "translation": "暴鲤龙",
+      "line": 5396
+    },
+    "Magikarp Skelly": {
+      "translation": "[[Magikarp]] [[alt.karp.skelly]]",
+      "line": 5411
+    },
+    "Magikarp Calico (Orange, White)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.orange]][[alt.karp.white]]）",
+      "line": 5431
+    },
+    "Magikarp_Biscuit": {
+      "translation": "",
+      "line": 5445
+    },
+    "Magikarp Calico (Orange, White, Black)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.orange]][[alt.karp.white]][[alt.karp.black]]）",
+      "line": 5452
+    },
+    "Magikarp Calico (White, Orange)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.white]][[alt.karp.orange]]）",
+      "line": 5473
+    },
+    "Magikarp Calico (Orange, Gold)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.orange]][[alt.karp.gold]]）",
+      "line": 5493
+    },
+    "Magikarp Orange Two-Tone": {
+      "translation": "[[Magikarp]] [[alt.karp.twoTone]]（[[alt.karp.orange]]）",
+      "line": 5514
+    },
+    "Magikarp Orange Orca": {
+      "translation": "[[Magikarp]] [[alt.karp.orca]]（[[alt.karp.orange]]）",
+      "line": 5535
+    },
+    "Magikarp Orange Dapples": {
+      "translation": "[[Magikarp]] [[alt.karp.dapples]]（[[alt.karp.orange]]）",
+      "line": 5556
+    },
+    "Magikarp Pink Two-Tone": {
+      "translation": "[[Magikarp]] [[alt.karp.twoTone]]（[[alt.karp.pink]]）",
+      "line": 5577
+    },
+    "Magikarp Pink Orca": {
+      "translation": "[[Magikarp]] [[alt.karp.orca]]（[[alt.karp.pink]]）",
+      "line": 5598
+    },
+    "Magikarp Pink Dapples": {
+      "translation": "[[Magikarp]] [[alt.karp.dapples]]（[[alt.karp.pink]]）",
+      "line": 5619
+    },
+    "Magikarp Grey Bubbles": {
+      "translation": "[[Magikarp]] [[alt.karp.bubbles]]（[[alt.karp.grey]]）",
+      "line": 5639
+    },
+    "Magikarp Grey Diamonds": {
+      "translation": "[[Magikarp]] [[alt.karp.diamonds]]（[[alt.karp.grey]]）",
+      "line": 5660
+    },
+    "Magikarp Grey Patches": {
+      "translation": "[[Magikarp]] [[alt.karp.patches]]（[[alt.karp.grey]]）",
+      "line": 5680
+    },
+    "Magikarp Purple Bubbles": {
+      "translation": "[[Magikarp]] [[alt.karp.bubbles]]（[[alt.karp.purple]]）",
+      "line": 5701
+    },
+    "Magikarp Purple Diamonds": {
+      "translation": "[[Magikarp]] [[alt.karp.diamonds]]（[[alt.karp.purple]]）",
+      "line": 5721
+    },
+    "Magikarp Purple Patches": {
+      "translation": "[[Magikarp]] [[alt.karp.patches]]（[[alt.karp.purple]]）",
+      "line": 5741
+    },
+    "Magikarp Apricot Tiger": {
+      "translation": "[[Magikarp]] [[alt.karp.tiger]]（[[alt.karp.apricot]]）",
+      "line": 5761
+    },
+    "Magikarp Apricot Zebra": {
+      "translation": "[[Magikarp]] [[alt.karp.zebra]]（[[alt.karp.apricot]]）",
+      "line": 5782
+    },
+    "Magikarp Apricot Stripes": {
+      "translation": "[[Magikarp]] [[alt.karp.stripes]]（[[alt.karp.apricot]]）",
+      "line": 5803
+    },
+    "Magikarp Brown Tiger": {
+      "translation": "[[Magikarp]] [[alt.karp.tiger]]（[[alt.karp.brown]]）",
+      "line": 5823
+    },
+    "Magikarp Brown Zebra": {
+      "translation": "[[Magikarp]] [[alt.karp.zebra]]（[[alt.karp.brown]]）",
+      "line": 5843
+    },
+    "Magikarp Brown Stripes": {
+      "translation": "[[Magikarp]] [[alt.karp.stripes]]（[[alt.karp.brown]]）",
+      "line": 5864
+    },
+    "Magikarp Orange Forehead": {
+      "translation": "[[Magikarp]] [[alt.karp.forehead]]（[[alt.karp.orange]]）",
+      "line": 5884
+    },
+    "Magikarp Orange Mask": {
+      "translation": "[[Magikarp]] [[alt.karp.mask]]（[[alt.karp.orange]]）",
+      "line": 5904
+    },
+    "Magikarp Black Forehead": {
+      "translation": "[[Magikarp]] [[alt.karp.forehead]]（[[alt.karp.black]]）",
+      "line": 5925
+    },
+    "Magikarp Black Mask": {
+      "translation": "[[Magikarp]] [[alt.karp.mask]]（[[alt.karp.black]]）",
+      "line": 5946
+    },
+    "Magikarp Blue Raindrops": {
+      "translation": "[[Magikarp]] [[alt.karp.raindrops]]（[[alt.karp.blue]]）",
+      "line": 5966
+    },
+    "Magikarp Saucy Blue": {
+      "translation": "[[Magikarp]] [[alt.karp.saucy]]（[[alt.karp.blue]]）",
+      "line": 5986
+    },
+    "Magikarp Violet Raindrops": {
+      "translation": "[[Magikarp]] [[alt.karp.raindrops]]（[[alt.karp.violet]]）",
+      "line": 6006
+    },
+    "Magikarp Saucy Violet": {
+      "translation": "[[Magikarp]] [[alt.karp.saucy]]（[[alt.karp.violet]]）",
+      "line": 6026
+    },
+    "Magikarp (Feebas)": {
+      "translation": "[[Magikarp]] ([[Feebas]])",
+      "line": 6046
+    },
+    "Mega Gyarados": {
+      "translation": "[[alt.mega]][[Gyarados]]",
+      "line": 6072
+    },
+    "Lapras": {
+      "translation": "拉普拉斯",
+      "line": 6104
+    },
+    "Gigantamax Lapras": {
+      "translation": "[[alt.gigantamax]][[Lapras]]",
+      "line": 6121
+    },
+    "Ditto": {
+      "translation": "百变怪",
+      "line": 6138
+    },
+    "Ditto (Magikarp)": {
+      "translation": "[[Ditto]] ([[Magikarp]])",
+      "line": 6158
+    },
+    "Eevee": {
+      "translation": "伊布",
+      "line": 6178
+    },
+    "Vaporeon": {
+      "translation": "水伊布",
+      "line": 6185
+    },
+    "Jolteon": {
+      "translation": "雷伊布",
+      "line": 6186
+    },
+    "Flareon": {
+      "translation": "火伊布",
+      "line": 6187
+    },
+    "Espeon": {
+      "translation": "太阳伊布",
+      "line": 6188
+    },
+    "Umbreon": {
+      "translation": "月亮伊布",
+      "line": 6189
+    },
+    "Leafeon": {
+      "translation": "叶伊布",
+      "line": 6190
+    },
+    "Glaceon": {
+      "translation": "冰伊布",
+      "line": 6191
+    },
+    "Sylveon": {
+      "translation": "仙子伊布",
+      "line": 6192
+    },
+    "Gigantamax Eevee": {
+      "translation": "[[alt.gigantamax]][[Eevee]]",
+      "line": 6211
+    },
+    "Let's Go Eevee": {
+      "translation": "[[alt.letsGo]] [[Eevee]]",
+      "line": 6231
+    },
+    "Porygon": {
+      "translation": "多边兽",
+      "line": 6311
+    },
+    "Porygon2": {
+      "translation": "多边兽Ⅱ",
+      "line": 6317
+    },
+    "Omanyte": {
+      "translation": "菊石兽",
+      "line": 6332
+    },
+    "Omastar": {
+      "translation": "多刺菊石兽",
+      "line": 6338
+    },
+    "Kabuto": {
+      "translation": "化石盔",
+      "line": 6373
+    },
+    "Kabutops": {
+      "translation": "镰刀盔",
+      "line": 6379
+    },
+    "Aerodactyl": {
+      "translation": "化石翼龙",
+      "line": 6414
+    },
+    "Mega Aerodactyl": {
+      "translation": "[[alt.mega]][[Aerodactyl]]",
+      "line": 6420
+    },
+    "Snorlax": {
+      "translation": "卡比兽",
+      "line": 6455
+    },
+    "Gigantamax Snorlax": {
+      "translation": "[[alt.gigantamax]][[Snorlax]]",
+      "line": 6475
+    },
+    "Santa Snorlax": {
+      "translation": "圣诞老人 [[Snorlax]]",
+      "line": 6495
+    },
+    "Snorlax (Snowman)": {
+      "translation": "[[Snorlax]] (雪人)",
+      "line": 6515
+    },
+    "Articuno": {
+      "translation": "急冻鸟",
+      "line": 6535
+    },
+    "Galarian Articuno": {
+      "translation": "[[alt.galarian]][[Articuno]]",
+      "line": 6555
+    },
+    "Zapdos": {
+      "translation": "闪电鸟",
+      "line": 6576
+    },
+    "Galarian Zapdos": {
+      "translation": "[[alt.galarian]][[Zapdos]]",
+      "line": 6596
+    },
+    "Moltres": {
+      "translation": "火焰鸟",
+      "line": 6617
+    },
+    "Galarian Moltres": {
+      "translation": "[[alt.galarian]][[Moltres]]",
+      "line": 6637
+    },
+    "Dratini": {
+      "translation": "迷你龙",
+      "line": 6658
+    },
+    "Dragonair": {
+      "translation": "哈克龙",
+      "line": 6664
+    },
+    "Dragonite": {
+      "translation": "快龙",
+      "line": 6683
+    },
+    "Mewtwo": {
+      "translation": "超梦",
+      "line": 6714
+    },
+    "Mega Mewtwo X": {
+      "translation": "[[alt.mega]][[Mewtwo]]Ｘ",
+      "line": 6721
+    },
+    "Mega Mewtwo Y": {
+      "translation": "[[alt.mega]][[Mewtwo]]Ｙ",
+      "line": 6722
+    },
+    "Armored Mewtwo": {
+      "translation": "铠甲[[Mewtwo]]",
+      "line": 6778
+    },
+    "Mew": {
+      "translation": "梦幻",
+      "line": 6798
+    },
+    "Chikorita": {
+      "translation": "菊草叶",
+      "line": 6819
+    },
+    "Bayleef": {
+      "translation": "月桂叶",
+      "line": 6825
+    },
+    "Meganium": {
+      "translation": "大竺葵",
+      "line": 6846
+    },
+    "Cyndaquil": {
+      "translation": "火球鼠",
+      "line": 6882
+    },
+    "Quilava": {
+      "translation": "火岩鼠",
+      "line": 6888
+    },
+    "Typhlosion": {
+      "translation": "火暴兽",
+      "line": 6910
+    },
+    "Hisuian Typhlosion": {
+      "translation": "[[alt.hisuian]][[Typhlosion]]",
+      "line": 6911
+    },
+    "Totodile": {
+      "translation": "小锯鳄",
+      "line": 6968
+    },
+    "Croconaw": {
+      "translation": "蓝鳄",
+      "line": 6974
+    },
+    "Feraligatr": {
+      "translation": "大力鳄",
+      "line": 6995
+    },
+    "Sentret": {
+      "translation": "尾立",
+      "line": 7030
+    },
+    "Furret": {
+      "translation": "大尾立",
+      "line": 7036
+    },
+    "Hoothoot": {
+      "translation": "咕咕",
+      "line": 7065
+    },
+    "Noctowl": {
+      "translation": "猫头夜鹰",
+      "line": 7071
+    },
+    "Ledyba": {
+      "translation": "芭瓢虫",
+      "line": 7100
+    },
+    "Ledian": {
+      "translation": "安瓢虫",
+      "line": 7106
+    },
+    "Spinarak": {
+      "translation": "圆丝蛛",
+      "line": 7141
+    },
+    "Ariados": {
+      "translation": "阿利多斯",
+      "line": 7147
+    },
+    "Chinchou": {
+      "translation": "灯笼鱼",
+      "line": 7193
+    },
+    "Lanturn": {
+      "translation": "电灯怪",
+      "line": 7199
+    },
+    "Deepsea_scale": {
+      "translation": "深海规模",
+      "line": 7208
+    },
+    "Pichu": {
+      "translation": "皮丘",
+      "line": 7230
+    },
+    "Spiky-eared Pichu": {
+      "translation": "刺刺耳[[Pichu]]",
+      "line": 7249
+    },
+    "Cleffa": {
+      "translation": "皮宝宝",
+      "line": 7269
+    },
+    "Igglybuff": {
+      "translation": "宝宝丁",
+      "line": 7292
+    },
+    "Togepi": {
+      "translation": "波克比",
+      "line": 7314
+    },
+    "Togetic": {
+      "translation": "波克基古",
+      "line": 7320
+    },
+    "Spooky Togepi": {
+      "translation": "[[alt.spooky]] [[Togepi]]",
+      "line": 7336
+    },
+    "Spooky Togetic": {
+      "translation": "[[alt.spooky]] [[Togetic]]",
+      "line": 7342
+    },
+    "Togepi (Flowering Crown)": {
+      "translation": "[[Togepi]] (花冠)",
+      "line": 7359
+    },
+    "Togekiss": {
+      "translation": "波克基斯",
+      "line": 7385
+    },
+    "Spooky Togekiss": {
+      "translation": "[[alt.spooky]] [[Togekiss]]",
+      "line": 7406
+    },
+    "Natu": {
+      "translation": "天然雀",
+      "line": 7421
+    },
+    "Xatu": {
+      "translation": "天然鸟",
+      "line": 7427
+    },
+    "Mareep": {
+      "translation": "咩利羊",
+      "line": 7459
+    },
+    "Flaaffy": {
+      "translation": "茸茸羊",
+      "line": 7465
+    },
+    "Ampharos": {
+      "translation": "电龙",
+      "line": 7483
+    },
+    "Mega Ampharos": {
+      "translation": "[[alt.mega]][[Ampharos]]",
+      "line": 7501
+    },
+    "Marill": {
+      "translation": "玛力露",
+      "line": 7547
+    },
+    "Azumarill": {
+      "translation": "玛力露丽",
+      "line": 7553
+    },
+    "Sudowoodo": {
+      "translation": "树才怪",
+      "line": 7582
+    },
+    "Sudowoodo (Golden)": {
+      "translation": "[[Sudowoodo]] (金色)",
+      "line": 7602
+    },
+    "Hoppip": {
+      "translation": "毽子草",
+      "line": 7643
+    },
+    "Skiploom": {
+      "translation": "毽子花",
+      "line": 7649
+    },
+    "Hoppip (Chimecho)": {
+      "translation": "[[Hoppip]] ([[Chimecho]])",
+      "line": 7661
+    },
+    "Jumpluff": {
+      "translation": "毽子棉",
+      "line": 7684
+    },
+    "Aipom": {
+      "translation": "长尾怪手",
+      "line": 7713
+    },
+    "Ambipom": {
+      "translation": "双尾怪手",
+      "line": 7717
+    },
+    "Sunkern": {
+      "translation": "向日种子",
+      "line": 7735
+    },
+    "Sunflora": {
+      "translation": "向日花怪",
+      "line": 7741
+    },
+    "Yanma": {
+      "translation": "蜻蜻蜓",
+      "line": 7770
+    },
+    "Yanmega": {
+      "translation": "远古巨蜓",
+      "line": 7776
+    },
+    "Wooper": {
+      "translation": "乌波",
+      "line": 7788
+    },
+    "Quagsire": {
+      "translation": "沼王",
+      "line": 7794
+    },
+    "Paldean Wooper": {
+      "translation": "[[alt.paldean]][[Wooper]]",
+      "line": 7809
+    },
+    "Clodsire": {
+      "translation": "土王",
+      "line": 7816
+    },
+    "Murkrow": {
+      "translation": "黑暗鸦",
+      "line": 7888
+    },
+    "Honchkrow": {
+      "translation": "乌鸦头头",
+      "line": 7894
+    },
+    "Misdreavus": {
+      "translation": "梦妖",
+      "line": 7945
+    },
+    "Mismagius": {
+      "translation": "梦妖魔",
+      "line": 7952
+    },
+    "Mismagius (Illusion)": {
+      "translation": "[[Mismagius]] (幻觉)",
+      "line": 7953
+    },
+    "Unown (A)": {
+      "translation": "[[Unown]] (A)",
+      "line": 7966
+    },
+    "Unown (B)": {
+      "translation": "[[Unown]] (B)",
+      "line": 7986
+    },
+    "Unown (C)": {
+      "translation": "[[Unown]] (C)",
+      "line": 8006
+    },
+    "Unown (D)": {
+      "translation": "[[Unown]] (D)",
+      "line": 8026
+    },
+    "Unown (E)": {
+      "translation": "[[Unown]] (E)",
+      "line": 8046
+    },
+    "Unown (F)": {
+      "translation": "[[Unown]] (女)",
+      "line": 8066
+    },
+    "Unown (G)": {
+      "translation": "[[Unown]] (G)",
+      "line": 8086
+    },
+    "Unown (H)": {
+      "translation": "[[Unown]] (H)",
+      "line": 8106
+    },
+    "Unown (I)": {
+      "translation": "[[Unown]] (一)",
+      "line": 8126
+    },
+    "Unown (J)": {
+      "translation": "[[Unown]] (J)",
+      "line": 8146
+    },
+    "Unown (K)": {
+      "translation": "[[Unown]] (K)",
+      "line": 8166
+    },
+    "Unown (L)": {
+      "translation": "[[Unown]] (大)",
+      "line": 8186
+    },
+    "Unown (M)": {
+      "translation": "[[Unown]] (男)",
+      "line": 8206
+    },
+    "Unown (N)": {
+      "translation": "[[Unown]] (N)",
+      "line": 8226
+    },
+    "Unown (O)": {
+      "translation": "[[Unown]] (O)",
+      "line": 8246
+    },
+    "Unown (P)": {
+      "translation": "[[Unown]] (P)",
+      "line": 8266
+    },
+    "Unown (Q)": {
+      "translation": "[[Unown]] (问)",
+      "line": 8286
+    },
+    "Unown (R)": {
+      "translation": "[[Unown]] (R)",
+      "line": 8306
+    },
+    "Unown (S)": {
+      "translation": "[[Unown]] (S)",
+      "line": 8326
+    },
+    "Unown (T)": {
+      "translation": "[[Unown]] (T)",
+      "line": 8346
+    },
+    "Unown (U)": {
+      "translation": "[[Unown]] (U)",
+      "line": 8366
+    },
+    "Unown (V)": {
+      "translation": "[[Unown]] (V)",
+      "line": 8386
+    },
+    "Unown (W)": {
+      "translation": "[[Unown]] (W)",
+      "line": 8406
+    },
+    "Unown (X)": {
+      "translation": "[[Unown]] (X)",
+      "line": 8426
+    },
+    "Unown (Y)": {
+      "translation": "[[Unown]] (是)",
+      "line": 8446
+    },
+    "Unown (Z)": {
+      "translation": "[[Unown]] (Z)",
+      "line": 8466
+    },
+    "Unown (!)": {
+      "translation": "[[Unown]] (!)",
+      "line": 8486
+    },
+    "Unown (?)": {
+      "translation": "[[Unown]] (?)",
+      "line": 8506
+    },
+    "Wobbuffet": {
+      "translation": "果然翁",
+      "line": 8526
+    },
+    "Girafarig": {
+      "translation": "麒麟奇",
+      "line": 8546
+    },
+    "Farigiraf": {
+      "translation": "奇麒麟",
+      "line": 8552
+    },
+    "Pineco": {
+      "translation": "榛果球",
+      "line": 8567
+    },
+    "Forretress": {
+      "translation": "佛烈托斯",
+      "line": 8573
+    },
+    "Dunsparce": {
+      "translation": "土龙弟弟",
+      "line": 8602
+    },
+    "Dudunsparce (Two-Segment)": {
+      "translation": "[[Dudunsparce]] 二节形态",
+      "line": 8608
+    },
+    "Gligar": {
+      "translation": "天蝎",
+      "line": 8620
+    },
+    "Gliscor": {
+      "translation": "天蝎王",
+      "line": 8626
+    },
+    "Mega Steelix": {
+      "translation": "[[alt.mega]][[Steelix]]",
+      "line": 8647
+    },
+    "Snubbull": {
+      "translation": "布鲁",
+      "line": 8700
+    },
+    "Granbull": {
+      "translation": "布鲁皇",
+      "line": 8706
+    },
+    "Qwilfish": {
+      "translation": "千针鱼",
+      "line": 8741
+    },
+    "Hisuian Qwilfish": {
+      "translation": "[[alt.hisuian]][[Qwilfish]]",
+      "line": 8758
+    },
+    "Strong_Scroll": {
+      "translation": "强卷轴",
+      "line": 8765
+    },
+    "Overqwil": {
+      "translation": "万针鱼",
+      "line": 8765
+    },
+    "Mega Scizor": {
+      "translation": "[[alt.mega]][[Scizor]]",
+      "line": 8783
+    },
+    "Shuckle": {
+      "translation": "壶壶",
+      "line": 8815
+    },
+    "Shuckle (Corked)": {
+      "translation": "[[Shuckle]] (塞住)",
+      "line": 8832
+    },
+    "Heracross": {
+      "translation": "赫拉克罗斯",
+      "line": 8849
+    },
+    "Mega Heracross": {
+      "translation": "[[alt.mega]][[Heracross]]",
+      "line": 8855
+    },
+    "Sneasel": {
+      "translation": "狃拉",
+      "line": 8887
+    },
+    "Weavile": {
+      "translation": "玛狃拉",
+      "line": 8893
+    },
+    "Hisuian Sneasel": {
+      "translation": "[[alt.hisuian]][[Sneasel]]",
+      "line": 8908
+    },
+    "Sneasler": {
+      "translation": "大狃拉",
+      "line": 8915
+    },
+    "Teddiursa": {
+      "translation": "熊宝宝",
+      "line": 8930
+    },
+    "Ursaring": {
+      "translation": "圈圈熊",
+      "line": 8936
+    },
+    "Ursaluna": {
+      "translation": "月月熊",
+      "line": 8955
+    },
+    "Bloodmoon Ursaluna": {
+      "translation": "[[Ursaluna]] 赫月形态",
+      "line": 8956
+    },
+    "Slugma": {
+      "translation": "熔岩虫",
+      "line": 8972
+    },
+    "Magcargo": {
+      "translation": "熔岩蜗牛",
+      "line": 8978
+    },
+    "Swinub": {
+      "translation": "小山猪",
+      "line": 9007
+    },
+    "Piloswine": {
+      "translation": "长毛猪",
+      "line": 9013
+    },
+    "Mamoswine": {
+      "translation": "象牙猪",
+      "line": 9031
+    },
+    "Corsola": {
+      "translation": "太阳珊瑚",
+      "line": 9046
+    },
+    "Galarian Corsola": {
+      "translation": "[[alt.galarian]][[Corsola]]",
+      "line": 9067
+    },
+    "Cursola": {
+      "translation": "魔灵珊瑚",
+      "line": 9074
+    },
+    "Remoraid": {
+      "translation": "铁炮鱼",
+      "line": 9089
+    },
+    "Octillery": {
+      "translation": "章鱼桶",
+      "line": 9095
+    },
+    "Delibird": {
+      "translation": "信使鸟",
+      "line": 9127
+    },
+    "Mantine": {
+      "translation": "巨翅飞鱼",
+      "line": 9144
+    },
+    "Skarmory": {
+      "translation": "盔甲鸟",
+      "line": 9161
+    },
+    "Houndour": {
+      "translation": "戴鲁比",
+      "line": 9179
+    },
+    "Houndoom": {
+      "translation": "黑鲁加",
+      "line": 9185
+    },
+    "Mega Houndoom": {
+      "translation": "[[alt.mega]][[Houndoom]]",
+      "line": 9203
+    },
+    "Phanpy": {
+      "translation": "小小象",
+      "line": 9253
+    },
+    "Donphan": {
+      "translation": "顿甲",
+      "line": 9259
+    },
+    "Porygon-Z": {
+      "translation": "多边兽Ｚ",
+      "line": 9297
+    },
+    "Upgrade": {
+      "translation": "升级",
+      "line": 9306
+    },
+    "Stantler": {
+      "translation": "惊角鹿",
+      "line": 9313
+    },
+    "Agile_Scroll": {
+      "translation": "敏捷_滚动",
+      "line": 9319
+    },
+    "Wyrdeer": {
+      "translation": "诡角鹿",
+      "line": 9319
+    },
+    "Reindeer Stantler": {
+      "translation": "驯鹿 [[Stantler]]",
+      "line": 9331
+    },
+    "Smeargle": {
+      "translation": "图图犬",
+      "line": 9348
+    },
+    "Tyrogue": {
+      "translation": "无畏小子",
+      "line": 9365
+    },
+    "Hitmontop": {
+      "translation": "战舞郎",
+      "line": 9374
+    },
+    "Smoochum": {
+      "translation": "迷唇娃",
+      "line": 9411
+    },
+    "Elekid": {
+      "translation": "电击怪",
+      "line": 9433
+    },
+    "Magby": {
+      "translation": "鸭嘴宝宝",
+      "line": 9456
+    },
+    "Miltank": {
+      "translation": "大奶罐",
+      "line": 9479
+    },
+    "Oval Stone": {
+      "translation": "椭圆形石",
+      "line": 9513
+    },
+    "Raikou": {
+      "translation": "雷公",
+      "line": 9541
+    },
+    "Entei": {
+      "translation": "炎帝",
+      "line": 9561
+    },
+    "Suicune": {
+      "translation": "水君",
+      "line": 9581
+    },
+    "Larvitar": {
+      "translation": "幼基拉斯",
+      "line": 9601
+    },
+    "Pupitar": {
+      "translation": "沙基拉斯",
+      "line": 9607
+    },
+    "Tyranitar": {
+      "translation": "班基拉斯",
+      "line": 9625
+    },
+    "Mega Tyranitar": {
+      "translation": "[[alt.mega]][[Tyranitar]]",
+      "line": 9643
+    },
+    "Lugia": {
+      "translation": "洛奇亚",
+      "line": 9672
+    },
+    "XD001": {
+      "translation": "XD001",
+      "line": 9692
+    },
+    "Ho-Oh": {
+      "translation": "凤王",
+      "line": 9712
+    },
+    "Celebi": {
+      "translation": "时拉比",
+      "line": 9732
+    },
+    "Flowering Celebi": {
+      "translation": "花朵 [[Celebi]]",
+      "line": 9753
+    },
+    "Grinch Celebi": {
+      "translation": "格林奇 [[Celebi]]",
+      "line": 9774
+    },
+    "Treecko": {
+      "translation": "木守宫",
+      "line": 9795
+    },
+    "Grovyle": {
+      "translation": "森林蜥蜴",
+      "line": 9801
+    },
+    "Sceptile": {
+      "translation": "蜥蜴王",
+      "line": 9822
+    },
+    "Mega Sceptile": {
+      "translation": "[[alt.mega]][[Sceptile]]",
+      "line": 9843
+    },
+    "Torchic": {
+      "translation": "火稚鸡",
+      "line": 9878
+    },
+    "Combusken": {
+      "translation": "力壮鸡",
+      "line": 9884
+    },
+    "Torchic (Egg)": {
+      "translation": "[[Torchic]] (蛋)",
+      "line": 9899
+    },
+    "Blaziken": {
+      "translation": "火焰鸡",
+      "line": 9925
+    },
+    "Mega Blaziken": {
+      "translation": "[[alt.mega]][[Blaziken]]",
+      "line": 9947
+    },
+    "Mudkip": {
+      "translation": "水跃鱼",
+      "line": 9983
+    },
+    "Marshtomp": {
+      "translation": "沼跃鱼",
+      "line": 9989
+    },
+    "Swampert": {
+      "translation": "巨沼怪",
+      "line": 10010
+    },
+    "Mega Swampert": {
+      "translation": "[[alt.mega]][[Swampert]]",
+      "line": 10031
+    },
+    "Poochyena": {
+      "translation": "土狼犬",
+      "line": 10066
+    },
+    "Mightyena": {
+      "translation": "大狼犬",
+      "line": 10072
+    },
+    "Zigzagoon": {
+      "translation": "蛇纹熊",
+      "line": 10101
+    },
+    "Linoone": {
+      "translation": "直冲熊",
+      "line": 10107
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 10116
+    },
+    "Galarian Zigzagoon": {
+      "translation": "[[alt.galarian]][[Zigzagoon]]",
+      "line": 10120
+    },
+    "Galarian Linoone": {
+      "translation": "[[alt.galarian]][[Linoone]]",
+      "line": 10127
+    },
+    "Max Revive": {
+      "translation": "最大复活",
+      "line": 10153
+    },
+    "Obstagoon": {
+      "translation": "堵拦熊",
+      "line": 10164
+    },
+    "Wurmple": {
+      "translation": "刺尾虫",
+      "line": 10176
+    },
+    "Silcoon": {
+      "translation": "甲壳茧",
+      "line": 10183
+    },
+    "Cascoon": {
+      "translation": "盾甲茧",
+      "line": 10184
+    },
+    "Beautifly": {
+      "translation": "狩猎凤蝶",
+      "line": 10203
+    },
+    "Dustox": {
+      "translation": "毒粉蛾",
+      "line": 10241
+    },
+    "Lotad": {
+      "translation": "莲叶童子",
+      "line": 10273
+    },
+    "Lombre": {
+      "translation": "莲帽小童",
+      "line": 10279
+    },
+    "Ludicolo": {
+      "translation": "乐天河童",
+      "line": 10297
+    },
+    "Seedot": {
+      "translation": "橡实果",
+      "line": 10329
+    },
+    "Nuzleaf": {
+      "translation": "长鼻叶",
+      "line": 10335
+    },
+    "Shiftry": {
+      "translation": "狡猾天狗",
+      "line": 10353
+    },
+    "Taillow": {
+      "translation": "傲骨燕",
+      "line": 10388
+    },
+    "Swellow": {
+      "translation": "大王燕",
+      "line": 10394
+    },
+    "Wingull": {
+      "translation": "长翅鸥",
+      "line": 10423
+    },
+    "Pelipper": {
+      "translation": "大嘴鸥",
+      "line": 10429
+    },
+    "Ralts": {
+      "translation": "拉鲁拉丝",
+      "line": 10458
+    },
+    "Kirlia": {
+      "translation": "奇鲁莉安",
+      "line": 10464
+    },
+    "Gardevoir": {
+      "translation": "沙奈朵",
+      "line": 10483
+    },
+    "Gallade": {
+      "translation": "艾路雷朵",
+      "line": 10484
+    },
+    "Mega Gardevoir": {
+      "translation": "[[alt.mega]][[Gardevoir]]",
+      "line": 10503
+    },
+    "Surskit": {
+      "translation": "溜溜糖球",
+      "line": 10532
+    },
+    "Masquerain": {
+      "translation": "雨翅蛾",
+      "line": 10538
+    },
+    "Shroomish": {
+      "translation": "蘑蘑菇",
+      "line": 10567
+    },
+    "Breloom": {
+      "translation": "斗笠菇",
+      "line": 10573
+    },
+    "Slakoth": {
+      "translation": "懒人獭",
+      "line": 10602
+    },
+    "Vigoroth": {
+      "translation": "过动猿",
+      "line": 10608
+    },
+    "Slaking": {
+      "translation": "请假王",
+      "line": 10626
+    },
+    "Nincada": {
+      "translation": "土居忍士",
+      "line": 10655
+    },
+    "Ninjask": {
+      "translation": "铁面忍者",
+      "line": 10662
+    },
+    "Shedinja": {
+      "translation": "脱壳忍者",
+      "line": 10663
+    },
+    "Whismur": {
+      "translation": "咕妞妞",
+      "line": 10713
+    },
+    "Loudred": {
+      "translation": "吼爆弹",
+      "line": 10719
+    },
+    "Exploud": {
+      "translation": "爆音怪",
+      "line": 10737
+    },
+    "Makuhita": {
+      "translation": "幕下力士",
+      "line": 10766
+    },
+    "Hariyama": {
+      "translation": "铁掌力士",
+      "line": 10772
+    },
+    "Azurill": {
+      "translation": "露力丽",
+      "line": 10808
+    },
+    "Nosepass": {
+      "translation": "朝北鼻",
+      "line": 10830
+    },
+    "Probopass": {
+      "translation": "大朝北鼻",
+      "line": 10837
+    },
+    "Skitty": {
+      "translation": "向尾喵",
+      "line": 10851
+    },
+    "Delcatty": {
+      "translation": "优雅猫",
+      "line": 10857
+    },
+    "Sableye": {
+      "translation": "勾魂眼",
+      "line": 10892
+    },
+    "Mega Sableye": {
+      "translation": "[[alt.mega]][[Sableye]]",
+      "line": 10898
+    },
+    "Mawile": {
+      "translation": "大嘴娃",
+      "line": 10927
+    },
+    "Mega Mawile": {
+      "translation": "[[alt.mega]][[Mawile]]",
+      "line": 10933
+    },
+    "Iron Ball": {
+      "translation": "铁球",
+      "line": 10942
+    },
+    "Aron": {
+      "translation": "可可多拉",
+      "line": 10963
+    },
+    "Lairon": {
+      "translation": "可多拉",
+      "line": 10969
+    },
+    "Aggron": {
+      "translation": "波士可多拉",
+      "line": 10988
+    },
+    "Mega Aggron": {
+      "translation": "[[alt.mega]][[Aggron]]",
+      "line": 11007
+    },
+    "Meditite": {
+      "translation": "玛沙那",
+      "line": 11037
+    },
+    "Medicham": {
+      "translation": "恰雷姆",
+      "line": 11043
+    },
+    "Mega Medicham": {
+      "translation": "[[alt.mega]][[Medicham]]",
+      "line": 11064
+    },
+    "Electrike": {
+      "translation": "落雷兽",
+      "line": 11096
+    },
+    "Manectric": {
+      "translation": "雷电兽",
+      "line": 11102
+    },
+    "Mega Manectric": {
+      "translation": "[[alt.mega]][[Manectric]]",
+      "line": 11120
+    },
+    "Plusle": {
+      "translation": "正电拍拍",
+      "line": 11149
+    },
+    "Minun": {
+      "translation": "负电拍拍",
+      "line": 11166
+    },
+    "Volbeat": {
+      "translation": "电萤虫",
+      "line": 11183
+    },
+    "Illumise": {
+      "translation": "甜甜萤",
+      "line": 11203
+    },
+    "Roselia": {
+      "translation": "毒蔷薇",
+      "line": 11223
+    },
+    "Roserade": {
+      "translation": "罗丝雷朵",
+      "line": 11229
+    },
+    "Gulpin": {
+      "translation": "溶食兽",
+      "line": 11244
+    },
+    "Swalot": {
+      "translation": "吞食兽",
+      "line": 11250
+    },
+    "Carvanha": {
+      "translation": "利牙鱼",
+      "line": 11285
+    },
+    "Sharpedo": {
+      "translation": "巨牙鲨",
+      "line": 11291
+    },
+    "Deepsea_tooth": {
+      "translation": "深海_牙齿",
+      "line": 11300
+    },
+    "Mega Sharpedo": {
+      "translation": "[[alt.mega]][[Sharpedo]]",
+      "line": 11310
+    },
+    "Wailmer": {
+      "translation": "吼吼鲸",
+      "line": 11340
+    },
+    "Wailord": {
+      "translation": "吼鲸王",
+      "line": 11346
+    },
+    "Numel": {
+      "translation": "呆火驼",
+      "line": 11375
+    },
+    "Camerupt": {
+      "translation": "喷火驼",
+      "line": 11381
+    },
+    "Mega Camerupt": {
+      "translation": "[[alt.mega]][[Camerupt]]",
+      "line": 11402
+    },
+    "Torkoal": {
+      "translation": "煤炭龟",
+      "line": 11434
+    },
+    "Spoink": {
+      "translation": "跳跳猪",
+      "line": 11451
+    },
+    "Grumpig": {
+      "translation": "噗噗猪",
+      "line": 11457
+    },
+    "Spinda": {
+      "translation": "晃晃斑",
+      "line": 11486
+    },
+    "Trapinch": {
+      "translation": "大颚蚁",
+      "line": 11503
+    },
+    "Vibrava": {
+      "translation": "超音波幼虫",
+      "line": 11509
+    },
+    "Flygon": {
+      "translation": "沙漠蜻蜓",
+      "line": 11527
+    },
+    "Cacnea": {
+      "translation": "刺球仙人掌",
+      "line": 11556
+    },
+    "Cacturne": {
+      "translation": "梦歌仙人掌",
+      "line": 11562
+    },
+    "Swablu": {
+      "translation": "青绵鸟",
+      "line": 11594
+    },
+    "Altaria": {
+      "translation": "七夕青鸟",
+      "line": 11600
+    },
+    "Mega Altaria": {
+      "translation": "[[alt.mega]][[Altaria]]",
+      "line": 11630
+    },
+    "Zangoose": {
+      "translation": "猫鼬斩",
+      "line": 11647
+    },
+    "Seviper": {
+      "translation": "饭匙蛇",
+      "line": 11664
+    },
+    "Lunatone": {
+      "translation": "月石",
+      "line": 11681
+    },
+    "Solrock": {
+      "translation": "太阳岩",
+      "line": 11702
+    },
+    "Sun_stone": {
+      "translation": "日之石",
+      "line": 11716
+    },
+    "Barboach": {
+      "translation": "泥泥鳅",
+      "line": 11723
+    },
+    "Whiscash": {
+      "translation": "鲶鱼王",
+      "line": 11729
+    },
+    "Corphish": {
+      "translation": "龙虾小兵",
+      "line": 11758
+    },
+    "Crawdaunt": {
+      "translation": "铁螯龙虾",
+      "line": 11764
+    },
+    "Baltoy": {
+      "translation": "天秤偶",
+      "line": 11793
+    },
+    "Claydol": {
+      "translation": "念力土偶",
+      "line": 11799
+    },
+    "Lileep": {
+      "translation": "触手百合",
+      "line": 11834
+    },
+    "Cradily": {
+      "translation": "摇篮百合",
+      "line": 11840
+    },
+    "Anorith": {
+      "translation": "太古羽虫",
+      "line": 11875
+    },
+    "Armaldo": {
+      "translation": "太古盔甲",
+      "line": 11881
+    },
+    "Feebas": {
+      "translation": "丑丑鱼",
+      "line": 11916
+    },
+    "Milotic": {
+      "translation": "美纳斯",
+      "line": 11922
+    },
+    "Castform": {
+      "translation": "飘浮泡泡",
+      "line": 11954
+    },
+    "Castform (Sunny)": {
+      "translation": "[[Castform]] 太阳的样子",
+      "line": 11971
+    },
+    "Castform (Rainy)": {
+      "translation": "[[Castform]] 雨水的样子",
+      "line": 11988
+    },
+    "Castform (Snowy)": {
+      "translation": "[[Castform]] 雪云的样子",
+      "line": 12005
+    },
+    "Kecleon": {
+      "translation": "变隐龙",
+      "line": 12022
+    },
+    "Shuppet": {
+      "translation": "怨影娃娃",
+      "line": 12039
+    },
+    "Banette": {
+      "translation": "诅咒娃娃",
+      "line": 12045
+    },
+    "Mega Banette": {
+      "translation": "[[alt.mega]][[Banette]]",
+      "line": 12063
+    },
+    "Duskull": {
+      "translation": "夜巡灵",
+      "line": 12092
+    },
+    "Dusclops": {
+      "translation": "彷徨夜灵",
+      "line": 12098
+    },
+    "Dusknoir": {
+      "translation": "黑夜魔灵",
+      "line": 12116
+    },
+    "Tropius": {
+      "translation": "热带龙",
+      "line": 12128
+    },
+    "Chimecho": {
+      "translation": "风铃铃",
+      "line": 12145
+    },
+    "Absol": {
+      "translation": "阿勃梭鲁",
+      "line": 12162
+    },
+    "Mega Absol": {
+      "translation": "[[alt.mega]][[Absol]]",
+      "line": 12168
+    },
+    "Wynaut": {
+      "translation": "小果然",
+      "line": 12197
+    },
+    "Snorunt": {
+      "translation": "雪童子",
+      "line": 12216
+    },
+    "Glalie": {
+      "translation": "冰鬼护",
+      "line": 12223
+    },
+    "Froslass": {
+      "translation": "雪妖女",
+      "line": 12224
+    },
+    "Mega Glalie": {
+      "translation": "[[alt.mega]][[Glalie]]",
+      "line": 12243
+    },
+    "Spheal": {
+      "translation": "海豹球",
+      "line": 12272
+    },
+    "Sealeo": {
+      "translation": "海魔狮",
+      "line": 12278
+    },
+    "Walrein": {
+      "translation": "帝牙海狮",
+      "line": 12296
+    },
+    "Clamperl": {
+      "translation": "珍珠贝",
+      "line": 12325
+    },
+    "Huntail": {
+      "translation": "猎斑鱼",
+      "line": 12332
+    },
+    "Gorebyss": {
+      "translation": "樱花鱼",
+      "line": 12333
+    },
+    "Relicanth": {
+      "translation": "古空棘鱼",
+      "line": 12382
+    },
+    "Luvdisc": {
+      "translation": "爱心鱼",
+      "line": 12404
+    },
+    "Heart Scale": {
+      "translation": "心脏量表",
+      "line": 12418
+    },
+    "Bagon": {
+      "translation": "宝贝龙",
+      "line": 12425
+    },
+    "Shelgon": {
+      "translation": "甲壳龙",
+      "line": 12431
+    },
+    "Salamence": {
+      "translation": "暴飞龙",
+      "line": 12450
+    },
+    "Mega Salamence": {
+      "translation": "[[alt.mega]][[Salamence]]",
+      "line": 12469
+    },
+    "Beldum": {
+      "translation": "铁哑铃",
+      "line": 12499
+    },
+    "Metang": {
+      "translation": "金属怪",
+      "line": 12505
+    },
+    "Metagross": {
+      "translation": "巨金怪",
+      "line": 12527
+    },
+    "Mega Metagross": {
+      "translation": "[[alt.mega]][[Metagross]]",
+      "line": 12549
+    },
+    "Regirock": {
+      "translation": "雷吉洛克",
+      "line": 12585
+    },
+    "Regice": {
+      "translation": "雷吉艾斯",
+      "line": 12605
+    },
+    "Registeel": {
+      "translation": "雷吉斯奇鲁",
+      "line": 12625
+    },
+    "Latias": {
+      "translation": "拉帝亚斯",
+      "line": 12645
+    },
+    "Mega Latias": {
+      "translation": "[[alt.mega]][[Latias]]",
+      "line": 12651
+    },
+    "Soul_Dew": {
+      "translation": "灵魂露",
+      "line": 12663
+    },
+    "Latios": {
+      "translation": "拉帝欧斯",
+      "line": 12687
+    },
+    "Mega Latios": {
+      "translation": "[[alt.mega]][[Latios]]",
+      "line": 12693
+    },
+    "Kyogre": {
+      "translation": "盖欧卡",
+      "line": 12729
+    },
+    "Primal Kyogre": {
+      "translation": "[[alt.primal]][[Kyogre]]",
+      "line": 12735
+    },
+    "Groudon": {
+      "translation": "固拉多",
+      "line": 12770
+    },
+    "Primal Groudon": {
+      "translation": "[[alt.primal]][[Groudon]]",
+      "line": 12776
+    },
+    "Meta Groudon": {
+      "translation": "怪物[[Groudon]]",
+      "line": 12811
+    },
+    "Rayquaza": {
+      "translation": "烈空坐",
+      "line": 12831
+    },
+    "Mega Rayquaza": {
+      "translation": "[[alt.mega]][[Rayquaza]]",
+      "line": 12837
+    },
+    "Jirachi": {
+      "translation": "基拉祈",
+      "line": 12872
+    },
+    "Star Piece": {
+      "translation": "星星片",
+      "line": 12886
+    },
+    "Deoxys": {
+      "translation": "代欧奇希斯",
+      "line": 12893
+    },
+    "Deoxys (Attack)": {
+      "translation": "[[Deoxys]] 攻击形态",
+      "line": 12913
+    },
+    "Deoxys (Defense)": {
+      "translation": "[[Deoxys]] 防御形态",
+      "line": 12933
+    },
+    "Deoxys (Speed)": {
+      "translation": "[[Deoxys]] 速度形态",
+      "line": 12953
+    },
+    "Deoxys (Green Core)": {
+      "translation": "[[Deoxys]] 绿色核心",
+      "line": 12973
+    },
+    "Deoxys (Clone)": {
+      "translation": "[[Deoxys]] [[alt.clone]]",
+      "line": 12993
+    },
+    "Turtwig": {
+      "translation": "草苗龟",
+      "line": 13013
+    },
+    "Grotle": {
+      "translation": "树林龟",
+      "line": 13020
+    },
+    "Grotle (Acorn)": {
+      "translation": "[[Grotle]] (橡果)",
+      "line": 13021
+    },
+    "Torterra": {
+      "translation": "土台龟",
+      "line": 13043
+    },
+    "Chimchar": {
+      "translation": "小火焰猴",
+      "line": 13098
+    },
+    "Monferno": {
+      "translation": "猛火猴",
+      "line": 13104
+    },
+    "Infernape": {
+      "translation": "烈焰猴",
+      "line": 13125
+    },
+    "Piplup": {
+      "translation": "波加曼",
+      "line": 13160
+    },
+    "Prinplup": {
+      "translation": "波皇子",
+      "line": 13166
+    },
+    "Empoleon": {
+      "translation": "帝王拿波",
+      "line": 13187
+    },
+    "Starly": {
+      "translation": "姆克儿",
+      "line": 13222
+    },
+    "Staravia": {
+      "translation": "姆克鸟",
+      "line": 13228
+    },
+    "Staraptor": {
+      "translation": "姆克鹰",
+      "line": 13249
+    },
+    "Bidoof": {
+      "translation": "大牙狸",
+      "line": 13284
+    },
+    "Bibarel": {
+      "translation": "大尾狸",
+      "line": 13290
+    },
+    "Kricketot": {
+      "translation": "圆法师",
+      "line": 13325
+    },
+    "Kricketune": {
+      "translation": "音箱蟀",
+      "line": 13331
+    },
+    "Shinx": {
+      "translation": "小猫怪",
+      "line": 13366
+    },
+    "Luxio": {
+      "translation": "勒克猫",
+      "line": 13372
+    },
+    "Luxray": {
+      "translation": "伦琴猫",
+      "line": 13393
+    },
+    "Budew": {
+      "translation": "含羞苞",
+      "line": 13428
+    },
+    "Cranidos": {
+      "translation": "头盖龙",
+      "line": 13467
+    },
+    "Rampardos": {
+      "translation": "战槌龙",
+      "line": 13473
+    },
+    "Shieldon": {
+      "translation": "盾甲龙",
+      "line": 13508
+    },
+    "Bastiodon": {
+      "translation": "护城龙",
+      "line": 13514
+    },
+    "Burmy (Plant)": {
+      "translation": "[[Burmy]] [[alt.plant]]",
+      "line": 13549
+    },
+    "Wormadam (Plant)": {
+      "translation": "[[Wormadam]] [[alt.plant]]",
+      "line": 13556
+    },
+    "Mothim": {
+      "translation": "绅士蛾",
+      "line": 13557
+    },
+    "Burmy (Sand)": {
+      "translation": "[[Burmy]] [[alt.sand]]",
+      "line": 13558
+    },
+    "Burmy (Trash)": {
+      "translation": "[[Burmy]] [[alt.trash]]",
+      "line": 13559
+    },
+    "Wormadam (Sand)": {
+      "translation": "[[Wormadam]] [[alt.sand]]",
+      "line": 13579
+    },
+    "Wormadam (Trash)": {
+      "translation": "[[Wormadam]] [[alt.trash]]",
+      "line": 13602
+    },
+    "Burmy (No Coat)": {
+      "translation": "[[Burmy]] [[alt.nocoat]]",
+      "line": 13618
+    },
+    "Combee": {
+      "translation": "三蜜蜂",
+      "line": 13715
+    },
+    "Vespiquen": {
+      "translation": "蜂女王",
+      "line": 13721
+    },
+    "Pachirisu": {
+      "translation": "帕奇利兹",
+      "line": 13757
+    },
+    "Buizel": {
+      "translation": "泳圈鼬",
+      "line": 13778
+    },
+    "Floatzel": {
+      "translation": "浮潜鼬",
+      "line": 13784
+    },
+    "Cherubi": {
+      "translation": "樱花宝",
+      "line": 13813
+    },
+    "Cherrim (Overcast)": {
+      "translation": "[[Cherrim]] 阴天形态",
+      "line": 13819
+    },
+    "Cherrim (Sunshine)": {
+      "translation": "[[Cherrim]] 晴天形态",
+      "line": 13819
+    },
+    "Shellos (West)": {
+      "translation": "[[Shellos]] [[alt.west]]",
+      "line": 13866
+    },
+    "Gastrodon (West)": {
+      "translation": "[[Gastrodon]] [[alt.west]]",
+      "line": 13872
+    },
+    "Shellos (East)": {
+      "translation": "[[Shellos]] [[alt.east]]",
+      "line": 13884
+    },
+    "Gastrodon (East)": {
+      "translation": "[[Gastrodon]] [[alt.east]]",
+      "line": 13890
+    },
+    "Drifloon": {
+      "translation": "飘飘球",
+      "line": 13956
+    },
+    "Drifblim": {
+      "translation": "随风球",
+      "line": 13962
+    },
+    "Buneary": {
+      "translation": "卷卷耳",
+      "line": 13991
+    },
+    "Lopunny": {
+      "translation": "长耳兔",
+      "line": 13997
+    },
+    "Mega Lopunny": {
+      "translation": "[[alt.mega]][[Lopunny]]",
+      "line": 14015
+    },
+    "Glameow": {
+      "translation": "魅力喵",
+      "line": 14095
+    },
+    "Purugly": {
+      "translation": "东施喵",
+      "line": 14101
+    },
+    "Chingling": {
+      "translation": "铃铛响",
+      "line": 14136
+    },
+    "Stunky": {
+      "translation": "臭鼬噗",
+      "line": 14155
+    },
+    "Skuntank": {
+      "translation": "坦克臭鼬",
+      "line": 14161
+    },
+    "Bronzor": {
+      "translation": "铜镜怪",
+      "line": 14190
+    },
+    "Bronzong": {
+      "translation": "青铜钟",
+      "line": 14196
+    },
+    "Bonsly": {
+      "translation": "盆才怪",
+      "line": 14233
+    },
+    "Mime Jr.": {
+      "translation": "魔尼尼",
+      "line": 14256
+    },
+    "Happiny": {
+      "translation": "小福蛋",
+      "line": 14280
+    },
+    "Handout Happiny": {
+      "translation": "救济 [[Happiny]]",
+      "line": 14306
+    },
+    "Chatot": {
+      "translation": "聒噪鸟",
+      "line": 14332
+    },
+    "Spiritomb": {
+      "translation": "花岩怪",
+      "line": 14349
+    },
+    "Gible": {
+      "translation": "圆陆鲨",
+      "line": 14366
+    },
+    "Gabite": {
+      "translation": "尖牙陆鲨",
+      "line": 14372
+    },
+    "Garchomp": {
+      "translation": "烈咬陆鲨",
+      "line": 14393
+    },
+    "Mega Garchomp": {
+      "translation": "[[alt.mega]][[Garchomp]]",
+      "line": 14414
+    },
+    "Munchlax": {
+      "translation": "小卡比兽",
+      "line": 14446
+    },
+    "Elf Munchlax": {
+      "translation": "精灵 [[Munchlax]]",
+      "line": 14470
+    },
+    "Riolu": {
+      "translation": "利欧路",
+      "line": 14491
+    },
+    "Lucario": {
+      "translation": "路卡利欧",
+      "line": 14497
+    },
+    "Mega Lucario": {
+      "translation": "[[alt.mega]][[Lucario]]",
+      "line": 14519
+    },
+    "Hippopotas": {
+      "translation": "沙河马",
+      "line": 14554
+    },
+    "Hippowdon": {
+      "translation": "河马兽",
+      "line": 14560
+    },
+    "Skorupi": {
+      "translation": "钳尾蝎",
+      "line": 14595
+    },
+    "Drapion": {
+      "translation": "龙王蝎",
+      "line": 14601
+    },
+    "Croagunk": {
+      "translation": "不良蛙",
+      "line": 14630
+    },
+    "Toxicroak": {
+      "translation": "毒骷蛙",
+      "line": 14636
+    },
+    "Carnivine": {
+      "translation": "尖牙笼",
+      "line": 14671
+    },
+    "Finneon": {
+      "translation": "荧光鱼",
+      "line": 14688
+    },
+    "Lumineon": {
+      "translation": "霓虹鱼",
+      "line": 14694
+    },
+    "Mantyke": {
+      "translation": "小球飞鱼",
+      "line": 14729
+    },
+    "Snover": {
+      "translation": "雪笠怪",
+      "line": 14751
+    },
+    "Abomasnow": {
+      "translation": "暴雪王",
+      "line": 14757
+    },
+    "Snover (Berry)": {
+      "translation": "[[Snover]] (树果)",
+      "line": 14772
+    },
+    "Mega Abomasnow": {
+      "translation": "[[alt.mega]][[Abomasnow]]",
+      "line": 14799
+    },
+    "Mega Gallade": {
+      "translation": "[[alt.mega]][[Gallade]]",
+      "line": 15131
+    },
+    "Rotom": {
+      "translation": "洛托姆",
+      "line": 15221
+    },
+    "Rotom (Heat)": {
+      "translation": "加热[[Rotom]]",
+      "line": 15241
+    },
+    "Rotom (Wash)": {
+      "translation": "清洗[[Rotom]]",
+      "line": 15261
+    },
+    "Rotom (Frost)": {
+      "translation": "结冰[[Rotom]]",
+      "line": 15281
+    },
+    "Rotom (Fan)": {
+      "translation": "旋转[[Rotom]]",
+      "line": 15301
+    },
+    "Rotom (Mow)": {
+      "translation": "切割[[Rotom]]",
+      "line": 15321
+    },
+    "Rotom (Discord)": {
+      "translation": "Discord[[Rotom]]",
+      "line": 15341
+    },
+    "Uxie": {
+      "translation": "由克希",
+      "line": 15361
+    },
+    "Mesprit": {
+      "translation": "艾姆利多",
+      "line": 15381
+    },
+    "Azelf": {
+      "translation": "亚克诺姆",
+      "line": 15401
+    },
+    "Dialga": {
+      "translation": "帝牙卢卡",
+      "line": 15421
+    },
+    "Adamant_Orb": {
+      "translation": "金刚球",
+      "line": 15427
+    },
+    "Dialga (Origin)": {
+      "translation": "[[Dialga]] 起源形态",
+      "line": 15442
+    },
+    "Palkia": {
+      "translation": "帕路奇亚",
+      "line": 15461
+    },
+    "Lustrous_Orb": {
+      "translation": "光泽宝珠",
+      "line": 15467
+    },
+    "Palkia (Origin)": {
+      "translation": "[[Palkia]] 起源形态",
+      "line": 15482
+    },
+    "Heatran": {
+      "translation": "席多蓝恩",
+      "line": 15501
+    },
+    "Regigigas": {
+      "translation": "雷吉奇卡斯",
+      "line": 15518
+    },
+    "Giratina (Altered)": {
+      "translation": "[[Giratina]] 别种形态",
+      "line": 15538
+    },
+    "Griseous_Orb": {
+      "translation": "Griseous_Orb",
+      "line": 15544
+    },
+    "Giratina (Origin)": {
+      "translation": "[[Giratina]] 起源形态",
+      "line": 15544
+    },
+    "Cresselia": {
+      "translation": "克雷色利亚",
+      "line": 15581
+    },
+    "Phione": {
+      "translation": "霏欧纳",
+      "line": 15601
+    },
+    "Manaphy": {
+      "translation": "玛纳霏",
+      "line": 15607
+    },
+    "Darkrai": {
+      "translation": "达克莱伊",
+      "line": 15644
+    },
+    "Shaymin (Land)": {
+      "translation": "[[Shaymin]] 陆上形态",
+      "line": 15664
+    },
+    "Gracidea": {
+      "translation": "格拉西代亚",
+      "line": 15669
+    },
+    "Shaymin (Sky)": {
+      "translation": "[[Shaymin]] 天空形态",
+      "line": 15669
+    },
+    "Arceus (Normal)": {
+      "translation": "[[Arceus]] ([[alt.type.normal]])",
+      "line": 15707
+    },
+    "Arceus (Fire)": {
+      "translation": "[[Arceus]] ([[alt.type.fire]])",
+      "line": 15727
+    },
+    "Arceus (Water)": {
+      "translation": "[[Arceus]] ([[alt.type.water]])",
+      "line": 15747
+    },
+    "Arceus (Electric)": {
+      "translation": "[[Arceus]] ([[alt.type.electric]])",
+      "line": 15767
+    },
+    "Arceus (Grass)": {
+      "translation": "[[Arceus]] ([[alt.type.grass]])",
+      "line": 15787
+    },
+    "Arceus (Ice)": {
+      "translation": "[[Arceus]] ([[alt.type.ice]])",
+      "line": 15807
+    },
+    "Arceus (Fighting)": {
+      "translation": "[[Arceus]] ([[alt.type.fighting]])",
+      "line": 15827
+    },
+    "Arceus (Poison)": {
+      "translation": "[[Arceus]] ([[alt.type.poison]])",
+      "line": 15847
+    },
+    "Arceus (Ground)": {
+      "translation": "[[Arceus]] ([[alt.type.ground]])",
+      "line": 15867
+    },
+    "Arceus (Flying)": {
+      "translation": "[[Arceus]] ([[alt.type.flying]])",
+      "line": 15887
+    },
+    "Arceus (Psychic)": {
+      "translation": "[[Arceus]] ([[alt.type.psychic]])",
+      "line": 15907
+    },
+    "Arceus (Bug)": {
+      "translation": "[[Arceus]] ([[alt.type.bug]])",
+      "line": 15927
+    },
+    "Arceus (Rock)": {
+      "translation": "[[Arceus]] ([[alt.type.rock]])",
+      "line": 15947
+    },
+    "Arceus (Ghost)": {
+      "translation": "[[Arceus]] ([[alt.type.ghost]])",
+      "line": 15967
+    },
+    "Arceus (Dragon)": {
+      "translation": "[[Arceus]] ([[alt.type.dragon]])",
+      "line": 15987
+    },
+    "Arceus (Dark)": {
+      "translation": "[[Arceus]] ([[alt.type.dark]])",
+      "line": 16007
+    },
+    "Arceus (Steel)": {
+      "translation": "[[Arceus]] ([[alt.type.steel]])",
+      "line": 16027
+    },
+    "Arceus (Fairy)": {
+      "translation": "[[Arceus]] ([[alt.type.fairy]])",
+      "line": 16047
+    },
+    "Victini": {
+      "translation": "比克提尼",
+      "line": 16067
+    },
+    "Snivy": {
+      "translation": "藤藤蛇",
+      "line": 16087
+    },
+    "Servine": {
+      "translation": "青藤蛇",
+      "line": 16093
+    },
+    "Serperior": {
+      "translation": "君主蛇",
+      "line": 16114
+    },
+    "Tepig": {
+      "translation": "暖暖猪",
+      "line": 16149
+    },
+    "Pignite": {
+      "translation": "炒炒猪",
+      "line": 16155
+    },
+    "Emboar": {
+      "translation": "炎武王",
+      "line": 16176
+    },
+    "Oshawott": {
+      "translation": "水水獭",
+      "line": 16211
+    },
+    "Dewott": {
+      "translation": "双刃丸",
+      "line": 16217
+    },
+    "Samurott": {
+      "translation": "大剑鬼",
+      "line": 16239
+    },
+    "Hisuian Samurott": {
+      "translation": "[[alt.hisuian]][[Samurott]]",
+      "line": 16240
+    },
+    "Patrat": {
+      "translation": "探探鼠",
+      "line": 16297
+    },
+    "Watchog": {
+      "translation": "步哨鼠",
+      "line": 16303
+    },
+    "Lillipup": {
+      "translation": "小约克",
+      "line": 16332
+    },
+    "Herdier": {
+      "translation": "哈约克",
+      "line": 16338
+    },
+    "Stoutland": {
+      "translation": "长毛狗",
+      "line": 16356
+    },
+    "Purrloin": {
+      "translation": "扒手猫",
+      "line": 16385
+    },
+    "Liepard": {
+      "translation": "酷豹",
+      "line": 16391
+    },
+    "Pansage": {
+      "translation": "花椰猴",
+      "line": 16420
+    },
+    "Simisage": {
+      "translation": "花椰猿",
+      "line": 16426
+    },
+    "Pansear": {
+      "translation": "爆香猴",
+      "line": 16461
+    },
+    "Simisear": {
+      "translation": "爆香猿",
+      "line": 16467
+    },
+    "Panpour": {
+      "translation": "冷水猴",
+      "line": 16502
+    },
+    "Simipour": {
+      "translation": "冷水猿",
+      "line": 16508
+    },
+    "Munna": {
+      "translation": "食梦梦",
+      "line": 16543
+    },
+    "Musharna": {
+      "translation": "梦梦蚀",
+      "line": 16549
+    },
+    "Pidove": {
+      "translation": "豆豆鸽",
+      "line": 16578
+    },
+    "Tranquill": {
+      "translation": "咕咕鸽",
+      "line": 16584
+    },
+    "Unfezant": {
+      "translation": "高傲雉鸡",
+      "line": 16602
+    },
+    "Blitzle": {
+      "translation": "斑斑马",
+      "line": 16634
+    },
+    "Zebstrika": {
+      "translation": "雷电斑马",
+      "line": 16640
+    },
+    "Roggenrola": {
+      "translation": "石丸子",
+      "line": 16669
+    },
+    "Boldore": {
+      "translation": "地幔岩",
+      "line": 16675
+    },
+    "Gigalith": {
+      "translation": "庞岩怪",
+      "line": 16694
+    },
+    "Woobat": {
+      "translation": "滚滚蝙蝠",
+      "line": 16725
+    },
+    "Swoobat": {
+      "translation": "心蝙蝠",
+      "line": 16731
+    },
+    "Drilbur": {
+      "translation": "螺钉地鼠",
+      "line": 16760
+    },
+    "Excadrill": {
+      "translation": "龙头地鼠",
+      "line": 16766
+    },
+    "Audino": {
+      "translation": "差不多娃娃",
+      "line": 16795
+    },
+    "Mega Audino": {
+      "translation": "[[alt.mega]][[Audino]]",
+      "line": 16801
+    },
+    "Timburr": {
+      "translation": "搬运小匠",
+      "line": 16830
+    },
+    "Gurdurr": {
+      "translation": "铁骨土人",
+      "line": 16836
+    },
+    "Conkeldurr": {
+      "translation": "修建老匠",
+      "line": 16857
+    },
+    "Tympole": {
+      "translation": "圆蝌蚪",
+      "line": 16892
+    },
+    "Palpitoad": {
+      "translation": "蓝蟾蜍",
+      "line": 16898
+    },
+    "Seismitoad": {
+      "translation": "蟾蜍王",
+      "line": 16916
+    },
+    "Throh": {
+      "translation": "投摔鬼",
+      "line": 16945
+    },
+    "Sawk": {
+      "translation": "打击鬼",
+      "line": 16965
+    },
+    "Sewaddle": {
+      "translation": "虫宝包",
+      "line": 16985
+    },
+    "Swadloon": {
+      "translation": "宝包茧",
+      "line": 16991
+    },
+    "Leavanny": {
+      "translation": "保姆虫",
+      "line": 17009
+    },
+    "Venipede": {
+      "translation": "百足蜈蚣",
+      "line": 17038
+    },
+    "Whirlipede": {
+      "translation": "车轮球",
+      "line": 17044
+    },
+    "Scolipede": {
+      "translation": "蜈蚣王",
+      "line": 17062
+    },
+    "Cottonee": {
+      "translation": "木棉球",
+      "line": 17091
+    },
+    "Whimsicott": {
+      "translation": "风妖精",
+      "line": 17097
+    },
+    "Petilil": {
+      "translation": "百合根娃娃",
+      "line": 17126
+    },
+    "Lilligant": {
+      "translation": "裙儿小姐",
+      "line": 17133
+    },
+    "Hisuian Lilligant": {
+      "translation": "[[alt.hisuian]][[Lilligant]]",
+      "line": 17134
+    },
+    "Noble Lilligant": {
+      "translation": "[[Lilligant]] 女王的样子",
+      "line": 17191
+    },
+    "Basculin (Red-Striped)": {
+      "translation": "[[Basculin]] 红条纹的样子",
+      "line": 17212
+    },
+    "Basculin (Blue-Striped)": {
+      "translation": "[[Basculin]] 蓝条纹的样子",
+      "line": 17230
+    },
+    "Basculin (White-Striped)": {
+      "translation": "[[Basculin]] 白条纹的样子",
+      "line": 17248
+    },
+    "Basculegion (Male)": {
+      "translation": "[[Basculegion]][[alt.male]]",
+      "line": 17256
+    },
+    "Basculegion (Female)": {
+      "translation": "[[Basculegion]][[alt.female]]",
+      "line": 17257
+    },
+    "Sandile": {
+      "translation": "黑眼鳄",
+      "line": 17270
+    },
+    "Krokorok": {
+      "translation": "混混鳄",
+      "line": 17276
+    },
+    "Krookodile": {
+      "translation": "流氓鳄",
+      "line": 17294
+    },
+    "Darumaka": {
+      "translation": "火红不倒翁",
+      "line": 17323
+    },
+    "Darmanitan": {
+      "translation": "达摩狒狒",
+      "line": 17330
+    },
+    "Darmanitan (Zen)": {
+      "translation": "[[Darmanitan]] 达摩模式",
+      "line": 17331
+    },
+    "Galarian Darumaka": {
+      "translation": "[[alt.galarian]][[Darumaka]]",
+      "line": 17344
+    },
+    "Galarian Darmanitan": {
+      "translation": "[[alt.galarian]][[Darmanitan]]",
+      "line": 17352
+    },
+    "Galarian Darmanitan (Zen)": {
+      "translation": "[[alt.galarian]][[Darmanitan (Zen)]]",
+      "line": 17353
+    },
+    "Maractus": {
+      "translation": "沙铃仙人掌",
+      "line": 17436
+    },
+    "Dwebble": {
+      "translation": "石居蟹",
+      "line": 17453
+    },
+    "Crustle": {
+      "translation": "岩殿居蟹",
+      "line": 17459
+    },
+    "Scraggy": {
+      "translation": "滑滑小子",
+      "line": 17490
+    },
+    "Scrafty": {
+      "translation": "头巾混混",
+      "line": 17496
+    },
+    "Sigilyph": {
+      "translation": "象征鸟",
+      "line": 17525
+    },
+    "Yamask": {
+      "translation": "哭哭面具",
+      "line": 17542
+    },
+    "Cofagrigus": {
+      "translation": "迭失棺",
+      "line": 17548
+    },
+    "Galarian Yamask": {
+      "translation": "[[alt.galarian]][[Yamask]]",
+      "line": 17560
+    },
+    "Dusty Bowl": {
+      "translation": "尘土飞扬的碗",
+      "line": 17567
+    },
+    "Runerigus": {
+      "translation": "迭失板",
+      "line": 17567
+    },
+    "Tirtouga": {
+      "translation": "原盖海龟",
+      "line": 17596
+    },
+    "Carracosta": {
+      "translation": "肋骨海龟",
+      "line": 17602
+    },
+    "Archen": {
+      "translation": "始祖小鸟",
+      "line": 17637
+    },
+    "Archeops": {
+      "translation": "始祖大鸟",
+      "line": 17643
+    },
+    "Trubbish": {
+      "translation": "破破袋",
+      "line": 17678
+    },
+    "Garbodor": {
+      "translation": "灰尘山",
+      "line": 17685
+    },
+    "Gigantamax Garbodor": {
+      "translation": "[[alt.gigantamax]][[Garbodor]]",
+      "line": 17686
+    },
+    "Zorua": {
+      "translation": "索罗亚",
+      "line": 17733
+    },
+    "Zoroark": {
+      "translation": "索罗亚克",
+      "line": 17739
+    },
+    "Hisuian Zorua": {
+      "translation": "[[alt.hisuian]][[Zorua]]",
+      "line": 17754
+    },
+    "Hisuian Zoroark": {
+      "translation": "[[alt.hisuian]][[Zoroark]]",
+      "line": 17761
+    },
+    "Minccino": {
+      "translation": "泡沫栗鼠",
+      "line": 17817
+    },
+    "Cinccino": {
+      "translation": "奇诺栗鼠",
+      "line": 17823
+    },
+    "Gothita": {
+      "translation": "哥德宝宝",
+      "line": 17858
+    },
+    "Gothorita": {
+      "translation": "哥德小童",
+      "line": 17864
+    },
+    "Gothitelle": {
+      "translation": "哥德小姐",
+      "line": 17885
+    },
+    "Solosis": {
+      "translation": "单卵细胞球",
+      "line": 17920
+    },
+    "Duosion": {
+      "translation": "双卵细胞球",
+      "line": 17926
+    },
+    "Reuniclus": {
+      "translation": "人造细胞卵",
+      "line": 17944
+    },
+    "Ducklett": {
+      "translation": "鸭宝宝",
+      "line": 17973
+    },
+    "Swanna": {
+      "translation": "舞天鹅",
+      "line": 17979
+    },
+    "Vanillite": {
+      "translation": "迷你冰",
+      "line": 18008
+    },
+    "Vanillish": {
+      "translation": "多多冰",
+      "line": 18014
+    },
+    "Vanilluxe": {
+      "translation": "双倍多多冰",
+      "line": 18032
+    },
+    "Deerling (Spring)": {
+      "translation": "[[Deerling]] [[alt.spring]]",
+      "line": 18061
+    },
+    "Sawsbuck (Spring)": {
+      "translation": "[[Sawsbuck]] [[alt.spring]]",
+      "line": 18067
+    },
+    "Deerling (Summer)": {
+      "translation": "[[Deerling]] [[alt.summer]]",
+      "line": 18079
+    },
+    "Sawsbuck (Summer)": {
+      "translation": "[[Sawsbuck]] [[alt.summer]]",
+      "line": 18085
+    },
+    "Deerling (Autumn)": {
+      "translation": "[[Deerling]] [[alt.autumn]]",
+      "line": 18097
+    },
+    "Sawsbuck (Autumn)": {
+      "translation": "[[Sawsbuck]] [[alt.autumn]]",
+      "line": 18103
+    },
+    "Deerling (Winter)": {
+      "translation": "[[Deerling]] [[alt.winter]]",
+      "line": 18115
+    },
+    "Sawsbuck (Winter)": {
+      "translation": "[[Sawsbuck]] [[alt.winter]]",
+      "line": 18121
+    },
+    "Emolga": {
+      "translation": "电飞鼠",
+      "line": 18201
+    },
+    "Karrablast": {
+      "translation": "盖盖虫",
+      "line": 18218
+    },
+    "Escavalier": {
+      "translation": "骑士蜗牛",
+      "line": 18224
+    },
+    "Foongus": {
+      "translation": "哎呀球菇",
+      "line": 18253
+    },
+    "Amoonguss": {
+      "translation": "败露球菇",
+      "line": 18259
+    },
+    "Frillish": {
+      "translation": "轻飘飘",
+      "line": 18288
+    },
+    "Jellicent": {
+      "translation": "胖嘟嘟",
+      "line": 18294
+    },
+    "Alomomola": {
+      "translation": "保姆曼波",
+      "line": 18329
+    },
+    "Joltik": {
+      "translation": "电电虫",
+      "line": 18346
+    },
+    "Galvantula": {
+      "translation": "电蜘蛛",
+      "line": 18352
+    },
+    "Ferroseed": {
+      "translation": "种子铁球",
+      "line": 18381
+    },
+    "Ferrothorn": {
+      "translation": "坚果哑铃",
+      "line": 18387
+    },
+    "Klink": {
+      "translation": "齿轮儿",
+      "line": 18416
+    },
+    "Klang": {
+      "translation": "齿轮组",
+      "line": 18422
+    },
+    "Klinklang": {
+      "translation": "齿轮怪",
+      "line": 18443
+    },
+    "Tynamo": {
+      "translation": "麻麻小鱼",
+      "line": 18478
+    },
+    "Eelektrik": {
+      "translation": "麻麻鳗",
+      "line": 18484
+    },
+    "Eelektross": {
+      "translation": "麻麻鳗鱼王",
+      "line": 18502
+    },
+    "Elgyem": {
+      "translation": "小灰怪",
+      "line": 18531
+    },
+    "Beheeyem": {
+      "translation": "大宇怪",
+      "line": 18537
+    },
+    "Litwick": {
+      "translation": "烛光灵",
+      "line": 18566
+    },
+    "Lampent": {
+      "translation": "灯火幽灵",
+      "line": 18572
+    },
+    "Chandelure": {
+      "translation": "水晶灯火灵",
+      "line": 18590
+    },
+    "Axew": {
+      "translation": "牙牙",
+      "line": 18619
+    },
+    "Fraxure": {
+      "translation": "斧牙龙",
+      "line": 18625
+    },
+    "Haxorus": {
+      "translation": "双斧战龙",
+      "line": 18643
+    },
+    "Cubchoo": {
+      "translation": "喷嚏熊",
+      "line": 18672
+    },
+    "Beartic": {
+      "translation": "冻原熊",
+      "line": 18678
+    },
+    "Cryogonal": {
+      "translation": "几何雪花",
+      "line": 18707
+    },
+    "Shelmet": {
+      "translation": "小嘴蜗",
+      "line": 18727
+    },
+    "Accelgor": {
+      "translation": "敏捷虫",
+      "line": 18733
+    },
+    "Stunfisk": {
+      "translation": "泥巴鱼",
+      "line": 18762
+    },
+    "Galarian Stunfisk": {
+      "translation": "[[alt.galarian]][[Stunfisk]]",
+      "line": 18779
+    },
+    "Mienfoo": {
+      "translation": "功夫鼬",
+      "line": 18797
+    },
+    "Mienshao": {
+      "translation": "师父鼬",
+      "line": 18803
+    },
+    "Druddigon": {
+      "translation": "赤面龙",
+      "line": 18832
+    },
+    "Golett": {
+      "translation": "泥偶小人",
+      "line": 18849
+    },
+    "Golurk": {
+      "translation": "泥偶巨人",
+      "line": 18855
+    },
+    "Pawniard": {
+      "translation": "驹刀小兵",
+      "line": 18890
+    },
+    "Bisharp": {
+      "translation": "劈斩司令",
+      "line": 18896
+    },
+    "Kingambit": {
+      "translation": "仆刀将军",
+      "line": 18914
+    },
+    "Bouffalant": {
+      "translation": "爆炸头水牛",
+      "line": 18927
+    },
+    "Rufflet": {
+      "translation": "毛头小鹰",
+      "line": 18944
+    },
+    "Braviary": {
+      "translation": "勇士雄鹰",
+      "line": 18951
+    },
+    "Hisuian Braviary": {
+      "translation": "[[alt.hisuian]][[Braviary]]",
+      "line": 18952
+    },
+    "Vullaby": {
+      "translation": "秃鹰丫头",
+      "line": 19009
+    },
+    "Mandibuzz": {
+      "translation": "秃鹰娜",
+      "line": 19015
+    },
+    "Heatmor": {
+      "translation": "熔蚁兽",
+      "line": 19050
+    },
+    "Durant": {
+      "translation": "铁蚁",
+      "line": 19067
+    },
+    "Deino": {
+      "translation": "单首龙",
+      "line": 19084
+    },
+    "Zweilous": {
+      "translation": "双首暴龙",
+      "line": 19090
+    },
+    "Hydreigon": {
+      "translation": "三首恶龙",
+      "line": 19108
+    },
+    "Larvesta": {
+      "translation": "燃烧虫",
+      "line": 19137
+    },
+    "Volcarona": {
+      "translation": "火神蛾",
+      "line": 19143
+    },
+    "Cobalion": {
+      "translation": "勾帕路翁",
+      "line": 19173
+    },
+    "Terrakion": {
+      "translation": "代拉基翁",
+      "line": 19193
+    },
+    "Virizion": {
+      "translation": "毕力吉翁",
+      "line": 19213
+    },
+    "Tornadus": {
+      "translation": "龙卷云",
+      "line": 19233
+    },
+    "Tornadus (Therian)": {
+      "translation": "[[Tornadus]] [[alt.therian]]",
+      "line": 19253
+    },
+    "Thundurus": {
+      "translation": "雷电云",
+      "line": 19273
+    },
+    "Thundurus (Therian)": {
+      "translation": "[[Thundurus]] [[alt.therian]]",
+      "line": 19293
+    },
+    "Reshiram": {
+      "translation": "莱希拉姆",
+      "line": 19313
+    },
+    "White_DNA": {
+      "translation": "白色_DNA",
+      "line": 19327
+    },
+    "Zekrom": {
+      "translation": "捷克罗姆",
+      "line": 19334
+    },
+    "Black_DNA": {
+      "translation": "黑色_DNA",
+      "line": 19348
+    },
+    "Landorus": {
+      "translation": "土地云",
+      "line": 19355
+    },
+    "Landorus (Therian)": {
+      "translation": "[[Landorus]] [[alt.therian]]",
+      "line": 19375
+    },
+    "Kyurem": {
+      "translation": "酋雷姆",
+      "line": 19395
+    },
+    "Kyurem (Black)": {
+      "translation": "暗黑[[Kyurem]]",
+      "line": 19402
+    },
+    "Kyurem (White)": {
+      "translation": "焰白[[Kyurem]]",
+      "line": 19403
+    },
+    "Keldeo": {
+      "translation": "凯路迪欧",
+      "line": 19459
+    },
+    "Keldeo (Resolute)": {
+      "translation": "[[Keldeo]] 觉悟的样子",
+      "line": 19479
+    },
+    "Meloetta (Aria)": {
+      "translation": "[[Meloetta]] 歌声形态",
+      "line": 19499
+    },
+    "Meloetta (Pirouette)": {
+      "translation": "[[Meloetta]] 舞步形态",
+      "line": 19520
+    },
+    "Genesect": {
+      "translation": "盖诺赛克特",
+      "line": 19540
+    },
+    "Burn_Drive": {
+      "translation": "刻录驱动器",
+      "line": 19547
+    },
+    "Genesect (Burn)": {
+      "translation": "[[Genesect]] (火焰卡带)",
+      "line": 19547
+    },
+    "Chill_Drive": {
+      "translation": "冷静驾驶",
+      "line": 19548
+    },
+    "Genesect (Chill)": {
+      "translation": "[[Genesect]] (冰冻卡带)",
+      "line": 19548
+    },
+    "Douse_Drive": {
+      "translation": "杜斯_驱动器",
+      "line": 19549
+    },
+    "Genesect (Douse)": {
+      "translation": "[[Genesect]] (水流卡带)",
+      "line": 19549
+    },
+    "Shock_Drive": {
+      "translation": "冲击_驱动",
+      "line": 19550
+    },
+    "Genesect (Shock)": {
+      "translation": "[[Genesect]] (闪电卡带)",
+      "line": 19550
+    },
+    "Genesect (High-Speed)": {
+      "translation": "[[Genesect]] 高速飞行形态",
+      "line": 19646
+    },
+    "Genesect (High-Speed Burn)": {
+      "translation": "[[Genesect (High-Speed)]] (火焰卡带)",
+      "line": 19653
+    },
+    "Genesect (High-Speed Chill)": {
+      "translation": "[[Genesect (High-Speed)]] (冰冻卡带)",
+      "line": 19654
+    },
+    "Genesect (High-Speed Douse)": {
+      "translation": "[[Genesect (High-Speed)]] (水流卡带)",
+      "line": 19655
+    },
+    "Genesect (High-Speed Shock)": {
+      "translation": "[[Genesect (High-Speed)]] (闪电卡带)",
+      "line": 19656
+    },
+    "Chespin": {
+      "translation": "哈力栗",
+      "line": 19752
+    },
+    "Quilladin": {
+      "translation": "胖胖哈力",
+      "line": 19758
+    },
+    "Chesnaught": {
+      "translation": "布里卡隆",
+      "line": 19779
+    },
+    "Fennekin": {
+      "translation": "火狐狸",
+      "line": 19814
+    },
+    "Braixen": {
+      "translation": "长尾火狐",
+      "line": 19820
+    },
+    "Delphox": {
+      "translation": "妖火红狐",
+      "line": 19841
+    },
+    "Froakie": {
+      "translation": "呱呱泡蛙",
+      "line": 19876
+    },
+    "Frogadier": {
+      "translation": "呱头蛙",
+      "line": 19882
+    },
+    "Greninja": {
+      "translation": "甲贺忍蛙",
+      "line": 19903
+    },
+    "Ash-Greninja": {
+      "translation": "小智版[[Greninja]]",
+      "line": 19938
+    },
+    "Bunnelby": {
+      "translation": "掘掘兔",
+      "line": 19958
+    },
+    "Diggersby": {
+      "translation": "掘地兔",
+      "line": 19964
+    },
+    "Fletchling": {
+      "translation": "小箭雀",
+      "line": 19993
+    },
+    "Fletchinder": {
+      "translation": "火箭雀",
+      "line": 19999
+    },
+    "Talonflame": {
+      "translation": "烈箭鹰",
+      "line": 20017
+    },
+    "Scatterbug": {
+      "translation": "粉蝶虫",
+      "line": 20046
+    },
+    "Spewpa": {
+      "translation": "粉蝶蛹",
+      "line": 20052
+    },
+    "Vivillon (Meadow)": {
+      "translation": "[[Vivillon]] 花园花纹",
+      "line": 20071
+    },
+    "Vivillon (Icy Snow)": {
+      "translation": "[[Vivillon]] 冰雪花纹",
+      "line": 20072
+    },
+    "Vivillon (Polar)": {
+      "translation": "[[Vivillon]] 雪国花纹",
+      "line": 20073
+    },
+    "Vivillon (Tundra)": {
+      "translation": "[[Vivillon]] 雪原花纹",
+      "line": 20074
+    },
+    "Vivillon (Continental)": {
+      "translation": "[[Vivillon]] 大陆花纹",
+      "line": 20075
+    },
+    "Vivillon (Garden)": {
+      "translation": "[[Vivillon]] 庭园花纹",
+      "line": 20076
+    },
+    "Vivillon (Elegant)": {
+      "translation": "[[Vivillon]] 高雅花纹",
+      "line": 20077
+    },
+    "Vivillon (Modern)": {
+      "translation": "[[Vivillon]] 摩登花纹",
+      "line": 20078
+    },
+    "Vivillon (Marine)": {
+      "translation": "[[Vivillon]] 大海花纹",
+      "line": 20079
+    },
+    "Vivillon (Archipelago)": {
+      "translation": "[[Vivillon]] 群岛花纹",
+      "line": 20080
+    },
+    "Vivillon (High Plains)": {
+      "translation": "[[Vivillon]] 荒野花纹",
+      "line": 20081
+    },
+    "Vivillon (Sandstorm)": {
+      "translation": "[[Vivillon]] 沙尘花纹",
+      "line": 20082
+    },
+    "Vivillon (River)": {
+      "translation": "[[Vivillon]] 大河花纹",
+      "line": 20083
+    },
+    "Vivillon (Monsoon)": {
+      "translation": "[[Vivillon]] 骤雨花纹",
+      "line": 20084
+    },
+    "Vivillon (Savanna)": {
+      "translation": "[[Vivillon]] 热带草原花纹",
+      "line": 20085
+    },
+    "Vivillon (Sun)": {
+      "translation": "[[Vivillon]] 太阳花纹",
+      "line": 20086
+    },
+    "Vivillon (Ocean)": {
+      "translation": "[[Vivillon]] 大洋花纹",
+      "line": 20087
+    },
+    "Vivillon (Jungle)": {
+      "translation": "[[Vivillon]] 热带雨林花纹",
+      "line": 20088
+    },
+    "Vivillon (Poké Ball)": {
+      "translation": "[[Vivillon]] 球球花纹",
+      "line": 20089
+    },
+    "Vivillon (Fancy)": {
+      "translation": "[[Vivillon]] 幻彩花纹",
+      "line": 20090
+    },
+    "Litleo": {
+      "translation": "小狮狮",
+      "line": 20443
+    },
+    "Pyroar": {
+      "translation": "火炎狮",
+      "line": 20449
+    },
+    "Flabébé (Red)": {
+      "translation": "[[Flabébé]] [[alt.red]]",
+      "line": 20485
+    },
+    "Floette (Red)": {
+      "translation": "[[Floette]] [[alt.red]]",
+      "line": 20491
+    },
+    "Flabébé (Yellow)": {
+      "translation": "[[Flabébé]] [[alt.yellow]]",
+      "line": 20506
+    },
+    "Floette (Yellow)": {
+      "translation": "[[Floette]] [[alt.yellow]]",
+      "line": 20512
+    },
+    "Flabébé (Orange)": {
+      "translation": "[[Flabébé]] [[alt.orange]]",
+      "line": 20527
+    },
+    "Floette (Orange)": {
+      "translation": "[[Floette]] [[alt.orange]]",
+      "line": 20533
+    },
+    "Flabébé (Blue)": {
+      "translation": "[[Flabébé]] [[alt.blue]]",
+      "line": 20548
+    },
+    "Floette (Blue)": {
+      "translation": "[[Floette]] [[alt.blue]]",
+      "line": 20554
+    },
+    "Flabébé (White)": {
+      "translation": "[[Flabébé]] [[alt.white]]",
+      "line": 20569
+    },
+    "Floette (White)": {
+      "translation": "[[Floette]] [[alt.white]]",
+      "line": 20575
+    },
+    "Florges (Red)": {
+      "translation": "[[Florges]] [[alt.red]]",
+      "line": 20596
+    },
+    "Florges (Yellow)": {
+      "translation": "[[Florges]] [[alt.yellow]]",
+      "line": 20617
+    },
+    "Florges (Orange)": {
+      "translation": "[[Florges]] [[alt.orange]]",
+      "line": 20638
+    },
+    "Florges (Blue)": {
+      "translation": "[[Florges]] [[alt.blue]]",
+      "line": 20659
+    },
+    "Florges (White)": {
+      "translation": "[[Florges]] [[alt.white]]",
+      "line": 20680
+    },
+    "Floette (Eternal)": {
+      "translation": "[[Floette]] 永恒之花",
+      "line": 20695
+    },
+    "Skiddo": {
+      "translation": "坐骑小羊",
+      "line": 20815
+    },
+    "Gogoat": {
+      "translation": "坐骑山羊",
+      "line": 20821
+    },
+    "Pancham": {
+      "translation": "顽皮熊猫",
+      "line": 20850
+    },
+    "Pangoro": {
+      "translation": "霸道熊猫",
+      "line": 20856
+    },
+    "Furfrou": {
+      "translation": "多丽米亚",
+      "line": 20885
+    },
+    "Furfrou (Heart)": {
+      "translation": "[[Furfrou]] 心形造型",
+      "line": 20902
+    },
+    "Furfrou (Star)": {
+      "translation": "[[Furfrou]] 星形造型",
+      "line": 20919
+    },
+    "Furfrou (Diamond)": {
+      "translation": "[[Furfrou]] 菱形造型",
+      "line": 20936
+    },
+    "Furfrou (Debutante)": {
+      "translation": "[[Furfrou]] 淑女造型",
+      "line": 20953
+    },
+    "Furfrou (Matron)": {
+      "translation": "[[Furfrou]] 贵妇造型",
+      "line": 20970
+    },
+    "Furfrou (Dandy)": {
+      "translation": "[[Furfrou]] 绅士造型",
+      "line": 20987
+    },
+    "Furfrou (La Reine)": {
+      "translation": "[[Furfrou]] 女王造型",
+      "line": 21004
+    },
+    "Furfrou (Kabuki)": {
+      "translation": "[[Furfrou]] 歌舞伎造型",
+      "line": 21021
+    },
+    "Furfrou (Pharaoh)": {
+      "translation": "[[Furfrou]] 国王造型",
+      "line": 21038
+    },
+    "Espurr": {
+      "translation": "妙喵",
+      "line": 21055
+    },
+    "Meowstic": {
+      "translation": "超能妙喵",
+      "line": 21061
+    },
+    "Honedge": {
+      "translation": "独剑鞘",
+      "line": 21093
+    },
+    "Doublade": {
+      "translation": "双剑鞘",
+      "line": 21099
+    },
+    "Aegislash (Shield)": {
+      "translation": "[[Aegislash]] 盾牌形态",
+      "line": 21118
+    },
+    "Aegislash (Blade)": {
+      "translation": "[[Aegislash]] 刀剑形态",
+      "line": 21119
+    },
+    "Spritzee": {
+      "translation": "粉香香",
+      "line": 21166
+    },
+    "Aromatisse": {
+      "translation": "芳香精",
+      "line": 21172
+    },
+    "Swirlix": {
+      "translation": "绵绵泡芙",
+      "line": 21201
+    },
+    "Slurpuff": {
+      "translation": "胖甜妮",
+      "line": 21207
+    },
+    "Inkay": {
+      "translation": "好啦鱿",
+      "line": 21236
+    },
+    "Malamar": {
+      "translation": "乌贼王",
+      "line": 21242
+    },
+    "Inkay (Pikachu)": {
+      "translation": "[[Inkay]] ([[Pikachu]])",
+      "line": 21254
+    },
+    "Binacle": {
+      "translation": "龟脚脚",
+      "line": 21288
+    },
+    "Barbaracle": {
+      "translation": "龟足巨铠",
+      "line": 21294
+    },
+    "Skrelp": {
+      "translation": "垃垃藻",
+      "line": 21323
+    },
+    "Dragalge": {
+      "translation": "毒藻龙",
+      "line": 21329
+    },
+    "Clauncher": {
+      "translation": "铁臂枪虾",
+      "line": 21358
+    },
+    "Clawitzer": {
+      "translation": "钢炮臂虾",
+      "line": 21364
+    },
+    "Helioptile": {
+      "translation": "伞电蜥",
+      "line": 21393
+    },
+    "Heliolisk": {
+      "translation": "光电伞蜥",
+      "line": 21399
+    },
+    "Tyrunt": {
+      "translation": "宝宝暴龙",
+      "line": 21428
+    },
+    "Tyrantrum": {
+      "translation": "怪颚龙",
+      "line": 21434
+    },
+    "Amaura": {
+      "translation": "冰雪龙",
+      "line": 21469
+    },
+    "Aurorus": {
+      "translation": "冰雪巨龙",
+      "line": 21475
+    },
+    "Hawlucha": {
+      "translation": "摔角鹰人",
+      "line": 21530
+    },
+    "Dedenne": {
+      "translation": "咚咚鼠",
+      "line": 21548
+    },
+    "Carbink": {
+      "translation": "小碎钻",
+      "line": 21566
+    },
+    "Goomy": {
+      "translation": "黏黏宝",
+      "line": 21586
+    },
+    "Sliggoo": {
+      "translation": "黏美儿",
+      "line": 21593
+    },
+    "Hisuian Sliggoo": {
+      "translation": "[[alt.hisuian]][[Sliggoo]]",
+      "line": 21594
+    },
+    "Goodra": {
+      "translation": "黏美龙",
+      "line": 21613
+    },
+    "Hisuian Goodra": {
+      "translation": "[[alt.hisuian]][[Goodra]]",
+      "line": 21632
+    },
+    "Klefki": {
+      "translation": "钥圈儿",
+      "line": 21679
+    },
+    "Phantump": {
+      "translation": "小木灵",
+      "line": 21696
+    },
+    "Trevenant": {
+      "translation": "朽木妖",
+      "line": 21702
+    },
+    "Pumpkaboo (Average)": {
+      "translation": "[[Pumpkaboo]] 普通尺寸",
+      "line": 21731
+    },
+    "Gourgeist (Average)": {
+      "translation": "[[Gourgeist]] 普通尺寸",
+      "line": 21737
+    },
+    "Pumpkaboo (Small)": {
+      "translation": "[[Pumpkaboo]] 小尺寸",
+      "line": 21749
+    },
+    "Gourgeist (Small)": {
+      "translation": "[[Gourgeist]] 小尺寸",
+      "line": 21755
+    },
+    "Pumpkaboo (Large)": {
+      "translation": "[[Pumpkaboo]] 大尺寸",
+      "line": 21767
+    },
+    "Gourgeist (Large)": {
+      "translation": "[[Gourgeist]] 大尺寸",
+      "line": 21773
+    },
+    "Pumpkaboo (Super Size)": {
+      "translation": "[[Pumpkaboo]] 特大尺寸",
+      "line": 21785
+    },
+    "Gourgeist (Super Size)": {
+      "translation": "[[Gourgeist]] 特大尺寸",
+      "line": 21791
+    },
+    "Bergmite": {
+      "translation": "冰宝",
+      "line": 21871
+    },
+    "Avalugg": {
+      "translation": "冰岩怪",
+      "line": 21878
+    },
+    "Hisuian Avalugg": {
+      "translation": "[[alt.hisuian]][[Avalugg]]",
+      "line": 21879
+    },
+    "Noble Avalugg": {
+      "translation": "[[Avalugg]] [[alt.noble]]",
+      "line": 21927
+    },
+    "Noibat": {
+      "translation": "嗡蝠",
+      "line": 21945
+    },
+    "Noivern": {
+      "translation": "音波龙",
+      "line": 21951
+    },
+    "Xerneas": {
+      "translation": "哲尔尼亚斯",
+      "line": 21980
+    },
+    "Xerneas (Active)": {
+      "translation": "[[Xerneas]] 活跃模式",
+      "line": 21985
+    },
+    "Yveltal": {
+      "translation": "伊裴尔塔尔",
+      "line": 22021
+    },
+    "Zygarde": {
+      "translation": "基格尔德",
+      "line": 22041
+    },
+    "Diancie": {
+      "translation": "蒂安希",
+      "line": 22061
+    },
+    "Mega Diancie": {
+      "translation": "[[alt.mega]][[Diancie]]",
+      "line": 22067
+    },
+    "Hoopa": {
+      "translation": "胡帕",
+      "line": 22102
+    },
+    "Hoopa (Unbound)": {
+      "translation": "解放[[Hoopa]]",
+      "line": 22122
+    },
+    "Volcanion": {
+      "translation": "波尔凯尼恩",
+      "line": 22142
+    },
+    "Rowlet": {
+      "translation": "木木枭",
+      "line": 22162
+    },
+    "Dartrix": {
+      "translation": "投羽枭",
+      "line": 22168
+    },
+    "Decidueye": {
+      "translation": "狙射树枭",
+      "line": 22190
+    },
+    "Hisuian Decidueye": {
+      "translation": "[[alt.hisuian]][[Decidueye]]",
+      "line": 22191
+    },
+    "Litten": {
+      "translation": "火斑喵",
+      "line": 22248
+    },
+    "Torracat": {
+      "translation": "炎热喵",
+      "line": 22254
+    },
+    "Incineroar": {
+      "translation": "炽焰咆哮虎",
+      "line": 22275
+    },
+    "Popplio": {
+      "translation": "球球海狮",
+      "line": 22310
+    },
+    "Brionne": {
+      "translation": "花漾海狮",
+      "line": 22316
+    },
+    "Primarina": {
+      "translation": "西狮海壬",
+      "line": 22337
+    },
+    "Pikipek": {
+      "translation": "小笃儿",
+      "line": 22372
+    },
+    "Trumbeak": {
+      "translation": "喇叭啄鸟",
+      "line": 22378
+    },
+    "Toucannon": {
+      "translation": "铳嘴大鸟",
+      "line": 22396
+    },
+    "Yungoos": {
+      "translation": "猫鼬少",
+      "line": 22425
+    },
+    "Gumshoos": {
+      "translation": "猫鼬探长",
+      "line": 22431
+    },
+    "Totem Gumshoos": {
+      "translation": "[[alt.totem]][[Gumshoos]]",
+      "line": 22460
+    },
+    "Grubbin": {
+      "translation": "强颚鸡母虫",
+      "line": 22477
+    },
+    "Charjabug": {
+      "translation": "虫电宝",
+      "line": 22483
+    },
+    "Vikavolt": {
+      "translation": "锹农炮虫",
+      "line": 22502
+    },
+    "Totem Vikavolt": {
+      "translation": "[[alt.totem]][[Vikavolt]]",
+      "line": 22533
+    },
+    "Crabrawler": {
+      "translation": "好胜蟹",
+      "line": 22550
+    },
+    "Mount Lanakila": {
+      "translation": "拉纳基拉山",
+      "line": 22556
+    },
+    "Crabominable": {
+      "translation": "好胜毛蟹",
+      "line": 22556
+    },
+    "Oricorio (Baile)": {
+      "translation": "[[Oricorio]] 热辣热辣风格",
+      "line": 22585
+    },
+    "Oricorio (Pom-Pom)": {
+      "translation": "[[Oricorio]] 啪滋啪滋风格",
+      "line": 22605
+    },
+    "Oricorio (Pa'u)": {
+      "translation": "[[Oricorio]] 呼拉呼拉风格",
+      "line": 22625
+    },
+    "Oricorio (Sensu)": {
+      "translation": "[[Oricorio]] 轻盈轻盈风格",
+      "line": 22645
+    },
+    "Cutiefly": {
+      "translation": "萌虻",
+      "line": 22665
+    },
+    "Ribombee": {
+      "translation": "蝶结萌虻",
+      "line": 22671
+    },
+    "Totem Ribombee": {
+      "translation": "[[alt.totem]][[Ribombee]]",
+      "line": 22700
+    },
+    "Rockruff": {
+      "translation": "岩狗狗",
+      "line": 22717
+    },
+    "Lycanroc (Midday)": {
+      "translation": "[[Lycanroc]] 白昼的样子",
+      "line": 22724
+    },
+    "Lycanroc (Midnight)": {
+      "translation": "[[Lycanroc]] 黑夜的样子",
+      "line": 22725
+    },
+    "Lycanroc (Dusk)": {
+      "translation": "[[Lycanroc]] 黄昏的样子",
+      "line": 22726
+    },
+    "Wishiwashi (Solo)": {
+      "translation": "[[Wishiwashi]] 单独的样子",
+      "line": 22791
+    },
+    "Wishiwashi (School)": {
+      "translation": "[[Wishiwashi]] 鱼群的样子",
+      "line": 22797
+    },
+    "Totem Wishiwashi": {
+      "translation": "[[alt.totem]][[Wishiwashi]]",
+      "line": 22826
+    },
+    "Mareanie": {
+      "translation": "好坏星",
+      "line": 22843
+    },
+    "Toxapex": {
+      "translation": "超坏星",
+      "line": 22849
+    },
+    "Mudbray": {
+      "translation": "泥驴仔",
+      "line": 22878
+    },
+    "Mudsdale": {
+      "translation": "重泥挽马",
+      "line": 22884
+    },
+    "Dewpider": {
+      "translation": "滴蛛",
+      "line": 22913
+    },
+    "Araquanid": {
+      "translation": "滴蛛霸",
+      "line": 22919
+    },
+    "Totem Araquanid": {
+      "translation": "[[alt.totem]][[Araquanid]]",
+      "line": 22948
+    },
+    "Fomantis": {
+      "translation": "伪螳草",
+      "line": 22965
+    },
+    "Lurantis": {
+      "translation": "兰螳花",
+      "line": 22971
+    },
+    "Totem Lurantis": {
+      "translation": "[[alt.totem]][[Lurantis]]",
+      "line": 23000
+    },
+    "Morelull": {
+      "translation": "睡睡菇",
+      "line": 23017
+    },
+    "Shiinotic": {
+      "translation": "灯罩夜菇",
+      "line": 23023
+    },
+    "Salandit": {
+      "translation": "夜盗火蜥",
+      "line": 23052
+    },
+    "Salazzle": {
+      "translation": "焰后蜥",
+      "line": 23058
+    },
+    "Totem Salazzle": {
+      "translation": "[[alt.totem]][[Salazzle]]",
+      "line": 23093
+    },
+    "Stufful": {
+      "translation": "童偶熊",
+      "line": 23113
+    },
+    "Bewear": {
+      "translation": "穿着熊",
+      "line": 23119
+    },
+    "Bounsweet": {
+      "translation": "甜竹竹",
+      "line": 23148
+    },
+    "Steenee": {
+      "translation": "甜舞妮",
+      "line": 23154
+    },
+    "Tsareena": {
+      "translation": "甜冷美后",
+      "line": 23175
+    },
+    "Comfey": {
+      "translation": "花疗环环",
+      "line": 23210
+    },
+    "Oranguru": {
+      "translation": "智挥猩",
+      "line": 23230
+    },
+    "Passimian": {
+      "translation": "投掷猴",
+      "line": 23247
+    },
+    "Wimpod": {
+      "translation": "胆小虫",
+      "line": 23264
+    },
+    "Golisopod": {
+      "translation": "具甲武者",
+      "line": 23270
+    },
+    "Sandygast": {
+      "translation": "沙丘娃",
+      "line": 23299
+    },
+    "Palossand": {
+      "translation": "噬沙堡爷",
+      "line": 23305
+    },
+    "Pyukumuku": {
+      "translation": "拳海参",
+      "line": 23334
+    },
+    "Type: Null": {
+      "translation": "属性：空",
+      "line": 23351
+    },
+    "Silvally (Normal)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.normal]])",
+      "line": 23357
+    },
+    "Silvally (Fire)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.fire]])",
+      "line": 23392
+    },
+    "Silvally (Water)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.water]])",
+      "line": 23409
+    },
+    "Silvally (Electric)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.electric]])",
+      "line": 23426
+    },
+    "Silvally (Grass)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.grass]])",
+      "line": 23443
+    },
+    "Silvally (Ice)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.ice]])",
+      "line": 23460
+    },
+    "Silvally (Fighting)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.fighting]])",
+      "line": 23477
+    },
+    "Silvally (Poison)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.poison]])",
+      "line": 23494
+    },
+    "Silvally (Ground)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.ground]])",
+      "line": 23511
+    },
+    "Silvally (Flying)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.flying]])",
+      "line": 23528
+    },
+    "Silvally (Psychic)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.psychic]])",
+      "line": 23545
+    },
+    "Silvally (Bug)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.bug]])",
+      "line": 23562
+    },
+    "Silvally (Rock)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.rock]])",
+      "line": 23579
+    },
+    "Silvally (Ghost)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.ghost]])",
+      "line": 23596
+    },
+    "Silvally (Dragon)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.dragon]])",
+      "line": 23613
+    },
+    "Silvally (Dark)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.dark]])",
+      "line": 23630
+    },
+    "Silvally (Steel)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.steel]])",
+      "line": 23647
+    },
+    "Silvally (Fairy)": {
+      "translation": "[[Silvally]] (属性：[[alt.type.fairy]])",
+      "line": 23664
+    },
+    "Minior (Meteor)": {
+      "translation": "[[Minior]] 流星的样子",
+      "line": 23681
+    },
+    "Minior (Red Core)": {
+      "translation": "[[Minior]] 红色核心",
+      "line": 23702
+    },
+    "Minior (Orange Core)": {
+      "translation": "[[Minior]] 橙色核心",
+      "line": 23722
+    },
+    "Minior (Yellow Core)": {
+      "translation": "[[Minior]] 黄色核心",
+      "line": 23742
+    },
+    "Minior (Green Core)": {
+      "translation": "[[Minior]] 绿色核心",
+      "line": 23762
+    },
+    "Minior (Blue Core)": {
+      "translation": "[[Minior]] 浅蓝色核心",
+      "line": 23782
+    },
+    "Minior (Indigo Core)": {
+      "translation": "[[Minior]] 蓝色核心",
+      "line": 23802
+    },
+    "Minior (Violet Core)": {
+      "translation": "[[Minior]] 紫色核心",
+      "line": 23822
+    },
+    "Komala": {
+      "translation": "树枕尾熊",
+      "line": 23842
+    },
+    "Turtonator": {
+      "translation": "爆焰龟兽",
+      "line": 23859
+    },
+    "Togedemaru": {
+      "translation": "托戈德玛尔",
+      "line": 23876
+    },
+    "Totem Togedemaru": {
+      "translation": "[[alt.totem]][[Togedemaru]]",
+      "line": 23893
+    },
+    "Mimikyu": {
+      "translation": "谜拟丘",
+      "line": 23910
+    },
+    "Totem Mimikyu": {
+      "translation": "[[alt.totem]][[Mimikyu]]",
+      "line": 23927
+    },
+    "Mimikyu (Busted)": {
+      "translation": "[[Mimikyu]]（现形）",
+      "line": 23944
+    },
+    "Bruxish": {
+      "translation": "磨牙彩皮鱼",
+      "line": 23961
+    },
+    "Razor_fang": {
+      "translation": "剃刀牙",
+      "line": 23975
+    },
+    "Drampa": {
+      "translation": "老翁龙",
+      "line": 23979
+    },
+    "Dhelmise": {
+      "translation": "破破舵轮",
+      "line": 23996
+    },
+    "Jangmo-o": {
+      "translation": "心鳞宝",
+      "line": 24016
+    },
+    "Hakamo-o": {
+      "translation": "鳞甲龙",
+      "line": 24022
+    },
+    "Razor_claw": {
+      "translation": "剃刀爪",
+      "line": 24031
+    },
+    "Kommo-o": {
+      "translation": "杖尾鳞甲龙",
+      "line": 24041
+    },
+    "Totem Kommo-o": {
+      "translation": "[[alt.totem]][[Kommo-o]]",
+      "line": 24072
+    },
+    "Tapu Koko": {
+      "translation": "卡璞・鸣鸣",
+      "line": 24089
+    },
+    "Tapu Lele": {
+      "translation": "卡璞・蝶蝶",
+      "line": 24109
+    },
+    "Tapu Bulu": {
+      "translation": "卡璞・哞哞",
+      "line": 24129
+    },
+    "Tapu Fini": {
+      "translation": "卡璞・鳍鳍",
+      "line": 24149
+    },
+    "Cosmog": {
+      "translation": "科斯莫古",
+      "line": 24169
+    },
+    "Cosmoem": {
+      "translation": "科斯莫姆",
+      "line": 24175
+    },
+    "Solgaleo": {
+      "translation": "索尔迦雷欧",
+      "line": 24197
+    },
+    "Lunala": {
+      "translation": "露奈雅拉",
+      "line": 24198
+    },
+    "Solgaleo (Radiant Sun)": {
+      "translation": "[[Solgaleo]] 旭日状态",
+      "line": 24220
+    },
+    "Solar_light": {
+      "translation": "太阳能灯",
+      "line": 24232
+    },
+    "Lunala (Full Moon)": {
+      "translation": "[[Lunala]] 满月状态",
+      "line": 24263
+    },
+    "Lunar_light": {
+      "translation": "月光",
+      "line": 24275
+    },
+    "Nihilego": {
+      "translation": "虚吾伊德",
+      "line": 24300
+    },
+    "Buzzwole": {
+      "translation": "爆肌蚊",
+      "line": 24320
+    },
+    "Pheromosa": {
+      "translation": "费洛美螂",
+      "line": 24340
+    },
+    "Xurkitree": {
+      "translation": "电束木",
+      "line": 24360
+    },
+    "Celesteela": {
+      "translation": "铁火辉夜",
+      "line": 24380
+    },
+    "Kartana": {
+      "translation": "纸御剑",
+      "line": 24400
+    },
+    "Guzzlord": {
+      "translation": "恶食大王",
+      "line": 24420
+    },
+    "Necrozma": {
+      "translation": "奈克洛兹玛",
+      "line": 24440
+    },
+    "Necrozma (Dusk Mane)": {
+      "translation": "[[Necrozma]] 黄昏之鬃",
+      "line": 24447
+    },
+    "Necrozma (Dawn Wings)": {
+      "translation": "[[Necrozma]] 拂晓之翼",
+      "line": 24448
+    },
+    "Pure_light": {
+      "translation": "纯光",
+      "line": 24461
+    },
+    "Ultra Necrozma": {
+      "translation": "究极[[Necrozma]]",
+      "line": 24471
+    },
+    "Magearna": {
+      "translation": "玛机雅娜",
+      "line": 24527
+    },
+    "Magearna (Original Color)": {
+      "translation": "[[Magearna]] ５００年前的颜色",
+      "line": 24547
+    },
+    "Marshadow": {
+      "translation": "玛夏多",
+      "line": 24567
+    },
+    "Marshadow (Zenith)": {
+      "translation": "全力[[Marshadow]]",
+      "line": 24573
+    },
+    "Crystallized_shadow": {
+      "translation": "结晶阴影",
+      "line": 24585
+    },
+    "Poipole": {
+      "translation": "毒贝比",
+      "line": 24610
+    },
+    "Naganadel": {
+      "translation": "四颚针龙",
+      "line": 24616
+    },
+    "Stakataka": {
+      "translation": "垒磊石",
+      "line": 24651
+    },
+    "Blacephalon": {
+      "translation": "砰头小丑",
+      "line": 24671
+    },
+    "Zeraora": {
+      "translation": "捷拉奥拉",
+      "line": 24691
+    },
+    "Meltan": {
+      "translation": "美录坦",
+      "line": 24711
+    },
+    "Melmetal": {
+      "translation": "美录梅塔",
+      "line": 24719
+    },
+    "Gigantamax Melmetal": {
+      "translation": "[[alt.gigantamax]][[Melmetal]]",
+      "line": 24720
+    },
+    "Grookey": {
+      "translation": "敲音猴",
+      "line": 24778
+    },
+    "Thwackey": {
+      "translation": "啪咚猴",
+      "line": 24792
+    },
+    "Rillaboom": {
+      "translation": "轰擂金刚猩",
+      "line": 24814
+    },
+    "Gigantamax Rillaboom": {
+      "translation": "[[alt.gigantamax]][[Rillaboom]]",
+      "line": 24815
+    },
+    "Scorbunny": {
+      "translation": "炎兔儿",
+      "line": 24863
+    },
+    "Raboot": {
+      "translation": "腾蹴小将",
+      "line": 24877
+    },
+    "Cinderace": {
+      "translation": "闪焰王牌",
+      "line": 24899
+    },
+    "Gigantamax Cinderace": {
+      "translation": "[[alt.gigantamax]][[Cinderace]]",
+      "line": 24900
+    },
+    "Sobble": {
+      "translation": "泪眼蜥",
+      "line": 24948
+    },
+    "Drizzile": {
+      "translation": "变涩蜥",
+      "line": 24962
+    },
+    "Inteleon": {
+      "translation": "千面避役",
+      "line": 24984
+    },
+    "Gigantamax Inteleon": {
+      "translation": "[[alt.gigantamax]][[Inteleon]]",
+      "line": 24985
+    },
+    "Skwovet": {
+      "translation": "贪心栗鼠",
+      "line": 25033
+    },
+    "Greedent": {
+      "translation": "藏饱栗鼠",
+      "line": 25047
+    },
+    "Rookidee": {
+      "translation": "稚山雀",
+      "line": 25068
+    },
+    "Corvisquire": {
+      "translation": "蓝鸦",
+      "line": 25082
+    },
+    "Corviknight": {
+      "translation": "钢铠鸦",
+      "line": 25101
+    },
+    "Gigantamax Corviknight": {
+      "translation": "[[alt.gigantamax]][[Corviknight]]",
+      "line": 25102
+    },
+    "Blipbug": {
+      "translation": "索侦虫",
+      "line": 25147
+    },
+    "Dottler": {
+      "translation": "天罩虫",
+      "line": 25161
+    },
+    "Orbeetle": {
+      "translation": "以欧路普",
+      "line": 25183
+    },
+    "Gigantamax Orbeetle": {
+      "translation": "[[alt.gigantamax]][[Orbeetle]]",
+      "line": 25184
+    },
+    "Nickit": {
+      "translation": "狡小狐",
+      "line": 25229
+    },
+    "Thievul": {
+      "translation": "猾大狐",
+      "line": 25243
+    },
+    "Gossifleur": {
+      "translation": "幼棉棉",
+      "line": 25264
+    },
+    "Eldegoss": {
+      "translation": "白蓬蓬",
+      "line": 25278
+    },
+    "Wooloo": {
+      "translation": "毛辫羊",
+      "line": 25299
+    },
+    "Dubwool": {
+      "translation": "毛毛角羊",
+      "line": 25313
+    },
+    "Chewtle": {
+      "translation": "咬咬龟",
+      "line": 25334
+    },
+    "Drednaw": {
+      "translation": "暴噬龟",
+      "line": 25349
+    },
+    "Gigantamax Drednaw": {
+      "translation": "[[alt.gigantamax]][[Drednaw]]",
+      "line": 25350
+    },
+    "Yamper": {
+      "translation": "来电汪",
+      "line": 25395
+    },
+    "Boltund": {
+      "translation": "逐电犬",
+      "line": 25409
+    },
+    "Rolycoly": {
+      "translation": "小炭仔",
+      "line": 25430
+    },
+    "Carkol": {
+      "translation": "大炭车",
+      "line": 25444
+    },
+    "Coalossal": {
+      "translation": "巨炭山",
+      "line": 25466
+    },
+    "Gigantamax Coalossal": {
+      "translation": "[[alt.gigantamax]][[Coalossal]]",
+      "line": 25467
+    },
+    "Applin": {
+      "translation": "啃果虫",
+      "line": 25512
+    },
+    "Flapple": {
+      "translation": "苹裹龙",
+      "line": 25527
+    },
+    "Appletun": {
+      "translation": "丰蜜龙",
+      "line": 25528
+    },
+    "Dipplin": {
+      "translation": "裹蜜虫",
+      "line": 25529
+    },
+    "Gigantamax Flapple": {
+      "translation": "[[alt.gigantamax]][[Flapple]]",
+      "line": 25530
+    },
+    "Gigantamax Appletun": {
+      "translation": "[[alt.gigantamax]][[Appletun]]",
+      "line": 25531
+    },
+    "Exposed Applin": {
+      "translation": "[[Applin]] 裸露的样子",
+      "line": 25539
+    },
+    "Silicobra": {
+      "translation": "沙包蛇",
+      "line": 25639
+    },
+    "Sandaconda": {
+      "translation": "沙螺蟒",
+      "line": 25654
+    },
+    "Gigantamax Sandaconda": {
+      "translation": "[[alt.gigantamax]][[Sandaconda]]",
+      "line": 25655
+    },
+    "Cramorant": {
+      "translation": "古月鸟",
+      "line": 25694
+    },
+    "Cramorant (Gulping)": {
+      "translation": "[[Cramorant]] 一口吞的样子",
+      "line": 25714
+    },
+    "Cramorant (Gorging)": {
+      "translation": "[[Cramorant]] 大口吞的样子",
+      "line": 25734
+    },
+    "Arrokuda": {
+      "translation": "刺梭鱼",
+      "line": 25754
+    },
+    "Barraskewda": {
+      "translation": "戽斗尖梭",
+      "line": 25768
+    },
+    "Toxel": {
+      "translation": "电音婴",
+      "line": 25789
+    },
+    "Toxtricity (Amped)": {
+      "translation": "[[Toxtricity]] 高调的样子",
+      "line": 25808
+    },
+    "Toxtricity (Low Key)": {
+      "translation": "[[Toxtricity]] 低调的样子",
+      "line": 25809
+    },
+    "Gigantamax Toxtricity": {
+      "translation": "[[alt.gigantamax]][[Toxtricity]]",
+      "line": 25810
+    },
+    "Sizzlipede": {
+      "translation": "烧火蚣",
+      "line": 25875
+    },
+    "Centiskorch": {
+      "translation": "焚焰蚣",
+      "line": 25893
+    },
+    "Gigantamax Centiskorch": {
+      "translation": "[[alt.gigantamax]][[Centiskorch]]",
+      "line": 25894
+    },
+    "Clobbopus": {
+      "translation": "拳拳蛸",
+      "line": 25939
+    },
+    "Grapploct": {
+      "translation": "八爪武师",
+      "line": 25953
+    },
+    "Sinistea": {
+      "translation": "来悲茶",
+      "line": 25974
+    },
+    "Polteageist": {
+      "translation": "怖思壶",
+      "line": 25985
+    },
+    "Hatenna": {
+      "translation": "迷布莉姆",
+      "line": 26015
+    },
+    "Hattrem": {
+      "translation": "提布莉姆",
+      "line": 26029
+    },
+    "Hatterene": {
+      "translation": "布莉姆温",
+      "line": 26051
+    },
+    "Gigantamax Hatterene": {
+      "translation": "[[alt.gigantamax]][[Hatterene]]",
+      "line": 26052
+    },
+    "Impidimp": {
+      "translation": "捣蛋小妖",
+      "line": 26106
+    },
+    "Morgrem": {
+      "translation": "诈唬魔",
+      "line": 26123
+    },
+    "Grimmsnarl": {
+      "translation": "长毛巨魔",
+      "line": 26148
+    },
+    "Gigantamax Grimmsnarl": {
+      "translation": "[[alt.gigantamax]][[Grimmsnarl]]",
+      "line": 26149
+    },
+    "Milcery": {
+      "translation": "小仙奶",
+      "line": 26319
+    },
+    "Alcremie (Strawberry Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.vanilla]]",
+      "line": 26334
+    },
+    "Alcremie (Strawberry Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.rubycream]]",
+      "line": 26335
+    },
+    "Alcremie (Strawberry Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.caramel]]",
+      "line": 26336
+    },
+    "Alcremie (Strawberry Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 26337
+    },
+    "Alcremie (Strawberry Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.matcha]]",
+      "line": 26338
+    },
+    "Alcremie (Strawberry Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.salted]]",
+      "line": 26339
+    },
+    "Alcremie (Strawberry Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.lemon]]",
+      "line": 26340
+    },
+    "Alcremie (Strawberry Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.mint]]",
+      "line": 26341
+    },
+    "Alcremie (Strawberry Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.rainbow]]",
+      "line": 26342
+    },
+    "Alcremie (Berry Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.vanilla]]",
+      "line": 26343
+    },
+    "Alcremie (Berry Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.rubycream]]",
+      "line": 26344
+    },
+    "Alcremie (Berry Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.caramel]]",
+      "line": 26345
+    },
+    "Alcremie (Berry Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 26346
+    },
+    "Alcremie (Berry Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.matcha]]",
+      "line": 26347
+    },
+    "Alcremie (Berry Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.salted]]",
+      "line": 26348
+    },
+    "Alcremie (Berry Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.lemon]]",
+      "line": 26349
+    },
+    "Alcremie (Berry Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.mint]]",
+      "line": 26350
+    },
+    "Alcremie (Berry Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.berry]] [[alt.sweet.flavor.rainbow]]",
+      "line": 26351
+    },
+    "Alcremie (Love Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.vanilla]]",
+      "line": 26352
+    },
+    "Alcremie (Love Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.rubycream]]",
+      "line": 26353
+    },
+    "Alcremie (Love Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.caramel]]",
+      "line": 26354
+    },
+    "Alcremie (Love Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 26355
+    },
+    "Alcremie (Love Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.matcha]]",
+      "line": 26356
+    },
+    "Alcremie (Love Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.salted]]",
+      "line": 26357
+    },
+    "Alcremie (Love Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.lemon]]",
+      "line": 26358
+    },
+    "Alcremie (Love Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.mint]]",
+      "line": 26359
+    },
+    "Alcremie (Love Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.love]] [[alt.sweet.flavor.rainbow]]",
+      "line": 26360
+    },
+    "Alcremie (Star Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.vanilla]]",
+      "line": 26361
+    },
+    "Alcremie (Star Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.rubycream]]",
+      "line": 26362
+    },
+    "Alcremie (Star Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.caramel]]",
+      "line": 26363
+    },
+    "Alcremie (Star Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 26364
+    },
+    "Alcremie (Star Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.matcha]]",
+      "line": 26365
+    },
+    "Alcremie (Star Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.salted]]",
+      "line": 26366
+    },
+    "Alcremie (Star Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.lemon]]",
+      "line": 26367
+    },
+    "Alcremie (Star Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.mint]]",
+      "line": 26368
+    },
+    "Alcremie (Star Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.star]] [[alt.sweet.flavor.rainbow]]",
+      "line": 26369
+    },
+    "Alcremie (Clover Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.vanilla]]",
+      "line": 26370
+    },
+    "Alcremie (Clover Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.rubycream]]",
+      "line": 26371
+    },
+    "Alcremie (Clover Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.caramel]]",
+      "line": 26372
+    },
+    "Alcremie (Clover Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 26373
+    },
+    "Alcremie (Clover Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.matcha]]",
+      "line": 26374
+    },
+    "Alcremie (Clover Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.salted]]",
+      "line": 26375
+    },
+    "Alcremie (Clover Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.lemon]]",
+      "line": 26376
+    },
+    "Alcremie (Clover Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.mint]]",
+      "line": 26377
+    },
+    "Alcremie (Clover Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.clover]] [[alt.sweet.flavor.rainbow]]",
+      "line": 26378
+    },
+    "Alcremie (Flower Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.vanilla]]",
+      "line": 26379
+    },
+    "Alcremie (Flower Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.rubycream]]",
+      "line": 26380
+    },
+    "Alcremie (Flower Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.caramel]]",
+      "line": 26381
+    },
+    "Alcremie (Flower Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 26382
+    },
+    "Alcremie (Flower Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.matcha]]",
+      "line": 26383
+    },
+    "Alcremie (Flower Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.salted]]",
+      "line": 26384
+    },
+    "Alcremie (Flower Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.lemon]]",
+      "line": 26385
+    },
+    "Alcremie (Flower Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.mint]]",
+      "line": 26386
+    },
+    "Alcremie (Flower Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.flower]] [[alt.sweet.flavor.rainbow]]",
+      "line": 26387
+    },
+    "Alcremie (Ribbon Vanilla)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.vanilla]]",
+      "line": 26388
+    },
+    "Alcremie (Ribbon Ruby Cream)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.rubycream]]",
+      "line": 26389
+    },
+    "Alcremie (Ribbon Caramel)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.caramel]]",
+      "line": 26390
+    },
+    "Alcremie (Ribbon Ruby Swirl)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.rubyswirl]]",
+      "line": 26391
+    },
+    "Alcremie (Ribbon Matcha)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.matcha]]",
+      "line": 26392
+    },
+    "Alcremie (Ribbon Salted)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.salted]]",
+      "line": 26393
+    },
+    "Alcremie (Ribbon Lemon)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.lemon]]",
+      "line": 26394
+    },
+    "Alcremie (Ribbon Mint)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.mint]]",
+      "line": 26395
+    },
+    "Alcremie (Ribbon Rainbow)": {
+      "translation": "[[Alcremie]] [[alt.sweet.theme.ribbon]] [[alt.sweet.flavor.rainbow]]",
+      "line": 26396
+    },
+    "Gigantamax Alcremie": {
+      "translation": "[[alt.gigantamax]][[Alcremie]]",
+      "line": 26397
+    },
+    "Milcery (Cheesy)": {
+      "translation": "[[Milcery]] (干酪)",
+      "line": 26405
+    },
+    "Falinks": {
+      "translation": "列阵兵",
+      "line": 27705
+    },
+    "Pincurchin": {
+      "translation": "啪嚓海胆",
+      "line": 27725
+    },
+    "Snom": {
+      "translation": "雪吞虫",
+      "line": 27742
+    },
+    "Frosmoth": {
+      "translation": "雪绒蛾",
+      "line": 27759
+    },
+    "Stonjourner": {
+      "translation": "巨石丁",
+      "line": 27783
+    },
+    "Eiscue (Ice Face)": {
+      "translation": "[[Eiscue]] 结冻头",
+      "line": 27800
+    },
+    "Eiscue (Noice Face)": {
+      "translation": "[[Eiscue]] 解冻头",
+      "line": 27817
+    },
+    "Indeedee (Male)": {
+      "translation": "[[Indeedee]][[alt.male]]",
+      "line": 27834
+    },
+    "Indeedee (Female)": {
+      "translation": "[[Indeedee]][[alt.female]]",
+      "line": 27857
+    },
+    "Morpeko": {
+      "translation": "莫鲁贝可",
+      "line": 27880
+    },
+    "Morpeko (Hangry)": {
+      "translation": "[[Morpeko]] 空腹花纹",
+      "line": 27900
+    },
+    "Cufant": {
+      "translation": "铜象",
+      "line": 27920
+    },
+    "Copperajah": {
+      "translation": "大王铜象",
+      "line": 27935
+    },
+    "Gigantamax Copperajah": {
+      "translation": "[[alt.gigantamax]][[Copperajah]]",
+      "line": 27936
+    },
+    "Dracozolt": {
+      "translation": "雷鸟龙",
+      "line": 27975
+    },
+    "Arctozolt": {
+      "translation": "雷鸟海兽",
+      "line": 27998
+    },
+    "Dracovish": {
+      "translation": "鳃鱼龙",
+      "line": 28021
+    },
+    "Arctovish": {
+      "translation": "鳃鱼海兽",
+      "line": 28044
+    },
+    "Duraludon": {
+      "translation": "铝钢龙",
+      "line": 28067
+    },
+    "Archaludon": {
+      "translation": "铝钢桥龙",
+      "line": 28084
+    },
+    "Gigantamax Duraludon": {
+      "translation": "[[alt.gigantamax]][[Duraludon]]",
+      "line": 28088
+    },
+    "Dreepy": {
+      "translation": "多龙梅西亚",
+      "line": 28108
+    },
+    "Drakloak": {
+      "translation": "多龙奇",
+      "line": 28125
+    },
+    "Dragapult": {
+      "translation": "多龙巴鲁托",
+      "line": 28146
+    },
+    "Zacian (Battle Hero)": {
+      "translation": "[[Zacian]] 百战勇者",
+      "line": 28170
+    },
+    "Rusted_Sword": {
+      "translation": "生锈的剑",
+      "line": 28181
+    },
+    "Zacian (Crowned Sword)": {
+      "translation": "[[Zacian]] 剑之王",
+      "line": 28181
+    },
+    "Zamazenta (Battle Hero)": {
+      "translation": "[[Zamazenta]] 百战勇者",
+      "line": 28213
+    },
+    "Rusted_Shield": {
+      "translation": "生锈的盾牌",
+      "line": 28224
+    },
+    "Zamazenta (Crowned Shield)": {
+      "translation": "[[Zamazenta]] 盾之王",
+      "line": 28224
+    },
+    "Eternatus": {
+      "translation": "无极汰那",
+      "line": 28256
+    },
+    "Eternamax Eternatus": {
+      "translation": "无极巨化[[Eternatus]]",
+      "line": 28279
+    },
+    "Kubfu": {
+      "translation": "熊徒弟",
+      "line": 28302
+    },
+    "Tower of Waters": {
+      "translation": "水域之塔",
+      "line": 28313
+    },
+    "Urshifu (Rapid Strike)": {
+      "translation": "[[Urshifu]] 连击流",
+      "line": 28313
+    },
+    "Tower of Darkness": {
+      "translation": "黑暗之塔",
+      "line": 28314
+    },
+    "Urshifu (Single Strike)": {
+      "translation": "[[Urshifu]] 一击流",
+      "line": 28314
+    },
+    "Gigantamax Urshifu (Single Strike)": {
+      "translation": "[[alt.gigantamax]][[Urshifu (Single Strike)]]",
+      "line": 28315
+    },
+    "Gigantamax Urshifu (Rapid Strike)": {
+      "translation": "[[alt.gigantamax]][[Urshifu (Rapid Strike)]]",
+      "line": 28316
+    },
+    "Zarude": {
+      "translation": "萨戮德",
+      "line": 28420
+    },
+    "Zarude (Dada)": {
+      "translation": "[[Zarude]] 阿爸",
+      "line": 28443
+    },
+    "Regieleki": {
+      "translation": "雷吉艾勒奇",
+      "line": 28466
+    },
+    "Regidrago": {
+      "translation": "雷吉铎拉戈",
+      "line": 28486
+    },
+    "Glastrier": {
+      "translation": "雪暴马",
+      "line": 28506
+    },
+    "White_mane_hair": {
+      "translation": "白鬃毛",
+      "line": 28520
+    },
+    "Spectrier": {
+      "translation": "灵幽马",
+      "line": 28527
+    },
+    "Black_mane_hair": {
+      "translation": "黑鬃毛",
+      "line": 28541
+    },
+    "Calyrex": {
+      "translation": "蕾冠王",
+      "line": 28548
+    },
+    "Shadow Rider Calyrex": {
+      "translation": "[[Calyrex]] 骑黑马的样子",
+      "line": 28560
+    },
+    "Ice Rider Calyrex": {
+      "translation": "[[Calyrex]] 骑白马的样子",
+      "line": 28561
+    },
+    "Noble Kleavor": {
+      "translation": "[[Kleavor]] [[alt.noble]]",
+      "line": 28646
+    },
+    "Enamorus": {
+      "translation": "眷恋云",
+      "line": 28772
+    },
+    "Enamorus (Therian)": {
+      "translation": "[[Enamorus]] [[alt.therian]]",
+      "line": 28792
+    },
+    "MissingNo.": {
+      "translation": "Missing No.",
+      "line": 28813
+    },
+    "Sprigatito": {
+      "translation": "新叶喵",
+      "line": 28834
+    },
+    "Floragato": {
+      "translation": "蒂蕾喵",
+      "line": 28848
+    },
+    "Meowscarada": {
+      "translation": "魔幻假面喵",
+      "line": 28869
+    },
+    "Fuecoco": {
+      "translation": "呆火鳄",
+      "line": 28896
+    },
+    "Crocalor": {
+      "translation": "炙烫鳄",
+      "line": 28910
+    },
+    "Skeledirge": {
+      "translation": "骨纹巨声鳄",
+      "line": 28931
+    },
+    "Quaxly": {
+      "translation": "润水鸭",
+      "line": 28958
+    },
+    "Quaxwell": {
+      "translation": "涌跃鸭",
+      "line": 28972
+    },
+    "Quaquaval": {
+      "translation": "狂欢浪舞鸭",
+      "line": 28993
+    },
+    "Lechonk": {
+      "translation": "爱吃豚",
+      "line": 29020
+    },
+    "Oinkologne (Male)": {
+      "translation": "[[Oinkologne]][[alt.male]]",
+      "line": 29035
+    },
+    "Oinkologne (Female)": {
+      "translation": "[[Oinkologne]][[alt.female]]",
+      "line": 29036
+    },
+    "Tarountula": {
+      "translation": "团珠蛛",
+      "line": 29081
+    },
+    "Spidops": {
+      "translation": "操陷蛛",
+      "line": 29095
+    },
+    "Nymble": {
+      "translation": "豆蟋蟀",
+      "line": 29116
+    },
+    "Lokix": {
+      "translation": "烈腿蝗",
+      "line": 29130
+    },
+    "Pawmi": {
+      "translation": "布拨",
+      "line": 29151
+    },
+    "Pawmo": {
+      "translation": "布土拨",
+      "line": 29165
+    },
+    "Pawmot": {
+      "translation": "巴布土拨",
+      "line": 29183
+    },
+    "Tandemaus": {
+      "translation": "一对鼠",
+      "line": 29204
+    },
+    "Maushold (Family of Four)": {
+      "translation": "[[Maushold]] 四只家庭",
+      "line": 29218
+    },
+    "Maushold (Family of Three)": {
+      "translation": "[[Maushold]] 三只家庭",
+      "line": 29245
+    },
+    "Fidough": {
+      "translation": "狗仔包",
+      "line": 29265
+    },
+    "Dachsbun": {
+      "translation": "麻花犬",
+      "line": 29279
+    },
+    "Smoliv": {
+      "translation": "迷你芙",
+      "line": 29300
+    },
+    "Dolliv": {
+      "translation": "奥利纽",
+      "line": 29314
+    },
+    "Arboliva": {
+      "translation": "奥利瓦",
+      "line": 29332
+    },
+    "Squawkabilly (Green)": {
+      "translation": "[[Squawkabilly]] 绿羽毛",
+      "line": 29353
+    },
+    "Squawkabilly (Blue)": {
+      "translation": "[[Squawkabilly]] 蓝羽毛",
+      "line": 29370
+    },
+    "Squawkabilly (Yellow)": {
+      "translation": "[[Squawkabilly]] 黄羽毛",
+      "line": 29387
+    },
+    "Squawkabilly (White)": {
+      "translation": "[[Squawkabilly]] 白羽毛",
+      "line": 29404
+    },
+    "Nacli": {
+      "translation": "盐石宝",
+      "line": 29421
+    },
+    "Naclstack": {
+      "translation": "盐石垒",
+      "line": 29435
+    },
+    "Garganacl": {
+      "translation": "盐石巨灵",
+      "line": 29453
+    },
+    "Charcadet": {
+      "translation": "炭小侍",
+      "line": 29474
+    },
+    "Armarouge": {
+      "translation": "红莲铠骑",
+      "line": 29489
+    },
+    "Ceruledge": {
+      "translation": "苍炎刃鬼",
+      "line": 29490
+    },
+    "Tadbulb": {
+      "translation": "光蚪仔",
+      "line": 29529
+    },
+    "Bellibolt": {
+      "translation": "电肚蛙",
+      "line": 29543
+    },
+    "Wattrel": {
+      "translation": "电海燕",
+      "line": 29564
+    },
+    "Kilowattrel": {
+      "translation": "大电海燕",
+      "line": 29578
+    },
+    "Maschiff": {
+      "translation": "偶叫獒",
+      "line": 29599
+    },
+    "Mabosstiff": {
+      "translation": "獒教父",
+      "line": 29613
+    },
+    "Shroodle": {
+      "translation": "滋汁鼹",
+      "line": 29634
+    },
+    "Grafaiai": {
+      "translation": "涂标客",
+      "line": 29648
+    },
+    "Bramblin": {
+      "translation": "纳噬草",
+      "line": 29669
+    },
+    "Brambleghast": {
+      "translation": "怖纳噬草",
+      "line": 29683
+    },
+    "Toedscool": {
+      "translation": "原野水母",
+      "line": 29704
+    },
+    "Toedscruel": {
+      "translation": "陆地水母",
+      "line": 29718
+    },
+    "Klawf": {
+      "translation": "毛崖蟹",
+      "line": 29739
+    },
+    "Titan Klawf": {
+      "translation": "[[alt.titan]] [[Klawf]]",
+      "line": 29756
+    },
+    "Capsakid": {
+      "translation": "热辣娃",
+      "line": 29773
+    },
+    "Scovillain": {
+      "translation": "狠辣椒",
+      "line": 29787
+    },
+    "Rellor": {
+      "translation": "虫滚泥",
+      "line": 29808
+    },
+    "Rabsca": {
+      "translation": "虫甲圣",
+      "line": 29822
+    },
+    "Flittle": {
+      "translation": "飘飘雏",
+      "line": 29843
+    },
+    "Espathra": {
+      "translation": "超能艳鸵",
+      "line": 29857
+    },
+    "Tinkatink": {
+      "translation": "小锻匠",
+      "line": 29878
+    },
+    "Tinkatuff": {
+      "translation": "巧锻匠",
+      "line": 29892
+    },
+    "Tinkaton": {
+      "translation": "巨锻匠",
+      "line": 29913
+    },
+    "Wiglett": {
+      "translation": "海地鼠",
+      "line": 29940
+    },
+    "Wugtrio": {
+      "translation": "三海地鼠",
+      "line": 29954
+    },
+    "Bombirdier": {
+      "translation": "下石鸟",
+      "line": 29975
+    },
+    "Titan Bombirdier": {
+      "translation": "[[alt.titan]] [[Bombirdier]]",
+      "line": 29992
+    },
+    "Finizen": {
+      "translation": "波普海豚",
+      "line": 30009
+    },
+    "Palafin (Zero)": {
+      "translation": "[[Palafin]] 平凡形态",
+      "line": 30024
+    },
+    "Palafin (Hero)": {
+      "translation": "[[Palafin]] 全能形态",
+      "line": 30025
+    },
+    "Varoom": {
+      "translation": "噗隆隆",
+      "line": 30064
+    },
+    "Revavroom": {
+      "translation": "普隆隆姆",
+      "line": 30078
+    },
+    "Cyclizar": {
+      "translation": "摩托蜥",
+      "line": 30099
+    },
+    "Orthworm": {
+      "translation": "拖拖蚓",
+      "line": 30116
+    },
+    "Titan Orthworm": {
+      "translation": "[[alt.titan]] [[Orthworm]]",
+      "line": 30133
+    },
+    "Glimmet": {
+      "translation": "晶光芽",
+      "line": 30150
+    },
+    "Glimmora": {
+      "translation": "晶光花",
+      "line": 30164
+    },
+    "Greavard": {
+      "translation": "墓仔狗",
+      "line": 30185
+    },
+    "Houndstone": {
+      "translation": "墓扬犬",
+      "line": 30199
+    },
+    "Flamigo": {
+      "translation": "缠红鹤",
+      "line": 30220
+    },
+    "Cetoddle": {
+      "translation": "走鲸",
+      "line": 30237
+    },
+    "Cetitan": {
+      "translation": "浩大鲸",
+      "line": 30251
+    },
+    "Veluza": {
+      "translation": "轻身鳕",
+      "line": 30272
+    },
+    "Dondozo": {
+      "translation": "吃吼霸",
+      "line": 30289
+    },
+    "Titan Dondozo": {
+      "translation": "[[alt.titan]] [[Dondozo]]",
+      "line": 30306
+    },
+    "Tatsugiri (Curly)": {
+      "translation": "[[Tatsugiri]] 上弓姿势",
+      "line": 30323
+    },
+    "Tatsugiri (Droopy)": {
+      "translation": "[[Tatsugiri]] 下垂姿势",
+      "line": 30340
+    },
+    "Tatsugiri (Stretchy)": {
+      "translation": "[[Tatsugiri]] 平挺姿势",
+      "line": 30357
+    },
+    "Titan Tatsugiri": {
+      "translation": "[[alt.titan]] [[Tatsugiri]]",
+      "line": 30374
+    },
+    "Dudunsparce (Three-Segment)": {
+      "translation": "[[Dudunsparce]] 三节形态",
+      "line": 30459
+    },
+    "Great Tusk": {
+      "translation": "雄伟牙",
+      "line": 30493
+    },
+    "Booster_Energy": {
+      "translation": "助推器_能量",
+      "line": 30510
+    },
+    "Titan Great Tusk": {
+      "translation": "[[alt.titan]] [[Great Tusk]]",
+      "line": 30514
+    },
+    "Scream Tail": {
+      "translation": "吼叫尾",
+      "line": 30535
+    },
+    "Brute Bonnet": {
+      "translation": "猛恶菇",
+      "line": 30556
+    },
+    "Flutter Mane": {
+      "translation": "振翼发",
+      "line": 30577
+    },
+    "Slither Wing": {
+      "translation": "爬地翅",
+      "line": 30598
+    },
+    "Sandy Shocks": {
+      "translation": "沙铁皮",
+      "line": 30619
+    },
+    "Iron Treads": {
+      "translation": "铁辙迹",
+      "line": 30640
+    },
+    "Titan Iron Treads": {
+      "translation": "[[alt.titan]] [[Iron Treads]]",
+      "line": 30661
+    },
+    "Iron Bundle": {
+      "translation": "铁包袱",
+      "line": 30682
+    },
+    "Iron Hands": {
+      "translation": "铁臂膀",
+      "line": 30703
+    },
+    "Iron Jugulis": {
+      "translation": "铁脖颈",
+      "line": 30724
+    },
+    "Iron Moth": {
+      "translation": "铁毒蛾",
+      "line": 30745
+    },
+    "Iron Thorns": {
+      "translation": "铁荆棘",
+      "line": 30766
+    },
+    "Frigibax": {
+      "translation": "凉脊龙",
+      "line": 30787
+    },
+    "Arctibax": {
+      "translation": "冻脊龙",
+      "line": 30801
+    },
+    "Baxcalibur": {
+      "translation": "戟脊龙",
+      "line": 30819
+    },
+    "Gimmighoul (Chest)": {
+      "translation": "[[Gimmighoul]] 宝箱形态",
+      "line": 30840
+    },
+    "Gholdengo": {
+      "translation": "赛富豪",
+      "line": 30854
+    },
+    "Gimmighoul_coin": {
+      "translation": "Gimighoul_coin",
+      "line": 30855
+    },
+    "Gimmighoul (Roaming)": {
+      "translation": "[[Gimmighoul]] 徒步形态",
+      "line": 30862
+    },
+    "Wo-Chien": {
+      "translation": "古简蜗",
+      "line": 30904
+    },
+    "Chien-Pao": {
+      "translation": "古剑豹",
+      "line": 30924
+    },
+    "Ting-Lu": {
+      "translation": "古鼎鹿",
+      "line": 30944
+    },
+    "Chi-Yu": {
+      "translation": "古玉鱼",
+      "line": 30964
+    },
+    "Roaring Moon": {
+      "translation": "轰鸣月",
+      "line": 30984
+    },
+    "Iron Valiant": {
+      "translation": "铁武者",
+      "line": 31005
+    },
+    "Koraidon": {
+      "translation": "故勒顿",
+      "line": 31026
+    },
+    "Miraidon": {
+      "translation": "密勒顿",
+      "line": 31046
+    },
+    "Walking Wake": {
+      "translation": "波荡水",
+      "line": 31066
+    },
+    "Iron Leaves": {
+      "translation": "铁斑叶",
+      "line": 31086
+    },
+    "Hydrapple": {
+      "translation": "蜜集大蛇",
+      "line": 31120
+    },
+    "Poltchageist": {
+      "translation": "斯魔茶",
+      "line": 31124
+    },
+    "Sinistcha": {
+      "translation": "来悲粗茶",
+      "line": 31138
+    },
+    "Okidogi": {
+      "translation": "够赞狗",
+      "line": 31165
+    },
+    "Cornerstone_Mask": {
+      "translation": "基石_面具",
+      "line": 31179
+    },
+    "Munkidori": {
+      "translation": "愿增猿",
+      "line": 31186
+    },
+    "Wellspring_Mask": {
+      "translation": "泉源面膜",
+      "line": 31200
+    },
+    "Fezandipiti": {
+      "translation": "吉雉鸡",
+      "line": 31207
+    },
+    "Hearthflame_Mask": {
+      "translation": "炉火_面具",
+      "line": 31221
+    },
+    "Ogerpon (Teal Mask)": {
+      "translation": "[[Ogerpon]] 碧草面具",
+      "line": 31228
+    },
+    "Ogerpon (Wellspring Mask)": {
+      "translation": "[[Ogerpon]] 水井面具",
+      "line": 31240
+    },
+    "Ogerpon (Hearthflame Mask)": {
+      "translation": "[[Ogerpon]] 火灶面具",
+      "line": 31241
+    },
+    "Ogerpon (Cornerstone Mask)": {
+      "translation": "[[Ogerpon]] 础石面具",
+      "line": 31242
+    },
+    "Ogerpon (Terrastallized Teal Mask)": {
+      "translation": "太晶化 [[Ogerpon (Teal Mask)]]",
+      "line": 31243
+    },
+    "Ogerpon (Terrastallized Wellspring Mask)": {
+      "translation": "太晶化 [[Ogerpon (Wellspring Mask)]]",
+      "line": 31268
+    },
+    "Ogerpon (Terrastallized Hearthflame Mask)": {
+      "translation": "太晶化 [[Ogerpon (Hearthflame Mask)]]",
+      "line": 31289
+    },
+    "Ogerpon (Terrastallized Cornerstone Mask)": {
+      "translation": "太晶化 [[Ogerpon (Cornerstone Mask)]]",
+      "line": 31310
+    },
+    "Gouging Fire": {
+      "translation": "破空焰",
+      "line": 31431
+    },
+    "Raging Bolt": {
+      "translation": "猛雷鼓",
+      "line": 31451
+    },
+    "Iron Boulder": {
+      "translation": "铁磐岩",
+      "line": 31471
+    },
+    "Iron Crown": {
+      "translation": "铁头壳",
+      "line": 31491
+    },
+    "Terapagos": {
+      "translation": "太乐巴戈斯",
+      "line": 31511
+    },
+    "Terapagos (Terastal)": {
+      "translation": "[[Terapagos]] 太晶形态",
+      "line": 31528
+    },
+    "Terapagos (Stellar)": {
+      "translation": "[[Terapagos]] 星晶形态",
+      "line": 31545
+    },
+    "Pecharunt": {
+      "translation": "桃歹郎",
+      "line": 31562
+    },
+    "You hateful little Trainer!": {
+      "translation": "你这个可恶的小训练家！",
+      "line": 31606
+    },
+    "Segin Starmobile": {
+      "translation": "阁道二[[Starmobile]]",
+      "line": 31628
+    },
+    "Schedar Starmobile": {
+      "translation": "王良四[[Starmobile]]",
+      "line": 31646
+    },
+    "Navi Starmobile": {
+      "translation": "策星[[Starmobile]]",
+      "line": 31664
+    },
+    "Ruchbah Starmobile": {
+      "translation": "阁道三[[Starmobile]]",
+      "line": 31682
+    },
+    "Caph Starmobile": {
+      "translation": "王良一[[Starmobile]]",
+      "line": 31700
+    },
+    "random": {
+      "translation": "随机的",
+      "line": 31783
+    }
+  }
+}

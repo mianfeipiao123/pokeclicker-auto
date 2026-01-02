@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/gems/FluteEffectRunner.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 31,
+    "translatedCount": 7
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 5
+    },
+    "../multiplier/Multiplier": {
+      "translation": "",
+      "line": 6
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 7
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 8
+    },
+    "../items/FluteItem": {
+      "translation": "",
+      "line": 9
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 10
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 11
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 18
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 19
+    },
+    "../logbook/LogBookTypes": {
+      "translation": "",
+      "line": 20
+    },
+    "../logbook/helpers": {
+      "translation": "",
+      "line": 21
+    },
+    "<i>${PokemonType[idx]}<i/>": {
+      "translation": "",
+      "line": 34
+    },
+    "<i>All Types<i/>": {
+      "translation": "",
+      "line": 37
+    },
+    "+0.5% boost to:": {
+      "translation": "+0.5% 提升：",
+      "line": 42
+    },
+    "<br>": {
+      "translation": "<br>",
+      "line": 45
+    },
+    "You ran out of gems for the ${humanifyString(itemName)}'s effect!": {
+      "translation": "",
+      "line": 74
+    },
+    "<strong>Time Remaining:</strong><br> ${formatSecondsToTime(this.fluteFormattedTime(itemName))}": {
+      "translation": "",
+      "line": 150
+    },
+    "99h+": {
+      "translation": "99小时+",
+      "line": 157
+    },
+    "${+times[0]}h": {
+      "translation": "",
+      "line": 159
+    },
+    "<div><strong>Consumes:</strong></div>": {
+      "translation": "",
+      "line": 182
+    },
+    "<table class=\"w-100\">": {
+      "translation": "<table class=\"w-100\">",
+      "line": 183
+    },
+    "w-100": {
+      "translation": "",
+      "line": 183
+    },
+    "<tr>": {
+      "translation": "<tr>",
+      "line": 185
+    },
+    "text-left": {
+      "translation": "",
+      "line": 186
+    },
+    "<td class=\"text-left\" px-1\">${gem} gems</td>": {
+      "translation": "",
+      "line": 186
+    },
+    "<td></td>": {
+      "translation": "",
+      "line": 187
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 188
+    },
+    "text-right": {
+      "translation": "",
+      "line": 188
+    },
+    "<td class=\"text-right\" px-1\">(${App.game.gems.gemWallet[PokemonType[gem]]().toLocaleString('en-US')})</td>": {
+      "translation": "",
+      "line": 188
+    },
+    "</tr>": {
+      "translation": "",
+      "line": 189
+    },
+    "</table>": {
+      "translation": "",
+      "line": 191
+    }
+  }
+}

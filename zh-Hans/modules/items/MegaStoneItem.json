@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/MegaStoneItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "./Item": {
+      "translation": "",
+      "line": 4
+    },
+    "./types": {
+      "translation": "",
+      "line": 5
+    },
+    "assets/images/megaStone/${MegaStoneType[this.megaStone]}.png": {
+      "translation": "",
+      "line": 38
+    },
+    "A Mega Stone for ${this.basePokemon}.": {
+      "translation": "",
+      "line": 46
+    }
+  }
+}

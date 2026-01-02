@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/QuestHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "Error: Invalid quest type - ${questType}.": {
+      "translation": "",
+      "line": 45
+    }
+  }
+}

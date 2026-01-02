@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/BooleanSetting.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 1
+    },
+    "./Setting": {
+      "translation": "",
+      "line": 2
+    },
+    "./SettingOption": {
+      "translation": "",
+      "line": 3
+    },
+    "On": {
+      "translation": "开",
+      "line": 17
+    },
+    "Off": {
+      "translation": "关",
+      "line": 18
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/specialEvents/SpecialEvents.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 26,
+    "translatedCount": 23
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 2
+    },
+    "./SpecialEvent": {
+      "translation": "",
+      "line": 3
+    },
+    "./SpecialEventTitleType": {
+      "translation": "",
+      "line": 4
+    },
+    "Events": {
+      "translation": "活动",
+      "line": 7
+    },
+    "events": {
+      "translation": "事件",
+      "line": 8
+    },
+    "Lunar New Year": {
+      "translation": "农历新年",
+      "line": 94
+    },
+    "Two kinds of Vivillon are roaming Kalos and later regions, and ones you've previously caught have returned. Check the Photobook in Santalune City for hints!": {
+      "translation": "有两种 Vivillon 正在卡洛斯和后来的地区漫游，而你之前捕获的那些已经回来了。请查看桑塔鲁恩市的写真集以获取提示！",
+      "line": 94
+    },
+    "How blu mouse?": {
+      "translation": "鼠标有多蓝？",
+      "line": 105
+    },
+    "Hoopa Day": {
+      "translation": "胡帕日",
+      "line": 107
+    },
+    "The Mischief Pokémon unleashes his tricks upon the world.": {
+      "translation": "恶作剧宝可梦向世界施展他的诡计。",
+      "line": 107
+    },
+    "Easter": {
+      "translation": "复活节",
+      "line": 118
+    },
+    "Encounter 3 special egg-related forms for a limited time with a dedicated Quest Line.": {
+      "translation": "通过专用任务线在有限时间内遇到3种与鸡蛋相关的特殊形态。",
+      "line": 118
+    },
+    "Golden Week": {
+      "translation": "黄金周",
+      "line": 130
+    },
+    "Enjoy your time off in the \"Golden Week\"! Travel tip: Visit the Flower Paradise in Sinnoh on your well earned vacation and enjoy the bloom of roses.": {
+      "translation": "尽情享受“黄金周”假期吧！旅行贴士：在你应得的假期里参观神奥的花卉天堂，欣赏玫瑰盛开。",
+      "line": 130
+    },
+    "Flying Pikachu": {
+      "translation": "飞翔[[Pikachu]]",
+      "line": 143
+    },
+    "Encounter Flying Pikachu and Red Spearow for a limited time roaming Kanto.": {
+      "translation": "在关东地区限时邂逅漫游的飞翔皮卡丘与红色烈雀。",
+      "line": 143
+    },
+    "Mewtwo strikes back!": {
+      "translation": "超梦的逆袭！",
+      "line": 161
+    },
+    "\"New Island\" has appeared off the coast of Kanto. Go stop Mewtwo!": {
+      "translation": "关东海岸外出现了“新岛”。快去阻止超梦吧！",
+      "line": 161
+    },
+    "New Island": {
+      "translation": "新岛",
+      "line": 161
+    },
+    "Halloween!": {
+      "translation": "万圣节！",
+      "line": 170
+    },
+    "Spooky Pokémon are trick-or-treating for a limited time around Kanto, Johto and Hoenn.": {
+      "translation": "幽灵宝可梦在关东、城都和丰缘地区限时举办“不给糖就捣蛋”活动。",
+      "line": 170
+    },
+    "Let's GO!": {
+      "translation": "我们走吧！",
+      "line": 183
+    },
+    "Encounter special Eevee and Pikachu roaming in the Kanto region.": {
+      "translation": "在关东地区限时邂逅漫游的特别版伊布与皮卡丘。",
+      "line": 183
+    },
+    "Merry Christmas!": {
+      "translation": "圣诞快乐！",
+      "line": 203
+    },
+    "Encounter Santa Snorlax roaming the regions and Reindeer Stantler in Johto, discover the mystical creatures of Ilex Forest, Seafoam Islands and Sandgem Town or party at Bill's House.": {
+      "translation": "在各地区限时邂逅漫游的圣诞老人卡比兽，以及城都地区的驯鹿惊角鹿；探索桧皮森林、双子岛与双叶镇的神秘来客，或者去正辉家一起狂欢。",
+      "line": 203
+    }
+  }
+}

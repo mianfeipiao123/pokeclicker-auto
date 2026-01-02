@@ -1,0 +1,13 @@
+# 翻译管理工具（不上传）
+tools/
+
+# 生成的报告
+coverage-report.txt
+coverage-report.json
+update-report.json
+
+# 提取的字符串缓存
+zh-Hans/_extracted.json
+
+# 旧版翻译备份
+zh-Hans-old/

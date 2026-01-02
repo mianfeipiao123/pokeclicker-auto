@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/temporaryBattle/TemporaryBattle.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 2
+  },
+  "entries": {
+    "btn btn-success": {
+      "translation": "btn btn-成功",
+      "line": 21
+    },
+    "btn btn-secondary": {
+      "translation": "btn btn-次要",
+      "line": 22
+    },
+    "Fight ${this.getDisplayName()}": {
+      "translation": "",
+      "line": 25
+    },
+    "assets/images/npcs/${finalMonImageName}.png": {
+      "translation": "",
+      "line": 52
+    },
+    "assets/images/npcs/${imageName}.png": {
+      "translation": "",
+      "line": 52
+    }
+  }
+}

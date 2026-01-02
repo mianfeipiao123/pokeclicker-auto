@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/enums/PokemonType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 19,
+    "translatedCount": 19
+  },
+  "entries": {
+    "None": {
+      "translation": "无",
+      "line": 2
+    },
+    "Normal": {
+      "translation": "一般",
+      "line": 3
+    },
+    "Fire": {
+      "translation": "火",
+      "line": 4
+    },
+    "Water": {
+      "translation": "水",
+      "line": 5
+    },
+    "Electric": {
+      "translation": "电",
+      "line": 6
+    },
+    "Grass": {
+      "translation": "草",
+      "line": 7
+    },
+    "Ice": {
+      "translation": "冰",
+      "line": 8
+    },
+    "Fighting": {
+      "translation": "格斗",
+      "line": 9
+    },
+    "Poison": {
+      "translation": "毒",
+      "line": 10
+    },
+    "Ground": {
+      "translation": "地面",
+      "line": 11
+    },
+    "Flying": {
+      "translation": "飞行",
+      "line": 12
+    },
+    "Psychic": {
+      "translation": "超能力",
+      "line": 13
+    },
+    "Bug": {
+      "translation": "虫",
+      "line": 14
+    },
+    "Rock": {
+      "translation": "岩石",
+      "line": 15
+    },
+    "Ghost": {
+      "translation": "鬼",
+      "line": 16
+    },
+    "Dragon": {
+      "translation": "龙",
+      "line": 17
+    },
+    "Dark": {
+      "translation": "恶",
+      "line": 18
+    },
+    "Steel": {
+      "translation": "钢",
+      "line": 19
+    },
+    "Fairy": {
+      "translation": "妖精",
+      "line": 20
+    }
+  }
+}

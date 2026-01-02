@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/PokemonLevelRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 2
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 3
+    },
+    "at least": {
+      "translation": "",
+      "line": 19
+    },
+    "below": {
+      "translation": "",
+      "line": 20
+    }
+  }
+}

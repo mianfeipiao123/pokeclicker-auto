@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundTreasuresSortOptions.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 4
+  },
+  "entries": {
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 1
+    },
+    "Default": {
+      "translation": "默认",
+      "line": 18
+    },
+    "Name": {
+      "translation": "名称",
+      "line": 23
+    },
+    "Quantity": {
+      "translation": "数量",
+      "line": 28
+    },
+    "Value": {
+      "translation": "价值",
+      "line": 33
+    }
+  }
+}

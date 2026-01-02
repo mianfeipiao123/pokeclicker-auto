@@ -1,0 +1,482 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/RoamingPokemonList.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 118,
+    "translatedCount": 94
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../enums/Badges": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 7
+    },
+    "../requirements/ClearDungeonRequirement": {
+      "translation": "",
+      "line": 8
+    },
+    "../requirements/GymBadgeRequirement": {
+      "translation": "",
+      "line": 9
+    },
+    "../requirements/MultiRequirement": {
+      "translation": "",
+      "line": 10
+    },
+    "../requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 11
+    },
+    "../requirements/QuestLineCompletedRequirement": {
+      "translation": "",
+      "line": 12
+    },
+    "../requirements/QuestLineStepCompletedRequirement": {
+      "translation": "",
+      "line": 13
+    },
+    "../requirements/TemporaryBattleRequirement": {
+      "translation": "",
+      "line": 14
+    },
+    "../requirements/StarterRequirement": {
+      "translation": "",
+      "line": 15
+    },
+    "../routes/RegionRoute": {
+      "translation": "",
+      "line": 16
+    },
+    "../routes/Routes": {
+      "translation": "",
+      "line": 17
+    },
+    "../utilities/SeededRand": {
+      "translation": "",
+      "line": 18
+    },
+    "./PokemonNameType": {
+      "translation": "",
+      "line": 19
+    },
+    "./RoamingPokemon": {
+      "translation": "",
+      "line": 20
+    },
+    "./RoamingGroup": {
+      "translation": "",
+      "line": 21
+    },
+    "../requirements/SpecialEventRequirement": {
+      "translation": "",
+      "line": 22
+    },
+    "../requirements/MoonCyclePhaseRequirement": {
+      "translation": "",
+      "line": 23
+    },
+    "../moonCycle/MoonCyclePhase": {
+      "translation": "",
+      "line": 24
+    },
+    "../requirements/StatisticRequirement": {
+      "translation": "",
+      "line": 25
+    },
+    "./PokemonHelper": {
+      "translation": "",
+      "line": 26
+    },
+    "../requirements/OneFromManyRequirement": {
+      "translation": "",
+      "line": 27
+    },
+    "Kanto": {
+      "translation": "关东",
+      "line": 31
+    },
+    "Kanto - Sevii Islands": {
+      "translation": "关东 - 塞维群岛",
+      "line": 31
+    },
+    "Johto": {
+      "translation": "城都",
+      "line": 32
+    },
+    "Hoenn": {
+      "translation": "丰缘",
+      "line": 33
+    },
+    "Hoenn - Orre": {
+      "translation": "丰缘 - 奥雷",
+      "line": 33
+    },
+    "Sinnoh": {
+      "translation": "神奥",
+      "line": 34
+    },
+    "Unova": {
+      "translation": "合众",
+      "line": 35
+    },
+    "Kalos": {
+      "translation": "卡洛斯",
+      "line": 36
+    },
+    "Alola": {
+      "translation": "阿罗拉",
+      "line": 37
+    },
+    "Alola - Magikarp Jump": {
+      "translation": "",
+      "line": 37
+    },
+    "Galar - South": {
+      "translation": "伽勒尔-南",
+      "line": 38
+    },
+    "Galar - North": {
+      "translation": "伽勒尔-北",
+      "line": 38
+    },
+    "Galar - Isle of Armor": {
+      "translation": "伽勒尔-铠之岛",
+      "line": 38
+    },
+    "Galar - Crown Tundra": {
+      "translation": "伽勒尔 - 皇冠苔原",
+      "line": 38
+    },
+    "Hisui": {
+      "translation": "洗翠",
+      "line": 39
+    },
+    "Paldea": {
+      "translation": "帕底亚",
+      "line": 40
+    },
+    "Paldea - Kitakami": {
+      "translation": "帕尔迪亚～北上",
+      "line": 40
+    },
+    "Paldea - Blueberry Academy": {
+      "translation": "Paldea - 蓝莓学院",
+      "line": 40
+    },
+    "Mew": {
+      "translation": "梦幻",
+      "line": 98
+    },
+    "Raikou": {
+      "translation": "雷公",
+      "line": 101
+    },
+    "Celio's Errand": {
+      "translation": "西利奥的任务",
+      "line": 101
+    },
+    "Entei": {
+      "translation": "炎帝",
+      "line": 102
+    },
+    "Suicune": {
+      "translation": "水君",
+      "line": 103
+    },
+    "Pink Butterfree": {
+      "translation": "粉红色[[Butterfree]]",
+      "line": 104
+    },
+    "Ash's Butterfree": {
+      "translation": "小智的[[Butterfree]]",
+      "line": 105
+    },
+    "The Legendary Beasts": {
+      "translation": "传说中的野兽",
+      "line": 108
+    },
+    "Latios": {
+      "translation": "拉帝欧斯",
+      "line": 112
+    },
+    "The Eon Duo": {
+      "translation": "亿恩二人组",
+      "line": 112
+    },
+    "Latias": {
+      "translation": "拉帝亚斯",
+      "line": 112
+    },
+    "Jirachi": {
+      "translation": "基拉祈",
+      "line": 114
+    },
+    "Wish Maker": {
+      "translation": "许愿者",
+      "line": 114
+    },
+    "Ho-Oh": {
+      "translation": "凤王",
+      "line": 116
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 116
+    },
+    "Bonsly": {
+      "translation": "盆才怪",
+      "line": 117
+    },
+    "Gale of Darkness": {
+      "translation": "黑暗之风",
+      "line": 117
+    },
+    "Manaphy": {
+      "translation": "玛纳霏",
+      "line": 120
+    },
+    "Recover the Precious Egg!": {
+      "translation": "找回珍贵的蛋！",
+      "line": 120
+    },
+    "Mesprit": {
+      "translation": "艾姆利多",
+      "line": 121
+    },
+    "Distortion World": {
+      "translation": "扭曲世界",
+      "line": 121
+    },
+    "Cresselia": {
+      "translation": "克雷色利亚",
+      "line": 122
+    },
+    "Fullmoon Island": {
+      "translation": "满月岛",
+      "line": 122
+    },
+    "Darkrai": {
+      "translation": "达克莱伊",
+      "line": 123
+    },
+    "Newmoon Island": {
+      "translation": "新月岛",
+      "line": 123
+    },
+    "Tornadus": {
+      "translation": "龙卷云",
+      "line": 126
+    },
+    "Thundurus": {
+      "translation": "雷电云",
+      "line": 127
+    },
+    "Meloetta (Aria)": {
+      "translation": "[[Meloetta]] 歌声形态",
+      "line": 128
+    },
+    "Genesect (High-Speed)": {
+      "translation": "[[Genesect]] 高速飞行形态",
+      "line": 129
+    },
+    "The Legend Awakened": {
+      "translation": "传奇觉醒",
+      "line": 129
+    },
+    "Zapdos": {
+      "translation": "闪电鸟",
+      "line": 132
+    },
+    "Sea Spirit's Den": {
+      "translation": "海灵的巢穴",
+      "line": 132
+    },
+    "Moltres": {
+      "translation": "火焰鸟",
+      "line": 133
+    },
+    "Articuno": {
+      "translation": "急冻鸟",
+      "line": 134
+    },
+    "Hoopa": {
+      "translation": "胡帕",
+      "line": 135
+    },
+    "Ash-Greninja": {
+      "translation": "小智版[[Greninja]]",
+      "line": 136
+    },
+    "Ash Ketchum Kalos": {
+      "translation": "阿什·凯彻姆·卡洛斯",
+      "line": 136
+    },
+    "Magearna": {
+      "translation": "玛机雅娜",
+      "line": 139
+    },
+    "Marshadow": {
+      "translation": "玛夏多",
+      "line": 140
+    },
+    "Zeraora": {
+      "translation": "捷拉奥拉",
+      "line": 141
+    },
+    "Mimikyu (Busted)": {
+      "translation": "[[Mimikyu]]（现形）",
+      "line": 142
+    },
+    "Mimikyu": {
+      "translation": "谜拟丘",
+      "line": 142
+    },
+    "Defeat 5 shiny Mimikyu": {
+      "translation": "击败5只异色的谜拟丘",
+      "line": 142
+    },
+    "Magikarp Purple Diamonds": {
+      "translation": "[[Magikarp]] [[alt.karp.diamonds]]（[[alt.karp.purple]]）",
+      "line": 144
+    },
+    "Magikarp Apricot Stripes": {
+      "translation": "[[Magikarp]] [[alt.karp.stripes]]（[[alt.karp.apricot]]）",
+      "line": 145
+    },
+    "Magikarp Violet Raindrops": {
+      "translation": "[[Magikarp]] [[alt.karp.raindrops]]（[[alt.karp.violet]]）",
+      "line": 146
+    },
+    "Galarian Zapdos": {
+      "translation": "[[alt.galarian]][[Zapdos]]",
+      "line": 149
+    },
+    "The Birds of the Dyna Tree": {
+      "translation": "戴纳树上的鸟儿",
+      "line": 149
+    },
+    "Zarude": {
+      "translation": "萨戮德",
+      "line": 152
+    },
+    "Secrets of the Jungle": {
+      "translation": "丛林的秘密",
+      "line": 152
+    },
+    "Galarian Moltres": {
+      "translation": "[[alt.galarian]][[Moltres]]",
+      "line": 153
+    },
+    "Spectrier": {
+      "translation": "灵幽马",
+      "line": 156
+    },
+    "The Crown of Galar": {
+      "translation": "伽勒尔王冠",
+      "line": 156
+    },
+    "Glastrier": {
+      "translation": "雪暴马",
+      "line": 157
+    },
+    "Galarian Articuno": {
+      "translation": "[[alt.galarian]][[Articuno]]",
+      "line": 158
+    },
+    "Incarnate Forces of Hisui": {
+      "translation": "翡翠的化身力量",
+      "line": 161
+    },
+    "Landorus": {
+      "translation": "土地云",
+      "line": 163
+    },
+    "Enamorus": {
+      "translation": "眷恋云",
+      "line": 164
+    },
+    "Gimmighoul (Roaming)": {
+      "translation": "[[Gimmighoul]] 徒步形态",
+      "line": 167
+    },
+    "Vivillon (Fancy)": {
+      "translation": "[[Vivillon]] 幻彩花纹",
+      "line": 171
+    },
+    "Lunar New Year": {
+      "translation": "农历新年",
+      "line": 171
+    },
+    "Vivillon (Meadow)": {
+      "translation": "[[Vivillon]] 花园花纹",
+      "line": 175
+    },
+    "Flying Pikachu": {
+      "translation": "飞翔[[Pikachu]]",
+      "line": 181
+    },
+    "Red Spearow": {
+      "translation": "赤色[[Spearow]]",
+      "line": 182
+    },
+    "Bulbasaur (Clone)": {
+      "translation": "[[Bulbasaur]] [[alt.clone]]",
+      "line": 184
+    },
+    "Mewtwo strikes back!": {
+      "translation": "超梦的逆袭！",
+      "line": 184
+    },
+    "New Island": {
+      "translation": "新岛",
+      "line": 184
+    },
+    "Charmander (Clone)": {
+      "translation": "[[Charmander]] [[alt.clone]]",
+      "line": 185
+    },
+    "Squirtle (Clone)": {
+      "translation": "[[Squirtle]] [[alt.clone]]",
+      "line": 186
+    },
+    "Pikachu (Clone)": {
+      "translation": "[[Pikachu]] [[alt.clone]]",
+      "line": 187
+    },
+    "Let's Go Pikachu": {
+      "translation": "[[alt.letsGo]] [[Pikachu]]",
+      "line": 190
+    },
+    "Let's GO!": {
+      "translation": "我们走吧！",
+      "line": 190
+    },
+    "Let's Go Eevee": {
+      "translation": "[[alt.letsGo]] [[Eevee]]",
+      "line": 191
+    },
+    "Santa Snorlax": {
+      "translation": "圣诞老人 [[Snorlax]]",
+      "line": 197
+    },
+    "Merry Christmas!": {
+      "translation": "圣诞快乐！",
+      "line": 197
+    },
+    "Reindeer Stantler": {
+      "translation": "驯鹿 [[Stantler]]",
+      "line": 201
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/battleFrontier/BattleFrontierMilestones.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 53,
+    "translatedCount": 49
+  },
+  "entries": {
+    "Nothing": {
+      "translation": "没有什么",
+      "line": 39
+    },
+    "Battle Frontier": {
+      "translation": "对战开拓区",
+      "line": 47
+    },
+    "ve successfully defeated stage ${defeatedStage.toLocaleString(": {
+      "translation": "",
+      "line": 48
+    },
+    "You've successfully defeated stage ${defeatedStage.toLocaleString('en-US')} and earned:\n<span><img src=\"${reward.image}\" height=\"24px\"/> ${reward.description}</span>!": {
+      "translation": "",
+      "line": 48
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 57
+    },
+    "Pokeball": {
+      "translation": "精灵球",
+      "line": 65
+    },
+    "Greatball": {
+      "translation": "伟大的球",
+      "line": 67
+    },
+    "Ultraball": {
+      "translation": "超级球",
+      "line": 68
+    },
+    "Rare_Candy": {
+      "translation": "神奇糖果",
+      "line": 72
+    },
+    "Deoxys": {
+      "translation": "代欧奇希斯",
+      "line": 73
+    },
+    "Mystery of Deoxys": {
+      "translation": "",
+      "line": 73
+    },
+    "Water_stone": {
+      "translation": "水石",
+      "line": 74
+    },
+    "Leaf_stone": {
+      "translation": "叶石",
+      "line": 75
+    },
+    "Thunder_stone": {
+      "translation": "雷石",
+      "line": 76
+    },
+    "Fire_stone": {
+      "translation": "火石",
+      "line": 77
+    },
+    "Deoxys (Attack)": {
+      "translation": "[[Deoxys]] 攻击形态",
+      "line": 79
+    },
+    "Lucky_egg": {
+      "translation": "幸运蛋",
+      "line": 80
+    },
+    "Lucky_incense": {
+      "translation": "幸运香",
+      "line": 81
+    },
+    "Dowsing_machine": {
+      "translation": "探矿机",
+      "line": 82
+    },
+    "Mystery_egg": {
+      "translation": "神秘蛋",
+      "line": 83
+    },
+    "Moon_stone": {
+      "translation": "月光石",
+      "line": 88
+    },
+    "Deoxys (Defense)": {
+      "translation": "[[Deoxys]] 防御形态",
+      "line": 90
+    },
+    "Linking_cord": {
+      "translation": "连接线",
+      "line": 92
+    },
+    "Dragon_scale": {
+      "translation": "龙鳞",
+      "line": 93
+    },
+    "Sun_stone": {
+      "translation": "日之石",
+      "line": 94
+    },
+    "Kings_rock": {
+      "translation": "王者岩石",
+      "line": 95
+    },
+    "Metal_coat": {
+      "translation": "金属涂层",
+      "line": 96
+    },
+    "Upgrade": {
+      "translation": "升级",
+      "line": 97
+    },
+    "Deoxys (Speed)": {
+      "translation": "[[Deoxys]] 速度形态",
+      "line": 99
+    },
+    "Soothe_bell": {
+      "translation": "安抚铃",
+      "line": 100
+    },
+    "Deepsea_tooth": {
+      "translation": "深海_牙齿",
+      "line": 101
+    },
+    "Shiny_stone": {
+      "translation": "异色的石头",
+      "line": 102
+    },
+    "Deepsea_scale": {
+      "translation": "深海规模",
+      "line": 103
+    },
+    "Dusk_stone": {
+      "translation": "黄昏石",
+      "line": 104
+    },
+    "Prism_scale": {
+      "translation": "棱镜尺度",
+      "line": 105
+    },
+    "Dawn_stone": {
+      "translation": "黎明石",
+      "line": 106
+    },
+    "Razor_claw": {
+      "translation": "剃刀爪",
+      "line": 107
+    },
+    "Razor_fang": {
+      "translation": "剃刀牙",
+      "line": 108
+    },
+    "Dubious_disc": {
+      "translation": "可疑_disc",
+      "line": 109
+    },
+    "Magmarizer": {
+      "translation": "",
+      "line": 111
+    },
+    "Electirizer": {
+      "translation": "起电器",
+      "line": 112
+    },
+    "Protector": {
+      "translation": "保护者",
+      "line": 113
+    },
+    "Reaper_cloth": {
+      "translation": "收割者布",
+      "line": 114
+    },
+    "Sachet": {
+      "translation": "香囊",
+      "line": 115
+    },
+    "Vivillon (Poké Ball)": {
+      "translation": "[[Vivillon]] 球球花纹",
+      "line": 116
+    },
+    "The Great Vivillon Hunt!": {
+      "translation": "维维永大狩猎！",
+      "line": 116
+    },
+    "Whipped_dream": {
+      "translation": "鞭打梦",
+      "line": 117
+    },
+    "Lopunnite": {
+      "translation": "长辉石",
+      "line": 118
+    },
+    "Lopunny": {
+      "translation": "长耳兔",
+      "line": 118
+    },
+    "Ice_stone": {
+      "translation": "冰石",
+      "line": 119
+    },
+    "Masterball": {
+      "translation": "大师球",
+      "line": 121
+    },
+    "Mismagius (Illusion)": {
+      "translation": "[[Mismagius]] (幻觉)",
+      "line": 123
+    },
+    "Mismagius": {
+      "translation": "梦妖魔",
+      "line": 123
+    }
+  }
+}

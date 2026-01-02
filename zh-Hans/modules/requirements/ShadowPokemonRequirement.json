@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/ShadowPokemonRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Shadow Pokemon": {
+      "translation": "",
+      "line": 6
+    },
+    "${this.requiredValue} Shadow Pokémon need to be obtained.": {
+      "translation": "",
+      "line": 16
+    },
+    "${this.requiredValue} Shadow Pokémon need to be purified.": {
+      "translation": "",
+      "line": 18
+    }
+  }
+}

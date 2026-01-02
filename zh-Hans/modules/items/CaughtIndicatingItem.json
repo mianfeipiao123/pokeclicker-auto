@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/CaughtIndicatingItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/CaughtStatus": {
+      "translation": "",
+      "line": 1
+    },
+    "./Item": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

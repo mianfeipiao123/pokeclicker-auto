@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/mutation/mutationTypes/FieldMutation.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "Legends tell of a mysterious Berry that only appears in a field of ${berries} Berries.": {
+      "translation": "",
+      "line": 62
+    }
+  }
+}

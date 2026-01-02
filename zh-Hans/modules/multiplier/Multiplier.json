@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/multiplier/Multiplier.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./MultiplierType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

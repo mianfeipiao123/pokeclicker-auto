@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/breeding/HatcheryHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 44,
+    "translatedCount": 33
+  },
+  "entries": {
+    "energy": {
+      "translation": "活力",
+      "line": 2
+    },
+    "efficiency": {
+      "translation": "效率",
+      "line": 3
+    },
+    "accuracy": {
+      "translation": "准确性",
+      "line": 4
+    },
+    "cost": {
+      "translation": "成本",
+      "line": 5
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 53
+    },
+    "assets/images/currency/${GameConstants.Currency[this.cost.currency]}.svg": {
+      "translation": "",
+      "line": 53
+    },
+    "money": {
+      "translation": "钱",
+      "line": 84
+    },
+    "Pokédollars": {
+      "translation": "",
+      "line": 85
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Currency[this.cost.currency])}s": {
+      "translation": "",
+      "line": 87
+    },
+    "assets/images/profile/trainer-${this.trainerSprite}.png": {
+      "translation": "",
+      "line": 96
+    },
+    "pixelated": {
+      "translation": "",
+      "line": 96
+    },
+    "[HATCHERY HELPER] <img src=\"assets/images/profile/trainer-${this.trainerSprite}.png\" height=\"24px\" class=\"pixelated\"/> ${this.name}": {
+      "translation": "",
+      "line": 96
+    },
+    "t have enough ${this.currencyString()} to hire me...\nCost: <img src=\"./assets/images/currency/${GameConstants.Currency[this.cost.currency]}.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString(": {
+      "translation": "",
+      "line": 97
+    },
+    "./assets/images/currency/${GameConstants.Currency[this.cost.currency]}.svg": {
+      "translation": "",
+      "line": 97
+    },
+    "You don't have enough ${this.currencyString()} to hire me...\nCost: <img src=\"./assets/images/currency/${GameConstants.Currency[this.cost.currency]}.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 97
+    },
+    "Thanks for hiring me,\nI won't let you down!": {
+      "translation": "感谢雇佣我，\n我不会让你失望的！",
+      "line": 107
+    },
+    "Thanks for the work.\nLet me know when you're hiring again!": {
+      "translation": "感谢工作。\n下次需要帮手时请联系我！",
+      "line": 117
+    },
+    "re hiring again!\nCost: <img src=\"./assets/images/currency/${GameConstants.Currency[this.cost.currency]}.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString(": {
+      "translation": "",
+      "line": 131
+    },
+    "It looks like you are a little short on ${this.currencyString()} right now...\nLet me know when you're hiring again!\nCost: <img src=\"./assets/images/currency/${GameConstants.Currency[this.cost.currency]}.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 131
+    },
+    "breedingRegionalAttackDebuffSetting": {
+      "translation": "breedingRegionalAttackDebuffSetting",
+      "line": 218
+    },
+    "Sam": {
+      "translation": "山姆",
+      "line": 269
+    },
+    "Blake": {
+      "translation": "布莱克",
+      "line": 270
+    },
+    "Jasmine": {
+      "translation": "阿蜜",
+      "line": 271
+    },
+    "HatcheryHelperJasmine": {
+      "translation": "孵化场助手茉莉花",
+      "line": 271
+    },
+    "purchase": {
+      "translation": "购买",
+      "line": 271
+    },
+    "Purchased in the Hoenn region.": {
+      "translation": "丰缘地区购买。",
+      "line": 271
+    },
+    "Leslie": {
+      "translation": "莱斯利",
+      "line": 272
+    },
+    "HatcheryHelperLeslie": {
+      "translation": "孵化场助手莱斯利",
+      "line": 272
+    },
+    "Obtain and redeem a code from the PokéClicker Discord server.": {
+      "translation": "从宝可梦点击 Discord 服务器获取并兑换代码。",
+      "line": 272
+    },
+    "Parker": {
+      "translation": "派克",
+      "line": 273
+    },
+    "Dakota": {
+      "translation": "达科他州",
+      "line": 274
+    },
+    "HatcheryHelperDakota": {
+      "translation": "孵化场助手达科他州",
+      "line": 274
+    },
+    "Purchased in the Johto region.": {
+      "translation": "城都地区购买。",
+      "line": 274
+    },
+    "Cameron": {
+      "translation": "卡梅伦",
+      "line": 275
+    },
+    "HatcheryHelperCameron": {
+      "translation": "孵化场助手卡梅伦",
+      "line": 275
+    },
+    "Justice": {
+      "translation": "正义",
+      "line": 276
+    },
+    "Carey": {
+      "translation": "凯里",
+      "line": 277
+    },
+    "HatcheryHelperCarey": {
+      "translation": "孵化场助手凯里",
+      "line": 277
+    },
+    "Aiden": {
+      "translation": "艾登",
+      "line": 278
+    },
+    "Kris": {
+      "translation": "克里斯",
+      "line": 279
+    },
+    "HatcheryHelperKris": {
+      "translation": "孵化场助手克里斯",
+      "line": 279
+    },
+    "Purchased in the Kanto region.": {
+      "translation": "购于关东地区。",
+      "line": 279
+    },
+    "Noel": {
+      "translation": "诺埃尔",
+      "line": 280
+    },
+    "HatcheryHelperNoel": {
+      "translation": "孵化场助手诺埃尔",
+      "line": 280
+    }
+  }
+}

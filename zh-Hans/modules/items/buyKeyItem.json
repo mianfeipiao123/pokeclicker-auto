@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/buyKeyItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "./Item": {
+      "translation": "",
+      "line": 3
+    },
+    "./types": {
+      "translation": "",
+      "line": 4
+    },
+    "assets/images/keyitems/${this.name}.png": {
+      "translation": "",
+      "line": 32
+    }
+  }
+}

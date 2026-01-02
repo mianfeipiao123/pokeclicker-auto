@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/ko.test.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 5
+  },
+  "entries": {
+    "./koExtenders": {
+      "translation": "",
+      "line": 1
+    },
+    "Test numeric extender": {
+      "translation": "测试数字扩展器",
+      "line": 3
+    },
+    "should round to integers": {
+      "translation": "应四舍五入为整数",
+      "line": 4
+    },
+    "should round to decimals": {
+      "translation": "应四舍五入到小数",
+      "line": 24
+    },
+    "should round to powers of ten": {
+      "translation": "应四舍五入到十次方",
+      "line": 42
+    },
+    "should stay within max/min SAFE_INTEGERs": {
+      "translation": "",
+      "line": 58
+    },
+    "should round initial input": {
+      "translation": "应舍入初始输入",
+      "line": 72
+    }
+  }
+}

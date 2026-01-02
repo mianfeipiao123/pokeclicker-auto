@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/KantoBerryMasterNPC.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 2
+  },
+  "entries": {
+    "<p>${KantoBerryMasterNPC.generateMessage(GameHelper.today())}</p>": {
+      "translation": "",
+      "line": 19
+    },
+    "The disciple has surpassed the master. I have nothing more to teach you.": {
+      "translation": "弟子已经超越了师父。我没有什么可以教你的了。",
+      "line": 24
+    },
+    "It seems as though you have hit a roadblock in your Berry progress. Focus on other areas before returning.": {
+      "translation": "看来你在 Berry 的进步中遇到了障碍。返回之前专注于其他领域。",
+      "line": 30
+    }
+  }
+}

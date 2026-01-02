@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/enums/EncounterType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 8
+  },
+  "entries": {
+    "Route": {
+      "translation": "道路",
+      "line": 2
+    },
+    "Dungeon": {
+      "translation": "迷宫",
+      "line": 3
+    },
+    "Dungeon Boss": {
+      "translation": "迷宫首领",
+      "line": 4
+    },
+    "Mimic": {
+      "translation": "模仿者",
+      "line": 5
+    },
+    "Roamer": {
+      "translation": "游走宝可梦",
+      "line": 6
+    },
+    "Trainer": {
+      "translation": "训练师",
+      "line": 7
+    },
+    "Ultra Beast": {
+      "translation": "究极兽",
+      "line": 8
+    },
+    "Wanderer": {
+      "translation": "流浪者",
+      "line": 9
+    }
+  }
+}

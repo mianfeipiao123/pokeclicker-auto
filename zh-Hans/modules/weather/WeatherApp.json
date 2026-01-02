@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/weather/WeatherApp.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 13,
+    "translatedCount": 5
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "./RegionalForecast": {
+      "translation": "",
+      "line": 2
+    },
+    "./Weather": {
+      "translation": "",
+      "line": 3
+    },
+    "./WeatherForecast": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 8
+    },
+    "../requirements/ClearDungeonRequirement": {
+      "translation": "",
+      "line": 9
+    },
+    "weatherapp": {
+      "translation": "天气应用程序",
+      "line": 12
+    },
+    "Weather Institute": {
+      "translation": "气象研究所",
+      "line": 21
+    },
+    "show": {
+      "translation": "展示",
+      "line": 146
+    },
+    "You need to clear Weather Institute first to unlock this feature.": {
+      "translation": "你需要先通关天气研究所才能解锁此功能。",
+      "line": 149
+    }
+  }
+}

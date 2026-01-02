@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/ItemHandler.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 15,
+    "translatedCount": 7
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "./ItemList": {
+      "translation": "",
+      "line": 2
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 4
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "Gloom": {
+      "translation": "臭臭花",
+      "line": 10
+    },
+    "input[name=\"amountOfStones\"]": {
+      "translation": "输入[名称=“石头数量”]",
+      "line": 36
+    },
+    "input[name=\"amountOfItems\"]": {
+      "translation": "输入[名称=“项目数量”]",
+      "line": 41
+    },
+    "No Pokémon selected.": {
+      "translation": "未选择任何宝可梦。",
+      "line": 49
+    },
+    "You can't use an evolution item on a Pokémon if it's in the hatchery...": {
+      "translation": "无法对孵化室中的宝可梦使用进化道具...",
+      "line": 58
+    },
+    "You don't have any ${ItemList[ItemHandler.stoneSelected()].displayName}s left...": {
+      "translation": "",
+      "line": 68
+    },
+    "${ItemHandler.pokemonSelected()} isn't possible to evolve right now...<br>Check the lock icons next to the pokeballs for more details.": {
+      "translation": "",
+      "line": 75
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 93
+    },
+    "You used ${amountUsed.toLocaleString('en-US')} × <img src=\"${stoneUsed.image}\" height=\"24px\"/> ${stoneUsed.displayName}${multiple} on ${ItemHandler.pokemonSelected()}.": {
+      "translation": "",
+      "line": 93
+    }
+  }
+}

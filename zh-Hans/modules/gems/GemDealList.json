@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/gems/GemDealList.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 41,
+    "translatedCount": 3
+  },
+  "entries": {
+    "./GemDeal": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 3
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 4
+    },
+    "Deoxys (Clone)": {
+      "translation": "[[Deoxys]] [[alt.clone]]",
+      "line": 96
+    },
+    "Furfrou (La Reine)": {
+      "translation": "[[Furfrou]] 女王造型",
+      "line": 123
+    },
+    "Silvally (Fighting) 1": {
+      "translation": "",
+      "line": 163
+    },
+    "Silvally (Fighting) 2": {
+      "translation": "",
+      "line": 168
+    },
+    "Silvally (Rock) 1": {
+      "translation": "",
+      "line": 173
+    },
+    "Silvally (Rock) 2": {
+      "translation": "",
+      "line": 178
+    },
+    "Silvally (Dark) 1": {
+      "translation": "",
+      "line": 183
+    },
+    "Silvally (Dark) 2": {
+      "translation": "",
+      "line": 188
+    },
+    "Silvally (Fairy) 1": {
+      "translation": "",
+      "line": 193
+    },
+    "Silvally (Fairy) 2": {
+      "translation": "",
+      "line": 198
+    },
+    "Silvally (Water) 1": {
+      "translation": "",
+      "line": 203
+    },
+    "Silvally (Water) 2": {
+      "translation": "",
+      "line": 208
+    },
+    "Silvally (Grass) 1": {
+      "translation": "",
+      "line": 213
+    },
+    "Silvally (Grass) 2": {
+      "translation": "",
+      "line": 218
+    },
+    "Silvally (Fire) 1": {
+      "translation": "",
+      "line": 223
+    },
+    "Silvally (Fire) 2": {
+      "translation": "",
+      "line": 228
+    },
+    "Silvally (Electric) 1": {
+      "translation": "",
+      "line": 233
+    },
+    "Silvally (Electric) 2": {
+      "translation": "",
+      "line": 238
+    },
+    "Silvally (Ice) 1": {
+      "translation": "",
+      "line": 243
+    },
+    "Silvally (Ice) 2": {
+      "translation": "",
+      "line": 248
+    },
+    "Silvally (Ground) 1": {
+      "translation": "",
+      "line": 253
+    },
+    "Silvally (Ground) 2": {
+      "translation": "",
+      "line": 258
+    },
+    "Silvally (Bug) 1": {
+      "translation": "",
+      "line": 263
+    },
+    "Silvally (Bug) 2": {
+      "translation": "",
+      "line": 268
+    },
+    "Silvally (Flying) 1": {
+      "translation": "",
+      "line": 273
+    },
+    "Silvally (Flying) 2": {
+      "translation": "",
+      "line": 278
+    },
+    "Silvally (Poison) 1": {
+      "translation": "",
+      "line": 283
+    },
+    "Silvally (Poison) 2": {
+      "translation": "",
+      "line": 288
+    },
+    "Silvally (Ghost) 1": {
+      "translation": "",
+      "line": 293
+    },
+    "Silvally (Ghost) 2": {
+      "translation": "",
+      "line": 298
+    },
+    "Silvally (Psychic) 1": {
+      "translation": "",
+      "line": 303
+    },
+    "Silvally (Psychic) 2": {
+      "translation": "",
+      "line": 308
+    },
+    "Silvally (Steel) 1": {
+      "translation": "",
+      "line": 313
+    },
+    "Silvally (Steel) 2": {
+      "translation": "",
+      "line": 318
+    },
+    "Silvally (Dragon) 1": {
+      "translation": "",
+      "line": 323
+    },
+    "Silvally (Dragon) 2": {
+      "translation": "",
+      "line": 328
+    },
+    "Magikarp Brown Stripes": {
+      "translation": "[[Magikarp]] [[alt.karp.stripes]]（[[alt.karp.brown]]）",
+      "line": 336
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/UndergroundHelperRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

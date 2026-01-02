@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/NPC.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "<p>${TextMerger.mergeText(line)}</p>": {
+      "translation": "",
+      "line": 23
+    }
+  }
+}

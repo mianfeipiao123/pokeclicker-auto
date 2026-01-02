@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/ShovelItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 3
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 4
+    },
+    "./Item": {
+      "translation": "",
+      "line": 5
+    },
+    "./types": {
+      "translation": "",
+      "line": 6
+    },
+    "Berry_Shovel": {
+      "translation": "树果铲子",
+      "line": 11
+    },
+    "farm": {
+      "translation": "农场",
+      "line": 11
+    },
+    "Mulch_Shovel": {
+      "translation": "护根铲",
+      "line": 25
+    }
+  }
+}

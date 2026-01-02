@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/RoamingPokemon.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../requirements/MultiRequirement": {
+      "translation": "",
+      "line": 1
+    },
+    "../requirements/OneFromManyRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 3
+    },
+    "./PokemonList": {
+      "translation": "",
+      "line": 4
+    },
+    "./PokemonNameType": {
+      "translation": "",
+      "line": 5
+    }
+  }
+}

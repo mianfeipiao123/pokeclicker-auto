@@ -1,0 +1,290 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/quests/QuestLineNameType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 70,
+    "translatedCount": 62
+  },
+  "entries": {
+    "${ql.name.replace(/(['])/g, ": {
+      "translation": "",
+      "line": 5
+    },
+    "'${ql.name.replace(/(['])/g, '\\\\$1')}'": {
+      "translation": "",
+      "line": 5
+    },
+    "Tutorial Quests": {
+      "translation": "教程任务",
+      "line": 11
+    },
+    "Team Rocket": {
+      "translation": "火箭队",
+      "line": 12
+    },
+    "Bill's Grandpa Treasure Hunt": {
+      "translation": "比尔的爷爷寻宝",
+      "line": 13
+    },
+    "Mining Expedition": {
+      "translation": "采矿探险",
+      "line": 14
+    },
+    "Bill's Errand": {
+      "translation": "比尔的差事",
+      "line": 15
+    },
+    "Persons of Interest": {
+      "translation": "感兴趣的人",
+      "line": 16
+    },
+    "The Sick Ampharos": {
+      "translation": "",
+      "line": 17
+    },
+    "Team Rocket Again": {
+      "translation": "再次火箭队",
+      "line": 18
+    },
+    "The Legendary Beasts": {
+      "translation": "传说中的野兽",
+      "line": 19
+    },
+    "Eusine's Chase": {
+      "translation": "尤辛的追逐",
+      "line": 20
+    },
+    "Whirl Guardian": {
+      "translation": "旋风守护者",
+      "line": 21
+    },
+    "Rainbow Guardian": {
+      "translation": "彩虹守护者",
+      "line": 22
+    },
+    "Unfinished Business": {
+      "translation": "未竟的事业",
+      "line": 23
+    },
+    "Land vs. Water": {
+      "translation": "土地与水",
+      "line": 24
+    },
+    "The Weather Trio": {
+      "translation": "天气三人组",
+      "line": 25
+    },
+    "Mystery of Deoxys": {
+      "translation": "",
+      "line": 26
+    },
+    "The Eon Duo": {
+      "translation": "亿恩二人组",
+      "line": 27
+    },
+    "Celio's Errand": {
+      "translation": "西利奥的任务",
+      "line": 28
+    },
+    "Team Rocket's Pinkan Theme Park": {
+      "translation": "火箭队的粉红主题乐园",
+      "line": 29
+    },
+    "The Three Golems": {
+      "translation": "",
+      "line": 30
+    },
+    "Wish Maker": {
+      "translation": "许愿者",
+      "line": 31
+    },
+    "A Meta Discovery": {
+      "translation": "元发现",
+      "line": 32
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 33
+    },
+    "A New World": {
+      "translation": "新世界",
+      "line": 34
+    },
+    "Recover the Precious Egg!": {
+      "translation": "找回珍贵的蛋！",
+      "line": 35
+    },
+    "Zero's Ambition": {
+      "translation": "零的野心",
+      "line": 36
+    },
+    "Hollow Truth and Ideals": {
+      "translation": "空洞的真理和理想",
+      "line": 37
+    },
+    "Destiny Deoxys": {
+      "translation": "",
+      "line": 38
+    },
+    "Swords of Justice": {
+      "translation": "正义之剑",
+      "line": 39
+    },
+    "The Legend Awakened": {
+      "translation": "传奇觉醒",
+      "line": 40
+    },
+    "Gale of Darkness": {
+      "translation": "黑暗之风",
+      "line": 41
+    },
+    "The Delta Episode": {
+      "translation": "三角洲情节",
+      "line": 42
+    },
+    "Primal Reversion": {
+      "translation": "原始回归",
+      "line": 43
+    },
+    "Detective Pikachu": {
+      "translation": "[[alt.detective]][[Pikachu]]",
+      "line": 44
+    },
+    "The Great Vivillon Hunt!": {
+      "translation": "维维永大狩猎！",
+      "line": 45
+    },
+    "A Beautiful World": {
+      "translation": "美丽的世界",
+      "line": 46
+    },
+    "Princess Diancie": {
+      "translation": "蒂安希公主",
+      "line": 47
+    },
+    "Clash of Ages": {
+      "translation": "时代的冲突",
+      "line": 48
+    },
+    "An Unrivaled Power": {
+      "translation": "无与伦比的力量",
+      "line": 49
+    },
+    "Welcome to Paradise, Cousin!": {
+      "translation": "欢迎来到天堂，表弟！",
+      "line": 50
+    },
+    "Symbiotic Relations": {
+      "translation": "共生关系",
+      "line": 51
+    },
+    "Child of the Stars": {
+      "translation": "星星之子",
+      "line": 52
+    },
+    "Emissary of Light": {
+      "translation": "光之使者",
+      "line": 53
+    },
+    "Eater of Light": {
+      "translation": "光之吞噬者",
+      "line": 54
+    },
+    "Island Challenge": {
+      "translation": "岛屿巡礼",
+      "line": 55
+    },
+    "Typing some Memories": {
+      "translation": "打字一些记忆",
+      "line": 56
+    },
+    "Ultra Beast Hunt": {
+      "translation": "究极野兽狩猎",
+      "line": 57
+    },
+    "Magikarp Jump": {
+      "translation": "",
+      "line": 58
+    },
+    "The Darkest Day": {
+      "translation": "最黑暗的一天",
+      "line": 59
+    },
+    "Sword and Shield": {
+      "translation": "剑与盾",
+      "line": 60
+    },
+    "The Dojo's Armor": {
+      "translation": "道场的铠甲",
+      "line": 61
+    },
+    "Secrets of the Jungle": {
+      "translation": "丛林的秘密",
+      "line": 62
+    },
+    "The Crown of Galar": {
+      "translation": "伽勒尔王冠",
+      "line": 63
+    },
+    "The Birds of the Dyna Tree": {
+      "translation": "戴纳树上的鸟儿",
+      "line": 64
+    },
+    "The Ancient Golems": {
+      "translation": "",
+      "line": 65
+    },
+    "The Lair of Giants": {
+      "translation": "巨人的巢穴",
+      "line": 66
+    },
+    "A Mystery Gift": {
+      "translation": "神秘礼物",
+      "line": 67
+    },
+    "Incarnate Forces of Hisui": {
+      "translation": "翡翠的化身力量",
+      "line": 68
+    },
+    "Arceus: The Deified Pokémon": {
+      "translation": "阿尔宙斯：神化的宝可梦",
+      "line": 69
+    },
+    "Path of Legends": {
+      "translation": "传奇之路",
+      "line": 70
+    },
+    "Victory Road": {
+      "translation": "胜利路",
+      "line": 71
+    },
+    "Starfall Street": {
+      "translation": "星落街",
+      "line": 72
+    },
+    "The Way Home": {
+      "translation": "回家的路",
+      "line": 73
+    },
+    "Egg Hunt": {
+      "translation": "寻蛋活动",
+      "line": 74
+    },
+    "How blu mouse?": {
+      "translation": "鼠标有多蓝？",
+      "line": 75
+    },
+    "Dr. Splash's Research Project": {
+      "translation": "Splash博士的研究项目",
+      "line": 76
+    },
+    "Let's Go, Meltan!": {
+      "translation": "出发吧，美录坦！",
+      "line": 77
+    },
+    "Defeat Rainbow Rocket": {
+      "translation": "击败彩虹火箭",
+      "line": 78
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/TemporaryBattleRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "in": {
+      "translation": "",
+      "line": 17
+    },
+    "near": {
+      "translation": "",
+      "line": 17
+    },
+    " ${tempBattle.parent ? 'in' : 'near'} ${tempBattle.getTown().name}": {
+      "translation": "",
+      "line": 17
+    },
+    "Requires beating ${tempBattle.getDisplayName()}${locationHint}.": {
+      "translation": "",
+      "line": 20
+    }
+  }
+}

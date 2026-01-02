@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/PokemonHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 32,
+    "translatedCount": 13
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 9
+    },
+    "./PokemonNameType": {
+      "translation": "",
+      "line": 10
+    },
+    "./mapProvider": {
+      "translation": "",
+      "line": 11
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 12
+    },
+    "./DataPokemon": {
+      "translation": "",
+      "line": 13
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 14
+    },
+    "../requirements/MegaEvolveRequirement": {
+      "translation": "",
+      "line": 15
+    },
+    "../items/MegaStoneItem": {
+      "translation": "",
+      "line": 16
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 17
+    },
+    "../settings/Settings": {
+      "translation": "",
+      "line": 18
+    },
+    "../TemporaryScriptTypes": {
+      "translation": "",
+      "line": 19
+    },
+    "Could not find pokemon": {
+      "translation": "找不到宝可梦",
+      "line": 49
+    },
+    "assets/images/": {
+      "translation": "资产/图像/",
+      "line": 83
+    },
+    "partyHideShinySprites": {
+      "translation": "partyHideShinySprites",
+      "line": 90
+    },
+    "partyShowPurifiedShadowSprites": {
+      "translation": "partyShowPurifiedShadowSprites",
+      "line": 97
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 101
+    },
+    "shadow": {
+      "translation": "阴影",
+      "line": 104
+    },
+    "-f": {
+      "translation": "",
+      "line": 109
+    },
+    "pokemon/${pokemonId}${genderString}.png": {
+      "translation": "",
+      "line": 111
+    },
+    "assets/images/pokeball/Pokeball-": {
+      "translation": "",
+      "line": 118
+    },
+    "shiny-": {
+      "translation": "",
+      "line": 120
+    },
+    "pokemon": {
+      "translation": "宝可梦",
+      "line": 128
+    },
+    "Gigantamax ${pokemonName}": {
+      "translation": "",
+      "line": 159
+    },
+    "Eternamax ${pokemonName}": {
+      "translation": "",
+      "line": 159
+    },
+    "Gigantamax": {
+      "translation": "",
+      "line": 171
+    },
+    "Eternamax": {
+      "translation": "",
+      "line": 171
+    },
+    "Male": {
+      "translation": "雄性",
+      "line": 237
+    },
+    "Female": {
+      "translation": "雌性",
+      "line": 239
+    },
+    "Genderless": {
+      "translation": "无性别",
+      "line": 241
+    },
+    "Shiny": {
+      "translation": "异色",
+      "line": 247
+    },
+    "Shadow": {
+      "translation": "暗影",
+      "line": 253
+    }
+  }
+}

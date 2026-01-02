@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/DefeatedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Total Defeated": {
+      "translation": "总失败",
+      "line": 6
+    },
+    "${this.requiredValue} Pokémon need to be defeated.": {
+      "translation": "",
+      "line": 14
+    }
+  }
+}

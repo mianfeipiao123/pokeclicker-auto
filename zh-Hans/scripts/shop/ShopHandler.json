@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/shop/ShopHandler.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 6
+  },
+  "entries": {
+    "resetShopAmountOnPurchase": {
+      "translation": "resetShopAmountOnPurchase",
+      "line": 27
+    },
+    "shopItem clickable btn btn-secondary active": {
+      "translation": "shopItem 可点击 btn btn-辅助活动",
+      "line": 65
+    },
+    "shopItem clickable btn btn-secondary": {
+      "translation": "shopItem 可点击 btn btn-二级",
+      "line": 67
+    },
+    "btn btn-danger smallButton smallFont": {
+      "translation": "btn btn-危险小按钮小字体",
+      "line": 76
+    },
+    "btn btn-success smallButton smallFont": {
+      "translation": "btn btn-成功小按钮小字体",
+      "line": 78
+    },
+    "Champion Lance": {
+      "translation": "冠军渡",
+      "line": 85
+    }
+  }
+}

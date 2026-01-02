@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/PokemonDefeatedSelectNRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 3
+    },
+    "../utilities/SeededRand": {
+      "translation": "",
+      "line": 4
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 5
+    },
+    "Find it elsewhere.": {
+      "translation": "在其他地方找到它。",
+      "line": 21
+    }
+  }
+}

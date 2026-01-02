@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/GameLoadState.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "GameLoadState: cannot set to invalid state '${LoadingStates[newState]}' while already at state '${LoadingStates[currentState()]}'!": {
+      "translation": "",
+      "line": 26
+    },
+    "GameLoadState: cannot run callback at exactly state '${LoadingStates[targetState]}' while already at state '${LoadingStates[currentState()]}'!": {
+      "translation": "",
+      "line": 42
+    },
+    "GameLoadState: callback scheduled to run at exactly state '${LoadingStates[targetState]}' tried to run at state '${LoadingStates[currentState()]}'!": {
+      "translation": "",
+      "line": 50
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundShardItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 1
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 3
+    }
+  }
+}

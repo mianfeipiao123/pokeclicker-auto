@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/enums/OakItemType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 12
+  },
+  "entries": {
+    "Magic_Ball": {
+      "translation": "魔法球",
+      "line": 2
+    },
+    "Amulet_Coin": {
+      "translation": "护身符_硬币",
+      "line": 3
+    },
+    "Rocky_Helmet": {
+      "translation": "洛奇_头盔",
+      "line": 4
+    },
+    "Exp_Share": {
+      "translation": "学习装置",
+      "line": 5
+    },
+    "Sprayduck": {
+      "translation": "喷雾鸭",
+      "line": 6
+    },
+    "Shiny_Charm": {
+      "translation": "异色_护符",
+      "line": 7
+    },
+    "Magma_Stone": {
+      "translation": "岩浆_石头",
+      "line": 8
+    },
+    "Cell_Battery": {
+      "translation": "电池_电池",
+      "line": 9
+    },
+    "Squirtbottle": {
+      "translation": "杰尼龟喷壶",
+      "line": 10
+    },
+    "Sprinklotad": {
+      "translation": "莲叶童子喷壶",
+      "line": 11
+    },
+    "Explosive_Charge": {
+      "translation": "爆炸装药",
+      "line": 12
+    },
+    "Treasure_Scanner": {
+      "translation": "宝藏扫描仪",
+      "line": 13
+    }
+  }
+}

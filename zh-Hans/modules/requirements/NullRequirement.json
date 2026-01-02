@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/NullRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    "This is probably still under development.": {
+      "translation": "这可能仍在开发中。",
+      "line": 15
+    }
+  }
+}

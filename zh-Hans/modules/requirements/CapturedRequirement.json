@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/CapturedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Total Captured": {
+      "translation": "捕获总数",
+      "line": 6
+    },
+    "${this.requiredValue} Pokémon need to be captured.": {
+      "translation": "",
+      "line": 14
+    }
+  }
+}

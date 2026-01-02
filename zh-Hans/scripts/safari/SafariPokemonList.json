@@ -1,0 +1,494 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/SafariPokemonList.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 121,
+    "translatedCount": 114
+  },
+  "entries": {
+    "base": {
+      "translation": "根据",
+      "line": 1
+    },
+    "self": {
+      "translation": "自己",
+      "line": 1
+    },
+    "Nidoran(F)": {
+      "translation": "尼多兰",
+      "line": 44
+    },
+    "Nidorina": {
+      "translation": "尼多娜",
+      "line": 45
+    },
+    "Nidoran(M)": {
+      "translation": "尼多朗",
+      "line": 46
+    },
+    "Nidorino": {
+      "translation": "尼多力诺",
+      "line": 47
+    },
+    "Exeggcute": {
+      "translation": "蛋蛋",
+      "line": 48
+    },
+    "Paras": {
+      "translation": "派拉斯",
+      "line": 49
+    },
+    "Parasect": {
+      "translation": "派拉斯特",
+      "line": 50
+    },
+    "Rhyhorn": {
+      "translation": "独角犀牛",
+      "line": 51
+    },
+    "Chansey": {
+      "translation": "吉利蛋",
+      "line": 52
+    },
+    "Scyther": {
+      "translation": "飞天螳螂",
+      "line": 53
+    },
+    "Pinsir": {
+      "translation": "凯罗斯",
+      "line": 54
+    },
+    "Kangaskhan": {
+      "translation": "袋兽",
+      "line": 55
+    },
+    "Tauros": {
+      "translation": "肯泰罗",
+      "line": 56
+    },
+    "Cubone": {
+      "translation": "卡拉卡拉",
+      "line": 57
+    },
+    "Marowak": {
+      "translation": "嘎啦嘎啦",
+      "line": 58
+    },
+    "Tangela": {
+      "translation": "蔓藤怪",
+      "line": 59
+    },
+    "Magikarp": {
+      "translation": "鲤鱼王",
+      "line": 61
+    },
+    "Psyduck": {
+      "translation": "可达鸭",
+      "line": 62
+    },
+    "Slowpoke": {
+      "translation": "呆呆兽",
+      "line": 63
+    },
+    "Poliwag": {
+      "translation": "蚊香蝌蚪",
+      "line": 64
+    },
+    "Goldeen": {
+      "translation": "角金鱼",
+      "line": 65
+    },
+    "Seaking": {
+      "translation": "金鱼王",
+      "line": 66
+    },
+    "Dratini": {
+      "translation": "迷你龙",
+      "line": 67
+    },
+    "Dragonair": {
+      "translation": "哈克龙",
+      "line": 68
+    },
+    "Caterpie": {
+      "translation": "绿毛虫",
+      "line": 79
+    },
+    "Metapod": {
+      "translation": "铁甲蛹",
+      "line": 80
+    },
+    "Butterfree": {
+      "translation": "巴大蝶",
+      "line": 81
+    },
+    "Weedle": {
+      "translation": "独角虫",
+      "line": 82
+    },
+    "Kakuna": {
+      "translation": "铁壳蛹",
+      "line": 83
+    },
+    "Beedrill": {
+      "translation": "大针蜂",
+      "line": 84
+    },
+    "Venonat": {
+      "translation": "毛球",
+      "line": 85
+    },
+    "Ledyba": {
+      "translation": "芭瓢虫",
+      "line": 86
+    },
+    "Spinarak": {
+      "translation": "圆丝蛛",
+      "line": 87
+    },
+    "Pineco": {
+      "translation": "榛果球",
+      "line": 91
+    },
+    "Shuckle": {
+      "translation": "壶壶",
+      "line": 92
+    },
+    "Wurmple": {
+      "translation": "刺尾虫",
+      "line": 93
+    },
+    "Silcoon": {
+      "translation": "甲壳茧",
+      "line": 94
+    },
+    "Beautifly": {
+      "translation": "狩猎凤蝶",
+      "line": 95
+    },
+    "Cascoon": {
+      "translation": "盾甲茧",
+      "line": 96
+    },
+    "Dustox": {
+      "translation": "毒粉蛾",
+      "line": 97
+    },
+    "Masquerain": {
+      "translation": "雨翅蛾",
+      "line": 98
+    },
+    "Nincada": {
+      "translation": "土居忍士",
+      "line": 99
+    },
+    "Kricketot": {
+      "translation": "圆法师",
+      "line": 100
+    },
+    "Kricketune": {
+      "translation": "音箱蟀",
+      "line": 101
+    },
+    "Combee": {
+      "translation": "三蜜蜂",
+      "line": 102
+    },
+    "Vespiquen": {
+      "translation": "蜂女王",
+      "line": 103
+    },
+    "Yanmega": {
+      "translation": "远古巨蜓",
+      "line": 104
+    },
+    "Sewaddle": {
+      "translation": "虫宝包",
+      "line": 105
+    },
+    "Swadloon": {
+      "translation": "宝包茧",
+      "line": 106
+    },
+    "Leavanny": {
+      "translation": "保姆虫",
+      "line": 107
+    },
+    "Venipede": {
+      "translation": "百足蜈蚣",
+      "line": 108
+    },
+    "Whirlipede": {
+      "translation": "车轮球",
+      "line": 109
+    },
+    "Scolipede": {
+      "translation": "蜈蚣王",
+      "line": 110
+    },
+    "Dwebble": {
+      "translation": "石居蟹",
+      "line": 111
+    },
+    "Durant": {
+      "translation": "铁蚁",
+      "line": 112
+    },
+    "Scatterbug": {
+      "translation": "粉蝶虫",
+      "line": 113
+    },
+    "Spewpa": {
+      "translation": "粉蝶蛹",
+      "line": 114
+    },
+    "Grubbin": {
+      "translation": "强颚鸡母虫",
+      "line": 115
+    },
+    "Charjabug": {
+      "translation": "虫电宝",
+      "line": 116
+    },
+    "Vikavolt": {
+      "translation": "锹农炮虫",
+      "line": 117
+    },
+    "Cutiefly": {
+      "translation": "萌虻",
+      "line": 118
+    },
+    "Blipbug": {
+      "translation": "索侦虫",
+      "line": 119
+    },
+    "Dottler": {
+      "translation": "天罩虫",
+      "line": 120
+    },
+    "Orbeetle": {
+      "translation": "以欧路普",
+      "line": 121
+    },
+    "Sizzlipede": {
+      "translation": "烧火蚣",
+      "line": 122
+    },
+    "Snom": {
+      "translation": "雪吞虫",
+      "line": 123
+    },
+    "Yanma": {
+      "translation": "蜻蜻蜓",
+      "line": 126
+    },
+    "Surskit": {
+      "translation": "溜溜糖球",
+      "line": 127
+    },
+    "Dewpider": {
+      "translation": "滴蛛",
+      "line": 128
+    },
+    "Araquanid": {
+      "translation": "滴蛛霸",
+      "line": 129
+    },
+    "Wimpod": {
+      "translation": "胆小虫",
+      "line": 130
+    },
+    "Golisopod": {
+      "translation": "具甲武者",
+      "line": 131
+    },
+    "Hoothoot": {
+      "translation": "咕咕",
+      "line": 145
+    },
+    "Noctowl": {
+      "translation": "猫头夜鹰",
+      "line": 146
+    },
+    "Shroomish": {
+      "translation": "蘑蘑菇",
+      "line": 148
+    },
+    "Gulpin": {
+      "translation": "溶食兽",
+      "line": 149
+    },
+    "Kecleon": {
+      "translation": "变隐龙",
+      "line": 150
+    },
+    "Tropius": {
+      "translation": "热带龙",
+      "line": 151
+    },
+    "Bibarel": {
+      "translation": "大尾狸",
+      "line": 152
+    },
+    "Skorupi": {
+      "translation": "钳尾蝎",
+      "line": 153
+    },
+    "Drapion": {
+      "translation": "龙王蝎",
+      "line": 154
+    },
+    "Croagunk": {
+      "translation": "不良蛙",
+      "line": 155
+    },
+    "Toxicroak": {
+      "translation": "毒骷蛙",
+      "line": 156
+    },
+    "Carnivine": {
+      "translation": "尖牙笼",
+      "line": 157
+    },
+    "Gyarados": {
+      "translation": "暴鲤龙",
+      "line": 160
+    },
+    "Wooper": {
+      "translation": "乌波",
+      "line": 161
+    },
+    "Quagsire": {
+      "translation": "沼王",
+      "line": 162
+    },
+    "Barboach": {
+      "translation": "泥泥鳅",
+      "line": 163
+    },
+    "Whiscash": {
+      "translation": "鲶鱼王",
+      "line": 164
+    },
+    "Carvanha": {
+      "translation": "利牙鱼",
+      "line": 165
+    },
+    "Stunfisk": {
+      "translation": "泥巴鱼",
+      "line": 194
+    },
+    "Magmar": {
+      "translation": "鸭嘴火兽",
+      "line": 195
+    },
+    "Maractus": {
+      "translation": "沙铃仙人掌",
+      "line": 196
+    },
+    "Klefki": {
+      "translation": "钥圈儿",
+      "line": 197
+    },
+    "Breloom": {
+      "translation": "斗笠菇",
+      "line": 198
+    },
+    "Woobat": {
+      "translation": "滚滚蝙蝠",
+      "line": 199
+    },
+    "Golurk": {
+      "translation": "泥偶巨人",
+      "line": 200
+    },
+    "Lapras": {
+      "translation": "拉普拉斯",
+      "line": 203
+    },
+    "Pidgeotto": {
+      "translation": "比比鸟",
+      "line": 213
+    },
+    "Magikarp Skelly": {
+      "translation": "[[Magikarp]] [[alt.karp.skelly]]",
+      "line": 216
+    },
+    "Magikarp Calico (White, Orange)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.white]][[alt.karp.orange]]）",
+      "line": 217
+    },
+    "Magikarp Jump Karpen": {
+      "translation": "",
+      "line": 217
+    },
+    "Magikarp Pink Dapples": {
+      "translation": "[[Magikarp]] [[alt.karp.dapples]]（[[alt.karp.pink]]）",
+      "line": 218
+    },
+    "Magikarp Grey Diamonds": {
+      "translation": "[[Magikarp]] [[alt.karp.diamonds]]（[[alt.karp.grey]]）",
+      "line": 219
+    },
+    "Magikarp Jump Karpress 3": {
+      "translation": "",
+      "line": 219
+    },
+    "Magikarp Purple Bubbles": {
+      "translation": "[[Magikarp]] [[alt.karp.bubbles]]（[[alt.karp.purple]]）",
+      "line": 220
+    },
+    "Magikarp Purple Patches": {
+      "translation": "[[Magikarp]] [[alt.karp.patches]]（[[alt.karp.purple]]）",
+      "line": 221
+    },
+    "Magikarp Jump Karpella 3": {
+      "translation": "",
+      "line": 221
+    },
+    "Magikarp Brown Tiger": {
+      "translation": "[[Magikarp]] [[alt.karp.tiger]]（[[alt.karp.brown]]）",
+      "line": 222
+    },
+    "Magikarp Orange Forehead": {
+      "translation": "[[Magikarp]] [[alt.karp.forehead]]（[[alt.karp.orange]]）",
+      "line": 223
+    },
+    "Magikarp Black Mask": {
+      "translation": "[[Magikarp]] [[alt.karp.mask]]（[[alt.karp.black]]）",
+      "line": 224
+    },
+    "Magikarp Jump Tykarp 2": {
+      "translation": "",
+      "line": 224
+    },
+    "Magikarp Saucy Blue": {
+      "translation": "[[Magikarp]] [[alt.karp.saucy]]（[[alt.karp.blue]]）",
+      "line": 225
+    },
+    "Dr. Splash's Research Project": {
+      "translation": "Splash博士的研究项目",
+      "line": 225
+    },
+    "Ditto (Magikarp)": {
+      "translation": "[[Ditto]] ([[Magikarp]])",
+      "line": 227
+    },
+    "Catch more Magikarp species.": {
+      "translation": "",
+      "line": 228
+    },
+    "assets/images/breeding/pokerus/${GameConstants.Pokerus[partyPokemon.pokerus]}.png": {
+      "translation": "",
+      "line": 271
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 272
+    },
+    "EVs: ${partyPokemon.evs().toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 272
+    }
+  }
+}

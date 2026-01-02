@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokeballs/PokeballFilters.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 29,
+    "translatedCount": 19
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 2
+    },
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "./PokeballFilter": {
+      "translation": "",
+      "line": 5
+    },
+    "./PokeballFilterOptions": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/NotificationOption": {
+      "translation": "",
+      "line": 8
+    },
+    "../utilities/arrayUtils": {
+      "translation": "",
+      "line": 9
+    },
+    "../settings": {
+      "translation": "",
+      "line": 10
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 11
+    },
+    "Pokeball Filters": {
+      "translation": "精灵球滤镜",
+      "line": 14
+    },
+    "New Shiny": {
+      "translation": "新异色",
+      "line": 19
+    },
+    "New": {
+      "translation": "新的",
+      "line": 20
+    },
+    "Caught Shiny": {
+      "translation": "已捕获（异色）",
+      "line": 21
+    },
+    "Contagious": {
+      "translation": "传染期",
+      "line": 22
+    },
+    "New Shadow": {
+      "translation": "新暗影",
+      "line": 23
+    },
+    "Caught": {
+      "translation": "已捕获",
+      "line": 24
+    },
+    "pokeballFilterPokemonType1": {
+      "translation": "pokeballFilterPokemonType1",
+      "line": 40
+    },
+    "Pokémon Type 1": {
+      "translation": "宝可梦1型",
+      "line": 40
+    },
+    "pokeballFilterPokemonType2": {
+      "translation": "pokeballFilterPokemonType2",
+      "line": 43
+    },
+    "Pokémon Type 2": {
+      "translation": "宝可梦2型",
+      "line": 43
+    },
+    "catchFilters.invertPriorityOrder": {
+      "translation": "捕获过滤器优先级反转（从下到上）",
+      "line": 88
+    },
+    "Delete pokeball filter": {
+      "translation": "删除精灵球过滤器",
+      "line": 107
+    },
+    "Are you sure you want to delete \"${filter.name}\"?": {
+      "translation": "",
+      "line": 108
+    },
+    "Delete": {
+      "translation": "删除",
+      "line": 110
+    },
+    "catchFilters.initialEnabled": {
+      "translation": "新的捕获过滤器最初启用",
+      "line": 117
+    },
+    "New Filter": {
+      "translation": "新过滤器",
+      "line": 118
+    },
+    "Reset filters to defaults": {
+      "translation": "将过滤器重置为默认值",
+      "line": 142
+    },
+    "Are you sure you want to reset your filters to the default ones?": {
+      "translation": "你确定要将过滤器重置为默认过滤器吗？",
+      "line": 143
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/DataStore/StatisticStore/getRouteKillsProxy.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../../koExtenders": {
+      "translation": "",
+      "line": 2
+    },
+    "../../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "[Statistics] [routeDefeat.${region}] Invalid property requested:": {
+      "translation": "",
+      "line": 26
+    },
+    "[Statistics] [routeKills] Attempted to get invalid region:": {
+      "translation": "[统计] [routeKills] 尝试获取无效区域：",
+      "line": 56
+    },
+    "[Statistics] [routeKills] Attempted to dynamically set region ${String(prop)}:": {
+      "translation": "",
+      "line": 68
+    }
+  }
+}

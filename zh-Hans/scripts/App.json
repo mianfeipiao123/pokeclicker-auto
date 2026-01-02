@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/App.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 22,
+    "translatedCount": 12
+  },
+  "entries": {
+    "object": {
+      "translation": "目的",
+      "line": 9
+    },
+    "string": {
+      "translation": "细绳",
+      "line": 9
+    },
+    "Electron": {
+      "translation": "电子",
+      "line": 9
+    },
+    "translation.language": {
+      "translation": "翻译.语言",
+      "line": 10
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 14
+    },
+    "color:#8e44ad;font-weight:900;": {
+      "translation": "颜色：#8e44ad；字体粗细：900；",
+      "line": 23
+    },
+    "[${GameConstants.formatDate(new Date())}] %cLoading Game Data..": {
+      "translation": "",
+      "line": 23
+    },
+    "color:#2ecc71;font-weight:900;": {
+      "translation": "颜色：#2ecc71；字体粗细：900；",
+      "line": 27
+    },
+    "[${GameConstants.formatDate(new Date())}] %cGame loaded": {
+      "translation": "",
+      "line": 27
+    },
+    "Game loaded": {
+      "translation": "游戏已加载",
+      "line": 28
+    },
+    "[${GameConstants.formatDate(new Date())}] %cStarting game..": {
+      "translation": "",
+      "line": 30
+    },
+    "no-select": {
+      "translation": "不选择",
+      "line": 42
+    },
+    "ontouchstart": {
+      "translation": "",
+      "line": 53
+    },
+    "hasSeenMobileWarning": {
+      "translation": "",
+      "line": 54
+    },
+    "true": {
+      "translation": "真的",
+      "line": 55
+    },
+    "Mobile Device Detected": {
+      "translation": "检测到移动设备",
+      "line": 57
+    },
+    "Please Note: \n\nYou may experience performance issues playing on mobile, especially on older models. \n\nWhile it is ": {
+      "translation": "请注意：\n\n在移动设备上玩游戏可能会遇到性能问题，尤其是在较旧的机型上。\n\n虽然",
+      "line": 58
+    },
+    "possible to play on a phone or tablet, please be aware that the controls and features are designed with a mouse and keyboard in ": {
+      "translation": "",
+      "line": 59
+    },
+    "mind and may not work as well on a mobile device. \n\nFor the best gameplay experience we highly recommend playing on a PC ": {
+      "translation": "",
+      "line": 60
+    },
+    "browser or our desktop client by <b><a href=\"https://github.com/RedSparr0w/Pokeclicker-desktop/releases/latest\" target=\"_blank\">downloading here</a>": {
+      "translation": "",
+      "line": 61
+    },
+    "_blank": {
+      "translation": "",
+      "line": 61
+    },
+    "\n\nThank You!": {
+      "translation": "",
+      "line": 62
+    }
+  }
+}

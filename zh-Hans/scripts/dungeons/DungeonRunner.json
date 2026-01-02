@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/dungeons/DungeonRunner.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 21,
+    "translatedCount": 13
+  },
+  "entries": {
+    "Viridian Forest": {
+      "translation": "常磐森林",
+      "line": 27
+    },
+    "You need the Dungeon Ticket to access dungeons.\n<i>Check out the shop at Viridian City.</i>": {
+      "translation": "",
+      "line": 28
+    },
+    "You don't have access to this dungeon yet.\n<i>${dungeon.getRequirementHints()}</i>": {
+      "translation": "",
+      "line": 31
+    },
+    "You can't access this dungeon right now because all of its bosses are locked.": {
+      "translation": "你现在无法进入这个迷宫，因为它的所有 Boss 都被锁定了。",
+      "line": 35
+    },
+    "You don't have enough Dungeon Tokens.": {
+      "translation": "你没有足够的迷宫代币。",
+      "line": 38
+    },
+    "You can't enter this dungeon right now.": {
+      "translation": "你现在不能进入这个迷宫。",
+      "line": 41
+    },
+    "mythic": {
+      "translation": "神话",
+      "line": 190
+    },
+    "Lucky Loot": {
+      "translation": "幸运战利品",
+      "line": 191
+    },
+    "number": {
+      "translation": "数字",
+      "line": 205
+    },
+    "MissingNo.": {
+      "translation": "Missing No.",
+      "line": 214
+    },
+    "assets/images/pokemon/${PokemonHelper.getPokemonByName(input).id}.png": {
+      "translation": "",
+      "line": 215
+    },
+    "Found ${amount} × <img src=\"${image}\" height=\"24px\"/> ${GameConstants.pluralizeString(GameConstants.camelCaseToString(GameConstants.humanifyString(input)), amount)} in a dungeon chest.": {
+      "translation": "",
+      "line": 235
+    },
+    "Berry": {
+      "translation": "树果",
+      "line": 240
+    },
+    "Found ${Math.floor(amount)} × <img src=\"${image}\" height=\"24px\"/> ${GameConstants.humanifyString(input)} ${GameConstants.pluralizeString('Berry', amount)} in a dungeon chest.": {
+      "translation": "",
+      "line": 240
+    },
+    "Found ${amount} × <img src=\"${image}\" height =\"24px\"/> ${GameConstants.pluralizeString(ItemList[input].displayName, amount)} in a dungeon chest.": {
+      "translation": "",
+      "line": 242
+    },
+    "Encountered ${GameHelper.anOrA(input)} <img src=\"${image}\" height=\"40px\"/> ${GameConstants.humanifyString(input)} in a dungeon chest.": {
+      "translation": "",
+      "line": 244
+    },
+    "Dungeon": {
+      "translation": "迷宫",
+      "line": 306
+    },
+    "Leave the dungeon?\n\nCurrent progress will be lost, but you will keep any items obtained from chests.": {
+      "translation": "",
+      "line": 307
+    },
+    "Leave": {
+      "translation": "离开",
+      "line": 309
+    },
+    "You could not complete the dungeon in time.": {
+      "translation": "你未能及时完成迷宫。",
+      "line": 327
+    },
+    "You have successfully completed the dungeon.": {
+      "translation": "你成功完成了迷宫！",
+      "line": 346
+    }
+  }
+}

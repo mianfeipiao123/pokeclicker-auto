@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/dungeons/DungeonBattle.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 2
+  },
+  "entries": {
+    "string": {
+      "translation": "细绳",
+      "line": 158
+    },
+    "pokemon": {
+      "translation": "宝可梦",
+      "line": 158
+    }
+  }
+}

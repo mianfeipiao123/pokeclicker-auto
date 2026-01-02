@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/mutation/mutationTypes/PetayaMutation.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 1
+  },
+  "entries": {
+    "Legends tell of a mysterious Berry that only appears while surrounded by all types of Berries.": {
+      "translation": "传说有一种神秘的树果，只有在被各种树果包围时才会出现。",
+      "line": 63
+    }
+  }
+}

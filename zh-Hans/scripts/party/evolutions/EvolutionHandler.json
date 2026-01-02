@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/party/evolutions/EvolutionHandler.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "a shiny": {
+      "translation": "",
+      "line": 24
+    },
+    "Your ${PokemonHelper.displayName(data.basePokemon)} evolved into ${shiny ? 'a shiny' : GameHelper.anOrA(evolvedPokemon)} ${PokemonHelper.displayName(evolvedPokemon)}!": {
+      "translation": "",
+      "line": 24
+    }
+  }
+}

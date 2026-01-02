@@ -1,0 +1,282 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/codes/RedeemableCodes.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 68,
+    "translatedCount": 41
+  },
+  "entries": {
+    "../DataStore/common/Saveable": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/BerryType": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 6
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 8
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 9
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 10
+    },
+    "../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 11
+    },
+    "../requirements/MultiRequirement": {
+      "translation": "",
+      "line": 12
+    },
+    "../requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 13
+    },
+    "./RedeemableCode": {
+      "translation": "",
+      "line": 14
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 15
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 16
+    },
+    "../items/Item": {
+      "translation": "",
+      "line": 17
+    },
+    "../quests/QuestLineState": {
+      "translation": "",
+      "line": 18
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 19
+    },
+    "farming-quick-start": {
+      "translation": "",
+      "line": 29
+    },
+    "Code activated!": {
+      "translation": "代码已激活！",
+      "line": 35
+    },
+    "You gained 10,000 Farm Points and 100 Cheri Berries!": {
+      "translation": "你获得了10,000农场点数和100个樱子果！",
+      "line": 36
+    },
+    "shiny-charmer": {
+      "translation": "",
+      "line": 43
+    },
+    "✨ You found a shiny ${pokemonMap[idToUse].name}! ✨": {
+      "translation": "",
+      "line": 52
+    },
+    "great-balls": {
+      "translation": "",
+      "line": 59
+    },
+    "You gained 10 Great Balls!": {
+      "translation": "你获得了10个超级球！",
+      "line": 65
+    },
+    "everstone": {
+      "translation": "永石",
+      "line": 72
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 74
+    },
+    "You gained 1 Everstone!": {
+      "translation": "你获得了1个不变之石！",
+      "line": 78
+    },
+    "typed-held-item": {
+      "translation": "",
+      "line": 85
+    },
+    "Black_Belt": {
+      "translation": "黑带",
+      "line": 88
+    },
+    "Black_Glasses": {
+      "translation": "黑色_眼镜",
+      "line": 88
+    },
+    "Charcoal": {
+      "translation": "木炭",
+      "line": 88
+    },
+    "Dragon_Fang": {
+      "translation": "龙牙",
+      "line": 88
+    },
+    "Magnet": {
+      "translation": "磁铁",
+      "line": 88
+    },
+    "Metal_Powder": {
+      "translation": "金属_粉末",
+      "line": 88
+    },
+    "Miracle_Seed": {
+      "translation": "奇迹种子",
+      "line": 89
+    },
+    "Mystic_Water": {
+      "translation": "神秘水",
+      "line": 89
+    },
+    "Never_Melt_Ice": {
+      "translation": "永不融化的冰",
+      "line": 89
+    },
+    "Fairy_Feather": {
+      "translation": "仙女羽毛",
+      "line": 89
+    },
+    "Poison_Barb": {
+      "translation": "毒倒刺",
+      "line": 89
+    },
+    "Rock_Incense": {
+      "translation": "岩石香",
+      "line": 89
+    },
+    "Sharp_Beak": {
+      "translation": "尖嘴",
+      "line": 90
+    },
+    "Silk_Scarf": {
+      "translation": "丝绸围巾",
+      "line": 90
+    },
+    "Silver_Powder": {
+      "translation": "银粉",
+      "line": 90
+    },
+    "Soft_Sand": {
+      "translation": "软沙",
+      "line": 90
+    },
+    "Spell_Tag": {
+      "translation": "拼写标签",
+      "line": 90
+    },
+    "Twisted_Spoon": {
+      "translation": "扭曲勺子",
+      "line": 90
+    },
+    "You gained 3 random Held Items, that boosts a specific type!": {
+      "translation": "你获得了3个随机携带物品，可以强化特定属性！",
+      "line": 95
+    },
+    "eon-ticket": {
+      "translation": "",
+      "line": 103
+    },
+    "You got an Eon Ticket!": {
+      "translation": "你获得了无限船票！",
+      "line": 109
+    },
+    "ampharosite": {
+      "translation": "两性石",
+      "line": 117
+    },
+    "You gained an Ampharosite!": {
+      "translation": "你获得了电龙进化石！",
+      "line": 123
+    },
+    "Ampharos": {
+      "translation": "电龙",
+      "line": 129
+    },
+    "refund-vitamins": {
+      "translation": "",
+      "line": 130
+    },
+    "Refund Unused Vitamins": {
+      "translation": "退还未使用的维生素",
+      "line": 162
+    },
+    "text-center": {
+      "translation": "",
+      "line": 163
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 165
+    },
+    "Code Activated!": {
+      "translation": "代码已激活！",
+      "line": 185
+    },
+    "All unused vitamins refunded.": {
+      "translation": "所有未使用的营养剂已退还。",
+      "line": 186
+    },
+    "tutorial-skip": {
+      "translation": "",
+      "line": 194
+    },
+    "Tutorial Quests": {
+      "translation": "教程任务",
+      "line": 195
+    },
+    "Tutorial Skip": {
+      "translation": "教程跳过",
+      "line": 198
+    },
+    "The Tutorial is already completed.": {
+      "translation": "教程已经完成了。",
+      "line": 199
+    },
+    "The first step of the Tutorial must first be completed.": {
+      "translation": "必须先完成教程的第一步。",
+      "line": 209
+    },
+    "You have skipped the tutorial, and found a stash of Dungeon Tokens with a Dungeon Ticket.": {
+      "translation": "你跳过了教程，并找到了一批迷宫代币和一张迷宫门票。",
+      "line": 223
+    },
+    "Rare Candy": {
+      "translation": "神奇糖果",
+      "line": 230
+    },
+    "Rare_Candy": {
+      "translation": "神奇糖果",
+      "line": 232
+    },
+    "You gained 10 Rare Candy!": {
+      "translation": "你获得了10个神奇糖果！",
+      "line": 236
+    },
+    "Invalid code ${code}": {
+      "translation": "",
+      "line": 264
+    }
+  }
+}

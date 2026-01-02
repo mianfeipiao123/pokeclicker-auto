@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/dungeons/DungeonGuides.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 25,
+    "translatedCount": 18
+  },
+  "entries": {
+    "Dungeon Guide failed to walk correctly:\n": {
+      "translation": "",
+      "line": 44
+    },
+    "assets/images/profile/trainer-${this.trainerSprite}.png": {
+      "translation": "",
+      "line": 59
+    },
+    "pixelated": {
+      "translation": "",
+      "line": 59
+    },
+    "[DUNGEON GUIDE] <img src=\"assets/images/profile/trainer-${this.trainerSprite}.png\" height=\"24px\" class=\"pixelated\"/> ${this.name}": {
+      "translation": "",
+      "line": 59
+    },
+    "I could not enter the dungeon anymore. Here is a refund.": {
+      "translation": "我无法再进入迷宫了。这里是退款。",
+      "line": 60
+    },
+    "Thanks for hiring me,\nI won't let you down!": {
+      "translation": "感谢雇佣我，\n我不会让你失望的！",
+      "line": 110
+    },
+    "Thanks for the work.\nLet me know when you're hiring again!": {
+      "translation": "感谢工作。\n下次需要帮手时请联系我！",
+      "line": 120
+    },
+    ".modal.show": {
+      "translation": "",
+      "line": 126
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 126
+    },
+    "assets/images/profile/trainer-${guide.trainerSprite}.png": {
+      "translation": "",
+      "line": 188
+    },
+    "[DUNGEON GUIDE] <img src=\"assets/images/profile/trainer-${guide.trainerSprite}.png\" height=\"24px\" class=\"pixelated\"/> ${guide.name}": {
+      "translation": "",
+      "line": 188
+    },
+    "You can't currently afford to hire me...": {
+      "translation": "你目前雇不起我...",
+      "line": 189
+    },
+    "You can't access that dungeon right now!": {
+      "translation": "你现在无法进入这个迷宫！",
+      "line": 199
+    },
+    "Jimmy": {
+      "translation": "吉米",
+      "line": 230
+    },
+    "Doesn't really know their way around a dungeon, but gives it their best try!": {
+      "translation": "虽然不太了解迷宫的出路，但还是尽了最大的努力！",
+      "line": 230
+    },
+    "Timmy": {
+      "translation": "提米",
+      "line": 244
+    },
+    "Can smell when there is a treasure chest on a tile near them!": {
+      "translation": "当他们附近的瓷砖上有宝箱时可以闻到！",
+      "line": 244
+    },
+    "Shelly": {
+      "translation": "雪莉",
+      "line": 271
+    },
+    "Prefers to explore the unknown!": {
+      "translation": "更喜欢探索未知！",
+      "line": 271
+    },
+    "Angeline": {
+      "translation": "安吉琳",
+      "line": 297
+    },
+    "Can find treasure anywhere, loves to explore new areas!": {
+      "translation": "到处都能找到宝藏，喜欢探索新领域！",
+      "line": 297
+    },
+    "Georgia": {
+      "translation": "乔治亚州",
+      "line": 337
+    },
+    "Knows the path to the boss, avoids random encounters when possible.": {
+      "translation": "知道通往boss的路径，尽可能避免随机遭遇。",
+      "line": 337
+    },
+    "Drake": {
+      "translation": "源治",
+      "line": 366
+    },
+    "Knows the shortest path to the boss!": {
+      "translation": "知道通往boss的最短路径！",
+      "line": 366
+    }
+  }
+}

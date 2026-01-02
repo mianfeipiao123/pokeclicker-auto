@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/Quest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 19,
+    "translatedCount": 11
+  },
+  "entries": {
+    "questlines": {
+      "translation": "任务线",
+      "line": 60
+    },
+    "Generic Quest Description. This should be overriden.": {
+      "translation": "通用任务描述。这应该被覆盖。",
+      "line": 68
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 100
+    },
+    "./assets/images/currency/questPoint.svg": {
+      "translation": "",
+      "line": 100
+    },
+    "You have completed your quest!\nYou claimed <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${this.pointsReward.toLocaleString('en-US')}!": {
+      "translation": "",
+      "line": 100
+    },
+    "You have completed your quest and claimed ${this.pointsReward.toLocaleString('en-US')} Quest Points!": {
+      "translation": "",
+      "line": 101
+    },
+    "You have completed a quest!": {
+      "translation": "你完成了一个任务！",
+      "line": 114
+    },
+    "Quit Quest": {
+      "translation": "退出任务",
+      "line": 132
+    },
+    "Are you sure?\n\nYou can start the quest again later but you will lose all progress!": {
+      "translation": "",
+      "line": 133
+    },
+    "Quit": {
+      "translation": "辞职",
+      "line": 135
+    },
+    "0 / ${this.amount.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 194
+    },
+    "You can complete your quest for <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${this.pointsReward.toLocaleString('en-US')}!": {
+      "translation": "",
+      "line": 209
+    },
+    "You can complete your quest for ${this.pointsReward.toLocaleString('en-US')} Quest Points!": {
+      "translation": "",
+      "line": 210
+    },
+    "function": {
+      "translation": "功能",
+      "line": 223
+    },
+    "assets/images/npcs/${npcImageName}.png": {
+      "translation": "",
+      "line": 300
+    },
+    "index": {
+      "translation": "指数",
+      "line": 323
+    },
+    "claimed": {
+      "translation": "声称",
+      "line": 324
+    },
+    "initial": {
+      "translation": "最初的",
+      "line": 325
+    },
+    "notified": {
+      "translation": "已通知",
+      "line": 326
+    }
+  }
+}

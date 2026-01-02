@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/mine/Mine.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 1
+  },
+  "entries": {
+    "./MineConfig": {
+      "translation": "",
+      "line": 1
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 2
+    },
+    "../../utilities/Rand": {
+      "translation": "",
+      "line": 3
+    },
+    "../UndergroundItem": {
+      "translation": "",
+      "line": 4
+    },
+    "../UndergroundController": {
+      "translation": "",
+      "line": 5
+    },
+    "../UndergroundItems": {
+      "translation": "",
+      "line": 6
+    },
+    "../../enums/OakItemType": {
+      "translation": "",
+      "line": 7
+    },
+    "../../GameHelper": {
+      "translation": "",
+      "line": 8
+    },
+    "${(100 * j / (space[0].length - 1)).toFixed(2)}%": {
+      "translation": "",
+      "line": 269
+    },
+    "${(100 * i / (space.length - 1)).toFixed(2)}%": {
+      "translation": "",
+      "line": 270
+    }
+  }
+}

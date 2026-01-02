@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/buyOakItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../oakItems/BoughtOakItem": {
+      "translation": "",
+      "line": 3
+    },
+    "./Item": {
+      "translation": "",
+      "line": 4
+    },
+    "Purchase to unlock this Oak Item": {
+      "translation": "购买以解锁该大木博士道具",
+      "line": 10
+    },
+    "assets/images/oakitems/${this.name}.png": {
+      "translation": "",
+      "line": 37
+    }
+  }
+}

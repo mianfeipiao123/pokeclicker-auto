@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/evolutions/Restrictions.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 19,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../../items/ItemNameType": {
+      "translation": "",
+      "line": 2
+    },
+    "../../quests/QuestLineNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "../../requirements/GameStateRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    "../../requirements/HoldingItemRequirement": {
+      "translation": "",
+      "line": 5
+    },
+    "../../requirements/InDungeonRequirement": {
+      "translation": "",
+      "line": 6
+    },
+    "../../requirements/InEnvironmentRequirement": {
+      "translation": "",
+      "line": 7
+    },
+    "../../requirements/InGymRequirement": {
+      "translation": "",
+      "line": 8
+    },
+    "../../requirements/InRegionRequirement": {
+      "translation": "",
+      "line": 9
+    },
+    "../../requirements/QuestLineCompletedRequirement": {
+      "translation": "",
+      "line": 10
+    },
+    "../../requirements/DayCyclePartRequirement": {
+      "translation": "",
+      "line": 11
+    },
+    "../../requirements/MoonCyclePhaseRequirement": {
+      "translation": "",
+      "line": 12
+    },
+    "../../requirements/WeatherRequirement": {
+      "translation": "",
+      "line": 13
+    },
+    "../../weather/WeatherType": {
+      "translation": "",
+      "line": 14
+    },
+    "../../requirements/MegaEvolveRequirement": {
+      "translation": "",
+      "line": 15
+    },
+    "./Base": {
+      "translation": "",
+      "line": 16
+    },
+    "../../dayCycle/DayCyclePart": {
+      "translation": "",
+      "line": 17
+    },
+    "../../moonCycle/MoonCyclePhase": {
+      "translation": "",
+      "line": 18
+    },
+    "../../requirements/PokemonAttackRequirement": {
+      "translation": "",
+      "line": 19
+    }
+  }
+}

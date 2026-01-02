@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/breeding/BreedingController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 29,
+    "translatedCount": 17
+  },
+  "entries": {
+    "hide": {
+      "translation": "隐藏",
+      "line": 25
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 28
+    },
+    "show": {
+      "translation": "展示",
+      "line": 36
+    },
+    "You do not have access to the Day Care yet.\n<i>Clear Route 3 first.</i>": {
+      "translation": "你还无法进入培育屋。\n<i>请先通过3号道路。</i>",
+      "line": 39
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 47
+    },
+    "hatching": {
+      "translation": "孵化",
+      "line": 52
+    },
+    "almost": {
+      "translation": "几乎",
+      "line": 55
+    },
+    "assets/images/breeding/${GameConstants.EggItemType[id]}.png": {
+      "translation": "",
+      "line": 75
+    },
+    "breedingIDFilter": {
+      "translation": "breedingIDFilter",
+      "line": 88
+    },
+    "All": {
+      "translation": "全部",
+      "line": 106
+    },
+    " & more": {
+      "translation": "",
+      "line": 111
+    },
+    "None": {
+      "translation": "无",
+      "line": 115
+    },
+    "breedingDisplayTextSetting": {
+      "translation": "breedingDisplayTextSetting",
+      "line": 127
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 128
+    },
+    "Attack Bonus: ${Math.floor(pokemon.getBreedingAttackBonus() * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 128
+    },
+    "Base Attack: ${pokemon.baseAttack.toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 129
+    },
+    "Egg Steps: ${pokemon.getEggSteps().toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 130
+    },
+    "Hatches: ${App.game.statistics.pokemonHatched[pokemonData.id]().toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 131
+    },
+    "Efficiency: ${(pokemon.breedingEfficiency() * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US', { maximumFractionDigits: 3 })}": {
+      "translation": "",
+      "line": 132
+    },
+    "Steps/Att: ${(pokemon.getEggSteps() / (pokemon.getBreedingAttackBonus() * BreedingController.calculateRegionalMultiplier(pokemon))).toLocaleString('en-US', { maximumFractionDigits: 3 })}": {
+      "translation": "",
+      "line": 133
+    },
+    "#${pokemon.id <= 0 ? '???' : Math.floor(pokemon.id).toString().padStart(3,'0')}": {
+      "translation": "",
+      "line": 134
+    },
+    "vitamins": {
+      "translation": "维生素",
+      "line": 135
+    },
+    "Vitamins: ${pokemon.totalVitaminsUsed()}": {
+      "translation": "",
+      "line": 135
+    },
+    "evs": {
+      "translation": "落雷兽",
+      "line": 136
+    },
+    "EVs: ${pokemon.evs().toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 136
+    },
+    "attack": {
+      "translation": "攻击",
+      "line": 137
+    },
+    "Attack: ${Math.floor(pokemon.attack * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US')}": {
+      "translation": "",
+      "line": 139
+    },
+    "breedingRegionalAttackDebuffSetting": {
+      "translation": "breedingRegionalAttackDebuffSetting",
+      "line": 147
+    },
+    "#breeding-pokemon-list-container .scrolling-div-breeding-list": {
+      "translation": "#breeding-pokemon-list-container .scrolling-div-breeding-list",
+      "line": 230
+    }
+  }
+}

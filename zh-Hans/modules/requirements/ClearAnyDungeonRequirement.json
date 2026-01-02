@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/ClearAnyDungeonRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Clear Dungeon": {
+      "translation": "通关迷宫",
+      "line": 6
+    },
+    "Clear any dungeon a total of ${this.requiredValue} times.": {
+      "translation": "",
+      "line": 15
+    }
+  }
+}

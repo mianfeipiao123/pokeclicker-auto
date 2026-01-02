@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/effectEngine/effectEngineRunner.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 3
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../items/BattleItem": {
+      "translation": "",
+      "line": 5
+    },
+    "../multiplier/Multiplier": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 8
+    },
+    "All": {
+      "translation": "全部",
+      "line": 12
+    },
+    "The ${humanifyString(itemName)}'s effect is about to wear off!": {
+      "translation": "",
+      "line": 37
+    },
+    "99h+": {
+      "translation": "99小时+",
+      "line": 69
+    },
+    "${+times[0]}h": {
+      "translation": "",
+      "line": 71
+    }
+  }
+}

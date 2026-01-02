@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/Sortable.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 17,
+    "translatedCount": 3
+  },
+  "entries": {
+    "sortablejs": {
+      "translation": "",
+      "line": 1
+    },
+    "./settings/Settings": {
+      "translation": "",
+      "line": 2
+    },
+    "./settings/Setting": {
+      "translation": "",
+      "line": 3
+    },
+    "left-column": {
+      "translation": "",
+      "line": 5
+    },
+    "left-column-2": {
+      "translation": "",
+      "line": 5
+    },
+    "middle-top-sort-column": {
+      "translation": "",
+      "line": 5
+    },
+    "middle-bottom-sort-column": {
+      "translation": "",
+      "line": 5
+    },
+    "right-column": {
+      "translation": "",
+      "line": 5
+    },
+    "right-column-2": {
+      "translation": "",
+      "line": 5
+    },
+    "modules.${column}": {
+      "translation": "",
+      "line": 9
+    },
+    "Modules sort order ${column}": {
+      "translation": "",
+      "line": 9
+    },
+    "main-sortable": {
+      "translation": "",
+      "line": 17
+    },
+    ".card.sortable": {
+      "translation": "",
+      "line": 18
+    },
+    "id": {
+      "translation": "ID",
+      "line": 20
+    },
+    "modules.${sortable}": {
+      "translation": "",
+      "line": 48
+    },
+    "sort.saveSelector": {
+      "translation": "排序保存选择器",
+      "line": 79
+    },
+    "#saveSelector .save-container": {
+      "translation": "#saveSelector .save-container",
+      "line": 80
+    }
+  }
+}

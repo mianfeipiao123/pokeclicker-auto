@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/items/HatcheryHelperItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 12,
+    "translatedCount": 8
+  },
+  "entries": {
+    "HatcheryHelper${hatcheryHelperName}": {
+      "translation": "",
+      "line": 6
+    },
+    "Hatchery Helper ${hatcheryHelperName}": {
+      "translation": "",
+      "line": 6
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 15
+    },
+    "assets/images/currency/${GameConstants.Currency[hatcheryHelper?.cost?.currency]}.svg": {
+      "translation": "",
+      "line": 15
+    },
+    "assets/images/profile/trainer-${trainerID}.png": {
+      "translation": "",
+      "line": 27
+    },
+    "Jasmine": {
+      "translation": "阿蜜",
+      "line": 32
+    },
+    "Dakota": {
+      "translation": "达科他州",
+      "line": 33
+    },
+    "Cameron": {
+      "translation": "卡梅伦",
+      "line": 34
+    },
+    "Carey": {
+      "translation": "凯里",
+      "line": 35
+    },
+    "Kris": {
+      "translation": "克里斯",
+      "line": 36
+    },
+    "Noel": {
+      "translation": "诺埃尔",
+      "line": 37
+    },
+    "Leslie": {
+      "translation": "莱斯利",
+      "line": 38
+    }
+  }
+}

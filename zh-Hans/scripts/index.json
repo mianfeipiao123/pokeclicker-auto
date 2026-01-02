@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/index.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 3
+  },
+  "entries": {
+    "DOMContentLoaded": {
+      "translation": "DOM内容已加载",
+      "line": 10
+    },
+    "theme": {
+      "translation": "主题",
+      "line": 13
+    },
+    "no-select ${Settings.getSetting('theme').observableValue()} ${Settings.getSetting('backgroundImage').observableValue()}": {
+      "translation": "",
+      "line": 13
+    },
+    "theme-link": {
+      "translation": "",
+      "line": 14
+    },
+    "use-our-client-message": {
+      "translation": "",
+      "line": 18
+    },
+    "block": {
+      "translation": "",
+      "line": 18
+    },
+    "show.bs.modal": {
+      "translation": "",
+      "line": 28
+    },
+    ".modal:visible": {
+      "translation": "",
+      "line": 29
+    },
+    "z-index": {
+      "translation": "z 索引",
+      "line": 30
+    },
+    "modal-stack": {
+      "translation": "",
+      "line": 33
+    }
+  }
+}

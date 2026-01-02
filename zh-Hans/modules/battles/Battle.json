@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/battles/Battle.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 17,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 3
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 4
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 5
+    },
+    "../logbook/helpers": {
+      "translation": "",
+      "line": 6
+    },
+    "../logbook/LogBookTypes": {
+      "translation": "",
+      "line": 7
+    },
+    "../items/types": {
+      "translation": "",
+      "line": 8
+    },
+    "../routes/Routes": {
+      "translation": "",
+      "line": 9
+    },
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 10
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 11
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 12
+    },
+    "./BattlePokemon": {
+      "translation": "",
+      "line": 13
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 14
+    },
+    "zeroed": {
+      "translation": "",
+      "line": 83
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 233
+    },
+    "&nbsp;/&nbsp;": {
+      "translation": "",
+      "line": 233
+    }
+  }
+}

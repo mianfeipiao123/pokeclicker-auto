@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/PokemonAttackRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 5
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    "Level up to evolve.": {
+      "translation": "升级以进化。",
+      "line": 27
+    },
+    "less than": {
+      "translation": "少于",
+      "line": 31
+    },
+    "more than": {
+      "translation": "多于",
+      "line": 32
+    },
+    "exactly": {
+      "translation": "确切地",
+      "line": 32
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 34
+    },
+    "${this.pokemon} needs ${comparisonOperator} ${attackRequired.toLocaleString('en-US')} attack.": {
+      "translation": "",
+      "line": 34
+    }
+  }
+}

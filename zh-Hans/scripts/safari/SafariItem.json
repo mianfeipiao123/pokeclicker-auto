@@ -1,0 +1,302 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/SafariItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 73,
+    "translatedCount": 71
+  },
+  "entries": {
+    "Razz": {
+      "translation": "蔓莓果",
+      "line": 15
+    },
+    "Nanab": {
+      "translation": "蕉香果",
+      "line": 16
+    },
+    "Pinap": {
+      "translation": "凰梨果",
+      "line": 17
+    },
+    "Sitrus": {
+      "translation": "文柚果",
+      "line": 18
+    },
+    "Oran": {
+      "translation": "橙橙果",
+      "line": 19
+    },
+    "Leaf Stone": {
+      "translation": "叶之石",
+      "line": 20
+    },
+    "Fire Stone": {
+      "translation": "火之石",
+      "line": 21
+    },
+    "Thunder Stone": {
+      "translation": "雷之石",
+      "line": 22
+    },
+    "Water Stone": {
+      "translation": "水之石",
+      "line": 23
+    },
+    "Protein": {
+      "translation": "蛋白质",
+      "line": 26
+    },
+    "Rare_Candy": {
+      "translation": "神奇糖果",
+      "line": 27
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 28
+    },
+    "Max Revive": {
+      "translation": "最大复活",
+      "line": 29
+    },
+    "Exeggcute (Single)": {
+      "translation": "[[Exeggcute]] (单个)",
+      "line": 30
+    },
+    "Exeggcute": {
+      "translation": "蛋蛋",
+      "line": 30
+    },
+    "Pinsirite": {
+      "translation": "",
+      "line": 31
+    },
+    "Pinsir": {
+      "translation": "凯罗斯",
+      "line": 31
+    },
+    "Nestball": {
+      "translation": "雀巢球",
+      "line": 34
+    },
+    "Fastball": {
+      "translation": "快球",
+      "line": 35
+    },
+    "Luxuryball": {
+      "translation": "豪华球",
+      "line": 36
+    },
+    "Boost_Mulch": {
+      "translation": "增强肥料",
+      "line": 39
+    },
+    "Rich_Mulch": {
+      "translation": "丰富的肥料",
+      "line": 40
+    },
+    "Surprise_Mulch": {
+      "translation": "惊喜_肥料",
+      "line": 41
+    },
+    "Amaze_Mulch": {
+      "translation": "惊奇_肥料",
+      "line": 42
+    },
+    "Freeze_Mulch": {
+      "translation": "冷冻肥料",
+      "line": 43
+    },
+    "Berry_Shovel": {
+      "translation": "树果铲子",
+      "line": 44
+    },
+    "Mulch_Shovel": {
+      "translation": "护根铲",
+      "line": 45
+    },
+    "Sun Stone": {
+      "translation": "日之石",
+      "line": 47
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 48
+    },
+    "Calcium": {
+      "translation": "钙",
+      "line": 53
+    },
+    "Black Shard": {
+      "translation": "黑色碎片",
+      "line": 55
+    },
+    "Crimson Shard": {
+      "translation": "深红碎片",
+      "line": 56
+    },
+    "Lime Shard": {
+      "translation": "石灰碎片",
+      "line": 57
+    },
+    "White Shard": {
+      "translation": "白色碎片",
+      "line": 58
+    },
+    "Dawn Stone": {
+      "translation": "黎明石",
+      "line": 59
+    },
+    "Dusk Stone": {
+      "translation": "黄昏石",
+      "line": 60
+    },
+    "Shiny Stone": {
+      "translation": "异色的石头",
+      "line": 61
+    },
+    "Odd Keystone": {
+      "translation": "奇数梯形校正",
+      "line": 62
+    },
+    "Draco Plate": {
+      "translation": "德拉科板甲",
+      "line": 63
+    },
+    "Dread Plate": {
+      "translation": "恐惧板甲",
+      "line": 64
+    },
+    "Earth Plate": {
+      "translation": "地球板",
+      "line": 65
+    },
+    "Fist Plate": {
+      "translation": "拳头板",
+      "line": 66
+    },
+    "Flame Plate": {
+      "translation": "火焰板",
+      "line": 67
+    },
+    "Icicle Plate": {
+      "translation": "冰柱板",
+      "line": 68
+    },
+    "Insect Plate": {
+      "translation": "昆虫盘",
+      "line": 69
+    },
+    "Iron Plate": {
+      "translation": "铁板",
+      "line": 70
+    },
+    "Meadow Plate": {
+      "translation": "草甸板",
+      "line": 71
+    },
+    "Mind Plate": {
+      "translation": "思维板",
+      "line": 72
+    },
+    "Pixie Plate": {
+      "translation": "精灵盘",
+      "line": 73
+    },
+    "Sky Plate": {
+      "translation": "天空板",
+      "line": 74
+    },
+    "Splash Plate": {
+      "translation": "防溅板",
+      "line": 75
+    },
+    "Spooky Plate": {
+      "translation": "幽灵盘",
+      "line": 76
+    },
+    "Stone Plate": {
+      "translation": "石板",
+      "line": 77
+    },
+    "Toxic Plate": {
+      "translation": "剧毒板",
+      "line": 78
+    },
+    "Zap Plate": {
+      "translation": "电击板",
+      "line": 79
+    },
+    "Mago": {
+      "translation": "芒芒果",
+      "line": 83
+    },
+    "Iapapa": {
+      "translation": "芭乐果",
+      "line": 84
+    },
+    "Hondew": {
+      "translation": "萄葡果",
+      "line": 85
+    },
+    "Tamato": {
+      "translation": "茄番果",
+      "line": 86
+    },
+    "Durin": {
+      "translation": "榴莲果",
+      "line": 87
+    },
+    "Carbos": {
+      "translation": "增强剂",
+      "line": 91
+    },
+    "Duskball": {
+      "translation": "黄昏球",
+      "line": 94
+    },
+    "Repeatball": {
+      "translation": "重复球",
+      "line": 96
+    },
+    "Star Piece": {
+      "translation": "星星片",
+      "line": 97
+    },
+    "Scizorite": {
+      "translation": "细长石",
+      "line": 99
+    },
+    "Scizor": {
+      "translation": "巨钳螳螂",
+      "line": 99
+    },
+    "Coba": {
+      "translation": "勿花果",
+      "line": 102
+    },
+    "Belue": {
+      "translation": "蓝靛果",
+      "line": 104
+    },
+    "Figy": {
+      "translation": "异奇果",
+      "line": 105
+    },
+    "Kelpsy": {
+      "translation": "藻根果",
+      "line": 106
+    },
+    "Damp Rock": {
+      "translation": "潮湿的岩石",
+      "line": 107
+    },
+    "Magikarp_Biscuit": {
+      "translation": "",
+      "line": 110
+    },
+    "Diveball": {
+      "translation": "跳水球",
+      "line": 111
+    }
+  }
+}

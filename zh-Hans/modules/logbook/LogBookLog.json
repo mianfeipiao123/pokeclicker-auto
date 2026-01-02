@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/logbook/LogBookLog.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 4
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "./helpers": {
+      "translation": "",
+      "line": 2
+    },
+    "./LogBookTypes": {
+      "translation": "",
+      "line": 3
+    },
+    "logbook": {
+      "translation": "航海日志",
+      "line": 8
+    },
+    "dark": {
+      "translation": "黑暗的",
+      "line": 12
+    },
+    "Unknown Entry": {
+      "translation": "未知条目",
+      "line": 15
+    },
+    "type.${this.type.label}": {
+      "translation": "",
+      "line": 21
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundItems.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 96,
+    "translatedCount": 83
+  },
+  "entries": {
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 5
+    },
+    "./UndergroundEvolutionItem": {
+      "translation": "",
+      "line": 6
+    },
+    "./UndergroundFossilPieceItem": {
+      "translation": "",
+      "line": 7
+    },
+    "./UndergroundGemItem": {
+      "translation": "",
+      "line": 8
+    },
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 9
+    },
+    "./UndergroundMegaStoneItem": {
+      "translation": "",
+      "line": 10
+    },
+    "./UndergroundShardItem": {
+      "translation": "",
+      "line": 11
+    },
+    "${PokemonType[uItem.type]} Gem": {
+      "translation": "",
+      "line": 43
+    },
+    "Rare_bone": {
+      "translation": "稀有骨",
+      "line": 56
+    },
+    "Star_piece": {
+      "translation": "明星作品",
+      "line": 57
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 58
+    },
+    "Max_revive": {
+      "translation": "最大复活",
+      "line": 59
+    },
+    "Iron_ball": {
+      "translation": "铁球",
+      "line": 60
+    },
+    "Heart_scale": {
+      "translation": "Heart_scale",
+      "line": 61
+    },
+    "Light_clay": {
+      "translation": "轻粘土",
+      "line": 62
+    },
+    "Odd_keystone": {
+      "translation": "奇数梯形校正",
+      "line": 63
+    },
+    "Hard_stone": {
+      "translation": "硬石",
+      "line": 64
+    },
+    "Oval_stone": {
+      "translation": "椭圆石",
+      "line": 65
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 66
+    },
+    "Smooth_rock": {
+      "translation": "平滑岩石",
+      "line": 67
+    },
+    "Heat_rock": {
+      "translation": "热岩石",
+      "line": 68
+    },
+    "Icy_rock": {
+      "translation": "冰冷的岩石",
+      "line": 69
+    },
+    "Damp_rock": {
+      "translation": "潮湿的岩石",
+      "line": 70
+    },
+    "Draco_plate": {
+      "translation": "德拉科_盘",
+      "line": 73
+    },
+    "Dread_plate": {
+      "translation": "恐惧板",
+      "line": 74
+    },
+    "Earth_plate": {
+      "translation": "地球板",
+      "line": 75
+    },
+    "Fist_plate": {
+      "translation": "拳头板",
+      "line": 76
+    },
+    "Flame_plate": {
+      "translation": "火焰板",
+      "line": 77
+    },
+    "Icicle_plate": {
+      "translation": "冰柱_板",
+      "line": 78
+    },
+    "Insect_plate": {
+      "translation": "昆虫盘",
+      "line": 79
+    },
+    "Iron_plate": {
+      "translation": "铁板",
+      "line": 80
+    },
+    "Meadow_plate": {
+      "translation": "草地盘",
+      "line": 81
+    },
+    "Mind_plate": {
+      "translation": "思维板",
+      "line": 82
+    },
+    "Sky_plate": {
+      "translation": "天空盘",
+      "line": 83
+    },
+    "Splash_plate": {
+      "translation": "飞溅板",
+      "line": 84
+    },
+    "Spooky_plate": {
+      "translation": "幽灵盘",
+      "line": 85
+    },
+    "Stone_plate": {
+      "translation": "石板",
+      "line": 86
+    },
+    "Toxic_plate": {
+      "translation": "有毒_板",
+      "line": 87
+    },
+    "Zap_plate": {
+      "translation": "Zap_plate",
+      "line": 88
+    },
+    "Pixie_plate": {
+      "translation": "小精灵_盘",
+      "line": 89
+    },
+    "Blank_plate": {
+      "translation": "空白板",
+      "line": 90
+    },
+    "Helix_fossil": {
+      "translation": "螺旋化石",
+      "line": 93
+    },
+    "Dome_fossil": {
+      "translation": "圆顶化石",
+      "line": 94
+    },
+    "Old_amber": {
+      "translation": "老琥珀",
+      "line": 95
+    },
+    "Root_fossil": {
+      "translation": "根化石",
+      "line": 96
+    },
+    "Claw_fossil": {
+      "translation": "爪化石",
+      "line": 97
+    },
+    "Armor_fossil": {
+      "translation": "铠甲化石",
+      "line": 98
+    },
+    "Skull_fossil": {
+      "translation": "头骨化石",
+      "line": 99
+    },
+    "Cover_fossil": {
+      "translation": "封面_化石",
+      "line": 100
+    },
+    "Plume_fossil": {
+      "translation": "羽化石",
+      "line": 101
+    },
+    "Jaw_fossil": {
+      "translation": "下颌化石",
+      "line": 102
+    },
+    "Sail_fossil": {
+      "translation": "帆化石",
+      "line": 103
+    },
+    "Fossilized_bird": {
+      "translation": "化石鸟",
+      "line": 104
+    },
+    "Fossilized_fish": {
+      "translation": "化石鱼",
+      "line": 105
+    },
+    "Fossilized_drake": {
+      "translation": "化石龙",
+      "line": 106
+    },
+    "Fossilized_dino": {
+      "translation": "恐龙化石",
+      "line": 107
+    },
+    "Fire_stone": {
+      "translation": "火石",
+      "line": 110
+    },
+    "Water_stone": {
+      "translation": "水石",
+      "line": 111
+    },
+    "Thunder_stone": {
+      "translation": "雷石",
+      "line": 112
+    },
+    "Leaf_stone": {
+      "translation": "叶石",
+      "line": 113
+    },
+    "Moon_stone": {
+      "translation": "月光石",
+      "line": 114
+    },
+    "Sun_stone": {
+      "translation": "日之石",
+      "line": 116
+    },
+    "Shiny_stone": {
+      "translation": "异色的石头",
+      "line": 117
+    },
+    "Dusk_stone": {
+      "translation": "黄昏石",
+      "line": 118
+    },
+    "Dawn_stone": {
+      "translation": "黎明石",
+      "line": 119
+    },
+    "Ice_stone": {
+      "translation": "冰石",
+      "line": 120
+    },
+    "Black_augurite": {
+      "translation": "黑铁榴石",
+      "line": 121
+    },
+    "Peat_block": {
+      "translation": "泥炭块",
+      "line": 122
+    },
+    "Red_shard": {
+      "translation": "红_碎片",
+      "line": 130
+    },
+    "Yellow_shard": {
+      "translation": "黄_碎片",
+      "line": 131
+    },
+    "Green_shard": {
+      "translation": "绿色_碎片",
+      "line": 132
+    },
+    "Blue_shard": {
+      "translation": "蓝_碎片",
+      "line": 133
+    },
+    "Grey_shard": {
+      "translation": "灰_碎片",
+      "line": 134
+    },
+    "Purple_shard": {
+      "translation": "紫色碎片",
+      "line": 135
+    },
+    "Ochre_shard": {
+      "translation": "赭石_碎片",
+      "line": 136
+    },
+    "Black_shard": {
+      "translation": "黑碎片",
+      "line": 137
+    },
+    "Crimson_shard": {
+      "translation": "Crimson_shard",
+      "line": 138
+    },
+    "Lime_shard": {
+      "translation": "石灰_碎片",
+      "line": 139
+    },
+    "White_shard": {
+      "translation": "白碎片",
+      "line": 140
+    },
+    "Pink_shard": {
+      "translation": "粉红_碎片",
+      "line": 141
+    },
+    "Cyan_shard": {
+      "translation": "青色_碎片",
+      "line": 142
+    },
+    "Rose_shard": {
+      "translation": "玫瑰碎片",
+      "line": 143
+    },
+    "Brown_shard": {
+      "translation": "棕色碎片",
+      "line": 144
+    },
+    "Beige_shard": {
+      "translation": "米色_碎片",
+      "line": 145
+    },
+    "Slate_shard": {
+      "translation": "石板分片",
+      "line": 146
+    },
+    "Aerodactylite": {
+      "translation": "",
+      "line": 149
+    },
+    "Aerodactyl": {
+      "translation": "化石翼龙",
+      "line": 149
+    },
+    "Mawilite": {
+      "translation": "马维利特",
+      "line": 150
+    },
+    "Mawile": {
+      "translation": "大嘴娃",
+      "line": 150
+    },
+    "Sablenite": {
+      "translation": "沙长石",
+      "line": 151
+    },
+    "Sableye": {
+      "translation": "勾魂眼",
+      "line": 151
+    },
+    "Palaeontologist_token": {
+      "translation": "古生物学家_token",
+      "line": 154
+    }
+  }
+}

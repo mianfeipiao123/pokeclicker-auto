@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/mutation/mutationTypes/OakMutation.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "I've heard that using the ${App.game.oakItems.itemList[this.oakItem].displayName} can cause ${BerryType[this.originalBerry]} Berries to change!": {
+      "translation": "",
+      "line": 60
+    }
+  }
+}

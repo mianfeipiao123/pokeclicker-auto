@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/Safari.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 44,
+    "translatedCount": 33
+  },
+  "entries": {
+    "up": {
+      "translation": "向上",
+      "line": 6
+    },
+    "#safariModal .modal-dialog": {
+      "translation": "#safariModal .modal-dialog",
+      "line": 52
+    },
+    "fence": {
+      "translation": "栅栏",
+      "line": 120
+    },
+    "water": {
+      "translation": "水",
+      "line": 127
+    },
+    "grass": {
+      "translation": "草",
+      "line": 140
+    },
+    "Safari Zone": {
+      "translation": "野生动物园区",
+      "line": 229
+    },
+    "You have an active Safari in ${GameConstants.camelCaseToString(GameConstants.Region[Safari.activeRegion()])}.\nDo you want to quit that Safari and start a new one?": {
+      "translation": "",
+      "line": 230
+    },
+    "Quit": {
+      "translation": "辞职",
+      "line": 232
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 239
+    },
+    "hidden": {
+      "translation": "隐",
+      "line": 246
+    },
+    "static": {
+      "translation": "静止的",
+      "line": 253
+    },
+    "You need the Safari Pass to access this location.\n<i>Visit the Gym in Fuschia City</i>": {
+      "translation": "你需要狩猎通行证才能进入此地点。\n<i>请访问�的浅红市的道馆</i>",
+      "line": 267
+    },
+    "sprite": {
+      "translation": "精灵",
+      "line": 327
+    },
+    "walk${Safari.lastDirection}": {
+      "translation": "",
+      "line": 327
+    },
+    "#safari-${newPos.x}-${newPos.y}": {
+      "translation": "",
+      "line": 375
+    },
+    "+=${directionOffset.y * 32}": {
+      "translation": "",
+      "line": 379
+    },
+    "+=${directionOffset.x * 32}": {
+      "translation": "",
+      "line": 380
+    },
+    "walk${direction} moving": {
+      "translation": "",
+      "line": 383
+    },
+    "linear": {
+      "translation": "线性",
+      "line": 390
+    },
+    "walk${direction}": {
+      "translation": "",
+      "line": 398
+    },
+    "left": {
+      "translation": "左边",
+      "line": 502
+    },
+    "right": {
+      "translation": "正确的",
+      "line": 504
+    },
+    "down": {
+      "translation": "向下",
+      "line": 505
+    },
+    "You found ${GameHelper.anOrA(name)} ${name}!": {
+      "translation": "",
+      "line": 593
+    },
+    "hover": {
+      "translation": "徘徊",
+      "line": 618
+    },
+    "Max level reached": {
+      "translation": "已达到最高等级",
+      "line": 621
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 623
+    },
+    "Up": {
+      "translation": "向上",
+      "line": 639
+    },
+    "Left": {
+      "translation": "左边",
+      "line": 639
+    },
+    "Down": {
+      "translation": "向下",
+      "line": 639
+    },
+    "Right": {
+      "translation": "正确的",
+      "line": 639
+    },
+    "safari-dpad-${dir.toLowerCase()}": {
+      "translation": "",
+      "line": 640
+    },
+    "Arrow${dir}": {
+      "translation": "",
+      "line": 641
+    },
+    "mousedown": {
+      "translation": "鼠标按下",
+      "line": 643
+    },
+    "mouseout": {
+      "translation": "鼠标移开",
+      "line": 644
+    },
+    "mouseup": {
+      "translation": "鼠标向上",
+      "line": 645
+    },
+    "touchstart": {
+      "translation": "触摸启动",
+      "line": 646
+    },
+    "touchend": {
+      "translation": "触摸端",
+      "line": 647
+    },
+    "touchcancel": {
+      "translation": "触摸取消",
+      "line": 648
+    },
+    "hide.bs.modal": {
+      "translation": "",
+      "line": 651
+    },
+    "National Park": {
+      "translation": "国家公园",
+      "line": 659
+    },
+    "Great Marsh": {
+      "translation": "大沼泽",
+      "line": 662
+    },
+    "Friend Safari": {
+      "translation": "朋友野生动物园",
+      "line": 665
+    },
+    "Hoppy Town Fishing Pond": {
+      "translation": "霍皮镇钓鱼池",
+      "line": 668
+    }
+  }
+}

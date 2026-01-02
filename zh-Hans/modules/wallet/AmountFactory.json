@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/wallet/AmountFactory.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Amount": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

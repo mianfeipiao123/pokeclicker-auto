@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/Player.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 1
+  },
+  "entries": {
+    "Welcome Time Traveller!": {
+      "translation": "欢迎，时间旅行者！",
+      "line": 42
+    },
+    "Please ensure you keep a backup of your old save as travelling through time can cause some serious problems.\n\nAny Pokémon you may have obtained in the future could cease to exist which could corrupt your save file!": {
+      "translation": "",
+      "line": 43
+    },
+    "${partyPokemon.displayName} has gained a Mega Stone!": {
+      "translation": "",
+      "line": 196
+    },
+    "You have gained a Mega Stone for ${item.basePokemon}!": {
+      "translation": "",
+      "line": 196
+    },
+    "_route": {
+      "translation": "",
+      "line": 219
+    },
+    "_region": {
+      "translation": "",
+      "line": 220
+    },
+    "_subregion": {
+      "translation": "",
+      "line": 221
+    },
+    "_townName": {
+      "translation": "",
+      "line": 222
+    },
+    "_itemList": {
+      "translation": "",
+      "line": 223
+    },
+    "_itemMultipliers": {
+      "translation": "",
+      "line": 224
+    },
+    "_lastSeen": {
+      "translation": "",
+      "line": 225
+    },
+    "_timeTraveller": {
+      "translation": "",
+      "line": 226
+    },
+    "_origins": {
+      "translation": "",
+      "line": 227
+    },
+    "_createdTime": {
+      "translation": "",
+      "line": 233
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/pokemons/PokemonLocations.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 4
+  },
+  "entries": {
+    "string": {
+      "translation": "细绳",
+      "line": 121
+    },
+    "pokemon": {
+      "translation": "宝可梦",
+      "line": 123
+    },
+    "Always": {
+      "translation": "总是",
+      "line": 384
+    },
+    "Milcery (Cheesy)": {
+      "translation": "[[Milcery]] (干酪)",
+      "line": 583
+    }
+  }
+}

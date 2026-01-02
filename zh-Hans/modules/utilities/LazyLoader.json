@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/LazyLoader.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 16,
+    "translatedCount": 7
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 2
+    },
+    "./GameLoadState": {
+      "translation": "",
+      "line": 3
+    },
+    "scroll": {
+      "translation": "",
+      "line": 72
+    },
+    "auto": {
+      "translation": "自动",
+      "line": 72
+    },
+    "Could not find scrolling parent for LazyLoader '${key}'": {
+      "translation": "",
+      "line": 77
+    },
+    "Invalid reset function used for '${key}' lazyLoad": {
+      "translation": "",
+      "line": 86
+    },
+    "div": {
+      "translation": "分区",
+      "line": 98
+    },
+    "lazy-loader-container": {
+      "translation": "",
+      "line": 99
+    },
+    "img": {
+      "translation": "图像",
+      "line": 100
+    },
+    "assets/images/pokeball/Pokeball.svg": {
+      "translation": "",
+      "line": 101
+    },
+    "loader-pokeball": {
+      "translation": "",
+      "line": 102
+    },
+    ":not(table, thead, tbody, tr, td, th)": {
+      "translation": ":not(表、thead、tbody、tr、td、th)",
+      "line": 139
+    },
+    ":scope > .lazy-loader-container": {
+      "translation": "：范围> .lazy-loader-container",
+      "line": 142
+    },
+    "display": {
+      "translation": "",
+      "line": 172
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 174
+    }
+  }
+}

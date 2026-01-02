@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/koExtenders.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 4
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "Cannot apply 'numeric' extender to a non-writable observable!": {
+      "translation": "无法将“数字”扩展器应用于不可写的可观察对象！",
+      "line": 21
+    },
+    "The 'numeric' extender requires integer precision!": {
+      "translation": "“数字”扩展器需要整数精度！",
+      "line": 24
+    },
+    "Cannot apply 'boolean' extender to a non-writable observable!": {
+      "translation": "无法将“布尔”扩展器应用于不可写的可观察对象！",
+      "line": 94
+    },
+    "always": {
+      "translation": "",
+      "line": 102
+    }
+  }
+}

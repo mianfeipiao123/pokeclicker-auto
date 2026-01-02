@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/ObtainedPokemonRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "${this.pokemon} needs to be owned.": {
+      "translation": "",
+      "line": 16
+    },
+    "${this.pokemon} cannot be owned yet.": {
+      "translation": "",
+      "line": 17
+    }
+  }
+}

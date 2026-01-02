@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/achievements/PokerusStatusByFilterRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "${this.requiredValue} Pokémon needs to be infected.": {
+      "translation": "",
+      "line": 17
+    }
+  }
+}

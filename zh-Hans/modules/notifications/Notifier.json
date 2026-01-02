@@ -1,0 +1,274 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/notifications/Notifier.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 66,
+    "translatedCount": 20
+  },
+  "entries": {
+    "./NotificationOption": {
+      "translation": "",
+      "line": 1
+    },
+    "../utilities/Sound": {
+      "translation": "",
+      "line": 2
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 3
+    },
+    "../settings/NotificationSetting": {
+      "translation": "",
+      "line": 4
+    },
+    "just now": {
+      "translation": "现在",
+      "line": 12
+    },
+    "granted": {
+      "translation": "的确",
+      "line": 36
+    },
+    "div": {
+      "translation": "分区",
+      "line": 37
+    },
+    "toast bg-${NotificationOption[type]}": {
+      "translation": "",
+      "line": 57
+    },
+    "false": {
+      "translation": "",
+      "line": 57
+    },
+    "toast-header": {
+      "translation": "",
+      "line": 58
+    },
+    "icon": {
+      "translation": "",
+      "line": 59
+    },
+    "<img src=\"${image}\" class=\"icon\" />": {
+      "translation": "",
+      "line": 59
+    },
+    "<img src=\"${pokemonImage}\" class=\"pokemonIcon\" />": {
+      "translation": "",
+      "line": 60
+    },
+    "mr-auto text-primary": {
+      "translation": "",
+      "line": 61
+    },
+    "text-muted": {
+      "translation": "文本静音",
+      "line": 62
+    },
+    "button": {
+      "translation": "",
+      "line": 63
+    },
+    "ml-2 mb-1 close": {
+      "translation": "",
+      "line": 63
+    },
+    "toast": {
+      "translation": "",
+      "line": 63
+    },
+    "toast-body text-light d-flex align-items-center": {
+      "translation": "",
+      "line": 65
+    },
+    "<br/>": {
+      "translation": "<br/>",
+      "line": 68
+    },
+    "flex-grow-1": {
+      "translation": "",
+      "line": 68
+    },
+    "<button type=\"button\" class=\"close align-self-start\" data-dismiss=\"toast\">×</button>": {
+      "translation": "",
+      "line": 69
+    },
+    "close align-self-start": {
+      "translation": "",
+      "line": 69
+    },
+    "show": {
+      "translation": "展示",
+      "line": 76
+    },
+    "#${toastID}": {
+      "translation": "",
+      "line": 76
+    },
+    "shown.bs.toast": {
+      "translation": "",
+      "line": 79
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 81
+    },
+    "hidden.bs.toast": {
+      "translation": "",
+      "line": 86
+    },
+    "modal fade noselect": {
+      "translation": "",
+      "line": 114
+    },
+    "modal${modalID}": {
+      "translation": "",
+      "line": 114
+    },
+    "dialog": {
+      "translation": "",
+      "line": 114
+    },
+    "prompt": {
+      "translation": "",
+      "line": 114
+    },
+    "modal-dialog modal-dialog-scrollable modal-sm": {
+      "translation": "",
+      "line": 115
+    },
+    "document": {
+      "translation": "",
+      "line": 115
+    },
+    "modal-content": {
+      "translation": "",
+      "line": 116
+    },
+    "modal-header modal-header pb-0 pt-2 px-2 bg-${NotificationOption[type]}": {
+      "translation": "",
+      "line": 117
+    },
+    "promptClose${modalID}": {
+      "translation": "",
+      "line": 119
+    },
+    "close": {
+      "translation": "",
+      "line": 119
+    },
+    "modal": {
+      "translation": "",
+      "line": 119
+    },
+    "Close": {
+      "translation": "关闭",
+      "line": 119
+    },
+    "true": {
+      "translation": "真的",
+      "line": 120
+    },
+    "modal-body py-2 px-2 text-left": {
+      "translation": "",
+      "line": 123
+    },
+    "outline-dark form-control": {
+      "translation": "",
+      "line": 127
+    },
+    "Type here..": {
+      "translation": "在此输入..",
+      "line": 127
+    },
+    "promptInput${modalID}": {
+      "translation": "",
+      "line": 127
+    },
+    "text": {
+      "translation": "文本",
+      "line": 127
+    },
+    "modal-footer p-2": {
+      "translation": "",
+      "line": 129
+    },
+    "btn btn-block outline-dark btn-${NotificationOption[type]}": {
+      "translation": "",
+      "line": 130
+    },
+    "keyup": {
+      "translation": "按键",
+      "line": 137
+    },
+    "Enter": {
+      "translation": "进入",
+      "line": 138
+    },
+    "#modal${modalID}": {
+      "translation": "",
+      "line": 139
+    },
+    "Escape": {
+      "translation": "逃脱",
+      "line": 141
+    },
+    "#promptInput${modalID}": {
+      "translation": "",
+      "line": 142
+    },
+    "static": {
+      "translation": "静止的",
+      "line": 147
+    },
+    "shown.bs.modal": {
+      "translation": "",
+      "line": 152
+    },
+    "click": {
+      "translation": "点击",
+      "line": 162
+    },
+    "hidden.bs.modal": {
+      "translation": "",
+      "line": 167
+    },
+    "Ok": {
+      "translation": "好的",
+      "line": 180
+    },
+    "Cancel": {
+      "translation": "取消",
+      "line": 181
+    },
+    "btn col outline-dark btn-${NotificationOption[type]}": {
+      "translation": "",
+      "line": 216
+    },
+    "modalConfirm${modalID}": {
+      "translation": "",
+      "line": 216
+    },
+    "btn col outline-dark btn-secondary": {
+      "translation": "",
+      "line": 217
+    },
+    "I understand": {
+      "translation": "我明白",
+      "line": 253
+    },
+    "modal-title": {
+      "translation": "",
+      "line": 278
+    },
+    "modal-body py-2 px-2 text-left text-center": {
+      "translation": "",
+      "line": 280
+    },
+    "text-warning": {
+      "translation": "文字警告",
+      "line": 281
+    }
+  }
+}

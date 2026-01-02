@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/routes/Routes.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./RegionRoute": {
+      "translation": "",
+      "line": 2
+    },
+    "../subRegion/SubRegions": {
+      "translation": "",
+      "line": 3
+    },
+    "Unknown Route": {
+      "translation": "未知路线",
+      "line": 35
+    },
+    " in ${regionName}": {
+      "translation": "",
+      "line": 37
+    },
+    " in ${subRegionName}": {
+      "translation": "",
+      "line": 41
+    },
+    "Not implemented for ignoreRouteInCalculations = true on first region route": {
+      "translation": "未在第一个区域路线上实现ignoreRouteInCalculations = true",
+      "line": 66
+    }
+  }
+}

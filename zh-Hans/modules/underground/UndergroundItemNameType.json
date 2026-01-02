@@ -1,0 +1,318 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundItemNameType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 77,
+    "translatedCount": 75
+  },
+  "entries": {
+    "${i.replace(/": {
+      "translation": "",
+      "line": 7
+    },
+    "'${i.replace(/'/g, \"\\'\")}'": {
+      "translation": "",
+      "line": 7
+    },
+    "Rare Bone": {
+      "translation": "稀有骨头",
+      "line": 13
+    },
+    "Star Piece": {
+      "translation": "星星片",
+      "line": 14
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 15
+    },
+    "Max Revive": {
+      "translation": "最大复活",
+      "line": 16
+    },
+    "Iron Ball": {
+      "translation": "铁球",
+      "line": 17
+    },
+    "Heart Scale": {
+      "translation": "心脏量表",
+      "line": 18
+    },
+    "Light Clay": {
+      "translation": "轻粘土",
+      "line": 19
+    },
+    "Odd Keystone": {
+      "translation": "奇数梯形校正",
+      "line": 20
+    },
+    "Hard Stone": {
+      "translation": "坚硬的石头",
+      "line": 21
+    },
+    "Oval Stone": {
+      "translation": "椭圆形石",
+      "line": 22
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 23
+    },
+    "Smooth Rock": {
+      "translation": "平滑岩石",
+      "line": 24
+    },
+    "Heat Rock": {
+      "translation": "热岩石",
+      "line": 25
+    },
+    "Icy Rock": {
+      "translation": "冰冷的岩石",
+      "line": 26
+    },
+    "Damp Rock": {
+      "translation": "潮湿的岩石",
+      "line": 27
+    },
+    "Draco Plate": {
+      "translation": "德拉科板甲",
+      "line": 28
+    },
+    "Dread Plate": {
+      "translation": "恐惧板甲",
+      "line": 29
+    },
+    "Earth Plate": {
+      "translation": "地球板",
+      "line": 30
+    },
+    "Fist Plate": {
+      "translation": "拳头板",
+      "line": 31
+    },
+    "Flame Plate": {
+      "translation": "火焰板",
+      "line": 32
+    },
+    "Icicle Plate": {
+      "translation": "冰柱板",
+      "line": 33
+    },
+    "Insect Plate": {
+      "translation": "昆虫盘",
+      "line": 34
+    },
+    "Iron Plate": {
+      "translation": "铁板",
+      "line": 35
+    },
+    "Meadow Plate": {
+      "translation": "草甸板",
+      "line": 36
+    },
+    "Mind Plate": {
+      "translation": "思维板",
+      "line": 37
+    },
+    "Sky Plate": {
+      "translation": "天空板",
+      "line": 38
+    },
+    "Splash Plate": {
+      "translation": "防溅板",
+      "line": 39
+    },
+    "Spooky Plate": {
+      "translation": "幽灵盘",
+      "line": 40
+    },
+    "Stone Plate": {
+      "translation": "石板",
+      "line": 41
+    },
+    "Toxic Plate": {
+      "translation": "剧毒板",
+      "line": 42
+    },
+    "Zap Plate": {
+      "translation": "电击板",
+      "line": 43
+    },
+    "Pixie Plate": {
+      "translation": "精灵盘",
+      "line": 44
+    },
+    "Blank Plate": {
+      "translation": "空白板",
+      "line": 45
+    },
+    "Helix Fossil": {
+      "translation": "贝壳化石",
+      "line": 46
+    },
+    "Dome Fossil": {
+      "translation": "甲壳化石",
+      "line": 47
+    },
+    "Old Amber": {
+      "translation": "秘琥珀",
+      "line": 48
+    },
+    "Root Fossil": {
+      "translation": "根状化石",
+      "line": 49
+    },
+    "Claw Fossil": {
+      "translation": "爪子化石",
+      "line": 50
+    },
+    "Armor Fossil": {
+      "translation": "铠甲化石",
+      "line": 51
+    },
+    "Skull Fossil": {
+      "translation": "头骨化石",
+      "line": 52
+    },
+    "Cover Fossil": {
+      "translation": "盖盖虫化石",
+      "line": 53
+    },
+    "Plume Fossil": {
+      "translation": "羽毛化石",
+      "line": 54
+    },
+    "Jaw Fossil": {
+      "translation": "颚骨化石",
+      "line": 55
+    },
+    "Sail Fossil": {
+      "translation": "帆帆化石",
+      "line": 56
+    },
+    "Fossilized Bird": {
+      "translation": "化石鸟",
+      "line": 57
+    },
+    "Fossilized Fish": {
+      "translation": "鱼化石",
+      "line": 58
+    },
+    "Fossilized Drake": {
+      "translation": "化石幼龙",
+      "line": 59
+    },
+    "Fossilized Dino": {
+      "translation": "恐龙化石",
+      "line": 60
+    },
+    "Fire Stone": {
+      "translation": "火之石",
+      "line": 61
+    },
+    "Water Stone": {
+      "translation": "水之石",
+      "line": 62
+    },
+    "Thunder Stone": {
+      "translation": "雷之石",
+      "line": 63
+    },
+    "Leaf Stone": {
+      "translation": "叶之石",
+      "line": 64
+    },
+    "Moon Stone": {
+      "translation": "月之石",
+      "line": 65
+    },
+    "Sun Stone": {
+      "translation": "日之石",
+      "line": 66
+    },
+    "Shiny Stone": {
+      "translation": "异色的石头",
+      "line": 67
+    },
+    "Dusk Stone": {
+      "translation": "黄昏石",
+      "line": 68
+    },
+    "Dawn Stone": {
+      "translation": "黎明石",
+      "line": 69
+    },
+    "Ice Stone": {
+      "translation": "冰石",
+      "line": 70
+    },
+    "Red Shard": {
+      "translation": "红色碎片",
+      "line": 71
+    },
+    "Yellow Shard": {
+      "translation": "黄色碎片",
+      "line": 72
+    },
+    "Green Shard": {
+      "translation": "绿色碎片",
+      "line": 73
+    },
+    "Blue Shard": {
+      "translation": "蓝色碎片",
+      "line": 74
+    },
+    "Grey Shard": {
+      "translation": "灰色碎片",
+      "line": 75
+    },
+    "Purple Shard": {
+      "translation": "紫色碎片",
+      "line": 76
+    },
+    "Ochre Shard": {
+      "translation": "赭色碎片",
+      "line": 77
+    },
+    "Black Shard": {
+      "translation": "黑色碎片",
+      "line": 78
+    },
+    "Crimson Shard": {
+      "translation": "深红碎片",
+      "line": 79
+    },
+    "Lime Shard": {
+      "translation": "石灰碎片",
+      "line": 80
+    },
+    "White Shard": {
+      "translation": "白色碎片",
+      "line": 81
+    },
+    "Pink Shard": {
+      "translation": "粉色碎片",
+      "line": 82
+    },
+    "Cyan Shard": {
+      "translation": "青色碎片",
+      "line": 83
+    },
+    "Rose Shard": {
+      "translation": "玫瑰碎片",
+      "line": 84
+    },
+    "Brown Shard": {
+      "translation": "棕色碎片",
+      "line": 85
+    },
+    "Beige Shard": {
+      "translation": "米色碎片",
+      "line": 86
+    },
+    "Slate Shard": {
+      "translation": "板岩碎片",
+      "line": 87
+    }
+  }
+}

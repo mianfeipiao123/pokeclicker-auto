@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/QuestLineCompletedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../quests/QuestLineState": {
+      "translation": "",
+      "line": 2
+    },
+    "../quests/QuestLineNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "../TemporaryScriptTypes": {
+      "translation": "",
+      "line": 4
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 6
+    },
+    "completed": {
+      "translation": "完全的",
+      "line": 26
+    },
+    "incomplete": {
+      "translation": "不完整的",
+      "line": 26
+    },
+    "Questline ${this.quest.displayName} needs to be ${this.option !== AchievementOption.less ? 'completed' : 'incomplete'}.": {
+      "translation": "",
+      "line": 26
+    }
+  }
+}

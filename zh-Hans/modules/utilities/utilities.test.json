@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/utilities.test.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 18,
+    "translatedCount": 14
+  },
+  "entries": {
+    "random": {
+      "translation": "随机的",
+      "line": 4
+    },
+    "./SeededRand": {
+      "translation": "",
+      "line": 6
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "./Rand": {
+      "translation": "",
+      "line": 8
+    },
+    "Test SeededRand & Rand": {
+      "translation": "测试 SeededRand 和 Rand",
+      "line": 10
+    },
+    "Test rand": {
+      "translation": "测试兰德",
+      "line": 11
+    },
+    "Test seeding": {
+      "translation": "试播",
+      "line": 15
+    },
+    "Test int between": {
+      "translation": "测试之间的整数",
+      "line": 24
+    },
+    "Test floored value": {
+      "translation": "测试下限值",
+      "line": 29
+    },
+    "Test float value": {
+      "translation": "测试浮点值",
+      "line": 34
+    },
+    "Test boolean": {
+      "translation": "测试布尔值",
+      "line": 39
+    },
+    "Test chance": {
+      "translation": "测试机会",
+      "line": 44
+    },
+    "Test array": {
+      "translation": "测试阵列",
+      "line": 50
+    },
+    "Test weighted array": {
+      "translation": "测试加权数组",
+      "line": 55
+    },
+    "Test enum": {
+      "translation": "测试枚举",
+      "line": 60
+    },
+    "Test random string": {
+      "translation": "测试随机字符串",
+      "line": 65
+    },
+    "pcvqpeza3a": {
+      "translation": "",
+      "line": 67
+    },
+    "Test shuffle array": {
+      "translation": "测试随机数组",
+      "line": 70
+    }
+  }
+}

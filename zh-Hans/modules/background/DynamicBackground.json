@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/background/DynamicBackground.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 26,
+    "translatedCount": 7
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 8
+    },
+    "../pokemons/PokemonList": {
+      "translation": "",
+      "line": 9
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 10
+    },
+    "sun": {
+      "translation": "太阳",
+      "line": 35
+    },
+    "${sunY}px": {
+      "translation": "",
+      "line": 36
+    },
+    "${sunX}px": {
+      "translation": "",
+      "line": 37
+    },
+    "moon": {
+      "translation": "月亮",
+      "line": 38
+    },
+    "${moonY}px": {
+      "translation": "",
+      "line": 39
+    },
+    "${moonX}px": {
+      "translation": "",
+      "line": 40
+    },
+    "sky1": {
+      "translation": "天空1",
+      "line": 60
+    },
+    "sky sky-${bgNumber}": {
+      "translation": "",
+      "line": 60
+    },
+    "sky2": {
+      "translation": "天空2",
+      "line": 61
+    },
+    "sky sky-${bgNumberNext}": {
+      "translation": "",
+      "line": 62
+    },
+    "ground1": {
+      "translation": "地面1",
+      "line": 65
+    },
+    "ground ground-${bgNumber}": {
+      "translation": "",
+      "line": 65
+    },
+    "ground2": {
+      "translation": "地面2",
+      "line": 66
+    },
+    "ground ground-${bgNumberNext}": {
+      "translation": "",
+      "line": 67
+    },
+    "div": {
+      "translation": "分区",
+      "line": 102
+    },
+    "${Rand.intBetween(20, 90)}vh": {
+      "translation": "",
+      "line": 103
+    },
+    "${Rand.intBetween(5, 15)}vh": {
+      "translation": "",
+      "line": 103
+    },
+    "url('assets/images/dynamic-background/pokemon/sparkle.png'), ": {
+      "translation": "",
+      "line": 104
+    },
+    "assets/images/dynamic-background/pokemon/${id.toString()}${shiny ? ": {
+      "translation": "",
+      "line": 104
+    },
+    "}.png": {
+      "translation": "",
+      "line": 104
+    },
+    "${shiny ? 'url('assets/images/dynamic-background/pokemon/sparkle.png'), ' : ''}url('assets/images/dynamic-background/pokemon/${id.toString()}${shiny ? 's' : ''}.png')": {
+      "translation": "",
+      "line": 104
+    },
+    "speed-${moveSpeed}": {
+      "translation": "",
+      "line": 106
+    },
+    "dynamic-background": {
+      "translation": "",
+      "line": 107
+    }
+  }
+}

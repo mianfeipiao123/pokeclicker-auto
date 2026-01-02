@@ -1,0 +1,2438 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/achievements/AchievementHandler.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 607,
+    "translatedCount": 539
+  },
+  "entries": {
+    "all": {
+      "translation": "全部",
+      "line": 41
+    },
+    "show": {
+      "translation": "展示",
+      "line": 52
+    },
+    "secret": {
+      "translation": "秘密",
+      "line": 78
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 221
+    },
+    "percent": {
+      "translation": "百分比",
+      "line": 221
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 233
+    },
+    "final": {
+      "translation": "最终的",
+      "line": 233
+    },
+    "My First Hundo": {
+      "translation": "我的第一次寻梦",
+      "line": 259
+    },
+    "Obtain 100 Pokédollars.": {
+      "translation": "获得100宝可梦币。",
+      "line": 259
+    },
+    "I Should Buy a Poké Mart": {
+      "translation": "我应该买一个 Poké Mart",
+      "line": 260
+    },
+    "Obtain 1,000 Pokédollars.": {
+      "translation": "获得1,000宝可梦币。",
+      "line": 260
+    },
+    "A Small Fortune": {
+      "translation": "一笔小财富",
+      "line": 261
+    },
+    "Obtain 10,000 Pokédollars.": {
+      "translation": "获得10,000宝可梦币。",
+      "line": 261
+    },
+    "Annual Wage": {
+      "translation": "年工资",
+      "line": 262
+    },
+    "Obtain 100,000 Pokédollars.": {
+      "translation": "获得100,000宝可梦币。",
+      "line": 262
+    },
+    "Pfft, I Don't Need a Bike Voucher": {
+      "translation": "噗，我不需要自行车券",
+      "line": 263
+    },
+    "Obtain 1,000,000 Pokédollars.": {
+      "translation": "获得1,000,000宝可梦币。",
+      "line": 263
+    },
+    "A Billion Poképennies": {
+      "translation": "十亿宝可梦",
+      "line": 264
+    },
+    "Obtain 10,000,000 Pokédollars.": {
+      "translation": "获得10,000,000宝可梦币。",
+      "line": 264
+    },
+    "Ready To Retire": {
+      "translation": "准备退休",
+      "line": 265
+    },
+    "Obtain 1,000,000,000 Pokédollars.": {
+      "translation": "获得1,000,000,000宝可梦币。",
+      "line": 265
+    },
+    "I Should Go to Space...": {
+      "translation": "我应该去太空...",
+      "line": 266
+    },
+    "Obtain 100,000,000,000 Pokédollars.": {
+      "translation": "获得100,000,000,000宝可梦币。",
+      "line": 266
+    },
+    "Dungeon Time": {
+      "translation": "迷宫时间",
+      "line": 268
+    },
+    "Obtain 100 Dungeon Tokens.": {
+      "translation": "获得100个迷宫代币。",
+      "line": 268
+    },
+    "Token Collector": {
+      "translation": "代币收集者",
+      "line": 269
+    },
+    "Obtain 1,000 Dungeon Tokens.": {
+      "translation": "获得1,000个迷宫代币。",
+      "line": 269
+    },
+    "Dungeon Grinder": {
+      "translation": "迷宫研磨机",
+      "line": 270
+    },
+    "Obtain 10,000 Dungeon Tokens.": {
+      "translation": "获得10,000个迷宫代币。",
+      "line": 270
+    },
+    "Dungeon Master": {
+      "translation": "迷宫主",
+      "line": 271
+    },
+    "Obtain 100,000 Dungeon Tokens.": {
+      "translation": "获得100,000个迷宫代币。",
+      "line": 271
+    },
+    "Dungeon Legend": {
+      "translation": "迷宫传奇",
+      "line": 272
+    },
+    "Obtain 1,000,000 Dungeon Tokens.": {
+      "translation": "获得1,000,000个迷宫代币。",
+      "line": 272
+    },
+    "Dungeon Myth": {
+      "translation": "迷宫神话",
+      "line": 273
+    },
+    "Obtain 100,000,000 Dungeon Tokens.": {
+      "translation": "获得100,000,000个迷宫代币。",
+      "line": 273
+    },
+    "Dungeon God": {
+      "translation": "迷宫之神",
+      "line": 274
+    },
+    "Obtain 10,000,000,000 Dungeon Tokens.": {
+      "translation": "获得10,000,000,000迷宫代币。",
+      "line": 274
+    },
+    "Farm Master": {
+      "translation": "农场主",
+      "line": 276
+    },
+    "Obtain 100,000 Farm Points.": {
+      "translation": "获得100,000农场点数。",
+      "line": 276
+    },
+    "Farm Legend": {
+      "translation": "农场传奇",
+      "line": 277
+    },
+    "Obtain 1,000,000 Farm Points.": {
+      "translation": "获得1,000,000农场点数。",
+      "line": 277
+    },
+    "Farm Myth": {
+      "translation": "农场神话",
+      "line": 278
+    },
+    "Obtain 20,000,000 Farm Points.": {
+      "translation": "获得20,000,000农场点数。",
+      "line": 278
+    },
+    "Startin' Out": {
+      "translation": "开始出发",
+      "line": 280
+    },
+    "Capture your first Pokémon.": {
+      "translation": "捕捉你的第一只宝可梦。",
+      "line": 280
+    },
+    "Better Than Season 1 Ash": {
+      "translation": "比第一季《灰烬》更好",
+      "line": 281
+    },
+    "Capture 15 unique Pokémon.": {
+      "translation": "捕获15只独特的宝可梦。",
+      "line": 281
+    },
+    "Wonderful! Do You Like To Collect Things?": {
+      "translation": "精彩的！你喜欢收集东西吗？",
+      "line": 282
+    },
+    "Capture 50 unique Pokémon.": {
+      "translation": "捕获50个独特的宝可梦。",
+      "line": 282
+    },
+    "Surpassing Ash": {
+      "translation": "超越灰烬",
+      "line": 283
+    },
+    "Capture 100 unique Pokémon.": {
+      "translation": "捕获100个独特的宝可梦。",
+      "line": 283
+    },
+    "Enough for a Zoo": {
+      "translation": "足够动物园了",
+      "line": 284
+    },
+    "Capture 500 unique Pokémon.": {
+      "translation": "捕获500只独特的宝可梦。",
+      "line": 284
+    },
+    "The PC Will Be Filled": {
+      "translation": "PC将被填满",
+      "line": 285
+    },
+    "Capture 1,000 unique Pokémon.": {
+      "translation": "捕获1,000个独特的宝可梦。",
+      "line": 285
+    },
+    "I'd Rather Be Shiny": {
+      "translation": "我宁愿是异色的",
+      "line": 287
+    },
+    "Capture your first Shiny Pokémon.": {
+      "translation": "捕捉你的第一只异色宝可梦。",
+      "line": 287
+    },
+    "These Pokémon Must Be Sick": {
+      "translation": "这些宝可梦一定是生病了",
+      "line": 288
+    },
+    "Capture 10 unique Shiny Pokémon.": {
+      "translation": "捕获10只独特的异色宝可梦。",
+      "line": 288
+    },
+    "Why Am I Doing This?": {
+      "translation": "我为什么要这样做？",
+      "line": 289
+    },
+    "Capture 20 unique Shiny Pokémon.": {
+      "translation": "捕获20只独特的异色宝可梦。",
+      "line": 289
+    },
+    "Why Am I Still Doing This?!": {
+      "translation": "我为什么还要这样做？！",
+      "line": 290
+    },
+    "Capture 30 unique Shiny Pokémon.": {
+      "translation": "捕获30只独特的异色宝可梦。",
+      "line": 290
+    },
+    "Okay Fine, I Can Do a Few More": {
+      "translation": "好吧，我可以再做一些",
+      "line": 291
+    },
+    "Capture 40 unique Shiny Pokémon.": {
+      "translation": "捕获40只独特的异色宝可梦。",
+      "line": 291
+    },
+    "Where Did All the Shiny Pokémon Go?": {
+      "translation": "异色宝可梦都去哪儿了？",
+      "line": 292
+    },
+    "Capture 50 unique Shiny Pokémon.": {
+      "translation": "捕捉50只独特的异色宝可梦。",
+      "line": 292
+    },
+    "Nvm, Found Some More": {
+      "translation": "Nvm，发现更多",
+      "line": 293
+    },
+    "Capture 75 unique Shiny Pokémon.": {
+      "translation": "捕获75只独特的异色宝可梦。",
+      "line": 293
+    },
+    "Just Keep Swimming Just Keep Swimming - Oooo Shiny!": {
+      "translation": "Just Keep Swim Just Keep Swim - Oooo Shiny！",
+      "line": 294
+    },
+    "Capture 100 unique Shiny Pokémon.": {
+      "translation": "捕捉100只独特的异色宝可梦。",
+      "line": 294
+    },
+    "I Don't Know if I Can Handle the Next Batch of Shinies": {
+      "translation": "我不知道我是否能处理下一批异色宝可梦",
+      "line": 295
+    },
+    "Capture 151 unique Shiny Pokémon!": {
+      "translation": "捕获151只独特的异色宝可梦！",
+      "line": 295
+    },
+    "Will Need Sunglasses": {
+      "translation": "需要太阳镜",
+      "line": 296
+    },
+    "Capture 250 unique Shiny Pokémon!": {
+      "translation": "捕获250个独特的异色宝可梦！",
+      "line": 296
+    },
+    "What Were the Odds Again?": {
+      "translation": "几率又是多少？",
+      "line": 297
+    },
+    "Capture 500 unique Shiny Pokémon!": {
+      "translation": "捕捉500只独特的异色宝可梦！",
+      "line": 297
+    },
+    "Non-Shiny Is Now Becoming Rare": {
+      "translation": "无光泽现在变得罕见",
+      "line": 298
+    },
+    "Capture 1,000 unique Shiny Pokémon!": {
+      "translation": "捕捉1,000只独特的异色宝可梦！",
+      "line": 298
+    },
+    "First Team": {
+      "translation": "一线队",
+      "line": 300
+    },
+    "Capture 100 Pokémon.": {
+      "translation": "捕获100只宝可梦。",
+      "line": 300
+    },
+    "Filling the PC": {
+      "translation": "填充电脑",
+      "line": 301
+    },
+    "Capture 1,000 Pokémon.": {
+      "translation": "捕获1,000只宝可梦。",
+      "line": 301
+    },
+    "Pokémon Army": {
+      "translation": "宝可梦军团",
+      "line": 302
+    },
+    "Capture 10,000 Pokémon.": {
+      "translation": "捕获10,000只宝可梦。",
+      "line": 302
+    },
+    "Pokémon Collector": {
+      "translation": "宝可梦收藏家",
+      "line": 303
+    },
+    "Capture 100,000 Pokémon.": {
+      "translation": "捕获100,000只宝可梦。",
+      "line": 303
+    },
+    "You Get a Pokémon, You Get a Pokémon, Everyone Gets a Pokémon!": {
+      "translation": "你得到一个宝可梦，你得到一个宝可梦，每个人都得到一个宝可梦！",
+      "line": 304
+    },
+    "Capture 1,000,000 Pokémon.": {
+      "translation": "捕获1,000,000只宝可梦。",
+      "line": 304
+    },
+    "A Long Road Ahead": {
+      "translation": "前路漫漫",
+      "line": 306
+    },
+    "Defeat 100 Pokémon.": {
+      "translation": "击败100只宝可梦。",
+      "line": 306
+    },
+    "Highway to Pallet Town": {
+      "translation": "通往真新镇的高速公路",
+      "line": 307
+    },
+    "Defeat 1,000 Pokémon.": {
+      "translation": "击败1,000只宝可梦。",
+      "line": 307
+    },
+    "Overleveled": {
+      "translation": "等级过高",
+      "line": 308
+    },
+    "Defeat 10,000 Pokémon.": {
+      "translation": "击败10,000只宝可梦。",
+      "line": 308
+    },
+    "The Cake Is a Lie, but the Grind Is Real": {
+      "translation": "蛋糕是谎言，但研磨是真实的",
+      "line": 309
+    },
+    "Defeat 100,000 Pokémon.": {
+      "translation": "击败100,000只宝可梦。",
+      "line": 309
+    },
+    "Are There Any Left?": {
+      "translation": "还有吗？",
+      "line": 310
+    },
+    "Defeat 1,000,000 Pokémon.": {
+      "translation": "击败1,000,000只宝可梦。",
+      "line": 310
+    },
+    "Basic Trainer": {
+      "translation": "基础训练师",
+      "line": 312
+    },
+    "Have 100 Attack.": {
+      "translation": "攻击力100。",
+      "line": 312
+    },
+    "Improving": {
+      "translation": "改善",
+      "line": 313
+    },
+    "Have 1,000 Attack.": {
+      "translation": "攻击力为1,000。",
+      "line": 313
+    },
+    "An Unrelenting Force": {
+      "translation": "一股不屈不挠的力量",
+      "line": 314
+    },
+    "Have 5,000 Attack.": {
+      "translation": "拥有5,000点攻击力。",
+      "line": 314
+    },
+    "FUS RO DAH": {
+      "translation": "福斯罗达",
+      "line": 315
+    },
+    "Have 10,000 Attack.": {
+      "translation": "攻击力为10,000。",
+      "line": 315
+    },
+    "OK, I Have Enough Attack Already...": {
+      "translation": "好吧，我的攻击力已经够了……",
+      "line": 316
+    },
+    "Have 25,000 Attack.": {
+      "translation": "拥有25,000点攻击力。",
+      "line": 316
+    },
+    "Silver Attack Button!": {
+      "translation": "银色攻击按钮！",
+      "line": 317
+    },
+    "Have 100,000 Attack.": {
+      "translation": "拥有100,000点攻击力。",
+      "line": 317
+    },
+    "Pesky Roamers, I Need to One-Shot Routes for Them...": {
+      "translation": "讨厌的漫游者，我需要为他们提供一次性路线......",
+      "line": 318
+    },
+    "Have 250,000 Attack.": {
+      "translation": "拥有250,000攻击力。",
+      "line": 318
+    },
+    "You Pressed F12 by Any Chance?": {
+      "translation": "你有机会按过 F12吗？",
+      "line": 319
+    },
+    "Have 500,000 Attack.": {
+      "translation": "拥有500,000攻击力。",
+      "line": 319
+    },
+    "Left-Left-Right-Right-A-B-A-B - Hey, 1 Million!": {
+      "translation": "左-左-右-右-A-B-A-B - 嘿，一百万！",
+      "line": 320
+    },
+    "Have 1,000,000 Attack.": {
+      "translation": "拥有1,000,000点攻击力。",
+      "line": 320
+    },
+    "Can I Beat Diantha Yet?": {
+      "translation": "我能打败卡露乃吗？",
+      "line": 321
+    },
+    "Have 5,000,000 Attack.": {
+      "translation": "拥有5,000,000攻击力。",
+      "line": 321
+    },
+    "No One Can Challenge Me!": {
+      "translation": "无人能挑战我！",
+      "line": 322
+    },
+    "Have 20,000,000 Attack.": {
+      "translation": "拥有20,000,000攻击力。",
+      "line": 322
+    },
+    "A Few Clicks In": {
+      "translation": "点击几下",
+      "line": 324
+    },
+    "Click Attack 10 times.": {
+      "translation": "点击“攻击”10次。",
+      "line": 324
+    },
+    "Clicking Pro": {
+      "translation": "点击专业版",
+      "line": 325
+    },
+    "Click Attack 100 times.": {
+      "translation": "点击“攻击”100次。",
+      "line": 325
+    },
+    "Ultra Clicker": {
+      "translation": "超级点击器",
+      "line": 326
+    },
+    "Click Attack 1,000 times.": {
+      "translation": "点击攻击1,000次。",
+      "line": 326
+    },
+    "Need a New Mouse Yet?": {
+      "translation": "还需要新鼠标吗？",
+      "line": 327
+    },
+    "Click Attack 10,000 times.": {
+      "translation": "点击“攻击”10,000次。",
+      "line": 327
+    },
+    "Why Is My Voltorb Upside Down?": {
+      "translation": "",
+      "line": 329
+    },
+    "Purchase your first Poké Ball.": {
+      "translation": "购买你的第一个精灵球。",
+      "line": 329
+    },
+    "Starting a Collection": {
+      "translation": "开始收藏",
+      "line": 330
+    },
+    "Purchase 10 Poké Balls.": {
+      "translation": "购买10个精灵球。",
+      "line": 330
+    },
+    "Stocking Up": {
+      "translation": "备货",
+      "line": 331
+    },
+    "Purchase 100 Poké Balls.": {
+      "translation": "购买100个精灵球。",
+      "line": 331
+    },
+    "Fully Stocked": {
+      "translation": "库存充足",
+      "line": 332
+    },
+    "Purchase 1,000 Poké Balls.": {
+      "translation": "购买1,000个精灵球。",
+      "line": 332
+    },
+    "Maybe Just a Few More for the Bunker": {
+      "translation": "也许只是为了掩体再多一些",
+      "line": 333
+    },
+    "Purchase 10,000 Poké Balls.": {
+      "translation": "购买10,000个精灵球。",
+      "line": 333
+    },
+    "Doomsday Bunker Stocked With Poké Balls!": {
+      "translation": "世界末日地堡里装满了精灵球！",
+      "line": 334
+    },
+    "Purchase 100,000 Poké Balls.": {
+      "translation": "购买100,000个精灵球。",
+      "line": 334
+    },
+    "Ooooo a Blue One!": {
+      "translation": "哦哦，蓝色的！",
+      "line": 336
+    },
+    "Purchase your first Great Ball.": {
+      "translation": "购买你的第一个伟大的球。",
+      "line": 336
+    },
+    "I Got a Few Shiny Voltorb! Oh, Wait...": {
+      "translation": "",
+      "line": 337
+    },
+    "Obtain 10 Great Balls.": {
+      "translation": "获得10个大球。",
+      "line": 337
+    },
+    "Now Shinies Won't Run Away So Easily!": {
+      "translation": "现在Shinies不会那么容易逃跑了！",
+      "line": 338
+    },
+    "Obtain 100 Great Balls.": {
+      "translation": "获得100个大球。",
+      "line": 338
+    },
+    "Regular Poké Balls Just Aren't What They Used To Be": {
+      "translation": "普通的宝可梦球已经不再是以前的样子了",
+      "line": 339
+    },
+    "Obtain 1,000 Great Balls.": {
+      "translation": "获得1,000个大球。",
+      "line": 339
+    },
+    "A Great Investment": {
+      "translation": "一项伟大的投资",
+      "line": 340
+    },
+    "Obtain 10,000 Great Balls.": {
+      "translation": "获得10,000个大球。",
+      "line": 340
+    },
+    "The Greatest Collection of All Time": {
+      "translation": "有史以来最伟大的收藏",
+      "line": 341
+    },
+    "Obtain 100,000 Great Balls.": {
+      "translation": "获得100,000个大球。",
+      "line": 341
+    },
+    "They Made One Even Better?": {
+      "translation": "他们做得更好吗？",
+      "line": 343
+    },
+    "Obtain your first Ultra Ball.": {
+      "translation": "获得你的第一个超级球。",
+      "line": 343
+    },
+    "Let's See How High the Catch Rate Becomes": {
+      "translation": "看看捕获率有多高",
+      "line": 344
+    },
+    "Obtain 10 Ultra Balls.": {
+      "translation": "获得10个超级球。",
+      "line": 344
+    },
+    "This Should Be Enough for Those Elusive Roamers...": {
+      "translation": "这对于那些难以捉摸的漫游者来说应该足够了......",
+      "line": 345
+    },
+    "Obtain 100 Ultra Balls.": {
+      "translation": "获得100个超级球。",
+      "line": 345
+    },
+    "They Don't Work on Ultra Beasts? That's False Advertising!": {
+      "translation": "他们对超级野兽不起作用？这就是虚假广告！",
+      "line": 346
+    },
+    "Obtain 1,000 Ultra Balls.": {
+      "translation": "获得1,000个超级球。",
+      "line": 346
+    },
+    "I Don't Think I'll Ever Be Able To Go Back to the Commoner's Great Ball": {
+      "translation": "我想我再也无法回到平民的盛大舞会了",
+      "line": 347
+    },
+    "Obtain 10,000 Ultra Balls.": {
+      "translation": "获得10,000个超级球。",
+      "line": 347
+    },
+    "Just Making Sure No Rare Pokémon Flees": {
+      "translation": "只是确保没有稀有宝可梦逃跑",
+      "line": 348
+    },
+    "Obtain 100,000 Ultra Balls.": {
+      "translation": "获得100,000个超级球。",
+      "line": 348
+    },
+    "The Ultimate Catching Device": {
+      "translation": "终极捕捉装置",
+      "line": 350
+    },
+    "Obtain your first Master Ball.": {
+      "translation": "获得你的第一个大师球。",
+      "line": 350
+    },
+    "Legendaries Hate That Guy": {
+      "translation": "传奇人物讨厌那个人",
+      "line": 351
+    },
+    "Obtain 10 Master Balls.": {
+      "translation": "获得10个大师球。",
+      "line": 351
+    },
+    "No Pokémon in the World Can Run Away From Me Now!": {
+      "translation": "现在世界上没有宝可梦能从我身边逃脱了！",
+      "line": 352
+    },
+    "Obtain 100 Master Balls.": {
+      "translation": "获得100个大师球。",
+      "line": 352
+    },
+    "Can You Do This for Me?": {
+      "translation": "你能为我做这个吗？",
+      "line": 354
+    },
+    "Complete your first quest.": {
+      "translation": "完成你的第一个任务。",
+      "line": 354
+    },
+    "One More Favor": {
+      "translation": "再一个恩惠",
+      "line": 355
+    },
+    "Complete 10 quests.": {
+      "translation": "完成10个任务。",
+      "line": 355
+    },
+    "YES MAN!": {
+      "translation": "是的，伙计！",
+      "line": 356
+    },
+    "Complete 100 quests.": {
+      "translation": "完成100个任务。",
+      "line": 356
+    },
+    "I Just Love Green Coins": {
+      "translation": "我就是喜欢绿色硬币",
+      "line": 357
+    },
+    "Complete 1,000 quests.": {
+      "translation": "完成1,000个任务。",
+      "line": 357
+    },
+    "I Want To Be Ready for the Next Region": {
+      "translation": "我想为下一个地区做好准备",
+      "line": 358
+    },
+    "Complete 5,000 quests.": {
+      "translation": "完成5,000个任务。",
+      "line": 358
+    },
+    "Oh, Another Quest Slot!": {
+      "translation": "哦，另一个任务槽位！",
+      "line": 360
+    },
+    "Reach Quest Level 5.": {
+      "translation": "达到任务等级5。",
+      "line": 360
+    },
+    "I Am Getting Good at Questing!": {
+      "translation": "我越来越擅长探索了！",
+      "line": 361
+    },
+    "Reach Quest Level 10.": {
+      "translation": "达到任务等级10。",
+      "line": 361
+    },
+    "What Do I Gain From Leveling This?": {
+      "translation": "练级后我能得到什么？",
+      "line": 362
+    },
+    "Reach Quest Level 20.": {
+      "translation": "达到任务等级20。",
+      "line": 362
+    },
+    "Quest Master": {
+      "translation": "任务大师",
+      "line": 363
+    },
+    "Reach Quest Level 30.": {
+      "translation": "达到任务等级30。",
+      "line": 363
+    },
+    "Is That How I Use This?": {
+      "translation": "我就是这样使用的吗？",
+      "line": 365
+    },
+    "Level 1 Oak Item to the maximum level.": {
+      "translation": "1级大木博士道具达到最高等级。",
+      "line": 365
+    },
+    "I've Got My Hands Full With All of These": {
+      "translation": "我已经忙完了所有这些",
+      "line": 366
+    },
+    "Level 3 Oak Items to the maximum level.": {
+      "translation": "3级大木博士道具达到最高等级。",
+      "line": 366
+    },
+    "Professor Oak Is the Best!": {
+      "translation": "大木博士是最棒的！",
+      "line": 367
+    },
+    "Level 8 Oak Items to the maximum level.": {
+      "translation": "8级大木博士道具达到最高等级。",
+      "line": 367
+    },
+    "Almost Prepared for Anything": {
+      "translation": "几乎做好了一切准备",
+      "line": 368
+    },
+    "Level 11 Oak Items to the maximum level.": {
+      "translation": "11级大木博士道具达到最高等级。",
+      "line": 368
+    },
+    "Prepared for Anything!": {
+      "translation": "做好一切准备！",
+      "line": 369
+    },
+    "Level all 12 Oak Items to the maximum level.": {
+      "translation": "将所有12个大木博士道具升级至最高级别。",
+      "line": 369
+    },
+    "Pokémon Nursery": {
+      "translation": "宝可梦保育园",
+      "line": 371
+    },
+    "Hatch your first egg.": {
+      "translation": "孵化你的第一个蛋。",
+      "line": 371
+    },
+    "A Lot of Running": {
+      "translation": "大量跑步",
+      "line": 372
+    },
+    "Hatch 10 eggs.": {
+      "translation": "孵化10个蛋。",
+      "line": 372
+    },
+    "Marathon Runner": {
+      "translation": "马拉松运动员",
+      "line": 373
+    },
+    "Hatch 100 eggs.": {
+      "translation": "孵化100个蛋。",
+      "line": 373
+    },
+    "Egg Factory": {
+      "translation": "蛋厂",
+      "line": 374
+    },
+    "Hatch 1,000 eggs.": {
+      "translation": "孵化1,000个蛋。",
+      "line": 374
+    },
+    "Official Easter Bunny": {
+      "translation": "官方复活节兔子",
+      "line": 375
+    },
+    "Hatch 10,000 eggs.": {
+      "translation": "孵化10,000个蛋。",
+      "line": 375
+    },
+    "What Do You Do With All the Eggshells?": {
+      "translation": "你如何处理所有的蛋壳？",
+      "line": 376
+    },
+    "Hatch 100,000 eggs.": {
+      "translation": "孵化100,000个蛋。",
+      "line": 376
+    },
+    "Day Care Is My Home": {
+      "translation": "日托中心是我的家",
+      "line": 377
+    },
+    "Hatch 250,000 eggs.": {
+      "translation": "孵化250,000个蛋。",
+      "line": 377
+    },
+    "Some Nice Help for the Day Care": {
+      "translation": "对日托的一些好帮助",
+      "line": 379
+    },
+    "Unlock 5 Hatchery Helpers.": {
+      "translation": "解锁5个孵化场助手。",
+      "line": 379
+    },
+    "Why Do They Have To Work in Shifts?": {
+      "translation": "为什么他们必须轮班工作？",
+      "line": 380
+    },
+    "Unlock 11 Hatchery Helpers.": {
+      "translation": "解锁11个孵化场助手。",
+      "line": 380
+    },
+    "My Loyal Helpers": {
+      "translation": "我忠实的帮手",
+      "line": 381
+    },
+    "Get 3 Hatchery Helpers to 10% bonus efficiency.": {
+      "translation": "获得3个孵化场助手，可提高10% 效率。",
+      "line": 381
+    },
+    "Let's Try Some Other Helpers Too?": {
+      "translation": "我们也试试其他一些助手吗？",
+      "line": 382
+    },
+    "Get 5 Hatchery Helpers to 10% bonus efficiency.": {
+      "translation": "获得5个孵化场助手即可获得10% 的额外效率。",
+      "line": 382
+    },
+    "Sam Just Wants To Help": {
+      "translation": "山姆只是想帮忙",
+      "line": 383
+    },
+    "Get 10 Hatchery Helpers to 10% bonus efficiency.": {
+      "translation": "获得10个孵化场助手，可获得10% 的奖励效率。",
+      "line": 383
+    },
+    "When Are You Going to Breed Yourself?": {
+      "translation": "你什么时候要自己繁殖？",
+      "line": 384
+    },
+    "Get 10 Hatchery Helpers to 25% bonus efficiency.": {
+      "translation": "获得10个孵化场助手，可获得25% 的额外效率。",
+      "line": 384
+    },
+    "My New Dirty Hobby": {
+      "translation": "我的新肮脏爱好",
+      "line": 386
+    },
+    "Unlock 3 Plots in the Farm.": {
+      "translation": "解锁农场中的3个地块。",
+      "line": 386
+    },
+    "Allotment Gardener": {
+      "translation": "分配园丁",
+      "line": 387
+    },
+    "Unlock 9 Plots in the Farm.": {
+      "translation": "解锁农场中的9个地块。",
+      "line": 387
+    },
+    "Horticulture": {
+      "translation": "园艺",
+      "line": 388
+    },
+    "Unlock all 25 Plots in the Farm.": {
+      "translation": "解锁农场中的全部25个地块。",
+      "line": 388
+    },
+    "Who Planted These Here?": {
+      "translation": "谁在这里种植这些？",
+      "line": 390
+    },
+    "Unlock 8 Berries.": {
+      "translation": "解锁8个树果。",
+      "line": 390
+    },
+    "Farmer in Training": {
+      "translation": "培训中的农民",
+      "line": 391
+    },
+    "Unlock 18 Berries.": {
+      "translation": "解锁18个树果。",
+      "line": 391
+    },
+    "Farming Apprentice": {
+      "translation": "农业学徒",
+      "line": 392
+    },
+    "Unlock 36 Berries.": {
+      "translation": "解锁36个树果。",
+      "line": 392
+    },
+    "Master Farmer": {
+      "translation": "农夫大师",
+      "line": 393
+    },
+    "Unlock all 69 Berries.": {
+      "translation": "解锁全部69种树果。",
+      "line": 393
+    },
+    "Getting Some Help at the Farm": {
+      "translation": "在农场获得一些帮助",
+      "line": 395
+    },
+    "Unlock 3 Farm Hands.": {
+      "translation": "解锁3名农场帮手。",
+      "line": 395
+    },
+    "Starting a Farming Empire": {
+      "translation": "建立农业帝国",
+      "line": 396
+    },
+    "Unlock 6 Farm Hands.": {
+      "translation": "解锁6名农场帮手。",
+      "line": 396
+    },
+    "Will I Ever Need All This Help?": {
+      "translation": "我需要所有这些帮助吗？",
+      "line": 397
+    },
+    "Unlock all 9 Farm Hands.": {
+      "translation": "解锁全部9名农场帮手。",
+      "line": 397
+    },
+    "Bling": {
+      "translation": "金光闪闪",
+      "line": 399
+    },
+    "Obtain 1,000 Diamonds.": {
+      "translation": "获得1,000颗钻石。",
+      "line": 399
+    },
+    "Bling x10!": {
+      "translation": "异色 x10！",
+      "line": 400
+    },
+    "Obtain 10,000 Diamonds.": {
+      "translation": "获得10,000颗钻石。",
+      "line": 400
+    },
+    "If You Like It, Then You Should've Put a Ring on It": {
+      "translation": "如果你喜欢它，那么你应该给它戴上戒指",
+      "line": 401
+    },
+    "Obtain 100,000 Diamonds.": {
+      "translation": "获得100,000颗钻石。",
+      "line": 401
+    },
+    "Just Keep Trading!": {
+      "translation": "继续交易！",
+      "line": 402
+    },
+    "Obtain 250,000 Diamonds.": {
+      "translation": "获得250,000颗钻石。",
+      "line": 402
+    },
+    "Get some daylight!": {
+      "translation": "得到一些阳光！",
+      "line": 403
+    },
+    "Obtain 1,000,000 Diamonds.": {
+      "translation": "获得1,000,000颗钻石。",
+      "line": 403
+    },
+    "Is My Thumb Green Yet?": {
+      "translation": "我的拇指还绿了吗？",
+      "line": 405
+    },
+    "Dig up an item in the Underground for the first time.": {
+      "translation": "首次在采掘场挖出物品。",
+      "line": 405
+    },
+    "My Shovel Is Starting To Crack": {
+      "translation": "我的铲子开始破裂",
+      "line": 406
+    },
+    "Dig up 10 items in the Underground.": {
+      "translation": "在采掘场挖出10件物品。",
+      "line": 406
+    },
+    "Why Can't I Make a Diamond Shovel?": {
+      "translation": "为什么我不能制作钻石铲？",
+      "line": 407
+    },
+    "Dig up 100 items in the Underground.": {
+      "translation": "在采掘场挖出100件物品。",
+      "line": 407
+    },
+    "This Is Definitely Not Minecraft": {
+      "translation": "这绝对不是我的世界",
+      "line": 408
+    },
+    "Dig up 1,000 items in the Underground.": {
+      "translation": "在采掘场挖出1,000件物品。",
+      "line": 408
+    },
+    "I Wonder How Much Is Down There...": {
+      "translation": "我想知道下面有多少...",
+      "line": 409
+    },
+    "Dig up 10,000 items in the Underground.": {
+      "translation": "在采掘场挖出10,000件物品。",
+      "line": 409
+    },
+    "The Earth Is Like Onions": {
+      "translation": "地球就像洋葱",
+      "line": 411
+    },
+    "Dig deeper into the Underground for the first time.": {
+      "translation": "首次深入采掘场挖掘。",
+      "line": 411
+    },
+    "This Takes Foreverrrrrrr": {
+      "translation": "这需要永远rrrrrr",
+      "line": 412
+    },
+    "Dig deeper into the Underground 10 times.": {
+      "translation": "深入采掘场挖掘10次。",
+      "line": 412
+    },
+    "DigDug Ain't Got Nothin' on Me": {
+      "translation": "DigDug 对我一无所知",
+      "line": 413
+    },
+    "Dig deeper into the Underground 100 times.": {
+      "translation": "深入采掘场挖掘100次。",
+      "line": 413
+    },
+    "Both My Thumbs Are Green! This Can't Be Healthy": {
+      "translation": "我的两个大拇指都绿了！这不可能是健康的",
+      "line": 414
+    },
+    "Dig deeper into the Underground 1,000 times.": {
+      "translation": "深入采掘场挖掘1,000次。",
+      "line": 414
+    },
+    "Well, this is easy": {
+      "translation": "嗯，这很容易",
+      "line": 416
+    },
+    "Reach Underground Level 10.": {
+      "translation": "达到挖掘等级10。",
+      "line": 416
+    },
+    "To infinity and beyond": {
+      "translation": "超越无限",
+      "line": 417
+    },
+    "Reach Underground Level 20.": {
+      "translation": "达到挖掘等级20。",
+      "line": 417
+    },
+    "Just one more thing": {
+      "translation": "还有一件事",
+      "line": 418
+    },
+    "Reach Underground Level 50.": {
+      "translation": "达到挖掘等级50。",
+      "line": 418
+    },
+    "Just pick one": {
+      "translation": "只选一个",
+      "line": 420
+    },
+    "Get at least 1 Underground Expert to level 25.": {
+      "translation": "使至少1名挖掘专家达到25级。",
+      "line": 420
+    },
+    "It's an honest days work": {
+      "translation": "这是诚实的一天工作",
+      "line": 421
+    },
+    "Get all 5 Underground Experts to level 25.": {
+      "translation": "将全部5名挖掘专家提升至25级。",
+      "line": 421
+    },
+    "Got a favorite?": {
+      "translation": "有最喜欢的吗？",
+      "line": 422
+    },
+    "Get at least 1 Underground Expert to level 50.": {
+      "translation": "使至少1名挖掘专家达到50级。",
+      "line": 422
+    },
+    "They're all my favorites": {
+      "translation": "他们都是我的最爱",
+      "line": 423
+    },
+    "Get all 5 Underground Experts to level 50.": {
+      "translation": "将全部5名挖掘专家提升至50级。",
+      "line": 423
+    },
+    "Everyday I'm chiseling": {
+      "translation": "我每天都在凿",
+      "line": 425
+    },
+    "Use the Chisel Tool 1,000 times.": {
+      "translation": "使用凿子工具1,000次。",
+      "line": 425
+    },
+    "U Can't Touch This": {
+      "translation": "你不能碰这个",
+      "line": 426
+    },
+    "Use the Hammer Tool 2,000 times.": {
+      "translation": "使用锤子工具2,000次。",
+      "line": 426
+    },
+    "KABOOM!": {
+      "translation": "轰隆隆！",
+      "line": 427
+    },
+    "Use the Bomb Tool 5,000 times.": {
+      "translation": "使用炸弹工具5,000次。",
+      "line": 427
+    },
+    "Eagle Eye": {
+      "translation": "鹰眼",
+      "line": 428
+    },
+    "Use the Survey Tool 50 times.": {
+      "translation": "使用调查工具50次。",
+      "line": 428
+    },
+    "Fine, I'll do it myself": {
+      "translation": "好吧，我自己来做",
+      "line": 429
+    },
+    "Use any tool 10,000 times.": {
+      "translation": "使用任何工具10,000次。",
+      "line": 429
+    },
+    "Let's Try This Out": {
+      "translation": "让我们试试这个",
+      "line": 431
+    },
+    "Obtain your first Vitamin.": {
+      "translation": "获得你的第一个维生素。",
+      "line": 431
+    },
+    "Pre-Workout Supplements": {
+      "translation": "锻炼前补充剂",
+      "line": 432
+    },
+    "Obtain 5 Vitamins.": {
+      "translation": "获得5种维生素。",
+      "line": 432
+    },
+    "Well-Stocked Medicine Cabinet": {
+      "translation": "储备充足的药品柜",
+      "line": 433
+    },
+    "Obtain 10 Vitamins.": {
+      "translation": "获得10种维生素。",
+      "line": 433
+    },
+    "I Can't Hold All These Vitamins!": {
+      "translation": "我无法承受所有这些维生素！",
+      "line": 434
+    },
+    "Obtain 50 Vitamins.": {
+      "translation": "获得50种维生素。",
+      "line": 434
+    },
+    "Essential Nutrients": {
+      "translation": "必需营养素",
+      "line": 435
+    },
+    "Obtain 100 Vitamins.": {
+      "translation": "获得100种维生素。",
+      "line": 435
+    },
+    "Putting the 'Bulk' in Bulk-Buy": {
+      "translation": "将“批量”放入批量购买中",
+      "line": 436
+    },
+    "Obtain 500 Vitamins.": {
+      "translation": "获得500种维生素。",
+      "line": 436
+    },
+    "Vitamin Stockpile": {
+      "translation": "维生素储备",
+      "line": 437
+    },
+    "Obtain 1,000 Vitamins.": {
+      "translation": "获得1,000种维生素。",
+      "line": 437
+    },
+    "Fish, Eggs, Nuts, and Cheese": {
+      "translation": "鱼、鸡蛋、坚果和奶酪",
+      "line": 438
+    },
+    "Obtain 5,000 Vitamins.": {
+      "translation": "获得5,000种维生素。",
+      "line": 438
+    },
+    "Does This Powder Come With Flavours?": {
+      "translation": "这种粉末有味道吗？",
+      "line": 439
+    },
+    "Obtain 10,000 Vitamins.": {
+      "translation": "获得10,000种维生素。",
+      "line": 439
+    },
+    "A Literal Mountain of Muscle": {
+      "translation": "名副其实的肌肉山",
+      "line": 440
+    },
+    "Obtain 50,000 Vitamins.": {
+      "translation": "获得50,000种维生素。",
+      "line": 440
+    },
+    "Fighting Novice": {
+      "translation": "格斗新手",
+      "line": 442
+    },
+    "Complete stage 100 in the Battle Frontier.": {
+      "translation": "完成对战开拓区的第100关。",
+      "line": 442
+    },
+    "Competent Fighter": {
+      "translation": "合格的战斗机",
+      "line": 443
+    },
+    "Complete stage 250 in the Battle Frontier.": {
+      "translation": "完成对战开拓区的第250关。",
+      "line": 443
+    },
+    "Unstoppable Fighting Machine": {
+      "translation": "不可阻挡的战斗机器",
+      "line": 444
+    },
+    "Complete stage 500 in the Battle Frontier.": {
+      "translation": "完成对战开拓区的第500关。",
+      "line": 444
+    },
+    "Living Legend": {
+      "translation": "活着的传奇",
+      "line": 445
+    },
+    "Complete stage 1,000 in the Battle Frontier.": {
+      "translation": "完成对战开拓区的第1,000关。",
+      "line": 445
+    },
+    "Where Do They Find These Trainers?": {
+      "translation": "他们在哪里找到这些培训师？",
+      "line": 446
+    },
+    "Complete stage 2,000 in the Battle Frontier.": {
+      "translation": "完成对战开拓区的第2,000关。",
+      "line": 446
+    },
+    "Keep On Fighting": {
+      "translation": "继续战斗",
+      "line": 448
+    },
+    "Complete 500 total stages in the Battle Frontier.": {
+      "translation": "在对战开拓区完成500个总阶段。",
+      "line": 448
+    },
+    "Uphill Battle": {
+      "translation": "艰苦的战斗",
+      "line": 449
+    },
+    "Complete 1,000 total stages in the Battle Frontier.": {
+      "translation": "在对战开拓区完成1,000个总阶段。",
+      "line": 449
+    },
+    "Don't Stop Trying": {
+      "translation": "不要停止尝试",
+      "line": 450
+    },
+    "Complete 2,500 total stages in the Battle Frontier.": {
+      "translation": "在对战开拓区完成2,500个总阶段。",
+      "line": 450
+    },
+    "Need More Battle Points": {
+      "translation": "需要更多战斗点数",
+      "line": 451
+    },
+    "Complete 5,000 total stages in the Battle Frontier.": {
+      "translation": "在对战开拓区完成5,000个总阶段。",
+      "line": 451
+    },
+    "I Can Do It This Time!": {
+      "translation": "这次我能做到！",
+      "line": 452
+    },
+    "Complete 25,000 total stages in the Battle Frontier.": {
+      "translation": "在对战开拓区完成25,000个总阶段。",
+      "line": 452
+    },
+    "King of the Hill": {
+      "translation": "山丘之王",
+      "line": 453
+    },
+    "Complete 100,000 total stages in the Battle Frontier.": {
+      "translation": "在对战开拓区完成100,000个总阶段。",
+      "line": 453
+    },
+    "I Hope It's Not Dangerous": {
+      "translation": "我希望这没有危险",
+      "line": 455
+    },
+    "Infect 20 Pokémon with Pokérus.": {
+      "translation": "用宝可病毒感染20只宝可梦。",
+      "line": 455
+    },
+    "Any Way To Get Rid of It?": {
+      "translation": "有什么方法可以摆脱它吗？",
+      "line": 456
+    },
+    "Infect 50 Pokémon with Pokérus.": {
+      "translation": "用宝可病毒感染50只宝可梦。",
+      "line": 456
+    },
+    "It Is the Flu Season": {
+      "translation": "现在是流感季节",
+      "line": 457
+    },
+    "Infect 100 Pokémon with Pokérus.": {
+      "translation": "用宝可病毒感染100只宝可梦。",
+      "line": 457
+    },
+    "Where Is Nurse Joy?": {
+      "translation": "乔伊护士在哪里？",
+      "line": 458
+    },
+    "Infect 250 Pokémon with Pokérus.": {
+      "translation": "用宝可病毒感染250只宝可梦。",
+      "line": 458
+    },
+    "Infecting the Whole World": {
+      "translation": "感染全世界",
+      "line": 459
+    },
+    "Infect 1,000 Pokémon with Pokérus.": {
+      "translation": "用宝可病毒感染1,000只宝可梦。",
+      "line": 459
+    },
+    "Curing Them One at a Time": {
+      "translation": "一次治愈一个",
+      "line": 461
+    },
+    "Have 10 Pokémon Resistant to Pokérus.": {
+      "translation": "拥有10只对宝可病毒具有抵抗力的宝可梦。",
+      "line": 461
+    },
+    "Pokémon Center Regular": {
+      "translation": "宝可梦中心常规",
+      "line": 462
+    },
+    "Have 50 Pokémon Resistant to Pokérus.": {
+      "translation": "拥有50只对宝可病毒具有抵抗力的宝可梦。",
+      "line": 462
+    },
+    "Doctor in Training": {
+      "translation": "实习医生",
+      "line": 463
+    },
+    "Have 250 Pokémon Resistant to Pokérus.": {
+      "translation": "拥有250只对宝可病毒具有抵抗力的宝可梦。",
+      "line": 463
+    },
+    "I Should Open My Own Pokémon Center": {
+      "translation": "我应该开设自己的宝可梦中心",
+      "line": 464
+    },
+    "Have 500 Pokémon Resistant to Pokérus.": {
+      "translation": "拥有500只对宝可病毒具有抵抗力的宝可梦。",
+      "line": 464
+    },
+    "In the Shadow of Giants": {
+      "translation": "在巨人的阴影下",
+      "line": 466
+    },
+    "Capture your first Shadow Pokémon": {
+      "translation": "捕捉你的第一只暗影宝可梦",
+      "line": 466
+    },
+    "That's some Shady Pokémon! Do You Want to Sell Them?": {
+      "translation": "那是一些阴暗的宝可梦！你想卖掉它们吗？",
+      "line": 467
+    },
+    "Capture 10 unique Shadow Pokémon": {
+      "translation": "捕捉10只独特的暗影宝可梦",
+      "line": 467
+    },
+    "Now Go Purify Them!": {
+      "translation": "现在去净化它们吧！",
+      "line": 468
+    },
+    "Capture 51 unique Shadow Pokémon": {
+      "translation": "捕获51只独特的暗影宝可梦",
+      "line": 468
+    },
+    "Beyond a Shadow of a Doubt": {
+      "translation": "超越怀疑的阴影",
+      "line": 469
+    },
+    "Capture all 131 unique Shadow Pokémon": {
+      "translation": "捕获全部131只独特的暗影宝可梦",
+      "line": 469
+    },
+    "Cleaning Crew": {
+      "translation": "清洁人员",
+      "line": 471
+    },
+    "Purify your first Shadow Pokémon": {
+      "translation": "净化你的第一只暗影宝可梦",
+      "line": 471
+    },
+    "Almost Clean Enough to Look Shiny": {
+      "translation": "几乎干净到看起来有光泽",
+      "line": 472
+    },
+    "Purify 10 unique Shadow Pokémon": {
+      "translation": "净化10只独特的暗影宝可梦",
+      "line": 472
+    },
+    "Priest in Training": {
+      "translation": "训练中的牧师",
+      "line": 473
+    },
+    "Purify 51 unique Shadow Pokémon": {
+      "translation": "净化51种独特的暗影宝可梦",
+      "line": 473
+    },
+    "Hand of Light": {
+      "translation": "光之手",
+      "line": 474
+    },
+    "Purify all 131 unique Shadow Pokémon": {
+      "translation": "净化所有131种独特的暗影宝可梦",
+      "line": 474
+    },
+    "Who Dropped These Here?": {
+      "translation": "谁把这些掉在这里的？",
+      "line": 476
+    },
+    "Pick up 10 Items in a Safari Zone": {
+      "translation": "在野生动物区拾取10件物品",
+      "line": 476
+    },
+    "Cheaper Than Buying It": {
+      "translation": "比买的便宜",
+      "line": 477
+    },
+    "Pick up 50 Items in a Safari Zone": {
+      "translation": "在野生动物区拾取50件物品",
+      "line": 477
+    },
+    "Itemfinder Has Nothing On Me!": {
+      "translation": "物品查找器没有找到我！",
+      "line": 478
+    },
+    "Pick up 100 Items in a Safari Zone": {
+      "translation": "在野生动物区拾取100件物品",
+      "line": 478
+    },
+    "This Is Not A Pokéball!": {
+      "translation": "这不是精灵球！",
+      "line": 480
+    },
+    "Throw 10 Rocks in a Safari Zone": {
+      "translation": "在野生动物区扔10块石头",
+      "line": 480
+    },
+    "You're A Big Meanie!": {
+      "translation": "你真是个小气鬼！",
+      "line": 481
+    },
+    "Throw 100 Rocks in a Safari Zone": {
+      "translation": "在野生动物区扔100块石头",
+      "line": 481
+    },
+    "Why Are You Like This?": {
+      "translation": "你为什么这样？",
+      "line": 482
+    },
+    "Throw 1,000 Rocks in a Safari Zone": {
+      "translation": "在野生动物区扔1,000块石头",
+      "line": 482
+    },
+    "Hope It Likes Berries": {
+      "translation": "希望它喜欢树果",
+      "line": 484
+    },
+    "Throw 10 Bait in a Safari Zone": {
+      "translation": "在野生动物区扔10个诱饵",
+      "line": 484
+    },
+    "What Is \"Bait\" Made Of?": {
+      "translation": "“诱饵”是由什么制成的？",
+      "line": 485
+    },
+    "Throw 100 Bait in a Safari Zone": {
+      "translation": "在野生动物区扔100个诱饵",
+      "line": 485
+    },
+    "Bait": {
+      "translation": "饵",
+      "line": 485
+    },
+    "Stay For Dinner": {
+      "translation": "留下来吃晚饭",
+      "line": 486
+    },
+    "Throw 1,000 Bait in a Safari Zone": {
+      "translation": "在野生动物区扔1,000个诱饵",
+      "line": 486
+    },
+    "Gotta Get Your Steps In!": {
+      "translation": "必须迈出步伐！",
+      "line": 488
+    },
+    "Walk 100 Steps in a Safari Zone": {
+      "translation": "在野生动物园区步行100步",
+      "line": 488
+    },
+    "One More Lap": {
+      "translation": "再跑一圈",
+      "line": 489
+    },
+    "Walk 1,000 Steps in a Safari Zone": {
+      "translation": "在野生动物园区步行1,000步",
+      "line": 489
+    },
+    "Marathon Runner 2": {
+      "translation": "马拉松跑者2",
+      "line": 490
+    },
+    "Walk 10,000 Steps in a Safari Zone": {
+      "translation": "在野生动物园区步行10,000步",
+      "line": 490
+    },
+    "Where Pinsir?": {
+      "translation": "",
+      "line": 492
+    },
+    "Reach Safari Level 5.": {
+      "translation": "达到 Safari 等级5。",
+      "line": 492
+    },
+    "Chasing the Chansey": {
+      "translation": "",
+      "line": 493
+    },
+    "Reach Safari Level 15.": {
+      "translation": "达到 Safari 等级15。",
+      "line": 493
+    },
+    "Catch Animation Enthusiast": {
+      "translation": "捕捉动画爱好者",
+      "line": 494
+    },
+    "Reach Safari Level 30.": {
+      "translation": "达到 Safari 等级30。",
+      "line": 494
+    },
+    "Just Keep Chuckin' Balls": {
+      "translation": "只要保持查金'球",
+      "line": 496
+    },
+    "Catch 50 Pokémon in a Safari Zone": {
+      "translation": "在狩猎地带捕捉50只宝可梦",
+      "line": 496
+    },
+    "Strategic Chucker": {
+      "translation": "战略查克",
+      "line": 497
+    },
+    "Catch 100 Pokémon in a Safari Zone": {
+      "translation": "在狩猎地带捕捉100只宝可梦",
+      "line": 497
+    },
+    "Master of the Safari": {
+      "translation": "野生动物园大师",
+      "line": 498
+    },
+    "Catch 250 Pokémon in a Safari Zone": {
+      "translation": "在狩猎地带捕捉250只宝可梦",
+      "line": 498
+    },
+    "Do Shines Cost Extra?": {
+      "translation": "Shines 需要额外付费吗？",
+      "line": 499
+    },
+    "Catch a Shiny Pokémon in a Safari Zone": {
+      "translation": "在狩猎地带捕捉异色宝可梦",
+      "line": 499
+    },
+    "What a neat rock!": {
+      "translation": "多么整齐的岩石啊！",
+      "line": 502
+    },
+    "Obtain your first Mega Stone.": {
+      "translation": "获得你的第一块巨型石头。",
+      "line": 502
+    },
+    "Go, Go, Mega Force!": {
+      "translation": "前进，前进，超级力量！",
+      "line": 503
+    },
+    "Obtain 25 Mega Stones.": {
+      "translation": "获得25颗超级宝石。",
+      "line": 503
+    },
+    "Y'all got any more of them Mega Stones?": {
+      "translation": "你们还有更多巨型石头吗？",
+      "line": 504
+    },
+    "Obtain all ${totalMegaStones} Mega Stones.": {
+      "translation": "",
+      "line": 504
+    },
+    "Elite": {
+      "translation": "精英",
+      "line": 514
+    },
+    "Champion": {
+      "translation": "冠军",
+      "line": 514
+    },
+    "Supreme": {
+      "translation": "最高",
+      "line": 514
+    },
+    "${gym} Gym": {
+      "translation": "",
+      "line": 520
+    },
+    "s` : ": {
+      "translation": "",
+      "line": 522
+    },
+    "${GymList[gym].leaderName}'s": {
+      "translation": "",
+      "line": 522
+    },
+    "${elite ? ": {
+      "translation": "",
+      "line": 526
+    },
+    " : ''}${gymTitle} Regular": {
+      "translation": "",
+      "line": 526
+    },
+    "Defeat ${leaderName} ${gymTitle} in ${gymRegion} 10 times.": {
+      "translation": "",
+      "line": 527
+    },
+    " : ''}${gymTitle} Ruler": {
+      "translation": "",
+      "line": 529
+    },
+    "Defeat ${leaderName} ${gymTitle} in ${gymRegion} 100 times.": {
+      "translation": "",
+      "line": 530
+    },
+    " : ''}${gymTitle} Owner": {
+      "translation": "",
+      "line": 532
+    },
+    "Defeat ${leaderName} ${gymTitle} in ${gymRegion} 1,000 times.": {
+      "translation": "",
+      "line": 533
+    },
+    "${route.routeName} Traveler": {
+      "translation": "",
+      "line": 557
+    },
+    "Defeat 100 Pokémon on ${routeName}.": {
+      "translation": "",
+      "line": 557
+    },
+    "${route.routeName} Explorer": {
+      "translation": "",
+      "line": 558
+    },
+    "Defeat 1,000 Pokémon on ${routeName}.": {
+      "translation": "",
+      "line": 558
+    },
+    "${route.routeName} Conqueror": {
+      "translation": "",
+      "line": 559
+    },
+    "Defeat 10,000 Pokémon on ${routeName}.": {
+      "translation": "",
+      "line": 559
+    },
+    "${dungeon} Explorer": {
+      "translation": "",
+      "line": 581
+    },
+    "Clear ${dungeon} 10 times.": {
+      "translation": "",
+      "line": 581
+    },
+    "${dungeon} Expert": {
+      "translation": "",
+      "line": 582
+    },
+    "Clear ${dungeon} 100 times.": {
+      "translation": "",
+      "line": 582
+    },
+    "${dungeon} Hermit": {
+      "translation": "",
+      "line": 583
+    },
+    "Clear ${dungeon} 250 times.": {
+      "translation": "",
+      "line": 583
+    },
+    "${dungeon} Dweller": {
+      "translation": "",
+      "line": 584
+    },
+    "Clear ${dungeon} 500 times.": {
+      "translation": "",
+      "line": 584
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Trainer": {
+      "translation": "",
+      "line": 591
+    },
+    "Catch ${amt10} unique Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
+      "translation": "",
+      "line": 591
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Ace": {
+      "translation": "",
+      "line": 592
+    },
+    "Catch ${amt50} unique Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
+      "translation": "",
+      "line": 592
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Master": {
+      "translation": "",
+      "line": 593
+    },
+    "Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Pokédex!": {
+      "translation": "",
+      "line": 593
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Trainer": {
+      "translation": "",
+      "line": 595
+    },
+    "Catch ${amt10} unique Shiny Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
+      "translation": "",
+      "line": 595
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Ace": {
+      "translation": "",
+      "line": 596
+    },
+    "Catch ${amt50} unique Shiny Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
+      "translation": "",
+      "line": 596
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Master": {
+      "translation": "",
+      "line": 597
+    },
+    "Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Pokédex!": {
+      "translation": "",
+      "line": 597
+    },
+    "Unown (A)": {
+      "translation": "[[Unown]] (A)",
+      "line": 601
+    },
+    "Alphabet Soup for Ruin Maniac": {
+      "translation": "废墟狂人的字母汤",
+      "line": 604
+    },
+    "Catch all unique Unown forms.": {
+      "translation": "",
+      "line": 604
+    },
+    "\"I am the Alpha and the Omega\"": {
+      "translation": "“我是阿尔法和欧米伽”",
+      "line": 605
+    },
+    "Catch all unique Shiny Unown forms.": {
+      "translation": "",
+      "line": 605
+    },
+    "I am the Alpha and the Omega": {
+      "translation": "",
+      "line": 605
+    },
+    "Milcery (Cheesy)": {
+      "translation": "[[Milcery]] (干酪)",
+      "line": 609
+    },
+    "Alcremie": {
+      "translation": "霜奶仙",
+      "line": 609
+    },
+    "Moomoo Milk Served Right": {
+      "translation": "Moomoo 牛奶供应得当",
+      "line": 611
+    },
+    "Catch 32 unique Battle Café flavors.": {
+      "translation": "品尝32种独特的 Battle Café 口味。",
+      "line": 611
+    },
+    "Catch 32 unique Alcremie flavors.": {
+      "translation": "",
+      "line": 611
+    },
+    "Gotta Taste 'Em All!": {
+      "translation": "一定要尝尝它们！",
+      "line": 612
+    },
+    "Catch all unique Battle Café flavors.": {
+      "translation": "品尝所有独特的 Battle Café 风味。",
+      "line": 612
+    },
+    "Catch all unique Alcremie flavors.": {
+      "translation": "",
+      "line": 612
+    },
+    "Yoshida's Coffees Enjoyer": {
+      "translation": "吉田的咖啡享受者",
+      "line": 613
+    },
+    "Catch 32 unique Shiny Battle Café flavors.": {
+      "translation": "品尝32种独特的 异色对战咖啡厅 口味。",
+      "line": 613
+    },
+    "Catch 32 unique Shiny Alcremie flavors.": {
+      "translation": "",
+      "line": 613
+    },
+    "All These Flavors And You Choose To Be Cheesy": {
+      "translation": "所有这些口味，你选择奶酪味",
+      "line": 614
+    },
+    "Catch all unique Shiny Battle Café flavors.": {
+      "translation": "品尝所有独特的异色战斗咖啡馆风味。",
+      "line": 614
+    },
+    "Catch all unique Shiny Alcremie flavors.": {
+      "translation": "",
+      "line": 614
+    },
+    "Gigantamax": {
+      "translation": "",
+      "line": 617
+    },
+    "Eternamax": {
+      "translation": "",
+      "line": 617
+    },
+    "Way Too Many Bosses": {
+      "translation": "老板太多了",
+      "line": 619
+    },
+    "Catch all Gigantamax Pokémon.": {
+      "translation": "",
+      "line": 619
+    },
+    "Really Big Sparkle": {
+      "translation": "超大闪光",
+      "line": 620
+    },
+    "Catch all Shiny Gigantamax Pokémon.": {
+      "translation": "",
+      "line": 620
+    },
+    "Sevii Islands": {
+      "translation": "塞维群岛",
+      "line": 625
+    },
+    "Sevii Trainer": {
+      "translation": "塞维教练",
+      "line": 626
+    },
+    "Catch 15 unique Pokémon native to the Sevii Islands.": {
+      "translation": "捕捉15种原产于塞维群岛的独特宝可梦。",
+      "line": 626
+    },
+    "Sevii Master": {
+      "translation": "塞维大师",
+      "line": 627
+    },
+    "Catch 34 unique Pokémon native to the Sevii Islands.": {
+      "translation": "捕捉34种原产于塞维群岛的独特宝可梦。",
+      "line": 627
+    },
+    "Sevii Shiny Trainer": {
+      "translation": "Sevii 异色训练师",
+      "line": 628
+    },
+    "Catch 15 unique Shiny Pokémon native to the Sevii Islands.": {
+      "translation": "捕捉15种原产于塞维群岛的独特异色宝可梦。",
+      "line": 628
+    },
+    "Sevii Shiny Master": {
+      "translation": "Sevii 异色大师",
+      "line": 629
+    },
+    "Catch 34 unique Shiny Pokémon native to the Sevii Islands.": {
+      "translation": "捕捉34种原产于塞维群岛的独特异色宝可梦。",
+      "line": 629
+    },
+    "Magikarp Jump": {
+      "translation": "",
+      "line": 631
+    },
+    "Do You Even Splash?": {
+      "translation": "你会溅水吗？",
+      "line": 636
+    },
+    "Catch all unique Magikarp forms.": {
+      "translation": "",
+      "line": 636
+    },
+    "Twenty Thousands Karps Under the Seas": {
+      "translation": "海底两万只卡普鱼",
+      "line": 637
+    },
+    "Catch all unique Shiny Magikarp forms.": {
+      "translation": "",
+      "line": 637
+    },
+    "Orre": {
+      "translation": "奥尔雷",
+      "line": 639
+    },
+    "The Kids Yearn for the Mines": {
+      "translation": "孩子们渴望矿井",
+      "line": 643
+    },
+    "Fully mine an Underground layer.": {
+      "translation": "完全开采采掘场一层。",
+      "line": 644
+    },
+    "Thorough miner": {
+      "translation": "彻底的矿工",
+      "line": 646
+    },
+    "Take Out The Trash": {
+      "translation": "倒掉垃圾",
+      "line": 650
+    },
+    "Capture a total of 1,000 wild Trubbish and Garbodor.": {
+      "translation": "总共捕获1,000只野生垃圾和加博多。",
+      "line": 651
+    },
+    "Trubbish": {
+      "translation": "破破袋",
+      "line": 652
+    },
+    "Garbodor": {
+      "translation": "灰尘山",
+      "line": 652
+    },
+    "Clean up the streets": {
+      "translation": "清理街道",
+      "line": 653
+    },
+    "Rats!": {
+      "translation": "老鼠！",
+      "line": 657
+    },
+    "Defeated Youngster Joey.": {
+      "translation": "击败少年乔伊。",
+      "line": 658
+    },
+    "Youngster Joey": {
+      "translation": "少年乔伊",
+      "line": 659
+    },
+    "Take on the ultimate challenge": {
+      "translation": "接受终极挑战",
+      "line": 660
+    },
+    "Karpal Tunnel": {
+      "translation": "卡巴隧道",
+      "line": 664
+    },
+    "Reach 1,000,000 attack with Magikarp.": {
+      "translation": "",
+      "line": 665
+    },
+    "Magikarp": {
+      "translation": "鲤鱼王",
+      "line": 666
+    },
+    "The Strongest Fish": {
+      "translation": "最强的鱼",
+      "line": 667
+    },
+    "You Can Stop Now": {
+      "translation": "你现在可以停下来",
+      "line": 671
+    },
+    "Acquire 1,000 Wishing Pieces.": {
+      "translation": "获得1,000个许愿碎片。",
+      "line": 672
+    },
+    "Wishing_Piece": {
+      "translation": "许愿片",
+      "line": 673
+    },
+    "You wish": {
+      "translation": "你希望",
+      "line": 674
+    },
+    "You are my best friend": {
+      "translation": "你是我最好的朋友",
+      "line": 678
+    },
+    "Have a total of 100 Light Balls.": {
+      "translation": "总共拥有100个光球。",
+      "line": 679
+    },
+    "Light_Ball": {
+      "translation": "光球",
+      "line": 680
+    },
+    "Red is my favorite color": {
+      "translation": "红色是我最喜欢的颜色",
+      "line": 681
+    },
+    "Smell Ya Later!": {
+      "translation": "稍后闻一下！",
+      "line": 685
+    },
+    "Defeat Champion Blue 123,456 times.": {
+      "translation": "击败冠军青绿123,456次。",
+      "line": 686
+    },
+    "Champion Blue": {
+      "translation": "冠军青绿",
+      "line": 687
+    },
+    "Blue is my favorite color": {
+      "translation": "蓝色是我最喜欢的颜色",
+      "line": 688
+    },
+    "Aren't Dungeons Fun?": {
+      "translation": "迷宫不好玩吗？",
+      "line": 692
+    },
+    "Clear any dungeon 10,000 times.": {
+      "translation": "通关任何迷宫10,000次。",
+      "line": 693
+    },
+    "Shrink me baby one more time": {
+      "translation": "再缩小一次我的宝贝",
+      "line": 695
+    },
+    "Super Spreader": {
+      "translation": "超级传播者",
+      "line": 699
+    },
+    "Reach a 2x EV bonus with any Pokémon.": {
+      "translation": "使用任何宝可梦达到2倍努力值奖励。",
+      "line": 700
+    },
+    "Some Effort required": {
+      "translation": "需要一些努力",
+      "line": 702
+    },
+    "Error: Pokémon storage full": {
+      "translation": "错误：宝可梦存储已满",
+      "line": 706
+    },
+    "Reach a 3x EV bonus with any Pokémon.": {
+      "translation": "使用任何宝可梦达到3倍努力值奖励。",
+      "line": 707
+    },
+    "Too much Effort": {
+      "translation": "太多的努力",
+      "line": 709
+    },
+    "Ready For The Next Region": {
+      "translation": "为下一个地区做好准备",
+      "line": 713
+    },
+    "Have 1,000,000,000 Attack.": {
+      "translation": "拥有1,000,000,000攻击力。",
+      "line": 714
+    },
+    "Breed more": {
+      "translation": "繁殖更多",
+      "line": 716
+    },
+    "Touch Grass": {
+      "translation": "触摸草",
+      "line": 720
+    },
+    "Have the game open for an entire year.": {
+      "translation": "让游戏开放一整年。",
+      "line": 721
+    },
+    "You'll get it eventually": {
+      "translation": "你最终会得到它",
+      "line": 723
+    },
+    "Park Ranger": {
+      "translation": "公园护林员",
+      "line": 727
+    },
+    "Reach the max Safari level.": {
+      "translation": "达到 Safari 最高级别。",
+      "line": 728
+    },
+    "The most eggciting grind": {
+      "translation": "最令人兴奋的磨碎",
+      "line": 730
+    },
+    "How did we get here?": {
+      "translation": "我们是怎么到这里的？",
+      "line": 734
+    },
+    "Have 9 Special Events active simultaneously.": {
+      "translation": "同时开展9个特别活动。",
+      "line": 735
+    },
+    "Fully booked": {
+      "translation": "已满",
+      "line": 737
+    },
+    "Ready for every encounter": {
+      "translation": "为每一次相遇做好准备",
+      "line": 742
+    },
+    "Have at least 20 Pokéball Filters at one time.": {
+      "translation": "一次至少拥有20个精灵球过滤器。",
+      "line": 743
+    },
+    "Ready for every encounter.": {
+      "translation": "为每一次相遇做好准备。",
+      "line": 745
+    },
+    "I can do this all day": {
+      "translation": "我可以做一整天",
+      "line": 749
+    },
+    "Complete stage 10,000 in the Battle Frontier.": {
+      "translation": "在对战开拓区完成第10,000关。",
+      "line": 750
+    },
+    "A million paycheck": {
+      "translation": "百万薪水",
+      "line": 752
+    },
+    "All I see is rock": {
+      "translation": "我所看到的都是岩石",
+      "line": 756
+    },
+    "Get at least 1 Underground Helper to level 100.": {
+      "translation": "使至少1名挖掘助手达到100级。",
+      "line": 757
+    },
+    "You are my favorite for sure": {
+      "translation": "你肯定是我的最爱",
+      "line": 759
+    },
+    "Have you tried lemongrass?": {
+      "translation": "你试过柠檬草吗？",
+      "line": 763
+    },
+    "Defeat 1,000,000 pure Bug-type Pokémon.": {
+      "translation": "击败1,000,000只纯虫系宝可梦。",
+      "line": 764
+    },
+    "Pest control": {
+      "translation": "害虫防治",
+      "line": 766
+    },
+    "There is no bottle": {
+      "translation": "没有瓶子",
+      "line": 770
+    },
+    "Catch 111 Hoopa.": {
+      "translation": "赶上111胡帕。",
+      "line": 771
+    },
+    "Hoopa": {
+      "translation": "胡帕",
+      "line": 772
+    },
+    "You said a ton, right?": {
+      "translation": "你说的是一吨吧？",
+      "line": 773
+    },
+    "One-person band": {
+      "translation": "一人乐队",
+      "line": 777
+    },
+    "Have all 6 Flutes active for 60 minutes.": {
+      "translation": "让所有6个长笛都处于活动状态60分钟。",
+      "line": 778
+    },
+    "A cat named Cat": {
+      "translation": "一只名叫猫的猫",
+      "line": 785
+    },
+    "Give a Pokémon a very unoriginal nickname.": {
+      "translation": "给宝可梦起一个非常非原创的昵称。",
+      "line": 786
+    },
+    "Breakfast at Tiffany's": {
+      "translation": "蒂芙尼的早餐",
+      "line": 788
+    },
+    "Cat": {
+      "translation": "",
+      "line": 788
+    },
+    "Picky Quester": {
+      "translation": "挑剔的探索者",
+      "line": 793
+    },
+    "Refresh the Quest List without completing any quests.": {
+      "translation": "刷新任务列表而不完成任何任务。",
+      "line": 794
+    },
+    "I don't want to do any of these": {
+      "translation": "我不想做这些事",
+      "line": 796
+    },
+    "Lucky Loot": {
+      "translation": "幸运战利品",
+      "line": 801
+    },
+    "Obtain Mythic-tier loot from a debuffed dungeon. Loot that ignores debuff does not count.": {
+      "translation": "从减益的迷宫中获得神话级战利品。忽略减益效果的战利品不算在内。",
+      "line": 802
+    },
+    "Debuffed? I didn't notice.": {
+      "translation": "减益了？我没有注意到。",
+      "line": 804
+    },
+    "Wandering Wallets": {
+      "translation": "流浪钱包",
+      "line": 809
+    },
+    "Earn 1,000,000,000 Dungeon Tokens from catching Farm Wanderers.": {
+      "translation": "通过捕捉农场流浪者赚取1,000,000,000迷宫代币。",
+      "line": 810
+    },
+    "farmWandererDungeonTokensObtained": {
+      "translation": "farmWandererDungeonTokensObtained",
+      "line": 811
+    },
+    "Money does not grow on trees": {
+      "translation": "钱不是长在树上的",
+      "line": 812
+    },
+    "Ultimate Baker": {
+      "translation": "终极面包师",
+      "line": 816
+    },
+    "Have all Battle Café flavors resistant to Pokérus.": {
+      "translation": "让所有 Battle Café 口味都能抵抗宝可病毒。",
+      "line": 817
+    },
+    "The cake is not a lie": {
+      "translation": "蛋糕不是谎言",
+      "line": 819
+    },
+    "One column to rule them all": {
+      "translation": "一栏统治一切",
+      "line": 823
+    },
+    "Have all movable UI modules in one column.": {
+      "translation": "将所有可移动 UI 模块放在一列中。",
+      "line": 824
+    },
+    "middle-top-sort-column": {
+      "translation": "",
+      "line": 826
+    },
+    "middle-bottom-sort-column": {
+      "translation": "",
+      "line": 826
+    },
+    "fullWidth5": {
+      "translation": "全宽5",
+      "line": 827
+    },
+    "left-column": {
+      "translation": "",
+      "line": 829
+    },
+    "left-column-2": {
+      "translation": "",
+      "line": 830
+    },
+    "right-column": {
+      "translation": "",
+      "line": 831
+    },
+    "right-column-2": {
+      "translation": "",
+      "line": 832
+    },
+    "modules.${column}": {
+      "translation": "",
+      "line": 842
+    },
+    "#${column} > .sortable": {
+      "translation": "",
+      "line": 845
+    },
+    "There can be only one": {
+      "translation": "只能有一个",
+      "line": 851
+    },
+    "Window Shopping": {
+      "translation": "橱窗购物",
+      "line": 856
+    },
+    "Encounter 1,000 shiny Trainer Pokémon.": {
+      "translation": "遭遇1,000只异色的训练家宝可梦。",
+      "line": 857
+    },
+    "totalShinyTrainerPokemonSeen": {
+      "translation": "totalShinyTrainerPokemonSeen",
+      "line": 858
+    },
+    "Glowing with envy": {
+      "translation": "眼里闪着羡慕的光芒",
+      "line": 859
+    },
+    "A Glimmer of Luck": {
+      "translation": "一丝幸运",
+      "line": 863
+    },
+    "Catch a shiny Pokémon in a Safari Zone with your last ball.": {
+      "translation": "用你的最后一个球在狩猎地带捕捉异色宝可梦。",
+      "line": 864
+    },
+    "One ball left, one chance to make it shine": {
+      "translation": "还剩下一颗球，一次让它闪耀的机会",
+      "line": 866
+    },
+    "Dog Breeder": {
+      "translation": "",
+      "line": 875
+    },
+    "Have all special Furfrou forms resistant to Pokérus.": {
+      "translation": "",
+      "line": 876
+    },
+    "Achievements": {
+      "translation": "成就",
+      "line": 887
+    },
+    "exp": {
+      "translation": "经验值",
+      "line": 888
+    },
+    "money": {
+      "translation": "钱",
+      "line": 889
+    },
+    "Achievement not found: ${achievementName}": {
+      "translation": "",
+      "line": 897
+    }
+  }
+}

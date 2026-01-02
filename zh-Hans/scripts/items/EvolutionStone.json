@@ -1,0 +1,230 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/items/EvolutionStone.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 55,
+    "translatedCount": 53
+  },
+  "entries": {
+    "An evolution item. See your Item Bag for more information.": {
+      "translation": "进化物品。请参阅你的物品袋了解更多信息。",
+      "line": 7
+    },
+    "evolution": {
+      "translation": "进化",
+      "line": 7
+    },
+    "All Pokémon are resistant!": {
+      "translation": "所有宝可梦都有抵抗力！",
+      "line": 52
+    },
+    "EVs until all Pokémon are resistant: ${current} / ${total}": {
+      "translation": "",
+      "line": 52
+    },
+    "Leaf Stone": {
+      "translation": "叶之石",
+      "line": 78
+    },
+    "Fire Stone": {
+      "translation": "火之石",
+      "line": 79
+    },
+    "Water Stone": {
+      "translation": "水之石",
+      "line": 80
+    },
+    "Thunder Stone": {
+      "translation": "雷之石",
+      "line": 81
+    },
+    "Moon Stone": {
+      "translation": "月之石",
+      "line": 82
+    },
+    "Linking Cord": {
+      "translation": "连接线",
+      "line": 83
+    },
+    "Sun Stone": {
+      "translation": "日之石",
+      "line": 84
+    },
+    "Soothe Bell": {
+      "translation": "安抚之铃",
+      "line": 85
+    },
+    "Metal Coat": {
+      "translation": "金属涂层",
+      "line": 86
+    },
+    "King's Rock": {
+      "translation": "国王石",
+      "line": 87
+    },
+    "Upgrade": {
+      "translation": "升级",
+      "line": 88
+    },
+    "Dragon Scale": {
+      "translation": "龙鳞",
+      "line": 89
+    },
+    "Prism Scale": {
+      "translation": "棱镜刻度",
+      "line": 90
+    },
+    "Deep Sea Tooth": {
+      "translation": "深海之牙",
+      "line": 91
+    },
+    "Deep Sea Scale": {
+      "translation": "深海规模",
+      "line": 92
+    },
+    "Shiny Stone": {
+      "translation": "异色的石头",
+      "line": 93
+    },
+    "Dusk Stone": {
+      "translation": "黄昏石",
+      "line": 94
+    },
+    "Dawn Stone": {
+      "translation": "黎明石",
+      "line": 95
+    },
+    "Razor Claw": {
+      "translation": "剃刀利爪",
+      "line": 96
+    },
+    "Razor Fang": {
+      "translation": "剃刀尖牙",
+      "line": 97
+    },
+    "Electirizer": {
+      "translation": "起电器",
+      "line": 98
+    },
+    "Magmarizer": {
+      "translation": "",
+      "line": 99
+    },
+    "Protector": {
+      "translation": "保护者",
+      "line": 100
+    },
+    "Dubious Disc": {
+      "translation": "可疑光盘",
+      "line": 101
+    },
+    "Reaper Cloth": {
+      "translation": "收割者布",
+      "line": 102
+    },
+    "Black DNA": {
+      "translation": "黑色DNA",
+      "line": 103
+    },
+    "White DNA": {
+      "translation": "白色DNA",
+      "line": 104
+    },
+    "Sachet": {
+      "translation": "香囊",
+      "line": 105
+    },
+    "Whipped Dream": {
+      "translation": "鞭打的梦想",
+      "line": 106
+    },
+    "Key Stone": {
+      "translation": "基石",
+      "line": 107
+    },
+    "Ice Stone": {
+      "translation": "冰石",
+      "line": 108
+    },
+    "Solar Light": {
+      "translation": "太阳能灯",
+      "line": 109
+    },
+    "Lunar Light": {
+      "translation": "月光",
+      "line": 110
+    },
+    "Pure Light": {
+      "translation": "纯光",
+      "line": 111
+    },
+    "Crystallized Shadow": {
+      "translation": "结晶之影",
+      "line": 112
+    },
+    "Sweet Apple": {
+      "translation": "甜苹果",
+      "line": 113
+    },
+    "Tart Apple": {
+      "translation": "酸苹果",
+      "line": 114
+    },
+    "Cracked Pot": {
+      "translation": "锅裂",
+      "line": 115
+    },
+    "Galarica Cuff": {
+      "translation": "加拉里卡手镯",
+      "line": 116
+    },
+    "Galarica Wreath": {
+      "translation": "加拉利卡花环",
+      "line": 117
+    },
+    "Black Mane Hair": {
+      "translation": "黑色鬃毛",
+      "line": 118
+    },
+    "White Mane Hair": {
+      "translation": "白色鬃毛",
+      "line": 119
+    },
+    "Black Augurite": {
+      "translation": "黑奥古石",
+      "line": 120
+    },
+    "Peat Block": {
+      "translation": "泥炭块",
+      "line": 121
+    },
+    "Auspicious Armor": {
+      "translation": "吉祥铠甲",
+      "line": 122
+    },
+    "Malicious Armor": {
+      "translation": "恶意装甲",
+      "line": 123
+    },
+    "Leader's Crest": {
+      "translation": "领袖纹章",
+      "line": 124
+    },
+    "Gimmighoul Coin": {
+      "translation": "吉米古尔硬币",
+      "line": 125
+    },
+    "Syrupy Apple": {
+      "translation": "糖浆苹果",
+      "line": 126
+    },
+    "Unremarkable Teacup": {
+      "translation": "不起眼的茶杯",
+      "line": 127
+    },
+    "Metal Alloy": {
+      "translation": "金属合金",
+      "line": 128
+    }
+  }
+}

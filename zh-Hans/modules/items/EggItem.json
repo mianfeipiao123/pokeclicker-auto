@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/EggItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../enums/CaughtStatus": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "./CaughtIndicatingItem": {
+      "translation": "",
+      "line": 3
+    },
+    "An egg. Can be hatched in the Day Care.": {
+      "translation": "一个鸡蛋。可以在日托中心孵化。",
+      "line": 9
+    },
+    "egg": {
+      "translation": "蛋",
+      "line": 9
+    }
+  }
+}

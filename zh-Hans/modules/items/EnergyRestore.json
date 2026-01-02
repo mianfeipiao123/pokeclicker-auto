@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/EnergyRestore.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Item": {
+      "translation": "",
+      "line": 2
+    },
+    "Restores Expert Energy in the Underground.": {
+      "translation": "恢复采掘场的专家能量。",
+      "line": 8
+    }
+  }
+}

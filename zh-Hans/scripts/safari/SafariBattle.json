@@ -1,0 +1,266 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/SafariBattle.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 64,
+    "translatedCount": 31
+  },
+  "entries": {
+    "What will you do?": {
+      "translation": "你会怎么做？",
+      "line": 4
+    },
+    "up": {
+      "translation": "向上",
+      "line": 19
+    },
+    "static": {
+      "translation": "静止的",
+      "line": 28
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[Safari.activeRegion()])} Safari": {
+      "translation": "",
+      "line": 31
+    },
+    "You throw a ball...": {
+      "translation": "你扔一个球...",
+      "line": 61
+    },
+    "#safariBattleModal .enemy": {
+      "translation": "",
+      "line": 63
+    },
+    "#safariBattleModal .pageItemFooter": {
+      "translation": "#safariBattleModal .pageItemFooter",
+      "line": 70
+    },
+    "cubic-bezier(0,0,0.4,1)": {
+      "translation": "三次贝塞尔曲线(0,0,0.4,1)",
+      "line": 70
+    },
+    "z-index": {
+      "translation": "z 索引",
+      "line": 70
+    },
+    "animation-duration": {
+      "translation": "",
+      "line": 71
+    },
+    "spin": {
+      "translation": "旋转",
+      "line": 71
+    },
+    "${ballSpeed}ms": {
+      "translation": "",
+      "line": 71
+    },
+    "transition-duration": {
+      "translation": "",
+      "line": 99
+    },
+    "${SafariBattle.Speed.enemyTransition * SafariBattle.getTierMultiplier()}ms": {
+      "translation": "",
+      "line": 99
+    },
+    "#safariBattleModal .enemy > img": {
+      "translation": "#safariBattleModal .enemy > img",
+      "line": 108
+    },
+    "opacity": {
+      "translation": "不透明度",
+      "line": 108
+    },
+    "bounce": {
+      "translation": "弹跳",
+      "line": 110
+    },
+    "${bounceSpeed}ms": {
+      "translation": "",
+      "line": 110
+    },
+    "safari-roll-left safari-roll-right": {
+      "translation": "Safari-滚动-左 Safari-滚动-右",
+      "line": 128
+    },
+    "safari-roll-left": {
+      "translation": "",
+      "line": 143
+    },
+    "${rollSpeed}ms": {
+      "translation": "",
+      "line": 143
+    },
+    "safari-roll-right": {
+      "translation": "",
+      "line": 145
+    },
+    "filter": {
+      "translation": "筛选",
+      "line": 157
+    },
+    "brightness(0.4) grayscale(100%)": {
+      "translation": "亮度(0.4) 灰度(100%)",
+      "line": 157
+    },
+    "GOTCHA!<br>${SafariBattle.enemy.displayName} was caught!": {
+      "translation": "",
+      "line": 177
+    },
+    "A Glimmer of Luck": {
+      "translation": "一丝幸运",
+      "line": 182
+    },
+    "Bug Catching Contest": {
+      "translation": "捉虫大赛",
+      "line": 195
+    },
+    "assets/images/currency/contestToken.svg": {
+      "translation": "",
+      "line": 196
+    },
+    "<img src=\"assets/images/currency/contestToken.svg\" height=\"24px\"/> You earned ${bugReward} Contest Tokens!": {
+      "translation": "",
+      "line": 196
+    },
+    "You don't have enough ${bait.name}": {
+      "translation": "",
+      "line": 209
+    },
+    "You throw ${bait.useName} at ${SafariBattle.enemy.displayName}": {
+      "translation": "",
+      "line": 217
+    },
+    "<img width=16px src=\"${bait.image}\">": {
+      "translation": "",
+      "line": 223
+    },
+    "You throw a rock at ${SafariBattle.enemy.displayName}": {
+      "translation": "",
+      "line": 232
+    },
+    "<img src=\"assets/images/safari/rock.png\">": {
+      "translation": "",
+      "line": 239
+    },
+    "assets/images/safari/rock.png": {
+      "translation": "",
+      "line": 239
+    },
+    "<ptcl>": {
+      "translation": "<ptcl>",
+      "line": 242
+    },
+    "<img src=\"assets/images/safari/hit.png\">": {
+      "translation": "",
+      "line": 242
+    },
+    "assets/images/safari/hit.png": {
+      "translation": "",
+      "line": 242
+    },
+    "position": {
+      "translation": "位置",
+      "line": 243
+    },
+    "absolute": {
+      "translation": "绝对",
+      "line": 243
+    },
+    "<img id=\"safariParticleAngry\" src=\"assets/images/safari/angry.png\">": {
+      "translation": "",
+      "line": 255
+    },
+    "assets/images/safari/angry.png": {
+      "translation": "",
+      "line": 255
+    },
+    "pulse": {
+      "translation": "脉冲",
+      "line": 258
+    },
+    "Shiny Encounter": {
+      "translation": "异色的邂逅",
+      "line": 281
+    },
+    "Are you sure you want to run away from this battle?": {
+      "translation": "你确定要逃离这场战斗吗？",
+      "line": 282
+    },
+    "Yes": {
+      "translation": "是",
+      "line": 284
+    },
+    "No": {
+      "translation": "否",
+      "line": 285
+    },
+    "You flee.": {
+      "translation": "你逃跑。",
+      "line": 291
+    },
+    "${SafariBattle.enemy.displayName} has fled.": {
+      "translation": "",
+      "line": 300
+    },
+    "${SafariBattle.enemy.displayName} is eating...": {
+      "translation": "",
+      "line": 305
+    },
+    "${SafariBattle.enemy.displayName} is angry!": {
+      "translation": "",
+      "line": 307
+    },
+    "${SafariBattle.enemy.displayName} is watching carefully...": {
+      "translation": "",
+      "line": 309
+    },
+    "hidden.bs.modal": {
+      "translation": "",
+      "line": 321
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 324
+    },
+    "cubic-bezier(0.6, -0.3, 0.7, 0)": {
+      "translation": "三次贝塞尔曲线(0.6, -0.3, 0.7, 0)",
+      "line": 344
+    },
+    "left ${time}ms linear, top ${time}ms ${top}": {
+      "translation": "",
+      "line": 346
+    },
+    "<div><img id=\"safariBall\" src=\"assets/images/pokeball/Sportball.svg\" height=\"30px\"></div>": {
+      "translation": "",
+      "line": 380
+    },
+    "assets/images/pokeball/Sportball.svg": {
+      "translation": "",
+      "line": 380
+    },
+    "<div><img id=\"safariBall\" src=\"assets/images/pokeball/Safariball.svg\" height=\"30px\"></div>": {
+      "translation": "",
+      "line": 382
+    },
+    "assets/images/pokeball/Safariball.svg": {
+      "translation": "",
+      "line": 382
+    },
+    "Oh, no!<br>The Pokémon broke free!": {
+      "translation": "哦，不！<br>宝可梦挣脱了！",
+      "line": 406
+    },
+    "Aww! It appeared to be caught!": {
+      "translation": "哇！看来是被抓住了！",
+      "line": 407
+    },
+    "Aargh! Almost had it!": {
+      "translation": "啊啊！差一点就拥有了！",
+      "line": 408
+    },
+    "Shoot! It was so close, too!": {
+      "translation": "射击！也太近了！",
+      "line": 409
+    }
+  }
+}

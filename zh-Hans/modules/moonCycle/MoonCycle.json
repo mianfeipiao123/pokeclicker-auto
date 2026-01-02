@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/moonCycle/MoonCycle.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 9
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 2
+    },
+    "./CurrentMoonPhase": {
+      "translation": "",
+      "line": 3
+    },
+    "./MoonCyclePhase": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 7
+    },
+    "assets/images/moonCycle/${MoonCyclePhase[MoonCycle.currentMoonCyclePhase()]}.png": {
+      "translation": "",
+      "line": 22
+    },
+    "New Moon": {
+      "translation": "新月",
+      "line": 35
+    },
+    "Waxing Crescent Moon": {
+      "translation": "娥眉月",
+      "line": 37
+    },
+    "First Quarter Moon": {
+      "translation": "上弦月",
+      "line": 39
+    },
+    "Waxing Gibbous Moon": {
+      "translation": "盈凸月",
+      "line": 41
+    },
+    "Full Moon": {
+      "translation": "满月",
+      "line": 43
+    },
+    "Waning Gibbous Moon": {
+      "translation": "亏凸月",
+      "line": 45
+    },
+    "Third Quarter Moon": {
+      "translation": "下弦月",
+      "line": 47
+    },
+    "Waning Crescent Moon": {
+      "translation": "残月",
+      "line": 49
+    }
+  }
+}

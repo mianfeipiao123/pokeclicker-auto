@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/changelog/ChangelogUpdate.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 2
+  },
+  "entries": {
+    "./Changelog": {
+      "translation": "",
+      "line": 1
+    },
+    "numeric": {
+      "translation": "数字",
+      "line": 9
+    },
+    "long": {
+      "translation": "长的",
+      "line": 9
+    },
+    "<code>${version}${desc ? ": {
+      "translation": "",
+      "line": 9
+    },
+    " : ''} -  ${date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</code>": {
+      "translation": "",
+      "line": 9
+    }
+  }
+}

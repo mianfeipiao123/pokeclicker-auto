@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/SafariTownContent.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 2
+  },
+  "entries": {
+    "btn btn-primary": {
+      "translation": "btn btn-主要",
+      "line": 7
+    },
+    "Enter Safari Zone": {
+      "translation": "进入野生动物区",
+      "line": 10
+    }
+  }
+}

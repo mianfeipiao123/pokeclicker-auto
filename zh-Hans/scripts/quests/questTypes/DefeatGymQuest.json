@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/DefeatGymQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 4
+  },
+  "entries": {
+    "Invalid gym town for quest: ${this.gymTown}": {
+      "translation": "",
+      "line": 14
+    },
+    "Elite": {
+      "translation": "精英",
+      "line": 51
+    },
+    "Champion": {
+      "translation": "冠军",
+      "line": 51
+    },
+    "Trial": {
+      "translation": "审判",
+      "line": 60
+    },
+    " at ${this.gymTown}": {
+      "translation": "",
+      "line": 61
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 69
+    },
+    "Defeat ${gymString} in ${subRegionName} ${this.amount.toLocaleString('en-US')} times.": {
+      "translation": "",
+      "line": 69
+    }
+  }
+}

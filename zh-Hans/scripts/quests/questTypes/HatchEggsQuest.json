@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/HatchEggsQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 2
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 27
+    },
+    "Egg": {
+      "translation": "蛋",
+      "line": 27
+    },
+    "Hatch ${this.amount.toLocaleString('en-US')} ${GameConstants.pluralizeString('Egg', this.amount)}.": {
+      "translation": "",
+      "line": 27
+    }
+  }
+}

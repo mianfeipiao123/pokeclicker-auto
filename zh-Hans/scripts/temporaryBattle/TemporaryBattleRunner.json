@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/temporaryBattle/TemporaryBattleRunner.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 9,
+    "translatedCount": 6
+  },
+  "entries": {
+    "showGymGoAnimation": {
+      "translation": "showGymGoAnimation",
+      "line": 42
+    },
+    "src": {
+      "translation": "源代码",
+      "line": 47
+    },
+    "assets/gifs/go.gif": {
+      "translation": "",
+      "line": 47
+    },
+    "It appears you are not strong enough to defeat ${TemporaryBattleBattle.battle.getDisplayName()}.": {
+      "translation": "",
+      "line": 83
+    },
+    "show": {
+      "translation": "展示",
+      "line": 97
+    },
+    "DOMContentLoaded": {
+      "translation": "DOM内容已加载",
+      "line": 129
+    },
+    "hidden.bs.modal": {
+      "translation": "",
+      "line": 130
+    },
+    "Hau 2": {
+      "translation": "哈乌2",
+      "line": 131
+    },
+    "Z-Power_Ring": {
+      "translation": "Z-Power_Ring",
+      "line": 132
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/zMoves/zMoves.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 2
+  },
+  "entries": {
+    "Z Moves": {
+      "translation": "Z 轴移动",
+      "line": 5
+    },
+    "Z-Power_Ring": {
+      "translation": "Z-Power_Ring",
+      "line": 56
+    },
+    "ZMOVE_${GameConstants.ZMoveStatus[this.status()].toUpperCase()}_MULTIPLIER": {
+      "translation": "",
+      "line": 75
+    }
+  }
+}

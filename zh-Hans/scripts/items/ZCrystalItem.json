@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/items/ZCrystalItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 2
+  },
+  "entries": {
+    "Allows ${PokemonType[type]}-type Pokémon to use Z-Moves for the next battle. They then need to rest a bit.": {
+      "translation": "",
+      "line": 8
+    },
+    "Challenge Mode": {
+      "translation": "挑战模式",
+      "line": 25
+    },
+    "Battle Items are Disabled": {
+      "translation": "战斗物品被禁用",
+      "line": 26
+    },
+    "You don't have the ${this.displayName}...": {
+      "translation": "",
+      "line": 36
+    }
+  }
+}

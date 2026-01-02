@@ -1,0 +1,282 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 68,
+    "translatedCount": 26
+  },
+  "entries": {
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 1
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 2
+    },
+    "./mine/MineConfig": {
+      "translation": "",
+      "line": 3
+    },
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 4
+    },
+    "./UndergroundItems": {
+      "translation": "",
+      "line": 5
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 6
+    },
+    "../settings": {
+      "translation": "",
+      "line": 7
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 8
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 9
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 10
+    },
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 11
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 28
+    },
+    "./helper/UndergroundHelper": {
+      "translation": "",
+      "line": 29
+    },
+    "../notifications/NotificationOption": {
+      "translation": "",
+      "line": 30
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 31
+    },
+    "./mine/Mine": {
+      "translation": "",
+      "line": 32
+    },
+    "./UndergroundTreasuresSortOptions": {
+      "translation": "",
+      "line": 33
+    },
+    "../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 34
+    },
+    "./tools/UndergroundToolType": {
+      "translation": "",
+      "line": 35
+    },
+    "undergroundTreasureDisplayShowLocked": {
+      "translation": "undergroundTreasureDisplayShowLocked",
+      "line": 46
+    },
+    "undergroundTreasureDisplaySorting": {
+      "translation": "undergroundTreasureDisplaySorting",
+      "line": 47
+    },
+    "undergroundTreasureDisplaySortingDirection": {
+      "translation": "undergroundTreasureDisplaySortingDirection",
+      "line": 47
+    },
+    "undergroundTreasureDisplayGrouping": {
+      "translation": "undergroundTreasureDisplayGrouping",
+      "line": 49
+    },
+    "type": {
+      "translation": "类型",
+      "line": 50
+    },
+    "sellable": {
+      "translation": "可出售的",
+      "line": 60
+    },
+    "Can be sold": {
+      "translation": "可以出售",
+      "line": 62
+    },
+    "Cannot be sold": {
+      "translation": "无法出售",
+      "line": 65
+    },
+    "region": {
+      "translation": "地区",
+      "line": 68
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 78
+    },
+    "All": {
+      "translation": "全部",
+      "line": 81
+    },
+    "Item is locked for selling, you first have to unlock it.": {
+      "translation": "物品已锁定出售，你首先必须将其解锁。",
+      "line": 164
+    },
+    "show": {
+      "translation": "展示",
+      "line": 205
+    },
+    "Underground": {
+      "translation": "采掘场",
+      "line": 208
+    },
+    "You need the Explorer Kit to access this location.\n<i>Check out the shop at Cinnabar Island.</i>": {
+      "translation": "你需要探险套装才能进入此地点。\n<i>请查看红莲岛的商店。</i>",
+      "line": 209
+    },
+    "autoRestartUndergroundMine": {
+      "translation": "autoRestartUndergroundMine",
+      "line": 286
+    },
+    "background-image": {
+      "translation": "背景图像",
+      "line": 305
+    },
+    "url('${undergroundImage}')": {
+      "translation": "",
+      "line": 305
+    },
+    "background-position": {
+      "translation": "",
+      "line": 306
+    },
+    "background-size": {
+      "translation": "",
+      "line": 307
+    },
+    "${space[0].length * 100}% ${space.length * 100}%": {
+      "translation": "",
+      "line": 307
+    },
+    "transform": {
+      "translation": "转换",
+      "line": 308
+    },
+    "rotate(${reward.rotations * 90}deg)": {
+      "translation": "",
+      "line": 308
+    },
+    "filter": {
+      "translation": "筛选",
+      "line": 309
+    },
+    "opacity(${reward.rewarded ? '25%' : '100%'})": {
+      "translation": "",
+      "line": 309
+    },
+    "You dug deeper...": {
+      "translation": "你挖得更深了...",
+      "line": 339
+    },
+    "${helper.name} dug deeper...": {
+      "translation": "",
+      "line": 339
+    },
+    "You": {
+      "translation": "",
+      "line": 350
+    },
+    "pixelated": {
+      "translation": "",
+      "line": 350
+    },
+    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/> ${helper?.name ?? 'You'} found ${GameHelper.anOrA(itemName)} ${humanifyString(itemName)}.": {
+      "translation": "",
+      "line": 350
+    },
+    "${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+      "translation": "",
+      "line": 357
+    },
+    "Lucky! ${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+      "translation": "",
+      "line": 358
+    },
+    "Jackpot! ${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+      "translation": "",
+      "line": 359
+    },
+    "Jackpot ×${i - 2}! ${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+      "translation": "",
+      "line": 360
+    },
+    "Treasure Scanner": {
+      "translation": "宝藏扫描仪",
+      "line": 363
+    },
+    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/> ${message}": {
+      "translation": "",
+      "line": 364
+    },
+    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/> ${helper?.name ?? 'You'} found ${GameHelper.anOrA(itemName)} ${humanifyString(itemName)}, but the item was destroyed in the process.": {
+      "translation": "",
+      "line": 377
+    },
+    "Thanks for hiring me,\nI won't let you down!": {
+      "translation": "感谢雇佣我，\n我不会让你失望的！",
+      "line": 387
+    },
+    "Happy to work for you! Let me know when you're hiring again!": {
+      "translation": "很高兴为你工作！当你再次招聘时请告诉我！",
+      "line": 397
+    },
+    "<img src=\"${item.image}\" height=\"24px\" class=\"pixelated\"/> ${helper.retentionText}": {
+      "translation": "",
+      "line": 407
+    },
+    "Your Underground Battery has been fully charged and is ready to be discharged.": {
+      "translation": "你的地下电池已充满电，可以放电了。",
+      "line": 416
+    },
+    "<div class=\"d-inline-flex align-items-center justify-content-center position-relative mr-2\">": {
+      "translation": "<div class=\"d-inline-flex align-items-center justify-content-center position-relative mr-2\">",
+      "line": 425
+    },
+    "d-inline-flex align-items-center justify-content-center position-relative mr-2": {
+      "translation": "",
+      "line": 425
+    },
+    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/>": {
+      "translation": "",
+      "line": 426
+    },
+    "<img class=\"pixelated position-absolute\" src=\"assets/images/pokemon/25.23.png\" alt=\"\" style=\"width: 24px; right: -16px; bottom: -10px;\">": {
+      "translation": "",
+      "line": 427
+    },
+    "pixelated position-absolute": {
+      "translation": "",
+      "line": 427
+    },
+    "assets/images/pokemon/25.23.png": {
+      "translation": "",
+      "line": 427
+    },
+    "width: 24px; right: -16px; bottom: -10px;": {
+      "translation": "",
+      "line": 427
+    },
+    "</div>": {
+      "translation": "",
+      "line": 428
+    }
+  }
+}

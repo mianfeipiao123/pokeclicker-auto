@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/badgeCase/BadgeCaseController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 4
+  },
+  "entries": {
+    "Orange League": {
+      "translation": "橙色联赛",
+      "line": 4
+    },
+    "Magikarp Jump": {
+      "translation": "",
+      "line": 4
+    },
+    "Orre": {
+      "translation": "奥尔雷",
+      "line": 4
+    },
+    "Elite": {
+      "translation": "精英",
+      "line": 34
+    },
+    "None": {
+      "translation": "无",
+      "line": 34
+    }
+  }
+}

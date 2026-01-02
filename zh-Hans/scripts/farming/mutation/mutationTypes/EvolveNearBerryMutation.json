@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/mutation/mutationTypes/EvolveNearBerryMutation.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "some": {
+      "translation": "一些",
+      "line": 50
+    },
+    "I've heard that ${berryType} Berries can spontaneously change!": {
+      "translation": "",
+      "line": 53
+    },
+    "I've heard that growing ${berryType} Berries": {
+      "translation": "",
+      "line": 56
+    },
+    " and $1": {
+      "translation": "",
+      "line": 57
+    },
+    " near ${this.berryReqs.map(b => BerryType[b]).join(', ').replace(/, ([\\w\\s]+)$/, ' and $1')} Berries": {
+      "translation": "",
+      "line": 57
+    },
+    " can cause it to change!": {
+      "translation": "",
+      "line": 58
+    }
+  }
+}

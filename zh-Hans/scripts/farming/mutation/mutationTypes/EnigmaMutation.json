@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/mutation/mutationTypes/EnigmaMutation.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 11,
+    "translatedCount": 5
+  },
+  "entries": {
+    "There's a mysterious berry that requires ${this.getHint(this.lastIndex())}.": {
+      "translation": "",
+      "line": 94
+    },
+    "north": {
+      "translation": "北",
+      "line": 101
+    },
+    "west": {
+      "translation": "西方",
+      "line": 104
+    },
+    "east": {
+      "translation": "东方",
+      "line": 107
+    },
+    "south": {
+      "translation": "南",
+      "line": 110
+    },
+    "a ${BerryType[EnigmaMutation.getReqs()[idx]]} Berry to the ${direction}": {
+      "translation": "",
+      "line": 113
+    },
+    "s a mysterious berry that requires ${hints.join(": {
+      "translation": "",
+      "line": 129
+    },
+    ").replace(/, ([\\w\\s]+)$/, ": {
+      "translation": "",
+      "line": 129
+    },
+    "There's a mysterious berry that requires ${hints.join(', ').replace(/, ([\\w\\s]+)$/, ' and $1')}": {
+      "translation": "",
+      "line": 129
+    },
+    "a specific configuration of Berries": {
+      "translation": "树果的特定配置",
+      "line": 132
+    },
+    ". However, there's still something missing...": {
+      "translation": "",
+      "line": 135
+    }
+  }
+}

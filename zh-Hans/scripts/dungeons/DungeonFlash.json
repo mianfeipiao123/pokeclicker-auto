@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/dungeons/DungeonFlash.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 1
+  },
+  "entries": {
+    "DungeonFlash definition does not specify player location": {
+      "translation": "DungeonFlash 定义未指定玩家位置",
+      "line": 34
+    }
+  }
+}

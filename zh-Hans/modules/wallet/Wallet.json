@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/wallet/Wallet.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 15,
+    "translatedCount": 8
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../multiplier/Multiplier": {
+      "translation": "",
+      "line": 7
+    },
+    "./Amount": {
+      "translation": "",
+      "line": 8
+    },
+    "../utilities/UI": {
+      "translation": "",
+      "line": 9
+    },
+    "../settings": {
+      "translation": "",
+      "line": 10
+    },
+    "Wallet": {
+      "translation": "钱包",
+      "line": 13
+    },
+    "wallet": {
+      "translation": "钱包",
+      "line": 14
+    },
+    "money": {
+      "translation": "钱",
+      "line": 56
+    },
+    "Could not add amount:": {
+      "translation": "无法添加金额：",
+      "line": 71
+    },
+    "Could not remove amount:": {
+      "translation": "无法删除金额：",
+      "line": 118
+    },
+    "currencyMainDisplayReduced": {
+      "translation": "currencyMainDisplayReduced",
+      "line": 133
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 135
+    }
+  }
+}

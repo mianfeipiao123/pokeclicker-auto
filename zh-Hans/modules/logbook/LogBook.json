@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/logbook/LogBook.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 4
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 2
+    },
+    "../koExtenders": {
+      "translation": "",
+      "line": 3
+    },
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 4
+    },
+    "./helpers": {
+      "translation": "",
+      "line": 5
+    },
+    "./LogBookLog": {
+      "translation": "",
+      "line": 6
+    },
+    "./LogBookTypes": {
+      "translation": "",
+      "line": 7
+    },
+    "../settings": {
+      "translation": "",
+      "line": 8
+    },
+    "Log Book": {
+      "translation": "航海日志",
+      "line": 13
+    },
+    "logbook": {
+      "translation": "航海日志",
+      "line": 14
+    },
+    "logBook.": {
+      "translation": "日志。",
+      "line": 60
+    }
+  }
+}

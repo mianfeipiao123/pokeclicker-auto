@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/TownContent.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 13,
+    "translatedCount": 9
+  },
+  "entries": {
+    "t have access yet.\n<i>${reqsList.join(": {
+      "translation": "",
+      "line": 44
+    },
+    "You don't have access yet.\n<i>${reqsList.join('\n')}</i>": {
+      "translation": "",
+      "line": 44
+    },
+    "btn btn-info": {
+      "translation": "btn btn-信息",
+      "line": 59
+    },
+    "Dock": {
+      "translation": "码头",
+      "line": 71
+    },
+    "btn btn-primary": {
+      "translation": "btn btn-主要",
+      "line": 77
+    },
+    "Enter Battle Frontier": {
+      "translation": "进入对战开拓区",
+      "line": 85
+    },
+    "btn btn-warning": {
+      "translation": "btn btn-警告",
+      "line": 91
+    },
+    "show": {
+      "translation": "展示",
+      "line": 99
+    },
+    "Travel to ${GameConstants.camelCaseToString(GameConstants.Region[player.highestRegion() + 1])}": {
+      "translation": "",
+      "line": 103
+    },
+    "btn btn-secondary": {
+      "translation": "btn btn-次要",
+      "line": 114
+    },
+    "Tutorial Quests": {
+      "translation": "教程任务",
+      "line": 132
+    },
+    "Open the Castform App": {
+      "translation": "",
+      "line": 206
+    },
+    "Pick your Starter": {
+      "translation": "选择你的入门者",
+      "line": 228
+    }
+  }
+}

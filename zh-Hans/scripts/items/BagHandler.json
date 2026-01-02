@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/items/BagHandler.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "${BerryType[this.getBerry(item.id)]} Berry": {
+      "translation": "",
+      "line": 20
+    },
+    "${PokemonType[this.getGem(item.id)]} Gem": {
+      "translation": "",
+      "line": 22
+    },
+    "string": {
+      "translation": "细绳",
+      "line": 116
+    }
+  }
+}

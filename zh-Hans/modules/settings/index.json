@@ -1,0 +1,1870 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/index.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 465,
+    "translatedCount": 401
+  },
+  "entries": {
+    "./Settings": {
+      "translation": "",
+      "line": 1
+    },
+    "./Setting": {
+      "translation": "",
+      "line": 2
+    },
+    "./SettingOption": {
+      "translation": "",
+      "line": 3
+    },
+    "./BooleanSetting": {
+      "translation": "",
+      "line": 4
+    },
+    "./CssVariableSetting": {
+      "translation": "",
+      "line": 5
+    },
+    "./SearchSetting": {
+      "translation": "",
+      "line": 6
+    },
+    "./RangeSetting": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 8
+    },
+    "../background/DynamicBackground": {
+      "translation": "",
+      "line": 9
+    },
+    "./SortOptions": {
+      "translation": "",
+      "line": 10
+    },
+    "../achievements/AchievementSortOptions": {
+      "translation": "",
+      "line": 11
+    },
+    "../underground/UndergroundTreasuresSortOptions": {
+      "translation": "",
+      "line": 14
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 27
+    },
+    "./HotkeySetting": {
+      "translation": "",
+      "line": 28
+    },
+    "../translation/Language": {
+      "translation": "",
+      "line": 29
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 30
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 31
+    },
+    "../logbook/LogBookTypes": {
+      "translation": "",
+      "line": 32
+    },
+    "../requirements/QuestLineStartedRequirement": {
+      "translation": "",
+      "line": 33
+    },
+    "../requirements/ClearDungeonRequirement": {
+      "translation": "",
+      "line": 34
+    },
+    "../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 35
+    },
+    "../party/Category": {
+      "translation": "",
+      "line": 36
+    },
+    "../requirements/ShadowPokemonRequirement": {
+      "translation": "",
+      "line": 37
+    },
+    "./OrderSetting": {
+      "translation": "",
+      "line": 38
+    },
+    "../enums/AreaStatus": {
+      "translation": "",
+      "line": 39
+    },
+    "final": {
+      "translation": "最终的",
+      "line": 46
+    },
+    "theme": {
+      "translation": "主题",
+      "line": 59
+    },
+    "Theme": {
+      "translation": "主题",
+      "line": 59
+    },
+    "Cerulean": {
+      "translation": "天蓝色",
+      "line": 61
+    },
+    "cerulean": {
+      "translation": "天蓝色的",
+      "line": 61
+    },
+    "Cosmo": {
+      "translation": "科斯莫",
+      "line": 62
+    },
+    "cosmo": {
+      "translation": "科斯莫",
+      "line": 62
+    },
+    "Cyborg": {
+      "translation": "赛博格",
+      "line": 63
+    },
+    "cyborg": {
+      "translation": "赛博格",
+      "line": 63
+    },
+    "Darkly": {
+      "translation": "黑暗",
+      "line": 64
+    },
+    "darkly": {
+      "translation": "黑暗",
+      "line": 64
+    },
+    "Flatly": {
+      "translation": "断然",
+      "line": 65
+    },
+    "flatly": {
+      "translation": "断然",
+      "line": 65
+    },
+    "Journal": {
+      "translation": "杂志",
+      "line": 66
+    },
+    "journal": {
+      "translation": "杂志",
+      "line": 66
+    },
+    "Litera": {
+      "translation": "利特拉",
+      "line": 67
+    },
+    "litera": {
+      "translation": "文学",
+      "line": 67
+    },
+    "Lumen": {
+      "translation": "流明",
+      "line": 68
+    },
+    "lumen": {
+      "translation": "流明",
+      "line": 68
+    },
+    "Lux": {
+      "translation": "勒克斯",
+      "line": 69
+    },
+    "lux": {
+      "translation": "勒克斯",
+      "line": 69
+    },
+    "Materia": {
+      "translation": "材料",
+      "line": 70
+    },
+    "materia": {
+      "translation": "材料",
+      "line": 70
+    },
+    "Minty": {
+      "translation": "薄荷",
+      "line": 71
+    },
+    "minty": {
+      "translation": "薄荷味的",
+      "line": 71
+    },
+    "Pulse": {
+      "translation": "脉冲",
+      "line": 72
+    },
+    "pulse": {
+      "translation": "脉冲",
+      "line": 72
+    },
+    "Sandstone": {
+      "translation": "砂岩",
+      "line": 73
+    },
+    "sandstone": {
+      "translation": "砂岩",
+      "line": 73
+    },
+    "Simplex": {
+      "translation": "单纯形",
+      "line": 74
+    },
+    "simplex": {
+      "translation": "单纯形",
+      "line": 74
+    },
+    "Sketchy": {
+      "translation": "粗略",
+      "line": 75
+    },
+    "sketchy": {
+      "translation": "粗略的",
+      "line": 75
+    },
+    "Slate": {
+      "translation": "石板",
+      "line": 76
+    },
+    "slate": {
+      "translation": "石板",
+      "line": 76
+    },
+    "Solar": {
+      "translation": "太阳的",
+      "line": 77
+    },
+    "solar": {
+      "translation": "太阳的",
+      "line": 77
+    },
+    "Spacelab": {
+      "translation": "太空实验室",
+      "line": 78
+    },
+    "spacelab": {
+      "translation": "太空实验室",
+      "line": 78
+    },
+    "Superhero": {
+      "translation": "超级英雄",
+      "line": 79
+    },
+    "superhero": {
+      "translation": "超级英雄",
+      "line": 79
+    },
+    "United": {
+      "translation": "团结的",
+      "line": 80
+    },
+    "united": {
+      "translation": "团结的",
+      "line": 80
+    },
+    "Yeti (default)": {
+      "translation": "雪人（默认）",
+      "line": 81
+    },
+    "yeti": {
+      "translation": "雪人",
+      "line": 81
+    },
+    "Breeding progress display": {
+      "translation": "养殖进度展示",
+      "line": 85
+    },
+    "Percentage": {
+      "translation": "百分比",
+      "line": 87
+    },
+    "percentage": {
+      "translation": "百分比",
+      "line": 87
+    },
+    "Step count": {
+      "translation": "步数",
+      "line": 88
+    },
+    "Shop amount buttons": {
+      "translation": "商店金额按钮",
+      "line": 91
+    },
+    "original": {
+      "translation": "原来的",
+      "line": 93
+    },
+    "bigplus": {
+      "translation": "大加",
+      "line": 94
+    },
+    "multiplication": {
+      "translation": "乘法",
+      "line": 95
+    },
+    "resetShopAmountOnPurchase": {
+      "translation": "resetShopAmountOnPurchase",
+      "line": 98
+    },
+    "Reset buy quantity after each purchase": {
+      "translation": "每次购买后重置购买数量",
+      "line": 98
+    },
+    "showCurrencyGainedAnimation": {
+      "translation": "showCurrencyGainedAnimation",
+      "line": 99
+    },
+    "Show currency gained animation": {
+      "translation": "显示获得货币的动画",
+      "line": 99
+    },
+    "showCurrencyLostAnimation": {
+      "translation": "showCurrencyLostAnimation",
+      "line": 100
+    },
+    "Show currency lost animation": {
+      "translation": "显示货币丢失动画",
+      "line": 100
+    },
+    "hideChallengeRelatedModules": {
+      "translation": "hideChallengeRelatedModules",
+      "line": 101
+    },
+    "Hide challenge related modules": {
+      "translation": "隐藏挑战相关模块",
+      "line": 101
+    },
+    "disableRightClickMenu": {
+      "translation": "禁用右键菜单",
+      "line": 102
+    },
+    "Disable the right click menu": {
+      "translation": "禁用右键菜单",
+      "line": 102
+    },
+    "Background image": {
+      "translation": "背景图片",
+      "line": 103
+    },
+    "Day": {
+      "translation": "白天",
+      "line": 105
+    },
+    "background-day": {
+      "translation": "",
+      "line": 105
+    },
+    "Night": {
+      "translation": "夜晚",
+      "line": 106
+    },
+    "background-night": {
+      "translation": "",
+      "line": 106
+    },
+    "Dynamic": {
+      "translation": "动态",
+      "line": 107
+    },
+    "background-dynamic": {
+      "translation": "",
+      "line": 107
+    },
+    "Egg Hatching Animation": {
+      "translation": "鸡蛋孵化动画",
+      "line": 110
+    },
+    "None": {
+      "translation": "无",
+      "line": 112
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 112
+    },
+    "Almost & fully ready": {
+      "translation": "几乎完全准备好",
+      "line": 113
+    },
+    "almost": {
+      "translation": "几乎",
+      "line": 113
+    },
+    "Fully ready": {
+      "translation": "完全准备好",
+      "line": 114
+    },
+    "full": {
+      "translation": "满的",
+      "line": 114
+    },
+    "Hide Hatchery Modal": {
+      "translation": "隐藏孵化场莫代尔",
+      "line": 117
+    },
+    "Never": {
+      "translation": "从不",
+      "line": 119
+    },
+    "never": {
+      "translation": "绝不",
+      "line": 119
+    },
+    "Egg Slots Full": {
+      "translation": "蛋槽已满",
+      "line": 120
+    },
+    "egg": {
+      "translation": "蛋",
+      "line": 120
+    },
+    "Queue Slots Full": {
+      "translation": "队列槽已满",
+      "line": 121
+    },
+    "queue": {
+      "translation": "队列",
+      "line": 121
+    },
+    "hideQuestsOnFull": {
+      "translation": "hideQuestsOnFull",
+      "line": 124
+    },
+    "Hide Quest Menu on full questslots": {
+      "translation": "在完整任务栏隐藏任务菜单",
+      "line": 124
+    },
+    "Show Farm module on main screen": {
+      "translation": "在主屏幕上显示农场模块",
+      "line": 127
+    },
+    "Limited Controls": {
+      "translation": "有限控制",
+      "line": 130
+    },
+    "limited": {
+      "translation": "有限的",
+      "line": 130
+    },
+    "Extended Controls": {
+      "translation": "扩展控制",
+      "line": 131
+    },
+    "extended": {
+      "translation": "扩展",
+      "line": 131
+    },
+    "Farm timer display": {
+      "translation": "农场计时器显示",
+      "line": 134
+    },
+    "To Next Stage": {
+      "translation": "进入下一阶段",
+      "line": 136
+    },
+    "Ripe/Death": {
+      "translation": "",
+      "line": 137
+    },
+    "Include base farm timer during altered berry growth times": {
+      "translation": "在改变树果生长时间期间包括基础农场计时器",
+      "line": 140
+    },
+    "Berrydex Display": {
+      "translation": "Berrydex展示",
+      "line": 141
+    },
+    "Classic Mode": {
+      "translation": "经典模式",
+      "line": 143
+    },
+    "classic": {
+      "translation": "经典的",
+      "line": 143
+    },
+    "Preview Mode": {
+      "translation": "预览模式",
+      "line": 144
+    },
+    "preview": {
+      "translation": "预览",
+      "line": 144
+    },
+    "Berry size units": {
+      "translation": "树果大小单位",
+      "line": 147
+    },
+    "Inches": {
+      "translation": "英寸",
+      "line": 149
+    },
+    "inch": {
+      "translation": "英寸",
+      "line": 149
+    },
+    "Centimeters": {
+      "translation": "厘米",
+      "line": 150
+    },
+    "cm": {
+      "translation": "厘米",
+      "line": 150
+    },
+    "autoRestartUndergroundMine": {
+      "translation": "autoRestartUndergroundMine",
+      "line": 153
+    },
+    "Auto restart selected mine": {
+      "translation": "自动重启选定的矿洞",
+      "line": 153
+    },
+    "undergroundTreasureDisplaySorting": {
+      "translation": "undergroundTreasureDisplaySorting",
+      "line": 157
+    },
+    "Sorting": {
+      "translation": "排序",
+      "line": 157
+    },
+    "undergroundTreasureDisplaySortingDirection": {
+      "translation": "undergroundTreasureDisplaySortingDirection",
+      "line": 158
+    },
+    "reverse": {
+      "translation": "撤销",
+      "line": 158
+    },
+    "undergroundTreasureDisplayGrouping": {
+      "translation": "undergroundTreasureDisplayGrouping",
+      "line": 159
+    },
+    "Grouping": {
+      "translation": "分组",
+      "line": 159
+    },
+    "Type": {
+      "translation": "属性",
+      "line": 162
+    },
+    "type": {
+      "translation": "类型",
+      "line": 162
+    },
+    "Can be sold": {
+      "translation": "可以出售",
+      "line": 163
+    },
+    "sellable": {
+      "translation": "可出售的",
+      "line": 163
+    },
+    "Region": {
+      "translation": "地区",
+      "line": 164
+    },
+    "region": {
+      "translation": "地区",
+      "line": 164
+    },
+    "undergroundTreasureDisplayShowLocked": {
+      "translation": "undergroundTreasureDisplayShowLocked",
+      "line": 167
+    },
+    "Show locked items": {
+      "translation": "显示锁定的项目",
+      "line": 167
+    },
+    "undergroundTreasureViewMode": {
+      "translation": "undergroundTreasureViewMode",
+      "line": 168
+    },
+    "Underground Treasure View Mode": {
+      "translation": "采掘宝藏查看模式",
+      "line": 168
+    },
+    "List": {
+      "translation": "列表",
+      "line": 170
+    },
+    "list-view": {
+      "translation": "列表视图",
+      "line": 170
+    },
+    "Grid": {
+      "translation": "网格",
+      "line": 171
+    },
+    "grid-view": {
+      "translation": "网格视图",
+      "line": 171
+    },
+    "Show Underground module on main screen": {
+      "translation": "在主屏幕上显示采掘场模块",
+      "line": 175
+    },
+    "enableUndergroundModuleMineControls": {
+      "translation": "enableUndergroundModuleMineControls",
+      "line": 176
+    },
+    "Enable Underground module mine controls": {
+      "translation": "启用采掘场模块挖掘控制",
+      "line": 176
+    },
+    "currencyMainDisplayReduced": {
+      "translation": "currencyMainDisplayReduced",
+      "line": 177
+    },
+    "Shorten currency amount shown on main screen": {
+      "translation": "缩短主屏幕上显示的货币金额",
+      "line": 177
+    },
+    "Confirm before leaving dungeons": {
+      "translation": "离开迷宫前确认",
+      "line": 178
+    },
+    "confirmBeformeMulchingAllPlots": {
+      "translation": "confirmBeformeMulchingAllPlots",
+      "line": 179
+    },
+    "Confirm before mulching all plots": {
+      "translation": "覆盖所有地块之前确认",
+      "line": 179
+    },
+    "breedingQueueClearConfirmation": {
+      "translation": "breedingQueueClearConfirmation",
+      "line": 180
+    },
+    "Confirm before clearing the hatchery queue": {
+      "translation": "清除孵化场队列之前确认",
+      "line": 180
+    },
+    "confirmChangeHeldItem": {
+      "translation": "confirmChangeHeldItem",
+      "line": 181
+    },
+    "Confirm before removing or replacing a Held Item": {
+      "translation": "移除或更换持有物品之前确认",
+      "line": 181
+    },
+    "showGymGoAnimation": {
+      "translation": "showGymGoAnimation",
+      "line": 182
+    },
+    "Show Gym GO animation": {
+      "translation": "显示 Gym GO 动画",
+      "line": 182
+    },
+    "Game display style": {
+      "translation": "游戏展示风格",
+      "line": 183
+    },
+    "Standard (3 columns)": {
+      "translation": "标准（3列）",
+      "line": 185
+    },
+    "standard3": {
+      "translation": "标准3",
+      "line": 185
+    },
+    "Full width (3 columns)": {
+      "translation": "全宽（3列）",
+      "line": 186
+    },
+    "fullWidth3": {
+      "translation": "全宽3",
+      "line": 186
+    },
+    "Full width (5 columns)": {
+      "translation": "全宽（5列）",
+      "line": 187
+    },
+    "fullWidth5": {
+      "translation": "全宽5",
+      "line": 187
+    },
+    "Show mute/unmute button": {
+      "translation": "",
+      "line": 190
+    },
+    "locked": {
+      "translation": "锁定",
+      "line": 193
+    },
+    "Locked Location": {
+      "translation": "锁定位置",
+      "line": 193
+    },
+    "incomplete": {
+      "translation": "不完整的",
+      "line": 194
+    },
+    "Incomplete Area": {
+      "translation": "不完整区域",
+      "line": 194
+    },
+    "Quest at Location": {
+      "translation": "地点任务",
+      "line": 195
+    },
+    "Uncaught Pokémon": {
+      "translation": "未捕获的宝可梦",
+      "line": 196
+    },
+    "Uncaught Shadow Pokémon": {
+      "translation": "未捕获的暗影宝可梦",
+      "line": 197
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 197
+    },
+    "uncaughtShinyPokemonAndMissingAchievement": {
+      "translation": "uncaughtShinyPokemonAndMissingAchievement",
+      "line": 198
+    },
+    "Uncaught Shiny Pokémon and Missing Achievement": {
+      "translation": "未捕获的异色宝可梦和缺失的成就",
+      "line": 198
+    },
+    "Uncaught Shiny Pokémon": {
+      "translation": "未捕获的异色宝可梦",
+      "line": 199
+    },
+    "Missing Achievement": {
+      "translation": "缺失的成就",
+      "line": 200
+    },
+    "Missing Resistant": {
+      "translation": "失踪抵抗",
+      "line": 201
+    },
+    "Distortion World": {
+      "translation": "扭曲世界",
+      "line": 201
+    },
+    "completed": {
+      "translation": "完全的",
+      "line": 202
+    },
+    "None of the Above": {
+      "translation": "以上都不是",
+      "line": 202
+    },
+    "mapAreaStateOrder": {
+      "translation": "mapAreaStateOrder",
+      "line": 203
+    },
+    "Map Area State Order": {
+      "translation": "地图区域状态顺序",
+      "line": 203
+    },
+    "disableAutoDownloadBackupSaveOnUpdate": {
+      "translation": "游戏更新时禁用自动下载存档",
+      "line": 206
+    },
+    "Disable automatic backup save downloading when game updates": {
+      "translation": "游戏更新时禁用自动备份保存下载",
+      "line": 206
+    },
+    "useWebWorkerForGameTicks": {
+      "translation": "useWebWorkerForGameTicks",
+      "line": 207
+    },
+    "Make use of web workers for game ticks (more consistent game speed)": {
+      "translation": "利用网络工作者进行游戏计时（更一致的游戏速度）",
+      "line": 207
+    },
+    "Disable offline progress": {
+      "translation": "禁用离线进度",
+      "line": 208
+    },
+    "Save reminder interval (in game time)": {
+      "translation": "保存提醒间隔（游戏时间内）",
+      "line": 209
+    },
+    "1 Hour": {
+      "translation": "1小时",
+      "line": 212
+    },
+    "3 Hours": {
+      "translation": "3小时",
+      "line": 213
+    },
+    "6 Hours": {
+      "translation": "6小时",
+      "line": 214
+    },
+    "12 Hours": {
+      "translation": "12小时",
+      "line": 215
+    },
+    "24 Hours": {
+      "translation": "24小时",
+      "line": 216
+    },
+    "2 Days": {
+      "translation": "2天",
+      "line": 217
+    },
+    "3 Days": {
+      "translation": "3天",
+      "line": 218
+    },
+    "4 Days": {
+      "translation": "4天",
+      "line": 219
+    },
+    "5 Days": {
+      "translation": "5天",
+      "line": 220
+    },
+    "6 Days": {
+      "translation": "6天",
+      "line": 221
+    },
+    "7 Days": {
+      "translation": "7天",
+      "line": 222
+    },
+    "Disable blinking animation after completing a Region": {
+      "translation": "完成区域后禁用闪烁动画",
+      "line": 225
+    },
+    "Disable Auto Save": {
+      "translation": "禁用自动保存",
+      "line": 226
+    },
+    "breedingQueueSizeSetting": {
+      "translation": "breedingQueueSizeSetting",
+      "line": 227
+    },
+    "Breeding Queue Size": {
+      "translation": "繁殖队列大小",
+      "line": 227
+    },
+    "sound.${sound.name}": {
+      "translation": "",
+      "line": 232
+    },
+    "sound.volume": {
+      "translation": "音量",
+      "line": 235
+    },
+    "Volume": {
+      "translation": "体积",
+      "line": 235
+    },
+    "partyHideShinySprites": {
+      "translation": "partyHideShinySprites",
+      "line": 252
+    },
+    "Hide party shiny sprites": {
+      "translation": "隐藏队伍异色精灵",
+      "line": 252
+    },
+    "partyShowPurifiedShadowSprites": {
+      "translation": "partyShowPurifiedShadowSprites",
+      "line": 253
+    },
+    "Show party shadow sprites": {
+      "translation": "显示队伍暗影精灵",
+      "line": 253
+    },
+    "Sort": {
+      "translation": "排序",
+      "line": 259
+    },
+    "vitaminHideMaxedPokemon": {
+      "translation": "vitaminHideMaxedPokemon",
+      "line": 275
+    },
+    "Hide Pokémon with max vitamin": {
+      "translation": "隐藏具有最大维生素的宝可梦",
+      "line": 275
+    },
+    "vitaminHideShinyPokemon": {
+      "translation": "vitaminHideShinyPokemon",
+      "line": 276
+    },
+    "Hide shiny Pokémon": {
+      "translation": "隐藏异色的宝可梦",
+      "line": 276
+    },
+    "Search": {
+      "translation": "搜索",
+      "line": 277
+    },
+    "All": {
+      "translation": "全部",
+      "line": 278
+    },
+    "consumableHideShinyPokemon": {
+      "translation": "consumableHideShinyPokemon",
+      "line": 287
+    },
+    "Sort:": {
+      "translation": "种类：",
+      "line": 296
+    },
+    "heldItemSortDirection": {
+      "translation": "反向",
+      "line": 297
+    },
+    "heldItemDropdownPokemonOrItem": {
+      "translation": "heldItemDropdownPokemonOrItem",
+      "line": 298
+    },
+    "Pokémon or Item": {
+      "translation": "宝可梦或物品",
+      "line": 298
+    },
+    "Pokémon": {
+      "translation": "只宝可梦",
+      "line": 298
+    },
+    "pokemon": {
+      "translation": "宝可梦",
+      "line": 298
+    },
+    "Item": {
+      "translation": "物品",
+      "line": 298
+    },
+    "item": {
+      "translation": "物品",
+      "line": 298
+    },
+    "heldItemSearchFilter": {
+      "translation": "heldItemSearchFilter",
+      "line": 299
+    },
+    "heldItemRegionFilter": {
+      "translation": "heldItemRegionFilter",
+      "line": 300
+    },
+    "heldItemTypeFilter": {
+      "translation": "heldItemTypeFilter",
+      "line": 301
+    },
+    "heldItemType2Filter": {
+      "translation": "持有项目类型2过滤器",
+      "line": 306
+    },
+    "Type 2": {
+      "translation": "2型",
+      "line": 306
+    },
+    "heldItemHideHoldingPokemon": {
+      "translation": "heldItemHideHoldingPokemon",
+      "line": 311
+    },
+    "Hide Pokémon holding an item": {
+      "translation": "隐藏持有物品的宝可梦",
+      "line": 311
+    },
+    "heldItemHideHoldingThisItem": {
+      "translation": "heldItemHideHoldingThisItem",
+      "line": 312
+    },
+    "Hide Pokémon holding this item": {
+      "translation": "隐藏持有该物品的宝可梦",
+      "line": 312
+    },
+    "breedingIDFilter": {
+      "translation": "breedingIDFilter",
+      "line": 315
+    },
+    "breedingType1Filter": {
+      "translation": "养殖Type1过滤器",
+      "line": 315
+    },
+    "breedingType2Filter": {
+      "translation": "养殖Type2过滤器",
+      "line": 315
+    },
+    "breedingUniqueTransformationFilter": {
+      "translation": "breedingUniqueTransformationFilter",
+      "line": 316
+    },
+    "breedingHideAltFilter": {
+      "translation": "breedingHideAltFilter",
+      "line": 316
+    },
+    "Search ID": {
+      "translation": "搜索ID",
+      "line": 319
+    },
+    "Region(s)": {
+      "translation": "地区",
+      "line": 320
+    },
+    "Type 1": {
+      "translation": "类型1",
+      "line": 321
+    },
+    "Shiny Status": {
+      "translation": "异色状态",
+      "line": 335
+    },
+    "Not Shiny": {
+      "translation": "非异色",
+      "line": 338
+    },
+    "Shiny": {
+      "translation": "异色",
+      "line": 339
+    },
+    "Pokérus Status": {
+      "translation": "宝可病毒状态",
+      "line": 342
+    },
+    "Infected": {
+      "translation": "已感染",
+      "line": 345
+    },
+    "Category": {
+      "translation": "类别",
+      "line": 348
+    },
+    "Categorized": {
+      "translation": "分类",
+      "line": 350
+    },
+    "Category ${c.id}": {
+      "translation": "",
+      "line": 351
+    },
+    "Unique Transformations": {
+      "translation": "特殊形态",
+      "line": 353
+    },
+    "Show All Pokémon": {
+      "translation": "显示所有宝可梦",
+      "line": 355
+    },
+    "all": {
+      "translation": "全部",
+      "line": 355
+    },
+    "Mega Evolution/Primal Reversion Available": {
+      "translation": "可超级进化/原始回归",
+      "line": 356
+    },
+    "mega-available": {
+      "translation": "",
+      "line": 356
+    },
+    "Unobtained Mega Evolution/Primal Reversion": {
+      "translation": "未获得超级进化/原始回归",
+      "line": 357
+    },
+    "mega-unobtained": {
+      "translation": "",
+      "line": 357
+    },
+    "Obtained Mega Evolution/Primal Reversion": {
+      "translation": "已获得超级进化/原始回归",
+      "line": 358
+    },
+    "mega-evolution": {
+      "translation": "",
+      "line": 358
+    },
+    "Hide alternate forms": {
+      "translation": "隐藏其他形态",
+      "line": 361
+    },
+    "breedingDisplayTextSetting": {
+      "translation": "breedingDisplayTextSetting",
+      "line": 364
+    },
+    "Display Value": {
+      "translation": "显示值",
+      "line": 364
+    },
+    "Attack": {
+      "translation": "攻击",
+      "line": 366
+    },
+    "attack": {
+      "translation": "攻击",
+      "line": 366
+    },
+    "Attack Bonus": {
+      "translation": "攻击加成",
+      "line": 367
+    },
+    "Base Attack": {
+      "translation": "基础攻击力",
+      "line": 368
+    },
+    "Egg Steps": {
+      "translation": "孵化步数",
+      "line": 369
+    },
+    "Times Hatched": {
+      "translation": "孵化次数",
+      "line": 370
+    },
+    "Breeding Efficiency": {
+      "translation": "培育效率",
+      "line": 371
+    },
+    "Steps per Attack Bonus": {
+      "translation": "每次攻击奖励步数",
+      "line": 372
+    },
+    "Pokémon ID #": {
+      "translation": "宝可梦 ID#",
+      "line": 373
+    },
+    "Vitamins used": {
+      "translation": "使用的维生素",
+      "line": 374
+    },
+    "vitamins": {
+      "translation": "维生素",
+      "line": 374
+    },
+    "EVs": {
+      "translation": "努力值",
+      "line": 375
+    },
+    "evs": {
+      "translation": "落雷兽",
+      "line": 375
+    },
+    "breedingRegionalAttackDebuffSetting": {
+      "translation": "breedingRegionalAttackDebuffSetting",
+      "line": 378
+    },
+    "Regional Debuff": {
+      "translation": "区域减益",
+      "line": 378
+    },
+    "pokedexIDFilter": {
+      "translation": "pokedexIDFilter",
+      "line": 383
+    },
+    "pokedexType1Filter": {
+      "translation": "pokedexType1过滤器",
+      "line": 383
+    },
+    "pokedexType2Filter": {
+      "translation": "pokedexType2过滤器",
+      "line": 383
+    },
+    "pokedexUniqueTransformationFilter": {
+      "translation": "pokedexUniqueTransformationFilter",
+      "line": 384
+    },
+    "pokedexHeldItemFilter": {
+      "translation": "pokedexHeldItemFilter",
+      "line": 384
+    },
+    "pokedexHideAltFilter": {
+      "translation": "pokedexHideAltFilter",
+      "line": 384
+    },
+    "Caught Status": {
+      "translation": "捕获状态",
+      "line": 403
+    },
+    "Uncaught": {
+      "translation": "未捕获",
+      "line": 406
+    },
+    "uncaught": {
+      "translation": "未捕获的",
+      "line": 406
+    },
+    "Caught": {
+      "translation": "已捕获",
+      "line": 407
+    },
+    "caught": {
+      "translation": "捕捉",
+      "line": 407
+    },
+    "Caught Not Shiny": {
+      "translation": "已捕获（无异色）",
+      "line": 408
+    },
+    "caught-not-shiny": {
+      "translation": "",
+      "line": 408
+    },
+    "Caught Shiny": {
+      "translation": "已捕获（异色）",
+      "line": 409
+    },
+    "caught-shiny": {
+      "translation": "",
+      "line": 409
+    },
+    "Caught Not Shadow": {
+      "translation": "已捕获（无暗影）",
+      "line": 410
+    },
+    "caught-not-shadow": {
+      "translation": "",
+      "line": 410
+    },
+    "Caught Shadow": {
+      "translation": "已捕获（暗影）",
+      "line": 411
+    },
+    "caught-shadow": {
+      "translation": "",
+      "line": 411
+    },
+    "Caught Purified": {
+      "translation": "已捕获（净化）",
+      "line": 412
+    },
+    "caught-purified": {
+      "translation": "",
+      "line": 412
+    },
+    "Rare Held Item": {
+      "translation": "稀有携带道具",
+      "line": 434
+    },
+    "Incomplete": {
+      "translation": "未完成",
+      "line": 449
+    },
+    "Completed": {
+      "translation": "已完成",
+      "line": 450
+    },
+    "sort.saveSelector": {
+      "translation": "排序保存选择器",
+      "line": 470
+    },
+    "Saves sort order": {
+      "translation": "保存排序顺序",
+      "line": 470
+    },
+    "Save file name": {
+      "translation": "保存文件名",
+      "line": 472
+    },
+    "[v{version}] PokeClicker {date}": {
+      "translation": "[v{版本}] 宝可梦点击 {日期}",
+      "line": 472
+    },
+    "sound.muted": {
+      "translation": "静音",
+      "line": 475
+    },
+    "Mute All Sounds": {
+      "translation": "静音所有声音",
+      "line": 475
+    },
+    "hotkey.farm": {
+      "translation": "热键农场",
+      "line": 478
+    },
+    "Farm": {
+      "translation": "农场",
+      "line": 478
+    },
+    "hotkey.hatchery": {
+      "translation": "热键孵化场",
+      "line": 479
+    },
+    "Hatchery": {
+      "translation": "孵化场",
+      "line": 479
+    },
+    "hotkey.achievementsTracker": {
+      "translation": "热键.成就追踪器",
+      "line": 480
+    },
+    "Achievements": {
+      "translation": "成就",
+      "line": 480
+    },
+    "hotkey.oakItems": {
+      "translation": "热键.oakItems",
+      "line": 481
+    },
+    "Oak Items": {
+      "translation": "大木博士道具",
+      "line": 481
+    },
+    "hotkey.underground": {
+      "translation": "快捷键.采掘场",
+      "line": 482
+    },
+    "Underground": {
+      "translation": "采掘场",
+      "line": 482
+    },
+    "hotkey.shop": {
+      "translation": "热键商店",
+      "line": 483
+    },
+    "Poké Mart": {
+      "translation": "宝可超市",
+      "line": 483
+    },
+    "hotkey.dailyQuests": {
+      "translation": "hotkey.daily任务",
+      "line": 484
+    },
+    "Daily Quests": {
+      "translation": "每日任务",
+      "line": 484
+    },
+    "hotkey.pokeballSelection": {
+      "translation": "hotkey.pokeballSelection",
+      "line": 485
+    },
+    "Poké Ball Selection": {
+      "translation": "精灵球选择",
+      "line": 485
+    },
+    " + Number": {
+      "translation": "",
+      "line": 485
+    },
+    "hotkey.castformApp": {
+      "translation": "热键.castformApp",
+      "line": 486
+    },
+    "Castform App": {
+      "translation": "",
+      "line": 486
+    },
+    "Weather Institute": {
+      "translation": "气象研究所",
+      "line": 486
+    },
+    "hotkey.purifyChamber": {
+      "translation": "热键.purifyChamber",
+      "line": 487
+    },
+    "Purify Chamber": {
+      "translation": "净化室",
+      "line": 487
+    },
+    "hotkey.farm.toggleShovel": {
+      "translation": "hotkey.farm.toggleShovel",
+      "line": 489
+    },
+    "Toggle Shovel": {
+      "translation": "肘节铲",
+      "line": 489
+    },
+    "hotkey.farm.togglePlotSafeLock": {
+      "translation": "hotkey.farm.togglePlotSafeLock",
+      "line": 490
+    },
+    "Toggle Plot Lock": {
+      "translation": "切换绘图锁定",
+      "line": 490
+    },
+    " or Shift + Click": {
+      "translation": "",
+      "line": 490
+    },
+    "hotkey.underground.hammer": {
+      "translation": "快捷键.采掘场.锤子",
+      "line": 492
+    },
+    "Switch to Hammer": {
+      "translation": "切换到锤子",
+      "line": 492
+    },
+    "hotkey.underground.chisel": {
+      "translation": "快捷键.采掘场.凿子",
+      "line": 493
+    },
+    "Switch to Chisel": {
+      "translation": "切换到凿子",
+      "line": 493
+    },
+    "hotkey.underground.bomb": {
+      "translation": "快捷键.采掘场.炸弹",
+      "line": 494
+    },
+    "Switch to Bomb": {
+      "translation": "切换到炸弹",
+      "line": 494
+    },
+    "hotkey.underground.survey": {
+      "translation": "快捷键.采掘场.探测",
+      "line": 495
+    },
+    "Switch to Survey": {
+      "translation": "切换到调查",
+      "line": 495
+    },
+    "hotkey.underground.discharge": {
+      "translation": "快捷键.采掘场.放电",
+      "line": 496
+    },
+    "Discharge": {
+      "translation": "释放",
+      "line": 496
+    },
+    "hotkey.dungeon.up": {
+      "translation": "热键.dungeon.up",
+      "line": 498
+    },
+    "Move Up": {
+      "translation": "向上移动",
+      "line": 498
+    },
+    "↑ or ": {
+      "translation": "",
+      "line": 498
+    },
+    "hotkey.dungeon.left": {
+      "translation": "热键.迷宫.左",
+      "line": 499
+    },
+    "Move Left": {
+      "translation": "向左移动",
+      "line": 499
+    },
+    "← or ": {
+      "translation": "",
+      "line": 499
+    },
+    "hotkey.dungeon.down": {
+      "translation": "热键.dungeon.down",
+      "line": 500
+    },
+    "Move Down": {
+      "translation": "下移",
+      "line": 500
+    },
+    "↓ or ": {
+      "translation": "",
+      "line": 500
+    },
+    "hotkey.dungeon.right": {
+      "translation": "热键.dungeon.right",
+      "line": 501
+    },
+    "Move Right": {
+      "translation": "向右移动",
+      "line": 501
+    },
+    "→ or ": {
+      "translation": "",
+      "line": 501
+    },
+    "hotkey.dungeon.interact": {
+      "translation": "热键.迷宫.交互",
+      "line": 502
+    },
+    "Interact": {
+      "translation": "相互影响",
+      "line": 502
+    },
+    "Space": {
+      "translation": "空间",
+      "line": 502
+    },
+    "hotkey.town.start": {
+      "translation": "热键.town.start",
+      "line": 504
+    },
+    "Starts first content in the town": {
+      "translation": "开始城镇中的第一个内容",
+      "line": 504
+    },
+    "hotkey.forceSave": {
+      "translation": "强制存档",
+      "line": 505
+    },
+    "Force save game": {
+      "translation": "强制保存游戏",
+      "line": 505
+    },
+    "Shift + ": {
+      "translation": "",
+      "line": 505
+    },
+    "hotkey.downloadSave": {
+      "translation": "导出存档",
+      "line": 506
+    },
+    "Download save game": {
+      "translation": "下载游戏存档",
+      "line": 506
+    },
+    "hotkey.mute": {
+      "translation": "热键.静音",
+      "line": 507
+    },
+    "Mute/Unmute Sounds": {
+      "translation": "",
+      "line": 507
+    },
+    "hotkey.shop.buy": {
+      "translation": "热键.商店.购买",
+      "line": 509
+    },
+    "Buy item": {
+      "translation": "购买商品",
+      "line": 509
+    },
+    "hotkey.shop.max": {
+      "translation": "热键.shop.max",
+      "line": 510
+    },
+    "Select max amount": {
+      "translation": "选择最大金额",
+      "line": 510
+    },
+    "hotkey.shop.reset": {
+      "translation": "热键.商店.重置",
+      "line": 511
+    },
+    "Reset amount": {
+      "translation": "重置金额",
+      "line": 511
+    },
+    "hotkey.shop.increase": {
+      "translation": "热键.商店.增加",
+      "line": 512
+    },
+    "Increase amount": {
+      "translation": "增加金额",
+      "line": 512
+    },
+    "hotkey.safari.ball": {
+      "translation": "热键.safari.ball",
+      "line": 514
+    },
+    "Throw Ball": {
+      "translation": "投掷球",
+      "line": 514
+    },
+    "hotkey.safari.bait": {
+      "translation": "热键.safari.bait",
+      "line": 515
+    },
+    "Throw Bait": {
+      "translation": "投掷诱饵",
+      "line": 515
+    },
+    "hotkey.safari.rock": {
+      "translation": "热键.safari.rock",
+      "line": 516
+    },
+    "Throw Rock": {
+      "translation": "扔石头",
+      "line": 516
+    },
+    "hotkey.safari.run": {
+      "translation": "热键.safari.运行",
+      "line": 517
+    },
+    "Run": {
+      "translation": "逃跑",
+      "line": 517
+    },
+    "discord-rp.enabled": {
+      "translation": "启用discord-rp",
+      "line": 520
+    },
+    "Discord RP enabled": {
+      "translation": "Discord RP 已启用",
+      "line": 520
+    },
+    "discord-rp.line-1": {
+      "translation": "不和谐-rp.line-1",
+      "line": 521
+    },
+    "Discord line 1 text": {
+      "translation": "不一致第1行文本",
+      "line": 521
+    },
+    "Shinies: {caught_shiny}/{caught} {sparkle}": {
+      "translation": "异色：{caught_shiny}/{caught} {sparkle}",
+      "line": 521
+    },
+    "discord-rp.line-2": {
+      "translation": "不和谐-rp.line-2",
+      "line": 522
+    },
+    "Discord line 2 text": {
+      "translation": "不一致第2行文本",
+      "line": 522
+    },
+    "Total Attack: {attack}": {
+      "translation": "总攻击力：{攻击}",
+      "line": 522
+    },
+    "discord-rp.timer": {
+      "translation": "Discord-rp.timer",
+      "line": 523
+    },
+    "Show current session play time (max 24 hours)": {
+      "translation": "显示当前会话的播放时间（最长24小时）",
+      "line": 523
+    },
+    "discord-rp.timer-reset": {
+      "translation": "不和谐 rp. 计时器重置",
+      "line": 524
+    },
+    "Reset timer on area change": {
+      "translation": "区域更改时重置计时器",
+      "line": 524
+    },
+    "discord-rp.large-image": {
+      "translation": "不和谐 rp.大图像",
+      "line": 525
+    },
+    "Discord main image": {
+      "translation": "不和谐主图",
+      "line": 525
+    },
+    "PokéClicker Logo": {
+      "translation": "宝可梦点击徽标",
+      "line": 528
+    },
+    "pokeclickerlogo": {
+      "translation": "宝可梦点击标志",
+      "line": 528
+    },
+    "Current Area Environment": {
+      "translation": "当前区域环境",
+      "line": 529
+    },
+    "current-environment": {
+      "translation": "",
+      "line": 529
+    },
+    "Cave Environment": {
+      "translation": "洞穴环境",
+      "line": 530
+    },
+    "background-cave": {
+      "translation": "",
+      "line": 530
+    },
+    "Cave Gem Environment": {
+      "translation": "洞穴宝石环境",
+      "line": 531
+    },
+    "background-cave-gem": {
+      "translation": "",
+      "line": 531
+    },
+    "Fire Environment": {
+      "translation": "火灾环境",
+      "line": 532
+    },
+    "background-fire": {
+      "translation": "",
+      "line": 532
+    },
+    "Forest Environment": {
+      "translation": "森林环境",
+      "line": 533
+    },
+    "background-forest": {
+      "translation": "",
+      "line": 533
+    },
+    "Grass Environment": {
+      "translation": "草地环境",
+      "line": 534
+    },
+    "background-grass": {
+      "translation": "",
+      "line": 534
+    },
+    "Desert Environment": {
+      "translation": "沙漠环境",
+      "line": 535
+    },
+    "background-desert": {
+      "translation": "",
+      "line": 535
+    },
+    "Graveyard Environment": {
+      "translation": "墓地环境",
+      "line": 536
+    },
+    "background-graveyard": {
+      "translation": "",
+      "line": 536
+    },
+    "Ice Environment": {
+      "translation": "冰环境",
+      "line": 537
+    },
+    "background-ice": {
+      "translation": "",
+      "line": 537
+    },
+    "Mansion Environment": {
+      "translation": "大厦环境",
+      "line": 538
+    },
+    "background-mansion": {
+      "translation": "",
+      "line": 538
+    },
+    "Power Plant Environment": {
+      "translation": "电厂环境",
+      "line": 539
+    },
+    "background-power-plant": {
+      "translation": "",
+      "line": 539
+    },
+    "Water Environment": {
+      "translation": "水环境",
+      "line": 540
+    },
+    "background-water": {
+      "translation": "",
+      "line": 540
+    },
+    "discord-rp.small-image": {
+      "translation": "不和谐 rp.小图像",
+      "line": 543
+    },
+    "Discord small image": {
+      "translation": "不和谐小图片",
+      "line": 543
+    },
+    "Money": {
+      "translation": "钱",
+      "line": 546
+    },
+    "money": {
+      "translation": "钱",
+      "line": 546
+    },
+    "Dungeon Tokens": {
+      "translation": "迷宫代币",
+      "line": 547
+    },
+    "Quest Points": {
+      "translation": "任务点数",
+      "line": 548
+    },
+    "Farm Points": {
+      "translation": "农场点数",
+      "line": 549
+    },
+    "Diamonds": {
+      "translation": "钻石",
+      "line": 550
+    },
+    "diamond": {
+      "translation": "钻石",
+      "line": 550
+    },
+    "Battle Points": {
+      "translation": "对战点数",
+      "line": 551
+    },
+    "Trainer": {
+      "translation": "训练师",
+      "line": 552
+    },
+    "trainer": {
+      "translation": "教练员",
+      "line": 552
+    },
+    "Egg": {
+      "translation": "蛋",
+      "line": 553
+    },
+    "Poké Ball": {
+      "translation": "精灵球",
+      "line": 554
+    },
+    "pokeball": {
+      "translation": "精灵球",
+      "line": 554
+    },
+    "Cycle All": {
+      "translation": "全部循环",
+      "line": 555
+    },
+    "cycle": {
+      "translation": "循环",
+      "line": 555
+    },
+    "translation.language": {
+      "translation": "翻译.语言",
+      "line": 568
+    },
+    "Language (beta)": {
+      "translation": "语言（测试版）",
+      "line": 568
+    },
+    "logBook.${logBookType}": {
+      "translation": "",
+      "line": 572
+    },
+    "catchFilters.initialEnabled": {
+      "translation": "新的捕获过滤器最初启用",
+      "line": 575
+    },
+    "New Catch Filters initially enabled": {
+      "translation": "新的捕获过滤器最初启用",
+      "line": 575
+    },
+    "catchFilters.invertPriorityOrder": {
+      "translation": "捕获过滤器优先级反转（从下到上）",
+      "line": 576
+    },
+    "Catch Filters priority inverted (bottom-to-top)": {
+      "translation": "捕获过滤器优先级反转（从下到上）",
+      "line": 576
+    },
+    "breedingEfficiencyAllModifiers": {
+      "translation": "breedingEfficiencyAllModifiers",
+      "line": 577
+    },
+    "Include Attack modifiers (Held Item, EVs, Shadow/Purified) in Attack Bonus and Breeding Efficiency": {
+      "translation": "",
+      "line": 577
+    },
+    "Modal Collapse": {
+      "translation": "模态崩溃",
+      "line": 581
+    },
+    "modalCollapse.${collapse}": {
+      "translation": "",
+      "line": 581
+    },
+    "moduleHeight.pokeballSelector": {
+      "translation": "moduleHeight.pokeballSelector",
+      "line": 585
+    },
+    "moduleHeight.pokemonList": {
+      "translation": "moduleHeight.pokemonList",
+      "line": 586
+    }
+  }
+}

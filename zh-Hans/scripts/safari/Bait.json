@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/Bait.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 6
+  },
+  "entries": {
+    "${this.name} (${this.amount()})": {
+      "translation": "",
+      "line": 21
+    },
+    "Bait": {
+      "translation": "饵",
+      "line": 28
+    },
+    "some bait": {
+      "translation": "一些诱饵",
+      "line": 28
+    },
+    "assets/images/safari/bait.png": {
+      "translation": "",
+      "line": 28
+    },
+    "Razz Berry": {
+      "translation": "莓果",
+      "line": 36
+    },
+    "a Razz Berry": {
+      "translation": "莓果",
+      "line": 36
+    },
+    "Nanab Berry": {
+      "translation": "蕉香果",
+      "line": 44
+    },
+    "a Nanab Berry": {
+      "translation": "纳纳布树果",
+      "line": 44
+    }
+  }
+}

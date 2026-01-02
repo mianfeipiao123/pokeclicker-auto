@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/codes/RedeemableCodeController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "redeemable-code-input": {
+      "translation": "",
+      "line": 3
+    }
+  }
+}

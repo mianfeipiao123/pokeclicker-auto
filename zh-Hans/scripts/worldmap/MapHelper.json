@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/worldmap/MapHelper.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 23,
+    "translatedCount": 8
+  },
+  "entries": {
+    "mapAreaStateOrder": {
+      "translation": "mapAreaStateOrder",
+      "line": 8
+    },
+    "--${areaStatus[status]}": {
+      "translation": "",
+      "line": 9
+    },
+    "${Routes.getName(route, region)} does not exist in the ${GameConstants.Region[region]} region.": {
+      "translation": "",
+      "line": 34
+    },
+    "t have access to that route yet.\n<i>${reqsList.join(": {
+      "translation": "",
+      "line": 48
+    },
+    "You don't have access to that route yet.\n<i>${reqsList.join('\n')}</i>": {
+      "translation": "",
+      "line": 48
+    },
+    "Cave": {
+      "translation": "洞穴",
+      "line": 93
+    },
+    "string": {
+      "translation": "细绳",
+      "line": 95
+    },
+    "City": {
+      "translation": "城市",
+      "line": 95
+    },
+    "League": {
+      "translation": "联盟",
+      "line": 95
+    },
+    "Tower": {
+      "translation": "塔",
+      "line": 95
+    },
+    "${cls} waterRoute": {
+      "translation": "",
+      "line": 179
+    },
+    "t have access to that location yet.\n<i>${reqsList.join(": {
+      "translation": "",
+      "line": 276
+    },
+    "You don't have access to that location yet.\n<i>${reqsList.join('\n')}</i>": {
+      "translation": "",
+      "line": 276
+    },
+    "show": {
+      "translation": "展示",
+      "line": 288
+    },
+    "\n<i>Progress further to return to previous regions!</i>": {
+      "translation": "",
+      "line": 294
+    },
+    "You cannot access this dock yet!${player.region > GameConstants.Region.kanto ? '\n<i>Progress further to return to previous regions!</i>' : ''}": {
+      "translation": "",
+      "line": 294
+    },
+    "${GameConstants.camelCaseToString(GameConstants.Region[player.highestRegion()])} Master": {
+      "translation": "",
+      "line": 308
+    },
+    "${professorName}'s Blimp": {
+      "translation": "",
+      "line": 334
+    },
+    "assets/images/map/blimp_pikachu.png": {
+      "translation": "",
+      "line": 351
+    },
+    "Team Rocket's Blimp": {
+      "translation": "火箭队的飞艇",
+      "line": 355
+    },
+    "assets/images/map/blimp_meowth.png": {
+      "translation": "",
+      "line": 358
+    },
+    "assets/images/map/blimp_empty.png": {
+      "translation": "",
+      "line": 365
+    },
+    "--${areaStatus[areaStatus.missingResistant]}": {
+      "translation": "",
+      "line": 373
+    }
+  }
+}

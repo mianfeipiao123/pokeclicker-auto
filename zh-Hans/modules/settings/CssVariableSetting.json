@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/CssVariableSetting.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 2
+  },
+  "entries": {
+    "./Setting": {
+      "translation": "",
+      "line": 1
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    "--${name}": {
+      "translation": "",
+      "line": 7
+    },
+    "transparent": {
+      "translation": "透明的",
+      "line": 18
+    },
+    "color": {
+      "translation": "颜色",
+      "line": 24
+    }
+  }
+}

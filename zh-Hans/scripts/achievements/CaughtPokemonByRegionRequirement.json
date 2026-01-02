@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/achievements/CaughtPokemonByRegionRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "Caught Pokemon": {
+      "translation": "捕捉到的宝可梦",
+      "line": 6
+    },
+    "${this.requiredValue} unique Pokémon need to be caught.": {
+      "translation": "",
+      "line": 15
+    }
+  }
+}

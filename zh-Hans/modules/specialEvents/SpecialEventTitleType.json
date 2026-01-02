@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/specialEvents/SpecialEventTitleType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 11,
+    "translatedCount": 9
+  },
+  "entries": {
+    "${ql.name.replace(/(['])/g, ": {
+      "translation": "",
+      "line": 5
+    },
+    "'${ql.name.replace(/(['])/g, '\\\\$1')}'": {
+      "translation": "",
+      "line": 5
+    },
+    "Lunar New Year": {
+      "translation": "农历新年",
+      "line": 11
+    },
+    "Hoopa Day": {
+      "translation": "胡帕日",
+      "line": 12
+    },
+    "Easter": {
+      "translation": "复活节",
+      "line": 13
+    },
+    "Golden Week": {
+      "translation": "黄金周",
+      "line": 14
+    },
+    "Flying Pikachu": {
+      "translation": "飞翔[[Pikachu]]",
+      "line": 15
+    },
+    "Mewtwo strikes back!": {
+      "translation": "超梦的逆袭！",
+      "line": 16
+    },
+    "Halloween!": {
+      "translation": "万圣节！",
+      "line": 17
+    },
+    "Let's GO!": {
+      "translation": "我们走吧！",
+      "line": 18
+    },
+    "Merry Christmas!": {
+      "translation": "圣诞快乐！",
+      "line": 19
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/party/PartyPokemon.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 27,
+    "translatedCount": 14
+  },
+  "entries": {
+    "${this.name} has become Resistant to Pokérus.": {
+      "translation": "",
+      "line": 99
+    },
+    "A cat named Cat": {
+      "translation": "一只名叫猫的猫",
+      "line": 116
+    },
+    "PartyPokemon ${this.name} cannot gain negative levels!": {
+      "translation": "",
+      "line": 232
+    },
+    "Challenge Mode": {
+      "translation": "挑战模式",
+      "line": 283
+    },
+    "Vitamins are disabled": {
+      "translation": "营养剂已禁用",
+      "line": 284
+    },
+    "Vitamins cannot be modified for Pokémon in the hatchery or queue.": {
+      "translation": "无法修改孵化室或队列中宝可梦的营养剂。",
+      "line": 292
+    },
+    "This Pokémon cannot increase their power any higher!": {
+      "translation": "这只宝可梦的能力无法再提高了！",
+      "line": 303
+    },
+    "This Pokémon doesn't have any ${vitaminName} to remove!": {
+      "translation": "",
+      "line": 332
+    },
+    "You do not have any more ${ItemList[itemName].displayName}": {
+      "translation": "",
+      "line": 362
+    },
+    "You cannot use ${ItemList[itemName].displayName} on Pokémon in the hatchery.": {
+      "translation": "",
+      "line": 373
+    },
+    "${this.displayName} gained ${this.calculateAttack(true) - curAttack} attack points": {
+      "translation": "",
+      "line": 381
+    },
+    "You used ${amount} of ${ItemList[itemName].displayName}": {
+      "translation": "",
+      "line": 395
+    },
+    "breedingEfficiencyAllModifiers": {
+      "translation": "breedingEfficiencyAllModifiers",
+      "line": 428
+    },
+    "breedingIDFilter": {
+      "translation": "breedingIDFilter",
+      "line": 468
+    },
+    "breedingUniqueTransformationFilter": {
+      "translation": "breedingUniqueTransformationFilter",
+      "line": 510
+    },
+    "mega-available": {
+      "translation": "",
+      "line": 513
+    },
+    "mega-unobtained": {
+      "translation": "",
+      "line": 517
+    },
+    "mega-evolution": {
+      "translation": "",
+      "line": 521
+    },
+    "breedingHideAltFilter": {
+      "translation": "breedingHideAltFilter",
+      "line": 526
+    },
+    "breedingType1Filter": {
+      "translation": "养殖Type1过滤器",
+      "line": 537
+    },
+    "breedingType2Filter": {
+      "translation": "养殖Type2过滤器",
+      "line": 538
+    },
+    "This Pokémon cannot use ${heldItem.displayName}.": {
+      "translation": "",
+      "line": 558
+    },
+    "You don't have any ${heldItem.displayName} left.": {
+      "translation": "",
+      "line": 565
+    },
+    "confirmChangeHeldItem": {
+      "translation": "confirmChangeHeldItem",
+      "line": 572
+    },
+    "Remove held item": {
+      "translation": "移除持有物",
+      "line": 574
+    },
+    "Held items are one time use only.\nRemoved items will be lost.\nAre you sure you want to remove it?": {
+      "translation": "",
+      "line": 575
+    },
+    "Remove": {
+      "translation": "移除",
+      "line": 576
+    }
+  }
+}

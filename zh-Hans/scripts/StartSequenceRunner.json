@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/StartSequenceRunner.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 25,
+    "translatedCount": 9
+  },
+  "entries": {
+    "show": {
+      "translation": "展示",
+      "line": 8
+    },
+    "Tutorial Quests": {
+      "translation": "教程任务",
+      "line": 15
+    },
+    "hide": {
+      "translation": "隐藏",
+      "line": 17
+    },
+    "battle-view": {
+      "translation": "",
+      "line": 31
+    },
+    "Click here to deal \"Click Attack\" damage to Pokémon.": {
+      "translation": "点击此处对宝可梦造成“点击攻击”伤害。",
+      "line": 32
+    },
+    "Click Attack": {
+      "translation": "点击攻击",
+      "line": 32
+    },
+    "display": {
+      "translation": "",
+      "line": 62
+    },
+    "block": {
+      "translation": "",
+      "line": 62
+    },
+    "DOMContentLoaded": {
+      "translation": "DOM内容已加载",
+      "line": 70
+    },
+    "hidden.bs.modal": {
+      "translation": "",
+      "line": 71
+    },
+    "four": {
+      "translation": "",
+      "line": 78
+    },
+    "three": {
+      "translation": "",
+      "line": 78
+    },
+    "I can't hold off all ${startersCount}! Please pick the Pokémon you want to fight!": {
+      "translation": "",
+      "line": 79
+    },
+    "col": {
+      "translation": "",
+      "line": 83
+    },
+    "image-starter": {
+      "translation": "",
+      "line": 84
+    },
+    "image": {
+      "translation": "图像",
+      "line": 84
+    },
+    "assets/images/pokemon/25.png": {
+      "translation": "",
+      "line": 85
+    },
+    "StartSequenceRunner.pickStarter(GameConstants.Starter.Special)": {
+      "translation": "",
+      "line": 86
+    },
+    "#pickStarterTutorialModal .modal-body": {
+      "translation": "#pickStarterTutorialModal .modal-body",
+      "line": 90
+    },
+    "custom-control custom-switch": {
+      "translation": "",
+      "line": 90
+    },
+    "checkbox": {
+      "translation": "",
+      "line": 91
+    },
+    "custom-control-input": {
+      "translation": "",
+      "line": 91
+    },
+    "App.game.pokeballFilters.toggleAllFiltersEnabled(this.checked)": {
+      "translation": "",
+      "line": 91
+    },
+    "custom-control-label": {
+      "translation": "",
+      "line": 92
+    },
+    "Complete the tutorial quests to continue.": {
+      "translation": "完成教程任务以继续。",
+      "line": 105
+    }
+  }
+}

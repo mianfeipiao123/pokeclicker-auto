@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/battery/surf.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../UndergroundBattery": {
+      "translation": "",
+      "line": 1
+    }
+  }
+}

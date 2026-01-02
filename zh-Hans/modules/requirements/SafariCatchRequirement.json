@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/SafariCatchRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    " Shiny": {
+      "translation": "",
+      "line": 17
+    },
+    "${this.requiredValue}${this.shiny ? ' Shiny' : ''} Pokémon needs to be captured in a Safari Zone.": {
+      "translation": "",
+      "line": 17
+    }
+  }
+}

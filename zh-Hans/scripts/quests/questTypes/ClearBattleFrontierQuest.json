@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/ClearBattleFrontierQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 27
+    },
+    "Clear ${this.amount.toLocaleString('en-US')} Stages in the Battle Frontier.": {
+      "translation": "",
+      "line": 27
+    }
+  }
+}

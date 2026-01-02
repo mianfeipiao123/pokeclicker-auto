@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/DayCyclePartRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 2
+    },
+    "../dayCycle/DayCyclePart": {
+      "translation": "",
+      "line": 3
+    },
+    "../dayCycle/DayCycle": {
+      "translation": "",
+      "line": 4
+    },
+    " or ": {
+      "translation": "",
+      "line": 16
+    },
+    "Your local part of the day must be ${this.dayCycleParts.map((dayCyclePart) => DayCyclePart[dayCyclePart]).join(' or ')}": {
+      "translation": "",
+      "line": 16
+    }
+  }
+}

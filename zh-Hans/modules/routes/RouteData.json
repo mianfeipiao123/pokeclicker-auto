@@ -1,0 +1,5078 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/routes/RouteData.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 1267,
+    "translatedCount": 1226
+  },
+  "entries": {
+    "../enums/Badges": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../requirements/ClearDungeonRequirement": {
+      "translation": "",
+      "line": 5
+    },
+    "../requirements/GymBadgeRequirement": {
+      "translation": "",
+      "line": 6
+    },
+    "../requirements/MultiRequirement": {
+      "translation": "",
+      "line": 7
+    },
+    "../requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 8
+    },
+    "../requirements/OneFromManyRequirement": {
+      "translation": "",
+      "line": 9
+    },
+    "../requirements/QuestLineStartedRequirement": {
+      "translation": "",
+      "line": 10
+    },
+    "../requirements/QuestLineCompletedRequirement": {
+      "translation": "",
+      "line": 11
+    },
+    "../requirements/QuestLineStepCompletedRequirement": {
+      "translation": "",
+      "line": 12
+    },
+    "../requirements/RouteKillRequirement": {
+      "translation": "",
+      "line": 13
+    },
+    "../requirements/TemporaryBattleRequirement": {
+      "translation": "",
+      "line": 14
+    },
+    "../requirements/WeatherRequirement": {
+      "translation": "",
+      "line": 15
+    },
+    "../requirements/DayOfWeekRequirement": {
+      "translation": "",
+      "line": 16
+    },
+    "../requirements/DevelopmentRequirement": {
+      "translation": "",
+      "line": 17
+    },
+    "../weather/WeatherType": {
+      "translation": "",
+      "line": 18
+    },
+    "./RegionRoute": {
+      "translation": "",
+      "line": 19
+    },
+    "./RoutePokemon": {
+      "translation": "",
+      "line": 20
+    },
+    "./Routes": {
+      "translation": "",
+      "line": 21
+    },
+    "./SpecialRoutePokemon": {
+      "translation": "",
+      "line": 22
+    },
+    "../requirements/SpecialEventRandomRequirement": {
+      "translation": "",
+      "line": 23
+    },
+    "../utilities/SeededRand": {
+      "translation": "",
+      "line": 24
+    },
+    "../requirements/ItemOwnedRequirement": {
+      "translation": "",
+      "line": 25
+    },
+    "../requirements/SpecialEventRequirement": {
+      "translation": "",
+      "line": 26
+    },
+    "../requirements/StatisticRequirement": {
+      "translation": "",
+      "line": 27
+    },
+    "../requirements/PokemonLevelRequirement": {
+      "translation": "",
+      "line": 28
+    },
+    "../pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 29
+    },
+    "../requirements/CustomRequirement": {
+      "translation": "",
+      "line": 30
+    },
+    "Kanto Route 1": {
+      "translation": "关东1号线",
+      "line": 36
+    },
+    "Pidgey": {
+      "translation": "波波",
+      "line": 38
+    },
+    "Rattata": {
+      "translation": "小拉达",
+      "line": 38
+    },
+    "Kanto Route 22": {
+      "translation": "关东22号线",
+      "line": 44
+    },
+    "Spearow": {
+      "translation": "烈雀",
+      "line": 46
+    },
+    "Mankey": {
+      "translation": "猴怪",
+      "line": 46
+    },
+    "Psyduck": {
+      "translation": "可达鸭",
+      "line": 47
+    },
+    "Poliwag": {
+      "translation": "蚊香蝌蚪",
+      "line": 47
+    },
+    "Slowpoke": {
+      "translation": "呆呆兽",
+      "line": 47
+    },
+    "Goldeen": {
+      "translation": "角金鱼",
+      "line": 47
+    },
+    "Magikarp": {
+      "translation": "鲤鱼王",
+      "line": 47
+    },
+    "Kanto Route 2": {
+      "translation": "关东2号线",
+      "line": 54
+    },
+    "Caterpie": {
+      "translation": "绿毛虫",
+      "line": 56
+    },
+    "Weedle": {
+      "translation": "独角虫",
+      "line": 56
+    },
+    "Kanto Route 3": {
+      "translation": "关东3号线",
+      "line": 63
+    },
+    "Nidoran(F)": {
+      "translation": "尼多兰",
+      "line": 65
+    },
+    "Nidoran(M)": {
+      "translation": "尼多朗",
+      "line": 65
+    },
+    "Jigglypuff": {
+      "translation": "胖丁",
+      "line": 65
+    },
+    "Kanto Route 4": {
+      "translation": "关东4号线",
+      "line": 75
+    },
+    "Ekans": {
+      "translation": "阿柏蛇",
+      "line": 77
+    },
+    "Sandshrew": {
+      "translation": "穿山鼠",
+      "line": 77
+    },
+    "Tentacool": {
+      "translation": "玛瑙水母",
+      "line": 78
+    },
+    "Krabby": {
+      "translation": "大钳蟹",
+      "line": 78
+    },
+    "Horsea": {
+      "translation": "墨海马",
+      "line": 78
+    },
+    "Mt. Moon": {
+      "translation": "月亮山",
+      "line": 82
+    },
+    "Kanto Route 24": {
+      "translation": "关东24号线",
+      "line": 88
+    },
+    "Metapod": {
+      "translation": "铁甲蛹",
+      "line": 90
+    },
+    "Kakuna": {
+      "translation": "铁壳蛹",
+      "line": 90
+    },
+    "Oddish": {
+      "translation": "走路草",
+      "line": 90
+    },
+    "Abra": {
+      "translation": "凯西",
+      "line": 90
+    },
+    "Bellsprout": {
+      "translation": "喇叭芽",
+      "line": 90
+    },
+    "Sunkern": {
+      "translation": "向日种子",
+      "line": 92
+    },
+    "Blue 2": {
+      "translation": "蓝色2",
+      "line": 94
+    },
+    "Kanto Route 25": {
+      "translation": "关东25号线",
+      "line": 99
+    },
+    "Kanto Route 5": {
+      "translation": "关东5号线",
+      "line": 109
+    },
+    "Meowth": {
+      "translation": "喵喵",
+      "line": 111
+    },
+    "Kanto Route 6": {
+      "translation": "关东6号线",
+      "line": 121
+    },
+    "Kanto Route 11": {
+      "translation": "关东11号线",
+      "line": 131
+    },
+    "Drowzee": {
+      "translation": "催眠貘",
+      "line": 133
+    },
+    "Squad Leader Squirtle": {
+      "translation": "小队长[[Squirtle]]",
+      "line": 135
+    },
+    "Kanto Route 9": {
+      "translation": "关东9号线",
+      "line": 142
+    },
+    "Blue 3": {
+      "translation": "蓝色3",
+      "line": 147
+    },
+    "Kanto Route 10": {
+      "translation": "关东10号线",
+      "line": 154
+    },
+    "Voltorb": {
+      "translation": "霹雳电球",
+      "line": 156
+    },
+    "Kanto Route 8": {
+      "translation": "关东8号线",
+      "line": 164
+    },
+    "Vulpix": {
+      "translation": "六尾",
+      "line": 166
+    },
+    "Growlithe": {
+      "translation": "卡蒂狗",
+      "line": 166
+    },
+    "Rock Tunnel": {
+      "translation": "岩石隧道",
+      "line": 168
+    },
+    "Kanto Route 7": {
+      "translation": "关东7号线",
+      "line": 173
+    },
+    "Houndour": {
+      "translation": "戴鲁比",
+      "line": 176
+    },
+    "Kanto Route 12": {
+      "translation": "关东12号线",
+      "line": 183
+    },
+    "Gloom": {
+      "translation": "臭臭花",
+      "line": 185
+    },
+    "Venonat": {
+      "translation": "毛球",
+      "line": 185
+    },
+    "Weepinbell": {
+      "translation": "口呆花",
+      "line": 185
+    },
+    "Farfetch'd": {
+      "translation": "大葱鸭",
+      "line": 185
+    },
+    "Slowbro": {
+      "translation": "呆壳兽",
+      "line": 186
+    },
+    "Kanto Route 13": {
+      "translation": "关东13号线",
+      "line": 194
+    },
+    "Pidgeotto": {
+      "translation": "比比鸟",
+      "line": 196
+    },
+    "Ditto": {
+      "translation": "百变怪",
+      "line": 196
+    },
+    "Snorlax route 12": {
+      "translation": "",
+      "line": 201
+    },
+    "Kanto Route 14": {
+      "translation": "关东14号线",
+      "line": 209
+    },
+    "Kanto Route 15": {
+      "translation": "关东15号线",
+      "line": 223
+    },
+    "Kanto Route 16": {
+      "translation": "关东16号线",
+      "line": 237
+    },
+    "Raticate": {
+      "translation": "拉达",
+      "line": 239
+    },
+    "Doduo": {
+      "translation": "嘟嘟",
+      "line": 239
+    },
+    "Slugma": {
+      "translation": "熔岩虫",
+      "line": 240
+    },
+    "Snorlax route 16": {
+      "translation": "",
+      "line": 244
+    },
+    "Kanto Route 17": {
+      "translation": "关东17号线",
+      "line": 252
+    },
+    "Fearow": {
+      "translation": "大嘴雀",
+      "line": 254
+    },
+    "Kanto Route 18": {
+      "translation": "关东18号线",
+      "line": 267
+    },
+    "Kanto Route 19": {
+      "translation": "关东19号线",
+      "line": 282
+    },
+    "Surfing Pikachu": {
+      "translation": "冲浪[[Pikachu]]",
+      "line": 285
+    },
+    "Kanto Route 20": {
+      "translation": "关东20号线",
+      "line": 292
+    },
+    "Shellder": {
+      "translation": "大舌贝",
+      "line": 294
+    },
+    "Staryu": {
+      "translation": "海星星",
+      "line": 294
+    },
+    "Seafoam Islands": {
+      "translation": "海泡沫群岛",
+      "line": 299
+    },
+    "Kanto Route 21": {
+      "translation": "关东21号线",
+      "line": 306
+    },
+    "Tangela": {
+      "translation": "蔓藤怪",
+      "line": 308
+    },
+    "Kanto Route 23": {
+      "translation": "关东23号线",
+      "line": 316
+    },
+    "Arbok": {
+      "translation": "阿柏怪",
+      "line": 318
+    },
+    "Sandslash": {
+      "translation": "穿山王",
+      "line": 318
+    },
+    "Primeape": {
+      "translation": "火暴猴",
+      "line": 318
+    },
+    "Blue 6": {
+      "translation": "蓝色6",
+      "line": 323
+    },
+    "Treasure Beach": {
+      "translation": "宝藏海滩",
+      "line": 329
+    },
+    "Persian": {
+      "translation": "猫老大",
+      "line": 331
+    },
+    "Tentacruel": {
+      "translation": "毒刺水母",
+      "line": 332
+    },
+    "Kindle Road": {
+      "translation": "Kindle 路",
+      "line": 341
+    },
+    "Geodude": {
+      "translation": "小拳石",
+      "line": 343
+    },
+    "Ponyta": {
+      "translation": "小火马",
+      "line": 343
+    },
+    "Rapidash": {
+      "translation": "烈焰马",
+      "line": 343
+    },
+    "Cape Brink": {
+      "translation": "布林克角",
+      "line": 353
+    },
+    "Golduck": {
+      "translation": "哥达鸭",
+      "line": 355
+    },
+    "Bill's Errand": {
+      "translation": "比尔的差事",
+      "line": 358
+    },
+    "Bond Bridge": {
+      "translation": "邦德桥",
+      "line": 365
+    },
+    "Five Isle Meadow": {
+      "translation": "五岛草甸",
+      "line": 377
+    },
+    "Sentret": {
+      "translation": "尾立",
+      "line": 379
+    },
+    "Hoppip": {
+      "translation": "毽子草",
+      "line": 379
+    },
+    "Qwilfish": {
+      "translation": "千针鱼",
+      "line": 380
+    },
+    "Remoraid": {
+      "translation": "铁炮鱼",
+      "line": 380
+    },
+    "Gyarados": {
+      "translation": "暴鲤龙",
+      "line": 380
+    },
+    "Seadra": {
+      "translation": "海刺龙",
+      "line": 380
+    },
+    "Kingler": {
+      "translation": "巨钳蟹",
+      "line": 380
+    },
+    "Celio's Errand": {
+      "translation": "西利奥的任务",
+      "line": 382
+    },
+    "Memorial Pillar": {
+      "translation": "纪念柱",
+      "line": 389
+    },
+    "Water Labyrinth": {
+      "translation": "水迷宫",
+      "line": 400
+    },
+    "Resort Gorgeous": {
+      "translation": "度假村华丽",
+      "line": 411
+    },
+    "Water Path": {
+      "translation": "水路",
+      "line": 422
+    },
+    "Green Path": {
+      "translation": "绿色通道",
+      "line": 434
+    },
+    "Pattern Bush": {
+      "translation": "图案布什",
+      "line": 438
+    },
+    "Outcast Island": {
+      "translation": "流放岛",
+      "line": 445
+    },
+    "Ruin Valley": {
+      "translation": "废墟谷",
+      "line": 456
+    },
+    "Natu": {
+      "translation": "天然雀",
+      "line": 458
+    },
+    "Yanma": {
+      "translation": "蜻蜻蜓",
+      "line": 458
+    },
+    "Wooper": {
+      "translation": "乌波",
+      "line": 458
+    },
+    "Marill": {
+      "translation": "玛力露",
+      "line": 458
+    },
+    "Wobbuffet": {
+      "translation": "果然翁",
+      "line": 458
+    },
+    "Poliwhirl": {
+      "translation": "蚊香君",
+      "line": 459
+    },
+    "Canyon Entrance": {
+      "translation": "峡谷入口",
+      "line": 468
+    },
+    "Phanpy": {
+      "translation": "小小象",
+      "line": 470
+    },
+    "Sevault Canyon": {
+      "translation": "塞沃特峡谷",
+      "line": 479
+    },
+    "Cubone": {
+      "translation": "卡拉卡拉",
+      "line": 481
+    },
+    "Marowak": {
+      "translation": "嘎啦嘎啦",
+      "line": 481
+    },
+    "Onix": {
+      "translation": "大岩蛇",
+      "line": 481
+    },
+    "Skarmory": {
+      "translation": "盔甲鸟",
+      "line": 481
+    },
+    "Larvitar": {
+      "translation": "幼基拉斯",
+      "line": 481
+    },
+    "Graveler": {
+      "translation": "隆隆石",
+      "line": 482
+    },
+    "Valencia Island": {
+      "translation": "巴伦西亚岛",
+      "line": 491
+    },
+    "Valencian Butterfree": {
+      "translation": "[[alt.valencian]][[Butterfree]]",
+      "line": 493
+    },
+    "Valencian Raticate": {
+      "translation": "[[alt.valencian]][[Raticate]]",
+      "line": 493
+    },
+    "Valencian Vileplume": {
+      "translation": "[[alt.valencian]][[Vileplume]]",
+      "line": 493
+    },
+    "Valencian Paras": {
+      "translation": "[[alt.valencian]][[Paras]]",
+      "line": 493
+    },
+    "Valencian Weepinbell": {
+      "translation": "[[alt.valencian]][[Weepinbell]]",
+      "line": 493
+    },
+    "Nidorina": {
+      "translation": "尼多娜",
+      "line": 493
+    },
+    "Cloyster": {
+      "translation": "刺甲贝",
+      "line": 494
+    },
+    "Pinkan Forest": {
+      "translation": "粉红森林",
+      "line": 504
+    },
+    "Pinkan Caterpie": {
+      "translation": "[[alt.pinkan]][[Caterpie]]",
+      "line": 506
+    },
+    "Pinkan Weedle": {
+      "translation": "[[alt.pinkan]][[Weedle]]",
+      "line": 506
+    },
+    "Pinkan Pidgey": {
+      "translation": "[[alt.pinkan]][[Pidgey]]",
+      "line": 506
+    },
+    "Pinkan Vileplume": {
+      "translation": "[[alt.pinkan]][[Vileplume]]",
+      "line": 506
+    },
+    "Pinkan Paras": {
+      "translation": "[[alt.pinkan]][[Paras]]",
+      "line": 506
+    },
+    "Pinkan Venonat": {
+      "translation": "[[alt.pinkan]][[Venonat]]",
+      "line": 506
+    },
+    "Pinkan Mankey": {
+      "translation": "[[alt.pinkan]][[Mankey]]",
+      "line": 506
+    },
+    "Pinkan Exeggutor": {
+      "translation": "[[alt.pinkan]][[Exeggutor]]",
+      "line": 506
+    },
+    "Altering Cave": {
+      "translation": "改变洞穴",
+      "line": 509
+    },
+    "Pinkan Plains": {
+      "translation": "粉红平原",
+      "line": 518
+    },
+    "Pinkan Rattata": {
+      "translation": "[[alt.pinkan]][[Rattata]]",
+      "line": 520
+    },
+    "Pinkan Nidoran(M)": {
+      "translation": "[[alt.pinkan]][[Nidoran(M)]]",
+      "line": 520
+    },
+    "Pinkan Nidoran(F)": {
+      "translation": "[[alt.pinkan]][[Nidoran(F)]]",
+      "line": 520
+    },
+    "Pinkan Diglett": {
+      "translation": "[[alt.pinkan]][[Diglett]]",
+      "line": 520
+    },
+    "Pinkan Bellsprout": {
+      "translation": "[[alt.pinkan]][[Bellsprout]]",
+      "line": 520
+    },
+    "Pinkan Pidgeotto": {
+      "translation": "[[alt.pinkan]][[Pidgeotto]]",
+      "line": 521
+    },
+    "Johto Route 29": {
+      "translation": "城都国道29号线",
+      "line": 534
+    },
+    "Hoothoot": {
+      "translation": "咕咕",
+      "line": 536
+    },
+    "Exeggcute": {
+      "translation": "蛋蛋",
+      "line": 537
+    },
+    "Ledyba": {
+      "translation": "芭瓢虫",
+      "line": 537
+    },
+    "Spinarak": {
+      "translation": "圆丝蛛",
+      "line": 537
+    },
+    "Pineco": {
+      "translation": "榛果球",
+      "line": 537
+    },
+    "Johto Route 30": {
+      "translation": "城都国道30号线",
+      "line": 542
+    },
+    "Zubat": {
+      "translation": "超音蝠",
+      "line": 544
+    },
+    "Johto Route 31": {
+      "translation": "城都国道31号线",
+      "line": 551
+    },
+    "Aipom": {
+      "translation": "长尾怪手",
+      "line": 555
+    },
+    "Heracross": {
+      "translation": "赫拉克罗斯",
+      "line": 555
+    },
+    "Silver 1": {
+      "translation": "银1",
+      "line": 557
+    },
+    "Johto Route 32": {
+      "translation": "城都国道32号线",
+      "line": 560
+    },
+    "Mareep": {
+      "translation": "咩利羊",
+      "line": 562
+    },
+    "Quagsire": {
+      "translation": "沼王",
+      "line": 563
+    },
+    "Johto Route 33": {
+      "translation": "城都国道33号线",
+      "line": 569
+    },
+    "Union Cave": {
+      "translation": "联合洞",
+      "line": 574
+    },
+    "Johto Route 34": {
+      "translation": "城都国道34号线",
+      "line": 577
+    },
+    "Corsola": {
+      "translation": "太阳珊瑚",
+      "line": 580
+    },
+    "Ilex Forest": {
+      "translation": "冬青林",
+      "line": 583
+    },
+    "Johto Route 35": {
+      "translation": "城都国道35号线",
+      "line": 586
+    },
+    "Johto Route 36": {
+      "translation": "城都国道36号线",
+      "line": 595
+    },
+    "Stantler": {
+      "translation": "惊角鹿",
+      "line": 597
+    },
+    "Sudowoodo": {
+      "translation": "树才怪",
+      "line": 603
+    },
+    "Johto Route 37": {
+      "translation": "城都国道37号线",
+      "line": 608
+    },
+    "Johto Route 38": {
+      "translation": "城都国道38号线",
+      "line": 619
+    },
+    "Magnemite": {
+      "translation": "小磁怪",
+      "line": 621
+    },
+    "Tauros": {
+      "translation": "肯泰罗",
+      "line": 621
+    },
+    "Snubbull": {
+      "translation": "布鲁",
+      "line": 621
+    },
+    "Miltank": {
+      "translation": "大奶罐",
+      "line": 621
+    },
+    "Johto Route 39": {
+      "translation": "城都国道39号线",
+      "line": 627
+    },
+    "Johto Route 40": {
+      "translation": "城都国道40号线",
+      "line": 635
+    },
+    "Johto Route 41": {
+      "translation": "城都国道41号线",
+      "line": 645
+    },
+    "Mantine": {
+      "translation": "巨翅飞鱼",
+      "line": 647
+    },
+    "Chinchou": {
+      "translation": "灯笼鱼",
+      "line": 647
+    },
+    "Hatch Phanpy first.": {
+      "translation": "",
+      "line": 652
+    },
+    "Team Rocket's Hideout": {
+      "translation": "火箭队的藏身处",
+      "line": 657
+    },
+    "Johto Route 42": {
+      "translation": "城都国道42号线",
+      "line": 662
+    },
+    "Flaaffy": {
+      "translation": "茸茸羊",
+      "line": 664
+    },
+    "Seaking": {
+      "translation": "金鱼王",
+      "line": 665
+    },
+    "Meowth (Phanpy)": {
+      "translation": "[[Meowth]] ([[Phanpy]])",
+      "line": 667
+    },
+    "Have Phanpy newly hatched and at level below 21, or 51 if you cleared the Team Rocket's Hideout 250 times or more.": {
+      "translation": "",
+      "line": 667
+    },
+    "Mt. Mortar": {
+      "translation": "砂浆山",
+      "line": 671
+    },
+    "Johto Route 43": {
+      "translation": "城都国道43号线",
+      "line": 677
+    },
+    "Noctowl": {
+      "translation": "猫头夜鹰",
+      "line": 679
+    },
+    "Girafarig": {
+      "translation": "麒麟奇",
+      "line": 679
+    },
+    "Johto Route 44": {
+      "translation": "城都国道44号线",
+      "line": 687
+    },
+    "Lickitung": {
+      "translation": "大舌头",
+      "line": 689
+    },
+    "Radio Tower": {
+      "translation": "无线电塔",
+      "line": 693
+    },
+    "Johto Route 45": {
+      "translation": "城都国道45号线",
+      "line": 696
+    },
+    "Gligar": {
+      "translation": "天蝎",
+      "line": 698
+    },
+    "Teddiursa": {
+      "translation": "熊宝宝",
+      "line": 698
+    },
+    "Dratini": {
+      "translation": "迷你龙",
+      "line": 699
+    },
+    "Dragonair": {
+      "translation": "哈克龙",
+      "line": 699
+    },
+    "Ice Path": {
+      "translation": "冰路",
+      "line": 702
+    },
+    "Johto Route 46": {
+      "translation": "城都国道46号线",
+      "line": 705
+    },
+    "Johto Route 47": {
+      "translation": "城都国道47号线",
+      "line": 714
+    },
+    "Seel": {
+      "translation": "小海狮",
+      "line": 717
+    },
+    "Lanturn": {
+      "translation": "电灯怪",
+      "line": 717
+    },
+    "Butterfree": {
+      "translation": "巴大蝶",
+      "line": 718
+    },
+    "Beedrill": {
+      "translation": "大针蜂",
+      "line": 718
+    },
+    "Johto Route 48": {
+      "translation": "城都国道48号线",
+      "line": 723
+    },
+    "Diglett": {
+      "translation": "地鼠",
+      "line": 725
+    },
+    "Johto Route 26": {
+      "translation": "城都国道26号线",
+      "line": 731
+    },
+    "Dodrio": {
+      "translation": "嘟嘟利",
+      "line": 733
+    },
+    "Johto Route 27": {
+      "translation": "城都国道27号线",
+      "line": 741
+    },
+    "Tohjo Falls": {
+      "translation": "东条瀑布",
+      "line": 747
+    },
+    "Johto Route 28": {
+      "translation": "城都国道28号线",
+      "line": 751
+    },
+    "Donphan": {
+      "translation": "顿甲",
+      "line": 753
+    },
+    "Ursaring": {
+      "translation": "圈圈熊",
+      "line": 753
+    },
+    "Sneasel": {
+      "translation": "狃拉",
+      "line": 753
+    },
+    "Murkrow": {
+      "translation": "黑暗鸦",
+      "line": 753
+    },
+    "Hoenn Route 101": {
+      "translation": "丰缘国道101号线",
+      "line": 765
+    },
+    "Wurmple": {
+      "translation": "刺尾虫",
+      "line": 767
+    },
+    "Poochyena": {
+      "translation": "土狼犬",
+      "line": 767
+    },
+    "Zigzagoon": {
+      "translation": "蛇纹熊",
+      "line": 767
+    },
+    "Hoenn Route 102": {
+      "translation": "丰缘国道102号线",
+      "line": 772
+    },
+    "Surskit": {
+      "translation": "溜溜糖球",
+      "line": 774
+    },
+    "Lotad": {
+      "translation": "莲叶童子",
+      "line": 774
+    },
+    "Ralts": {
+      "translation": "拉鲁拉丝",
+      "line": 774
+    },
+    "Seedot": {
+      "translation": "橡实果",
+      "line": 774
+    },
+    "Corphish": {
+      "translation": "龙虾小兵",
+      "line": 775
+    },
+    "May 1": {
+      "translation": "5月1日",
+      "line": 777
+    },
+    "Hoenn Route 103": {
+      "translation": "丰缘国道103号线",
+      "line": 780
+    },
+    "Wingull": {
+      "translation": "长翅鸥",
+      "line": 782
+    },
+    "Pelipper": {
+      "translation": "大嘴鸥",
+      "line": 783
+    },
+    "Wailmer": {
+      "translation": "吼吼鲸",
+      "line": 783
+    },
+    "Sharpedo": {
+      "translation": "巨牙鲨",
+      "line": 783
+    },
+    "Hoenn Route 104": {
+      "translation": "丰缘国道104号线",
+      "line": 789
+    },
+    "Taillow": {
+      "translation": "傲骨燕",
+      "line": 791
+    },
+    "Hoenn Route 105": {
+      "translation": "丰缘国道105号线",
+      "line": 797
+    },
+    "Hoenn Route 106": {
+      "translation": "丰缘国道106号线",
+      "line": 805
+    },
+    "Hoenn Route 107": {
+      "translation": "丰缘国道107号线",
+      "line": 818
+    },
+    "Hoenn Route 108": {
+      "translation": "丰缘国道108号线",
+      "line": 831
+    },
+    "Hoenn Route 109": {
+      "translation": "丰缘国道109号线",
+      "line": 844
+    },
+    "Hoenn Route 110": {
+      "translation": "丰缘国道110号线",
+      "line": 852
+    },
+    "Gulpin": {
+      "translation": "溶食兽",
+      "line": 854
+    },
+    "Minun": {
+      "translation": "负电拍拍",
+      "line": 854
+    },
+    "Plusle": {
+      "translation": "正电拍拍",
+      "line": 854
+    },
+    "Electrike": {
+      "translation": "落雷兽",
+      "line": 857
+    },
+    "Granite Cave": {
+      "translation": "花岗岩洞",
+      "line": 859
+    },
+    "Hoenn Route 111": {
+      "translation": "丰缘国道111号线",
+      "line": 862
+    },
+    "Trapinch": {
+      "translation": "大颚蚁",
+      "line": 864
+    },
+    "Baltoy": {
+      "translation": "天秤偶",
+      "line": 864
+    },
+    "Cacnea": {
+      "translation": "刺球仙人掌",
+      "line": 864
+    },
+    "Barboach": {
+      "translation": "泥泥鳅",
+      "line": 865
+    },
+    "Hoenn Route 112": {
+      "translation": "丰缘国道112号线",
+      "line": 871
+    },
+    "Numel": {
+      "translation": "呆火驼",
+      "line": 873
+    },
+    "Hoenn Route 113": {
+      "translation": "丰缘国道113号线",
+      "line": 878
+    },
+    "Spinda": {
+      "translation": "晃晃斑",
+      "line": 880
+    },
+    "Fiery Path": {
+      "translation": "火热之路",
+      "line": 882
+    },
+    "Hoenn Route 114": {
+      "translation": "丰缘国道114号线",
+      "line": 885
+    },
+    "Zangoose": {
+      "translation": "猫鼬斩",
+      "line": 887
+    },
+    "Swablu": {
+      "translation": "青绵鸟",
+      "line": 887
+    },
+    "Lombre": {
+      "translation": "莲帽小童",
+      "line": 887
+    },
+    "Seviper": {
+      "translation": "饭匙蛇",
+      "line": 887
+    },
+    "Nuzleaf": {
+      "translation": "长鼻叶",
+      "line": 887
+    },
+    "Hoenn Route 115": {
+      "translation": "丰缘国道115号线",
+      "line": 894
+    },
+    "Swellow": {
+      "translation": "大王燕",
+      "line": 896
+    },
+    "Meteor Falls": {
+      "translation": "流星瀑布",
+      "line": 899
+    },
+    "Hoenn Route 116": {
+      "translation": "丰缘国道116号线",
+      "line": 902
+    },
+    "Whismur": {
+      "translation": "咕妞妞",
+      "line": 904
+    },
+    "Nincada": {
+      "translation": "土居忍士",
+      "line": 904
+    },
+    "Skitty": {
+      "translation": "向尾喵",
+      "line": 904
+    },
+    "Petalburg Woods": {
+      "translation": "佩塔堡伍兹",
+      "line": 906
+    },
+    "Hoenn Route 117": {
+      "translation": "丰缘国道117号线",
+      "line": 910
+    },
+    "Illumise": {
+      "translation": "甜甜萤",
+      "line": 912
+    },
+    "Volbeat": {
+      "translation": "电萤虫",
+      "line": 912
+    },
+    "Roselia": {
+      "translation": "毒蔷薇",
+      "line": 915
+    },
+    "May 3": {
+      "translation": "5月3日",
+      "line": 917
+    },
+    "Hoenn Route 118": {
+      "translation": "丰缘国道118号线",
+      "line": 921
+    },
+    "Linoone": {
+      "translation": "直冲熊",
+      "line": 923
+    },
+    "Kecleon": {
+      "translation": "变隐龙",
+      "line": 923
+    },
+    "Carvanha": {
+      "translation": "利牙鱼",
+      "line": 924
+    },
+    "Manectric": {
+      "translation": "雷电兽",
+      "line": 928
+    },
+    "Hoenn Route 119": {
+      "translation": "丰缘国道119号线",
+      "line": 934
+    },
+    "Tropius": {
+      "translation": "热带龙",
+      "line": 936
+    },
+    "Hoenn Route 120": {
+      "translation": "丰缘国道120号线",
+      "line": 942
+    },
+    "Mightyena": {
+      "translation": "大狼犬",
+      "line": 944
+    },
+    "Absol": {
+      "translation": "阿勃梭鲁",
+      "line": 944
+    },
+    "Weather Institute": {
+      "translation": "气象研究所",
+      "line": 948
+    },
+    "Kecleon 1": {
+      "translation": "",
+      "line": 949
+    },
+    "Hoenn Route 121": {
+      "translation": "丰缘国道121号线",
+      "line": 953
+    },
+    "Shuppet": {
+      "translation": "怨影娃娃",
+      "line": 955
+    },
+    "Hoenn Route 122": {
+      "translation": "丰缘国道122号线",
+      "line": 961
+    },
+    "Hoenn Route 123": {
+      "translation": "丰缘国道123号线",
+      "line": 968
+    },
+    "Hoenn Route 124": {
+      "translation": "丰缘国道124号线",
+      "line": 976
+    },
+    "Clamperl": {
+      "translation": "珍珠贝",
+      "line": 978
+    },
+    "Relicanth": {
+      "translation": "古空棘鱼",
+      "line": 978
+    },
+    "Aqua Hideout": {
+      "translation": "阿夸藏身处",
+      "line": 980
+    },
+    "Hoenn Route 125": {
+      "translation": "丰缘国道125号线",
+      "line": 983
+    },
+    "Hoenn Route 126": {
+      "translation": "丰缘国道126号线",
+      "line": 990
+    },
+    "Hoenn Route 127": {
+      "translation": "丰缘国道127号线",
+      "line": 997
+    },
+    "Hoenn Route 128": {
+      "translation": "丰缘国道128号线",
+      "line": 1009
+    },
+    "Luvdisc": {
+      "translation": "爱心鱼",
+      "line": 1011
+    },
+    "Hoenn Route 129": {
+      "translation": "丰缘国道129号线",
+      "line": 1016
+    },
+    "Wailord": {
+      "translation": "吼鲸王",
+      "line": 1018
+    },
+    "Hoenn Route 130": {
+      "translation": "丰缘国道130号线",
+      "line": 1023
+    },
+    "Wynaut": {
+      "translation": "小果然",
+      "line": 1025
+    },
+    "Hoenn Route 131": {
+      "translation": "丰缘国道131号线",
+      "line": 1031
+    },
+    "Hoenn Route 132": {
+      "translation": "丰缘国道132号线",
+      "line": 1038
+    },
+    "Hoenn Route 133": {
+      "translation": "丰缘国道133号线",
+      "line": 1045
+    },
+    "Hoenn Route 134": {
+      "translation": "丰缘国道134号线",
+      "line": 1052
+    },
+    "Rock Poké Spot": {
+      "translation": "岩石宝可点",
+      "line": 1059
+    },
+    "Shadows in the Desert": {
+      "translation": "沙漠中的暗影",
+      "line": 1063
+    },
+    "Oasis Poké Spot": {
+      "translation": "绿洲宝可点",
+      "line": 1070
+    },
+    "Cave Poké Spot": {
+      "translation": "洞穴宝可点",
+      "line": 1081
+    },
+    "Aron": {
+      "translation": "可可多拉",
+      "line": 1083
+    },
+    "Sinnoh Route 201": {
+      "translation": "神奥国道201号线",
+      "line": 1096
+    },
+    "Starly": {
+      "translation": "姆克儿",
+      "line": 1098
+    },
+    "Bidoof": {
+      "translation": "大牙狸",
+      "line": 1098
+    },
+    "Kricketot": {
+      "translation": "圆法师",
+      "line": 1098
+    },
+    "Sinnoh Route 202": {
+      "translation": "神奥国道202号线",
+      "line": 1103
+    },
+    "Shinx": {
+      "translation": "小猫怪",
+      "line": 1105
+    },
+    "Barry 1": {
+      "translation": "巴里1",
+      "line": 1109
+    },
+    "Sinnoh Route 203": {
+      "translation": "神奥国道203号线",
+      "line": 1113
+    },
+    "Barry 2": {
+      "translation": "巴里2号",
+      "line": 1118
+    },
+    "Sinnoh Route 204": {
+      "translation": "神奥204号公路",
+      "line": 1121
+    },
+    "Budew": {
+      "translation": "含羞苞",
+      "line": 1123
+    },
+    "Sinnoh Route 205": {
+      "translation": "神奥国道205号线",
+      "line": 1129
+    },
+    "Silcoon": {
+      "translation": "甲壳茧",
+      "line": 1131
+    },
+    "Beautifly": {
+      "translation": "狩猎凤蝶",
+      "line": 1131
+    },
+    "Cascoon": {
+      "translation": "盾甲茧",
+      "line": 1131
+    },
+    "Dustox": {
+      "translation": "毒粉蛾",
+      "line": 1131
+    },
+    "Buizel": {
+      "translation": "泳圈鼬",
+      "line": 1131
+    },
+    "Shellos (West)": {
+      "translation": "[[Shellos]] [[alt.west]]",
+      "line": 1131
+    },
+    "Gastrodon (West)": {
+      "translation": "[[Gastrodon]] [[alt.west]]",
+      "line": 1132
+    },
+    "Finneon": {
+      "translation": "荧光鱼",
+      "line": 1132
+    },
+    "Lumineon": {
+      "translation": "霓虹鱼",
+      "line": 1132
+    },
+    "Whiscash": {
+      "translation": "鲶鱼王",
+      "line": 1132
+    },
+    "Valley Windworks": {
+      "translation": "山谷风厂",
+      "line": 1134
+    },
+    "Sinnoh Route 206": {
+      "translation": "神奥国道206号线",
+      "line": 1137
+    },
+    "Machop": {
+      "translation": "腕力",
+      "line": 1139
+    },
+    "Kricketune": {
+      "translation": "音箱蟀",
+      "line": 1139
+    },
+    "Stunky": {
+      "translation": "臭鼬噗",
+      "line": 1139
+    },
+    "Team Galactic Eterna Building": {
+      "translation": "银河团队永恒大厦",
+      "line": 1141
+    },
+    "Sinnoh Route 207": {
+      "translation": "神奥207号公路",
+      "line": 1144
+    },
+    "Sinnoh Route 208": {
+      "translation": "神奥国道208号线",
+      "line": 1151
+    },
+    "Bibarel": {
+      "translation": "大尾狸",
+      "line": 1153
+    },
+    "Mt. Coronet South": {
+      "translation": "皇冠山南",
+      "line": 1156
+    },
+    "Sinnoh Route 209": {
+      "translation": "神奥209号公路",
+      "line": 1159
+    },
+    "Chansey": {
+      "translation": "吉利蛋",
+      "line": 1161
+    },
+    "Duskull": {
+      "translation": "夜巡灵",
+      "line": 1161
+    },
+    "Staravia": {
+      "translation": "姆克鸟",
+      "line": 1161
+    },
+    "Barry 3": {
+      "translation": "巴里3",
+      "line": 1164
+    },
+    "Sinnoh Route 210": {
+      "translation": "神奥210号公路",
+      "line": 1167
+    },
+    "Machoke": {
+      "translation": "豪力",
+      "line": 1169
+    },
+    "Scyther": {
+      "translation": "飞天螳螂",
+      "line": 1169
+    },
+    "Meditite": {
+      "translation": "玛沙那",
+      "line": 1169
+    },
+    "Sinnoh Route 215": {
+      "translation": "神奥国道215号线",
+      "line": 1175
+    },
+    "Kadabra": {
+      "translation": "勇基拉",
+      "line": 1177
+    },
+    "Sinnoh Route 214": {
+      "translation": "神奥214号公路",
+      "line": 1183
+    },
+    "Rhyhorn": {
+      "translation": "独角犀牛",
+      "line": 1185
+    },
+    "Sinnoh Route 213": {
+      "translation": "神奥国道213号线",
+      "line": 1192
+    },
+    "Shellos (East)": {
+      "translation": "[[Shellos]] [[alt.east]]",
+      "line": 1194
+    },
+    "Chatot": {
+      "translation": "聒噪鸟",
+      "line": 1194
+    },
+    "Octillery": {
+      "translation": "章鱼桶",
+      "line": 1195
+    },
+    "Gastrodon (East)": {
+      "translation": "[[Gastrodon]] [[alt.east]]",
+      "line": 1195
+    },
+    "Sinnoh Route 212": {
+      "translation": "神奥国道212号线",
+      "line": 1201
+    },
+    "Kirlia": {
+      "translation": "奇鲁莉安",
+      "line": 1203
+    },
+    "Croagunk": {
+      "translation": "不良蛙",
+      "line": 1203
+    },
+    "Sinnoh Route 211": {
+      "translation": "神奥211号公路",
+      "line": 1210
+    },
+    "Chingling": {
+      "translation": "铃铛响",
+      "line": 1212
+    },
+    "Bronzor": {
+      "translation": "铜镜怪",
+      "line": 1212
+    },
+    "Sinnoh Route 218": {
+      "translation": "神奥218号公路",
+      "line": 1218
+    },
+    "Mr. Mime": {
+      "translation": "魔墙人偶",
+      "line": 1220
+    },
+    "Floatzel": {
+      "translation": "浮潜鼬",
+      "line": 1220
+    },
+    "Glameow": {
+      "translation": "魅力喵",
+      "line": 1220
+    },
+    "Galactic Boss Cyrus": {
+      "translation": "银河老大赤日",
+      "line": 1223
+    },
+    "Sinnoh Route 216": {
+      "translation": "神奥国道216号线",
+      "line": 1227
+    },
+    "Snorunt": {
+      "translation": "雪童子",
+      "line": 1229
+    },
+    "Snover": {
+      "translation": "雪笠怪",
+      "line": 1229
+    },
+    "Mt. Coronet North": {
+      "translation": "皇冠山北",
+      "line": 1231
+    },
+    "Sinnoh Route 217": {
+      "translation": "神奥217号公路",
+      "line": 1234
+    },
+    "Swinub": {
+      "translation": "小山猪",
+      "line": 1236
+    },
+    "Sinnoh Route 219": {
+      "translation": "神奥219号公路",
+      "line": 1241
+    },
+    "Sinnoh Route 220": {
+      "translation": "神奥220号公路",
+      "line": 1248
+    },
+    "Sinnoh Route 221": {
+      "translation": "神奥国道221号线",
+      "line": 1255
+    },
+    "Skuntank": {
+      "translation": "坦克臭鼬",
+      "line": 1257
+    },
+    "Sinnoh Route 222": {
+      "translation": "神奥国道222号线",
+      "line": 1263
+    },
+    "Magneton": {
+      "translation": "三合一磁怪",
+      "line": 1265
+    },
+    "Electabuzz": {
+      "translation": "电击兽",
+      "line": 1265
+    },
+    "Luxio": {
+      "translation": "勒克猫",
+      "line": 1265
+    },
+    "Purugly": {
+      "translation": "东施喵",
+      "line": 1265
+    },
+    "Distortion World": {
+      "translation": "扭曲世界",
+      "line": 1268
+    },
+    "Sinnoh Route 223": {
+      "translation": "神奥国道223号线",
+      "line": 1271
+    },
+    "Mantyke": {
+      "translation": "小球飞鱼",
+      "line": 1273
+    },
+    "Sinnoh Route 224": {
+      "translation": "神奥国道224号线",
+      "line": 1278
+    },
+    "Sinnoh Route 225": {
+      "translation": "神奥国道225号线",
+      "line": 1286
+    },
+    "Banette": {
+      "translation": "诅咒娃娃",
+      "line": 1288
+    },
+    "Sinnoh Route 226": {
+      "translation": "神奥国道226号线",
+      "line": 1294
+    },
+    "Sinnoh Route 227": {
+      "translation": "神奥国道227号线",
+      "line": 1302
+    },
+    "Golbat": {
+      "translation": "大嘴蝠",
+      "line": 1304
+    },
+    "Weezing": {
+      "translation": "双弹瓦斯",
+      "line": 1304
+    },
+    "Rhydon": {
+      "translation": "钻角犀兽",
+      "line": 1304
+    },
+    "Camerupt": {
+      "translation": "喷火驼",
+      "line": 1304
+    },
+    "Sinnoh Route 228": {
+      "translation": "神奥国道228号线",
+      "line": 1310
+    },
+    "Dugtrio": {
+      "translation": "三地鼠",
+      "line": 1312
+    },
+    "Cacturne": {
+      "translation": "梦歌仙人掌",
+      "line": 1312
+    },
+    "Hippowdon": {
+      "translation": "河马兽",
+      "line": 1312
+    },
+    "Sinnoh Route 229": {
+      "translation": "神奥国道229号线",
+      "line": 1318
+    },
+    "Ledian": {
+      "translation": "安瓢虫",
+      "line": 1320
+    },
+    "Ariados": {
+      "translation": "阿利多斯",
+      "line": 1320
+    },
+    "Masquerain": {
+      "translation": "雨翅蛾",
+      "line": 1321
+    },
+    "Sinnoh Route 230": {
+      "translation": "神奥230号公路",
+      "line": 1326
+    },
+    "Sealeo": {
+      "translation": "海魔狮",
+      "line": 1329
+    },
+    "Unova Route 19": {
+      "translation": "合众19号公路",
+      "line": 1338
+    },
+    "Patrat": {
+      "translation": "探探鼠",
+      "line": 1340
+    },
+    "Purrloin": {
+      "translation": "扒手猫",
+      "line": 1340
+    },
+    "Basculin (Red-Striped)": {
+      "translation": "[[Basculin]] 红条纹的样子",
+      "line": 1341
+    },
+    "Basculin (Blue-Striped)": {
+      "translation": "[[Basculin]] 蓝条纹的样子",
+      "line": 1341
+    },
+    "Unova Route 20": {
+      "translation": "合众20号公路",
+      "line": 1347
+    },
+    "Pidove": {
+      "translation": "豆豆鸽",
+      "line": 1349
+    },
+    "Venipede": {
+      "translation": "百足蜈蚣",
+      "line": 1349
+    },
+    "Sewaddle": {
+      "translation": "虫宝包",
+      "line": 1349
+    },
+    "Azurill": {
+      "translation": "露力丽",
+      "line": 1350
+    },
+    "Hugh 1": {
+      "translation": "休1",
+      "line": 1354
+    },
+    "Unova Route 4": {
+      "translation": "合众国道4号",
+      "line": 1359
+    },
+    "Sandile": {
+      "translation": "黑眼鳄",
+      "line": 1361
+    },
+    "Darumaka": {
+      "translation": "火红不倒翁",
+      "line": 1361
+    },
+    "Trubbish": {
+      "translation": "破破袋",
+      "line": 1361
+    },
+    "Minccino": {
+      "translation": "泡沫栗鼠",
+      "line": 1361
+    },
+    "Scraggy": {
+      "translation": "滑滑小子",
+      "line": 1361
+    },
+    "Frillish": {
+      "translation": "轻飘飘",
+      "line": 1362
+    },
+    "Team Plasma Grunt 1": {
+      "translation": "等离子队步兵1",
+      "line": 1366
+    },
+    "Hollow Truth and Ideals": {
+      "translation": "空洞的真理和理想",
+      "line": 1367
+    },
+    "Desert Resort": {
+      "translation": "沙漠度假村",
+      "line": 1371
+    },
+    "Maractus": {
+      "translation": "沙铃仙人掌",
+      "line": 1373
+    },
+    "Dwebble": {
+      "translation": "石居蟹",
+      "line": 1373
+    },
+    "Sigilyph": {
+      "translation": "象征鸟",
+      "line": 1373
+    },
+    "Colress 1": {
+      "translation": "阿克罗玛1",
+      "line": 1377
+    },
+    "Unova Route 5": {
+      "translation": "合众5号公路",
+      "line": 1383
+    },
+    "Gothita": {
+      "translation": "哥德宝宝",
+      "line": 1385
+    },
+    "Liepard": {
+      "translation": "酷豹",
+      "line": 1385
+    },
+    "Solosis": {
+      "translation": "单卵细胞球",
+      "line": 1385
+    },
+    "Unova Route 16": {
+      "translation": "合众国16号公路",
+      "line": 1393
+    },
+    "Unova Route 6": {
+      "translation": "合众6号公路",
+      "line": 1404
+    },
+    "Deerling (Spring)": {
+      "translation": "[[Deerling]] [[alt.spring]]",
+      "line": 1406
+    },
+    "Deerling (Autumn)": {
+      "translation": "[[Deerling]] [[alt.autumn]]",
+      "line": 1406
+    },
+    "Karrablast": {
+      "translation": "盖盖虫",
+      "line": 1406
+    },
+    "Tranquill": {
+      "translation": "咕咕鸽",
+      "line": 1406
+    },
+    "Foongus": {
+      "translation": "哎呀球菇",
+      "line": 1406
+    },
+    "Swadloon": {
+      "translation": "宝包茧",
+      "line": 1406
+    },
+    "Vanillite": {
+      "translation": "迷你冰",
+      "line": 1406
+    },
+    "Shelmet": {
+      "translation": "小嘴蜗",
+      "line": 1406
+    },
+    "Team Plasma Grunt 2": {
+      "translation": "等离子队步兵2",
+      "line": 1412
+    },
+    "Team Plasma Grunt 3": {
+      "translation": "等离子步兵队3",
+      "line": 1413
+    },
+    "Unova Route 7": {
+      "translation": "合众7号公路",
+      "line": 1418
+    },
+    "Cubchoo": {
+      "translation": "喷嚏熊",
+      "line": 1420
+    },
+    "Deerling (Summer)": {
+      "translation": "[[Deerling]] [[alt.summer]]",
+      "line": 1420
+    },
+    "Deerling (Winter)": {
+      "translation": "[[Deerling]] [[alt.winter]]",
+      "line": 1420
+    },
+    "Watchog": {
+      "translation": "步哨鼠",
+      "line": 1420
+    },
+    "Zebstrika": {
+      "translation": "雷电斑马",
+      "line": 1422
+    },
+    "Chargestone Cave": {
+      "translation": "充能石洞",
+      "line": 1425
+    },
+    "Colress 2": {
+      "translation": "阿克罗玛2",
+      "line": 1426
+    },
+    "Unova Route 13": {
+      "translation": "合众13号公路",
+      "line": 1431
+    },
+    "Drifblim": {
+      "translation": "随风球",
+      "line": 1433
+    },
+    "Lunatone": {
+      "translation": "月石",
+      "line": 1433
+    },
+    "Solrock": {
+      "translation": "太阳岩",
+      "line": 1433
+    },
+    "Hugh 4": {
+      "translation": "休4",
+      "line": 1436
+    },
+    "Undella Bay": {
+      "translation": "安德拉湾",
+      "line": 1439
+    },
+    "Spheal": {
+      "translation": "海豹球",
+      "line": 1441
+    },
+    "Jellicent": {
+      "translation": "胖嘟嘟",
+      "line": 1441
+    },
+    "Ducklett": {
+      "translation": "鸭宝宝",
+      "line": 1441
+    },
+    "Reversal Mountain": {
+      "translation": "逆转山",
+      "line": 1443
+    },
+    "Unova Route 14": {
+      "translation": "合众14号公路",
+      "line": 1447
+    },
+    "Mienfoo": {
+      "translation": "功夫鼬",
+      "line": 1449
+    },
+    "Altaria": {
+      "translation": "七夕青鸟",
+      "line": 1449
+    },
+    "Unova Route 12": {
+      "translation": "合众12号公路",
+      "line": 1456
+    },
+    "Pinsir": {
+      "translation": "凯罗斯",
+      "line": 1458
+    },
+    "Combee": {
+      "translation": "三蜜蜂",
+      "line": 1458
+    },
+    "Vespiquen": {
+      "translation": "蜂女王",
+      "line": 1458
+    },
+    "Cherrim (Overcast)": {
+      "translation": "[[Cherrim]] 阴天形态",
+      "line": 1461
+    },
+    "Cherrim (Sunshine)": {
+      "translation": "[[Cherrim]] 晴天形态",
+      "line": 1462
+    },
+    "Zinzolin 1": {
+      "translation": "辛佐林1",
+      "line": 1467
+    },
+    "Unova Route 11": {
+      "translation": "合众11号公路",
+      "line": 1473
+    },
+    "Amoonguss": {
+      "translation": "败露球菇",
+      "line": 1475
+    },
+    "Unova Route 9": {
+      "translation": "合众9号公路",
+      "line": 1482
+    },
+    "Muk": {
+      "translation": "臭臭泥",
+      "line": 1484
+    },
+    "Swalot": {
+      "translation": "吞食兽",
+      "line": 1484
+    },
+    "Garbodor": {
+      "translation": "灰尘山",
+      "line": 1484
+    },
+    "Gothorita": {
+      "translation": "哥德小童",
+      "line": 1484
+    },
+    "Duosion": {
+      "translation": "双卵细胞球",
+      "line": 1484
+    },
+    "Pawniard": {
+      "translation": "驹刀小兵",
+      "line": 1484
+    },
+    "Unova Route 21": {
+      "translation": "合众21号公路",
+      "line": 1490
+    },
+    "Seaside Cave": {
+      "translation": "海边洞穴",
+      "line": 1494
+    },
+    "Unova Route 22": {
+      "translation": "合众22号公路",
+      "line": 1497
+    },
+    "Delibird": {
+      "translation": "信使鸟",
+      "line": 1499
+    },
+    "Unova Route 23": {
+      "translation": "合众23号公路",
+      "line": 1505
+    },
+    "Bouffalant": {
+      "translation": "爆炸头水牛",
+      "line": 1507
+    },
+    "Rufflet": {
+      "translation": "毛头小鹰",
+      "line": 1507
+    },
+    "Vullaby": {
+      "translation": "秃鹰丫头",
+      "line": 1507
+    },
+    "Sawk": {
+      "translation": "打击鬼",
+      "line": 1511
+    },
+    "Throh": {
+      "translation": "投摔鬼",
+      "line": 1512
+    },
+    "Giant Chasm": {
+      "translation": "巨大的鸿沟",
+      "line": 1516
+    },
+    "Ghetsis 2": {
+      "translation": "盖西斯2",
+      "line": 1517
+    },
+    "Unova Route 8": {
+      "translation": "合众8号公路",
+      "line": 1522
+    },
+    "Tympole": {
+      "translation": "圆蝌蚪",
+      "line": 1524
+    },
+    "Palpitoad": {
+      "translation": "蓝蟾蜍",
+      "line": 1524
+    },
+    "Stunfisk": {
+      "translation": "泥巴鱼",
+      "line": 1524
+    },
+    "Twist Mountain": {
+      "translation": "扭曲山",
+      "line": 1528
+    },
+    "Unova Route 15": {
+      "translation": "合众15号公路",
+      "line": 1538
+    },
+    "Pupitar": {
+      "translation": "沙基拉斯",
+      "line": 1540
+    },
+    "Swanna": {
+      "translation": "舞天鹅",
+      "line": 1540
+    },
+    "Unova Route 3": {
+      "translation": "合众国道3号",
+      "line": 1557
+    },
+    "Yanmega": {
+      "translation": "远古巨蜓",
+      "line": 1559
+    },
+    "Herdier": {
+      "translation": "哈约克",
+      "line": 1559
+    },
+    "Blitzle": {
+      "translation": "斑斑马",
+      "line": 1563
+    },
+    "Pinwheel Forest": {
+      "translation": "风车森林",
+      "line": 1566
+    },
+    "Unova Route 2": {
+      "translation": "合众国道2号",
+      "line": 1570
+    },
+    "Unova Route 1": {
+      "translation": "合众国道1号",
+      "line": 1578
+    },
+    "Scrafty": {
+      "translation": "头巾混混",
+      "line": 1580
+    },
+    "Unova Route 17": {
+      "translation": "合众17号公路",
+      "line": 1587
+    },
+    "Alomomola": {
+      "translation": "保姆曼波",
+      "line": 1589
+    },
+    "Unova Route 18": {
+      "translation": "合众18号公路",
+      "line": 1595
+    },
+    "Carnivine": {
+      "translation": "尖牙笼",
+      "line": 1597
+    },
+    "Crustle": {
+      "translation": "岩殿居蟹",
+      "line": 1597
+    },
+    "Kalos Route 1": {
+      "translation": "卡洛斯1号公路",
+      "line": 1613
+    },
+    "Bunnelby": {
+      "translation": "掘掘兔",
+      "line": 1615
+    },
+    "Fletchling": {
+      "translation": "小箭雀",
+      "line": 1615
+    },
+    "Kalos Route 2": {
+      "translation": "卡洛斯2号公路",
+      "line": 1620
+    },
+    "Scatterbug": {
+      "translation": "粉蝶虫",
+      "line": 1622
+    },
+    "Kalos Route 3": {
+      "translation": "卡洛斯3号公路",
+      "line": 1627
+    },
+    "Pikachu": {
+      "translation": "皮卡丘",
+      "line": 1629
+    },
+    "Dunsparce": {
+      "translation": "土龙弟弟",
+      "line": 1629
+    },
+    "Burmy (Plant)": {
+      "translation": "[[Burmy]] [[alt.plant]]",
+      "line": 1629
+    },
+    "Santalune Forest": {
+      "translation": "檀香森林",
+      "line": 1632
+    },
+    "Kalos Route 22": {
+      "translation": "卡洛斯22号公路",
+      "line": 1635
+    },
+    "Azumarill": {
+      "translation": "玛力露丽",
+      "line": 1637
+    },
+    "Riolu": {
+      "translation": "利欧路",
+      "line": 1637
+    },
+    "Diggersby": {
+      "translation": "掘地兔",
+      "line": 1637
+    },
+    "Litleo": {
+      "translation": "小狮狮",
+      "line": 1637
+    },
+    "Kalos Route 4": {
+      "translation": "卡洛斯4号公路",
+      "line": 1644
+    },
+    "Flabébé (Red)": {
+      "translation": "[[Flabébé]] [[alt.red]]",
+      "line": 1646
+    },
+    "Flabébé (Orange)": {
+      "translation": "[[Flabébé]] [[alt.orange]]",
+      "line": 1646
+    },
+    "Flabébé (White)": {
+      "translation": "[[Flabébé]] [[alt.white]]",
+      "line": 1646
+    },
+    "Kalos Route 5": {
+      "translation": "卡洛斯5号公路",
+      "line": 1651
+    },
+    "Skiddo": {
+      "translation": "坐骑小羊",
+      "line": 1653
+    },
+    "Pancham": {
+      "translation": "顽皮熊猫",
+      "line": 1653
+    },
+    "Furfrou": {
+      "translation": "多丽米亚",
+      "line": 1653
+    },
+    "A Beautiful World": {
+      "translation": "美丽的世界",
+      "line": 1655
+    },
+    "Kalos Route 6": {
+      "translation": "卡洛斯6号公路",
+      "line": 1658
+    },
+    "Espurr": {
+      "translation": "妙喵",
+      "line": 1660
+    },
+    "Honedge": {
+      "translation": "独剑鞘",
+      "line": 1660
+    },
+    "Tierno 1": {
+      "translation": "第1级",
+      "line": 1662
+    },
+    "Kalos Route 7": {
+      "translation": "卡洛斯7号公路",
+      "line": 1665
+    },
+    "Smeargle": {
+      "translation": "图图犬",
+      "line": 1667
+    },
+    "Spritzee": {
+      "translation": "粉香香",
+      "line": 1667
+    },
+    "Swirlix": {
+      "translation": "绵绵泡芙",
+      "line": 1667
+    },
+    "Kalos Route 8": {
+      "translation": "卡洛斯8号公路",
+      "line": 1672
+    },
+    "Spoink": {
+      "translation": "跳跳猪",
+      "line": 1674
+    },
+    "Bagon": {
+      "translation": "宝贝龙",
+      "line": 1674
+    },
+    "Drifloon": {
+      "translation": "飘飘球",
+      "line": 1674
+    },
+    "Inkay": {
+      "translation": "好啦鱿",
+      "line": 1674
+    },
+    "Skrelp": {
+      "translation": "垃垃藻",
+      "line": 1675
+    },
+    "Clauncher": {
+      "translation": "铁臂枪虾",
+      "line": 1675
+    },
+    "Connecting Cave": {
+      "translation": "连接洞",
+      "line": 1677
+    },
+    "Kalos Route 9": {
+      "translation": "卡洛斯9号公路",
+      "line": 1680
+    },
+    "Hippopotas": {
+      "translation": "沙河马",
+      "line": 1682
+    },
+    "Helioptile": {
+      "translation": "伞电蜥",
+      "line": 1682
+    },
+    "Kalos Route 10": {
+      "translation": "卡洛斯10号公路",
+      "line": 1687
+    },
+    "Eevee": {
+      "translation": "伊布",
+      "line": 1689
+    },
+    "Emolga": {
+      "translation": "电飞鼠",
+      "line": 1689
+    },
+    "Golett": {
+      "translation": "泥偶小人",
+      "line": 1689
+    },
+    "Hawlucha": {
+      "translation": "摔角鹰人",
+      "line": 1689
+    },
+    "Glittering Cave": {
+      "translation": "辉石洞窟",
+      "line": 1691
+    },
+    "Kalos Route 11": {
+      "translation": "卡洛斯11号公路",
+      "line": 1694
+    },
+    "Nidorino": {
+      "translation": "尼多力诺",
+      "line": 1696
+    },
+    "Hariyama": {
+      "translation": "铁掌力士",
+      "line": 1696
+    },
+    "Dedenne": {
+      "translation": "咚咚鼠",
+      "line": 1696
+    },
+    "Kalos Route 12": {
+      "translation": "卡洛斯12号公路",
+      "line": 1705
+    },
+    "Pachirisu": {
+      "translation": "帕奇利兹",
+      "line": 1707
+    },
+    "Lapras": {
+      "translation": "拉普拉斯",
+      "line": 1708
+    },
+    "Kalos Route 13": {
+      "translation": "卡洛斯13号公路",
+      "line": 1714
+    },
+    "Gible": {
+      "translation": "圆陆鲨",
+      "line": 1716
+    },
+    "Kalos Route 14": {
+      "translation": "卡洛斯14号公路",
+      "line": 1721
+    },
+    "Haunter": {
+      "translation": "鬼斯通",
+      "line": 1723
+    },
+    "Skorupi": {
+      "translation": "钳尾蝎",
+      "line": 1723
+    },
+    "Goomy": {
+      "translation": "黏黏宝",
+      "line": 1723
+    },
+    "Calem 3": {
+      "translation": "卡勒姆3号",
+      "line": 1726
+    },
+    "Kalos Route 15": {
+      "translation": "卡洛斯15号公路",
+      "line": 1729
+    },
+    "Klefki": {
+      "translation": "钥圈儿",
+      "line": 1731
+    },
+    "Kalos Route 16": {
+      "translation": "卡洛斯16号公路",
+      "line": 1737
+    },
+    "Phantump": {
+      "translation": "小木灵",
+      "line": 1739
+    },
+    "Pumpkaboo (Average)": {
+      "translation": "[[Pumpkaboo]] 普通尺寸",
+      "line": 1739
+    },
+    "Pumpkaboo (Small)": {
+      "translation": "[[Pumpkaboo]] 小尺寸",
+      "line": 1739
+    },
+    "Pumpkaboo (Large)": {
+      "translation": "[[Pumpkaboo]] 大尺寸",
+      "line": 1739
+    },
+    "Pumpkaboo (Super Size)": {
+      "translation": "[[Pumpkaboo]] 特大尺寸",
+      "line": 1739
+    },
+    "Kalos Route 17": {
+      "translation": "卡洛斯17号公路",
+      "line": 1745
+    },
+    "Abomasnow": {
+      "translation": "暴雪王",
+      "line": 1747
+    },
+    "Kalos Route 18": {
+      "translation": "卡洛斯18号公路",
+      "line": 1752
+    },
+    "Lairon": {
+      "translation": "可多拉",
+      "line": 1754
+    },
+    "Torkoal": {
+      "translation": "煤炭龟",
+      "line": 1754
+    },
+    "Gurdurr": {
+      "translation": "铁骨土人",
+      "line": 1754
+    },
+    "Heatmor": {
+      "translation": "熔蚁兽",
+      "line": 1754
+    },
+    "Durant": {
+      "translation": "铁蚁",
+      "line": 1754
+    },
+    "Kalos Route 19": {
+      "translation": "卡洛斯19号公路",
+      "line": 1759
+    },
+    "Drapion": {
+      "translation": "龙王蝎",
+      "line": 1761
+    },
+    "Sliggoo": {
+      "translation": "黏美儿",
+      "line": 1761
+    },
+    "Politoed": {
+      "translation": "蚊香蛙皇",
+      "line": 1762
+    },
+    "Sycamore 2": {
+      "translation": "梧桐2号",
+      "line": 1764
+    },
+    "Kalos Route 20": {
+      "translation": "卡洛斯20号公路",
+      "line": 1767
+    },
+    "Zoroark": {
+      "translation": "索罗亚克",
+      "line": 1769
+    },
+    "Trevenant": {
+      "translation": "朽木妖",
+      "line": 1769
+    },
+    "Trevor": {
+      "translation": "特雷弗",
+      "line": 1771
+    },
+    "Kalos Route 21": {
+      "translation": "卡洛斯21号公路",
+      "line": 1774
+    },
+    "Azure Bay": {
+      "translation": "蔚蓝湾",
+      "line": 1782
+    },
+    "Alola Route 1": {
+      "translation": "阿罗拉1号线",
+      "line": 1798
+    },
+    "Alolan Rattata": {
+      "translation": "[[alt.alolan]][[Rattata]]",
+      "line": 1800
+    },
+    "Pichu": {
+      "translation": "皮丘",
+      "line": 1800
+    },
+    "Buneary": {
+      "translation": "卷卷耳",
+      "line": 1800
+    },
+    "Pikipek": {
+      "translation": "小笃儿",
+      "line": 1800
+    },
+    "Yungoos": {
+      "translation": "猫鼬少",
+      "line": 1800
+    },
+    "Grubbin": {
+      "translation": "强颚鸡母虫",
+      "line": 1800
+    },
+    "Meltan": {
+      "translation": "美录坦",
+      "line": 1801
+    },
+    "Let's Go, Meltan!": {
+      "translation": "出发吧，美录坦！",
+      "line": 1801
+    },
+    "Route 1 Hau'oli Outskirts": {
+      "translation": "1号道路豪奥利郊区",
+      "line": 1808
+    },
+    "Hau 2": {
+      "translation": "哈乌2",
+      "line": 1814
+    },
+    "Alola Route 2": {
+      "translation": "阿罗拉2号线",
+      "line": 1819
+    },
+    "Alolan Meowth": {
+      "translation": "[[alt.alolan]][[Meowth]]",
+      "line": 1821
+    },
+    "Makuhita": {
+      "translation": "幕下力士",
+      "line": 1821
+    },
+    "Cutiefly": {
+      "translation": "萌虻",
+      "line": 1821
+    },
+    "Bulbasaur": {
+      "translation": "妙蛙种子",
+      "line": 1824
+    },
+    "Chikorita": {
+      "translation": "菊草叶",
+      "line": 1824
+    },
+    "Ilima": {
+      "translation": "伊利马",
+      "line": 1827
+    },
+    "Alola Route 3": {
+      "translation": "阿罗拉3号线",
+      "line": 1832
+    },
+    "Charmander": {
+      "translation": "小火龙",
+      "line": 1837
+    },
+    "Cyndaquil": {
+      "translation": "火球鼠",
+      "line": 1837
+    },
+    "Verdant Cavern": {
+      "translation": "翠绿的洞穴",
+      "line": 1840
+    },
+    "Melemele Sea": {
+      "translation": "梅勒梅勒海",
+      "line": 1845
+    },
+    "Wishiwashi (Solo)": {
+      "translation": "[[Wishiwashi]] 单独的样子",
+      "line": 1847
+    },
+    "Brooklet Hill": {
+      "translation": "布鲁克山",
+      "line": 1850
+    },
+    "Kala'e Bay": {
+      "translation": "卡拉埃湾",
+      "line": 1855
+    },
+    "Shelgon": {
+      "translation": "甲壳龙",
+      "line": 1857
+    },
+    "Seaward Cave": {
+      "translation": "临海洞",
+      "line": 1866
+    },
+    "Alola Route 4": {
+      "translation": "阿罗拉4号线",
+      "line": 1873
+    },
+    "Igglybuff": {
+      "translation": "宝宝丁",
+      "line": 1875
+    },
+    "Lillipup": {
+      "translation": "小约克",
+      "line": 1875
+    },
+    "Mudbray": {
+      "translation": "泥驴仔",
+      "line": 1875
+    },
+    "Symbiotic Relations": {
+      "translation": "共生关系",
+      "line": 1881
+    },
+    "Alola Route 5": {
+      "translation": "阿罗拉5号公路",
+      "line": 1886
+    },
+    "Bonsly": {
+      "translation": "盆才怪",
+      "line": 1888
+    },
+    "Trumbeak": {
+      "translation": "喇叭啄鸟",
+      "line": 1888
+    },
+    "Fomantis": {
+      "translation": "伪螳草",
+      "line": 1888
+    },
+    "Grovyle": {
+      "translation": "森林蜥蜴",
+      "line": 1891
+    },
+    "Paniola Ranch": {
+      "translation": "帕尼奥拉牧场",
+      "line": 1894
+    },
+    "Alola Route 6": {
+      "translation": "阿罗拉6号公路",
+      "line": 1899
+    },
+    "Recon Squad 2": {
+      "translation": "侦察小队2",
+      "line": 1907
+    },
+    "Alola Route 7": {
+      "translation": "阿罗拉7号线",
+      "line": 1912
+    },
+    "Pyukumuku": {
+      "translation": "拳海参",
+      "line": 1914
+    },
+    "Battle Royal": {
+      "translation": "皇家之战",
+      "line": 1920
+    },
+    "Alola Route 8": {
+      "translation": "阿罗拉8号公路",
+      "line": 1925
+    },
+    "Stufful": {
+      "translation": "童偶熊",
+      "line": 1927
+    },
+    "Salandit": {
+      "translation": "夜盗火蜥",
+      "line": 1932
+    },
+    "Wimpod": {
+      "translation": "胆小虫",
+      "line": 1933
+    },
+    "Combusken": {
+      "translation": "力壮鸡",
+      "line": 1934
+    },
+    "Wela Volcano Park": {
+      "translation": "韦拉火山公园",
+      "line": 1937
+    },
+    "Alola Route 9": {
+      "translation": "阿罗拉9号公路",
+      "line": 1942
+    },
+    "Mareanie": {
+      "translation": "好坏星",
+      "line": 1944
+    },
+    "Diglett's Tunnel": {
+      "translation": "",
+      "line": 1947
+    },
+    "Akala Outskirts": {
+      "translation": "阿卡拉郊区",
+      "line": 1952
+    },
+    "Alolan Raticate": {
+      "translation": "[[alt.alolan]][[Raticate]]",
+      "line": 1954
+    },
+    "Nosepass": {
+      "translation": "朝北鼻",
+      "line": 1954
+    },
+    "Gumshoos": {
+      "translation": "猫鼬探长",
+      "line": 1954
+    },
+    "Memorial Hill": {
+      "translation": "纪念山",
+      "line": 1961
+    },
+    "Alola Route 10": {
+      "translation": "阿罗拉10号公路",
+      "line": 1966
+    },
+    "Pidgeot": {
+      "translation": "大比鸟",
+      "line": 1971
+    },
+    "Hau 5": {
+      "translation": "哈乌5",
+      "line": 1974
+    },
+    "Mount Hokulani": {
+      "translation": "霍库拉尼山",
+      "line": 1979
+    },
+    "Cleffa": {
+      "translation": "皮宝宝",
+      "line": 1981
+    },
+    "Elekid": {
+      "translation": "电击怪",
+      "line": 1981
+    },
+    "Beldum": {
+      "translation": "铁哑铃",
+      "line": 1981
+    },
+    "Elgyem": {
+      "translation": "小灰怪",
+      "line": 1981
+    },
+    "Minior (Meteor)": {
+      "translation": "[[Minior]] 流星的样子",
+      "line": 1981
+    },
+    "Minior (Blue Core)": {
+      "translation": "[[Minior]] 浅蓝色核心",
+      "line": 1981
+    },
+    "Minior (Green Core)": {
+      "translation": "[[Minior]] 绿色核心",
+      "line": 1981
+    },
+    "Minior (Indigo Core)": {
+      "translation": "[[Minior]] 蓝色核心",
+      "line": 1981
+    },
+    "Minior (Orange Core)": {
+      "translation": "[[Minior]] 橙色核心",
+      "line": 1981
+    },
+    "Minior (Red Core)": {
+      "translation": "[[Minior]] 红色核心",
+      "line": 1981
+    },
+    "Minior (Violet Core)": {
+      "translation": "[[Minior]] 紫色核心",
+      "line": 1981
+    },
+    "Minior (Yellow Core)": {
+      "translation": "[[Minior]] 黄色核心",
+      "line": 1981
+    },
+    "Axew": {
+      "translation": "牙牙",
+      "line": 1984
+    },
+    "Skull 4": {
+      "translation": "骷髅4",
+      "line": 1989
+    },
+    "Alola Route 11": {
+      "translation": "阿罗拉11号公路",
+      "line": 1995
+    },
+    "Parasect": {
+      "translation": "派拉斯特",
+      "line": 1997
+    },
+    "Toucannon": {
+      "translation": "铳嘴大鸟",
+      "line": 1997
+    },
+    "Komala": {
+      "translation": "树枕尾熊",
+      "line": 1997
+    },
+    "Shiinotic": {
+      "translation": "灯罩夜菇",
+      "line": 2001
+    },
+    "Vigoroth": {
+      "translation": "过动猿",
+      "line": 2002
+    },
+    "Monferno": {
+      "translation": "猛火猴",
+      "line": 2002
+    },
+    "Alola Route 12": {
+      "translation": "阿罗拉12号公路",
+      "line": 2010
+    },
+    "Alolan Geodude": {
+      "translation": "[[alt.alolan]][[Geodude]]",
+      "line": 2012
+    },
+    "Alolan Graveler": {
+      "translation": "[[alt.alolan]][[Graveler]]",
+      "line": 2012
+    },
+    "Houndoom": {
+      "translation": "黑鲁加",
+      "line": 2012
+    },
+    "Hokulani Observatory": {
+      "translation": "霍库拉尼天文台",
+      "line": 2017
+    },
+    "Alola Route 13": {
+      "translation": "阿罗拉13号公路",
+      "line": 2023
+    },
+    "Bruxish": {
+      "translation": "磨牙彩皮鱼",
+      "line": 2025
+    },
+    "Alola Route 14": {
+      "translation": "阿罗拉14号公路",
+      "line": 2033
+    },
+    "Haina Desert": {
+      "translation": "海纳沙漠",
+      "line": 2043
+    },
+    "Alolan Dugtrio": {
+      "translation": "[[alt.alolan]][[Dugtrio]]",
+      "line": 2045
+    },
+    "Gabite": {
+      "translation": "尖牙陆鲨",
+      "line": 2045
+    },
+    "Krokorok": {
+      "translation": "混混鳄",
+      "line": 2045
+    },
+    "Celesteela": {
+      "translation": "铁火辉夜",
+      "line": 2047
+    },
+    "Ultra Beast Hunt": {
+      "translation": "究极野兽狩猎",
+      "line": 2047
+    },
+    "Thrifty Megamart": {
+      "translation": "节俭的超级市场",
+      "line": 2051
+    },
+    "Alola Route 15": {
+      "translation": "阿罗拉15号公路",
+      "line": 2056
+    },
+    "Sandygast": {
+      "translation": "沙丘娃",
+      "line": 2058
+    },
+    "Alola Route 16": {
+      "translation": "阿罗拉16号公路",
+      "line": 2067
+    },
+    "Prinplup": {
+      "translation": "波皇子",
+      "line": 2072
+    },
+    "Plumeria 2": {
+      "translation": "鸡蛋花2",
+      "line": 2075
+    },
+    "Alola Route 17": {
+      "translation": "阿罗拉17号公路",
+      "line": 2080
+    },
+    "Bisharp": {
+      "translation": "劈斩司令",
+      "line": 2082
+    },
+    "Kartana": {
+      "translation": "纸御剑",
+      "line": 2084
+    },
+    "Ula'ula Meadow": {
+      "translation": "乌拉乌拉草甸",
+      "line": 2088
+    },
+    "Poni Wilds": {
+      "translation": "波尼荒野",
+      "line": 2093
+    },
+    "Granbull": {
+      "translation": "布鲁皇",
+      "line": 2095
+    },
+    "Samurott": {
+      "translation": "大剑鬼",
+      "line": 2098
+    },
+    "Greninja": {
+      "translation": "甲贺忍蛙",
+      "line": 2098
+    },
+    "Emissary of Light": {
+      "translation": "光之使者",
+      "line": 2101
+    },
+    "Ancient Poni Path": {
+      "translation": "古代波尼小径",
+      "line": 2106
+    },
+    "Emboar": {
+      "translation": "炎武王",
+      "line": 2111
+    },
+    "Delphox": {
+      "translation": "妖火红狐",
+      "line": 2111
+    },
+    "Poni Breaker Coast": {
+      "translation": "波尼碎浪海岸",
+      "line": 2119
+    },
+    "Poni Grove": {
+      "translation": "波尼格罗夫",
+      "line": 2132
+    },
+    "Blacephalon": {
+      "translation": "砰头小丑",
+      "line": 2136
+    },
+    "Stakataka": {
+      "translation": "垒磊石",
+      "line": 2137
+    },
+    "Eelektross": {
+      "translation": "麻麻鳗鱼王",
+      "line": 2139
+    },
+    "Poni Plains": {
+      "translation": "波尼平原",
+      "line": 2147
+    },
+    "Hypno": {
+      "translation": "引梦貘人",
+      "line": 2149
+    },
+    "Ambipom": {
+      "translation": "双尾怪手",
+      "line": 2149
+    },
+    "Cottonee": {
+      "translation": "木棉球",
+      "line": 2149
+    },
+    "Petilil": {
+      "translation": "百合根娃娃",
+      "line": 2149
+    },
+    "Mudsdale": {
+      "translation": "重泥挽马",
+      "line": 2149
+    },
+    "Pyroar": {
+      "translation": "火炎狮",
+      "line": 2149
+    },
+    "Aggron": {
+      "translation": "波士可多拉",
+      "line": 2152
+    },
+    "Conkeldurr": {
+      "translation": "修建老匠",
+      "line": 2152
+    },
+    "Poni Coast": {
+      "translation": "波尼海岸",
+      "line": 2161
+    },
+    "Poni Gauntlet": {
+      "translation": "波尼手套",
+      "line": 2171
+    },
+    "Bewear": {
+      "translation": "穿着熊",
+      "line": 2173
+    },
+    "Togekiss": {
+      "translation": "波克基斯",
+      "line": 2177
+    },
+    "Rotom": {
+      "translation": "洛托姆",
+      "line": 2177
+    },
+    "Friend League Bridge": {
+      "translation": "友盟桥",
+      "line": 2187
+    },
+    "Magikarp Jump": {
+      "translation": "",
+      "line": 2191
+    },
+    "Quick League Bridge": {
+      "translation": "快速联盟桥",
+      "line": 2198
+    },
+    "Heavy League Bridge": {
+      "translation": "重联盟桥",
+      "line": 2209
+    },
+    "Magikarp Calico (Orange, White)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.orange]][[alt.karp.white]]）",
+      "line": 2211
+    },
+    "Magikarp Orange Orca": {
+      "translation": "[[Magikarp]] [[alt.karp.orca]]（[[alt.karp.orange]]）",
+      "line": 2211
+    },
+    "Great League Bridge": {
+      "translation": "大联盟桥",
+      "line": 2220
+    },
+    "Magikarp Orange Two-Tone": {
+      "translation": "[[Magikarp]] [[alt.karp.twoTone]]（[[alt.karp.orange]]）",
+      "line": 2222
+    },
+    "Magikarp Orange Dapples": {
+      "translation": "[[Magikarp]] [[alt.karp.dapples]]（[[alt.karp.orange]]）",
+      "line": 2222
+    },
+    "Fast League Bridge": {
+      "translation": "快联桥",
+      "line": 2231
+    },
+    "Magikarp Calico (Orange, White, Black)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.orange]][[alt.karp.white]][[alt.karp.black]]）",
+      "line": 2233
+    },
+    "Luxury League Bridge": {
+      "translation": "豪华联盟桥",
+      "line": 2242
+    },
+    "Magikarp Pink Two-Tone": {
+      "translation": "[[Magikarp]] [[alt.karp.twoTone]]（[[alt.karp.pink]]）",
+      "line": 2244
+    },
+    "Heal League Bridge": {
+      "translation": "治愈联盟桥",
+      "line": 2253
+    },
+    "Magikarp Grey Bubbles": {
+      "translation": "[[Magikarp]] [[alt.karp.bubbles]]（[[alt.karp.grey]]）",
+      "line": 2255
+    },
+    "Magikarp Grey Patches": {
+      "translation": "[[Magikarp]] [[alt.karp.patches]]（[[alt.karp.grey]]）",
+      "line": 2255
+    },
+    "Ultra League Bridge": {
+      "translation": "超级联盟桥",
+      "line": 2264
+    },
+    "Magikarp Apricot Tiger": {
+      "translation": "[[Magikarp]] [[alt.karp.tiger]]（[[alt.karp.apricot]]）",
+      "line": 2266
+    },
+    "Magikarp Apricot Zebra": {
+      "translation": "[[Magikarp]] [[alt.karp.zebra]]（[[alt.karp.apricot]]）",
+      "line": 2266
+    },
+    "Magikarp Brown Zebra": {
+      "translation": "[[Magikarp]] [[alt.karp.zebra]]（[[alt.karp.brown]]）",
+      "line": 2266
+    },
+    "Elite Four League Pier": {
+      "translation": "精英四联码头",
+      "line": 2275
+    },
+    "Magikarp Black Forehead": {
+      "translation": "[[Magikarp]] [[alt.karp.forehead]]（[[alt.karp.black]]）",
+      "line": 2277
+    },
+    "Magikarp Pink Orca": {
+      "translation": "[[Magikarp]] [[alt.karp.orca]]（[[alt.karp.pink]]）",
+      "line": 2277
+    },
+    "Master League Pier": {
+      "translation": "大师联赛码头",
+      "line": 2286
+    },
+    "Magikarp Orange Mask": {
+      "translation": "[[Magikarp]] [[alt.karp.mask]]（[[alt.karp.orange]]）",
+      "line": 2288
+    },
+    "Magikarp Calico (Orange, Gold)": {
+      "translation": "[[Magikarp]] [[alt.karp.calico]]（[[alt.karp.orange]][[alt.karp.gold]]）",
+      "line": 2288
+    },
+    "Galar Route 1": {
+      "translation": "伽勒尔1号公路",
+      "line": 2301
+    },
+    "Skwovet": {
+      "translation": "贪心栗鼠",
+      "line": 2303
+    },
+    "Rookidee": {
+      "translation": "稚山雀",
+      "line": 2303
+    },
+    "Blipbug": {
+      "translation": "索侦虫",
+      "line": 2303
+    },
+    "Wooloo": {
+      "translation": "毛辫羊",
+      "line": 2303
+    },
+    "Nickit": {
+      "translation": "狡小狐",
+      "line": 2303
+    },
+    "Galar Route 2": {
+      "translation": "伽勒尔2号公路",
+      "line": 2310
+    },
+    "Chewtle": {
+      "translation": "咬咬龟",
+      "line": 2312
+    },
+    "Yamper": {
+      "translation": "来电汪",
+      "line": 2312
+    },
+    "Galarian Zigzagoon": {
+      "translation": "[[alt.galarian]][[Zigzagoon]]",
+      "line": 2312
+    },
+    "Arrokuda": {
+      "translation": "刺梭鱼",
+      "line": 2313
+    },
+    "Mirages": {
+      "translation": "海市蜃楼",
+      "line": 2317
+    },
+    "Rolling Fields": {
+      "translation": "连绵起伏的田野",
+      "line": 2323
+    },
+    "Roggenrola": {
+      "translation": "石丸子",
+      "line": 2325
+    },
+    "Tyrogue": {
+      "translation": "无畏小子",
+      "line": 2325
+    },
+    "Ninjask": {
+      "translation": "铁面忍者",
+      "line": 2325
+    },
+    "Dubwool": {
+      "translation": "毛毛角羊",
+      "line": 2325
+    },
+    "Cherubi": {
+      "translation": "樱花宝",
+      "line": 2326
+    },
+    "Bounsweet": {
+      "translation": "甜竹竹",
+      "line": 2329
+    },
+    "Pangoro": {
+      "translation": "霸道熊猫",
+      "line": 2331
+    },
+    "Joltik": {
+      "translation": "电电虫",
+      "line": 2338
+    },
+    "Piloswine": {
+      "translation": "长毛猪",
+      "line": 2339
+    },
+    "Mime Jr.": {
+      "translation": "魔尼尼",
+      "line": 2340
+    },
+    "Munna": {
+      "translation": "食梦梦",
+      "line": 2344
+    },
+    "Gardevoir": {
+      "translation": "沙奈朵",
+      "line": 2344
+    },
+    "Hop 2": {
+      "translation": "赫普2",
+      "line": 2347
+    },
+    "Dappled Grove": {
+      "translation": "斑驳的树林",
+      "line": 2352
+    },
+    "Orbeetle": {
+      "translation": "以欧路普",
+      "line": 2354
+    },
+    "Shiftry": {
+      "translation": "狡猾天狗",
+      "line": 2358
+    },
+    "Ludicolo": {
+      "translation": "乐天河童",
+      "line": 2358
+    },
+    "Vileplume": {
+      "translation": "霸王花",
+      "line": 2359
+    },
+    "Seismitoad": {
+      "translation": "蟾蜍王",
+      "line": 2365
+    },
+    "Vanillish": {
+      "translation": "多多冰",
+      "line": 2367
+    },
+    "Klink": {
+      "translation": "齿轮儿",
+      "line": 2370
+    },
+    "Claydol": {
+      "translation": "念力土偶",
+      "line": 2372
+    },
+    "West Lake Axewell": {
+      "translation": "西湖阿克斯韦尔",
+      "line": 2382
+    },
+    "Drednaw": {
+      "translation": "暴噬龟",
+      "line": 2384
+    },
+    "Vanilluxe": {
+      "translation": "双倍多多冰",
+      "line": 2404
+    },
+    "Grapploct": {
+      "translation": "八爪武师",
+      "line": 2413
+    },
+    "East Lake Axewell": {
+      "translation": "东湖阿克斯韦尔",
+      "line": 2421
+    },
+    "Xatu": {
+      "translation": "天然鸟",
+      "line": 2430
+    },
+    "Bronzong": {
+      "translation": "青铜钟",
+      "line": 2445
+    },
+    "Giant's Seat": {
+      "translation": "巨人之座",
+      "line": 2453
+    },
+    "Steelix": {
+      "translation": "大钢蛇",
+      "line": 2455
+    },
+    "Duraludon": {
+      "translation": "铝钢龙",
+      "line": 2455
+    },
+    "Greedent": {
+      "translation": "藏饱栗鼠",
+      "line": 2457
+    },
+    "Vikavolt": {
+      "translation": "锹农炮虫",
+      "line": 2460
+    },
+    "Gastly": {
+      "translation": "鬼斯",
+      "line": 2467
+    },
+    "Galvantula": {
+      "translation": "电蜘蛛",
+      "line": 2470
+    },
+    "Crawdaunt": {
+      "translation": "铁螯龙虾",
+      "line": 2471
+    },
+    "Glalie": {
+      "translation": "冰鬼护",
+      "line": 2472
+    },
+    "Golurk": {
+      "translation": "泥偶巨人",
+      "line": 2475
+    },
+    "Dusclops": {
+      "translation": "彷徨夜灵",
+      "line": 2476
+    },
+    "Musharna": {
+      "translation": "梦梦蚀",
+      "line": 2476
+    },
+    "South Lake Miloch": {
+      "translation": "南米洛赫湖",
+      "line": 2489
+    },
+    "Thievul": {
+      "translation": "猾大狐",
+      "line": 2491
+    },
+    "Milotic": {
+      "translation": "美纳斯",
+      "line": 2517
+    },
+    "North Lake Miloch": {
+      "translation": "北米洛赫湖",
+      "line": 2525
+    },
+    "Boltund": {
+      "translation": "逐电犬",
+      "line": 2527
+    },
+    "Corviknight": {
+      "translation": "钢铠鸦",
+      "line": 2527
+    },
+    "Lucario": {
+      "translation": "路卡利欧",
+      "line": 2532
+    },
+    "Axew's Eye": {
+      "translation": "斧眼",
+      "line": 2570
+    },
+    "Unfezant": {
+      "translation": "高傲雉鸡",
+      "line": 2580
+    },
+    "Steenee": {
+      "translation": "甜舞妮",
+      "line": 2581
+    },
+    "Haxorus": {
+      "translation": "双斧战龙",
+      "line": 2582
+    },
+    "Cramorant": {
+      "translation": "古月鸟",
+      "line": 2583
+    },
+    "Charjabug": {
+      "translation": "虫电宝",
+      "line": 2586
+    },
+    "Cramorant (Gulping)": {
+      "translation": "[[Cramorant]] 一口吞的样子",
+      "line": 2586
+    },
+    "Cramorant (Gorging)": {
+      "translation": "[[Cramorant]] 大口吞的样子",
+      "line": 2587
+    },
+    "Watchtower Ruins": {
+      "translation": "了望塔遗址",
+      "line": 2607
+    },
+    "Woobat": {
+      "translation": "滚滚蝙蝠",
+      "line": 2609
+    },
+    "Noibat": {
+      "translation": "嗡蝠",
+      "line": 2609
+    },
+    "Shuckle": {
+      "translation": "壶壶",
+      "line": 2627
+    },
+    "Galar Route 3": {
+      "translation": "伽勒尔3号公路",
+      "line": 2643
+    },
+    "Gossifleur": {
+      "translation": "幼棉棉",
+      "line": 2645
+    },
+    "Corvisquire": {
+      "translation": "蓝鸦",
+      "line": 2645
+    },
+    "Rolycoly": {
+      "translation": "小炭仔",
+      "line": 2645
+    },
+    "Sizzlipede": {
+      "translation": "烧火蚣",
+      "line": 2645
+    },
+    "Hop 3": {
+      "translation": "赫普3",
+      "line": 2648
+    },
+    "Galar Route 4": {
+      "translation": "伽勒尔4号公路",
+      "line": 2653
+    },
+    "Milcery": {
+      "translation": "小仙奶",
+      "line": 2655
+    },
+    "Galarian Meowth": {
+      "translation": "[[alt.galarian]][[Meowth]]",
+      "line": 2655
+    },
+    "Ferroseed": {
+      "translation": "种子铁球",
+      "line": 2655
+    },
+    "Bede 1": {
+      "translation": "贝德1",
+      "line": 2659
+    },
+    "Galar Route 5": {
+      "translation": "伽勒尔5号公路",
+      "line": 2664
+    },
+    "Dottler": {
+      "translation": "天罩虫",
+      "line": 2666
+    },
+    "Applin": {
+      "translation": "啃果虫",
+      "line": 2666
+    },
+    "Eldegoss": {
+      "translation": "白蓬蓬",
+      "line": 2666
+    },
+    "Galarian Farfetch'd": {
+      "translation": "[[alt.galarian]][[Farfetch'd]]",
+      "line": 2666
+    },
+    "Dewpider": {
+      "translation": "滴蛛",
+      "line": 2666
+    },
+    "Motostoke Outskirts": {
+      "translation": "莫托斯托克郊区",
+      "line": 2675
+    },
+    "Impidimp": {
+      "translation": "捣蛋小妖",
+      "line": 2677
+    },
+    "Koffing": {
+      "translation": "瓦斯弹",
+      "line": 2677
+    },
+    "Hatenna": {
+      "translation": "迷布莉姆",
+      "line": 2677
+    },
+    "Bede 2": {
+      "translation": "贝德2号",
+      "line": 2679
+    },
+    "Motostoke Riverbank": {
+      "translation": "莫托斯托克河岸",
+      "line": 2684
+    },
+    "Barraskewda": {
+      "translation": "戽斗尖梭",
+      "line": 2687
+    },
+    "Munchlax": {
+      "translation": "小卡比兽",
+      "line": 2692
+    },
+    "Snorlax": {
+      "translation": "卡比兽",
+      "line": 2696
+    },
+    "Ribombee": {
+      "translation": "蝶结萌虻",
+      "line": 2701
+    },
+    "Binacle": {
+      "translation": "龟脚脚",
+      "line": 2703
+    },
+    "Litwick": {
+      "translation": "烛光灵",
+      "line": 2708
+    },
+    "Clefairy": {
+      "translation": "皮皮",
+      "line": 2710
+    },
+    "Clefable": {
+      "translation": "皮可西",
+      "line": 2710
+    },
+    "Toxel": {
+      "translation": "电音婴",
+      "line": 2711
+    },
+    "Bridge Field": {
+      "translation": "桥场",
+      "line": 2724
+    },
+    "Galarian Linoone": {
+      "translation": "[[alt.galarian]][[Linoone]]",
+      "line": 2726
+    },
+    "Ferrothorn": {
+      "translation": "坚果哑铃",
+      "line": 2726
+    },
+    "Obstagoon": {
+      "translation": "堵拦熊",
+      "line": 2726
+    },
+    "Togepi": {
+      "translation": "波克比",
+      "line": 2734
+    },
+    "Golisopod": {
+      "translation": "具甲武者",
+      "line": 2735
+    },
+    "Beheeyem": {
+      "translation": "大宇怪",
+      "line": 2738
+    },
+    "Noivern": {
+      "translation": "音波龙",
+      "line": 2739
+    },
+    "Gallade": {
+      "translation": "艾路雷朵",
+      "line": 2740
+    },
+    "Cufant": {
+      "translation": "铜象",
+      "line": 2742
+    },
+    "Beartic": {
+      "translation": "冻原熊",
+      "line": 2754
+    },
+    "Mawile": {
+      "translation": "大嘴娃",
+      "line": 2755
+    },
+    "Weavile": {
+      "translation": "玛狃拉",
+      "line": 2755
+    },
+    "Carkol": {
+      "translation": "大炭车",
+      "line": 2756
+    },
+    "Mimikyu": {
+      "translation": "谜拟丘",
+      "line": 2760
+    },
+    "Stony Wilderness": {
+      "translation": "多石荒野",
+      "line": 2769
+    },
+    "Dusknoir": {
+      "translation": "黑夜魔灵",
+      "line": 2771
+    },
+    "Grimmsnarl": {
+      "translation": "长毛巨魔",
+      "line": 2771
+    },
+    "Boldore": {
+      "translation": "地幔岩",
+      "line": 2778
+    },
+    "Tsareena": {
+      "translation": "甜冷美后",
+      "line": 2782
+    },
+    "Araquanid": {
+      "translation": "滴蛛霸",
+      "line": 2787
+    },
+    "Drilbur": {
+      "translation": "螺钉地鼠",
+      "line": 2792
+    },
+    "Togetic": {
+      "translation": "波克基古",
+      "line": 2794
+    },
+    "Giant's Mirror": {
+      "translation": "巨人之镜",
+      "line": 2803
+    },
+    "Perrserker": {
+      "translation": "喵头目",
+      "line": 2805
+    },
+    "Galarian Corsola": {
+      "translation": "[[alt.galarian]][[Corsola]]",
+      "line": 2805
+    },
+    "Excadrill": {
+      "translation": "龙头地鼠",
+      "line": 2805
+    },
+    "Bellossom": {
+      "translation": "美丽花",
+      "line": 2810
+    },
+    "Machamp": {
+      "translation": "怪力",
+      "line": 2814
+    },
+    "Morelull": {
+      "translation": "睡睡菇",
+      "line": 2830
+    },
+    "Dusty Bowl": {
+      "translation": "尘土飞扬的碗",
+      "line": 2836
+    },
+    "Giant's Cap": {
+      "translation": "巨人帽",
+      "line": 2843
+    },
+    "Coalossal": {
+      "translation": "巨炭山",
+      "line": 2845
+    },
+    "Doublade": {
+      "translation": "双剑鞘",
+      "line": 2856
+    },
+    "Cinccino": {
+      "translation": "奇诺栗鼠",
+      "line": 2857
+    },
+    "Gengar": {
+      "translation": "耿鬼",
+      "line": 2858
+    },
+    "Aegislash (Shield)": {
+      "translation": "[[Aegislash]] 盾牌形态",
+      "line": 2870
+    },
+    "Lake of Outrage": {
+      "translation": "愤怒之湖",
+      "line": 2885
+    },
+    "Hatterene": {
+      "translation": "布莉姆温",
+      "line": 2887
+    },
+    "Braviary": {
+      "translation": "勇士雄鹰",
+      "line": 2892
+    },
+    "Mandibuzz": {
+      "translation": "秃鹰娜",
+      "line": 2892
+    },
+    "Leafeon": {
+      "translation": "叶伊布",
+      "line": 2892
+    },
+    "Galarian Weezing": {
+      "translation": "[[alt.galarian]][[Weezing]]",
+      "line": 2898
+    },
+    "Hitmontop": {
+      "translation": "战舞郎",
+      "line": 2898
+    },
+    "Falinks": {
+      "translation": "列阵兵",
+      "line": 2898
+    },
+    "Espeon": {
+      "translation": "太阳伊布",
+      "line": 2898
+    },
+    "Jangmo-o": {
+      "translation": "心鳞宝",
+      "line": 2899
+    },
+    "Barbaracle": {
+      "translation": "龟足巨铠",
+      "line": 2901
+    },
+    "Deino": {
+      "translation": "单首龙",
+      "line": 2901
+    },
+    "Vaporeon": {
+      "translation": "水伊布",
+      "line": 2901
+    },
+    "Morpeko": {
+      "translation": "莫鲁贝可",
+      "line": 2904
+    },
+    "Drampa": {
+      "translation": "老翁龙",
+      "line": 2904
+    },
+    "Hakamo-o": {
+      "translation": "鳞甲龙",
+      "line": 2904
+    },
+    "Jolteon": {
+      "translation": "雷伊布",
+      "line": 2904
+    },
+    "Zweilous": {
+      "translation": "双首暴龙",
+      "line": 2905
+    },
+    "Bergmite": {
+      "translation": "冰宝",
+      "line": 2906
+    },
+    "Snom": {
+      "translation": "雪吞虫",
+      "line": 2906
+    },
+    "Galarian Mr. Mime": {
+      "translation": "[[alt.galarian]][[Mr. Mime]]",
+      "line": 2906
+    },
+    "Eiscue (Ice Face)": {
+      "translation": "[[Eiscue]] 结冻头",
+      "line": 2907
+    },
+    "Glaceon": {
+      "translation": "冰伊布",
+      "line": 2907
+    },
+    "Avalugg": {
+      "translation": "冰岩怪",
+      "line": 2907
+    },
+    "Klinklang": {
+      "translation": "齿轮怪",
+      "line": 2908
+    },
+    "Copperajah": {
+      "translation": "大王铜象",
+      "line": 2908
+    },
+    "Togedemaru": {
+      "translation": "托戈德玛尔",
+      "line": 2908
+    },
+    "Ninetales": {
+      "translation": "九尾",
+      "line": 2909
+    },
+    "Arcanine": {
+      "translation": "风速狗",
+      "line": 2909
+    },
+    "Lampent": {
+      "translation": "灯火幽灵",
+      "line": 2909
+    },
+    "Flygon": {
+      "translation": "沙漠蜻蜓",
+      "line": 2909
+    },
+    "Sandaconda": {
+      "translation": "沙螺蟒",
+      "line": 2909
+    },
+    "Turtonator": {
+      "translation": "爆焰龟兽",
+      "line": 2909
+    },
+    "Flareon": {
+      "translation": "火伊布",
+      "line": 2909
+    },
+    "Chandelure": {
+      "translation": "水晶灯火灵",
+      "line": 2909
+    },
+    "Stonjourner": {
+      "translation": "巨石丁",
+      "line": 2910
+    },
+    "Umbreon": {
+      "translation": "月亮伊布",
+      "line": 2911
+    },
+    "Gothitelle": {
+      "translation": "哥德小姐",
+      "line": 2912
+    },
+    "Reuniclus": {
+      "translation": "人造细胞卵",
+      "line": 2912
+    },
+    "Sylveon": {
+      "translation": "仙子伊布",
+      "line": 2912
+    },
+    "Dreepy": {
+      "translation": "多龙梅西亚",
+      "line": 2913
+    },
+    "Drakloak": {
+      "translation": "多龙奇",
+      "line": 2914
+    },
+    "Hammerlocke Hills": {
+      "translation": "哈默洛克山",
+      "line": 2928
+    },
+    "Gourgeist (Average)": {
+      "translation": "[[Gourgeist]] 普通尺寸",
+      "line": 2930
+    },
+    "Gourgeist (Small)": {
+      "translation": "[[Gourgeist]] 小尺寸",
+      "line": 2930
+    },
+    "Gourgeist (Large)": {
+      "translation": "[[Gourgeist]] 大尺寸",
+      "line": 2930
+    },
+    "Gourgeist (Super Size)": {
+      "translation": "[[Gourgeist]] 特大尺寸",
+      "line": 2930
+    },
+    "Klang": {
+      "translation": "齿轮组",
+      "line": 2941
+    },
+    "Roserade": {
+      "translation": "罗丝雷朵",
+      "line": 2943
+    },
+    "Galar Route 6": {
+      "translation": "伽勒尔6号公路",
+      "line": 2968
+    },
+    "Silicobra": {
+      "translation": "沙包蛇",
+      "line": 2970
+    },
+    "Galarian Yamask": {
+      "translation": "[[alt.galarian]][[Yamask]]",
+      "line": 2970
+    },
+    "Galar Route 7": {
+      "translation": "伽勒尔7号公路",
+      "line": 2979
+    },
+    "Meowstic": {
+      "translation": "超能妙喵",
+      "line": 2981
+    },
+    "Hop 6": {
+      "translation": "赫普6",
+      "line": 2985
+    },
+    "Galar Route 8": {
+      "translation": "伽勒尔8号公路",
+      "line": 2990
+    },
+    "Steamdrift Way": {
+      "translation": "蒸汽漂流之路",
+      "line": 2999
+    },
+    "Galarian Darumaka": {
+      "translation": "[[alt.galarian]][[Darumaka]]",
+      "line": 3001
+    },
+    "Galar Route 2 Lakeside": {
+      "translation": "伽勒尔2号线湖畔",
+      "line": 3008
+    },
+    "Feebas": {
+      "translation": "丑丑鱼",
+      "line": 3011
+    },
+    "Galar Route 9": {
+      "translation": "伽勒尔9号公路",
+      "line": 3018
+    },
+    "Pincurchin": {
+      "translation": "啪嚓海胆",
+      "line": 3020
+    },
+    "Clobbopus": {
+      "translation": "拳拳蛸",
+      "line": 3027
+    },
+    "The Darkest Day": {
+      "translation": "最黑暗的一天",
+      "line": 3030
+    },
+    "Circhester Bay": {
+      "translation": "瑟切斯特湾",
+      "line": 3035
+    },
+    "Toxapex": {
+      "translation": "超坏星",
+      "line": 3037
+    },
+    "Dhelmise": {
+      "translation": "破破舵轮",
+      "line": 3037
+    },
+    "Outer Spikemuth": {
+      "translation": "外斯派克默斯",
+      "line": 3054
+    },
+    "White Hill Station": {
+      "translation": "白山站",
+      "line": 3065
+    },
+    "Galar Route 10": {
+      "translation": "伽勒尔10号公路",
+      "line": 3074
+    },
+    "Eiscue (Noice Face)": {
+      "translation": "[[Eiscue]] 解冻头",
+      "line": 3080
+    },
+    "Fields of Honor": {
+      "translation": "荣誉领域",
+      "line": 3092
+    },
+    "Galarian Slowpoke": {
+      "translation": "[[alt.galarian]][[Slowpoke]]",
+      "line": 3094
+    },
+    "Happiny": {
+      "translation": "小福蛋",
+      "line": 3094
+    },
+    "Comfey": {
+      "translation": "花疗环环",
+      "line": 3098
+    },
+    "Starmie": {
+      "translation": "宝石海星",
+      "line": 3101
+    },
+    "Lopunny": {
+      "translation": "长耳兔",
+      "line": 3103
+    },
+    "Rockruff": {
+      "translation": "岩狗狗",
+      "line": 3103
+    },
+    "Malamar": {
+      "translation": "乌贼王",
+      "line": 3105
+    },
+    "Zorua": {
+      "translation": "索罗亚",
+      "line": 3106
+    },
+    "Fletchinder": {
+      "translation": "火箭雀",
+      "line": 3110
+    },
+    "Blissey": {
+      "translation": "幸福蛋",
+      "line": 3111
+    },
+    "Wigglytuff": {
+      "translation": "胖可丁",
+      "line": 3111
+    },
+    "Klara 1": {
+      "translation": "克拉拉1号",
+      "line": 3117
+    },
+    "Avery 1": {
+      "translation": "艾弗里1",
+      "line": 3118
+    },
+    "Soothing Wetlands": {
+      "translation": "舒缓湿地",
+      "line": 3125
+    },
+    "Lickilicky": {
+      "translation": "大舌舔",
+      "line": 3136
+    },
+    "Luxray": {
+      "translation": "伦琴猫",
+      "line": 3144
+    },
+    "Raichu": {
+      "translation": "雷丘",
+      "line": 3144
+    },
+    "Talonflame": {
+      "translation": "烈箭鹰",
+      "line": 3145
+    },
+    "Lilligant": {
+      "translation": "裙儿小姐",
+      "line": 3145
+    },
+    "Forest of Focus": {
+      "translation": "焦点森林",
+      "line": 3155
+    },
+    "Passimian": {
+      "translation": "投掷猴",
+      "line": 3157
+    },
+    "Oranguru": {
+      "translation": "智挥猩",
+      "line": 3157
+    },
+    "Tangrowth": {
+      "translation": "巨蔓藤",
+      "line": 3164
+    },
+    "Scolipede": {
+      "translation": "蜈蚣王",
+      "line": 3165
+    },
+    "Accelgor": {
+      "translation": "敏捷虫",
+      "line": 3167
+    },
+    "Lurantis": {
+      "translation": "兰螳花",
+      "line": 3170
+    },
+    "Larvesta": {
+      "translation": "燃烧虫",
+      "line": 3170
+    },
+    "Escavalier": {
+      "translation": "骑士蜗牛",
+      "line": 3172
+    },
+    "Challenge Beach": {
+      "translation": "挑战海滩",
+      "line": 3188
+    },
+    "Swoobat": {
+      "translation": "心蝙蝠",
+      "line": 3203
+    },
+    "Magnezone": {
+      "translation": "自爆磁怪",
+      "line": 3209
+    },
+    "Volcarona": {
+      "translation": "火神蛾",
+      "line": 3211
+    },
+    "Loop Lagoon": {
+      "translation": "环礁湖",
+      "line": 3228
+    },
+    "Alakazam": {
+      "translation": "胡地",
+      "line": 3236
+    },
+    "Palossand": {
+      "translation": "噬沙堡爷",
+      "line": 3241
+    },
+    "Courageous Cavern": {
+      "translation": "勇敢的洞穴",
+      "line": 3253
+    },
+    "Training Lowlands": {
+      "translation": "训练低地",
+      "line": 3261
+    },
+    "Stoutland": {
+      "translation": "长毛狗",
+      "line": 3267
+    },
+    "Kangaskhan": {
+      "translation": "袋兽",
+      "line": 3268
+    },
+    "Toxicroak": {
+      "translation": "毒骷蛙",
+      "line": 3278
+    },
+    "Scizor": {
+      "translation": "巨钳螳螂",
+      "line": 3281
+    },
+    "Brawlers' Cave": {
+      "translation": "斗士洞穴",
+      "line": 3289
+    },
+    "Potbottom Desert": {
+      "translation": "波底沙漠",
+      "line": 3297
+    },
+    "Rhyperior": {
+      "translation": "超甲狂犀",
+      "line": 3304
+    },
+    "Krookodile": {
+      "translation": "流氓鳄",
+      "line": 3307
+    },
+    "Warm-Up Tunnel": {
+      "translation": "热身隧道",
+      "line": 3314
+    },
+    "Challenge Road": {
+      "translation": "挑战之路",
+      "line": 3319
+    },
+    "Lycanroc (Midday)": {
+      "translation": "[[Lycanroc]] 白昼的样子",
+      "line": 3324
+    },
+    "Mienshao": {
+      "translation": "师父鼬",
+      "line": 3324
+    },
+    "Lycanroc (Midnight)": {
+      "translation": "[[Lycanroc]] 黑夜的样子",
+      "line": 3326
+    },
+    "Salazzle": {
+      "translation": "焰后蜥",
+      "line": 3330
+    },
+    "Workout Sea": {
+      "translation": "锻炼海",
+      "line": 3345
+    },
+    "Clawitzer": {
+      "translation": "钢炮臂虾",
+      "line": 3348
+    },
+    "Dragalge": {
+      "translation": "毒藻龙",
+      "line": 3348
+    },
+    "Rotom (Mow)": {
+      "translation": "切割[[Rotom]]",
+      "line": 3351
+    },
+    "Exeggutor": {
+      "translation": "椰蛋树",
+      "line": 3352
+    },
+    "Rotom (Fan)": {
+      "translation": "旋转[[Rotom]]",
+      "line": 3354
+    },
+    "Rotom (Frost)": {
+      "translation": "结冰[[Rotom]]",
+      "line": 3356
+    },
+    "Rotom (Wash)": {
+      "translation": "清洗[[Rotom]]",
+      "line": 3358
+    },
+    "Rotom (Heat)": {
+      "translation": "加热[[Rotom]]",
+      "line": 3359
+    },
+    "Rotom (Discord)": {
+      "translation": "Discord[[Rotom]]",
+      "line": 3361
+    },
+    "Stepping-Stone Sea": {
+      "translation": "踏脚石海",
+      "line": 3370
+    },
+    "Appletun": {
+      "translation": "丰蜜龙",
+      "line": 3385
+    },
+    "Flapple": {
+      "translation": "苹裹龙",
+      "line": 3385
+    },
+    "Insular Sea": {
+      "translation": "岛屿海",
+      "line": 3400
+    },
+    "Honeycalm Sea": {
+      "translation": "蜜平静海",
+      "line": 3428
+    },
+    "Kingdra": {
+      "translation": "刺龙王",
+      "line": 3438
+    },
+    "Honeycalm Island": {
+      "translation": "蜜平静岛",
+      "line": 3455
+    },
+    "Slippery Slope": {
+      "translation": "滑坡",
+      "line": 3479
+    },
+    "Audino": {
+      "translation": "差不多娃娃",
+      "line": 3481
+    },
+    "Mamoswine": {
+      "translation": "象牙猪",
+      "line": 3484
+    },
+    "Jynx": {
+      "translation": "迷唇姐",
+      "line": 3485
+    },
+    "Smoochum": {
+      "translation": "迷唇娃",
+      "line": 3486
+    },
+    "Cryogonal": {
+      "translation": "几何雪花",
+      "line": 3491
+    },
+    "Froslass": {
+      "translation": "雪妖女",
+      "line": 3493
+    },
+    "Magmar": {
+      "translation": "鸭嘴火兽",
+      "line": 3494
+    },
+    "Magby": {
+      "translation": "鸭嘴宝宝",
+      "line": 3494
+    },
+    "Magmortar": {
+      "translation": "鸭嘴炎兽",
+      "line": 3494
+    },
+    "Hattrem": {
+      "translation": "提布莉姆",
+      "line": 3495
+    },
+    "Amaura": {
+      "translation": "冰雪龙",
+      "line": 3496
+    },
+    "Peony": {
+      "translation": "皮欧尼",
+      "line": 3500
+    },
+    "Frostpoint Field": {
+      "translation": "霜点场",
+      "line": 3505
+    },
+    "Giant's Bed": {
+      "translation": "巨人的床",
+      "line": 3533
+    },
+    "Nidoking": {
+      "translation": "尼多王",
+      "line": 3541
+    },
+    "Nidoqueen": {
+      "translation": "尼多后",
+      "line": 3542
+    },
+    "Electivire": {
+      "translation": "电击魔兽",
+      "line": 3549
+    },
+    "Morgrem": {
+      "translation": "诈唬魔",
+      "line": 3555
+    },
+    "Aerodactyl": {
+      "translation": "化石翼龙",
+      "line": 3556
+    },
+    "Lileep": {
+      "translation": "触手百合",
+      "line": 3557
+    },
+    "Old Cemetery": {
+      "translation": "旧墓地",
+      "line": 3566
+    },
+    "Sinistea": {
+      "translation": "来悲茶",
+      "line": 3571
+    },
+    "Dragapult": {
+      "translation": "多龙巴鲁托",
+      "line": 3572
+    },
+    "Polteageist": {
+      "translation": "怖思壶",
+      "line": 3573
+    },
+    "Galarian Ponyta": {
+      "translation": "[[alt.galarian]][[Ponyta]]",
+      "line": 3581
+    },
+    "Galarian Rapidash": {
+      "translation": "[[alt.galarian]][[Rapidash]]",
+      "line": 3581
+    },
+    "Giant's Foot": {
+      "translation": "巨人之脚",
+      "line": 3589
+    },
+    "Centiskorch": {
+      "translation": "焚焰蚣",
+      "line": 3597
+    },
+    "Omanyte": {
+      "translation": "菊石兽",
+      "line": 3605
+    },
+    "Kabuto": {
+      "translation": "化石盔",
+      "line": 3606
+    },
+    "Archen": {
+      "translation": "始祖小鸟",
+      "line": 3608
+    },
+    "Frigid Sea": {
+      "translation": "寒海",
+      "line": 3617
+    },
+    "Walrein": {
+      "translation": "帝牙海狮",
+      "line": 3625
+    },
+    "Tirtouga": {
+      "translation": "原盖海龟",
+      "line": 3635
+    },
+    "Carracosta": {
+      "translation": "肋骨海龟",
+      "line": 3636
+    },
+    "Roaring-Sea Caves": {
+      "translation": "咆哮海洞",
+      "line": 3639
+    },
+    "Three-Point Pass": {
+      "translation": "三分传球",
+      "line": 3644
+    },
+    "Druddigon": {
+      "translation": "赤面龙",
+      "line": 3657
+    },
+    "Ballimere Lake": {
+      "translation": "巴利米尔湖",
+      "line": 3666
+    },
+    "Whimsicott": {
+      "translation": "风妖精",
+      "line": 3674
+    },
+    "Indeedee (Female)": {
+      "translation": "[[Indeedee]][[alt.female]]",
+      "line": 3679
+    },
+    "Indeedee (Male)": {
+      "translation": "[[Indeedee]][[alt.male]]",
+      "line": 3679
+    },
+    "Dragonite": {
+      "translation": "快龙",
+      "line": 3683
+    },
+    "Anorith": {
+      "translation": "太古羽虫",
+      "line": 3691
+    },
+    "Armaldo": {
+      "translation": "太古盔甲",
+      "line": 3692
+    },
+    "Tyrunt": {
+      "translation": "宝宝暴龙",
+      "line": 3693
+    },
+    "Tyrantrum": {
+      "translation": "怪颚龙",
+      "line": 3694
+    },
+    "Spiritomb": {
+      "translation": "花岩怪",
+      "line": 3695
+    },
+    "Snowslide Slope": {
+      "translation": "雪崩斜坡",
+      "line": 3704
+    },
+    "Metang": {
+      "translation": "金属怪",
+      "line": 3706
+    },
+    "Metagross": {
+      "translation": "巨金怪",
+      "line": 3706
+    },
+    "Galarian Darmanitan": {
+      "translation": "[[alt.galarian]][[Darmanitan]]",
+      "line": 3719
+    },
+    "Aurorus": {
+      "translation": "冰雪巨龙",
+      "line": 3723
+    },
+    "Path to the Peak": {
+      "translation": "通往巅峰之路",
+      "line": 3731
+    },
+    "Frosmoth": {
+      "translation": "雪绒蛾",
+      "line": 3733
+    },
+    "Salamence": {
+      "translation": "暴飞龙",
+      "line": 3740
+    },
+    "Garchomp": {
+      "translation": "烈咬陆鲨",
+      "line": 3740
+    },
+    "Archeops": {
+      "translation": "始祖大鸟",
+      "line": 3741
+    },
+    "Tunnel to the Top": {
+      "translation": "通往山顶的隧道",
+      "line": 3744
+    },
+    "Aspiration Hill": {
+      "translation": "愿望山",
+      "line": 3753
+    },
+    "Horseshoe Plains": {
+      "translation": "马蹄平原",
+      "line": 3760
+    },
+    "Sandgem Flats": {
+      "translation": "桑德宝石公寓",
+      "line": 3767
+    },
+    "Wormadam (Plant)": {
+      "translation": "[[Wormadam]] [[alt.plant]]",
+      "line": 3770
+    },
+    "Deertrack Path": {
+      "translation": "鹿径",
+      "line": 3775
+    },
+    "Deertrack Heights": {
+      "translation": "鹿迹高地",
+      "line": 3783
+    },
+    "Chimchar": {
+      "translation": "小火焰猴",
+      "line": 3785
+    },
+    "Windswept Run": {
+      "translation": "疾风奔跑",
+      "line": 3791
+    },
+    "Nature's Pantry": {
+      "translation": "大自然的储藏室",
+      "line": 3799
+    },
+    "Paras": {
+      "translation": "派拉斯",
+      "line": 3801
+    },
+    "Worn Bridge": {
+      "translation": "破旧的桥梁",
+      "line": 3807
+    },
+    "Gruelling Grove": {
+      "translation": "艰苦的格罗夫",
+      "line": 3815
+    },
+    "Mothim": {
+      "translation": "绅士蛾",
+      "line": 3817
+    },
+    "Tidewater Dam": {
+      "translation": "潮水坝",
+      "line": 3823
+    },
+    "Obsidian Falls": {
+      "translation": "黑曜石瀑布",
+      "line": 3831
+    },
+    "Ramanas Island": {
+      "translation": "拉马纳斯岛",
+      "line": 3841
+    },
+    "Infernape": {
+      "translation": "烈焰猴",
+      "line": 3843
+    },
+    "Golden Lowlands": {
+      "translation": "黄金低地",
+      "line": 3849
+    },
+    "Burmy (Sand)": {
+      "translation": "[[Burmy]] [[alt.sand]]",
+      "line": 3852
+    },
+    "Scarlet Bog": {
+      "translation": "猩红沼泽",
+      "line": 3857
+    },
+    "Cloudpool Ridge": {
+      "translation": "云池岭",
+      "line": 3864
+    },
+    "Honchkrow": {
+      "translation": "乌鸦头头",
+      "line": 3866
+    },
+    "Diamond Heath": {
+      "translation": "钻石荒地",
+      "line": 3872
+    },
+    "Cottonsedge Prairie": {
+      "translation": "棉草草原",
+      "line": 3880
+    },
+    "Droning Meadow": {
+      "translation": "嗡嗡草甸",
+      "line": 3888
+    },
+    "Bolderoll Slope": {
+      "translation": "波德罗尔斜坡",
+      "line": 3896
+    },
+    "Gapejaw Bog": {
+      "translation": "张嘴沼泽",
+      "line": 3904
+    },
+    "Ursa's Ring": {
+      "translation": "乌萨之戒",
+      "line": 3913
+    },
+    "Holm of Trials": {
+      "translation": "试炼的霍尔姆",
+      "line": 3922
+    },
+    "Hisuian Sliggoo": {
+      "translation": "[[alt.hisuian]][[Sliggoo]]",
+      "line": 3924
+    },
+    "Torterra": {
+      "translation": "土台龟",
+      "line": 3924
+    },
+    "Crossing Slope": {
+      "translation": "穿越坡度",
+      "line": 3930
+    },
+    "Burmy (Trash)": {
+      "translation": "[[Burmy]] [[alt.trash]]",
+      "line": 3933
+    },
+    "Wormadam (Trash)": {
+      "translation": "[[Wormadam]] [[alt.trash]]",
+      "line": 3933
+    },
+    "Ginkgo Landing": {
+      "translation": "银杏登陆",
+      "line": 3938
+    },
+    "Aipom Hill": {
+      "translation": "",
+      "line": 3946
+    },
+    "Bathers' Lagoon": {
+      "translation": "沐浴者泻湖",
+      "line": 3954
+    },
+    "Hideaway Bay": {
+      "translation": "世外桃源湾",
+      "line": 3962
+    },
+    "Deadwood Haunt": {
+      "translation": "枯木鬼屋",
+      "line": 3971
+    },
+    "Staraptor": {
+      "translation": "姆克鹰",
+      "line": 3973
+    },
+    "Sand's Reach": {
+      "translation": "沙之触角",
+      "line": 3979
+    },
+    "Castaway Shore": {
+      "translation": "漂流海岸",
+      "line": 3988
+    },
+    "Windbreak Stand": {
+      "translation": "防风架",
+      "line": 3996
+    },
+    "Hisuian Growlithe": {
+      "translation": "[[alt.hisuian]][[Growlithe]]",
+      "line": 3998
+    },
+    "Spring Path": {
+      "translation": "春天的小径",
+      "line": 4004
+    },
+    "Islespy Shore": {
+      "translation": "岛屿海岸",
+      "line": 4012
+    },
+    "Empoleon": {
+      "translation": "帝王拿波",
+      "line": 4014
+    },
+    "Tranquility Cove": {
+      "translation": "宁静湾",
+      "line": 4019
+    },
+    "Basculin (White-Striped)": {
+      "translation": "[[Basculin]] 白条纹的样子",
+      "line": 4022
+    },
+    "Hisuian Qwilfish": {
+      "translation": "[[alt.hisuian]][[Qwilfish]]",
+      "line": 4022
+    },
+    "Lunker's Lair": {
+      "translation": "伦克的巢穴",
+      "line": 4028
+    },
+    "Seagrass Haven": {
+      "translation": "海草天堂",
+      "line": 4036
+    },
+    "Tombolo Walk": {
+      "translation": "通博罗步道",
+      "line": 4045
+    },
+    "Heavenward Lookout": {
+      "translation": "天堂观景台",
+      "line": 4053
+    },
+    "Wormadam (Sand)": {
+      "translation": "[[Wormadam]] [[alt.sand]]",
+      "line": 4056
+    },
+    "Wayward Wood": {
+      "translation": "任性的木头",
+      "line": 4061
+    },
+    "Lonely Spring": {
+      "translation": "孤独的春天",
+      "line": 4070
+    },
+    "Sonorous Path": {
+      "translation": "铿锵之路",
+      "line": 4079
+    },
+    "Celestica Trail": {
+      "translation": "天弘步道",
+      "line": 4087
+    },
+    "Chimecho": {
+      "translation": "风铃铃",
+      "line": 4089
+    },
+    "Hisuian Sneasel": {
+      "translation": "[[alt.hisuian]][[Sneasel]]",
+      "line": 4089
+    },
+    "Fabled Spring": {
+      "translation": "传说中的春天",
+      "line": 4095
+    },
+    "Bolderoll Ravine": {
+      "translation": "波德罗尔峡谷",
+      "line": 4104
+    },
+    "Golem": {
+      "translation": "隆隆岩",
+      "line": 4106
+    },
+    "Stonetooth Rows": {
+      "translation": "石齿行",
+      "line": 4112
+    },
+    "Misdreavus": {
+      "translation": "梦妖",
+      "line": 4114
+    },
+    "Mismagius": {
+      "translation": "梦妖魔",
+      "line": 4114
+    },
+    "Cloudcap Pass": {
+      "translation": "云顶通行证",
+      "line": 4120
+    },
+    "Whiteout Valley": {
+      "translation": "怀特奥特谷",
+      "line": 4128
+    },
+    "Bonechill Wastes": {
+      "translation": "寒骨废土",
+      "line": 4136
+    },
+    "Arena's Approach": {
+      "translation": "竞技场的方法",
+      "line": 4144
+    },
+    "Avalanche Slopes": {
+      "translation": "雪崩斜坡",
+      "line": 4152
+    },
+    "Icebound Falls": {
+      "translation": "冰封瀑布",
+      "line": 4160
+    },
+    "Crobat": {
+      "translation": "叉字蝠",
+      "line": 4162
+    },
+    "Heart's Crag": {
+      "translation": "心之岩",
+      "line": 4168
+    },
+    "Snowfall Hot Spring": {
+      "translation": "降雪温泉",
+      "line": 4177
+    },
+    "Glacier Terrace": {
+      "translation": "冰川台",
+      "line": 4184
+    },
+    "Poco Path": {
+      "translation": "波科路径",
+      "line": 4197
+    },
+    "Lechonk": {
+      "translation": "爱吃豚",
+      "line": 4199
+    },
+    "Pawmi": {
+      "translation": "布拨",
+      "line": 4199
+    },
+    "Tarountula": {
+      "translation": "团珠蛛",
+      "line": 4199
+    },
+    "South Province (Area One)": {
+      "translation": "南方省（一区）",
+      "line": 4205
+    },
+    "Paldean Wooper": {
+      "translation": "[[alt.paldean]][[Wooper]]",
+      "line": 4207
+    },
+    "Spewpa": {
+      "translation": "粉蝶蛹",
+      "line": 4207
+    },
+    "Oricorio (Pom-Pom)": {
+      "translation": "[[Oricorio]] 啪滋啪滋风格",
+      "line": 4207
+    },
+    "Fidough": {
+      "translation": "狗仔包",
+      "line": 4207
+    },
+    "Shroodle": {
+      "translation": "滋汁鼹",
+      "line": 4207
+    },
+    "Wiglett": {
+      "translation": "海地鼠",
+      "line": 4207
+    },
+    "Flamigo": {
+      "translation": "缠红鹤",
+      "line": 4207
+    },
+    "Gimmighoul (Chest)": {
+      "translation": "[[Gimmighoul]] 宝箱形态",
+      "line": 4207
+    },
+    "South Province (Area Two)": {
+      "translation": "南方省（二区）",
+      "line": 4213
+    },
+    "Smoliv": {
+      "translation": "迷你芙",
+      "line": 4215
+    },
+    "Maschiff": {
+      "translation": "偶叫獒",
+      "line": 4215
+    },
+    "Nacli": {
+      "translation": "盐石宝",
+      "line": 4215
+    },
+    "Flabébé (Yellow)": {
+      "translation": "[[Flabébé]] [[alt.yellow]]",
+      "line": 4215
+    },
+    "Flabébé (Blue)": {
+      "translation": "[[Flabébé]] [[alt.blue]]",
+      "line": 4215
+    },
+    "Tinkatink": {
+      "translation": "小锻匠",
+      "line": 4215
+    },
+    "Squawkabilly (Green)": {
+      "translation": "[[Squawkabilly]] 绿羽毛",
+      "line": 4215
+    },
+    "Squawkabilly (Blue)": {
+      "translation": "[[Squawkabilly]] 蓝羽毛",
+      "line": 4215
+    },
+    "Squawkabilly (Yellow)": {
+      "translation": "[[Squawkabilly]] 黄羽毛",
+      "line": 4215
+    },
+    "Squawkabilly (White)": {
+      "translation": "[[Squawkabilly]] 白羽毛",
+      "line": 4215
+    },
+    "Tadbulb": {
+      "translation": "光蚪仔",
+      "line": 4216
+    },
+    "South Province (Area Three)": {
+      "translation": "南方省（三区）",
+      "line": 4221
+    },
+    "Oricorio (Baile)": {
+      "translation": "[[Oricorio]] 热辣热辣风格",
+      "line": 4223
+    },
+    "Nymble": {
+      "translation": "豆蟋蟀",
+      "line": 4223
+    },
+    "Klawf": {
+      "translation": "毛崖蟹",
+      "line": 4223
+    },
+    "Tandemaus": {
+      "translation": "一对鼠",
+      "line": 4223
+    },
+    "Spooky Bulbasaur": {
+      "translation": "[[alt.spooky]] [[Bulbasaur]]",
+      "line": 4232
+    },
+    "Halloween!": {
+      "translation": "万圣节！",
+      "line": 4232
+    },
+    "Spooky Togepi": {
+      "translation": "[[alt.spooky]] [[Togepi]]",
+      "line": 4238
+    },
+    "Pikachu (Gengar)": {
+      "translation": "[[Pikachu]] ([[Gengar]])",
+      "line": 4244
+    },
+    "Christmas_present": {
+      "translation": "圣诞礼物",
+      "line": 4253
+    },
+    "Santa Jynx 1": {
+      "translation": "",
+      "line": 4254
+    },
+    "Santa Jynx 2": {
+      "translation": "",
+      "line": 4258
+    },
+    "Santa Jynx 3": {
+      "translation": "",
+      "line": 4262
+    },
+    "Santa Jynx 4": {
+      "translation": "",
+      "line": 4266
+    },
+    "Santa Jynx": {
+      "translation": "圣诞老人 [[Jynx]]",
+      "line": 4271
+    },
+    "Merry Christmas!": {
+      "translation": "圣诞快乐！",
+      "line": 4272
+    },
+    "Santa Jynx appears for the day after defeating its Band at Bill's House, and will remain until the maximum number of Christmas presents have been collected.": {
+      "translation": "",
+      "line": 4274
+    }
+  }
+}

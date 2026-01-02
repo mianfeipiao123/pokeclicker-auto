@@ -1,0 +1,1058 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/farming/Farming.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 262,
+    "translatedCount": 253
+  },
+  "entries": {
+    "Farming": {
+      "translation": "农业",
+      "line": 5
+    },
+    "farming": {
+      "translation": "农业",
+      "line": 6
+    },
+    "Farm Aura": {
+      "translation": "农场光环",
+      "line": 58
+    },
+    "shiny": {
+      "translation": "异色的",
+      "line": 59
+    },
+    "roaming": {
+      "translation": "漫游",
+      "line": 61
+    },
+    "ev": {
+      "translation": "落雷兽",
+      "line": 62
+    },
+    "exp": {
+      "translation": "经验值",
+      "line": 63
+    },
+    "This bright red Berry is very spicy and has a provocative flavor. It blooms with delicate, pretty flowers.": {
+      "translation": "这种鲜红色的树果非常辛辣，具有刺激性的味道。它开出娇嫩、美丽的花朵。",
+      "line": 109
+    },
+    "This Berry's thick skin and fruit are very tough and dry-tasting. However, every bit of it can be eaten.": {
+      "translation": "这种树果的皮很厚，果实很坚韧，味道很干。不过，每一点都可以吃。",
+      "line": 126
+    },
+    "Because of its hollow inside pocket, there isn't a lot to eat. What can be eaten is very sweet and delicious.": {
+      "translation": "因为里面的口袋是空的，所以吃的东西并不多。能吃的东西都是非常香甜可口的。",
+      "line": 141
+    },
+    "If the leaves grow longer and curlier than average, this Berry will have a somewhat-bitter taste.": {
+      "translation": "如果叶子比一般叶子长得更长、更卷曲，那么这种树果的味道就会有点苦。",
+      "line": 156
+    },
+    "This Berry's peel is hard, but the flesh inside is very juicy. It is distinguished by its bracing sourness.": {
+      "translation": "这种树果的果皮很硬，但里面的果肉非常多汁。它以其令人振奋的酸味而著称。",
+      "line": 171
+    },
+    "It takes longer to grow than Berries such as Cheri. The smaller Berries taste better.": {
+      "translation": "它的生长时间比樱桃等树果更长。树果越小味道越好。",
+      "line": 186
+    },
+    "Nature's gifts came together as one in this Berry. It has a wondrous mix of flavors that spread in the mouth.": {
+      "translation": "大自然的恩赐在这个树果中融为一体。它有一种奇妙的混合味道，在口中扩散。",
+      "line": 201
+    },
+    "Sitrus came from the same family as Oran. It is larger and smoother-tasting than Oran.": {
+      "translation": "西特鲁斯和奥兰来自同一个家庭。它比奥兰更大、味道更顺滑。",
+      "line": 216
+    },
+    "The more this Berry absorbs energy from sunlight, the more vividly colorful it grows.": {
+      "translation": "这种树果从阳光中吸收的能量越多，它生长的色彩就越鲜艳。",
+      "line": 233
+    },
+    "A small hint of spiciness lingers in the red granules surrounding this Berry. Their centers have a dry taste.": {
+      "translation": "这种树果周围的红色颗粒中残留着一丝辛辣味。它们的中心有干的味道。",
+      "line": 248
+    },
+    "Though this small, delicately-skinned Berry is blue in color, it dyes the mouth black when eaten.": {
+      "translation": "虽然这种果皮娇嫩的小树果呈蓝色，但食用后却会将口腔染成黑色。",
+      "line": 263
+    },
+    "Bitter, but with a trace of sweetness, the Nanab Berry was the seventh to be discovered in the world.": {
+      "translation": "纳纳布树果苦涩，但带有一丝甜味，是世界上第七个被发现的树果。",
+      "line": 278
+    },
+    "The potent mix of bitter and sour in this Berry seems to promote digestion. The flower is white and beautiful.": {
+      "translation": "这种树果中苦味和酸味的有效混合似乎可以促进消化。花是白色的，很美丽。",
+      "line": 293
+    },
+    "It is said that when the sour skin is peeled, this spicy Berry can be crushed to make medicine.": {
+      "translation": "据说，剥去酸皮后，这种辛辣的树果可以压碎入药。",
+      "line": 308
+    },
+    "This Berry is oddly shaped, appearing as if someone took a bite out of it. It is packed full of spicy substances.": {
+      "translation": "这颗树果形状奇特，看起来就像是被人咬了一口一样。它充满了辛辣物质。",
+      "line": 323
+    },
+    "It is said that this Berry grew lumps to help Pokémon grip it, allowing propagation farther afield.": {
+      "translation": "据说这种树果会长出肿块来帮助宝可梦抓住它，从而可以传播到更远的地方。",
+      "line": 338
+    },
+    "This Berry progressively curves as it grows. The curvier the Berry, the sweeter and tastier.": {
+      "translation": "这种树果随着生长逐渐弯曲。树果越弯曲，越甜、越美味。",
+      "line": 353
+    },
+    "This Berry turns bitter toward the stem. The dainty flower it grows from doesn't absorb much sunlight.": {
+      "translation": "这种树果接近茎时会变得苦涩。它生长的娇嫩花朵不吸收太多阳光。",
+      "line": 368
+    },
+    "This Berry is very big and sour. The juiciness of the pulp accentuates the sourness.": {
+      "translation": "这种树果又大又酸。果肉的多汁加剧了酸味。",
+      "line": 383
+    },
+    "This Berry's gradual process of storing nutrients beneficial to Pokémon health causes it to mature slowly.": {
+      "translation": "这种树果逐渐储存对宝可梦健康有益的营养物质，导致其成熟缓慢。",
+      "line": 399
+    },
+    "This Berry multiplies the effect of Berry plants around it.": {
+      "translation": "这种树果会倍增周围树果植物的效果。",
+      "line": 400
+    },
+    "When this sweetly spicy Berry's thick skin is peeled, many pieces of the fruit spill out.": {
+      "translation": "当这种甜辣树果的厚皮被剥掉时，许多水果碎片会溢出来。",
+      "line": 419
+    },
+    "This Berry can be eaten as is or boiled to obtain an extract that adds a dash of flavor to food.": {
+      "translation": "这种树果可以直接食用，也可以煮沸以获得提取物，为食物增添一丝风味。",
+      "line": 434
+    },
+    "Even in places of constant rain and high humidity, this Berry's plant grows healthy and strong.": {
+      "translation": "即使在持续降雨和高湿度的地方，这种树果植物也能健康强壮地生长。",
+      "line": 449
+    },
+    "This somewhat-rare Berry projects an image of luxury, so it is favored as a gift item.": {
+      "translation": "这种较为稀有的树果给人一种奢华的印象，因此很受青睐作为礼品。",
+      "line": 464
+    },
+    "One bite of this very tender Berry fills the mouth with its sweet and tangy flavor.": {
+      "translation": "咬一口这种非常嫩的树果，口腔中就会充满甜味和浓郁的味道。",
+      "line": 479
+    },
+    "This Berry is large and spicy. When eaten during the cold season, it warms the body from inside.": {
+      "translation": "这种树果又大又辣。在寒冷的季节食用，可以从内部温暖身体。",
+      "line": 494
+    },
+    "Its dryness is quite strong. As a result, its true deliciousness can't be appreciated by just eating one or two.": {
+      "translation": "它的干燥性相当强。因此，它真正的美味不是吃一两颗就能体会到的。",
+      "line": 509
+    },
+    "The grown-up flavor and dreamy sweetness of this Berry make it a favorite of Pokémon everywhere.": {
+      "translation": "这种树果的成熟风味和梦幻般的甜味使其成为各地宝可梦的最爱。",
+      "line": 524
+    },
+    "Even though it is bitter, it should be eaten peel and all. The hair on the peel cleans the stomach from the inside.": {
+      "translation": "尽管它很苦，但还是应该连皮一起吃。果皮上的毛发从内部清洁胃。",
+      "line": 539
+    },
+    "This Berry is quite sour overall, with the sourness especially concentrated at the pointed end.": {
+      "translation": "这种树果总体来说很酸，酸味特别集中在尖端。",
+      "line": 554
+    },
+    "So spicy is the Spelon Berry that, Fire type or not, Pokémon will try to breathe fire after eating a single one.": {
+      "translation": "斯佩隆树果太辣了，无论是否是火系，宝可梦在吃了一颗后都会尝试喷火。",
+      "line": 569
+    },
+    "This Berry drifted from a faraway sea. It is now cultivated in the Sinnoh region.": {
+      "translation": "这颗树果是从遥远的大海漂来的。现在神奥地区也有栽培。",
+      "line": 585
+    },
+    "It has a tendency to expand into nearby plots.": {
+      "translation": "它有扩展到附近地块的趋势。",
+      "line": 586
+    },
+    "A bounty of nature that is exceedingly sweet. The Berry is huge, with some discovered that exceed 20\\u2033, or 50 cm.": {
+      "translation": "",
+      "line": 602
+    },
+    "This Berry is tremendously bitter. Just one bite is enough to instantly stop hiccups.": {
+      "translation": "这种树果非常苦。只需咬一口就足以立即停止打嗝。",
+      "line": 617
+    },
+    "This glossy and colorful Berry has a mouthwateringly delicious appearance. However, it is awfully sour.": {
+      "translation": "这种光泽多彩的树果具有令人垂涎欲滴的美味外观。然而，它非常酸。",
+      "line": 632
+    },
+    "This Berry endemic to Pinkan Island has an incredibly sweet taste.": {
+      "translation": "这种粉红岛特有的树果味道非常甜。",
+      "line": 648
+    },
+    "It has a vibrant pink pigment, and it is found in such abundance on Pinkan Island that all Pokémon found there are colored Pink!": {
+      "translation": "它含有鲜艳的粉红色颜料，而且在粉红岛上极为常见，以至于那里的宝可梦都会呈粉红色！",
+      "line": 649
+    },
+    "Pinkan Scyther": {
+      "translation": "[[alt.pinkan]][[Scyther]]",
+      "line": 652
+    },
+    "This Berry is said to have grown plentiful in the tropics of the past. It boasts an intensely hot spiciness.": {
+      "translation": "据说这种树果过去在热带地区盛产。它具有强烈的辣味。",
+      "line": 670
+    },
+    "It has a tendency to overtake nearby plants.": {
+      "translation": "它有超越附近植物的趋势。",
+      "line": 671
+    },
+    "Charmander": {
+      "translation": "小火龙",
+      "line": 674
+    },
+    "Cyndaquil": {
+      "translation": "火球鼠",
+      "line": 674
+    },
+    "Torchic": {
+      "translation": "火稚鸡",
+      "line": 674
+    },
+    "Chimchar": {
+      "translation": "小火焰猴",
+      "line": 674
+    },
+    "Tepig": {
+      "translation": "暖暖猪",
+      "line": 674
+    },
+    "Fennekin": {
+      "translation": "火狐狸",
+      "line": 674
+    },
+    "Litten": {
+      "translation": "火斑喵",
+      "line": 674
+    },
+    "Scorbunny": {
+      "translation": "炎兔儿",
+      "line": 674
+    },
+    "Fuecoco": {
+      "translation": "呆火鳄",
+      "line": 674
+    },
+    "This Berry's flesh is dotted with countless tiny bubbles of air that keep it afloat in water.": {
+      "translation": "这种树果的果肉上点缀着无数微小的气泡，使其能够漂浮在水中。",
+      "line": 690
+    },
+    "This Berry promotes the fruiting of nearby Berry plants.": {
+      "translation": "这种树果可以促进附近树果植物的结果。",
+      "line": 691
+    },
+    "Squirtle": {
+      "translation": "杰尼龟",
+      "line": 694
+    },
+    "Totodile": {
+      "translation": "小锯鳄",
+      "line": 694
+    },
+    "Mudkip": {
+      "translation": "水跃鱼",
+      "line": 694
+    },
+    "Piplup": {
+      "translation": "波加曼",
+      "line": 694
+    },
+    "Oshawott": {
+      "translation": "水水獭",
+      "line": 694
+    },
+    "Froakie": {
+      "translation": "呱呱泡蛙",
+      "line": 694
+    },
+    "Popplio": {
+      "translation": "球球海狮",
+      "line": 694
+    },
+    "Sobble": {
+      "translation": "泪眼蜥",
+      "line": 694
+    },
+    "Quaxly": {
+      "translation": "润水鸭",
+      "line": 694
+    },
+    "Energy from lightning strikes is drawn into the plant, making the Berries grow big and rich.": {
+      "translation": "雷击产生的能量被吸收到植物中，使树果长得又大又丰富。",
+      "line": 710
+    },
+    "The same energy promotes the growth of nearby Berries.": {
+      "translation": "同样的能量促进附近树果的生长。",
+      "line": 711
+    },
+    "Pikachu": {
+      "translation": "皮卡丘",
+      "line": 714
+    },
+    "Plusle": {
+      "translation": "正电拍拍",
+      "line": 714
+    },
+    "Minun": {
+      "translation": "负电拍拍",
+      "line": 714
+    },
+    "Pachirisu": {
+      "translation": "帕奇利兹",
+      "line": 714
+    },
+    "Emolga": {
+      "translation": "电飞鼠",
+      "line": 714
+    },
+    "Dedenne": {
+      "translation": "咚咚鼠",
+      "line": 714
+    },
+    "Togedemaru": {
+      "translation": "托戈德玛尔",
+      "line": 714
+    },
+    "Morpeko (Hangry)": {
+      "translation": "[[Morpeko]] 空腹花纹",
+      "line": 714
+    },
+    "Pawmi": {
+      "translation": "布拨",
+      "line": 714
+    },
+    "This Berry has a disagreeable \"green\" flavor and scent typical of vegetables. It is rich in health-promoting fiber.": {
+      "translation": "这种树果具有令人不快的“绿色”风味和典型的蔬菜气味。它富含促进健康的纤维。",
+      "line": 730
+    },
+    "green": {
+      "translation": "",
+      "line": 730
+    },
+    "Bulbasaur": {
+      "translation": "妙蛙种子",
+      "line": 734
+    },
+    "Chikorita": {
+      "translation": "菊草叶",
+      "line": 734
+    },
+    "Treecko": {
+      "translation": "木守宫",
+      "line": 734
+    },
+    "Turtwig": {
+      "translation": "草苗龟",
+      "line": 734
+    },
+    "Snivy": {
+      "translation": "藤藤蛇",
+      "line": 734
+    },
+    "Chespin": {
+      "translation": "哈力栗",
+      "line": 734
+    },
+    "Rowlet": {
+      "translation": "木木枭",
+      "line": 734
+    },
+    "Grookey": {
+      "translation": "敲音猴",
+      "line": 734
+    },
+    "Sprigatito": {
+      "translation": "新叶喵",
+      "line": 734
+    },
+    "This Berry has a refreshing flavor that strikes a good balance of dryness and sourness. It tastes better chilled.": {
+      "translation": "这种树果具有清爽的味道，在干燥和酸味之间取得了良好的平衡。冷藏后味道更好。",
+      "line": 750
+    },
+    "This Berry slows the decay of nearby Berries.": {
+      "translation": "这种树果可以减缓附近树果的腐烂速度。",
+      "line": 751
+    },
+    "Jynx": {
+      "translation": "迷唇姐",
+      "line": 754
+    },
+    "Swinub": {
+      "translation": "小山猪",
+      "line": 754
+    },
+    "Spheal": {
+      "translation": "海豹球",
+      "line": 754
+    },
+    "Snover": {
+      "translation": "雪笠怪",
+      "line": 754
+    },
+    "Snom": {
+      "translation": "雪吞虫",
+      "line": 754
+    },
+    "This Berry contains a substance that generates heat. It can even heat up a chilly heart.": {
+      "translation": "这种树果含有一种产生热量的物质。甚至可以温暖冰冷的心。",
+      "line": 770
+    },
+    "Growing these Berries will promote Egg growth.": {
+      "translation": "种植这些树果将促进卵子的生长。",
+      "line": 771
+    },
+    "Mankey": {
+      "translation": "猴怪",
+      "line": 774
+    },
+    "Makuhita": {
+      "translation": "幕下力士",
+      "line": 774
+    },
+    "Riolu": {
+      "translation": "利欧路",
+      "line": 774
+    },
+    "Scraggy": {
+      "translation": "滑滑小子",
+      "line": 774
+    },
+    "Crabrawler": {
+      "translation": "好胜蟹",
+      "line": 774
+    },
+    "This Berry is a brilliant green on the outside. Inside, it is packed with a dry-flavored, black-colored flesh.": {
+      "translation": "这种树果的外表是亮绿色的。里面充满了干味、黑色的果肉。",
+      "line": 790
+    },
+    "Due to its poisonous nature, it increases the chances of mutations near it.": {
+      "translation": "由于其有毒性质，它增加了附近发生突变的机会。",
+      "line": 792
+    },
+    "Grimer": {
+      "translation": "臭泥",
+      "line": 795
+    },
+    "Spinarak": {
+      "translation": "圆丝蛛",
+      "line": 795
+    },
+    "Gulpin": {
+      "translation": "溶食兽",
+      "line": 795
+    },
+    "Skorupi": {
+      "translation": "钳尾蝎",
+      "line": 795
+    },
+    "Salandit": {
+      "translation": "夜盗火蜥",
+      "line": 795
+    },
+    "Toxel": {
+      "translation": "电音婴",
+      "line": 795
+    },
+    "The sweetness-laden pulp has just the hint of a hard-edged and fragrant bite to it.": {
+      "translation": "充满甜味的果肉有一丝硬边和芳香的味道。",
+      "line": 811
+    },
+    "Growing these Berries will soften the ground around it, increasing the chances of replanting.": {
+      "translation": "种植这些树果会软化周围的土壤，增加重新种植的机会。",
+      "line": 812
+    },
+    "Sandshrew": {
+      "translation": "穿山鼠",
+      "line": 815
+    },
+    "Larvitar": {
+      "translation": "幼基拉斯",
+      "line": 815
+    },
+    "Numel": {
+      "translation": "呆火驼",
+      "line": 815
+    },
+    "Hippopotas": {
+      "translation": "沙河马",
+      "line": 815
+    },
+    "This Berry is said to be a new kind that is a cross of two Berries brought together by winds from far away.": {
+      "translation": "据说这种树果是一种新品种，是由远方的风吹来的两种树果杂交而成的。",
+      "line": 830
+    },
+    "Farfetch'd": {
+      "translation": "大葱鸭",
+      "line": 832
+    },
+    "Murkrow": {
+      "translation": "黑暗鸦",
+      "line": 832
+    },
+    "Tropius": {
+      "translation": "热带龙",
+      "line": 832
+    },
+    "Chatot": {
+      "translation": "聒噪鸟",
+      "line": 832
+    },
+    "This Berry is said to sense human emotions for the way it swells roundly when a person approaches.": {
+      "translation": "据说这种树果能感知人类的情绪，因为当有人靠近时，它会圆圆地膨胀。",
+      "line": 848
+    },
+    "The same behavior affects nearby plants, causing additional mutations.": {
+      "translation": "同样的行为也会影响附近的植物，导致额外的突变。",
+      "line": 849
+    },
+    "Mr. Mime": {
+      "translation": "魔墙人偶",
+      "line": 852
+    },
+    "Natu": {
+      "translation": "天然雀",
+      "line": 852
+    },
+    "Ralts": {
+      "translation": "拉鲁拉丝",
+      "line": 852
+    },
+    "Chingling": {
+      "translation": "铃铛响",
+      "line": 852
+    },
+    "The flower grows at the tip of this Berry. It attracts Bug Pokémon by letting its stringy petals stream out.": {
+      "translation": "这朵花长在树果的顶端。它通过流出细丝状的花瓣来吸引虫宝可梦。",
+      "line": 868
+    },
+    "The attracted Bug Pokémon decrease the amount of harvestable Berries in nearby plants.": {
+      "translation": "被吸引的虫宝可梦会减少附近植物中可收获的树果数量。",
+      "line": 869
+    },
+    "Pinsir": {
+      "translation": "凯罗斯",
+      "line": 872
+    },
+    "Shuckle": {
+      "translation": "壶壶",
+      "line": 872
+    },
+    "Shuckle (Corked)": {
+      "translation": "[[Shuckle]] (塞住)",
+      "line": 872
+    },
+    "Nincada": {
+      "translation": "土居忍士",
+      "line": 872
+    },
+    "Mothim": {
+      "translation": "绅士蛾",
+      "line": 872
+    },
+    "Sizzlipede": {
+      "translation": "烧火蚣",
+      "line": 872
+    },
+    "It is often used for pickles because of its very dry flavor. It can also be eaten raw for its provocative taste.": {
+      "translation": "由于其味道非常干燥，因此常用于泡菜。由于其刺激性的味道，它也可以生吃。",
+      "line": 888
+    },
+    "This Berry plant hardens the surrounding soil, decreasing the chances of replanting.": {
+      "translation": "这种树果植物使周围的土壤变硬，减少了重新种植的机会。",
+      "line": 889
+    },
+    "Rhyhorn": {
+      "translation": "独角犀牛",
+      "line": 892
+    },
+    "Sudowoodo": {
+      "translation": "树才怪",
+      "line": 892
+    },
+    "Aron": {
+      "translation": "可可多拉",
+      "line": 892
+    },
+    "Bonsly": {
+      "translation": "盆才怪",
+      "line": 892
+    },
+    "Rockruff": {
+      "translation": "岩狗狗",
+      "line": 892
+    },
+    "Considered to have a special power from the olden days, this Berry is sometimes dried and used as a good-luck charm.": {
+      "translation": "这种树果自古以来就被认为具有特殊的力量，有时会被晒干并用作幸运符。",
+      "line": 908
+    },
+    "This Berry causes other nearby Berries to wither away faster.": {
+      "translation": "这种树果会导致附近的其他树果更快地枯萎。",
+      "line": 909
+    },
+    "Gastly": {
+      "translation": "鬼斯",
+      "line": 912
+    },
+    "Misdreavus": {
+      "translation": "梦妖",
+      "line": 912
+    },
+    "Shedinja": {
+      "translation": "脱壳忍者",
+      "line": 912
+    },
+    "Drifloon": {
+      "translation": "飘飘球",
+      "line": 912
+    },
+    "If a large enough volume of this Berry is boiled down, its bitterness fades away. It makes a good jam.": {
+      "translation": "如果将足够多的这种树果煮沸，它的苦味就会消失。它是一种很好的果酱。",
+      "line": 928
+    },
+    "This Berry requires a lot of energy to grow, but isn't fussy about what it consumes, it helps other plants by removing toxins from the soil.": {
+      "translation": "这种树果需要大量能量才能生长，但它对消耗的能量并不挑剔，它可以通过清除土壤中的毒素来帮助其他植物。",
+      "line": 929
+    },
+    "Dratini": {
+      "translation": "迷你龙",
+      "line": 932
+    },
+    "Bagon": {
+      "translation": "宝贝龙",
+      "line": 932
+    },
+    "Gible": {
+      "translation": "圆陆鲨",
+      "line": 932
+    },
+    "Druddigon": {
+      "translation": "赤面龙",
+      "line": 932
+    },
+    "Drampa": {
+      "translation": "老翁龙",
+      "line": 932
+    },
+    "Applin": {
+      "translation": "啃果虫",
+      "line": 932
+    },
+    "Exposed Applin": {
+      "translation": "[[Applin]] 裸露的样子",
+      "line": 932
+    },
+    "Tiny hooks grow on the surface of this Berry. It latches on to Pokémon so it can be carried to far-off places.": {
+      "translation": "这种树果的表面长有微小的钩子。它会附着在宝可梦身上，因此可以被带到很远的地方。",
+      "line": 948
+    },
+    "It also prevents Kasib from mutating.": {
+      "translation": "它还可以防止 Kasib 发生突变。",
+      "line": 950
+    },
+    "Houndour": {
+      "translation": "戴鲁比",
+      "line": 953
+    },
+    "Absol": {
+      "translation": "阿勃梭鲁",
+      "line": 953
+    },
+    "Stunky": {
+      "translation": "臭鼬噗",
+      "line": 953
+    },
+    "Zorua": {
+      "translation": "索罗亚",
+      "line": 953
+    },
+    "Impidimp": {
+      "translation": "捣蛋小妖",
+      "line": 953
+    },
+    "This Berry is very tough with a strong flavor. It was used to make medicine by people in the past.": {
+      "translation": "这种树果非常坚韧，味道浓郁。过去人们用它来制药。",
+      "line": 969
+    },
+    "This Berry plant is very hardy and resistant, making it resistant to mutations, and also decreasing the chance of mutations around it.": {
+      "translation": "这种树果植物非常耐寒和抵抗力，使其能够抵抗突变，并减少周围发生突变的机会。",
+      "line": 970
+    },
+    "Magnemite": {
+      "translation": "小磁怪",
+      "line": 973
+    },
+    "Skarmory": {
+      "translation": "盔甲鸟",
+      "line": 973
+    },
+    "Beldum": {
+      "translation": "铁哑铃",
+      "line": 973
+    },
+    "Bronzor": {
+      "translation": "铜镜怪",
+      "line": 973
+    },
+    "Cufant": {
+      "translation": "铜象",
+      "line": 973
+    },
+    "This Berry can be cored out and dried to make a whistle. Blowing through its hole makes an indescribable sound.": {
+      "translation": "这种树果可以去核并干燥以制成哨子。从它的孔中吹气会发出难以形容的声音。",
+      "line": 988
+    },
+    "Snorlax": {
+      "translation": "卡比兽",
+      "line": 990
+    },
+    "Girafarig": {
+      "translation": "麒麟奇",
+      "line": 990
+    },
+    "Swablu": {
+      "translation": "青绵鸟",
+      "line": 990
+    },
+    "Munchlax": {
+      "translation": "小卡比兽",
+      "line": 990
+    },
+    "Audino": {
+      "translation": "差不多娃娃",
+      "line": 990
+    },
+    "Skwovet": {
+      "translation": "贪心栗鼠",
+      "line": 990
+    },
+    "This Berry is sweet with a hint of bitterness and has a lingering sweet scent. It is often dried and used to make tea.": {
+      "translation": "这种树果甜中带点苦味，有一种挥之不去的甜香味。通常将其干燥并用于泡茶。",
+      "line": 1006
+    },
+    "The scent of this Berry plant attracts wild Pokémon.": {
+      "translation": "这种树果植物的气味会吸引野生宝可梦。",
+      "line": 1007
+    },
+    "Clefairy": {
+      "translation": "皮皮",
+      "line": 1010
+    },
+    "Togepi": {
+      "translation": "波克比",
+      "line": 1010
+    },
+    "This berry grows around the waist of certain Snover.": {
+      "translation": "这种树果生长在某些斯诺弗的腰部。",
+      "line": 1025
+    },
+    "Snover (Berry)": {
+      "translation": "[[Snover]] (树果)",
+      "line": 1027
+    },
+    "This Berry has a very dry flavor. It has the effect of making other food eaten at the same time taste sweet.": {
+      "translation": "这种树果有一种非常干的味道。它具有使同时吃的其他食物变甜的作用。",
+      "line": 1045
+    },
+    "The scent of this Berry plant repels wild Pokémon.": {
+      "translation": "这种树果植物的气味可以驱除野生宝可梦。",
+      "line": 1046
+    },
+    "Hoopa": {
+      "translation": "胡帕",
+      "line": 1049
+    },
+    "The flesh underneath the Custap Berry's tough skin is sweet and creamy soft.": {
+      "translation": "Custap Berry 坚韧的外皮下的果肉甜美而柔滑。",
+      "line": 1065
+    },
+    "This inspires Pokémon to train harder.": {
+      "translation": "这激励宝可梦更加努力地训练。",
+      "line": 1066
+    },
+    "Burmy (No Coat)": {
+      "translation": "[[Burmy]] [[alt.nocoat]]",
+      "line": 1069
+    },
+    "The cluster of drupelets that make up this Berry pop rhythmically if the Berry is handled roughly.": {
+      "translation": "如果树果处理不当，则组成树果的小核果簇会有节奏地爆裂。",
+      "line": 1085
+    },
+    "The sound of these Berries attracts rare wild Pokémon.": {
+      "translation": "这些树果的声音会吸引稀有的野生宝可梦。",
+      "line": 1086
+    },
+    "In days of old, people worked the top-shaped pieces of this Berry free and used them as toys.": {
+      "translation": "在过去，人们将这种树果的顶部形状的碎片自由加工，并将其用作玩具。",
+      "line": 1104
+    },
+    "These berries make catching efforts worth more.": {
+      "translation": "这些树果使捕捉的努力变得更有价值。",
+      "line": 1105
+    },
+    "This Berry remains poisonous until fully ripened. Once ripe it has a spicy and sweet complex flavor.": {
+      "translation": "这种树果在完全成熟之前仍然有毒。成熟后，它具有辛辣和甜味的复杂风味。",
+      "line": 1122
+    },
+    "This Berry resembles the Durin Berry, though its spikes are less pronounced. It is quite delicious when roasted.": {
+      "translation": "这种树果类似于杜林树果，但其尖刺不太明显。烤的时候非常好吃。",
+      "line": 1137
+    },
+    "This Berry is surrounded by mystery. It is rumored to be imbued with the power of the sea.": {
+      "translation": "这个树果充满了神秘感。据说它具有海洋的力量。",
+      "line": 1152
+    },
+    "Manaphy": {
+      "translation": "玛纳霏",
+      "line": 1154
+    },
+    "This Berry is surrounded by mystery. It is rumored to be imbued with the power of the land.": {
+      "translation": "这个树果充满了神秘感。据传它充满了土地的力量。",
+      "line": 1169
+    },
+    "This Berry is surrounded by mystery. It is rumored to be imbued with the power of the sky.": {
+      "translation": "这个树果充满了神秘感。传闻其拥有天空之力。",
+      "line": 1184
+    },
+    "This Berry is surrounded by mystery. It is rumored to be imbued with the power of all living things.": {
+      "translation": "这个树果充满了神秘感。据传它充满了所有生物的力量。",
+      "line": 1200
+    },
+    "This power revitalizes and prevents other berries from withering.": {
+      "translation": "这种力量可以使其他树果恢复活力并防止枯萎。",
+      "line": 1201
+    },
+    "Mew": {
+      "translation": "梦幻",
+      "line": 1204
+    },
+    "This is a very, very mystifying Berry. There is no telling how it can be used, or what may happen if it is used.": {
+      "translation": "这是一种非常非常神秘的树果。目前还不清楚如何使用它，或者使用它会发生什么。",
+      "line": 1219
+    },
+    "This is said to be a legendary Berry. Holding it supposedly brings great joy.": {
+      "translation": "据说这是传说中的Berry。据说持有它会带来巨大的快乐。",
+      "line": 1234
+    },
+    "This Berry is considered a mirage. It was said to be so strong that it had to be abandoned at the world's edge.": {
+      "translation": "这种树果被认为是海市蜃楼。据说它是如此强大以至于不得不被遗弃在世界的边缘。",
+      "line": 1249
+    },
+    "Jirachi": {
+      "translation": "基拉祈",
+      "line": 1251
+    },
+    "A completely enigmatic Berry. It apparently has the power of the stars that fill the night sky.": {
+      "translation": "一个完全神秘的树果。显然，它拥有夜空中星星的力量。",
+      "line": 1266
+    },
+    "Detective Pikachu": {
+      "translation": "[[alt.detective]][[Pikachu]]",
+      "line": 1268
+    },
+    "A truly mythical Berry native to harsh northern lands. It was first created by a Pokémon believed to have shaped the world.": {
+      "translation": "一种真正神秘的树果，原产于严酷的北方土地。它最初是由一只被认为塑造了世界的宝可梦创造的。",
+      "line": 1283
+    },
+    "I've heard that a special Berry can appear if its surroundings get too spicy!": {
+      "translation": "听说周围环境太辣的话，就会出现特殊的树果！",
+      "line": 1337
+    },
+    "I've heard that a special Berry can appear if its surroundings get too dry!": {
+      "translation": "听说周围太干燥的话，就会出现特殊的树果！",
+      "line": 1346
+    },
+    "I've heard that a special Berry can appear if its surroundings get too sweet!": {
+      "translation": "听说周围的环境太甜的话，就会出现特殊的树果！",
+      "line": 1355
+    },
+    "I've heard that a special Berry can appear if its surroundings get too bitter!": {
+      "translation": "听说周围环境太苦的话，就会出现特殊的树果！",
+      "line": 1364
+    },
+    "I've heard that a special Berry can appear if its surroundings get too sour!": {
+      "translation": "听说周围环境太酸的话，就会出现特殊的树果！",
+      "line": 1373
+    },
+    "I've heard that there's a legendary Berry that only appears when fully surrounded by the 8 different Berries that wild Pokémon hold!": {
+      "translation": "我听说有一种传说中的树果，只有在被野生宝可梦持有的8种不同树果完全包围时才会出现！",
+      "line": 1392
+    },
+    "I've heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted a little spicy, a little sweet, and a little sour at the same time.": {
+      "translation": "听说周围的环境与其味道相匹配的话，就会出现一种特殊的树果！我记得，味道有点辣，有点甜，同时又有点酸。",
+      "line": 1414
+    },
+    "I've heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted fairly spicy, dry, and bitter at the same time.": {
+      "translation": "听说周围的环境与其味道相匹配的话，就会出现一种特殊的树果！如果我记得的话，它的味道相当辣，干，同时又苦。",
+      "line": 1424
+    },
+    "I've heard that a Tamato berry will change if its surroundings get extremely spicy!": {
+      "translation": "我听说如果周围的环境变得非常辣，塔玛托树果就会发生变化！",
+      "line": 1464
+    },
+    "I've heard that a Cornn berry will change if its surroundings get extremely dry!": {
+      "translation": "我听说如果周围环境变得极度干燥，玉米树果就会发生变化！",
+      "line": 1469
+    },
+    "I've heard that a Magost berry will change if its surroundings get extremely sweet!": {
+      "translation": "我听说，如果周围的环境变得非常甜的话，魔神树果就会发生变化！",
+      "line": 1477
+    },
+    "I've heard that a Rabuta berry will change if its surroundings get extremely bitter!": {
+      "translation": "我听说如果周围的环境变得非常苦，拉布塔树果就会发生变化！",
+      "line": 1482
+    },
+    "I've heard that a Nomel berry will change if its surroundings get extremely sour!": {
+      "translation": "我听说诺梅尔树果如果周围环境变得非常酸的话就会发生变化！",
+      "line": 1487
+    },
+    "I've heard that there's a special Pink Berry that only appears when surrounded by a bunch of different types of Pink Berries!": {
+      "translation": "我听说有一种特殊的粉红色树果，只有在被一堆不同类型的粉红色树果包围时才会出现！",
+      "line": 1501
+    },
+    "Team Rocket's Pinkan Theme Park": {
+      "translation": "火箭队的粉红主题乐园",
+      "line": 1503
+    },
+    "I've heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted a little spicy and fairly bitter at the same time.": {
+      "translation": "听说周围的环境与其味道相匹配的话，就会出现一种特殊的树果！如果我记得的话，它尝起来有点辣，同时又相当苦。",
+      "line": 1540
+    },
+    "I've heard that growing a Passho Berry alone will cause it to change!": {
+      "translation": "我听说仅种植帕索树果就会使它发生变化！",
+      "line": 1550
+    },
+    "I've heard that a special Berry can appear if its surroundings match its flavor profile! If I recall, it tasted a little dry and fairly bitter at the same time.": {
+      "translation": "听说周围的环境与其味道相匹配的话，就会出现一种特殊的树果！如果我记得的话，它尝起来有点干，同时又相当苦。",
+      "line": 1563
+    },
+    "I've heard that a special Berry can appear after being surrounded by Rindo Berries!": {
+      "translation": "听说被林多树果包围后，会出现一种特殊的树果！",
+      "line": 1581
+    },
+    "I've heard that a special Berry can appear after being surrounded by Shuca and Charti Berries!": {
+      "translation": "听说被舒卡和查蒂树果包围后，会出现一种特殊的树果！",
+      "line": 1609
+    },
+    "I've heard that Chople Berries will turn into a different Berry if surrounded by more than two of their own kind.": {
+      "translation": "我听说如果乔普尔树果周围有两个以上同类树果，它就会变成另一种树果。",
+      "line": 1615
+    },
+    "I've heard of a Berry that can appear in a field of Babiri when Snover are around.": {
+      "translation": "我听说当斯诺弗在附近时，巴比里的田野里会出现一种树果。",
+      "line": 1628
+    },
+    "I've heard of a Berry that only appears in the driest of fields.": {
+      "translation": "我听说过一种树果只出现在最干燥的田野里。",
+      "line": 1636
+    },
+    "I've heard of a Berry that only appears in the sweetest of fields.": {
+      "translation": "我听说有一种树果只出现在最甜美的田野里。",
+      "line": 1641
+    },
+    "I've heard of a Berry that only appears in the most bitter of fields.": {
+      "translation": "我听说过一种树果只出现在最苦的田地里。",
+      "line": 1646
+    },
+    "I've heard of a Berry that only appears in the most sour of fields.": {
+      "translation": "我听说过一种树果只出现在最酸的田地里。",
+      "line": 1651
+    },
+    "Kyogre": {
+      "translation": "盖欧卡",
+      "line": 1669
+    },
+    "Groudon": {
+      "translation": "固拉多",
+      "line": 1673
+    },
+    "Rayquaza": {
+      "translation": "烈空坐",
+      "line": 1677
+    },
+    "Palkia": {
+      "translation": "帕路奇亚",
+      "line": 1683
+    },
+    "Dialga": {
+      "translation": "帝牙卢卡",
+      "line": 1687
+    },
+    "Arceus: The Deified Pokémon": {
+      "translation": "阿尔宙斯：神化的宝可梦",
+      "line": 1735
+    },
+    "I've heard of a Berry that only appears after a Berry plant has withered, but is repelled by Colbur plants.": {
+      "translation": "我听说有一种树果，只有在树果植物枯萎后才会出现，但会被科尔伯植物排斥。",
+      "line": 1744
+    },
+    "I've heard of a Berry that only appears after a Shiny Pokémon wanders and is caught near open soil.": {
+      "translation": "我听说过一种树果，只会在异色的宝可梦徘徊并在开阔的土壤附近被捕获后才会出现。",
+      "line": 1751
+    },
+    "A Berry is ready to harvest!": {
+      "translation": "树果已准备好收获！",
+      "line": 1849
+    },
+    "A Berry plant is about to wither!": {
+      "translation": "树果植物即将枯萎！",
+      "line": 1852
+    },
+    "A Berry plant has withered!": {
+      "translation": "树果植物枯萎了！",
+      "line": 1858
+    },
+    "A Berry plant has mutated!": {
+      "translation": "树果植物发生了变异！",
+      "line": 1864
+    },
+    "A Berry has been replanted!": {
+      "translation": "树果被重新种植了！",
+      "line": 1869
+    },
+    "A Berry has been dropped!": {
+      "translation": "一颗树果掉落了！",
+      "line": 1874
+    },
+    "A plot has run out of mulch!": {
+      "translation": "一块土地的肥料已经用完了！",
+      "line": 1879
+    },
+    "shiny ": {
+      "translation": "",
+      "line": 1888
+    },
+    "A wild ${(displayWanderer.shiny ? 'shiny ' : '')}${displayWanderer.name} has wandered onto the farm!": {
+      "translation": "",
+      "line": 1888
+    },
+    "You found ${GameHelper.anOrA(BerryType[berry])} ${BerryType[berry]} Berry!": {
+      "translation": "",
+      "line": 2130
+    },
+    "You've discovered the ${BerryType[berry]} Berry!": {
+      "translation": "",
+      "line": 2168
+    },
+    "${num.toFixed(1)} cm": {
+      "translation": "",
+      "line": 2284
+    },
+    "${(num / 2.54).toFixed(1)}\\u2033": {
+      "translation": "",
+      "line": 2285
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 2289
+    },
+    "×${App.game.farming.berryData[berry].aura.auraMultipliers[stage].toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 3 })}": {
+      "translation": "",
+      "line": 2289
+    }
+  }
+}

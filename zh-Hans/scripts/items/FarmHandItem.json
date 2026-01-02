@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/items/FarmHandItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 6
+  },
+  "entries": {
+    "FarmHand${farmHandName}": {
+      "translation": "",
+      "line": 6
+    },
+    "Farm Hand ${farmHandName}": {
+      "translation": "",
+      "line": 6
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 15
+    },
+    "Farm Points": {
+      "translation": "农场点数",
+      "line": 15
+    },
+    "assets/images/currency/farmPoint.svg": {
+      "translation": "",
+      "line": 15
+    },
+    "assets/images/profile/trainer-${trainerID}.png": {
+      "translation": "",
+      "line": 28
+    },
+    "Bailey": {
+      "translation": "贝利",
+      "line": 33
+    },
+    "Kerry": {
+      "translation": "凯里",
+      "line": 34
+    },
+    "Riley": {
+      "translation": "莱利",
+      "line": 35
+    },
+    "Jamie": {
+      "translation": "杰米",
+      "line": 38
+    }
+  }
+}

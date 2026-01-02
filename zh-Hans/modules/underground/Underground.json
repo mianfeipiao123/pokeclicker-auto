@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/Underground.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 16,
+    "translatedCount": 3
+  },
+  "entries": {
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 2
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "./UndergroundController": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 5
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "./mine/Mine": {
+      "translation": "",
+      "line": 8
+    },
+    "./mine/MineConfig": {
+      "translation": "",
+      "line": 9
+    },
+    "./helper/UndergroundHelper": {
+      "translation": "",
+      "line": 10
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 12
+    },
+    "./tools/UndergroundTools": {
+      "translation": "",
+      "line": 13
+    },
+    "./UndergroundBattery": {
+      "translation": "",
+      "line": 14
+    },
+    "Underground": {
+      "translation": "采掘场",
+      "line": 17
+    },
+    "underground": {
+      "translation": "采掘场",
+      "line": 18
+    },
+    "Your Underground level has increased to ${this._undergroundLevel()}!": {
+      "translation": "",
+      "line": 78
+    }
+  }
+}

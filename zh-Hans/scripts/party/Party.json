@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/party/Party.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 4
+  },
+  "entries": {
+    "Pokemon Party": {
+      "translation": "宝可梦派对",
+      "line": 6
+    },
+    "party": {
+      "translation": "派对",
+      "line": 7
+    },
+    "You have captured ${GameHelper.anOrA(name)} ${displayName}!": {
+      "translation": "",
+      "line": 94
+    },
+    "✨ You have captured a shiny ${displayName}! ✨": {
+      "translation": "",
+      "line": 103
+    },
+    "You have captured a shadow ${displayName}!": {
+      "translation": "",
+      "line": 112
+    },
+    "exp": {
+      "translation": "经验值",
+      "line": 139
+    },
+    "ev": {
+      "translation": "落雷兽",
+      "line": 260
+    }
+  }
+}

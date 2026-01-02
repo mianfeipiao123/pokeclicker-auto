@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/discord/DiscordPokemonCode.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "assets/images/pokemon/${pokemon.id}.png": {
+      "translation": "",
+      "line": 3
+    },
+    "You need to progress further to unlock this pokemon.": {
+      "translation": "你需要进一步推进进度才能解锁这只宝可梦。",
+      "line": 7
+    },
+    " shiny": {
+      "translation": "",
+      "line": 17
+    },
+    "You obtained a${shiny ? ' shiny' : ''} ${pokemon.name}!": {
+      "translation": "",
+      "line": 17
+    }
+  }
+}

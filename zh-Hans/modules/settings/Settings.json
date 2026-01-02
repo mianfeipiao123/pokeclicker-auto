@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/settings/Settings.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 1
+  },
+  "entries": {
+    "./Setting": {
+      "translation": "",
+      "line": 1
+    },
+    "./SettingOption": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 4
+    },
+    "Cannot add settings with no name (display name: '${setting.defaultDisplayName}')": {
+      "translation": "",
+      "line": 12
+    },
+    "Setting ${name} does not exist": {
+      "translation": "",
+      "line": 23
+    },
+    "Resetting ${setting.name} to default from invalid value ${setting.value}": {
+      "translation": "",
+      "line": 48
+    },
+    "settings": {
+      "translation": "设置",
+      "line": 69
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/achievements/StoneUnlockedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "This item is from a region that hasn't been released yet.": {
+      "translation": "该商品来自尚未发布的地区。",
+      "line": 26
+    },
+    "You need to reach the ${GameConstants.camelCaseToString(GameConstants.Region[this.requiredValue])} region.": {
+      "translation": "",
+      "line": 28
+    }
+  }
+}

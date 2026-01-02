@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/moonCycle/CurrentMoonPhase.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "./MoonCyclePhase": {
+      "translation": "",
+      "line": 1
+    },
+    "<br>": {
+      "translation": "<br>",
+      "line": 14
+    }
+  }
+}

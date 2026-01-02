@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/challenges/Challenges.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 23,
+    "translatedCount": 20
+  },
+  "entries": {
+    "../DataStore/common/Saveable": {
+      "translation": "",
+      "line": 1
+    },
+    "./Challenge": {
+      "translation": "",
+      "line": 2
+    },
+    "challenges": {
+      "translation": "挑战",
+      "line": 5
+    },
+    "Regional Attack Debuff (recommended)": {
+      "translation": "区域攻击减益（推荐）",
+      "line": 10
+    },
+    "Lowers Pokémon attack based on native region and highest-reached region": {
+      "translation": "根据出生地区和最高到达地区降低宝可梦的攻击",
+      "line": 10
+    },
+    "Require Complete Pokédex (recommended)": {
+      "translation": "需要完成图鉴（推荐）",
+      "line": 11
+    },
+    "Requires a complete regional Pokédex before moving on to the next region": {
+      "translation": "",
+      "line": 11
+    },
+    "No Click Attack": {
+      "translation": "无点击攻击",
+      "line": 12
+    },
+    "Disables the ability to use Click Attacks": {
+      "translation": "禁用使用点击攻击的能力",
+      "line": 12
+    },
+    "No Battle Items": {
+      "translation": "没有战斗物品",
+      "line": 13
+    },
+    "Disables the usage of Battle Items": {
+      "translation": "禁止使用战斗物品",
+      "line": 13
+    },
+    "No Master Balls": {
+      "translation": "没有大师球",
+      "line": 14
+    },
+    "Disables the usage of Master Balls": {
+      "translation": "禁用大师球的使用",
+      "line": 14
+    },
+    "No Oak Items": {
+      "translation": "没有大木博士道具",
+      "line": 15
+    },
+    "Disables the usage of all Oak Items": {
+      "translation": "禁止使用所有大木博士道具",
+      "line": 15
+    },
+    "No Gem Upgrades": {
+      "translation": "没有宝石升级",
+      "line": 16
+    },
+    "Disables the usage of Gems to increase type effectiveness": {
+      "translation": "禁止使用 Gems 以提高类型效率",
+      "line": 16
+    },
+    "No Vitamins": {
+      "translation": "不含维生素",
+      "line": 17
+    },
+    "Disables the usage of Vitamins": {
+      "translation": "禁用维生素的使用",
+      "line": 17
+    },
+    "Slow EVs": {
+      "translation": "慢速努力值",
+      "line": 18
+    },
+    "Gain EVs 10x slower": {
+      "translation": "获得努力值速度慢10倍",
+      "line": 18
+    },
+    "Real Evolution": {
+      "translation": "真正的进化",
+      "line": 19
+    },
+    "Your Pokémon go away when they evolve": {
+      "translation": "你的宝可梦进化后就会消失",
+      "line": 19
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/dayCycle/DayCycle.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 5
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 2
+    },
+    "./DayCycleMoment": {
+      "translation": "",
+      "line": 3
+    },
+    "./DayCyclePart": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 6
+    },
+    "assets/images/dayCycle/${DayCyclePart[DayCycle.currentDayCyclePart()]}.png": {
+      "translation": "",
+      "line": 16
+    },
+    "Dawn": {
+      "translation": "黎明",
+      "line": 29
+    },
+    "Day": {
+      "translation": "白天",
+      "line": 31
+    },
+    "Dusk": {
+      "translation": "黄昏",
+      "line": 33
+    },
+    "Night": {
+      "translation": "夜晚",
+      "line": 35
+    }
+  }
+}

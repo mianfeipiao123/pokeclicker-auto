@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/battleFrontier/BattleFrontierRunner.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 17,
+    "translatedCount": 6
+  },
+  "entries": {
+    "Default": {
+      "translation": "默认",
+      "line": 9
+    },
+    "Restart Battle Frontier?": {
+      "translation": "重新开始对战开拓区？",
+      "line": 31
+    },
+    "Current progress will be lost and you will restart from the first stage.": {
+      "translation": "当前进度将丢失，你将从第一阶段重新开始。",
+      "line": 32
+    },
+    "Battle Frontier": {
+      "translation": "对战开拓区",
+      "line": 95
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 96
+    },
+    "./assets/images/currency/battlePoint.svg": {
+      "translation": "",
+      "line": 96
+    },
+    "./assets/images/currency/money.svg": {
+      "translation": "",
+      "line": 96
+    },
+    "You managed to beat stage ${stageBeaten.toLocaleString('en-US')}.\nYou received <img src=\"./assets/images/currency/battlePoint.svg\" height=\"24px\"/> ${battlePointsEarned.toLocaleString('en-US')}.\nYou received <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${moneyEarned.toLocaleString('en-US')}.": {
+      "translation": "",
+      "line": 96
+    },
+    "You managed to beat stage ${stageBeaten.toLocaleString('en-US')}.\nYou received ${battlePointsEarned.toLocaleString('en-US')} Battle Points.\nYou received ${moneyEarned.toLocaleString('en-US')} Pokédollars.": {
+      "translation": "",
+      "line": 97
+    },
+    "Are you sure you want to leave?\n\nYou can always return later and start off where you left.": {
+      "translation": "",
+      "line": 118
+    },
+    "Leave": {
+      "translation": "离开",
+      "line": 120
+    },
+    "Checkpoint set for stage ${this.stage()}.": {
+      "translation": "",
+      "line": 126
+    },
+    " style=\"filter: saturate(0);\"": {
+      "translation": "",
+      "line": 143
+    },
+    "pokeball-smallest": {
+      "translation": "",
+      "line": 143
+    },
+    "assets/images/pokeball/Pokeball.svg": {
+      "translation": "",
+      "line": 143
+    },
+    "filter: saturate(0);": {
+      "translation": "",
+      "line": 143
+    },
+    "<img class=\"pokeball-smallest\" src=\"assets/images/pokeball/Pokeball.svg\"${BattleFrontierBattle.pokemonIndex() > i ? ' style=\"filter: saturate(0);\"' : ''}>": {
+      "translation": "",
+      "line": 143
+    }
+  }
+}

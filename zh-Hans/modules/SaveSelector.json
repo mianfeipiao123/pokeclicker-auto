@@ -1,0 +1,210 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/SaveSelector.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 50,
+    "translatedCount": 17
+  },
+  "entries": {
+    "./GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./notifications/NotificationConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "./notifications/Notifier": {
+      "translation": "",
+      "line": 3
+    },
+    "./profile/Profile": {
+      "translation": "",
+      "line": 4
+    },
+    "./Sortable": {
+      "translation": "",
+      "line": 5
+    },
+    "./settings/index": {
+      "translation": "",
+      "line": 6
+    },
+    "./GameHelper": {
+      "translation": "",
+      "line": 7
+    },
+    "./utilities/GameLoadState": {
+      "translation": "",
+      "line": 8
+    },
+    "./utilities/DownloadUtil": {
+      "translation": "",
+      "line": 9
+    },
+    "#saveSelector .save-container": {
+      "translation": "#saveSelector .save-container",
+      "line": 15
+    },
+    "save": {
+      "translation": "",
+      "line": 17
+    },
+    "#saveSelector .new-import-buttons": {
+      "translation": "#saveSelector .new-import-buttons",
+      "line": 23
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 24
+    },
+    "[data-toggle=\"tooltip\"]": {
+      "translation": "",
+      "line": 27
+    },
+    "tooltip": {
+      "translation": "工具提示",
+      "line": 27
+    },
+    "dropdown-item bg-success": {
+      "translation": "",
+      "line": 31
+    },
+    "Save.key = '${key}'; SaveSelector.Download('${key}')": {
+      "translation": "",
+      "line": 31
+    },
+    "dropdown-item bg-info": {
+      "translation": "",
+      "line": 32
+    },
+    "Save.key = '${key}'; document.querySelector('#saveSelector').remove(); App.start();": {
+      "translation": "",
+      "line": 32
+    },
+    "dropdown-item bg-warning p-0 w-100": {
+      "translation": "",
+      "line": 33
+    },
+    "clickable my-0": {
+      "translation": "",
+      "line": 33
+    },
+    "padding:.75rem;": {
+      "translation": "",
+      "line": 33
+    },
+    "import-save": {
+      "translation": "",
+      "line": 33
+    },
+    "Save.key = '${key}';": {
+      "translation": "",
+      "line": 33
+    },
+    "dropdown-item bg-danger": {
+      "translation": "",
+      "line": 34
+    },
+    "Save.key = '${key}'; Save.delete();": {
+      "translation": "",
+      "line": 34
+    },
+    "block": {
+      "translation": "",
+      "line": 36
+    },
+    "absolute": {
+      "translation": "绝对",
+      "line": 37
+    },
+    "show": {
+      "translation": "展示",
+      "line": 40
+    },
+    "contextmenu": {
+      "translation": "",
+      "line": 43
+    },
+    ".trainer-card.clickable": {
+      "translation": "",
+      "line": 43
+    },
+    "click": {
+      "translation": "点击",
+      "line": 52
+    },
+    "#saveSelector, #context-menu a": {
+      "translation": "#saveSelector，#context-menu a",
+      "line": 61
+    },
+    "keydown": {
+      "translation": "",
+      "line": 68
+    },
+    "save${key}": {
+      "translation": "",
+      "line": 94
+    },
+    "player${key}": {
+      "translation": "",
+      "line": 96
+    },
+    "Trainer": {
+      "translation": "训练师",
+      "line": 97
+    },
+    "Unable to parse username": {
+      "translation": "无法解析用户名",
+      "line": 101
+    },
+    "Unknown": {
+      "translation": "未知",
+      "line": 115
+    },
+    "color:#e74c3c;font-weight:900;": {
+      "translation": "颜色：#e74c3c；字体粗细：900；",
+      "line": 122
+    },
+    "[${formatDate(new Date())}] %cFailed to load save:": {
+      "translation": "",
+      "line": 122
+    },
+    "div": {
+      "translation": "分区",
+      "line": 123
+    },
+    "settings${key}": {
+      "translation": "",
+      "line": 154
+    },
+    "Missing save data..": {
+      "translation": "缺少保存数据..",
+      "line": 158
+    },
+    "Error trying to download save": {
+      "translation": "尝试下载保存时出错",
+      "line": 176
+    },
+    "Failed to download save data": {
+      "translation": "下载存档数据失败",
+      "line": 178
+    },
+    "Please check the console for errors, and report them on our Discord.": {
+      "translation": "请检查控制台是否有错误，并在我们的 Discord 上报告它们。",
+      "line": 179
+    },
+    "{date}": {
+      "translation": "",
+      "line": 190
+    },
+    "{version}": {
+      "translation": "",
+      "line": 190
+    },
+    "{name}": {
+      "translation": "",
+      "line": 190
+    }
+  }
+}

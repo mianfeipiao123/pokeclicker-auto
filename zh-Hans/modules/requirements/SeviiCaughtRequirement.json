@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/SeviiCaughtRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 11,
+    "translatedCount": 7
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Shiny Pokemon": {
+      "translation": "异色的宝可梦",
+      "line": 6
+    },
+    "Caught Pokemon": {
+      "translation": "捕捉到的宝可梦",
+      "line": 6
+    },
+    "Pinkan": {
+      "translation": "",
+      "line": 11
+    },
+    "Pinkan Pikachu": {
+      "translation": "[[alt.pinkan]][[Pikachu]]",
+      "line": 11
+    },
+    "Valencian": {
+      "translation": "巴伦西亚",
+      "line": 12
+    },
+    "Crystal Onix": {
+      "translation": "水晶[[Onix]]",
+      "line": 13
+    },
+    "Ash's Butterfree": {
+      "translation": "小智的[[Butterfree]]",
+      "line": 14
+    },
+    "Pink Butterfree": {
+      "translation": "粉红色[[Butterfree]]",
+      "line": 15
+    },
+    "${this.requiredValue} unique Sevii Pokémon need to be caught.": {
+      "translation": "",
+      "line": 21
+    }
+  }
+}

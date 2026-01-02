@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/party/LevelType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 6
+  },
+  "entries": {
+    "erratic": {
+      "translation": "不稳定的",
+      "line": 3
+    },
+    "fast": {
+      "translation": "快速地",
+      "line": 4
+    },
+    "mediumfast": {
+      "translation": "中快",
+      "line": 5
+    },
+    "mediumslow": {
+      "translation": "中慢",
+      "line": 6
+    },
+    "slow": {
+      "translation": "慢的",
+      "line": 7
+    },
+    "fluctuating": {
+      "translation": "波动的",
+      "line": 8
+    }
+  }
+}

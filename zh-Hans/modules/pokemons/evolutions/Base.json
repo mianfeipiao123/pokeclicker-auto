@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/evolutions/Base.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 11,
+    "translatedCount": 2
+  },
+  "entries": {
+    "../../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../../requirements/HoldingItemRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "../../requirements/LazyRequirementWrapper": {
+      "translation": "",
+      "line": 3
+    },
+    "../../requirements/MaxRegionRequirement": {
+      "translation": "",
+      "line": 4
+    },
+    "../../requirements/ObtainedPokemonRequirement": {
+      "translation": "",
+      "line": 5
+    },
+    "../../requirements/PokemonLevelRequirement": {
+      "translation": "",
+      "line": 6
+    },
+    "../../requirements/Requirement": {
+      "translation": "",
+      "line": 7
+    },
+    "../PokemonHelper": {
+      "translation": "",
+      "line": 8
+    },
+    "../PokemonNameType": {
+      "translation": "",
+      "line": 9
+    },
+    "restrictions": {
+      "translation": "限制",
+      "line": 55
+    },
+    "Everstone": {
+      "translation": "不变之石",
+      "line": 68
+    }
+  }
+}

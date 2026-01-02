@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/gym/Gym.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 22,
+    "translatedCount": 13
+  },
+  "entries": {
+    "Battle Gym Leaders to earn badges": {
+      "translation": "与道馆馆主对战以获得徽章",
+      "line": 31
+    },
+    "btn btn-success": {
+      "translation": "btn btn-成功",
+      "line": 34
+    },
+    "btn btn-secondary": {
+      "translation": "btn btn-次要",
+      "line": 36
+    },
+    "Elite": {
+      "translation": "精英",
+      "line": 103
+    },
+    "Champion": {
+      "translation": "冠军",
+      "line": 103
+    },
+    "Supreme": {
+      "translation": "最高",
+      "line": 103
+    },
+    "${leaderName}'s Gym": {
+      "translation": "",
+      "line": 104
+    },
+    "Brock": {
+      "translation": "小刚",
+      "line": 130
+    },
+    "show": {
+      "translation": "展示",
+      "line": 137
+    },
+    "assets/images/npcs/${this.imageName ?? this.leaderName}.png": {
+      "translation": "",
+      "line": 148
+    },
+    "Auto Restart Gym<br/>": {
+      "translation": "",
+      "line": 164
+    },
+    "Cost: Free!<br/>": {
+      "translation": "",
+      "line": 168
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 170
+    },
+    "assets/images/currency/money.svg": {
+      "translation": "",
+      "line": 170
+    },
+    "Cost: <img src=\"assets/images/currency/money.svg\" height=\"18px\"/> ${cost.toLocaleString('en-US')} per battle<br/>": {
+      "translation": "",
+      "line": 170
+    },
+    "<br/><span class=\"text-success\">10 Clears - Unlock auto-gym</span><br/>": {
+      "translation": "",
+      "line": 172
+    },
+    "text-success": {
+      "translation": "文本成功",
+      "line": 172
+    },
+    "text-muted": {
+      "translation": "文本静音",
+      "line": 173
+    },
+    "<span class=\"${(clears >= 100 ? 'text-success' : 'text-muted')}\">100 Clears - Free auto-gym</span>": {
+      "translation": "",
+      "line": 173
+    },
+    "percent": {
+      "translation": "百分比",
+      "line": 176
+    },
+    "<br/><br/><i class=\"text-warning\">You will not receive Pokédollars for clearing the gym.</i>": {
+      "translation": "",
+      "line": 179
+    },
+    "text-warning": {
+      "translation": "文字警告",
+      "line": 179
+    }
+  }
+}

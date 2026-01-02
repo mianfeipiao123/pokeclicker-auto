@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/EnemyPokemonInterface.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../interfaces/Pokemon": {
+      "translation": "",
+      "line": 2
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 4
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/achievements/CaughtPokemonByFilterRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 2
+  },
+  "entries": {
+    "Shiny Pokemon": {
+      "translation": "异色的宝可梦",
+      "line": 5
+    },
+    "Caught Pokemon": {
+      "translation": "捕捉到的宝可梦",
+      "line": 5
+    }
+  }
+}

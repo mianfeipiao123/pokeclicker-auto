@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/saveReminder/SaveReminder.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../koExtenders": {
+      "translation": "",
+      "line": 4
+    },
+    "../DataStore/common/Saveable": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 7
+    },
+    "../settings": {
+      "translation": "",
+      "line": 8
+    },
+    "Save Reminder": {
+      "translation": "保存提醒",
+      "line": 36
+    },
+    "btn btn-block btn-success": {
+      "translation": "",
+      "line": 39
+    },
+    "Save.download()": {
+      "translation": "",
+      "line": 39
+    },
+    "toast": {
+      "translation": "",
+      "line": 39
+    }
+  }
+}

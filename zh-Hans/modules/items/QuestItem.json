@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/QuestItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../quests/QuestLineState": {
+      "translation": "",
+      "line": 1
+    },
+    "../quests/QuestLineNameType": {
+      "translation": "",
+      "line": 2
+    },
+    "./Item": {
+      "translation": "",
+      "line": 3
+    },
+    "./types": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "quest": {
+      "translation": "寻求",
+      "line": 18
+    }
+  }
+}

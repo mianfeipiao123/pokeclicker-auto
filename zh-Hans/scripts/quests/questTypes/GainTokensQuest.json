@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/GainTokensQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "en-US": {
+      "translation": "en-US",
+      "line": 31
+    },
+    "Gain ${this.amount.toLocaleString('en-US')} Dungeon Tokens.": {
+      "translation": "",
+      "line": 31
+    }
+  }
+}

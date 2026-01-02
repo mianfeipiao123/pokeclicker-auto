@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/enums/KeyItemType.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 18,
+    "translatedCount": 18
+  },
+  "entries": {
+    "Teachy_tv": {
+      "translation": "教学电视",
+      "line": 2
+    },
+    "Coin_case": {
+      "translation": "硬币箱",
+      "line": 3
+    },
+    "Pokeball_bag": {
+      "translation": "精灵球袋",
+      "line": 4
+    },
+    "Town_map": {
+      "translation": "城镇地图",
+      "line": 5
+    },
+    "Dungeon_ticket": {
+      "translation": "迷宫_门票",
+      "line": 6
+    },
+    "Super_rod": {
+      "translation": "超级杆",
+      "line": 7
+    },
+    "Holo_caster": {
+      "translation": "Holo_caster",
+      "line": 8
+    },
+    "Mystery_egg": {
+      "translation": "神秘蛋",
+      "line": 9
+    },
+    "Safari_ticket": {
+      "translation": "Safari_门票",
+      "line": 10
+    },
+    "Wailmer_pail": {
+      "translation": "威尔默_桶",
+      "line": 11
+    },
+    "Explorer_kit": {
+      "translation": "资源管理器工具包",
+      "line": 12
+    },
+    "Eon_ticket": {
+      "translation": "Eon_ticket",
+      "line": 13
+    },
+    "Event_calendar": {
+      "translation": "事件日历",
+      "line": 14
+    },
+    "Gem_case": {
+      "translation": "宝石盒",
+      "line": 15
+    },
+    "DNA_splicers": {
+      "translation": "DNA_剪接器",
+      "line": 16
+    },
+    "Reins_of_unity": {
+      "translation": "团结缰绳",
+      "line": 17
+    },
+    "Pokerus_virus": {
+      "translation": "宝可病毒_virus",
+      "line": 18
+    },
+    "Z-Power_Ring": {
+      "translation": "Z-Power_Ring",
+      "line": 19
+    }
+  }
+}

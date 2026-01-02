@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/gems/GemDeal.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../items/Item": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

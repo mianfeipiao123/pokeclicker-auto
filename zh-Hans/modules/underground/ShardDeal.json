@@ -1,0 +1,442 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/ShardDeal.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 108,
+    "translatedCount": 98
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../items/Item": {
+      "translation": "",
+      "line": 2
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 3
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 5
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 6
+    },
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 7
+    },
+    "./UndergroundItems": {
+      "translation": "",
+      "line": 8
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 70
+    },
+    "You traded for ${amount.toLocaleString('en-US')} × <img src=\"${deal.item.itemType.image}\" height=\"24px\"/> ${pluralizeString(humanifyString(deal.item.itemType.displayName), amount)}.": {
+      "translation": "",
+      "line": 70
+    },
+    "Cerulean City": {
+      "translation": "华蓝城",
+      "line": 89
+    },
+    "Blue Shard": {
+      "translation": "蓝色碎片",
+      "line": 92
+    },
+    "Vermilion City": {
+      "translation": "枯叶市",
+      "line": 101
+    },
+    "Yellow Shard": {
+      "translation": "黄色碎片",
+      "line": 104
+    },
+    "Lavender Town": {
+      "translation": "薰衣草小镇",
+      "line": 113
+    },
+    "Green Shard": {
+      "translation": "绿色碎片",
+      "line": 116
+    },
+    "Saffron City": {
+      "translation": "金黄市",
+      "line": 121
+    },
+    "Fuchsia City": {
+      "translation": "浅红市",
+      "line": 143
+    },
+    "Red Shard": {
+      "translation": "红色碎片",
+      "line": 147
+    },
+    "Cinnabar Island": {
+      "translation": "红莲岛",
+      "line": 163
+    },
+    "Azalea Town": {
+      "translation": "杜鹃花镇",
+      "line": 178
+    },
+    "Grey Shard": {
+      "translation": "灰色碎片",
+      "line": 191
+    },
+    "Ecruteak City": {
+      "translation": "圆朱市",
+      "line": 197
+    },
+    "Olivine City": {
+      "translation": "浅葱市",
+      "line": 216
+    },
+    "Cianwood City": {
+      "translation": "西安伍德城",
+      "line": 243
+    },
+    "Mahogany Town": {
+      "translation": "红木镇",
+      "line": 268
+    },
+    "Purple Shard": {
+      "translation": "紫色碎片",
+      "line": 280
+    },
+    "Blackthorn City": {
+      "translation": "烟墨市",
+      "line": 286
+    },
+    "Petalburg City": {
+      "translation": "橙华市",
+      "line": 309
+    },
+    "Dewford Town": {
+      "translation": "杜福德镇",
+      "line": 320
+    },
+    "Slateport City": {
+      "translation": "斯莱特波特城",
+      "line": 331
+    },
+    "Mauville City": {
+      "translation": "紫堇市",
+      "line": 346
+    },
+    "Verdanturf Town": {
+      "translation": "翠绿草皮镇",
+      "line": 365
+    },
+    "Lavaridge Town": {
+      "translation": "釜炎镇",
+      "line": 384
+    },
+    "Fallarbor Town": {
+      "translation": "法拉伯镇",
+      "line": 396
+    },
+    "Fortree City": {
+      "translation": "茵郁市",
+      "line": 414
+    },
+    "Mossdeep City": {
+      "translation": "莫斯迪普城",
+      "line": 422
+    },
+    "Ochre Shard": {
+      "translation": "赭色碎片",
+      "line": 434
+    },
+    "Pacifidlog Town": {
+      "translation": "和平日志镇",
+      "line": 440
+    },
+    "Sootopolis City": {
+      "translation": "琉璃市",
+      "line": 458
+    },
+    "Ever Grande City": {
+      "translation": "恒盛城",
+      "line": 466
+    },
+    "Pokémon HQ Lab": {
+      "translation": "宝可梦总部实验室",
+      "line": 486
+    },
+    "Crimson Shard": {
+      "translation": "深红碎片",
+      "line": 584
+    },
+    "Lime Shard": {
+      "translation": "石灰碎片",
+      "line": 605
+    },
+    "White Shard": {
+      "translation": "白色碎片",
+      "line": 619
+    },
+    "Black Shard": {
+      "translation": "黑色碎片",
+      "line": 633
+    },
+    "Sandgem Town": {
+      "translation": "桑德宝石镇",
+      "line": 656
+    },
+    "Meadow Plate": {
+      "translation": "草甸板",
+      "line": 660
+    },
+    "Pixie Plate": {
+      "translation": "精灵盘",
+      "line": 661
+    },
+    "Elf Munchlax": {
+      "translation": "精灵 [[Munchlax]]",
+      "line": 663
+    },
+    "Oreburgh City": {
+      "translation": "奥勒堡市",
+      "line": 667
+    },
+    "Floaroma Town": {
+      "translation": "花城",
+      "line": 685
+    },
+    "Eterna City": {
+      "translation": "绮年华城",
+      "line": 703
+    },
+    "Hearthome City": {
+      "translation": "心家城",
+      "line": 715
+    },
+    "Solaceon Town": {
+      "translation": "索拉森镇",
+      "line": 734
+    },
+    "Odd Keystone": {
+      "translation": "奇数梯形校正",
+      "line": 738
+    },
+    "Pastoria City": {
+      "translation": "帕斯托里亚市",
+      "line": 765
+    },
+    "Celestic Town": {
+      "translation": "仙境小镇",
+      "line": 784
+    },
+    "Pal Park": {
+      "translation": "帕尔公园",
+      "line": 804
+    },
+    "Canalave City": {
+      "translation": "卡纳拉夫城",
+      "line": 822
+    },
+    "Snowpoint City": {
+      "translation": "雪点城",
+      "line": 840
+    },
+    "Sunyshore City": {
+      "translation": "阳光海岸城",
+      "line": 851
+    },
+    "Survival Area": {
+      "translation": "生存区",
+      "line": 877
+    },
+    "Resort Area": {
+      "translation": "度假区",
+      "line": 895
+    },
+    "Castelia City": {
+      "translation": "卡斯特利亚市",
+      "line": 923
+    },
+    "Nimbasa City": {
+      "translation": "宁巴萨市",
+      "line": 945
+    },
+    "Driftveil City": {
+      "translation": "漂流城",
+      "line": 964
+    },
+    "Mistralton City": {
+      "translation": "米斯特拉尔顿市",
+      "line": 982
+    },
+    "Lentimas Town": {
+      "translation": "伦蒂马斯镇",
+      "line": 997
+    },
+    "Undella Town": {
+      "translation": "安德拉镇",
+      "line": 1005
+    },
+    "Lacunosa Town": {
+      "translation": "拉库诺萨镇",
+      "line": 1023
+    },
+    "Opelucid City": {
+      "translation": "奥珀透明城",
+      "line": 1034
+    },
+    "Humilau City": {
+      "translation": "胡米劳市",
+      "line": 1054
+    },
+    "Icirrus City": {
+      "translation": "伊西鲁斯城",
+      "line": 1065
+    },
+    "Black and White Park": {
+      "translation": "黑白公园",
+      "line": 1090
+    },
+    "Nacrene City": {
+      "translation": "纳克伦市",
+      "line": 1108
+    },
+    "Striaton City": {
+      "translation": "斯特里亚顿市",
+      "line": 1119
+    },
+    "Accumula Town": {
+      "translation": "阿卡穆拉镇",
+      "line": 1135
+    },
+    "Nuvema Town": {
+      "translation": "努韦马镇",
+      "line": 1160
+    },
+    "Camphrier Town": {
+      "translation": "坎普里尔镇",
+      "line": 1181
+    },
+    "Ambrette Town": {
+      "translation": "安布雷特镇",
+      "line": 1193
+    },
+    "Cyllage City": {
+      "translation": "赛利吉城",
+      "line": 1205
+    },
+    "Geosenge Town": {
+      "translation": "巨石镇",
+      "line": 1223
+    },
+    "Shalour City": {
+      "translation": "夏洛尔城",
+      "line": 1242
+    },
+    "Coumarine City": {
+      "translation": "香豆素城",
+      "line": 1267
+    },
+    "Laverre City": {
+      "translation": "拉维尔市",
+      "line": 1293
+    },
+    "Pink Shard": {
+      "translation": "粉色碎片",
+      "line": 1312
+    },
+    "Dendemille Town": {
+      "translation": "登德米尔镇",
+      "line": 1329
+    },
+    "Anistar City": {
+      "translation": "安妮斯塔城",
+      "line": 1354
+    },
+    "Couriway Town": {
+      "translation": "库里威镇",
+      "line": 1386
+    },
+    "Snowbelle City": {
+      "translation": "雪贝城",
+      "line": 1406
+    },
+    "Parfum Palace": {
+      "translation": "香水宫",
+      "line": 1431
+    },
+    "Furfrou (Star)": {
+      "translation": "[[Furfrou]] 星形造型",
+      "line": 1448
+    },
+    "Hau'oli City": {
+      "translation": "豪奥利市",
+      "line": 1455
+    },
+    "Heahea City": {
+      "translation": "合和市",
+      "line": 1480
+    },
+    "Paniola Town": {
+      "translation": "帕尼奥拉镇",
+      "line": 1502
+    },
+    "Konikoni City": {
+      "translation": "科尼科尼市",
+      "line": 1518
+    },
+    "Aether Paradise": {
+      "translation": "以太乐园",
+      "line": 1540
+    },
+    "Malie City": {
+      "translation": "马列市",
+      "line": 1551
+    },
+    "Tapu Village": {
+      "translation": "塔普村",
+      "line": 1577
+    },
+    "Cyan Shard": {
+      "translation": "青色碎片",
+      "line": 1596
+    },
+    "Seafolk Village": {
+      "translation": "海民村",
+      "line": 1602
+    },
+    "Exeggutor Island": {
+      "translation": "",
+      "line": 1648
+    },
+    "Altar of the Sunne and Moone": {
+      "translation": "太阳和月亮祭坛",
+      "line": 1693
+    },
+    "Rose Shard": {
+      "translation": "玫瑰碎片",
+      "line": 1722
+    },
+    "Stow-on-Side": {
+      "translation": "溯传镇",
+      "line": 1846
+    },
+    "Brown Shard": {
+      "translation": "棕色碎片",
+      "line": 1890
+    },
+    "Master Dojo": {
+      "translation": "大师道场",
+      "line": 1982
+    }
+  }
+}

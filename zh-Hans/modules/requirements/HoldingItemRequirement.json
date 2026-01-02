@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/HoldingItemRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 2
+    },
+    "../items/ItemNameType": {
+      "translation": "",
+      "line": 3
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 4
+    },
+    "./Requirement": {
+      "translation": "",
+      "line": 5
+    },
+    "not": {
+      "translation": "不是",
+      "line": 19
+    }
+  }
+}

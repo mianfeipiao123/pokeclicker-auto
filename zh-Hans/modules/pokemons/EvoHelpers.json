@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/EvoHelpers.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./evolutions/Base": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

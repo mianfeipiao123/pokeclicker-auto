@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/gems/Gems.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 5
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 4
+    },
+    "../DataStore/common/Feature": {
+      "translation": "",
+      "line": 5
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 6
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 7
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 13
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 14
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 15
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 16
+    },
+    "../types/TypeHelper": {
+      "translation": "",
+      "line": 17
+    },
+    "Gems": {
+      "translation": "宝石",
+      "line": 23
+    },
+    "gems": {
+      "translation": "宝石",
+      "line": 24
+    },
+    "assets/images/gems/${PokemonType[type]} Gem.png": {
+      "translation": "",
+      "line": 49
+    },
+    "show": {
+      "translation": "展示",
+      "line": 149
+    },
+    "You do not have the Gem Case.\n<i>Requires the Earth Badge.</i>": {
+      "translation": "你没有宝石盒。\n<i>需要大地徽章。</i>",
+      "line": 152
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/PokemonItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 19,
+    "translatedCount": 4
+  },
+  "entries": {
+    "./PokerusIndicatingItem": {
+      "translation": "",
+      "line": 1
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 2
+    },
+    "../enums/CaughtStatus": {
+      "translation": "",
+      "line": 3
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 4
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "./types": {
+      "translation": "",
+      "line": 6
+    },
+    "../pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 7
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 8
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 9
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 10
+    },
+    "../logbook/helpers": {
+      "translation": "",
+      "line": 11
+    },
+    "../logbook/LogBookTypes": {
+      "translation": "",
+      "line": 12
+    },
+    "Add ${pokemon} to your party.": {
+      "translation": "",
+      "line": 27
+    },
+    "${(shiny) ? ": {
+      "translation": "${(shiny) ? ",
+      "line": 55
+    },
+    "Already resistant!": {
+      "translation": "已经抵抗了！",
+      "line": 88
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 88
+    },
+    "EVs: ${evs.toLocaleString('en-US')} / 50": {
+      "translation": "",
+      "line": 88
+    },
+    "${this.imageDirectory}/": {
+      "translation": "",
+      "line": 96
+    },
+    "assets/images/items/${subDirectory}${this.name.replace(/[^\\s\\w.()-]/g, '')}.png": {
+      "translation": "",
+      "line": 97
+    }
+  }
+}

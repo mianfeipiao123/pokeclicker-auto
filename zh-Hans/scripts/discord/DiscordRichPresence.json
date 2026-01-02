@@ -1,0 +1,274 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/discord/DiscordRichPresence.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 66,
+    "translatedCount": 31
+  },
+  "entries": {
+    "input": {
+      "translation": "输入",
+      "line": 2
+    },
+    "money": {
+      "translation": "钱",
+      "line": 9
+    },
+    "diamond": {
+      "translation": "钻石",
+      "line": 13
+    },
+    "trainer": {
+      "translation": "教练员",
+      "line": 15
+    },
+    "egg": {
+      "translation": "蛋",
+      "line": 16
+    },
+    "pokeball": {
+      "translation": "精灵球",
+      "line": 17
+    },
+    "caught": {
+      "translation": "捕捉",
+      "line": 26
+    },
+    "caught_shiny": {
+      "translation": "",
+      "line": 31
+    },
+    "hatched": {
+      "translation": "孵化的",
+      "line": 36
+    },
+    "hatched_shiny": {
+      "translation": "",
+      "line": 41
+    },
+    "sparkle": {
+      "translation": "火花",
+      "line": 46
+    },
+    "pokerus": {
+      "translation": "扑克鲁斯",
+      "line": 51
+    },
+    "pokerus_resistant": {
+      "translation": "",
+      "line": 56
+    },
+    "attack": {
+      "translation": "攻击",
+      "line": 61
+    },
+    "regional_attack": {
+      "translation": "",
+      "line": 66
+    },
+    "current_region": {
+      "translation": "",
+      "line": 71
+    },
+    "Unknown Region": {
+      "translation": "未知地区",
+      "line": 73
+    },
+    "current_subregion": {
+      "translation": "",
+      "line": 76
+    },
+    "Unknown Subregion": {
+      "translation": "未知次区域",
+      "line": 78
+    },
+    "current_route": {
+      "translation": "",
+      "line": 81
+    },
+    "Unknown Area": {
+      "translation": "未知区域",
+      "line": 82
+    },
+    "current_area": {
+      "translation": "",
+      "line": 86
+    },
+    "current_route_stats": {
+      "translation": "",
+      "line": 91
+    },
+    "current_area_stats": {
+      "translation": "",
+      "line": 96
+    },
+    "dungeon_tokens": {
+      "translation": "",
+      "line": 106
+    },
+    "diamonds": {
+      "translation": "钻石",
+      "line": 111
+    },
+    "farm_points": {
+      "translation": "",
+      "line": 116
+    },
+    "quest_points": {
+      "translation": "",
+      "line": 121
+    },
+    "battle_points": {
+      "translation": "",
+      "line": 126
+    },
+    "achievement_bonus": {
+      "translation": "",
+      "line": 131
+    },
+    "clicks": {
+      "translation": "点击次数",
+      "line": 136
+    },
+    "time_played": {
+      "translation": "",
+      "line": 141
+    },
+    "0 Seconds": {
+      "translation": "0秒",
+      "line": 143
+    },
+    "underground_levels_cleared": {
+      "translation": "",
+      "line": 146
+    },
+    "underground_items_found": {
+      "translation": "",
+      "line": 151
+    },
+    "underground_trades": {
+      "translation": "",
+      "line": 156
+    },
+    "quests_completed": {
+      "translation": "",
+      "line": 161
+    },
+    "frontier_stages_cleared": {
+      "translation": "",
+      "line": 166
+    },
+    "frontier_highest_cleared": {
+      "translation": "",
+      "line": 171
+    },
+    "total_berries_obtained": {
+      "translation": "",
+      "line": 176
+    },
+    "total_manual_harvests": {
+      "translation": "",
+      "line": 181
+    },
+    "total_berries_harvested": {
+      "translation": "",
+      "line": 186
+    },
+    "total_berries_replanted": {
+      "translation": "",
+      "line": 191
+    },
+    "total_berries_mutated": {
+      "translation": "",
+      "line": 196
+    },
+    "total_mulches_used": {
+      "translation": "",
+      "line": 201
+    },
+    "total_shovels_used": {
+      "translation": "",
+      "line": 206
+    },
+    "berry_daily_deal_trades": {
+      "translation": "",
+      "line": 211
+    },
+    "number": {
+      "translation": "数字",
+      "line": 222
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 223
+    },
+    "{${option.key}}": {
+      "translation": "",
+      "line": 225
+    },
+    "Loading Game": {
+      "translation": "加载游戏",
+      "line": 236
+    },
+    "discord-rp.enabled": {
+      "translation": "启用discord-rp",
+      "line": 246
+    },
+    "discord-rp.line-1": {
+      "translation": "不和谐-rp.line-1",
+      "line": 247
+    },
+    "discord-rp.line-2": {
+      "translation": "不和谐-rp.line-2",
+      "line": 248
+    },
+    "discord-rp.timer-reset": {
+      "translation": "不和谐 rp. 计时器重置",
+      "line": 252
+    },
+    "discord-rp.timer": {
+      "translation": "Discord-rp.timer",
+      "line": 257
+    },
+    "discord-rp.large-image": {
+      "translation": "不和谐 rp.大图像",
+      "line": 262
+    },
+    "current-environment": {
+      "translation": "",
+      "line": 263
+    },
+    "grass": {
+      "translation": "草",
+      "line": 264
+    },
+    "background-${MapHelper.calculateBattleCssClass() ?? 'grass'}": {
+      "translation": "",
+      "line": 264
+    },
+    "discord-rp.small-image": {
+      "translation": "不和谐 rp.小图像",
+      "line": 271
+    },
+    "cycle": {
+      "translation": "循环",
+      "line": 272
+    },
+    "trainer-${App.game.profile.trainer()}": {
+      "translation": "",
+      "line": 279
+    },
+    "Total Attack: {attack}": {
+      "translation": "总攻击力：{攻击}",
+      "line": 280
+    },
+    "Total Hatched: {hatched}": {
+      "translation": "孵化总数：{孵化}",
+      "line": 284
+    },
+    "Shinies: {caught_shiny}/{caught} ✨": {
+      "translation": "",
+      "line": 288
+    }
+  }
+}

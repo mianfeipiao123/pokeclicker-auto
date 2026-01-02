@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundBattery.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 41,
+    "translatedCount": 15
+  },
+  "entries": {
+    "./mine/Mine": {
+      "translation": "",
+      "line": 1
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 2
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 3
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 9
+    },
+    "../utilities/Rand": {
+      "translation": "",
+      "line": 10
+    },
+    "./UndergroundController": {
+      "translation": "",
+      "line": 11
+    },
+    "../enums/OakItemType": {
+      "translation": "",
+      "line": 12
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 13
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 14
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 15
+    },
+    "../requirements/MultiRequirement": {
+      "translation": "",
+      "line": 16
+    },
+    "./battery/eruption": {
+      "translation": "",
+      "line": 17
+    },
+    "./battery/hydroCannon": {
+      "translation": "",
+      "line": 18
+    },
+    "./battery/dragonBreath": {
+      "translation": "",
+      "line": 19
+    },
+    "./battery/leafTornado": {
+      "translation": "",
+      "line": 20
+    },
+    "./battery/overdrive": {
+      "translation": "",
+      "line": 21
+    },
+    "./battery/tenMillionVoltThunderbolt": {
+      "translation": "",
+      "line": 22
+    },
+    "./battery/dracoMeteor": {
+      "translation": "",
+      "line": 23
+    },
+    "./battery/heartStamp": {
+      "translation": "",
+      "line": 24
+    },
+    "./battery/pokeball": {
+      "translation": "",
+      "line": 25
+    },
+    "./battery/surf": {
+      "translation": "",
+      "line": 26
+    },
+    "./battery/explosion": {
+      "translation": "",
+      "line": 27
+    },
+    "./battery/fleurCannon": {
+      "translation": "",
+      "line": 28
+    },
+    "./battery/hyperBeam": {
+      "translation": "",
+      "line": 29
+    },
+    "../requirements/PokeballRequirement": {
+      "translation": "",
+      "line": 30
+    },
+    "../requirements/UndergroundLevelRequirement": {
+      "translation": "",
+      "line": 31
+    },
+    "Cell Battery Discharge": {
+      "translation": "电池放电",
+      "line": 144
+    },
+    "Your Cell Battery has discharged with the move '${randomPattern.name}'": {
+      "translation": "",
+      "line": 145
+    },
+    "Eruption": {
+      "translation": "喷发",
+      "line": 215
+    },
+    "Hydro Cannon": {
+      "translation": "水力炮",
+      "line": 216
+    },
+    "Dragon Breath": {
+      "translation": "龙息",
+      "line": 217
+    },
+    "Leaf Tornado": {
+      "translation": "叶龙卷风",
+      "line": 218
+    },
+    "Overdrive": {
+      "translation": "超速档",
+      "line": 219
+    },
+    "10,000,000 Volt Thunderbolt": {
+      "translation": "10,000,000伏雷电",
+      "line": 220
+    },
+    "Draco Meteor": {
+      "translation": "天龙流星",
+      "line": 221
+    },
+    "Heart Stamp": {
+      "translation": "心形印章",
+      "line": 222
+    },
+    "Pokéball": {
+      "translation": "精灵球",
+      "line": 223
+    },
+    "Surf": {
+      "translation": "冲浪",
+      "line": 224
+    },
+    "Explosion": {
+      "translation": "爆炸",
+      "line": 225
+    },
+    "Fleur Cannon": {
+      "translation": "芙蓉大炮",
+      "line": 226
+    },
+    "Hyper Beam": {
+      "translation": "超光束",
+      "line": 227
+    }
+  }
+}

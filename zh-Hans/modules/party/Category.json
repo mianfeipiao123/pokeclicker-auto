@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/party/Category.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 6
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 6
+    },
+    "../DataStore/common/Saveable": {
+      "translation": "",
+      "line": 7
+    },
+    "../settings/Settings": {
+      "translation": "",
+      "line": 8
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 9
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 10
+    },
+    "categories": {
+      "translation": "类别",
+      "line": 26
+    },
+    "None": {
+      "translation": "无",
+      "line": 30
+    },
+    "Favorite": {
+      "translation": "收藏",
+      "line": 31
+    },
+    "--pokemon-category-${id + 1}": {
+      "translation": "",
+      "line": 70
+    },
+    "category": {
+      "translation": "类别",
+      "line": 97
+    },
+    "<strong>${f.name}</strong>": {
+      "translation": "",
+      "line": 100
+    },
+    "and ${filterNames[filterNames.length - 1]}": {
+      "translation": "",
+      "line": 102
+    },
+    "Remove Category": {
+      "translation": "删除类别",
+      "line": 106
+    },
+    "This category is in use by the ${namesString} Pokéball filter${filterNames.length > 1 ? 's' : ''} and cannot be removed.": {
+      "translation": "",
+      "line": 107
+    }
+  }
+}

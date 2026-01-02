@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/logbook/LogBookTypes.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 6
+  },
+  "entries": {
+    "primary": {
+      "translation": "基本的",
+      "line": 8
+    },
+    "warning": {
+      "translation": "警告",
+      "line": 12
+    },
+    "success": {
+      "translation": "成功",
+      "line": 16
+    },
+    "danger": {
+      "translation": "危险",
+      "line": 20
+    },
+    "info": {
+      "translation": "信息",
+      "line": 24
+    },
+    "dark": {
+      "translation": "黑暗的",
+      "line": 48
+    }
+  }
+}

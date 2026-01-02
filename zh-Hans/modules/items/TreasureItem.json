@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/TreasureItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 7,
+    "translatedCount": 1
+  },
+  "entries": {
+    "./Item": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 2
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 3
+    },
+    "${displayName || id} dug out from the Underground.": {
+      "translation": "",
+      "line": 8
+    },
+    "breeding": {
+      "translation": "选育",
+      "line": 12
+    },
+    "items/underground": {
+      "translation": "",
+      "line": 12
+    },
+    "assets/images/${this.valueType === UndergroundItemValueType.Fossil ? 'breeding' : 'items/underground'}/${this.displayName}.png": {
+      "translation": "",
+      "line": 12
+    }
+  }
+}

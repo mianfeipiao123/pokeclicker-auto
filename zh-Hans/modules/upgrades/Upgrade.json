@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/upgrades/Upgrade.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../DataStore/common/Saveable": {
+      "translation": "",
+      "line": 4
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 6
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 7
+    },
+    "You cannot afford to buy this upgrade yet.": {
+      "translation": "你还买不起这个升级。",
+      "line": 72
+    }
+  }
+}

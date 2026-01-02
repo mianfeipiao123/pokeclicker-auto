@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/encountersInfo/DungeonInfo.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 4
+  },
+  "entries": {
+    "MissingNo.": {
+      "translation": "Missing No.",
+      "line": 10
+    },
+    "${DungeonInfo.getDungeonName()} - ${DungeonInfo.getRegionName()} (${DungeonInfo.getSubregionName()})": {
+      "translation": "",
+      "line": 19
+    },
+    "number": {
+      "translation": "数字",
+      "line": 36
+    },
+    "${input} Berry": {
+      "translation": "",
+      "line": 50
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 58
+    },
+    "percent": {
+      "translation": "百分比",
+      "line": 59
+    }
+  }
+}

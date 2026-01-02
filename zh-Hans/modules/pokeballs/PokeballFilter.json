@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokeballs/PokeballFilter.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 2
+    },
+    "../settings/Setting": {
+      "translation": "",
+      "line": 3
+    },
+    "./PokeballFilterOptions": {
+      "translation": "",
+      "line": 4
+    },
+    "This filter is disabled.</br></br>": {
+      "translation": "",
+      "line": 71
+    },
+    "This filter will catch all Pokémon.": {
+      "translation": "",
+      "line": 76
+    },
+    "</br>": {
+      "translation": "",
+      "line": 77
+    },
+    "pokeballFilterOptionDescriptions": {
+      "translation": "",
+      "line": 80
+    },
+    "without": {
+      "translation": "",
+      "line": 92
+    },
+    "with": {
+      "translation": "",
+      "line": 93
+    }
+  }
+}

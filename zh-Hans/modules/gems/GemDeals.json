@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/gems/GemDeals.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 10,
+    "translatedCount": 2
+  },
+  "entries": {
+    "./GemDeal": {
+      "translation": "",
+      "line": 1
+    },
+    "./GemDealList": {
+      "translation": "",
+      "line": 2
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 3
+    },
+    "../enums/Badges": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 5
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 6
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 8
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 9
+    },
+    "You are unable to use Flutes yet.\n<i>Visit the Gym in Lavaridge Town.</i>": {
+      "translation": "你还无法使用笛子。\n<i>请访问釜炎镇的道馆。</i>",
+      "line": 40
+    }
+  }
+}

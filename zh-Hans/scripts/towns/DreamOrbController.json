@@ -1,0 +1,194 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/DreamOrbController.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 46,
+    "translatedCount": 45
+  },
+  "entries": {
+    "Pink": {
+      "translation": "粉色",
+      "line": 27
+    },
+    "Shuckle": {
+      "translation": "壶壶",
+      "line": 28
+    },
+    "Swablu": {
+      "translation": "青绵鸟",
+      "line": 29
+    },
+    "Riolu": {
+      "translation": "利欧路",
+      "line": 30
+    },
+    "Munna": {
+      "translation": "食梦梦",
+      "line": 31
+    },
+    "Tornadus (Therian)": {
+      "translation": "[[Tornadus]] [[alt.therian]]",
+      "line": 32
+    },
+    "Sun_stone": {
+      "translation": "日之石",
+      "line": 33
+    },
+    "Water_stone": {
+      "translation": "水石",
+      "line": 34
+    },
+    "Revive": {
+      "translation": "复活",
+      "line": 35
+    },
+    "Green": {
+      "translation": "绿色",
+      "line": 38
+    },
+    "Drifloon": {
+      "translation": "飘飘球",
+      "line": 39
+    },
+    "Bronzor": {
+      "translation": "铜镜怪",
+      "line": 40
+    },
+    "Sigilyph": {
+      "translation": "象征鸟",
+      "line": 41
+    },
+    "Thundurus (Therian)": {
+      "translation": "[[Thundurus]] [[alt.therian]]",
+      "line": 42
+    },
+    "Red_shard": {
+      "translation": "红_碎片",
+      "line": 43
+    },
+    "Blue_shard": {
+      "translation": "蓝_碎片",
+      "line": 44
+    },
+    "Yellow_shard": {
+      "translation": "黄_碎片",
+      "line": 45
+    },
+    "Green_shard": {
+      "translation": "绿色_碎片",
+      "line": 46
+    },
+    "Orange": {
+      "translation": "橙色",
+      "line": 48
+    },
+    "Staryu": {
+      "translation": "海星星",
+      "line": 49
+    },
+    "Ralts": {
+      "translation": "拉鲁拉丝",
+      "line": 50
+    },
+    "Rotom": {
+      "translation": "洛托姆",
+      "line": 51
+    },
+    "Landorus (Therian)": {
+      "translation": "[[Landorus]] [[alt.therian]]",
+      "line": 52
+    },
+    "Fire_stone": {
+      "translation": "火石",
+      "line": 53
+    },
+    "Protein": {
+      "translation": "蛋白质",
+      "line": 54
+    },
+    "Calcium": {
+      "translation": "钙",
+      "line": 55
+    },
+    "Carbos": {
+      "translation": "增强剂",
+      "line": 56
+    },
+    "Rare_Candy": {
+      "translation": "神奇糖果",
+      "line": 57
+    },
+    "Blue": {
+      "translation": "蓝色",
+      "line": 59
+    },
+    "Enamorus": {
+      "translation": "眷恋云",
+      "line": 59
+    },
+    "Igglybuff": {
+      "translation": "宝宝丁",
+      "line": 60
+    },
+    "Smoochum": {
+      "translation": "迷唇娃",
+      "line": 61
+    },
+    "Enamorus (Therian)": {
+      "translation": "[[Enamorus]] [[alt.therian]]",
+      "line": 62
+    },
+    "Moon_stone": {
+      "translation": "月光石",
+      "line": 63
+    },
+    "Leaf_stone": {
+      "translation": "叶石",
+      "line": 64
+    },
+    "Thunder_stone": {
+      "translation": "雷石",
+      "line": 65
+    },
+    "Heart_scale": {
+      "translation": "Heart_scale",
+      "line": 66
+    },
+    "Max_revive": {
+      "translation": "最大复活",
+      "line": 67
+    },
+    "No orbs left.": {
+      "translation": "没有任何球体留下。",
+      "line": 78
+    },
+    "show": {
+      "translation": "展示",
+      "line": 109
+    },
+    "dream-orbs": {
+      "translation": "",
+      "line": 114
+    },
+    "Tornadus": {
+      "translation": "龙卷云",
+      "line": 129
+    },
+    "Thundurus": {
+      "translation": "雷电云",
+      "line": 130
+    },
+    "Landorus": {
+      "translation": "土地云",
+      "line": 131
+    },
+    "btn btn-info": {
+      "translation": "btn btn-信息",
+      "line": 135
+    },
+    "Open Dream Orbs": {
+      "translation": "打开梦境宝珠",
+      "line": 138
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/weather/WeatherCondition.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 1
+  },
+  "entries": {
+    "./WeatherType": {
+      "translation": "",
+      "line": 1
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 2
+    },
+    "${PokemonType[v.type]}: ${v.multiplier.toFixed(2)}x": {
+      "translation": "",
+      "line": 17
+    },
+    "<br>": {
+      "translation": "<br>",
+      "line": 19
+    }
+  }
+}

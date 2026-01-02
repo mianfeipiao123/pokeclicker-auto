@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/weather/Weather.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 19,
+    "translatedCount": 12
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 2
+    },
+    "./WeatherType": {
+      "translation": "",
+      "line": 3
+    },
+    "./WeatherCondition": {
+      "translation": "",
+      "line": 4
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 6
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 7
+    },
+    "../utilities/SeededRand": {
+      "translation": "",
+      "line": 8
+    },
+    "assets/images/weather/${WeatherType[Weather.currentWeather()]}.png": {
+      "translation": "",
+      "line": 22
+    },
+    "The weather is clear and pleasant.": {
+      "translation": "天气晴朗宜人。",
+      "line": 35
+    },
+    "Clouds fill the skies.": {
+      "translation": "云层布满天空。",
+      "line": 37
+    },
+    "It's rainy and humid.": {
+      "translation": "天气多雨潮湿。",
+      "line": 40
+    },
+    "It's currently raining heavily with thunder.": {
+      "translation": "目前正在下大雨并伴有雷声。",
+      "line": 43
+    },
+    "It's cold and snowing.": {
+      "translation": "天气寒冷，正在下雪。",
+      "line": 46
+    },
+    "It's cold and hailing.": {
+      "translation": "天气寒冷，正在下冰雹。",
+      "line": 49
+    },
+    "A howling blizzard blows.": {
+      "translation": "呼啸的暴风雪正在肆虐。",
+      "line": 52
+    },
+    "The sunlight is strong.": {
+      "translation": "阳光强烈。",
+      "line": 55
+    },
+    "A sandstorm is raging.": {
+      "translation": "沙暴正在肆虐。",
+      "line": 58
+    },
+    "The fog is deep...": {
+      "translation": "浓雾弥漫...",
+      "line": 61
+    },
+    "Mysterious strong winds blow.": {
+      "translation": "神秘的强风正在吹拂。",
+      "line": 69
+    }
+  }
+}

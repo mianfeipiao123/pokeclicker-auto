@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/discord/DiscordCode.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 2
+  },
+  "entries": {
+    "[Discord Code] ${this.name}": {
+      "translation": "",
+      "line": 17
+    },
+    "Already claimed!": {
+      "translation": "已经认领了！",
+      "line": 18
+    },
+    "Successfully claimed!": {
+      "translation": "领取成功！",
+      "line": 28
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/battles/BattlePokemon.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 16,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 2
+    },
+    "../pokemons/PokemonHelper": {
+      "translation": "",
+      "line": 3
+    },
+    "../logbook/helpers": {
+      "translation": "",
+      "line": 4
+    },
+    "../logbook/LogBookTypes": {
+      "translation": "",
+      "line": 5
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 8
+    },
+    "../wallet/Amount": {
+      "translation": "",
+      "line": 9
+    },
+    "../pokemons/PokemonNameType": {
+      "translation": "",
+      "line": 10
+    },
+    "../pokemons/EnemyPokemonInterface": {
+      "translation": "",
+      "line": 11
+    },
+    "../enums/EncounterType": {
+      "translation": "",
+      "line": 12
+    },
+    "../interfaces/BagItem": {
+      "translation": "",
+      "line": 13
+    },
+    "knockout": {
+      "translation": "昏死",
+      "line": 14
+    },
+    "${this.displayName} dropped ${GameHelper.anOrA(name)} ${name}!": {
+      "translation": "",
+      "line": 89
+    },
+    "The enemy ${msg} <img src=\"${BagHandler.image(this.heldItem)}\" height=\"24px\"/>": {
+      "translation": "",
+      "line": 91
+    }
+  }
+}

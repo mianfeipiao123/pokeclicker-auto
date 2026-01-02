@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/Vitamin.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 2
+    },
+    "./Item": {
+      "translation": "",
+      "line": 3
+    },
+    "../notifications/NotificationConstants": {
+      "translation": "",
+      "line": 4
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 5
+    },
+    "./types": {
+      "translation": "",
+      "line": 6
+    },
+    "You don't have any ${this.displayName} left...": {
+      "translation": "",
+      "line": 31
+    },
+    "assets/images/items/vitamin/${this.name}.png": {
+      "translation": "",
+      "line": 40
+    }
+  }
+}

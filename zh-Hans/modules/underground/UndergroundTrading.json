@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/underground/UndergroundTrading.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 14,
+    "translatedCount": 3
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "./UndergroundItem": {
+      "translation": "",
+      "line": 2
+    },
+    "./UndergroundItems": {
+      "translation": "",
+      "line": 3
+    },
+    "../enums/UndergroundItemValueType": {
+      "translation": "",
+      "line": 4
+    },
+    "./UndergroundController": {
+      "translation": "",
+      "line": 5
+    },
+    "../GameHelper": {
+      "translation": "",
+      "line": 6
+    },
+    "../notifications/Notifier": {
+      "translation": "",
+      "line": 7
+    },
+    "../notifications/NotificationOption": {
+      "translation": "",
+      "line": 8
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 9
+    },
+    "Underground": {
+      "translation": "采掘场",
+      "line": 67
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 68
+    },
+    "pixelated": {
+      "translation": "",
+      "line": 68
+    },
+    "<b><img src=\"${this.selectedTradeFromItem.image}\" height=\"24px\" class=\"pixelated\"/> → <img src=\"${this.selectedTradeToItem.image}\" height=\"24px\" class=\"pixelated\"/> Trade confirmed!</b><br/>${tradeFromAmount.toLocaleString('en-US')}× ${this.selectedTradeFromItem.displayName} → ${tradeToAmount.toLocaleString('en-US')}× ${this.selectedTradeToItem.displayName}.": {
+      "translation": "",
+      "line": 68
+    },
+    "<b><img src=\"${this.selectedTradeFromItem.image}\" height=\"24px\" class=\"pixelated\"/> Sale Confirmed!</b><br/>${this.sellAmount.toLocaleString('en-US')}× ${this.selectedTradeFromItem.displayName} has been boxed up for sale. Good choice, Trainer!": {
+      "translation": "",
+      "line": 138
+    }
+  }
+}

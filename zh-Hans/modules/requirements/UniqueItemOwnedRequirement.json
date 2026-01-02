@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/UniqueItemOwnedRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "../items/ItemList": {
+      "translation": "",
+      "line": 2
+    },
+    "./ItemOwnedRequirement": {
+      "translation": "",
+      "line": 3
+    },
+    "obtain": {
+      "translation": "",
+      "line": 11
+    },
+    "You must ${this.obtainText ?? 'obtain'} ${ItemList[this.itemName].displayName} first.": {
+      "translation": "",
+      "line": 11
+    }
+  }
+}

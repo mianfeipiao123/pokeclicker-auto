@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/quests/questTypes/DefeatDungeonQuest.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 1
+  },
+  "entries": {
+    "Invalid dungeon for quest: ${this.dungeon}": {
+      "translation": "",
+      "line": 14
+    },
+    "en-US": {
+      "translation": "en-US",
+      "line": 59
+    },
+    "Defeat the ${this.dungeon} dungeon in ${subRegionName} ${this.amount.toLocaleString('en-US')} times.": {
+      "translation": "",
+      "line": 59
+    }
+  }
+}

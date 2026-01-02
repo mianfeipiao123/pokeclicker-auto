@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/utilities/TextMerger.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 1
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 1
+    },
+    "textarea": {
+      "translation": "",
+      "line": 4
+    }
+  }
+}

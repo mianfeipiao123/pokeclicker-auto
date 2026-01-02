@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/pokemons/DataPokemon.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/PokemonType": {
+      "translation": "",
+      "line": 1
+    },
+    "../interfaces/BagItem": {
+      "translation": "",
+      "line": 2
+    },
+    "../interfaces/Pokemon": {
+      "translation": "",
+      "line": 3
+    },
+    "../party/LevelType": {
+      "translation": "",
+      "line": 4
+    },
+    "./evolutions/Base": {
+      "translation": "",
+      "line": 5
+    },
+    "./PokemonNameType": {
+      "translation": "",
+      "line": 6
+    }
+  }
+}

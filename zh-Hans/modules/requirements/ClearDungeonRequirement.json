@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/requirements/ClearDungeonRequirement.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 5,
+    "translatedCount": 1
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./AchievementRequirement": {
+      "translation": "",
+      "line": 2
+    },
+    "Clear Dungeon": {
+      "translation": "通关迷宫",
+      "line": 8
+    },
+    "${GameConstants.RegionDungeons.flat()[this.dungeonIndex]} needs to be completed.": {
+      "translation": "",
+      "line": 18
+    },
+    "${GameConstants.RegionDungeons.flat()[this.dungeonIndex]} needs to be completed ${this.requiredValue} times.": {
+      "translation": "",
+      "line": 20
+    }
+  }
+}

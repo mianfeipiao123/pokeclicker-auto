@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/gym/GymRunner.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 8,
+    "translatedCount": 4
+  },
+  "entries": {
+    "Pewter City": {
+      "translation": "尼比市",
+      "line": 10
+    },
+    "showGymGoAnimation": {
+      "translation": "showGymGoAnimation",
+      "line": 48
+    },
+    "src": {
+      "translation": "源代码",
+      "line": 55
+    },
+    "assets/gifs/go.gif": {
+      "translation": "",
+      "line": 55
+    },
+    "It appears you are not strong enough to defeat ${GymBattle.gym.leaderName.replace(/\\d/g, '')}.": {
+      "translation": "",
+      "line": 93
+    },
+    "Congratulations, you defeated ${GymBattle.gym.leaderName.replace(/\\d/g, '')}!": {
+      "translation": "",
+      "line": 104
+    },
+    "DOMContentLoaded": {
+      "translation": "DOM内容已加载",
+      "line": 153
+    },
+    "hidden.bs.modal": {
+      "translation": "",
+      "line": 154
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/Save.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 18,
+    "translatedCount": 11
+  },
+  "entries": {
+    "player${Save.key}": {
+      "translation": "",
+      "line": 11
+    },
+    "save${Save.key}": {
+      "translation": "",
+      "line": 12
+    },
+    "settings${Save.key}": {
+      "translation": "",
+      "line": 13
+    },
+    "Game Saved!": {
+      "translation": "游戏已保存！",
+      "line": 17
+    },
+    "settings": {
+      "translation": "设置",
+      "line": 37
+    },
+    "null": {
+      "translation": "",
+      "line": 43
+    },
+    "none": {
+      "translation": "没有任何",
+      "line": 54
+    },
+    "Error trying to download save": {
+      "translation": "尝试下载保存时出错",
+      "line": 63
+    },
+    "Failed to download save data": {
+      "translation": "下载存档数据失败",
+      "line": 65
+    },
+    "Please check the console for errors, and report them on our Discord.": {
+      "translation": "请检查控制台是否有错误，并在我们的 Discord 上报告它们。",
+      "line": 66
+    },
+    "Save copied": {
+      "translation": "存档已复制",
+      "line": 80
+    },
+    "Please paste the clipboard contents into a new '.txt' file.": {
+      "translation": "请将剪贴板内容粘贴到新的“.txt”文件中。",
+      "line": 81
+    },
+    "Delete save file": {
+      "translation": "删除存档文件",
+      "line": 88
+    },
+    "Are you sure you want delete your save file?\n\nTo confirm, type \"DELETE\"": {
+      "translation": "",
+      "line": 89
+    },
+    "decoded:": {
+      "translation": "",
+      "line": 190
+    },
+    "json:": {
+      "translation": "",
+      "line": 192
+    },
+    "This is not a valid decoded savefile": {
+      "translation": "这不是有效的解码存档文件",
+      "line": 206
+    },
+    "This is not a valid savefile": {
+      "translation": "这不是有效的存档文件",
+      "line": 212
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/safari/SafariBody.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 6,
+    "translatedCount": 6
+  },
+  "entries": {
+    "sand": {
+      "translation": "沙",
+      "line": 79
+    },
+    "fence": {
+      "translation": "栅栏",
+      "line": 99
+    },
+    "water": {
+      "translation": "水",
+      "line": 312
+    },
+    "grass": {
+      "translation": "草",
+      "line": 337
+    },
+    "tree": {
+      "translation": "树",
+      "line": 377
+    },
+    "land": {
+      "translation": "土地",
+      "line": 390
+    }
+  }
+}

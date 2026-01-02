@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/items/AttackGainConsumable.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 3,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../GameConstants": {
+      "translation": "",
+      "line": 1
+    },
+    "./Consumable": {
+      "translation": "",
+      "line": 2
+    },
+    "./types": {
+      "translation": "",
+      "line": 3
+    }
+  }
+}

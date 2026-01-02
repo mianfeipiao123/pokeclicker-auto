@@ -25,6 +25,19 @@ const CATEGORIES = {
       /^[\w]+_[\w]+_[\w]+$/, // 下划线变量名
       /^\$\{/, // 模板变量
       /^[A-Z][a-z]+_[A-Z]/, // 常量命名
+      /^[a-z]+[A-Z][a-z]+$/, // camelCase 变量
+      /^JU[A-Z0-9]+$/, // 编码字符串
+    ],
+    keywords: [],
+  },
+
+  // 任务/目标
+  'modules/quests': {
+    patterns: [
+      /^Capture \d+/, /^Catch \d+/, /^Defeat \d+/, /^Hatch \d+/,
+      /^Capture a total/, /^Catch all/, /^Capture or hatch/,
+      /^Catch or hatch/, /unique Pokémon/, /unique Shiny/,
+      /^Defeat the /, /^Find the /, /^Clear the /,
     ],
     keywords: [],
   },
@@ -37,7 +50,7 @@ const CATEGORIES = {
       /Forest$/, /Tunnel$/, /Grotto$/, /Lair$/, /Den$/, /Depths$/,
       /^Power Plant$/, /^Seafoam Islands$/, /^Victory Road$/,
       /dungeon/i, /^Clear /, /loot/i, /boss/i,
-      /Cavern$/, /Crypt$/, /Labyrinth/, /Maze$/, /Path$/,
+      /Cavern$/, /Crypt$/, /Labyrinth/, /Maze$/,
     ],
     keywords: ['Dungeon', 'Cave', 'Tower', 'Forest', 'Ruins', 'Temple', 'Grotto'],
   },
@@ -64,6 +77,9 @@ const CATEGORIES = {
       /^Giovanni /, /^N /, /^Colress /, /^Ghetsis /,
       /^Cipher /, /^Rocket /, /^Plasma /, /^Galactic /, /^Magma /, /^Aqua /,
       /^Aether /, /^Skull /, /^Flare /, /^Yell /,
+      /^[A-Z][a-z]+ \d$/, // 人名 + 单个数字 (Calem 1, Kyurem 2)
+      /^[A-Z][a-z]+ & [A-Z][a-z]+$/, // 双人战斗 (Jack & Briana)
+      /^Sordward/, /^Shielbert/, /^Klara \d/, /^Avery \d/,
     ],
     keywords: ['Rival', 'Team Rocket', 'Team Plasma', 'Team Galactic', 'Grunt', 'Cipher'],
   },
@@ -108,6 +124,7 @@ const CATEGORIES = {
       /ite$/, // Mega stones
       /Flute$/, /Orb$/, /Plate$/, /Memory$/, /Z$/,
       /Feather$/, /Barb$/, /Scroll$/,
+      /^[A-Z][a-z]+_[a-z]+$/, // 下划线物品名 (Smooth_rock, Key_stone)
     ],
     keywords: ['Ball', 'Stone', 'Potion', 'Restore', 'Fossil', 'Shard', 'Gem', 'Flute', 'Memory'],
   },
@@ -195,7 +212,7 @@ const CATEGORIES = {
   },
   'misc/dialogues': {
     patterns: [
-      /\.\.\.$/, /\?$/, // 对话通常以...或?结尾
+      /\.\.\.$/, // 对话通常以...结尾
       /^".*"$/, // 引号包围的文本
       /I'll /, /I'm /, /I've /, /You're /, /You've /, /We're /, /We've /,
       /^Oh,? /, /^Ah,? /, /^Well,? /, /^Hey,? /, /^Hi,? /, /^Hello/,
@@ -210,6 +227,9 @@ const CATEGORIES = {
       /added$/, /fixed$/, /changed$/, /removed$/, /improved$/,
       /now (?:can|has|is|are|will)/, /no longer/,
       /bug fix/i, /hotfix/i, /patch/i,
+      /^Can (?:filter|now|sort|see|re-order|obtain|hide)/, // Can filter..., Can now...
+      /^Some .* not /, // Some ... not working/showing
+      /not showing/, /not working/, /not appearing/,
     ],
     keywords: ['changelog', 'update', 'fix', 'added', 'removed'],
   },
@@ -220,6 +240,7 @@ const CATEGORIES = {
       /^Ace Trainer/, /^Beauty /, /^Hiker /, /^Youngster /, /^Lass /,
       /^Swimmer /, /^Fisherman /, /^Bug Catcher/, /^Pokéfan/,
       /^Scientist /, /^Ranger /, /^Breeder /, /^Collector /,
+      /^Kimono Girl/, /^Pokéfan /,
     ],
     keywords: ['Professor', 'Trainer', 'Leader'],
   },
@@ -227,10 +248,12 @@ const CATEGORIES = {
     patterns: [
       /^[A-Z][a-z]+ [A-Z][a-z]+$/, // 两个单词的地名
       /Path$/, /Road$/, /Way$/, /Street$/, /Avenue$/,
-      /Beach$/, /Coast$/, /Shore$/, /Lake$/, /River$/, /Sea$/,
+      /Beach$/, /Coast$/, /Shore$/, /Lake /, /River$/, /Sea$/,
       /Mountain$/, /Hill$/, /Valley$/, /Plain$/, /Field$/,
       /Garden$/, /Park$/, /Plaza$/, /Square$/,
       /Camp$/, /Base$/, /Lab$/, /Laboratory$/,
+      /Province/, /Slope$/, /Retreat$/, /Spring$/, /Manor$/, /Stadium$/,
+      /Outskirts$/, /Bay$/, /Lighthouse$/,
     ],
     keywords: [],
   },

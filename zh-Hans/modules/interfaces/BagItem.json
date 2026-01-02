@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/interfaces/BagItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../enums/ItemType": {
+      "translation": "",
+      "line": 1
+    },
+    "../requirements/Requirement": {
+      "translation": "",
+      "line": 2
+    }
+  }
+}

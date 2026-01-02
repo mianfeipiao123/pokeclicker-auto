@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/battles/Trainer.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 2,
+    "translatedCount": 0
+  },
+  "entries": {
+    "../gym/GymPokemon": {
+      "translation": "",
+      "line": 1
+    },
+    "assets/images/npcs/${imageName}.png": {
+      "translation": "",
+      "line": 17
+    }
+  }
+}

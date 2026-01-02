@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "sourceFile": "src/modules/keyItems/KeyItem.ts",
+    "lastUpdated": "2026-01-01",
+    "totalStrings": 4,
+    "translatedCount": 2
+  },
+  "entries": {
+    "knockout": {
+      "translation": "昏死",
+      "line": 5
+    },
+    "../enums/KeyItemType": {
+      "translation": "",
+      "line": 6
+    },
+    "../GameConstants": {
+      "translation": "",
+      "line": 7
+    },
+    "function": {
+      "translation": "功能",
+      "line": 26
+    }
+  }
+}

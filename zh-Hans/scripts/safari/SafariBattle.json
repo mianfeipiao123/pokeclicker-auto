@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/safari/SafariBattle.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 64,
-    "translatedCount": 31
+    "translatedCount": 42
   },
   "entries": {
     "What will you do?": {
@@ -19,8 +19,10 @@
       "line": 28
     },
     "${GameConstants.camelCaseToString(GameConstants.Region[Safari.activeRegion()])} Safari": {
-      "translation": "",
-      "line": 31
+      "translation": "${...} 野生动物园",
+      "line": 31,
+      "_rematchedFrom": "${...} Safari",
+      "_confidence": 0.85
     },
     "You throw a ball...": {
       "translation": "你扔一个球...",
@@ -103,8 +105,10 @@
       "line": 157
     },
     "GOTCHA!<br>${SafariBattle.enemy.displayName} was caught!": {
-      "translation": "",
-      "line": 177
+      "translation": "明白了！<br>${...} 被抓住了！",
+      "line": 177,
+      "_rematchedFrom": "GOTCHA!<br>${...} was caught!",
+      "_confidence": 0.85
     },
     "A Glimmer of Luck": {
       "translation": "一丝幸运",
@@ -123,20 +127,28 @@
       "line": 196
     },
     "You don't have enough ${bait.name}": {
-      "translation": "",
-      "line": 209
+      "translation": "你没有足够的 ${...}",
+      "line": 209,
+      "_rematchedFrom": "You don't have enough ${...}",
+      "_confidence": 0.85
     },
     "You throw ${bait.useName} at ${SafariBattle.enemy.displayName}": {
-      "translation": "",
-      "line": 217
+      "translation": "你将 ${...} 扔到 ${...}",
+      "line": 217,
+      "_rematchedFrom": "You throw ${...} at ${...}",
+      "_confidence": 0.85
     },
     "<img width=16px src=\"${bait.image}\">": {
-      "translation": "",
-      "line": 223
+      "translation": "<img width=16px src=\"${...}\">",
+      "line": 223,
+      "_rematchedFrom": "<img width=16px src=\"${...}\">",
+      "_confidence": 0.85
     },
     "You throw a rock at ${SafariBattle.enemy.displayName}": {
-      "translation": "",
-      "line": 232
+      "translation": "你向 ${...} 扔了一块石头",
+      "line": 232,
+      "_rematchedFrom": "You throw a rock at ${...}",
+      "_confidence": 0.85
     },
     "<img src=\"assets/images/safari/rock.png\">": {
       "translation": "",
@@ -199,20 +211,28 @@
       "line": 291
     },
     "${SafariBattle.enemy.displayName} has fled.": {
-      "translation": "",
-      "line": 300
+      "translation": "${...} 逃跑了。",
+      "line": 300,
+      "_rematchedFrom": "${...} has fled.",
+      "_confidence": 0.85
     },
     "${SafariBattle.enemy.displayName} is eating...": {
-      "translation": "",
-      "line": 305
+      "translation": "${...} 正在吃...",
+      "line": 305,
+      "_rematchedFrom": "${...} is eating...",
+      "_confidence": 0.85
     },
     "${SafariBattle.enemy.displayName} is angry!": {
-      "translation": "",
-      "line": 307
+      "translation": "${...} 生气了！",
+      "line": 307,
+      "_rematchedFrom": "${...} is angry!",
+      "_confidence": 0.85
     },
     "${SafariBattle.enemy.displayName} is watching carefully...": {
-      "translation": "",
-      "line": 309
+      "translation": "${...}正在仔细观察...",
+      "line": 309,
+      "_rematchedFrom": "${...} is watching carefully...",
+      "_confidence": 0.85
     },
     "hidden.bs.modal": {
       "translation": "",
@@ -227,8 +247,10 @@
       "line": 344
     },
     "left ${time}ms linear, top ${time}ms ${top}": {
-      "translation": "",
-      "line": 346
+      "translation": "左侧 ${...}ms 线性，顶部 ${...}ms ${...}",
+      "line": 346,
+      "_rematchedFrom": "left ${...}ms linear, top ${...}ms ${...}",
+      "_confidence": 0.85
     },
     "<div><img id=\"safariBall\" src=\"assets/images/pokeball/Sportball.svg\" height=\"30px\"></div>": {
       "translation": "",

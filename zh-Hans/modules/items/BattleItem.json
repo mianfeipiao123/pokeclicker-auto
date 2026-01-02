@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/items/BattleItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 9,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "../effectEngine/effectEngineRunner": {
@@ -39,8 +39,10 @@
       "line": 33
     },
     "You don't have any ${this.displayName}s left...": {
-      "translation": "",
-      "line": 40
+      "translation": "你没有剩余的 ${...} 了...",
+      "line": 40,
+      "_rematchedFrom": "You don't have any ${...}s left...",
+      "_confidence": 0.85
     }
   }
 }

@@ -1,18 +1,22 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/items/FarmHandItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 10,
-    "translatedCount": 6
+    "translatedCount": 8
   },
   "entries": {
     "FarmHand${farmHandName}": {
-      "translation": "",
-      "line": 6
+      "translation": "农场手${...}",
+      "line": 6,
+      "_rematchedFrom": "FarmHand${...}",
+      "_confidence": 0.85
     },
     "Farm Hand ${farmHandName}": {
-      "translation": "",
-      "line": 6
+      "translation": "农场帮手 ${...}",
+      "line": 6,
+      "_rematchedFrom": "Farm Hand ${...}",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",

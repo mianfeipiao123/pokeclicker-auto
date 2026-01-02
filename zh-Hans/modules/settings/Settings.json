@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/settings/Settings.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 8,
-    "translatedCount": 1
+    "translatedCount": 4
   },
   "entries": {
     "./Setting": {
@@ -23,16 +23,22 @@
       "line": 4
     },
     "Cannot add settings with no name (display name: '${setting.defaultDisplayName}')": {
-      "translation": "",
-      "line": 12
+      "translation": "无法添加没有名称的设置（显示名称：“${...}”）",
+      "line": 12,
+      "_rematchedFrom": "Cannot add settings with no name (display name: '${...}')",
+      "_confidence": 0.85
     },
     "Setting ${name} does not exist": {
-      "translation": "",
-      "line": 23
+      "translation": "设置 ${...} 不存在",
+      "line": 23,
+      "_rematchedFrom": "Setting ${...} does not exist",
+      "_confidence": 0.85
     },
     "Resetting ${setting.name} to default from invalid value ${setting.value}": {
-      "translation": "",
-      "line": 48
+      "translation": "将 ${...} 从无效值 ${...} 重置为默认值",
+      "line": 48,
+      "_rematchedFrom": "Resetting ${...} to default from invalid value ${...}",
+      "_confidence": 0.85
     },
     "settings": {
       "translation": "设置",

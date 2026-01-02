@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/DataStore/StatisticStore/getRouteKillsProxy.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 2
+    "translatedCount": 4
   },
   "entries": {
     "knockout": {
@@ -19,16 +19,20 @@
       "line": 3
     },
     "[Statistics] [routeDefeat.${region}] Invalid property requested:": {
-      "translation": "",
-      "line": 26
+      "translation": "[统计] [routeDefeat.${...}] 请求的属性无效：",
+      "line": 26,
+      "_rematchedFrom": "[Statistics] [routeDefeat.${...}] Invalid property requested:",
+      "_confidence": 0.85
     },
     "[Statistics] [routeKills] Attempted to get invalid region:": {
       "translation": "[统计] [routeKills] 尝试获取无效区域：",
       "line": 56
     },
     "[Statistics] [routeKills] Attempted to dynamically set region ${String(prop)}:": {
-      "translation": "",
-      "line": 68
+      "translation": "[统计] [routeKills] 尝试动态设置区域 ${...}:",
+      "line": 68,
+      "_rematchedFrom": "[Statistics] [routeKills] Attempted to dynamically set region ${...}:",
+      "_confidence": 0.85
     }
   }
 }

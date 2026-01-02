@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/items/TreasureItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 7,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "./Item": {
@@ -19,8 +19,10 @@
       "line": 3
     },
     "${displayName || id} dug out from the Underground.": {
-      "translation": "",
-      "line": 8
+      "translation": "${...} 从采掘场挖出。",
+      "line": 8,
+      "_rematchedFrom": "${...} dug out from the Underground.",
+      "_confidence": 0.85
     },
     "breeding": {
       "translation": "选育",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/BuyPokeballsQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "en-US": {
@@ -11,8 +11,10 @@
       "line": 14
     },
     "Buy ${this.amount.toLocaleString('en-US')} ${ItemList[GameConstants.Pokeball[this.pokeball]].displayName}s.": {
-      "translation": "",
-      "line": 14
+      "translation": "购买 ${...} 个${...}。",
+      "line": 14,
+      "_rematchedFrom": "Buy ${...} ${...}s.",
+      "_confidence": 0.85
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/Quests.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 22,
-    "translatedCount": 17
+    "translatedCount": 20
   },
   "entries": {
     "quests": {
@@ -51,8 +51,10 @@
       "line": 136
     },
     "Your quest level has increased to ${this.level()}!\n<i>You have a free quest refresh.</i>": {
-      "translation": "",
-      "line": 162
+      "translation": "你的任务等级提升到${...}！\\n<i>你有一次免费任务刷新。</i>",
+      "line": 162,
+      "_rematchedFrom": "Your quest level has increased to ${...}!\\n<i>You have a free quest refresh.</i>",
+      "_confidence": 0.85
     },
     "Refresh Quest List": {
       "translation": "刷新任务列表",
@@ -87,12 +89,16 @@
       "line": 308
     },
     "Quest \"${questData.name}\" failed to load": {
-      "translation": "",
-      "line": 316
+      "translation": "任务“${...}”加载失败",
+      "line": 316,
+      "_rematchedFrom": "Quest \"${...}\" failed to load",
+      "_confidence": 0.85
     },
     "Quest line \"${questLine.name}\" failed to load": {
-      "translation": "",
-      "line": 349
+      "translation": "任务线“${...}”加载失败",
+      "line": 349,
+      "_rematchedFrom": "Quest line \"${...}\" failed to load",
+      "_confidence": 0.85
     }
   }
 }

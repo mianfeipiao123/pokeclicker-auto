@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/utilities/Preload.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 25,
-    "translatedCount": 12
+    "translatedCount": 17
   },
   "entries": {
     "preload-progress-bar": {
@@ -31,28 +31,36 @@
       "line": 49
     },
     "[${GameConstants.formatDate(new Date())}] %cPreloading Images..": {
-      "translation": "",
-      "line": 49
+      "translation": "[${...}] %c正在预加载图像..",
+      "line": 49,
+      "_rematchedFrom": "[${...}] %cPreloading Images..",
+      "_confidence": 0.85
     },
     "color:#c0392b;font-weight:900;": {
       "translation": "颜色：#c0392b；字体粗细：900；",
       "line": 64
     },
     "[${GameConstants.formatDate(new Date())}] %cPreloading images taking too long, Skipping..": {
-      "translation": "",
-      "line": 64
+      "translation": "[${...}] %c预加载图像花费的时间太长，正在跳过..",
+      "line": 64,
+      "_rematchedFrom": "[${...}] %cPreloading images taking too long, Skipping..",
+      "_confidence": 0.85
     },
     "color:#2ecc71;font-weight:900;": {
       "translation": "颜色：#2ecc71；字体粗细：900；",
       "line": 76
     },
     "[${GameConstants.formatDate(new Date())}] %cPreloaded images": {
-      "translation": "",
-      "line": 76
+      "translation": "[${...}] %c预加载图像",
+      "line": 76,
+      "_rematchedFrom": "[${...}] %cPreloaded images",
+      "_confidence": 0.85
     },
     "[${GameConstants.formatDate(new Date())}] %cPreload images failed..": {
-      "translation": "",
-      "line": 82
+      "translation": "[${...}] %c预加载图像失败..",
+      "line": 82,
+      "_rematchedFrom": "[${...}] %cPreload images failed..",
+      "_confidence": 0.85
     },
     "Preload images failed:": {
       "translation": "预加载图像失败：",
@@ -67,8 +75,10 @@
       "line": 101
     },
     "town-${name}": {
-      "translation": "",
-      "line": 108
+      "translation": "城镇-${...}",
+      "line": 108,
+      "_rematchedFrom": "town-${...}",
+      "_confidence": 0.85
     },
     "Failed to load town image:": {
       "translation": "无法加载城镇图片：",

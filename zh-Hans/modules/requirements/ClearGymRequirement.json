@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/ClearGymRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 1
+    "translatedCount": 3
   },
   "entries": {
     "../GameConstants": {
@@ -19,12 +19,16 @@
       "line": 8
     },
     "Requires the ${GameConstants.RegionGyms.flat()[this.gymIndex]} Gym to be completed.": {
-      "translation": "",
-      "line": 18
+      "translation": "需要完成 ${...} 道馆。",
+      "line": 18,
+      "_rematchedFrom": "Requires the ${...} Gym to be completed.",
+      "_confidence": 0.85
     },
     "Requires the ${GameConstants.RegionGyms.flat()[this.gymIndex]} Gym to be defeated ${this.requiredValue} times.": {
-      "translation": "",
-      "line": 20
+      "translation": "需要击败 ${...} 道馆 ${...} 次。",
+      "line": 20,
+      "_rematchedFrom": "Requires the ${...} Gym to be defeated ${...} times.",
+      "_confidence": 0.85
     }
   }
 }

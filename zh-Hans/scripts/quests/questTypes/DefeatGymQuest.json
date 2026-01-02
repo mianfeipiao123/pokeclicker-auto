@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/DefeatGymQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 7,
-    "translatedCount": 4
+    "translatedCount": 7
   },
   "entries": {
     "Invalid gym town for quest: ${this.gymTown}": {
-      "translation": "",
-      "line": 14
+      "translation": "任务的健身城镇无效：${...}",
+      "line": 14,
+      "_rematchedFrom": "Invalid gym town for quest: ${...}",
+      "_confidence": 0.85
     },
     "Elite": {
       "translation": "精英",
@@ -23,16 +25,20 @@
       "line": 60
     },
     " at ${this.gymTown}": {
-      "translation": "",
-      "line": 61
+      "translation": "价格为 ${...}",
+      "line": 61,
+      "_rematchedFrom": "at ${...}",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",
       "line": 69
     },
     "Defeat ${gymString} in ${subRegionName} ${this.amount.toLocaleString('en-US')} times.": {
-      "translation": "",
-      "line": 69
+      "translation": "在 ${...}（${...}）挑战并获胜 ${...} 次。",
+      "line": 69,
+      "_rematchedFrom": "Defeat ${...} in ${...} ${...} times.",
+      "_confidence": 0.85
     }
   }
 }

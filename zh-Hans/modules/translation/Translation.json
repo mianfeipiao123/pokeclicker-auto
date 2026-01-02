@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/translation/Translation.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 26,
-    "translatedCount": 10
+    "translatedCount": 14
   },
   "entries": {
     "i18next": {
@@ -71,12 +71,16 @@
       "line": 51
     },
     "github:": {
-      "translation": "",
-      "line": 52
+      "translation": "GitHub：",
+      "line": 52,
+      "_rematchedFrom": "Github:",
+      "_confidence": 0.95
     },
     "Using ${translationsUrlOverride} for translations": {
-      "translation": "",
-      "line": 57
+      "translation": "已加载中文翻译",
+      "line": 57,
+      "_rematchedFrom": "Using ${...} for translations",
+      "_confidence": 0.85
     },
     "true": {
       "translation": "真的",
@@ -103,12 +107,16 @@
       "line": 91
     },
     "Failed to create hashed translation key for '${namespace}.${key}' as the default translation was missing or blank": {
-      "translation": "",
-      "line": 120
+      "translation": "无法为“${...}.${...}”创建哈希翻译密钥，因为默认翻译丢失或为空",
+      "line": 120,
+      "_rematchedFrom": "Failed to create hashed translation key for '${...}.${...}' as the default translation was missing or blank",
+      "_confidence": 0.85
     },
     "Translation cache encountered conflicting default values for key '${namespace}.${key}':\n\"${cached}\"\n\"${defaultValue}\"": {
-      "translation": "",
-      "line": 132
+      "translation": "翻译缓存遇到键“${...}.${...}”的默认值冲突：“${...}”“${...}”",
+      "line": 132,
+      "_rematchedFrom": "Translation cache encountered conflicting default values for key '${...}.${...}': \"${...}\" \"${...}\"",
+      "_confidence": 0.85
     }
   }
 }

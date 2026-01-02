@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/StartSequenceRunner.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 25,
-    "translatedCount": 9
+    "translatedCount": 10
   },
   "entries": {
     "show": {
@@ -55,8 +55,10 @@
       "line": 78
     },
     "I can't hold off all ${startersCount}! Please pick the Pokémon you want to fight!": {
-      "translation": "",
-      "line": 79
+      "translation": "我无法阻止所有${...}！请选择你想对战的宝可梦！",
+      "line": 79,
+      "_rematchedFrom": "I can't hold off all ${...}! Please pick the Pokémon you want to fight!",
+      "_confidence": 0.85
     },
     "col": {
       "translation": "",

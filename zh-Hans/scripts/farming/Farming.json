@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/farming/Farming.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 262,
-    "translatedCount": 253
+    "translatedCount": 256
   },
   "entries": {
     "Farming": {
@@ -1027,20 +1027,26 @@
       "line": 1888
     },
     "A wild ${(displayWanderer.shiny ? 'shiny ' : '')}${displayWanderer.name} has wandered onto the farm!": {
-      "translation": "",
-      "line": 1888
+      "translation": "一只野生${...}${...}闯入了农场！",
+      "line": 1888,
+      "_rematchedFrom": "A wild ${...}${...} has wandered onto the farm!",
+      "_confidence": 0.85
     },
     "You found ${GameHelper.anOrA(BerryType[berry])} ${BerryType[berry]} Berry!": {
       "translation": "",
       "line": 2130
     },
     "You've discovered the ${BerryType[berry]} Berry!": {
-      "translation": "",
-      "line": 2168
+      "translation": "你发现了 ${...} 树果！",
+      "line": 2168,
+      "_rematchedFrom": "You've discovered the ${...} Berry!",
+      "_confidence": 0.85
     },
     "${num.toFixed(1)} cm": {
-      "translation": "",
-      "line": 2284
+      "translation": "${...} 厘米",
+      "line": 2284,
+      "_rematchedFrom": "${...} cm",
+      "_confidence": 0.85
     },
     "${(num / 2.54).toFixed(1)}\\u2033": {
       "translation": "",

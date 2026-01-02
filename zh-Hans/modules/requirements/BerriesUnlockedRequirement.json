@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/BerriesUnlockedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "Have ${this.requiredValue} different Berry types unlocked.": {
-      "translation": "",
-      "line": 14
+      "translation": "已解锁 ${...} 种不同的树果类型。",
+      "line": 14,
+      "_rematchedFrom": "Have ${...} different Berry types unlocked.",
+      "_confidence": 0.85
     }
   }
 }

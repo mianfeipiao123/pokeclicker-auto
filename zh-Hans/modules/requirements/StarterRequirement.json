@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/StarterRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -19,8 +19,10 @@
       "line": 5
     },
     "Requires ${starter} to be chosen as your ${camelCaseToString(Region[this.region])} starter Pokémon.": {
-      "translation": "",
-      "line": 19
+      "translation": "需要选择 ${...} 作为你的 ${...} 起始宝可梦。",
+      "line": 19,
+      "_rematchedFrom": "Requires ${...} to be chosen as your ${...} starter Pokémon.",
+      "_confidence": 0.85
     }
   }
 }

@@ -1,34 +1,42 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/UseOakItemQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 1
+    "translatedCount": 5
   },
   "entries": {
     "Equip the ${GameConstants.humanifyString(OakItemType[this.item])} and": {
-      "translation": "",
-      "line": 45
+      "translation": "装备 ${...} 和",
+      "line": 45,
+      "_rematchedFrom": "Equip the ${...} and",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",
       "line": 47
     },
     "capture ${this.amount.toLocaleString('en-US')} wild Pokémon.": {
-      "translation": "",
-      "line": 47
+      "translation": "捕捉 ${...} 野生宝可梦。",
+      "line": 47,
+      "_rematchedFrom": "capture ${...} wild Pokémon.",
+      "_confidence": 0.85
     },
     "earn bonus Pokédollars ${this.amount.toLocaleString('en-US')} times.": {
       "translation": "",
       "line": 49
     },
     "defeat ${this.amount.toLocaleString('en-US')} Pokémon.": {
-      "translation": "",
-      "line": 51
+      "translation": "击败 ${...} 宝可梦。",
+      "line": 51,
+      "_rematchedFrom": "defeat ${...} Pokémon.",
+      "_confidence": 0.85
     },
     "gain its benefit ${this.amount.toLocaleString('en-US')} times.": {
-      "translation": "",
-      "line": 53
+      "translation": "触发其效果 ${...} 次。",
+      "line": 53,
+      "_rematchedFrom": "gain its benefit ${...} times.",
+      "_confidence": 0.85
     }
   }
 }

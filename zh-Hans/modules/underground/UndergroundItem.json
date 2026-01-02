@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/underground/UndergroundItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 11,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "../enums/UndergroundItemValueType": {
@@ -47,8 +47,10 @@
       "line": 62
     },
     "assets/images/underground/${this.name}.png": {
-      "translation": "",
-      "line": 67
+      "translation": "资产/图像/地下/${...}.png",
+      "line": 67,
+      "_rematchedFrom": "assets/images/underground/${...}.png",
+      "_confidence": 0.85
     }
   }
 }

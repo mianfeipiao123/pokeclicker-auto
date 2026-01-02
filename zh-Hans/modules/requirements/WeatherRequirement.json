@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/WeatherRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -27,8 +27,10 @@
       "line": 19
     },
     "The weather needs to be ${this.weather.map((weather) => humanifyString(WeatherType[weather])).join(' or ')}": {
-      "translation": "",
-      "line": 19
+      "translation": "天气需要 ${...}",
+      "line": 19,
+      "_rematchedFrom": "The weather needs to be ${...}",
+      "_confidence": 0.85
     }
   }
 }

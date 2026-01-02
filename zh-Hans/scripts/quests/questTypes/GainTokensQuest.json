@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/GainTokensQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "en-US": {
@@ -11,8 +11,10 @@
       "line": 31
     },
     "Gain ${this.amount.toLocaleString('en-US')} Dungeon Tokens.": {
-      "translation": "",
-      "line": 31
+      "translation": "获得 ${...} 迷宫代币。",
+      "line": 31,
+      "_rematchedFrom": "Gain ${...} Dungeon Tokens.",
+      "_confidence": 0.85
     }
   }
 }

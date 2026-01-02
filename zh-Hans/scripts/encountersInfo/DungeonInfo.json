@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/encountersInfo/DungeonInfo.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 4
+    "translatedCount": 5
   },
   "entries": {
     "MissingNo.": {
@@ -19,8 +19,10 @@
       "line": 36
     },
     "${input} Berry": {
-      "translation": "",
-      "line": 50
+      "translation": "${...}树果",
+      "line": 50,
+      "_rematchedFrom": "${...} Berry",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",

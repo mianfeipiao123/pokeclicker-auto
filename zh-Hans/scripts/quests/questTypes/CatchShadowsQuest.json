@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/CatchShadowsQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "en-US": {
@@ -11,8 +11,10 @@
       "line": 26
     },
     "Catch ${this.amount.toLocaleString('en-US')} Shadow Pokémon.": {
-      "translation": "",
-      "line": 26
+      "translation": "捕获 ${...} 只暗影宝可梦。",
+      "line": 26,
+      "_rematchedFrom": "Catch ${...} Shadow Pokémon.",
+      "_confidence": 0.85
     }
   }
 }

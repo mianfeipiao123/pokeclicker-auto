@@ -62,9 +62,8 @@
     })();
 
     const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/locales/pokemon.json`;
-    const HARDCODED_MAP_URL = `${TRANSLATIONS_BASE_URL}/hardcoded/${FORCE_LANG}.map.json`;
 
-    // Keep script logic generic; prefer maintaining translations in `hardcoded/zh-Hans.map.json`.
+    // Keep script logic generic
     const INLINE_OVERRIDES = {};
 
     /** @type {Record<string,string>} */
@@ -95,7 +94,6 @@
             forceLang: FORCE_LANG,
             translations: TRANSLATIONS_PARAM_VALUE,
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
-            hardcodedMapUrl: HARDCODED_MAP_URL,
         }),
     };
 
@@ -620,22 +618,11 @@
                     // eslint-disable-next-line no-console
                     console.info('[PokéClicker zh-Hans] 已加载分类翻译文件:', files.length, '个文件,', Object.keys(map).length, '条翻译');
                 }
+            } else {
+                console.error('[PokéClicker zh-Hans] 无法加载翻译索引文件');
             }
-        } catch {
-            // 回退到旧的单文件加载
-        }
-
-        // 如果新结构加载失败，回退到旧的单文件
-        if (Object.keys(map).length === 0) {
-            try {
-                const res = await fetch(HARDCODED_MAP_URL, { cache: 'no-cache' });
-                if (res.ok) {
-                    const mapData = await res.json();
-                    map = mapData?.entries ?? {};
-                }
-            } catch {
-                // ignore
-            }
+        } catch (e) {
+            console.error('[PokéClicker zh-Hans] 加载翻译失败:', e);
         }
 
         try {

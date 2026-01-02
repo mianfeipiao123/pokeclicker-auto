@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/UndergroundLayersFullyMinedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "Fully mine ${this.requiredValue} layer${suffix} in the Underground.": {
-      "translation": "",
-      "line": 15
+      "translation": "在采掘场完全开采${...}层。",
+      "line": 15,
+      "_rematchedFrom": "Fully mine ${...} layer${...} in the Underground.",
+      "_confidence": 0.85
     }
   }
 }

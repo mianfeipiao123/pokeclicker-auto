@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/party/Category.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 14,
-    "translatedCount": 6
+    "translatedCount": 9
   },
   "entries": {
     "knockout": {
@@ -39,8 +39,10 @@
       "line": 31
     },
     "--pokemon-category-${id + 1}": {
-      "translation": "",
-      "line": 70
+      "translation": "--pokemon-类别-${...}",
+      "line": 70,
+      "_rematchedFrom": "--pokemon-category-${...}",
+      "_confidence": 0.85
     },
     "category": {
       "translation": "类别",
@@ -51,16 +53,20 @@
       "line": 100
     },
     "and ${filterNames[filterNames.length - 1]}": {
-      "translation": "",
-      "line": 102
+      "translation": "和${...}",
+      "line": 102,
+      "_rematchedFrom": "and ${...}",
+      "_confidence": 0.85
     },
     "Remove Category": {
       "translation": "删除类别",
       "line": 106
     },
     "This category is in use by the ${namesString} Pokéball filter${filterNames.length > 1 ? 's' : ''} and cannot be removed.": {
-      "translation": "",
-      "line": 107
+      "translation": "此类别已被 ${...} 精灵球过滤器${...} 使用，无法删除。",
+      "line": 107,
+      "_rematchedFrom": "This category is in use by the ${...} Pokéball filter${...} and cannot be removed.",
+      "_confidence": 0.85
     }
   }
 }

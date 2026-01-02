@@ -1,38 +1,52 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/farming/Plot.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 25,
-    "translatedCount": 8
+    "translatedCount": 22
   },
   "entries": {
     "Growth: ×${this.auraGrowth().toFixed(2)}": {
-      "translation": "",
-      "line": 158
+      "translation": "成长：×${...}",
+      "line": 158,
+      "_rematchedFrom": "Growth: ×${...}",
+      "_confidence": 0.85
     },
     "Harvest: ×${this.auraHarvest().toFixed(2)}": {
-      "translation": "",
-      "line": 162
+      "translation": "收获：×${...}",
+      "line": 162,
+      "_rematchedFrom": "Harvest: ×${...}",
+      "_confidence": 0.85
     },
     "Mutation: ×${this.auraMutation().toFixed(2)}": {
-      "translation": "",
-      "line": 166
+      "translation": "突变：×${...}",
+      "line": 166,
+      "_rematchedFrom": "Mutation: ×${...}",
+      "_confidence": 0.85
     },
     "Replant: ×${this.auraReplant().toFixed(2)}": {
-      "translation": "",
-      "line": 170
+      "translation": "重新种植：×${...}",
+      "line": 170,
+      "_rematchedFrom": "Replant: ×${...}",
+      "_confidence": 0.85
     },
     "Death: ×${this.auraDeath().toFixed(2)}": {
-      "translation": "",
-      "line": 174
+      "translation": "死亡：×${...}",
+      "line": 174,
+      "_rematchedFrom": "Death: ×${...}",
+      "_confidence": 0.85
     },
     "Decay: ×${this.auraDecay().toFixed(2)}": {
-      "translation": "",
-      "line": 178
+      "translation": "衰变：×${...}",
+      "line": 178,
+      "_rematchedFrom": "Decay: ×${...}",
+      "_confidence": 0.85
     },
     "Boost: ×${this.auraBoost().toFixed(2)}": {
-      "translation": "",
-      "line": 182
+      "translation": "提升：×${...}",
+      "line": 182,
+      "_rematchedFrom": "Boost: ×${...}",
+      "_confidence": 0.85
     },
     "<br/>": {
       "translation": "<br/>",
@@ -47,28 +61,40 @@
       "line": 211
     },
     "(altered from ${this.formattedBaseStageTimeLeft()})": {
-      "translation": "",
-      "line": 213
+      "translation": "（由 ${...} 更改）",
+      "line": 213,
+      "_rematchedFrom": "(altered from ${...})",
+      "_confidence": 0.85
     },
     "${formattedTime} until sprout": {
-      "translation": "",
-      "line": 230
+      "translation": "${...} 直到发芽",
+      "line": 230,
+      "_rematchedFrom": "${...} until sprout",
+      "_confidence": 0.85
     },
     "${formattedTime} until grown": {
-      "translation": "",
-      "line": 233
+      "translation": "${...} 直到长大",
+      "line": 233,
+      "_rematchedFrom": "${...} until grown",
+      "_confidence": 0.85
     },
     "${formattedTime} until bloom": {
-      "translation": "",
-      "line": 236
+      "translation": "${...} 直到开花",
+      "line": 236,
+      "_rematchedFrom": "${...} until bloom",
+      "_confidence": 0.85
     },
     "${formattedTime} until ripe": {
-      "translation": "",
-      "line": 239
+      "translation": "${...} 直到成熟",
+      "line": 239,
+      "_rematchedFrom": "${...} until ripe",
+      "_confidence": 0.85
     },
     "${formattedTime} until death": {
-      "translation": "",
-      "line": 242
+      "translation": "${...} 直到死亡",
+      "line": 242,
+      "_rematchedFrom": "${...} until death",
+      "_confidence": 0.85
     },
     "(altered from ${formattedBaseTime})": {
       "translation": "",
@@ -95,8 +121,10 @@
       "line": 284
     },
     "A wild <strong>${PokemonHelper.displayName(this.wanderer.name)}</strong> is wandering around": {
-      "translation": "",
-      "line": 289
+      "translation": "一只野生<strong>${...}</strong>正在徘徊",
+      "line": 289,
+      "_rematchedFrom": "A wild <strong>${...}</strong> is wandering around",
+      "_confidence": 0.85
     },
     "<u>Possible Mutations</u>": {
       "translation": "<u>可能的变异</u>",

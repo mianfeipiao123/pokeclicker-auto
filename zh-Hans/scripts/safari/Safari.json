@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/safari/Safari.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 44,
-    "translatedCount": 33
+    "translatedCount": 39
   },
   "entries": {
     "up": {
@@ -31,8 +31,10 @@
       "line": 229
     },
     "You have an active Safari in ${GameConstants.camelCaseToString(GameConstants.Region[Safari.activeRegion()])}.\nDo you want to quit that Safari and start a new one?": {
-      "translation": "",
-      "line": 230
+      "translation": "你在 ${...} 有一个活跃的 Safari。你想退出 Safari 并开始一个新的吗？",
+      "line": 230,
+      "_rematchedFrom": "You have an active Safari in ${...}. Do you want to quit that Safari and start a new one?",
+      "_confidence": 0.85
     },
     "Quit": {
       "translation": "辞职",
@@ -59,12 +61,16 @@
       "line": 327
     },
     "walk${Safari.lastDirection}": {
-      "translation": "",
-      "line": 327
+      "translation": "步行${...}",
+      "line": 327,
+      "_rematchedFrom": "walk${...}",
+      "_confidence": 0.85
     },
     "#safari-${newPos.x}-${newPos.y}": {
-      "translation": "",
-      "line": 375
+      "translation": "#safari-${...}-${...}",
+      "line": 375,
+      "_rematchedFrom": "#safari-${...}-${...}",
+      "_confidence": 0.85
     },
     "+=${directionOffset.y * 32}": {
       "translation": "",
@@ -75,8 +81,10 @@
       "line": 380
     },
     "walk${direction} moving": {
-      "translation": "",
-      "line": 383
+      "translation": "步行${...} 移动",
+      "line": 383,
+      "_rematchedFrom": "walk${...} moving",
+      "_confidence": 0.85
     },
     "linear": {
       "translation": "线性",
@@ -131,12 +139,16 @@
       "line": 639
     },
     "safari-dpad-${dir.toLowerCase()}": {
-      "translation": "",
-      "line": 640
+      "translation": "safari-dpad-${...}",
+      "line": 640,
+      "_rematchedFrom": "safari-dpad-${...}",
+      "_confidence": 0.85
     },
     "Arrow${dir}": {
-      "translation": "",
-      "line": 641
+      "translation": "箭头${...}",
+      "line": 641,
+      "_rematchedFrom": "Arrow${...}",
+      "_confidence": 0.85
     },
     "mousedown": {
       "translation": "鼠标按下",

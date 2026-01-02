@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/DefeatedPokemonTypeRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 9,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "knockout": {
@@ -39,8 +39,10 @@
       "line": 31
     },
     "Defeat ${this.requiredValue.toLocaleString('en-US')} ${this.monoType ? 'pure ' : ''}${PokemonType[this.type]}-type Pokémon.": {
-      "translation": "",
-      "line": 31
+      "translation": "击败${...} ${...}${...}型宝可梦。",
+      "line": 31,
+      "_rematchedFrom": "Defeat ${...} ${...}${...}-type Pokémon.",
+      "_confidence": 0.85
     }
   }
 }

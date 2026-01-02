@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/TemporaryBattleRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -27,8 +27,10 @@
       "line": 17
     },
     "Requires beating ${tempBattle.getDisplayName()}${locationHint}.": {
-      "translation": "",
-      "line": 20
+      "translation": "需要击败${...}${...}。",
+      "line": 20,
+      "_rematchedFrom": "Requires beating ${...}${...}.",
+      "_confidence": 0.85
     }
   }
 }

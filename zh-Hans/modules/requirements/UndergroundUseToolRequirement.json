@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/UndergroundUseToolRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "./AchievementRequirement": {
@@ -27,8 +27,10 @@
       "line": 20
     },
     "Requires using ${this.toolType ? humanifyString(UndergroundToolType[this.toolType]) : 'any tool'} ${this.requiredValue.toLocaleString('en-US')} times.": {
-      "translation": "",
-      "line": 20
+      "translation": "需要使用 ${...} ${...} 次。",
+      "line": 20,
+      "_rematchedFrom": "Requires using ${...} ${...} times.",
+      "_confidence": 0.85
     }
   }
 }

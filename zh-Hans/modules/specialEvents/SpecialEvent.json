@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/specialEvents/SpecialEvent.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 18,
-    "translatedCount": 5
+    "translatedCount": 10
   },
   "entries": {
     "./SpecialEventsNotifiedStatus": {
@@ -35,8 +35,10 @@
       "line": 94
     },
     "This costs ${price} QP.": {
-      "translation": "",
-      "line": 95
+      "translation": "这需要 ${...} QP。",
+      "line": 95,
+      "_rematchedFrom": "This costs ${...} QP.",
+      "_confidence": 0.85
     },
     "Do you want to start this event early?": {
       "translation": "你想早点开始这个活动吗？",
@@ -47,20 +49,26 @@
       "line": 102
     },
     "Starting '${this.title}' early will cost you ${price.toLocaleString('en-US')} Quest Points for 24 hours of event time.": {
-      "translation": "",
-      "line": 102
+      "translation": "提前开启“${...}”将花费 ${...} 任务点数，并获得 24 小时活动时间。",
+      "line": 102,
+      "_rematchedFrom": "Starting '${...}' early will cost you ${...} Quest Points for 24 hours of event time.",
+      "_confidence": 0.85
     },
     "[EVENT] ${this.title}": {
-      "translation": "",
-      "line": 113
+      "translation": "[活动] ${...}",
+      "line": 113,
+      "_rematchedFrom": "[EVENT] ${...}",
+      "_confidence": 0.85
     },
     "${this.description}\n\n<strong>Start time:</strong> ${this.startTime.toLocaleString()}\n<strong>End time:</strong> ${this.endTime.toLocaleString()}": {
       "translation": "",
       "line": 114
     },
     "starts in ${formatTimeShortWords(timeTillEventStart)}!": {
-      "translation": "",
-      "line": 142
+      "translation": "距离开始还有 ${...}！",
+      "line": 142,
+      "_rematchedFrom": "starts in ${...}!",
+      "_confidence": 0.85
     },
     "starts in ${formatTimeShortWords(notificationTimeout)}!": {
       "translation": "",
@@ -71,8 +79,10 @@
       "line": 178
     },
     "ends in ${formatTimeShortWords(notificationTimeout)}!": {
-      "translation": "",
-      "line": 204
+      "translation": "距离结束还有 ${...}！",
+      "line": 204,
+      "_rematchedFrom": "ends in ${...}!",
+      "_confidence": 0.85
     },
     "just ended!": {
       "translation": "刚刚结束！",

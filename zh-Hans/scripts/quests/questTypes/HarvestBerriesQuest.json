@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/HarvestBerriesQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "en-US": {
@@ -15,8 +15,10 @@
       "line": 40
     },
     "Harvest ${this.amount.toLocaleString('en-US')} ${BerryType[this.berryType]} ${GameConstants.pluralizeString('Berry', this.amount)} at the farm.": {
-      "translation": "",
-      "line": 40
+      "translation": "在农场收获 ${...} 个${...}。",
+      "line": 40,
+      "_rematchedFrom": "Harvest ${...} ${...} ${...} at the farm.",
+      "_confidence": 0.85
     }
   }
 }

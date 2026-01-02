@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/underground/helper/UndergroundHelper.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 53,
-    "translatedCount": 40
+    "translatedCount": 41
   },
   "entries": {
     "knockout": {
@@ -55,8 +55,10 @@
       "line": 27
     },
     "${name} kept this treasure as payment.": {
-      "translation": "",
-      "line": 83
+      "translation": "${...} 保留了这个宝藏作为付款。",
+      "line": 83,
+      "_rematchedFrom": "${...} kept this treasure as payment.",
+      "_confidence": 0.85
     },
     "assets/images/underground/helpers/${image}.png": {
       "translation": "",

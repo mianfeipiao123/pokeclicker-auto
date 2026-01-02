@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/logbook/LogBookLog.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 7,
-    "translatedCount": 4
+    "translatedCount": 5
   },
   "entries": {
     "knockout": {
@@ -31,8 +31,10 @@
       "line": 15
     },
     "type.${this.type.label}": {
-      "translation": "",
-      "line": 21
+      "translation": "类型。${...}",
+      "line": 21,
+      "_rematchedFrom": "type.${...}",
+      "_confidence": 0.85
     }
   }
 }

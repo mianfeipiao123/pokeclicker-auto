@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/pokeballs/PokeballFilters.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 29,
-    "translatedCount": 19
+    "translatedCount": 20
   },
   "entries": {
     "knockout": {
@@ -99,8 +99,10 @@
       "line": 107
     },
     "Are you sure you want to delete \"${filter.name}\"?": {
-      "translation": "",
-      "line": 108
+      "translation": "你确定要删除“${...}”吗？",
+      "line": 108,
+      "_rematchedFrom": "Are you sure you want to delete \"${...}\"?",
+      "_confidence": 0.85
     },
     "Delete": {
       "translation": "删除",

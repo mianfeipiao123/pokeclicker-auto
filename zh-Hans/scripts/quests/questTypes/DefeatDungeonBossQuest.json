@@ -1,18 +1,22 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/DefeatDungeonBossQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2,
-    "translatedCount": 0
+    "translatedCount": 2
   },
   "entries": {
     "Invalid dungeon for quest: ${this.dungeon}": {
-      "translation": "",
-      "line": 7
+      "translation": "任务迷宫无效：${...}",
+      "line": 7,
+      "_rematchedFrom": "Invalid dungeon for quest: ${...}",
+      "_confidence": 0.85
     },
     "Defeat ${this.dungeonBoss} in ${this.dungeon}.": {
-      "translation": "",
-      "line": 13
+      "translation": "在${...}中击败${...}。",
+      "line": 13,
+      "_rematchedFrom": "Defeat ${...} in ${...}.",
+      "_confidence": 0.85
     }
   }
 }

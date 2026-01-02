@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/underground/UndergroundTrading.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 14,
-    "translatedCount": 3
+    "translatedCount": 5
   },
   "entries": {
     "knockout": {
@@ -55,12 +55,16 @@
       "line": 68
     },
     "<b><img src=\"${this.selectedTradeFromItem.image}\" height=\"24px\" class=\"pixelated\"/> → <img src=\"${this.selectedTradeToItem.image}\" height=\"24px\" class=\"pixelated\"/> Trade confirmed!</b><br/>${tradeFromAmount.toLocaleString('en-US')}× ${this.selectedTradeFromItem.displayName} → ${tradeToAmount.toLocaleString('en-US')}× ${this.selectedTradeToItem.displayName}.": {
-      "translation": "",
-      "line": 68
+      "translation": "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> → <img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> 交易确认！</b><br/>${...}× ${...} → ${...}× ${...}。",
+      "line": 68,
+      "_rematchedFrom": "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> → <img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> Trade confirmed!</b><br/>${...}× ${...} → ${...}× ${...}.",
+      "_confidence": 0.85
     },
     "<b><img src=\"${this.selectedTradeFromItem.image}\" height=\"24px\" class=\"pixelated\"/> Sale Confirmed!</b><br/>${this.sellAmount.toLocaleString('en-US')}× ${this.selectedTradeFromItem.displayName} has been boxed up for sale. Good choice, Trainer!": {
-      "translation": "",
-      "line": 138
+      "translation": "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> 出售确认！</b><br/>${...}× ${...}已打包出售。好选择，训练师！",
+      "line": 138,
+      "_rematchedFrom": "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> Sale Confirmed!</b><br/>${...}× ${...} has been boxed up for sale. Good choice, Trainer!",
+      "_confidence": 0.85
     }
   }
 }

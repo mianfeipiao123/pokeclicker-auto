@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/DataStore/StatisticStore/index.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 37,
-    "translatedCount": 32
+    "translatedCount": 33
   },
   "entries": {
     "knockout": {
@@ -135,8 +135,10 @@
       "line": 276
     },
     "[Statistics] [${array}] Invalid property requested:": {
-      "translation": "",
-      "line": 285
+      "translation": "[统计] [${...}] 请求的属性无效：",
+      "line": 285,
+      "_rematchedFrom": "[Statistics] [${...}] Invalid property requested:",
+      "_confidence": 0.85
     },
     "highestID": {
       "translation": "highestID",

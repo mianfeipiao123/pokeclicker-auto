@@ -1,22 +1,26 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/party/PartyPokemon.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 27,
-    "translatedCount": 14
+    "translatedCount": 24
   },
   "entries": {
     "${this.name} has become Resistant to Pokérus.": {
-      "translation": "",
-      "line": 99
+      "translation": "${...}对宝可病毒产生了抗性。",
+      "line": 99,
+      "_rematchedFrom": "${...} has become Resistant to Pokérus.",
+      "_confidence": 0.85
     },
     "A cat named Cat": {
       "translation": "一只名叫猫的猫",
       "line": 116
     },
     "PartyPokemon ${this.name} cannot gain negative levels!": {
-      "translation": "",
-      "line": 232
+      "translation": "PartyPokemon ${...} 无法获得负等级！",
+      "line": 232,
+      "_rematchedFrom": "PartyPokemon ${...} cannot gain negative levels!",
+      "_confidence": 0.85
     },
     "Challenge Mode": {
       "translation": "挑战模式",
@@ -35,24 +39,34 @@
       "line": 303
     },
     "This Pokémon doesn't have any ${vitaminName} to remove!": {
-      "translation": "",
-      "line": 332
+      "translation": "这只宝可梦没有任何 ${...} 可以移除！",
+      "line": 332,
+      "_rematchedFrom": "This Pokémon doesn't have any ${...} to remove!",
+      "_confidence": 0.85
     },
     "You do not have any more ${ItemList[itemName].displayName}": {
-      "translation": "",
-      "line": 362
+      "translation": "你没有更多的 ${...}",
+      "line": 362,
+      "_rematchedFrom": "You do not have any more ${...}",
+      "_confidence": 0.85
     },
     "You cannot use ${ItemList[itemName].displayName} on Pokémon in the hatchery.": {
-      "translation": "",
-      "line": 373
+      "translation": "你不能对孵化场中的宝可梦使用 ${...}。",
+      "line": 373,
+      "_rematchedFrom": "You cannot use ${...} on Pokémon in the hatchery.",
+      "_confidence": 0.85
     },
     "${this.displayName} gained ${this.calculateAttack(true) - curAttack} attack points": {
-      "translation": "",
-      "line": 381
+      "translation": "${...} 获得了 ${...} 攻击点",
+      "line": 381,
+      "_rematchedFrom": "${...} gained ${...} attack points",
+      "_confidence": 0.85
     },
     "You used ${amount} of ${ItemList[itemName].displayName}": {
-      "translation": "",
-      "line": 395
+      "translation": "你使用了 ${...}，共 ${...}",
+      "line": 395,
+      "_rematchedFrom": "You used ${...} of ${...}",
+      "_confidence": 0.85
     },
     "breedingEfficiencyAllModifiers": {
       "translation": "breedingEfficiencyAllModifiers",
@@ -91,12 +105,16 @@
       "line": 538
     },
     "This Pokémon cannot use ${heldItem.displayName}.": {
-      "translation": "",
-      "line": 558
+      "translation": "这只宝可梦无法使用 ${...}。",
+      "line": 558,
+      "_rematchedFrom": "This Pokémon cannot use ${...}.",
+      "_confidence": 0.85
     },
     "You don't have any ${heldItem.displayName} left.": {
-      "translation": "",
-      "line": 565
+      "translation": "你没有剩余的 ${...} 了。",
+      "line": 565,
+      "_rematchedFrom": "You don't have any ${...} left.",
+      "_confidence": 0.85
     },
     "confirmChangeHeldItem": {
       "translation": "confirmChangeHeldItem",
@@ -107,8 +125,10 @@
       "line": 574
     },
     "Held items are one time use only.\nRemoved items will be lost.\nAre you sure you want to remove it?": {
-      "translation": "",
-      "line": 575
+      "translation": "持有的物品只能使用一次。移除的物品将会丢失。你确定要删除它吗？",
+      "line": 575,
+      "_rematchedFrom": "Held items are one time use only. Removed items will be lost. Are you sure you want to remove it?",
+      "_confidence": 0.95
     },
     "Remove": {
       "translation": "移除",

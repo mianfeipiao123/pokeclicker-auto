@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/MoonCyclePhaseRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -27,8 +27,10 @@
       "line": 16
     },
     "The moon phase must be ${camelCaseToString(this.moonCyclePhases.map((moonCyclePhase) => MoonCyclePhase[moonCyclePhase]).join(' or '))}": {
-      "translation": "",
-      "line": 16
+      "translation": "月相必须为 ${...}",
+      "line": 16,
+      "_rematchedFrom": "The moon phase must be ${...}",
+      "_confidence": 0.85
     }
   }
 }

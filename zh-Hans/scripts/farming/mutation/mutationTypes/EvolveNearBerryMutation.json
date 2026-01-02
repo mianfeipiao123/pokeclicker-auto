@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/farming/mutation/mutationTypes/EvolveNearBerryMutation.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 1
+    "translatedCount": 5
   },
   "entries": {
     "some": {
@@ -11,24 +11,32 @@
       "line": 50
     },
     "I've heard that ${berryType} Berries can spontaneously change!": {
-      "translation": "",
-      "line": 53
+      "translation": "我听说 ${...} 树果可以自发变化！",
+      "line": 53,
+      "_rematchedFrom": "I've heard that ${...} Berries can spontaneously change!",
+      "_confidence": 0.85
     },
     "I've heard that growing ${berryType} Berries": {
-      "translation": "",
-      "line": 56
+      "translation": "我听说种植 ${...} 树果",
+      "line": 56,
+      "_rematchedFrom": "I've heard that growing ${...} Berries",
+      "_confidence": 0.85
     },
     " and $1": {
       "translation": "",
       "line": 57
     },
     " near ${this.berryReqs.map(b => BerryType[b]).join(', ').replace(/, ([\\w\\s]+)$/, ' and $1')} Berries": {
-      "translation": "",
-      "line": 57
+      "translation": "近 ${...} 树果",
+      "line": 57,
+      "_rematchedFrom": "near ${...} Berries",
+      "_confidence": 0.85
     },
     " can cause it to change!": {
-      "translation": "",
-      "line": 58
+      "translation": "可以导致它改变！",
+      "line": 58,
+      "_rematchedFrom": "can cause it to change!",
+      "_confidence": 0.95
     }
   }
 }

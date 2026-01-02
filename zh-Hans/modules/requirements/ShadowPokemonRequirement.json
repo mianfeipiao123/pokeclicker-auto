@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/ShadowPokemonRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 0
+    "translatedCount": 2
   },
   "entries": {
     "../GameConstants": {
@@ -19,12 +19,16 @@
       "line": 6
     },
     "${this.requiredValue} Shadow Pokémon need to be obtained.": {
-      "translation": "",
-      "line": 16
+      "translation": "需要获得${...}个暗影宝可梦。",
+      "line": 16,
+      "_rematchedFrom": "${...} Shadow Pokémon need to be obtained.",
+      "_confidence": 0.85
     },
     "${this.requiredValue} Shadow Pokémon need to be purified.": {
-      "translation": "",
-      "line": 18
+      "translation": "${...} 暗影宝可梦需要净化。",
+      "line": 18,
+      "_rematchedFrom": "${...} Shadow Pokémon need to be purified.",
+      "_confidence": 0.85
     }
   }
 }

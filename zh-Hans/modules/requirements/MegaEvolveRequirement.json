@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/MegaEvolveRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 9,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "../GameConstants": {
@@ -27,8 +27,10 @@
       "line": 21
     },
     "${this.name} needs the ${humanifyString(MegaStoneType[this.megaStone])} Mega Stone.": {
-      "translation": "",
-      "line": 25
+      "translation": "${...}需要${...}超级石。",
+      "line": 25,
+      "_rematchedFrom": "${...} needs the ${...} Mega Stone.",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",

@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/towns/RoamerNPC.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "There haven't been any reports of roaming Pokémon around ${regionName} lately.": {
-      "translation": "",
-      "line": 22
+      "translation": "最近没有关于宝可梦在 ${...} 附近漫游的报告。",
+      "line": 22,
+      "_rematchedFrom": "There haven't been any reports of roaming Pokémon around ${...} lately.",
+      "_confidence": 0.85
     },
     "npc-roamer-image": {
       "translation": "",

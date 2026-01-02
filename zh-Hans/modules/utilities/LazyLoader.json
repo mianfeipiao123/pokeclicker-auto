@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/utilities/LazyLoader.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 16,
-    "translatedCount": 7
+    "translatedCount": 9
   },
   "entries": {
     "knockout": {
@@ -27,12 +27,16 @@
       "line": 72
     },
     "Could not find scrolling parent for LazyLoader '${key}'": {
-      "translation": "",
-      "line": 77
+      "translation": "找不到 LazyLoader '${...}' 的滚动父级",
+      "line": 77,
+      "_rematchedFrom": "Could not find scrolling parent for LazyLoader '${...}'",
+      "_confidence": 0.85
     },
     "Invalid reset function used for '${key}' lazyLoad": {
-      "translation": "",
-      "line": 86
+      "translation": "用于“${...}”lazyLoad 的重置函数无效",
+      "line": 86,
+      "_rematchedFrom": "Invalid reset function used for '${...}' lazyLoad",
+      "_confidence": 0.85
     },
     "div": {
       "translation": "分区",

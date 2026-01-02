@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/farming/mutation/mutationTypes/EnigmaMutation.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 11,
-    "translatedCount": 5
+    "translatedCount": 8
   },
   "entries": {
     "There's a mysterious berry that requires ${this.getHint(this.lastIndex())}.": {
-      "translation": "",
-      "line": 94
+      "translation": "有一种神秘的树果，需要${...}。",
+      "line": 94,
+      "_rematchedFrom": "There's a mysterious berry that requires ${...}.",
+      "_confidence": 0.85
     },
     "north": {
       "translation": "北",
@@ -27,8 +29,10 @@
       "line": 110
     },
     "a ${BerryType[EnigmaMutation.getReqs()[idx]]} Berry to the ${direction}": {
-      "translation": "",
-      "line": 113
+      "translation": "一个 ${...} 树果到 ${...}",
+      "line": 113,
+      "_rematchedFrom": "a ${...} Berry to the ${...}",
+      "_confidence": 0.85
     },
     "s a mysterious berry that requires ${hints.join(": {
       "translation": "",
@@ -39,8 +43,10 @@
       "line": 129
     },
     "There's a mysterious berry that requires ${hints.join(', ').replace(/, ([\\w\\s]+)$/, ' and $1')}": {
-      "translation": "",
-      "line": 129
+      "translation": "有一种神秘的树果，需要 ${...}",
+      "line": 129,
+      "_rematchedFrom": "There's a mysterious berry that requires ${...}",
+      "_confidence": 0.85
     },
     "a specific configuration of Berries": {
       "translation": "树果的特定配置",

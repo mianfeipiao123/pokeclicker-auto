@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/pokeballs/PokeballFilterOptions.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 36,
-    "translatedCount": 16
+    "translatedCount": 19
   },
   "entries": {
     "../GameConstants": {
@@ -127,8 +127,10 @@
       "line": 115
     },
     "Is ${PokemonType[pokemonType]} type": {
-      "translation": "",
-      "line": 121
+      "translation": "是 ${...} 类型",
+      "line": 121,
+      "_rematchedFrom": "Is ${...} type",
+      "_confidence": 0.85
     },
     "pokeballFilterEncounterType": {
       "translation": "pokeballFilterEncounterType",
@@ -139,16 +141,20 @@
       "line": 132
     },
     "Is ${GameHelper.anOrA(type)} ${type} encounter": {
-      "translation": "",
-      "line": 136
+      "translation": "是否遇到${...} ${...}",
+      "line": 136,
+      "_rematchedFrom": "Is ${...} ${...} encounter",
+      "_confidence": 0.85
     },
     "Category": {
       "translation": "类别",
       "line": 142
     },
     "In the ${PokemonCategories.categories().find(c => c.id == category)?.name()} category": {
-      "translation": "",
-      "line": 146
+      "translation": "在 ${...} 类别中",
+      "line": 146,
+      "_rematchedFrom": "In the ${...} category",
+      "_confidence": 0.85
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/utilities/Sound.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 12,
-    "translatedCount": 5
+    "translatedCount": 6
   },
   "entries": {
     "../settings/Settings": {
@@ -43,8 +43,10 @@
       "line": 31
     },
     "Error updating volume for ${this.name}:\n": {
-      "translation": "",
-      "line": 41
+      "translation": "更新 ${...} 的卷时出错：",
+      "line": 41,
+      "_rematchedFrom": "Error updating volume for ${...}:",
+      "_confidence": 0.85
     },
     "sound.muted": {
       "translation": "静音",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/Sortable.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 17,
-    "translatedCount": 3
+    "translatedCount": 4
   },
   "entries": {
     "sortablejs": {
@@ -47,8 +47,10 @@
       "line": 9
     },
     "Modules sort order ${column}": {
-      "translation": "",
-      "line": 9
+      "translation": "模块排序顺序 ${...}",
+      "line": 9,
+      "_rematchedFrom": "Modules sort order ${...}",
+      "_confidence": 0.85
     },
     "main-sortable": {
       "translation": "",

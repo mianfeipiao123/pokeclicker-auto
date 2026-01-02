@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/dayCycle/DayCycle.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 10,
-    "translatedCount": 5
+    "translatedCount": 6
   },
   "entries": {
     "knockout": {
@@ -27,8 +27,10 @@
       "line": 6
     },
     "assets/images/dayCycle/${DayCyclePart[DayCycle.currentDayCyclePart()]}.png": {
-      "translation": "",
-      "line": 16
+      "translation": "资产/图像/dayCycle/${...}.png",
+      "line": 16,
+      "_rematchedFrom": "assets/images/dayCycle/${...}.png",
+      "_confidence": 0.85
     },
     "Dawn": {
       "translation": "黎明",

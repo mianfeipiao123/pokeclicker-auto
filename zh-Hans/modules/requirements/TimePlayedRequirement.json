@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/TimePlayedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "../GameConstants": {
@@ -19,8 +19,10 @@
       "line": 14
     },
     "Be in-game for a total of ${this.requiredValue.toLocaleString('en-US')} seconds.": {
-      "translation": "",
-      "line": 14
+      "translation": "游戏时间总计 ${...} 秒。",
+      "line": 14,
+      "_rematchedFrom": "Be in-game for a total of ${...} seconds.",
+      "_confidence": 0.85
     }
   }
 }

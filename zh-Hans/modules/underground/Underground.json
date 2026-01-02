@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/underground/Underground.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 16,
-    "translatedCount": 3
+    "translatedCount": 4
   },
   "entries": {
     "../DataStore/common/Feature": {
@@ -67,8 +67,10 @@
       "line": 18
     },
     "Your Underground level has increased to ${this._undergroundLevel()}!": {
-      "translation": "",
-      "line": 78
+      "translation": "你的地下层已升至 ${...}！",
+      "line": 78,
+      "_rematchedFrom": "Your Underground level has increased to ${...}!",
+      "_confidence": 0.85
     }
   }
 }

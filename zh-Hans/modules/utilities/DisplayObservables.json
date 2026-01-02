@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/utilities/DisplayObservables.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 14,
-    "translatedCount": 8
+    "translatedCount": 10
   },
   "entries": {
     "knockout": {
@@ -27,8 +27,10 @@
       "line": 10
     },
     "DisplayObservables: ${type} ${elemID} not found, cannot subscribe state observable": {
-      "translation": "",
-      "line": 12
+      "translation": "DisplayObservables：${...} ${...} 未找到，无法订阅状态 observable",
+      "line": 12,
+      "_rematchedFrom": "DisplayObservables: ${...} ${...} not found, cannot subscribe state observable",
+      "_confidence": 0.85
     },
     "Observable": {
       "translation": "可观察的",
@@ -55,8 +57,10 @@
       "line": 66
     },
     "${collapseID}Observable": {
-      "translation": "",
-      "line": 68
+      "translation": "${...}可观察",
+      "line": 68,
+      "_rematchedFrom": "${...}Observable",
+      "_confidence": 0.85
     },
     "#${collapseID}": {
       "translation": "",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/breeding/Egg.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 8,
-    "translatedCount": 4
+    "translatedCount": 6
   },
   "entries": {
     "egg": {
@@ -19,16 +19,20 @@
       "line": 80
     },
     "${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)} is ready to hatch!": {
-      "translation": "",
-      "line": 102
+      "translation": "${...} 已准备好孵化！",
+      "line": 102,
+      "_rematchedFrom": "${...} is ready to hatch!",
+      "_confidence": 0.85
     },
     "An egg is ready to hatch!": {
       "translation": "一颗蛋已经准备好孵化了！",
       "line": 104
     },
     "✨ You hatched a shiny ${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)}! ✨": {
-      "translation": "",
-      "line": 154
+      "translation": "✨ 你孵化了异色${...}！ ✨",
+      "line": 154,
+      "_rematchedFrom": "✨ You hatched a shiny ${...}! ✨",
+      "_confidence": 0.85
     },
     "You hatched ${GameHelper.anOrA(PokemonHelper.getPokemonById(this.pokemon).name)} ${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)}!": {
       "translation": "",

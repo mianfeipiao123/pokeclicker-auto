@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/party/Party.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 7,
-    "translatedCount": 4
+    "translatedCount": 6
   },
   "entries": {
     "Pokemon Party": {
@@ -19,12 +19,16 @@
       "line": 94
     },
     "✨ You have captured a shiny ${displayName}! ✨": {
-      "translation": "",
-      "line": 103
+      "translation": "✨ 你捕获了异色${...}！ ✨",
+      "line": 103,
+      "_rematchedFrom": "✨ You have captured a shiny ${...}! ✨",
+      "_confidence": 0.85
     },
     "You have captured a shadow ${displayName}!": {
-      "translation": "",
-      "line": 112
+      "translation": "你捕获了暗影${...}！",
+      "line": 112,
+      "_rematchedFrom": "You have captured a shadow ${...}!",
+      "_confidence": 0.85
     },
     "exp": {
       "translation": "经验值",

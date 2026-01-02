@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/temporaryBattle/TemporaryBattle.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "btn btn-success": {
@@ -15,8 +15,10 @@
       "line": 22
     },
     "Fight ${this.getDisplayName()}": {
-      "translation": "",
-      "line": 25
+      "translation": "对战 ${...}",
+      "line": 25,
+      "_rematchedFrom": "Fight ${...}",
+      "_confidence": 0.85
     },
     "assets/images/npcs/${finalMonImageName}.png": {
       "translation": "",

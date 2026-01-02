@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/SaveSelector.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 50,
-    "translatedCount": 17
+    "translatedCount": 18
   },
   "entries": {
     "./GameConstants": {
@@ -167,8 +167,10 @@
       "line": 122
     },
     "[${formatDate(new Date())}] %cFailed to load save:": {
-      "translation": "",
-      "line": 122
+      "translation": "[${...}] %c无法加载保存：",
+      "line": 122,
+      "_rematchedFrom": "[${...}] %cFailed to load save:",
+      "_confidence": 0.85
     },
     "div": {
       "translation": "分区",

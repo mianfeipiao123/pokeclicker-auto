@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/oakItems/OakItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 9,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "knockout": {
@@ -31,8 +31,10 @@
       "line": 8
     },
     "Capture ${this.unlockReq - App.game.party.caughtPokemon.length} more unique Pokémon": {
-      "translation": "",
-      "line": 53
+      "translation": "捕捉 ${...} 个独特的宝可梦",
+      "line": 53,
+      "_rematchedFrom": "Capture ${...} more unique Pokémon",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",

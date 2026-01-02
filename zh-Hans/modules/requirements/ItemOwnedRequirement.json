@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/ItemOwnedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 0
+    "translatedCount": 3
   },
   "entries": {
     "../GameConstants": {
@@ -19,16 +19,22 @@
       "line": 3
     },
     "${this.requiredValue} or more": {
-      "translation": "",
-      "line": 16
+      "translation": "${...} 或更多",
+      "line": 16,
+      "_rematchedFrom": "${...} or more",
+      "_confidence": 0.85
     },
     "less than ${this.requiredValue}": {
-      "translation": "",
-      "line": 16
+      "translation": "小于 ${...}",
+      "line": 16,
+      "_rematchedFrom": "less than ${...}",
+      "_confidence": 0.85
     },
     "You must own ${amountHint} ${ItemList[this.itemName].displayName}.": {
-      "translation": "",
-      "line": 17
+      "translation": "你必须拥有 ${...} ${...}。",
+      "line": 17,
+      "_rematchedFrom": "You must own ${...} ${...}.",
+      "_confidence": 0.85
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/routes/Routes.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 7,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "../GameConstants": {
@@ -23,8 +23,10 @@
       "line": 35
     },
     " in ${regionName}": {
-      "translation": "",
-      "line": 37
+      "translation": "在 ${...}",
+      "line": 37,
+      "_rematchedFrom": "in ${...}",
+      "_confidence": 0.85
     },
     " in ${subRegionName}": {
       "translation": "",

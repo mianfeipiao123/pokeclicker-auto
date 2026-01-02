@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/PokeballFilterCountRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "Have at least x${this.requiredValue} Pokéball Filters.": {
-      "translation": "",
-      "line": 17
+      "translation": "至少拥有 x${...} 个精灵球过滤器。",
+      "line": 17,
+      "_rematchedFrom": "Have at least x${...} Pokéball Filters.",
+      "_confidence": 0.85
     }
   }
 }

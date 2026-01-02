@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/ClearBattleFrontierQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "en-US": {
@@ -11,8 +11,10 @@
       "line": 27
     },
     "Clear ${this.amount.toLocaleString('en-US')} Stages in the Battle Frontier.": {
-      "translation": "",
-      "line": 27
+      "translation": "在对战开拓区通关 ${...} 个阶段。",
+      "line": 27,
+      "_rematchedFrom": "Clear ${...} Stages in the Battle Frontier.",
+      "_confidence": 0.85
     }
   }
 }

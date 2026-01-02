@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/ClearDungeonRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 1
+    "translatedCount": 3
   },
   "entries": {
     "../GameConstants": {
@@ -19,12 +19,16 @@
       "line": 8
     },
     "${GameConstants.RegionDungeons.flat()[this.dungeonIndex]} needs to be completed.": {
-      "translation": "",
-      "line": 18
+      "translation": "${...} 需要填写。",
+      "line": 18,
+      "_rematchedFrom": "${...} needs to be completed.",
+      "_confidence": 0.85
     },
     "${GameConstants.RegionDungeons.flat()[this.dungeonIndex]} needs to be completed ${this.requiredValue} times.": {
-      "translation": "",
-      "line": 20
+      "translation": "${...} 需要完成 ${...} 次。",
+      "line": 20,
+      "_rematchedFrom": "${...} needs to be completed ${...} times.",
+      "_confidence": 0.85
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/GameHelper.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 18,
-    "translatedCount": 4
+    "translatedCount": 5
   },
   "entries": {
     "knockout": {
@@ -11,8 +11,10 @@
       "line": 4
     },
     "${hours}h${GameHelper.twoDigitNumber(minutes)}m": {
-      "translation": "",
-      "line": 36
+      "translation": "${...}小时${...}分钟",
+      "line": 36,
+      "_rematchedFrom": "${...}h${...}m",
+      "_confidence": 0.85
     },
     "function": {
       "translation": "功能",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/SafariStepsRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "${this.requiredValue} Steps needs to be taken in a Safari Zone.": {
-      "translation": "",
-      "line": 14
+      "translation": "${...} 需要在 Safari 区域中采取步骤。",
+      "line": 14,
+      "_rematchedFrom": "${...} Steps needs to be taken in a Safari Zone.",
+      "_confidence": 0.85
     }
   }
 }

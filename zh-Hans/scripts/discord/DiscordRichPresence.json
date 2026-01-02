@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/discord/DiscordRichPresence.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 66,
-    "translatedCount": 31
+    "translatedCount": 33
   },
   "entries": {
     "input": {
@@ -243,8 +243,10 @@
       "line": 264
     },
     "background-${MapHelper.calculateBattleCssClass() ?? 'grass'}": {
-      "translation": "",
-      "line": 264
+      "translation": "背景-${...}",
+      "line": 264,
+      "_rematchedFrom": "background-${...}",
+      "_confidence": 0.85
     },
     "discord-rp.small-image": {
       "translation": "不和谐 rp.小图像",
@@ -255,8 +257,10 @@
       "line": 272
     },
     "trainer-${App.game.profile.trainer()}": {
-      "translation": "",
-      "line": 279
+      "translation": "教练-${...}",
+      "line": 279,
+      "_rematchedFrom": "trainer-${...}",
+      "_confidence": 0.85
     },
     "Total Attack: {attack}": {
       "translation": "总攻击力：{攻击}",

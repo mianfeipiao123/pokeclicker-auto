@@ -1,22 +1,26 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/Save.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 18,
-    "translatedCount": 11
+    "translatedCount": 14
   },
   "entries": {
     "player${Save.key}": {
-      "translation": "",
-      "line": 11
+      "translation": "玩家${...}",
+      "line": 11,
+      "_rematchedFrom": "player${...}",
+      "_confidence": 0.85
     },
     "save${Save.key}": {
       "translation": "",
       "line": 12
     },
     "settings${Save.key}": {
-      "translation": "",
-      "line": 13
+      "translation": "设置${...}",
+      "line": 13,
+      "_rematchedFrom": "settings${...}",
+      "_confidence": 0.85
     },
     "Game Saved!": {
       "translation": "游戏已保存！",
@@ -59,8 +63,10 @@
       "line": 88
     },
     "Are you sure you want delete your save file?\n\nTo confirm, type \"DELETE\"": {
-      "translation": "",
-      "line": 89
+      "translation": "你确定要删除你的保存文件吗？要确认，请输入“删除”",
+      "line": 89,
+      "_rematchedFrom": "Are you sure you want delete your save file? To confirm, type \"DELETE\"",
+      "_confidence": 0.95
     },
     "decoded:": {
       "translation": "",

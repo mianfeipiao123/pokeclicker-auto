@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/utilities/UI.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 12,
-    "translatedCount": 5
+    "translatedCount": 8
   },
   "entries": {
     "../wallet/Amount": {
@@ -31,20 +31,26 @@
       "line": 14
     },
     "#animateCurrency-${Currency[currency]}": {
-      "translation": "",
-      "line": 17
+      "translation": "#animateCurrency-${...}",
+      "line": 17,
+      "_rematchedFrom": "#animateCurrency-${...}",
+      "_confidence": 0.85
     },
     "text-danger": {
       "translation": "文字危险",
       "line": 27
     },
     "${amount > 0 ? '' : 'text-danger'} animated-currency": {
-      "translation": "",
-      "line": 27
+      "translation": "${...} 动画货币",
+      "line": 27,
+      "_rematchedFrom": "${...} animated-currency",
+      "_confidence": 0.85
     },
     "top: ${top}px; left: ${left}px; font-size: ${10 + 0.5 * Math.log(Math.abs(amount))}px;": {
-      "translation": "",
-      "line": 28
+      "translation": "顶部：${...}px；左：${...}px；字体大小：${...}px;",
+      "line": 28,
+      "_rematchedFrom": "top: ${...}px; left: ${...}px; font-size: ${...}px;",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",

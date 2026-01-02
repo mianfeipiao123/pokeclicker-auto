@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/SubregionRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -19,8 +19,10 @@
       "line": 3
     },
     "You need to be in the ${SubRegions.getSubRegionById(this.region, this.subregion)} subregion of ${camelCaseToString(Region[this.region])}.": {
-      "translation": "",
-      "line": 15
+      "translation": "你需要位于 ${...} 的 ${...} 子区域中。",
+      "line": 15,
+      "_rematchedFrom": "You need to be in the ${...} subregion of ${...}.",
+      "_confidence": 0.85
     }
   }
 }

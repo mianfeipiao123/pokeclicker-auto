@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/AttackRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../enums/PokemonType": {
@@ -23,8 +23,10 @@
       "line": 4
     },
     "${this.requiredValue} Attack needed.": {
-      "translation": "",
-      "line": 21
+      "translation": "${...} 需要攻击。",
+      "line": 21,
+      "_rematchedFrom": "${...} Attack needed.",
+      "_confidence": 0.85
     }
   }
 }

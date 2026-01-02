@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/QuestHelper.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 1,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "Error: Invalid quest type - ${questType}.": {
-      "translation": "",
-      "line": 45
+      "translation": "错误：无效的任务类型 - ${...}。",
+      "line": 45,
+      "_rematchedFrom": "Error: Invalid quest type - ${...}.",
+      "_confidence": 0.85
     }
   }
 }

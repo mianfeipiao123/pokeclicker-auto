@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/settings/NotificationSetting.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 12,
-    "translatedCount": 8
+    "translatedCount": 9
   },
   "entries": {
     "knockout": {
@@ -23,8 +23,10 @@
       "line": 4
     },
     "${name}.desktop": {
-      "translation": "",
-      "line": 17
+      "translation": "${...}.桌面",
+      "line": 17,
+      "_rematchedFrom": "${...}.desktop",
+      "_confidence": 0.85
     },
     "Notification": {
       "translation": "通知",

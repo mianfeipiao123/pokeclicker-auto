@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/items/HeldItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 135,
-    "translatedCount": 122
+    "translatedCount": 125
   },
   "entries": {
     "Pokémon Restricted": {
@@ -55,12 +55,16 @@
       "line": 67
     },
     "${GameHelper.anOrA(PokemonType[type])} ${PokemonType[type]}-type Pokémon": {
-      "translation": "",
-      "line": 100
+      "translation": "${...} ${...}型宝可梦",
+      "line": 100,
+      "_rematchedFrom": "${...} ${...}-type Pokémon",
+      "_confidence": 0.85
     },
     " and ${_clickAttackBonus > 1 ? 'raises' : 'lowers'} its click attack contribution by ${(Math.abs(_clickAttackBonus - 1) * 100).toFixed(0)}%": {
-      "translation": "",
-      "line": 141
+      "translation": "${...} 其点击攻击贡献为 ${...}%",
+      "line": 141,
+      "_rematchedFrom": "and ${...} its click attack contribution by ${...}%",
+      "_confidence": 0.85
     },
     "A held item that increases EV gains for the holding Pokémon by ${(gainedBonus - 1).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 0 })}.": {
       "translation": "",
@@ -519,8 +523,10 @@
       "line": 256
     },
     " in the Battle Frontier": {
-      "translation": "",
-      "line": 257
+      "translation": "在对战开拓区",
+      "line": 257,
+      "_rematchedFrom": "in the Battle Frontier",
+      "_confidence": 0.95
     },
     "Macho_Brace": {
       "translation": "Macho_Brace",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/FarmHandRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "${this.requiredValue} Farm Hands needs to be unlocked.": {
-      "translation": "",
-      "line": 14
+      "translation": "${...} 农场帮手需要解锁。",
+      "line": 14,
+      "_rematchedFrom": "${...} Farm Hands needs to be unlocked.",
+      "_confidence": 0.85
     }
   }
 }

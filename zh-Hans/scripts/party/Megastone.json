@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/party/Megastone.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 3
+    "translatedCount": 4
   },
   "entries": {
     "megastone": {
@@ -23,8 +23,10 @@
       "line": 19
     },
     "Needs at least ${this.attackRequired.toLocaleString('en-US')} attack to Mega Evolve.": {
-      "translation": "",
-      "line": 19
+      "translation": "需要至少 ${...} 攻击才能进行超级进化。",
+      "line": 19,
+      "_rematchedFrom": "Needs at least ${...} attack to Mega Evolve.",
+      "_confidence": 0.85
     }
   }
 }

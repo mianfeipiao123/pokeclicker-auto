@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/gym/Gym.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 22,
-    "translatedCount": 13
+    "translatedCount": 14
   },
   "entries": {
     "Battle Gym Leaders to earn badges": {
@@ -31,8 +31,10 @@
       "line": 103
     },
     "${leaderName}'s Gym": {
-      "translation": "",
-      "line": 104
+      "translation": "${...}的道馆",
+      "line": 104,
+      "_rematchedFrom": "${...}'s Gym",
+      "_confidence": 0.85
     },
     "Brock": {
       "translation": "小刚",

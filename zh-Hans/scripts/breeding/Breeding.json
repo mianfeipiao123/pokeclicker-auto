@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/breeding/Breeding.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 183,
-    "translatedCount": 175
+    "translatedCount": 181
   },
   "entries": {
     "Breeding": {
@@ -667,12 +667,16 @@
       "line": 108
     },
     "Error: Could not place ${EggType[e.type]} Egg": {
-      "translation": "",
-      "line": 204
+      "translation": "错误：无法放置 ${...} 蛋",
+      "line": 204,
+      "_rematchedFrom": "Error: Could not place ${...} Egg",
+      "_confidence": 0.85
     },
     "Tried to add ${pokemon.name} to the hatchery while already being bred!": {
-      "translation": "",
-      "line": 267
+      "translation": "尝试在已经孵化的情况下将 ${...} 添加到孵化场！",
+      "line": 267,
+      "_rematchedFrom": "Tried to add ${...} to the hatchery while already being bred!",
+      "_confidence": 0.85
     },
     "You don't have any free egg slots": {
       "translation": "你没有空余的蛋位",
@@ -687,16 +691,20 @@
       "line": 292
     },
     "Invalidly-typed data detected in hatchery queue: ${queueData}": {
-      "translation": "",
-      "line": 352
+      "translation": "在孵化场队列中检测到无效类型的数据：${...}",
+      "line": 352,
+      "_rematchedFrom": "Invalidly-typed data detected in hatchery queue: ${...}",
+      "_confidence": 0.85
     },
     "Clear Queue": {
       "translation": "清除队列",
       "line": 361
     },
     "Are you sure?\n\nAll Pokémon will be removed from your breeding queue.": {
-      "translation": "",
-      "line": 362
+      "translation": "你确定吗？所有宝可梦都将从你的繁殖队列中删除。",
+      "line": 362,
+      "_rematchedFrom": "Are you sure? All Pokémon will be removed from your breeding queue.",
+      "_confidence": 0.95
     },
     "Clear": {
       "translation": "晴朗",
@@ -727,12 +735,16 @@
       "line": 586
     },
     "assets/images/profile/trainer-${x.trainerSprite}.png": {
-      "translation": "",
-      "line": 586
+      "translation": "资产/图像/个人资料/培训师-${...}.png",
+      "line": 586,
+      "_rematchedFrom": "assets/images/profile/trainer-${...}.png",
+      "_confidence": 0.85
     },
     "assets/images/currency/${GameConstants.Currency[x.cost.currency]}.svg": {
-      "translation": "",
-      "line": 586
+      "translation": "资产/图像/货币/${...}.svg",
+      "line": 586,
+      "_rematchedFrom": "assets/images/currency/${...}.svg",
+      "_confidence": 0.85
     },
     "<img src=\"assets/images/profile/trainer-${x.trainerSprite}.png\" width=\"20px\">&nbsp; ${x.name} <img src=\"assets/images/currency/${GameConstants.Currency[x.cost.currency]}.svg\" width=\"20px\">&nbsp;${(x.cost.amount).toLocaleString('en-US')} <br/>": {
       "translation": "",

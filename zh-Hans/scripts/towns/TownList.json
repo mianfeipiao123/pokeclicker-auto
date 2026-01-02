@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/towns/TownList.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3312,
-    "translatedCount": 2461
+    "translatedCount": 2466
   },
   "entries": {
     "Explorers Poké Mart": {
@@ -2087,8 +2087,10 @@
       "line": 1725
     },
     " ...Oh, I’m so relieved... This is just so wonderful... Thank you so very, very much.": {
-      "translation": "",
-      "line": 1730
+      "translation": "……噢，我松了口气……这真是太棒了……非常非常感谢。",
+      "line": 1730,
+      "_rematchedFrom": "...Oh, I’m so relieved... This is just so wonderful... Thank you so very, very much.",
+      "_confidence": 0.95
     },
     "...I will return to the Gym...": {
       "translation": "",
@@ -3271,8 +3273,10 @@
       "line": 2670
     },
     "Enter Code...": {
-      "translation": "",
-      "line": 2670
+      "translation": "输入代码...",
+      "line": 2670,
+      "_rematchedFrom": "Enter code...",
+      "_confidence": 0.95
     },
     "EON-TICKET": {
       "translation": "EON-票务",
@@ -5643,8 +5647,10 @@
       "line": 4369
     },
     "I was robbed of a precious Pokémon Egg by the Go-Rock Squad! The egg was coloured a transparent blue...  Like the colour of the sea!": {
-      "translation": "",
-      "line": 4370
+      "translation": "我被岩石小队抢走了珍贵的宝可梦蛋！蛋的颜色是透明的蓝色……就像大海的颜色！",
+      "line": 4370,
+      "_rematchedFrom": "I was robbed of a precious Pokémon Egg by the Go-Rock Squad! The egg was coloured a transparent blue... Like the colour of the sea!",
+      "_confidence": 0.95
     },
     "The Go-Rock Squad were troublemakers the Pokémon Rangers dealt with in my home region. I don't know why they took it, but the Go-Rock Squad is trying to regroup!": {
       "translation": "Go-Rock 小队是宝可梦游骑兵队在我家乡对付的麻烦制造者。我不知道他们为什么要拿走它，但岩石小队正在尝试重新集结！",
@@ -5971,8 +5977,10 @@
       "line": 4529
     },
     "Snover are happy to let you pick their berries.  They then wander away into the wilderness. Please be kind to them!": {
-      "translation": "",
-      "line": 4530
+      "translation": "Snover 很乐意让你采摘他们的树果。然后他们就流浪到旷野。请善待他们！",
+      "line": 4530,
+      "_rematchedFrom": "Snover are happy to let you pick their berries. They then wander away into the wilderness. Please be kind to them!",
+      "_confidence": 0.95
     },
     "Grotle and Friends": {
       "translation": "格罗特尔和朋友们",
@@ -8903,8 +8911,10 @@
       "line": 7060
     },
     "The mysteries of the Ultra Wormhole and Ultra Beasts...  I would be very happy if I could somehow unravel them!": {
-      "translation": "",
-      "line": 7061
+      "translation": "究极之洞和究极异兽的奥秘……如果能解开的话我会很高兴！",
+      "line": 7061,
+      "_rematchedFrom": "The mysteries of the Ultra Wormhole and Ultra Beasts... I would be very happy if I could somehow unravel them!",
+      "_confidence": 0.95
     },
     "You say I look familiar? Oh, you've probably seen me with Kukui. He's my husband!": {
       "translation": "你说我看起来很眼熟？哦，你可能见过我和库库伊在一起。他是我丈夫！",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/CaptureSpecificPokemonQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 2
   },
   "entries": {
     "or hatch ": {
@@ -11,12 +11,16 @@
       "line": 17
     },
     "Capture ${this.includeBreeding ? 'or hatch ' : ''}${this.pokemon.name}.": {
-      "translation": "",
-      "line": 17
+      "translation": "捕获${...}${...}。",
+      "line": 17,
+      "_rematchedFrom": "Capture ${...}${...}.",
+      "_confidence": 0.85
     },
     "Capture ${this.includeBreeding ? 'or hatch ' : ''}${this.pokemon.name} ${this.amount} times.": {
-      "translation": "",
-      "line": 19
+      "translation": "捕获 ${...}${...} ${...} 次。",
+      "line": 19,
+      "_rematchedFrom": "Capture ${...}${...} ${...} times.",
+      "_confidence": 0.85
     }
   }
 }

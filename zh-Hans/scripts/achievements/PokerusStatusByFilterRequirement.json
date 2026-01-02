@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/achievements/PokerusStatusByFilterRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 1,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "${this.requiredValue} Pokémon needs to be infected.": {
-      "translation": "",
-      "line": 17
+      "translation": "${...} 个宝可梦需要被感染。",
+      "line": 17,
+      "_rematchedFrom": "${...} Pokémon needs to be infected.",
+      "_confidence": 0.85
     }
   }
 }

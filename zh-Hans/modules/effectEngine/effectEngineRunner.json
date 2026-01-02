@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/effectEngine/effectEngineRunner.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 10,
-    "translatedCount": 3
+    "translatedCount": 5
   },
   "entries": {
     "knockout": {
@@ -35,16 +35,20 @@
       "line": 12
     },
     "The ${humanifyString(itemName)}'s effect is about to wear off!": {
-      "translation": "",
-      "line": 37
+      "translation": "${...}的效果即将结束！",
+      "line": 37,
+      "_rematchedFrom": "The ${...}'s effect is about to wear off!",
+      "_confidence": 0.85
     },
     "99h+": {
       "translation": "99小时+",
       "line": 69
     },
     "${+times[0]}h": {
-      "translation": "",
-      "line": 71
+      "translation": "${...}小时",
+      "line": 71,
+      "_rematchedFrom": "${...}h",
+      "_confidence": 0.85
     }
   }
 }

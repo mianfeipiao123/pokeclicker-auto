@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/changelog/ChangelogItems.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 1367,
-    "translatedCount": 1130
+    "translatedCount": 1131
   },
   "entries": {
     "./Changelog": {
@@ -3371,8 +3371,10 @@
       "line": 1091
     },
     "Dynamic Pokémon disappearing  before leaving screen": {
-      "translation": "",
-      "line": 1092
+      "translation": "动态宝可梦在离开屏幕前消失",
+      "line": 1092,
+      "_rematchedFrom": "Dynamic Pokémon disappearing before leaving screen",
+      "_confidence": 0.95
     },
     "v0.7.4": {
       "translation": "",

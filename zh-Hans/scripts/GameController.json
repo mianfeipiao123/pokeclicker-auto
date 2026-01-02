@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/GameController.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 74,
-    "translatedCount": 53
+    "translatedCount": 54
   },
   "entries": {
     "visibility": {
@@ -31,8 +31,10 @@
       "line": 28
     },
     "key${type}": {
-      "translation": "",
-      "line": 28
+      "translation": "关键${...}",
+      "line": 28,
+      "_rematchedFrom": "key${...}",
+      "_confidence": 0.85
     },
     "HTMLEvents": {
       "translation": "HTML事件",

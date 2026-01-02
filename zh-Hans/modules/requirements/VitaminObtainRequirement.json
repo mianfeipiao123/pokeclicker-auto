@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/VitaminObtainRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "${this.requiredValue} Vitamins need to be obtained.": {
-      "translation": "",
-      "line": 14
+      "translation": "${...} 需要获取维生素。",
+      "line": 14,
+      "_rematchedFrom": "${...} Vitamins need to be obtained.",
+      "_confidence": 0.85
     }
   }
 }

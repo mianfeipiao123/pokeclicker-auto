@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/discord/DiscordCode.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "[Discord Code] ${this.name}": {
-      "translation": "",
-      "line": 17
+      "translation": "[不一致代码] ${...}",
+      "line": 17,
+      "_rematchedFrom": "[Discord Code] ${...}",
+      "_confidence": 0.85
     },
     "Already claimed!": {
       "translation": "已经认领了！",

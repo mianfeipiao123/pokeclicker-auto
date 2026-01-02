@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/breeding/BreedingController.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 29,
-    "translatedCount": 17
+    "translatedCount": 26
   },
   "entries": {
     "hide": {
@@ -35,8 +35,10 @@
       "line": 55
     },
     "assets/images/breeding/${GameConstants.EggItemType[id]}.png": {
-      "translation": "",
-      "line": 75
+      "translation": "资产/图像/育种/${...}.png",
+      "line": 75,
+      "_rematchedFrom": "assets/images/breeding/${...}.png",
+      "_confidence": 0.85
     },
     "breedingIDFilter": {
       "translation": "breedingIDFilter",
@@ -47,8 +49,10 @@
       "line": 106
     },
     " & more": {
-      "translation": "",
-      "line": 111
+      "translation": "＆ 更多的",
+      "line": 111,
+      "_rematchedFrom": "& more",
+      "_confidence": 0.95
     },
     "None": {
       "translation": "无",
@@ -63,20 +67,28 @@
       "line": 128
     },
     "Attack Bonus: ${Math.floor(pokemon.getBreedingAttackBonus() * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US')}": {
-      "translation": "",
-      "line": 128
+      "translation": "攻击奖励：${...}",
+      "line": 128,
+      "_rematchedFrom": "Attack Bonus: ${...}",
+      "_confidence": 0.85
     },
     "Base Attack: ${pokemon.baseAttack.toLocaleString('en-US')}": {
-      "translation": "",
-      "line": 129
+      "translation": "基本攻击：${...}",
+      "line": 129,
+      "_rematchedFrom": "Base Attack: ${...}",
+      "_confidence": 0.85
     },
     "Egg Steps: ${pokemon.getEggSteps().toLocaleString('en-US')}": {
-      "translation": "",
-      "line": 130
+      "translation": "鸡蛋步骤：${...}",
+      "line": 130,
+      "_rematchedFrom": "Egg Steps: ${...}",
+      "_confidence": 0.85
     },
     "Hatches: ${App.game.statistics.pokemonHatched[pokemonData.id]().toLocaleString('en-US')}": {
-      "translation": "",
-      "line": 131
+      "translation": "舱口：${...}",
+      "line": 131,
+      "_rematchedFrom": "Hatches: ${...}",
+      "_confidence": 0.85
     },
     "Efficiency: ${(pokemon.breedingEfficiency() * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US', { maximumFractionDigits: 3 })}": {
       "translation": "",
@@ -95,24 +107,30 @@
       "line": 135
     },
     "Vitamins: ${pokemon.totalVitaminsUsed()}": {
-      "translation": "",
-      "line": 135
+      "translation": "维生素：${...}",
+      "line": 135,
+      "_rematchedFrom": "Vitamins: ${...}",
+      "_confidence": 0.85
     },
     "evs": {
       "translation": "落雷兽",
       "line": 136
     },
     "EVs: ${pokemon.evs().toLocaleString('en-US')}": {
-      "translation": "",
-      "line": 136
+      "translation": "努力值：${...}",
+      "line": 136,
+      "_rematchedFrom": "EVs: ${...}",
+      "_confidence": 0.85
     },
     "attack": {
       "translation": "攻击",
       "line": 137
     },
     "Attack: ${Math.floor(pokemon.attack * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US')}": {
-      "translation": "",
-      "line": 139
+      "translation": "攻击：${...}",
+      "line": 139,
+      "_rematchedFrom": "Attack: ${...}",
+      "_confidence": 0.85
     },
     "breedingRegionalAttackDebuffSetting": {
       "translation": "breedingRegionalAttackDebuffSetting",

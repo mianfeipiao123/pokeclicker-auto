@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/background/DynamicBackground.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 26,
-    "translatedCount": 7
+    "translatedCount": 12
   },
   "entries": {
     "../GameConstants": {
@@ -23,8 +23,10 @@
       "line": 35
     },
     "${sunY}px": {
-      "translation": "",
-      "line": 36
+      "translation": "${...} 像素",
+      "line": 36,
+      "_rematchedFrom": "${...}px",
+      "_confidence": 0.85
     },
     "${sunX}px": {
       "translation": "",
@@ -47,8 +49,10 @@
       "line": 60
     },
     "sky sky-${bgNumber}": {
-      "translation": "",
-      "line": 60
+      "translation": "天空天空-${...}",
+      "line": 60,
+      "_rematchedFrom": "sky sky-${...}",
+      "_confidence": 0.85
     },
     "sky2": {
       "translation": "天空2",
@@ -63,8 +67,10 @@
       "line": 65
     },
     "ground ground-${bgNumber}": {
-      "translation": "",
-      "line": 65
+      "translation": "地面-${...}",
+      "line": 65,
+      "_rematchedFrom": "ground ground-${...}",
+      "_confidence": 0.85
     },
     "ground2": {
       "translation": "地面2",
@@ -79,8 +85,10 @@
       "line": 102
     },
     "${Rand.intBetween(20, 90)}vh": {
-      "translation": "",
-      "line": 103
+      "translation": "${...}vh",
+      "line": 103,
+      "_rematchedFrom": "${...}vh",
+      "_confidence": 0.85
     },
     "${Rand.intBetween(5, 15)}vh": {
       "translation": "",
@@ -103,8 +111,10 @@
       "line": 104
     },
     "speed-${moveSpeed}": {
-      "translation": "",
-      "line": 106
+      "translation": "速度-${...}",
+      "line": 106,
+      "_rematchedFrom": "speed-${...}",
+      "_confidence": 0.85
     },
     "dynamic-background": {
       "translation": "",

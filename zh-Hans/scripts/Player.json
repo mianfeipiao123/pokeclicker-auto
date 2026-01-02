@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/Player.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 14,
-    "translatedCount": 1
+    "translatedCount": 4
   },
   "entries": {
     "Welcome Time Traveller!": {
@@ -11,16 +11,22 @@
       "line": 42
     },
     "Please ensure you keep a backup of your old save as travelling through time can cause some serious problems.\n\nAny Pokémon you may have obtained in the future could cease to exist which could corrupt your save file!": {
-      "translation": "",
-      "line": 43
+      "translation": "请确保保留旧存档的备份，因为穿越时间可能会导致一些严重的问题。你将来可能获得的任何宝可梦都可能不复存在，这可能会损坏你的保存文件！",
+      "line": 43,
+      "_rematchedFrom": "Please ensure you keep a backup of your old save as travelling through time can cause some serious problems. Any Pokémon you may have obtained in the future could cease to exist which could corrupt your save file!",
+      "_confidence": 0.95
     },
     "${partyPokemon.displayName} has gained a Mega Stone!": {
-      "translation": "",
-      "line": 196
+      "translation": "${...} 获得了超级石！",
+      "line": 196,
+      "_rematchedFrom": "${...} has gained a Mega Stone!",
+      "_confidence": 0.85
     },
     "You have gained a Mega Stone for ${item.basePokemon}!": {
-      "translation": "",
-      "line": 196
+      "translation": "你获得了 ${...} 的超级石！",
+      "line": 196,
+      "_rematchedFrom": "You have gained a Mega Stone for ${...}!",
+      "_confidence": 0.85
     },
     "_route": {
       "translation": "",

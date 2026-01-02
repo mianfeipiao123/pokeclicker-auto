@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/AllFlutesTimeActiveRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "../GameConstants": {
@@ -23,8 +23,10 @@
       "line": 22
     },
     "Have all Flutes active for a total of ${this.requiredValue.toLocaleString('en-US')} minutes.": {
-      "translation": "",
-      "line": 22
+      "translation": "让所有长笛都处于活动状态，总计 ${...} 分钟。",
+      "line": 22,
+      "_rematchedFrom": "Have all Flutes active for a total of ${...} minutes.",
+      "_confidence": 0.85
     }
   }
 }

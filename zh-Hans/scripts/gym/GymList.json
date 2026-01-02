@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/gym/GymList.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 986,
-    "translatedCount": 938
+    "translatedCount": 941
   },
   "entries": {
     "Pewter City": {
@@ -1035,8 +1035,10 @@
       "line": 651
     },
     "I can see why you made it so far in the Indigo League, and I bet you'll do pretty well in the Orange League.\n": {
-      "translation": "",
-      "line": 653
+      "translation": "我明白你为什么能在靛蓝联赛中取得如此大的成绩，而且我打赌你在橙色联赛中也会表现得很好。",
+      "line": 653,
+      "_rematchedFrom": "I can see why you made it so far in the Indigo League, and I bet you'll do pretty well in the Orange League.",
+      "_confidence": 0.95
     },
     "This is the Coral-Eye Badge of the Mikan Gym, to prove that you won your match!": {
       "translation": "这是蜜柑道馆的珊瑚眼徽章，证明你赢得了比赛！",
@@ -1063,8 +1065,10 @@
       "line": 665
     },
     "You and the others were great.\nNow I'd like to give you and your fellow challengers something you really deserve. The Sea Ruby badge. It's yours.": {
-      "translation": "",
-      "line": 669
+      "translation": "你和其他人都很棒。现在我想给你和你的挑战者同伴一些你真正应得的东西。海红宝石徽章。这是你的。",
+      "line": 669,
+      "_rematchedFrom": "You and the others were great. Now I'd like to give you and your fellow challengers something you really deserve. The Sea Ruby badge. It's yours.",
+      "_confidence": 0.95
     },
     "Lost Cave": {
       "translation": "失落的洞穴",
@@ -1099,8 +1103,10 @@
       "line": 690
     },
     "You did a fine job.\nAnd now, as Kumquat Island gym leader, and a member of the Orange Crew, I happily present this token of your victory.": {
-      "translation": "",
-      "line": 694
+      "translation": "你做得很好。现在，作为金橘岛道馆的领队和橙色船员的一员，我很高兴地向你们赠送这个胜利的象征。",
+      "line": 694,
+      "_rematchedFrom": "You did a fine job. And now, as Kumquat Island gym leader, and a member of the Orange Crew, I happily present this token of your victory.",
+      "_confidence": 0.95
     },
     "Icefall Cave": {
       "translation": "冰瀑布洞",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/Update.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 445,
-    "translatedCount": 337
+    "translatedCount": 351
   },
   "entries": {
     "update": {
@@ -231,8 +231,10 @@
       "line": 510
     },
     "New challenge mode added: Regional Attack Debuff.\n\nLowers Pokémon attack based on native region and highest reached region.\n\nThis is the default and recommended way to play, but is now an optional challenge.\n\nPlease choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": {
-      "translation": "",
-      "line": 510
+      "translation": "添加了新的挑战模式：区域攻击减益。根据出生地区和最高到达地区降低宝可梦的攻击力。这是默认和推荐的游戏方式，但现在是可选的挑战。请选择你是否希望启用或禁用此挑战模式（以后无法重新启用）",
+      "line": 510,
+      "_rematchedFrom": "New challenge mode added: Regional Attack Debuff. Lowers Pokémon attack based on native region and highest reached region. This is the default and recommended way to play, but is now an optional challenge. Please choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)",
+      "_confidence": 0.95
     },
     "Disable": {
       "translation": "禁用",
@@ -303,12 +305,16 @@
       "line": 752
     },
     "New challenge mode added: Slow EVs.\n\nDiminishes the rate at which EVs are gained.\n\nThis is an optional challenge and is NOT the recommended way to play.\n\nPlease choose if you would like this challenge mode to be disabled or enabled.\n\nCan be disabled later. Can NOT be enabled later!": {
-      "translation": "",
-      "line": 752
+      "translation": "添加了新的挑战模式：慢速努力值。降低获得努力值的速度。这是一个可选的挑战，不是推荐的游戏方式。请选择你是否希望禁用或启用此挑战模式。可以稍后禁用。以后无法启用！",
+      "line": 752,
+      "_rematchedFrom": "New challenge mode added: Slow EVs. Diminishes the rate at which EVs are gained. This is an optional challenge and is NOT the recommended way to play. Please choose if you would like this challenge mode to be disabled or enabled. Can be disabled later. Can NOT be enabled later!",
+      "_confidence": 0.95
     },
     "Loadout ${index + 1}": {
-      "translation": "",
-      "line": 785
+      "translation": "装载${...}",
+      "line": 785,
+      "_rematchedFrom": "Loadout ${...}",
+      "_confidence": 0.85
     },
     "Bill's Errand": {
       "translation": "比尔的差事",
@@ -1443,8 +1449,10 @@
       "line": 2565
     },
     "${it.name} is not a valid item to store.": {
-      "translation": "",
-      "line": 2572
+      "translation": "${...} 不是要存储的有效项目。",
+      "line": 2572,
+      "_rematchedFrom": "${...} is not a valid item to store.",
+      "_confidence": 0.85
     },
     "catchFilters.invertPriorityOrder": {
       "translation": "捕获过滤器优先级反转（从下到上）",
@@ -1635,8 +1643,10 @@
       "line": 2982
     },
     "[UPDATE] v${result.version}": {
-      "translation": "",
-      "line": 2988
+      "translation": "[更新] v${...}",
+      "line": 2988,
+      "_rematchedFrom": "[UPDATE] v${...}",
+      "_confidence": 0.85
     },
     "A newer version of the game is available:\n\n<a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">Reload Page</a>": {
       "translation": "",
@@ -1671,28 +1681,40 @@
       "line": 3060
     },
     "Please update your game before attempting to load this save..\n\nSave version: ${this.saveVersion}\nGame version: ${this.version}": {
-      "translation": "",
-      "line": 3061
+      "translation": "请在尝试加载此保存之前更新你的游戏。保存版本：${...} 游戏版本：${...}",
+      "line": 3061,
+      "_rematchedFrom": "Please update your game before attempting to load this save.. Save version: ${...} Game version: ${...}",
+      "_confidence": 0.85
     },
     "Save is newer than game version\nSave version: ${this.saveVersion}\nGame version: ${this.version}": {
-      "translation": "",
-      "line": 3065
+      "translation": "保存版本比游戏版本新保存版本：${...} 游戏版本：${...}",
+      "line": 3065,
+      "_rematchedFrom": "Save is newer than game version Save version: ${...} Game version: ${...}",
+      "_confidence": 0.85
     },
     "Applying update v${version}": {
-      "translation": "",
-      "line": 3088
+      "translation": "正在应用更新 v${...}",
+      "line": 3088,
+      "_rematchedFrom": "Applying update v${...}",
+      "_confidence": 0.85
     },
     "Caught error while applying update v${version}:\n": {
-      "translation": "",
-      "line": 3092
+      "translation": "应用更新 v${...} 时遇到错误：",
+      "line": 3092,
+      "_rematchedFrom": "Caught error while applying update v${...}:",
+      "_confidence": 0.85
     },
     "Caught error while backing up save file to localStorage:\n": {
-      "translation": "",
-      "line": 3097
+      "translation": "将保存文件备份到 localStorage 时遇到错误：",
+      "line": 3097,
+      "_rematchedFrom": "Caught error while backing up save file to localStorage:",
+      "_confidence": 0.95
     },
     "Failed to update to v${this.version}!": {
-      "translation": "",
-      "line": 3103
+      "translation": "无法更新到 v${...}！",
+      "line": 3103,
+      "_rematchedFrom": "Failed to update to v${...}!",
+      "_confidence": 0.85
     },
     "Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a>.\n\nUnable to prepare backup save for download. Your save file is safe, but report this error as well.": {
       "translation": "",
@@ -1719,8 +1741,10 @@
       "line": 3127
     },
     "Are you sure you want to reset your save?\n\nThis cannot be undone, so please make sure you have a backup first!": {
-      "translation": "",
-      "line": 3128
+      "translation": "你确定要重置你的保存吗？此操作无法撤消，因此请先确保你有备份！",
+      "line": 3128,
+      "_rematchedFrom": "Are you sure you want to reset your save? This cannot be undone, so please make sure you have a backup first!",
+      "_confidence": 0.95
     },
     "Reset": {
       "translation": "重置",
@@ -1739,8 +1763,10 @@
       "line": 3137
     },
     "[v${this.version}] Game has been updated!": {
-      "translation": "",
-      "line": 3155
+      "translation": "[v${...}] 游戏已更新！",
+      "line": 3155,
+      "_rematchedFrom": "[v${...}] Game has been updated!",
+      "_confidence": 0.85
     },
     "modal": {
       "translation": "",
@@ -1759,8 +1785,10 @@
       "line": 3164
     },
     "Caught error while backing up old save file to localStorage:\n": {
-      "translation": "",
-      "line": 3171
+      "translation": "将旧保存文件备份到 localStorage 时遇到错误：",
+      "line": 3171,
+      "_rematchedFrom": "Caught error while backing up old save file to localStorage:",
+      "_confidence": 0.95
     },
     "Error getting player data": {
       "translation": "获取玩家数据时出错",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/items/PokeBlock.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "PokeBlock_${PokeBlockColor[color]}": {
-      "translation": "",
-      "line": 8
+      "translation": "PokeBlock_${...}",
+      "line": 8,
+      "_rematchedFrom": "PokeBlock_${...}",
+      "_confidence": 0.85
     },
     "Unobtainable item for future uses": {
       "translation": "无法获得的物品供将来使用",

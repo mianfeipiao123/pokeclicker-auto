@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/QuestLine.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 8,
-    "translatedCount": 4
+    "translatedCount": 7
   },
   "entries": {
     "New Quest Line Started!": {
@@ -11,20 +11,26 @@
       "line": 85
     },
     "${this.description}\n<i>\"${this.name}\" added to the Quest List!</i>": {
-      "translation": "",
-      "line": 86
+      "translation": "${...}\n<i>\"${...}\"已添加到任务列表！</i>",
+      "line": 86,
+      "_rematchedFrom": "${...}\n<i>\"${...}\" added to the Quest List!</i>",
+      "_confidence": 0.85
     },
     "${this.name}.displayName": {
-      "translation": "",
-      "line": 150
+      "translation": "${...}.显示名称",
+      "line": 150,
+      "_rematchedFrom": "${...}.displayName",
+      "_confidence": 0.85
     },
     "questlines": {
       "translation": "任务线",
       "line": 151
     },
     "${this.name}.description": {
-      "translation": "",
-      "line": 161
+      "translation": "${...}.描述",
+      "line": 161,
+      "_rematchedFrom": "${...}.description",
+      "_confidence": 0.85
     },
     "This quest line cannot be paused. It is either a story, progression related, or otherwise required quest.": {
       "translation": "该任务线无法暂停。它要么是一个故事，要么是与进程相关的，要么是其他必需的任务。",

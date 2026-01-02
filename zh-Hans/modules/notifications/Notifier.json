@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/notifications/Notifier.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 66,
-    "translatedCount": 20
+    "translatedCount": 23
   },
   "entries": {
     "./NotificationOption": {
@@ -123,8 +123,10 @@
       "line": 114
     },
     "modal${modalID}": {
-      "translation": "",
-      "line": 114
+      "translation": "模态${...}",
+      "line": 114,
+      "_rematchedFrom": "modal${...}",
+      "_confidence": 0.85
     },
     "dialog": {
       "translation": "",
@@ -207,16 +209,20 @@
       "line": 138
     },
     "#modal${modalID}": {
-      "translation": "",
-      "line": 139
+      "translation": "#模态${...}",
+      "line": 139,
+      "_rematchedFrom": "#modal${...}",
+      "_confidence": 0.85
     },
     "Escape": {
       "translation": "逃脱",
       "line": 141
     },
     "#promptInput${modalID}": {
-      "translation": "",
-      "line": 142
+      "translation": "#promptInput${...}",
+      "line": 142,
+      "_rematchedFrom": "#promptInput${...}",
+      "_confidence": 0.85
     },
     "static": {
       "translation": "静止的",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/items/BerryItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 7,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../enums/BerryType": {
@@ -19,8 +19,10 @@
       "line": 3
     },
     "${BerryType[berry]}Berry": {
-      "translation": "",
-      "line": 9
+      "translation": "${...}树果",
+      "line": 9,
+      "_rematchedFrom": "${...}Berry",
+      "_confidence": 0.85
     },
     "${BerryType[berry]} Berry": {
       "translation": "",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/QuestLineStepCompletedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 9,
-    "translatedCount": 2
+    "translatedCount": 4
   },
   "entries": {
     "../GameConstants": {
@@ -35,12 +35,16 @@
       "line": 22
     },
     "Progress further in questline ${this.quest.displayName}.": {
-      "translation": "",
-      "line": 31
+      "translation": "任务线 ${...} 取得进一步进展。",
+      "line": 31,
+      "_rematchedFrom": "Progress further in questline ${...}.",
+      "_confidence": 0.85
     },
     "Questline ${this.quest.displayName} has progressed past this point.": {
-      "translation": "",
-      "line": 31
+      "translation": "任务线 ${...} 已经超越了这一点。",
+      "line": 31,
+      "_rematchedFrom": "Questline ${...} has progressed past this point.",
+      "_confidence": 0.85
     }
   }
 }

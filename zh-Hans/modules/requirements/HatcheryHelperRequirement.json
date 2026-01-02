@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/HatcheryHelperRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "${this.requiredValue} Hatchery Helpers need at least ${this.bonusRequired} bonus.": {
-      "translation": "",
-      "line": 14
+      "translation": "${...} 孵化场助手需要至少 ${...} 奖金。",
+      "line": 14,
+      "_rematchedFrom": "${...} Hatchery Helpers need at least ${...} bonus.",
+      "_confidence": 0.85
     }
   }
 }

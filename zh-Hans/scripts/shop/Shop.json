@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/shop/Shop.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 5
+    "translatedCount": 6
   },
   "entries": {
     "btn btn-secondary": {
@@ -23,8 +23,10 @@
       "line": 20
     },
     "Poké Mart ${this.parent.name}": {
-      "translation": "",
-      "line": 47
+      "translation": "宝可梦超市 ${...}",
+      "line": 47,
+      "_rematchedFrom": "Poké Mart ${...}",
+      "_confidence": 0.85
     },
     "input[name=\"amountOfItems\"]": {
       "translation": "输入[名称=“项目数量”]",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/dungeons/DungeonTile.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 6,
-    "translatedCount": 3
+    "translatedCount": 5
   },
   "entries": {
     "tile tile-invisible": {
@@ -23,12 +23,16 @@
       "line": 60
     },
     "tile-${GameConstants.DungeonTileType[this.type()]}": {
-      "translation": "",
-      "line": 63
+      "translation": "瓷砖-${...}",
+      "line": 63,
+      "_rematchedFrom": "tile-${...}",
+      "_confidence": 0.85
     },
     "tile-chest-${(this.metadata as ChestMetaData).tier}": {
-      "translation": "",
-      "line": 66
+      "translation": "瓷砖胸部-${...}",
+      "line": 66,
+      "_rematchedFrom": "tile-chest-${...}",
+      "_confidence": 0.85
     }
   }
 }

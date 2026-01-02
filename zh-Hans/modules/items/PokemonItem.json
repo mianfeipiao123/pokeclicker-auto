@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/items/PokemonItem.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 19,
-    "translatedCount": 4
+    "translatedCount": 5
   },
   "entries": {
     "./PokerusIndicatingItem": {
@@ -55,8 +55,10 @@
       "line": 12
     },
     "Add ${pokemon} to your party.": {
-      "translation": "",
-      "line": 27
+      "translation": "将 ${...} 添加到你的队伍中。",
+      "line": 27,
+      "_rematchedFrom": "Add ${...} to your party.",
+      "_confidence": 0.85
     },
     "${(shiny) ? ": {
       "translation": "${(shiny) ? ",

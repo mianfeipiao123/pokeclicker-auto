@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/PokemonAttackRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 10,
-    "translatedCount": 5
+    "translatedCount": 6
   },
   "entries": {
     "../GameConstants": {
@@ -43,8 +43,10 @@
       "line": 34
     },
     "${this.pokemon} needs ${comparisonOperator} ${attackRequired.toLocaleString('en-US')} attack.": {
-      "translation": "",
-      "line": 34
+      "translation": "${...} 需要 ${...} ${...} 攻击。",
+      "line": 34,
+      "_rematchedFrom": "${...} needs ${...} ${...} attack.",
+      "_confidence": 0.85
     }
   }
 }

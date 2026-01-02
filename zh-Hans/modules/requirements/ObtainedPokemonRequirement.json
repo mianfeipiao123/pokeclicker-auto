@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/ObtainedPokemonRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 0
+    "translatedCount": 2
   },
   "entries": {
     "../GameConstants": {
@@ -19,12 +19,16 @@
       "line": 3
     },
     "${this.pokemon} needs to be owned.": {
-      "translation": "",
-      "line": 16
+      "translation": "${...} 需要被拥有。",
+      "line": 16,
+      "_rematchedFrom": "${...} needs to be owned.",
+      "_confidence": 0.85
     },
     "${this.pokemon} cannot be owned yet.": {
-      "translation": "",
-      "line": 17
+      "translation": "${...} 尚不能被拥有。",
+      "line": 17,
+      "_rematchedFrom": "${...} cannot be owned yet.",
+      "_confidence": 0.85
     }
   }
 }

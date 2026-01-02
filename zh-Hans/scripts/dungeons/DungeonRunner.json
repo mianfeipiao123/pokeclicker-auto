@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/dungeons/DungeonRunner.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 21,
-    "translatedCount": 13
+    "translatedCount": 14
   },
   "entries": {
     "Viridian Forest": {
@@ -75,8 +75,10 @@
       "line": 306
     },
     "Leave the dungeon?\n\nCurrent progress will be lost, but you will keep any items obtained from chests.": {
-      "translation": "",
-      "line": 307
+      "translation": "离开迷宫？当前进度将会丢失，但你将保留从箱子中获得的所有物品。",
+      "line": 307,
+      "_rematchedFrom": "Leave the dungeon? Current progress will be lost, but you will keep any items obtained from chests.",
+      "_confidence": 0.95
     },
     "Leave": {
       "translation": "离开",

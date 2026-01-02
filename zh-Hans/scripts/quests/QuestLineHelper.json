@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/QuestLineHelper.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 1684,
-    "translatedCount": 1447
+    "translatedCount": 1463
   },
   "entries": {
     "You found": {
@@ -11,12 +11,16 @@
       "line": 9
     },
     "${npc} has given you": {
-      "translation": "",
-      "line": 9
+      "translation": "${...} 给了你",
+      "line": 9,
+      "_rematchedFrom": "${...} has given you",
+      "_confidence": 0.85
     },
     "${subject} ${amount} ${GameConstants.humanifyString(item)}(s)!": {
-      "translation": "",
-      "line": 12
+      "translation": "${...} ${...} ${...}（s）！",
+      "line": 12,
+      "_rematchedFrom": "${...} ${...} ${...}(s)!",
+      "_confidence": 0.85
     },
     "Z Crystal": {
       "translation": "Z纯晶",
@@ -31,12 +35,16 @@
       "line": 24
     },
     "Clear ${captain}'s Trial at ${dungeon}.": {
-      "translation": "",
-      "line": 29
+      "translation": "在 ${...} 完成 ${...} 的试炼。",
+      "line": 29,
+      "_rematchedFrom": "Clear ${...}'s Trial at ${...}.",
+      "_confidence": 0.85
     },
     "Trial Site of ${dungeon}": {
-      "translation": "",
-      "line": 30
+      "translation": "${...} 的试炼地点",
+      "line": 30,
+      "_rematchedFrom": "Trial Site of ${...}",
+      "_confidence": 0.85
     },
     "${successMessage}</br></br><img width=\"100\" src=\"assets/images/items/zCrystal/${GameConstants.zCrystalItemType[crystalType]}.svg\"/>": {
       "translation": "",
@@ -955,8 +963,10 @@
       "line": 729
     },
     "Quest line completed!\n<i>You have uncovered the Mystery of Deoxys!</i>": {
-      "translation": "",
-      "line": 736
+      "translation": "任务线完成！\\n<i>你揭开了代欧奇希斯之谜！</i>",
+      "line": 736,
+      "_rematchedFrom": "Quest line completed!\\n<i>You have uncovered the Mystery of Deoxys!</i>",
+      "_confidence": 0.95
     },
     "Deoxys": {
       "translation": "代欧奇希斯",
@@ -1763,8 +1773,10 @@
       "line": 1217
     },
     "Return the egg to Professor Hastings in Sandgem Town. ": {
-      "translation": "",
-      "line": 1220
+      "translation": "将蛋归还给桑德宝石镇的黑斯廷斯教授。",
+      "line": 1220,
+      "_rematchedFrom": "Return the egg to Professor Hastings in Sandgem Town.",
+      "_confidence": 0.95
     },
     "Professor Hastings has headed off to Canalave to do more research on Manaphy. Check in on him when you can!": {
       "translation": "黑斯廷斯教授已前往卡纳拉夫对玛纳菲进行更多研究。当你可以的时候去看看他吧！",
@@ -2743,8 +2755,10 @@
       "line": 1783
     },
     "Fossil Scientist has given you a ${GameConstants.humanifyString(item)}!": {
-      "translation": "",
-      "line": 1788
+      "translation": "化石科学家给了你一个${...}！",
+      "line": 1788,
+      "_rematchedFrom": "Fossil Scientist has given you a ${...}!",
+      "_confidence": 0.85
     },
     "From what you gathered, Team Flare wanted to sell fossils for money. Talk with the fossil scientist you just rescued in Glittering Cave.": {
       "translation": "根据你收集的信息，耀斑团队想要出售化石换取金钱。与你刚刚在异色洞穴中救出的化石科学家交谈。",
@@ -3463,20 +3477,28 @@
       "line": 2269
     },
     "Capture or hatch 100 ${PokemonType[type]}-type Pokémon.": {
-      "translation": "",
-      "line": 2273
+      "translation": "捕获或孵化100个 ${...} 型宝可梦。",
+      "line": 2273,
+      "_rematchedFrom": "Capture or hatch 100 ${...}-type Pokémon.",
+      "_confidence": 0.85
     },
     "A Vivillon is hiding somewhere.\n${hint}": {
-      "translation": "",
-      "line": 2280
+      "translation": "维维永藏在某处。 ${...}",
+      "line": 2280,
+      "_rematchedFrom": "A Vivillon is hiding somewhere. ${...}",
+      "_confidence": 0.85
     },
     "You caught the rare ${vivillon}!": {
-      "translation": "",
-      "line": 2287
+      "translation": "你抓到了稀有的${...}！",
+      "line": 2287,
+      "_rematchedFrom": "You caught the rare ${...}!",
+      "_confidence": 0.85
     },
     "Find and capture the rare Vivillon!\nHint: ${hint}": {
-      "translation": "",
-      "line": 2291
+      "translation": "找到并捕获稀有的 Vivillon！提示：${...}",
+      "line": 2291,
+      "_rematchedFrom": "Find and capture the rare Vivillon! Hint: ${...}",
+      "_confidence": 0.85
     },
     "Vivillon (Marine)": {
       "translation": "[[Vivillon]] 大海花纹",
@@ -3619,8 +3641,10 @@
       "line": 2314
     },
     "A Vivillon is hiding somewhere.\nOnly the strongest Challengers can reach it.": {
-      "translation": "",
-      "line": 2321
+      "translation": "维维永藏在某处。只有最强的挑战者才能到达。",
+      "line": 2321,
+      "_rematchedFrom": "A Vivillon is hiding somewhere. Only the strongest Challengers can reach it.",
+      "_confidence": 0.95
     },
     "You caught the last rare Vivillon (Poké Ball).\nCongratulations!": {
       "translation": "你抓到了最后一只稀有的碧粉蝶（精灵球花纹）。\n恭喜！",
@@ -3631,8 +3655,10 @@
       "line": 2332
     },
     "Find and capture the rare Vivillon!\nHint: Only the strongest Challengers can reach it.": {
-      "translation": "",
-      "line": 2332
+      "translation": "找到并捕获稀有的 Vivillon！提示：只有最强的挑战者才能到达。",
+      "line": 2332,
+      "_rematchedFrom": "Find and capture the rare Vivillon! Hint: Only the strongest Challengers can reach it.",
+      "_confidence": 0.95
     },
     "Princess Diancie": {
       "translation": "蒂安希公主",
@@ -4999,8 +5025,10 @@
       "line": 3136
     },
     "Capture ${ultrabeast} ${numberCaught} ${time} ${validHint}": {
-      "translation": "",
-      "line": 3139
+      "translation": "捕获 ${...} ${...} ${...} ${...}",
+      "line": 3139,
+      "_rematchedFrom": "Capture ${...} ${...} ${...} ${...}",
+      "_confidence": 0.85
     },
     "An Ultra Beast is hiding somewhere...": {
       "translation": "究极异兽隐藏在某处……",
@@ -5023,8 +5051,10 @@
       "line": 3160
     },
     "Rare Ultra Beasts have been spotted!\nBuzzwole in Melemele Meadow and Pheromosa in Verdant Cavern!": {
-      "translation": "",
-      "line": 3161
+      "translation": "罕见的究极异兽被发现！ 美乐美乐花园 的 Buzzwole 和 Verdant Cavern 的 Pheromosa！",
+      "line": 3161,
+      "_rematchedFrom": "Rare Ultra Beasts have been spotted! Buzzwole in Melemele Meadow and Pheromosa in Verdant Cavern!",
+      "_confidence": 0.95
     },
     "Captain Mina UB": {
       "translation": "米娜 UB 队长",
@@ -5043,8 +5073,10 @@
       "line": 3172
     },
     " Xurkitree has been spotted at Memorial Hill and Lush Jungle!": {
-      "translation": "",
-      "line": 3172
+      "translation": "Xurkitree 已在纪念山和郁郁葱葱的丛林中被发现！",
+      "line": 3172,
+      "_rematchedFrom": "Xurkitree has been spotted at Memorial Hill and Lush Jungle!",
+      "_confidence": 0.95
     },
     "Talk to Kahuna Nanu at the Roadside Motel.": {
       "translation": "与路边汽车旅馆的卡胡纳·纳努交谈。",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/CaptureSpecificPokemonRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 7,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -31,8 +31,10 @@
       "line": 28
     },
     "Catch${this.includeBreeding ? ' or breed' : ''} a total of ${this.requiredValue} ${this.pokemon.map(p => p.name).join(' and ')}.": {
-      "translation": "",
-      "line": 28
+      "translation": "总共捕获 ${...} ${...} ${...}。",
+      "line": 28,
+      "_rematchedFrom": "Catch${...} a total of ${...} ${...}.",
+      "_confidence": 0.85
     }
   }
 }

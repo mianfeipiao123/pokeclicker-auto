@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/settings/index.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 465,
-    "translatedCount": 401
+    "translatedCount": 410
   },
   "entries": {
     "./Settings": {
@@ -859,8 +859,10 @@
       "line": 227
     },
     "sound.${sound.name}": {
-      "translation": "",
-      "line": 232
+      "translation": "声音。${...}",
+      "line": 232,
+      "_rematchedFrom": "sound.${...}",
+      "_confidence": 0.85
     },
     "sound.volume": {
       "translation": "音量",
@@ -1047,8 +1049,10 @@
       "line": 350
     },
     "Category ${c.id}": {
-      "translation": "",
-      "line": 351
+      "translation": "类别 ${...}",
+      "line": 351,
+      "_rematchedFrom": "Category ${...}",
+      "_confidence": 0.85
     },
     "Unique Transformations": {
       "translation": "特殊形态",
@@ -1343,8 +1347,10 @@
       "line": 485
     },
     " + Number": {
-      "translation": "",
-      "line": 485
+      "translation": "+ 数量",
+      "line": 485,
+      "_rematchedFrom": "+ Number",
+      "_confidence": 0.95
     },
     "hotkey.castformApp": {
       "translation": "热键.castformApp",
@@ -1383,8 +1389,10 @@
       "line": 490
     },
     " or Shift + Click": {
-      "translation": "",
-      "line": 490
+      "translation": "或 Shift + 点击",
+      "line": 490,
+      "_rematchedFrom": "or Shift + Click",
+      "_confidence": 0.95
     },
     "hotkey.underground.hammer": {
       "translation": "快捷键.采掘场.锤子",
@@ -1435,8 +1443,10 @@
       "line": 498
     },
     "↑ or ": {
-      "translation": "",
-      "line": 498
+      "translation": "↑ 或",
+      "line": 498,
+      "_rematchedFrom": "↑ or",
+      "_confidence": 0.95
     },
     "hotkey.dungeon.left": {
       "translation": "热键.迷宫.左",
@@ -1447,8 +1457,10 @@
       "line": 499
     },
     "← or ": {
-      "translation": "",
-      "line": 499
+      "translation": "← 或",
+      "line": 499,
+      "_rematchedFrom": "← or",
+      "_confidence": 0.95
     },
     "hotkey.dungeon.down": {
       "translation": "热键.dungeon.down",
@@ -1459,8 +1471,10 @@
       "line": 500
     },
     "↓ or ": {
-      "translation": "",
-      "line": 500
+      "translation": "↓ 或",
+      "line": 500,
+      "_rematchedFrom": "↓ or",
+      "_confidence": 0.95
     },
     "hotkey.dungeon.right": {
       "translation": "热键.dungeon.right",
@@ -1471,8 +1485,10 @@
       "line": 501
     },
     "→ or ": {
-      "translation": "",
-      "line": 501
+      "translation": "→ 或",
+      "line": 501,
+      "_rematchedFrom": "→ or",
+      "_confidence": 0.95
     },
     "hotkey.dungeon.interact": {
       "translation": "热键.迷宫.交互",
@@ -1503,8 +1519,10 @@
       "line": 505
     },
     "Shift + ": {
-      "translation": "",
-      "line": 505
+      "translation": "Shift+",
+      "line": 505,
+      "_rematchedFrom": "Shift +",
+      "_confidence": 0.95
     },
     "hotkey.downloadSave": {
       "translation": "导出存档",

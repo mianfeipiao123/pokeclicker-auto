@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/discord/DiscordPokemonCode.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "assets/images/pokemon/${pokemon.id}.png": {
@@ -15,8 +15,10 @@
       "line": 7
     },
     " shiny": {
-      "translation": "",
-      "line": 17
+      "translation": "异色的",
+      "line": 17,
+      "_rematchedFrom": "SHINY",
+      "_confidence": 0.95
     },
     "You obtained a${shiny ? ' shiny' : ''} ${pokemon.name}!": {
       "translation": "",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/codes/RedeemableCodes.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 68,
-    "translatedCount": 41
+    "translatedCount": 42
   },
   "entries": {
     "../DataStore/common/Saveable": {
@@ -91,8 +91,10 @@
       "line": 43
     },
     "✨ You found a shiny ${pokemonMap[idToUse].name}! ✨": {
-      "translation": "",
-      "line": 52
+      "translation": "✨ 你发现了异色${...}！ ✨",
+      "line": 52,
+      "_rematchedFrom": "✨ You found a shiny ${...}! ✨",
+      "_confidence": 0.85
     },
     "great-balls": {
       "translation": "",

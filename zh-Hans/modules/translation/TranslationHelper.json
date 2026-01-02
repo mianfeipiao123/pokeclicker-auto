@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/translation/TranslationHelper.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 14,
-    "translatedCount": 6
+    "translatedCount": 8
   },
   "entries": {
     "./Translation": {
@@ -35,8 +35,10 @@
       "line": 16
     },
     "Could not find cache for translation namespace '${namespace}'": {
-      "translation": "",
-      "line": 19
+      "translation": "找不到翻译命名空间“${...}”的缓存",
+      "line": 19,
+      "_rematchedFrom": "Could not find cache for translation namespace '${...}'",
+      "_confidence": 0.85
     },
     "object": {
       "translation": "目的",
@@ -59,8 +61,10 @@
       "line": 93
     },
     "step ": {
-      "translation": "",
-      "line": 96
+      "translation": "步骤",
+      "line": 96,
+      "_rematchedFrom": "Step",
+      "_confidence": 0.95
     }
   }
 }

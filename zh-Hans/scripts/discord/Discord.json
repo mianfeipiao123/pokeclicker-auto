@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/discord/Discord.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 24,
-    "translatedCount": 20
+    "translatedCount": 22
   },
   "entries": {
     "discord": {
@@ -75,8 +75,10 @@
       "line": 38
     },
     "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${encodeURIComponent(location.origin + location.pathname)}": {
-      "translation": "",
-      "line": 48
+      "translation": "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${...}",
+      "line": 48,
+      "_rematchedFrom": "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${...}",
+      "_confidence": 0.85
     },
     "Unlink Discord?": {
       "translation": "解除不和谐链接？",
@@ -99,8 +101,10 @@
       "line": 115
     },
     "Invalid code ${enteredCode}": {
-      "translation": "",
-      "line": 127
+      "translation": "无效代码 ${...}",
+      "line": 127,
+      "_rematchedFrom": "Invalid code ${...}",
+      "_confidence": 0.85
     }
   }
 }

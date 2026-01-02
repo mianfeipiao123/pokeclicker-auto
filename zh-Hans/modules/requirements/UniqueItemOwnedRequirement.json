@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/UniqueItemOwnedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 5,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -23,8 +23,10 @@
       "line": 11
     },
     "You must ${this.obtainText ?? 'obtain'} ${ItemList[this.itemName].displayName} first.": {
-      "translation": "",
-      "line": 11
+      "translation": "你必须先 ${...} ${...}。",
+      "line": 11,
+      "_rematchedFrom": "You must ${...} ${...} first.",
+      "_confidence": 0.85
     }
   }
 }

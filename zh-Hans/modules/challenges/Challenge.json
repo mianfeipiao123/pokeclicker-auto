@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/challenges/Challenge.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 9,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "knockout": {
@@ -31,8 +31,10 @@
       "line": 31
     },
     "<p class=\"text-center m-2\"><b>Warning</b>: Disabling \"${this.type}\" challenge is <b>permanent</b>.<br/><br/>Are you sure you want to continue?</p>": {
-      "translation": "",
-      "line": 31
+      "translation": "<p class=\"text-center m-2\"><b>警告</b>：禁用\"${...}\"挑战是<b>永久的</b>。<br/><br/>你确定要继续吗？</p>",
+      "line": 31,
+      "_rematchedFrom": "<p class=\"text-center m-2\"><b>Warning</b>: Disabling \"${...}\" challenge is <b>permanent</b>.<br/><br/>Are you sure you want to continue?</p>",
+      "_confidence": 0.85
     },
     "<span style=\"white-space: nowrap;\">Permanently disable</span>": {
       "translation": "",

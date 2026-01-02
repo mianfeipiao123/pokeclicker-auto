@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/gym/GymRunner.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 8,
-    "translatedCount": 4
+    "translatedCount": 6
   },
   "entries": {
     "Pewter City": {
@@ -23,12 +23,16 @@
       "line": 55
     },
     "It appears you are not strong enough to defeat ${GymBattle.gym.leaderName.replace(/\\d/g, '')}.": {
-      "translation": "",
-      "line": 93
+      "translation": "你的实力似乎不足以击败${...}。",
+      "line": 93,
+      "_rematchedFrom": "It appears you are not strong enough to defeat ${...}.",
+      "_confidence": 0.85
     },
     "Congratulations, you defeated ${GymBattle.gym.leaderName.replace(/\\d/g, '')}!": {
-      "translation": "",
-      "line": 104
+      "translation": "恭喜，你击败了${...}！",
+      "line": 104,
+      "_rematchedFrom": "Congratulations, you defeated ${...}!",
+      "_confidence": 0.85
     },
     "DOMContentLoaded": {
       "translation": "DOM内容已加载",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/profile/Profile.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 30,
-    "translatedCount": 11
+    "translatedCount": 13
   },
   "entries": {
     "../koExtenders": {
@@ -59,8 +59,10 @@
       "line": 69
     },
     "trainer-bg-${background}": {
-      "translation": "",
-      "line": 87
+      "translation": "教练-bg-${...}",
+      "line": 87,
+      "_rematchedFrom": "trainer-bg-${...}",
+      "_confidence": 0.85
     },
     "click": {
       "translation": "点击",
@@ -95,8 +97,10 @@
       "line": 116
     },
     "v${version}": {
-      "translation": "",
-      "line": 118
+      "translation": "v${...}",
+      "line": 118,
+      "_rematchedFrom": "v${...}",
+      "_confidence": 0.85
     },
     "img": {
       "translation": "图像",

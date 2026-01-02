@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/towns/TownContent.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 13,
-    "translatedCount": 9
+    "translatedCount": 11
   },
   "entries": {
     "t have access yet.\n<i>${reqsList.join(": {
@@ -11,8 +11,10 @@
       "line": 44
     },
     "You don't have access yet.\n<i>${reqsList.join('\n')}</i>": {
-      "translation": "",
-      "line": 44
+      "translation": "你还没有访问权限。\\n<i>${...}</i>",
+      "line": 44,
+      "_rematchedFrom": "You don't have access yet.\\n<i>${...}</i>",
+      "_confidence": 0.85
     },
     "btn btn-info": {
       "translation": "btn btn-信息",
@@ -39,8 +41,10 @@
       "line": 99
     },
     "Travel to ${GameConstants.camelCaseToString(GameConstants.Region[player.highestRegion() + 1])}": {
-      "translation": "",
-      "line": 103
+      "translation": "前往${...}",
+      "line": 103,
+      "_rematchedFrom": "Travel to ${...}",
+      "_confidence": 0.85
     },
     "btn btn-secondary": {
       "translation": "btn btn-次要",

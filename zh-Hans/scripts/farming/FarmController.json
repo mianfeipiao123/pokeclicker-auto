@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/farming/FarmController.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 21,
-    "translatedCount": 11
+    "translatedCount": 14
   },
   "entries": {
     "All": {
@@ -15,8 +15,10 @@
       "line": 45
     },
     "You need the ${GameConstants.humanifyString(KeyItemType[KeyItemType.Wailmer_pail])} to access this location.\n<i>Clear Route 6 first.</i>": {
-      "translation": "",
-      "line": 48
+      "translation": "你需要${...}才能进入此地点。\\n<i>请先通关6号道路。</i>",
+      "line": 48,
+      "_rematchedFrom": "You need the ${...} to access this location.\\n<i>Clear Route 6 first.</i>",
+      "_confidence": 0.85
     },
     "assets/images/farm/AllTreeSeed.png": {
       "translation": "",
@@ -27,8 +29,10 @@
       "line": 62
     },
     "assets/images/farm/${BerryType[plot.berry]}Tree${PlotStage[plot.stage()]}.png": {
-      "translation": "",
-      "line": 64
+      "translation": "资产/图像/农场/${...}Tree${...}.png",
+      "line": 64,
+      "_rematchedFrom": "assets/images/farm/${...}Tree${...}.png",
+      "_confidence": 0.85
     },
     "PlotSafeLockSelected": {
       "translation": "绘图安全锁已选择",
@@ -47,8 +51,10 @@
       "line": 186
     },
     "Are you sure you want to use ${this.getAmount()} ${MulchType[FarmController.selectedMulch()].replace('_', ' ')} on all plots?": {
-      "translation": "",
-      "line": 187
+      "translation": "你确定要在所有绘图上使用 ${...} ${...} 吗？",
+      "line": 187,
+      "_rematchedFrom": "Are you sure you want to use ${...} ${...} on all plots?",
+      "_confidence": 0.85
     },
     "Mulch": {
       "translation": "肥料",

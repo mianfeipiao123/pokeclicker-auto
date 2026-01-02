@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/battleFrontier/BattleFrontierMilestones.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 53,
-    "translatedCount": 49
+    "translatedCount": 50
   },
   "entries": {
     "Nothing": {
@@ -19,8 +19,10 @@
       "line": 48
     },
     "You've successfully defeated stage ${defeatedStage.toLocaleString('en-US')} and earned:\n<span><img src=\"${reward.image}\" height=\"24px\"/> ${reward.description}</span>!": {
-      "translation": "",
-      "line": 48
+      "translation": "你成功击败了第${...}关并获得了：\\n<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>！",
+      "line": 48,
+      "_rematchedFrom": "You've successfully defeated stage ${...} and earned:\\n<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>!",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",

@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/farming/mutation/mutationTypes/OakMutation.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 1,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "I've heard that using the ${App.game.oakItems.itemList[this.oakItem].displayName} can cause ${BerryType[this.originalBerry]} Berries to change!": {
-      "translation": "",
-      "line": 60
+      "translation": "我听说使用 ${...} 会导致 ${...} 树果发生变化！",
+      "line": 60,
+      "_rematchedFrom": "I've heard that using the ${...} can cause ${...} Berries to change!",
+      "_confidence": 0.85
     }
   }
 }

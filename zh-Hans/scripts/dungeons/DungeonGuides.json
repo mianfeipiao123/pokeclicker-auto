@@ -1,14 +1,16 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/dungeons/DungeonGuides.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 25,
-    "translatedCount": 18
+    "translatedCount": 19
   },
   "entries": {
     "Dungeon Guide failed to walk correctly:\n": {
-      "translation": "",
-      "line": 44
+      "translation": "迷宫指南无法正确行走：",
+      "line": 44,
+      "_rematchedFrom": "Dungeon Guide failed to walk correctly:",
+      "_confidence": 0.95
     },
     "assets/images/profile/trainer-${this.trainerSprite}.png": {
       "translation": "",

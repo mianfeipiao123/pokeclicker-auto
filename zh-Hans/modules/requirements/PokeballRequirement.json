@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/PokeballRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "../GameConstants": {
@@ -19,8 +19,10 @@
       "line": 6
     },
     "${this.requiredValue} ${GameConstants.Pokeball[this.pokeball]} need to be obtained.": {
-      "translation": "",
-      "line": 14
+      "translation": "需要获取${...} ${...}。",
+      "line": 14,
+      "_rematchedFrom": "${...} ${...} need to be obtained.",
+      "_confidence": 0.85
     }
   }
 }

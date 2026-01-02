@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/DefeatDungeonQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "Invalid dungeon for quest: ${this.dungeon}": {
@@ -15,8 +15,10 @@
       "line": 59
     },
     "Defeat the ${this.dungeon} dungeon in ${subRegionName} ${this.amount.toLocaleString('en-US')} times.": {
-      "translation": "",
-      "line": 59
+      "translation": "在 ${...}（${...}）通关 ${...} 次。",
+      "line": 59,
+      "_rematchedFrom": "Defeat the ${...} dungeon in ${...} ${...} times.",
+      "_confidence": 0.85
     }
   }
 }

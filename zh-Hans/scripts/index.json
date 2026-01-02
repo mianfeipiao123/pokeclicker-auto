@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/index.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 10,
-    "translatedCount": 3
+    "translatedCount": 4
   },
   "entries": {
     "DOMContentLoaded": {
@@ -15,8 +15,10 @@
       "line": 13
     },
     "no-select ${Settings.getSetting('theme').observableValue()} ${Settings.getSetting('backgroundImage').observableValue()}": {
-      "translation": "",
-      "line": 13
+      "translation": "不选择 ${...} ${...}",
+      "line": 13,
+      "_rematchedFrom": "no-select ${...} ${...}",
+      "_confidence": 0.85
     },
     "theme-link": {
       "translation": "",

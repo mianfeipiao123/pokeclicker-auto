@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/moonCycle/MoonCycle.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 14,
-    "translatedCount": 9
+    "translatedCount": 10
   },
   "entries": {
     "knockout": {
@@ -27,8 +27,10 @@
       "line": 7
     },
     "assets/images/moonCycle/${MoonCyclePhase[MoonCycle.currentMoonCyclePhase()]}.png": {
-      "translation": "",
-      "line": 22
+      "translation": "资产/图像/moonCycle/${...}.png",
+      "line": 22,
+      "_rematchedFrom": "assets/images/moonCycle/${...}.png",
+      "_confidence": 0.85
     },
     "New Moon": {
       "translation": "新月",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/settings/Setting.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 10,
-    "translatedCount": 5
+    "translatedCount": 6
   },
   "entries": {
     "knockout": {
@@ -39,8 +39,10 @@
       "line": 62
     },
     "${value.constructor.name} object": {
-      "translation": "",
-      "line": 63
+      "translation": "${...} 对象",
+      "line": 63,
+      "_rematchedFrom": "${...} object",
+      "_confidence": 0.85
     },
     "settings": {
       "translation": "设置",

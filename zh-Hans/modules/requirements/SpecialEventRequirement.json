@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/SpecialEventRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -19,8 +19,10 @@
       "line": 4
     },
     "${this.specialEventName} must be started.": {
-      "translation": "",
-      "line": 16
+      "translation": "必须启动${...}。",
+      "line": 16,
+      "_rematchedFrom": "${...} must be started.",
+      "_confidence": 0.85
     }
   }
 }

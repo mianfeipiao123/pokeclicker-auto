@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/QuestLineStartedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 8,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -35,8 +35,10 @@
       "line": 26
     },
     "Questline ${this.quest.displayName} needs to ${this.option !== AchievementOption.less ? 'be started' : 'not be started yet'}.": {
-      "translation": "",
-      "line": 26
+      "translation": "任务线 ${...} 需要 ${...}。",
+      "line": 26,
+      "_rematchedFrom": "Questline ${...} needs to ${...}.",
+      "_confidence": 0.85
     }
   }
 }

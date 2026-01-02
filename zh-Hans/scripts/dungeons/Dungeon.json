@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/dungeons/Dungeon.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2347,
-    "translatedCount": 2329
+    "translatedCount": 2331
   },
   "entries": {
     "common": {
@@ -59,8 +59,10 @@
       "line": 420
     },
     "assets/images/breeding/pokerus/${GameConstants.Pokerus[pokerus]}.png": {
-      "translation": "",
-      "line": 421
+      "translation": "资产/图像/育种/pokerus/${...}.png",
+      "line": 421,
+      "_rematchedFrom": "assets/images/breeding/pokerus/${...}.png",
+      "_confidence": 0.85
     },
     "en-US": {
       "translation": "en-US",
@@ -295,8 +297,10 @@
       "line": 722
     },
     "You were awarded a ${GameConstants.humanifyString(item)} for defeating the Super Nerd!": {
-      "translation": "",
-      "line": 726
+      "translation": "你因击败超级书呆子而获得 ${...} 奖励！",
+      "line": 726,
+      "_rematchedFrom": "You were awarded a ${...} for defeating the Super Nerd!",
+      "_confidence": 0.85
     },
     "Diglett's Cave": {
       "translation": "",

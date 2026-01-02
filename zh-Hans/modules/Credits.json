@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/Credits.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 964,
-    "translatedCount": 696
+    "translatedCount": 701
   },
   "entries": {
     "./profile/Profile": {
@@ -443,24 +443,34 @@
       "line": 191
     },
     " - Wandering encounter": {
-      "translation": "",
-      "line": 192
+      "translation": "- 流浪的邂逅",
+      "line": 192,
+      "_rematchedFrom": "- Wandering encounter",
+      "_confidence": 0.95
     },
     " - Roaming encounter": {
-      "translation": "",
-      "line": 193
+      "translation": "- 漫游邂逅",
+      "line": 193,
+      "_rematchedFrom": "- Roaming encounter",
+      "_confidence": 0.95
     },
     " - Battle Frontier": {
-      "translation": "",
-      "line": 194
+      "translation": "- 对战开拓区",
+      "line": 194,
+      "_rematchedFrom": "- Battle Frontier",
+      "_confidence": 0.95
     },
     " - Empty Queue": {
-      "translation": "",
-      "line": 195
+      "translation": "- 空队列",
+      "line": 195,
+      "_rematchedFrom": "- Empty Queue",
+      "_confidence": 0.95
     },
     " - Dream Orbs": {
-      "translation": "",
-      "line": 196
+      "translation": "- 梦境宝珠",
+      "line": 196,
+      "_rematchedFrom": "- Dream Orbs",
+      "_confidence": 0.95
     },
     "Croak": {
       "translation": "发牢骚",

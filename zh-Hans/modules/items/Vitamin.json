@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/items/Vitamin.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 8,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -31,8 +31,10 @@
       "line": 6
     },
     "You don't have any ${this.displayName} left...": {
-      "translation": "",
-      "line": 31
+      "translation": "你已经没有 ${...} 了...",
+      "line": 31,
+      "_rematchedFrom": "You don't have any ${...} left...",
+      "_confidence": 0.85
     },
     "assets/images/items/vitamin/${this.name}.png": {
       "translation": "",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/underground/UndergroundBattery.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 41,
-    "translatedCount": 15
+    "translatedCount": 16
   },
   "entries": {
     "./mine/Mine": {
@@ -115,8 +115,10 @@
       "line": 144
     },
     "Your Cell Battery has discharged with the move '${randomPattern.name}'": {
-      "translation": "",
-      "line": 145
+      "translation": "你的电池已放电并移动“${...}”",
+      "line": 145,
+      "_rematchedFrom": "Your Cell Battery has discharged with the move '${...}'",
+      "_confidence": 0.85
     },
     "Eruption": {
       "translation": "喷发",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/HatchEggsQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "en-US": {
@@ -15,8 +15,10 @@
       "line": 27
     },
     "Hatch ${this.amount.toLocaleString('en-US')} ${GameConstants.pluralizeString('Egg', this.amount)}.": {
-      "translation": "",
-      "line": 27
+      "translation": "孵化 ${...} 枚蛋。",
+      "line": 27,
+      "_rematchedFrom": "Hatch ${...} ${...}.",
+      "_confidence": 0.85
     }
   }
 }

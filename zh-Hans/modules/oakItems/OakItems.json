@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/oakItems/OakItems.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 44,
-    "translatedCount": 33
+    "translatedCount": 34
   },
   "entries": {
     "knockout": {
@@ -115,8 +115,10 @@
       "line": 50
     },
     " Charges": {
-      "translation": "",
-      "line": 51
+      "translation": "收费",
+      "line": 51,
+      "_rematchedFrom": "Charges",
+      "_confidence": 0.95
     },
     "Squirtbottle": {
       "translation": "杰尼龟喷壶",

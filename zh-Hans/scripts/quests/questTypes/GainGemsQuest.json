@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/GainGemsQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "en-US": {
@@ -11,8 +11,10 @@
       "line": 52
     },
     "Gain ${this.amount.toLocaleString('en-US')} ${PokemonType[this.type]} gems.": {
-      "translation": "",
-      "line": 52
+      "translation": "获得 ${...} 个${...}宝石。",
+      "line": 52,
+      "_rematchedFrom": "Gain ${...} ${...} gems.",
+      "_confidence": 0.85
     }
   }
 }

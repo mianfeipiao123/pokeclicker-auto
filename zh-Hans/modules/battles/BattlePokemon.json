@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/battles/BattlePokemon.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 16,
-    "translatedCount": 1
+    "translatedCount": 3
   },
   "entries": {
     "../GameConstants": {
@@ -63,12 +63,16 @@
       "line": 14
     },
     "${this.displayName} dropped ${GameHelper.anOrA(name)} ${name}!": {
-      "translation": "",
-      "line": 89
+      "translation": "${...} 掉落了 ${...} ${...}！",
+      "line": 89,
+      "_rematchedFrom": "${...} dropped ${...} ${...}!",
+      "_confidence": 0.85
     },
     "The enemy ${msg} <img src=\"${BagHandler.image(this.heldItem)}\" height=\"24px\"/>": {
-      "translation": "",
-      "line": 91
+      "translation": "敌方${...} <img src=\"${...}\" height=\"24px\"/>",
+      "line": 91,
+      "_rematchedFrom": "The enemy ${...} <img src=\"${...}\" height=\"24px\"/>",
+      "_confidence": 0.85
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/weather/Weather.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 19,
-    "translatedCount": 12
+    "translatedCount": 13
   },
   "entries": {
     "knockout": {
@@ -35,8 +35,10 @@
       "line": 8
     },
     "assets/images/weather/${WeatherType[Weather.currentWeather()]}.png": {
-      "translation": "",
-      "line": 22
+      "translation": "资产/图像/天气/${...}.png",
+      "line": 22,
+      "_rematchedFrom": "assets/images/weather/${...}.png",
+      "_confidence": 0.85
     },
     "The weather is clear and pleasant.": {
       "translation": "天气晴朗宜人。",

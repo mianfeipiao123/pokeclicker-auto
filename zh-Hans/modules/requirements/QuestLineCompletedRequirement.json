@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/QuestLineCompletedRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 8,
-    "translatedCount": 2
+    "translatedCount": 3
   },
   "entries": {
     "../GameConstants": {
@@ -35,8 +35,10 @@
       "line": 26
     },
     "Questline ${this.quest.displayName} needs to be ${this.option !== AchievementOption.less ? 'completed' : 'incomplete'}.": {
-      "translation": "",
-      "line": 26
+      "translation": "任务线 ${...} 需要是 ${...}。",
+      "line": 26,
+      "_rematchedFrom": "Questline ${...} needs to be ${...}.",
+      "_confidence": 0.85
     }
   }
 }

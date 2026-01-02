@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/questTypes/UsePokeballQuest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 3
+    "translatedCount": 4
   },
   "entries": {
     "Lavender Town": {
@@ -19,8 +19,10 @@
       "line": 34
     },
     "Use ${this.amount.toLocaleString('en-US')} ${ItemList[GameConstants.Pokeball[this.pokeball]].displayName}s.": {
-      "translation": "",
-      "line": 34
+      "translation": "使用 ${...} 个${...}。",
+      "line": 34,
+      "_rematchedFrom": "Use ${...} ${...}s.",
+      "_confidence": 0.85
     }
   }
 }

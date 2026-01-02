@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/wallet/Amount.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 2,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -11,8 +11,10 @@
       "line": 1
     },
     "Amount(${this.amount}, ${Currency[this.currency]})": {
-      "translation": "",
-      "line": 13
+      "translation": "金额(${...}, ${...})",
+      "line": 13,
+      "_rematchedFrom": "Amount(${...}, ${...})",
+      "_confidence": 0.85
     }
   }
 }

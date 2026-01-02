@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/quests/Quest.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 19,
-    "translatedCount": 11
+    "translatedCount": 14
   },
   "entries": {
     "questlines": {
@@ -27,8 +27,10 @@
       "line": 100
     },
     "You have completed your quest and claimed ${this.pointsReward.toLocaleString('en-US')} Quest Points!": {
-      "translation": "",
-      "line": 101
+      "translation": "你已完成任务并领取了 ${...} 任务点数！",
+      "line": 101,
+      "_rematchedFrom": "You have completed your quest and claimed ${...} Quest Points!",
+      "_confidence": 0.85
     },
     "You have completed a quest!": {
       "translation": "你完成了一个任务！",
@@ -39,8 +41,10 @@
       "line": 132
     },
     "Are you sure?\n\nYou can start the quest again later but you will lose all progress!": {
-      "translation": "",
-      "line": 133
+      "translation": "你确定吗？你可以稍后再次开始任务，但你将失去所有进度！",
+      "line": 133,
+      "_rematchedFrom": "Are you sure? You can start the quest again later but you will lose all progress!",
+      "_confidence": 0.95
     },
     "Quit": {
       "translation": "辞职",
@@ -55,8 +59,10 @@
       "line": 209
     },
     "You can complete your quest for ${this.pointsReward.toLocaleString('en-US')} Quest Points!": {
-      "translation": "",
-      "line": 210
+      "translation": "你只需花费 ${...} 任务点即可完成你的任务！",
+      "line": 210,
+      "_rematchedFrom": "You can complete your quest for ${...} Quest Points!",
+      "_confidence": 0.85
     },
     "function": {
       "translation": "功能",

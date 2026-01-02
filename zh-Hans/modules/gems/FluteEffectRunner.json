@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/gems/FluteEffectRunner.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 31,
-    "translatedCount": 7
+    "translatedCount": 8
   },
   "entries": {
     "knockout": {
@@ -67,8 +67,10 @@
       "line": 45
     },
     "You ran out of gems for the ${humanifyString(itemName)}'s effect!": {
-      "translation": "",
-      "line": 74
+      "translation": "你已经用完了 ${...} 效果的宝石！",
+      "line": 74,
+      "_rematchedFrom": "You ran out of gems for the ${...}'s effect!",
+      "_confidence": 0.85
     },
     "<strong>Time Remaining:</strong><br> ${formatSecondsToTime(this.fluteFormattedTime(itemName))}": {
       "translation": "",

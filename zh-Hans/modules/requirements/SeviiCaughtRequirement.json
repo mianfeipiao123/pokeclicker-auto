@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/SeviiCaughtRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 11,
-    "translatedCount": 7
+    "translatedCount": 8
   },
   "entries": {
     "../GameConstants": {
@@ -47,8 +47,10 @@
       "line": 15
     },
     "${this.requiredValue} unique Sevii Pokémon need to be caught.": {
-      "translation": "",
-      "line": 21
+      "translation": "需要捕捉 ${...} 个独特的 Sevii 宝可梦。",
+      "line": 21,
+      "_rematchedFrom": "${...} unique Sevii Pokémon need to be caught.",
+      "_confidence": 0.85
     }
   }
 }

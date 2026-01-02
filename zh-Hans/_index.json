@@ -1,17 +1,2107 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-01-02T06:00:00.000Z",
+  "generatedAt": "2026-01-02T14:39:55.658Z",
   "stats": {
-    "totalFiles": 418,
-    "totalStrings": 26650,
-    "translatedStrings": 21647,
-    "coverage": "81.23%",
-    "orphanedTranslations": 4452
+    "totalFiles": 419,
+    "totalStrings": 42505,
+    "translatedStrings": 37958,
+    "coverage": "89.30%"
   },
   "files": {
     "hardcoded-map.json": {
-      "description": "合并后的翻译映射",
-      "entries": 15855
+      "total": 15855,
+      "translated": 15855,
+      "sourceFile": null
+    },
+    "modules/achievements/Achievement.json": {
+      "total": 12,
+      "translated": 5,
+      "sourceFile": "src/modules/achievements/Achievement.ts"
+    },
+    "modules/achievements/AchievementSortOptions.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/modules/achievements/AchievementSortOptions.ts"
+    },
+    "modules/achievements/SecretAchievement.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/achievements/SecretAchievement.ts"
+    },
+    "modules/background/DynamicBackground.json": {
+      "total": 26,
+      "translated": 12,
+      "sourceFile": "src/modules/background/DynamicBackground.ts"
+    },
+    "modules/battles/Battle.json": {
+      "total": 17,
+      "translated": 2,
+      "sourceFile": "src/modules/battles/Battle.ts"
+    },
+    "modules/battles/BattlePokemon.json": {
+      "total": 16,
+      "translated": 3,
+      "sourceFile": "src/modules/battles/BattlePokemon.ts"
+    },
+    "modules/battles/Trainer.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/battles/Trainer.ts"
+    },
+    "modules/challenges/Challenge.json": {
+      "total": 9,
+      "translated": 3,
+      "sourceFile": "src/modules/challenges/Challenge.ts"
+    },
+    "modules/challenges/Challenges.json": {
+      "total": 23,
+      "translated": 20,
+      "sourceFile": "src/modules/challenges/Challenges.ts"
+    },
+    "modules/changelog/Changelog.json": {
+      "total": 7,
+      "translated": 7,
+      "sourceFile": "src/modules/changelog/Changelog.ts"
+    },
+    "modules/changelog/ChangelogItems.json": {
+      "total": 1367,
+      "translated": 1131,
+      "sourceFile": "src/modules/changelog/ChangelogItems.ts"
+    },
+    "modules/changelog/ChangelogUpdate.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/changelog/ChangelogUpdate.ts"
+    },
+    "modules/codes/RedeemableCode.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/codes/RedeemableCode.ts"
+    },
+    "modules/codes/RedeemableCodeController.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/codes/RedeemableCodeController.ts"
+    },
+    "modules/codes/RedeemableCodes.json": {
+      "total": 68,
+      "translated": 42,
+      "sourceFile": "src/modules/codes/RedeemableCodes.ts"
+    },
+    "modules/Credits.json": {
+      "total": 964,
+      "translated": 701,
+      "sourceFile": "src/modules/Credits.ts"
+    },
+    "modules/DataStore/BadgeCase.json": {
+      "total": 6,
+      "translated": 2,
+      "sourceFile": "src/modules/DataStore/BadgeCase.ts"
+    },
+    "modules/DataStore/common/Feature.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/DataStore/common/Feature.ts"
+    },
+    "modules/DataStore/index.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/DataStore/index.ts"
+    },
+    "modules/DataStore/StatisticStore/getRouteKillsProxy.json": {
+      "total": 6,
+      "translated": 4,
+      "sourceFile": "src/modules/DataStore/StatisticStore/getRouteKillsProxy.ts"
+    },
+    "modules/DataStore/StatisticStore/index.json": {
+      "total": 37,
+      "translated": 33,
+      "sourceFile": "src/modules/DataStore/StatisticStore/index.ts"
+    },
+    "modules/dayCycle/DayCycle.json": {
+      "total": 10,
+      "translated": 6,
+      "sourceFile": "src/modules/dayCycle/DayCycle.ts"
+    },
+    "modules/dayCycle/DayCycleMoment.json": {
+      "total": 7,
+      "translated": 2,
+      "sourceFile": "src/modules/dayCycle/DayCycleMoment.ts"
+    },
+    "modules/deal/GenericDeal.json": {
+      "total": 33,
+      "translated": 24,
+      "sourceFile": "src/modules/deal/GenericDeal.ts"
+    },
+    "modules/effectEngine/effectEngineRunner.json": {
+      "total": 10,
+      "translated": 5,
+      "sourceFile": "src/modules/effectEngine/effectEngineRunner.ts"
+    },
+    "modules/enums/Badges.json": {
+      "total": 166,
+      "translated": 164,
+      "sourceFile": "src/modules/enums/Badges.ts"
+    },
+    "modules/enums/BerryNameType.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/enums/BerryNameType.ts"
+    },
+    "modules/enums/EncounterType.json": {
+      "total": 8,
+      "translated": 8,
+      "sourceFile": "src/modules/enums/EncounterType.ts"
+    },
+    "modules/enums/KeyItemType.json": {
+      "total": 18,
+      "translated": 18,
+      "sourceFile": "src/modules/enums/KeyItemType.ts"
+    },
+    "modules/enums/OakItemType.json": {
+      "total": 12,
+      "translated": 12,
+      "sourceFile": "src/modules/enums/OakItemType.ts"
+    },
+    "modules/enums/PokemonType.json": {
+      "total": 19,
+      "translated": 19,
+      "sourceFile": "src/modules/enums/PokemonType.ts"
+    },
+    "modules/GameConstants.json": {
+      "total": 1204,
+      "translated": 1058,
+      "sourceFile": "src/modules/GameConstants.ts"
+    },
+    "modules/GameHelper.json": {
+      "total": 18,
+      "translated": 5,
+      "sourceFile": "src/modules/GameHelper.ts"
+    },
+    "modules/gems/FluteEffectRunner.json": {
+      "total": 31,
+      "translated": 8,
+      "sourceFile": "src/modules/gems/FluteEffectRunner.ts"
+    },
+    "modules/gems/GemDeal.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/gems/GemDeal.ts"
+    },
+    "modules/gems/GemDealList.json": {
+      "total": 41,
+      "translated": 3,
+      "sourceFile": "src/modules/gems/GemDealList.ts"
+    },
+    "modules/gems/GemDeals.json": {
+      "total": 10,
+      "translated": 2,
+      "sourceFile": "src/modules/gems/GemDeals.ts"
+    },
+    "modules/gems/Gems.json": {
+      "total": 14,
+      "translated": 5,
+      "sourceFile": "src/modules/gems/Gems.ts"
+    },
+    "modules/globals.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/globals.ts"
+    },
+    "modules/gym/GymPokemon.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/gym/GymPokemon.ts"
+    },
+    "modules/index.json": {
+      "total": 4,
+      "translated": 0,
+      "sourceFile": "src/modules/index.ts"
+    },
+    "modules/interfaces/BagItem.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/interfaces/BagItem.ts"
+    },
+    "modules/interfaces/Pokemon.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/interfaces/Pokemon.ts"
+    },
+    "modules/items/AttackGainConsumable.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/items/AttackGainConsumable.ts"
+    },
+    "modules/items/BattleItem.json": {
+      "total": 9,
+      "translated": 3,
+      "sourceFile": "src/modules/items/BattleItem.ts"
+    },
+    "modules/items/BerryItem.json": {
+      "total": 7,
+      "translated": 1,
+      "sourceFile": "src/modules/items/BerryItem.ts"
+    },
+    "modules/items/buyKeyItem.json": {
+      "total": 5,
+      "translated": 0,
+      "sourceFile": "src/modules/items/buyKeyItem.ts"
+    },
+    "modules/items/buyOakItem.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/items/buyOakItem.ts"
+    },
+    "modules/items/CaughtIndicatingItem.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/items/CaughtIndicatingItem.ts"
+    },
+    "modules/items/ChristmasPresent.json": {
+      "total": 12,
+      "translated": 4,
+      "sourceFile": "src/modules/items/ChristmasPresent.ts"
+    },
+    "modules/items/Consumable.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/items/Consumable.ts"
+    },
+    "modules/items/ConsumableController.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/items/ConsumableController.ts"
+    },
+    "modules/items/EggItem.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/items/EggItem.ts"
+    },
+    "modules/items/EnergyRestore.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/items/EnergyRestore.ts"
+    },
+    "modules/items/FluteItem.json": {
+      "total": 15,
+      "translated": 3,
+      "sourceFile": "src/modules/items/FluteItem.ts"
+    },
+    "modules/items/Item.json": {
+      "total": 21,
+      "translated": 7,
+      "sourceFile": "src/modules/items/Item.ts"
+    },
+    "modules/items/ItemHandler.json": {
+      "total": 15,
+      "translated": 9,
+      "sourceFile": "src/modules/items/ItemHandler.ts"
+    },
+    "modules/items/ItemList.json": {
+      "total": 627,
+      "translated": 492,
+      "sourceFile": "src/modules/items/ItemList.ts"
+    },
+    "modules/items/ItemNameType.json": {
+      "total": 476,
+      "translated": 397,
+      "sourceFile": "src/modules/items/ItemNameType.ts"
+    },
+    "modules/items/MegaStoneItem.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/items/MegaStoneItem.ts"
+    },
+    "modules/items/MulchItem.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/items/MulchItem.ts"
+    },
+    "modules/items/PokeballItem.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/items/PokeballItem.ts"
+    },
+    "modules/items/PokeBlock.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/items/PokeBlock.ts"
+    },
+    "modules/items/PokemonItem.json": {
+      "total": 19,
+      "translated": 5,
+      "sourceFile": "src/modules/items/PokemonItem.ts"
+    },
+    "modules/items/PokerusIndicatingItem.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/items/PokerusIndicatingItem.ts"
+    },
+    "modules/items/QuestItem.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/items/QuestItem.ts"
+    },
+    "modules/items/ShovelItem.json": {
+      "total": 7,
+      "translated": 3,
+      "sourceFile": "src/modules/items/ShovelItem.ts"
+    },
+    "modules/items/TreasureItem.json": {
+      "total": 7,
+      "translated": 2,
+      "sourceFile": "src/modules/items/TreasureItem.ts"
+    },
+    "modules/items/types.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/items/types.ts"
+    },
+    "modules/items/Vitamin.json": {
+      "total": 8,
+      "translated": 1,
+      "sourceFile": "src/modules/items/Vitamin.ts"
+    },
+    "modules/items/VitaminController.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/items/VitaminController.ts"
+    },
+    "modules/keyItems/KeyItem.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/keyItems/KeyItem.ts"
+    },
+    "modules/keyItems/KeyItemController.json": {
+      "total": 4,
+      "translated": 3,
+      "sourceFile": "src/modules/keyItems/KeyItemController.ts"
+    },
+    "modules/keyItems/KeyItems.json": {
+      "total": 49,
+      "translated": 36,
+      "sourceFile": "src/modules/keyItems/KeyItems.ts"
+    },
+    "modules/ko.test.json": {
+      "total": 7,
+      "translated": 5,
+      "sourceFile": "src/modules/ko.test.ts"
+    },
+    "modules/koBindingHandlers.json": {
+      "total": 29,
+      "translated": 8,
+      "sourceFile": "src/modules/koBindingHandlers.ts"
+    },
+    "modules/koExtenders.json": {
+      "total": 5,
+      "translated": 4,
+      "sourceFile": "src/modules/koExtenders.ts"
+    },
+    "modules/logbook/helpers.json": {
+      "total": 10,
+      "translated": 8,
+      "sourceFile": "src/modules/logbook/helpers.ts"
+    },
+    "modules/logbook/LogBook.json": {
+      "total": 10,
+      "translated": 4,
+      "sourceFile": "src/modules/logbook/LogBook.ts"
+    },
+    "modules/logbook/LogBookLog.json": {
+      "total": 7,
+      "translated": 5,
+      "sourceFile": "src/modules/logbook/LogBookLog.ts"
+    },
+    "modules/logbook/LogBookTypes.json": {
+      "total": 6,
+      "translated": 6,
+      "sourceFile": "src/modules/logbook/LogBookTypes.ts"
+    },
+    "modules/modules.test.json": {
+      "total": 88,
+      "translated": 50,
+      "sourceFile": "src/modules/modules.test.ts"
+    },
+    "modules/moonCycle/CurrentMoonPhase.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/modules/moonCycle/CurrentMoonPhase.ts"
+    },
+    "modules/moonCycle/MoonCycle.json": {
+      "total": 14,
+      "translated": 10,
+      "sourceFile": "src/modules/moonCycle/MoonCycle.ts"
+    },
+    "modules/multiplier/Multiplier.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/multiplier/Multiplier.ts"
+    },
+    "modules/notifications/NotificationConstants.json": {
+      "total": 105,
+      "translated": 85,
+      "sourceFile": "src/modules/notifications/NotificationConstants.ts"
+    },
+    "modules/notifications/Notifier.json": {
+      "total": 66,
+      "translated": 23,
+      "sourceFile": "src/modules/notifications/Notifier.ts"
+    },
+    "modules/oakItems/BoughtOakItem.json": {
+      "total": 6,
+      "translated": 2,
+      "sourceFile": "src/modules/oakItems/BoughtOakItem.ts"
+    },
+    "modules/oakItems/OakItem.json": {
+      "total": 9,
+      "translated": 3,
+      "sourceFile": "src/modules/oakItems/OakItem.ts"
+    },
+    "modules/oakItems/OakItemController.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/modules/oakItems/OakItemController.ts"
+    },
+    "modules/oakItems/OakItemLoadouts.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/oakItems/OakItemLoadouts.ts"
+    },
+    "modules/oakItems/OakItems.json": {
+      "total": 44,
+      "translated": 34,
+      "sourceFile": "src/modules/oakItems/OakItems.ts"
+    },
+    "modules/party/Category.json": {
+      "total": 14,
+      "translated": 9,
+      "sourceFile": "src/modules/party/Category.ts"
+    },
+    "modules/party/LevelType.json": {
+      "total": 6,
+      "translated": 6,
+      "sourceFile": "src/modules/party/LevelType.ts"
+    },
+    "modules/pokeballs/CatchOptions.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/pokeballs/CatchOptions.ts"
+    },
+    "modules/pokeballs/PokeballFilter.json": {
+      "total": 10,
+      "translated": 1,
+      "sourceFile": "src/modules/pokeballs/PokeballFilter.ts"
+    },
+    "modules/pokeballs/PokeballFilterOptions.json": {
+      "total": 36,
+      "translated": 19,
+      "sourceFile": "src/modules/pokeballs/PokeballFilterOptions.ts"
+    },
+    "modules/pokeballs/PokeballFilters.json": {
+      "total": 29,
+      "translated": 20,
+      "sourceFile": "src/modules/pokeballs/PokeballFilters.ts"
+    },
+    "modules/pokemons/DataPokemon.json": {
+      "total": 6,
+      "translated": 0,
+      "sourceFile": "src/modules/pokemons/DataPokemon.ts"
+    },
+    "modules/pokemons/EnemyPokemonInterface.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/pokemons/EnemyPokemonInterface.ts"
+    },
+    "modules/pokemons/EvoHelpers.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/pokemons/EvoHelpers.ts"
+    },
+    "modules/pokemons/evolutions/Base.json": {
+      "total": 11,
+      "translated": 2,
+      "sourceFile": "src/modules/pokemons/evolutions/Base.ts"
+    },
+    "modules/pokemons/evolutions/Methods.json": {
+      "total": 4,
+      "translated": 0,
+      "sourceFile": "src/modules/pokemons/evolutions/Methods.ts"
+    },
+    "modules/pokemons/evolutions/Restrictions.json": {
+      "total": 19,
+      "translated": 0,
+      "sourceFile": "src/modules/pokemons/evolutions/Restrictions.ts"
+    },
+    "modules/pokemons/mapProvider.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/pokemons/mapProvider.ts"
+    },
+    "modules/pokemons/PokemonHelper.json": {
+      "total": 32,
+      "translated": 13,
+      "sourceFile": "src/modules/pokemons/PokemonHelper.ts"
+    },
+    "modules/pokemons/PokemonList.json": {
+      "total": 1712,
+      "translated": 1695,
+      "sourceFile": "src/modules/pokemons/PokemonList.ts"
+    },
+    "modules/pokemons/PokemonNameType.json": {
+      "total": 1630,
+      "translated": 1625,
+      "sourceFile": "src/modules/pokemons/PokemonNameType.ts"
+    },
+    "modules/pokemons/RoamingGroup.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/pokemons/RoamingGroup.ts"
+    },
+    "modules/pokemons/RoamingPokemon.json": {
+      "total": 5,
+      "translated": 0,
+      "sourceFile": "src/modules/pokemons/RoamingPokemon.ts"
+    },
+    "modules/pokemons/RoamingPokemonList.json": {
+      "total": 118,
+      "translated": 94,
+      "sourceFile": "src/modules/pokemons/RoamingPokemonList.ts"
+    },
+    "modules/profile/Profile.json": {
+      "total": 30,
+      "translated": 13,
+      "sourceFile": "src/modules/profile/Profile.ts"
+    },
+    "modules/quests/QuestLineNameType.json": {
+      "total": 70,
+      "translated": 62,
+      "sourceFile": "src/modules/quests/QuestLineNameType.ts"
+    },
+    "modules/requirements/AchievementRequirement.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/AchievementRequirement.ts"
+    },
+    "modules/requirements/AllFlutesTimeActiveRequirement.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/AllFlutesTimeActiveRequirement.ts"
+    },
+    "modules/requirements/AttackRequirement.json": {
+      "total": 5,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/AttackRequirement.ts"
+    },
+    "modules/requirements/BattleFrontierHighestStageRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/BattleFrontierHighestStageRequirement.ts"
+    },
+    "modules/requirements/BattleFrontierTotalStageRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/BattleFrontierTotalStageRequirement.ts"
+    },
+    "modules/requirements/BerriesUnlockedRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/BerriesUnlockedRequirement.ts"
+    },
+    "modules/requirements/CapturedRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/CapturedRequirement.ts"
+    },
+    "modules/requirements/CaptureSpecificPokemonRequirement.json": {
+      "total": 7,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/CaptureSpecificPokemonRequirement.ts"
+    },
+    "modules/requirements/CaughtPokemonRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/CaughtPokemonRequirement.ts"
+    },
+    "modules/requirements/ClearAnyDungeonRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/ClearAnyDungeonRequirement.ts"
+    },
+    "modules/requirements/ClearDungeonRequirement.json": {
+      "total": 5,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/ClearDungeonRequirement.ts"
+    },
+    "modules/requirements/ClearGymRequirement.json": {
+      "total": 5,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/ClearGymRequirement.ts"
+    },
+    "modules/requirements/ClickRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/ClickRequirement.ts"
+    },
+    "modules/requirements/ClientRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/ClientRequirement.ts"
+    },
+    "modules/requirements/CustomRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/CustomRequirement.ts"
+    },
+    "modules/requirements/DayCyclePartRequirement.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/DayCyclePartRequirement.ts"
+    },
+    "modules/requirements/DayOfWeekRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/DayOfWeekRequirement.ts"
+    },
+    "modules/requirements/DefeatedPokemonTypeRequirement.json": {
+      "total": 9,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/DefeatedPokemonTypeRequirement.ts"
+    },
+    "modules/requirements/DefeatedRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/DefeatedRequirement.ts"
+    },
+    "modules/requirements/DevelopmentRequirement.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/DevelopmentRequirement.ts"
+    },
+    "modules/requirements/DiamondRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/DiamondRequirement.ts"
+    },
+    "modules/requirements/DummyRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/DummyRequirement.ts"
+    },
+    "modules/requirements/EVBonusRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/EVBonusRequirement.ts"
+    },
+    "modules/requirements/FarmHandRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/FarmHandRequirement.ts"
+    },
+    "modules/requirements/FarmPlotsUnlockedRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/FarmPlotsUnlockedRequirement.ts"
+    },
+    "modules/requirements/FarmPointsRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/FarmPointsRequirement.ts"
+    },
+    "modules/requirements/GameStateRequirement.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/GameStateRequirement.ts"
+    },
+    "modules/requirements/GymBadgeRequirement.json": {
+      "total": 6,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/GymBadgeRequirement.ts"
+    },
+    "modules/requirements/HatcheryHelperRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/HatcheryHelperRequirement.ts"
+    },
+    "modules/requirements/HatchRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/HatchRequirement.ts"
+    },
+    "modules/requirements/HoldingItemRequirement.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/HoldingItemRequirement.ts"
+    },
+    "modules/requirements/InDungeonRequirement.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/InDungeonRequirement.ts"
+    },
+    "modules/requirements/InEnvironmentRequirement.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/InEnvironmentRequirement.ts"
+    },
+    "modules/requirements/InGymRequirement.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/InGymRequirement.ts"
+    },
+    "modules/requirements/InRegionRequirement.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/InRegionRequirement.ts"
+    },
+    "modules/requirements/ItemOwnedRequirement.json": {
+      "total": 6,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/ItemOwnedRequirement.ts"
+    },
+    "modules/requirements/LazyRequirementWrapper.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/LazyRequirementWrapper.ts"
+    },
+    "modules/requirements/MaxLevelOakItemRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/MaxLevelOakItemRequirement.ts"
+    },
+    "modules/requirements/MaxRegionRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/MaxRegionRequirement.ts"
+    },
+    "modules/requirements/MegaEvolveRequirement.json": {
+      "total": 9,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/MegaEvolveRequirement.ts"
+    },
+    "modules/requirements/MoneyRequirement.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/MoneyRequirement.ts"
+    },
+    "modules/requirements/MoonCyclePhaseRequirement.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/MoonCyclePhaseRequirement.ts"
+    },
+    "modules/requirements/MultiRequirement.json": {
+      "total": 4,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/MultiRequirement.ts"
+    },
+    "modules/requirements/NullRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/NullRequirement.ts"
+    },
+    "modules/requirements/OakItemLevelRequirement.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/OakItemLevelRequirement.ts"
+    },
+    "modules/requirements/ObtainedPokemonRequirement.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/ObtainedPokemonRequirement.ts"
+    },
+    "modules/requirements/OneFromManyRequirement.json": {
+      "total": 4,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/OneFromManyRequirement.ts"
+    },
+    "modules/requirements/PokeballFilterCountRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/PokeballFilterCountRequirement.ts"
+    },
+    "modules/requirements/PokeballRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/PokeballRequirement.ts"
+    },
+    "modules/requirements/PokemonAttackRequirement.json": {
+      "total": 10,
+      "translated": 6,
+      "sourceFile": "src/modules/requirements/PokemonAttackRequirement.ts"
+    },
+    "modules/requirements/PokemonDefeatedSelectNRequirement.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/PokemonDefeatedSelectNRequirement.ts"
+    },
+    "modules/requirements/PokemonLevelRequirement.json": {
+      "total": 5,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/PokemonLevelRequirement.ts"
+    },
+    "modules/requirements/PokerusStatusRequirement.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/PokerusStatusRequirement.ts"
+    },
+    "modules/requirements/QuestLevelRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/QuestLevelRequirement.ts"
+    },
+    "modules/requirements/QuestLineCompletedRequirement.json": {
+      "total": 8,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/QuestLineCompletedRequirement.ts"
+    },
+    "modules/requirements/QuestLineStartedRequirement.json": {
+      "total": 8,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/QuestLineStartedRequirement.ts"
+    },
+    "modules/requirements/QuestLineStepCompletedRequirement.json": {
+      "total": 9,
+      "translated": 4,
+      "sourceFile": "src/modules/requirements/QuestLineStepCompletedRequirement.ts"
+    },
+    "modules/requirements/QuestRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/QuestRequirement.ts"
+    },
+    "modules/requirements/Requirement.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/Requirement.ts"
+    },
+    "modules/requirements/RouteKillRequirement.json": {
+      "total": 6,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/RouteKillRequirement.ts"
+    },
+    "modules/requirements/SafariBaitRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SafariBaitRequirement.ts"
+    },
+    "modules/requirements/SafariCatchRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SafariCatchRequirement.ts"
+    },
+    "modules/requirements/SafariItemsRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SafariItemsRequirement.ts"
+    },
+    "modules/requirements/SafariRocksRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SafariRocksRequirement.ts"
+    },
+    "modules/requirements/SafariStepsRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SafariStepsRequirement.ts"
+    },
+    "modules/requirements/SeededDateRequirement.json": {
+      "total": 5,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SeededDateRequirement.ts"
+    },
+    "modules/requirements/SeededDateSelectNRequirement.json": {
+      "total": 5,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SeededDateSelectNRequirement.ts"
+    },
+    "modules/requirements/SeviiCaughtRequirement.json": {
+      "total": 11,
+      "translated": 8,
+      "sourceFile": "src/modules/requirements/SeviiCaughtRequirement.ts"
+    },
+    "modules/requirements/ShadowPokemonRequirement.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/ShadowPokemonRequirement.ts"
+    },
+    "modules/requirements/ShinyPokemonRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/ShinyPokemonRequirement.ts"
+    },
+    "modules/requirements/SpecialEventRandomRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SpecialEventRandomRequirement.ts"
+    },
+    "modules/requirements/SpecialEventRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SpecialEventRequirement.ts"
+    },
+    "modules/requirements/StarterRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/StarterRequirement.ts"
+    },
+    "modules/requirements/StatisticRequirement.json": {
+      "total": 6,
+      "translated": 3,
+      "sourceFile": "src/modules/requirements/StatisticRequirement.ts"
+    },
+    "modules/requirements/SubregionRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/SubregionRequirement.ts"
+    },
+    "modules/requirements/TemporaryBattleRequirement.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/TemporaryBattleRequirement.ts"
+    },
+    "modules/requirements/TimePlayedRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/TimePlayedRequirement.ts"
+    },
+    "modules/requirements/TokenRequirement.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/TokenRequirement.ts"
+    },
+    "modules/requirements/TotalMegaStoneObtainedRequirement.json": {
+      "total": 6,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/TotalMegaStoneObtainedRequirement.ts"
+    },
+    "modules/requirements/TotalSpecialEventsActiveRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/TotalSpecialEventsActiveRequirement.ts"
+    },
+    "modules/requirements/UndergroundHelperRequirement.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/UndergroundHelperRequirement.ts"
+    },
+    "modules/requirements/UndergroundItemsFoundRequirement.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/requirements/UndergroundItemsFoundRequirement.ts"
+    },
+    "modules/requirements/UndergroundLayersFullyMinedRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/UndergroundLayersFullyMinedRequirement.ts"
+    },
+    "modules/requirements/UndergroundLayersMinedRequirement.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/UndergroundLayersMinedRequirement.ts"
+    },
+    "modules/requirements/UndergroundLevelRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/UndergroundLevelRequirement.ts"
+    },
+    "modules/requirements/UndergroundUseToolRequirement.json": {
+      "total": 6,
+      "translated": 2,
+      "sourceFile": "src/modules/requirements/UndergroundUseToolRequirement.ts"
+    },
+    "modules/requirements/UniqueItemOwnedRequirement.json": {
+      "total": 5,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/UniqueItemOwnedRequirement.ts"
+    },
+    "modules/requirements/VitaminObtainRequirement.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/VitaminObtainRequirement.ts"
+    },
+    "modules/requirements/WeatherRequirement.json": {
+      "total": 6,
+      "translated": 1,
+      "sourceFile": "src/modules/requirements/WeatherRequirement.ts"
+    },
+    "modules/routes/index.json": {
+      "total": 5,
+      "translated": 0,
+      "sourceFile": "src/modules/routes/index.ts"
+    },
+    "modules/routes/RegionRoute.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/routes/RegionRoute.ts"
+    },
+    "modules/routes/RouteData.json": {
+      "total": 1267,
+      "translated": 1226,
+      "sourceFile": "src/modules/routes/RouteData.ts"
+    },
+    "modules/routes/RoutePokemon.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/routes/RoutePokemon.ts"
+    },
+    "modules/routes/Routes.json": {
+      "total": 7,
+      "translated": 3,
+      "sourceFile": "src/modules/routes/Routes.ts"
+    },
+    "modules/routes/SpecialRoutePokemon.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/routes/SpecialRoutePokemon.ts"
+    },
+    "modules/saveReminder/SaveReminder.json": {
+      "total": 10,
+      "translated": 2,
+      "sourceFile": "src/modules/saveReminder/SaveReminder.ts"
+    },
+    "modules/SaveSelector.json": {
+      "total": 50,
+      "translated": 18,
+      "sourceFile": "src/modules/SaveSelector.ts"
+    },
+    "modules/settings/BooleanSetting.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/settings/BooleanSetting.ts"
+    },
+    "modules/settings/CssVariableSetting.json": {
+      "total": 5,
+      "translated": 2,
+      "sourceFile": "src/modules/settings/CssVariableSetting.ts"
+    },
+    "modules/settings/HotkeySetting.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/settings/HotkeySetting.ts"
+    },
+    "modules/settings/index.json": {
+      "total": 465,
+      "translated": 410,
+      "sourceFile": "src/modules/settings/index.ts"
+    },
+    "modules/settings/NotificationSetting.json": {
+      "total": 12,
+      "translated": 9,
+      "sourceFile": "src/modules/settings/NotificationSetting.ts"
+    },
+    "modules/settings/OrderSetting.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/settings/OrderSetting.ts"
+    },
+    "modules/settings/RangeSetting.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/settings/RangeSetting.ts"
+    },
+    "modules/settings/SearchSetting.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/settings/SearchSetting.ts"
+    },
+    "modules/settings/Setting.json": {
+      "total": 10,
+      "translated": 6,
+      "sourceFile": "src/modules/settings/Setting.ts"
+    },
+    "modules/settings/SettingOption.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/settings/SettingOption.ts"
+    },
+    "modules/settings/Settings.json": {
+      "total": 8,
+      "translated": 4,
+      "sourceFile": "src/modules/settings/Settings.ts"
+    },
+    "modules/settings/SortOptions.json": {
+      "total": 14,
+      "translated": 14,
+      "sourceFile": "src/modules/settings/SortOptions.ts"
+    },
+    "modules/Sortable.json": {
+      "total": 17,
+      "translated": 4,
+      "sourceFile": "src/modules/Sortable.ts"
+    },
+    "modules/specialEvents/SpecialEvent.json": {
+      "total": 18,
+      "translated": 10,
+      "sourceFile": "src/modules/specialEvents/SpecialEvent.ts"
+    },
+    "modules/specialEvents/SpecialEvents.json": {
+      "total": 26,
+      "translated": 23,
+      "sourceFile": "src/modules/specialEvents/SpecialEvents.ts"
+    },
+    "modules/specialEvents/SpecialEventTitleType.json": {
+      "total": 11,
+      "translated": 9,
+      "sourceFile": "src/modules/specialEvents/SpecialEventTitleType.ts"
+    },
+    "modules/subRegion/SubRegion.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/subRegion/SubRegion.ts"
+    },
+    "modules/subRegion/SubRegions.json": {
+      "total": 49,
+      "translated": 39,
+      "sourceFile": "src/modules/subRegion/SubRegions.ts"
+    },
+    "modules/TemporaryScriptTypes.json": {
+      "total": 31,
+      "translated": 1,
+      "sourceFile": "src/modules/TemporaryScriptTypes.ts"
+    },
+    "modules/temporaryWindowInjection.json": {
+      "total": 225,
+      "translated": 0,
+      "sourceFile": "src/modules/temporaryWindowInjection.ts"
+    },
+    "modules/translation/Language.json": {
+      "total": 21,
+      "translated": 21,
+      "sourceFile": "src/modules/translation/Language.ts"
+    },
+    "modules/translation/Translation.json": {
+      "total": 26,
+      "translated": 14,
+      "sourceFile": "src/modules/translation/Translation.ts"
+    },
+    "modules/translation/TranslationHelper.json": {
+      "total": 14,
+      "translated": 8,
+      "sourceFile": "src/modules/translation/TranslationHelper.ts"
+    },
+    "modules/types/DamageCalculator.json": {
+      "total": 6,
+      "translated": 0,
+      "sourceFile": "src/modules/types/DamageCalculator.ts"
+    },
+    "modules/types/TypeHelper.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/types/TypeHelper.ts"
+    },
+    "modules/underground/battery/dracoMeteor.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/dracoMeteor.ts"
+    },
+    "modules/underground/battery/dragonBreath.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/dragonBreath.ts"
+    },
+    "modules/underground/battery/eruption.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/eruption.ts"
+    },
+    "modules/underground/battery/explosion.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/explosion.ts"
+    },
+    "modules/underground/battery/fleurCannon.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/fleurCannon.ts"
+    },
+    "modules/underground/battery/heartStamp.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/heartStamp.ts"
+    },
+    "modules/underground/battery/hydroCannon.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/hydroCannon.ts"
+    },
+    "modules/underground/battery/hyperBeam.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/hyperBeam.ts"
+    },
+    "modules/underground/battery/leafTornado.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/leafTornado.ts"
+    },
+    "modules/underground/battery/overdrive.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/overdrive.ts"
+    },
+    "modules/underground/battery/pokeball.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/pokeball.ts"
+    },
+    "modules/underground/battery/surf.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/surf.ts"
+    },
+    "modules/underground/battery/tenMillionVoltThunderbolt.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/battery/tenMillionVoltThunderbolt.ts"
+    },
+    "modules/underground/helper/UndergroundHelper.json": {
+      "total": 53,
+      "translated": 41,
+      "sourceFile": "src/modules/underground/helper/UndergroundHelper.ts"
+    },
+    "modules/underground/mine/Mine.json": {
+      "total": 10,
+      "translated": 1,
+      "sourceFile": "src/modules/underground/mine/Mine.ts"
+    },
+    "modules/underground/mine/MineConfig.json": {
+      "total": 10,
+      "translated": 7,
+      "sourceFile": "src/modules/underground/mine/MineConfig.ts"
+    },
+    "modules/underground/ShardDeal.json": {
+      "total": 108,
+      "translated": 98,
+      "sourceFile": "src/modules/underground/ShardDeal.ts"
+    },
+    "modules/underground/tools/UndergroundTool.json": {
+      "total": 8,
+      "translated": 3,
+      "sourceFile": "src/modules/underground/tools/UndergroundTool.ts"
+    },
+    "modules/underground/tools/UndergroundTools.json": {
+      "total": 17,
+      "translated": 9,
+      "sourceFile": "src/modules/underground/tools/UndergroundTools.ts"
+    },
+    "modules/underground/tools/UndergroundToolType.json": {
+      "total": 4,
+      "translated": 4,
+      "sourceFile": "src/modules/underground/tools/UndergroundToolType.ts"
+    },
+    "modules/underground/Underground.json": {
+      "total": 16,
+      "translated": 4,
+      "sourceFile": "src/modules/underground/Underground.ts"
+    },
+    "modules/underground/UndergroundBattery.json": {
+      "total": 41,
+      "translated": 16,
+      "sourceFile": "src/modules/underground/UndergroundBattery.ts"
+    },
+    "modules/underground/UndergroundController.json": {
+      "total": 68,
+      "translated": 37,
+      "sourceFile": "src/modules/underground/UndergroundController.ts"
+    },
+    "modules/underground/UndergroundEvolutionItem.json": {
+      "total": 4,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/UndergroundEvolutionItem.ts"
+    },
+    "modules/underground/UndergroundFossilPieceItem.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/UndergroundFossilPieceItem.ts"
+    },
+    "modules/underground/UndergroundGemItem.json": {
+      "total": 4,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/UndergroundGemItem.ts"
+    },
+    "modules/underground/UndergroundItem.json": {
+      "total": 11,
+      "translated": 3,
+      "sourceFile": "src/modules/underground/UndergroundItem.ts"
+    },
+    "modules/underground/UndergroundItemNameType.json": {
+      "total": 77,
+      "translated": 75,
+      "sourceFile": "src/modules/underground/UndergroundItemNameType.ts"
+    },
+    "modules/underground/UndergroundItems.json": {
+      "total": 96,
+      "translated": 83,
+      "sourceFile": "src/modules/underground/UndergroundItems.ts"
+    },
+    "modules/underground/UndergroundMegaStoneItem.json": {
+      "total": 8,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/UndergroundMegaStoneItem.ts"
+    },
+    "modules/underground/UndergroundShardItem.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/underground/UndergroundShardItem.ts"
+    },
+    "modules/underground/UndergroundTrading.json": {
+      "total": 14,
+      "translated": 5,
+      "sourceFile": "src/modules/underground/UndergroundTrading.ts"
+    },
+    "modules/underground/UndergroundTreasuresSortOptions.json": {
+      "total": 5,
+      "translated": 4,
+      "sourceFile": "src/modules/underground/UndergroundTreasuresSortOptions.ts"
+    },
+    "modules/upgrades/ExpUpgrade.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/upgrades/ExpUpgrade.ts"
+    },
+    "modules/upgrades/Upgrade.json": {
+      "total": 6,
+      "translated": 2,
+      "sourceFile": "src/modules/upgrades/Upgrade.ts"
+    },
+    "modules/utilities/DisplayObservables.json": {
+      "total": 14,
+      "translated": 10,
+      "sourceFile": "src/modules/utilities/DisplayObservables.ts"
+    },
+    "modules/utilities/DownloadUtil.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/utilities/DownloadUtil.ts"
+    },
+    "modules/utilities/GameLoadState.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/modules/utilities/GameLoadState.ts"
+    },
+    "modules/utilities/LazyLoader.json": {
+      "total": 16,
+      "translated": 9,
+      "sourceFile": "src/modules/utilities/LazyLoader.ts"
+    },
+    "modules/utilities/Rand.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/utilities/Rand.ts"
+    },
+    "modules/utilities/SeededDateRand.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/utilities/SeededDateRand.ts"
+    },
+    "modules/utilities/SeededRand.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/modules/utilities/SeededRand.ts"
+    },
+    "modules/utilities/Sound.json": {
+      "total": 12,
+      "translated": 6,
+      "sourceFile": "src/modules/utilities/Sound.ts"
+    },
+    "modules/utilities/TextMerger.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/modules/utilities/TextMerger.ts"
+    },
+    "modules/utilities/UI.json": {
+      "total": 12,
+      "translated": 8,
+      "sourceFile": "src/modules/utilities/UI.ts"
+    },
+    "modules/utilities/utilities.test.json": {
+      "total": 18,
+      "translated": 14,
+      "sourceFile": "src/modules/utilities/utilities.test.ts"
+    },
+    "modules/wallet/Amount.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/modules/wallet/Amount.ts"
+    },
+    "modules/wallet/AmountFactory.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/modules/wallet/AmountFactory.ts"
+    },
+    "modules/wallet/inject.json": {
+      "total": 3,
+      "translated": 0,
+      "sourceFile": "src/modules/wallet/inject.ts"
+    },
+    "modules/wallet/Wallet.json": {
+      "total": 15,
+      "translated": 8,
+      "sourceFile": "src/modules/wallet/Wallet.ts"
+    },
+    "modules/weather/RegionalForecast.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/weather/RegionalForecast.ts"
+    },
+    "modules/weather/Weather.json": {
+      "total": 19,
+      "translated": 13,
+      "sourceFile": "src/modules/weather/Weather.ts"
+    },
+    "modules/weather/WeatherApp.json": {
+      "total": 13,
+      "translated": 5,
+      "sourceFile": "src/modules/weather/WeatherApp.ts"
+    },
+    "modules/weather/WeatherCondition.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/modules/weather/WeatherCondition.ts"
+    },
+    "modules/weather/WeatherForecast.json": {
+      "total": 3,
+      "translated": 1,
+      "sourceFile": "src/modules/weather/WeatherForecast.ts"
+    },
+    "scripts/achievements/AchievementHandler.json": {
+      "total": 607,
+      "translated": 569,
+      "sourceFile": "src/scripts/achievements/AchievementHandler.ts"
+    },
+    "scripts/achievements/CaughtPokemonByFilterRequirement.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/achievements/CaughtPokemonByFilterRequirement.ts"
+    },
+    "scripts/achievements/CaughtPokemonByRegionRequirement.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/achievements/CaughtPokemonByRegionRequirement.ts"
+    },
+    "scripts/achievements/CaughtShinyPokemonByRegionRequirement.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/scripts/achievements/CaughtShinyPokemonByRegionRequirement.ts"
+    },
+    "scripts/achievements/PokerusStatusByFilterRequirement.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/achievements/PokerusStatusByFilterRequirement.ts"
+    },
+    "scripts/achievements/SafariLevelRequirement.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/achievements/SafariLevelRequirement.ts"
+    },
+    "scripts/achievements/StoneUnlockedRequirement.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/achievements/StoneUnlockedRequirement.ts"
+    },
+    "scripts/App.json": {
+      "total": 22,
+      "translated": 18,
+      "sourceFile": "src/scripts/App.ts"
+    },
+    "scripts/badgeCase/BadgeCaseController.json": {
+      "total": 5,
+      "translated": 4,
+      "sourceFile": "src/scripts/badgeCase/BadgeCaseController.ts"
+    },
+    "scripts/battleFrontier/BattleFrontierMilestoneItem.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/battleFrontier/BattleFrontierMilestoneItem.ts"
+    },
+    "scripts/battleFrontier/BattleFrontierMilestonePokemon.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/scripts/battleFrontier/BattleFrontierMilestonePokemon.ts"
+    },
+    "scripts/battleFrontier/BattleFrontierMilestones.json": {
+      "total": 53,
+      "translated": 50,
+      "sourceFile": "src/scripts/battleFrontier/BattleFrontierMilestones.ts"
+    },
+    "scripts/battleFrontier/BattleFrontierRunner.json": {
+      "total": 17,
+      "translated": 8,
+      "sourceFile": "src/scripts/battleFrontier/BattleFrontierRunner.ts"
+    },
+    "scripts/breeding/Breeding.json": {
+      "total": 183,
+      "translated": 181,
+      "sourceFile": "src/scripts/breeding/Breeding.ts"
+    },
+    "scripts/breeding/BreedingController.json": {
+      "total": 29,
+      "translated": 26,
+      "sourceFile": "src/scripts/breeding/BreedingController.ts"
+    },
+    "scripts/breeding/Egg.json": {
+      "total": 8,
+      "translated": 6,
+      "sourceFile": "src/scripts/breeding/Egg.ts"
+    },
+    "scripts/breeding/EggSpots.json": {
+      "total": 31,
+      "translated": 2,
+      "sourceFile": "src/scripts/breeding/EggSpots.ts"
+    },
+    "scripts/breeding/HatcheryHelper.json": {
+      "total": 44,
+      "translated": 34,
+      "sourceFile": "src/scripts/breeding/HatcheryHelper.ts"
+    },
+    "scripts/discord/Discord.json": {
+      "total": 24,
+      "translated": 22,
+      "sourceFile": "src/scripts/discord/Discord.ts"
+    },
+    "scripts/discord/DiscordCode.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/scripts/discord/DiscordCode.ts"
+    },
+    "scripts/discord/DiscordItemCode.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/scripts/discord/DiscordItemCode.ts"
+    },
+    "scripts/discord/DiscordPokemonCode.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/scripts/discord/DiscordPokemonCode.ts"
+    },
+    "scripts/discord/DiscordRichPresence.json": {
+      "total": 66,
+      "translated": 33,
+      "sourceFile": "src/scripts/discord/DiscordRichPresence.ts"
+    },
+    "scripts/dungeons/Dungeon.json": {
+      "total": 2347,
+      "translated": 2331,
+      "sourceFile": "src/scripts/dungeons/Dungeon.ts"
+    },
+    "scripts/dungeons/DungeonBattle.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/dungeons/DungeonBattle.ts"
+    },
+    "scripts/dungeons/DungeonFlash.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/dungeons/DungeonFlash.ts"
+    },
+    "scripts/dungeons/DungeonGuides.json": {
+      "total": 25,
+      "translated": 19,
+      "sourceFile": "src/scripts/dungeons/DungeonGuides.ts"
+    },
+    "scripts/dungeons/DungeonRunner.json": {
+      "total": 21,
+      "translated": 14,
+      "sourceFile": "src/scripts/dungeons/DungeonRunner.ts"
+    },
+    "scripts/dungeons/DungeonTile.json": {
+      "total": 6,
+      "translated": 5,
+      "sourceFile": "src/scripts/dungeons/DungeonTile.ts"
+    },
+    "scripts/encountersInfo/DungeonInfo.json": {
+      "total": 6,
+      "translated": 5,
+      "sourceFile": "src/scripts/encountersInfo/DungeonInfo.ts"
+    },
+    "scripts/encountersInfo/RouteInfo.json": {
+      "total": 12,
+      "translated": 11,
+      "sourceFile": "src/scripts/encountersInfo/RouteInfo.ts"
+    },
+    "scripts/farming/Berry.json": {
+      "total": 28,
+      "translated": 28,
+      "sourceFile": "src/scripts/farming/Berry.ts"
+    },
+    "scripts/farming/BerryDeal.json": {
+      "total": 26,
+      "translated": 26,
+      "sourceFile": "src/scripts/farming/BerryDeal.ts"
+    },
+    "scripts/farming/FarmController.json": {
+      "total": 21,
+      "translated": 14,
+      "sourceFile": "src/scripts/farming/FarmController.ts"
+    },
+    "scripts/farming/FarmHand.json": {
+      "total": 35,
+      "translated": 25,
+      "sourceFile": "src/scripts/farming/FarmHand.ts"
+    },
+    "scripts/farming/Farming.json": {
+      "total": 262,
+      "translated": 256,
+      "sourceFile": "src/scripts/farming/Farming.ts"
+    },
+    "scripts/farming/mutation/mutationTypes/EnigmaMutation.json": {
+      "total": 11,
+      "translated": 8,
+      "sourceFile": "src/scripts/farming/mutation/mutationTypes/EnigmaMutation.ts"
+    },
+    "scripts/farming/mutation/mutationTypes/EvolveNearBerryMutation.json": {
+      "total": 6,
+      "translated": 5,
+      "sourceFile": "src/scripts/farming/mutation/mutationTypes/EvolveNearBerryMutation.ts"
+    },
+    "scripts/farming/mutation/mutationTypes/FieldMutation.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/farming/mutation/mutationTypes/FieldMutation.ts"
+    },
+    "scripts/farming/mutation/mutationTypes/GrowNearBerryMutation.json": {
+      "total": 4,
+      "translated": 2,
+      "sourceFile": "src/scripts/farming/mutation/mutationTypes/GrowNearBerryMutation.ts"
+    },
+    "scripts/farming/mutation/mutationTypes/OakMutation.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/farming/mutation/mutationTypes/OakMutation.ts"
+    },
+    "scripts/farming/mutation/mutationTypes/PetayaMutation.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/farming/mutation/mutationTypes/PetayaMutation.ts"
+    },
+    "scripts/farming/Plot.json": {
+      "total": 25,
+      "translated": 22,
+      "sourceFile": "src/scripts/farming/Plot.ts"
+    },
+    "scripts/Game.json": {
+      "total": 40,
+      "translated": 31,
+      "sourceFile": "src/scripts/Game.ts"
+    },
+    "scripts/GameController.json": {
+      "total": 74,
+      "translated": 54,
+      "sourceFile": "src/scripts/GameController.ts"
+    },
+    "scripts/gym/Gym.json": {
+      "total": 22,
+      "translated": 14,
+      "sourceFile": "src/scripts/gym/Gym.ts"
+    },
+    "scripts/gym/GymList.json": {
+      "total": 986,
+      "translated": 941,
+      "sourceFile": "src/scripts/gym/GymList.ts"
+    },
+    "scripts/gym/GymRunner.json": {
+      "total": 8,
+      "translated": 6,
+      "sourceFile": "src/scripts/gym/GymRunner.ts"
+    },
+    "scripts/index.json": {
+      "total": 10,
+      "translated": 4,
+      "sourceFile": "src/scripts/index.ts"
+    },
+    "scripts/items/BagHandler.json": {
+      "total": 3,
+      "translated": 2,
+      "sourceFile": "src/scripts/items/BagHandler.ts"
+    },
+    "scripts/items/EvolutionStone.json": {
+      "total": 55,
+      "translated": 53,
+      "sourceFile": "src/scripts/items/EvolutionStone.ts"
+    },
+    "scripts/items/FarmHandItem.json": {
+      "total": 10,
+      "translated": 8,
+      "sourceFile": "src/scripts/items/FarmHandItem.ts"
+    },
+    "scripts/items/HatcheryHelperItem.json": {
+      "total": 12,
+      "translated": 10,
+      "sourceFile": "src/scripts/items/HatcheryHelperItem.ts"
+    },
+    "scripts/items/HeldItem.json": {
+      "total": 135,
+      "translated": 125,
+      "sourceFile": "src/scripts/items/HeldItem.ts"
+    },
+    "scripts/items/ZCrystalItem.json": {
+      "total": 4,
+      "translated": 4,
+      "sourceFile": "src/scripts/items/ZCrystalItem.ts"
+    },
+    "scripts/party/evolutions/EvolutionHandler.json": {
+      "total": 2,
+      "translated": 0,
+      "sourceFile": "src/scripts/party/evolutions/EvolutionHandler.ts"
+    },
+    "scripts/party/Megastone.json": {
+      "total": 5,
+      "translated": 4,
+      "sourceFile": "src/scripts/party/Megastone.ts"
+    },
+    "scripts/party/Party.json": {
+      "total": 7,
+      "translated": 6,
+      "sourceFile": "src/scripts/party/Party.ts"
+    },
+    "scripts/party/PartyController.json": {
+      "total": 26,
+      "translated": 26,
+      "sourceFile": "src/scripts/party/PartyController.ts"
+    },
+    "scripts/party/PartyPokemon.json": {
+      "total": 27,
+      "translated": 24,
+      "sourceFile": "src/scripts/party/PartyPokemon.ts"
+    },
+    "scripts/Player.json": {
+      "total": 14,
+      "translated": 4,
+      "sourceFile": "src/scripts/Player.ts"
+    },
+    "scripts/pokeballs/Pokeballs.json": {
+      "total": 21,
+      "translated": 21,
+      "sourceFile": "src/scripts/pokeballs/Pokeballs.ts"
+    },
+    "scripts/pokedex/PokedexHelper.json": {
+      "total": 24,
+      "translated": 16,
+      "sourceFile": "src/scripts/pokedex/PokedexHelper.ts"
+    },
+    "scripts/pokemons/PokemonFactory.json": {
+      "total": 20,
+      "translated": 19,
+      "sourceFile": "src/scripts/pokemons/PokemonFactory.ts"
+    },
+    "scripts/pokemons/PokemonLocations.json": {
+      "total": 4,
+      "translated": 4,
+      "sourceFile": "src/scripts/pokemons/PokemonLocations.ts"
+    },
+    "scripts/quests/BulletinBoard.json": {
+      "total": 8,
+      "translated": 7,
+      "sourceFile": "src/scripts/quests/BulletinBoard.ts"
+    },
+    "scripts/quests/Quest.json": {
+      "total": 19,
+      "translated": 14,
+      "sourceFile": "src/scripts/quests/Quest.ts"
+    },
+    "scripts/quests/QuestHelper.json": {
+      "total": 1,
+      "translated": 1,
+      "sourceFile": "src/scripts/quests/QuestHelper.ts"
+    },
+    "scripts/quests/QuestLine.json": {
+      "total": 8,
+      "translated": 7,
+      "sourceFile": "src/scripts/quests/QuestLine.ts"
+    },
+    "scripts/quests/QuestLineController.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/scripts/quests/QuestLineController.ts"
+    },
+    "scripts/quests/QuestLineHelper.json": {
+      "total": 1684,
+      "translated": 1463,
+      "sourceFile": "src/scripts/quests/QuestLineHelper.ts"
+    },
+    "scripts/quests/Quests.json": {
+      "total": 22,
+      "translated": 20,
+      "sourceFile": "src/scripts/quests/Quests.ts"
+    },
+    "scripts/quests/questTypes/BuyPokeballsQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/BuyPokeballsQuest.ts"
+    },
+    "scripts/quests/questTypes/CapturePokemonsQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/CapturePokemonsQuest.ts"
+    },
+    "scripts/quests/questTypes/CapturePokemonTypesQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/CapturePokemonTypesQuest.ts"
+    },
+    "scripts/quests/questTypes/CaptureSpecificPokemonQuest.json": {
+      "total": 3,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/CaptureSpecificPokemonQuest.ts"
+    },
+    "scripts/quests/questTypes/CatchShadowsQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/CatchShadowsQuest.ts"
+    },
+    "scripts/quests/questTypes/CatchShiniesQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/CatchShiniesQuest.ts"
+    },
+    "scripts/quests/questTypes/ClearBattleFrontierQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/ClearBattleFrontierQuest.ts"
+    },
+    "scripts/quests/questTypes/DefeatDungeonBossQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/DefeatDungeonBossQuest.ts"
+    },
+    "scripts/quests/questTypes/DefeatDungeonQuest.json": {
+      "total": 3,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/DefeatDungeonQuest.ts"
+    },
+    "scripts/quests/questTypes/DefeatGymQuest.json": {
+      "total": 7,
+      "translated": 7,
+      "sourceFile": "src/scripts/quests/questTypes/DefeatGymQuest.ts"
+    },
+    "scripts/quests/questTypes/DefeatPokemonsQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/DefeatPokemonsQuest.ts"
+    },
+    "scripts/quests/questTypes/GainFarmPointsQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/GainFarmPointsQuest.ts"
+    },
+    "scripts/quests/questTypes/GainGemsQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/GainGemsQuest.ts"
+    },
+    "scripts/quests/questTypes/GainMoneyQuest.json": {
+      "total": 2,
+      "translated": 1,
+      "sourceFile": "src/scripts/quests/questTypes/GainMoneyQuest.ts"
+    },
+    "scripts/quests/questTypes/GainTokensQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/GainTokensQuest.ts"
+    },
+    "scripts/quests/questTypes/HarvestBerriesQuest.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/scripts/quests/questTypes/HarvestBerriesQuest.ts"
+    },
+    "scripts/quests/questTypes/HatchEggsQuest.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/scripts/quests/questTypes/HatchEggsQuest.ts"
+    },
+    "scripts/quests/questTypes/MineItemsQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/MineItemsQuest.ts"
+    },
+    "scripts/quests/questTypes/MineLayersQuest.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/quests/questTypes/MineLayersQuest.ts"
+    },
+    "scripts/quests/questTypes/UseOakItemQuest.json": {
+      "total": 6,
+      "translated": 5,
+      "sourceFile": "src/scripts/quests/questTypes/UseOakItemQuest.ts"
+    },
+    "scripts/quests/questTypes/UsePokeballQuest.json": {
+      "total": 4,
+      "translated": 4,
+      "sourceFile": "src/scripts/quests/questTypes/UsePokeballQuest.ts"
+    },
+    "scripts/safari/Bait.json": {
+      "total": 8,
+      "translated": 6,
+      "sourceFile": "src/scripts/safari/Bait.ts"
+    },
+    "scripts/safari/Safari.json": {
+      "total": 44,
+      "translated": 39,
+      "sourceFile": "src/scripts/safari/Safari.ts"
+    },
+    "scripts/safari/SafariBattle.json": {
+      "total": 64,
+      "translated": 42,
+      "sourceFile": "src/scripts/safari/SafariBattle.ts"
+    },
+    "scripts/safari/SafariBody.json": {
+      "total": 6,
+      "translated": 6,
+      "sourceFile": "src/scripts/safari/SafariBody.ts"
+    },
+    "scripts/safari/SafariItem.json": {
+      "total": 73,
+      "translated": 71,
+      "sourceFile": "src/scripts/safari/SafariItem.ts"
+    },
+    "scripts/safari/SafariPokemon.json": {
+      "total": 3,
+      "translated": 2,
+      "sourceFile": "src/scripts/safari/SafariPokemon.ts"
+    },
+    "scripts/safari/SafariPokemonList.json": {
+      "total": 121,
+      "translated": 114,
+      "sourceFile": "src/scripts/safari/SafariPokemonList.ts"
+    },
+    "scripts/safari/SafariTownContent.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/safari/SafariTownContent.ts"
+    },
+    "scripts/Save.json": {
+      "total": 18,
+      "translated": 14,
+      "sourceFile": "src/scripts/Save.ts"
+    },
+    "scripts/shop/BerryMasterShop.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/scripts/shop/BerryMasterShop.ts"
+    },
+    "scripts/shop/GemMasterShop.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/shop/GemMasterShop.ts"
+    },
+    "scripts/shop/GenericTraderShop.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/shop/GenericTraderShop.ts"
+    },
+    "scripts/shop/ShardTraderShop.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/scripts/shop/ShardTraderShop.ts"
+    },
+    "scripts/shop/Shop.json": {
+      "total": 6,
+      "translated": 6,
+      "sourceFile": "src/scripts/shop/Shop.ts"
+    },
+    "scripts/shop/ShopHandler.json": {
+      "total": 6,
+      "translated": 6,
+      "sourceFile": "src/scripts/shop/ShopHandler.ts"
+    },
+    "scripts/StartSequenceRunner.json": {
+      "total": 25,
+      "translated": 10,
+      "sourceFile": "src/scripts/StartSequenceRunner.ts"
+    },
+    "scripts/temporaryBattle/TemporaryBattle.json": {
+      "total": 5,
+      "translated": 3,
+      "sourceFile": "src/scripts/temporaryBattle/TemporaryBattle.ts"
+    },
+    "scripts/temporaryBattle/TemporaryBattleList.json": {
+      "total": 1866,
+      "translated": 1543,
+      "sourceFile": "src/scripts/temporaryBattle/TemporaryBattleList.ts"
+    },
+    "scripts/temporaryBattle/TemporaryBattleRunner.json": {
+      "total": 9,
+      "translated": 6,
+      "sourceFile": "src/scripts/temporaryBattle/TemporaryBattleRunner.ts"
+    },
+    "scripts/towns/AssistantNPC.json": {
+      "total": 6,
+      "translated": 3,
+      "sourceFile": "src/scripts/towns/AssistantNPC.ts"
+    },
+    "scripts/towns/BattleCafe.json": {
+      "total": 81,
+      "translated": 81,
+      "sourceFile": "src/scripts/towns/BattleCafe.ts"
+    },
+    "scripts/towns/DreamOrbController.json": {
+      "total": 46,
+      "translated": 45,
+      "sourceFile": "src/scripts/towns/DreamOrbController.ts"
+    },
+    "scripts/towns/KantoBerryMasterNPC.json": {
+      "total": 3,
+      "translated": 2,
+      "sourceFile": "src/scripts/towns/KantoBerryMasterNPC.ts"
+    },
+    "scripts/towns/NPC.json": {
+      "total": 1,
+      "translated": 0,
+      "sourceFile": "src/scripts/towns/NPC.ts"
+    },
+    "scripts/towns/NPCController.json": {
+      "total": 2,
+      "translated": 2,
+      "sourceFile": "src/scripts/towns/NPCController.ts"
+    },
+    "scripts/towns/ProfNPC.json": {
+      "total": 5,
+      "translated": 0,
+      "sourceFile": "src/scripts/towns/ProfNPC.ts"
+    },
+    "scripts/towns/PurifyChamber.json": {
+      "total": 6,
+      "translated": 6,
+      "sourceFile": "src/scripts/towns/PurifyChamber.ts"
+    },
+    "scripts/towns/RoamerNPC.json": {
+      "total": 4,
+      "translated": 1,
+      "sourceFile": "src/scripts/towns/RoamerNPC.ts"
+    },
+    "scripts/towns/TownContent.json": {
+      "total": 13,
+      "translated": 11,
+      "sourceFile": "src/scripts/towns/TownContent.ts"
+    },
+    "scripts/towns/TownList.json": {
+      "total": 3312,
+      "translated": 2466,
+      "sourceFile": "src/scripts/towns/TownList.ts"
+    },
+    "scripts/Update.json": {
+      "total": 445,
+      "translated": 351,
+      "sourceFile": "src/scripts/Update.ts"
+    },
+    "scripts/utilities/Preload.json": {
+      "total": 25,
+      "translated": 17,
+      "sourceFile": "src/scripts/utilities/Preload.ts"
+    },
+    "scripts/wildBattle/RouteHelper.json": {
+      "total": 5,
+      "translated": 3,
+      "sourceFile": "src/scripts/wildBattle/RouteHelper.ts"
+    },
+    "scripts/worldmap/MapHelper.json": {
+      "total": 23,
+      "translated": 14,
+      "sourceFile": "src/scripts/worldmap/MapHelper.ts"
+    },
+    "scripts/zMoves/zMoves.json": {
+      "total": 3,
+      "translated": 3,
+      "sourceFile": "src/scripts/zMoves/zMoves.ts"
     }
   }
 }

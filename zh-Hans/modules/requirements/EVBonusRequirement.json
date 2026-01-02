@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/EVBonusRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 3,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -15,8 +15,10 @@
       "line": 2
     },
     "Reach a x${this.requiredValue} EV bonus with any Pokémon.": {
-      "translation": "",
-      "line": 21
+      "translation": "使用任意宝可梦达到 x${...} 努力值奖励。",
+      "line": 21,
+      "_rematchedFrom": "Reach a x${...} EV bonus with any Pokémon.",
+      "_confidence": 0.85
     }
   }
 }

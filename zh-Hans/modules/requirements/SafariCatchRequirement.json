@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/SafariCatchRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 0
+    "translatedCount": 1
   },
   "entries": {
     "../GameConstants": {
@@ -19,8 +19,10 @@
       "line": 17
     },
     "${this.requiredValue}${this.shiny ? ' Shiny' : ''} Pokémon needs to be captured in a Safari Zone.": {
-      "translation": "",
-      "line": 17
+      "translation": "${...}${...} 个宝可梦需要在 Safari 区域中捕获。",
+      "line": 17,
+      "_rematchedFrom": "${...}${...} Pokémon needs to be captured in a Safari Zone.",
+      "_confidence": 0.85
     }
   }
 }

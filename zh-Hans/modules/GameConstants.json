@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/GameConstants.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 1204,
-    "translatedCount": 1051
+    "translatedCount": 1058
   },
   "entries": {
     "./dayCycle/DayCyclePart": {
@@ -183,8 +183,10 @@
       "line": 546
     },
     "${str}es": {
-      "translation": "",
-      "line": 548
+      "translation": "${...}es",
+      "line": 548,
+      "_rematchedFrom": "${...}es",
+      "_confidence": 0.85
     },
     "${str}s": {
       "translation": "",
@@ -195,20 +197,26 @@
       "line": 559
     },
     "${weeks}w": {
-      "translation": "",
-      "line": 578
+      "translation": "${...}w",
+      "line": 578,
+      "_rematchedFrom": "${...}w",
+      "_confidence": 0.85
     },
     "${days}d": {
-      "translation": "",
-      "line": 583
+      "translation": "${...}d",
+      "line": 583,
+      "_rematchedFrom": "${...}d",
+      "_confidence": 0.85
     },
     "${hours}h": {
       "translation": "",
       "line": 588
     },
     "${minutes}m": {
-      "translation": "",
-      "line": 593
+      "translation": "${...}m",
+      "line": 593,
+      "_rematchedFrom": "${...}m",
+      "_confidence": 0.85
     },
     "${seconds}s": {
       "translation": "",
@@ -223,20 +231,26 @@
       "line": 650
     },
     "${num}T": {
-      "translation": "",
-      "line": 660
+      "translation": "${...}T",
+      "line": 660,
+      "_rematchedFrom": "${...}T",
+      "_confidence": 0.85
     },
     "${num}B": {
-      "translation": "",
-      "line": 666
+      "translation": "${...}b",
+      "line": 666,
+      "_rematchedFrom": "${...}b",
+      "_confidence": 0.85
     },
     "${num}M": {
       "translation": "",
       "line": 672
     },
     "${num}K": {
-      "translation": "",
-      "line": 678
+      "translation": "${...}k",
+      "line": 678,
+      "_rematchedFrom": "${...}k",
+      "_confidence": 0.85
     },
     "New Mauville": {
       "translation": "新莫维尔",

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/requirements/QuestRequirement.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 4,
-    "translatedCount": 1
+    "translatedCount": 2
   },
   "entries": {
     "../GameConstants": {
@@ -19,8 +19,10 @@
       "line": 14
     },
     "Complete ${this.requiredValue.toLocaleString('en-US')} quests.": {
-      "translation": "",
-      "line": 14
+      "translation": "完成 ${...} 任务。",
+      "line": 14,
+      "_rematchedFrom": "Complete ${...} quests.",
+      "_confidence": 0.85
     }
   }
 }

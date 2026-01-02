@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/scripts/pokedex/PokedexHelper.ts",
-    "lastUpdated": "2026-01-01",
+    "lastUpdated": "2026-01-02",
     "totalStrings": 24,
-    "translatedCount": 15
+    "translatedCount": 16
   },
   "entries": {
     "hide": {
@@ -15,8 +15,10 @@
       "line": 23
     },
     "linear-gradient(90deg,${GameConstants.TypeColor[pokemon.type1]} 50%, ${GameConstants.TypeColor[pokemon.type2]} 50%)": {
-      "translation": "",
-      "line": 28
+      "translation": "线性梯度(90deg,${...} 50%, ${...} 50%)",
+      "line": 28,
+      "_rematchedFrom": "linear-gradient(90deg,${...} 50%, ${...} 50%)",
+      "_confidence": 0.85
     },
     "show": {
       "translation": "展示",

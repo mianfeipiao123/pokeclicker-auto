@@ -237,6 +237,10 @@
         const key = normalizeText(segment);
         if (!key) return segment;
 
+        if (key === 'a' || key === 'an') {
+            return '';
+        }
+
         const pokemon = pokemonTranslations?.[key];
         if (typeof pokemon === 'string') {
             return resolveI18NextNesting(pokemon, pokemonTranslations);
@@ -304,7 +308,12 @@
             if (!m) continue;
             let out = p.zhParts[0] ?? '';
             for (let i = 1; i < p.zhParts.length; i += 1) {
-                out += translateDynamicSegment(m[i] ?? '', map) + (p.zhParts[i] ?? '');
+                const segment = translateDynamicSegment(m[i] ?? '', map);
+                let suffix = p.zhParts[i] ?? '';
+                if (!segment) {
+                    suffix = suffix.replace(/^\s+/, '');
+                }
+                out += segment + suffix;
             }
             return out;
         }

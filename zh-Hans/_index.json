@@ -9,8 +9,8 @@
   },
   "files": {
     "hardcoded-map.json": {
-      "total": 5952,
-      "translated": 5952,
+      "total": 5937,
+      "translated": 5937,
       "sourceFile": null
     },
     "modules/achievements/Achievement.json": {
@@ -1816,6 +1816,11 @@
     "scripts/quests/QuestLineHelper.json": {
       "total": 1684,
       "translated": 1470,
+      "sourceFile": "src/scripts/quests/QuestLineHelper.ts"
+    },
+    "scripts/quests/QuestLineHelper.missing.json": {
+      "total": 13,
+      "translated": 13,
       "sourceFile": "src/scripts/quests/QuestLineHelper.ts"
     },
     "scripts/quests/Quests.json": {

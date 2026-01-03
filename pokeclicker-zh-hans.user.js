@@ -68,6 +68,8 @@
 
     /** @type {Record<string,string>} */
     let pokemonTranslations = {};
+    /** @type {Array<[string,string]>} */
+    let reversePokemonTranslations = [];
 
     let DEBUG = false;
     try {
@@ -138,6 +140,23 @@
             .replace(/：/g, ':')
             .replace(/；/g, ';');
         s = s.replace(/\s*,\s*/g, ', ');
+        return normalizeText(s);
+    };
+
+    const demixForLookup = (text) => {
+        let s = normalizeForLookup(text);
+        if (!s) return s;
+        if (!/[\u4E00-\u9FFF]/.test(s) || !/[A-Za-z]/.test(s)) return s;
+
+        // Common in-game terms that may already be translated but appear inside English sentences.
+        s = s.replace(/图鉴/g, 'Pokédex');
+
+        if (reversePokemonTranslations.length) {
+            for (const [zh, en] of reversePokemonTranslations) {
+                if (!zh || !en) continue;
+                if (s.includes(zh)) s = s.split(zh).join(en);
+            }
+        }
         return normalizeText(s);
     };
 
@@ -324,6 +343,8 @@
         if (!key) return null;
         const altKey = normalizeForLookup(key);
         const candidates = altKey && altKey !== key ? [key, altKey] : [key];
+        const demixed = demixForLookup(altKey || key);
+        if (demixed && !candidates.includes(demixed)) candidates.push(demixed);
 
         for (const k of candidates) {
             const inline = INLINE_OVERRIDES[k];
@@ -640,10 +661,27 @@
                 const json = await res.json();
                 const dict = {};
                 for (const [k, v] of Object.entries(json ?? {})) {
-                    if (k === 'alt') continue;
+                    if (k === 'alt' && v && typeof v === 'object') {
+                        for (const [altKey, altValue] of Object.entries(v)) {
+                            if (typeof altValue === 'string') dict[`alt.${altKey}`] = altValue;
+                        }
+                        continue;
+                    }
                     if (typeof v === 'string') dict[k] = v;
                 }
                 pokemonTranslations = dict;
+
+                const reverse = new Map();
+                for (const [en, zhRaw] of Object.entries(dict)) {
+                    if (typeof zhRaw !== 'string' || !zhRaw) continue;
+                    if (en.startsWith('alt.')) continue;
+                    const zh = resolveI18NextNesting(zhRaw, dict);
+                    if (!zh || typeof zh !== 'string') continue;
+                    if (zh.length < 2) continue;
+                    if (!/[\u4E00-\u9FFF]/.test(zh)) continue;
+                    if (!reverse.has(zh)) reverse.set(zh, en);
+                }
+                reversePokemonTranslations = Array.from(reverse.entries()).sort((a, b) => b[0].length - a[0].length);
             }
         } catch {
             // ignore

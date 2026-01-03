@@ -6,7 +6,7 @@
     "translatedCount": 2
   },
   "entries": {
-    "✨ You encountered a shiny ${this.displayName}! ✨": {
+    "✨ You encountered a shiny ${...}! ✨": {
       "translation": "",
       "line": 39
     },

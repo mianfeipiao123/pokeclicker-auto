@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Items needs to be picked up in a Safari Zone.": {
+    "${...} Items needs to be picked up in a Safari Zone.": {
       "translation": "${...} 物品需要在 Safari 区域中领取。",
       "line": 14,
       "_rematchedFrom": "${...} Items needs to be picked up in a Safari Zone.",

@@ -18,7 +18,7 @@
       "translation": "",
       "line": 47
     },
-    "It appears you are not strong enough to defeat ${TemporaryBattleBattle.battle.getDisplayName()}.": {
+    "It appears you are not strong enough to defeat ${...}.": {
       "translation": "",
       "line": 83
     },

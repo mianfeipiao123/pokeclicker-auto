@@ -2,16 +2,12 @@
   "_meta": {
     "sourceFile": "src/scripts/discord/DiscordItemCode.ts",
     "lastUpdated": "2026-01-01",
-    "totalStrings": 2,
+    "totalStrings": 1,
     "translatedCount": 1
   },
   "entries": {
-    "You obtained ${amount > 1 ? ": {
-      "translation": "你获得了${amount > 1 ? ",
-      "line": 8
-    },
-    " : ''}${item.displayName}!": {
-      "translation": "",
+    "You obtained ${...}${...}!": {
+      "translation": "你获得了${...}${...}！",
       "line": 8
     }
   }

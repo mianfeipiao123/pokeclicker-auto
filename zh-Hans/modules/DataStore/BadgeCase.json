@@ -26,7 +26,7 @@
       "translation": "徽章盒",
       "line": 9
     },
-    "Earning badges raises the maximum possible level of your Pokémon, up to 100.<br>The max level your Pokémon can currently reach is <b>${maxLevel}</b>.": {
+    "Earning badges raises the maximum possible level of your Pokémon, up to 100.<br>The max level your Pokémon can currently reach is <b>${...}</b>.": {
       "translation": "",
       "line": 22
     }

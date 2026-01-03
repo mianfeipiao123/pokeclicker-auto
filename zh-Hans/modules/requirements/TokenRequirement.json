@@ -18,7 +18,7 @@
       "translation": "迷宫代币",
       "line": 6
     },
-    "${this.requiredValue} Dungeon Tokens need to be obtained.": {
+    "${...} Dungeon Tokens need to be obtained.": {
       "translation": "需要获得${...} 迷宫代币。",
       "line": 14,
       "_rematchedFrom": "${...} Dungeon Tokens need to be obtained.",

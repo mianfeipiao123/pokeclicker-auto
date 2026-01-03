@@ -22,7 +22,7 @@
       "translation": "en-US",
       "line": 22
     },
-    "Have all Flutes active for a total of ${this.requiredValue.toLocaleString('en-US')} minutes.": {
+    "Have all Flutes active for a total of ${...} minutes.": {
       "translation": "让所有长笛都处于活动状态，总计 ${...} 分钟。",
       "line": 22,
       "_rematchedFrom": "Have all Flutes active for a total of ${...} minutes.",

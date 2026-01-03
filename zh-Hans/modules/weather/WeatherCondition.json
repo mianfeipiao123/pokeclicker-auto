@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${PokemonType[v.type]}: ${v.multiplier.toFixed(2)}x": {
+    "${...}: ${...}x": {
       "translation": "${...}: ${...}x",
       "line": 17,
       "_rematchedFrom": "${...}: ${...}x",

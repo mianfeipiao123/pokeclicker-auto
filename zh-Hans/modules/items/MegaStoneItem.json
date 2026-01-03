@@ -22,11 +22,11 @@
       "translation": "",
       "line": 5
     },
-    "assets/images/megaStone/${MegaStoneType[this.megaStone]}.png": {
+    "assets/images/megaStone/${...}.png": {
       "translation": "",
       "line": 38
     },
-    "A Mega Stone for ${this.basePokemon}.": {
+    "A Mega Stone for ${...}.": {
       "translation": "${...}的超级石。",
       "line": 46,
       "_rematchedFrom": "A Mega Stone for ${...}.",

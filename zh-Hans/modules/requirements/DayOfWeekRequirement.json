@@ -18,7 +18,7 @@
       "translation": "",
       "line": 3
     },
-    "Come back on ${GameConstants.DayOfWeek[this.DayOfWeekNum]}.": {
+    "Come back on ${...}.": {
       "translation": "回来${...}。",
       "line": 18,
       "_rematchedFrom": "Come back on ${...}.",

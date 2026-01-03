@@ -54,7 +54,7 @@
       "translation": "",
       "line": 78
     },
-    "I can't hold off all ${startersCount}! Please pick the Pokémon you want to fight!": {
+    "I can't hold off all ${...}! Please pick the Pokémon you want to fight!": {
       "translation": "我无法阻止所有${...}！请选择你想对战的宝可梦！",
       "line": 79,
       "_rematchedFrom": "I can't hold off all ${...}! Please pick the Pokémon you want to fight!",

@@ -22,15 +22,15 @@
       "translation": "",
       "line": 4
     },
-    " or breed": {
+    "or breed": {
       "translation": "",
       "line": 28
     },
-    " and ": {
+    "and": {
       "translation": "",
       "line": 28
     },
-    "Catch${this.includeBreeding ? ' or breed' : ''} a total of ${this.requiredValue} ${this.pokemon.map(p => p.name).join(' and ')}.": {
+    "Catch${...} a total of ${...} ${...}.": {
       "translation": "总共捕获 ${...} ${...} ${...}。",
       "line": 28,
       "_rematchedFrom": "Catch${...} a total of ${...} ${...}.",

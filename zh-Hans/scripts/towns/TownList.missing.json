@@ -1,0 +1,820 @@
+{
+  "_meta": {
+    "sourceFile": "src/scripts/towns/TownList.ts",
+    "lastUpdated": "2026-01-03"
+  },
+  "entries": {
+    "..................": {
+      "translation": "………………",
+      "line": 398
+    },
+    "I'm looking for a strange Pichu, have you seen it? According to rumors, its favorite hiding spots are chests...": {
+      "translation": "我在找一只奇怪的皮丘，你见过吗？听说它最喜欢躲在宝箱里……",
+      "line": 1682
+    },
+    "I traveled here all the way from Goldenrod to buy a Soothe Bell for my Eevee.": {
+      "translation": "我从满金市一路赶来，就为了给我的伊布买个安抚之铃。",
+      "line": 1689
+    },
+    "When I use a Soothe Bell on Eevee it can evolve into Espeon or Umbreon. It depends on the time. Espeon during the day, Umbreon at night.": {
+      "translation": "给伊布携带安抚之铃后，它就能进化成太阳伊布或月亮伊布，取决于时间：白天进化成太阳伊布，夜晚进化成月亮伊布。",
+      "line": 1690
+    },
+    "...This Pokémon always kept the sea lit at night... But it suddenly got sick... It's gasping for air...": {
+      "translation": "……这只宝可梦一直在夜里照亮大海……可它突然病倒了……它喘不过气来……",
+      "line": 1696
+    },
+    "...I understand that there is a wonderful Pharmacy in Cianwood... But that's across the sea... And I can't leave Amphy unattended...": {
+      "translation": "……我知道湛蓝市有很棒的药房……可那在海对岸……我又不能让安菲无人照看……",
+      "line": 1697
+    },
+    "<i>You got a 'Secret Potion'</i>": {
+      "translation": "<i>你获得了“秘传之药”</i>",
+      "line": 1714
+    },
+    "<i>Ampharos seems to feel better.</i>": {
+      "translation": "<i>电龙看起来好多了。</i>",
+      "line": 1722
+    },
+    "...I will return to the Gym...": {
+      "translation": "……我会回到道馆……",
+      "line": 1730
+    },
+    "Ho-Oh came down from the Tin Tower and revived those Pokémon. They became the Legendary Beasts. Some say these Beasts still inhabit the basement of the Burned Tower.": {
+      "translation": "凤王从铃铛塔飞下，复活了那些宝可梦。它们成了传说的三圣兽。有人说，这些圣兽至今仍栖息在烧焦塔的地下。",
+      "line": 1745
+    },
+    "With the power of the Tidal Bell, we call to Lugia! Guardian of the Whirl Islands!": {
+      "translation": "借由潮汐之铃的力量，呼唤洛奇亚！漩涡列岛的守护者！",
+      "line": 1797
+    },
+    "We have been watching you, and see that you have tamed the three Pokémon revived by Ho-Oh in the Burned Tower. Show us your power and we shall give you the Clear Bell, which will call Ho-Oh to the Tin Tower.": {
+      "translation": "我们一直在关注你，也看到了你已驯服了烧焦塔里被凤王复活的三只宝可梦。向我们展示你的力量吧，我们就把能将凤王召唤至铃铛塔的“清透之铃”交给你。",
+      "line": 1804
+    },
+    "Yo, wasn't that Suicune just now? I only caught a quick glimpse, but I thought I saw Suicune running on the waves.": {
+      "translation": "喂，刚才那是不是水君？我只瞥到一眼，但我好像看见水君在浪尖上奔跑。",
+      "line": 1819
+    },
+    "Suicune is beautiful and grand. And it races through towns and roads at simply awesome speeds. It's wonderful... I want to see Suicune up close....": {
+      "translation": "水君既优雅又威风，而且能以惊人的速度穿梭于城镇与道路之间，太棒了……我想近距离看看水君……",
+      "line": 1820
+    },
+    "I've decided. I'll battle you as a trainer to earn Suicune's respect! Come on! Let's battle now!": {
+      "translation": "我决定了！我要以训练师的身份和你对战，赢得水君的认可！来吧！现在就对战！",
+      "line": 1821
+    },
+    "Some adventurers reported criminal activities on route 42. Team Rocket are allegedly attempting to steal newborn Phanpy...": {
+      "translation": "有冒险者报告说在42号道路上出现了犯罪活动。疑似火箭队正试图偷走刚出生的小小象……",
+      "line": 1835
+    },
+    "Suicune... How brave it is! How refreshing it is! How beautiful it is! And how quickly it moves! It seems to be heading east.": {
+      "translation": "水君……多么勇敢！多么清爽！多么美丽！行动又多么迅捷！它似乎正往东边去了。",
+      "line": 1839
+    },
+    "You seem to be around where Suicune would appear. Well, that's OK. My desire to search for Suicune is far beyond yours... My grandpa was...quite into myths. I've heard so many stories about Suicune from him.": {
+      "translation": "你似乎总在水君会出现的地方徘徊。没关系……我寻找水君的渴望远胜于你……我爷爷……很迷信传说，我从他那里听了许多关于水君的故事。",
+      "line": 1840
+    },
+    "Suicune... I won't stop following you until I've found out what you're after... You hear me!": {
+      "translation": "水君……在弄清你到底在追寻什么之前，我不会停止追踪你……听见了吗！",
+      "line": 1841
+    },
+    "<i>You are experiencing that same feeling again. Like you're not really here.</i>": {
+      "translation": "<i>你再次感受到了那种感觉，仿佛自己并不真正存在于此。</i>",
+      "line": 1862
+    },
+    "<i>A man sits in the back of the cave. He is listening to a portable radio.</i>": {
+      "translation": "<i>洞穴深处坐着一个男人，正听着便携式收音机。</i>",
+      "line": 1863
+    },
+    "...I don't know why you have come here. Anyway, I have to warn you that this is not a place for kids like you.": {
+      "translation": "……我不知道你为什么来这里。不管怎样，我得警告你，这里不是你这种小鬼该来的地方。",
+      "line": 1865
+    },
+    "We're working on construction of a Magnet Train line to shuttle people <b>east to Kanto</b>. Once it's completed, people will be able to get to Saffron City in record time!": {
+      "translation": "我们正在修建磁悬浮列车线路，把人们运送到<b>东边的关都</b>。完工后，大家就能以破纪录的速度抵达金黄市！",
+      "line": 1873
+    },
+    "<i>You look around the city in search of clues, and are set upon by a gang of angry Aipoms!</i>": {
+      "translation": "<i>你在城里四处寻找线索，却被一群愤怒的长尾怪手围攻了！</i>",
+      "line": 1883
+    },
+    "You are too late to stop me! The R drug puts Pokémon in a frenzied state, and allows us to control them with the right equipment! You led me straight to Mewtwo, and now I will take control of the most powerful Pokémon in the world!": {
+      "translation": "你来得太晚了，已经阻止不了我！R药能让宝可梦陷入狂暴，只要配合合适的设备就能操控它们！是你把我直接带到了超梦面前，现在，我就要控制世界上最强大的宝可梦！",
+      "line": 1899
+    },
+    "<i>Howard puts on a headset and pushes a button. The energy sphere containing Mewtwo comes into view, and it has a crazed look in its eyes. Howard pushes a button on his headset and slumps back in his chair.</i>": {
+      "translation": "<i>霍华德戴上头戴式装置并按下按钮。装着超梦的能量球映入眼帘，它的眼神狂乱。霍华德又按了一下装置上的按钮，整个人瘫回椅子里。</i>",
+      "line": 1900
+    },
+    "<i>Mewtwo makes eye contact with you, and you hear Howard's voice in your mind, laughing maniacally. An armed man comes into the room, and warns you not to move.</i>": {
+      "translation": "<i>超梦与你四目相对，你在脑海里听到霍华德疯狂大笑的声音。一名持枪男子走进房间，警告你别动。</i>",
+      "line": 1901
+    },
+    "An experimental specimen can be bought here: A Sudowoodo that is no longer weak against Water attacks!": {
+      "translation": "这里可以买到实验样本：一只不再怕水系攻击的树才怪！",
+      "line": 1921
+    },
+    "</br><img src=\"assets/images/pokemon/250.png\"/>": {
+      "translation": "</br><img src=\"assets/images/pokemon/250.png\"/>",
+      "line": 3152
+    },
+    "... Do you think they're hiring?": {
+      "translation": "……你觉得他们在招人吗？",
+      "line": 5250
+    },
+    "<i>A bright red Pokémon flies past you at a high speed, heading west.</i>": {
+      "translation": "<i>一只鲜红色的宝可梦高速从你身旁掠过，朝西飞去。</i>",
+      "line": 5342
+    },
+    "<i>The Red Genesect and a powerful Pokémon you don't recognize exchange energy blasts. The Red Genesect flees the battle, heading east.</i>": {
+      "translation": "<i>红色的盖诺赛克特与一只你不认识的强大宝可梦互相轰出能量光束。红色盖诺赛克特逃离战斗，向东飞去。</i>",
+      "line": 5358
+    },
+    "Hey there! I'm one of Professor Sycamore's assistants. If you've made it to Kalos, you probably have a pretty impressive Pokédex by now, right?": {
+      "translation": "你好！我是布拉塔诺博士的助手之一。能来到卡洛斯，你的图鉴想必已经相当可观了吧？",
+      "line": 6014
+    },
+    "When you've got your Pokédex open, you can click on a Pokémon's image to see more detailed stats about the Pokémon.": {
+      "translation": "打开宝可梦图鉴后，你可以点击宝可梦的图片查看更详细的能力数据。",
+      "line": 6015
+    },
+    "Even if you don't remember details like how many times you've encountered a particular species in the wild, or how many times you've captured a Pokémon, your Pokédex does!": {
+      "translation": "就算你不记得某种宝可梦在野外遇到过多少次、捕捉过多少次，图鉴也都会帮你记录！",
+      "line": 6016
+    },
+    "I'll give you that Pikachu costume my Inkay was wearing for some?": {
+      "translation": "我把好啦鱿穿过的皮卡丘套装给你，换点东西如何？",
+      "line": 6123
+    },
+    "...Give me a break. I know that you knew that the Pikachu was a costume. You could see right through us, as if you could just see its name over its head or something.": {
+      "translation": "……饶了我吧。我知道你早就看出来那只皮卡丘是装扮的。你一下就看穿了我们，像是你能看到它头顶写着名字似的。",
+      "line": 6124
+    },
+    "To Mega Evolve your Lucario, you need an even stronger bond!": {
+      "translation": "想让路卡利欧进行超级进化，你需要和它建立更强的羁绊！",
+      "line": 6132
+    },
+    "You can follow your progress in your Pokédex.": {
+      "translation": "你可以在图鉴里查看自己的进度。",
+      "line": 6133
+    },
+    "My Ampharos has gotten a boost since a friendly soul gave me an Ampharosite!": {
+      "translation": "自从有位好心人送我一块电龙进化石后，我的电龙实力大增！",
+      "line": 6147
+    },
+    "Luckily my Ampharos was already strong enough to use it!": {
+      "translation": "幸好我的电龙本来就足够强大，才能使用它！",
+      "line": 6148
+    },
+    "If you find that fella, tell him the code <b>DO-MAGEARNA-DREAM-OF-MAREEP?</b> and he might help you too!": {
+      "translation": "如果你找到那家伙，告诉他口令 <b>DO-MAGEARNA-DREAM-OF-MAREEP?</b>，他也许也会帮你！",
+      "line": 6149
+    },
+    "One day, I forgot to harvest them, and within its withered husk, I found a small stone that enabled my Banette to perform a Mega Evolution.": {
+      "translation": "有一天我忘了收获，结果在干枯的外壳里发现了一颗小石头，让我的诅咒娃娃得以超级进化。",
+      "line": 6185
+    },
+    "I'm shocked... You have a Pokédex, but you still don't know... you really don't know anything about Pokémon connected to Gengar, do you?": {
+      "translation": "真让人震惊……你明明有图鉴，却还是不知道……你对和耿鬼有关的宝可梦一无所知，对吧？",
+      "line": 6197
+    },
+    "If you want to change my mind... you will have to encounter at least 666 wild Gastly, 444 wild Haunter, and 13 wild Gengar.": {
+      "translation": "如果你想改变我的想法……你至少得在野外遇到666只鬼斯、444只鬼斯通，以及13只耿鬼。",
+      "line": 6199
+    },
+    "And do bring a Gengar of your own, won't you?": {
+      "translation": "当然，也别忘了带上一只你自己的耿鬼。",
+      "line": 6200
+    },
+    "That's right. Haunter is one of those Pokemon.": {
+      "translation": "没错，鬼斯通就是其中之一。",
+      "line": 6212
+    },
+    "I don't have enough Quest Points to buy a Linking Cord, but a girl named Mindy from Snowpoint City offered to trade me her Haunter for a Medicham.": {
+      "translation": "我任务点数不够买连接线，不过雪峰市有个叫米蒂的女孩愿意用她的鬼斯通跟我交换恰雷姆。",
+      "line": 6213
+    },
+    "Hopefully I'll have a Gengar soon...": {
+      "translation": "希望我很快就能拥有耿鬼……",
+      "line": 6214
+    },
+    "My partner Medicham and I are always training to become the strongest in the world.": {
+      "translation": "我和搭档恰雷姆一直在训练，立志成为世界最强。",
+      "line": 6220
+    },
+    "Our favorite way to train is by doing quests. Someday my Medicham even found a Mega Stone while claiming some.": {
+      "translation": "我们最喜欢的训练方式就是做任务。有一次我的恰雷姆在领取任务奖励时甚至找到了一颗超级石。",
+      "line": 6221
+    },
+    "Dog Pokémon are the best of all! I'm particularly fond of Houndour - I've caught about five hundred of them.": {
+      "translation": "狗狗宝可梦是最棒的！我尤其喜欢戴鲁比——我已经抓了差不多五百只了。",
+      "line": 6237
+    },
+    "But recently, now that I've got so many Houndour, they have been acting rather curiously.": {
+      "translation": "不过最近，我有了这么多戴鲁比之后，它们的举动变得有些奇怪。",
+      "line": 6239
+    },
+    "You could build your own Houndour pack and find out, but if it's strong enough to call five hundred Pokémon, it probably wouldn't give anyone weaker than Diantha the time of day.": {
+      "translation": "你也可以自己凑一支戴鲁比的群体去调查，但如果它强到能召集五百只宝可梦，恐怕实力不及卡露乃的人，它根本不会理会。",
+      "line": 6242
+    },
+    "I adore wolf Pokémon! The most precious of all have to be the brave little Electrike - I've gathered five hundred of the darlings in my home.": {
+      "translation": "我最爱狼类宝可梦了！其中最珍贵的要数勇敢的小电狗——我家里已经收集了五百只可爱的小家伙。",
+      "line": 6247
+    },
+    "I've been debating asking someone else to collect five hundred of their own Electrike and investigate, but if it can call such a fearsome pack with its presence alone, I don't imagine anyone less than Diantha herself could handle it.": {
+      "translation": "我一直在考虑让别人也收集五百只电狗去调查，可如果它光凭存在感就能召来如此可怕的群体，我想除了卡露乃本人，没人能应付得了。",
+      "line": 6252
+    },
+    "I love going on walks at <b>dusk</b>. It's my favourite part of the day, everything's so calm...": {
+      "translation": "我喜欢在<b>黄昏</b>时散步。这是我一天中最喜欢的时刻，一切都那么宁静……",
+      "line": 6345
+    },
+    "<i>While Baraz is talking, a hoop appears behind him and the Prison Bottle falls out.</i>": {
+      "translation": "<i>巴拉兹说话时，他身后出现了一个圆环，惩戒之壶从里面掉了出来。</i>",
+      "line": 6420
+    },
+    "<i>Baraz grabs the Prison Bottle, and an eerie glow surrounds him. A massive Pokémon picks him up and flies away into a nearby hoop.</i>": {
+      "translation": "<i>巴拉兹抓起惩戒之壶，一道诡异的光芒包围了他。一只巨大的宝可梦将他抓起，飞进了附近的圆环中。</i>",
+      "line": 6422
+    },
+    "<i>Viola has sent some of her Vivillon photographs in to the local Pokémon Center as a photobook, to celebrate the Lunar New Year. You flip through the pages...</i>": {
+      "translation": "<i>薇奥拉把她拍的彩粉蝶照片寄到当地宝可梦中心，做成了一本照片集来庆祝农历新年。你翻阅着书页……</i>",
+      "line": 6429
+    },
+    "<i>You see both a Meadow and a Fancy Vivillon flying together in the skies above Kalos. Strangely, the Meadow Vivillon is wearing a necklace of exotic flowers, and the Fancy has a tiny tea cup in its grip.</i>": {
+      "translation": "<i>你看到花园花纹与幻彩花纹的彩粉蝶一同在卡洛斯上空飞舞。奇怪的是，花园花纹的彩粉蝶戴着一串异域花朵项链，而幻彩花纹的彩粉蝶抓着一个小茶杯。</i>",
+      "line": 6431
+    },
+    "<i>You see a Marine Vivillon flying above the surface of a lake. It's got one foot trailing through the water.</i>": {
+      "translation": "<i>你看到大海花纹的彩粉蝶在湖面上飞翔，一只脚轻轻拖着水面。</i>",
+      "line": 6433
+    },
+    "<i>You see what was seemingly meant to be a photo of a Pokémon with a bulbous purple tail. However, a Modern Vivillon has jumped in front, and you can't get a good look at the other Pokémon.</i>": {
+      "translation": "<i>你看到原本似乎要拍一只尾巴鼓鼓、呈紫色的宝可梦，但摩登花纹的彩粉蝶突然跳到镜头前，你看不清那只宝可梦了。</i>",
+      "line": 6435
+    },
+    "<i>You see a Jungle Vivillon resting on a blue frog-like Pokémon. The two of them seem to be in the center of a deep bog, but neither looks very concerned.</i>": {
+      "translation": "<i>你看到热带雨林花纹的彩粉蝶停在一只蓝色的蛙类宝可梦身上。它们似乎身处深沼中央，却都毫不在意。</i>",
+      "line": 6437
+    },
+    "<i>You see a Monsoon Vivillon. It's been startled by a light shone in its face. As far as you can see, the area around the spotlight is darker than pitch.</i>": {
+      "translation": "<i>你看到骤雨花纹的彩粉蝶，被直射到脸上的灯光吓了一跳。你所能看到的范围里，聚光灯周围漆黑一片。</i>",
+      "line": 6439
+    },
+    "<i>You see a Tundra Vivillon, watching a conveyor belt full of Poké Balls. A worker in the background looks mildly perplexed, as if he was expecting a different Pokémon there.</i>": {
+      "translation": "<i>你看到雪原花纹的彩粉蝶盯着一条装满精灵球的传送带。背景里的工人一脸困惑，仿佛原本期待的是另一只宝可梦。</i>",
+      "line": 6441
+    },
+    "<i>You see a Sun Vivillon bursting through a cloud of smoke. It's sweating, but seems to be enjoying itself.</i>": {
+      "translation": "<i>你看到太阳花纹的彩粉蝶冲出一团烟雾。它汗流浃背，却似乎乐在其中。</i>",
+      "line": 6443
+    },
+    "<i>You see an Archipelago Vivillon staring in shock at a swaying pillar. A Hoothoot sits next to it, completely unfazed.</i>": {
+      "translation": "<i>你看到群岛花纹的彩粉蝶震惊地盯着一根摇晃的柱子。旁边的咕咕却泰然自若地坐着。</i>",
+      "line": 6445
+    },
+    "<i>You see an Elegant Vivillon frantically pulling at a doorknob. A Klefki seems to be giggling in the background.</i>": {
+      "translation": "<i>你看到高雅花纹的彩粉蝶拼命拉着门把手，背景里钥圈儿似乎在偷笑。</i>",
+      "line": 6447
+    },
+    "<i>You see an Ocean Vivillon snoozing peacefully. An Audino is carefully laying a blanket atop it.</i>": {
+      "translation": "<i>你看到大洋花纹的彩粉蝶安然打盹，差不多娃娃正小心翼翼地给它盖上毯子。</i>",
+      "line": 6449
+    },
+    "<i>You see a shocked Continental Vivillon staring into a chest. A Voltorb stares back, already primed to explode.</i>": {
+      "translation": "<i>你看到大陆花纹的彩粉蝶惊讶地盯着一个宝箱。霹雳电球也回瞪着它，已经蓄势待爆。</i>",
+      "line": 6451
+    },
+    "<i>You see a River Vivillon flying through a forest. A spooky old mansion is in the background.</i>": {
+      "translation": "<i>你看到河川花纹的彩粉蝶飞过森林，背景里是一座阴森的老宅。</i>",
+      "line": 6453
+    },
+    "<i>You see a Polar Vivillon peering over the edge of a tower. Clouds travel distantly below.</i>": {
+      "translation": "<i>你看到极地花纹的彩粉蝶从高塔边缘探出头，远处的云层在脚下漂浮。</i>",
+      "line": 6455
+    },
+    "<i>You see a Sandstorm Vivillon atop some desert ruins. It's trying to communicate with a large, orange moth-like Pokémon.</i>": {
+      "translation": "<i>你看到沙尘花纹的彩粉蝶站在沙漠遗迹上，正试图与一只巨大、橙色的蛾状宝可梦交流。</i>",
+      "line": 6457
+    },
+    "<i>You see a Garden Vivillon playing in a field of flowers. The flowers extend far, far into the distance...</i>": {
+      "translation": "<i>你看到庭园花纹的彩粉蝶在花海里嬉戏。花朵一直延伸到遥远的地平线……</i>",
+      "line": 6459
+    },
+    "<i>You see a High Plains Vivillon dancing with a group of Clefairy. Their dance is illuminated only by the full moon.</i>": {
+      "translation": "<i>你看到草原花纹的彩粉蝶与一群皮皮共舞。它们的舞步只被满月照亮。</i>",
+      "line": 6461
+    },
+    "<i>You see a Savanna Vivillon running for its life through a ruined tower. Several dragon-type Pokémon are chasing it relentlessly.</i>": {
+      "translation": "<i>你看到大草原花纹的彩粉蝶在残破的高塔中拼命逃命，几只龙属性宝可梦紧追不舍。</i>",
+      "line": 6463
+    },
+    "<i>You see an Icy Snow Vivillon bundled up with its trainer. It's enjoying a much-needed warm cup of cocoa to counteract the icy cave around it.</i>": {
+      "translation": "<i>你看到冰雪花纹的彩粉蝶和训练师裹得严严实实，正喝着一杯热可可，抵御周围冰冷的洞窟。</i>",
+      "line": 6465
+    },
+    "<i>Lastly, you see a Poké Ball Vivillon in a darkened mall. It's trying to scare the camerawoman, completely unaware of the sinister eyes peering from the darkness behind it.</i>": {
+      "translation": "<i>最后，你看到精灵球花纹的彩粉蝶在昏暗的商场里，正试图吓唬摄影师小姐，却完全没注意到它身后黑暗中窥视的诡异目光。</i>",
+      "line": 6467
+    },
+    "<i>This place is... beautiful. I am amazed such a place truly exists.</i>": {
+      "translation": "<i>这里……真美。我竟然能见到这样真实存在的地方，实在惊叹。</i>",
+      "line": 6488
+    },
+    "<i>.......Thank you.</i>": {
+      "translation": "<i>……谢谢你。</i>",
+      "line": 6489
+    },
+    "<i>I would like to give you something, but first, may I ask two things of you?</i>": {
+      "translation": "<i>我想送你一样东西，不过在那之前，能否拜托你两件事？</i>",
+      "line": 6490
+    },
+    "<i>First, I would like to gather 110,000 each of Psychic and Fighting Gems to boost the power of my attacks.</i>": {
+      "translation": "<i>首先，我想收集各110,000个超能力宝石与格斗宝石，以增强我的攻击威力。</i>",
+      "line": 6491
+    },
+    "<i>If you could gather 60,000 of each I can take care of the rest.</i>": {
+      "translation": "<i>如果你能各收集60,000个，剩下的我可以自己解决。</i>",
+      "line": 6492
+    },
+    "<i>Also, you have heard of Twisted Spoons, yes? They are items that greatly boost the power of psychic type Pokémon.</i>": {
+      "translation": "<i>另外，你听说过弯曲的汤匙吧？那是能大幅提升超能力属性宝可梦力量的道具。</i>",
+      "line": 6493
+    },
+    "<i>When I was created, I had an enhanced version of this item created for me. I have heard it is now in the hands of an organisation named Team Plasma, in an area named P2 Laboratory.</i>": {
+      "translation": "<i>在我被创造出来时，也为我打造了强化版的那件道具。我听说它现在落入了等离子队之手，藏在名为P2实验室的地方。</i>",
+      "line": 6494
+    },
+    "<i>I would greatly appreciate it if you would retrieve this item for me.</i>": {
+      "translation": "<i>若你能替我取回那件道具，我将万分感激。</i>",
+      "line": 6495
+    },
+    "<i>I am even more in your debt. But there is one more thing I would like to ask of you.</i>": {
+      "translation": "<i>我对你更加感激了。不过，还有一件事想拜托你。</i>",
+      "line": 6502
+    },
+    "<i>Would you be willing to fight me, one last time, in this new home you have given me?</i>": {
+      "translation": "<i>你愿意在你为我找到的新家里，与我再战最后一次吗？</i>",
+      "line": 6503
+    },
+    "<i>With my Twisted Spoon in hand, my moves boosted by Gems, and my Mega Evolution, I can finally show you the true heights of my power!</i>": {
+      "translation": "<i>手握弯曲的汤匙，招式又有宝石加成，再加上超级进化——我终于能向你展示真正的巅峰力量！</i>",
+      "line": 6504
+    },
+    "<i>Hah! Your strength is truly unyielding!</i>": {
+      "translation": "<i>哈！你的实力果然坚不可摧！</i>",
+      "line": 6511
+    },
+    "<i>I would like to apologise for accusing you of merely possessing the Mewtwo in your care. It is clear that you greatly care for it, as well as all your other Pokémon. Take this.</i>": {
+      "translation": "<i>我为先前指责你只是“拥有”超梦而道歉。显然，你十分珍视它，也同样珍视你所有的宝可梦。收下这个吧。</i>",
+      "line": 6512
+    },
+    "</i></br><img src=\"assets/images/megaStone/Mewtwonite_Y.png\"/></br><i>You obtained the Mewtwonite Y!</i>": {
+      "translation": "</i></br><img src=\"assets/images/megaStone/Mewtwonite_Y.png\"/></br><i>你获得了超梦进化石Y！</i>",
+      "line": 6513
+    },
+    "<i>You are truly deserving of this Mega Stone. Use it to give your Mewtwo a truly unrivaled power.</i>": {
+      "translation": "<i>你确实配得上这颗超级石。用它让你的超梦获得无可匹敌的力量吧。</i>",
+      "line": 6514
+    },
+    "Pikachu!": {
+      "translation": "皮卡丘！",
+      "line": 7067
+    },
+    "<i>The Pikachu looks happy playing with all its friends!</i>": {
+      "translation": "<i>皮卡丘和朋友们玩得很开心！</i>",
+      "line": 7068
+    },
+    "Pi-Pikachu!": {
+      "translation": "皮、皮卡丘！",
+      "line": 7073
+    },
+    "<i>The Pikachu is waving at you supportively! Its goodwill carries you forward on your journey to Alola Championship!</i>": {
+      "translation": "<i>皮卡丘正向你挥手打气！它的善意推动着你继续踏上阿罗拉冠军之路！</i>",
+      "line": 7074
+    },
+    "<i>The Pikachu is staring at you intently! Is it waiting for you to become stronger?</i>": {
+      "translation": "<i>皮卡丘正目不转睛地盯着你！它是在等你变得更强吗？</i>",
+      "line": 7081
+    },
+    "I like sneaking snacks inside the Battle Royal Dome. One time I snuck in pancakes and there were two trainers from Kanto who both had a Pikachu. I ended up sharing some with one.": {
+      "translation": "我喜欢把零食偷偷带进皇家对战巨蛋。有一次我偷带了煎饼，遇到两位来自关都、都带着皮卡丘的训练师，最后我分了一些给其中一位。",
+      "line": 7094
+    },
+    "Weird thing is, both trainers evolved their Pikachu after the battle, but one had a different form from usual! Maybe there's something about Alola that makes certain Pokémon evolve differently? I would check my Evolution Items if I were you.": {
+      "translation": "奇怪的是，对战结束后两个人都让皮卡丘进化了，可其中一只变成了和平常不同的形态！也许阿罗拉会让某些宝可梦以不同方式进化？如果是你，我会去看看自己的进化道具。",
+      "line": 7095
+    },
+    "My trial is in this town. Right there, inside my very own houseboat. Normally you'd have to clear my trial to find our kahuna on Exeggutor Island, but I guess you took care of some things, huh?": {
+      "translation": "我的考验就在这个镇子里，就在我自己的船屋里。一般要先通过我的考验，才能在椰蛋树岛见到我们的岛屿之王，不过看样子你已经把一些事情解决了，是吧？",
+      "line": 7142
+    },
+    "There is a ceremony held for the Legendary Pokémon at the Altar of the Sunne and Moone that uses two particular flutes. Ho! You already have the one. The other is said to be held on Exeggutor Island.": {
+      "translation": "在太阳和月亮祭坛会举行献给传说宝可梦的仪式，需要两支特殊的笛子。哦！你已经有其中一支了。另一支据说在椰蛋树岛上。",
+      "line": 7242
+    },
+    "<i>Beast of sun and beast of moon</i>... That's what was written in the book from the library. It must be referring to the legendary Pokémon of Alola. I thought I could find something about Nebby in there but...": {
+      "translation": "<i>“太阳之兽与月亮之兽”</i>……图书馆那本书上是这么写的。一定指的是阿罗拉的传说宝可梦。我原本以为能在里面找到关于涅比的线索，可是……",
+      "line": 7346
+    },
+    "I'll await your arrival on Exeggutor Island, if training is something you desire before challenging this beast.": {
+      "translation": "如果你想在挑战那只野兽之前再训练一番，我会在椰蛋树岛等你。",
+      "line": 7426
+    },
+    "See, my Silvally has been acting strange lately, almost as if it's back to being haunted by its traumatizing past, the poor thing. Silvally are unique Pokémon who can download memories from artificial disks to change their type, but my Silvally's own memories somehow got mixed in with them. I need to get the disks back and recover its memories. That's where you come in.": {
+      "translation": "你看，我的银伴战兽最近行为怪异，仿佛又被那段创伤的过去所纠缠……可怜的家伙。银伴战兽是一种特殊的宝可梦，可以从人工磁盘中下载“记忆”来改变属性，但它自己的记忆不知怎么也混了进去。我需要把那些磁盘找回来，帮它恢复记忆——这就需要你出马了。",
+      "line": 7467
+    },
+    "Silvally has its memories divided in 17 parts and I lost all of them after traveling with it around Alola. Try talking with citizens of all four islands to find out if they know anything about them. If you help me restore its memories I'll maybe give you a reward, but don't expect any charity. The memories look like this:": {
+      "translation": "银伴战兽的记忆被分成了17份。我在阿罗拉各地与它旅行时把它们全弄丢了。去和四座岛上的居民聊聊，看看有没有人知道些什么。如果你帮我恢复记忆，也许我会给你点报酬，但别指望我会大发慈悲。那些记忆长这样：",
+      "line": 7468
+    },
+    "Greetings, $playername$. May I help you with something? Oh, you're looking for things called Silvally Memories? Something like this one?": {
+      "translation": "你好，$playername$。有什么需要帮忙的吗？哦，你在找叫作“银伴战兽的记忆”的东西？像这样的？",
+      "line": 7476
+    },
+    "Oh, you're looking for something called a Silvally Memory and Hala told you I found one? Do you mean this thing?": {
+      "translation": "哦，你在找“银伴战兽的记忆”，而哈拉告诉你我捡到了一块？你说的是这个吗？",
+      "line": 7485
+    },
+    "Oh, hello. How can I help you? You're looking for Silvally Memories? What do they look like? Oh, so like a disk with a broken part. I think I <i>have</i> seen one while helping Acerola with her trial. Here, you can take it.": {
+      "translation": "哦，你好。有什么事吗？你在找银伴战兽的记忆？它长什么样？哦，像缺了一角的圆盘。想起来了，我在帮阿塞萝拉进行考验时<i>好像</i>见过一个。给，你拿去吧。",
+      "line": 7493
+    },
+    "Hello, $playername$. Here to do my trial again? Oh, I see you're looking for Silvally Memories. Well, I have just the right thing for you. Here, take it.": {
+      "translation": "你好，$playername$。又来做我的考验吗？哦，我明白了，你在找银伴战兽的记忆。那我正好有你需要的东西。给，拿去。",
+      "line": 7501
+    },
+    "Kahuna Hapu gave me that as a gift. She even told me how to use it, but I couldn't afford to buy a Silvally. You can keep it.": {
+      "translation": "岛屿之王哈乌珀把这个当礼物送给我。她甚至教我怎么用，但我买不起银伴战兽。你留着吧。",
+      "line": 7503
+    },
+    "Hey, I see you're back. Did you find any Silvally Memories? Oh, I see you found 4 of them, and in surprisingly relevant places too. Let me give them to Silvally.": {
+      "translation": "嘿，你回来了。找到银伴战兽的记忆了吗？哦，我看到你找到了4块，而且地点还挺“对路”。让我把它们交还给银伴战兽吧。",
+      "line": 7509
+    },
+    "<i>Gladion uses the 4 memories on Silvally</i>": {
+      "translation": "<i>格拉吉欧将4块记忆用在银伴战兽身上</i>",
+      "line": 7510
+    },
+    "As for that reward I mentioned, I'll put these memories in the Memory Replicator so I can make some Silvally Memories for you. The machine isn't powerful enough to create the Memories out of nothing, though. I'll be needing you to grab some gems of the Memory's type so I can replicate the Memory and insert it into a Silvally for you. It needs some fine-tuning first so the amount needed won't be the same after the first trade.": {
+      "translation": "至于我提到的报酬，我会把这些记忆放进记忆复制器里，替你制作一些银伴战兽的记忆。不过机器没法凭空创造记忆，我需要你去收集对应属性的宝石，让我复制记忆并为你配置一只银伴战兽。机器还需要调试，所以第一次之后所需数量不会相同。",
+      "line": 7511
+    },
+    "Oh and also, I've heard of more sightings of strange disks across the region. I think they might be the Silvally Memories we're looking for. If you're ever lost, I got descriptions of them.": {
+      "translation": "另外，我听说在各地还出现过更多奇怪的圆盘。我想那可能就是我们要找的银伴战兽记忆。如果你迷路了，我这里有它们的描述。",
+      "line": 7512
+    },
+    "And a girl with a Mudsdale on Exeggutor Island Hill.": {
+      "translation": "还有一位带着重泥挽马的女孩，在椰蛋树岛山丘上。",
+      "line": 7525
+    },
+    "Have I a seen a Silvally Memory? Yes, I have. If you want it, I could sell it to you. The price is 125 million Dungeon Tokens. I'll be here for a long time, so you can get the Dungeon Tokens and come back later if you need to.": {
+      "translation": "我见过银伴战兽的记忆吗？当然。如果你想要，我可以卖给你。价格是1亿2500万地城代币。我会在这儿待很久，你慢慢攒够再回来也行。",
+      "line": 7533
+    },
+    "Oh, you're asking if I have a Silvally Memory? You mean from that weird fusion-like Pokémon? Yeah, I do. It has a weird green coloration on it, which weirdly enough reminds me of Pokémon resistant to Electric attacks and weak against Fire attacks.": {
+      "translation": "哦，你问我有没有银伴战兽的记忆？就是那个奇怪的“融合体”宝可梦的？有啊。它上面有种奇怪的绿色，让我想起那些不怕电系、却怕火系攻击的宝可梦。",
+      "line": 7540
+    },
+    "Oh, Silvally Memory? The thing that's shaped like a disk? I have one right here, but I'm not sure how it works. Wait, I just got an idea, what about a trade? I'll trade the Memory for some Battle Points. I'll be here for a while, probably long enough for you to take a trip to the Hoenn region to get some Battle Points.": {
+      "translation": "哦，银伴战兽的记忆？就是圆盘那种？我这里有一块，不过不太懂怎么用。等等，我有个主意，要不要做笔交易？我用这块记忆换一些对战点数。我会在这里待上一阵子，估计足够你去趟丰缘弄点对战点数再回来。",
+      "line": 7548
+    },
+    "So, how can I help you? Oh, you're looking for a Silvally Memory? I have been keeping one of them here and doing a little bit of testing to find out how it works. Maybe we could make a trade. I'll trade the Silvally Memory for some Pokédollars. I'll be trying to figure out how it works, so you can go get Pokédollars and come back later to trade if you need to.": {
+      "translation": "那么，我能怎么帮你？哦，你在找银伴战兽的记忆？我一直把一块记忆留在这里，做了点测试想搞清它怎么用。也许我们可以交易：我用记忆换一些宝可币。我还在研究它怎么用，所以你去筹钱，之后需要的话再回来交易就行。",
+      "line": 7555
+    },
+    "Anyway what did you want to ask me? Hmm, if I've seen a Silvally Memory anywhere near? Sure, it's in my pocket right here. It even is coloured like a diamond! I wish I could trade it for some... hm? You're asking if we could do a trade? Sure, I'll sell it to you for 100,000 Diamonds, so I can buy my lovely fiancée-to-be an engagement ring. I'll always be here in the same place at all times, we can trade anytime you want.": {
+      "translation": "话说回来你想问什么？嗯，你问我附近有没有见过银伴战兽的记忆？当然，就在我口袋里。它甚至像钻石一样闪闪发亮！我真希望能拿它换点……嗯？你想交易？行，我10万钻石卖给你，好让我给我亲爱的未婚妻买枚订婚戒指。我会一直在这儿，随时都能来交易。",
+      "line": 7562
+    },
+    "Hey, $playername$. How's it going? Looking for a rematch, or did you come here explore the Poni Island secrets? Oh, I see. You're looking for a Silvally Memory. I found a memory in the ground here, so I took it and studied it a bit. All I could find out is that it was from some Silvally. I also found another memory while helping Mina out with her trial. I gave it to her, but I'm not sure if she found out how it works.": {
+      "translation": "嘿，$playername$，最近怎么样？想来复赛，还是来探索波尼岛的秘密？哦，我懂了，你在找银伴战兽的记忆。我在这里的地里挖到一块记忆，就拿来研究了一下。我只查到它来自某只银伴战兽。我在帮米娜做考验时还找到过另一块记忆，我把它交给她了，但不确定她有没有弄明白怎么用。",
+      "line": 7568
+    },
+    "Anyway. Can I ask you something? Do you know any farmers? I'm needing to plant more palm trees around here on Exeggutor Island but I don't have enough Farm Points to buy all the seeds I need. If I got in contact with a farmer I could get them for much cheaper or even free! Oh? You know how to use the Farm? So that means you have a lot of Farm Points, right? Good! How about you give me some of those Farm Points for this Silvally Memory? Ok, I'll be here taking care of the Exeggutor for a while so you can come and visit me anytime to do this trade.": {
+      "translation": "对了，我能问你件事吗？你认识什么农夫吗？我想在椰蛋树岛这里多种些棕榈树，可我没有足够的农场点数去买所有需要的种子。要是能联系到农夫，说不定能更便宜甚至免费拿到！哦？你会用农场？那说明你农场点数很多，对吧？太好了！不如你用一些农场点数跟我换这块银伴战兽的记忆？行，我会在这里照看椰蛋树一阵子，你随时都能来交易。",
+      "line": 7569
+    },
+    "I see you've recovered more of the Silvally Memories. Thanks for helping me recover them. Silvally appreciates it too. How did it go, getting them back?": {
+      "translation": "看得出来你又找回了更多银伴战兽的记忆。谢谢你帮我把它们找回来，银伴战兽也很感激。找回来的过程怎么样？",
+      "line": 7575
+    },
+    "You had to <i>pay</i> for them? Wha- How did you even get that much money? Are you rich? I... Never mind. You're doing a great job. Buddy's feeling better already. What? No, I said Silvally's feeling better already. You must be hearing things. Go find those memories.": {
+      "translation": "你还<i>花钱</i>买的？什——你哪来这么多钱？你很有钱吗？我……算了。你做得很好。伙伴已经好多了。什么？不，我说的是银伴战兽好多了。你一定是听错了。去继续找那些记忆吧。",
+      "line": 7576
+    },
+    "People from Ula'ula have seen Guzma walking around Po Town, so I suspect he might've found a Silvally Memory. Go ask him in Po Town.": {
+      "translation": "乌拉乌拉岛的人看见古兹马在魄镇附近晃悠，我怀疑他可能捡到了一块银伴战兽的记忆。去魄镇问问他。",
+      "line": 7584
+    },
+    "Melemele Island inhabitants have seen Kahili taking daily walks on Ten Carat Hill, she might've found a Silvally Memory during one of those walks.": {
+      "translation": "美乐美乐岛的居民看到卡希丽每天都会去十克拉山散步，她可能在散步时捡到了一块银伴战兽的记忆。",
+      "line": 7585
+    },
+    "Some people from Poni Island have seen Plumeria walking around with some old Team Skull grunts around the Vast Poni Canyon. That is really suspicious, so they probably found something rare or presumably a Silvally Memory.": {
+      "translation": "波尼岛有人看见布鲁美丽带着一些旧骷髅队手下在广阔的波尼峡谷附近徘徊。这很可疑，估计他们找到什么稀有的东西——也许就是银伴战兽的记忆。",
+      "line": 7586
+    },
+    "Ula'ula Island people have seen Captain Acerola inside the Thrifty Megamart with a Mimikyu carrying a disk-shaped item, which I suspect is a Silvally Memory.": {
+      "translation": "乌拉乌拉岛的人看见队长阿塞萝拉在旧超级市场里，身边有只谜拟丘正拿着一个圆盘状的东西，我怀疑那就是银伴战兽的记忆。",
+      "line": 7587
+    },
+    "I've heard Molayne wanted to brush up on his training a bit. He's at the Royal Avenue, and he's also offering a strange reward which I presume is a Silvally Memory.": {
+      "translation": "我听说马睿因想再磨练一下自己，他在皇家大道那边，还提供一个奇怪的奖励——我猜那就是银伴战兽的记忆。",
+      "line": 7589
+    },
+    "Also, while I was walking near A Tree Maybe I saw a guy dressed almost like an old Pokémon that doesn't exist anymore with a Silvally Memory.": {
+      "translation": "另外，我在“也许是棵树”附近散步时，看见一个人穿得几乎像一种已经不存在的古老宝可梦一样，手里还拿着银伴战兽的记忆。",
+      "line": 7590
+    },
+    "Huh? What are you doing in here? A what? Silvally Memory? I think I have what you're looking for. Yeah, I have it, if you want to see it. Anyways, I was just passing by and decided to visit this place again.": {
+      "translation": "哈？你在这儿干嘛？什么？银伴战兽的记忆？我想我有你要找的东西。对，我有，想看就给你看。我只是路过，顺便又来看看这里。",
+      "line": 7597
+    },
+    "Let me guess, you're after this Silvally Memory I found around here, aren't you? I can tell by the way you carry yourself. You're not like the rest of the tourists and challengers who come here just for a sightseeing or a battle. You're on a mission, right?": {
+      "translation": "让我猜猜，你是冲着我在这儿找到的银伴战兽记忆来的吧？从你的气场我就看得出来。你和那些只为观光或对战而来的游客、挑战者不一样——你是在执行任务，对吧？",
+      "line": 7611
+    },
+    "Hey there, $playername$! Have you checked out the trail behind the Thrifty Megamart lately? It's been pretty wild! I ventured there the other day and stumbled upon a Mimikyu holding a Silvally Memory. It was quite a challenge to retrieve it, but I managed to befriend it and recover the disk eventually. I love the thrill of exploring new places and discovering new stuff, don't you?": {
+      "translation": "嗨，$playername$！你最近去过旧超级市场后面的那条小道吗？那里可刺激了！前几天我探险时偶然遇到一只抱着银伴战兽记忆的谜拟丘。把它拿回来可不容易，不过我最后还是和它成了朋友，顺利取回了圆盘。我超喜欢探索新地方、发现新东西的感觉，你不觉得很棒吗？",
+      "line": 7618
+    },
+    "But enough about me, what brings you here? Hmm, I can sense that you have a burning desire for something... Ah, it must be the Silvally Memory I found in the trail, am I right? It was a challenge to befriend that Mimikyu holding it. If you want it, you'll have to battle me first! Don't worry, I won't hold back just because we're friends. I want to see what you're made of! So, what do you say, ready to face the challenge?": {
+      "translation": "不过先不说我了，你来这里做什么？嗯……我能感觉到你对某样东西很渴望……啊，肯定是我在小道里找到的银伴战兽记忆，对吧？和那只拿着记忆的谜拟丘交朋友可不容易。如果你想要，就得先和我对战！别担心，就算是朋友我也不会手下留情。我想看看你到底有多强！怎么样，准备好接受挑战了吗？",
+      "line": 7619
+    },
+    "Oh, welcome $playername$, the Champion of Alola! I see you <i>still</i> haven't lost that title. You're a pretty... <i>worthy</i> trainer, aren't you? Anyways, I think you should come visit us another time we're... er.. busy! Yes, we're extremely busy right now...": {
+      "translation": "哦，欢迎你，$playername$，阿罗拉冠军！看来你<i>至今</i>还没丢掉这个头衔。你可真是个……<i>了不起</i>的训练师啊？总之，我觉得你还是改天再来吧，我们……呃……很忙！对，我们现在非常忙……",
+      "line": 7625
+    },
+    "Oh, you're looking for a Silvally Memory? Well I can't help you with it so bye! What? You're not leaving until I help you? Ugh.. kids are so annoying these days.. er... I mean I'd gladly help, I'm just <i>busy</i> right now. <i>LikeISaidTwoSecondsAgo.</i>": {
+      "translation": "哦，你在找银伴战兽的记忆？那我帮不了你，拜拜！什么？你不帮到我就不走？唉……现在的小鬼真烦人……呃……我的意思是我很乐意帮忙，只是我现在<i>很忙</i>。<i>就像我两秒前说的那样。</i>",
+      "line": 7626
+    },
+    "Well, I guess you can already tell. We've been in Haina Desert looking for Tapu Bulu, but the search team stumbled upon this Silvally Memory instead and it looks pretty rare because we couldn't find much information about it. We want to take it in for some experiments, but we knew you wouldn't let us do that so I tried to hide it. Now that you know, my only choice is battling you.": {
+      "translation": "好吧，我想你也看出来了。我们一直在哈伊纳沙漠寻找卡璞·哞哞，但搜寻队反而捡到了这块银伴战兽的记忆。它看起来很稀有，因为我们查不到多少资料。我们想把它带回去做些实验，但我们知道你不会同意，所以我试着把它藏起来。既然你已经知道了，我只能和你对战了。",
+      "line": 7627
+    },
+    "Hello there, $playername$! Have you perchance caught sight of my advertisement? I'm on the lookout for a formidable opponent to assist me in honing my Pokémon's skills. And let me assure you, the rewards are quite substantial! Should you best me in battle, you shall be granted a most wondrous prize: a Silvally Memory that I found inside the Hokulani Observatory.": {
+      "translation": "你好啊，$playername$！你是否看见过我的招募广告？我正在寻找一位强大的对手，帮助我磨练宝可梦的技艺。而且我保证，报酬十分丰厚！若你能在对战中胜过我，你将获得一份绝妙的奖品：我在辉克拉尼天文台里找到的一块银伴战兽的记忆。",
+      "line": 7634
+    },
+    "A Dragon-type Silvally Memory, you say? Rock on! I had a feeling it was something rare and powerful, but I never would have guessed it was a Silvally Memory! But now that I know what I have, I can't simply give it to you. I'm a rock star, not a trial captain! We're on stage and the crowd wants a show!": {
+      "translation": "你说这是龙属性的银伴战兽记忆？太帅了！我就知道它肯定稀有又强大，但真没想到居然是银伴战兽的记忆！不过既然我知道它是什么了，就不能随便给你。我可是摇滚明星，不是考验队长！我们在舞台上，观众想看表演！",
+      "line": 7643
+    },
+    "If you want this Silvally Memory, you have to defeat me in a burning hot battle! It won't be easy, mind you. My babies are dying to play a set, and I won't be holding back! But if you truly have what it takes to be the champion, then you should be up for the challenge, yeah? Right on! Let's rock!": {
+      "translation": "想要这块银伴战兽记忆，你就得在一场火热的对战中击败我！这可不容易哦。我的宝贝们早就迫不及待想上场了，我也不会手下留情！但如果你真有成为冠军的实力，就该能接受挑战，对吧？好！来摇滚吧！",
+      "line": 7644
+    },
+    "Hey there, $playername$! I gotta say, you've done something truly incredible. You've brought back every single one of Silvally's lost memories. I expected nothing less from the Champion. I can't even imagine how long all that must have taken you. Silvally's back to normal and I can't thank you enough.": {
+      "translation": "嗨，$playername$！我得说，你做了一件真正了不起的事：你找回了银伴战兽遗失的每一块记忆。不愧是冠军，我一点也不意外。我都不敢想你花了多久。银伴战兽已经恢复正常了，真的非常感谢你。",
+      "line": 7650
+    },
+    "Welcome to the region of Magikarp!": {
+      "translation": "欢迎来到鲤鱼王地区！",
+      "line": 7765
+    },
+    "This is a magical place where everybody loves Magikarp!": {
+      "translation": "这里是个神奇的地方，人人都喜欢鲤鱼王！",
+      "line": 7766
+    },
+    "You're good at raising Pokémon, right? We called you here to compete in the ten leagues around the island and pick up our poor Magikarp's spirits!": {
+      "translation": "你很擅长培育宝可梦吧？我们把你叫来，是想让你参加岛上十个联赛，让可怜的鲤鱼王们振作起来！",
+      "line": 7767
+    },
+    "Around these parts, folks love to compete to see whose Magikarp can splash harder and jump higher! No other Pokémon are allowed to compete in these events. So, do your best to raise up some fine Magikarp!": {
+      "translation": "在这里，人们喜欢比一比谁的鲤鱼王溅水更有力、跳得更高！这些比赛不允许其他宝可梦参加。所以，好好培育出几只出色的鲤鱼王吧！",
+      "line": 7768
+    },
+    "Our island is a special place, home to Magikarp patterns that aren't found anywhere else in the world! Collect and raise them all to increase your jump power and take on our league champion!": {
+      "translation": "我们的岛屿很特别，这里有全世界其他地方见不到的鲤鱼王花纹！收集并培育它们全部，提升你的跳跃力，去挑战我们的联赛冠军吧！",
+      "line": 7769
+    },
+    "He is trying to sell overpriced Magikarps to clueless children.": {
+      "translation": "他正想把高价鲤鱼王卖给不知情的孩子。",
+      "line": 7780
+    },
+    "Please keep an <i>eye</i> open for him.": {
+      "translation": "请帮我多<i>留意</i>他。",
+      "line": 7781
+    },
+    "Well... it's not much of a laboratory yet. I'm working on several projects to help Magikarps reach their full potential. Can you help me out?": {
+      "translation": "嗯……这里还算不上真正的实验室。我在研究几个项目，想帮助鲤鱼王们发挥出全部潜力。你能帮帮我吗？",
+      "line": 7789
+    },
+    "While you were gone, I was working on optimizing the training regimen for Magikarps. According to my calculations, we are missing a LOT of equipment.": {
+      "translation": "你不在的时候，我一直在优化鲤鱼王的训练方案。根据我的计算，我们缺少<i>大量</i>设备。",
+      "line": 7798
+    },
+    "I have discovered that a critical part of any Magikarp training program is pushing other Pokémon around in a field. This form of exercise rounds out the muscle groups and really boosts performance.": {
+      "translation": "我发现任何鲤鱼王训练计划中至关重要的一环，就是在场地里推着其他宝可梦移动。这种训练能全面锻炼肌肉群，大幅提升表现。",
+      "line": 7808
+    },
+    "According to my calculations, the ideal Pokémon to push around are Dwebble, Boldore, Forretress, Golem, and Steelix. Can you catch or hatch me some?": {
+      "translation": "根据我的计算，最适合用来推的宝可梦是：石居蟹、地幔岩、佛烈托斯、隆隆岩和大钢蛇。你能帮我抓或孵化一些吗？",
+      "line": 7809
+    },
+    "Steer clear of the Alolan version of Golem, its electrical fields are too dangerous to use.": {
+      "translation": "别用阿罗拉形态的隆隆岩，它的电场太危险了。",
+      "line": 7810
+    },
+    "Please take this Magikarp as a thank you! Train them for greatness!": {
+      "translation": "请收下这只鲤鱼王作为谢礼！把它训练得更强吧！",
+      "line": 7828
+    },
+    "Kid, I have a deal for you! And for you alone. Here's your chance. I will sell you the secret Magikarp... For an unbelievable price.": {
+      "translation": "小子，我有笔买卖给你！只给你一个人的机会。我会把那只秘密鲤鱼王卖给你……价格绝对让你难以置信。",
+      "line": 7835
+    },
+    "Stop right there! This is the sacred land of Magikarp Jump. I can tell there is something suspicious about you... Yeah, I see! You have no Magikarp! How did you even make it this far without the best Pokémon, anyway?": {
+      "translation": "站住！这里是“跃动吧！鲤鱼王”的圣地。我看你有点可疑……啊哈，我看出来了！你居然一只鲤鱼王都没有！没有最棒的宝可梦，你到底是怎么走到这儿来的？",
+      "line": 7840
+    },
+    "In any case, everyone in town will run away from you until you get yourself a Magikarp. So, go catch one, or fish one at the Pond. Then, the residents may be willing to talk to you.": {
+      "translation": "总之，在你拥有一只鲤鱼王之前，镇上的人都会躲着你。去抓一只吧，或者去池塘钓一只。等你有了鲤鱼王，大家也许才愿意跟你说话。",
+      "line": 7841
+    },
+    "Exeggutor Island": {
+      "translation": "椰蛋树岛",
+      "line": 8006
+    },
+    "Magikarp's Eye": {
+      "translation": "鲤鱼王之眼",
+      "line": 8159
+    },
+    "I know that reckless one, Linoone, will only evolve during the night time here. But, I also think I've seen its evolution wandering across the lake if you have a way to cross.": {
+      "translation": "我知道那只莽撞的直冲熊只有在这里的夜晚才会进化。不过，如果你有办法过湖，我也觉得我见过它的进化形态在湖对岸游荡。",
+      "line": 8553
+    },
+    "For example, you can whip up a Vanilla Alcremie, by spinning clockwise for less than 5 seconds, during the day. Piece of cake! There's a unique form for each Sweet under this circumstance, so bake it till you make it!": {
+      "translation": "例如，你可以在白天顺时针旋转不到5秒，就能做出香草口味的霜奶仙，小菜一碟！在这种条件下，每一种糖饰都有独特形态，继续努力吧！",
+      "line": 8558
+    },
+    "There are more tiers to Alcremie than I can count. Mix up the direction, duration, time of day, and the given Sweet to discover all the flavours there are to find.": {
+      "translation": "霜奶仙的层级多得数不清。改变旋转方向、持续时间、昼夜以及所持糖饰，就能发现所有口味。",
+      "line": 8559
+    },
+    "My Kantonian Farfetch'd would never evolve no matter how many fresh Leeks I gave it.": {
+      "translation": "我的关都形态大葱鸭，不管我给它多少新鲜的大葱都不会进化。",
+      "line": 8565
+    },
+    "Lo and behold, here in Galar the Farfetch'd wield thick, tough leeks for battle!": {
+      "translation": "可你瞧，在伽勒尔，大葱鸭会挥舞粗壮坚硬的大葱来战斗！",
+      "line": 8566
+    },
+    "Once my Galarian Farfetch'd was holding a Leek.. Blimey, I was surprised how quickly he transformed into a noble ally! With the Leek growing into a mighty stalk for battle!": {
+      "translation": "后来我的伽勒尔大葱鸭拿着大葱……天哪，我没想到它竟这么快就变成了高贵可靠的伙伴！那根大葱也长成了战斗用的巨大葱茎！",
+      "line": 8567
+    },
+    "My mate told me a story of a Pikachu getting lodged in the gluttonous bird's gullet while it was gorging in a thunderstorm! But that sounds ridiculous! How would it not be bothered by the big rat in its throat? It would drive me mad.": {
+      "translation": "朋友跟我说过一个故事：有只皮卡丘在雷雨天被那只贪吃的大鸟吞食时卡在了它的喉咙里！可这也太离谱了吧！喉咙里卡着那么大一只“老鼠”，它怎么可能不难受？我都要疯了。",
+      "line": 8585
+    },
+    "This might sound cheesy, but I love Milcery so much! I wasn't sure which Alcremie form I liked the most, so I just grabbed a Sweet at random and started to spin and spin for what seemed like an hour.": {
+      "translation": "听起来可能很俗气，但我真的超级喜欢小仙奶！我拿不定主意最喜欢哪种霜奶仙形态，于是随手抓了一枚糖饰，开始不停地转啊转，感觉转了快一个小时。",
+      "line": 8589
+    },
+    "<i>It's Stow-on-Side's famous mural.</i>": {
+      "translation": "<i>这是拳关市著名的壁画。</i>",
+      "line": 8594
+    },
+    "<i>It's said to be a very deep work of art...</i>": {
+      "translation": "<i>据说这是一件寓意很深的艺术作品……</i>",
+      "line": 8595
+    },
+    "<i>It's the statues that were hidden behind Stow-on-Side's famous mural.</i>": {
+      "translation": "<i>这是藏在拳关市著名壁画背后的雕像。</i>",
+      "line": 8602
+    },
+    "<i>They depict two heroes and two Pokémon.</i>": {
+      "translation": "<i>它们描绘了两位英雄与两只宝可梦。</i>",
+      "line": 8603
+    },
+    "<i>The ancient Hero's Bath.</i>": {
+      "translation": "<i>古老的“勇者之汤”。</i>",
+      "line": 8628
+    },
+    "<i>They say this is where the two heroes came to soothe their wounds after the battle to bring down that evil presence, long ago.</i>": {
+      "translation": "<i>据说很久以前，两位英雄在击退那股邪恶存在后的大战中受了伤，曾来到这里疗伤。</i>",
+      "line": 8629
+    },
+    "It's too bad, but it can't be helped... In order to solve the energy issue as soon as possible, we awakened Eternatus. But we couldn't control it. The Champion came to aid me, even at the cost of abandoning the match. Indeed, just like a knight in shining armor coming to rescue a princess from a dragon!": {
+      "translation": "真遗憾，但这也是没办法的事……为了尽快解决能源问题，我们唤醒了无极汰那。然而我们无法控制它。冠军甚至不惜放弃比赛也来援助我，简直就像身披闪亮铠甲的骑士，为了从巨龙手中拯救公主而赶来一样！",
+      "line": 8699
+    },
+    "I do tend to ramble on, I know. I love to make speeches. But I think I can stop talking now. I think the Champion should have captured Eternatus by now. If you're curious, you can take the lift up.": {
+      "translation": "我确实有点话多，我喜欢演讲。不过我想我现在可以闭嘴了。冠军应该已经抓到无极汰那了吧。如果你好奇，可以乘电梯上去。",
+      "line": 8700
+    },
+    "Everyone knows what you did for us this week... They know you're the one who caught Eternatus and saved the future of the Galar region.": {
+      "translation": "大家都知道你这周为我们做了什么……他们知道是你捕获了无极汰那，拯救了伽勒尔地区的未来。",
+      "line": 8713
+    },
+    "It's all because you ruffians had to go and save Galar from Eternatus!": {
+      "translation": "都怪你们这些家伙非得去从无极汰那手里拯救伽勒尔！",
+      "line": 8760
+    },
+    "... ... ... Why hello there! My name is Mustard! I'm rather good at Pokémon battles, you know! I'm pleased as cheese that you could join us!": {
+      "translation": "…… …… ……哎呀呀，你好呀！我叫马士德！我在宝可梦对战方面还挺有一手的！你能加入我们，我可高兴得不得了！",
+      "line": 8808
+    },
+    "For the first trial, my students... You've all gotta defeat 6 of those fast Galarian Slowpoke, trained with care by little old me! But that's not all... You need to catch them, too!": {
+      "translation": "第一个考验，学生们……你们都得打倒我这把老骨头精心训练的6只快速伽勒尔呆呆兽！但这还没完……你们还得把它们抓住！",
+      "line": 8817
+    },
+    "Well mustered! You cleared the first trial like it was nothing! Why, I think this is the first time since Leon that someone was able to handle all six fast Slowpoke on their own! The rest of you tried very hard, too! You were able to catch up to the Slowpoke, but I guess you couldn't defeat them.": {
+      "translation": "干得漂亮！你轻轻松松就通过了第一个考验！哎呀，我想这还是自丹帝以来第一次有人能独自处理完六只快速呆呆兽呢！你们其他人也很努力！虽然追上了呆呆兽，但看来还是打不过它们。",
+      "line": 8823
+    },
+    "Tell you what. Anyone who was able to catch up to a Slowpoke at least once gets a pass! Our new student here really outdid themselves, so it's only fair everyone else gets another chance. Try to make a comeback, everybody!": {
+      "translation": "这样吧：至少追上过一次呆呆兽的人都算通过！我们这位新学生表现太出色了，公平起见，其他人也再给一次机会。大家加油，争取扳回一城！",
+      "line": 8824
+    },
+    "...oh no. Another two groups of Zarude are coming and, as I'm sure you can already guess, being surrounded by unconscious Zarude does not make you look good to them.": {
+      "translation": "……糟了。又有两拨萨戮德要来了，而且你也猜得到，被一群昏迷的萨戮德包围并不会让你在它们眼里显得多友好。",
+      "line": 8944
+    },
+    "Hang on, did you guys see something? Oh, over there, it's Celebi! It must have come now things are peaceful here. It looks like it wants to play!": {
+      "translation": "等等，你们看见什么了吗？哦，在那边，是时拉比！现在这里平静了，它一定是来玩耍的。看起来它想和你玩！",
+      "line": 8977
+    },
+    "Wow, you actually beat Celebi! It looked like it had fun! It's ran off for now, but maybe if you find it again, it'll let you catch it.": {
+      "translation": "哇，你居然打败了时拉比！它看起来玩得很开心！它暂时跑掉了，不过也许你再找到它一次，它就会让你捕捉了。",
+      "line": 8984
+    },
+    "<i>Human child... I look forward to what adventures we might have together.</i>": {
+      "translation": "<i>人类的孩子……我期待与你一同经历的冒险。</i>",
+      "line": 9051
+    },
+    "<i>May I remind you, if you ever wish to return my steeds and I to our true power, you must gather some hair from the manes of my steeds as they roam the Crown Tundra, and intertwine such hair with the Reins of Unity.</i>": {
+      "translation": "<i>提醒你一句：若你希望我与坐骑恢复真正的力量，就必须在它们于王冠雪原徘徊时，从鬃毛上收集一些毛发，并将其与牵绊缰绳编织在一起。</i>",
+      "line": 9052
+    },
+    "Wait--you really caught Articuno, Moltres, and Zapdos from the legends?! Thats's ultra-mega-brilliant! Report away!": {
+      "translation": "等等——你真的抓到了传说中的急冻鸟、火焰鸟和闪电鸟？！这也太、太厉害了！快汇报一下！",
+      "line": 9092
+    },
+    "So that didn't work? Well, I heard there are some legendary Pokémon in those ruins, called Regirock, Regice, and Registeel. Apparently they'll show up to people who have done enough explorin' in their ruins.": {
+      "translation": "所以那样不行吗？好吧，我听说那些遗迹里有些传说宝可梦，叫雷吉洛克、雷吉艾斯和雷吉斯奇鲁。据说只要在它们的遗迹里探索得够多，它们就会现身。",
+      "line": 9113
+    },
+    "It's a cave system just to the north of here, called the Max Lair. It's the only known place where you can catch wild Gigantamax Pokémon!": {
+      "translation": "就在北边有一片洞窟群，叫“极巨巢穴”。据我所知，那是唯一能捕捉野生超极巨化宝可梦的地方！",
+      "line": 9149
+    },
+    "You're back! So I take it you saw one? A Gigantamax Pikachu, huh? Yeah, I saw one of those too! I also saw 2 others: Meowth and Eevee. Maybe you'll see them when you go back in.": {
+      "translation": "你回来了！所以你看见了吗？超极巨化的皮卡丘，对吧？是啊，我也见过！我还见过另外两只：喵喵和伊布。也许你再进去一次就能见到它们。",
+      "line": 9156
+    },
+    "Anyway, in each of these Raid Dens, there's a Gigantamax Pokémon! You can't catch 'em though, they'll turn back to their regular form and run before you get the chance.": {
+      "translation": "总之，在这些团体战巢穴里的每一个巢穴里都有一只超极巨化宝可梦！不过你抓不到它们——在你来得及出手前，它们就会变回普通形态逃走。",
+      "line": 9160
+    },
+    "However! They'll each drop a stone called a Wishing Piece. If you gather enough of those stones here, more Gigantamax Pokémon'll show up! Dunno which ones, probably just your luck.": {
+      "translation": "但是！它们都会掉落一种叫“许愿星”的石头。只要你在这里收集到足够多的许愿星，就会出现更多超极巨化宝可梦！至于会是哪几只嘛——大概就看你运气了。",
+      "line": 9161
+    },
+    "Including the 3 already here, there are 33 Gigantamax Pokémon. I imagine you'll need more than 200 Wishing Pieces to get all of 'em to show up.": {
+      "translation": "算上已经在这里的3只，一共有33只超极巨化宝可梦。我估计想把它们都刷出来，你需要200个以上的许愿星。",
+      "line": 9162
+    },
+    "Eternamax Eternatus has appeared again! There is no time to talk! Let's fight it together!": {
+      "translation": "无极巨化的无极汰那又出现了！没时间解释了！我们一起打倒它！",
+      "line": 9177
+    },
+    "I think Eternatus absorbed the leftover power it used to transform the first time to do so again. There's none left now, though, so that should be the last time. It flew south...": {
+      "translation": "我想无极汰那吸收了上次变身后残留的力量，所以才再次变身。现在那股力量应该已经耗尽了，因此这次大概就是最后一次了。它往南飞走了……",
+      "line": 9184
+    },
+    "I have a feeling it'll come back here, but it shouldn't be a problem if it can't return to its Eternamax form here, right?": {
+      "translation": "我有种预感它还会回来，不过只要它无法在这里恢复无极巨化形态，应该就不成问题了，对吧？",
+      "line": 9185
+    },
+    "So it really was Eternatus again? Given that the purple glow has vanished, I guess you've already taken care of it. Congrats!": {
+      "translation": "所以真的是无极汰那又回来了？看那紫色光芒已经消失，我想你已经解决了它。恭喜！",
+      "line": 9192
+    },
+    "Actually, I just saw some purple and red Pokémon fly into the caves. Maybe that was Eternatus? I think this place might let it return to its Eternamax form. Maybe you can catch it!": {
+      "translation": "不过我刚才看见一些紫红色的宝可梦飞进了洞窟。也许那就是无极汰那？我觉得这里可能会让它恢复无极巨化形态。也许你能抓到它！",
+      "line": 9193
+    },
+    "At any rate, I'm real thankful for all your help. There's so many more people coming here now there's more Gigantamax Pokémon to find. It's been a lot of fun!": {
+      "translation": "不管怎样，真的非常感谢你的帮助。现在能找到更多超极巨化宝可梦，来这里的人也越来越多了，真是太有意思了！",
+      "line": 9194
+    },
+    "I'm sure you'll have noticed that there's quite a few Gigantamax Pokémon. As more get here, it's going to get progressively harder to find the one you want.": {
+      "translation": "你应该已经注意到，这里有不少超极巨化宝可梦。随着数量越来越多，想找到你想要的那一只也会越来越难。",
+      "line": 9200
+    },
+    "This is Enamorus, a Pokémon hailed as the Herald of Spring. Enamorus is not particularly given to ill behaviour. But I imagine you'd like to document her for your Pokédex, wouldn't you?": {
+      "translation": "这是眷恋云，一只被誉为“春之使者”的宝可梦。眷恋云并不特别好斗，不过我想你一定想把她记录进你的宝可梦图鉴，对吧？",
+      "line": 9634
+    }
+  }
+}

@@ -10,19 +10,19 @@
       "translation": "<br>",
       "line": 64
     },
-    "Remove All ${GameConstants.VitaminType[vitamin]}?": {
+    "Remove All ${...}?": {
       "translation": "删除所有 ${...}？",
       "line": 87,
       "_rematchedFrom": "Remove All ${...}?",
       "_confidence": 0.85
     },
-    "All ${GameConstants.VitaminType[vitamin]} will be removed from <u>every</u> Pokémon in your party.": {
+    "All ${...} will be removed from <u>every</u> Pokémon in your party.": {
       "translation": "所有${...}将从你队伍中的<u>每只</u>宝可梦身上移除。",
       "line": 88,
       "_rematchedFrom": "All ${...} will be removed from <u>every</u> Pokémon in your party.",
       "_confidence": 0.85
     },
-    "${GameConstants.VitaminType[vitamin]} couldn't be modified for Pokémon in Hatchery or Queue.": {
+    "${...} couldn't be modified for Pokémon in Hatchery or Queue.": {
       "translation": "无法修改孵化场或队列中的宝可梦的 ${...}。",
       "line": 107,
       "_rematchedFrom": "${...} couldn't be modified for Pokémon in Hatchery or Queue.",
@@ -100,7 +100,7 @@
       "translation": "en-US",
       "line": 334
     },
-    "Add the <strong>${categoryName}</strong> category to ${pokemonList.length.toLocaleString('en-US')} Pokémon?": {
+    "Add the <strong>${...}</strong> category to ${...} Pokémon?": {
       "translation": "将<strong>${...}</strong>分类添加到${...}只宝可梦？",
       "line": 334,
       "_rematchedFrom": "Add the <strong>${...}</strong> category to ${...} Pokémon?",
@@ -114,7 +114,7 @@
       "translation": "批量移除分类",
       "line": 353
     },
-    "Remove the <strong>${categoryName}</strong> category from ${pokemonList.length.toLocaleString('en-US')} Pokémon?": {
+    "Remove the <strong>${...}</strong> category from ${...} Pokémon?": {
       "translation": "从${...}只宝可梦移除<strong>${...}</strong>分类？",
       "line": 354,
       "_rematchedFrom": "Remove the <strong>${...}</strong> category from ${...} Pokémon?",

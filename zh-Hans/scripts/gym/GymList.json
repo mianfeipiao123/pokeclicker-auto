@@ -191,7 +191,7 @@
       "line": 111
     },
     "Bill's Errand": {
-      "translation": "比尔的差事",
+      "translation": "正辉的差事",
       "line": 113
     },
     "Viridian City": {
@@ -259,7 +259,7 @@
       "line": 152
     },
     "...Things shouldn't be this way!": {
-      "translation": "",
+      "translation": "……不该是这样的……！",
       "line": 156
     },
     "Ice": {
@@ -407,7 +407,7 @@
       "line": 252
     },
     "...Darn! My Dad's cherished bird Pokémon... All right. Take this. It's the official Pokémon League Zephyr Badge.": {
-      "translation": "",
+      "translation": "……可恶！我爸珍爱的飞行系宝可梦……好吧，拿去。这是宝可梦联盟官方的飞翼徽章。",
       "line": 256
     },
     "Sprout Tower": {
@@ -459,7 +459,7 @@
       "line": 277
     },
     "...Sniff... What? What do you want? A badge? Oh, right. I forgot. Here's the Plain Badge.": {
-      "translation": "",
+      "translation": "……呜……什么？你想干嘛？徽章？哦对，我都忘了。给你，平原徽章。",
       "line": 281
     },
     "Ecruteak City": {
@@ -523,7 +523,7 @@
       "line": 320
     },
     "...You are a better trainer than me, in both skill and kindness. In accordance with League rules, I confer upon you this Badge.": {
-      "translation": "",
+      "translation": "……无论实力还是温柔，你都是更优秀的训练家。按照联盟规则，我将这枚徽章授予你。",
       "line": 324
     },
     "Mahogany Town": {
@@ -1034,7 +1034,7 @@
       "translation": "珊瑚眼",
       "line": 651
     },
-    "I can see why you made it so far in the Indigo League, and I bet you'll do pretty well in the Orange League.\n": {
+    "I can see why you made it so far in the Indigo League, and I bet you'll do pretty well in the Orange League.": {
       "translation": "我明白你为什么能在靛蓝联赛中取得如此大的成绩，而且我打赌你在橙色联赛中也会表现得很好。",
       "line": 653,
       "_rematchedFrom": "I can see why you made it so far in the Indigo League, and I bet you'll do pretty well in the Orange League.",
@@ -1064,7 +1064,7 @@
       "translation": "顽皮雷弹",
       "line": 665
     },
-    "You and the others were great.\nNow I'd like to give you and your fellow challengers something you really deserve. The Sea Ruby badge. It's yours.": {
+    "You and the others were great. Now I'd like to give you and your fellow challengers something you really deserve. The Sea Ruby badge. It's yours.": {
       "translation": "你和其他人都很棒。现在我想给你和你的挑战者同伴一些你真正应得的东西。海红宝石徽章。这是你的。",
       "line": 669,
       "_rematchedFrom": "You and the others were great. Now I'd like to give you and your fellow challengers something you really deserve. The Sea Ruby badge. It's yours.",
@@ -1102,7 +1102,7 @@
       "translation": "嘎啦嘎啦",
       "line": 690
     },
-    "You did a fine job.\nAnd now, as Kumquat Island gym leader, and a member of the Orange Crew, I happily present this token of your victory.": {
+    "You did a fine job. And now, as Kumquat Island gym leader, and a member of the Orange Crew, I happily present this token of your victory.": {
       "translation": "你做得很好。现在，作为金橘岛道馆的领队和橙色船员的一员，我很高兴地向你们赠送这个胜利的象征。",
       "line": 694,
       "_rematchedFrom": "You did a fine job. And now, as Kumquat Island gym leader, and a member of the Orange Crew, I happily present this token of your victory.",
@@ -1284,7 +1284,7 @@
       "translation": "蜥蜴王",
       "line": 841
     },
-    "In all of Orre, I've never seen a Pokémon Trainer of your caliber. You appear to be the biggest threat to Cipher. To make sure my underlings watch you with caution, I give you the title “Cipher's Biggest Enemy.”": {
+    "In all of Orre, I've never seen a Pokémon Trainer of your caliber. You appear to be the biggest threat to Cipher. To make sure my underlings watch you with caution, I give you the title \"Cipher's Biggest Enemy.\"": {
       "translation": "在整个欧雷，我从未见过像你这样水平的宝可梦训练家。你似乎是 暗影密码 的最大威胁。为了确保我的下属小心翼翼地看着你，我给你起了“暗影密码最大的敌人”的称号。",
       "line": 850
     },
@@ -1312,7 +1312,7 @@
       "translation": "卡比兽",
       "line": 862
     },
-    "I'm satisfied that I was able to battle to my heart's content. I would like to confer on you the title “Eldes's Top Rival.”": {
+    "I'm satisfied that I was able to battle to my heart's content. I would like to confer on you the title \"Eldes's Top Rival.\"": {
       "translation": "我很满意自己能够尽情地战斗。我想授予你“埃尔德斯顶级对手”的称号。",
       "line": 867
     },
@@ -1397,7 +1397,7 @@
       "line": 920
     },
     "...OK. You win. That was a tough loss. I learned a lot from it. Please, accept this Gym Badge.": {
-      "translation": "",
+      "translation": "……好吧，你赢了。这场失利很沉重，但我也从中学到了很多。请收下这枚道馆徽章。",
       "line": 924
     },
     "Pastoria City": {
@@ -1489,7 +1489,7 @@
       "line": 974
     },
     "...Hehehe. Hahahah! ...That was the most fun I've had in a battle since...I don't know when! It's also made me excited to know you and your team will keep battling to greater heights! This is your eighth Gym Badge. You've earned this!": {
-      "translation": "",
+      "translation": "……呵呵呵。哈哈哈！……这真是我……都不知道多久以来最痛快的一场战斗了！也让我更加期待你和你的队伍继续向更高的境界挑战！这是你的第八枚道馆徽章。你当之无愧！",
       "line": 978
     },
     "Elite Aaron": {
@@ -1577,7 +1577,7 @@
       "line": 1021
     },
     ".........Keep going...I know your spirit burns hot. Your whole team does.": {
-      "translation": "",
+      "translation": "………继续前进吧……我知道你的斗志燃烧得很炽热，你的整个队伍也是。",
       "line": 1025
     },
     "Elite Lucian": {
@@ -2273,7 +2273,7 @@
       "line": 1459
     },
     "The results come as no surprise to me. What a fine Trainer...and what fine Pokémon, too! Accept this Z-Crystal! It allows Trainers to share their power with their partner Pokémon!</br><img width=\"100\" src=\"assets/images/items/zCrystal/Fightinium Z.svg\"/></br>With this victory... you have cleared all of the trials of Melemele Island, the first of Alola's islands! The Melemele stamp is proof of your accomplishments.": {
-      "translation": "",
+      "translation": "这个结果我并不意外。真是出色的训练家……宝可梦也很出色！收下这枚Z纯晶吧！它能让训练家与搭档宝可梦共享力量！</br><img width=\"100\" src=\"assets/images/items/zCrystal/Fightinium Z.svg\"/></br>凭借这场胜利……你已经通过了阿罗拉群岛中第一座——美乐美乐岛的所有考验！美乐美乐印章就是你成就的证明。",
       "line": 1463
     },
     "assets/images/items/zCrystal/Fightinium Z.svg": {
@@ -2313,7 +2313,7 @@
       "line": 1473
     },
     "How lovely. Diamonds only sparkle after coal is pushed to its absolute limit. Here. The Rock-type Z-Crystal... The Rockium Z is all yours!</br><img width=\"100\" src=\"assets/images/items/zCrystal/Rockium Z.svg\"/></br>I think your journey will hold many surprises. And I hope it holds many joys.": {
-      "translation": "",
+      "translation": "真不错。煤炭只有在被逼到极限之后，才会绽放出钻石的光芒。给你。这枚岩石属性的Z纯晶……岩石Z就归你了！</br><img width=\"100\" src=\"assets/images/items/zCrystal/Rockium Z.svg\"/></br>我想你的旅途一定会有许多惊喜，也希望你能收获许多快乐。",
       "line": 1477
     },
     "assets/images/items/zCrystal/Rockium Z.svg": {
@@ -2341,7 +2341,7 @@
       "line": 1487
     },
     "Hmph... heh. Let me fix your team up for you. Here. This is yours.</br><img width=\"100\" src=\"assets/images/items/zCrystal/Darkinium Z.svg\"/></br>There. Congratulations or whatever. You've officially finished your Ula'ula trials. You've got somewhere else to be, don't you? Try not to destroy the whole place.": {
-      "translation": "",
+      "translation": "哼……呵。让我先帮你把队伍治好。给你，这是你的。</br><img width=\"100\" src=\"assets/images/items/zCrystal/Darkinium Z.svg\"/></br>好了，随便恭喜你一下吧。你已经正式完成了乌拉乌拉岛的考验。你还有别的地方要去，对吧？尽量别把这里全毁了。",
       "line": 1491
     },
     "assets/images/items/zCrystal/Darkinium Z.svg": {
@@ -2381,7 +2381,7 @@
       "line": 1502
     },
     "You have succeeded in your final grand trial! That was enjoyable. Looks like I cannot beat you even when I am not holding back... Take your Ground-type Z-Crystal then... This Groundium Z is yours!</br><img width=\"100\" src=\"assets/images/items/zCrystal/Groundium Z.svg\"/></br>Then go on with you two! Head straight through here and find the altar!": {
-      "translation": "",
+      "translation": "你成功通过了最后的大考验！真是痛快。看来就算我不留手……也赢不了你了。那就收下你的地面属性Z纯晶吧……地面Z是你的了！</br><img width=\"100\" src=\"assets/images/items/zCrystal/Groundium Z.svg\"/></br>好了，你们两个继续前进吧！从这里直走，去找到祭坛！",
       "line": 1510
     },
     "assets/images/items/zCrystal/Groundium Z.svg": {
@@ -2645,7 +2645,7 @@
       "line": 1719
     },
     "Just wait 'til my Magikarp evolves and you will all see how great I am! <i>Cries</i>": {
-      "translation": "",
+      "translation": "等我的鲤鱼王进化了，你们就会知道我有多厉害了！<i>哭泣</i>",
       "line": 1722
     },
     "Magikarp Jump Karbuck": {
@@ -3321,7 +3321,7 @@
       "line": 2167
     },
     "Lord of the Isles: Arcanine": {
-      "translation": "",
+      "translation": "群岛之主：风速狗",
       "line": 2168
     },
     "Noble Arcanine": {
@@ -3329,7 +3329,7 @@
       "line": 2170
     },
     "You defeated Lord Arcanine once again!": {
-      "translation": "",
+      "translation": "你再次击败了风速狗之主！",
       "line": 2173
     },
     "Lord Arcanine": {
@@ -3345,7 +3345,7 @@
       "line": 2177
     },
     "Lord of the Hollow: Electrode": {
-      "translation": "",
+      "translation": "空洞之主：顽皮雷弹",
       "line": 2178
     },
     "Noble Electrode": {
@@ -3353,7 +3353,7 @@
       "line": 2180
     },
     "You defeated Lord Electrode once again!": {
-      "translation": "",
+      "translation": "你再次击败了顽皮雷弹之主！",
       "line": 2183
     },
     "Lord Electrode": {

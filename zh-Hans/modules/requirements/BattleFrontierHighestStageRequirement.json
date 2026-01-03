@@ -18,7 +18,7 @@
       "translation": "对战开拓区",
       "line": 6
     },
-    "Stage ${this.requiredValue} needs to be completed at the Battle Frontier.": {
+    "Stage ${...} needs to be completed at the Battle Frontier.": {
       "translation": "阶段 ${...} 需要在对战开拓区完成。",
       "line": 14,
       "_rematchedFrom": "Stage ${...} needs to be completed at the Battle Frontier.",

@@ -10,13 +10,13 @@
       "translation": "新任务线开启！",
       "line": 85
     },
-    "${this.description}\n<i>\"${this.name}\" added to the Quest List!</i>": {
+    "${...} <i>\"${...}\" added to the Quest List!</i>": {
       "translation": "${...}\n<i>\"${...}\"已添加到任务列表！</i>",
       "line": 86,
       "_rematchedFrom": "${...}\n<i>\"${...}\" added to the Quest List!</i>",
       "_confidence": 0.85
     },
-    "${this.name}.displayName": {
+    "${...}.displayName": {
       "translation": "${...}.显示名称",
       "line": 150,
       "_rematchedFrom": "${...}.displayName",
@@ -26,7 +26,7 @@
       "translation": "任务线",
       "line": 151
     },
-    "${this.name}.description": {
+    "${...}.description": {
       "translation": "${...}.描述",
       "line": 161,
       "_rematchedFrom": "${...}.description",

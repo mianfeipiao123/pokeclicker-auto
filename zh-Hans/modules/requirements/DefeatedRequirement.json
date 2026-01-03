@@ -18,7 +18,7 @@
       "translation": "总失败",
       "line": 6
     },
-    "${this.requiredValue} Pokémon need to be defeated.": {
+    "${...} Pokémon need to be defeated.": {
       "translation": "${...} 个宝可梦需要被击败。",
       "line": 14,
       "_rematchedFrom": "${...} Pokémon need to be defeated.",

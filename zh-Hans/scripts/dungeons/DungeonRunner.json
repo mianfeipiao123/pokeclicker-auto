@@ -10,11 +10,11 @@
       "translation": "常磐森林",
       "line": 27
     },
-    "You need the Dungeon Ticket to access dungeons.\n<i>Check out the shop at Viridian City.</i>": {
+    "You need the Dungeon Ticket to access dungeons. <i>Check out the shop at Viridian City.</i>": {
       "translation": "",
       "line": 28
     },
-    "You don't have access to this dungeon yet.\n<i>${dungeon.getRequirementHints()}</i>": {
+    "You don't have access to this dungeon yet. <i>${...}</i>": {
       "translation": "",
       "line": 31
     },
@@ -46,11 +46,11 @@
       "translation": "Missing No.",
       "line": 214
     },
-    "assets/images/pokemon/${PokemonHelper.getPokemonByName(input).id}.png": {
+    "assets/images/pokemon/${...}.png": {
       "translation": "",
       "line": 215
     },
-    "Found ${amount} × <img src=\"${image}\" height=\"24px\"/> ${GameConstants.pluralizeString(GameConstants.camelCaseToString(GameConstants.humanifyString(input)), amount)} in a dungeon chest.": {
+    "Found ${...} × <img src=\"${...}\" height=\"24px\"/> ${...} in a dungeon chest.": {
       "translation": "",
       "line": 235
     },
@@ -58,15 +58,15 @@
       "translation": "树果",
       "line": 240
     },
-    "Found ${Math.floor(amount)} × <img src=\"${image}\" height=\"24px\"/> ${GameConstants.humanifyString(input)} ${GameConstants.pluralizeString('Berry', amount)} in a dungeon chest.": {
+    "Found ${...} × <img src=\"${...}\" height=\"24px\"/> ${...} ${...} in a dungeon chest.": {
       "translation": "",
       "line": 240
     },
-    "Found ${amount} × <img src=\"${image}\" height =\"24px\"/> ${GameConstants.pluralizeString(ItemList[input].displayName, amount)} in a dungeon chest.": {
+    "Found ${...} × <img src=\"${...}\" height =\"24px\"/> ${...} in a dungeon chest.": {
       "translation": "",
       "line": 242
     },
-    "Encountered ${GameHelper.anOrA(input)} <img src=\"${image}\" height=\"40px\"/> ${GameConstants.humanifyString(input)} in a dungeon chest.": {
+    "Encountered ${...} <img src=\"${...}\" height=\"40px\"/> ${...} in a dungeon chest.": {
       "translation": "",
       "line": 244
     },
@@ -74,7 +74,7 @@
       "translation": "迷宫",
       "line": 306
     },
-    "Leave the dungeon?\n\nCurrent progress will be lost, but you will keep any items obtained from chests.": {
+    "Leave the dungeon? Current progress will be lost, but you will keep any items obtained from chests.": {
       "translation": "离开迷宫？当前进度将会丢失，但你将保留从箱子中获得的所有物品。",
       "line": 307,
       "_rematchedFrom": "Leave the dungeon? Current progress will be lost, but you will keep any items obtained from chests.",

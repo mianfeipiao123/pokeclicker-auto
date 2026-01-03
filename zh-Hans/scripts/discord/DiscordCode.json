@@ -6,7 +6,7 @@
     "translatedCount": 3
   },
   "entries": {
-    "[Discord Code] ${this.name}": {
+    "[Discord Code] ${...}": {
       "translation": "[不一致代码] ${...}",
       "line": 17,
       "_rematchedFrom": "[Discord Code] ${...}",

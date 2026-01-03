@@ -76,7 +76,7 @@
       "_rematchedFrom": "Github:",
       "_confidence": 0.95
     },
-    "Using ${translationsUrlOverride} for translations": {
+    "Using ${...} for translations": {
       "translation": "已加载中文翻译",
       "line": 57,
       "_rematchedFrom": "Using ${...} for translations",
@@ -94,7 +94,7 @@
       "translation": "",
       "line": 78
     },
-    "${translationsUrlOverride ?? '$TRANSLATIONS_URL'}/locales/{{lng}}/{{ns}}.json": {
+    "${...}/locales/{{lng}}/{{ns}}.json": {
       "translation": "",
       "line": 78
     },
@@ -106,13 +106,13 @@
       "translation": "已初始化",
       "line": 91
     },
-    "Failed to create hashed translation key for '${namespace}.${key}' as the default translation was missing or blank": {
+    "Failed to create hashed translation key for '${...}.${...}' as the default translation was missing or blank": {
       "translation": "无法为“${...}.${...}”创建哈希翻译密钥，因为默认翻译丢失或为空",
       "line": 120,
       "_rematchedFrom": "Failed to create hashed translation key for '${...}.${...}' as the default translation was missing or blank",
       "_confidence": 0.85
     },
-    "Translation cache encountered conflicting default values for key '${namespace}.${key}':\n\"${cached}\"\n\"${defaultValue}\"": {
+    "Translation cache encountered conflicting default values for key '${...}.${...}': \"${...}\" \"${...}\"": {
       "translation": "翻译缓存遇到键“${...}.${...}”的默认值冲突：“${...}”“${...}”",
       "line": 132,
       "_rematchedFrom": "Translation cache encountered conflicting default values for key '${...}.${...}': \"${...}\" \"${...}\"",

@@ -38,7 +38,7 @@
       "translation": "战斗物品被禁用",
       "line": 33
     },
-    "You don't have any ${this.displayName}s left...": {
+    "You don't have any ${...}s left...": {
       "translation": "你没有剩余的 ${...} 了...",
       "line": 40,
       "_rematchedFrom": "You don't have any ${...}s left...",

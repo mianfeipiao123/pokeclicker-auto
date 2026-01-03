@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 27
     },
-    "Collect ${this.amount.toLocaleString('en-US')} item${suffix} from the Underground mines.": {
+    "Collect ${...} item${...} from the Underground mines.": {
       "translation": "在地下矿井中挖出 ${...} 个道具。",
       "line": 27,
       "_rematchedFrom": "Collect ${...} item${...} from the Underground mines.",

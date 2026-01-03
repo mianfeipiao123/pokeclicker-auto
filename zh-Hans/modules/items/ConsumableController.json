@@ -18,7 +18,7 @@
       "translation": "最大",
       "line": 7
     },
-    "assets/images/items/consumable/${consumableName}.png": {
+    "assets/images/items/consumable/${...}.png": {
       "translation": "",
       "line": 24
     }

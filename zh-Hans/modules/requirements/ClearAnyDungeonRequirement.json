@@ -18,7 +18,7 @@
       "translation": "通关迷宫",
       "line": 6
     },
-    "Clear any dungeon a total of ${this.requiredValue} times.": {
+    "Clear any dungeon a total of ${...} times.": {
       "translation": "总共通关任意迷宫 ${...} 次。",
       "line": 15,
       "_rematchedFrom": "Clear any dungeon a total of ${...} times.",

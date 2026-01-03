@@ -1,5 +1,6 @@
 # 翻译管理工具（不上传）
 tools/
+tooling/
 
 # 生成的报告和临时文件
 coverage-report.txt
@@ -8,12 +9,13 @@ update-report.json
 orphaned-analysis.json
 orphaned-filtered.json
 rematch-suggestions.json
+reports/
+tooling/.state.json
 
 # 提取的字符串缓存
 zh-Hans/_extracted.json
 
-# 合并的翻译映射（油猴脚本直接从分类文件加载）
-zh-Hans/hardcoded-map.json
+# 注意：`zh-Hans/hardcoded-map.json` 属于脚本会加载的翻译文件，需要上传，不应加入 ignore
 
 # 孤儿翻译（已处理）
 zh-Hans/misc/

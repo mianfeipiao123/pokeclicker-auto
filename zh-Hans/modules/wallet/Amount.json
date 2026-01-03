@@ -10,7 +10,7 @@
       "translation": "",
       "line": 1
     },
-    "Amount(${this.amount}, ${Currency[this.currency]})": {
+    "Amount(${...}, ${...})": {
       "translation": "金额(${...}, ${...})",
       "line": 13,
       "_rematchedFrom": "Amount(${...}, ${...})",

@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 31
     },
-    "Gain ${this.amount.toLocaleString('en-US')} Dungeon Tokens.": {
+    "Gain ${...} Dungeon Tokens.": {
       "translation": "获得 ${...} 迷宫代币。",
       "line": 31,
       "_rematchedFrom": "Gain ${...} Dungeon Tokens.",

@@ -10,7 +10,7 @@
       "translation": "异色的宝可梦",
       "line": 6
     },
-    "${this.requiredValue} unique Pokémon need to be caught.": {
+    "${...} unique Pokémon need to be caught.": {
       "translation": "",
       "line": 15
     }

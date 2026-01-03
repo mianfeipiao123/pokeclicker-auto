@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 26
     },
-    "Catch ${this.amount.toLocaleString('en-US')} Shadow Pokémon.": {
+    "Catch ${...} Shadow Pokémon.": {
       "translation": "捕获 ${...} 只暗影宝可梦。",
       "line": 26,
       "_rematchedFrom": "Catch ${...} Shadow Pokémon.",

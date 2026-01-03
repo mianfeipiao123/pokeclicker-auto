@@ -6,13 +6,13 @@
     "translatedCount": 8
   },
   "entries": {
-    "FarmHand${farmHandName}": {
+    "FarmHand${...}": {
       "translation": "农场手${...}",
       "line": 6,
       "_rematchedFrom": "FarmHand${...}",
       "_confidence": 0.85
     },
-    "Farm Hand ${farmHandName}": {
+    "Farm Hand ${...}": {
       "translation": "农场帮手 ${...}",
       "line": 6,
       "_rematchedFrom": "Farm Hand ${...}",
@@ -30,7 +30,7 @@
       "translation": "",
       "line": 15
     },
-    "assets/images/profile/trainer-${trainerID}.png": {
+    "assets/images/profile/trainer-${...}.png": {
       "translation": "",
       "line": 28
     },

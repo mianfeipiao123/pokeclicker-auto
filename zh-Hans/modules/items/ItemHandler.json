@@ -50,11 +50,11 @@
       "translation": "无法对孵化室中的宝可梦使用进化道具...",
       "line": 58
     },
-    "You don't have any ${ItemList[ItemHandler.stoneSelected()].displayName}s left...": {
+    "You don't have any ${...}s left...": {
       "translation": "",
       "line": 68
     },
-    "${ItemHandler.pokemonSelected()} isn't possible to evolve right now...<br>Check the lock icons next to the pokeballs for more details.": {
+    "${...} isn't possible to evolve right now...<br>Check the lock icons next to the pokeballs for more details.": {
       "translation": "${...} 现在不可能进化...<br>查看精灵球旁边的锁图标以了解更多详细信息。",
       "line": 75,
       "_rematchedFrom": "${...} isn't possible to evolve right now...<br>Check the lock icons next to the pokeballs for more details.",
@@ -64,7 +64,7 @@
       "translation": "en-US",
       "line": 93
     },
-    "You used ${amountUsed.toLocaleString('en-US')} × <img src=\"${stoneUsed.image}\" height=\"24px\"/> ${stoneUsed.displayName}${multiple} on ${ItemHandler.pokemonSelected()}.": {
+    "You used ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}${...} on ${...}.": {
       "translation": "你对${...}使用了 ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}${...}。",
       "line": 93,
       "_rematchedFrom": "You used ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}${...} on ${...}.",

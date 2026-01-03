@@ -18,7 +18,7 @@
       "translation": "异色的",
       "line": 80
     },
-    "${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)} is ready to hatch!": {
+    "${...} is ready to hatch!": {
       "translation": "${...} 已准备好孵化！",
       "line": 102,
       "_rematchedFrom": "${...} is ready to hatch!",
@@ -28,18 +28,18 @@
       "translation": "一颗蛋已经准备好孵化了！",
       "line": 104
     },
-    "✨ You hatched a shiny ${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)}! ✨": {
+    "✨ You hatched a shiny ${...}! ✨": {
       "translation": "✨ 你孵化了异色${...}！ ✨",
       "line": 154,
       "_rematchedFrom": "✨ You hatched a shiny ${...}! ✨",
       "_confidence": 0.85
     },
-    "You hatched ${GameHelper.anOrA(PokemonHelper.getPokemonById(this.pokemon).name)} ${PokemonHelper.displayName(PokemonHelper.getPokemonById(this.pokemon).name)}!": {
-      "translation": "",
+    "You hatched ${...} ${...}!": {
+      "translation": "你孵化出了${...} ${...}！",
       "line": 169
     },
-    "You also found ${GameHelper.anOrA(baseFormName)} ${baseFormName} nearby!": {
-      "translation": "",
+    "You also found ${...} ${...} nearby!": {
+      "translation": "你还在附近发现了${...} ${...}！",
       "line": 186
     }
   }

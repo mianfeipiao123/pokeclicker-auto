@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Have at least x${this.requiredValue} Pokéball Filters.": {
+    "Have at least x${...} Pokéball Filters.": {
       "translation": "至少拥有 x${...} 个精灵球过滤器。",
       "line": 17,
       "_rematchedFrom": "Have at least x${...} Pokéball Filters.",

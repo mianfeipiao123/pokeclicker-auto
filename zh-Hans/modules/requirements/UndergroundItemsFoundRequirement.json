@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Collect ${this.requiredValue} item${suffix} from the Underground mines.": {
+    "Collect ${...} item${...} from the Underground mines.": {
       "translation": "",
       "line": 15
     }

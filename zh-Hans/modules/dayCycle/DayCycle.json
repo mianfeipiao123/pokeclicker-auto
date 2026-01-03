@@ -26,7 +26,7 @@
       "translation": "",
       "line": 6
     },
-    "assets/images/dayCycle/${DayCyclePart[DayCycle.currentDayCyclePart()]}.png": {
+    "assets/images/dayCycle/${...}.png": {
       "translation": "资产/图像/dayCycle/${...}.png",
       "line": 16,
       "_rematchedFrom": "assets/images/dayCycle/${...}.png",

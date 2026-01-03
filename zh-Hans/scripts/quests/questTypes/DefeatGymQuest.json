@@ -6,7 +6,7 @@
     "translatedCount": 7
   },
   "entries": {
-    "Invalid gym town for quest: ${this.gymTown}": {
+    "Invalid gym town for quest: ${...}": {
       "translation": "任务的健身城镇无效：${...}",
       "line": 14,
       "_rematchedFrom": "Invalid gym town for quest: ${...}",
@@ -24,7 +24,7 @@
       "translation": "审判",
       "line": 60
     },
-    " at ${this.gymTown}": {
+    "at ${...}": {
       "translation": "价格为 ${...}",
       "line": 61,
       "_rematchedFrom": "at ${...}",
@@ -34,7 +34,7 @@
       "translation": "en-US",
       "line": 69
     },
-    "Defeat ${gymString} in ${subRegionName} ${this.amount.toLocaleString('en-US')} times.": {
+    "Defeat ${...} in ${...} ${...} times.": {
       "translation": "在 ${...}（${...}）挑战并获胜 ${...} 次。",
       "line": 69,
       "_rematchedFrom": "Defeat ${...} in ${...} ${...} times.",

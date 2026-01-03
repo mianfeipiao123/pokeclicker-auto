@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 27
     },
-    "Clear ${this.amount.toLocaleString('en-US')} Stages in the Battle Frontier.": {
+    "Clear ${...} Stages in the Battle Frontier.": {
       "translation": "在对战开拓区通关 ${...} 个阶段。",
       "line": 27,
       "_rematchedFrom": "Clear ${...} Stages in the Battle Frontier.",

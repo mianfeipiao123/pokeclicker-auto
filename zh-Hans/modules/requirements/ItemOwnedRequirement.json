@@ -18,19 +18,19 @@
       "translation": "",
       "line": 3
     },
-    "${this.requiredValue} or more": {
+    "${...} or more": {
       "translation": "${...} 或更多",
       "line": 16,
       "_rematchedFrom": "${...} or more",
       "_confidence": 0.85
     },
-    "less than ${this.requiredValue}": {
+    "less than ${...}": {
       "translation": "小于 ${...}",
       "line": 16,
       "_rematchedFrom": "less than ${...}",
       "_confidence": 0.85
     },
-    "You must own ${amountHint} ${ItemList[this.itemName].displayName}.": {
+    "You must own ${...} ${...}.": {
       "translation": "你必须拥有 ${...} ${...}。",
       "line": 17,
       "_rematchedFrom": "You must own ${...} ${...}.",

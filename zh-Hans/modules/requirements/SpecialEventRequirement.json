@@ -18,7 +18,7 @@
       "translation": "",
       "line": 4
     },
-    "${this.specialEventName} must be started.": {
+    "${...} must be started.": {
       "translation": "必须启动${...}。",
       "line": 16,
       "_rematchedFrom": "${...} must be started.",

@@ -54,13 +54,13 @@
       "translation": "",
       "line": 12
     },
-    "Add ${pokemon} to your party.": {
+    "Add ${...} to your party.": {
       "translation": "将 ${...} 添加到你的队伍中。",
       "line": 27,
       "_rematchedFrom": "Add ${...} to your party.",
       "_confidence": 0.85
     },
-    "${(shiny) ? ": {
+    "${(shiny) ?": {
       "translation": "${(shiny) ? ",
       "line": 55
     },
@@ -72,15 +72,15 @@
       "translation": "en-US",
       "line": 88
     },
-    "EVs: ${evs.toLocaleString('en-US')} / 50": {
+    "EVs: ${...} / 50": {
       "translation": "",
       "line": 88
     },
-    "${this.imageDirectory}/": {
+    "${...}/": {
       "translation": "",
       "line": 96
     },
-    "assets/images/items/${subDirectory}${this.name.replace(/[^\\s\\w.()-]/g, '')}.png": {
+    "assets/images/items/${...}${...}.png": {
       "translation": "",
       "line": 97
     }

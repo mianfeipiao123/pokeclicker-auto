@@ -6,7 +6,7 @@
     "translatedCount": 1
   },
   "entries": {
-    "I've heard that using the ${App.game.oakItems.itemList[this.oakItem].displayName} can cause ${BerryType[this.originalBerry]} Berries to change!": {
+    "I've heard that using the ${...} can cause ${...} Berries to change!": {
       "translation": "我听说使用 ${...} 会导致 ${...} 树果发生变化！",
       "line": 60,
       "_rematchedFrom": "I've heard that using the ${...} can cause ${...} Berries to change!",

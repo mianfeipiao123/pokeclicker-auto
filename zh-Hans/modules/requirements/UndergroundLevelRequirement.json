@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Requires level ${this.requiredValue} in the Underground.": {
+    "Requires level ${...} in the Underground.": {
       "translation": "需要挖掘等级${...}。",
       "line": 14,
       "_rematchedFrom": "Requires level ${...} in the Underground.",

@@ -14,7 +14,7 @@
       "translation": "这条路线上的所有宝可梦都有抵抗力！",
       "line": 44
     },
-    "EVs until all Pokémon are resistant on this route: ${currentEVs}&nbsp;/&nbsp;${50 * possiblePokemon.length}.": {
+    "EVs until all Pokémon are resistant on this route: ${...}&nbsp;/&nbsp;${...}.": {
       "translation": "",
       "line": 47
     },
@@ -22,7 +22,7 @@
       "translation": "这个迷宫中的所有宝可梦都具有抵抗力！",
       "line": 53
     },
-    "EVs until all Pokémon are resistant in this dungeon: ${currentEVs}&nbsp;/&nbsp;${50 * possiblePokemon.length}.": {
+    "EVs until all Pokémon are resistant in this dungeon: ${...}&nbsp;/&nbsp;${...}.": {
       "translation": "",
       "line": 56
     }

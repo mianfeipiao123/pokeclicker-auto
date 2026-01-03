@@ -1022,33 +1022,29 @@
       "translation": "一块土地的肥料已经用完了！",
       "line": 1879
     },
-    "shiny ": {
-      "translation": "",
-      "line": 1888
-    },
-    "A wild ${(displayWanderer.shiny ? 'shiny ' : '')}${displayWanderer.name} has wandered onto the farm!": {
+    "A wild ${...}${...} has wandered onto the farm!": {
       "translation": "一只野生${...}${...}闯入了农场！",
       "line": 1888,
       "_rematchedFrom": "A wild ${...}${...} has wandered onto the farm!",
       "_confidence": 0.85
     },
-    "You found ${GameHelper.anOrA(BerryType[berry])} ${BerryType[berry]} Berry!": {
-      "translation": "",
+    "You found ${...} ${...} Berry!": {
+      "translation": "你找到了${...} ${...}树果！",
       "line": 2130
     },
-    "You've discovered the ${BerryType[berry]} Berry!": {
+    "You've discovered the ${...} Berry!": {
       "translation": "你发现了 ${...} 树果！",
       "line": 2168,
       "_rematchedFrom": "You've discovered the ${...} Berry!",
       "_confidence": 0.85
     },
-    "${num.toFixed(1)} cm": {
+    "${...} cm": {
       "translation": "${...} 厘米",
       "line": 2284,
       "_rematchedFrom": "${...} cm",
       "_confidence": 0.85
     },
-    "${(num / 2.54).toFixed(1)}\\u2033": {
+    "${...}\\u2033": {
       "translation": "",
       "line": 2285
     },
@@ -1056,7 +1052,7 @@
       "translation": "en-US",
       "line": 2289
     },
-    "×${App.game.farming.berryData[berry].aura.auraMultipliers[stage].toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 3 })}": {
+    "×${...})}": {
       "translation": "",
       "line": 2289
     }

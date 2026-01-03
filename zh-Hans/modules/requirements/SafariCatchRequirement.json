@@ -14,11 +14,11 @@
       "translation": "",
       "line": 2
     },
-    " Shiny": {
+    "Shiny": {
       "translation": "",
       "line": 17
     },
-    "${this.requiredValue}${this.shiny ? ' Shiny' : ''} Pokémon needs to be captured in a Safari Zone.": {
+    "${...}${...} Pokémon needs to be captured in a Safari Zone.": {
       "translation": "${...}${...} 个宝可梦需要在 Safari 区域中捕获。",
       "line": 17,
       "_rematchedFrom": "${...}${...} Pokémon needs to be captured in a Safari Zone.",

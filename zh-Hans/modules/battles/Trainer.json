@@ -10,7 +10,7 @@
       "translation": "",
       "line": 1
     },
-    "assets/images/npcs/${imageName}.png": {
+    "assets/images/npcs/${...}.png": {
       "translation": "",
       "line": 17
     }

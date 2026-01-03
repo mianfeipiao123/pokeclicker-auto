@@ -42,7 +42,7 @@
       "translation": "en-US",
       "line": 70
     },
-    "You traded for ${amount.toLocaleString('en-US')} × <img src=\"${deal.item.itemType.image}\" height=\"24px\"/> ${pluralizeString(humanifyString(deal.item.itemType.displayName), amount)}.": {
+    "You traded for ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}.": {
       "translation": "",
       "line": 70
     },

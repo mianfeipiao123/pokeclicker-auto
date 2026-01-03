@@ -7,16 +7,16 @@
   },
   "entries": {
     "You found": {
-      "translation": "",
+      "translation": "你找到了",
       "line": 9
     },
-    "${npc} has given you": {
+    "${...} has given you": {
       "translation": "${...} 给了你",
       "line": 9,
       "_rematchedFrom": "${...} has given you",
       "_confidence": 0.85
     },
-    "${subject} ${amount} ${GameConstants.humanifyString(item)}(s)!": {
+    "${...} ${...} ${...}(s)!": {
       "translation": "${...} ${...} ${...}（s）！",
       "line": 12,
       "_rematchedFrom": "${...} ${...} ${...}(s)!",
@@ -26,27 +26,27 @@
       "translation": "Z纯晶",
       "line": 23
     },
-    "assets/images/items/zCrystal/${GameConstants.zCrystalItemType[crystalType]}.svg": {
+    "assets/images/items/zCrystal/${...}.svg": {
       "translation": "",
       "line": 24
     },
-    "<img width=\"60\" src=\"assets/images/items/zCrystal/${GameConstants.zCrystalItemType[crystalType]}.svg\"/> You got the ${GameConstants.zCrystalItemType[crystalType]}!": {
+    "<img width=\"60\" src=\"assets/images/items/zCrystal/${...}.svg\"/> You got the ${...}!": {
       "translation": "",
       "line": 24
     },
-    "Clear ${captain}'s Trial at ${dungeon}.": {
+    "Clear ${...}'s Trial at ${...}.": {
       "translation": "在 ${...} 完成 ${...} 的试炼。",
       "line": 29,
       "_rematchedFrom": "Clear ${...}'s Trial at ${...}.",
       "_confidence": 0.85
     },
-    "Trial Site of ${dungeon}": {
+    "Trial Site of ${...}": {
       "translation": "${...} 的试炼地点",
       "line": 30,
       "_rematchedFrom": "Trial Site of ${...}",
       "_confidence": 0.85
     },
-    "${successMessage}</br></br><img width=\"100\" src=\"assets/images/items/zCrystal/${GameConstants.zCrystalItemType[crystalType]}.svg\"/>": {
+    "${...}</br></br><img width=\"100\" src=\"assets/images/items/zCrystal/${...}.svg\"/>": {
       "translation": "",
       "line": 37
     },
@@ -78,12 +78,12 @@
       "translation": "",
       "line": 74
     },
-    "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens\nGained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
-      "translation": "",
+    "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
+      "translation": "根据宝可梦的捕获/闪光状态选择使用哪种精灵球。<br/><i><sup>将鼠标悬停在名称上了解更多信息。</sup></i><br/><br/>捕获宝可梦可获得 <img title=\"地下城代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 地下城代币。<br/><br/>现在点击\"已捕获\"选择器来试试吧。",
       "line": 79
     },
-    "Dungeon Tokens\nGained by capturing Pokémon": {
-      "translation": "",
+    "Dungeon Tokens Gained by capturing Pokémon": {
+      "translation": "地下城代币\n通过捕获宝可梦获得",
       "line": 79
     },
     "assets/images/currency/dungeonToken.svg": {
@@ -106,8 +106,8 @@
       "translation": "#pokeballSelectorModal .modal-body",
       "line": 96
     },
-    "Select the <img title=\"Poké Ball\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> Poké Ball to use this type of ball to capture already caught Pokémon, which will give you <img title=\"Dungeon Tokens\nGained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens when captured.": {
-      "translation": "",
+    "Select the <img title=\"Poké Ball\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> Poké Ball to use this type of ball to capture already caught Pokémon, which will give you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens when captured.": {
+      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球来捕获已捕获过的宝可梦，捕获后可获得 <img title=\"地下城代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 地下城代币。",
       "line": 97
     },
     "Poké Ball": {
@@ -135,7 +135,7 @@
       "line": 115
     },
     "Use what you've learned to catch 5 Pidgey. Talk to the Old Man again if you need a reminder.": {
-      "translation": "",
+      "translation": "运用你学到的知识捕捉5只波波。如果需要提醒，可以再去找老人。",
       "line": 115
     },
     "Buy the Dungeon Ticket from Viridian City Shop.": {
@@ -155,7 +155,7 @@
       "line": 131
     },
     "Click \"List\" to see the current quests that can be completed for <img title=\"Quest points\" src=\"assets/images/currency/questPoint.svg\" height=\"24px\"> Quest Points.": {
-      "translation": "",
+      "translation": "点击\"列表\"查看当前可完成的任务，完成后可获得 <img title=\"任务点数\" src=\"assets/images/currency/questPoint.svg\" height=\"24px\"> 任务点数。",
       "line": 136
     },
     "List": {
@@ -163,7 +163,7 @@
       "line": 136
     },
     "Quest points": {
-      "translation": "",
+      "translation": "任务点数",
       "line": 136
     },
     "assets/images/currency/questPoint.svg": {
@@ -183,15 +183,15 @@
       "line": 145
     },
     "Bill's Grandpa Treasure Hunt": {
-      "translation": "比尔的爷爷寻宝",
+      "translation": "正辉的爷爷寻宝",
       "line": 153
     },
     "Check the hints and bring Bill's Grandpa the Pokémon he wants to see.": {
-      "translation": "检查提示并给比尔的爷爷带来他想看的宝可梦。",
+      "translation": "检查提示并给正辉的爷爷带来他想看的宝可梦。",
       "line": 153
     },
     "Talk to Bill's Grandpa in Bill's House.": {
-      "translation": "在比尔之家与比尔的爷爷交谈。",
+      "translation": "在正辉之家与正辉的爷爷交谈。",
       "line": 155
     },
     "Jigglypuff": {
@@ -207,7 +207,7 @@
       "line": 159
     },
     "Bill's Grandpa wants you to catch a Pokémon that is pink and like a balloon.": {
-      "translation": "比尔的爷爷希望你捕捉一只粉红色的气球般的宝可梦。",
+      "translation": "正辉的爷爷希望你捕捉一只粉红色的气球般的宝可梦。",
       "line": 166
     },
     "Show your Jigglypuff to Bill's Grandpa.": {
@@ -219,7 +219,7 @@
       "line": 169
     },
     "Bill's Grandpa": {
-      "translation": "比尔的爷爷",
+      "translation": "正辉的爷爷",
       "line": 169
     },
     "Oddish": {
@@ -231,7 +231,7 @@
       "line": 173
     },
     "Bill's Grandpa wants you to catch a Pokémon that is round, blue, and has leaves growing on its head.": {
-      "translation": "比尔的爷爷希望你捕捉一只圆形、蓝色、头上长有叶子的宝可梦。",
+      "translation": "正辉的爷爷希望你捕捉一只圆形、蓝色、头上长有叶子的宝可梦。",
       "line": 180
     },
     "Show your Oddish to Bill's Grandpa.": {
@@ -251,7 +251,7 @@
       "line": 187
     },
     "Bill's Grandpa wants you to catch a Pokémon that has a red sphere in its body and is shaped like a star.": {
-      "translation": "比尔的爷爷希望你捕捉一只身体有红色球体、形状像星星的宝可梦。",
+      "translation": "正辉的爷爷希望你捕捉一只身体有红色球体、形状像星星的宝可梦。",
       "line": 194
     },
     "Show your Staryu to Bill's Grandpa.": {
@@ -271,7 +271,7 @@
       "line": 201
     },
     "Bill's Grandpa wants you to catch a Pokémon that is very loyal and supposedly roars pretty well.": {
-      "translation": "比尔的爷爷希望你捕捉一只非常忠诚并且吼叫得很好的宝可梦。",
+      "translation": "正辉的爷爷希望你捕捉一只非常忠诚并且吼叫得很好的宝可梦。",
       "line": 208
     },
     "Show your Growlithe to Bill's Grandpa.": {
@@ -291,7 +291,7 @@
       "line": 215
     },
     "Bill's Grandpa wants you to catch a Pokémon that has a yellow body and red cheeks.": {
-      "translation": "比尔的爷爷希望你捕捉一只黄色身体和红色脸颊的宝可梦。",
+      "translation": "正辉的爷爷希望你捕捉一只黄色身体和红色脸颊的宝可梦。",
       "line": 222
     },
     "Show your Pikachu to Bill's Grandpa.": {
@@ -303,7 +303,7 @@
       "line": 225
     },
     "Bill's Grandpa would like to have a battle with you!": {
-      "translation": "比尔的爷爷想和你来一场战斗！",
+      "translation": "正辉的爷爷想和你来一场战斗！",
       "line": 228
     },
     "Eevee": {
@@ -311,11 +311,11 @@
       "line": 233
     },
     "Bill's Grandpa has given you an Eevee, treat it well!": {
-      "translation": "比尔的爷爷给了你一只伊布，好好对待它！",
+      "translation": "正辉的爷爷给了你一只伊布，好好对待它！",
       "line": 236
     },
     "Talk to Bill's Grandpa one last time.": {
-      "translation": "最后一次与比尔的爷爷交谈。",
+      "translation": "最后一次与正辉的爷爷交谈。",
       "line": 243
     },
     "Team Rocket": {
@@ -398,7 +398,7 @@
       "translation": "从红莲岛商店购买探险家套件。",
       "line": 301
     },
-    "You have gained an Old Amber!\n<i>Have a look around Cinnabar island to revive this fossil.</i>": {
+    "You have gained an Old Amber! <i>Have a look around Cinnabar island to revive this fossil.</i>": {
       "translation": "你获得了一块秘琥珀！\n<i>去红莲岛附近看看，可以复活这块化石。</i>",
       "line": 310
     },
@@ -407,11 +407,11 @@
       "line": 315
     },
     "Bill's Errand": {
-      "translation": "比尔的差事",
+      "translation": "正辉的差事",
       "line": 323
     },
     "Bill has asked you to journey to the Sevii Islands with him to set up a digital connection to mainland Kanto.": {
-      "translation": "比尔邀请你和他一起前往塞维群岛，建立与关东大陆的数字连接。",
+      "translation": "正辉邀请你和他一起前往塞维群岛，建立与关东大陆的数字连接。",
       "line": 323
     },
     "Use the Subregional Travel button at the top of the map to travel to the Sevii Islands and speak with Celio on One Island.": {
@@ -671,7 +671,7 @@
       "line": 493
     },
     "Talk to Eusine in Bill's House.": {
-      "translation": "与比尔之家的尤辛交谈。",
+      "translation": "与正辉之家的尤辛交谈。",
       "line": 496
     },
     "Whirl Guardian": {
@@ -962,7 +962,7 @@
       "translation": "捕获或孵化200只超能力宝可梦。",
       "line": 729
     },
-    "Quest line completed!\n<i>You have uncovered the Mystery of Deoxys!</i>": {
+    "Quest line completed! <i>You have uncovered the Mystery of Deoxys!</i>": {
       "translation": "任务线完成！\\n<i>你揭开了代欧奇希斯之谜！</i>",
       "line": 736,
       "_rematchedFrom": "Quest line completed!\\n<i>You have uncovered the Mystery of Deoxys!</i>",
@@ -1772,7 +1772,7 @@
       "translation": "你已将 Go-Rock 指挥官逼到了老城堡外！是时候完成这件事了。",
       "line": 1217
     },
-    "Return the egg to Professor Hastings in Sandgem Town. ": {
+    "Return the egg to Professor Hastings in Sandgem Town.": {
       "translation": "将蛋归还给桑德宝石镇的黑斯廷斯教授。",
       "line": 1220,
       "_rematchedFrom": "Return the egg to Professor Hastings in Sandgem Town.",
@@ -2754,7 +2754,7 @@
       "translation": "下颌化石",
       "line": 1783
     },
-    "Fossil Scientist has given you a ${GameConstants.humanifyString(item)}!": {
+    "Fossil Scientist has given you a ${...}!": {
       "translation": "化石科学家给了你一个${...}！",
       "line": 1788,
       "_rematchedFrom": "Fossil Scientist has given you a ${...}!",
@@ -3476,25 +3476,25 @@
       "translation": "探索维维永的美丽。",
       "line": 2269
     },
-    "Capture or hatch 100 ${PokemonType[type]}-type Pokémon.": {
+    "Capture or hatch 100 ${...}-type Pokémon.": {
       "translation": "捕获或孵化100个 ${...} 型宝可梦。",
       "line": 2273,
       "_rematchedFrom": "Capture or hatch 100 ${...}-type Pokémon.",
       "_confidence": 0.85
     },
-    "A Vivillon is hiding somewhere.\n${hint}": {
+    "A Vivillon is hiding somewhere. ${...}": {
       "translation": "维维永藏在某处。 ${...}",
       "line": 2280,
       "_rematchedFrom": "A Vivillon is hiding somewhere. ${...}",
       "_confidence": 0.85
     },
-    "You caught the rare ${vivillon}!": {
+    "You caught the rare ${...}!": {
       "translation": "你抓到了稀有的${...}！",
       "line": 2287,
       "_rematchedFrom": "You caught the rare ${...}!",
       "_confidence": 0.85
     },
-    "Find and capture the rare Vivillon!\nHint: ${hint}": {
+    "Find and capture the rare Vivillon! Hint: ${...}": {
       "translation": "找到并捕获稀有的 Vivillon！提示：${...}",
       "line": 2291,
       "_rematchedFrom": "Find and capture the rare Vivillon! Hint: ${...}",
@@ -3640,13 +3640,13 @@
       "translation": "捕获或孵化200只普通型宝可梦。",
       "line": 2314
     },
-    "A Vivillon is hiding somewhere.\nOnly the strongest Challengers can reach it.": {
+    "A Vivillon is hiding somewhere. Only the strongest Challengers can reach it.": {
       "translation": "维维永藏在某处。只有最强的挑战者才能到达。",
       "line": 2321,
       "_rematchedFrom": "A Vivillon is hiding somewhere. Only the strongest Challengers can reach it.",
       "_confidence": 0.95
     },
-    "You caught the last rare Vivillon (Poké Ball).\nCongratulations!": {
+    "You caught the last rare Vivillon (Poké Ball). Congratulations!": {
       "translation": "你抓到了最后一只稀有的碧粉蝶（精灵球花纹）。\n恭喜！",
       "line": 2328
     },
@@ -3654,7 +3654,7 @@
       "translation": "[[Vivillon]] 球球花纹",
       "line": 2332
     },
-    "Find and capture the rare Vivillon!\nHint: Only the strongest Challengers can reach it.": {
+    "Find and capture the rare Vivillon! Hint: Only the strongest Challengers can reach it.": {
       "translation": "找到并捕获稀有的 Vivillon！提示：只有最强的挑战者才能到达。",
       "line": 2332,
       "_rematchedFrom": "Find and capture the rare Vivillon! Hint: Only the strongest Challengers can reach it.",
@@ -5024,7 +5024,7 @@
       "translation": "时间！",
       "line": 3136
     },
-    "Capture ${ultrabeast} ${numberCaught} ${time} ${validHint}": {
+    "Capture ${...} ${...} ${...} ${...}": {
       "translation": "捕获 ${...} ${...} ${...} ${...}",
       "line": 3139,
       "_rematchedFrom": "Capture ${...} ${...} ${...} ${...}",
@@ -5038,7 +5038,7 @@
       "translation": "虚吾伊德",
       "line": 3152
     },
-    " Nihilego has been spotted at Wela Volcano Park and Diglett's Tunnel!": {
+    "Nihilego has been spotted at Wela Volcano Park and Diglett's Tunnel!": {
       "translation": "",
       "line": 3152
     },
@@ -5050,7 +5050,7 @@
       "translation": "费洛美螂",
       "line": 3160
     },
-    "Rare Ultra Beasts have been spotted!\nBuzzwole in Melemele Meadow and Pheromosa in Verdant Cavern!": {
+    "Rare Ultra Beasts have been spotted! Buzzwole in Melemele Meadow and Pheromosa in Verdant Cavern!": {
       "translation": "罕见的究极异兽被发现！ 美乐美乐花园 的 Buzzwole 和 Verdant Cavern 的 Pheromosa！",
       "line": 3161,
       "_rematchedFrom": "Rare Ultra Beasts have been spotted! Buzzwole in Melemele Meadow and Pheromosa in Verdant Cavern!",
@@ -5072,7 +5072,7 @@
       "translation": "电束木",
       "line": 3172
     },
-    " Xurkitree has been spotted at Memorial Hill and Lush Jungle!": {
+    "Xurkitree has been spotted at Memorial Hill and Lush Jungle!": {
       "translation": "Xurkitree 已在纪念山和郁郁葱葱的丛林中被发现！",
       "line": 3172,
       "_rematchedFrom": "Xurkitree has been spotted at Memorial Hill and Lush Jungle!",

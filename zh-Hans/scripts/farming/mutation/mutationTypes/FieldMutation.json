@@ -6,7 +6,7 @@
     "translatedCount": 1
   },
   "entries": {
-    "Legends tell of a mysterious Berry that only appears in a field of ${berries} Berries.": {
+    "Legends tell of a mysterious Berry that only appears in a field of ${...} Berries.": {
       "translation": "传说有一种神秘的树果，只出现在 ${...} 树果田里。",
       "line": 62,
       "_rematchedFrom": "Legends tell of a mysterious Berry that only appears in a field of ${...} Berries.",

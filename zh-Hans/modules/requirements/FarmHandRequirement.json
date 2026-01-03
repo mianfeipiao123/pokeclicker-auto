@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Farm Hands needs to be unlocked.": {
+    "${...} Farm Hands needs to be unlocked.": {
       "translation": "${...} 农场帮手需要解锁。",
       "line": 14,
       "_rematchedFrom": "${...} Farm Hands needs to be unlocked.",

@@ -34,7 +34,7 @@
       "translation": "分区",
       "line": 37
     },
-    "toast bg-${NotificationOption[type]}": {
+    "toast bg-${...}": {
       "translation": "",
       "line": 57
     },
@@ -50,11 +50,11 @@
       "translation": "",
       "line": 59
     },
-    "<img src=\"${image}\" class=\"icon\" />": {
+    "<img src=\"${...}\" class=\"icon\" />": {
       "translation": "",
       "line": 59
     },
-    "<img src=\"${pokemonImage}\" class=\"pokemonIcon\" />": {
+    "<img src=\"${...}\" class=\"pokemonIcon\" />": {
       "translation": "",
       "line": 60
     },
@@ -102,7 +102,7 @@
       "translation": "展示",
       "line": 76
     },
-    "#${toastID}": {
+    "#${...}": {
       "translation": "",
       "line": 76
     },
@@ -122,7 +122,7 @@
       "translation": "",
       "line": 114
     },
-    "modal${modalID}": {
+    "modal${...}": {
       "translation": "模态${...}",
       "line": 114,
       "_rematchedFrom": "modal${...}",
@@ -148,11 +148,11 @@
       "translation": "",
       "line": 116
     },
-    "modal-header modal-header pb-0 pt-2 px-2 bg-${NotificationOption[type]}": {
+    "modal-header modal-header pb-0 pt-2 px-2 bg-${...}": {
       "translation": "",
       "line": 117
     },
-    "promptClose${modalID}": {
+    "promptClose${...}": {
       "translation": "",
       "line": 119
     },
@@ -184,7 +184,7 @@
       "translation": "在此输入..",
       "line": 127
     },
-    "promptInput${modalID}": {
+    "promptInput${...}": {
       "translation": "",
       "line": 127
     },
@@ -196,7 +196,7 @@
       "translation": "",
       "line": 129
     },
-    "btn btn-block outline-dark btn-${NotificationOption[type]}": {
+    "btn btn-block outline-dark btn-${...}": {
       "translation": "",
       "line": 130
     },
@@ -208,7 +208,7 @@
       "translation": "进入",
       "line": 138
     },
-    "#modal${modalID}": {
+    "#modal${...}": {
       "translation": "#模态${...}",
       "line": 139,
       "_rematchedFrom": "#modal${...}",
@@ -218,7 +218,7 @@
       "translation": "逃脱",
       "line": 141
     },
-    "#promptInput${modalID}": {
+    "#promptInput${...}": {
       "translation": "#promptInput${...}",
       "line": 142,
       "_rematchedFrom": "#promptInput${...}",
@@ -248,11 +248,11 @@
       "translation": "取消",
       "line": 181
     },
-    "btn col outline-dark btn-${NotificationOption[type]}": {
+    "btn col outline-dark btn-${...}": {
       "translation": "",
       "line": 216
     },
-    "modalConfirm${modalID}": {
+    "modalConfirm${...}": {
       "translation": "",
       "line": 216
     },

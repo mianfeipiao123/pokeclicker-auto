@@ -22,15 +22,11 @@
       "translation": "未知路线",
       "line": 35
     },
-    " in ${regionName}": {
+    "in ${...}": {
       "translation": "在 ${...}",
       "line": 37,
       "_rematchedFrom": "in ${...}",
       "_confidence": 0.85
-    },
-    " in ${subRegionName}": {
-      "translation": "",
-      "line": 41
     },
     "Not implemented for ignoreRouteInCalculations = true on first region route": {
       "translation": "未在第一个区域路线上实现ignoreRouteInCalculations = true",

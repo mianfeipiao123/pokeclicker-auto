@@ -18,13 +18,13 @@
       "translation": "",
       "line": 3
     },
-    "${this.pokemon} needs to be owned.": {
+    "${...} needs to be owned.": {
       "translation": "${...} 需要被拥有。",
       "line": 16,
       "_rematchedFrom": "${...} needs to be owned.",
       "_confidence": 0.85
     },
-    "${this.pokemon} cannot be owned yet.": {
+    "${...} cannot be owned yet.": {
       "translation": "${...} 尚不能被拥有。",
       "line": 17,
       "_rematchedFrom": "${...} cannot be owned yet.",

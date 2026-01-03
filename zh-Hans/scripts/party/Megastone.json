@@ -10,7 +10,7 @@
       "translation": "巨石",
       "line": 2
     },
-    "assets/images/megaStone/${this.pokemonId}.png": {
+    "assets/images/megaStone/${...}.png": {
       "translation": "",
       "line": 12
     },
@@ -22,7 +22,7 @@
       "translation": "en-US",
       "line": 19
     },
-    "Needs at least ${this.attackRequired.toLocaleString('en-US')} attack to Mega Evolve.": {
+    "Needs at least ${...} attack to Mega Evolve.": {
       "translation": "需要至少 ${...} 攻击才能进行超级进化。",
       "line": 19,
       "_rematchedFrom": "Needs at least ${...} attack to Mega Evolve.",

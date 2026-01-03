@@ -66,7 +66,7 @@
       "translation": "异色",
       "line": 44
     },
-    "not ": {
+    "not": {
       "translation": "",
       "line": 48
     },
@@ -94,11 +94,11 @@
       "translation": "已捕获（异色）",
       "line": 78
     },
-    "already ": {
+    "already": {
       "translation": "",
       "line": 82
     },
-    "not yet ": {
+    "not yet": {
       "translation": "",
       "line": 82
     },
@@ -126,7 +126,7 @@
       "translation": "宝可梦类型",
       "line": 115
     },
-    "Is ${PokemonType[pokemonType]} type": {
+    "Is ${...} type": {
       "translation": "是 ${...} 类型",
       "line": 121,
       "_rematchedFrom": "Is ${...} type",
@@ -140,7 +140,7 @@
       "translation": "遭遇类型",
       "line": 132
     },
-    "Is ${GameHelper.anOrA(type)} ${type} encounter": {
+    "Is ${...} ${...} encounter": {
       "translation": "是否遇到${...} ${...}",
       "line": 136,
       "_rematchedFrom": "Is ${...} ${...} encounter",
@@ -150,7 +150,7 @@
       "translation": "类别",
       "line": 142
     },
-    "In the ${PokemonCategories.categories().find(c => c.id == category)?.name()} category": {
+    "In the ${...} category": {
       "translation": "在 ${...} 类别中",
       "line": 146,
       "_rematchedFrom": "In the ${...} category",

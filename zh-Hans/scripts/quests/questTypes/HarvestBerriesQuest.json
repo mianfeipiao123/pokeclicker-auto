@@ -14,7 +14,7 @@
       "translation": "树果",
       "line": 40
     },
-    "Harvest ${this.amount.toLocaleString('en-US')} ${BerryType[this.berryType]} ${GameConstants.pluralizeString('Berry', this.amount)} at the farm.": {
+    "Harvest ${...} ${...} ${...} at the farm.": {
       "translation": "在农场收获 ${...} 个${...}。",
       "line": 40,
       "_rematchedFrom": "Harvest ${...} ${...} ${...} at the farm.",

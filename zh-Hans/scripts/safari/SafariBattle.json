@@ -18,7 +18,7 @@
       "translation": "静止的",
       "line": 28
     },
-    "${GameConstants.camelCaseToString(GameConstants.Region[Safari.activeRegion()])} Safari": {
+    "${...} Safari": {
       "translation": "${...} 野生动物园",
       "line": 31,
       "_rematchedFrom": "${...} Safari",
@@ -52,15 +52,11 @@
       "translation": "旋转",
       "line": 71
     },
-    "${ballSpeed}ms": {
+    "${...}ms": {
       "translation": "",
       "line": 71
     },
     "transition-duration": {
-      "translation": "",
-      "line": 99
-    },
-    "${SafariBattle.Speed.enemyTransition * SafariBattle.getTierMultiplier()}ms": {
       "translation": "",
       "line": 99
     },
@@ -76,19 +72,11 @@
       "translation": "弹跳",
       "line": 110
     },
-    "${bounceSpeed}ms": {
-      "translation": "",
-      "line": 110
-    },
     "safari-roll-left safari-roll-right": {
       "translation": "Safari-滚动-左 Safari-滚动-右",
       "line": 128
     },
     "safari-roll-left": {
-      "translation": "",
-      "line": 143
-    },
-    "${rollSpeed}ms": {
       "translation": "",
       "line": 143
     },
@@ -104,7 +92,7 @@
       "translation": "亮度(0.4) 灰度(100%)",
       "line": 157
     },
-    "GOTCHA!<br>${SafariBattle.enemy.displayName} was caught!": {
+    "GOTCHA!<br>${...} was caught!": {
       "translation": "明白了！<br>${...} 被抓住了！",
       "line": 177,
       "_rematchedFrom": "GOTCHA!<br>${...} was caught!",
@@ -122,29 +110,29 @@
       "translation": "",
       "line": 196
     },
-    "<img src=\"assets/images/currency/contestToken.svg\" height=\"24px\"/> You earned ${bugReward} Contest Tokens!": {
+    "<img src=\"assets/images/currency/contestToken.svg\" height=\"24px\"/> You earned ${...} Contest Tokens!": {
       "translation": "",
       "line": 196
     },
-    "You don't have enough ${bait.name}": {
+    "You don't have enough ${...}": {
       "translation": "你没有足够的 ${...}",
       "line": 209,
       "_rematchedFrom": "You don't have enough ${...}",
       "_confidence": 0.85
     },
-    "You throw ${bait.useName} at ${SafariBattle.enemy.displayName}": {
+    "You throw ${...} at ${...}": {
       "translation": "你将 ${...} 扔到 ${...}",
       "line": 217,
       "_rematchedFrom": "You throw ${...} at ${...}",
       "_confidence": 0.85
     },
-    "<img width=16px src=\"${bait.image}\">": {
+    "<img width=16px src=\"${...}\">": {
       "translation": "<img width=16px src=\"${...}\">",
       "line": 223,
       "_rematchedFrom": "<img width=16px src=\"${...}\">",
       "_confidence": 0.85
     },
-    "You throw a rock at ${SafariBattle.enemy.displayName}": {
+    "You throw a rock at ${...}": {
       "translation": "你向 ${...} 扔了一块石头",
       "line": 232,
       "_rematchedFrom": "You throw a rock at ${...}",
@@ -210,25 +198,25 @@
       "translation": "你逃跑。",
       "line": 291
     },
-    "${SafariBattle.enemy.displayName} has fled.": {
+    "${...} has fled.": {
       "translation": "${...} 逃跑了。",
       "line": 300,
       "_rematchedFrom": "${...} has fled.",
       "_confidence": 0.85
     },
-    "${SafariBattle.enemy.displayName} is eating...": {
+    "${...} is eating...": {
       "translation": "${...} 正在吃...",
       "line": 305,
       "_rematchedFrom": "${...} is eating...",
       "_confidence": 0.85
     },
-    "${SafariBattle.enemy.displayName} is angry!": {
+    "${...} is angry!": {
       "translation": "${...} 生气了！",
       "line": 307,
       "_rematchedFrom": "${...} is angry!",
       "_confidence": 0.85
     },
-    "${SafariBattle.enemy.displayName} is watching carefully...": {
+    "${...} is watching carefully...": {
       "translation": "${...}正在仔细观察...",
       "line": 309,
       "_rematchedFrom": "${...} is watching carefully...",
@@ -246,7 +234,7 @@
       "translation": "三次贝塞尔曲线(0.6, -0.3, 0.7, 0)",
       "line": 344
     },
-    "left ${time}ms linear, top ${time}ms ${top}": {
+    "left ${...}ms linear, top ${...}ms ${...}": {
       "translation": "左侧 ${...}ms 线性，顶部 ${...}ms ${...}",
       "line": 346,
       "_rematchedFrom": "left ${...}ms linear, top ${...}ms ${...}",

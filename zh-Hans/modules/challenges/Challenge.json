@@ -30,7 +30,7 @@
       "translation": "",
       "line": 31
     },
-    "<p class=\"text-center m-2\"><b>Warning</b>: Disabling \"${this.type}\" challenge is <b>permanent</b>.<br/><br/>Are you sure you want to continue?</p>": {
+    "<p class=\"text-center m-2\"><b>Warning</b>: Disabling \"${...}\" challenge is <b>permanent</b>.<br/><br/>Are you sure you want to continue?</p>": {
       "translation": "<p class=\"text-center m-2\"><b>警告</b>：禁用\"${...}\"挑战是<b>永久的</b>。<br/><br/>你确定要继续吗？</p>",
       "line": 31,
       "_rematchedFrom": "<p class=\"text-center m-2\"><b>Warning</b>: Disabling \"${...}\" challenge is <b>permanent</b>.<br/><br/>Are you sure you want to continue?</p>",

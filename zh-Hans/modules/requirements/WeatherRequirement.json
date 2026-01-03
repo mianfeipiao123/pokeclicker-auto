@@ -22,11 +22,11 @@
       "translation": "",
       "line": 4
     },
-    " or ": {
+    "or": {
       "translation": "",
       "line": 19
     },
-    "The weather needs to be ${this.weather.map((weather) => humanifyString(WeatherType[weather])).join(' or ')}": {
+    "The weather needs to be ${...}": {
       "translation": "天气需要 ${...}",
       "line": 19,
       "_rematchedFrom": "The weather needs to be ${...}",

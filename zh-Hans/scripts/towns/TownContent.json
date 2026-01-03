@@ -6,11 +6,11 @@
     "translatedCount": 11
   },
   "entries": {
-    "t have access yet.\n<i>${reqsList.join(": {
+    "t have access yet. <i>${reqsList.join(": {
       "translation": "",
       "line": 44
     },
-    "You don't have access yet.\n<i>${reqsList.join('\n')}</i>": {
+    "You don't have access yet. <i>${...}</i>": {
       "translation": "你还没有访问权限。\\n<i>${...}</i>",
       "line": 44,
       "_rematchedFrom": "You don't have access yet.\\n<i>${...}</i>",
@@ -40,7 +40,7 @@
       "translation": "展示",
       "line": 99
     },
-    "Travel to ${GameConstants.camelCaseToString(GameConstants.Region[player.highestRegion() + 1])}": {
+    "Travel to ${...}": {
       "translation": "前往${...}",
       "line": 103,
       "_rematchedFrom": "Travel to ${...}",

@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 35
     },
-    "Defeat ${this.amount.toLocaleString('en-US')} Pokémon on ${Routes.getName(this.route, this.region, false, true)}.": {
+    "Defeat ${...} Pokémon on ${...}.": {
       "translation": "击败 ${...} 只宝可梦（地点：${...}）。",
       "line": 35,
       "_rematchedFrom": "Defeat ${...} Pokémon on ${...}.",

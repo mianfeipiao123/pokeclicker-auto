@@ -1,16 +1,16 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-01-02T14:39:55.658Z",
+  "generatedAt": "2026-01-02T21:22:28.053Z",
   "stats": {
-    "totalFiles": 419,
-    "totalStrings": 42505,
-    "translatedStrings": 37958,
-    "coverage": "89.30%"
+    "totalFiles": 418,
+    "totalStrings": 29290,
+    "translatedStrings": 25598,
+    "coverage": "87.40%"
   },
   "files": {
     "hardcoded-map.json": {
-      "total": 15855,
-      "translated": 15855,
+      "total": 5952,
+      "translated": 5952,
       "sourceFile": null
     },
     "modules/achievements/Achievement.json": {
@@ -90,7 +90,7 @@
     },
     "modules/Credits.json": {
       "total": 964,
-      "translated": 701,
+      "translated": 703,
       "sourceFile": "src/modules/Credits.ts"
     },
     "modules/DataStore/BadgeCase.json": {
@@ -1815,7 +1815,7 @@
     },
     "scripts/quests/QuestLineHelper.json": {
       "total": 1684,
-      "translated": 1463,
+      "translated": 1470,
       "sourceFile": "src/scripts/quests/QuestLineHelper.ts"
     },
     "scripts/quests/Quests.json": {
@@ -2073,9 +2073,9 @@
       "translated": 11,
       "sourceFile": "src/scripts/towns/TownContent.ts"
     },
-    "scripts/towns/TownList.json": {
-      "total": 3312,
-      "translated": 2466,
+    "scripts/towns/TownList.missing.json": {
+      "total": 203,
+      "translated": 203,
       "sourceFile": "src/scripts/towns/TownList.ts"
     },
     "scripts/Update.json": {

@@ -38,13 +38,9 @@
       "translation": "",
       "line": 8
     },
-    "${(100 * j / (space[0].length - 1)).toFixed(2)}%": {
+    "${...}%": {
       "translation": "",
       "line": 269
-    },
-    "${(100 * i / (space.length - 1)).toFixed(2)}%": {
-      "translation": "",
-      "line": 270
     }
   }
 }

@@ -18,7 +18,7 @@
       "translation": "精灵球",
       "line": 6
     },
-    "${this.requiredValue} ${GameConstants.Pokeball[this.pokeball]} need to be obtained.": {
+    "${...} ${...} need to be obtained.": {
       "translation": "需要获取${...} ${...}。",
       "line": 14,
       "_rematchedFrom": "${...} ${...} need to be obtained.",

@@ -34,13 +34,13 @@
       "translation": "功能",
       "line": 22
     },
-    "Progress further in questline ${this.quest.displayName}.": {
+    "Progress further in questline ${...}.": {
       "translation": "任务线 ${...} 取得进一步进展。",
       "line": 31,
       "_rematchedFrom": "Progress further in questline ${...}.",
       "_confidence": 0.85
     },
-    "Questline ${this.quest.displayName} has progressed past this point.": {
+    "Questline ${...} has progressed past this point.": {
       "translation": "任务线 ${...} 已经超越了这一点。",
       "line": 31,
       "_rematchedFrom": "Questline ${...} has progressed past this point.",

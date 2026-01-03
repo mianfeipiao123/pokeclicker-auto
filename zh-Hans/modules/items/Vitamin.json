@@ -30,13 +30,13 @@
       "translation": "",
       "line": 6
     },
-    "You don't have any ${this.displayName} left...": {
+    "You don't have any ${...} left...": {
       "translation": "你已经没有 ${...} 了...",
       "line": 31,
       "_rematchedFrom": "You don't have any ${...} left...",
       "_confidence": 0.85
     },
-    "assets/images/items/vitamin/${this.name}.png": {
+    "assets/images/items/vitamin/${...}.png": {
       "translation": "",
       "line": 40
     }

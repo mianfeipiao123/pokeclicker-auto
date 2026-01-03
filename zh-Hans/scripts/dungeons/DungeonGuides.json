@@ -6,13 +6,13 @@
     "translatedCount": 19
   },
   "entries": {
-    "Dungeon Guide failed to walk correctly:\n": {
+    "Dungeon Guide failed to walk correctly:": {
       "translation": "迷宫指南无法正确行走：",
       "line": 44,
       "_rematchedFrom": "Dungeon Guide failed to walk correctly:",
       "_confidence": 0.95
     },
-    "assets/images/profile/trainer-${this.trainerSprite}.png": {
+    "assets/images/profile/trainer-${...}.png": {
       "translation": "",
       "line": 59
     },
@@ -20,19 +20,19 @@
       "translation": "",
       "line": 59
     },
-    "[DUNGEON GUIDE] <img src=\"assets/images/profile/trainer-${this.trainerSprite}.png\" height=\"24px\" class=\"pixelated\"/> ${this.name}": {
-      "translation": "",
+    "[DUNGEON GUIDE] <img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}": {
+      "translation": "【迷宫向导】<img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}",
       "line": 59
     },
     "I could not enter the dungeon anymore. Here is a refund.": {
       "translation": "我无法再进入迷宫了。这里是退款。",
       "line": 60
     },
-    "Thanks for hiring me,\nI won't let you down!": {
+    "Thanks for hiring me, I won't let you down!": {
       "translation": "感谢雇佣我，\n我不会让你失望的！",
       "line": 110
     },
-    "Thanks for the work.\nLet me know when you're hiring again!": {
+    "Thanks for the work. Let me know when you're hiring again!": {
       "translation": "感谢工作。\n下次需要帮手时请联系我！",
       "line": 120
     },
@@ -43,14 +43,6 @@
     "hide": {
       "translation": "隐藏",
       "line": 126
-    },
-    "assets/images/profile/trainer-${guide.trainerSprite}.png": {
-      "translation": "",
-      "line": 188
-    },
-    "[DUNGEON GUIDE] <img src=\"assets/images/profile/trainer-${guide.trainerSprite}.png\" height=\"24px\" class=\"pixelated\"/> ${guide.name}": {
-      "translation": "",
-      "line": 188
     },
     "You can't currently afford to hire me...": {
       "translation": "你目前雇不起我...",

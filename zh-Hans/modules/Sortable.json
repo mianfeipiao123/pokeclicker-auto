@@ -42,11 +42,11 @@
       "translation": "",
       "line": 5
     },
-    "modules.${column}": {
+    "modules.${...}": {
       "translation": "",
       "line": 9
     },
-    "Modules sort order ${column}": {
+    "Modules sort order ${...}": {
       "translation": "模块排序顺序 ${...}",
       "line": 9,
       "_rematchedFrom": "Modules sort order ${...}",
@@ -63,10 +63,6 @@
     "id": {
       "translation": "ID",
       "line": 20
-    },
-    "modules.${sortable}": {
-      "translation": "",
-      "line": 48
     },
     "sort.saveSelector": {
       "translation": "排序保存选择器",

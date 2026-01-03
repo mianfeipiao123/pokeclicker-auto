@@ -30,7 +30,7 @@
       "translation": "细绳",
       "line": 61
     },
-    "\"${value}\"": {
+    "\"${...}\"": {
       "translation": "",
       "line": 61
     },
@@ -38,7 +38,7 @@
       "translation": "[对象对象]",
       "line": 62
     },
-    "${value.constructor.name} object": {
+    "${...} object": {
       "translation": "${...} 对象",
       "line": 63,
       "_rematchedFrom": "${...} object",

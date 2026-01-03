@@ -3234,7 +3234,7 @@
       "translation": "卡洛斯",
       "line": 1047
     },
-    "The Kalos region is now available!\n<i>Some trainer sprites will be missing</i>": {
+    "The Kalos region is now available! <i>Some trainer sprites will be missing</i>": {
       "translation": "",
       "line": 1048
     },
@@ -3370,7 +3370,7 @@
       "translation": "一些教练图片无法加载",
       "line": 1091
     },
-    "Dynamic Pokémon disappearing  before leaving screen": {
+    "Dynamic Pokémon disappearing before leaving screen": {
       "translation": "动态宝可梦在离开屏幕前消失",
       "line": 1092,
       "_rematchedFrom": "Dynamic Pokémon disappearing before leaving screen",

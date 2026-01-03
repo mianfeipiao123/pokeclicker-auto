@@ -14,7 +14,7 @@
       "translation": "",
       "line": 4
     },
-    "assets/sounds/${fileName}.mp3": {
+    "assets/sounds/${...}.mp3": {
       "translation": "",
       "line": 9
     },
@@ -42,7 +42,7 @@
       "translation": "音量",
       "line": 31
     },
-    "Error updating volume for ${this.name}:\n": {
+    "Error updating volume for ${...}:": {
       "translation": "更新 ${...} 的卷时出错：",
       "line": 41,
       "_rematchedFrom": "Error updating volume for ${...}:",
@@ -52,7 +52,7 @@
       "translation": "静音",
       "line": 64
     },
-    "sound.${this.name}": {
+    "sound.${...}": {
       "translation": "",
       "line": 67
     }

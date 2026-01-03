@@ -22,11 +22,11 @@
       "translation": "",
       "line": 17
     },
-    " ${tempBattle.parent ? 'in' : 'near'} ${tempBattle.getTown().name}": {
+    "${...} ${...}": {
       "translation": "",
       "line": 17
     },
-    "Requires beating ${tempBattle.getDisplayName()}${locationHint}.": {
+    "Requires beating ${...}${...}.": {
       "translation": "需要击败${...}${...}。",
       "line": 20,
       "_rematchedFrom": "Requires beating ${...}${...}.",

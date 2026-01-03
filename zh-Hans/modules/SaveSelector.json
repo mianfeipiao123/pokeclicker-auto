@@ -70,7 +70,7 @@
       "translation": "",
       "line": 31
     },
-    "Save.key = '${key}'; SaveSelector.Download('${key}')": {
+    "Save.key = '${...}'; SaveSelector.Download('${...}')": {
       "translation": "",
       "line": 31
     },
@@ -78,7 +78,7 @@
       "translation": "",
       "line": 32
     },
-    "Save.key = '${key}'; document.querySelector('#saveSelector').remove(); App.start();": {
+    "Save.key = '${...}'; document.querySelector('#saveSelector').remove(); App.start();": {
       "translation": "",
       "line": 32
     },
@@ -98,7 +98,7 @@
       "translation": "",
       "line": 33
     },
-    "Save.key = '${key}';": {
+    "Save.key = '${...}';": {
       "translation": "",
       "line": 33
     },
@@ -106,7 +106,7 @@
       "translation": "",
       "line": 34
     },
-    "Save.key = '${key}'; Save.delete();": {
+    "Save.key = '${...}'; Save.delete();": {
       "translation": "",
       "line": 34
     },
@@ -142,11 +142,11 @@
       "translation": "",
       "line": 68
     },
-    "save${key}": {
+    "save${...}": {
       "translation": "",
       "line": 94
     },
-    "player${key}": {
+    "player${...}": {
       "translation": "",
       "line": 96
     },
@@ -166,7 +166,7 @@
       "translation": "颜色：#e74c3c；字体粗细：900；",
       "line": 122
     },
-    "[${formatDate(new Date())}] %cFailed to load save:": {
+    "[${...}] %cFailed to load save:": {
       "translation": "[${...}] %c无法加载保存：",
       "line": 122,
       "_rematchedFrom": "[${...}] %cFailed to load save:",
@@ -176,7 +176,7 @@
       "translation": "分区",
       "line": 123
     },
-    "settings${key}": {
+    "settings${...}": {
       "translation": "",
       "line": 154
     },

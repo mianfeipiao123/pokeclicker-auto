@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Vitamins need to be obtained.": {
+    "${...} Vitamins need to be obtained.": {
       "translation": "${...} 需要获取维生素。",
       "line": 14,
       "_rematchedFrom": "${...} Vitamins need to be obtained.",

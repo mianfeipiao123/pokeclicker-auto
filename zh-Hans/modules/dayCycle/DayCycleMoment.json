@@ -18,7 +18,7 @@
       "translation": "",
       "line": 3
     },
-    "${DayCyclePart[dayCyclePart]}: ${GameHelper.twoDigitNumber(startHour)}:00 - ${GameHelper.twoDigitNumber(endHour)}:00": {
+    "${...}: ${...}:00 - ${...}:00": {
       "translation": "",
       "line": 16
     },
@@ -26,7 +26,7 @@
       "translation": "文本成功",
       "line": 19
     },
-    "<span class=\"text-success\"><b>${content}</b></span>": {
+    "<span class=\"text-success\"><b>${...}</b></span>": {
       "translation": "",
       "line": 19
     },

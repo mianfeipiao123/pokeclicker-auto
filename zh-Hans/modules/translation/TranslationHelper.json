@@ -34,7 +34,7 @@
       "translation": "在游戏运行之前，翻译可能无法正确缓存。",
       "line": 16
     },
-    "Could not find cache for translation namespace '${namespace}'": {
+    "Could not find cache for translation namespace '${...}'": {
       "translation": "找不到翻译命名空间“${...}”的缓存",
       "line": 19,
       "_rematchedFrom": "Could not find cache for translation namespace '${...}'",
@@ -44,7 +44,7 @@
       "translation": "目的",
       "line": 51
     },
-    "(?<!\\w|\\[\\[pokemon::)(${p.name.replace(/([()-.?])/g, '\\\\$1')})(?!\\w|]])": {
+    "(?<!\\w|\\[\\[pokemon::)(${...})(?!\\w|]])": {
       "translation": "",
       "line": 79
     },
@@ -60,7 +60,7 @@
       "translation": "描述",
       "line": 93
     },
-    "step ": {
+    "step": {
       "translation": "步骤",
       "line": 96,
       "_rematchedFrom": "Step",

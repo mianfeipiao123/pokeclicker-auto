@@ -18,11 +18,11 @@
       "translation": "长的",
       "line": 9
     },
-    "<code>${version}${desc ? ": {
+    "<code>${...}${desc ?": {
       "translation": "",
       "line": 9
     },
-    " : ''} -  ${date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</code>": {
+    ": ''} - ${...})}</code>": {
       "translation": "",
       "line": 9
     }

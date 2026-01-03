@@ -6,7 +6,7 @@
     "translatedCount": 2
   },
   "entries": {
-    "assets/images/pokemon/${pokemon.id}.png": {
+    "assets/images/pokemon/${...}.png": {
       "translation": "",
       "line": 3
     },
@@ -14,14 +14,14 @@
       "translation": "你需要进一步推进进度才能解锁这只宝可梦。",
       "line": 7
     },
-    " shiny": {
+    "shiny": {
       "translation": "异色的",
       "line": 17,
       "_rematchedFrom": "SHINY",
       "_confidence": 0.95
     },
-    "You obtained a${shiny ? ' shiny' : ''} ${pokemon.name}!": {
-      "translation": "",
+    "You obtained a${...} ${...}!": {
+      "translation": "你获得了${...} ${...}！",
       "line": 17
     }
   }

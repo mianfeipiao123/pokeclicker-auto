@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "PokeBlock_${PokeBlockColor[color]}": {
+    "PokeBlock_${...}": {
       "translation": "PokeBlock_${...}",
       "line": 8,
       "_rematchedFrom": "PokeBlock_${...}",

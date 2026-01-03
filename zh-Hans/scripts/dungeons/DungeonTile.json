@@ -22,13 +22,13 @@
       "translation": "",
       "line": 60
     },
-    "tile-${GameConstants.DungeonTileType[this.type()]}": {
+    "tile-${...}": {
       "translation": "瓷砖-${...}",
       "line": 63,
       "_rematchedFrom": "tile-${...}",
       "_confidence": 0.85
     },
-    "tile-chest-${(this.metadata as ChestMetaData).tier}": {
+    "tile-chest-${...}": {
       "translation": "瓷砖胸部-${...}",
       "line": 66,
       "_rematchedFrom": "tile-chest-${...}",

@@ -14,17 +14,13 @@
       "translation": "btn btn-次要",
       "line": 22
     },
-    "Fight ${this.getDisplayName()}": {
+    "Fight ${...}": {
       "translation": "对战 ${...}",
       "line": 25,
       "_rematchedFrom": "Fight ${...}",
       "_confidence": 0.85
     },
-    "assets/images/npcs/${finalMonImageName}.png": {
-      "translation": "",
-      "line": 52
-    },
-    "assets/images/npcs/${imageName}.png": {
+    "assets/images/npcs/${...}.png": {
       "translation": "",
       "line": 52
     }

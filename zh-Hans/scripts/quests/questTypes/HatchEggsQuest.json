@@ -14,7 +14,7 @@
       "translation": "蛋",
       "line": 27
     },
-    "Hatch ${this.amount.toLocaleString('en-US')} ${GameConstants.pluralizeString('Egg', this.amount)}.": {
+    "Hatch ${...} ${...}.": {
       "translation": "孵化 ${...} 枚蛋。",
       "line": 27,
       "_rematchedFrom": "Hatch ${...} ${...}.",

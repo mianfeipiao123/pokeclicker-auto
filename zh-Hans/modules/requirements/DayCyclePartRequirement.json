@@ -22,11 +22,11 @@
       "translation": "",
       "line": 4
     },
-    " or ": {
+    "or": {
       "translation": "",
       "line": 16
     },
-    "Your local part of the day must be ${this.dayCycleParts.map((dayCyclePart) => DayCyclePart[dayCyclePart]).join(' or ')}": {
+    "Your local part of the day must be ${...}": {
       "translation": "你当天的本地时间必须是 ${...}",
       "line": 16,
       "_rematchedFrom": "Your local part of the day must be ${...}",

@@ -18,7 +18,7 @@
       "translation": "这是来自尚未发布的地区。",
       "line": 15
     },
-    "You need to reach the ${camelCaseToString(Region[this.requiredValue])} region.": {
+    "You need to reach the ${...} region.": {
       "translation": "",
       "line": 17
     }

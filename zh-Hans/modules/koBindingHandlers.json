@@ -62,11 +62,11 @@
       "translation": "没有任何",
       "line": 56
     },
-    "[${options.dataIdAttr}=\"${options.getDataId(el)}\"]": {
+    "[${...}=\"${...}\"]": {
       "translation": "",
       "line": 145
     },
-    "moduleHeight.${resizeId}": {
+    "moduleHeight.${...}": {
       "translation": "",
       "line": 171
     },
@@ -82,7 +82,7 @@
       "translation": "",
       "line": 180
     },
-    "tooltip ${options.class ?? ''}": {
+    "tooltip ${...}": {
       "translation": "",
       "line": 196
     },
@@ -98,7 +98,7 @@
       "translation": "",
       "line": 196
     },
-    "<div class=\"tooltip ${options.class ?? ''}\" role=\"tooltip\"><div class=\"arrow\"></div><div class=\"tooltip-inner\"></div></div>": {
+    "<div class=\"tooltip ${...}\" role=\"tooltip\"><div class=\"arrow\"></div><div class=\"tooltip-inner\"></div></div>": {
       "translation": "",
       "line": 196
     },

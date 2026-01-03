@@ -10,7 +10,7 @@
       "translation": "捕捉到的宝可梦",
       "line": 6
     },
-    "${this.requiredValue} unique Pokémon need to be caught.": {
+    "${...} unique Pokémon need to be caught.": {
       "translation": "需要捕捉 ${...} 个独特的宝可梦。",
       "line": 15,
       "_rematchedFrom": "${...} unique Pokémon need to be caught.",

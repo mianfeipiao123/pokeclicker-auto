@@ -18,7 +18,7 @@
       "translation": "en-US",
       "line": 14
     },
-    "Be in-game for a total of ${this.requiredValue.toLocaleString('en-US')} seconds.": {
+    "Be in-game for a total of ${...} seconds.": {
       "translation": "游戏时间总计 ${...} 秒。",
       "line": 14,
       "_rematchedFrom": "Be in-game for a total of ${...} seconds.",

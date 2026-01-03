@@ -6,17 +6,17 @@
     "translatedCount": 14
   },
   "entries": {
-    "player${Save.key}": {
+    "player${...}": {
       "translation": "玩家${...}",
       "line": 11,
       "_rematchedFrom": "player${...}",
       "_confidence": 0.85
     },
-    "save${Save.key}": {
+    "save${...}": {
       "translation": "",
       "line": 12
     },
-    "settings${Save.key}": {
+    "settings${...}": {
       "translation": "设置${...}",
       "line": 13,
       "_rematchedFrom": "settings${...}",
@@ -62,7 +62,7 @@
       "translation": "删除存档文件",
       "line": 88
     },
-    "Are you sure you want delete your save file?\n\nTo confirm, type \"DELETE\"": {
+    "Are you sure you want delete your save file? To confirm, type \"DELETE\"": {
       "translation": "你确定要删除你的保存文件吗？要确认，请输入“删除”",
       "line": 89,
       "_rematchedFrom": "Are you sure you want delete your save file? To confirm, type \"DELETE\"",

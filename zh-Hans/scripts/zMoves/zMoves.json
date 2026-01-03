@@ -14,7 +14,7 @@
       "translation": "Z-Power_Ring",
       "line": 56
     },
-    "ZMOVE_${GameConstants.ZMoveStatus[this.status()].toUpperCase()}_MULTIPLIER": {
+    "ZMOVE_${...}_MULTIPLIER": {
       "translation": "ZMOVE_${...}_MULTIPLIER",
       "line": 75,
       "_rematchedFrom": "ZMOVE_${...}_MULTIPLIER",

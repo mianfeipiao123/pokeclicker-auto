@@ -6,7 +6,7 @@
     "translatedCount": 31
   },
   "entries": {
-    "save${Save.key}": {
+    "save${...}": {
       "translation": "保存${...}",
       "line": 93,
       "_rematchedFrom": "save${...}",
@@ -16,7 +16,7 @@
       "translation": "无法从 JSON 加载 sava 数据：",
       "line": 103
     },
-    "\nError:\n": {
+    "Error:": {
       "translation": "错误：",
       "line": 103,
       "_rematchedFrom": "Error:",
@@ -46,15 +46,15 @@
       "translation": "",
       "line": 210
     },
-    "Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Pokémon\nEarned: <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${moneyToEarn.toLocaleString('en-US')}": {
-      "translation": "",
+    "Defeated: ${...} Pokémon Earned: <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}": {
+      "translation": "击败：${...}只宝可梦 获得：<img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}",
       "line": 210
     },
-    "Defeated: ${numberOfPokemonDefeated.toLocaleString('en-US')} Pokémon\nEarned: ${moneyToEarn.toLocaleString('en-US')} Pokédollars": {
-      "translation": "",
+    "Defeated: ${...} Pokémon Earned: ${...} Pokédollars": {
+      "translation": "击败：${...}只宝可梦 获得：${...}宝可元",
       "line": 211
     },
-    "<li>${orbAmounts[key]} ${key}</li>": {
+    "<li>${...} ${...}</li>": {
       "translation": "",
       "line": 227
     },
@@ -66,7 +66,7 @@
       "translation": "",
       "line": 231
     },
-    "Gained ${orbsEarned} Dream Orbs while offline:<br /><ul class=\"mb-0\">${messageAppend}</ul>": {
+    "Gained ${...} Dream Orbs while offline:<br /><ul class=\"mb-0\">${...}</ul>": {
       "translation": "离线期间获得了${...}个梦境宝珠：<br /><ul class=\"mb-0\">${...}</ul>",
       "line": 231,
       "_rematchedFrom": "Gained ${...} Dream Orbs while offline:<br /><ul class=\"mb-0\">${...}</ul>",
@@ -96,7 +96,7 @@
       "translation": "颜色：#2ecc71；字体粗细：900；",
       "line": 310
     },
-    "[${GameConstants.formatDate(new Date())}] %cGame started": {
+    "[${...}] %cGame started": {
       "translation": "[${...}] %c游戏开始",
       "line": 310,
       "_rematchedFrom": "[${...}] %cGame started",
@@ -106,7 +106,7 @@
       "translation": "颜色：#8e44ad；字体粗细：900；",
       "line": 345
     },
-    "[${GameConstants.formatDate(new Date())}] %cStarting web worker..": {
+    "[${...}] %cStarting web worker..": {
       "translation": "[${...}] %c正在启动网络工作者..",
       "line": 345,
       "_rematchedFrom": "[${...}] %cStarting web worker..",
@@ -136,13 +136,13 @@
       "translation": "隐",
       "line": 380
     },
-    "[${GameConstants.formatDate(new Date())}] %cWeb worker started": {
+    "[${...}] %cWeb worker started": {
       "translation": "[${...}] %cWeb 工作线程已启动",
       "line": 384,
       "_rematchedFrom": "[${...}] %cWeb worker started",
       "_confidence": 0.85
     },
-    "[${GameConstants.formatDate(new Date())}] Web worker error": {
+    "[${...}] Web worker error": {
       "translation": "[${...}] 网络工作者错误",
       "line": 387,
       "_rematchedFrom": "[${...}] Web worker error",

@@ -26,7 +26,7 @@
       "translation": "超级石",
       "line": 8
     },
-    "${this.requiredValue} Mega Stones need to be obtained.": {
+    "${...} Mega Stones need to be obtained.": {
       "translation": "需要获得 ${...} 巨型宝石。",
       "line": 16,
       "_rematchedFrom": "${...} Mega Stones need to be obtained.",

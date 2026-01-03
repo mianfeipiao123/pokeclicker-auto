@@ -54,13 +54,13 @@
       "translation": "",
       "line": 27
     },
-    "${name} kept this treasure as payment.": {
+    "${...} kept this treasure as payment.": {
       "translation": "${...} 保留了这个宝藏作为付款。",
       "line": 83,
       "_rematchedFrom": "${...} kept this treasure as payment.",
       "_confidence": 0.85
     },
-    "assets/images/underground/helpers/${image}.png": {
+    "assets/images/underground/helpers/${...}.png": {
       "translation": "",
       "line": 225
     },
@@ -80,15 +80,15 @@
       "translation": "亚历克斯",
       "line": 359
     },
-    "This is as rare as a Master Ball. We’re keeping it for our... crafting projects.": {
+    "This is as rare as a Master Ball. We're keeping it for our... crafting projects.": {
       "translation": "这和大师球一样罕见。我们将其保留用于我们的……制作项目。",
       "line": 360
     },
-    "This treasure’s as valuable as diamonds. We’ll hold onto it for now.": {
+    "This treasure's as valuable as diamonds. We'll hold onto it for now.": {
       "translation": "这件宝物的价值堪比钻石。我们暂时保留它。",
       "line": 361
     },
-    "Rare finds like this are hard to come by. Consider it ‘Steve and Alex tax.’": {
+    "Rare finds like this are hard to come by. Consider it 'Steve and Alex tax.'": {
       "translation": "像这样的罕见发现很难获得。考虑一下“史蒂夫和亚历克斯税”。",
       "line": 362
     },
@@ -108,11 +108,11 @@
       "translation": "闪闪发光，闪闪发光，绝对是我的！",
       "line": 365
     },
-    "This is too beautiful to part with. It’s coming with me.": {
+    "This is too beautiful to part with. It's coming with me.": {
       "translation": "这实在是太美丽了，难以割舍。它和我一起来。",
       "line": 366
     },
-    "Looks like I’ve struck crystal gold! Finders keepers, right?": {
+    "Looks like I've struck crystal gold! Finders keepers, right?": {
       "translation": "看来我挖到了水晶金！发现者守门员，对吗？",
       "line": 367
     },
@@ -136,7 +136,7 @@
       "translation": "沙琳",
       "line": 371
     },
-    "This is sharp and shiny—just my style. It’s staying with me!": {
+    "This is sharp and shiny—just my style. It's staying with me!": {
       "translation": "这是锐利而异色的——这就是我的风格。它留在我身边！",
       "line": 372
     },
@@ -144,7 +144,7 @@
       "translation": "看起来像是我终极收藏的另一件作品！",
       "line": 373
     },
-    "Items like these hold secrets. I’ll study this one closely.": {
+    "Items like these hold secrets. I'll study this one closely.": {
       "translation": "诸如此类的物品都蕴藏着秘密。我会仔细研究这个。",
       "line": 374
     },
@@ -172,19 +172,19 @@
       "translation": "这件文物属于博物馆——或者也许只是我的背包！",
       "line": 379
     },
-    "A rare treasure like this deserves a careful keeper. That’s me!": {
+    "A rare treasure like this deserves a careful keeper. That's me!": {
       "translation": "像这样的稀世珍宝值得细心保管。这就是我！",
       "line": 380
     },
-    "Looks like I’ve uncovered another legendary find. I’ll hold onto it for safekeeping.": {
+    "Looks like I've uncovered another legendary find. I'll hold onto it for safekeeping.": {
       "translation": "看来我又发现了一个传奇的发现。我会妥善保管它。",
       "line": 381
     },
-    "Every dig uncovers a story... and this one’s staying with me.": {
+    "Every dig uncovers a story... and this one's staying with me.": {
       "translation": "每一次挖掘都会揭开一个故事……而这个故事就留在我身边。",
       "line": 382
     },
-    "Another relic of the underground! Don’t worry, I’ll keep it safe from Team Rocket.": {
+    "Another relic of the underground! Don't worry, I'll keep it safe from Team Rocket.": {
       "translation": "又一个地下遗迹！别担心，我会保护它免受火箭队的侵害。",
       "line": 383
     },
@@ -200,7 +200,7 @@
       "translation": "达尔文",
       "line": 385
     },
-    "Fascinating! This item clearly demonstrates adaptation at its finest. I’ll study it further.": {
+    "Fascinating! This item clearly demonstrates adaptation at its finest. I'll study it further.": {
       "translation": "迷人！该项目清楚地展示了最佳的适应能力。我会进一步研究它。",
       "line": 386
     },
@@ -208,7 +208,7 @@
       "translation": "适者生存的完美典范……就在我的包里。",
       "line": 387
     },
-    "This discovery is essential to understanding underground ecosystems. I’ll keep it!": {
+    "This discovery is essential to understanding underground ecosystems. I'll keep it!": {
       "translation": "这一发现对于了解地下生态系统至关重要。我会保留它！",
       "line": 388
     },
@@ -216,7 +216,7 @@
       "translation": "大自然充满了奇迹，而这正是我必须保护的。",
       "line": 389
     },
-    "Remarkable! I’ll add this to my collection of evolutionary evidence.": {
+    "Remarkable! I'll add this to my collection of evolutionary evidence.": {
       "translation": "卓越！我会将其添加到我的进化证据集合中。",
       "line": 390
     }

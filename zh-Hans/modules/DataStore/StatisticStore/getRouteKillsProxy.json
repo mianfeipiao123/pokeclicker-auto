@@ -18,7 +18,7 @@
       "translation": "",
       "line": 3
     },
-    "[Statistics] [routeDefeat.${region}] Invalid property requested:": {
+    "[Statistics] [routeDefeat.${...}] Invalid property requested:": {
       "translation": "[统计] [routeDefeat.${...}] 请求的属性无效：",
       "line": 26,
       "_rematchedFrom": "[Statistics] [routeDefeat.${...}] Invalid property requested:",
@@ -28,7 +28,7 @@
       "translation": "[统计] [routeKills] 尝试获取无效区域：",
       "line": 56
     },
-    "[Statistics] [routeKills] Attempted to dynamically set region ${String(prop)}:": {
+    "[Statistics] [routeKills] Attempted to dynamically set region ${...}:": {
       "translation": "[统计] [routeKills] 尝试动态设置区域 ${...}:",
       "line": 68,
       "_rematchedFrom": "[Statistics] [routeKills] Attempted to dynamically set region ${...}:",

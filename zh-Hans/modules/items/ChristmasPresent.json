@@ -42,11 +42,11 @@
       "translation": "en-US",
       "line": 28
     },
-    "assets/images/currency/${Currency[cur]}.svg": {
+    "assets/images/currency/${...}.svg": {
       "translation": "",
       "line": 28
     },
-    "You opened the gift and received <img src=\"assets/images/currency/${Currency[cur]}.svg\" height=\"24px\"/> ${amount.toLocaleString('en-US')}.": {
+    "You opened the gift and received <img src=\"assets/images/currency/${...}.svg\" height=\"24px\"/> ${...}.": {
       "translation": "",
       "line": 28
     },

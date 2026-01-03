@@ -442,31 +442,31 @@
       "translation": "声音：",
       "line": 191
     },
-    " - Wandering encounter": {
+    "- Wandering encounter": {
       "translation": "- 流浪的邂逅",
       "line": 192,
       "_rematchedFrom": "- Wandering encounter",
       "_confidence": 0.95
     },
-    " - Roaming encounter": {
+    "- Roaming encounter": {
       "translation": "- 漫游邂逅",
       "line": 193,
       "_rematchedFrom": "- Roaming encounter",
       "_confidence": 0.95
     },
-    " - Battle Frontier": {
+    "- Battle Frontier": {
       "translation": "- 对战开拓区",
       "line": 194,
       "_rematchedFrom": "- Battle Frontier",
       "_confidence": 0.95
     },
-    " - Empty Queue": {
+    "- Empty Queue": {
       "translation": "- 空队列",
       "line": 195,
       "_rematchedFrom": "- Empty Queue",
       "_confidence": 0.95
     },
-    " - Dream Orbs": {
+    "- Dream Orbs": {
       "translation": "- 梦境宝珠",
       "line": 196,
       "_rematchedFrom": "- Dream Orbs",
@@ -585,11 +585,11 @@
       "line": 278
     },
     "Bill's Grandpa with Eevee": {
-      "translation": "",
+      "translation": "正辉的爷爷带着 伊布",
       "line": 279
     },
     "Bill's Grandpa without Eevee": {
-      "translation": "",
+      "translation": "正辉的爷爷不带 伊布",
       "line": 280
     },
     "Black Augurite": {
@@ -3584,11 +3584,11 @@
       "translation": "主世界镜子 B.",
       "line": 1362
     },
-    "assets/images/profile/trainer-${SeededRand.intBetween(0, Profile.MAX_TRAINER - 1)}.png": {
+    "assets/images/profile/trainer-${...}.png": {
       "translation": "",
       "line": 1369
     },
-    "#${c.name}": {
+    "#${...}": {
       "translation": "",
       "line": 1371
     },

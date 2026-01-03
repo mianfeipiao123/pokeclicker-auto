@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Have ${this.requiredValue} or more Special Events active simultaneously.": {
+    "Have ${...} or more Special Events active simultaneously.": {
       "translation": "同时进行 ${...} 或更多特别活动。",
       "line": 14,
       "_rematchedFrom": "Have ${...} or more Special Events active simultaneously.",

@@ -10,13 +10,13 @@
       "translation": "Missing No.",
       "line": 13
     },
-    "✨ You encountered a shiny ${PokemonHelper.displayName(name)}! ✨": {
+    "✨ You encountered a shiny ${...}! ✨": {
       "translation": "✨ 你遇到了异色${...}！ ✨",
       "line": 45,
       "_rematchedFrom": "✨ You encountered a shiny ${...}! ✨",
       "_confidence": 0.85
     },
-    "You encountered a roaming ${name}!": {
+    "You encountered a roaming ${...}!": {
       "translation": "你遇到了漫游${...}！",
       "line": 54,
       "_rematchedFrom": "You encountered a roaming ${...}!",

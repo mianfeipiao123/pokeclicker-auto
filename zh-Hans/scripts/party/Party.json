@@ -14,17 +14,17 @@
       "translation": "派对",
       "line": 7
     },
-    "You have captured ${GameHelper.anOrA(name)} ${displayName}!": {
-      "translation": "",
+    "You have captured ${...} ${...}!": {
+      "translation": "你捕获了${...} ${...}！",
       "line": 94
     },
-    "✨ You have captured a shiny ${displayName}! ✨": {
+    "✨ You have captured a shiny ${...}! ✨": {
       "translation": "✨ 你捕获了异色${...}！ ✨",
       "line": 103,
       "_rematchedFrom": "✨ You have captured a shiny ${...}! ✨",
       "_confidence": 0.85
     },
-    "You have captured a shadow ${displayName}!": {
+    "You have captured a shadow ${...}!": {
       "translation": "你捕获了暗影${...}！",
       "line": 112,
       "_rematchedFrom": "You have captured a shadow ${...}!",

@@ -6,11 +6,11 @@
     "translatedCount": 2
   },
   "entries": {
-    "${BerryType[this.getBerry(item.id)]} Berry": {
+    "${...} Berry": {
       "translation": "",
       "line": 20
     },
-    "${PokemonType[this.getGem(item.id)]} Gem": {
+    "${...} Gem": {
       "translation": "${...} 宝石",
       "line": 22,
       "_rematchedFrom": "${...} Gem",

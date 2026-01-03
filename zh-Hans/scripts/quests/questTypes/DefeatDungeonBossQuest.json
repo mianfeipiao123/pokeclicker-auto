@@ -6,13 +6,13 @@
     "translatedCount": 2
   },
   "entries": {
-    "Invalid dungeon for quest: ${this.dungeon}": {
+    "Invalid dungeon for quest: ${...}": {
       "translation": "任务迷宫无效：${...}",
       "line": 7,
       "_rematchedFrom": "Invalid dungeon for quest: ${...}",
       "_confidence": 0.85
     },
-    "Defeat ${this.dungeonBoss} in ${this.dungeon}.": {
+    "Defeat ${...} in ${...}.": {
       "translation": "在${...}中击败${...}。",
       "line": 13,
       "_rematchedFrom": "Defeat ${...} in ${...}.",

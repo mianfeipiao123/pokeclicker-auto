@@ -18,15 +18,15 @@
       "translation": "皮卡丘",
       "line": 32
     },
-    "<p>${this.listingDialogue.join('')}</p>": {
+    "<p>${...}</p>": {
       "translation": "",
       "line": 39
     },
-    "assets/images/pokemon/${p.id}.png": {
+    "assets/images/pokemon/${...}.png": {
       "translation": "",
       "line": 42
     },
-    "<img width=\"72\" src=\"assets/images/pokemon/${p.id}.png\" />": {
+    "<img width=\"72\" src=\"assets/images/pokemon/${...}.png\" />": {
       "translation": "",
       "line": 42
     }

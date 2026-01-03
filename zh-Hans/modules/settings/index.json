@@ -858,7 +858,7 @@
       "translation": "繁殖队列大小",
       "line": 227
     },
-    "sound.${sound.name}": {
+    "sound.${...}": {
       "translation": "声音。${...}",
       "line": 232,
       "_rematchedFrom": "sound.${...}",
@@ -1048,7 +1048,7 @@
       "translation": "分类",
       "line": 350
     },
-    "Category ${c.id}": {
+    "Category ${...}": {
       "translation": "类别 ${...}",
       "line": 351,
       "_rematchedFrom": "Category ${...}",
@@ -1346,7 +1346,7 @@
       "translation": "精灵球选择",
       "line": 485
     },
-    " + Number": {
+    "+ Number": {
       "translation": "+ 数量",
       "line": 485,
       "_rematchedFrom": "+ Number",
@@ -1388,7 +1388,7 @@
       "translation": "切换绘图锁定",
       "line": 490
     },
-    " or Shift + Click": {
+    "or Shift + Click": {
       "translation": "或 Shift + 点击",
       "line": 490,
       "_rematchedFrom": "or Shift + Click",
@@ -1442,7 +1442,7 @@
       "translation": "向上移动",
       "line": 498
     },
-    "↑ or ": {
+    "↑ or": {
       "translation": "↑ 或",
       "line": 498,
       "_rematchedFrom": "↑ or",
@@ -1456,7 +1456,7 @@
       "translation": "向左移动",
       "line": 499
     },
-    "← or ": {
+    "← or": {
       "translation": "← 或",
       "line": 499,
       "_rematchedFrom": "← or",
@@ -1470,7 +1470,7 @@
       "translation": "下移",
       "line": 500
     },
-    "↓ or ": {
+    "↓ or": {
       "translation": "↓ 或",
       "line": 500,
       "_rematchedFrom": "↓ or",
@@ -1484,7 +1484,7 @@
       "translation": "向右移动",
       "line": 501
     },
-    "→ or ": {
+    "→ or": {
       "translation": "→ 或",
       "line": 501,
       "_rematchedFrom": "→ or",
@@ -1518,7 +1518,7 @@
       "translation": "强制保存游戏",
       "line": 505
     },
-    "Shift + ": {
+    "Shift +": {
       "translation": "Shift+",
       "line": 505,
       "_rematchedFrom": "Shift +",
@@ -1840,7 +1840,7 @@
       "translation": "语言（测试版）",
       "line": 568
     },
-    "logBook.${logBookType}": {
+    "logBook.${...}": {
       "translation": "",
       "line": 572
     },
@@ -1872,7 +1872,7 @@
       "translation": "模态崩溃",
       "line": 581
     },
-    "modalCollapse.${collapse}": {
+    "modalCollapse.${...}": {
       "translation": "",
       "line": 581
     },

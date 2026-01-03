@@ -6,7 +6,7 @@
     "translatedCount": 0
   },
   "entries": {
-    "assets/images/items/pokemonItem/${pokemonName}.png": {
+    "assets/images/items/pokemonItem/${...}.png": {
       "translation": "",
       "line": 2
     }

@@ -6,7 +6,7 @@
     "translatedCount": 5
   },
   "entries": {
-    "Equip the ${GameConstants.humanifyString(OakItemType[this.item])} and": {
+    "Equip the ${...} and": {
       "translation": "装备 ${...} 和",
       "line": 45,
       "_rematchedFrom": "Equip the ${...} and",
@@ -16,23 +16,23 @@
       "translation": "en-US",
       "line": 47
     },
-    "capture ${this.amount.toLocaleString('en-US')} wild Pokémon.": {
+    "capture ${...} wild Pokémon.": {
       "translation": "捕捉 ${...} 野生宝可梦。",
       "line": 47,
       "_rematchedFrom": "capture ${...} wild Pokémon.",
       "_confidence": 0.85
     },
-    "earn bonus Pokédollars ${this.amount.toLocaleString('en-US')} times.": {
+    "earn bonus Pokédollars ${...} times.": {
       "translation": "",
       "line": 49
     },
-    "defeat ${this.amount.toLocaleString('en-US')} Pokémon.": {
+    "defeat ${...} Pokémon.": {
       "translation": "击败 ${...} 宝可梦。",
       "line": 51,
       "_rematchedFrom": "defeat ${...} Pokémon.",
       "_confidence": 0.85
     },
-    "gain its benefit ${this.amount.toLocaleString('en-US')} times.": {
+    "gain its benefit ${...} times.": {
       "translation": "触发其效果 ${...} 次。",
       "line": 53,
       "_rematchedFrom": "gain its benefit ${...} times.",

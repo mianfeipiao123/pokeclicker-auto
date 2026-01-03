@@ -6,13 +6,13 @@
     "translatedCount": 10
   },
   "entries": {
-    "HatcheryHelper${hatcheryHelperName}": {
+    "HatcheryHelper${...}": {
       "translation": "孵化场助手${...}",
       "line": 6,
       "_rematchedFrom": "HatcheryHelper${...}",
       "_confidence": 0.85
     },
-    "Hatchery Helper ${hatcheryHelperName}": {
+    "Hatchery Helper ${...}": {
       "translation": "孵化场助手 ${...}",
       "line": 6,
       "_rematchedFrom": "Hatchery Helper ${...}",
@@ -22,11 +22,11 @@
       "translation": "en-US",
       "line": 15
     },
-    "assets/images/currency/${GameConstants.Currency[hatcheryHelper?.cost?.currency]}.svg": {
+    "assets/images/currency/${...}.svg": {
       "translation": "",
       "line": 15
     },
-    "assets/images/profile/trainer-${trainerID}.png": {
+    "assets/images/profile/trainer-${...}.png": {
       "translation": "",
       "line": 27
     },

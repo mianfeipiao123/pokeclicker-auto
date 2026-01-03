@@ -10,7 +10,7 @@
       "translation": "",
       "line": 27
     },
-    "${(loaded + errored) / toLoad * 100}%": {
+    "${...}%": {
       "translation": "",
       "line": 28
     },
@@ -30,7 +30,7 @@
       "translation": "颜色：#8e44ad；字体粗细：900；",
       "line": 49
     },
-    "[${GameConstants.formatDate(new Date())}] %cPreloading Images..": {
+    "[${...}] %cPreloading Images..": {
       "translation": "[${...}] %c正在预加载图像..",
       "line": 49,
       "_rematchedFrom": "[${...}] %cPreloading Images..",
@@ -40,7 +40,7 @@
       "translation": "颜色：#c0392b；字体粗细：900；",
       "line": 64
     },
-    "[${GameConstants.formatDate(new Date())}] %cPreloading images taking too long, Skipping..": {
+    "[${...}] %cPreloading images taking too long, Skipping..": {
       "translation": "[${...}] %c预加载图像花费的时间太长，正在跳过..",
       "line": 64,
       "_rematchedFrom": "[${...}] %cPreloading images taking too long, Skipping..",
@@ -50,13 +50,13 @@
       "translation": "颜色：#2ecc71；字体粗细：900；",
       "line": 76
     },
-    "[${GameConstants.formatDate(new Date())}] %cPreloaded images": {
+    "[${...}] %cPreloaded images": {
       "translation": "[${...}] %c预加载图像",
       "line": 76,
       "_rematchedFrom": "[${...}] %cPreloaded images",
       "_confidence": 0.85
     },
-    "[${GameConstants.formatDate(new Date())}] %cPreload images failed..": {
+    "[${...}] %cPreload images failed..": {
       "translation": "[${...}] %c预加载图像失败..",
       "line": 82,
       "_rematchedFrom": "[${...}] %cPreload images failed..",
@@ -74,7 +74,7 @@
       "translation": "冠军",
       "line": 101
     },
-    "town-${name}": {
+    "town-${...}": {
       "translation": "城镇-${...}",
       "line": 108,
       "_rematchedFrom": "town-${...}",
@@ -84,7 +84,7 @@
       "translation": "无法加载城镇图片：",
       "line": 113
     },
-    "assets/images/towns/${name}.png": {
+    "assets/images/towns/${...}.png": {
       "translation": "",
       "line": 116
     },
@@ -92,7 +92,7 @@
       "translation": "无法加载宝可梦图像：",
       "line": 135
     },
-    "assets/images/pokemon/${i}.png": {
+    "assets/images/pokemon/${...}.png": {
       "translation": "",
       "line": 138
     },

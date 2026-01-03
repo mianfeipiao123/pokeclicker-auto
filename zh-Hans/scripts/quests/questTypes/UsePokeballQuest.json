@@ -18,7 +18,7 @@
       "translation": "en-US",
       "line": 34
     },
-    "Use ${this.amount.toLocaleString('en-US')} ${ItemList[GameConstants.Pokeball[this.pokeball]].displayName}s.": {
+    "Use ${...} ${...}s.": {
       "translation": "使用 ${...} 个${...}。",
       "line": 34,
       "_rematchedFrom": "Use ${...} ${...}s.",

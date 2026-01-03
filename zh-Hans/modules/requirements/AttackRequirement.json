@@ -22,7 +22,7 @@
       "translation": "",
       "line": 4
     },
-    "${this.requiredValue} Attack needed.": {
+    "${...} Attack needed.": {
       "translation": "${...} 需要攻击。",
       "line": 21,
       "_rematchedFrom": "${...} Attack needed.",

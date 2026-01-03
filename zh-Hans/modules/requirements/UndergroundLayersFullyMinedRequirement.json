@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Fully mine ${this.requiredValue} layer${suffix} in the Underground.": {
+    "Fully mine ${...} layer${...} in the Underground.": {
       "translation": "在采掘场完全开采${...}层。",
       "line": 15,
       "_rematchedFrom": "Fully mine ${...} layer${...} in the Underground.",

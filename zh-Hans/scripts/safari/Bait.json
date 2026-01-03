@@ -6,7 +6,7 @@
     "translatedCount": 6
   },
   "entries": {
-    "${this.name} (${this.amount()})": {
+    "${...} (${...})": {
       "translation": "",
       "line": 21
     },

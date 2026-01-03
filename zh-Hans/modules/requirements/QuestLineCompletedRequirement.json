@@ -34,7 +34,7 @@
       "translation": "不完整的",
       "line": 26
     },
-    "Questline ${this.quest.displayName} needs to be ${this.option !== AchievementOption.less ? 'completed' : 'incomplete'}.": {
+    "Questline ${...} needs to be ${...}.": {
       "translation": "任务线 ${...} 需要是 ${...}。",
       "line": 26,
       "_rematchedFrom": "Questline ${...} needs to be ${...}.",

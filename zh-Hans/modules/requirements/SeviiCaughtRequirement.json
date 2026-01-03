@@ -46,7 +46,7 @@
       "translation": "粉红色[[Butterfree]]",
       "line": 15
     },
-    "${this.requiredValue} unique Sevii Pokémon need to be caught.": {
+    "${...} unique Sevii Pokémon need to be caught.": {
       "translation": "需要捕捉 ${...} 个独特的 Sevii 宝可梦。",
       "line": 21,
       "_rematchedFrom": "${...} unique Sevii Pokémon need to be caught.",

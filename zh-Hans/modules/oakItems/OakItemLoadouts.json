@@ -26,7 +26,7 @@
       "translation": "",
       "line": 8
     },
-    "Loadout ${i + 1}": {
+    "Loadout ${...}": {
       "translation": "",
       "line": 17
     }

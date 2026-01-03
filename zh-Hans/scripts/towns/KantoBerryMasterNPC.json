@@ -6,7 +6,7 @@
     "translatedCount": 2
   },
   "entries": {
-    "<p>${KantoBerryMasterNPC.generateMessage(GameHelper.today())}</p>": {
+    "<p>${...}</p>": {
       "translation": "",
       "line": 19
     },

@@ -26,7 +26,7 @@
       "translation": "购买以解锁该大木博士道具",
       "line": 10
     },
-    "assets/images/oakitems/${this.name}.png": {
+    "assets/images/oakitems/${...}.png": {
       "translation": "",
       "line": 37
     }

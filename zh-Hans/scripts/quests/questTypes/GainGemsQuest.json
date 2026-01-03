@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 52
     },
-    "Gain ${this.amount.toLocaleString('en-US')} ${PokemonType[this.type]} gems.": {
+    "Gain ${...} ${...} gems.": {
       "translation": "获得 ${...} 个${...}宝石。",
       "line": 52,
       "_rematchedFrom": "Gain ${...} ${...} gems.",

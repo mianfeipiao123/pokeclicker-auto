@@ -10,21 +10,21 @@
       "translation": "mapAreaStateOrder",
       "line": 8
     },
-    "--${areaStatus[status]}": {
+    "--${...}": {
       "translation": "",
       "line": 9
     },
-    "${Routes.getName(route, region)} does not exist in the ${GameConstants.Region[region]} region.": {
+    "${...} does not exist in the ${...} region.": {
       "translation": "${...} 在 ${...} 地区不存在。",
       "line": 34,
       "_rematchedFrom": "${...} does not exist in the ${...} region.",
       "_confidence": 0.85
     },
-    "t have access to that route yet.\n<i>${reqsList.join(": {
+    "t have access to that route yet. <i>${reqsList.join(": {
       "translation": "",
       "line": 48
     },
-    "You don't have access to that route yet.\n<i>${reqsList.join('\n')}</i>": {
+    "You don't have access to that route yet. <i>${...}</i>": {
       "translation": "你还不能进入该道路。\\n<i>${...}</i>",
       "line": 48,
       "_rematchedFrom": "You don't have access to that route yet.\\n<i>${...}</i>",
@@ -50,17 +50,17 @@
       "translation": "塔",
       "line": 95
     },
-    "${cls} waterRoute": {
+    "${...} waterRoute": {
       "translation": "${...} 水路",
       "line": 179,
       "_rematchedFrom": "${...} waterRoute",
       "_confidence": 0.85
     },
-    "t have access to that location yet.\n<i>${reqsList.join(": {
+    "t have access to that location yet. <i>${reqsList.join(": {
       "translation": "",
       "line": 276
     },
-    "You don't have access to that location yet.\n<i>${reqsList.join('\n')}</i>": {
+    "You don't have access to that location yet. <i>${...}</i>": {
       "translation": "你还不能进入该地点。\\n<i>${...}</i>",
       "line": 276,
       "_rematchedFrom": "You don't have access to that location yet.\\n<i>${...}</i>",
@@ -70,21 +70,21 @@
       "translation": "展示",
       "line": 288
     },
-    "\n<i>Progress further to return to previous regions!</i>": {
+    "<i>Progress further to return to previous regions!</i>": {
       "translation": "",
       "line": 294
     },
-    "You cannot access this dock yet!${player.region > GameConstants.Region.kanto ? '\n<i>Progress further to return to previous regions!</i>' : ''}": {
+    "You cannot access this dock yet!${...}": {
       "translation": "你还无法访问此扩展坞！${...}",
       "line": 294,
       "_rematchedFrom": "You cannot access this dock yet!${...}",
       "_confidence": 0.85
     },
-    "${GameConstants.camelCaseToString(GameConstants.Region[player.highestRegion()])} Master": {
+    "${...} Master": {
       "translation": "",
       "line": 308
     },
-    "${professorName}'s Blimp": {
+    "${...}'s Blimp": {
       "translation": "${...} 的飞艇",
       "line": 334,
       "_rematchedFrom": "${...}'s Blimp",
@@ -105,10 +105,6 @@
     "assets/images/map/blimp_empty.png": {
       "translation": "",
       "line": 365
-    },
-    "--${areaStatus[areaStatus.missingResistant]}": {
-      "translation": "",
-      "line": 373
     }
   }
 }

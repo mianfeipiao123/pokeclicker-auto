@@ -6,7 +6,7 @@
     "translatedCount": 1
   },
   "entries": {
-    "${this.requiredValue} Pokémon needs to be infected.": {
+    "${...} Pokémon needs to be infected.": {
       "translation": "${...} 个宝可梦需要被感染。",
       "line": 17,
       "_rematchedFrom": "${...} Pokémon needs to be infected.",

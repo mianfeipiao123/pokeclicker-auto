@@ -14,7 +14,7 @@
       "translation": "细绳",
       "line": 4
     },
-    " = string": {
+    "= string": {
       "translation": "",
       "line": 6
     },
@@ -22,7 +22,7 @@
       "translation": "",
       "line": 11
     },
-    "'${p.name.replace(/'/g, \"\\'\")}'": {
+    "'${...}'": {
       "translation": "",
       "line": 11
     },

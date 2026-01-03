@@ -10,7 +10,7 @@
       "translation": "",
       "line": 7
     },
-    "'${i.replace(/'/g, \"\\'\")}'": {
+    "'${...}'": {
       "translation": "",
       "line": 7
     },

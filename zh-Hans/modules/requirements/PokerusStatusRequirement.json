@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Pokémon needs to be infected.": {
+    "${...} Pokémon needs to be infected.": {
       "translation": "",
       "line": 14
     }

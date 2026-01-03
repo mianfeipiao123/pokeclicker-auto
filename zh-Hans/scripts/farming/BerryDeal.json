@@ -106,7 +106,7 @@
       "translation": "en-US",
       "line": 453
     },
-    "You traded for ${amount.toLocaleString('en-US')} × <img src=\"${deal.item.itemType.image}\" height=\"24px\"/> ${GameConstants.pluralizeString(GameConstants.humanifyString(deal.item.itemType.displayName), amount)}.": {
+    "You traded for ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}.": {
       "translation": "你交易获得了 ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}。",
       "line": 453,
       "_rematchedFrom": "You traded for ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}.",

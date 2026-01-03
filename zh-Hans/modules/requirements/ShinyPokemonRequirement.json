@@ -18,7 +18,7 @@
       "translation": "异色的宝可梦",
       "line": 6
     },
-    "${this.requiredValue} Shiny Pokémon need to be obtained.": {
+    "${...} Shiny Pokémon need to be obtained.": {
       "translation": "需要获得${...}只异色宝可梦。",
       "line": 14,
       "_rematchedFrom": "${...} Shiny Pokémon need to be obtained.",

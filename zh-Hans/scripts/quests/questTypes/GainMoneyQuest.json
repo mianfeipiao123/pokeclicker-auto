@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 32
     },
-    "Gain ${this.amount.toLocaleString('en-US')} Pokédollars.": {
+    "Gain ${...} Pokédollars.": {
       "translation": "",
       "line": 32
     }

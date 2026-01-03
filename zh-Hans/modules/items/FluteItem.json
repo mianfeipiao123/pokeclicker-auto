@@ -42,23 +42,23 @@
       "translation": "百分比",
       "line": 28
     },
-    "+${(this.getMultiplier() - 1).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 2, maximumFractionDigits: 2 })} bonus to ${this.description}": {
+    "+${...})} bonus to ${...}": {
       "translation": "",
       "line": 28
     },
-    "<div><strong>${this.displayName}</strong></div>": {
+    "<div><strong>${...}</strong></div>": {
       "translation": "",
       "line": 33
     },
-    "<div>${this.getDescription()}</div>": {
+    "<div>${...}</div>": {
       "translation": "",
       "line": 34
     },
-    "<div>Consuming ${FluteEffectRunner.numActiveFlutes()} Gem(s)/Second</div>": {
+    "<div>Consuming ${...} Gem(s)/Second</div>": {
       "translation": "",
       "line": 35
     },
-    "You don't have the ${this.displayName}...": {
+    "You don't have the ${...}...": {
       "translation": "",
       "line": 50
     },

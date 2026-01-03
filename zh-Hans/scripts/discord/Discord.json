@@ -74,7 +74,7 @@
       "translation": "已成功登录Discord！",
       "line": 38
     },
-    "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${encodeURIComponent(location.origin + location.pathname)}": {
+    "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${...}": {
       "translation": "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${...}",
       "line": 48,
       "_rematchedFrom": "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${...}",
@@ -100,7 +100,7 @@
       "translation": "在尝试使用此代码之前，你必须先登录Discord",
       "line": 115
     },
-    "Invalid code ${enteredCode}": {
+    "Invalid code ${...}": {
       "translation": "无效代码 ${...}",
       "line": 127,
       "_rematchedFrom": "Invalid code ${...}",

@@ -6,7 +6,7 @@
     "translatedCount": 1
   },
   "entries": {
-    "Error: Invalid quest type - ${questType}.": {
+    "Error: Invalid quest type - ${...}.": {
       "translation": "错误：无效的任务类型 - ${...}。",
       "line": 45,
       "_rematchedFrom": "Error: Invalid quest type - ${...}.",

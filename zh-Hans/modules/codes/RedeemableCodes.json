@@ -90,7 +90,7 @@
       "translation": "",
       "line": 43
     },
-    "✨ You found a shiny ${pokemonMap[idToUse].name}! ✨": {
+    "✨ You found a shiny ${...}! ✨": {
       "translation": "✨ 你发现了异色${...}！ ✨",
       "line": 52,
       "_rematchedFrom": "✨ You found a shiny ${...}! ✨",
@@ -232,6 +232,10 @@
       "translation": "en-US",
       "line": 165
     },
+    "<p class='text-center'>This will refund ${...} for a total of ${...}.</br></br>You can only do this once.</br>Are you sure?</p>": {
+      "translation": "<p class='text-center'>这将退还${...}，总计${...}。</br></br>此操作只能进行一次。</br>确定吗？</p>",
+      "line": 165
+    },
     "Code Activated!": {
       "translation": "代码已激活！",
       "line": 185
@@ -276,7 +280,7 @@
       "translation": "你获得了10个神奇糖果！",
       "line": 236
     },
-    "Invalid code ${code}": {
+    "Invalid code ${...}": {
       "translation": "",
       "line": 264
     }

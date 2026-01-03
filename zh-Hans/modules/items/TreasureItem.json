@@ -18,7 +18,7 @@
       "translation": "",
       "line": 3
     },
-    "${displayName || id} dug out from the Underground.": {
+    "${...} dug out from the Underground.": {
       "translation": "${...} 从采掘场挖出。",
       "line": 8,
       "_rematchedFrom": "${...} dug out from the Underground.",
@@ -32,7 +32,7 @@
       "translation": "",
       "line": 12
     },
-    "assets/images/${this.valueType === UndergroundItemValueType.Fossil ? 'breeding' : 'items/underground'}/${this.displayName}.png": {
+    "assets/images/${...}/${...}.png": {
       "translation": "",
       "line": 12
     }

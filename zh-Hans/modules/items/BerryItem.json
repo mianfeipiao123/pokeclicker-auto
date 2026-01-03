@@ -18,21 +18,21 @@
       "translation": "",
       "line": 3
     },
-    "${BerryType[berry]}Berry": {
+    "${...}Berry": {
       "translation": "${...}树果",
       "line": 9,
       "_rematchedFrom": "${...}Berry",
       "_confidence": 0.85
     },
-    "${BerryType[berry]} Berry": {
+    "${...} Berry": {
       "translation": "",
       "line": 9
     },
-    "Obtain a ${this.berryName}<br/><i>(No Oak Item challenge runs only)</i>": {
+    "Obtain a ${...}<br/><i>(No Oak Item challenge runs only)</i>": {
       "translation": "",
       "line": 18
     },
-    "assets/images/items/berry/${this.berryName}.png": {
+    "assets/images/items/berry/${...}.png": {
       "translation": "",
       "line": 29
     }

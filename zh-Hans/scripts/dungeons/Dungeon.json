@@ -50,15 +50,15 @@
       "translation": "阴影",
       "line": 419
     },
-    "assets/images/${shinyCaught ? 'shiny' : ''}${shadow && shadowCaught ? 'shadow' : ''}pokemon/${id}.png": {
+    "assets/images/${...}${...}pokemon/${...}.png": {
       "translation": "",
       "line": 419
     },
-    "assets/images/shadowpokemon/${id}.png": {
+    "assets/images/shadowpokemon/${...}.png": {
       "translation": "",
       "line": 420
     },
-    "assets/images/breeding/pokerus/${GameConstants.Pokerus[pokerus]}.png": {
+    "assets/images/breeding/pokerus/${...}.png": {
       "translation": "资产/图像/育种/pokerus/${...}.png",
       "line": 421,
       "_rematchedFrom": "assets/images/breeding/pokerus/${...}.png",
@@ -68,7 +68,7 @@
       "translation": "en-US",
       "line": 422
     },
-    "EVs: ${partyPokemon.evs().toLocaleString('en-US')}": {
+    "EVs: ${...}": {
       "translation": "",
       "line": 422
     },
@@ -296,7 +296,7 @@
       "translation": "贝壳化石",
       "line": 722
     },
-    "You were awarded a ${GameConstants.humanifyString(item)} for defeating the Super Nerd!": {
+    "You were awarded a ${...} for defeating the Super Nerd!": {
       "translation": "你因击败超级书呆子而获得 ${...} 奖励！",
       "line": 726,
       "_rematchedFrom": "You were awarded a ${...} for defeating the Super Nerd!",
@@ -1518,7 +1518,7 @@
       "translation": "思维板",
       "line": 1977
     },
-    "Unown (${char})": {
+    "Unown (${...})": {
       "translation": "",
       "line": 1988
     },

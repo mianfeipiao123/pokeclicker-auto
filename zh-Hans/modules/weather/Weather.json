@@ -34,7 +34,7 @@
       "translation": "",
       "line": 8
     },
-    "assets/images/weather/${WeatherType[Weather.currentWeather()]}.png": {
+    "assets/images/weather/${...}.png": {
       "translation": "资产/图像/天气/${...}.png",
       "line": 22,
       "_rematchedFrom": "assets/images/weather/${...}.png",

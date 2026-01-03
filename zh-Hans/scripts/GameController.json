@@ -30,7 +30,7 @@
       "translation": "",
       "line": 28
     },
-    "key${type}": {
+    "key${...}": {
       "translation": "关键${...}",
       "line": 28,
       "_rematchedFrom": "key${...}",
@@ -68,7 +68,7 @@
       "translation": "",
       "line": 58
     },
-    "#${this}": {
+    "#${...}": {
       "translation": "",
       "line": 105
     },
@@ -80,17 +80,13 @@
       "translation": "隐藏",
       "line": 106
     },
-    "modalCollapse.${this}": {
+    "modalCollapse.${...}": {
       "translation": "",
       "line": 106
     },
     "show.bs.collapse": {
       "translation": "",
       "line": 109
-    },
-    "modalCollapse.${this.id}": {
-      "translation": "",
-      "line": 110
     },
     "hide.bs.collapse": {
       "translation": "",

@@ -34,7 +34,7 @@
       "translation": "全部",
       "line": 12
     },
-    "The ${humanifyString(itemName)}'s effect is about to wear off!": {
+    "The ${...}'s effect is about to wear off!": {
       "translation": "${...}的效果即将结束！",
       "line": 37,
       "_rematchedFrom": "The ${...}'s effect is about to wear off!",
@@ -44,7 +44,7 @@
       "translation": "99小时+",
       "line": 69
     },
-    "${+times[0]}h": {
+    "${...}h": {
       "translation": "${...}小时",
       "line": 71,
       "_rematchedFrom": "${...}h",

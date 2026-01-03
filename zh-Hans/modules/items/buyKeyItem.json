@@ -22,7 +22,7 @@
       "translation": "",
       "line": 4
     },
-    "assets/images/keyitems/${this.name}.png": {
+    "assets/images/keyitems/${...}.png": {
       "translation": "",
       "line": 32
     }

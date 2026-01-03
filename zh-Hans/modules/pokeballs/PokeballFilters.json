@@ -98,7 +98,7 @@
       "translation": "删除精灵球过滤器",
       "line": 107
     },
-    "Are you sure you want to delete \"${filter.name}\"?": {
+    "Are you sure you want to delete \"${...}\"?": {
       "translation": "你确定要删除“${...}”吗？",
       "line": 108,
       "_rematchedFrom": "Are you sure you want to delete \"${...}\"?",

@@ -50,7 +50,7 @@
       "translation": "",
       "line": 21
     },
-    "<i>${PokemonType[idx]}<i/>": {
+    "<i>${...}<i/>": {
       "translation": "",
       "line": 34
     },
@@ -66,13 +66,13 @@
       "translation": "<br>",
       "line": 45
     },
-    "You ran out of gems for the ${humanifyString(itemName)}'s effect!": {
+    "You ran out of gems for the ${...}'s effect!": {
       "translation": "你已经用完了 ${...} 效果的宝石！",
       "line": 74,
       "_rematchedFrom": "You ran out of gems for the ${...}'s effect!",
       "_confidence": 0.85
     },
-    "<strong>Time Remaining:</strong><br> ${formatSecondsToTime(this.fluteFormattedTime(itemName))}": {
+    "<strong>Time Remaining:</strong><br> ${...}": {
       "translation": "",
       "line": 150
     },
@@ -80,7 +80,7 @@
       "translation": "99小时+",
       "line": 157
     },
-    "${+times[0]}h": {
+    "${...}h": {
       "translation": "",
       "line": 159
     },
@@ -104,7 +104,7 @@
       "translation": "",
       "line": 186
     },
-    "<td class=\"text-left\" px-1\">${gem} gems</td>": {
+    "<td class=\"text-left\" px-1\">${...} gems</td>": {
       "translation": "",
       "line": 186
     },
@@ -120,7 +120,7 @@
       "translation": "",
       "line": 188
     },
-    "<td class=\"text-right\" px-1\">(${App.game.gems.gemWallet[PokemonType[gem]]().toLocaleString('en-US')})</td>": {
+    "<td class=\"text-right\" px-1\">(${...})</td>": {
       "translation": "",
       "line": 188
     },

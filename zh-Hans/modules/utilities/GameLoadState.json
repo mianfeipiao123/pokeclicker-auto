@@ -6,19 +6,19 @@
     "translatedCount": 3
   },
   "entries": {
-    "GameLoadState: cannot set to invalid state '${LoadingStates[newState]}' while already at state '${LoadingStates[currentState()]}'!": {
+    "GameLoadState: cannot set to invalid state '${...}' while already at state '${...}'!": {
       "translation": "GameLoadState：已处于状态“${...}”时无法设置为无效状态“${...}”！",
       "line": 26,
       "_rematchedFrom": "GameLoadState: cannot set to invalid state '${...}' while already at state '${...}'!",
       "_confidence": 0.85
     },
-    "GameLoadState: cannot run callback at exactly state '${LoadingStates[targetState]}' while already at state '${LoadingStates[currentState()]}'!": {
+    "GameLoadState: cannot run callback at exactly state '${...}' while already at state '${...}'!": {
       "translation": "GameLoadState：当已经处于状态“${...}”时，无法在确切的状态“${...}”运行回调！",
       "line": 42,
       "_rematchedFrom": "GameLoadState: cannot run callback at exactly state '${...}' while already at state '${...}'!",
       "_confidence": 0.85
     },
-    "GameLoadState: callback scheduled to run at exactly state '${LoadingStates[targetState]}' tried to run at state '${LoadingStates[currentState()]}'!": {
+    "GameLoadState: callback scheduled to run at exactly state '${...}' tried to run at state '${...}'!": {
       "translation": "GameLoadState：计划在“${...}”状态下运行的回调尝试在“${...}”状态下运行！",
       "line": 50,
       "_rematchedFrom": "GameLoadState: callback scheduled to run at exactly state '${...}' tried to run at state '${...}'!",

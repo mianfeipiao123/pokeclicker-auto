@@ -22,13 +22,13 @@
       "translation": "精英_",
       "line": 17
     },
-    "Requires having beaten ${Object.values(GymList).find(obj => obj.badgeReward === this.badge).buttonText}.": {
+    "Requires having beaten ${...}.": {
       "translation": "需要击败 ${...}。",
       "line": 18,
       "_rematchedFrom": "Requires having beaten ${...}.",
       "_confidence": 0.85
     },
-    "Requires the ${GameConstants.camelCaseToString(BadgeEnums[this.badge])} badge.": {
+    "Requires the ${...} badge.": {
       "translation": "需要 ${...} 徽章。",
       "line": 19,
       "_rematchedFrom": "Requires the ${...} badge.",

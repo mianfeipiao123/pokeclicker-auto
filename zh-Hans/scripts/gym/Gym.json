@@ -30,7 +30,7 @@
       "translation": "最高",
       "line": 103
     },
-    "${leaderName}'s Gym": {
+    "${...}'s Gym": {
       "translation": "${...}的道馆",
       "line": 104,
       "_rematchedFrom": "${...}'s Gym",
@@ -44,7 +44,7 @@
       "translation": "展示",
       "line": 137
     },
-    "assets/images/npcs/${this.imageName ?? this.leaderName}.png": {
+    "assets/images/npcs/${...}.png": {
       "translation": "",
       "line": 148
     },
@@ -64,7 +64,7 @@
       "translation": "",
       "line": 170
     },
-    "Cost: <img src=\"assets/images/currency/money.svg\" height=\"18px\"/> ${cost.toLocaleString('en-US')} per battle<br/>": {
+    "Cost: <img src=\"assets/images/currency/money.svg\" height=\"18px\"/> ${...} per battle<br/>": {
       "translation": "",
       "line": 170
     },
@@ -80,7 +80,7 @@
       "translation": "文本静音",
       "line": 173
     },
-    "<span class=\"${(clears >= 100 ? 'text-success' : 'text-muted')}\">100 Clears - Free auto-gym</span>": {
+    "<span class=\"${...}\">100 Clears - Free auto-gym</span>": {
       "translation": "",
       "line": 173
     },

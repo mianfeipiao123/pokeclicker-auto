@@ -30,7 +30,7 @@
       "translation": "野生动物园区",
       "line": 229
     },
-    "You have an active Safari in ${GameConstants.camelCaseToString(GameConstants.Region[Safari.activeRegion()])}.\nDo you want to quit that Safari and start a new one?": {
+    "You have an active Safari in ${...}. Do you want to quit that Safari and start a new one?": {
       "translation": "你在 ${...} 有一个活跃的 Safari。你想退出 Safari 并开始一个新的吗？",
       "line": 230,
       "_rematchedFrom": "You have an active Safari in ${...}. Do you want to quit that Safari and start a new one?",
@@ -52,7 +52,7 @@
       "translation": "静止的",
       "line": 253
     },
-    "You need the Safari Pass to access this location.\n<i>Visit the Gym in Fuschia City</i>": {
+    "You need the Safari Pass to access this location. <i>Visit the Gym in Fuschia City</i>": {
       "translation": "你需要狩猎通行证才能进入此地点。\n<i>请访问�的浅红市的道馆</i>",
       "line": 267
     },
@@ -60,27 +60,23 @@
       "translation": "精灵",
       "line": 327
     },
-    "walk${Safari.lastDirection}": {
+    "walk${...}": {
       "translation": "步行${...}",
       "line": 327,
       "_rematchedFrom": "walk${...}",
       "_confidence": 0.85
     },
-    "#safari-${newPos.x}-${newPos.y}": {
+    "#safari-${...}-${...}": {
       "translation": "#safari-${...}-${...}",
       "line": 375,
       "_rematchedFrom": "#safari-${...}-${...}",
       "_confidence": 0.85
     },
-    "+=${directionOffset.y * 32}": {
+    "+=${...}": {
       "translation": "",
       "line": 379
     },
-    "+=${directionOffset.x * 32}": {
-      "translation": "",
-      "line": 380
-    },
-    "walk${direction} moving": {
+    "walk${...} moving": {
       "translation": "步行${...} 移动",
       "line": 383,
       "_rematchedFrom": "walk${...} moving",
@@ -89,10 +85,6 @@
     "linear": {
       "translation": "线性",
       "line": 390
-    },
-    "walk${direction}": {
-      "translation": "",
-      "line": 398
     },
     "left": {
       "translation": "左边",
@@ -106,8 +98,8 @@
       "translation": "向下",
       "line": 505
     },
-    "You found ${GameHelper.anOrA(name)} ${name}!": {
-      "translation": "",
+    "You found ${...} ${...}!": {
+      "translation": "你找到了${...} ${...}！",
       "line": 593
     },
     "hover": {
@@ -138,13 +130,13 @@
       "translation": "正确的",
       "line": 639
     },
-    "safari-dpad-${dir.toLowerCase()}": {
+    "safari-dpad-${...}": {
       "translation": "safari-dpad-${...}",
       "line": 640,
       "_rematchedFrom": "safari-dpad-${...}",
       "_confidence": 0.85
     },
-    "Arrow${dir}": {
+    "Arrow${...}": {
       "translation": "箭头${...}",
       "line": 641,
       "_rematchedFrom": "Arrow${...}",

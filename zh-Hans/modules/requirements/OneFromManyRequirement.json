@@ -14,11 +14,11 @@
       "translation": "",
       "line": 2
     },
-    " or ": {
+    "or": {
       "translation": "",
       "line": 24
     },
-    "${output.join(' or ')}.": {
+    "${...}.": {
       "translation": "",
       "line": 24
     }

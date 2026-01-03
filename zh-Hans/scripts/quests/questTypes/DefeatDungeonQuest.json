@@ -6,7 +6,7 @@
     "translatedCount": 2
   },
   "entries": {
-    "Invalid dungeon for quest: ${this.dungeon}": {
+    "Invalid dungeon for quest: ${...}": {
       "translation": "",
       "line": 14
     },
@@ -14,7 +14,7 @@
       "translation": "en-US",
       "line": 59
     },
-    "Defeat the ${this.dungeon} dungeon in ${subRegionName} ${this.amount.toLocaleString('en-US')} times.": {
+    "Defeat the ${...} dungeon in ${...} ${...} times.": {
       "translation": "在 ${...}（${...}）通关 ${...} 次。",
       "line": 59,
       "_rematchedFrom": "Defeat the ${...} dungeon in ${...} ${...} times.",

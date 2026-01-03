@@ -6,7 +6,7 @@
     "translatedCount": 1
   },
   "entries": {
-    "There haven't been any reports of roaming Pokémon around ${regionName} lately.": {
+    "There haven't been any reports of roaming Pokémon around ${...} lately.": {
       "translation": "最近没有关于宝可梦在 ${...} 附近漫游的报告。",
       "line": 22,
       "_rematchedFrom": "There haven't been any reports of roaming Pokémon around ${...} lately.",
@@ -16,11 +16,11 @@
       "translation": "",
       "line": 31
     },
-    "assets/images/pokemon/${r.pokemon.id}.png": {
+    "assets/images/pokemon/${...}.png": {
       "translation": "",
       "line": 31
     },
-    "<img class=\"npc-roamer-image\" src=\"assets/images/pokemon/${r.pokemon.id}.png\" />": {
+    "<img class=\"npc-roamer-image\" src=\"assets/images/pokemon/${...}.png\" />": {
       "translation": "",
       "line": 31
     }

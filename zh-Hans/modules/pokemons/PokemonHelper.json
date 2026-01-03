@@ -82,7 +82,7 @@
       "translation": "",
       "line": 109
     },
-    "pokemon/${pokemonId}${genderString}.png": {
+    "pokemon/${...}${...}.png": {
       "translation": "",
       "line": 111
     },
@@ -98,11 +98,11 @@
       "translation": "宝可梦",
       "line": 128
     },
-    "Gigantamax ${pokemonName}": {
+    "Gigantamax ${...}": {
       "translation": "",
       "line": 159
     },
-    "Eternamax ${pokemonName}": {
+    "Eternamax ${...}": {
       "translation": "",
       "line": 159
     },

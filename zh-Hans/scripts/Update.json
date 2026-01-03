@@ -30,6 +30,30 @@
       "translation": "激活挑战模式？",
       "line": 300
     },
+    "Do you want to activate No Click Attack challenge mode? <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableClickAttack.activate();\" data-dismiss=\"toast\">Activate</button>": {
+      "translation": "是否要启用“无点击攻击”挑战模式？ <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableClickAttack.activate();\" data-dismiss=\"toast\">启用</button>",
+      "line": 299
+    },
+    "Do you want to activate No Battle Item challenge mode? <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableBattleItems.activate(); Object.values(player.effectList).forEach(e => e(0));\" data-dismiss=\"toast\">Activate</button>": {
+      "translation": "是否要启用“无战斗道具”挑战模式？ <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableBattleItems.activate(); Object.values(player.effectList).forEach(e => e(0));\" data-dismiss=\"toast\">启用</button>",
+      "line": 308
+    },
+    "Do you want to activate No Masterball challenge mode? <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableMasterballs.activate();\" data-dismiss=\"toast\">Activate</button>": {
+      "translation": "是否要启用“无大师球”挑战模式？ <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableMasterballs.activate();\" data-dismiss=\"toast\">启用</button>",
+      "line": 317
+    },
+    "Do you want to activate No Oak Item challenge mode? <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableOakItems.activate();\" data-dismiss=\"toast\">Activate</button>": {
+      "translation": "是否要启用“无大木博士道具”挑战模式？ <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableOakItems.activate();\" data-dismiss=\"toast\">启用</button>",
+      "line": 327
+    },
+    "Do you want to activate No Shard challenge mode? <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableShards.activate();\" data-dismiss=\"toast\">Activate</button>": {
+      "translation": "是否要启用“无碎片”挑战模式？ <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableShards.activate();\" data-dismiss=\"toast\">启用</button>",
+      "line": 337
+    },
+    "Do you want to activate No Protein challenge mode? <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableVitamins.activate();\" data-dismiss=\"toast\">Activate</button>": {
+      "translation": "是否要启用“无营养饮料”挑战模式？ <button class=\"btn btn-block btn-danger\" onclick=\"App.game.challenges.list.disableVitamins.activate();\" data-dismiss=\"toast\">启用</button>",
+      "line": 347
+    },
     "btn btn-block btn-danger": {
       "translation": "btn btn-阻止 btn-危险",
       "line": 303
@@ -230,7 +254,7 @@
       "translation": "区域攻击减益（推荐）",
       "line": 510
     },
-    "New challenge mode added: Regional Attack Debuff.\n\nLowers Pokémon attack based on native region and highest reached region.\n\nThis is the default and recommended way to play, but is now an optional challenge.\n\nPlease choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": {
+    "New challenge mode added: Regional Attack Debuff. Lowers Pokémon attack based on native region and highest reached region. This is the default and recommended way to play, but is now an optional challenge. Please choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": {
       "translation": "添加了新的挑战模式：区域攻击减益。根据出生地区和最高到达地区降低宝可梦的攻击力。这是默认和推荐的游戏方式，但现在是可选的挑战。请选择你是否希望启用或禁用此挑战模式（以后无法重新启用）",
       "line": 510,
       "_rematchedFrom": "New challenge mode added: Regional Attack Debuff. Lowers Pokémon attack based on native region and highest reached region. This is the default and recommended way to play, but is now an optional challenge. Please choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)",
@@ -248,8 +272,8 @@
       "translation": "需要完成图鉴（推荐）",
       "line": 511
     },
-    "New challenge mode added: Require Complete Pokédex.\n\nRequires a complete regional pokédex before moving on to the next region.\n\nThis is the default and recommended way to play, but is now an optional challenge.\n\nPlease choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": {
-      "translation": "",
+    "New challenge mode added: Require Complete Pokédex. Requires a complete regional pokédex before moving on to the next region. This is the default and recommended way to play, but is now an optional challenge. Please choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": {
+      "translation": "新增挑战模式：需要完成图鉴。在前往下一个地区之前，必须完成该地区的宝可梦图鉴。这是默认且推荐的游玩方式，但现在变为可选挑战。请选择要启用还是禁用该挑战模式（之后无法再次启用）",
       "line": 511
     },
     "Land vs. Water": {
@@ -304,20 +328,20 @@
       "translation": "慢速努力值",
       "line": 752
     },
-    "New challenge mode added: Slow EVs.\n\nDiminishes the rate at which EVs are gained.\n\nThis is an optional challenge and is NOT the recommended way to play.\n\nPlease choose if you would like this challenge mode to be disabled or enabled.\n\nCan be disabled later. Can NOT be enabled later!": {
+    "New challenge mode added: Slow EVs. Diminishes the rate at which EVs are gained. This is an optional challenge and is NOT the recommended way to play. Please choose if you would like this challenge mode to be disabled or enabled. Can be disabled later. Can NOT be enabled later!": {
       "translation": "添加了新的挑战模式：慢速努力值。降低获得努力值的速度。这是一个可选的挑战，不是推荐的游戏方式。请选择你是否希望禁用或启用此挑战模式。可以稍后禁用。以后无法启用！",
       "line": 752,
       "_rematchedFrom": "New challenge mode added: Slow EVs. Diminishes the rate at which EVs are gained. This is an optional challenge and is NOT the recommended way to play. Please choose if you would like this challenge mode to be disabled or enabled. Can be disabled later. Can NOT be enabled later!",
       "_confidence": 0.95
     },
-    "Loadout ${index + 1}": {
+    "Loadout ${...}": {
       "translation": "装载${...}",
       "line": 785,
       "_rematchedFrom": "Loadout ${...}",
       "_confidence": 0.85
     },
     "Bill's Errand": {
-      "translation": "比尔的差事",
+      "translation": "正辉的差事",
       "line": 809
     },
     "Persons of Interest": {
@@ -1448,7 +1472,7 @@
       "translation": "棕色碎片",
       "line": 2565
     },
-    "${it.name} is not a valid item to store.": {
+    "${...} is not a valid item to store.": {
       "translation": "${...} 不是要存储的有效项目。",
       "line": 2572,
       "_rematchedFrom": "${...} is not a valid item to store.",
@@ -1566,6 +1590,10 @@
       "translation": "采掘场退款",
       "line": 2790
     },
+    "The old Underground upgrade system has been removed due to recent changes. We have refunded ${...} <img src=\"./assets/images/currency/diamond.svg\" height=\"24px\"/> to your wallet.": {
+      "translation": "由于近期的改动，旧的地下洞穴升级系统已被移除。我们已向你的钱包退还 ${...} <img src=\"./assets/images/currency/diamond.svg\" height=\"24px\"/>。",
+      "line": 2789
+    },
     "en-US": {
       "translation": "en-US",
       "line": 2794
@@ -1577,6 +1605,10 @@
     "Underground changes": {
       "translation": "采掘场变更",
       "line": 2800
+    },
+    "The Underground has been overhauled! Check out the Underground Help tab for all the details on the new features and how everything works. Dive in and explore the changes! <button class=\"btn btn-block btn-secondary\" onclick=\"UndergroundController.openUndergroundModal()\" data-dismiss=\"toast\">Open Underground</button>": {
+      "translation": "地下洞穴已全面改版！请查看“地下洞穴帮助”标签页，了解新功能与玩法细节。快去探索这些变化吧！ <button class=\"btn btn-block btn-secondary\" onclick=\"UndergroundController.openUndergroundModal()\" data-dismiss=\"toast\">打开地下洞穴</button>",
+      "line": 2799
     },
     "btn btn-block btn-secondary": {
       "translation": "",
@@ -1642,14 +1674,14 @@
       "translation": "",
       "line": 2982
     },
-    "[UPDATE] v${result.version}": {
+    "[UPDATE] v${...}": {
       "translation": "[更新] v${...}",
       "line": 2988,
       "_rematchedFrom": "[UPDATE] v${...}",
       "_confidence": 0.85
     },
-    "A newer version of the game is available:\n\n<a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">Reload Page</a>": {
-      "translation": "",
+    "A newer version of the game is available: <a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">Reload Page</a>": {
+      "translation": "游戏有新版本可用： <a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">刷新页面</a>",
       "line": 2989
     },
     "btn btn-warning btn-block": {
@@ -1680,44 +1712,44 @@
       "translation": "存档版本比游戏版本更新！",
       "line": 3060
     },
-    "Please update your game before attempting to load this save..\n\nSave version: ${this.saveVersion}\nGame version: ${this.version}": {
+    "Please update your game before attempting to load this save.. Save version: ${...} Game version: ${...}": {
       "translation": "请在尝试加载此保存之前更新你的游戏。保存版本：${...} 游戏版本：${...}",
       "line": 3061,
       "_rematchedFrom": "Please update your game before attempting to load this save.. Save version: ${...} Game version: ${...}",
       "_confidence": 0.85
     },
-    "Save is newer than game version\nSave version: ${this.saveVersion}\nGame version: ${this.version}": {
+    "Save is newer than game version Save version: ${...} Game version: ${...}": {
       "translation": "保存版本比游戏版本新保存版本：${...} 游戏版本：${...}",
       "line": 3065,
       "_rematchedFrom": "Save is newer than game version Save version: ${...} Game version: ${...}",
       "_confidence": 0.85
     },
-    "Applying update v${version}": {
+    "Applying update v${...}": {
       "translation": "正在应用更新 v${...}",
       "line": 3088,
       "_rematchedFrom": "Applying update v${...}",
       "_confidence": 0.85
     },
-    "Caught error while applying update v${version}:\n": {
+    "Caught error while applying update v${...}:": {
       "translation": "应用更新 v${...} 时遇到错误：",
       "line": 3092,
       "_rematchedFrom": "Caught error while applying update v${...}:",
       "_confidence": 0.85
     },
-    "Caught error while backing up save file to localStorage:\n": {
+    "Caught error while backing up save file to localStorage:": {
       "translation": "将保存文件备份到 localStorage 时遇到错误：",
       "line": 3097,
       "_rematchedFrom": "Caught error while backing up save file to localStorage:",
       "_confidence": 0.95
     },
-    "Failed to update to v${this.version}!": {
+    "Failed to update to v${...}!": {
       "translation": "无法更新到 v${...}！",
       "line": 3103,
       "_rematchedFrom": "Failed to update to v${...}!",
       "_confidence": 0.85
     },
-    "Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a>.\n\nUnable to prepare backup save for download. Your save file is safe, but report this error as well.": {
-      "translation": "",
+    "Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a>. Unable to prepare backup save for download. Your save file is safe, but report this error as well.": {
+      "translation": "请检查控制台中的错误，并在我们的 <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a> 上反馈。无法准备备份存档供下载。你的存档文件是安全的，但也请一并报告此错误。",
       "line": 3104
     },
     "text-light": {
@@ -1732,15 +1764,15 @@
       "translation": "",
       "line": 3114
     },
-    "Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a> along with your save file.\n\n${backupButton.outerHTML}\n${resetButton.outerHTML}": {
-      "translation": "",
+    "Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a> along with your save file. ${...} ${...}": {
+      "translation": "请检查控制台中的错误，并将它们连同你的存档文件一起在我们的 <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a> 上反馈。${...} ${...}",
       "line": 3118
     },
     "Reset save": {
       "translation": "重置存档",
       "line": 3127
     },
-    "Are you sure you want to reset your save?\n\nThis cannot be undone, so please make sure you have a backup first!": {
+    "Are you sure you want to reset your save? This cannot be undone, so please make sure you have a backup first!": {
       "translation": "你确定要重置你的保存吗？此操作无法撤消，因此请先确保你有备份！",
       "line": 3128,
       "_rematchedFrom": "Are you sure you want to reset your save? This cannot be undone, so please make sure you have a backup first!",
@@ -1750,19 +1782,19 @@
       "translation": "重置",
       "line": 3130
     },
-    "player${Save.key}": {
+    "player${...}": {
       "translation": "",
       "line": 3135
     },
-    "save${Save.key}": {
+    "save${...}": {
       "translation": "",
       "line": 3136
     },
-    "settings${Save.key}": {
+    "settings${...}": {
       "translation": "",
       "line": 3137
     },
-    "[v${this.version}] Game has been updated!": {
+    "[v${...}] Game has been updated!": {
       "translation": "[v${...}] 游戏已更新！",
       "line": 3155,
       "_rematchedFrom": "[v${...}] Game has been updated!",
@@ -1772,19 +1804,19 @@
       "translation": "",
       "line": 3156
     },
-    "Check the <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>changelog</u></a> for details!\n\n${backupButton.outerHTML}": {
-      "translation": "",
+    "Check the <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>changelog</u></a> for details! ${...}": {
+      "translation": "查看 <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>更新日志</u></a> 了解详情！${...}",
       "line": 3156
     },
     "Error trying to convert backup save": {
       "translation": "尝试转换备份保存时出错",
       "line": 3161
     },
-    "Check the <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>changelog</u></a> for details!\n\n<i>Failed to download old save. Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a>.</i>": {
-      "translation": "",
+    "Check the <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>changelog</u></a> for details! <i>Failed to download old save. Please check the console for errors, and report them on our <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a>.</i>": {
+      "translation": "查看 <a class=\"text-light\" href=\"#changelogModal\" data-toggle=\"modal\"><u>更新日志</u></a> 了解详情！<i>无法下载旧存档。请检查控制台中的错误，并在我们的 <a class=\"text-light\" href=\"https://discord.gg/a6DFe4p\"><u>Discord</u></a> 上反馈。</i>",
       "line": 3164
     },
-    "Caught error while backing up old save file to localStorage:\n": {
+    "Caught error while backing up old save file to localStorage:": {
       "translation": "将旧保存文件备份到 localStorage 时遇到错误：",
       "line": 3171,
       "_rematchedFrom": "Caught error while backing up old save file to localStorage:",

@@ -18,13 +18,13 @@
       "translation": "",
       "line": 6
     },
-    "${this.requiredValue} Shadow Pokémon need to be obtained.": {
+    "${...} Shadow Pokémon need to be obtained.": {
       "translation": "需要获得${...}个暗影宝可梦。",
       "line": 16,
       "_rematchedFrom": "${...} Shadow Pokémon need to be obtained.",
       "_confidence": 0.85
     },
-    "${this.requiredValue} Shadow Pokémon need to be purified.": {
+    "${...} Shadow Pokémon need to be purified.": {
       "translation": "${...} 暗影宝可梦需要净化。",
       "line": 18,
       "_rematchedFrom": "${...} Shadow Pokémon need to be purified.",

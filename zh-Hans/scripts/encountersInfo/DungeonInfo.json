@@ -10,7 +10,7 @@
       "translation": "Missing No.",
       "line": 10
     },
-    "${DungeonInfo.getDungeonName()} - ${DungeonInfo.getRegionName()} (${DungeonInfo.getSubregionName()})": {
+    "${...} - ${...} (${...})": {
       "translation": "",
       "line": 19
     },
@@ -18,7 +18,7 @@
       "translation": "数字",
       "line": 36
     },
-    "${input} Berry": {
+    "${...} Berry": {
       "translation": "${...}树果",
       "line": 50,
       "_rematchedFrom": "${...} Berry",

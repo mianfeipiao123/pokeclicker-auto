@@ -6,11 +6,11 @@
     "translatedCount": 62
   },
   "entries": {
-    "${ql.name.replace(/(['])/g, ": {
+    "${ql.name.replace(/(['])/g,": {
       "translation": "",
       "line": 5
     },
-    "'${ql.name.replace(/(['])/g, '\\\\$1')}'": {
+    "'${...}'": {
       "translation": "",
       "line": 5
     },
@@ -23,7 +23,7 @@
       "line": 12
     },
     "Bill's Grandpa Treasure Hunt": {
-      "translation": "比尔的爷爷寻宝",
+      "translation": "正辉的爷爷寻宝",
       "line": 13
     },
     "Mining Expedition": {
@@ -31,7 +31,7 @@
       "line": 14
     },
     "Bill's Errand": {
-      "translation": "比尔的差事",
+      "translation": "正辉的差事",
       "line": 15
     },
     "Persons of Interest": {

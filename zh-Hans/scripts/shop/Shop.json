@@ -22,7 +22,7 @@
       "translation": "前往商店购买物品。",
       "line": 20
     },
-    "Poké Mart ${this.parent.name}": {
+    "Poké Mart ${...}": {
       "translation": "宝可梦超市 ${...}",
       "line": 47,
       "_rematchedFrom": "Poké Mart ${...}",

@@ -1674,7 +1674,7 @@
       "translation": "你们还有更多巨型石头吗？",
       "line": 504
     },
-    "Obtain all ${totalMegaStones} Mega Stones.": {
+    "Obtain all ${...} Mega Stones.": {
       "translation": "获得所有 ${...} 巨型宝石。",
       "line": 504,
       "_rematchedFrom": "Obtain all ${...} Mega Stones.",
@@ -1692,199 +1692,187 @@
       "translation": "最高",
       "line": 514
     },
-    "${gym} Gym": {
+    "${...} Gym": {
       "translation": "${...}道馆",
       "line": 520,
       "_rematchedFrom": "${...} Gym",
       "_confidence": 0.85
     },
-    "s` : ": {
+    "s` :": {
       "translation": "",
       "line": 522
     },
-    "${GymList[gym].leaderName}'s": {
+    "${...}'s": {
       "translation": "${...} 的",
       "line": 522,
       "_rematchedFrom": "${...}'s",
       "_confidence": 0.85
     },
-    "${elite ? ": {
+    "${elite ?": {
       "translation": "",
       "line": 526
     },
-    " : ''}${gymTitle} Regular": {
+    ": ''}${...} Regular": {
       "translation": "",
       "line": 526
     },
-    "Defeat ${leaderName} ${gymTitle} in ${gymRegion} 10 times.": {
+    "Defeat ${...} ${...} in ${...} 10 times.": {
       "translation": "在 ${...} 中击败 ${...} ${...} 10次。",
       "line": 527,
       "_rematchedFrom": "Defeat ${...} ${...} in ${...} 10 times.",
       "_confidence": 0.85
     },
-    " : ''}${gymTitle} Ruler": {
+    ": ''}${...} Ruler": {
       "translation": "",
       "line": 529
     },
-    "Defeat ${leaderName} ${gymTitle} in ${gymRegion} 100 times.": {
+    "Defeat ${...} ${...} in ${...} 100 times.": {
       "translation": "在 ${...} 中击败 ${...} ${...} 100次。",
       "line": 530,
       "_rematchedFrom": "Defeat ${...} ${...} in ${...} 100 times.",
       "_confidence": 0.85
     },
-    " : ''}${gymTitle} Owner": {
+    ": ''}${...} Owner": {
       "translation": "",
       "line": 532
     },
-    "Defeat ${leaderName} ${gymTitle} in ${gymRegion} 1,000 times.": {
+    "Defeat ${...} ${...} in ${...} 1,000 times.": {
       "translation": "在 ${...} 内击败 ${...} ${...} 1,000次。",
       "line": 533,
       "_rematchedFrom": "Defeat ${...} ${...} in ${...} 1,000 times.",
       "_confidence": 0.85
     },
-    "${route.routeName} Traveler": {
+    "${...} Traveler": {
       "translation": "${...} 旅行者",
       "line": 557,
       "_rematchedFrom": "${...} Traveler",
       "_confidence": 0.85
     },
-    "Defeat 100 Pokémon on ${routeName}.": {
+    "Defeat 100 Pokémon on ${...}.": {
       "translation": "在 ${...} 击败100只宝可梦。",
       "line": 557,
       "_rematchedFrom": "Defeat 100 Pokémon on ${...}.",
       "_confidence": 0.85
     },
-    "${route.routeName} Explorer": {
+    "${...} Explorer": {
       "translation": "${...} 资源管理器",
       "line": 558,
       "_rematchedFrom": "${...} Explorer",
       "_confidence": 0.85
     },
-    "Defeat 1,000 Pokémon on ${routeName}.": {
+    "Defeat 1,000 Pokémon on ${...}.": {
       "translation": "在 ${...} 击败1,000只宝可梦。",
       "line": 558,
       "_rematchedFrom": "Defeat 1,000 Pokémon on ${...}.",
       "_confidence": 0.85
     },
-    "${route.routeName} Conqueror": {
+    "${...} Conqueror": {
       "translation": "${...} 征服者",
       "line": 559,
       "_rematchedFrom": "${...} Conqueror",
       "_confidence": 0.85
     },
-    "Defeat 10,000 Pokémon on ${routeName}.": {
+    "Defeat 10,000 Pokémon on ${...}.": {
       "translation": "在 ${...} 击败10,000只宝可梦。",
       "line": 559,
       "_rematchedFrom": "Defeat 10,000 Pokémon on ${...}.",
       "_confidence": 0.85
     },
-    "${dungeon} Explorer": {
-      "translation": "",
-      "line": 581
-    },
-    "Clear ${dungeon} 10 times.": {
+    "Clear ${...} 10 times.": {
       "translation": "清除 ${...} 10次。",
       "line": 581,
       "_rematchedFrom": "Clear ${...} 10 times.",
       "_confidence": 0.85
     },
-    "${dungeon} Expert": {
+    "${...} Expert": {
       "translation": "${...} 专家",
       "line": 582,
       "_rematchedFrom": "${...} Expert",
       "_confidence": 0.85
     },
-    "Clear ${dungeon} 100 times.": {
+    "Clear ${...} 100 times.": {
       "translation": "清除 ${...} 100次。",
       "line": 582,
       "_rematchedFrom": "Clear ${...} 100 times.",
       "_confidence": 0.85
     },
-    "${dungeon} Hermit": {
+    "${...} Hermit": {
       "translation": "${...} 隐士",
       "line": 583,
       "_rematchedFrom": "${...} Hermit",
       "_confidence": 0.85
     },
-    "Clear ${dungeon} 250 times.": {
+    "Clear ${...} 250 times.": {
       "translation": "清除 ${...} 250次。",
       "line": 583,
       "_rematchedFrom": "Clear ${...} 250 times.",
       "_confidence": 0.85
     },
-    "${dungeon} Dweller": {
+    "${...} Dweller": {
       "translation": "${...} 居民",
       "line": 584,
       "_rematchedFrom": "${...} Dweller",
       "_confidence": 0.85
     },
-    "Clear ${dungeon} 500 times.": {
+    "Clear ${...} 500 times.": {
       "translation": "清除 ${...} 500次。",
       "line": 584,
       "_rematchedFrom": "Clear ${...} 500 times.",
       "_confidence": 0.85
     },
-    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Trainer": {
+    "${...} Trainer": {
       "translation": "${...}训练家",
       "line": 591,
       "_rematchedFrom": "${...} Trainer",
       "_confidence": 0.85
     },
-    "Catch ${amt10} unique Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
+    "Catch ${...} unique Pokémon native to the ${...} region.": {
       "translation": "捕捉 ${...} 地区原生的 ${...} 独特宝可梦。",
       "line": 591,
       "_rematchedFrom": "Catch ${...} unique Pokémon native to the ${...} region.",
       "_confidence": 0.85
     },
-    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Ace": {
+    "${...} Ace": {
       "translation": "${...} 王牌",
       "line": 592,
       "_rematchedFrom": "${...} Ace",
       "_confidence": 0.85
     },
-    "Catch ${amt50} unique Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
-      "translation": "",
-      "line": 592
-    },
-    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Master": {
+    "${...} Master": {
       "translation": "${...} 大师",
       "line": 593,
       "_rematchedFrom": "${...} Master",
       "_confidence": 0.85
     },
-    "Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Pokédex!": {
+    "Complete the ${...} Pokédex!": {
       "translation": "",
       "line": 593
     },
-    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Trainer": {
+    "${...} Shiny Trainer": {
       "translation": "${...} 异色训练师",
       "line": 595,
       "_rematchedFrom": "${...} Shiny Trainer",
       "_confidence": 0.85
     },
-    "Catch ${amt10} unique Shiny Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
+    "Catch ${...} unique Shiny Pokémon native to the ${...} region.": {
       "translation": "捕捉 ${...} 地区原生的 ${...} 独特异色宝可梦。",
       "line": 595,
       "_rematchedFrom": "Catch ${...} unique Shiny Pokémon native to the ${...} region.",
       "_confidence": 0.85
     },
-    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Ace": {
+    "${...} Shiny Ace": {
       "translation": "${...}异色王牌",
       "line": 596,
       "_rematchedFrom": "${...} Shiny Ace",
       "_confidence": 0.85
     },
-    "Catch ${amt50} unique Shiny Pokémon native to the ${GameConstants.camelCaseToString(GameConstants.Region[region])} region.": {
-      "translation": "",
-      "line": 596
-    },
-    "${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Master": {
+    "${...} Shiny Master": {
       "translation": "${...} 异色大师",
       "line": 597,
       "_rematchedFrom": "${...} Shiny Master",
       "_confidence": 0.85
     },
-    "Complete the ${GameConstants.camelCaseToString(GameConstants.Region[region])} Shiny Pokédex!": {
+    "Complete the ${...} Shiny Pokédex!": {
       "translation": "",
       "line": 597
     },
@@ -2424,13 +2412,13 @@
       "translation": "",
       "line": 832
     },
-    "modules.${column}": {
+    "modules.${...}": {
       "translation": "模块。${...}",
       "line": 842,
       "_rematchedFrom": "modules.${...}",
       "_confidence": 0.85
     },
-    "#${column} > .sortable": {
+    "#${...} > .sortable": {
       "translation": "#${...} > .sortable",
       "line": 845,
       "_rematchedFrom": "#${...} > .sortable",
@@ -2488,7 +2476,7 @@
       "translation": "钱",
       "line": 889
     },
-    "Achievement not found: ${achievementName}": {
+    "Achievement not found: ${...}": {
       "translation": "未找到成就：${...}",
       "line": 897,
       "_rematchedFrom": "Achievement not found: ${...}",

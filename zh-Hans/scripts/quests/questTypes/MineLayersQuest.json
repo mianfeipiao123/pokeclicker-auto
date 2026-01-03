@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 27
     },
-    "Collect all buried treasure ${this.amount.toLocaleString('en-US')} time${suffix} in the Underground mines.": {
+    "Collect all buried treasure ${...} time${...} in the Underground mines.": {
       "translation": "在地下矿井中将埋藏的宝藏全部挖出 ${...} 次。",
       "line": 27,
       "_rematchedFrom": "Collect all buried treasure ${...} time${...} in the Underground mines.",

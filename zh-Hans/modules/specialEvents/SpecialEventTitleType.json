@@ -6,11 +6,11 @@
     "translatedCount": 9
   },
   "entries": {
-    "${ql.name.replace(/(['])/g, ": {
+    "${ql.name.replace(/(['])/g,": {
       "translation": "",
       "line": 5
     },
-    "'${ql.name.replace(/(['])/g, '\\\\$1')}'": {
+    "'${...}'": {
       "translation": "",
       "line": 5
     },

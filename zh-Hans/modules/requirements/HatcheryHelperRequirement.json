@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Hatchery Helpers need at least ${this.bonusRequired} bonus.": {
+    "${...} Hatchery Helpers need at least ${...} bonus.": {
       "translation": "${...} 孵化场助手需要至少 ${...} 奖金。",
       "line": 14,
       "_rematchedFrom": "${...} Hatchery Helpers need at least ${...} bonus.",

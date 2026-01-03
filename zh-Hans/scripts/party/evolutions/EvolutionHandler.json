@@ -10,8 +10,8 @@
       "translation": "",
       "line": 24
     },
-    "Your ${PokemonHelper.displayName(data.basePokemon)} evolved into ${shiny ? 'a shiny' : GameHelper.anOrA(evolvedPokemon)} ${PokemonHelper.displayName(evolvedPokemon)}!": {
-      "translation": "",
+    "Your ${...} evolved into ${...} ${...}!": {
+      "translation": "你的${...}进化成了${...} ${...}！",
       "line": 24
     }
   }

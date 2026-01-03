@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 26
     },
-    "Gain ${this.amount.toLocaleString('en-US')} Farm Points.": {
+    "Gain ${...} Farm Points.": {
       "translation": "获得 ${...} 农场点数。",
       "line": 26,
       "_rematchedFrom": "Gain ${...} Farm Points.",

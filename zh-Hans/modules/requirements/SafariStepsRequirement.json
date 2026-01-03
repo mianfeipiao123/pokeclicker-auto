@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Steps needs to be taken in a Safari Zone.": {
+    "${...} Steps needs to be taken in a Safari Zone.": {
       "translation": "${...} 需要在 Safari 区域中采取步骤。",
       "line": 14,
       "_rematchedFrom": "${...} Steps needs to be taken in a Safari Zone.",

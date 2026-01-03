@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Farm Points need to be obtained.": {
+    "${...} Farm Points need to be obtained.": {
       "translation": "需要获得${...}农场点数。",
       "line": 14,
       "_rematchedFrom": "${...} Farm Points need to be obtained.",

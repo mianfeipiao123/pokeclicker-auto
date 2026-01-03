@@ -26,7 +26,7 @@
       "translation": "使用钥匙石进行超级进化。",
       "line": 21
     },
-    "${this.name} needs the ${humanifyString(MegaStoneType[this.megaStone])} Mega Stone.": {
+    "${...} needs the ${...} Mega Stone.": {
       "translation": "${...}需要${...}超级石。",
       "line": 25,
       "_rematchedFrom": "${...} needs the ${...} Mega Stone.",
@@ -36,7 +36,7 @@
       "translation": "en-US",
       "line": 28
     },
-    "Needs at least ${attackRequired.toLocaleString('en-US')} attack to Mega Evolve.": {
+    "Needs at least ${...} attack to Mega Evolve.": {
       "translation": "",
       "line": 28
     },

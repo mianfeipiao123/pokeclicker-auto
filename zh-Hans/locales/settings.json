@@ -274,5 +274,9 @@
     "FRONTIER": "[[logbook:type.FRONTIER]]",
     "WANDER": "[[logbook:type.WANDER]]",
     "OTHER": "[[logbook:type.OTHER]]"
-  }
+  },
+  "--gradient-percentage": "--梯度百分比",
+  "--pokemon-category-${...}": "--pokemon-类别-${...}",
+  "modules.${...}": "模块。${...}",
+  "sound.${...}": "声音。${...}"
 }

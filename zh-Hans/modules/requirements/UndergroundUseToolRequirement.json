@@ -26,7 +26,7 @@
       "translation": "en-US",
       "line": 20
     },
-    "Requires using ${this.toolType ? humanifyString(UndergroundToolType[this.toolType]) : 'any tool'} ${this.requiredValue.toLocaleString('en-US')} times.": {
+    "Requires using ${...} ${...} times.": {
       "translation": "需要使用 ${...} ${...} 次。",
       "line": 20,
       "_rematchedFrom": "Requires using ${...} ${...} times.",

@@ -18,7 +18,7 @@
       "translation": "",
       "line": 48
     },
-    "You've successfully defeated stage ${defeatedStage.toLocaleString('en-US')} and earned:\n<span><img src=\"${reward.image}\" height=\"24px\"/> ${reward.description}</span>!": {
+    "You've successfully defeated stage ${...} and earned: <span><img src=\"${...}\" height=\"24px\"/> ${...}</span>!": {
       "translation": "你成功击败了第${...}关并获得了：\\n<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>！",
       "line": 48,
       "_rematchedFrom": "You've successfully defeated stage ${...} and earned:\\n<span><img src=\"${...}\" height=\"24px\"/> ${...}</span>!",

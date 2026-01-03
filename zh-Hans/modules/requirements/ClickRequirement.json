@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} click attacks need to be completed.": {
+    "${...} click attacks need to be completed.": {
       "translation": "需要完成${...}次点击攻击。",
       "line": 14,
       "_rematchedFrom": "${...} click attacks need to be completed.",

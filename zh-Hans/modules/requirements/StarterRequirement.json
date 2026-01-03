@@ -18,7 +18,7 @@
       "translation": "",
       "line": 5
     },
-    "Requires ${starter} to be chosen as your ${camelCaseToString(Region[this.region])} starter Pokémon.": {
+    "Requires ${...} to be chosen as your ${...} starter Pokémon.": {
       "translation": "需要选择 ${...} 作为你的 ${...} 起始宝可梦。",
       "line": 19,
       "_rematchedFrom": "Requires ${...} to be chosen as your ${...} starter Pokémon.",

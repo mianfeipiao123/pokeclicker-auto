@@ -50,7 +50,7 @@
       "translation": "",
       "line": 11
     },
-    "${PokemonType[uItem.type]} Gem": {
+    "${...} Gem": {
       "translation": "",
       "line": 43
     },

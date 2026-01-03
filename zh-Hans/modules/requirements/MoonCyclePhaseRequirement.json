@@ -22,11 +22,11 @@
       "translation": "",
       "line": 4
     },
-    " or ": {
+    "or": {
       "translation": "",
       "line": 16
     },
-    "The moon phase must be ${camelCaseToString(this.moonCyclePhases.map((moonCyclePhase) => MoonCyclePhase[moonCyclePhase]).join(' or '))}": {
+    "The moon phase must be ${...}": {
       "translation": "月相必须为 ${...}",
       "line": 16,
       "_rematchedFrom": "The moon phase must be ${...}",

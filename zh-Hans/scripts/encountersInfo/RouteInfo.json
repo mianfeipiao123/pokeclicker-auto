@@ -50,7 +50,7 @@
       "translation": "钓鱼宝可梦",
       "line": 57
     },
-    "${RouteInfo.getRouteName()} - ${RouteInfo.getRegionName()} (${RouteInfo.getSubregionName()})": {
+    "${...} - ${...} (${...})": {
       "translation": "",
       "line": 78
     }

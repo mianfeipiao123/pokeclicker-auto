@@ -30,7 +30,7 @@
       "translation": "颜色：#8e44ad；字体粗细：900；",
       "line": 23
     },
-    "[${GameConstants.formatDate(new Date())}] %cLoading Game Data..": {
+    "[${...}] %cLoading Game Data..": {
       "translation": "[${...}] %c加载游戏数据..",
       "line": 23,
       "_rematchedFrom": "[${...}] %cLoading Game Data..",
@@ -40,7 +40,7 @@
       "translation": "颜色：#2ecc71；字体粗细：900；",
       "line": 27
     },
-    "[${GameConstants.formatDate(new Date())}] %cGame loaded": {
+    "[${...}] %cGame loaded": {
       "translation": "[${...}] %c游戏已加载",
       "line": 27,
       "_rematchedFrom": "[${...}] %cGame loaded",
@@ -50,7 +50,7 @@
       "translation": "游戏已加载",
       "line": 28
     },
-    "[${GameConstants.formatDate(new Date())}] %cStarting game..": {
+    "[${...}] %cStarting game..": {
       "translation": "[${...}] %c开始游戏..",
       "line": 30,
       "_rematchedFrom": "[${...}] %cStarting game..",
@@ -76,17 +76,17 @@
       "translation": "检测到移动设备",
       "line": 57
     },
-    "Please Note: \n\nYou may experience performance issues playing on mobile, especially on older models. \n\nWhile it is ": {
+    "Please Note: You may experience performance issues playing on mobile, especially on older models. While it is": {
       "translation": "请注意：\n\n在移动设备上玩游戏可能会遇到性能问题，尤其是在较旧的机型上。\n\n虽然",
       "line": 58
     },
-    "possible to play on a phone or tablet, please be aware that the controls and features are designed with a mouse and keyboard in ": {
+    "possible to play on a phone or tablet, please be aware that the controls and features are designed with a mouse and keyboard in": {
       "translation": "可以在手机或平板电脑上玩，请注意，控件和功能是通过鼠标和键盘设计的",
       "line": 59,
       "_rematchedFrom": "possible to play on a phone or tablet, please be aware that the controls and features are designed with a mouse and keyboard in",
       "_confidence": 0.95
     },
-    "mind and may not work as well on a mobile device. \n\nFor the best gameplay experience we highly recommend playing on a PC ": {
+    "mind and may not work as well on a mobile device. For the best gameplay experience we highly recommend playing on a PC": {
       "translation": "请注意，可能无法在移动设备上正常工作。为了获得最佳游戏体验，我们强烈建议在 PC 上玩",
       "line": 60,
       "_rematchedFrom": "mind and may not work as well on a mobile device. For the best gameplay experience we highly recommend playing on a PC",
@@ -100,7 +100,7 @@
       "translation": "",
       "line": 61
     },
-    "\n\nThank You!": {
+    "Thank You!": {
       "translation": "谢谢你！",
       "line": 62,
       "_rematchedFrom": "Thank You!",

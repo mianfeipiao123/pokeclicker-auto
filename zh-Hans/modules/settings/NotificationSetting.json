@@ -22,7 +22,7 @@
       "translation": "",
       "line": 4
     },
-    "${name}.desktop": {
+    "${...}.desktop": {
       "translation": "${...}.桌面",
       "line": 17,
       "_rematchedFrom": "${...}.desktop",

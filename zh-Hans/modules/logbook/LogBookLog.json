@@ -30,7 +30,7 @@
       "translation": "未知条目",
       "line": 15
     },
-    "type.${this.type.label}": {
+    "type.${...}": {
       "translation": "类型。${...}",
       "line": 21,
       "_rematchedFrom": "type.${...}",

@@ -18,7 +18,7 @@
       "translation": "展示",
       "line": 36
     },
-    "You do not have access to the Day Care yet.\n<i>Clear Route 3 first.</i>": {
+    "You do not have access to the Day Care yet. <i>Clear Route 3 first.</i>": {
       "translation": "你还无法进入培育屋。\n<i>请先通过3号道路。</i>",
       "line": 39
     },
@@ -34,7 +34,7 @@
       "translation": "几乎",
       "line": 55
     },
-    "assets/images/breeding/${GameConstants.EggItemType[id]}.png": {
+    "assets/images/breeding/${...}.png": {
       "translation": "资产/图像/育种/${...}.png",
       "line": 75,
       "_rematchedFrom": "assets/images/breeding/${...}.png",
@@ -48,7 +48,7 @@
       "translation": "全部",
       "line": 106
     },
-    " & more": {
+    "& more": {
       "translation": "＆ 更多的",
       "line": 111,
       "_rematchedFrom": "& more",
@@ -66,39 +66,39 @@
       "translation": "en-US",
       "line": 128
     },
-    "Attack Bonus: ${Math.floor(pokemon.getBreedingAttackBonus() * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US')}": {
+    "Attack Bonus: ${...}": {
       "translation": "攻击奖励：${...}",
       "line": 128,
       "_rematchedFrom": "Attack Bonus: ${...}",
       "_confidence": 0.85
     },
-    "Base Attack: ${pokemon.baseAttack.toLocaleString('en-US')}": {
+    "Base Attack: ${...}": {
       "translation": "基本攻击：${...}",
       "line": 129,
       "_rematchedFrom": "Base Attack: ${...}",
       "_confidence": 0.85
     },
-    "Egg Steps: ${pokemon.getEggSteps().toLocaleString('en-US')}": {
+    "Egg Steps: ${...}": {
       "translation": "鸡蛋步骤：${...}",
       "line": 130,
       "_rematchedFrom": "Egg Steps: ${...}",
       "_confidence": 0.85
     },
-    "Hatches: ${App.game.statistics.pokemonHatched[pokemonData.id]().toLocaleString('en-US')}": {
+    "Hatches: ${...}": {
       "translation": "舱口：${...}",
       "line": 131,
       "_rematchedFrom": "Hatches: ${...}",
       "_confidence": 0.85
     },
-    "Efficiency: ${(pokemon.breedingEfficiency() * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US', { maximumFractionDigits: 3 })}": {
+    "Efficiency: ${...})}": {
       "translation": "",
       "line": 132
     },
-    "Steps/Att: ${(pokemon.getEggSteps() / (pokemon.getBreedingAttackBonus() * BreedingController.calculateRegionalMultiplier(pokemon))).toLocaleString('en-US', { maximumFractionDigits: 3 })}": {
+    "Steps/Att: ${...})}": {
       "translation": "",
       "line": 133
     },
-    "#${pokemon.id <= 0 ? '???' : Math.floor(pokemon.id).toString().padStart(3,'0')}": {
+    "#${...}": {
       "translation": "",
       "line": 134
     },
@@ -106,7 +106,7 @@
       "translation": "维生素",
       "line": 135
     },
-    "Vitamins: ${pokemon.totalVitaminsUsed()}": {
+    "Vitamins: ${...}": {
       "translation": "维生素：${...}",
       "line": 135,
       "_rematchedFrom": "Vitamins: ${...}",
@@ -116,7 +116,7 @@
       "translation": "落雷兽",
       "line": 136
     },
-    "EVs: ${pokemon.evs().toLocaleString('en-US')}": {
+    "EVs: ${...}": {
       "translation": "努力值：${...}",
       "line": 136,
       "_rematchedFrom": "EVs: ${...}",
@@ -126,7 +126,7 @@
       "translation": "攻击",
       "line": 137
     },
-    "Attack: ${Math.floor(pokemon.attack * BreedingController.calculateRegionalMultiplier(pokemon)).toLocaleString('en-US')}": {
+    "Attack: ${...}": {
       "translation": "攻击：${...}",
       "line": 139,
       "_rematchedFrom": "Attack: ${...}",

@@ -18,7 +18,7 @@
       "translation": "",
       "line": 3
     },
-    "You need to be in the ${SubRegions.getSubRegionById(this.region, this.subregion)} subregion of ${camelCaseToString(Region[this.region])}.": {
+    "You need to be in the ${...} subregion of ${...}.": {
       "translation": "你需要位于 ${...} 的 ${...} 子区域中。",
       "line": 15,
       "_rematchedFrom": "You need to be in the ${...} subregion of ${...}.",

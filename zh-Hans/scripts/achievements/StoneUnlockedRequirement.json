@@ -10,7 +10,7 @@
       "translation": "该商品来自尚未发布的地区。",
       "line": 26
     },
-    "You need to reach the ${GameConstants.camelCaseToString(GameConstants.Region[this.requiredValue])} region.": {
+    "You need to reach the ${...} region.": {
       "translation": "你需要到达 ${...} 区域。",
       "line": 28,
       "_rematchedFrom": "You need to reach the ${...} region.",

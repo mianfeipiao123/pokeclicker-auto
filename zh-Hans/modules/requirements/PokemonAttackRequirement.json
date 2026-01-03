@@ -42,7 +42,7 @@
       "translation": "en-US",
       "line": 34
     },
-    "${this.pokemon} needs ${comparisonOperator} ${attackRequired.toLocaleString('en-US')} attack.": {
+    "${...} needs ${...} ${...} attack.": {
       "translation": "${...} 需要 ${...} ${...} 攻击。",
       "line": 34,
       "_rematchedFrom": "${...} needs ${...} ${...} attack.",

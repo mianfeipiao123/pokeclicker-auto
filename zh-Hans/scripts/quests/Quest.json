@@ -22,11 +22,11 @@
       "translation": "",
       "line": 100
     },
-    "You have completed your quest!\nYou claimed <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${this.pointsReward.toLocaleString('en-US')}!": {
-      "translation": "",
+    "You have completed your quest! You claimed <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}!": {
+      "translation": "任务完成！你领取了<img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}！",
       "line": 100
     },
-    "You have completed your quest and claimed ${this.pointsReward.toLocaleString('en-US')} Quest Points!": {
+    "You have completed your quest and claimed ${...} Quest Points!": {
       "translation": "你已完成任务并领取了 ${...} 任务点数！",
       "line": 101,
       "_rematchedFrom": "You have completed your quest and claimed ${...} Quest Points!",
@@ -40,7 +40,7 @@
       "translation": "退出任务",
       "line": 132
     },
-    "Are you sure?\n\nYou can start the quest again later but you will lose all progress!": {
+    "Are you sure? You can start the quest again later but you will lose all progress!": {
       "translation": "你确定吗？你可以稍后再次开始任务，但你将失去所有进度！",
       "line": 133,
       "_rematchedFrom": "Are you sure? You can start the quest again later but you will lose all progress!",
@@ -50,15 +50,15 @@
       "translation": "辞职",
       "line": 135
     },
-    "0 / ${this.amount.toLocaleString('en-US')}": {
+    "0 / ${...}": {
       "translation": "",
       "line": 194
     },
-    "You can complete your quest for <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${this.pointsReward.toLocaleString('en-US')}!": {
+    "You can complete your quest for <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}!": {
       "translation": "",
       "line": 209
     },
-    "You can complete your quest for ${this.pointsReward.toLocaleString('en-US')} Quest Points!": {
+    "You can complete your quest for ${...} Quest Points!": {
       "translation": "你只需花费 ${...} 任务点即可完成你的任务！",
       "line": 210,
       "_rematchedFrom": "You can complete your quest for ${...} Quest Points!",
@@ -68,7 +68,7 @@
       "translation": "功能",
       "line": 223
     },
-    "assets/images/npcs/${npcImageName}.png": {
+    "assets/images/npcs/${...}.png": {
       "translation": "",
       "line": 300
     },

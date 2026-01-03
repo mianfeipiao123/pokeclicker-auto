@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Diamonds need to be obtained.": {
+    "${...} Diamonds need to be obtained.": {
       "translation": "需要获得${...}钻石。",
       "line": 14,
       "_rematchedFrom": "${...} Diamonds need to be obtained.",

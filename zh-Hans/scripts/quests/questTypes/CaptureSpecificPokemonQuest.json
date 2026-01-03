@@ -6,17 +6,17 @@
     "translatedCount": 2
   },
   "entries": {
-    "or hatch ": {
+    "or hatch": {
       "translation": "",
       "line": 17
     },
-    "Capture ${this.includeBreeding ? 'or hatch ' : ''}${this.pokemon.name}.": {
+    "Capture ${...}${...}.": {
       "translation": "捕获${...}${...}。",
       "line": 17,
       "_rematchedFrom": "Capture ${...}${...}.",
       "_confidence": 0.85
     },
-    "Capture ${this.includeBreeding ? 'or hatch ' : ''}${this.pokemon.name} ${this.amount} times.": {
+    "Capture ${...}${...} ${...} times.": {
       "translation": "捕获 ${...}${...} ${...} 次。",
       "line": 19,
       "_rematchedFrom": "Capture ${...}${...} ${...} times.",

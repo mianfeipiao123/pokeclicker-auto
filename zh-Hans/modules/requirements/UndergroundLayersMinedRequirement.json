@@ -18,7 +18,7 @@
       "translation": "en-US",
       "line": 15
     },
-    "Collect all buried treasure ${this.requiredValue.toLocaleString('en-US')} time${suffix} in the Underground mines.": {
+    "Collect all buried treasure ${...} time${...} in the Underground mines.": {
       "translation": "",
       "line": 15
     }

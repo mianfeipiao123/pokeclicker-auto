@@ -6,7 +6,7 @@
     "translatedCount": 2
   },
   "entries": {
-    "I've heard that growing ${BerryType[this.berryReqs[0]]} Berries can spread a new Berry into nearby empty plots!": {
+    "I've heard that growing ${...} Berries can spread a new Berry into nearby empty plots!": {
       "translation": "我听说种植 ${...} 树果可以将新树果传播到附近的空地上！",
       "line": 53,
       "_rematchedFrom": "I've heard that growing ${...} Berries can spread a new Berry into nearby empty plots!",
@@ -16,11 +16,11 @@
       "translation": "",
       "line": 56
     },
-    ").replace(/, ([\\w\\s]+)$/, ": {
+    ").replace(/, ([\\w\\s]+)$/,": {
       "translation": "",
       "line": 56
     },
-    "I've heard that growing ${this.berryReqs.map(b => BerryType[b]).join(', ').replace(/, ([\\w\\s]+)$/, ' and $1')} Berries near each other will produce something interesting!": {
+    "I've heard that growing ${...} Berries near each other will produce something interesting!": {
       "translation": "我听说将 ${...} 树果靠近种植会产生一些有趣的东西！",
       "line": 56,
       "_rematchedFrom": "I've heard that growing ${...} Berries near each other will produce something interesting!",

@@ -34,11 +34,11 @@
       "translation": "en-US",
       "line": 31
     },
-    "pure ": {
+    "pure": {
       "translation": "",
       "line": 31
     },
-    "Defeat ${this.requiredValue.toLocaleString('en-US')} ${this.monoType ? 'pure ' : ''}${PokemonType[this.type]}-type Pokémon.": {
+    "Defeat ${...} ${...}${...}-type Pokémon.": {
       "translation": "击败${...} ${...}${...}型宝可梦。",
       "line": 31,
       "_rematchedFrom": "Defeat ${...} ${...}${...}-type Pokémon.",

@@ -46,8 +46,8 @@
       "translation": "成就",
       "line": 22
     },
-    "[${this.notificationTitle}] ${this.name}": {
-      "translation": "",
+    "[${...}] ${...}": {
+      "translation": "【${...}】${...}",
       "line": 51
     },
     "function": {

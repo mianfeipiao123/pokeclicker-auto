@@ -22,13 +22,13 @@
       "translation": "",
       "line": 55
     },
-    "It appears you are not strong enough to defeat ${GymBattle.gym.leaderName.replace(/\\d/g, '')}.": {
+    "It appears you are not strong enough to defeat ${...}.": {
       "translation": "你的实力似乎不足以击败${...}。",
       "line": 93,
       "_rematchedFrom": "It appears you are not strong enough to defeat ${...}.",
       "_confidence": 0.85
     },
-    "Congratulations, you defeated ${GymBattle.gym.leaderName.replace(/\\d/g, '')}!": {
+    "Congratulations, you defeated ${...}!": {
       "translation": "恭喜，你击败了${...}！",
       "line": 104,
       "_rematchedFrom": "Congratulations, you defeated ${...}!",

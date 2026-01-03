@@ -62,13 +62,13 @@
       "translation": "昏死",
       "line": 14
     },
-    "${this.displayName} dropped ${GameHelper.anOrA(name)} ${name}!": {
+    "${...} dropped ${...} ${...}!": {
       "translation": "${...} 掉落了 ${...} ${...}！",
       "line": 89,
       "_rematchedFrom": "${...} dropped ${...} ${...}!",
       "_confidence": 0.85
     },
-    "The enemy ${msg} <img src=\"${BagHandler.image(this.heldItem)}\" height=\"24px\"/>": {
+    "The enemy ${...} <img src=\"${...}\" height=\"24px\"/>": {
       "translation": "敌方${...} <img src=\"${...}\" height=\"24px\"/>",
       "line": 91,
       "_rematchedFrom": "The enemy ${...} <img src=\"${...}\" height=\"24px\"/>",

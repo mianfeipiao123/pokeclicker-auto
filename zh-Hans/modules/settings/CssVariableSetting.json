@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "--${name}": {
+    "--${...}": {
       "translation": "",
       "line": 7
     },

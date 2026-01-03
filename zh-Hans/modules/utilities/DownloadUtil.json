@@ -10,7 +10,7 @@
       "translation": "链接地址",
       "line": 3
     },
-    "data:text/plain;charset=utf-8,${encodeURIComponent(data)}": {
+    "data:text/plain;charset=utf-8,${...}": {
       "translation": "",
       "line": 3
     },

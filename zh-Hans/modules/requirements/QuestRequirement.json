@@ -18,7 +18,7 @@
       "translation": "en-US",
       "line": 14
     },
-    "Complete ${this.requiredValue.toLocaleString('en-US')} quests.": {
+    "Complete ${...} quests.": {
       "translation": "完成 ${...} 任务。",
       "line": 14,
       "_rematchedFrom": "Complete ${...} quests.",

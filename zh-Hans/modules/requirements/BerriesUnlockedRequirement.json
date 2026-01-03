@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Have ${this.requiredValue} different Berry types unlocked.": {
+    "Have ${...} different Berry types unlocked.": {
       "translation": "已解锁 ${...} 种不同的树果类型。",
       "line": 14,
       "_rematchedFrom": "Have ${...} different Berry types unlocked.",

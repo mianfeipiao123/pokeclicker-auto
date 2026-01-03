@@ -18,7 +18,7 @@
       "translation": "所有宝可梦都有抵抗力！",
       "line": 52
     },
-    "EVs until all Pokémon are resistant: ${current} / ${total}": {
+    "EVs until all Pokémon are resistant: ${...} / ${...}": {
       "translation": "",
       "line": 52
     },

@@ -6,7 +6,7 @@
     "translatedCount": 1
   },
   "entries": {
-    "Needs Safari Level ${this.requiredValue}.": {
+    "Needs Safari Level ${...}.": {
       "translation": "需要 Safari 级别 ${...}。",
       "line": 11,
       "_rematchedFrom": "Needs Safari Level ${...}.",

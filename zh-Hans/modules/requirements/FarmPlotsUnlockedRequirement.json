@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Plots in the Farm need to be unlocked.": {
+    "${...} Plots in the Farm need to be unlocked.": {
       "translation": "${...} 农场中的地块需要解锁。",
       "line": 14,
       "_rematchedFrom": "${...} Plots in the Farm need to be unlocked.",

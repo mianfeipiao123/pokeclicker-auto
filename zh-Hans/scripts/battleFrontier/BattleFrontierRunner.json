@@ -34,15 +34,15 @@
       "translation": "",
       "line": 96
     },
-    "You managed to beat stage ${stageBeaten.toLocaleString('en-US')}.\nYou received <img src=\"./assets/images/currency/battlePoint.svg\" height=\"24px\"/> ${battlePointsEarned.toLocaleString('en-US')}.\nYou received <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${moneyEarned.toLocaleString('en-US')}.": {
-      "translation": "",
+    "You managed to beat stage ${...}. You received <img src=\"./assets/images/currency/battlePoint.svg\" height=\"24px\"/> ${...}. You received <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}.": {
+      "translation": "你成功击败了第${...}关。你获得了<img src=\"./assets/images/currency/battlePoint.svg\" height=\"24px\"/> ${...}。你获得了<img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}。",
       "line": 96
     },
-    "You managed to beat stage ${stageBeaten.toLocaleString('en-US')}.\nYou received ${battlePointsEarned.toLocaleString('en-US')} Battle Points.\nYou received ${moneyEarned.toLocaleString('en-US')} Pokédollars.": {
-      "translation": "",
+    "You managed to beat stage ${...}. You received ${...} Battle Points. You received ${...} Pokédollars.": {
+      "translation": "你成功击败了第${...}关。你获得了${...}对战点数。你获得了${...}宝可元。",
       "line": 97
     },
-    "Are you sure you want to leave?\n\nYou can always return later and start off where you left.": {
+    "Are you sure you want to leave? You can always return later and start off where you left.": {
       "translation": "你确定要离开吗？你随时可以稍后返回并从离开的地方开始。",
       "line": 118,
       "_rematchedFrom": "Are you sure you want to leave? You can always return later and start off where you left.",
@@ -52,13 +52,13 @@
       "translation": "离开",
       "line": 120
     },
-    "Checkpoint set for stage ${this.stage()}.": {
+    "Checkpoint set for stage ${...}.": {
       "translation": "已在第${...}层设置检查点。",
       "line": 126,
       "_rematchedFrom": "Checkpoint set for stage ${...}.",
       "_confidence": 0.85
     },
-    " style=\"filter: saturate(0);\"": {
+    "style=\"filter: saturate(0);\"": {
       "translation": "",
       "line": 143
     },
@@ -74,7 +74,7 @@
       "translation": "",
       "line": 143
     },
-    "<img class=\"pokeball-smallest\" src=\"assets/images/pokeball/Pokeball.svg\"${BattleFrontierBattle.pokemonIndex() > i ? ' style=\"filter: saturate(0);\"' : ''}>": {
+    "<img class=\"pokeball-smallest\" src=\"assets/images/pokeball/Pokeball.svg\"${...}>": {
       "translation": "",
       "line": 143
     }

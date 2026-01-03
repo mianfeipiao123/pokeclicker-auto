@@ -30,23 +30,23 @@
       "translation": "功能",
       "line": 24
     },
-    "assets/images/items/evolution/${StoneType[this.type]}.png": {
+    "assets/images/items/evolution/${...}.png": {
       "translation": "",
       "line": 56
     },
-    "assets/images/breeding/${this.name}.png": {
+    "assets/images/breeding/${...}.png": {
       "translation": "",
       "line": 58
     },
-    "assets/images/megaStone/${this.name}.png": {
+    "assets/images/megaStone/${...}.png": {
       "translation": "",
       "line": 60
     },
-    "assets/images/items/underground/${this.name}.png": {
+    "assets/images/items/underground/${...}.png": {
       "translation": "",
       "line": 62
     },
-    "assets/images/underground/${this.name}.png": {
+    "assets/images/underground/${...}.png": {
       "translation": "资产/图像/地下/${...}.png",
       "line": 67,
       "_rematchedFrom": "assets/images/underground/${...}.png",

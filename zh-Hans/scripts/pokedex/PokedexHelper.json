@@ -14,7 +14,7 @@
       "translation": "灰色的",
       "line": 23
     },
-    "linear-gradient(90deg,${GameConstants.TypeColor[pokemon.type1]} 50%, ${GameConstants.TypeColor[pokemon.type2]} 50%)": {
+    "linear-gradient(90deg,${...} 50%, ${...} 50%)": {
       "translation": "线性梯度(90deg,${...} 50%, ${...} 50%)",
       "line": 28,
       "_rematchedFrom": "linear-gradient(90deg,${...} 50%, ${...} 50%)",

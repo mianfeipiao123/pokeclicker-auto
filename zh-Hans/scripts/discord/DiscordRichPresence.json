@@ -202,7 +202,7 @@
       "translation": "en-US",
       "line": 223
     },
-    "{${option.key}}": {
+    "{${...}}": {
       "translation": "",
       "line": 225
     },
@@ -242,7 +242,7 @@
       "translation": "草",
       "line": 264
     },
-    "background-${MapHelper.calculateBattleCssClass() ?? 'grass'}": {
+    "background-${...}": {
       "translation": "背景-${...}",
       "line": 264,
       "_rematchedFrom": "background-${...}",
@@ -256,7 +256,7 @@
       "translation": "循环",
       "line": 272
     },
-    "trainer-${App.game.profile.trainer()}": {
+    "trainer-${...}": {
       "translation": "教练-${...}",
       "line": 279,
       "_rematchedFrom": "trainer-${...}",

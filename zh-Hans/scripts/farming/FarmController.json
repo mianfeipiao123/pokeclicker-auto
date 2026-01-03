@@ -14,7 +14,7 @@
       "translation": "展示",
       "line": 45
     },
-    "You need the ${GameConstants.humanifyString(KeyItemType[KeyItemType.Wailmer_pail])} to access this location.\n<i>Clear Route 6 first.</i>": {
+    "You need the ${...} to access this location. <i>Clear Route 6 first.</i>": {
       "translation": "你需要${...}才能进入此地点。\\n<i>请先通关6号道路。</i>",
       "line": 48,
       "_rematchedFrom": "You need the ${...} to access this location.\\n<i>Clear Route 6 first.</i>",
@@ -28,7 +28,7 @@
       "translation": "",
       "line": 62
     },
-    "assets/images/farm/${BerryType[plot.berry]}Tree${PlotStage[plot.stage()]}.png": {
+    "assets/images/farm/${...}Tree${...}.png": {
       "translation": "资产/图像/农场/${...}Tree${...}.png",
       "line": 64,
       "_rematchedFrom": "assets/images/farm/${...}Tree${...}.png",
@@ -50,7 +50,7 @@
       "translation": "全部施肥",
       "line": 186
     },
-    "Are you sure you want to use ${this.getAmount()} ${MulchType[FarmController.selectedMulch()].replace('_', ' ')} on all plots?": {
+    "Are you sure you want to use ${...} ${...} on all plots?": {
       "translation": "你确定要在所有绘图上使用 ${...} ${...} 吗？",
       "line": 187,
       "_rematchedFrom": "Are you sure you want to use ${...} ${...} on all plots?",
@@ -60,7 +60,7 @@
       "translation": "肥料",
       "line": 189
     },
-    "assets/images/items/berry/${BerryType[index]}.png": {
+    "assets/images/items/berry/${...}.png": {
       "translation": "",
       "line": 253
     },
@@ -80,15 +80,15 @@
       "translation": "<br>",
       "line": 289
     },
-    "url('assets/images/dynamic-background/pokemon/sparkle.png'), ": {
+    "url('assets/images/dynamic-background/pokemon/sparkle.png'),": {
       "translation": "",
       "line": 318
     },
-    "assets/images/dynamic-background/pokemon/${forgedID}.png": {
+    "assets/images/dynamic-background/pokemon/${...}.png": {
       "translation": "",
       "line": 318
     },
-    "${plot.wanderer.shiny ? 'url('assets/images/dynamic-background/pokemon/sparkle.png'), ' :  ''}url('assets/images/dynamic-background/pokemon/${forgedID}.png')": {
+    "${...}url('assets/images/dynamic-background/pokemon/${...}.png')": {
       "translation": "",
       "line": 318
     },

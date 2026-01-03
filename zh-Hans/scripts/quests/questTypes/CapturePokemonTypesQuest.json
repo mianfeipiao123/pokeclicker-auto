@@ -10,7 +10,7 @@
       "translation": "en-US",
       "line": 45
     },
-    "Capture or hatch ${this.amount.toLocaleString('en-US')} ${PokemonType[this.type]}-type Pokémon.": {
+    "Capture or hatch ${...} ${...}-type Pokémon.": {
       "translation": "捕获或孵化 ${...} 只${...}宝可梦。",
       "line": 45,
       "_rematchedFrom": "Capture or hatch ${...} ${...}-type Pokémon.",

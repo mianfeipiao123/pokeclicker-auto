@@ -6,11 +6,11 @@
     "translatedCount": 0
   },
   "entries": {
-    "${GameConstants.camelCaseToString(GameConstants.Region[this.region])} Master": {
+    "${...} Master": {
       "translation": "",
       "line": 17
     },
-    "<p>${this.pokedexCompleteText}</p>": {
+    "<p>${...}</p>": {
       "translation": "",
       "line": 28
     },
@@ -18,13 +18,9 @@
       "translation": "",
       "line": 31
     },
-    "<p>You still have ${completeDexAchievement.property.requiredValue - completeDexAchievement.getProgress()} left to catch in this region! You're almost there!</p>": {
+    "<p>You still have ${...} left to catch in this region! You're almost there!</p>": {
       "translation": "",
       "line": 33
-    },
-    "<p>${this.nextRegionUnlockedText}</p>": {
-      "translation": "",
-      "line": 37
     }
   }
 }

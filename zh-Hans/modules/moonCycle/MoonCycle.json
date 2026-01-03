@@ -26,7 +26,7 @@
       "translation": "",
       "line": 7
     },
-    "assets/images/moonCycle/${MoonCyclePhase[MoonCycle.currentMoonCyclePhase()]}.png": {
+    "assets/images/moonCycle/${...}.png": {
       "translation": "资产/图像/moonCycle/${...}.png",
       "line": 22,
       "_rematchedFrom": "assets/images/moonCycle/${...}.png",

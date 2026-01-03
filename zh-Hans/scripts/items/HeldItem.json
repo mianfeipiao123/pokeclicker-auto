@@ -50,23 +50,23 @@
       "translation": "百分比",
       "line": 67
     },
-    "A held item that ${_attackBonus > 1 ? 'raises' : 'lowers'} the attack of ${pokemonDescription} by ${(Math.abs(_attackBonus - 1)).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 0 })}${additionDescription}.": {
+    "A held item that ${...} the attack of ${...} by ${...})}${...}.": {
       "translation": "",
       "line": 67
     },
-    "${GameHelper.anOrA(PokemonType[type])} ${PokemonType[type]}-type Pokémon": {
+    "${...} ${...}-type Pokémon": {
       "translation": "${...} ${...}型宝可梦",
       "line": 100,
       "_rematchedFrom": "${...} ${...}-type Pokémon",
       "_confidence": 0.85
     },
-    " and ${_clickAttackBonus > 1 ? 'raises' : 'lowers'} its click attack contribution by ${(Math.abs(_clickAttackBonus - 1) * 100).toFixed(0)}%": {
+    "and ${...} its click attack contribution by ${...}%": {
       "translation": "${...} 其点击攻击贡献为 ${...}%",
       "line": 141,
       "_rematchedFrom": "and ${...} its click attack contribution by ${...}%",
       "_confidence": 0.85
     },
-    "A held item that increases EV gains for the holding Pokémon by ${(gainedBonus - 1).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 0 })}.": {
+    "A held item that increases EV gains for the holding Pokémon by ${...})}.": {
       "translation": "",
       "line": 158
     },
@@ -74,7 +74,7 @@
       "translation": "持有的宝可梦",
       "line": 173
     },
-    "A held item that earns ${pokemonDescription} ${(gainedBonus - 1).toLocaleString('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 0 })} bonus Experience Points.": {
+    "A held item that earns ${...} ${...})} bonus Experience Points.": {
       "translation": "",
       "line": 175
     },
@@ -102,9 +102,9 @@
       "translation": "欢乐香氛",
       "line": 181
     },
-    " the holding Shadow Pokémon": {
-      "translation": "",
-      "line": 181
+    "the holding Shadow Pokémon": {
+      "translation": "持有的暗影宝可梦",
+      "line": 183
     },
     "Excite_Scent": {
       "translation": "兴奋_气味",
@@ -112,10 +112,6 @@
     },
     "Excite Scent": {
       "translation": "激发香气",
-      "line": 183
-    },
-    "the holding Shadow Pokémon": {
-      "translation": "持有的暗影宝可梦",
       "line": 183
     },
     "Vivid_Scent": {
@@ -522,7 +518,7 @@
       "translation": "强力药草",
       "line": 256
     },
-    " in the Battle Frontier": {
+    "in the Battle Frontier": {
       "translation": "在对战开拓区",
       "line": 257,
       "_rematchedFrom": "in the Battle Frontier",

@@ -138,7 +138,7 @@
       "translation": "采掘场",
       "line": 208
     },
-    "You need the Explorer Kit to access this location.\n<i>Check out the shop at Cinnabar Island.</i>": {
+    "You need the Explorer Kit to access this location. <i>Check out the shop at Cinnabar Island.</i>": {
       "translation": "你需要探险套装才能进入此地点。\n<i>请查看红莲岛的商店。</i>",
       "line": 209
     },
@@ -150,7 +150,7 @@
       "translation": "背景图像",
       "line": 305
     },
-    "url('${undergroundImage}')": {
+    "url('${...}')": {
       "translation": "url('${...}')",
       "line": 305,
       "_rematchedFrom": "url('${...}')",
@@ -164,7 +164,7 @@
       "translation": "",
       "line": 307
     },
-    "${space[0].length * 100}% ${space.length * 100}%": {
+    "${...}% ${...}%": {
       "translation": "",
       "line": 307
     },
@@ -172,7 +172,7 @@
       "translation": "转换",
       "line": 308
     },
-    "rotate(${reward.rotations * 90}deg)": {
+    "rotate(${...}deg)": {
       "translation": "旋转(${...}度)",
       "line": 308,
       "_rematchedFrom": "rotate(${...}deg)",
@@ -182,7 +182,7 @@
       "translation": "筛选",
       "line": 309
     },
-    "opacity(${reward.rewarded ? '25%' : '100%'})": {
+    "opacity(${...})": {
       "translation": "不透明度(${...})",
       "line": 309,
       "_rematchedFrom": "opacity(${...})",
@@ -192,7 +192,7 @@
       "translation": "你挖得更深了...",
       "line": 339
     },
-    "${helper.name} dug deeper...": {
+    "${...} dug deeper...": {
       "translation": "${...} 挖得更深...",
       "line": 339,
       "_rematchedFrom": "${...} dug deeper...",
@@ -206,31 +206,31 @@
       "translation": "",
       "line": 350
     },
-    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/> ${helper?.name ?? 'You'} found ${GameHelper.anOrA(itemName)} ${humanifyString(itemName)}.": {
+    "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...} found ${...} ${...}.": {
       "translation": "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...}发现了${...} ${...}。",
       "line": 350,
       "_rematchedFrom": "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...} found ${...} ${...}.",
       "_confidence": 0.85
     },
-    "${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+    "${...} found an extra ${...} in the Mine!": {
       "translation": "${...} 在矿井中发现了额外的 ${...}！",
       "line": 357,
       "_rematchedFrom": "${...} found an extra ${...} in the Mine!",
       "_confidence": 0.85
     },
-    "Lucky! ${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+    "Lucky! ${...} found an extra ${...} in the Mine!": {
       "translation": "幸运的！ ${...} 在矿井中发现了额外的 ${...}！",
       "line": 358,
       "_rematchedFrom": "Lucky! ${...} found an extra ${...} in the Mine!",
       "_confidence": 0.85
     },
-    "Jackpot! ${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+    "Jackpot! ${...} found an extra ${...} in the Mine!": {
       "translation": "大奖！ ${...} 在矿井中发现了额外的 ${...}！",
       "line": 359,
       "_rematchedFrom": "Jackpot! ${...} found an extra ${...} in the Mine!",
       "_confidence": 0.85
     },
-    "Jackpot ×${i - 2}! ${helper?.name ?? 'You'} found an extra ${humanifyString(itemName)} in the Mine!": {
+    "Jackpot ×${...}! ${...} found an extra ${...} in the Mine!": {
       "translation": "大奖×${...}！ ${...} 在矿井中发现了额外的 ${...}！",
       "line": 360,
       "_rematchedFrom": "Jackpot ×${...}! ${...} found an extra ${...} in the Mine!",
@@ -240,29 +240,29 @@
       "translation": "宝藏扫描仪",
       "line": 363
     },
-    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/> ${message}": {
+    "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...}": {
       "translation": "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...}",
       "line": 364,
       "_rematchedFrom": "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...}",
       "_confidence": 0.85
     },
-    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/> ${helper?.name ?? 'You'} found ${GameHelper.anOrA(itemName)} ${humanifyString(itemName)}, but the item was destroyed in the process.": {
+    "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...} found ${...} ${...}, but the item was destroyed in the process.": {
       "translation": "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...}发现了${...} ${...}，但物品在过程中被损坏了。",
       "line": 377,
       "_rematchedFrom": "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> ${...} found ${...} ${...}, but the item was destroyed in the process.",
       "_confidence": 0.85
     },
-    "Thanks for hiring me,\nI won't let you down!": {
+    "${...} ${...}": {
+      "translation": "${...} ${...}",
+      "line": 387
+    },
+    "Thanks for hiring me, I won't let you down!": {
       "translation": "感谢雇佣我，\n我不会让你失望的！",
       "line": 387
     },
     "Happy to work for you! Let me know when you're hiring again!": {
       "translation": "很高兴为你工作！当你再次招聘时请告诉我！",
       "line": 397
-    },
-    "<img src=\"${item.image}\" height=\"24px\" class=\"pixelated\"/> ${helper.retentionText}": {
-      "translation": "",
-      "line": 407
     },
     "Your Underground Battery has been fully charged and is ready to be discharged.": {
       "translation": "你的地下电池已充满电，可以放电了。",
@@ -276,7 +276,7 @@
       "translation": "",
       "line": 425
     },
-    "<img src=\"${image}\" height=\"24px\" class=\"pixelated\"/>": {
+    "<img src=\"${...}\" height=\"24px\" class=\"pixelated\"/>": {
       "translation": "",
       "line": 426
     },

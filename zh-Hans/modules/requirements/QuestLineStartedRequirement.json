@@ -34,7 +34,7 @@
       "translation": "",
       "line": 26
     },
-    "Questline ${this.quest.displayName} needs to ${this.option !== AchievementOption.less ? 'be started' : 'not be started yet'}.": {
+    "Questline ${...} needs to ${...}.": {
       "translation": "任务线 ${...} 需要 ${...}。",
       "line": 26,
       "_rematchedFrom": "Questline ${...} needs to ${...}.",

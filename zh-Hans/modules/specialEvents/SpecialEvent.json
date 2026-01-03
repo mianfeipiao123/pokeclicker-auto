@@ -34,7 +34,7 @@
       "translation": "无法购买",
       "line": 94
     },
-    "This costs ${price} QP.": {
+    "This costs ${...} QP.": {
       "translation": "这需要 ${...} QP。",
       "line": 95,
       "_rematchedFrom": "This costs ${...} QP.",
@@ -48,37 +48,33 @@
       "translation": "en-US",
       "line": 102
     },
-    "Starting '${this.title}' early will cost you ${price.toLocaleString('en-US')} Quest Points for 24 hours of event time.": {
+    "Starting '${...}' early will cost you ${...} Quest Points for 24 hours of event time.": {
       "translation": "提前开启“${...}”将花费 ${...} 任务点数，并获得 24 小时活动时间。",
       "line": 102,
       "_rematchedFrom": "Starting '${...}' early will cost you ${...} Quest Points for 24 hours of event time.",
       "_confidence": 0.85
     },
-    "[EVENT] ${this.title}": {
+    "[EVENT] ${...}": {
       "translation": "[活动] ${...}",
       "line": 113,
       "_rematchedFrom": "[EVENT] ${...}",
       "_confidence": 0.85
     },
-    "${this.description}\n\n<strong>Start time:</strong> ${this.startTime.toLocaleString()}\n<strong>End time:</strong> ${this.endTime.toLocaleString()}": {
-      "translation": "",
+    "${...} <strong>Start time:</strong> ${...} <strong>End time:</strong> ${...}": {
+      "translation": "${...} <strong>开始时间：</strong> ${...} <strong>结束时间：</strong> ${...}",
       "line": 114
     },
-    "starts in ${formatTimeShortWords(timeTillEventStart)}!": {
+    "starts in ${...}!": {
       "translation": "距离开始还有 ${...}！",
       "line": 142,
       "_rematchedFrom": "starts in ${...}!",
       "_confidence": 0.85
     },
-    "starts in ${formatTimeShortWords(notificationTimeout)}!": {
-      "translation": "",
-      "line": 162
-    },
     "on now!": {
       "translation": "正在进行！",
       "line": 178
     },
-    "ends in ${formatTimeShortWords(notificationTimeout)}!": {
+    "ends in ${...}!": {
       "translation": "距离结束还有 ${...}！",
       "line": 204,
       "_rematchedFrom": "ends in ${...}!",

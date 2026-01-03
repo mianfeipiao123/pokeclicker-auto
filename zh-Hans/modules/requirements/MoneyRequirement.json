@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "${this.requiredValue} Pokédollars need to be obtained.": {
+    "${...} Pokédollars need to be obtained.": {
       "translation": "",
       "line": 14
     }

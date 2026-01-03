@@ -22,7 +22,7 @@
       "translation": "",
       "line": 11
     },
-    "You must ${this.obtainText ?? 'obtain'} ${ItemList[this.itemName].displayName} first.": {
+    "You must ${...} ${...} first.": {
       "translation": "你必须先 ${...} ${...}。",
       "line": 11,
       "_rematchedFrom": "You must ${...} ${...} first.",

@@ -478,7 +478,7 @@
       "translation": "",
       "line": 228
     },
-    "assets/images/breeding/pokerus/${GameConstants.Pokerus[partyPokemon.pokerus]}.png": {
+    "assets/images/breeding/pokerus/${...}.png": {
       "translation": "",
       "line": 271
     },
@@ -486,7 +486,7 @@
       "translation": "en-US",
       "line": 272
     },
-    "EVs: ${partyPokemon.evs().toLocaleString('en-US')}": {
+    "EVs: ${...}": {
       "translation": "",
       "line": 272
     }

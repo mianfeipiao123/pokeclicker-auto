@@ -46,11 +46,11 @@
       "translation": "训练师",
       "line": 44
     },
-    "../assets/images/profile/trainer-${t}.png": {
+    "../assets/images/profile/trainer-${...}.png": {
       "translation": "",
       "line": 52
     },
-    "url('../assets/images/profile/trainer-${t}.png')": {
+    "url('../assets/images/profile/trainer-${...}.png')": {
       "translation": "",
       "line": 52
     },
@@ -58,7 +58,7 @@
       "translation": "白烟",
       "line": 69
     },
-    "trainer-bg-${background}": {
+    "trainer-bg-${...}": {
       "translation": "教练-bg-${...}",
       "line": 87,
       "_rematchedFrom": "trainer-bg-${...}",
@@ -76,7 +76,7 @@
       "translation": "多么可爱的档案！",
       "line": 96
     },
-    "assets/images/profile/trainer-${trainer}.png": {
+    "assets/images/profile/trainer-${...}.png": {
       "translation": "",
       "line": 104
     },
@@ -92,11 +92,11 @@
       "translation": "",
       "line": 116
     },
-    "assets/images/${pokemonShiny ? 'shiny' : ''}${pokemonShadow ? 'shadow' : ''}pokemon/${pokemon}${pokemonFemale ? '-f' : ''}.png": {
+    "assets/images/${...}${...}pokemon/${...}${...}.png": {
       "translation": "",
       "line": 116
     },
-    "v${version}": {
+    "v${...}": {
       "translation": "v${...}",
       "line": 118,
       "_rematchedFrom": "v${...}",
@@ -110,7 +110,7 @@
       "translation": "",
       "line": 125
     },
-    "assets/images/challenges/${c}.png": {
+    "assets/images/challenges/${...}.png": {
       "translation": "",
       "line": 127
     },
@@ -122,7 +122,7 @@
       "translation": "顶部",
       "line": 130
     },
-    "#${id}": {
+    "#${...}": {
       "translation": "",
       "line": 134
     },

@@ -10,29 +10,29 @@
       "translation": "一些",
       "line": 50
     },
-    "I've heard that ${berryType} Berries can spontaneously change!": {
+    "I've heard that ${...} Berries can spontaneously change!": {
       "translation": "我听说 ${...} 树果可以自发变化！",
       "line": 53,
       "_rematchedFrom": "I've heard that ${...} Berries can spontaneously change!",
       "_confidence": 0.85
     },
-    "I've heard that growing ${berryType} Berries": {
+    "I've heard that growing ${...} Berries": {
       "translation": "我听说种植 ${...} 树果",
       "line": 56,
       "_rematchedFrom": "I've heard that growing ${...} Berries",
       "_confidence": 0.85
     },
-    " and $1": {
+    "and $1": {
       "translation": "",
       "line": 57
     },
-    " near ${this.berryReqs.map(b => BerryType[b]).join(', ').replace(/, ([\\w\\s]+)$/, ' and $1')} Berries": {
+    "near ${...} Berries": {
       "translation": "近 ${...} 树果",
       "line": 57,
       "_rematchedFrom": "near ${...} Berries",
       "_confidence": 0.85
     },
-    " can cause it to change!": {
+    "can cause it to change!": {
       "translation": "可以导致它改变！",
       "line": 58,
       "_rematchedFrom": "can cause it to change!",

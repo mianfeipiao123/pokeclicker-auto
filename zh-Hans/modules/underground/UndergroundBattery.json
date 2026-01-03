@@ -114,7 +114,7 @@
       "translation": "电池放电",
       "line": 144
     },
-    "Your Cell Battery has discharged with the move '${randomPattern.name}'": {
+    "Your Cell Battery has discharged with the move '${...}'": {
       "translation": "你的电池已放电并移动“${...}”",
       "line": 145,
       "_rematchedFrom": "Your Cell Battery has discharged with the move '${...}'",

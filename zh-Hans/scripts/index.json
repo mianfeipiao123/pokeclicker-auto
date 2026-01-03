@@ -14,7 +14,7 @@
       "translation": "主题",
       "line": 13
     },
-    "no-select ${Settings.getSetting('theme').observableValue()} ${Settings.getSetting('backgroundImage').observableValue()}": {
+    "no-select ${...} ${...}": {
       "translation": "不选择 ${...} ${...}",
       "line": 13,
       "_rematchedFrom": "no-select ${...} ${...}",

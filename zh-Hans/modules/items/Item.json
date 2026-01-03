@@ -34,7 +34,7 @@
       "translation": "",
       "line": 11
     },
-    "Item '${name}' created with invalid nonpositive base price, defaulting to Infinity": {
+    "Item '${...}' created with invalid nonpositive base price, defaulting to Infinity": {
       "translation": "使用无效的非正基本价格创建的商品“${...}”，默认为无穷大",
       "line": 48,
       "_rematchedFrom": "Item '${...}' created with invalid nonpositive base price, defaulting to Infinity",
@@ -44,19 +44,19 @@
       "translation": "en-US",
       "line": 98
     },
-    "You can only buy ${this.maxAmount.toLocaleString('en-US')} &times; ${displayName}!": {
+    "You can only buy ${...} &times; ${...}!": {
       "translation": "你只能购买 ${...} × ${...}！",
       "line": 98,
       "_rematchedFrom": "You can only buy ${...} &times; ${...}!",
       "_confidence": 0.85
     },
-    "${displayName} is sold out!": {
+    "${...} is sold out!": {
       "translation": "${...}已售罄！",
       "line": 106,
       "_rematchedFrom": "${...} is sold out!",
       "_confidence": 0.85
     },
-    "You bought ${n.toLocaleString('en-US')} × <img src=\"${this.image}\" height=\"24px\"/> ${displayName}.": {
+    "You bought ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}.": {
       "translation": "你购买了 ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}。",
       "line": 116,
       "_rematchedFrom": "You bought ${...} × <img src=\"${...}\" height=\"24px\"/> ${...}.",
@@ -66,37 +66,37 @@
       "translation": "",
       "line": 124
     },
-    "t have enough ${curr} to buy ${n.toLocaleString(": {
+    "t have enough ${...} to buy ${n.toLocaleString(": {
       "translation": "",
       "line": 131
     },
-    "You don't have enough ${curr} to buy ${n.toLocaleString('en-US')} ${displayName}!": {
+    "You don't have enough ${...} to buy ${...} ${...}!": {
       "translation": "你没有足够的 ${...} 来购买 ${...} ${...}！",
       "line": 131,
       "_rematchedFrom": "You don't have enough ${...} to buy ${...} ${...}!",
       "_confidence": 0.85
     },
-    "You don't have any ${this.displayName}s left...": {
+    "You don't have any ${...}s left...": {
       "translation": "",
       "line": 149
     },
-    "${this.imageDirectory}/": {
+    "${...}/": {
       "translation": "",
       "line": 214
     },
-    "assets/images/items/${subDirectory}${this.name}.png": {
+    "assets/images/items/${...}${...}.png": {
       "translation": "",
       "line": 215
     },
-    "<u>${this.displayName}:</u>": {
+    "<u>${...}:</u>": {
       "translation": "",
       "line": 223
     },
-    "<br/>${this.description}": {
+    "<br/>${...}": {
       "translation": "",
       "line": 225
     },
-    "<br/><br/>In Bag: ${this.getBagAmount().toLocaleString('en-US')}": {
+    "<br/><br/>In Bag: ${...}": {
       "translation": "",
       "line": 228
     }

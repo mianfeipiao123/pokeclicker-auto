@@ -14,11 +14,11 @@
       "translation": "",
       "line": 2
     },
-    " and ": {
+    "and": {
       "translation": "",
       "line": 20
     },
-    "${output.join(' and ')}.": {
+    "${...}.": {
       "translation": "",
       "line": 20
     }

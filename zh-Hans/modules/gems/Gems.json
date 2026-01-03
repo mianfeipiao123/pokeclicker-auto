@@ -50,7 +50,7 @@
       "translation": "宝石",
       "line": 24
     },
-    "assets/images/gems/${PokemonType[type]} Gem.png": {
+    "assets/images/gems/${...} Gem.png": {
       "translation": "",
       "line": 49
     },
@@ -58,7 +58,7 @@
       "translation": "展示",
       "line": 149
     },
-    "You do not have the Gem Case.\n<i>Requires the Earth Badge.</i>": {
+    "You do not have the Gem Case. <i>Requires the Earth Badge.</i>": {
       "translation": "你没有宝石盒。\n<i>需要大地徽章。</i>",
       "line": 152
     }

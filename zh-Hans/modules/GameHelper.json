@@ -10,7 +10,7 @@
       "translation": "昏死",
       "line": 4
     },
-    "${hours}h${GameHelper.twoDigitNumber(minutes)}m": {
+    "${...}h${...}m": {
       "translation": "${...}小时${...}分钟",
       "line": 36,
       "_rematchedFrom": "${...}h${...}m",
@@ -20,15 +20,15 @@
       "translation": "功能",
       "line": 43
     },
-    "${Math.floor(n / 1e9)}b": {
+    "${...}b": {
       "translation": "",
       "line": 86
     },
-    "${Math.floor(n / 1e6)}m": {
+    "${...}m": {
       "translation": "",
       "line": 87
     },
-    "${Math.floor(n / 1e3)}k": {
+    "${...}k": {
       "translation": "",
       "line": 88
     },
@@ -36,15 +36,15 @@
       "translation": "",
       "line": 122
     },
-    " Backup": {
+    "Backup": {
       "translation": "",
       "line": 158
     },
-    "${Object.entries(changes).reduce((filename, [format, value]) => filename.replace(format, value), nameFormat)}${isBackup ? ' Backup' : ''}.txt": {
+    "${...}${...}.txt": {
       "translation": "",
       "line": 158
     },
-    "0${n}": {
+    "0${...}": {
       "translation": "",
       "line": 182
     },

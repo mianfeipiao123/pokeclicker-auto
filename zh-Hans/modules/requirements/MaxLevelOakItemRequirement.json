@@ -18,7 +18,7 @@
       "translation": "最高等级大木博士道具",
       "line": 6
     },
-    "${this.requiredValue} Oak Items leveled to the maximum level.": {
+    "${...} Oak Items leveled to the maximum level.": {
       "translation": "${...} 大木博士道具已升级至最高等级。",
       "line": 14,
       "_rematchedFrom": "${...} Oak Items leveled to the maximum level.",

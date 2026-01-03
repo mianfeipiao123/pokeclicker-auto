@@ -18,7 +18,7 @@
       "translation": "捕获总数",
       "line": 6
     },
-    "${this.requiredValue} Pokémon need to be captured.": {
+    "${...} Pokémon need to be captured.": {
       "translation": "需要捕获 ${...} 个宝可梦。",
       "line": 14,
       "_rematchedFrom": "${...} Pokémon need to be captured.",

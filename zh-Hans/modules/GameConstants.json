@@ -174,7 +174,7 @@
       "translation": "月球",
       "line": 488
     },
-    "&#${c.charCodeAt(0)};": {
+    "&#${...};": {
       "translation": "",
       "line": 526
     },
@@ -182,13 +182,13 @@
       "translation": "",
       "line": 546
     },
-    "${str}es": {
+    "${...}es": {
       "translation": "${...}es",
       "line": 548,
       "_rematchedFrom": "${...}es",
       "_confidence": 0.85
     },
-    "${str}s": {
+    "${...}s": {
       "translation": "",
       "line": 550
     },
@@ -196,31 +196,27 @@
       "translation": "准备好",
       "line": 559
     },
-    "${weeks}w": {
+    "${...}w": {
       "translation": "${...}w",
       "line": 578,
       "_rematchedFrom": "${...}w",
       "_confidence": 0.85
     },
-    "${days}d": {
+    "${...}d": {
       "translation": "${...}d",
       "line": 583,
       "_rematchedFrom": "${...}d",
       "_confidence": 0.85
     },
-    "${hours}h": {
+    "${...}h": {
       "translation": "",
       "line": 588
     },
-    "${minutes}m": {
+    "${...}m": {
       "translation": "${...}m",
       "line": 593,
       "_rematchedFrom": "${...}m",
       "_confidence": 0.85
-    },
-    "${seconds}s": {
-      "translation": "",
-      "line": 598
     },
     "now": {
       "translation": "",
@@ -230,23 +226,23 @@
       "translation": "",
       "line": 650
     },
-    "${num}T": {
+    "${...}T": {
       "translation": "${...}T",
       "line": 660,
       "_rematchedFrom": "${...}T",
       "_confidence": 0.85
     },
-    "${num}B": {
+    "${...}B": {
       "translation": "${...}b",
       "line": 666,
       "_rematchedFrom": "${...}b",
       "_confidence": 0.85
     },
-    "${num}M": {
+    "${...}M": {
       "translation": "",
       "line": 672
     },
-    "${num}K": {
+    "${...}K": {
       "translation": "${...}k",
       "line": 678,
       "_rematchedFrom": "${...}k",
@@ -2717,7 +2713,7 @@
       "line": 1867
     },
     "Bill's Grandpa": {
-      "translation": "比尔的爷爷",
+      "translation": "正辉的爷爷",
       "line": 1868
     },
     "Blue 6": {

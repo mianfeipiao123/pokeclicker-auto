@@ -30,7 +30,7 @@
       "translation": "showCurrencyLostAnimation",
       "line": 14
     },
-    "#animateCurrency-${Currency[currency]}": {
+    "#animateCurrency-${...}": {
       "translation": "#animateCurrency-${...}",
       "line": 17,
       "_rematchedFrom": "#animateCurrency-${...}",
@@ -40,13 +40,13 @@
       "translation": "文字危险",
       "line": 27
     },
-    "${amount > 0 ? '' : 'text-danger'} animated-currency": {
+    "${...} animated-currency": {
       "translation": "${...} 动画货币",
       "line": 27,
       "_rematchedFrom": "${...} animated-currency",
       "_confidence": 0.85
     },
-    "top: ${top}px; left: ${left}px; font-size: ${10 + 0.5 * Math.log(Math.abs(amount))}px;": {
+    "top: ${...}px; left: ${...}px; font-size: ${...}px;": {
       "translation": "顶部：${...}px；左：${...}px；字体大小：${...}px;",
       "line": 28,
       "_rematchedFrom": "top: ${...}px; left: ${...}px; font-size: ${...}px;",

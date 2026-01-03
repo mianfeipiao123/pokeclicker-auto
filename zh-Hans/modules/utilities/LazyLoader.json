@@ -26,13 +26,13 @@
       "translation": "自动",
       "line": 72
     },
-    "Could not find scrolling parent for LazyLoader '${key}'": {
+    "Could not find scrolling parent for LazyLoader '${...}'": {
       "translation": "找不到 LazyLoader '${...}' 的滚动父级",
       "line": 77,
       "_rematchedFrom": "Could not find scrolling parent for LazyLoader '${...}'",
       "_confidence": 0.85
     },
-    "Invalid reset function used for '${key}' lazyLoad": {
+    "Invalid reset function used for '${...}' lazyLoad": {
       "translation": "用于“${...}”lazyLoad 的重置函数无效",
       "line": 86,
       "_rematchedFrom": "Invalid reset function used for '${...}' lazyLoad",

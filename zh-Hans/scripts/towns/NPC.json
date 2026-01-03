@@ -6,7 +6,7 @@
     "translatedCount": 0
   },
   "entries": {
-    "<p>${TextMerger.mergeText(line)}</p>": {
+    "<p>${...}</p>": {
       "translation": "",
       "line": 23
     }

@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Needs quest level ${this.requiredValue}.": {
+    "Needs quest level ${...}.": {
       "translation": "需要任务等级 ${...}。",
       "line": 14,
       "_rematchedFrom": "Needs quest level ${...}.",

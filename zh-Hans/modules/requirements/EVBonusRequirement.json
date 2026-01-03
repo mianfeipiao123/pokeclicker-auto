@@ -14,7 +14,7 @@
       "translation": "",
       "line": 2
     },
-    "Reach a x${this.requiredValue} EV bonus with any Pokémon.": {
+    "Reach a x${...} EV bonus with any Pokémon.": {
       "translation": "使用任意宝可梦达到 x${...} 努力值奖励。",
       "line": 21,
       "_rematchedFrom": "Reach a x${...} EV bonus with any Pokémon.",

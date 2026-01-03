@@ -22,33 +22,21 @@
       "translation": "太阳",
       "line": 35
     },
-    "${sunY}px": {
+    "${...}px": {
       "translation": "${...} 像素",
       "line": 36,
       "_rematchedFrom": "${...}px",
       "_confidence": 0.85
     },
-    "${sunX}px": {
-      "translation": "",
-      "line": 37
-    },
     "moon": {
       "translation": "月亮",
       "line": 38
-    },
-    "${moonY}px": {
-      "translation": "",
-      "line": 39
-    },
-    "${moonX}px": {
-      "translation": "",
-      "line": 40
     },
     "sky1": {
       "translation": "天空1",
       "line": 60
     },
-    "sky sky-${bgNumber}": {
+    "sky sky-${...}": {
       "translation": "天空天空-${...}",
       "line": 60,
       "_rematchedFrom": "sky sky-${...}",
@@ -58,15 +46,11 @@
       "translation": "天空2",
       "line": 61
     },
-    "sky sky-${bgNumberNext}": {
-      "translation": "",
-      "line": 62
-    },
     "ground1": {
       "translation": "地面1",
       "line": 65
     },
-    "ground ground-${bgNumber}": {
+    "ground ground-${...}": {
       "translation": "地面-${...}",
       "line": 65,
       "_rematchedFrom": "ground ground-${...}",
@@ -76,29 +60,21 @@
       "translation": "地面2",
       "line": 66
     },
-    "ground ground-${bgNumberNext}": {
-      "translation": "",
-      "line": 67
-    },
     "div": {
       "translation": "分区",
       "line": 102
     },
-    "${Rand.intBetween(20, 90)}vh": {
+    "${...}vh": {
       "translation": "${...}vh",
       "line": 103,
       "_rematchedFrom": "${...}vh",
       "_confidence": 0.85
     },
-    "${Rand.intBetween(5, 15)}vh": {
-      "translation": "",
-      "line": 103
-    },
-    "url('assets/images/dynamic-background/pokemon/sparkle.png'), ": {
+    "url('assets/images/dynamic-background/pokemon/sparkle.png'),": {
       "translation": "",
       "line": 104
     },
-    "assets/images/dynamic-background/pokemon/${id.toString()}${shiny ? ": {
+    "assets/images/dynamic-background/pokemon/${...}${shiny ?": {
       "translation": "",
       "line": 104
     },
@@ -106,11 +82,11 @@
       "translation": "",
       "line": 104
     },
-    "${shiny ? 'url('assets/images/dynamic-background/pokemon/sparkle.png'), ' : ''}url('assets/images/dynamic-background/pokemon/${id.toString()}${shiny ? 's' : ''}.png')": {
+    "${...}url('assets/images/dynamic-background/pokemon/${...}${...}.png')": {
       "translation": "",
       "line": 104
     },
-    "speed-${moveSpeed}": {
+    "speed-${...}": {
       "translation": "速度-${...}",
       "line": 106,
       "_rematchedFrom": "speed-${...}",

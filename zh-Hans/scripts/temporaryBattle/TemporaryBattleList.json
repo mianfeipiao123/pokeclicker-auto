@@ -35,7 +35,7 @@
       "line": 22
     },
     "Viridian City": {
-      "translation": "常磐城",
+      "translation": "常磐市",
       "line": 23
     },
     "Blue1": {
@@ -67,7 +67,7 @@
       "line": 39
     },
     "Cerulean City": {
-      "translation": "华蓝城",
+      "translation": "华蓝市",
       "line": 44
     },
     "Blue 3": {
@@ -171,7 +171,7 @@
       "line": 122
     },
     "Lavender Town": {
-      "translation": "薰衣草小镇",
+      "translation": "紫苑镇",
       "line": 131
     },
     "Snorlax route 16": {
@@ -527,7 +527,7 @@
       "line": 523
     },
     "Cianwood City": {
-      "translation": "西安伍德城",
+      "translation": "浅葱市",
       "line": 529
     },
     "../pokemon/245": {
@@ -815,7 +815,7 @@
       "line": 819
     },
     "Slateport City": {
-      "translation": "斯莱特波特城",
+      "translation": "凯那市",
       "line": 826
     },
     "Wally 1": {
@@ -1055,7 +1055,7 @@
       "line": 1038
     },
     "Whew! With skills like that, y'all should head to Phenac City.": {
-      "translation": "哇！有了这样的技能，你们应该去菲纳克城。",
+      "translation": "哇！有了这样的技能，你们应该去菲纳克市。",
       "line": 1041
     },
     "Shadows in the Desert": {
@@ -1503,7 +1503,7 @@
       "line": 1393
     },
     "Jubilife City": {
-      "translation": "银禧城",
+      "translation": "祝庆市",
       "line": 1398
     },
     "Barry 3": {
@@ -1539,7 +1539,7 @@
       "line": 1416
     },
     "Hearthome City": {
-      "translation": "心家城",
+      "translation": "家缘市",
       "line": 1421
     },
     "Barry 4": {
@@ -1611,7 +1611,7 @@
       "line": 1478
     },
     "Canalave City": {
-      "translation": "卡纳拉夫城",
+      "translation": "水脉市",
       "line": 1483
     },
     "Barry 6": {
@@ -1943,7 +1943,7 @@
       "line": 1806
     },
     "Driftveil City": {
-      "translation": "漂流城",
+      "translation": "帆巴市",
       "line": 1811
     },
     "Cheren": {
@@ -2079,7 +2079,7 @@
       "line": 1944
     },
     "You can't stop us! We will use the DNA Splicers to awaken the true power of the legendary Dragon-type Pokémon! We will steal the Splicers from the Opelucid City gym leader!": {
-      "translation": "你无法阻止我们！我们将使用DNA拼合器来唤醒传说中的龙系宝可梦的真正力量！我们将从 Opelucid City 道馆领导者那里偷走拼接器！",
+      "translation": "你无法阻止我们！我们将使用 DNA 拼合器来唤醒传说中的龙系宝可梦的真正力量！我们将从双龙市道馆馆主那里偷走拼合器！",
       "line": 1947
     },
     "Zinzolin": {
@@ -4263,7 +4263,7 @@
       "line": 3908
     },
     "Whoa! That was awesome! You and your Pokémon were both so cool!<br>Oh yeah! I'm Hau! You should totally check out Iki Town! We're holding a festival soon!": {
-      "translation": "哇！太棒了！你和你的宝可梦都太酷了！<br>哦耶！我是哈乌！你绝对应该去利利小镇看看！我们马上就要举办节日了！",
+      "translation": "哇！太棒了！你和你的宝可梦都太酷了！<br>哦耶！我是哈乌！你绝对应该去利利镇看看！我们马上就要举办节日了！",
       "line": 3910
     },
     "Welcome to Paradise, Cousin!": {
@@ -4275,7 +4275,7 @@
       "line": 3917
     },
     "Iki Town Outskirts": {
-      "translation": "利利小镇郊外",
+      "translation": "利利镇郊外",
       "line": 3918
     },
     "Rival Hau": {
@@ -4307,7 +4307,7 @@
       "line": 3941
     },
     "Iki Town": {
-      "translation": "利利小镇",
+      "translation": "利利镇",
       "line": 3946
     },
     "Z-Power_Ring": {

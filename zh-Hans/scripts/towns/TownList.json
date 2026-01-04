@@ -343,7 +343,7 @@
       "line": 376
     },
     "Let me tell you though, in my youth, I was strong enough to beat Viridian City's Gym, so don't expect me to be a pushover.": {
-      "translation": "不过我告诉你，在我年轻的时候，我的实力足以击败常磐城的道馆，所以你别指望我是个容易被欺负的人。",
+      "translation": "不过我告诉你，在我年轻的时候，我的实力足以击败常磐市的道馆，所以你别指望我是个容易被欺负的人。",
       "line": 377
     },
     "As I said, that was one of the best battles I've ever had.": {
@@ -1391,7 +1391,7 @@
       "line": 899
     },
     "Viridian City": {
-      "translation": "常磐城",
+      "translation": "常磐市",
       "line": 908
     },
     "Unrivaled Blue": {
@@ -1411,7 +1411,7 @@
       "line": 931
     },
     "Cerulean City": {
-      "translation": "华蓝城",
+      "translation": "华蓝市",
       "line": 944
     },
     "Cerulean Cave": {
@@ -1427,7 +1427,7 @@
       "line": 970
     },
     "Lavender Town": {
-      "translation": "薰衣草小镇",
+      "translation": "紫苑镇",
       "line": 980
     },
     "Pokémon Tower": {
@@ -2461,7 +2461,7 @@
       "line": 1946
     },
     "Violet City": {
-      "translation": "紫城",
+      "translation": "桔梗市",
       "line": 1952
     },
     "Sprout Tower": {
@@ -2509,7 +2509,7 @@
       "line": 1996
     },
     "Cianwood City": {
-      "translation": "西安伍德城",
+      "translation": "浅葱市",
       "line": 2002
     },
     "Mahogany Town": {
@@ -4083,7 +4083,7 @@
       "line": 3080
     },
     "Ah, you must be travelers! Welcome to Phenac City! I am Es Cade, the Mayor. Now, you wanted to see me? Is there something that I may be able to assist you with?": {
-      "translation": "啊，你们一定是旅行者！欢迎来到菲纳克城！我是市长埃斯·凯德。现在，你想见我吗？有什么我可以帮助你的吗？",
+      "translation": "啊，你们一定是旅行者！欢迎来到菲纳克市！我是市长埃斯·凯德。现在，你想见我吗？有什么我可以帮助你的吗？",
       "line": 3081
     },
     "O-o-o-oh, my! Shadow Pokémon? And they attack people?! Now if that were true, that would be truly frightening. However, that is a little hard to believe.": {
@@ -4691,7 +4691,7 @@
       "line": 3346
     },
     "Slateport City": {
-      "translation": "斯莱特波特城",
+      "translation": "凯那市",
       "line": 3350
     },
     "Granite Cave": {
@@ -4763,7 +4763,7 @@
       "line": 3452
     },
     "Mossdeep City": {
-      "translation": "莫斯迪普城",
+      "translation": "绿岭市",
       "line": 3462
     },
     "Mossdeep Space Center": {
@@ -4811,7 +4811,7 @@
       "line": 3496
     },
     "Ever Grande City": {
-      "translation": "恒盛城",
+      "translation": "彩幽市",
       "line": 3502
     },
     "Battle Frontier": {
@@ -4887,7 +4887,7 @@
       "line": 3549
     },
     "Phenac City": {
-      "translation": "菲纳克城",
+      "translation": "菲纳克市",
       "line": 3556
     },
     "Phenac Stadium": {
@@ -4895,7 +4895,7 @@
       "line": 3560
     },
     "Phenac City Battles": {
-      "translation": "菲纳克城之战",
+      "translation": "菲纳克市之战",
       "line": 3560
     },
     "Pyrite Town": {
@@ -5143,7 +5143,7 @@
       "line": 4112
     },
     "Hearthome City": {
-      "translation": "心家城",
+      "translation": "家缘市",
       "line": 4156
     },
     "Sinnoh Berry Master": {
@@ -5527,7 +5527,7 @@
       "line": 4307
     },
     "An old book about Sinnoh's history was recently discovered at the Canalave City Library, it may have useful information.": {
-      "translation": "最近在卡纳拉夫市图书馆发现了一本关于神奥历史的旧书，里面可能有有用的信息。",
+      "translation": "最近在水脉市图书馆发现了一本关于神奥历史的旧书，里面可能有有用的信息。",
       "line": 4308
     },
     "assets/images/npcs/Zero.png": {
@@ -5877,7 +5877,7 @@
       "line": 4475
     },
     "I tried to capture it, but it barrelled right through my Capture Disc's trail! It went for Hearthome City. It wasn't showing any signs of slowing down yet.": {
-      "translation": "我试图捕捉它，但它径直穿过我的捕捉光盘的踪迹！它去了心家城。目前还没有显示出任何放缓的迹象。",
+      "translation": "我试图捕捉它，但它径直穿过我的捕捉光盘的踪迹！它去了家缘市。目前还没有显示出任何放缓的迹象。",
       "line": 4476
     },
     "Murph": {
@@ -6039,7 +6039,7 @@
       "line": 4560
     },
     "Jubilife City": {
-      "translation": "银禧城",
+      "translation": "祝庆市",
       "line": 4566
     },
     "Oreburgh City": {
@@ -6059,11 +6059,11 @@
       "line": 4582
     },
     "Floaroma Town": {
-      "translation": "花城",
+      "translation": "花苑镇",
       "line": 4586
     },
     "Eterna City": {
-      "translation": "绮年华城",
+      "translation": "百代市",
       "line": 4599
     },
     "Team Galactic Eterna Building": {
@@ -6099,7 +6099,7 @@
       "line": 4628
     },
     "Veilstone City": {
-      "translation": "面纱城",
+      "translation": "帷幕市",
       "line": 4638
     },
     "Team Galactic HQ": {
@@ -6111,7 +6111,7 @@
       "line": 4648
     },
     "Celestic Town": {
-      "translation": "仙境小镇",
+      "translation": "神和镇",
       "line": 4657
     },
     "Galactic Boss Cyrus": {
@@ -6127,7 +6127,7 @@
       "line": 4671
     },
     "Canalave City": {
-      "translation": "卡纳拉夫城",
+      "translation": "水脉市",
       "line": 4677
     },
     "Great Marsh": {
@@ -6135,11 +6135,11 @@
       "line": 4687
     },
     "Snowpoint City": {
-      "translation": "雪点城",
+      "translation": "雪峰市",
       "line": 4697
     },
     "Sunyshore City": {
-      "translation": "阳光海岸城",
+      "translation": "滨海市",
       "line": 4720
     },
     "Fight Area": {
@@ -6287,7 +6287,7 @@
       "line": 5101
     },
     "Driftveil City": {
-      "translation": "漂流城",
+      "translation": "帆巴市",
       "line": 5108
     },
     "Unova Berry Master": {
@@ -6359,7 +6359,7 @@
       "line": 5140
     },
     "Apparently this secret room is only accessible via a secret entrance in Relic Passage. Relic Passage runs from Driftveil City all the way under the river to Relic Castle. It's very impressive. Once I'm done investigating this part of the ruin I'm definitely going to check it out!": {
-      "translation": "显然这个秘密房间只能通过遗迹通道的秘密入口进入。遗迹通道从漂流城一直延伸到河下的遗迹城堡。这是非常令人印象深刻的。一旦我调查完这部分废墟，我一定会去看看！",
+      "translation": "显然这个秘密房间只能通过遗迹通道的秘密入口进入。遗迹通道从帆巴市一直延伸到河下的遗迹城堡。这是非常令人印象深刻的。一旦我调查完这部分废墟，我一定会去看看！",
       "line": 5141
     },
     "assets/images/npcs/Ruin Maniac.png": {
@@ -6915,7 +6915,7 @@
       "line": 5514
     },
     "Opelucid City": {
-      "translation": "奥珀透明城",
+      "translation": "双龙市",
       "line": 5523
     },
     "Team Plasma Assault": {
@@ -6947,7 +6947,7 @@
       "line": 5554
     },
     "Icirrus City": {
-      "translation": "伊西鲁斯城",
+      "translation": "雪花市",
       "line": 5564
     },
     "Twist Mountain": {
@@ -7663,7 +7663,7 @@
       "line": 6213
     },
     "I don't have enough Quest Points to buy a Linking Cord, but a girl named Mindy from Snowpoint City offered to trade me her Haunter for a Medicham.": {
-      "translation": "我没有足够的任务点来购买连接线，但是来自雪点城的一个名叫明迪的女孩提出用她的鬼魂来交换我的医疗。",
+      "translation": "我没有足够的任务点来购买连接线，但是来自雪峰市的一个名叫明迪的女孩提出用她的鬼魂来交换我的医疗。",
       "line": 6214
     },
     "Hopefully I'll have a Gengar soon...": {
@@ -9477,7 +9477,7 @@
       "line": 7319
     },
     "Hello, $playername$. Are you done with your battle against Hau on Route 3? We should all head back to Iki Town, now.": {
-      "translation": "你好，$playername$。你在3号道路上与哈乌的战斗结束了吗？我们现在该回利利小镇了。",
+      "translation": "你好，$playername$。你在3号道路上与哈乌的战斗结束了吗？我们现在该回利利镇了。",
       "line": 7325
     },
     "Professor Burnet has been so kind, and she's helping me try to find a way to get Nebby back to its own home... She's been like...like a real mother to me.": {
@@ -10441,11 +10441,11 @@
       "line": 7842
     },
     "Iki Town Outskirts": {
-      "translation": "利利小镇郊外",
+      "translation": "利利镇郊外",
       "line": 7850
     },
     "Iki Town": {
-      "translation": "利利小镇",
+      "translation": "利利镇",
       "line": 7860
     },
     "Hau 1": {

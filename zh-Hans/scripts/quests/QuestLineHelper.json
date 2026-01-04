@@ -127,7 +127,7 @@
       "line": 106
     },
     "Talk to the Old Man in Viridian City to learn about catching.": {
-      "translation": "与常磐城的老人交谈，学习捕捉的知识。",
+      "translation": "与常磐市的老人交谈，学习捕捉的知识。",
       "line": 112
     },
     "Pidgey": {
@@ -139,7 +139,7 @@
       "line": 115
     },
     "Buy the Dungeon Ticket from Viridian City Shop.": {
-      "translation": "从常磐城商店购买迷宫门票。",
+      "translation": "从常磐市商店购买迷宫门票。",
       "line": 120
     },
     "Viridian Forest": {
@@ -379,11 +379,11 @@
       "line": 284
     },
     "Viridian City": {
-      "translation": "常磐城",
+      "translation": "常磐市",
       "line": 290
     },
     "If you take down Team Rocket's leader one more time they will surely never come back from this! Clear Viridian City Gym.": {
-      "translation": "如果你再打倒火箭队的队长，他们肯定就再也回不来了！清除常磐城道馆。",
+      "translation": "如果你再打倒火箭队的队长，他们肯定就再也回不来了！清除常磐市道馆。",
       "line": 290
     },
     "Mining Expedition": {
@@ -507,7 +507,7 @@
       "line": 388
     },
     "Cianwood City": {
-      "translation": "西安伍德城",
+      "translation": "浅葱市",
       "line": 391
     },
     "The Pharmacist said he needs some time to finish Amphys medicine. Clear the Cianwood City Gym in the meantime.": {
@@ -683,7 +683,7 @@
       "line": 508
     },
     "Talk to Kimono Girl Zuki in Violet City.": {
-      "translation": "与紫罗兰城的和服少女小希对话。",
+      "translation": "与桔梗市的和服少女小希对话。",
       "line": 510
     },
     "Talk to Kimono Girl Naoko in the Ilex Forest.": {
@@ -719,7 +719,7 @@
       "line": 538
     },
     "Talk to Kimono Girl Kuni in Goldenrod City.": {
-      "translation": "与满金城的和服少女六对话。",
+      "translation": "与满金市的和服少女六对话。",
       "line": 541
     },
     "Clear the Radio Tower to get rid of any lingering Team Rocket activity.": {
@@ -1625,11 +1625,11 @@
       "line": 1139
     },
     "Canalave City": {
-      "translation": "卡纳拉夫城",
+      "translation": "水脉市",
       "line": 1142
     },
     "Cyrus is gone. Nothing to do but proceed. Adventure awaits! Clear the Canalave City Gym.": {
-      "translation": "赤日走了。没有什么可做的，只能继续。冒险等待着！清理卡纳拉夫市体育馆。",
+      "translation": "赤日走了。没有什么可做的，只能继续。冒险等待着！清理水脉市道馆。",
       "line": 1142
     },
     "Lake Valor": {
@@ -1661,7 +1661,7 @@
       "line": 1154
     },
     "You failed to protect any of the lake guardians. They have been taken to Veilstone City. So that's what that strange building was... Clear Team Galactic HQ in Veilstone City.": {
-      "translation": "你没能保护任何湖泊守护者。他们被带到了面纱城。原来那栋奇怪的建筑就是……清除位于面纱城的银河队总部。",
+      "translation": "你没能保护任何湖泊守护者。他们被带到了帷幕市。原来那栋奇怪的建筑就是……清除位于帷幕市的银河队总部。",
       "line": 1154
     },
     "Spear Pillar": {
@@ -1803,7 +1803,7 @@
       "line": 1238
     },
     "Hopefully you can finally catch up to this Happiny at Hearthome City. Ask around for any witnesses.": {
-      "translation": "希望你最终能在心家城赶上这份幸福。四处询问是否有目击证人。",
+      "translation": "希望你最终能在家缘市赶上这份幸福。四处询问是否有目击证人。",
       "line": 1241
     },
     "The Happiny went through Mt. Coronet again? This time it went west through the Southern path. Ask around for witnesses on the other side.": {
@@ -1843,7 +1843,7 @@
       "line": 1263
     },
     "The egg hatched after your battle with the egg-nappers! Bring Manaphy back to Hastings in Canalave City, and close off this mission for good.": {
-      "translation": "与蛋打蛋者战斗后，蛋孵化了！将玛纳菲带回卡纳拉夫城的黑斯廷斯，并永远结束这次任务。",
+      "translation": "与蛋打蛋者战斗后，蛋孵化了！将玛纳菲带回水脉市的黑斯廷斯，并永远结束这次任务。",
       "line": 1266
     },
     "Zero's Ambition": {
@@ -1871,7 +1871,7 @@
       "line": 1277
     },
     "Read the recently discovered book in Canalave City.": {
-      "translation": "阅读最近在卡纳拉夫市发现的书。",
+      "translation": "阅读最近在水脉市发现的书。",
       "line": 1280
     },
     "Report to Zero what was in the book.": {
@@ -2015,7 +2015,7 @@
       "line": 1363
     },
     "Driftveil City": {
-      "translation": "漂流城",
+      "translation": "帆巴市",
       "line": 1368
     },
     "Talk to Zinzolin.": {
@@ -2043,11 +2043,11 @@
       "line": 1380
     },
     "Opelucid City": {
-      "translation": "奥珀透明城",
+      "translation": "双龙市",
       "line": 1383
     },
     "Defeat the Opelucid City gym leader to obtain the DNA Splicers before Team Plasma does!": {
-      "translation": "击败 Opelucid City 道馆领袖，抢在等离子队之前获得 DNA拼合器！",
+      "translation": "击败双龙市道馆馆主，抢在等离子队之前获得 DNA 拼合器！",
       "line": 1383
     },
     "Team Plasma has stolen the DNA Splicers and is assaulting the city with an army of grunts and shadows! Defend against the Team Plasma Assault!": {
@@ -2571,11 +2571,11 @@
       "line": 1676
     },
     "Phenac City Battles": {
-      "translation": "菲纳克城之战",
+      "translation": "菲纳克市之战",
       "line": 1679
     },
     "Battle through the new Cipher Peons in Phenac City.": {
-      "translation": "在菲纳克城与新的密码苦工战斗。",
+      "translation": "在菲纳克市与新的密码苦工战斗。",
       "line": 1679
     },
     "Phenac Stadium": {
@@ -2595,7 +2595,7 @@
       "line": 1685
     },
     "Talk to Mayor Trest at the Phenac City.": {
-      "translation": "与菲纳克城的特雷斯特市长交谈。",
+      "translation": "与菲纳克市的特雷斯特市长交谈。",
       "line": 1688
     },
     "Rare_Candy": {
@@ -3221,7 +3221,7 @@
       "line": 2104
     },
     "Talk to Mr. Stone in Slateport City.": {
-      "translation": "与斯莱特波特城的斯通先生交谈。",
+      "translation": "与凯那市的斯通先生交谈。",
       "line": 2106
     },
     "Clear Granite Cave 10 times to search for the Primal Reversion Mural.": {
@@ -3853,11 +3853,11 @@
       "line": 2449
     },
     "Blue has contacted you, saying he knows something but wants a fight first. He is at Viridian City.": {
-      "translation": "Blue 已经联系了你，说他知道一些事情，但想先打一场。他在常磐城。",
+      "translation": "Blue 已经联系了你，说他知道一些事情，但想先打一场。他在常磐市。",
       "line": 2449
     },
     "Talk to Blue in Viridian City.": {
-      "translation": "与常磐城的Blue交谈。",
+      "translation": "与常磐市的Blue交谈。",
       "line": 2452
     },
     "Cerulean Cave": {
@@ -4089,7 +4089,7 @@
       "line": 2603
     },
     "Lillie still has something on her mind. Talk to her in Iki Town.": {
-      "translation": "莉莉心里还有事。在利利小镇与她交谈。",
+      "translation": "莉莉心里还有事。在利利镇与她交谈。",
       "line": 2607
     },
     "Revive": {
@@ -4097,11 +4097,11 @@
       "line": 2607
     },
     "Iki Town": {
-      "translation": "利利小镇",
+      "translation": "利利镇",
       "line": 2612
     },
     "Defeat Hala in Iki Town to complete Melemele's Grand Trial!": {
-      "translation": "击败利利小镇的哈拉，完成梅乐梅勒的大试炼！",
+      "translation": "击败利利镇的哈拉，完成梅乐梅勒的大试炼！",
       "line": 2612
     },
     "Ten Carat Hill": {

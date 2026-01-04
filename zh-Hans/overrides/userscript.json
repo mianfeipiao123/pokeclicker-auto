@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "sourceFile": null,
+    "lastUpdated": "2026-01-04",
+    "totalStrings": 25,
+    "translatedCount": 25,
+    "note": "Userscript-specific UI strings (CSS pseudo-elements, early hooks, and dynamic segment helpers)."
+  },
+  "entries": {
+    "__userscript.notifier.loaded": {
+      "translation": "已加载中文翻译",
+      "line": 1
+    },
+    "__userscript.css.dragModules": {
+      "translation": "将模块拖拽到此处",
+      "line": 10
+    },
+    "__userscript.css.badgeSuffix": {
+      "translation": " 徽章",
+      "line": 11
+    },
+    "__userscript.css.genderMale": {
+      "translation": "男",
+      "line": 12
+    },
+    "__userscript.css.genderFemale": {
+      "translation": "女",
+      "line": 13
+    },
+    "__userscript.css.pokedexAttackPrefix": {
+      "translation": "攻击： ",
+      "line": 14
+    },
+    "__userscript.type.None": {
+      "translation": "无属性",
+      "line": 30
+    },
+    "__userscript.type.Normal": {
+      "translation": "一般",
+      "line": 31
+    },
+    "__userscript.type.Fire": {
+      "translation": "火",
+      "line": 32
+    },
+    "__userscript.type.Water": {
+      "translation": "水",
+      "line": 33
+    },
+    "__userscript.type.Grass": {
+      "translation": "草",
+      "line": 34
+    },
+    "__userscript.type.Electric": {
+      "translation": "电",
+      "line": 35
+    },
+    "__userscript.type.Ice": {
+      "translation": "冰",
+      "line": 36
+    },
+    "__userscript.type.Fighting": {
+      "translation": "格斗",
+      "line": 37
+    },
+    "__userscript.type.Poison": {
+      "translation": "毒",
+      "line": 38
+    },
+    "__userscript.type.Ground": {
+      "translation": "地面",
+      "line": 39
+    },
+    "__userscript.type.Flying": {
+      "translation": "飞行",
+      "line": 40
+    },
+    "__userscript.type.Psychic": {
+      "translation": "超能力",
+      "line": 41
+    },
+    "__userscript.type.Bug": {
+      "translation": "虫",
+      "line": 42
+    },
+    "__userscript.type.Rock": {
+      "translation": "岩石",
+      "line": 43
+    },
+    "__userscript.type.Ghost": {
+      "translation": "幽灵",
+      "line": 44
+    },
+    "__userscript.type.Dragon": {
+      "translation": "龙",
+      "line": 45
+    },
+    "__userscript.type.Dark": {
+      "translation": "恶",
+      "line": 46
+    },
+    "__userscript.type.Steel": {
+      "translation": "钢",
+      "line": 47
+    },
+    "__userscript.type.Fairy": {
+      "translation": "妖精",
+      "line": 48
+    }
+  }
+}

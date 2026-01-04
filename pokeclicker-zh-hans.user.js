@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.14
+// @version      0.1.15
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -16,13 +16,14 @@
 (() => {
     'use strict';
 
-    // 拦截 Notifier.notify 替换翻译加载通知
+    // 拦截 Notifier.notify 替换翻译加载通知（文案从外置配置加载）
+    let notifierLoadedMessage = 'Translations loaded';
     const hookNotifier = () => {
         if (window.Notifier?.notify) {
             const originalNotify = window.Notifier.notify.bind(window.Notifier);
             window.Notifier.notify = (options) => {
                 if (options?.message?.startsWith('Using ') && options.message.includes(' for translations')) {
-                    options.message = '已加载中文翻译';
+                    options.message = notifierLoadedMessage;
                 }
                 return originalNotify(options);
             };
@@ -37,7 +38,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.14';
+    const SCRIPT_VERSION = '0.1.15';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -62,6 +63,7 @@
     })();
 
     const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/locales/pokemon.json`;
+    const USERSCRIPT_CONFIG_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/overrides/userscript.json`;
 
     // Keep script logic generic
     const INLINE_OVERRIDES = {};
@@ -99,31 +101,59 @@
         }),
     };
 
-    const CSS_OVERRIDES = `
+    const escapeCssContent = (s) =>
+        String(s ?? '')
+            .replace(/\\/g, '\\\\')
+            .replace(/'/g, "\\'")
+            .replace(/\r?\n/g, ' ');
+
+    const buildCssOverrides = (labels) => {
+        const dragModules = escapeCssContent(labels?.dragModules ?? 'Drag modules here');
+        const badgeSuffix = escapeCssContent(labels?.badgeSuffix ?? ' Badge');
+        const genderMale = escapeCssContent(labels?.genderMale ?? 'M');
+        const genderFemale = escapeCssContent(labels?.genderFemale ?? 'F');
+        const pokedexAttackPrefix = escapeCssContent(labels?.pokedexAttackPrefix ?? 'Attack: ');
+        return `
 @media (min-width: 768px) {
   #left-column:empty::after,
   #middle-sort-column:empty::after,
   #right-column:empty::after {
-    content: '将模块拖拽到此处' !important;
+    content: '${dragModules}' !important;
   }
 }
 
 .badgeEntry p::after {
-  content: ' 徽章' !important;
+  content: '${badgeSuffix}' !important;
 }
 
 .gender-toggle.toggler-wrapper .toggler-knob::after {
-  content: '男' !important;
+  content: '${genderMale}' !important;
 }
 
 .gender-toggle.toggler-wrapper.style-1 input[type="checkbox"]:checked + .toggler-slider .toggler-knob::after {
-  content: '女' !important;
+  content: '${genderFemale}' !important;
 }
 
 .pokedexEntry span.attack::before {
-  content: '攻击： ' !important;
+  content: '${pokedexAttackPrefix}' !important;
 }
 `;
+    };
+
+    const injectCssOverrides = (labels) => {
+        try {
+            const css = buildCssOverrides(labels);
+            let style = document.getElementById('pokeclicker-zh-hans-css-overrides');
+            if (!style) {
+                style = document.createElement('style');
+                style.id = 'pokeclicker-zh-hans-css-overrides';
+                (document.head || document.documentElement).appendChild(style);
+            }
+            if (style.textContent !== css) style.textContent = css;
+        } catch {
+            // ignore
+        }
+    };
 
     const normalizeText = (text) =>
         String(text ?? '')
@@ -214,40 +244,69 @@
         // ignore
     }
 
-    // CSS pseudo-element content can't be replaced via DOM text nodes.
-    try {
-        const style = document.createElement('style');
-        style.id = 'pokeclicker-zh-hans-css-overrides';
-        style.textContent = CSS_OVERRIDES;
-        (document.head || document.documentElement).appendChild(style);
-    } catch {
-        // ignore
-    }
-
     const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content', 'data-intro'];
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-    const TYPE_TRANSLATIONS = {
-        None: '无属性',
-        Normal: '一般系',
-        Fire: '火系',
-        Water: '水系',
-        Grass: '草系',
-        Electric: '电系',
-        Ice: '冰系',
-        Fighting: '格斗系',
-        Poison: '毒系',
-        Ground: '地面系',
-        Flying: '飞行系',
-        Psychic: '超能力系',
-        Bug: '虫系',
-        Rock: '岩石系',
-        Ghost: '幽灵系',
-        Dragon: '龙系',
-        Dark: '恶系',
-        Steel: '钢系',
-        Fairy: '妖精系',
+    /** @type {Record<string,string>} */
+    let typeTranslations = {};
+
+    const TYPE_KEYS = [
+        'None',
+        'Normal',
+        'Fire',
+        'Water',
+        'Grass',
+        'Electric',
+        'Ice',
+        'Fighting',
+        'Poison',
+        'Ground',
+        'Flying',
+        'Psychic',
+        'Bug',
+        'Rock',
+        'Ghost',
+        'Dragon',
+        'Dark',
+        'Steel',
+        'Fairy',
+    ];
+
+    const loadUserscriptConfig = async () => {
+        try {
+            const res = await fetch(USERSCRIPT_CONFIG_URL, { cache: 'no-cache' });
+            if (!res.ok) return null;
+            const json = await res.json();
+            const entries = json?.entries ?? {};
+            const getEntry = (k) => {
+                const v = entries?.[k];
+                if (typeof v === 'string') return v;
+                if (v && typeof v === 'object' && typeof v.translation === 'string') return v.translation;
+                return null;
+            };
+
+            const config = {
+                notifierLoadedMessage: getEntry('__userscript.notifier.loaded') ?? notifierLoadedMessage,
+                css: {
+                    dragModules: getEntry('__userscript.css.dragModules') ?? null,
+                    badgeSuffix: getEntry('__userscript.css.badgeSuffix') ?? null,
+                    genderMale: getEntry('__userscript.css.genderMale') ?? null,
+                    genderFemale: getEntry('__userscript.css.genderFemale') ?? null,
+                    pokedexAttackPrefix: getEntry('__userscript.css.pokedexAttackPrefix') ?? null,
+                },
+                types: {},
+            };
+
+            for (const key of TYPE_KEYS) {
+                const v = getEntry(`__userscript.type.${key}`);
+                if (typeof v === 'string' && v) config.types[key] = v;
+            }
+
+            return config;
+        } catch {
+            return null;
+        }
     };
 
     const resolveI18NextNesting = (text, dict) => {
@@ -295,7 +354,7 @@
             return `${trialName}（${trialTown}）`;
         }
 
-        const type = TYPE_TRANSLATIONS[key];
+        const type = typeTranslations?.[key];
         if (type) return type;
 
         const routeMatch = key.match(/^Route\s+(\d+)(?:\s+in\s+(.+))?$/);
@@ -627,6 +686,15 @@
         if (DEBUG) {
             // eslint-disable-next-line no-console
             console.info('[PokéClicker zh-Hans]', window.PokeClickerZhHans.getConfig());
+        }
+
+        const config = await loadUserscriptConfig();
+        if (config) {
+            notifierLoadedMessage = config.notifierLoadedMessage || notifierLoadedMessage;
+            typeTranslations = config.types || typeTranslations;
+            injectCssOverrides(config.css);
+        } else {
+            injectCssOverrides(null);
         }
 
         /** @type {Record<string,string>} */

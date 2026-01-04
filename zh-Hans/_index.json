@@ -2,15 +2,20 @@
   "version": "2.0.0",
   "generatedAt": "2026-01-04T00:00:00.000Z",
   "stats": {
-    "totalFiles": 421,
-    "totalStrings": 29191,
-    "translatedStrings": 24653,
-    "coverage": "84.45%"
+    "totalFiles": 422,
+    "totalStrings": 29216,
+    "translatedStrings": 24678,
+    "coverage": "84.47%"
   },
   "files": {
     "hardcoded-map.json": {
       "total": 2325,
       "translated": 2325,
+      "sourceFile": null
+    },
+    "overrides/userscript.json": {
+      "total": 25,
+      "translated": 25,
       "sourceFile": null
     },
     "modules/achievements/Achievement.json": {

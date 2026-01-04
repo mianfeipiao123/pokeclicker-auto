@@ -687,15 +687,15 @@
       "line": 510
     },
     "Talk to Kimono Girl Naoko in the Ilex Forest.": {
-      "translation": "与冬青林中的和服女孩直子交谈。",
+      "translation": "与栎树林中的和服女孩直子交谈。",
       "line": 516
     },
     "Ilex Forest": {
-      "translation": "冬青林",
+      "translation": "栎树林",
       "line": 519
     },
     "Clear Ilex Forest to lead Naoko to safety.": {
-      "translation": "清理冬青森林，将直子带到安全的地方。",
+      "translation": "清理栎树林，将直子带到安全的地方。",
       "line": 519
     },
     "Kimono Girl Miki has given you a package containing 50 Ultra Balls.": {
@@ -787,7 +787,7 @@
       "line": 582
     },
     "Deliver the GS Ball to Kurt in Azalea Town in Johto.": {
-      "translation": "将 GS 球交给城都杜鹃花镇的库尔特。",
+      "translation": "将 GS 球交给城都地区桧皮镇的库尔特。",
       "line": 585
     },
     "Talk to Kurt again after becoming Champion of Johto.": {
@@ -795,11 +795,11 @@
       "line": 588
     },
     "Talk to Professor Oak in Azalea Town.": {
-      "translation": "与杜鹃花镇的大木博士交谈。",
+      "translation": "与桧皮镇的大木博士交谈。",
       "line": 591
     },
     "Investigate the shrine in Ilex Forest.": {
-      "translation": "调查冬青森林中的神社。",
+      "translation": "调查栎树林中的神社。",
       "line": 594
     },
     "Spiky-eared Pichu": {
@@ -827,7 +827,7 @@
       "line": 615
     },
     "Play with the Celebi in Ilex Forest.": {
-      "translation": "在冬青森林中与雪拉比玩耍。",
+      "translation": "在栎树林中与雪拉比玩耍。",
       "line": 615
     },
     "Land vs. Water": {
@@ -2231,7 +2231,7 @@
       "line": 1506
     },
     "Victory Road Unova": {
-      "translation": "胜利路乌诺瓦",
+      "translation": "冠军之路（合众）",
       "line": 1509
     },
     "Start reuniting the Swords of Justice once again. You should probably start looking for Terrakion around Unova's Victory Road.": {
@@ -2707,15 +2707,15 @@
       "line": 1759
     },
     "Talk to Lysandre inside Professor Sycamore's lab in Lumiose City.": {
-      "translation": "在 密阿雷 市 布拉塔诺 教授的实验室中与 弗拉达利 交谈。",
+      "translation": "在密阿雷市布拉塔诺教授的实验室中与弗拉达利交谈。",
       "line": 1761
     },
     "Well, that was definitely a weird guy... Seems like Calem wants to meet you somewhere in Lumiose City, go talk with him.": {
-      "translation": "嗯，这绝对是个奇怪的家伙……看来卡勒姆想在卢米欧斯市的某个地方见到你，去和他谈谈吧。",
+      "translation": "嗯，这绝对是个奇怪的家伙……看来卡勒姆想在密阿雷市的某个地方见到你，去和他谈谈吧。",
       "line": 1764
     },
     "Meet Calem in Ambrette Town.": {
-      "translation": "在安布雷特镇遇见卡勒姆。",
+      "translation": "在古香镇遇见卡勒姆。",
       "line": 1767
     },
     "Glittering Cave": {
@@ -2765,15 +2765,15 @@
       "line": 1795
     },
     "Cyllage City": {
-      "translation": "赛利吉城",
+      "translation": "遥香市",
       "line": 1798
     },
     "With interesting thoughts about Team Flare in your head, you decide to challenge the Cyllage City Gym to become stronger.": {
-      "translation": "脑海中浮现出关于耀焰队的有趣想法，你决定挑战 Cyllage City 道馆，让自己变得更强。",
+      "translation": "脑海中浮现出关于耀焰队的有趣想法，你决定挑战遥香市道馆，让自己变得更强。",
       "line": 1799
     },
     "You can see in Geosenge Town the Team Flare Grunt you battled earlier. Approach him once more.": {
-      "translation": "你可以在巨石镇看到你之前战斗过的团队异色步兵。再一次靠近他。",
+      "translation": "你可以在石香镇看到你之前战斗过的团队异色步兵。再一次靠近他。",
       "line": 1802
     },
     "Team Flare Grunt 2": {
@@ -2785,7 +2785,7 @@
       "line": 1805
     },
     "You heard rumors of Diantha being in Coumarine City. Go there to check if you can see her.": {
-      "translation": "你听说过黛安莎在香豆素城的传闻。去那里看看你是否能看到她。",
+      "translation": "你听说过黛安莎在比翼市的传闻。去那里看看你是否能看到她。",
       "line": 1808
     },
     "Lysandre is calling you while you are standing in Coumarine City, pick up the phone.": {
@@ -2801,7 +2801,7 @@
       "line": 1814
     },
     "Well, that was extremely awkward... But ignoring that, Lumiose City still hasn't fixed the power outage, go clear the Kalos Power Plant.": {
-      "translation": "好吧，那就太尴尬了……不过不管这些，卢米欧斯城的停电还没解决，去清理卡洛斯发电厂吧。",
+      "translation": "好吧，那就太尴尬了……不过不管这些，密阿雷市的停电还没解决，去清理卡洛斯发电厂吧。",
       "line": 1815
     },
     "You're quite strong. Oh yes... very strong, indeed. I certainly didn't expect you to be so interesting. But it matters not, we already have enough energy to power the device. I do hope we can meet again!": {
@@ -2809,15 +2809,15 @@
       "line": 1817
     },
     "Lumiose City": {
-      "translation": "卢米奥塞城",
+      "translation": "密阿雷市",
       "line": 1823
     },
     "You've helped with the power outage problem, now the gym in Lumiose City is back up and you can challenge it!": {
-      "translation": "你已经帮助解决了停电问题，现在卢米奥塞市的道馆已经恢复，你可以挑战它了！",
+      "translation": "你已经帮助解决了停电问题，现在密阿雷市的道馆已经恢复，你可以挑战它了！",
       "line": 1823
     },
     "Professor Sycamore wants to meet you in Lumiose City. He's with Lysandre, go say hi.": {
-      "translation": "布拉塔诺 教授想在卢米奥塞市与你见面。他和弗拉达利在一起，去打个招呼吧。",
+      "translation": "布拉塔诺教授想在密阿雷市与你见面。他和弗拉达利在一起，去打个招呼吧。",
       "line": 1826
     },
     "Poké Ball Factory": {
@@ -2845,7 +2845,7 @@
       "line": 1850
     },
     "Professor Sycamore is waiting for you in Dendemille Town. He has some important things to say about the legendary Pokémon of Kalos.": {
-      "translation": "布拉塔诺教授在登德米尔镇等你。关于卡洛斯的传奇宝可梦，他有一些重要的事情要说。",
+      "translation": "布拉塔诺教授在风絮镇等你。关于卡洛斯的传奇宝可梦，他有一些重要的事情要说。",
       "line": 1853
     },
     "Frost Cavern": {
@@ -2865,19 +2865,19 @@
       "line": 1859
     },
     "Anistar City": {
-      "translation": "安妮斯塔城",
+      "translation": "百刻市",
       "line": 1864
     },
     "So everything is over now, right? Right? Go beat Anistar City Gym!": {
-      "translation": "所以现在一切都结束了，对吗？正确的？去打败安妮斯塔城市道馆吧！",
+      "translation": "所以现在一切都结束了，对吗？对吧？去打败百刻市道馆吧！",
       "line": 1864
     },
     "Lysandre is giving an important speech through the TV News. Watch it in Anistar City.": {
-      "translation": "弗拉达利正在通过电视新闻发表重要演讲。在安妮斯塔城观看。",
+      "translation": "弗拉达利正在通过电视新闻发表重要演讲。在百刻市观看。",
       "line": 1867
     },
     "Wow! Absolutely no one could have seen this coming! You think you might find Lysandre in Lumiose City where you first met him. Look for him!": {
-      "translation": "哇！绝对没有人能预见到这一幕！你认为你可能会在你第一次见到弗拉达利的卢米奥塞市找到他。去找他！",
+      "translation": "哇！绝对没有人能预见到这一幕！你认为你可能会在你第一次见到弗拉达利的密阿雷市找到他。去找他！",
       "line": 1870
     },
     "Team Flare Lysandre 1": {
@@ -2885,11 +2885,11 @@
       "line": 1873
     },
     "Show Team Flare Lysandre the strength of your convictions in Lumiose City!": {
-      "translation": "向 Flare 弗拉达利 团队展示你在 密阿雷 市的坚定信念！",
+      "translation": "在密阿雷市向弗拉达利展示你坚定的信念！",
       "line": 1873
     },
     "You run after Lysandre and while going through the Labs you find a jailed mysterious man in Lumiose City. It seems like he has a story to tell...": {
-      "translation": "你追赶弗拉达利，在穿过实验室时，你在卢米奥塞市发现了一名被监禁的神秘男子。看来他有故事要讲……",
+      "translation": "你追赶弗拉达利，在穿过实验室时，你在密阿雷市发现了一名被监禁的神秘男子。看来他有故事要讲……",
       "line": 1876
     },
     "Team Flare Xerosic": {
@@ -2897,7 +2897,7 @@
       "line": 1879
     },
     "Now that you learnt what the ultimate weapon is able to do, you need to stop it. Team Flare Xerosic is in the way in Lumiose City, defeat him!": {
-      "translation": "现在你已经了解了终极武器的威力，你需要阻止它。 Flare Xerosic 队在卢米奥塞市挡路，击败他！",
+      "translation": "现在你已经了解了终极武器的威力，你需要阻止它。Xerosic 在密阿雷市挡路，击败他！",
       "line": 1879
     },
     "Press the blue button!": {
@@ -2909,7 +2909,7 @@
       "line": 1883
     },
     "Xerosic offers you the possibility to stop the ultimate weapon in Lumiose City. Blue or Red Button, press one!": {
-      "translation": "Xerosic 为你提供了阻止 密阿雷 City 终极武器的可能性。蓝色或红色按钮，按一个！",
+      "translation": "Xerosic 为你提供了阻止密阿雷市终极武器的可能性。蓝色或红色按钮，按一个！",
       "line": 1888
     },
     "Team Flare Secret HQ": {
@@ -2917,7 +2917,7 @@
       "line": 1890
     },
     "The ultimate weapon was activated in Geosenge Town! Go to the Team Flare Secret HQ to put a stop to it! First step: Beating Team Flare Aliana.": {
-      "translation": "终极武器在巨石镇启动！前往耀斑小队秘密总部阻止它！第一步：击败 Flare Aliana 队。",
+      "translation": "终极武器在石香镇启动！前往耀斑小队秘密总部阻止它！第一步：击败 Flare Aliana 队。",
       "line": 1890
     },
     "I had fun at the Kalos Power Plant. Of course, we could have generated electricity with Team Flare's technology, too, you know. We just didn't think it justified the cost. To create a world for us and us alone, we have to play it smart, you see.": {
@@ -3001,7 +3001,7 @@
       "line": 1942
     },
     "What an amazing trainer! You became Kalos Champion! There is a parade in your honor in Lumiose City. But wait, AZ is there asking you for a battle. Show him what being a Pokémon Trainer is like!": {
-      "translation": "多么了不起的教练啊！你成为了卡洛斯冠军！卢米奥塞市将举行一场纪念你的游行。但是等等，AZ 正在向你发起战斗。向他展示成为一名宝可梦训练师是什么样的！",
+      "translation": "多么了不起的训练家啊！你成为了卡洛斯冠军！密阿雷市将举行一场纪念你的游行。但是等等，AZ 正在向你发起战斗。向他展示成为一名宝可梦训练家是什么样的！",
       "line": 1946
     },
     "Key_stone": {
@@ -3677,7 +3677,7 @@
       "line": 2346
     },
     "Defend Diancie from the attacking ninja in Shalour City.": {
-      "translation": "在夏洛尔城保护蒂安希免受忍者的攻击。",
+      "translation": "在娑罗市保护蒂安希免受忍者的攻击。",
       "line": 2346
     },
     "Merilyn": {
@@ -3685,7 +3685,7 @@
       "line": 2349
     },
     "Diancie has escaped to the shopping mall in Lumiose City, but is under attack again!": {
-      "translation": "蒂安西逃到了卢米欧斯市的购物中心，却再次遭到攻击！",
+      "translation": "蒂安西逃到了密阿雷市的购物中心，却再次遭到攻击！",
       "line": 2349
     },
     "Diancie has fled to the Diamond Domain. Dig in the Underground to find it.": {
@@ -3697,11 +3697,11 @@
       "line": 2355
     },
     "Millis and Argus Steel let you do the hard work while they set up an ambush in Shalour City.": {
-      "translation": "米利斯和阿古斯钢让你在夏洛尔城埋伏时完成艰苦的工作。",
+      "translation": "米利斯和阿古斯钢让你在娑罗市埋伏时完成艰苦的工作。",
       "line": 2355
     },
     "Millis and Argus Steel fled but their Aegislash stayed behind. Look for it in Shalour City and find out what it wants!": {
-      "translation": "米利斯和阿古斯钢逃跑了，但他们的圣盾留下了。去夏洛尔城寻找它，看看它想要什么！",
+      "translation": "米利斯和阿古斯钢逃跑了，但他们的圣盾留下了。去娑罗市寻找它，看看它想要什么！",
       "line": 2358
     },
     "Diancie needs help building a Heart Diamond to stabilize the Diamond Domain. Gather some Fairy Gems for her.": {
@@ -3745,7 +3745,7 @@
       "line": 2380
     },
     "Talk to Baraz in Kiloude City.": {
-      "translation": "与基卢德市的巴拉兹交谈。",
+      "translation": "与奇楠市的巴拉兹交谈。",
       "line": 2383
     },
     "Defeat 100 Psychic-type Pokémon.": {
@@ -3753,11 +3753,11 @@
       "line": 2386
     },
     "That didn't work. Talk to Baraz in Kiloude City.": {
-      "translation": "那行不通。与基卢德市的巴拉兹交谈。",
+      "translation": "那行不通。与奇楠市的巴拉兹交谈。",
       "line": 2391
     },
     "That didn't work either. Talk to Baraz in Kiloude City.": {
-      "translation": "那也没用。与基卢德市的巴拉兹交谈。",
+      "translation": "那也没用。与奇楠市的巴拉兹交谈。",
       "line": 2397
     },
     "Catch 100 Hoopa.": {
@@ -3765,7 +3765,7 @@
       "line": 2401
     },
     "This is ridiculous. Talk to Baraz in Kiloude City.": {
-      "translation": "这太荒谬了。与基卢德市的巴拉兹交谈。",
+      "translation": "这太荒谬了。与奇楠市的巴拉兹交谈。",
       "line": 2404
     },
     "Hoopa 1": {
@@ -3781,7 +3781,7 @@
       "line": 2410
     },
     "Defeat the Unbound Hoopa and its summoned defenders near Shalour City.": {
-      "translation": "在夏洛尔城附近击败自由胡帕及其召唤的守卫者。",
+      "translation": "在娑罗市附近击败自由胡帕及其召唤的守卫者。",
       "line": 2410
     },
     "Hoopa 3": {
@@ -3789,7 +3789,7 @@
       "line": 2413
     },
     "Defeat the Unbound Hoopa and its summoned defenders near Lumiose City.": {
-      "translation": "在卢米奥塞城附近击败不受束缚的胡帕及其召唤的防御者。",
+      "translation": "在密阿雷市附近击败不受束缚的胡帕及其召唤的防御者。",
       "line": 2413
     },
     "Hoopa 4": {
@@ -3797,7 +3797,7 @@
       "line": 2416
     },
     "Defeat the Unbound Hoopa and its summoned defenders near Anistar City.": {
-      "translation": "在安妮斯塔城附近击败自由胡帕及其召唤的防御者。",
+      "translation": "在百刻市附近击败自由胡帕及其召唤的防御者。",
       "line": 2416
     },
     "Hoopa 5": {
@@ -3805,7 +3805,7 @@
       "line": 2419
     },
     "Defeat the Unbound Hoopa and its summoned defenders near Laverre City.": {
-      "translation": "在拉维尔市附近击败不受束缚的胡帕及其召唤的防御者。",
+      "translation": "在香薰市附近击败不受束缚的胡帕及其召唤的防御者。",
       "line": 2419
     },
     "Hoopa 6": {
@@ -3813,7 +3813,7 @@
       "line": 2422
     },
     "Defeat the Unbound Hoopa near Kiloude City, this time for real.": {
-      "translation": "击败基卢德市附近的自由胡帕，这次是真正的。",
+      "translation": "击败奇楠市附近的自由胡帕，这次是真正的。",
       "line": 2422
     },
     "An Unrivaled Power": {
@@ -4089,7 +4089,7 @@
       "line": 2603
     },
     "Lillie still has something on her mind. Talk to her in Iki Town.": {
-      "translation": "莉莉心里还有事。在壹岐镇与她交谈。",
+      "translation": "莉莉心里还有事。在利利小镇与她交谈。",
       "line": 2607
     },
     "Revive": {
@@ -4097,11 +4097,11 @@
       "line": 2607
     },
     "Iki Town": {
-      "translation": "壹岐町",
+      "translation": "利利小镇",
       "line": 2612
     },
     "Defeat Hala in Iki Town to complete Melemele's Grand Trial!": {
-      "translation": "击败壹岐镇的哈拉，完成梅乐梅勒的大试炼！",
+      "translation": "击败利利小镇的哈拉，完成梅乐梅勒的大试炼！",
       "line": 2612
     },
     "Ten Carat Hill": {

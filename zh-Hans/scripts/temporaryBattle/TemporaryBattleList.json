@@ -431,7 +431,7 @@
       "line": 434
     },
     "Azalea Town": {
-      "translation": "杜鹃花镇",
+      "translation": "桧皮镇",
       "line": 439
     },
     "Sudowoodo": {
@@ -507,7 +507,7 @@
       "line": 509
     },
     "Victory Road Johto": {
-      "translation": "城都胜利路",
+      "translation": "冠军之路（城都）",
       "line": 510
     },
     "Suicune 1": {
@@ -923,7 +923,7 @@
       "line": 933
     },
     "Victory Road Hoenn": {
-      "translation": "丰缘胜利路",
+      "translation": "冠军之路（丰缘）",
       "line": 934
     },
     "Congratulations on beating Wally at his best! Come back to fight him again at any time.": {
@@ -1623,7 +1623,7 @@
       "line": 1505
     },
     "Victory Road Sinnoh": {
-      "translation": "神奥胜利路",
+      "translation": "冠军之路（神奥）",
       "line": 1506
     },
     "Barry 7": {
@@ -2331,7 +2331,7 @@
       "line": 2192
     },
     "Victory Road Unova": {
-      "translation": "胜利路乌诺瓦",
+      "translation": "冠军之路（合众）",
       "line": 2193
     },
     "Hugh 6": {
@@ -2543,7 +2543,7 @@
       "line": 2422
     },
     "Vaniville Town": {
-      "translation": "瓦尼维尔镇",
+      "translation": "朝香镇",
       "line": 2423
     },
     "Shauna": {
@@ -2587,7 +2587,7 @@
       "line": 2452
     },
     "Camphrier Town": {
-      "translation": "坎普里尔镇",
+      "translation": "古木镇",
       "line": 2453
     },
     "Tierno": {
@@ -2667,7 +2667,7 @@
       "line": 2513
     },
     "Shalour City": {
-      "translation": "夏洛尔城",
+      "translation": "娑罗市",
       "line": 2514
     },
     "Calem": {
@@ -3547,7 +3547,7 @@
       "line": 3167
     },
     "Lumiose City": {
-      "translation": "卢米奥塞城",
+      "translation": "密阿雷市",
       "line": 3181
     },
     "Hoopa 3": {
@@ -3563,7 +3563,7 @@
       "line": 3191
     },
     "Anistar City": {
-      "translation": "安妮斯塔城",
+      "translation": "百刻市",
       "line": 3200
     },
     "Hoopa 4": {
@@ -3583,7 +3583,7 @@
       "line": 3208
     },
     "Laverre City": {
-      "translation": "拉维尔市",
+      "translation": "香薰市",
       "line": 3217
     },
     "Hoopa 5": {
@@ -3603,7 +3603,7 @@
       "line": 3239
     },
     "Kiloude City": {
-      "translation": "基卢德市",
+      "translation": "奇楠市",
       "line": 3246
     },
     "Calem 2": {
@@ -3615,7 +3615,7 @@
       "line": 3261
     },
     "Coumarine City": {
-      "translation": "香豆素城",
+      "translation": "比翼市",
       "line": 3266
     },
     "Calem 3": {
@@ -3727,7 +3727,7 @@
       "line": 3403
     },
     "Couriway Town": {
-      "translation": "库里威镇",
+      "translation": "连理镇",
       "line": 3408
     },
     "Tierno 2": {
@@ -3779,7 +3779,7 @@
       "line": 3456
     },
     "Victory Road Kalos": {
-      "translation": "卡洛斯胜利路",
+      "translation": "冠军之路（卡洛斯）",
       "line": 3457
     },
     "Golurk": {
@@ -3855,7 +3855,7 @@
       "line": 3551
     },
     "Ash Ketchum Unova": {
-      "translation": "阿什·凯彻姆·乌诺瓦",
+      "translation": "阿什·凯彻姆·合众",
       "line": 3555
     },
     "Krookodile": {
@@ -3983,7 +3983,7 @@
       "line": 3660
     },
     "Cyllage City": {
-      "translation": "赛利吉城",
+      "translation": "遥香市",
       "line": 3661
     },
     "Tyranitar": {
@@ -4087,7 +4087,7 @@
       "line": 3750
     },
     "Dendemille Town": {
-      "translation": "登德米尔镇",
+      "translation": "风絮镇",
       "line": 3752
     },
     "Wild Electrike Horde": {
@@ -4263,7 +4263,7 @@
       "line": 3908
     },
     "Whoa! That was awesome! You and your Pokémon were both so cool!<br>Oh yeah! I'm Hau! You should totally check out Iki Town! We're holding a festival soon!": {
-      "translation": "哇！太棒了！你和你的宝可梦都太酷了！<br>哦耶！我是豪！你绝对应该去壹岐镇看看！我们马上就要举办节日了！",
+      "translation": "哇！太棒了！你和你的宝可梦都太酷了！<br>哦耶！我是哈乌！你绝对应该去利利小镇看看！我们马上就要举办节日了！",
       "line": 3910
     },
     "Welcome to Paradise, Cousin!": {
@@ -4275,7 +4275,7 @@
       "line": 3917
     },
     "Iki Town Outskirts": {
-      "translation": "壹岐町近郊",
+      "translation": "利利小镇郊外",
       "line": 3918
     },
     "Rival Hau": {
@@ -4307,7 +4307,7 @@
       "line": 3941
     },
     "Iki Town": {
-      "translation": "壹岐町",
+      "translation": "利利小镇",
       "line": 3946
     },
     "Z-Power_Ring": {

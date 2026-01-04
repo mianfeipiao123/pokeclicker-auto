@@ -119,7 +119,7 @@
       "line": 268
     },
     "I know just the man for the job! Kurt, a Poké Ball expert. He lives in Azalea Town, in Johto. Please deliver the GS Ball to him.": {
-      "translation": "我认识最适合这份工作的人！库尔特，精灵球专家。他住在城都县的杜鹃花町。请把GS球交给他。",
+      "translation": "我认识最适合这份工作的人！库尔特，精灵球专家。他住在城都地区的桧皮镇。请把 GS 球交给他。",
       "line": 269
     },
     "Old Man": {
@@ -1523,7 +1523,7 @@
       "line": 1053
     },
     "Victory Road": {
-      "translation": "胜利路",
+      "translation": "冠军之路",
       "line": 1057
     },
     "One Island": {
@@ -1823,7 +1823,7 @@
       "line": 1571
     },
     "I remember, back in the day, it was the Guardian of Ilex Forest. It was a playful Pokémon. It loved playing with children.": {
-      "translation": "我记得，当年，是冬青林的守护者。这是一只顽皮的宝可梦。它喜欢和孩​​子们一起玩。",
+      "translation": "我记得，当年，它曾是栎树林的守护者。这是一只顽皮的宝可梦，它喜欢和孩子们一起玩。",
       "line": 1572
     },
     "It was especially close to a kid named Samuel Oak. When he suddenly moved to Kanto, Celebi was quite sad. He never even said goodbye! I wonder what became of that boy. Maybe he knows more of where Celebi is right now. They certainly have Unfinished Business.": {
@@ -1923,7 +1923,7 @@
       "line": 1623
     },
     "That Celebi is an old friend of mine. Back in the day it liked to hang out at the old shrine in Ilex Forest. You should go check it out and try to catch Celebi.": {
-      "translation": "那只时拉比是我的老朋友。当年它喜欢在冬青森林的古老神社闲逛。你应该去看看并试着捕捉时拉比。",
+      "translation": "那只时拉比是我的老朋友。当年它喜欢在栎树林的古老神社闲逛。你应该去看看并试着捕捉时拉比。",
       "line": 1624
     },
     "I can't think of a better trainer for this Celebi.": {
@@ -2469,7 +2469,7 @@
       "line": 1956
     },
     "Azalea Town": {
-      "translation": "杜鹃花镇",
+      "translation": "桧皮镇",
       "line": 1962
     },
     "Radio Tower": {
@@ -2581,7 +2581,7 @@
       "line": 2075
     },
     "Ilex Forest": {
-      "translation": "冬青林",
+      "translation": "栎树林",
       "line": 2087
     },
     "Silver 2": {
@@ -2613,7 +2613,7 @@
       "line": 2172
     },
     "Victory Road Johto": {
-      "translation": "城都胜利路",
+      "translation": "冠军之路（城都）",
       "line": 2177
     },
     "Mt. Silver": {
@@ -5087,7 +5087,7 @@
       "line": 3817
     },
     "Victory Road Hoenn": {
-      "translation": "丰缘胜利路",
+      "translation": "冠军之路（丰缘）",
       "line": 3822
     },
     "Sealed Chamber": {
@@ -6255,7 +6255,7 @@
       "line": 4903
     },
     "Victory Road Sinnoh": {
-      "translation": "神奥胜利路",
+      "translation": "冠军之路（神奥）",
       "line": 4910
     },
     "Sendoff Spring": {
@@ -6667,7 +6667,7 @@
       "line": 5264
     },
     "Well, since he told you to find me, there must be a reason. Unless you're here to help me re-form the Swords of Justice? If so, then thank you for your aid. Meet me in the Moor of Icirrus after you find them. You should look for Terrakion first, somewhere in the depths of the Unova Victory Road. Good luck, Trainer.": {
-      "translation": "好吧，既然他让你来找我，那肯定是有原因的。除非你是来帮我重塑正义之剑的？如果是这样，那么感谢你的帮助。找到他们后，到伊西洛斯的荒原来见我。你应该首先寻找泰拉基翁，它位于合众胜利之路深处的某个地方。祝你好运，教练。",
+      "translation": "好吧，既然他让你来找我，那肯定是有原因的。除非你是来帮我重塑正义之剑的？如果是这样，那么感谢你的帮助。找到他们后，到伊西洛斯的荒原来见我。你应该首先寻找泰拉基翁，它位于合众的冠军之路深处的某个地方。祝你好运，训练家。",
       "line": 5265
     },
     "assets/images/pokemon/638.png": {
@@ -6743,7 +6743,7 @@
       "line": 5323
     },
     "Hey, you were a really great partner! It was really nice doing this mission with you, and you seem like a strong trainer, so if you want me to join your team, I'll be waiting at Victory Road!": {
-      "translation": "嘿，你真是一个很棒的合作伙伴！和你一起做这个任务真是太好了，而且你看起来是个很强的训练家，所以如果你想让我加入你的团队，我会在胜利路等着！",
+      "translation": "嘿，你真是一个很棒的合作伙伴！和你一起做这个任务真是太好了，而且你看起来是个很强的训练家，所以如果你想让我加入你的团队，我会在冠军之路等着！",
       "line": 5329
     },
     "You were a great ally, $playername$. I feel it'd be a wise decision on my part if I joined your team, but that's a decision for you to make. If you decide you wish for me to join your team, you can look for me in the depths of Pinwheel Forest.": {
@@ -7023,7 +7023,7 @@
       "line": 5647
     },
     "Victory Road Unova": {
-      "translation": "胜利路乌诺瓦",
+      "translation": "冠军之路（合众）",
       "line": 5648
     },
     "Pledge Grove": {
@@ -7271,7 +7271,7 @@
       "line": 6034
     },
     "Anyway, I'm gonna continue forward. I'll wait for you in Ambrette Town.": {
-      "translation": "无论如何，我都会继续前进。我会在安布雷特镇等你。",
+      "translation": "无论如何，我都会继续前进。我会在古香镇等你。",
       "line": 6035
     },
     "assets/images/npcs/Calem.png": {
@@ -8471,7 +8471,7 @@
       "line": 6515
     },
     "Vaniville Town": {
-      "translation": "瓦尼维尔镇",
+      "translation": "朝香镇",
       "line": 6523
     },
     "Aquacorde Town": {
@@ -8479,11 +8479,11 @@
       "line": 6533
     },
     "Santalune City": {
-      "translation": "桑塔鲁恩城",
+      "translation": "白檀市",
       "line": 6542
     },
     "Lumiose City": {
-      "translation": "卢米奥塞城",
+      "translation": "密阿雷市",
       "line": 6552
     },
     "Sycamore 1": {
@@ -8503,7 +8503,7 @@
       "line": 6556
     },
     "Camphrier Town": {
-      "translation": "坎普里尔镇",
+      "translation": "古木镇",
       "line": 6562
     },
     "Tierno 1": {
@@ -8511,7 +8511,7 @@
       "line": 6568
     },
     "Parfum Palace": {
-      "translation": "香水宫",
+      "translation": "巴尔法姆香殿",
       "line": 6572
     },
     "Furfrou Shard Trader": {
@@ -8519,7 +8519,7 @@
       "line": 6576
     },
     "Ambrette Town": {
-      "translation": "安布雷特镇",
+      "translation": "古香镇",
       "line": 6581
     },
     "FossilAmbretteFossilLab": {
@@ -8531,7 +8531,7 @@
       "line": 6585
     },
     "Cyllage City": {
-      "translation": "赛利吉城",
+      "translation": "遥香市",
       "line": 6591
     },
     "Marquis Grant": {
@@ -8543,7 +8543,7 @@
       "line": 6601
     },
     "Geosenge Town": {
-      "translation": "巨石镇",
+      "translation": "石香镇",
       "line": 6614
     },
     "Team Flare Secret HQ": {
@@ -8555,7 +8555,7 @@
       "line": 6618
     },
     "Shalour City": {
-      "translation": "夏洛尔城",
+      "translation": "娑罗市",
       "line": 6624
     },
     "Millis and Argus Steel": {
@@ -8567,23 +8567,23 @@
       "line": 6630
     },
     "Coumarine City": {
-      "translation": "香豆素城",
+      "translation": "比翼市",
       "line": 6634
     },
     "Laverre City": {
-      "translation": "拉维尔市",
+      "translation": "香薰市",
       "line": 6644
     },
     "Dendemille Town": {
-      "translation": "登德米尔镇",
+      "translation": "风絮镇",
       "line": 6654
     },
     "Anistar City": {
-      "translation": "安妮斯塔城",
+      "translation": "百刻市",
       "line": 6664
     },
     "Couriway Town": {
-      "translation": "库里威镇",
+      "translation": "连理镇",
       "line": 6674
     },
     "Sycamore 2": {
@@ -8591,7 +8591,7 @@
       "line": 6678
     },
     "Snowbelle City": {
-      "translation": "雪贝城",
+      "translation": "映雪市",
       "line": 6684
     },
     "Trevor": {
@@ -8599,7 +8599,7 @@
       "line": 6690
     },
     "Kiloude City": {
-      "translation": "基卢德市",
+      "translation": "奇楠市",
       "line": 6693
     },
     "Calem 6": {
@@ -8635,7 +8635,7 @@
       "line": 6710
     },
     "Victory Road Kalos": {
-      "translation": "卡洛斯胜利路",
+      "translation": "冠军之路（卡洛斯）",
       "line": 6711
     },
     "Friend Safari": {
@@ -9477,7 +9477,7 @@
       "line": 7319
     },
     "Hello, $playername$. Are you done with your battle against Hau on Route 3? We should all head back to Iki Town, now.": {
-      "translation": "你好，$playername$。你在3号公路上与 Hau 的战斗结束了吗？我们现在该回壹岐镇了。",
+      "translation": "你好，$playername$。你在3号公路上与哈乌的战斗结束了吗？我们现在该回利利小镇了。",
       "line": 7325
     },
     "Professor Burnet has been so kind, and she's helping me try to find a way to get Nebby back to its own home... She's been like...like a real mother to me.": {
@@ -10441,11 +10441,11 @@
       "line": 7842
     },
     "Iki Town Outskirts": {
-      "translation": "壹岐町近郊",
+      "translation": "利利小镇郊外",
       "line": 7850
     },
     "Iki Town": {
-      "translation": "壹岐町",
+      "translation": "利利小镇",
       "line": 7860
     },
     "Hau 1": {

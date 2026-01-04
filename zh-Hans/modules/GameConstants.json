@@ -521,7 +521,7 @@
       "line": 827
     },
     "Couriway Town": {
-      "translation": "库里威镇",
+      "translation": "连理镇",
       "line": 828
     },
     "Sea Spirit's Den": {
@@ -613,7 +613,7 @@
       "line": 835
     },
     "Victory Road": {
-      "translation": "胜利路",
+      "translation": "冠军之路",
       "line": 835
     },
     "Cerulean Cave": {
@@ -673,7 +673,7 @@
       "line": 836
     },
     "Victory Road Johto": {
-      "translation": "城都胜利路",
+      "translation": "冠军之路（城都）",
       "line": 836
     },
     "Mt. Silver": {
@@ -713,7 +713,7 @@
       "line": 837
     },
     "Victory Road Hoenn": {
-      "translation": "丰缘胜利路",
+      "translation": "冠军之路（丰缘）",
       "line": 837
     },
     "Pyrite Cave": {
@@ -741,7 +741,7 @@
       "line": 838
     },
     "Victory Road Sinnoh": {
-      "translation": "神奥胜利路",
+      "translation": "冠军之路（神奥）",
       "line": 838
     },
     "Snowpoint Temple": {
@@ -773,7 +773,7 @@
       "line": 839
     },
     "Victory Road Unova": {
-      "translation": "胜利路乌诺瓦",
+      "translation": "冠军之路（合众）",
       "line": 839
     },
     "Connecting Cave": {
@@ -793,7 +793,7 @@
       "line": 840
     },
     "Victory Road Kalos": {
-      "translation": "卡洛斯胜利路",
+      "translation": "冠军之路（卡洛斯）",
       "line": 840
     },
     "Verdant Cavern": {
@@ -865,7 +865,7 @@
       "line": 842
     },
     "Oreburrow Tunnel": {
-      "translation": "奥雷洞穴隧道",
+      "translation": "黑金隧道",
       "line": 843
     },
     "Ancient Solaceon Ruins": {
@@ -873,7 +873,7 @@
       "line": 843
     },
     "Seaside Hollow": {
-      "translation": "海边空心",
+      "translation": "海边小洞",
       "line": 843
     },
     "Turnback Cave": {
@@ -1065,11 +1065,11 @@
       "line": 893
     },
     "Dendemille Town": {
-      "translation": "登德米尔镇",
+      "translation": "风絮镇",
       "line": 894
     },
     "Snowbelle City": {
-      "translation": "雪贝城",
+      "translation": "映雪市",
       "line": 894
     },
     "Circhester": {
@@ -1089,11 +1089,11 @@
       "line": 900
     },
     "Mt. Ember": {
-      "translation": "余烬山",
+      "translation": "灯火山",
       "line": 900
     },
     "Mt. Ember Summit": {
-      "translation": "余烬山峰会",
+      "translation": "灯火山山顶",
       "line": 900
     },
     "Lavaridge Town": {
@@ -1105,7 +1105,7 @@
       "line": 902
     },
     "Mt. Battle": {
-      "translation": "山战",
+      "translation": "战斗山",
       "line": 902
     },
     "Wela Volcano Park": {
@@ -1133,11 +1133,11 @@
       "line": 911
     },
     "Azalea Town": {
-      "translation": "杜鹃花镇",
+      "translation": "桧皮镇",
       "line": 912
     },
     "Ilex Forest": {
-      "translation": "冬青林",
+      "translation": "栎树林",
       "line": 912
     },
     "Eterna City": {
@@ -1165,11 +1165,11 @@
       "line": 915
     },
     "Coumarine City": {
-      "translation": "香豆素城",
+      "translation": "比翼市",
       "line": 916
     },
     "Laverre City": {
-      "translation": "拉维尔市",
+      "translation": "香薰市",
       "line": 916
     },
     "Santalune Forest": {
@@ -1241,7 +1241,7 @@
       "line": 925
     },
     "Kiloude City": {
-      "translation": "基卢德市",
+      "translation": "奇楠市",
       "line": 927
     },
     "Viridian City": {
@@ -1345,7 +1345,7 @@
       "line": 959
     },
     "Lumiose City": {
-      "translation": "卢米奥塞城",
+      "translation": "密阿雷市",
       "line": 960
     },
     "Aether Paradise": {
@@ -2245,19 +2245,19 @@
       "line": 1380
     },
     "Santalune City": {
-      "translation": "桑塔鲁恩城",
+      "translation": "白檀市",
       "line": 1384
     },
     "Cyllage City": {
-      "translation": "赛利吉城",
+      "translation": "遥香市",
       "line": 1385
     },
     "Shalour City": {
-      "translation": "夏洛尔城",
+      "translation": "娑罗市",
       "line": 1386
     },
     "Anistar City": {
-      "translation": "安妮斯塔城",
+      "translation": "百刻市",
       "line": 1390
     },
     "Elite Malva": {
@@ -2281,7 +2281,7 @@
       "line": 1396
     },
     "Iki Town": {
-      "translation": "壹岐町",
+      "translation": "利利小镇",
       "line": 1400
     },
     "Konikoni City": {
@@ -2629,11 +2629,11 @@
       "line": 1818
     },
     "Vaniville Town": {
-      "translation": "瓦尼维尔镇",
+      "translation": "朝香镇",
       "line": 1820
     },
     "Iki Town Outskirts": {
-      "translation": "壹岐町近郊",
+      "translation": "利利小镇郊外",
       "line": 1821
     },
     "Postwick": {
@@ -3481,7 +3481,7 @@
       "line": 2060
     },
     "Ash Ketchum Unova": {
-      "translation": "阿什·凯彻姆·乌诺瓦",
+      "translation": "阿什·凯彻姆·合众",
       "line": 2061
     },
     "Ash Ketchum Kalos": {
@@ -4493,7 +4493,7 @@
       "line": 2337
     },
     "Floaroma Town": {
-      "translation": "花城",
+      "translation": "花苑镇",
       "line": 2339
     },
     "Solaceon Town": {
@@ -4545,19 +4545,19 @@
       "line": 2365
     },
     "Camphrier Town": {
-      "translation": "坎普里尔镇",
+      "translation": "古木镇",
       "line": 2366
     },
     "Parfum Palace": {
-      "translation": "香水宫",
+      "translation": "巴尔法姆香殿",
       "line": 2367
     },
     "Ambrette Town": {
-      "translation": "安布雷特镇",
+      "translation": "古香镇",
       "line": 2368
     },
     "Geosenge Town": {
-      "translation": "巨石镇",
+      "translation": "石香镇",
       "line": 2370
     },
     "Heahea City": {

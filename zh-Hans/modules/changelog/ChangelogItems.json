@@ -135,7 +135,7 @@
       "line": 45
     },
     "Players can now select a starter in regions after Kanto if one was mistakenly (or deliberately) skipped": {
-      "translation": "如果错误（或故意）跳过关东之后的地区，玩家现在可以选择首发球员",
+      "translation": "如果错误（或故意）跳过关都之后的地区，玩家现在可以选择首发球员",
       "line": 46
     },
     "Click Attack breakdown added to Statistics menu": {
@@ -179,7 +179,7 @@
       "line": 56
     },
     "Kanto Berry Master will no longer give duplicate Enigma Berry directional hints": {
-      "translation": "关东树果大师将不再给出重复的谜树果方向提示",
+      "translation": "关都树果大师将不再给出重复的谜树果方向提示",
       "line": 57
     },
     "Battle Café now affects map overlay colors": {
@@ -1559,7 +1559,7 @@
       "line": 525
     },
     "Sevii now has it's own achievement pool": {
-      "translation": "Sevii 现在拥有自己的成就池",
+      "translation": "塞维群岛现在拥有自己的成就池",
       "line": 526
     },
     "Dungeon floors added for dungeons of size 10 or bigger": {
@@ -1727,7 +1727,7 @@
       "line": 582
     },
     "Sevii island fixes": {
-      "translation": "塞维岛修复",
+      "translation": "塞维群岛修复",
       "line": 585
     },
     "Alola islands being inaccessible for some people": {
@@ -1747,11 +1747,11 @@
       "line": 591
     },
     "Sevii islands 4, 5, 6 and 7": {
-      "translation": "塞维岛4、5、6和7",
+      "translation": "塞维群岛第4～7岛",
       "line": 592
     },
     "Sevii questline": {
-      "translation": "塞维任务线",
+      "translation": "塞维群岛任务线",
       "line": 593
     },
     "Detective Pikachu questline": {
@@ -1855,7 +1855,7 @@
       "line": 637
     },
     "First 3 Sevii islands": {
-      "translation": "前3个塞维岛",
+      "translation": "塞维群岛第1～3岛",
       "line": 639
     },
     "Freeze mulch added to Farm": {
@@ -2023,7 +2023,7 @@
       "line": 687
     },
     "Kanto Team Rocket quest line": {
-      "translation": "关东火箭队任务线",
+      "translation": "关都火箭队任务线",
       "line": 688
     },
     "Mina's Trial quest line": {
@@ -2071,7 +2071,7 @@
       "line": 699
     },
     "Changed Kanto encounters to follow Fire Red and Leaf Green instead of Yellow version": {
-      "translation": "将关东遭遇更改为火红和叶绿，而不是黄色版本",
+      "translation": "将关都遭遇更改为火红和叶绿，而不是黄色版本",
       "line": 700
     },
     "Town and Route requirements": {
@@ -3055,7 +3055,7 @@
       "line": 993
     },
     "Englarged clickable area for Kanto map towns and dungeons": {
-      "translation": "关东地图城镇和迷宫的放大可点击区域",
+      "translation": "关都地图城镇和迷宫的放大可点击区域",
       "line": 994
     },
     "Vivillon base form changed to Vivillon (Meadow)": {
@@ -3135,7 +3135,7 @@
       "line": 1016
     },
     "Kanto dock ship not showing on client": {
-      "translation": "关东码头船未显示在客户端上",
+      "translation": "关都码头船未显示在客户端上",
       "line": 1017
     },
     "Pokémon League images": {
@@ -3159,7 +3159,7 @@
       "line": 1024
     },
     "Updated look of Kanto map": {
-      "translation": "更新了关东地图的外观",
+      "translation": "更新了关都地图的外观",
       "line": 1025
     },
     "Added achievement for maxing all 12 Oak items": {
@@ -3393,7 +3393,7 @@
       "line": 1097
     },
     "Trainers added to Kanto Dungeons": {
-      "translation": "关东迷宫添加训练师",
+      "translation": "关都迷宫添加训练师",
       "line": 1098
     },
     "Log wandering Pokémon for Farm": {
@@ -3649,7 +3649,7 @@
       "line": 1176
     },
     "Added some more NPC around Kanto": {
-      "translation": "在关东地区添加了更多 NPC",
+      "translation": "在关都地区添加了更多 NPC",
       "line": 1177
     },
     "Doubled the chance of encountering uncaught Roaming Pokémon": {
@@ -3901,7 +3901,7 @@
       "line": 1254
     },
     "Unlock Kanto route 22 earlier in the game": {
-      "translation": "在游戏早期解锁关东22号道路",
+      "translation": "在游戏早期解锁关都22号道路",
       "line": 1255
     },
     "Show currently locked Dungeon Bosses": {
@@ -3945,7 +3945,7 @@
       "line": 1265
     },
     "Swapped Kanto routes 7 and 8": {
-      "translation": "关东7号道路和8号道路交换",
+      "translation": "关都7号道路和8号道路交换",
       "line": 1266
     },
     "Reduce svg image sizes, fix some lag": {
@@ -4009,7 +4009,7 @@
       "line": 1283
     },
     "Update Kanto Pokémon encounters to be based on Pokémon Yellow version": {
-      "translation": "将关东宝可梦遭遇更新为基于宝可梦黄色版本",
+      "translation": "将关都宝可梦遭遇更新为基于宝可梦黄色版本",
       "line": 1284
     },
     "Updated layout of Pokémon List": {
@@ -4269,7 +4269,7 @@
       "line": 1354
     },
     "\"Complete the Kanto Pokédex!\" achievement now requires all 151 Kanto Pokémon": {
-      "translation": "“完成关东图鉴！”成就现在需要全部151只关东宝可梦",
+      "translation": "“完成关都图鉴！”成就现在需要全部151只关都宝可梦",
       "line": 1355
     },
     "Complete the Kanto Pokédex!": {
@@ -4533,7 +4533,7 @@
       "line": 1428
     },
     "Updated the order Routes, Dungeons and Gyms need to be completed in the Kanto region": {
-      "translation": "更新了关东地区路线、迷宫和道馆需要完成的顺序",
+      "translation": "更新了关都地区路线、迷宫和道馆需要完成的顺序",
       "line": 1429
     },
     "Gyms should award correct amount of Egg steps now": {

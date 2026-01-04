@@ -99,7 +99,7 @@
       "line": 254
     },
     "Good of you to come see me. I need you to pick up something for me. A special kind of Poké Ball, found by Professor Ivy. She lives on one of the Sevii Islands, east of Three Island.": {
-      "translation": "你能来看我真好。我需要你帮我拿点东西。内木博士发现的一种特殊的精灵球。她住在三岛以东的七之岛之一。",
+      "translation": "你能来看我真好。我需要你帮我拿点东西。内木博士发现的一种特殊的精灵球。她住在三之岛以东的塞维群岛的一座岛上。",
       "line": 259
     },
     "I don't know who else to trust with this. It's very important and very valuable.": {
@@ -419,7 +419,7 @@
       "line": 414
     },
     "Shards can have lots of different colors. Different Dungeons will have different colors, so keep an eye out! Most of them can't even be found in Kanto!": {
-      "translation": "碎片可以有很多不同的颜色。不同的迷宫会有不同的颜色，所以要留意！大部分在关东都找不到！",
+      "translation": "碎片可以有很多不同的颜色。不同的迷宫会有不同的颜色，所以要留意！大部分在关都都找不到！",
       "line": 415
     },
     "That was so close! I thought I could corner it by ambushing it here... But running on the water... is beyond me. Still, I am starting to see a pattern. Suicune prefers water! That means...": {
@@ -563,7 +563,7 @@
       "line": 476
     },
     "Silph Co. Employee": {
-      "translation": "Silph公司员工",
+      "translation": "西尔佛公司员工",
       "line": 480
     },
     "Oh! Hi! You're not a member of Team Rocket! You came to save us? Why thank you!": {
@@ -623,7 +623,7 @@
       "line": 500
     },
     "Apparently the ancient Pokémon escaped, and can be found roaming around Kanto!": {
-      "translation": "显然，古老的宝可梦逃脱了，并且可以在关东地区找到它们！",
+      "translation": "显然，古老的宝可梦逃脱了，并且可以在关都地区找到它们！",
       "line": 501
     },
     "assets/images/npcs/Scientist (male).png": {
@@ -643,7 +643,7 @@
       "line": 506
     },
     "Speaking of, our very own Kanto is home to three: the Helix Fossil, Dome Fossil, and Old Amber! You can revive them into living Pokémon using techniques developed by the Devon Corporation and a research laboratory on Cinnabar Island! There are also other scientists around the Pokémon world who can revive Fossils using these techniques.": {
-      "translation": "说到这里，我们自己的关东拥有三种化石：螺旋化石、圆顶化石和老琥珀！你可以使用德文郡公司和红莲岛研究实验室开发的技术将它们复活为活的宝可梦！宝可梦世界中还有其他科学家可以使用这些技术复活化石。",
+      "translation": "说到这里，我们自己的关都拥有三种化石：螺旋化石、圆顶化石和老琥珀！你可以使用德文郡公司和红莲岛研究实验室开发的技术将它们复活为活的宝可梦！宝可梦世界中还有其他科学家可以使用这些技术复活化石。",
       "line": 507
     },
     "assets/images/npcs/Ruin Maniac gen3.png": {
@@ -651,11 +651,11 @@
       "line": 508
     },
     "Celio": {
-      "translation": "塞利奥",
+      "translation": "西里奥",
       "line": 510
     },
     "Ah, yes. Welcome! Welcome! Almost didn't see you there. I'm just so busy trying to get this darned thing to work. Once it's complete we can finally have a direct communications network between the Sevii Islands and Kanto!": {
-      "translation": "啊，是的。欢迎！欢迎！差点没看到你。我正忙着让这该死的东西发挥作用。一旦完成，我们终于可以在七之岛和关东之间建立直接通信网络了！",
+      "translation": "啊，是的。欢迎！欢迎！差点没看到你。我正忙着让这该死的东西发挥作用。一旦完成，我们终于可以在七之岛和关都之间建立直接通信网络了！",
       "line": 511
     },
     "I don't even have time to go and pick up an important package. A meteorite, found by the owner of the game corner on Two Island. It contains important materials for my machine.": {
@@ -683,7 +683,7 @@
       "line": 520
     },
     "I'm glad to hear Lostelle is all right. You can hand the meteorite to me. Bill, thank you for your assistance, I'll take it from here. I can see that your friend is eager to get back to Kanto and challenge the Pokémon League.": {
-      "translation": "我很高兴听到洛斯泰尔没事。你可以把陨石交给我。正辉，谢谢你的帮助，我会从这里开始。我看得出来，你的朋友很想回到关东挑战宝可梦联盟。",
+      "translation": "我很高兴听到洛斯泰尔没事。你可以把陨石交给我。正辉，谢谢你的帮助，我会从这里开始。我看得出来，你的朋友很想回到关都挑战宝可梦联盟。",
       "line": 521
     },
     "Thank you both very much.": {
@@ -695,7 +695,7 @@
       "line": 528
     },
     "Celio's Errand": {
-      "translation": "西利奥的任务",
+      "translation": "西里奥的差事",
       "line": 531
     },
     "How have things been for you? Oh, is that right? You've caught more Pokémon. Do you know what? Maybe I can be useful to you. I'm modifying the Network Machine right now. I'm changing it so it can handle trades over long distances. When I get finished, you'll be trading for exotic Pokémon from Trainers far away.": {
@@ -703,7 +703,7 @@
       "line": 534
     },
     "But, there is a slight catch. For the link to work, the Machine needs a special gemstone. It's supposed to be on One Island, but I haven't found one yet. Who knows where it could be.": {
-      "translation": "但是，有一个小问题。为了使链接发挥作用，机器需要特殊的宝石。应该是在One Island，不过我还没找到。谁知道它可能在哪里。",
+      "translation": "但是，有一个小问题。为了使链接发挥作用，机器需要特殊的宝石。应该在一之岛，不过我还没找到。谁知道它可能在哪里。",
       "line": 535
     },
     "Oh! Th-that's... Thank you! You're simply amazing. ... ... ... ... Um... May I ask one more giant favor of you?": {
@@ -755,7 +755,7 @@
       "line": 568
     },
     "What? The meteorite for Celio? Yes, I can give that to you. But I need you to do something for me first.": {
-      "translation": "什么？西利奥的陨石？是的，我可以给你。但我需要你先帮我做一件事。",
+      "translation": "什么？西里奥的陨石？是的，我可以给你。但我需要你先帮我做一件事。",
       "line": 569
     },
     "My daughter Lostelle is missing. She likes to pick berries in the Berry Forest on Three Island. She does it all the time. But this time she hasn't come back. Please go find her.": {
@@ -791,7 +791,7 @@
       "line": 581
     },
     "I don't know what half those words mean. All I know is I can't go back to Kanto with the rest of the gang. This sucks.": {
-      "translation": "我不知道这半句话是什么意思。我只知道我不能和其他人一起回到关东。这太糟糕了。",
+      "translation": "我不知道这半句话是什么意思。我只知道我不能和其他人一起回到关都。这太糟糕了。",
       "line": 582
     },
     "assets/images/npcs/Biker Goon.png": {
@@ -1031,7 +1031,7 @@
       "line": 703
     },
     "Would you mind farming some Pinkan Berries to help us grow our supply? We don't know how to, but we've heard the Berry Master in Kanto could be helpful?": {
-      "translation": "你能不能帮我们种点粉红树果来增加存货？我们不会种，但听说关东的树果大师或许能帮上忙？",
+      "translation": "你能不能帮我们种点粉红树果来增加存货？我们不会种，但听说关都的树果大师或许能帮上忙？",
       "line": 704
     },
     "assets/images/npcs/Pinkan Jessie & James.png": {
@@ -1163,7 +1163,7 @@
       "line": 782
     },
     "Mewtwo's Clones have escaped and are Roaming freely across Kanto. Will you help us track them down? It's for a good cause, we swear.": {
-      "translation": "超梦的克隆体逃脱了，正在关东各地自由漫游。你愿意帮我们追踪它们吗？我们发誓，这是为了一个好的目的。",
+      "translation": "超梦的克隆体逃脱了，正在关都各地自由漫游。你愿意帮我们追踪它们吗？我们发誓，这是为了一个好的目的。",
       "line": 785
     },
     "assets/images/npcs/Jessie and James.png": {
@@ -1451,7 +1451,7 @@
       "line": 1000
     },
     "Silph Co.": {
-      "translation": "西尔夫公司",
+      "translation": "西尔佛公司",
       "line": 1004
     },
     "Fighting Dojo": {
@@ -1495,7 +1495,7 @@
       "line": 1040
     },
     "Indigo Plateau Kanto": {
-      "translation": "关东石英高原",
+      "translation": "关都石英高原",
       "line": 1049
     },
     "Elite Lorelei": {
@@ -1527,7 +1527,7 @@
       "line": 1057
     },
     "One Island": {
-      "translation": "一岛",
+      "translation": "一之岛",
       "line": 1062
     },
     "Mt. Ember": {
@@ -1539,15 +1539,15 @@
       "line": 1076
     },
     "Sevii Rocket Grunt 1": {
-      "translation": "Sevii 火箭兵1",
+      "translation": "塞维群岛火箭队手下1",
       "line": 1076
     },
     "Sevii Rocket Grunt 2": {
-      "translation": "Sevii 火箭步兵2",
+      "translation": "塞维群岛火箭队手下2",
       "line": 1076
     },
     "Two Island": {
-      "translation": "两岛",
+      "translation": "二之岛",
       "line": 1082
     },
     "Rocío Noevo": {
@@ -1555,7 +1555,7 @@
       "line": 1086
     },
     "Three Island": {
-      "translation": "三岛",
+      "translation": "三之岛",
       "line": 1092
     },
     "Biker Goon 1": {
@@ -1579,11 +1579,11 @@
       "line": 1102
     },
     "Client Island": {
-      "translation": "客户岛",
+      "translation": "客户端岛",
       "line": 1112
     },
     "Four Island": {
-      "translation": "四岛",
+      "translation": "四之岛",
       "line": 1122
     },
     "Icefall Cave": {
@@ -1591,7 +1591,7 @@
       "line": 1126
     },
     "Five Island": {
-      "translation": "五岛",
+      "translation": "五之岛",
       "line": 1131
     },
     "Rocket Warehouse": {
@@ -1599,23 +1599,23 @@
       "line": 1140
     },
     "Sevii Rocket Grunt 3": {
-      "translation": "Sevii 火箭兵3",
+      "translation": "塞维群岛火箭队手下3",
       "line": 1144
     },
     "Sevii Rocket Grunt 4": {
-      "translation": "Sevii 火箭步兵4",
+      "translation": "塞维群岛火箭队手下4",
       "line": 1144
     },
     "Sevii Rocket Grunt 5": {
-      "translation": "Sevii 火箭步兵5",
+      "translation": "塞维群岛火箭队手下5",
       "line": 1144
     },
     "Sevii Rocket Ariana": {
-      "translation": "塞维火箭阿丽亚娜",
+      "translation": "塞维群岛火箭队干部 雅典娜",
       "line": 1144
     },
     "Sevii Rocket Archer": {
-      "translation": "七号火箭射手",
+      "translation": "塞维群岛火箭队干部 阿波罗",
       "line": 1144
     },
     "Scientist Gideon": {
@@ -1623,7 +1623,7 @@
       "line": 1144
     },
     "Six Island": {
-      "translation": "六岛",
+      "translation": "六之岛",
       "line": 1152
     },
     "Dotted Hole": {
@@ -1631,7 +1631,7 @@
       "line": 1162
     },
     "Seven Island": {
-      "translation": "七岛",
+      "translation": "七之岛",
       "line": 1172
     },
     "Mikan Island": {
@@ -1791,7 +1791,7 @@
       "line": 1560
     },
     "You're a trainer, right? It's me, the Poké Dude! I'm the guy on Teachy TV!": {
-      "translation": "你是一名教练，对吧？是我，宝可梦！我是Teachy TV 上的那个人！",
+      "translation": "你是训练家，对吧？是我，宝可梦大叔！我就是教学电视上的那个人！",
       "line": 1561
     },
     "Your Item Bag has a bunch of nifty features! Take stuff in the Held Items pocket, for instance. You can use a Held Item to empower your Pokémon or acquire unique effects. How do you use it? Well, here's how it works.": {
@@ -1827,7 +1827,7 @@
       "line": 1572
     },
     "It was especially close to a kid named Samuel Oak. When he suddenly moved to Kanto, Celebi was quite sad. He never even said goodbye! I wonder what became of that boy. Maybe he knows more of where Celebi is right now. They certainly have Unfinished Business.": {
-      "translation": "它和一个叫大木博士的孩子特别亲近。当他突然搬到关东时，时拉比非常伤心。他甚至没有说再见！我想知道那个男孩后来怎么样了。也许他更清楚时拉比现在在哪里。他们之间肯定还有未完成的事。",
+      "translation": "它和一个叫大木博士的孩子特别亲近。当他突然搬到关都时，时拉比非常伤心。他甚至没有说再见！我想知道那个男孩后来怎么样了。也许他更清楚时拉比现在在哪里。他们之间肯定还有未完成的事。",
       "line": 1573
     },
     "Celebi got over it very quick, playful as it is. There are always other kids to play with. Then, some time later, a strange figure went into the forest with a golden Poké Ball. The Guardian hasn't been seen since.": {
@@ -1959,7 +1959,7 @@
       "line": 1650
     },
     "I'm glad Celebi has been released from that wretched prison and has found a home with a great young trainer like yourself. I'm going back to Kanto.": {
-      "translation": "我很高兴时拉比从那个可怕的牢笼中被释放出来，并在像你这样优秀的年轻训练师那里找到了归宿。我要回关东了。",
+      "translation": "我很高兴时拉比从那个可怕的牢笼中被释放出来，并在像你这样优秀的年轻训练师那里找到了归宿。我要回关都了。",
       "line": 1657
     },
     "Goodbye Celebi.": {
@@ -2011,15 +2011,15 @@
       "line": 1689
     },
     "I traveled here all the way from Goldenrod to buy a Soothe Bell for my Eevee.": {
-      "translation": "我从 Goldenrod 一路来到这里，为我的 伊布 买了一个 Soothe Bell。",
+      "translation": "我从满金市一路来到这里，为我的伊布买了一个安抚之铃。",
       "line": 1690
     },
     "When I use a Soothe Bell on Eevee it can evolve into Espeon or Umbreon. It depends on the time. Espeon during the day, Umbreon at night.": {
-      "translation": "当我在 伊布 上使用 Soothe Bell 时，它可以进化成 太阳伊布 或 月亮伊布。这取决于时间。白天为 太阳伊布，晚上为 月亮伊布。",
+      "translation": "当我给伊布使用安抚之铃时，它可以进化成太阳伊布或月亮伊布。这取决于时间。白天是太阳伊布，晚上是月亮伊布。",
       "line": 1691
     },
     "I only brought enough Quest Points for one Soothe Bell. It's so hard to choose...": {
-      "translation": "我只带了足够购买一台安抚铃的任务点。真是太难选择了...",
+      "translation": "我只带了足够购买一个安抚之铃的任务点。真是太难选择了...",
       "line": 1692
     },
     "assets/images/npcs/Bill.png": {
@@ -2201,7 +2201,7 @@
       "line": 1808
     },
     "S.S. Aqua Captain": {
-      "translation": "S.S. 水族船长",
+      "translation": "水流号船长",
       "line": 1811
     },
     "Aye! At this here dock you can travel to faraway regions! But only ones you've travelled to before; I've heard the Professor has his own vessel to take ye' to new lands!": {
@@ -2317,7 +2317,7 @@
       "line": 1866
     },
     "You have a certain look... You're the kid who stood in front of me in Viridian City! I'm on my way to Goldenrod City to answer the call and join my team. Are you going to get in my way?": {
-      "translation": "你长得有一定的样子……你就是在常磐城站在我面前的那个小子！我正在前往满金城的路上，接听电话并加入我的团队。你要妨碍我吗？",
+      "translation": "你长得有一定的样子……你就是在常磐市站在我面前的那个小子！我正在前往满金市的路上，接听电话并加入我的团队。你要妨碍我吗？",
       "line": 1867
     },
     "assets/images/npcs/other/Tohjo Falls.png": {
@@ -3097,7 +3097,7 @@
       "line": 2558
     },
     "Can you help me get them back? They have most likely fled to a dungeon in Kanto, Hoenn or Johto.": {
-      "translation": "你能帮我把它们找回来吗？他们很可能逃到了关东、丰缘或城都的迷宫。",
+      "translation": "你能帮我把它们找回来吗？他们很可能逃到了关都、丰缘或城都的迷宫。",
       "line": 2559
     },
     "But be careful! If you defeat them, they will run away again!": {
@@ -4523,7 +4523,7 @@
       "line": 3240
     },
     "In my time in captivity, I learned that the new Grand Master of Team Cipher has used a powerful Shadow Pokémon to kidnap all the trainers and Pokémon from the S. S. Libra and has taken them to Citadark Island!": {
-      "translation": "在我被囚禁期间，我得知密码队的新任大师使用强大的暗影宝可梦从天秤号绑架了所有训练师和宝可梦，并将他们带到了暗黑岛岛！",
+      "translation": "在我被囚禁期间，我得知密码队的新任大师使用强大的暗影宝可梦从天秤号绑架了所有训练师和宝可梦，并将他们带到了暗黑岛！",
       "line": 3241
     },
     "Snagging this powerful Shadow Pokémon will be hard, take this Master Ball!": {
@@ -4939,15 +4939,15 @@
       "line": 3582
     },
     "Cipher Peon Doven": {
-      "translation": "密码 Peon Doven",
+      "translation": "密码队手下 多文",
       "line": 3582
     },
     "Cipher Peon Silton": {
-      "translation": "密码·佩恩·西尔顿",
+      "translation": "密码队手下 西尔顿",
       "line": 3582
     },
     "Cipher Peon Kass": {
-      "translation": "密码 Peon Kass",
+      "translation": "密码队手下 卡斯",
       "line": 3582
     },
     "Realgam Tower": {
@@ -4963,11 +4963,11 @@
       "line": 3604
     },
     "Gateon Port": {
-      "translation": "加顿港",
+      "translation": "盖顿港",
       "line": 3611
     },
     "Gateon Port Battles": {
-      "translation": "加顿港口之战",
+      "translation": "盖顿港之战",
       "line": 3615
     },
     "Pokémon HQ Lab": {
@@ -4975,7 +4975,7 @@
       "line": 3622
     },
     "Cipher Peon Naps": {
-      "translation": "密码苦工小睡",
+      "translation": "密码队手下 纳普斯",
       "line": 3626
     },
     "Kaminko's Manor": {
@@ -4995,7 +4995,7 @@
       "line": 3644
     },
     "Cipher Peon Smarton": {
-      "translation": "密码佩恩斯马顿",
+      "translation": "密码队手下 斯马顿",
       "line": 3648
     },
     "Orre Colosseum": {
@@ -5199,7 +5199,7 @@
       "line": 4190
     },
     "Did you know?! The Gym Leaders of Canalave and Oreburgh are father and son! And what's more- there's a third person in the mix! Apparently he's such a dedicated digger he travelled all the way to Kanto to set up shop selling Explorer Kits! Talk about a family tradition!": {
-      "translation": "你可知道？！卡纳拉夫和奥勒堡的道馆馆主是父子！更重要的是——还有第三个人！显然他是一位非常热心的挖掘者，他专程跑到关东开设了一家销售探险家套件的商店！谈论家庭传统！",
+      "translation": "你可知道？！卡纳拉夫和奥勒堡的道馆馆主是父子！更重要的是——还有第三个人！显然他是一位非常热心的挖掘者，他专程跑到关都开设了一家销售探险家套件的商店！谈论家庭传统！",
       "line": 4191
     },
     "Too bad there are only two new fossils in the Sinnoh region. If there was one more, maybe he could be a Gym Leader too!": {
@@ -5303,7 +5303,7 @@
       "line": 4227
     },
     "Hey, welcome to the Pal Park! Have you been to my Dad's Safari Zone in Kanto? We don't have as many Pokémon here, but I've heard that a flower Pokémon found here can bloom when it's sunny outside!": {
-      "translation": "嘿，欢迎来到帕尔公园！你去过我爸爸在关东的野生动物园吗？我们这里的宝可梦不多，但我听说这里发现的花宝可梦在外面阳光明媚的时候会开花！",
+      "translation": "嘿，欢迎来到帕尔公园！你去过我爸爸在关都的野生动物园吗？我们这里的宝可梦不多，但我听说这里发现的花宝可梦在外面阳光明媚的时候会开花！",
       "line": 4228
     },
     "Burglar": {
@@ -6303,7 +6303,7 @@
       "line": 5122
     },
     "I was just watching my favorite show, The National Gymquirer. It was a live segment! Some hot shot trainer from Kanto defeated Drayden! It was amazing! That trainer is so cool! Drayden is like unbeatable.": {
-      "translation": "我刚刚在看我最喜欢的节目《国家健身询问者》。这是一个现场片段！来自关东的热门训练家击败了德雷登！太棒了！那个教练太帅了！德雷登就像是无与伦比的。",
+      "translation": "我刚刚在看我最喜欢的节目《国家健身询问者》。这是一个现场片段！来自关都的热门训练家击败了德雷登！太棒了！那个教练太帅了！德雷登就像是无与伦比的。",
       "line": 5123
     },
     "Then my programme got interrupted by an emergency broadcast. A report on the first confirmed sightings of Tornadus and Thundurus in over twenty-five years! I've read so much about them, they are my favorites.": {
@@ -8379,7 +8379,7 @@
       "line": 6477
     },
     "This place is a lot like the Kanto Safari Zone, except we get a much wider variety of Pokémon coming through here.": {
-      "translation": "这个地方很像关东野生动物区，只不过这里有更多种类的宝可梦。",
+      "translation": "这个地方很像关都野生动物区，只不过这里有更多种类的宝可梦。",
       "line": 6478
     },
     "Our park staff stocks the Safari with different hard-to-find Pokémon every day. Many of these Pokémon can't be caught anywhere else in the world!": {
@@ -9001,7 +9001,7 @@
       "line": 7094
     },
     "I like sneaking snacks inside the Battle Royal Dome. One time I snuck in pancakes and there were two trainers from Kanto who both had a Pikachu. I ended up sharing some with one.": {
-      "translation": "我喜欢在皇家圆顶之战中偷偷吃零食。有一次我偷偷溜进煎饼，发现有两个来自关东的训练师，他们都有一只皮卡丘。我最终与一个人分享了一些。",
+      "translation": "我喜欢在皇家圆顶之战中偷偷吃零食。有一次我偷偷溜进煎饼，发现有两个来自关都的训练师，他们都有一只皮卡丘。我最终与一个人分享了一些。",
       "line": 7095
     },
     "Weird thing is, both trainers evolved their Pikachu after the battle, but one had a different form from usual! Maybe there's something about Alola that makes certain Pokémon evolve differently? I would check my Evolution Items if I were you.": {
@@ -12053,7 +12053,7 @@
       "line": 9061
     },
     "Hey, Chief! I was talking to the locals and they mentioned they had seen some bird Pokémon that looked like the legendary birds of Kanto at that ultra-mega-massive tree in the middle of Ballimere Lake!": {
-      "translation": "嘿，酋长！我和当地人交谈时，他们提到他们在巴利米尔湖中央的那棵超大树上看到了一些看起来像关东传说中的鸟类的鸟类宝可梦！",
+      "translation": "嘿，酋长！我和当地人交谈时，他们提到他们在巴利米尔湖中央的那棵超大树上看到了一些看起来像关都传说中的鸟类的鸟类宝可梦！",
       "line": 9067
     },
     "You should go check it out!": {
@@ -12313,7 +12313,7 @@
       "line": 9225
     },
     "Complete all regional Shiny Master achievements from Kanto through Galar.": {
-      "translation": "完成从关东到伽勒尔的所有区域异色大师成就。",
+      "translation": "完成从关都到伽勒尔的所有区域异色大师成就。",
       "line": 9225
     },
     "Postwick": {

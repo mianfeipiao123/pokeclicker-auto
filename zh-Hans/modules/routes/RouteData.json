@@ -119,7 +119,7 @@
       "line": 30
     },
     "Kanto Route 1": {
-      "translation": "1号道路（关东）",
+      "translation": "1号道路（关都）",
       "line": 36
     },
     "Pidgey": {
@@ -131,7 +131,7 @@
       "line": 38
     },
     "Kanto Route 22": {
-      "translation": "22号道路（关东）",
+      "translation": "22号道路（关都）",
       "line": 44
     },
     "Spearow": {
@@ -163,7 +163,7 @@
       "line": 47
     },
     "Kanto Route 2": {
-      "translation": "2号道路（关东）",
+      "translation": "2号道路（关都）",
       "line": 54
     },
     "Caterpie": {
@@ -175,7 +175,7 @@
       "line": 56
     },
     "Kanto Route 3": {
-      "translation": "3号道路（关东）",
+      "translation": "3号道路（关都）",
       "line": 63
     },
     "Nidoran(F)": {
@@ -191,7 +191,7 @@
       "line": 65
     },
     "Kanto Route 4": {
-      "translation": "4号道路（关东）",
+      "translation": "4号道路（关都）",
       "line": 75
     },
     "Ekans": {
@@ -219,7 +219,7 @@
       "line": 82
     },
     "Kanto Route 24": {
-      "translation": "24号道路（关东）",
+      "translation": "24号道路（关都）",
       "line": 88
     },
     "Metapod": {
@@ -251,11 +251,11 @@
       "line": 94
     },
     "Kanto Route 25": {
-      "translation": "25号道路（关东）",
+      "translation": "25号道路（关都）",
       "line": 99
     },
     "Kanto Route 5": {
-      "translation": "5号道路（关东）",
+      "translation": "5号道路（关都）",
       "line": 109
     },
     "Meowth": {
@@ -263,11 +263,11 @@
       "line": 111
     },
     "Kanto Route 6": {
-      "translation": "6号道路（关东）",
+      "translation": "6号道路（关都）",
       "line": 121
     },
     "Kanto Route 11": {
-      "translation": "11号道路（关东）",
+      "translation": "11号道路（关都）",
       "line": 131
     },
     "Drowzee": {
@@ -279,7 +279,7 @@
       "line": 135
     },
     "Kanto Route 9": {
-      "translation": "9号道路（关东）",
+      "translation": "9号道路（关都）",
       "line": 142
     },
     "Blue 3": {
@@ -287,7 +287,7 @@
       "line": 147
     },
     "Kanto Route 10": {
-      "translation": "10号道路（关东）",
+      "translation": "10号道路（关都）",
       "line": 154
     },
     "Voltorb": {
@@ -295,7 +295,7 @@
       "line": 156
     },
     "Kanto Route 8": {
-      "translation": "8号道路（关东）",
+      "translation": "8号道路（关都）",
       "line": 164
     },
     "Vulpix": {
@@ -311,7 +311,7 @@
       "line": 168
     },
     "Kanto Route 7": {
-      "translation": "7号道路（关东）",
+      "translation": "7号道路（关都）",
       "line": 173
     },
     "Houndour": {
@@ -319,7 +319,7 @@
       "line": 176
     },
     "Kanto Route 12": {
-      "translation": "12号道路（关东）",
+      "translation": "12号道路（关都）",
       "line": 183
     },
     "Gloom": {
@@ -343,7 +343,7 @@
       "line": 186
     },
     "Kanto Route 13": {
-      "translation": "13号道路（关东）",
+      "translation": "13号道路（关都）",
       "line": 194
     },
     "Pidgeotto": {
@@ -359,15 +359,15 @@
       "line": 201
     },
     "Kanto Route 14": {
-      "translation": "14号道路（关东）",
+      "translation": "14号道路（关都）",
       "line": 209
     },
     "Kanto Route 15": {
-      "translation": "15号道路（关东）",
+      "translation": "15号道路（关都）",
       "line": 223
     },
     "Kanto Route 16": {
-      "translation": "16号道路（关东）",
+      "translation": "16号道路（关都）",
       "line": 237
     },
     "Raticate": {
@@ -387,7 +387,7 @@
       "line": 244
     },
     "Kanto Route 17": {
-      "translation": "17号道路（关东）",
+      "translation": "17号道路（关都）",
       "line": 252
     },
     "Fearow": {
@@ -395,11 +395,11 @@
       "line": 254
     },
     "Kanto Route 18": {
-      "translation": "18号道路（关东）",
+      "translation": "18号道路（关都）",
       "line": 267
     },
     "Kanto Route 19": {
-      "translation": "19号道路（关东）",
+      "translation": "19号道路（关都）",
       "line": 282
     },
     "Surfing Pikachu": {
@@ -407,7 +407,7 @@
       "line": 285
     },
     "Kanto Route 20": {
-      "translation": "20号道路（关东）",
+      "translation": "20号道路（关都）",
       "line": 292
     },
     "Shellder": {
@@ -423,7 +423,7 @@
       "line": 299
     },
     "Kanto Route 21": {
-      "translation": "21号道路（关东）",
+      "translation": "21号道路（关都）",
       "line": 306
     },
     "Tangela": {
@@ -431,7 +431,7 @@
       "line": 308
     },
     "Kanto Route 23": {
-      "translation": "23号道路（关东）",
+      "translation": "23号道路（关都）",
       "line": 316
     },
     "Arbok": {
@@ -527,7 +527,7 @@
       "line": 380
     },
     "Celio's Errand": {
-      "translation": "西利奥的任务",
+      "translation": "西里奥的差事",
       "line": 382
     },
     "Memorial Pillar": {

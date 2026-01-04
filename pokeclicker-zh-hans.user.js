@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.13
+// @version      0.1.14
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -37,7 +37,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.13';
+    const SCRIPT_VERSION = '0.1.14';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -398,8 +398,8 @@
             const pieceKey = normalizeText(c);
             if (!pieceKey) return piece;
 
-            // Handle leftover English articles in mixed CN/EN strings (e.g. "你捕获了a小拉达").
-            if (hasHan && (pieceKey === 'a' || pieceKey === 'an')) {
+            // Handle leftover English articles (often appear as their own text node).
+            if (pieceKey === 'a' || pieceKey === 'an') {
                 return '';
             }
 

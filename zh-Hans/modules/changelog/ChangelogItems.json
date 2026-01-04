@@ -1451,7 +1451,7 @@
       "line": 481
     },
     "Removed guaranteed Unown (A) from Ruins of Alph": {
-      "translation": "从阿尔夫废墟中移除了保证未知的 (A)",
+      "translation": "从阿露福遗迹中移除了保证未知的 (A)",
       "line": 482
     },
     "Adjusted some Pokémon teams": {
@@ -2083,7 +2083,7 @@
       "line": 704
     },
     "Unown (A) HP in Ruins of Alph": {
-      "translation": "阿尔夫废墟中未知的（A）HP",
+      "translation": "阿露福遗迹中未知的（A）HP",
       "line": 705
     },
     "Being able to leave the region early if pokédex challenge enabled": {
@@ -2275,7 +2275,7 @@
       "line": 760
     },
     "Ruins of Alph added Unown (A) as a boss until caught": {
-      "translation": "《阿尔夫废墟》添加了未知 (A) 作为 Boss，直到被抓住",
+      "translation": "《阿露福遗迹》添加了未知 (A) 作为 Boss，直到被抓住",
       "line": 761
     },
     "Pokémon now sorted by ID in the evolution stone menu": {
@@ -2403,7 +2403,7 @@
       "line": 797
     },
     "Ruins of Alph Unown encounters": {
-      "translation": "阿尔夫废墟未知遭遇",
+      "translation": "阿露福遗迹未知遭遇",
       "line": 798
     },
     "Save profiles not loading if they contained a % symbol": {

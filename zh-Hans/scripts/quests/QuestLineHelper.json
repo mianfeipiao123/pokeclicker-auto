@@ -711,11 +711,11 @@
       "line": 535
     },
     "Ice Path": {
-      "translation": "冰路",
+      "translation": "冰雪通路",
       "line": 538
     },
     "Clear the Ice Path to give Sayo a push.": {
-      "translation": "清除冰路以推动 沙代。",
+      "translation": "清除冰雪通路，推一把沙代。",
       "line": 538
     },
     "Talk to Kimono Girl Kuni in Goldenrod City.": {
@@ -735,7 +735,7 @@
       "line": 550
     },
     "Catch Lugia in the Whirl Islands.": {
-      "translation": "在漩涡群岛捕捉洛奇亚。",
+      "translation": "在漩涡岛捕捉洛奇亚。",
       "line": 550
     },
     "Rainbow Guardian": {
@@ -811,7 +811,7 @@
       "line": 597
     },
     "Investigate the Time Distortion in Tohjo Falls.": {
-      "translation": "调查东条瀑布的时间扭曲。",
+      "translation": "调查都城瀑布的时间扭曲。",
       "line": 603
     },
     "Rocket Boss Giovanni": {

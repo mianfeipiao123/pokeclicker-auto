@@ -91,7 +91,7 @@
       "line": 34
     },
     "Eggs can now be added to the hatchery queue": {
-      "translation": "现在可以将鸡蛋添加到孵化场队列中",
+      "translation": "现在可以将蛋添加到孵化场队列中",
       "line": 35
     },
     "Completing all quests in the list now awards bonus Quest Points": {
@@ -119,7 +119,7 @@
       "line": 41
     },
     "Eggs tab in the Hatchery now lists which Pokémon can be hatched from each egg along with their odds": {
-      "translation": "孵化场中的“鸡蛋”选项卡现在列出了每个鸡蛋可以孵化哪些宝可梦及其几率",
+      "translation": "孵化场中的“蛋”选项卡现在列出了每个蛋可以孵化哪些宝可梦及其几率",
       "line": 42
     },
     "Added keybinds to open the Achievement Tracker (T) and activate Battery Discharge (D) in the Underground": {
@@ -1071,7 +1071,7 @@
       "line": 339
     },
     "S.S. Anne visible on all maps at dock location": {
-      "translation": "S.S. Anne 在码头位置的所有地图上均可见",
+      "translation": "圣安奴号在码头位置的所有地图上均可见",
       "line": 340
     },
     "Adjusted some pokémon locations": {
@@ -1091,7 +1091,7 @@
       "line": 344
     },
     "Updated egg colors in Hatchery": {
-      "translation": "更新了孵化场的鸡蛋颜色",
+      "translation": "更新了孵化场的蛋颜色",
       "line": 345
     },
     "Misc map changes": {
@@ -2507,7 +2507,7 @@
       "line": 829
     },
     "Updated Sinnoh route 224 requirements": {
-      "translation": "更新了神奥224号线的要求",
+      "translation": "更新了神奥224号道路的要求",
       "line": 830
     },
     "Updated dungeon achievement order": {
@@ -2795,7 +2795,7 @@
       "line": 913
     },
     "Added Farm, Daycare, Underground locations to all maps": {
-      "translation": "在所有地图中添加了农场、日托、采掘场位置",
+      "translation": "在所有地图中添加了农场、培育屋、采掘场位置",
       "line": 914
     },
     "Moved a few dungeons out of towns": {
@@ -3901,7 +3901,7 @@
       "line": 1254
     },
     "Unlock Kanto route 22 earlier in the game": {
-      "translation": "在游戏早期解锁关东22号公路",
+      "translation": "在游戏早期解锁关东22号道路",
       "line": 1255
     },
     "Show currently locked Dungeon Bosses": {
@@ -3925,7 +3925,7 @@
       "line": 1260
     },
     "All eggs will auto hatch when steps reached if Pokémon still in the queue": {
-      "translation": "如果宝可梦仍在队列中，当达到步数时，所有鸡蛋都会自动孵化",
+      "translation": "如果宝可梦仍在队列中，当达到步数时，所有蛋都会自动孵化",
       "line": 1261
     },
     "Backup save data corrected": {
@@ -3945,7 +3945,7 @@
       "line": 1265
     },
     "Swapped Kanto routes 7 and 8": {
-      "translation": "关东7号线和8号线交换",
+      "translation": "关东7号道路和8号道路交换",
       "line": 1266
     },
     "Reduce svg image sizes, fix some lag": {
@@ -4057,7 +4057,7 @@
       "line": 1295
     },
     "When hatching shop eggs, the Pokémon level will no longer be reset": {
-      "translation": "孵化商店鸡蛋时，宝可梦等级将不再重置",
+      "translation": "孵化商店蛋时，宝可梦等级将不再重置",
       "line": 1296
     },
     "Underground daily trades statistic will increment correctly when doing multiple trades": {
@@ -4073,7 +4073,7 @@
       "line": 1301
     },
     "Added setting for Hatchery egg ready to hatch animations": {
-      "translation": "添加了孵化场鸡蛋准备孵化动画的设置",
+      "translation": "添加了孵化场蛋准备孵化动画的设置",
       "line": 1302
     },
     "More NPCs in towns around Johto and Hoenn": {
@@ -4105,7 +4105,7 @@
       "line": 1309
     },
     "Hatchery eggs will display in a row of 4 when module is in the middle columnn": {
-      "translation": "当模块位于中间栏时，孵化场鸡蛋将显示为4行",
+      "translation": "当模块位于中间栏时，孵化场蛋将显示为4行",
       "line": 1310
     },
     "Always show total levels in Oak Item tooltips": {
@@ -4161,7 +4161,7 @@
       "line": 1325
     },
     "Walking in the Safari Zone will now add steps to your eggs": {
-      "translation": "现在，在野生动物区行走将为你的鸡蛋添加步骤",
+      "translation": "现在，在野生动物区行走将为你的蛋添加步骤",
       "line": 1326
     },
     "Achievements added for reaching maximum level on oak items": {
@@ -4189,7 +4189,7 @@
       "line": 1332
     },
     "Eggs will wobble when they are ready to hatch": {
-      "translation": "当鸡蛋准备孵化时会摇晃",
+      "translation": "当蛋准备孵化时会摇晃",
       "line": 1333
     },
     "Start Menu contains a link to the Wiki": {
@@ -4209,7 +4209,7 @@
       "line": 1337
     },
     "Can see your list of eggs and fossils even if you cannot breed them": {
-      "translation": "即使你无法繁殖，也可以查看你的鸡蛋和化石列表",
+      "translation": "即使你无法繁殖，也可以查看你的蛋和化石列表",
       "line": 1338
     },
     "Unobtained Pokémon will show as white on dark themes": {
@@ -4265,7 +4265,7 @@
       "line": 1353
     },
     "Electrike is now exclusive to eggs": {
-      "translation": "落雷兽 现在是鸡蛋的专属产品",
+      "translation": "落雷兽 现在是蛋的专属产品",
       "line": 1354
     },
     "\"Complete the Kanto Pokédex!\" achievement now requires all 151 Kanto Pokémon": {
@@ -4381,11 +4381,11 @@
       "line": 1385
     },
     "Can filter Daycare Pokémon by name (regex supported)": {
-      "translation": "可以按名称过滤日托宝可梦（支持正则表达式）",
+      "translation": "可以按名称过滤培育屋宝可梦（支持正则表达式）",
       "line": 1386
     },
     "Select which information is displayed under each Pokémon in the Daycare": {
-      "translation": "选择日托中每个宝可梦下方显示的信息",
+      "translation": "选择培育屋中每个宝可梦下方显示的信息",
       "line": 1387
     },
     "Possible to start with a Pikachu if no starter Pokémon selected enough times": {
@@ -4405,7 +4405,7 @@
       "line": 1391
     },
     "Route 40 should no longer unlock before reaching it": {
-      "translation": "40号公路在到达之前不应再解锁",
+      "translation": "40号道路在到达之前不应再解锁",
       "line": 1392
     },
     "Reduce some checks firing too often": {
@@ -4457,11 +4457,11 @@
       "line": 1408
     },
     "Add Croagunk to Route 212": {
-      "translation": "将 Croagunk 添加到212号公路",
+      "translation": "将 Croagunk 添加到212号道路",
       "line": 1409
     },
     "Move Hippopotas from Route 210 → Route 214": {
-      "translation": "将河马从210号公路移至214号公路",
+      "translation": "将河马从210号道路移至214号道路",
       "line": 1410
     },
     "Updated Fight Area requirements": {
@@ -4577,7 +4577,7 @@
       "line": 1443
     },
     "Filters added to the Day Care": {
-      "translation": "添加到日托中心的过滤器",
+      "translation": "添加到培育屋的过滤器",
       "line": 1444
     },
     "Achievements available for all regions": {
@@ -4633,7 +4633,7 @@
       "line": 1459
     },
     "Separate Day Care modal into individual tabs for Pokémon, Eggs and Fossils": {
-      "translation": "将日托模式分为宝可梦、鸡蛋和化石的单独选项卡",
+      "translation": "将培育屋模式分为宝可梦、蛋和化石的单独选项卡",
       "line": 1460
     },
     "Update modal displays": {
@@ -4673,7 +4673,7 @@
       "line": 1471
     },
     "Caught indicator on eggs showing if you have obtained all the Pokémon available in that egg type": {
-      "translation": "鸡蛋上的捕获指示器显示你是否已获得该鸡蛋类型中的所有宝可梦",
+      "translation": "蛋上的捕获指示器显示你是否已获得该蛋类型中的所有宝可梦",
       "line": 1472
     },
     "Move some dungeons to be standalone": {
@@ -4725,7 +4725,7 @@
       "line": 1488
     },
     "Eggs now have multiple different styles": {
-      "translation": "鸡蛋现在有多种不同的样式",
+      "translation": "蛋现在有多种不同的样式",
       "line": 1489
     },
     "xExp is now the Lucky Egg": {
@@ -4733,11 +4733,11 @@
       "line": 1490
     },
     "Updated Currency, Item, Berry, Egg and Fossil images": {
-      "translation": "更新了货币、物品、树果、鸡蛋和化石图像",
+      "translation": "更新了货币、物品、树果、蛋和化石图像",
       "line": 1491
     },
     "Day Care is now unlocked once you defeat Route 5": {
-      "translation": "一旦击败5号公路，日托中心现已解锁",
+      "translation": "一旦击败5号道路，培育屋现已解锁",
       "line": 1492
     },
     "Fossils will now show in the Hatchery": {
@@ -4765,7 +4765,7 @@
       "line": 1500
     },
     "Added Dratini to Route 45": {
-      "translation": "将 迷你龙 添加到45号公路",
+      "translation": "将 迷你龙 添加到45号道路",
       "line": 1501
     },
     "Underground should now work better on smaller screens": {
@@ -4813,7 +4813,7 @@
       "line": 1514
     },
     "Allow the game to continue running while Day Care is open": {
-      "translation": "允许游戏在日托中心开放时继续运行",
+      "translation": "允许游戏在培育屋开放时继续运行",
       "line": 1515
     },
     "Allow the game to continue running while Underground is open": {
@@ -4821,7 +4821,7 @@
       "line": 1516
     },
     "Don't send the player back to Route 11 when leaving the Underground": {
-      "translation": "离开地铁时不要将玩家送回11号公路",
+      "translation": "离开地铁时不要将玩家送回11号道路",
       "line": 1517
     },
     "Allow the game to continue running while Farm is open": {
@@ -4829,7 +4829,7 @@
       "line": 1518
     },
     "Don't send the player back to Route 14 when leaving the Farm": {
-      "translation": "离开农场时不要将玩家送回14号公路",
+      "translation": "离开农场时不要将玩家送回14号道路",
       "line": 1519
     },
     "Added button to open Dock for cities located nearby": {
@@ -4837,7 +4837,7 @@
       "line": 1520
     },
     "Moved shiny icon further into the corner in the Day Care view, to make it easier to spot already shiny Pokémon": {
-      "translation": "将异色图标移至日托视图的角落，以便更容易发现已经异色的宝可梦",
+      "translation": "将异色图标移至培育屋视图的角落，以便更容易发现已经异色的宝可梦",
       "line": 1521
     },
     "Dungeon size scales depending on region": {
@@ -5373,7 +5373,7 @@
       "line": 1685
     },
     "Going to the breeder will no longer send you to route 5": {
-      "translation": "去找饲养员不再会把你送到5号公路",
+      "translation": "去找饲养员不再会把你送到5号道路",
       "line": 1686
     },
     "You will now start the game with 25 Pokéballs": {

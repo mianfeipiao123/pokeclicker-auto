@@ -119,7 +119,7 @@
       "line": 30
     },
     "Kanto Route 1": {
-      "translation": "关东1号线",
+      "translation": "1号道路（关东）",
       "line": 36
     },
     "Pidgey": {
@@ -131,7 +131,7 @@
       "line": 38
     },
     "Kanto Route 22": {
-      "translation": "关东22号线",
+      "translation": "22号道路（关东）",
       "line": 44
     },
     "Spearow": {
@@ -163,7 +163,7 @@
       "line": 47
     },
     "Kanto Route 2": {
-      "translation": "关东2号线",
+      "translation": "2号道路（关东）",
       "line": 54
     },
     "Caterpie": {
@@ -175,7 +175,7 @@
       "line": 56
     },
     "Kanto Route 3": {
-      "translation": "关东3号线",
+      "translation": "3号道路（关东）",
       "line": 63
     },
     "Nidoran(F)": {
@@ -191,7 +191,7 @@
       "line": 65
     },
     "Kanto Route 4": {
-      "translation": "关东4号线",
+      "translation": "4号道路（关东）",
       "line": 75
     },
     "Ekans": {
@@ -219,7 +219,7 @@
       "line": 82
     },
     "Kanto Route 24": {
-      "translation": "关东24号线",
+      "translation": "24号道路（关东）",
       "line": 88
     },
     "Metapod": {
@@ -251,11 +251,11 @@
       "line": 94
     },
     "Kanto Route 25": {
-      "translation": "关东25号线",
+      "translation": "25号道路（关东）",
       "line": 99
     },
     "Kanto Route 5": {
-      "translation": "关东5号线",
+      "translation": "5号道路（关东）",
       "line": 109
     },
     "Meowth": {
@@ -263,11 +263,11 @@
       "line": 111
     },
     "Kanto Route 6": {
-      "translation": "关东6号线",
+      "translation": "6号道路（关东）",
       "line": 121
     },
     "Kanto Route 11": {
-      "translation": "关东11号线",
+      "translation": "11号道路（关东）",
       "line": 131
     },
     "Drowzee": {
@@ -279,7 +279,7 @@
       "line": 135
     },
     "Kanto Route 9": {
-      "translation": "关东9号线",
+      "translation": "9号道路（关东）",
       "line": 142
     },
     "Blue 3": {
@@ -287,7 +287,7 @@
       "line": 147
     },
     "Kanto Route 10": {
-      "translation": "关东10号线",
+      "translation": "10号道路（关东）",
       "line": 154
     },
     "Voltorb": {
@@ -295,7 +295,7 @@
       "line": 156
     },
     "Kanto Route 8": {
-      "translation": "关东8号线",
+      "translation": "8号道路（关东）",
       "line": 164
     },
     "Vulpix": {
@@ -311,7 +311,7 @@
       "line": 168
     },
     "Kanto Route 7": {
-      "translation": "关东7号线",
+      "translation": "7号道路（关东）",
       "line": 173
     },
     "Houndour": {
@@ -319,7 +319,7 @@
       "line": 176
     },
     "Kanto Route 12": {
-      "translation": "关东12号线",
+      "translation": "12号道路（关东）",
       "line": 183
     },
     "Gloom": {
@@ -343,7 +343,7 @@
       "line": 186
     },
     "Kanto Route 13": {
-      "translation": "关东13号线",
+      "translation": "13号道路（关东）",
       "line": 194
     },
     "Pidgeotto": {
@@ -359,15 +359,15 @@
       "line": 201
     },
     "Kanto Route 14": {
-      "translation": "关东14号线",
+      "translation": "14号道路（关东）",
       "line": 209
     },
     "Kanto Route 15": {
-      "translation": "关东15号线",
+      "translation": "15号道路（关东）",
       "line": 223
     },
     "Kanto Route 16": {
-      "translation": "关东16号线",
+      "translation": "16号道路（关东）",
       "line": 237
     },
     "Raticate": {
@@ -387,7 +387,7 @@
       "line": 244
     },
     "Kanto Route 17": {
-      "translation": "关东17号线",
+      "translation": "17号道路（关东）",
       "line": 252
     },
     "Fearow": {
@@ -395,11 +395,11 @@
       "line": 254
     },
     "Kanto Route 18": {
-      "translation": "关东18号线",
+      "translation": "18号道路（关东）",
       "line": 267
     },
     "Kanto Route 19": {
-      "translation": "关东19号线",
+      "translation": "19号道路（关东）",
       "line": 282
     },
     "Surfing Pikachu": {
@@ -407,7 +407,7 @@
       "line": 285
     },
     "Kanto Route 20": {
-      "translation": "关东20号线",
+      "translation": "20号道路（关东）",
       "line": 292
     },
     "Shellder": {
@@ -423,7 +423,7 @@
       "line": 299
     },
     "Kanto Route 21": {
-      "translation": "关东21号线",
+      "translation": "21号道路（关东）",
       "line": 306
     },
     "Tangela": {
@@ -431,7 +431,7 @@
       "line": 308
     },
     "Kanto Route 23": {
-      "translation": "关东23号线",
+      "translation": "23号道路（关东）",
       "line": 316
     },
     "Arbok": {
@@ -723,7 +723,7 @@
       "line": 521
     },
     "Johto Route 29": {
-      "translation": "城都国道29号线",
+      "translation": "29号道路（城都）",
       "line": 534
     },
     "Hoothoot": {
@@ -747,7 +747,7 @@
       "line": 537
     },
     "Johto Route 30": {
-      "translation": "城都国道30号线",
+      "translation": "30号道路（城都）",
       "line": 542
     },
     "Zubat": {
@@ -755,7 +755,7 @@
       "line": 544
     },
     "Johto Route 31": {
-      "translation": "城都国道31号线",
+      "translation": "31号道路（城都）",
       "line": 551
     },
     "Aipom": {
@@ -771,7 +771,7 @@
       "line": 557
     },
     "Johto Route 32": {
-      "translation": "城都国道32号线",
+      "translation": "32号道路（城都）",
       "line": 560
     },
     "Mareep": {
@@ -783,7 +783,7 @@
       "line": 563
     },
     "Johto Route 33": {
-      "translation": "城都国道33号线",
+      "translation": "33号道路（城都）",
       "line": 569
     },
     "Union Cave": {
@@ -791,7 +791,7 @@
       "line": 574
     },
     "Johto Route 34": {
-      "translation": "城都国道34号线",
+      "translation": "34号道路（城都）",
       "line": 577
     },
     "Corsola": {
@@ -803,11 +803,11 @@
       "line": 583
     },
     "Johto Route 35": {
-      "translation": "城都国道35号线",
+      "translation": "35号道路（城都）",
       "line": 586
     },
     "Johto Route 36": {
-      "translation": "城都国道36号线",
+      "translation": "36号道路（城都）",
       "line": 595
     },
     "Stantler": {
@@ -819,11 +819,11 @@
       "line": 603
     },
     "Johto Route 37": {
-      "translation": "城都国道37号线",
+      "translation": "37号道路（城都）",
       "line": 608
     },
     "Johto Route 38": {
-      "translation": "城都国道38号线",
+      "translation": "38号道路（城都）",
       "line": 619
     },
     "Magnemite": {
@@ -843,15 +843,15 @@
       "line": 621
     },
     "Johto Route 39": {
-      "translation": "城都国道39号线",
+      "translation": "39号道路（城都）",
       "line": 627
     },
     "Johto Route 40": {
-      "translation": "城都国道40号线",
+      "translation": "40号道路（城都）",
       "line": 635
     },
     "Johto Route 41": {
-      "translation": "城都国道41号线",
+      "translation": "41号道路（城都）",
       "line": 645
     },
     "Mantine": {
@@ -871,7 +871,7 @@
       "line": 657
     },
     "Johto Route 42": {
-      "translation": "城都国道42号线",
+      "translation": "42号道路（城都）",
       "line": 662
     },
     "Flaaffy": {
@@ -895,7 +895,7 @@
       "line": 671
     },
     "Johto Route 43": {
-      "translation": "城都国道43号线",
+      "translation": "43号道路（城都）",
       "line": 677
     },
     "Noctowl": {
@@ -907,7 +907,7 @@
       "line": 679
     },
     "Johto Route 44": {
-      "translation": "城都国道44号线",
+      "translation": "44号道路（城都）",
       "line": 687
     },
     "Lickitung": {
@@ -919,7 +919,7 @@
       "line": 693
     },
     "Johto Route 45": {
-      "translation": "城都国道45号线",
+      "translation": "45号道路（城都）",
       "line": 696
     },
     "Gligar": {
@@ -943,11 +943,11 @@
       "line": 702
     },
     "Johto Route 46": {
-      "translation": "城都国道46号线",
+      "translation": "46号道路（城都）",
       "line": 705
     },
     "Johto Route 47": {
-      "translation": "城都国道47号线",
+      "translation": "47号道路（城都）",
       "line": 714
     },
     "Seel": {
@@ -967,7 +967,7 @@
       "line": 718
     },
     "Johto Route 48": {
-      "translation": "城都国道48号线",
+      "translation": "48号道路（城都）",
       "line": 723
     },
     "Diglett": {
@@ -975,7 +975,7 @@
       "line": 725
     },
     "Johto Route 26": {
-      "translation": "城都国道26号线",
+      "translation": "26号道路（城都）",
       "line": 731
     },
     "Dodrio": {
@@ -983,7 +983,7 @@
       "line": 733
     },
     "Johto Route 27": {
-      "translation": "城都国道27号线",
+      "translation": "27号道路（城都）",
       "line": 741
     },
     "Tohjo Falls": {
@@ -991,7 +991,7 @@
       "line": 747
     },
     "Johto Route 28": {
-      "translation": "城都国道28号线",
+      "translation": "28号道路（城都）",
       "line": 751
     },
     "Donphan": {
@@ -1011,7 +1011,7 @@
       "line": 753
     },
     "Hoenn Route 101": {
-      "translation": "丰缘国道101号线",
+      "translation": "101号道路（丰缘）",
       "line": 765
     },
     "Wurmple": {
@@ -1027,7 +1027,7 @@
       "line": 767
     },
     "Hoenn Route 102": {
-      "translation": "丰缘国道102号线",
+      "translation": "102号道路（丰缘）",
       "line": 772
     },
     "Surskit": {
@@ -1055,7 +1055,7 @@
       "line": 777
     },
     "Hoenn Route 103": {
-      "translation": "丰缘国道103号线",
+      "translation": "103号道路（丰缘）",
       "line": 780
     },
     "Wingull": {
@@ -1075,7 +1075,7 @@
       "line": 783
     },
     "Hoenn Route 104": {
-      "translation": "丰缘国道104号线",
+      "translation": "104号道路（丰缘）",
       "line": 789
     },
     "Taillow": {
@@ -1083,27 +1083,27 @@
       "line": 791
     },
     "Hoenn Route 105": {
-      "translation": "丰缘国道105号线",
+      "translation": "105号道路（丰缘）",
       "line": 797
     },
     "Hoenn Route 106": {
-      "translation": "丰缘国道106号线",
+      "translation": "106号道路（丰缘）",
       "line": 805
     },
     "Hoenn Route 107": {
-      "translation": "丰缘国道107号线",
+      "translation": "107号道路（丰缘）",
       "line": 818
     },
     "Hoenn Route 108": {
-      "translation": "丰缘国道108号线",
+      "translation": "108号道路（丰缘）",
       "line": 831
     },
     "Hoenn Route 109": {
-      "translation": "丰缘国道109号线",
+      "translation": "109号道路（丰缘）",
       "line": 844
     },
     "Hoenn Route 110": {
-      "translation": "丰缘国道110号线",
+      "translation": "110号道路（丰缘）",
       "line": 852
     },
     "Gulpin": {
@@ -1127,7 +1127,7 @@
       "line": 859
     },
     "Hoenn Route 111": {
-      "translation": "丰缘国道111号线",
+      "translation": "111号道路（丰缘）",
       "line": 862
     },
     "Trapinch": {
@@ -1147,7 +1147,7 @@
       "line": 865
     },
     "Hoenn Route 112": {
-      "translation": "丰缘国道112号线",
+      "translation": "112号道路（丰缘）",
       "line": 871
     },
     "Numel": {
@@ -1155,7 +1155,7 @@
       "line": 873
     },
     "Hoenn Route 113": {
-      "translation": "丰缘国道113号线",
+      "translation": "113号道路（丰缘）",
       "line": 878
     },
     "Spinda": {
@@ -1167,7 +1167,7 @@
       "line": 882
     },
     "Hoenn Route 114": {
-      "translation": "丰缘国道114号线",
+      "translation": "114号道路（丰缘）",
       "line": 885
     },
     "Zangoose": {
@@ -1191,7 +1191,7 @@
       "line": 887
     },
     "Hoenn Route 115": {
-      "translation": "丰缘国道115号线",
+      "translation": "115号道路（丰缘）",
       "line": 894
     },
     "Swellow": {
@@ -1203,7 +1203,7 @@
       "line": 899
     },
     "Hoenn Route 116": {
-      "translation": "丰缘国道116号线",
+      "translation": "116号道路（丰缘）",
       "line": 902
     },
     "Whismur": {
@@ -1223,7 +1223,7 @@
       "line": 906
     },
     "Hoenn Route 117": {
-      "translation": "丰缘国道117号线",
+      "translation": "117号道路（丰缘）",
       "line": 910
     },
     "Illumise": {
@@ -1243,7 +1243,7 @@
       "line": 917
     },
     "Hoenn Route 118": {
-      "translation": "丰缘国道118号线",
+      "translation": "118号道路（丰缘）",
       "line": 921
     },
     "Linoone": {
@@ -1263,7 +1263,7 @@
       "line": 928
     },
     "Hoenn Route 119": {
-      "translation": "丰缘国道119号线",
+      "translation": "119号道路（丰缘）",
       "line": 934
     },
     "Tropius": {
@@ -1271,7 +1271,7 @@
       "line": 936
     },
     "Hoenn Route 120": {
-      "translation": "丰缘国道120号线",
+      "translation": "120号道路（丰缘）",
       "line": 942
     },
     "Mightyena": {
@@ -1291,7 +1291,7 @@
       "line": 949
     },
     "Hoenn Route 121": {
-      "translation": "丰缘国道121号线",
+      "translation": "121号道路（丰缘）",
       "line": 953
     },
     "Shuppet": {
@@ -1299,15 +1299,15 @@
       "line": 955
     },
     "Hoenn Route 122": {
-      "translation": "丰缘国道122号线",
+      "translation": "122号道路（丰缘）",
       "line": 961
     },
     "Hoenn Route 123": {
-      "translation": "丰缘国道123号线",
+      "translation": "123号道路（丰缘）",
       "line": 968
     },
     "Hoenn Route 124": {
-      "translation": "丰缘国道124号线",
+      "translation": "124号道路（丰缘）",
       "line": 976
     },
     "Clamperl": {
@@ -1323,19 +1323,19 @@
       "line": 980
     },
     "Hoenn Route 125": {
-      "translation": "丰缘国道125号线",
+      "translation": "125号道路（丰缘）",
       "line": 983
     },
     "Hoenn Route 126": {
-      "translation": "丰缘国道126号线",
+      "translation": "126号道路（丰缘）",
       "line": 990
     },
     "Hoenn Route 127": {
-      "translation": "丰缘国道127号线",
+      "translation": "127号道路（丰缘）",
       "line": 997
     },
     "Hoenn Route 128": {
-      "translation": "丰缘国道128号线",
+      "translation": "128号道路（丰缘）",
       "line": 1009
     },
     "Luvdisc": {
@@ -1343,7 +1343,7 @@
       "line": 1011
     },
     "Hoenn Route 129": {
-      "translation": "丰缘国道129号线",
+      "translation": "129号道路（丰缘）",
       "line": 1016
     },
     "Wailord": {
@@ -1351,7 +1351,7 @@
       "line": 1018
     },
     "Hoenn Route 130": {
-      "translation": "丰缘国道130号线",
+      "translation": "130号道路（丰缘）",
       "line": 1023
     },
     "Wynaut": {
@@ -1359,19 +1359,19 @@
       "line": 1025
     },
     "Hoenn Route 131": {
-      "translation": "丰缘国道131号线",
+      "translation": "131号道路（丰缘）",
       "line": 1031
     },
     "Hoenn Route 132": {
-      "translation": "丰缘国道132号线",
+      "translation": "132号道路（丰缘）",
       "line": 1038
     },
     "Hoenn Route 133": {
-      "translation": "丰缘国道133号线",
+      "translation": "133号道路（丰缘）",
       "line": 1045
     },
     "Hoenn Route 134": {
-      "translation": "丰缘国道134号线",
+      "translation": "134号道路（丰缘）",
       "line": 1052
     },
     "Rock Poké Spot": {
@@ -1395,7 +1395,7 @@
       "line": 1083
     },
     "Sinnoh Route 201": {
-      "translation": "神奥国道201号线",
+      "translation": "201号道路（神奥）",
       "line": 1096
     },
     "Starly": {
@@ -1411,7 +1411,7 @@
       "line": 1098
     },
     "Sinnoh Route 202": {
-      "translation": "神奥国道202号线",
+      "translation": "202号道路（神奥）",
       "line": 1103
     },
     "Shinx": {
@@ -1423,7 +1423,7 @@
       "line": 1109
     },
     "Sinnoh Route 203": {
-      "translation": "神奥国道203号线",
+      "translation": "203号道路（神奥）",
       "line": 1113
     },
     "Barry 2": {
@@ -1431,7 +1431,7 @@
       "line": 1118
     },
     "Sinnoh Route 204": {
-      "translation": "神奥204号公路",
+      "translation": "204号道路（神奥）",
       "line": 1121
     },
     "Budew": {
@@ -1439,7 +1439,7 @@
       "line": 1123
     },
     "Sinnoh Route 205": {
-      "translation": "神奥国道205号线",
+      "translation": "205号道路（神奥）",
       "line": 1129
     },
     "Silcoon": {
@@ -1487,7 +1487,7 @@
       "line": 1134
     },
     "Sinnoh Route 206": {
-      "translation": "神奥国道206号线",
+      "translation": "206号道路（神奥）",
       "line": 1137
     },
     "Machop": {
@@ -1507,11 +1507,11 @@
       "line": 1141
     },
     "Sinnoh Route 207": {
-      "translation": "神奥207号公路",
+      "translation": "207号道路（神奥）",
       "line": 1144
     },
     "Sinnoh Route 208": {
-      "translation": "神奥国道208号线",
+      "translation": "208号道路（神奥）",
       "line": 1151
     },
     "Bibarel": {
@@ -1523,7 +1523,7 @@
       "line": 1156
     },
     "Sinnoh Route 209": {
-      "translation": "神奥209号公路",
+      "translation": "209号道路（神奥）",
       "line": 1159
     },
     "Chansey": {
@@ -1543,7 +1543,7 @@
       "line": 1164
     },
     "Sinnoh Route 210": {
-      "translation": "神奥210号公路",
+      "translation": "210号道路（神奥）",
       "line": 1167
     },
     "Machoke": {
@@ -1559,7 +1559,7 @@
       "line": 1169
     },
     "Sinnoh Route 215": {
-      "translation": "神奥国道215号线",
+      "translation": "215号道路（神奥）",
       "line": 1175
     },
     "Kadabra": {
@@ -1567,7 +1567,7 @@
       "line": 1177
     },
     "Sinnoh Route 214": {
-      "translation": "神奥214号公路",
+      "translation": "214号道路（神奥）",
       "line": 1183
     },
     "Rhyhorn": {
@@ -1575,7 +1575,7 @@
       "line": 1185
     },
     "Sinnoh Route 213": {
-      "translation": "神奥国道213号线",
+      "translation": "213号道路（神奥）",
       "line": 1192
     },
     "Shellos (East)": {
@@ -1595,7 +1595,7 @@
       "line": 1195
     },
     "Sinnoh Route 212": {
-      "translation": "神奥国道212号线",
+      "translation": "212号道路（神奥）",
       "line": 1201
     },
     "Kirlia": {
@@ -1607,7 +1607,7 @@
       "line": 1203
     },
     "Sinnoh Route 211": {
-      "translation": "神奥211号公路",
+      "translation": "211号道路（神奥）",
       "line": 1210
     },
     "Chingling": {
@@ -1619,7 +1619,7 @@
       "line": 1212
     },
     "Sinnoh Route 218": {
-      "translation": "神奥218号公路",
+      "translation": "218号道路（神奥）",
       "line": 1218
     },
     "Mr. Mime": {
@@ -1639,7 +1639,7 @@
       "line": 1223
     },
     "Sinnoh Route 216": {
-      "translation": "神奥国道216号线",
+      "translation": "216号道路（神奥）",
       "line": 1227
     },
     "Snorunt": {
@@ -1655,7 +1655,7 @@
       "line": 1231
     },
     "Sinnoh Route 217": {
-      "translation": "神奥217号公路",
+      "translation": "217号道路（神奥）",
       "line": 1234
     },
     "Swinub": {
@@ -1663,15 +1663,15 @@
       "line": 1236
     },
     "Sinnoh Route 219": {
-      "translation": "神奥219号公路",
+      "translation": "219号道路（神奥）",
       "line": 1241
     },
     "Sinnoh Route 220": {
-      "translation": "神奥220号公路",
+      "translation": "220号道路（神奥）",
       "line": 1248
     },
     "Sinnoh Route 221": {
-      "translation": "神奥国道221号线",
+      "translation": "221号道路（神奥）",
       "line": 1255
     },
     "Skuntank": {
@@ -1679,7 +1679,7 @@
       "line": 1257
     },
     "Sinnoh Route 222": {
-      "translation": "神奥国道222号线",
+      "translation": "222号道路（神奥）",
       "line": 1263
     },
     "Magneton": {
@@ -1703,7 +1703,7 @@
       "line": 1268
     },
     "Sinnoh Route 223": {
-      "translation": "神奥国道223号线",
+      "translation": "223号道路（神奥）",
       "line": 1271
     },
     "Mantyke": {
@@ -1711,11 +1711,11 @@
       "line": 1273
     },
     "Sinnoh Route 224": {
-      "translation": "神奥国道224号线",
+      "translation": "224号道路（神奥）",
       "line": 1278
     },
     "Sinnoh Route 225": {
-      "translation": "神奥国道225号线",
+      "translation": "225号道路（神奥）",
       "line": 1286
     },
     "Banette": {
@@ -1723,11 +1723,11 @@
       "line": 1288
     },
     "Sinnoh Route 226": {
-      "translation": "神奥国道226号线",
+      "translation": "226号道路（神奥）",
       "line": 1294
     },
     "Sinnoh Route 227": {
-      "translation": "神奥国道227号线",
+      "translation": "227号道路（神奥）",
       "line": 1302
     },
     "Golbat": {
@@ -1747,7 +1747,7 @@
       "line": 1304
     },
     "Sinnoh Route 228": {
-      "translation": "神奥国道228号线",
+      "translation": "228号道路（神奥）",
       "line": 1310
     },
     "Dugtrio": {
@@ -1763,7 +1763,7 @@
       "line": 1312
     },
     "Sinnoh Route 229": {
-      "translation": "神奥国道229号线",
+      "translation": "229号道路（神奥）",
       "line": 1318
     },
     "Ledian": {
@@ -1779,7 +1779,7 @@
       "line": 1321
     },
     "Sinnoh Route 230": {
-      "translation": "神奥230号公路",
+      "translation": "230号道路（神奥）",
       "line": 1326
     },
     "Sealeo": {
@@ -1787,7 +1787,7 @@
       "line": 1329
     },
     "Unova Route 19": {
-      "translation": "合众19号公路",
+      "translation": "19号道路（合众）",
       "line": 1338
     },
     "Patrat": {
@@ -1807,7 +1807,7 @@
       "line": 1341
     },
     "Unova Route 20": {
-      "translation": "合众20号公路",
+      "translation": "20号道路（合众）",
       "line": 1347
     },
     "Pidove": {
@@ -1831,7 +1831,7 @@
       "line": 1354
     },
     "Unova Route 4": {
-      "translation": "合众国道4号",
+      "translation": "4号道路（合众）",
       "line": 1359
     },
     "Sandile": {
@@ -1887,7 +1887,7 @@
       "line": 1377
     },
     "Unova Route 5": {
-      "translation": "合众5号公路",
+      "translation": "5号道路（合众）",
       "line": 1383
     },
     "Gothita": {
@@ -1903,11 +1903,11 @@
       "line": 1385
     },
     "Unova Route 16": {
-      "translation": "合众国16号公路",
+      "translation": "16号道路（合众）",
       "line": 1393
     },
     "Unova Route 6": {
-      "translation": "合众6号公路",
+      "translation": "6号道路（合众）",
       "line": 1404
     },
     "Deerling (Spring)": {
@@ -1951,7 +1951,7 @@
       "line": 1413
     },
     "Unova Route 7": {
-      "translation": "合众7号公路",
+      "translation": "7号道路（合众）",
       "line": 1418
     },
     "Cubchoo": {
@@ -1983,7 +1983,7 @@
       "line": 1426
     },
     "Unova Route 13": {
-      "translation": "合众13号公路",
+      "translation": "13号道路（合众）",
       "line": 1431
     },
     "Drifblim": {
@@ -2023,7 +2023,7 @@
       "line": 1443
     },
     "Unova Route 14": {
-      "translation": "合众14号公路",
+      "translation": "14号道路（合众）",
       "line": 1447
     },
     "Mienfoo": {
@@ -2035,7 +2035,7 @@
       "line": 1449
     },
     "Unova Route 12": {
-      "translation": "合众12号公路",
+      "translation": "12号道路（合众）",
       "line": 1456
     },
     "Pinsir": {
@@ -2063,7 +2063,7 @@
       "line": 1467
     },
     "Unova Route 11": {
-      "translation": "合众11号公路",
+      "translation": "11号道路（合众）",
       "line": 1473
     },
     "Amoonguss": {
@@ -2071,7 +2071,7 @@
       "line": 1475
     },
     "Unova Route 9": {
-      "translation": "合众9号公路",
+      "translation": "9号道路（合众）",
       "line": 1482
     },
     "Muk": {
@@ -2099,7 +2099,7 @@
       "line": 1484
     },
     "Unova Route 21": {
-      "translation": "合众21号公路",
+      "translation": "21号道路（合众）",
       "line": 1490
     },
     "Seaside Cave": {
@@ -2107,7 +2107,7 @@
       "line": 1494
     },
     "Unova Route 22": {
-      "translation": "合众22号公路",
+      "translation": "22号道路（合众）",
       "line": 1497
     },
     "Delibird": {
@@ -2115,7 +2115,7 @@
       "line": 1499
     },
     "Unova Route 23": {
-      "translation": "合众23号公路",
+      "translation": "23号道路（合众）",
       "line": 1505
     },
     "Bouffalant": {
@@ -2147,7 +2147,7 @@
       "line": 1517
     },
     "Unova Route 8": {
-      "translation": "合众8号公路",
+      "translation": "8号道路（合众）",
       "line": 1522
     },
     "Tympole": {
@@ -2167,7 +2167,7 @@
       "line": 1528
     },
     "Unova Route 15": {
-      "translation": "合众15号公路",
+      "translation": "15号道路（合众）",
       "line": 1538
     },
     "Pupitar": {
@@ -2179,7 +2179,7 @@
       "line": 1540
     },
     "Unova Route 3": {
-      "translation": "合众国道3号",
+      "translation": "3号道路（合众）",
       "line": 1557
     },
     "Yanmega": {
@@ -2199,11 +2199,11 @@
       "line": 1566
     },
     "Unova Route 2": {
-      "translation": "合众国道2号",
+      "translation": "2号道路（合众）",
       "line": 1570
     },
     "Unova Route 1": {
-      "translation": "合众国道1号",
+      "translation": "1号道路（合众）",
       "line": 1578
     },
     "Scrafty": {
@@ -2211,7 +2211,7 @@
       "line": 1580
     },
     "Unova Route 17": {
-      "translation": "合众17号公路",
+      "translation": "17号道路（合众）",
       "line": 1587
     },
     "Alomomola": {
@@ -2219,7 +2219,7 @@
       "line": 1589
     },
     "Unova Route 18": {
-      "translation": "合众18号公路",
+      "translation": "18号道路（合众）",
       "line": 1595
     },
     "Carnivine": {
@@ -2231,7 +2231,7 @@
       "line": 1597
     },
     "Kalos Route 1": {
-      "translation": "卡洛斯1号公路",
+      "translation": "1号道路（卡洛斯）",
       "line": 1613
     },
     "Bunnelby": {
@@ -2243,7 +2243,7 @@
       "line": 1615
     },
     "Kalos Route 2": {
-      "translation": "卡洛斯2号公路",
+      "translation": "2号道路（卡洛斯）",
       "line": 1620
     },
     "Scatterbug": {
@@ -2251,7 +2251,7 @@
       "line": 1622
     },
     "Kalos Route 3": {
-      "translation": "卡洛斯3号公路",
+      "translation": "3号道路（卡洛斯）",
       "line": 1627
     },
     "Pikachu": {
@@ -2271,7 +2271,7 @@
       "line": 1632
     },
     "Kalos Route 22": {
-      "translation": "卡洛斯22号公路",
+      "translation": "22号道路（卡洛斯）",
       "line": 1635
     },
     "Azumarill": {
@@ -2291,7 +2291,7 @@
       "line": 1637
     },
     "Kalos Route 4": {
-      "translation": "卡洛斯4号公路",
+      "translation": "4号道路（卡洛斯）",
       "line": 1644
     },
     "Flabébé (Red)": {
@@ -2307,7 +2307,7 @@
       "line": 1646
     },
     "Kalos Route 5": {
-      "translation": "卡洛斯5号公路",
+      "translation": "5号道路（卡洛斯）",
       "line": 1651
     },
     "Skiddo": {
@@ -2327,7 +2327,7 @@
       "line": 1655
     },
     "Kalos Route 6": {
-      "translation": "卡洛斯6号公路",
+      "translation": "6号道路（卡洛斯）",
       "line": 1658
     },
     "Espurr": {
@@ -2343,7 +2343,7 @@
       "line": 1662
     },
     "Kalos Route 7": {
-      "translation": "卡洛斯7号公路",
+      "translation": "7号道路（卡洛斯）",
       "line": 1665
     },
     "Smeargle": {
@@ -2359,7 +2359,7 @@
       "line": 1667
     },
     "Kalos Route 8": {
-      "translation": "卡洛斯8号公路",
+      "translation": "8号道路（卡洛斯）",
       "line": 1672
     },
     "Spoink": {
@@ -2391,7 +2391,7 @@
       "line": 1677
     },
     "Kalos Route 9": {
-      "translation": "卡洛斯9号公路",
+      "translation": "9号道路（卡洛斯）",
       "line": 1680
     },
     "Hippopotas": {
@@ -2403,7 +2403,7 @@
       "line": 1682
     },
     "Kalos Route 10": {
-      "translation": "卡洛斯10号公路",
+      "translation": "10号道路（卡洛斯）",
       "line": 1687
     },
     "Eevee": {
@@ -2427,7 +2427,7 @@
       "line": 1691
     },
     "Kalos Route 11": {
-      "translation": "卡洛斯11号公路",
+      "translation": "11号道路（卡洛斯）",
       "line": 1694
     },
     "Nidorino": {
@@ -2443,7 +2443,7 @@
       "line": 1696
     },
     "Kalos Route 12": {
-      "translation": "卡洛斯12号公路",
+      "translation": "12号道路（卡洛斯）",
       "line": 1705
     },
     "Pachirisu": {
@@ -2455,7 +2455,7 @@
       "line": 1708
     },
     "Kalos Route 13": {
-      "translation": "卡洛斯13号公路",
+      "translation": "13号道路（卡洛斯）",
       "line": 1714
     },
     "Gible": {
@@ -2463,7 +2463,7 @@
       "line": 1716
     },
     "Kalos Route 14": {
-      "translation": "卡洛斯14号公路",
+      "translation": "14号道路（卡洛斯）",
       "line": 1721
     },
     "Haunter": {
@@ -2483,7 +2483,7 @@
       "line": 1726
     },
     "Kalos Route 15": {
-      "translation": "卡洛斯15号公路",
+      "translation": "15号道路（卡洛斯）",
       "line": 1729
     },
     "Klefki": {
@@ -2491,7 +2491,7 @@
       "line": 1731
     },
     "Kalos Route 16": {
-      "translation": "卡洛斯16号公路",
+      "translation": "16号道路（卡洛斯）",
       "line": 1737
     },
     "Phantump": {
@@ -2515,7 +2515,7 @@
       "line": 1739
     },
     "Kalos Route 17": {
-      "translation": "卡洛斯17号公路",
+      "translation": "17号道路（卡洛斯）",
       "line": 1745
     },
     "Abomasnow": {
@@ -2523,7 +2523,7 @@
       "line": 1747
     },
     "Kalos Route 18": {
-      "translation": "卡洛斯18号公路",
+      "translation": "18号道路（卡洛斯）",
       "line": 1752
     },
     "Lairon": {
@@ -2547,7 +2547,7 @@
       "line": 1754
     },
     "Kalos Route 19": {
-      "translation": "卡洛斯19号公路",
+      "translation": "19号道路（卡洛斯）",
       "line": 1759
     },
     "Drapion": {
@@ -2567,7 +2567,7 @@
       "line": 1764
     },
     "Kalos Route 20": {
-      "translation": "卡洛斯20号公路",
+      "translation": "20号道路（卡洛斯）",
       "line": 1767
     },
     "Zoroark": {
@@ -2583,7 +2583,7 @@
       "line": 1771
     },
     "Kalos Route 21": {
-      "translation": "卡洛斯21号公路",
+      "translation": "21号道路（卡洛斯）",
       "line": 1774
     },
     "Azure Bay": {
@@ -2591,7 +2591,7 @@
       "line": 1782
     },
     "Alola Route 1": {
-      "translation": "阿罗拉1号线",
+      "translation": "1号道路（阿罗拉）",
       "line": 1798
     },
     "Alolan Rattata": {
@@ -2627,7 +2627,7 @@
       "line": 1801
     },
     "Route 1 Hau'oli Outskirts": {
-      "translation": "1号道路豪奥利郊区",
+      "translation": "1号道路（好奥乐市郊）",
       "line": 1808
     },
     "Hau 2": {
@@ -2635,7 +2635,7 @@
       "line": 1814
     },
     "Alola Route 2": {
-      "translation": "阿罗拉2号线",
+      "translation": "2号道路（阿罗拉）",
       "line": 1819
     },
     "Alolan Meowth": {
@@ -2663,7 +2663,7 @@
       "line": 1827
     },
     "Alola Route 3": {
-      "translation": "阿罗拉3号线",
+      "translation": "3号道路（阿罗拉）",
       "line": 1832
     },
     "Charmander": {
@@ -2703,7 +2703,7 @@
       "line": 1866
     },
     "Alola Route 4": {
-      "translation": "阿罗拉4号线",
+      "translation": "4号道路（阿罗拉）",
       "line": 1873
     },
     "Igglybuff": {
@@ -2723,7 +2723,7 @@
       "line": 1881
     },
     "Alola Route 5": {
-      "translation": "阿罗拉5号公路",
+      "translation": "5号道路（阿罗拉）",
       "line": 1886
     },
     "Bonsly": {
@@ -2747,7 +2747,7 @@
       "line": 1894
     },
     "Alola Route 6": {
-      "translation": "阿罗拉6号公路",
+      "translation": "6号道路（阿罗拉）",
       "line": 1899
     },
     "Recon Squad 2": {
@@ -2755,7 +2755,7 @@
       "line": 1907
     },
     "Alola Route 7": {
-      "translation": "阿罗拉7号线",
+      "translation": "7号道路（阿罗拉）",
       "line": 1912
     },
     "Pyukumuku": {
@@ -2767,7 +2767,7 @@
       "line": 1920
     },
     "Alola Route 8": {
-      "translation": "阿罗拉8号公路",
+      "translation": "8号道路（阿罗拉）",
       "line": 1925
     },
     "Stufful": {
@@ -2791,7 +2791,7 @@
       "line": 1937
     },
     "Alola Route 9": {
-      "translation": "阿罗拉9号公路",
+      "translation": "9号道路（阿罗拉）",
       "line": 1942
     },
     "Mareanie": {
@@ -2823,7 +2823,7 @@
       "line": 1961
     },
     "Alola Route 10": {
-      "translation": "阿罗拉10号公路",
+      "translation": "10号道路（阿罗拉）",
       "line": 1966
     },
     "Pidgeot": {
@@ -2895,7 +2895,7 @@
       "line": 1989
     },
     "Alola Route 11": {
-      "translation": "阿罗拉11号公路",
+      "translation": "11号道路（阿罗拉）",
       "line": 1995
     },
     "Parasect": {
@@ -2923,7 +2923,7 @@
       "line": 2002
     },
     "Alola Route 12": {
-      "translation": "阿罗拉12号公路",
+      "translation": "12号道路（阿罗拉）",
       "line": 2010
     },
     "Alolan Geodude": {
@@ -2943,7 +2943,7 @@
       "line": 2017
     },
     "Alola Route 13": {
-      "translation": "阿罗拉13号公路",
+      "translation": "13号道路（阿罗拉）",
       "line": 2023
     },
     "Bruxish": {
@@ -2951,7 +2951,7 @@
       "line": 2025
     },
     "Alola Route 14": {
-      "translation": "阿罗拉14号公路",
+      "translation": "14号道路（阿罗拉）",
       "line": 2033
     },
     "Haina Desert": {
@@ -2983,7 +2983,7 @@
       "line": 2051
     },
     "Alola Route 15": {
-      "translation": "阿罗拉15号公路",
+      "translation": "15号道路（阿罗拉）",
       "line": 2056
     },
     "Sandygast": {
@@ -2991,7 +2991,7 @@
       "line": 2058
     },
     "Alola Route 16": {
-      "translation": "阿罗拉16号公路",
+      "translation": "16号道路（阿罗拉）",
       "line": 2067
     },
     "Prinplup": {
@@ -3003,7 +3003,7 @@
       "line": 2075
     },
     "Alola Route 17": {
-      "translation": "阿罗拉17号公路",
+      "translation": "17号道路（阿罗拉）",
       "line": 2080
     },
     "Bisharp": {
@@ -3231,7 +3231,7 @@
       "line": 2288
     },
     "Galar Route 1": {
-      "translation": "伽勒尔1号公路",
+      "translation": "1号道路（伽勒尔）",
       "line": 2301
     },
     "Skwovet": {
@@ -3255,7 +3255,7 @@
       "line": 2303
     },
     "Galar Route 2": {
-      "translation": "伽勒尔2号公路",
+      "translation": "2号道路（伽勒尔）",
       "line": 2310
     },
     "Chewtle": {
@@ -3523,7 +3523,7 @@
       "line": 2627
     },
     "Galar Route 3": {
-      "translation": "伽勒尔3号公路",
+      "translation": "3号道路（伽勒尔）",
       "line": 2643
     },
     "Gossifleur": {
@@ -3547,7 +3547,7 @@
       "line": 2648
     },
     "Galar Route 4": {
-      "translation": "伽勒尔4号公路",
+      "translation": "4号道路（伽勒尔）",
       "line": 2653
     },
     "Milcery": {
@@ -3567,7 +3567,7 @@
       "line": 2659
     },
     "Galar Route 5": {
-      "translation": "伽勒尔5号公路",
+      "translation": "5号道路（伽勒尔）",
       "line": 2664
     },
     "Dottler": {
@@ -3995,7 +3995,7 @@
       "line": 2943
     },
     "Galar Route 6": {
-      "translation": "伽勒尔6号公路",
+      "translation": "6号道路（伽勒尔）",
       "line": 2968
     },
     "Silicobra": {
@@ -4007,7 +4007,7 @@
       "line": 2970
     },
     "Galar Route 7": {
-      "translation": "伽勒尔7号公路",
+      "translation": "7号道路（伽勒尔）",
       "line": 2979
     },
     "Meowstic": {
@@ -4019,7 +4019,7 @@
       "line": 2985
     },
     "Galar Route 8": {
-      "translation": "伽勒尔8号公路",
+      "translation": "8号道路（伽勒尔）",
       "line": 2990
     },
     "Steamdrift Way": {
@@ -4031,7 +4031,7 @@
       "line": 3001
     },
     "Galar Route 2 Lakeside": {
-      "translation": "伽勒尔2号线湖畔",
+      "translation": "2号道路（伽勒尔）湖畔",
       "line": 3008
     },
     "Feebas": {
@@ -4039,7 +4039,7 @@
       "line": 3011
     },
     "Galar Route 9": {
-      "translation": "伽勒尔9号公路",
+      "translation": "9号道路（伽勒尔）",
       "line": 3018
     },
     "Pincurchin": {
@@ -4075,7 +4075,7 @@
       "line": 3065
     },
     "Galar Route 10": {
-      "translation": "伽勒尔10号公路",
+      "translation": "10号道路（伽勒尔）",
       "line": 3074
     },
     "Eiscue (Noice Face)": {

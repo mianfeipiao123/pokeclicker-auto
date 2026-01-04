@@ -459,7 +459,7 @@
       "line": 437
     },
     "Did you know that sparkling Pokémon are more often found in Dungeons, on Farms, from Eggs, and even from Shops, the Safari Zone, and Evolutions from Items?": {
-      "translation": "你是否知道异色宝可梦更常见于迷宫、农场、鸡蛋，甚至商店、野生动物区和物品进化？",
+      "translation": "你是否知道异色宝可梦更常见于迷宫、农场、蛋，甚至商店、野生动物区和物品进化？",
       "line": 438
     },
     "assets/images/npcs/Mr. Fuji.png": {
@@ -1407,7 +1407,7 @@
       "line": 926
     },
     "Route 4 Pokémon Center": {
-      "translation": "4号公路宝可梦中心",
+      "translation": "4号道路宝可梦中心",
       "line": 931
     },
     "Cerulean City": {
@@ -1767,7 +1767,7 @@
       "line": 1551
     },
     "This new technology only allows up to four stored eggs for now, though.": {
-      "translation": "不过，这项新技术目前最多只能储存四个鸡蛋。",
+      "translation": "不过，这项新技术目前最多只能储存四个蛋。",
       "line": 1552
     },
     "assets/images/npcs/Mr. Pokémon.png": {
@@ -1783,7 +1783,7 @@
       "line": 1556
     },
     "Some Pokémon babies, only from Day Care they come! Hatch! Hatch! Hatch!": {
-      "translation": "有些宝可梦宝宝是来自托儿所的！孵化！孵化！孵化！",
+      "translation": "有些宝可梦宝宝是来自培育屋的！孵化！孵化！孵化！",
       "line": 1557
     },
     "Primo": {
@@ -2249,7 +2249,7 @@
       "line": 1835
     },
     "Some adventurers reported criminal activities on route 42. Team Rocket are allegedly attempting to steal newborn Phanpy...": {
-      "translation": "一些冒险家报告了42号公路上的犯罪活动。据称，火箭队正试图偷走刚出生的 小小象……",
+      "translation": "一些冒险家报告了42号道路上的犯罪活动。据称，火箭队正试图偷走刚出生的 小小象……",
       "line": 1836
     },
     "Suicune... How brave it is! How refreshing it is! How beautiful it is! And how quickly it moves! It seems to be heading east.": {
@@ -2437,7 +2437,7 @@
       "line": 1925
     },
     "Prof. Elm's research is focused on eggs. Pokémon eggs hatch faster when the trainer is battling strong trainers like Gym leaders.": {
-      "translation": "Elm 教授的研究重点是鸡蛋。当训练家与道馆领袖等强大训练家战斗时，宝可梦蛋的孵化速度会更快。",
+      "translation": "Elm 教授的研究重点是蛋。当训练家与道馆领袖等强大训练家战斗时，宝可梦蛋的孵化速度会更快。",
       "line": 1926
     },
     "Oh? Some of your Pokémon may find an extra egg if left in the hatchery. Would you care to find out what baby will hatch?": {
@@ -2693,7 +2693,7 @@
       "line": 2390
     },
     "You can now store an additional four eggs in the queue! His research has really gained speed.": {
-      "translation": "你现在可以在队列中存储额外的四个鸡蛋！他的研究速度确实加快了。",
+      "translation": "你现在可以在队列中存储额外的四个蛋！他的研究速度确实加快了。",
       "line": 2391
     },
     "He wants you to know that he will have an additional eight slots ready by the time you reach Sinnoh.": {
@@ -3089,11 +3089,11 @@
       "line": 2554
     },
     "Egg Hunter": {
-      "translation": "鸡蛋猎人",
+      "translation": "蛋猎人",
       "line": 2557
     },
     "My eggs! They ran away!": {
-      "translation": "我的鸡蛋！他们逃跑了！",
+      "translation": "我的蛋！他们逃跑了！",
       "line": 2558
     },
     "Can you help me get them back? They have most likely fled to a dungeon in Kanto, Hoenn or Johto.": {
@@ -3213,15 +3213,15 @@
       "line": 2642
     },
     "The first carving says DESERT. There is a desert near Route 111, right?": {
-      "translation": "第一个雕刻上写着“沙漠”。 111号公路附近有一片沙漠吧？",
+      "translation": "第一个雕刻上写着“沙漠”。 111号道路附近有一片沙漠吧？",
       "line": 2648
     },
     "The second carving says ISLAND. There are a lot of islands on Route 105.": {
-      "translation": "第二个雕刻上写着“岛屿”。 105号公路上有很多岛屿。",
+      "translation": "第二个雕刻上写着“岛屿”。 105号道路上有很多岛屿。",
       "line": 2649
     },
     "The third carving says ANCIENT. I remember seeing some ancient ruins on Route 120.": {
-      "translation": "第三个雕刻上写着“古代”。我记得在120号公路上看到过一些古代遗迹。",
+      "translation": "第三个雕刻上写着“古代”。我记得在120号道路上看到过一些古代遗迹。",
       "line": 2650
     },
     "Watch Television": {
@@ -3331,7 +3331,7 @@
       "line": 2700
     },
     "It's on a collision course with an island north of Route 131. I've been tasked with finding a way to stop this meteor.": {
-      "translation": "它正在与131号公路以北的一座岛屿相撞。我的任务是找到阻止这颗流星的方法。",
+      "translation": "它正在与131号道路以北的一座岛屿相撞。我的任务是找到阻止这颗流星的方法。",
       "line": 2701
     },
     "$playername$, can you go to that island and look for anything that might be able to help us?": {
@@ -5295,7 +5295,7 @@
       "line": 4223
     },
     "Did you know that in Johto they don't see Pokémon like Mamoswine? It's strange too, because you don't even need a stone to evolve Piloswine… maybe they should try the Day Care?": {
-      "translation": "你知道吗？在城都他们看不到象牙猪这样的宝可梦？这也很奇怪，因为你甚至不需要石头来进化长毛猪……也许他们应该试试宝可梦寄养中心？",
+      "translation": "你知道吗？在城都他们看不到象牙猪这样的宝可梦？这也很奇怪，因为你甚至不需要石头来进化长毛猪……也许他们应该试试宝可梦培育屋？",
       "line": 4224
     },
     "Pal Park Warden": {
@@ -5483,7 +5483,7 @@
       "line": 4293
     },
     "They said that it is a virus that can spread in the Pokémon Day Care. They said that Pokémon can only spread or catch the virus if they aren't ready to hatch yet, and that they need to share a type with one another.": {
-      "translation": "他们说这是一种可以在宝可梦日托中心传播的病毒。他们说，宝可梦只有在尚未准备好孵化时才能传播或感染病毒，并且它们需要彼此共享一种类型。",
+      "translation": "他们说这是一种可以在宝可梦培育屋传播的病毒。他们说，宝可梦只有在尚未准备好孵化时才能传播或感染病毒，并且它们需要彼此共享一种类型。",
       "line": 4294
     },
     "If you have a Pokémon with Pokérus, try catching more of that type of Pokémon. When he got back from his next trip, oddly enough Wailmer seemed stronger than ever!": {
@@ -5693,11 +5693,11 @@
       "line": 4390
     },
     "The egg was stolen again - this time by a Happiny who belongs to a little girl here. It went eastward at top speed - it's probably left this city far behind it now.": {
-      "translation": "鸡蛋又被偷了——这次是属于这里一个小女孩的幸福。它以最快的速度向东行驶——现在可能已经把这座城市远远地抛在了后面。",
+      "translation": "蛋又被偷了——这次是属于这里一个小女孩的幸福。它以最快的速度向东行驶——现在可能已经把这座城市远远地抛在了后面。",
       "line": 4391
     },
     "We must retrieve that egg at all costs! Please, you have to chase down the egg-napper!": {
-      "translation": "我们必须不惜一切代价取回那颗蛋！拜托，你一定要追捕那个打鸡蛋的人！",
+      "translation": "我们必须不惜一切代价取回那颗蛋！拜托，你一定要追捕那个打蛋的人！",
       "line": 4392
     },
     "Ah, Manaphy hatched, did it? Looks like all that running around you and Happiny did incubated it enough to hatch it.": {
@@ -5801,7 +5801,7 @@
       "line": 4440
     },
     "I did see a Happiny like that. They were heading north, across Route 204.": {
-      "translation": "我确实见过这样的幸福。他们正向北行驶，穿过204号公路。",
+      "translation": "我确实见过这样的幸福。他们正向北行驶，穿过204号道路。",
       "line": 4441
     },
     "assets/images/npcs/Black Belt.png": {
@@ -5841,7 +5841,7 @@
       "line": 4458
     },
     "It ran right through here and went across Route 211, straight for Mt. Coronet.": {
-      "translation": "就从这里穿过，穿过211国道，直奔皇冠山。",
+      "translation": "就从这里穿过，穿过211号道路，直奔皇冠山。",
       "line": 4459
     },
     "<i>Did the Happiny really leave Eterna and brave Mt. Coronet with the egg in tow? Maybe it's reached the other side by now.</i>": {
@@ -6031,7 +6031,7 @@
       "line": 4560
     },
     "Santa's Secret Daycare": {
-      "translation": "圣诞老人的秘密日托中心",
+      "translation": "圣诞老人的秘密培育屋",
       "line": 4560
     },
     "Plates": {
@@ -7723,7 +7723,7 @@
       "line": 6240
     },
     "When the weather turns really sunny, they'll all run barking out onto Route 16. Honestly, it's quite a racket, and has gotten me into no small amount of trouble.": {
-      "translation": "天气晴朗的时候，他们都会狂吠着跑到16号公路上。说实话，这很吵，给我带来了不小的麻烦。",
+      "translation": "天气晴朗的时候，他们都会狂吠着跑到16号道路上。说实话，这很吵，给我带来了不小的麻烦。",
       "line": 6241
     },
     "They come wandering back when the weather changes, though. I wonder if a strong Pokémon is calling them?": {
@@ -7751,7 +7751,7 @@
       "line": 6250
     },
     "When storms come along the horizon, they'll run en masse out to Route 16.": {
-      "translation": "当暴风雨沿着地平线袭来时，他们会集体奔向16号公路。",
+      "translation": "当暴风雨沿着地平线袭来时，他们会集体奔向16号道路。",
       "line": 6251
     },
     "They fortunately do return home when the weather changes, at least. I wonder what sort of creature is calling them? A strong Pokémon, perhaps?": {
@@ -9245,7 +9245,7 @@
       "line": 7191
     },
     "It seems Hau is outside on Route 3. Are you two having another battle?": {
-      "translation": "豪好像就在3号公路外面。你们两个又在打架吗？",
+      "translation": "哈乌好像就在3号道路外面。你们两个又在对战吗？",
       "line": 7192
     },
     "Lillie": {
@@ -9477,7 +9477,7 @@
       "line": 7319
     },
     "Hello, $playername$. Are you done with your battle against Hau on Route 3? We should all head back to Iki Town, now.": {
-      "translation": "你好，$playername$。你在3号公路上与哈乌的战斗结束了吗？我们现在该回利利小镇了。",
+      "translation": "你好，$playername$。你在3号道路上与哈乌的战斗结束了吗？我们现在该回利利小镇了。",
       "line": 7325
     },
     "Professor Burnet has been so kind, and she's helping me try to find a way to get Nebby back to its own home... She's been like...like a real mother to me.": {
@@ -9973,7 +9973,7 @@
       "line": 7607
     },
     "Plumeria": {
-      "translation": "鸡蛋花",
+      "translation": "蛋花",
       "line": 7610
     },
     "Well, hey! Look who we have here! It's the Champ, wandering all the way into Vast Poni Canyon! You gotta have guts to do that, kid. Not many trainers dare to challenge this place.": {
@@ -10457,7 +10457,7 @@
       "line": 7870
     },
     "Hau'oli City": {
-      "translation": "豪奥利市",
+      "translation": "好奥乐市",
       "line": 7880
     },
     "Trainers' School": {
@@ -10773,7 +10773,7 @@
       "line": 8159
     },
     "Hau'oli Cemetery": {
-      "translation": "豪奥利公墓",
+      "translation": "好奥乐墓园",
       "line": 8181
     },
     "Seaward Cave": {
@@ -10889,7 +10889,7 @@
       "line": 8346
     },
     "Plumeria Poison Memory": {
-      "translation": "鸡蛋花毒记忆",
+      "translation": "蛋花毒记忆",
       "line": 8348
     },
     "Gladion 3": {
@@ -10909,7 +10909,7 @@
       "line": 8384
     },
     "Plumeria 1": {
-      "translation": "鸡蛋花1",
+      "translation": "蛋花1",
       "line": 8388
     },
     "Ruins of Abundance": {

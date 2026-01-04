@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-01-02T21:22:28.053Z",
+  "generatedAt": "2026-01-04T00:00:00.000Z",
   "stats": {
-    "totalFiles": 418,
-    "totalStrings": 29290,
-    "translatedStrings": 25598,
-    "coverage": "87.40%"
+    "totalFiles": 421,
+    "totalStrings": 29191,
+    "translatedStrings": 24653,
+    "coverage": "84.45%"
   },
   "files": {
     "hardcoded-map.json": {
@@ -2081,6 +2081,11 @@
     "scripts/towns/TownList.missing.json": {
       "total": 203,
       "translated": 203,
+      "sourceFile": "src/scripts/towns/TownList.ts"
+    },
+    "scripts/towns/TownList.json": {
+      "total": 3312,
+      "translated": 2466,
       "sourceFile": "src/scripts/towns/TownList.ts"
     },
     "scripts/Update.json": {

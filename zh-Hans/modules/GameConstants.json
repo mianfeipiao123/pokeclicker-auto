@@ -1525,11 +1525,11 @@
       "line": 996
     },
     "forest": {
-      "translation": "",
+      "translation": "森林",
       "line": 997
     },
     "cave": {
-      "translation": "",
+      "translation": "洞窟",
       "line": 998
     },
     "cave-gem": {
@@ -1549,7 +1549,7 @@
       "line": 1002
     },
     "graveyard": {
-      "translation": "",
+      "translation": "墓地",
       "line": 1003
     },
     "Leaf_stone": {

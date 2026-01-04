@@ -1181,6 +1181,11 @@
     "DataCrusade": "数据十字军东征",
     "DaveYognaught": "戴夫·约格诺特",
     "Daycare:": "培育屋：",
+    "Day Care": "培育屋",
+    "DayCare": "培育屋",
+    "Daycare": "培育屋",
+    "Pokémon Day Care": "培育屋",
+    "Pokemon Day Care": "培育屋",
     "deal": "交易",
     "DELETE": "删除",
     "DELETE SAVE": "删除存档",
@@ -2328,9 +2333,13 @@
     "Shadow form ${...}caught": "暗影形态 ${...} 被捕获",
     "Shadow Modifier:": "阴影修改器：",
     "Catch or hatch 10 Wimpod.": "捕获或孵化10只 胆小虫。",
-    "Push Wimpod": "推博尔多尔",
+    "Push Wimpod": "推胆小虫",
     "S.S. Anne": "圣安奴号",
     "S.S.Anne": "圣安奴号",
+    "Dividing Peak Tunnel": "分隔山岭隧道",
+    "Skyarrow Bridge": "天箭桥",
+    "Professor Ivy's Lab": "艾比博士的研究所",
+    "Professor Kukui's Lab": "库库伊博士的研究所",
     "Push_Wimpod_Magikarp_Jump": "Push_胆小虫_鲤鱼王_Jump"
   }
 }

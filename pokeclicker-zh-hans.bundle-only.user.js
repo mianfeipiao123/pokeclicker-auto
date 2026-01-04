@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.17
+// @version      0.1.18
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -37,7 +37,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.17';
+    const SCRIPT_VERSION = '0.1.18';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -225,11 +225,39 @@
         // ignore
     }
 
+    // Keep the address bar clean (no `?translations=...`) while still making the game read our translations override.
+    // The game reads overrides via: `new URLSearchParams(window.location.search).get('translations')`.
+    // We shim URLSearchParams to inject the parameter when it's built from `window.location.search`,
+    // and then remove the parameter from the visible URL.
     try {
+        const OriginalURLSearchParams = window.URLSearchParams;
+        if (typeof OriginalURLSearchParams === 'function' && !OriginalURLSearchParams.__pkcZhHansShim) {
+            const buildAugmentedSearch = (search) => {
+                const s = String(search ?? '');
+                if (!s.startsWith('?')) return s;
+                if (s.includes(`${TRANSLATIONS_QUERY_KEY}=`)) return s;
+                const sep = s.length > 1 ? '&' : '';
+                return `${s}${sep}${TRANSLATIONS_QUERY_KEY}=${encodeURIComponent(TRANSLATIONS_PARAM_VALUE)}`;
+            };
+
+            // eslint-disable-next-line func-names
+            const PatchedURLSearchParams = function (init) {
+                const actual = (typeof init === 'string' && init === window.location.search)
+                    ? buildAugmentedSearch(init)
+                    : init;
+                // Support being called with or without `new`
+                // eslint-disable-next-line new-cap
+                return new OriginalURLSearchParams(actual);
+            };
+            PatchedURLSearchParams.prototype = OriginalURLSearchParams.prototype;
+            Object.setPrototypeOf(PatchedURLSearchParams, OriginalURLSearchParams);
+            Object.defineProperty(PatchedURLSearchParams, '__pkcZhHansShim', { value: true });
+            window.URLSearchParams = PatchedURLSearchParams;
+        }
+
         const url = new URL(window.location.href);
-        const current = url.searchParams.get(TRANSLATIONS_QUERY_KEY);
-        if (current !== TRANSLATIONS_PARAM_VALUE) {
-            url.searchParams.set(TRANSLATIONS_QUERY_KEY, TRANSLATIONS_PARAM_VALUE);
+        if (url.searchParams.has(TRANSLATIONS_QUERY_KEY)) {
+            url.searchParams.delete(TRANSLATIONS_QUERY_KEY);
             history.replaceState(null, '', url.toString());
         }
     } catch {
@@ -715,4 +743,3 @@
 
     window.addEventListener('DOMContentLoaded', () => void start(), { once: true });
 })();
-

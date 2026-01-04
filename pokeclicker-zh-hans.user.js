@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.15
+// @version      0.1.16
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -38,7 +38,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.15';
+    const SCRIPT_VERSION = '0.1.16';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -64,6 +64,7 @@
 
     const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/locales/pokemon.json`;
     const USERSCRIPT_CONFIG_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/overrides/userscript.json`;
+    const BUNDLE_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/bundle.json`;
 
     // Keep script logic generic
     const INLINE_OVERRIDES = {};
@@ -700,37 +701,74 @@
         /** @type {Record<string,string>} */
         let map = {};
 
-        // 尝试加载新的分类目录结构
-        try {
-            const indexUrl = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/_index.json`;
-            const indexRes = await fetch(indexUrl, { cache: 'no-cache' });
-            if (indexRes.ok) {
-                const index = await indexRes.json();
-                const files = Object.keys(index.files || {}).filter(f => !f.includes('/code.json') && !f.startsWith('locales/')); // 排除代码文件和locales
-                const results = await Promise.all(
-                    files.map(file =>
-                        fetch(`${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/${file}`, { cache: 'no-cache' })
-                            .then(r => r.ok ? r.json() : null)
-                            .catch(() => null)
-                    )
-                );
-                for (const data of results) {
-                    if (data?.entries) {
-                        for (const [key, value] of Object.entries(data.entries)) {
-                            if (typeof value === 'string') {
-                                if (value) map[key] = value;
-                            } else if (value?.translation) {
-                                map[key] = value.translation;
-                            }
-                        }
+        const loadMapFromBundle = async () => {
+            try {
+                const res = await fetch(BUNDLE_URL, { cache: 'no-cache' });
+                if (!res.ok) return false;
+                const json = await res.json();
+                const entries = json?.entries ?? {};
+                if (!entries || typeof entries !== 'object') return false;
+                let count = 0;
+                for (const [key, value] of Object.entries(entries)) {
+                    if (typeof value === 'string' && value) {
+                        map[key] = value;
+                        count += 1;
+                        continue;
+                    }
+                    if (value && typeof value === 'object' && typeof value.translation === 'string' && value.translation) {
+                        map[key] = value.translation;
+                        count += 1;
                     }
                 }
                 if (DEBUG) {
                     // eslint-disable-next-line no-console
-                    console.info('[PokéClicker zh-Hans] 已加载分类翻译文件:', files.length, '个文件,', Object.keys(map).length, '条翻译');
+                    console.info('[PokéClicker zh-Hans] 已加载 bundle:', count, '条翻译');
                 }
-            } else {
-                console.error('[PokéClicker zh-Hans] 无法加载翻译索引文件');
+                return count > 0;
+            } catch {
+                return false;
+            }
+        };
+
+        // 优先加载 bundle（发布用单文件），失败再回退到分文件索引
+        try {
+            const ok = await loadMapFromBundle();
+            if (!ok) {
+                const indexUrl = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/_index.json`;
+                const indexRes = await fetch(indexUrl, { cache: 'no-cache' });
+                if (indexRes.ok) {
+                    const index = await indexRes.json();
+                    const files = Object.keys(index.files || {}).filter((f) =>
+                        !f.includes('/code.json')
+                        && !f.startsWith('locales/')
+                        && f !== 'overrides/userscript.json'
+                        && f !== 'bundle.json'
+                    );
+                    const results = await Promise.all(
+                        files.map(file =>
+                            fetch(`${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/${file}`, { cache: 'no-cache' })
+                                .then(r => r.ok ? r.json() : null)
+                                .catch(() => null)
+                        )
+                    );
+                    for (const data of results) {
+                        if (data?.entries) {
+                            for (const [key, value] of Object.entries(data.entries)) {
+                                if (typeof value === 'string') {
+                                    if (value) map[key] = value;
+                                } else if (value?.translation) {
+                                    map[key] = value.translation;
+                                }
+                            }
+                        }
+                    }
+                    if (DEBUG) {
+                        // eslint-disable-next-line no-console
+                        console.info('[PokéClicker zh-Hans] 已加载分文件翻译:', files.length, '个文件,', Object.keys(map).length, '条翻译');
+                    }
+                } else {
+                    console.error('[PokéClicker zh-Hans] 无法加载翻译索引文件');
+                }
             }
         } catch (e) {
             console.error('[PokéClicker zh-Hans] 加载翻译失败:', e);

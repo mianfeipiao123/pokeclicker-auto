@@ -5399,7 +5399,7 @@
       "line": 4259
     },
     "<i>Collect 10 Purple Shards in dungeons from the Johto region and then visit my two siblings. They will also help you in your quest.</i>": {
-      "translation": "<i>在城都地区的地下城中收集10个紫色碎片，然后去拜访我的两个同伴。它们也会帮助你完成任务。</i>",
+      "translation": "<i>在城都地区的迷宫中收集10个紫色碎片，然后去拜访我的两个同伴。它们也会帮助你完成任务。</i>",
       "line": 4260
     },
     "assets/images/pokemon/481.png": {
@@ -5419,7 +5419,7 @@
       "line": 4267
     },
     "<i>Obtain 10 Ochre Shards and then visit Uxie at Lake Acuity. These Shards can be found in a few dungeons from the Hoenn region.</i>": {
-      "translation": "<i>获取10个赭石碎片，然后去睿智湖拜访由克希。这些碎片可以在丰缘地区的一些地下城中找到。</i>",
+      "translation": "<i>获取10个赭石碎片，然后去睿智湖拜访由克希。这些碎片可以在丰缘地区的一些迷宫中找到。</i>",
       "line": 4268
     },
     "assets/images/pokemon/482.png": {
@@ -5459,7 +5459,7 @@
       "line": 4284
     },
     "<i>Looks like you have already gathered more than half of the necessary materials. The only materials left to make the key are 10 Crimson Shards, which can be found in various Sinnoh Dungeons.</i>": {
-      "translation": "<i>看来你已经收集了一半以上的必要材料。制作钥匙剩下的唯一材料是10个深红碎片，可以在神奥地区的各个地下城中找到。</i>",
+      "translation": "<i>看来你已经收集了一半以上的必要材料。制作钥匙剩下的唯一材料是10个深红碎片，可以在神奥地区的各个迷宫中找到。</i>",
       "line": 4285
     },
     "<i>We will be waiting at Sendoff Spring, meet us there after you have collected the shards.</i>": {
@@ -11061,11 +11061,11 @@
       "line": 8578
     },
     "The Pokémon in the Wild Area are very finicky, and many of them only appear in certain weathers.": {
-      "translation": "荒野中的宝可梦非常挑剔，其中许多只在特定天气下出现。",
+      "translation": "旷野地带的宝可梦非常挑剔，其中许多只会在特定天气下出现。",
       "line": 8579
     },
     "I've also heard that the Pokémon in the Isle of Armor to the East, and the Crown Tundra to the South, are also like this.": {
-      "translation": "我还听说东边的铠甲岛和南边的皇冠苔原的宝可梦也是这样。",
+      "translation": "我还听说东边的铠岛和南边的王冠雪原的宝可梦也是这样。",
       "line": 8580
     },
     "There are even some Pokémon, namely Cramorant and Eiscue, that only appear in certain forms depending on weather.": {
@@ -11173,15 +11173,15 @@
       "line": 8622
     },
     "I've been studying the Galarian form of Yamask.": {
-      "translation": "我一直在研究 Yamask 的加拉利安形式。",
+      "translation": "我一直在研究哭哭面具的伽勒尔形态。",
       "line": 8623
     },
     "It seems they do not evolve into Galarian Cofagrigus, but a completely different Pokémon instead.": {
-      "translation": "看来它们并不会进化成伽勒尔迭失棺，而是会进化成完全不同的宝可梦。",
+      "translation": "看来它们并不会进化成伽勒尔死神棺，而是会进化成完全不同的宝可梦。",
       "line": 8624
     },
     "For some mysterious reason, they only evolve when trained in a specific area of the wild area known as the Dusty Bowl.": {
-      "translation": "由于某种神秘的原因，它们只有在野外的一个特定区域（称为“尘土飞扬的碗”）中训练时才会进化。",
+      "translation": "由于某种神秘的原因，它们只有在旷野地带名为“沙尘洼地”的特定区域里历练后才会进化。",
       "line": 8625
     },
     "Hero's Bath": {
@@ -11641,19 +11641,19 @@
       "line": 8825
     },
     "And for your second trial we have mushroom picking! I'm tasking you with finding three Max Mushrooms! They are red with a spiral pattern. I'm pretty sure they grow in dark, humid places! And with that, your next trial begins! I'm countin' on ya!": {
-      "translation": "对于你的第二次尝试，我们有蘑菇采摘！我的任务是找到三个最大蘑菇！它们是红色的，带有螺旋图案。我很确定它们生长在黑暗潮湿的地方！就这样，你的下一次审判开始了！我指望你了！",
+      "translation": "第二个试炼是采蘑菇！你的任务是找到三朵极巨菇！它们是红色的，带着螺旋纹路。我敢肯定它们长在阴暗潮湿的地方！那么，你的下一个试炼开始了！我就指望你啦！",
       "line": 8826
     },
     "Hey! My bad, my bad! It just dawned on me that you're brand-new to the Isle of Armor! I bet you have no idea where to even begin looking for Max Mushrooms! C'mon--let's go for a walk, and I'll show you some mushroom hot spots.": {
-      "translation": "嘿！我的坏事，我的坏事！我突然意识到你是盔甲岛的新手！我敢打赌你不知道从哪里开始寻找最大蘑菇！来吧——我们去散步吧，我带你去看看一些蘑菇热点。",
+      "translation": "嘿！抱歉抱歉！我突然意识到你是铠岛的新手！我敢打赌你根本不知道从哪里开始寻找极巨菇！来吧——我们去散步，我带你去看看一些蘑菇热点。",
       "line": 8832
     },
     "Dum dum dee dee... La la de daaa... Now, usually the Forest of Focus is chock-full of Max Mushrooms. But the thing is, a swarm of Greedent came through and ate every last one here! So I'm thinking maybe you'll have more luck finding Max Mushrooms if you go check Warm-Up Tunnel.": {
-      "translation": "Dum dum dee dee... La la de daaa... 现在，焦点森林通常都充满了最大蘑菇。但问题是，一群贪婪者闯了进来，吃掉了这里的最后一只！所以我想如果你去检查热身隧道，也许你会更幸运地找到最大蘑菇。",
+      "translation": "Dum dum dee dee... La la de daaa... 现在，专注森林通常长满了极巨菇。但问题是，一群藏饱栗鼠闯了进来，把这里的极巨菇全吃光了！所以我想，如果你去热身隧道找找，也许更容易发现极巨菇。",
       "line": 8833
     },
     "It's out on the other side of the forest! Just watch where you're going in the forest, 'K? It's easy to get lost! Anyhoo... Good luck with the hunt for Max Mushrooms! Catch you back at the dojo!": {
-      "translation": "它在森林的另一边！只要注意你要在森林里去哪里，'K？很容易迷路！无论如何...祝你狩猎麦克斯蘑菇好运！到道场来接你！",
+      "translation": "它就在森林的另一边！在森林里走路可得看清方向，行不？这里很容易迷路！总之……祝你寻找极巨菇好运！回道馆再见！",
       "line": 8834
     },
     "Klara": {
@@ -11661,7 +11661,7 @@
       "line": 8839
     },
     "Hold up a sec! *wheeze*... *wheeze*... Hellooo, what's this?! Three Max Mushrooms in one spot? Here I thought I'd need to go find them one by one! I saw those mushrooms first! I swear! I've been at the dojo longer and all. Sooo... It's only fair you let me have 'em. Riiight?": {
-      "translation": "等一下！ *喘息*... *喘息*...喂，这是什么？！一处最多三个蘑菇？我想我得一一去找他们了！我首先看到那些蘑菇！我发誓！我在道场呆的时间更长了。苏...你让我拥有它们才公平。对吧？",
+      "translation": "等一下！ *喘息*... *喘息*...喂，这是什么？！同一个地方竟然有三朵极巨菇？我还以为得一朵一朵去找呢！那些蘑菇是我先看到的！我发誓！我在道场待得更久……所以嘛，让给我才公平，对吧？",
       "line": 8840
     },
     "Waaait... What's this, now? Are you givin' me attitude? Pityin' me, are you?! Gosh, you're such a pain in the neck... You just show up outta nowhere, and just happen to be young and talented... If you're looking to get in my way, well, I think some vile poisons will take care of that!": {
@@ -11677,7 +11677,7 @@
       "line": 8846
     },
     "Wait just one moment! *pant*... *pant*... Hah! Just as I expected! Multiple Max Mushrooms growing in a bunch! My psychic powers picked up on these Max Mushrooms eons before you found them. I believe I should be the first one to get those Max Mushrooms. First come, first served, and all!": {
-      "translation": "请稍等一下！ *喘气*... *喘气*... 哈！正如我所料！多个最大蘑菇生长在一堆！在你发现这些麦克斯蘑菇之前的亿万年里，我的心灵力量就已经被吸收了。我相信我应该是第一个获得那些最大蘑菇的人。先到先得，还有！",
+      "translation": "请稍等一下！ *喘气*... *喘气*... 哈！正如我所料！一堆极巨菇长在一起！在你找到这些极巨菇之前的亿万年前，我的心灵力量就已经感应到了。我认为我应该第一个拿到它们。先到先得，就这么回事！",
       "line": 8847
     },
     "What's this? Are you trying to show you're stronger than me? How distasteful! I find your presence most disturbing! You show up at the dojo unannounced and go on to show such talent, even though you're still so young... You dare get in my way? I warned you about my psychic powers, and now you'll experience them firsthand!": {
@@ -11689,15 +11689,15 @@
       "line": 8850
     },
     "Hey there! Welcome back! Looks like you nailed the trial! Congrats on finding the Max Mushrooms! Trial number two was no problem for you!": {
-      "translation": "嘿！欢迎回来！看起来你已经完成了审判！恭喜你找到最大蘑菇！第二次试验对你来说没问题！",
+      "translation": "嘿！欢迎回来！看起来你顺利通过试炼了！恭喜你找到了极巨菇！第二个试炼对你来说完全不是问题！",
       "line": 8854
     },
     "All my other students ended up getting lost in the forest... Turns out finding Max Mushrooms was the least of their problems! It's a shame, but I guess everyone other than you will fail the trial...": {
-      "translation": "我所有其他的学生最终都在森林里迷路了……结果发现寻找麦克斯蘑菇是他们最不重要的问题！真遗憾，不过我想除了你之外，所有人都会失败……",
+      "translation": "我其他学生最后都在森林里迷路了……结果发现，找极巨菇反倒是他们最不重要的问题！真遗憾，不过我想除了你之外，其他人都会在试炼中失败……",
       "line": 8855
     },
     "Oh! Klara and Avery! You two look out of breath... But you have some Max Mushrooms, so it looks like you both pass the second trial as well!": {
-      "translation": "哦！克拉拉和艾弗里！你们看起来都气喘吁吁了……不过你们有一些麦克斯蘑菇，看来你们也都通过了第二次考验！",
+      "translation": "哦！克拉拉和艾弗里！你们看起来都气喘吁吁的……不过你们也找到了极巨菇，看来你们也都通过了第二个试炼！",
       "line": 8856
     },
     "Right! Well, I've decided that you three... will now take the Master Dojo's...final...last...ultimate...third trial!": {
@@ -11917,7 +11917,7 @@
       "line": 8987
     },
     "Whew! This place is quite a trek from Freezington.": {
-      "translation": "哇！这个地方从弗利青顿出发需要一段长途跋涉。",
+      "translation": "哇！这个地方从冰砌镇出发需要一段长途跋涉。",
       "line": 8993
     },
     "I've heard that a rare Pokémon sometimes hides in the chests here. I was told that it is incredibly rare, but can't be found anywhere else!": {
@@ -11925,7 +11925,7 @@
       "line": 8994
     },
     "Freezington Mayor": {
-      "translation": "弗利青顿市长",
+      "translation": "冰砌镇镇长",
       "line": 8998
     },
     "If my eyes didn't deceive me, I saw a rare Pokémon at {ROUTE_NAME}. Go and see if you can find it if you're interested.": {
@@ -11933,7 +11933,7 @@
       "line": 8999
     },
     "Wow! The Crown Tundra is filled with wild fossil Pokémon! I've heard stories of these snowfields protecting the Pokémon living here, but this level of sanctuary is insane!": {
-      "translation": "哇！皇冠苔原充满了野生宝可梦化石！我听说过这些雪原保护住在这里的宝可梦的故事，但这种级别的庇护所太疯狂了！",
+      "translation": "哇！王冠雪原充满了野生化石宝可梦！我听说过这些雪原保护住在这里的宝可梦的故事，但这种级别的庇护所也太夸张了！",
       "line": 9003
     },
     "And what's really interesting is that they only show up to trainers who have already caught one of their species. Could it be they are aware enough to use that as an appraisal of trust?": {
@@ -11941,7 +11941,7 @@
       "line": 9004
     },
     "Peony": {
-      "translation": "皮欧尼",
+      "translation": "牡丹",
       "line": 9007
     },
     "Hey, Chief! I was talking to the locals and they were talking about some ancient king Pokémon! They also mentioned a couple of horsey Pokémon that it was ultra-mega-close to. There's a statue of it outside and I've heard this rock I've been using as a pillow is part of it!": {
@@ -11969,7 +11969,7 @@
       "line": 9015
     },
     "I am Calyrex. I am also known as the King of Bountiful Harvests. I have borrowed this man's body in order to thank you in person for restoring my statue...so to speak.": {
-      "translation": "我是卡莱克斯。我也被称为五谷丰登王。我借用这个人的身体，是为了当面感谢你修复了我的雕像……可以这么说。",
+      "translation": "我叫蕾冠王。我也被称为丰饶之王。我借用这个人的身体，是为了当面感谢你修复了我的雕像……可以这么说。",
       "line": 9016
     },
     "I once reigned over these lands as king, but now I have lost all but a fraction of my former strength. Even my loyal steeds have abandoned me.": {
@@ -11977,7 +11977,7 @@
       "line": 9017
     },
     "Would you do me the favour of protecting me from wild Pokémon at the Old Cemetery and Snowslide Slope? I wish to grow a Shaderoot Carrot and an Iceroot Carrot which I believe could draw out my loyal steeds.": {
-      "translation": "你能帮我一个忙，保护我免受旧墓地和雪滑坡的野生宝可梦的侵害吗？我希望种植一个影根胡萝卜和一个冰根胡萝卜，我相信它们可以吸引我忠诚的战马。",
+      "translation": "你能帮我一个忙，保护我免受旧墓地和雪崩斜坡的野生宝可梦的侵害吗？我希望种植一个影根胡萝卜和一个冰根胡萝卜，我相信它们可以吸引我忠诚的战马。",
       "line": 9018
     },
     "assets/images/npcs/specialNPCs/Possessed Peony.png": {
@@ -12005,11 +12005,11 @@
       "line": 9035
     },
     "I think that would be for the best. Once you capture them, I would appreciate it if you could bring them to the Crown Shrine at the mountain's peak.": {
-      "translation": "我认为那是最好的。一旦你捕获了他们，如果你能将他们带到山顶的皇冠神社，我将不胜感激。",
+      "translation": "我认为那是最好的。一旦你捕获了它们，如果你能将它们带到山顶的王冠神殿，我将不胜感激。",
       "line": 9036
     },
     "Finally, my loyal steeds have returned to me. There are truly no words with which to fully express my gratitude to you. But I can try. Take these Reins of Unity.": {
-      "translation": "终于，我忠实的战马回到了我的身边。实在无法用言语来完全表达我对你的感激之情。但我可以尝试。拿起这些团结的缰绳。",
+      "translation": "终于，我忠实的战马回到了我的身边。实在无法用言语来完全表达我对你的感激之情。但我可以尝试。收下这对牵绊缰绳。",
       "line": 9043
     },
     "<img src=\"assets/images/keyitems/Reins_of_unity.png\">": {
@@ -12061,7 +12061,7 @@
       "line": 9068
     },
     "The Birds of the Dyna Tree": {
-      "translation": "戴纳树上的鸟儿",
+      "translation": "极巨树的传说之鸟",
       "line": 9071
     },
     "You're saying you saw some Pokémon that looked like.... Hang on, Chief! There's breaking news on the telly! They're sayin' dodgy bird Pokémon are poppin' up left and right!": {
@@ -12069,15 +12069,15 @@
       "line": 9074
     },
     "There's this fancy graceful one's apparently flyin' about the Crown Tundra!": {
-      "translation": "这只优雅优雅的小鸟显然正在皇冠苔原上飞翔！",
+      "translation": "有只华丽优雅的家伙据说正在王冠雪原上飞着呢！",
       "line": 9075
     },
     "And there's this pointy feathered one runnin' about in the Wild Area of Southern Galar!": {
-      "translation": "在南伽勒尔的荒野里，有一只长着尖羽毛的鸟在奔跑！",
+      "translation": "还有只尖翎的家伙在伽勒尔南部的旷野地带里到处跑！",
       "line": 9076
     },
     "Plus a fiery-lookin' one out on the Isle of Armor!": {
-      "translation": "加上盔甲岛上的一只看起来火热的家伙！",
+      "translation": "再加上铠岛上那只看起来火爆的家伙！",
       "line": 9077
     },
     "You're sayin' you saw them and that's what you were tellin' me about? Ah, sorry 'bout that. Anyway, you should go find 'em.": {
@@ -12093,11 +12093,11 @@
       "line": 9085
     },
     "I think they should all be weakened enough that you can catch 'em now!": {
-      "translation": "我认为他们都应该被削弱到你​​现在就可以抓住他们了！",
+      "translation": "我觉得它们应该都被削弱得差不多了，你现在就能抓住它们！",
       "line": 9086
     },
     "I'd imagine they'd be in the same areas you chased 'em about in.": {
-      "translation": "我想他们会在你追赶他们的地方。",
+      "translation": "我猜它们还会在你追赶它们的那些地方出现。",
       "line": 9087
     },
     "Wait--you really caught Articuno, Moltres, and Zapdos from the legends?! Thats's ultra-mega-brilliant! Report away!": {
@@ -12173,7 +12173,7 @@
       "line": 9149
     },
     "It's a cave system just to the north of here, called the Max Lair. It's the only known place where you can catch wild Gigantamax Pokémon!": {
-      "translation": "这是这里北面的一个洞穴系统，称为麦克斯巢穴。这是唯一已知的可以捕捉野生超极巨宝可梦的地方！",
+      "translation": "这是这里北面的一套洞穴系统，叫作极巨巢穴。这是目前唯一已知能捕捉野生超极巨化宝可梦的地方！",
       "line": 9150
     },
     "If you're interested, you should go take a look!": {
@@ -12185,7 +12185,7 @@
       "line": 9153
     },
     "The Lair of Giants": {
-      "translation": "巨人的巢穴",
+      "translation": "极巨巢穴探险",
       "line": 9154
     },
     "You're back! So I take it you saw one? A Gigantamax Pikachu, huh? Yeah, I saw one of those too! I also saw 2 others: Meowth and Eevee. Maybe you'll see them when you go back in.": {
@@ -12197,7 +12197,7 @@
       "line": 9158
     },
     "I imagine you've noticed some hexagonal rock formations on your journey, right? Those are called Raid Dens. You can find them in the mainland's Wild Area, the Isle of Armor, and here in the Crown Tundra.": {
-      "translation": "我想你在旅途中注意到了一些六边形岩层，对吧？这些被称为袭击巢穴。你可以在大陆的荒野、盔甲岛和皇冠苔原找到它们。",
+      "translation": "我想你在旅途中注意到了一些六边形岩层，对吧？它们被称为团体战巢穴。你可以在本土的旷野地带、铠岛以及这里的王冠雪原找到它们。",
       "line": 9159
     },
     "Every day some of them glow red and emit a purple beam. It seems there are 10 a day, consistently, for some unknown reason. Here, download this app, and they'll show up on your map!": {
@@ -12205,15 +12205,15 @@
       "line": 9160
     },
     "Anyway, in each of these Raid Dens, there's a Gigantamax Pokémon! You can't catch 'em though, they'll turn back to their regular form and run before you get the chance.": {
-      "translation": "无论如何，在每个 Raid Dens 中，都有一个 超极巨化 宝可梦！但你无法抓住它们，它们会在你有机会之前变回正常状态并逃跑。",
+      "translation": "总之，每个团体战巢穴里都有一只超极巨化宝可梦！不过你抓不到它们——在你来得及下手之前，它们就会变回普通形态并逃走。",
       "line": 9161
     },
     "However! They'll each drop a stone called a Wishing Piece. If you gather enough of those stones here, more Gigantamax Pokémon'll show up! Dunno which ones, probably just your luck.": {
-      "translation": "然而！他们每人都会掉落一块称为“许愿碎片”的石头。如果你在这里收集足够多的石头，就会出现更多超极巨化宝可梦！不知道是哪些，可能只是你的运气。",
+      "translation": "不过！它们每只都会掉落一种叫“许愿星”的石头。只要你在这里收集到足够多的许愿星，就会出现更多超极巨化宝可梦！至于会是哪几只嘛——大概就看你运气了。",
       "line": 9162
     },
     "Including the 3 already here, there are 33 Gigantamax Pokémon. I imagine you'll need more than 200 Wishing Pieces to get all of 'em to show up.": {
-      "translation": "加上已经在这里的3只，超极巨化宝可梦共有33只。我想你需要200多个许愿碎片才能让它们全部出现。",
+      "translation": "加上已经在这里的3只，超极巨化宝可梦共有33只。我想你得收集200多个许愿星才能让它们全部出现。",
       "line": 9163
     },
     "They're all here! That took quite a while, but it was well worth it!": {
@@ -12221,7 +12221,7 @@
       "line": 9169
     },
     "Hey, what's that purple glow? It looks to be around... Hammerlocke?": {
-      "translation": "嘿，那紫色的光芒是什么？它看起来就在……Hammerlocke 附近？",
+      "translation": "嘿，那紫色的光芒是什么？看起来是在……宫门市附近？",
       "line": 9170
     },
     "Hang on, this looks a lot like when uncle Rose started the Darkest Day! You were the one who stopped that whole thing, right? You should probably get going!": {
@@ -12505,15 +12505,15 @@
       "line": 9393
     },
     "Crown Tundra Station": {
-      "translation": "皇冠苔原站",
+      "translation": "王冠雪原站",
       "line": 9400
     },
     "Freezington": {
-      "translation": "弗里青顿",
+      "translation": "冰砌镇",
       "line": 9410
     },
     "Elite Trainer Peony": {
-      "translation": "精英训练师皮欧尼",
+      "translation": "精英训练师牡丹",
       "line": 9413
     },
     "Hop 8": {
@@ -12645,11 +12645,11 @@
       "line": 9581
     },
     "Crown Shrine": {
-      "translation": "皇冠神社",
+      "translation": "王冠神殿",
       "line": 9587
     },
     "Max Lair": {
-      "translation": "马克斯·莱尔",
+      "translation": "极巨巢穴",
       "line": 9597
     },
     "Cogita": {

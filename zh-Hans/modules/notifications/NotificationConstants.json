@@ -279,27 +279,27 @@
       "line": 63
     },
     "notification.dungeon_complete": {
-      "translation": "通关地下城",
+      "translation": "通关迷宫",
       "line": 66
     },
     "Dungeon completed": {
-      "translation": "迷宫完成",
+      "translation": "通关迷宫",
       "line": 66
     },
     "notification.common_dungeon_item_found": {
-      "translation": "地下城宝箱中发现常见物品",
+      "translation": "迷宫宝箱中发现常见物品",
       "line": 67
     },
     "Common Item found in dungeon chest": {
-      "translation": "迷宫箱中发现的常见物品",
+      "translation": "在迷宫宝箱中发现常见物品",
       "line": 67
     },
     "notification.rare_dungeon_item_found": {
-      "translation": "地下城宝箱中发现稀有物品",
+      "translation": "迷宫宝箱中发现稀有物品",
       "line": 68
     },
     "Rare Item found in dungeon chest": {
-      "translation": "在迷宫箱子中发现稀有物品",
+      "translation": "在迷宫宝箱中发现稀有物品",
       "line": 68
     },
     "notification.route_item_found": {

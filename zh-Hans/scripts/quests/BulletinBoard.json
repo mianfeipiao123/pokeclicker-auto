@@ -2,8 +2,8 @@
   "_meta": {
     "sourceFile": "src/scripts/quests/BulletinBoard.ts",
     "lastUpdated": "2026-01-01",
-    "totalStrings": 8,
-    "translatedCount": 7
+    "totalStrings": 6,
+    "translatedCount": 6
   },
   "entries": {
     "Sevii Islands 4567": {
@@ -15,24 +15,16 @@
       "line": 9
     },
     "Isle of Armor": {
-      "translation": "盔甲岛",
+      "translation": "铠岛",
       "line": 11
     },
     "Crown Tundra": {
-      "translation": "皇冠苔原",
+      "translation": "王冠雪原",
       "line": 13
-    },
-    "btn btn-secondary": {
-      "translation": "btn btn-次要",
-      "line": 21
     },
     "Bulletin Board": {
       "translation": "公告栏",
       "line": 24
-    },
-    "show": {
-      "translation": "展示",
-      "line": 28
     },
     "Tutorial Quests": {
       "translation": "教程任务",

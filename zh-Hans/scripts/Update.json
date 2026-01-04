@@ -349,7 +349,7 @@
       "line": 813
     },
     "notification.common_dungeon_item_found": {
-      "translation": "地下城宝箱中发现常见物品",
+      "translation": "迷宫宝箱中发现常见物品",
       "line": 856
     },
     "notification.dungeon_item_found": {
@@ -365,7 +365,7 @@
       "line": 857
     },
     "notification.rare_dungeon_item_found": {
-      "translation": "地下城宝箱中发现稀有物品",
+      "translation": "迷宫宝箱中发现稀有物品",
       "line": 858
     },
     "notification.rare_dungeon_item_found.desktop": {

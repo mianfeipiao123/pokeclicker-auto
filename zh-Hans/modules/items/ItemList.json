@@ -1303,15 +1303,15 @@
       "line": 240
     },
     "Max_Mushroom_IoA": {
-      "translation": "最大蘑菇IoA",
+      "translation": "极巨菇（铠岛）",
       "line": 241
     },
     "Max Mushroom": {
-      "translation": "最大蘑菇",
+      "translation": "极巨菇",
       "line": 241
     },
     "A Mushroom that contains the power of Dynamax forms": {
-      "translation": "含有 Dynamax 形态力量的蘑菇",
+      "translation": "蕴含极巨化力量的蘑菇",
       "line": 241
     },
     "The Dojo's Armor": {
@@ -1347,19 +1347,19 @@
       "line": 243
     },
     "Wishing_Piece": {
-      "translation": "许愿片",
+      "translation": "许愿星",
       "line": 244
     },
     "Wishing Piece": {
-      "translation": "许愿片",
+      "translation": "许愿星",
       "line": 244
     },
     "Attracts Gigantamax Pokémon to the Max Lair": {
-      "translation": "将超极巨化宝可梦吸引到最大巢穴",
+      "translation": "将超极巨化宝可梦吸引到极巨巢穴",
       "line": 244
     },
     "The Lair of Giants": {
-      "translation": "巨人的巢穴",
+      "translation": "极巨巢穴探险",
       "line": 244
     },
     "Increases Pokémon attack bonus.<br/><i>(attack gained per breeding cycle)</i><br/>Increases steps required when hatching by 20": {

@@ -398,6 +398,11 @@
             const pieceKey = normalizeText(c);
             if (!pieceKey) return piece;
 
+            // Handle leftover English articles in mixed CN/EN strings (e.g. "你捕获了a小拉达").
+            if (hasHan && (pieceKey === 'a' || pieceKey === 'an')) {
+                return '';
+            }
+
             let cached = cache.get(pieceKey);
             if (cached == null) {
                 const resolved = resolveTranslation(pieceKey, map, patterns);

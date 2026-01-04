@@ -861,7 +861,7 @@
       "line": 842
     },
     "Max Lair": {
-      "translation": "马克斯·莱尔",
+      "translation": "极巨巢穴",
       "line": 842
     },
     "Oreburrow Tunnel": {
@@ -1077,11 +1077,11 @@
       "line": 896
     },
     "Crown Shrine": {
-      "translation": "皇冠神社",
+      "translation": "王冠神殿",
       "line": 896
     },
     "Freezington": {
-      "translation": "弗里青顿",
+      "translation": "冰砌镇",
       "line": 896
     },
     "Cinnabar Island": {
@@ -1361,11 +1361,11 @@
       "line": 962
     },
     "Armor Station": {
-      "translation": "装甲站",
+      "translation": "铠岛站",
       "line": 962
     },
     "Crown Tundra Station": {
-      "translation": "皇冠苔原站",
+      "translation": "王冠雪原站",
       "line": 962
     },
     "Olivine City": {
@@ -1705,11 +1705,11 @@
       "line": 1069
     },
     "Galarica_cuff": {
-      "translation": "加拉里卡_袖口",
+      "translation": "伽勒豆蔻腕带",
       "line": 1070
     },
     "Galarica_wreath": {
-      "translation": "加拉利卡_花环",
+      "translation": "伽勒豆蔻花环",
       "line": 1071
     },
     "Black_mane_hair": {
@@ -4069,43 +4069,43 @@
       "line": 2208
     },
     "Dyna Tree Birds": {
-      "translation": "动态树鸟",
+      "translation": "极巨树三鸟",
       "line": 2209
     },
     "Galarian Articuno 1": {
-      "translation": "伽勒安急冻鸟1",
+      "translation": "伽勒尔急冻鸟 1",
       "line": 2210
     },
     "Galarian Articuno 2": {
-      "translation": "伽勒安急冻鸟2",
+      "translation": "伽勒尔急冻鸟 2",
       "line": 2211
     },
     "Galarian Articuno 3": {
-      "translation": "伽勒安急冻鸟3",
+      "translation": "伽勒尔急冻鸟 3",
       "line": 2212
     },
     "Galarian Zapdos 1": {
-      "translation": "加拉利安 闪电鸟 1",
+      "translation": "伽勒尔闪电鸟 1",
       "line": 2213
     },
     "Galarian Zapdos 2": {
-      "translation": "加拉利安 闪电鸟 2",
+      "translation": "伽勒尔闪电鸟 2",
       "line": 2214
     },
     "Galarian Zapdos 3": {
-      "translation": "加拉利安 闪电鸟 3",
+      "translation": "伽勒尔闪电鸟 3",
       "line": 2215
     },
     "Galarian Moltres 1": {
-      "translation": "伽勒安莫尔特斯1",
+      "translation": "伽勒尔火焰鸟 1",
       "line": 2216
     },
     "Galarian Moltres 2": {
-      "translation": "伽勒安莫尔特雷斯2",
+      "translation": "伽勒尔火焰鸟 2",
       "line": 2217
     },
     "Galarian Moltres 3": {
-      "translation": "伽勒安摩尔特斯3",
+      "translation": "伽勒尔火焰鸟 3",
       "line": 2218
     },
     "Regigigas": {
@@ -4113,123 +4113,123 @@
       "line": 2219
     },
     "Max Raid Venusaur": {
-      "translation": "最大突袭维纳斯龙",
+      "translation": "极巨团体战[[Venusaur]]",
       "line": 2220
     },
     "Max Raid Charizard": {
-      "translation": "最大突袭喷火龙",
+      "translation": "极巨团体战[[Charizard]]",
       "line": 2221
     },
     "Max Raid Blastoise": {
-      "translation": "最大 Raid 水箭龟",
+      "translation": "极巨团体战[[Blastoise]]",
       "line": 2222
     },
     "Max Raid Butterfree": {
-      "translation": "最大突袭巴特弗里",
+      "translation": "极巨团体战[[Butterfree]]",
       "line": 2223
     },
     "Max Raid Pikachu": {
-      "translation": "最大突袭皮卡丘",
+      "translation": "极巨团体战[[Pikachu]]",
       "line": 2224
     },
     "Max Raid Meowth": {
-      "translation": "麦克斯突袭喵",
+      "translation": "极巨团体战[[Meowth]]",
       "line": 2225
     },
     "Max Raid Machamp": {
-      "translation": "最大 Raid 怪力",
+      "translation": "极巨团体战[[Machamp]]",
       "line": 2226
     },
     "Max Raid Gengar": {
-      "translation": "最大突袭耿鬼",
+      "translation": "极巨团体战[[Gengar]]",
       "line": 2227
     },
     "Max Raid Kingler": {
-      "translation": "麦克斯·雷德·金勒",
+      "translation": "极巨团体战[[Kingler]]",
       "line": 2228
     },
     "Max Raid Lapras": {
-      "translation": "最大突袭拉普拉斯",
+      "translation": "极巨团体战[[Lapras]]",
       "line": 2229
     },
     "Max Raid Eevee": {
-      "translation": "最大突袭伊布",
+      "translation": "极巨团体战[[Eevee]]",
       "line": 2230
     },
     "Max Raid Snorlax": {
-      "translation": "最大突袭卡诺拉克斯",
+      "translation": "极巨团体战[[Snorlax]]",
       "line": 2231
     },
     "Max Raid Garbodor": {
-      "translation": "最大突袭加博多",
+      "translation": "极巨团体战[[Garbodor]]",
       "line": 2232
     },
     "Max Raid Rillaboom": {
-      "translation": "最大突袭瑞拉布姆",
+      "translation": "极巨团体战[[Rillaboom]]",
       "line": 2233
     },
     "Max Raid Cinderace": {
-      "translation": "最大突袭灰姑娘",
+      "translation": "极巨团体战[[Cinderace]]",
       "line": 2234
     },
     "Max Raid Inteleon": {
-      "translation": "最大 Raid Inteleon",
+      "translation": "极巨团体战[[Inteleon]]",
       "line": 2235
     },
     "Max Raid Corviknight": {
-      "translation": "麦克斯·突袭科维骑士",
+      "translation": "极巨团体战[[Corviknight]]",
       "line": 2236
     },
     "Max Raid Orbeetle": {
-      "translation": "最大突袭奥甲虫",
+      "translation": "极巨团体战[[Orbeetle]]",
       "line": 2237
     },
     "Max Raid Drednaw": {
-      "translation": "最大突袭德雷德诺",
+      "translation": "极巨团体战[[Drednaw]]",
       "line": 2238
     },
     "Max Raid Coalossal": {
-      "translation": "最大Raid Coalosal",
+      "translation": "极巨团体战[[Coalossal]]",
       "line": 2239
     },
     "Max Raid Flapple": {
-      "translation": "最大 Raid 扑动",
+      "translation": "极巨团体战[[Flapple]]",
       "line": 2240
     },
     "Max Raid Appletun": {
-      "translation": "麦克斯突袭阿普尔顿",
+      "translation": "极巨团体战[[Appletun]]",
       "line": 2241
     },
     "Max Raid Sandaconda": {
-      "translation": "最大突袭桑达康达",
+      "translation": "极巨团体战[[Sandaconda]]",
       "line": 2242
     },
     "Max Raid Toxtricity": {
-      "translation": "最大突袭毒性",
+      "translation": "极巨团体战[[Toxtricity]]",
       "line": 2243
     },
     "Max Raid Centiskorch": {
-      "translation": "最大突袭百焦火",
+      "translation": "极巨团体战[[Centiskorch]]",
       "line": 2244
     },
     "Max Raid Hatterene": {
-      "translation": "麦克斯·雷德·哈特林",
+      "translation": "极巨团体战[[Hatterene]]",
       "line": 2245
     },
     "Max Raid Grimmsnarl": {
-      "translation": "麦克斯突袭格林斯纳尔",
+      "translation": "极巨团体战[[Grimmsnarl]]",
       "line": 2246
     },
     "Max Raid Alcremie": {
-      "translation": "最大突袭阿尔克雷米",
+      "translation": "极巨团体战[[Alcremie]]",
       "line": 2247
     },
     "Max Raid Copperajah": {
-      "translation": "麦克斯突袭科珀拉贾",
+      "translation": "极巨团体战[[Copperajah]]",
       "line": 2248
     },
     "Max Raid Duraludon": {
-      "translation": "最大突袭杜拉鲁顿",
+      "translation": "极巨团体战[[Duraludon]]",
       "line": 2249
     },
     "Eternamax Eternatus": {

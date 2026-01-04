@@ -6503,7 +6503,7 @@
       "line": 6031
     },
     "Galarian Articuno 1": {
-      "translation": "伽勒安急冻鸟1",
+      "translation": "伽勒尔急冻鸟 1",
       "line": 6034
     },
     "<i>Galarian Articuno fled to elsewhere in the Crown Tundra.</i>": {
@@ -6519,11 +6519,11 @@
       "line": 6047
     },
     "Galarian Articuno 2": {
-      "translation": "伽勒安急冻鸟2",
+      "translation": "伽勒尔急冻鸟 2",
       "line": 6051
     },
     "Galarian Articuno 3": {
-      "translation": "伽勒安急冻鸟3",
+      "translation": "伽勒尔急冻鸟 3",
       "line": 6068
     },
     "Tunnel to the Top": {
@@ -6531,7 +6531,7 @@
       "line": 6080
     },
     "Galarian Zapdos 1": {
-      "translation": "加拉利安 闪电鸟 1",
+      "translation": "伽勒尔闪电鸟 1",
       "line": 6086
     },
     "<i>Galarian Zapdos fled to elsewhere in the Wild Area.</i>": {
@@ -6543,19 +6543,19 @@
       "line": 6096
     },
     "Galarian Zapdos 2": {
-      "translation": "加拉利安 闪电鸟 2",
+      "translation": "伽勒尔闪电鸟 2",
       "line": 6099
     },
     "Dusty Bowl": {
-      "translation": "尘土飞扬的碗",
+      "translation": "沙尘洼地",
       "line": 6111
     },
     "Galarian Zapdos 3": {
-      "translation": "加拉利安 闪电鸟 3",
+      "translation": "伽勒尔闪电鸟 3",
       "line": 6116
     },
     "Galarian Moltres 1": {
-      "translation": "伽勒安莫尔特斯1",
+      "translation": "伽勒尔火焰鸟 1",
       "line": 6133
     },
     "<i>Galarian Moltres fled to elsewhere in the Isle of Armor.</i>": {
@@ -6571,11 +6571,11 @@
       "line": 6146
     },
     "Galarian Moltres 2": {
-      "translation": "伽勒安莫尔特雷斯2",
+      "translation": "伽勒尔火焰鸟 2",
       "line": 6150
     },
     "Galarian Moltres 3": {
-      "translation": "伽勒安摩尔特斯3",
+      "translation": "伽勒尔火焰鸟 3",
       "line": 6167
     },
     "Regigigas": {
@@ -6587,11 +6587,11 @@
       "line": 6187
     },
     "The Ancient Golems": {
-      "translation": "远古傀儡",
+      "translation": "古代巨像",
       "line": 6188
     },
     "Freezington": {
-      "translation": "弗里青顿",
+      "translation": "冰砌镇",
       "line": 6193
     },
     "../pokemon/486": {
@@ -6599,7 +6599,7 @@
       "line": 6194
     },
     "Max Raid Venusaur": {
-      "translation": "最大突袭维纳斯龙",
+      "translation": "极巨团体战[[Venusaur]]",
       "line": 6197
     },
     "Gigantamax Venusaur": {
@@ -6607,15 +6607,15 @@
       "line": 6199
     },
     "The Lair of Giants": {
-      "translation": "巨人的巢穴",
+      "translation": "极巨巢穴探险",
       "line": 6201
     },
     "Max Raid": {
-      "translation": "最大突袭",
+      "translation": "极巨团体战",
       "line": 6205
     },
     "Max Raid Charizard": {
-      "translation": "最大突袭喷火龙",
+      "translation": "极巨团体战[[Charizard]]",
       "line": 6211
     },
     "Gigantamax Charizard": {
@@ -6623,7 +6623,7 @@
       "line": 6213
     },
     "Max Raid Blastoise": {
-      "translation": "最大 Raid 水箭龟",
+      "translation": "极巨团体战[[Blastoise]]",
       "line": 6225
     },
     "Gigantamax Blastoise": {
@@ -6631,7 +6631,7 @@
       "line": 6227
     },
     "Max Raid Butterfree": {
-      "translation": "最大突袭巴特弗里",
+      "translation": "极巨团体战[[Butterfree]]",
       "line": 6239
     },
     "Gigantamax Butterfree": {
@@ -6639,7 +6639,7 @@
       "line": 6241
     },
     "Max Raid Pikachu": {
-      "translation": "最大突袭皮卡丘",
+      "translation": "极巨团体战[[Pikachu]]",
       "line": 6253
     },
     "Gigantamax Pikachu": {
@@ -6647,7 +6647,7 @@
       "line": 6255
     },
     "Max Raid Meowth": {
-      "translation": "麦克斯突袭喵",
+      "translation": "极巨团体战[[Meowth]]",
       "line": 6267
     },
     "Gigantamax Meowth": {
@@ -6655,7 +6655,7 @@
       "line": 6269
     },
     "Max Raid Machamp": {
-      "translation": "最大 Raid 怪力",
+      "translation": "极巨团体战[[Machamp]]",
       "line": 6281
     },
     "Gigantamax Machamp": {
@@ -6663,11 +6663,11 @@
       "line": 6283
     },
     "Max Raid Gengar": {
-      "translation": "最大突袭耿鬼",
+      "translation": "极巨团体战[[Gengar]]",
       "line": 6295
     },
     "Max Raid Kingler": {
-      "translation": "麦克斯·雷德·金勒",
+      "translation": "极巨团体战[[Kingler]]",
       "line": 6309
     },
     "Gigantamax Kingler": {
@@ -6675,7 +6675,7 @@
       "line": 6311
     },
     "Max Raid Lapras": {
-      "translation": "最大突袭拉普拉斯",
+      "translation": "极巨团体战[[Lapras]]",
       "line": 6323
     },
     "Gigantamax Lapras": {
@@ -6683,7 +6683,7 @@
       "line": 6325
     },
     "Max Raid Eevee": {
-      "translation": "最大突袭伊布",
+      "translation": "极巨团体战[[Eevee]]",
       "line": 6337
     },
     "Gigantamax Eevee": {
@@ -6691,7 +6691,7 @@
       "line": 6339
     },
     "Max Raid Snorlax": {
-      "translation": "最大突袭卡诺拉克斯",
+      "translation": "极巨团体战[[Snorlax]]",
       "line": 6351
     },
     "Gigantamax Snorlax": {
@@ -6699,7 +6699,7 @@
       "line": 6353
     },
     "Max Raid Garbodor": {
-      "translation": "最大突袭加博多",
+      "translation": "极巨团体战[[Garbodor]]",
       "line": 6365
     },
     "Gigantamax Garbodor": {
@@ -6707,7 +6707,7 @@
       "line": 6367
     },
     "Max Raid Rillaboom": {
-      "translation": "最大突袭瑞拉布姆",
+      "translation": "极巨团体战[[Rillaboom]]",
       "line": 6379
     },
     "Gigantamax Rillaboom": {
@@ -6719,7 +6719,7 @@
       "line": 6388
     },
     "Max Raid Cinderace": {
-      "translation": "最大突袭灰姑娘",
+      "translation": "极巨团体战[[Cinderace]]",
       "line": 6393
     },
     "Gigantamax Cinderace": {
@@ -6727,7 +6727,7 @@
       "line": 6395
     },
     "Max Raid Inteleon": {
-      "translation": "最大 Raid Inteleon",
+      "translation": "极巨团体战[[Inteleon]]",
       "line": 6407
     },
     "Gigantamax Inteleon": {
@@ -6735,7 +6735,7 @@
       "line": 6409
     },
     "Max Raid Corviknight": {
-      "translation": "麦克斯·突袭科维骑士",
+      "translation": "极巨团体战[[Corviknight]]",
       "line": 6421
     },
     "Gigantamax Corviknight": {
@@ -6743,7 +6743,7 @@
       "line": 6423
     },
     "Max Raid Orbeetle": {
-      "translation": "最大突袭奥甲虫",
+      "translation": "极巨团体战[[Orbeetle]]",
       "line": 6435
     },
     "Gigantamax Orbeetle": {
@@ -6751,7 +6751,7 @@
       "line": 6437
     },
     "Max Raid Drednaw": {
-      "translation": "最大突袭德雷德诺",
+      "translation": "极巨团体战[[Drednaw]]",
       "line": 6449
     },
     "Gigantamax Drednaw": {
@@ -6759,7 +6759,7 @@
       "line": 6451
     },
     "Max Raid Coalossal": {
-      "translation": "最大Raid Coalosal",
+      "translation": "极巨团体战[[Coalossal]]",
       "line": 6463
     },
     "Gigantamax Coalossal": {
@@ -6767,7 +6767,7 @@
       "line": 6465
     },
     "Max Raid Flapple": {
-      "translation": "最大 Raid 扑动",
+      "translation": "极巨团体战[[Flapple]]",
       "line": 6477
     },
     "Gigantamax Flapple": {
@@ -6775,7 +6775,7 @@
       "line": 6479
     },
     "Max Raid Appletun": {
-      "translation": "麦克斯突袭阿普尔顿",
+      "translation": "极巨团体战[[Appletun]]",
       "line": 6491
     },
     "Gigantamax Appletun": {
@@ -6787,7 +6787,7 @@
       "line": 6500
     },
     "Max Raid Sandaconda": {
-      "translation": "最大突袭桑达康达",
+      "translation": "极巨团体战[[Sandaconda]]",
       "line": 6505
     },
     "Gigantamax Sandaconda": {
@@ -6795,7 +6795,7 @@
       "line": 6507
     },
     "Max Raid Toxtricity": {
-      "translation": "最大突袭毒性",
+      "translation": "极巨团体战[[Toxtricity]]",
       "line": 6519
     },
     "Gigantamax Toxtricity": {
@@ -6803,7 +6803,7 @@
       "line": 6521
     },
     "Max Raid Centiskorch": {
-      "translation": "最大突袭百焦火",
+      "translation": "极巨团体战[[Centiskorch]]",
       "line": 6533
     },
     "Gigantamax Centiskorch": {
@@ -6811,7 +6811,7 @@
       "line": 6535
     },
     "Max Raid Hatterene": {
-      "translation": "麦克斯·雷德·哈特林",
+      "translation": "极巨团体战[[Hatterene]]",
       "line": 6547
     },
     "Gigantamax Hatterene": {
@@ -6819,7 +6819,7 @@
       "line": 6549
     },
     "Max Raid Grimmsnarl": {
-      "translation": "麦克斯突袭格林斯纳尔",
+      "translation": "极巨团体战[[Grimmsnarl]]",
       "line": 6561
     },
     "Gigantamax Grimmsnarl": {
@@ -6827,7 +6827,7 @@
       "line": 6563
     },
     "Max Raid Alcremie": {
-      "translation": "最大突袭阿尔克雷米",
+      "translation": "极巨团体战[[Alcremie]]",
       "line": 6575
     },
     "Gigantamax Alcremie": {
@@ -6835,7 +6835,7 @@
       "line": 6577
     },
     "Max Raid Copperajah": {
-      "translation": "麦克斯突袭科珀拉贾",
+      "translation": "极巨团体战[[Copperajah]]",
       "line": 6589
     },
     "Gigantamax Copperajah": {
@@ -6847,7 +6847,7 @@
       "line": 6598
     },
     "Max Raid Duraludon": {
-      "translation": "最大突袭杜拉鲁顿",
+      "translation": "极巨团体战[[Duraludon]]",
       "line": 6603
     },
     "Gigantamax Duraludon": {

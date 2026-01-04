@@ -79,11 +79,11 @@
       "line": 74
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
-      "translation": "根据宝可梦的捕获/闪光状态选择使用哪种精灵球。<br/><i><sup>将鼠标悬停在名称上了解更多信息。</sup></i><br/><br/>捕获宝可梦可获得 <img title=\"地下城代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 地下城代币。<br/><br/>现在点击\"已捕获\"选择器来试试吧。",
+      "translation": "根据宝可梦的捕获/闪光状态选择使用哪种精灵球。<br/><i><sup>将鼠标悬停在名称上了解更多信息。</sup></i><br/><br/>捕获宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击\"已捕获\"选择器来试试吧。",
       "line": 79
     },
     "Dungeon Tokens Gained by capturing Pokémon": {
-      "translation": "地下城代币\n通过捕获宝可梦获得",
+      "translation": "迷宫代币\n通过捕获宝可梦获得",
       "line": 79
     },
     "assets/images/currency/dungeonToken.svg": {
@@ -107,7 +107,7 @@
       "line": 96
     },
     "Select the <img title=\"Poké Ball\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> Poké Ball to use this type of ball to capture already caught Pokémon, which will give you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens when captured.": {
-      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球来捕获已捕获过的宝可梦，捕获后可获得 <img title=\"地下城代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 地下城代币。",
+      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球来捕获已捕获过的宝可梦，捕获后可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
       "line": 97
     },
     "Poké Ball": {
@@ -5939,7 +5939,7 @@
       "line": 3730
     },
     "You, Klara and Avery have happened upon the same Max Mushroom in Warm-Up Tunnel. Defeat them both to win it.": {
-      "translation": "你、克拉拉和艾弗里在热身隧道中碰巧发现了同一个最大蘑菇。击败他们两人即可获胜。",
+      "translation": "你、克拉拉和艾弗里在热身隧道中碰巧发现了同一朵极巨菇。击败他们两人即可获胜。",
       "line": 3735
     },
     "Talk to Klara and Avery in the Master Dojo.": {
@@ -6023,7 +6023,7 @@
       "line": 3815
     },
     "Catch the missing Zarude roaming around the Isle of Armor.": {
-      "translation": "抓住在盔甲岛四处游荡的失踪的扎鲁德。",
+      "translation": "抓住在铠岛四处游荡的失踪的扎鲁德。",
       "line": 3815
     },
     "Take Zarude back to Koko in Glimwood Tangle.": {
@@ -6035,7 +6035,7 @@
       "line": 3821
     },
     "A group of Zarude are attacking you. Defeat them.": {
-      "translation": "一群扎鲁德人正在攻击你。打败他们。",
+      "translation": "一群扎鲁德正在攻击你。打败它们。",
       "line": 3821
     },
     "Talk to Koko in Glimwood Tangle.": {
@@ -6043,7 +6043,7 @@
       "line": 3824
     },
     "Another two groups of Zarude are attacking you. Defeat them as well.": {
-      "translation": "另外两群扎鲁德正在攻击你。也打败他们。",
+      "translation": "另外两群扎鲁德正在攻击你。也打败它们。",
       "line": 3827
     },
     "Zarude Tribe 2": {
@@ -6071,7 +6071,7 @@
       "line": 3845
     },
     "A final Zarude wants to challenge you. Defeat Zarude (Dada).": {
-      "translation": "最后的扎鲁德想要挑战你。击败扎鲁德（达达）。",
+      "translation": "最后的扎鲁德想要挑战你。击败扎鲁德（阿爸）。",
       "line": 3845
     },
     "Talk to Ash Ketchum in Glimwood Tangle.": {
@@ -6091,7 +6091,7 @@
       "line": 3862
     },
     "Help the ancient king of Galar, Calyrex, return to its former glory.": {
-      "translation": "帮助古老的加勒尔国王卡里克斯恢复昔日的辉煌。",
+      "translation": "帮助古老的伽勒尔国王蕾冠王恢复昔日的辉煌。",
       "line": 3862
     },
     "Talk to Peony to find out about the ancient king of Galar.": {
@@ -6119,11 +6119,11 @@
       "line": 3874
     },
     "Calyrex is going to Old Cemetery and Snowslide Slope to grow a Shaderoot Carrot and an Iceroot Carrot. Protect it from wild Pokémon so it can concentrate.": {
-      "translation": "卡里克斯将前往旧墓地和雪滑坡种植影根胡萝卜和冰根胡萝卜。保护它免受野生宝可梦的侵害，这样它就可以集中注意力。",
+      "translation": "蕾冠王将前往旧墓地和雪崩斜坡种植影根胡萝卜和冰根胡萝卜。保护它免受野生宝可梦的侵扰，让它能专心。",
       "line": 3880
     },
     "After growing both carrots, Calyrex has returned to Freezington. Talk to it.": {
-      "translation": "种完两根胡萝卜后，卡里克斯回到了弗利青顿。和它说话。",
+      "translation": "种完两根胡萝卜后，蕾冠王回到了冰砌镇。和它说话。",
       "line": 3886
     },
     "Spectrier": {
@@ -6131,7 +6131,7 @@
       "line": 3889
     },
     "Defeat Spectrier.": {
-      "translation": "击败幽灵。",
+      "translation": "击败灵幽马。",
       "line": 3889
     },
     "Glastrier": {
@@ -6139,39 +6139,39 @@
       "line": 3890
     },
     "Defeat Glastrier.": {
-      "translation": "击败格拉斯提尔。",
+      "translation": "击败雪暴马。",
       "line": 3890
     },
     "Fight Calyrex's steeds to get them out of Freezington!": {
-      "translation": "与卡里克斯的战马战斗，将它们带出冰冻顿！",
+      "translation": "与蕾冠王的坐骑战斗，把它们赶出冰砌镇！",
       "line": 3895
     },
     "Talk to Calyrex again.": {
-      "translation": "再次与卡里克斯交谈。",
+      "translation": "再次与蕾冠王交谈。",
       "line": 3897
     },
     "Spectrier and Glastrier are now roaming the Crown Tundra. Catch them when the opportunity arises!": {
-      "translation": "斯佩特里尔和格拉斯特里尔现在正在皇冠苔原上漫游。当机会出现时抓住他们！",
+      "translation": "灵幽马和雪暴马现在正在王冠雪原上漫游。趁有机会把它们抓住！",
       "line": 3906
     },
     "Now that you have captured both of its steeds, talk to Calyrex at the Crown Shrine.": {
-      "translation": "现在你已经捕获了它的两匹战马，接下来与皇冠神殿的卡里莱克斯交谈。",
+      "translation": "现在你已经捕获了它的两匹坐骑，去王冠神殿与蕾冠王交谈。",
       "line": 3915
     },
     "Now that you have found and caught Glastrier and Spectrier, Calyrex wants to challenge you at Crown Shrine. Catch it!": {
-      "translation": "现在你已经找到并抓住了格拉斯特里尔和幽灵人，卡里雷克斯想在皇冠神殿向你挑战。抓住它！",
+      "translation": "现在你已经找到并捕捉了雪暴马和灵幽马，蕾冠王想在王冠神殿挑战你。捕捉它！",
       "line": 3918
     },
     "Now that you have captured Calyrex, go report back to Peony!": {
-      "translation": "现在你已经捕获了Calyrex，去向Peony报告吧！",
+      "translation": "现在你已经捕获了蕾冠王，去向牡丹报告吧！",
       "line": 3921
     },
     "The Birds of the Dyna Tree": {
-      "translation": "戴纳树上的鸟儿",
+      "translation": "极巨树的传说之鸟",
       "line": 3931
     },
     "Find the Legendary birds of the Dyna Tree.": {
-      "translation": "寻找戴纳树的传奇鸟类。",
+      "translation": "寻找极巨树的传说之鸟。",
       "line": 3931
     },
     "Talk to Peony to find out about some legendary bird sightings.": {
@@ -6179,79 +6179,79 @@
       "line": 3933
     },
     "Dyna Tree Hill": {
-      "translation": "戴纳树山",
+      "translation": "极巨树山丘",
       "line": 3936
     },
     "Some unknown bird Pokémon have been sighted near Dyna Tree Hill in Ballimere Lake. Explore the area to see for yourself.": {
-      "translation": "在巴利米尔湖的戴纳树山附近发现了一些未知的鸟类宝可梦。亲自探索该地区。",
+      "translation": "在巴利穆湖的极巨树山丘附近发现了一些未知的鸟类宝可梦。亲自探索该地区。",
       "line": 3936
     },
     "Dyna Tree Birds": {
-      "translation": "动态树鸟",
+      "translation": "极巨树三鸟",
       "line": 3939
     },
     "You witnessed 3 powerful looking bird pokemon resembling Articuno, Zapdos, and Moltres fighting over the fruit of the Dyna Tree. Upon noticing you, they attack!": {
-      "translation": "你目睹了3种看起来强大的鸟类宝可梦，例如 急冻鸟、闪电鸟 和 火焰鸟，它们正在争夺 Dyna Tree 的果实。一旦发现你，他们就会发起攻击！",
+      "translation": "你目睹了3只外形强大的鸟类宝可梦（类似于急冻鸟、闪电鸟和火焰鸟）为争夺极巨树的果实而战。它们注意到你后便会发起攻击！",
       "line": 3939
     },
     "Tell Peony about your encounter with the birds resembling Articuno, Zapdos, and Moltres.": {
-      "translation": "告诉 Peony 你与 急冻鸟、闪电鸟 和 火焰鸟 等鸟类的遭遇。",
+      "translation": "告诉牡丹你遇到类似急冻鸟、闪电鸟和火焰鸟的鸟类宝可梦的情况。",
       "line": 3942
     },
     "Search for Galarian Articuno in the Crown Tundra.": {
-      "translation": "在皇冠苔原寻找伽拉瑞阿提库诺。",
+      "translation": "在王冠雪原寻找伽勒尔急冻鸟。",
       "line": 3945
     },
     "Galarian Articuno 1": {
-      "translation": "伽勒安急冻鸟1",
+      "translation": "伽勒尔急冻鸟 1",
       "line": 3946
     },
     "Galarian Articuno 2": {
-      "translation": "伽勒安急冻鸟2",
+      "translation": "伽勒尔急冻鸟 2",
       "line": 3947
     },
     "Galarian Articuno 3": {
-      "translation": "伽勒安急冻鸟3",
+      "translation": "伽勒尔急冻鸟 3",
       "line": 3948
     },
     "Search for Galarian Zapdos in the Wild Area of Southern Galar.": {
-      "translation": "在南伽勒尔的荒野中寻找伽勒安扎普多斯。",
+      "translation": "在伽勒尔南部的旷野地带寻找伽勒尔闪电鸟。",
       "line": 3950
     },
     "Galarian Zapdos 1": {
-      "translation": "加拉利安 闪电鸟 1",
+      "translation": "伽勒尔闪电鸟 1",
       "line": 3951
     },
     "Galarian Zapdos 2": {
-      "translation": "加拉利安 闪电鸟 2",
+      "translation": "伽勒尔闪电鸟 2",
       "line": 3952
     },
     "Galarian Zapdos 3": {
-      "translation": "加拉利安 闪电鸟 3",
+      "translation": "伽勒尔闪电鸟 3",
       "line": 3953
     },
     "Search for Galarian Moltres in the Isle of Armor.": {
-      "translation": "在盔甲岛寻找加勒安莫尔特雷斯。",
+      "translation": "在铠岛寻找伽勒尔火焰鸟。",
       "line": 3955
     },
     "Galarian Moltres 1": {
-      "translation": "伽勒安莫尔特斯1",
+      "translation": "伽勒尔火焰鸟 1",
       "line": 3956
     },
     "Galarian Moltres 2": {
-      "translation": "伽勒安莫尔特雷斯2",
+      "translation": "伽勒尔火焰鸟 2",
       "line": 3957
     },
     "Galarian Moltres 3": {
-      "translation": "伽勒安摩尔特斯3",
+      "translation": "伽勒尔火焰鸟 3",
       "line": 3958
     },
     "Galarian Articuno, Zapdos, and Moltres have fled to the Crown Tundra, Southern Galar, and the Isle of Armor respectively. Search for them.": {
-      "translation": "",
+      "translation": "伽勒尔急冻鸟、伽勒尔闪电鸟和伽勒尔火焰鸟分别逃往王冠雪原、伽勒尔南部和铠岛了。去找找它们。",
       "line": 3965
     },
     "You defeated Galarian Articuno, Zapdos, and Moltres multiple times each. Ask Peony what to do next.": {
-      "translation": "",
+      "translation": "你已多次击败伽勒尔急冻鸟、伽勒尔闪电鸟和伽勒尔火焰鸟。去问问牡丹接下来该做什么。",
       "line": 3967
     },
     "Galarian Articuno": {
@@ -6267,19 +6267,19 @@
       "line": 3972
     },
     "Galarian Articuno, Zapdos, and Moltres are now roaming in the Crown Tundra, Southern Galar, and the Isle of Armor respectively. Catch them when the opportunity arises!": {
-      "translation": "",
+      "translation": "伽勒尔急冻鸟、伽勒尔闪电鸟和伽勒尔火焰鸟现在分别在王冠雪原、伽勒尔南部和铠岛漫游。趁有机会把它们抓住！",
       "line": 3978
     },
     "Now that you have captured Galarian Articuno, Zapdos, and Moltres, go report back to Peony!": {
-      "translation": "",
+      "translation": "你已经捕获了伽勒尔急冻鸟、伽勒尔闪电鸟和伽勒尔火焰鸟，现在去向牡丹报告吧！",
       "line": 3980
     },
     "The Ancient Golems": {
-      "translation": "远古傀儡",
+      "translation": "古代巨像",
       "line": 3988
     },
     "Discover the ancient Golems in the ruins of the Crown Tundra.": {
-      "translation": "发现皇冠苔原废墟中的古代傀儡。",
+      "translation": "发现王冠雪原废墟中的古代巨像。",
       "line": 3988
     },
     "Talk to Peony to find out about some ancient ruins.": {
@@ -6287,7 +6287,7 @@
       "line": 3990
     },
     "Peony told you of a peculiar ruin located at Three-Point Pass. Explore the area to find it.": {
-      "translation": "牡丹告诉你，三点关有一处奇特的遗迹。探索该地区以找到它。",
+      "translation": "牡丹告诉你，三岔路口有一处奇特的遗迹。探索该地区以找到它。",
       "line": 3993
     },
     "The ruins were locked, go report back to Peony.": {
@@ -6327,11 +6327,11 @@
       "line": 4009
     },
     "Catch Regirock, Regice, and Registeel in the Rock Peak Ruins, Iceberg Ruins, and Iron Ruins respectively.": {
-      "translation": "分别在岩峰废墟、冰山废墟和铁废墟中捕获雷吉洛克、雷吉斯和雷吉斯蒂尔。",
+      "translation": "分别在岩峰废墟、冰山废墟和铁废墟中捕获雷吉洛克、雷吉艾斯和雷吉斯奇鲁。",
       "line": 4020
     },
     "You have captured Regirock, Regice, and Registeel, now go report back to Peony.": {
-      "translation": "",
+      "translation": "你已经捕获了雷吉洛克、雷吉艾斯和雷吉斯奇鲁，现在去向牡丹报告。",
       "line": 4022
     },
     "Regigigas": {
@@ -6371,147 +6371,147 @@
       "line": 4052
     },
     "Explore the Max Lair and discover the Gigantamax Pokémon.": {
-      "translation": "探索 Max Lair 并发现 超极巨化 宝可梦。",
+      "translation": "探索极巨巢穴，发现超极巨化宝可梦。",
       "line": 4052
     },
     "Peony's daughter, Peonia, wants to talk to you in Freezington.": {
-      "translation": "佩妮的女儿佩妮娅想在弗利青顿和你谈谈。",
+      "translation": "牡丹的女儿佩妮娅想在冰砌镇和你谈谈。",
       "line": 4054
     },
     "Max Lair": {
-      "translation": "马克斯·莱尔",
+      "translation": "极巨巢穴",
       "line": 4057
     },
     "Clear Max Lair to encounter a Gigantamax Pokémon.": {
-      "translation": "清除麦克斯巢穴，遇到超极麦克斯宝可梦。",
+      "translation": "通关极巨巢穴以遭遇一只超极巨化宝可梦。",
       "line": 4057
     },
     "Report back to Peonia in Max Lair.": {
-      "translation": "向麦克斯莱尔的佩妮娅汇报。",
+      "translation": "在极巨巢穴向佩妮娅汇报。",
       "line": 4060
     },
     "Obtain 1 Wishing Piece": {
-      "translation": "获得1个许愿碎片",
+      "translation": "获得1个许愿星",
       "line": 4063
     },
     "Obtain 2 Wishing Pieces": {
-      "translation": "获得2个许愿碎片",
+      "translation": "获得2个许愿星",
       "line": 4064
     },
     "Obtain 4 Wishing Pieces": {
-      "translation": "获得4个许愿碎片",
+      "translation": "获得4个许愿星",
       "line": 4065
     },
     "Obtain 6 Wishing Pieces": {
-      "translation": "获得6个许愿碎片",
+      "translation": "获得6个许愿星",
       "line": 4066
     },
     "Obtain 9 Wishing Pieces": {
-      "translation": "获得9个许愿碎片",
+      "translation": "获得9个许愿星",
       "line": 4067
     },
     "Obtain 12 Wishing Pieces": {
-      "translation": "获得12个许愿碎片",
+      "translation": "获得12个许愿星",
       "line": 4068
     },
     "Obtain 16 Wishing Pieces": {
-      "translation": "获得16个许愿碎片",
+      "translation": "获得16个许愿星",
       "line": 4069
     },
     "Obtain 20 Wishing Pieces": {
-      "translation": "获得20个愿望碎片",
+      "translation": "获得20个许愿星",
       "line": 4070
     },
     "Obtain 25 Wishing Pieces": {
-      "translation": "获得25个许愿碎片",
+      "translation": "获得25个许愿星",
       "line": 4071
     },
     "Obtain 30 Wishing Pieces": {
-      "translation": "获得30个愿望碎片",
+      "translation": "获得30个许愿星",
       "line": 4072
     },
     "Obtain 36 Wishing Pieces": {
-      "translation": "获得36个愿望碎片",
+      "translation": "获得36个许愿星",
       "line": 4073
     },
     "Obtain 42 Wishing Pieces": {
-      "translation": "获得42个愿望碎片",
+      "translation": "获得42个许愿星",
       "line": 4074
     },
     "Obtain 49 Wishing Pieces": {
-      "translation": "获得49个愿望碎片",
+      "translation": "获得49个许愿星",
       "line": 4075
     },
     "Obtain 56 Wishing Pieces": {
-      "translation": "获得56个许愿碎片",
+      "translation": "获得56个许愿星",
       "line": 4076
     },
     "Obtain 64 Wishing Pieces": {
-      "translation": "获得64个许愿碎片",
+      "translation": "获得64个许愿星",
       "line": 4077
     },
     "Obtain 72 Wishing Pieces": {
-      "translation": "获得72个许愿碎片",
+      "translation": "获得72个许愿星",
       "line": 4078
     },
     "Obtain 81 Wishing Pieces": {
-      "translation": "获得81个愿望碎片",
+      "translation": "获得81个许愿星",
       "line": 4079
     },
     "Obtain 90 Wishing Pieces": {
-      "translation": "获得90个愿望碎片",
+      "translation": "获得90个许愿星",
       "line": 4080
     },
     "Obtain 100 Wishing Pieces": {
-      "translation": "获得100个愿望碎片",
+      "translation": "获得100个许愿星",
       "line": 4081
     },
     "Obtain 110 Wishing Pieces": {
-      "translation": "获得110个愿望碎片",
+      "translation": "获得110个许愿星",
       "line": 4082
     },
     "Obtain 121 Wishing Pieces": {
-      "translation": "获得121个愿望碎片",
+      "translation": "获得121个许愿星",
       "line": 4083
     },
     "Obtain 132 Wishing Pieces": {
-      "translation": "获得132个愿望碎片",
+      "translation": "获得132个许愿星",
       "line": 4084
     },
     "Obtain 144 Wishing Pieces": {
-      "translation": "获得144个愿望碎片",
+      "translation": "获得144个许愿星",
       "line": 4085
     },
     "Obtain 156 Wishing Pieces": {
-      "translation": "获得156个愿望碎片",
+      "translation": "获得156个许愿星",
       "line": 4086
     },
     "Obtain 169 Wishing Pieces": {
-      "translation": "获得169个许愿碎片",
+      "translation": "获得169个许愿星",
       "line": 4087
     },
     "Obtain 182 Wishing Pieces": {
-      "translation": "获得182个许愿碎片",
+      "translation": "获得182个许愿星",
       "line": 4088
     },
     "Obtain 196 Wishing Pieces": {
-      "translation": "获得196个愿望碎片",
+      "translation": "获得196个许愿星",
       "line": 4089
     },
     "Obtain 210 Wishing Pieces": {
-      "translation": "获得210个愿望碎片",
+      "translation": "获得210个许愿星",
       "line": 4090
     },
     "Obtain 225 Wishing Pieces": {
-      "translation": "获得225个许愿碎片",
+      "translation": "获得225个许愿星",
       "line": 4091
     },
     "Obtain 240 Wishing Pieces": {
-      "translation": "获得240个愿望碎片",
+      "translation": "获得240个许愿星",
       "line": 4092
     },
     "You've finally obtained enough Wishing Pieces to attract every Gigantamax Pokémon to the Max Lair! Tell Peonia about your achievement in Max Lair.": {
-      "translation": "你终于获得了足够的许愿碎片来吸引所有超极巨化宝可梦来到最大巢穴！告诉佩妮娅你在麦克斯莱尔的成就。",
+      "translation": "你终于获得了足够的许愿星，可以把所有超极巨化宝可梦都吸引到极巨巢穴了！在极巨巢穴告诉佩妮娅你的成就。",
       "line": 4094
     },
     "It seems something is going on in Hammerlocke! Talk to Leon in Energy Plant.": {
@@ -6531,7 +6531,7 @@
       "line": 4103
     },
     "Go back to the Max Lair to tell Peonia what happened.": {
-      "translation": "回到马克斯巢穴告诉佩妮娅发生了什么事。",
+      "translation": "回到极巨巢穴告诉佩妮娅发生了什么事。",
       "line": 4106
     },
     "Incarnate Forces of Hisui": {

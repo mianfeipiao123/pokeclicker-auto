@@ -2101,15 +2101,15 @@
       "line": 1737
     },
     "Legends say that when the Brass Tower burned down and became the Burned Tower, three unnamed Pokémon perished in the flames...": {
-      "translation": "传说，当黄铜塔被烧毁并成为烧毁的塔时，三只无名的宝可梦在火焰中丧生......",
+      "translation": "传说，当黄铜塔被烧毁并成为烧焦塔时，三只无名的宝可梦在火焰中丧生......",
       "line": 1745
     },
     "Ho-Oh came down from the Tin Tower and revived those Pokémon. They became the Legendary Beasts. Some say these Beasts still inhabit the basement of the Burned Tower.": {
-      "translation": "凤王从锡塔下来并复活了那些宝可梦。他们成为了传说中的神兽。有人说这些野兽仍然居住在烧毁之塔的地下室。",
+      "translation": "凤王从铃铛塔飞下并复活了那些宝可梦。它们成为了传说中的圣兽。有人说这些圣兽至今仍栖息在烧焦塔的地下。",
       "line": 1746
     },
     "Could you please clear Burned Tower for me and see if this is true?": {
-      "translation": "你能帮我清理一下燃烧之塔，看看这是否属实吗？",
+      "translation": "你能帮我清理一下烧焦塔，看看这是否属实吗？",
       "line": 1747
     },
     "The Legendary Beasts": {
@@ -2121,7 +2121,7 @@
       "line": 1752
     },
     "I saw it! Did you see it?! I saw you go in there! I don't know what you did in the Burned Tower, but three great Beasts came running out of there!": {
-      "translation": "我看到了！你看到了吗？！我看见你进去了！我不知道你在焚毁塔里做了什么，但是三头巨兽从那里跑了出来！",
+      "translation": "我看到了！你看到了吗？！我看见你进去了！我不知道你在烧焦塔里做了什么，但是三只巨兽从那里跑了出来！",
       "line": 1753
     },
     "It was a great sight to behold. They all went in different directions. I think they are just roaming the region now. My friend Trevor in Blackthorn City can tell you more.": {
@@ -2193,7 +2193,7 @@
       "line": 1798
     },
     "We have been watching you, and see that you have tamed the three Pokémon revived by Ho-Oh in the Burned Tower. Show us your power and we shall give you the Clear Bell, which will call Ho-Oh to the Tin Tower.": {
-      "translation": "我们一直在看着你，发现你已经驯服了被火王在烧毁之塔中复活的三只宝可梦。向我们展示你的力量，我们会给你透明钟，它会召唤凤王到锡塔。",
+      "translation": "我们一直在看着你，发现你已经驯服了被凤王在烧焦塔中复活的三只宝可梦。向我们展示你的力量，我们会给你透明铃铛，它会召唤凤王到铃铛塔。",
       "line": 1805
     },
     "Rainbow Guardian": {
@@ -2493,11 +2493,11 @@
       "line": 1982
     },
     "Burned Tower": {
-      "translation": "烧毁的塔",
+      "translation": "烧焦塔",
       "line": 1986
     },
     "Tin Tower": {
-      "translation": "锡塔",
+      "translation": "铃铛塔",
       "line": 1986
     },
     "Olivine City": {

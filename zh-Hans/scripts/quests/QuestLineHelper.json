@@ -483,11 +483,11 @@
       "line": 370
     },
     "The Sick Ampharos": {
-      "translation": "",
+      "translation": "生病的安法罗斯",
       "line": 380
     },
     "Jasmine's Ampharos seems to be sick!": {
-      "translation": "",
+      "translation": "茉莉的安法洛斯好像生病了！",
       "line": 380
     },
     "Olivine Lighthouse": {
@@ -527,11 +527,11 @@
       "line": 408
     },
     "Red Gyarados": {
-      "translation": "",
+      "translation": "红色暴鲤龙",
       "line": 410
     },
     "Defeat the rampaging Red Gyarados!": {
-      "translation": "",
+      "translation": "击败狂暴的红色暴鲤龙！",
       "line": 410
     },
     "Team Rocket's Hideout": {
@@ -595,7 +595,7 @@
       "line": 448
     },
     "Catch Raikou.": {
-      "translation": "",
+      "translation": "抓住雷公。",
       "line": 448
     },
     "Entei": {
@@ -603,7 +603,7 @@
       "line": 450
     },
     "Catch Entei.": {
-      "translation": "",
+      "translation": "抓住恩泰。",
       "line": 450
     },
     "Suicune": {
@@ -611,7 +611,7 @@
       "line": 452
     },
     "Catch Suicune.": {
-      "translation": "",
+      "translation": "抓住水君。",
       "line": 452
     },
     "Catch the Legendary Beasts.": {
@@ -619,7 +619,7 @@
       "line": 459
     },
     "Eusine is looking for Suicune.": {
-      "translation": "",
+      "translation": "Eusine 正在寻找水君。",
       "line": 464
     },
     "Suicune 1": {
@@ -627,7 +627,7 @@
       "line": 466
     },
     "Find Suicune.": {
-      "translation": "",
+      "translation": "找到水君。",
       "line": 466
     },
     "Talk to Eusine in Cianwood City.": {
@@ -735,7 +735,7 @@
       "line": 550
     },
     "Catch Lugia in the Whirl Islands.": {
-      "translation": "",
+      "translation": "在漩涡群岛捕捉洛奇亚。",
       "line": 550
     },
     "Rainbow Guardian": {
@@ -763,7 +763,7 @@
       "line": 566
     },
     "Catch Ho-Oh in the Tin Tower.": {
-      "translation": "",
+      "translation": "在锡塔里追捕凤王。",
       "line": 566
     },
     "Unfinished Business": {
@@ -807,7 +807,7 @@
       "line": 597
     },
     "Defeat the strange Pichu.": {
-      "translation": "",
+      "translation": "击败奇怪的皮丘。",
       "line": 597
     },
     "Investigate the Time Distortion in Tohjo Falls.": {
@@ -827,7 +827,7 @@
       "line": 615
     },
     "Play with the Celebi in Ilex Forest.": {
-      "translation": "",
+      "translation": "在冬青森林中与雪拉比玩耍。",
       "line": 615
     },
     "Land vs. Water": {
@@ -903,7 +903,7 @@
       "line": 666
     },
     "Talk to Wallace in the Cave of Origin to learn how to stop Kyogre and Groudon from fighting.": {
-      "translation": "",
+      "translation": "在起源洞穴中与米可利交谈，了解如何阻止盖欧卡和固拉多的战斗。",
       "line": 669
     },
     "Sky Pillar": {
@@ -911,11 +911,11 @@
       "line": 672
     },
     "Climb the Sky Pillar to find the super-ancient Pokémon Rayquaza.": {
-      "translation": "",
+      "translation": "爬上天空之柱寻找超古代宝可梦烈空座。",
       "line": 672
     },
     "Return to Sootopolis City to see what Rayquaza will do.": {
-      "translation": "",
+      "translation": "返回琉璃市，看看烈空坐会做什么。",
       "line": 675
     },
     "Talk to Wallace in the Cave of Origin about the aftermath of the battle.": {
@@ -939,11 +939,11 @@
       "line": 692
     },
     "Mystery of Deoxys": {
-      "translation": "",
+      "translation": "代欧奇希斯之谜",
       "line": 700
     },
     "Discover the mystery of Deoxys.": {
-      "translation": "",
+      "translation": "探索代欧奇希斯的秘密。",
       "line": 700
     },
     "You have gained 500 Psychic gems!": {
@@ -1005,7 +1005,7 @@
       "line": 764
     },
     "Catch Latias.": {
-      "translation": "",
+      "translation": "抓住拉帝亚斯。",
       "line": 764
     },
     "Latios": {
@@ -1013,7 +1013,7 @@
       "line": 766
     },
     "Catch Latios.": {
-      "translation": "",
+      "translation": "抓住拉帝欧斯。",
       "line": 766
     },
     "Catch the Eon Duo.": {
@@ -1165,7 +1165,7 @@
       "line": 860
     },
     "Pinkan Officer Jenny": {
-      "translation": "",
+      "translation": "粉红 警官珍妮",
       "line": 863
     },
     "Oh no! Officer Jenny has showed up. She's not happy! No time to plead your case, it's time to battle!": {
@@ -1173,7 +1173,7 @@
       "line": 863
     },
     "The Three Golems": {
-      "translation": "",
+      "translation": "三个傀儡",
       "line": 871
     },
     "Discover the secrets of the Sealed Chamber.": {
@@ -1201,15 +1201,15 @@
       "line": 894
     },
     "Release Regirock": {
-      "translation": "",
+      "translation": "发布雷吉洛克",
       "line": 897
     },
     "Release Regice": {
-      "translation": "",
+      "translation": "发布规则",
       "line": 899
     },
     "Release Registeel": {
-      "translation": "",
+      "translation": "发布Registeel",
       "line": 901
     },
     "Explore Hoenn by defeating Pokémon on the hinted routes to release the Regi Trio.": {
@@ -1265,7 +1265,7 @@
       "line": 942
     },
     "You are being stalked by Absol, the Disaster Pokémon. Capture it or hatch your own to befriend it.": {
-      "translation": "",
+      "translation": "你正被灾难宝可梦阿勃索尔跟踪。捕获它或孵化自己的动物来与它交朋友。",
       "line": 942
     },
     "Examine the crystalline cocoon Butler gave you while at the Mt. Chimney Crater.": {
@@ -1277,7 +1277,7 @@
       "line": 948
     },
     "Butler has followed you to the Mt. Chimney Crater and is trying to kidnap Jirachi!": {
-      "translation": "",
+      "translation": "巴特勒跟踪你来到了烟囱山火山口，并试图绑架基拉祈！",
       "line": 948
     },
     "Butler 2": {
@@ -1285,7 +1285,7 @@
       "line": 951
     },
     "Butler has escaped through the Jagged Pass and hooked Jirachi up to some sort of machine. Fight him to free Jirachi.": {
-      "translation": "",
+      "translation": "巴特勒已经穿过锯齿通道逃脱，并将基拉祈连接到某种机器上。与他战斗以释放基拉祈。",
       "line": 951
     },
     "Meta Groudon": {
@@ -1293,7 +1293,7 @@
       "line": 954
     },
     "Butler's attempts to resurrect Groudon have gone terribly wrong! Fight the resulting abomination!": {
-      "translation": "",
+      "translation": "巴特勒复活固拉多的尝试彻底失败了！与由此产生的憎恶作斗争！",
       "line": 954
     },
     "Jirachi": {
@@ -1301,7 +1301,7 @@
       "line": 957
     },
     "Jirachi has escaped in the chaos and is roaming Hoenn. Catch Jirachi.": {
-      "translation": "",
+      "translation": "基拉祈在混乱中逃脱并在丰缘漫游。抓住基拉祈。",
       "line": 957
     },
     "A Meta Discovery": {
@@ -1321,7 +1321,7 @@
       "line": 971
     },
     "Catch or hatch 100 Electrode": {
-      "translation": "",
+      "translation": "捕获或孵化100个电极",
       "line": 971
     },
     "Gather the materials Butler needs to rebuild his resurrection machine.": {
@@ -1329,7 +1329,7 @@
       "line": 982
     },
     "Calibrate the machine by catching or hatching 5 Groudon": {
-      "translation": "",
+      "translation": "通过捕捉或孵化5个固拉多来校准机器",
       "line": 984
     },
     "Deliver the materials to Butler in Mt. Chimney Crater and start the resurrection machine.": {
@@ -1337,7 +1337,7 @@
       "line": 987
     },
     "Butler has revived Meta Groudon at Mt. Chimney Crater. Catch Meta Groudon.": {
-      "translation": "",
+      "translation": "巴特勒在烟囱火山口复活了​​梅塔·固拉多。抓住梅塔·固拉多。",
       "line": 990
     },
     "Shadows in the Desert": {
@@ -1433,7 +1433,7 @@
       "line": 1046
     },
     "Interrogate Hunter Doken in the Pyrite Building to find out who has taken Plusle, and where to.": {
-      "translation": "",
+      "translation": "审问黄铁矿大厦的猎人多肯，找出谁拿走了 正电拍拍，以及去了哪里。",
       "line": 1049
     },
     "Pyrite Cave": {
@@ -1441,7 +1441,7 @@
       "line": 1052
     },
     "Find Miror B. and rescue Duking's Plusle in Pyrite Cave!": {
-      "translation": "",
+      "translation": "找到 镜像博士 并拯救黄铁洞中的 达金's 正电拍拍！",
       "line": 1052
     },
     "How, how, how dare you! Don't you dare think you'll get away with your latest outrage! One of these days, I will take great pleasure in kicking you about with my elegant dance steps! Oh, and I'm not giving up our Shadow Pokémon plan!": {
@@ -1457,7 +1457,7 @@
       "line": 1056
     },
     "Free Duking's Plusle.": {
-      "translation": "",
+      "translation": "免费 达金's 正电拍拍。",
       "line": 1060
     },
     "Discuss your next move with Rui at Pyrite Colosseum.": {
@@ -1753,7 +1753,7 @@
       "line": 1211
     },
     "They're using Parasect to navigate the Eterna Forest. Clear out a Parasect and they should get trapped!": {
-      "translation": "",
+      "translation": "他们使用 派拉斯ect 在永恒森林中导航。清除寄生虫，他们就会被困住！",
       "line": 1211
     },
     "Manaphy Go-Rock MGrunt 4": {
@@ -2147,7 +2147,7 @@
       "line": 1448
     },
     "Destiny Deoxys": {
-      "translation": "",
+      "translation": "命运代欧奇希斯",
       "line": 1456
     },
     "Discover the mystery of the crashed meteor.": {
@@ -2163,11 +2163,11 @@
       "line": 1461
     },
     "Destiny Deoxys Rayquaza": {
-      "translation": "",
+      "translation": "命运代欧奇希斯·烈空坐",
       "line": 1464
     },
     "Rayquaza and Deoxys are rampaging in the area. Try to calm them down.": {
-      "translation": "",
+      "translation": "烈空坐和代欧奇希斯正在该地区横行。尝试让他们平静下来。",
       "line": 1464
     },
     "Now that the situation has calmed down talk to the local scientists about the Green Gemstone.": {
@@ -2179,11 +2179,11 @@
       "line": 1470
     },
     "Destiny Deoxys Army": {
-      "translation": "",
+      "translation": "命运代欧奇希斯军团",
       "line": 1473
     },
     "While you were in the Battle Frontier an army of Deoxys attacked. Fight your way out!": {
-      "translation": "",
+      "translation": "当你在对战开拓区时，一支代欧奇希斯军队发起了攻击。为你的出路而奋斗！",
       "line": 1473
     },
     "The scientist you met at Giant Chasm is looking for you at the Battle Frontier.": {
@@ -2195,15 +2195,15 @@
       "line": 1484
     },
     "Destiny Rayquaza": {
-      "translation": "",
+      "translation": "命运烈空坐",
       "line": 1487
     },
     "Rayquaza attacks again. Calm it down for the last time.": {
-      "translation": "",
+      "translation": "烈空坐再次攻击。最后一次冷静下来。",
       "line": 1487
     },
     "Rayquaza realized that the Deoxys are no threat. Reunite the Purple and Green Gemmed Deoxys.": {
-      "translation": "",
+      "translation": "烈空坐意识到代欧奇希斯并不构成威胁。重新组合紫色和绿色宝石代欧奇希斯。",
       "line": 1490
     },
     "Swords of Justice": {
@@ -2479,7 +2479,7 @@
       "line": 1631
     },
     "Cipher? Nah, I don't play with those punks. I'm my own man, flying solo. No, I won't say where I got this Zangoose.": {
-      "translation": "",
+      "translation": "密码？不，我不和那些小混混一起玩。我是我自己的人，独自飞翔。不，我不会说我从哪里得到这个 猫鼬斩。",
       "line": 1633
     },
     "Thug Zook": {
@@ -3205,11 +3205,11 @@
       "line": 2087
     },
     "Mega Evolve Rayquaza.": {
-      "translation": "",
+      "translation": "Mega进化烈空坐。",
       "line": 2087
     },
     "Fly Mega Rayquaza into space to destroy the Meteor.": {
-      "translation": "",
+      "translation": "将巨型烈空坐飞入太空摧毁流星。",
       "line": 2093
     },
     "Primal Reversion": {
@@ -3217,7 +3217,7 @@
       "line": 2104
     },
     "Teams Aqua and Magma have been trying to unlock the Primal power of Groudon and Kyogre.": {
-      "translation": "",
+      "translation": "阿克娅队和岩浆队一直在尝试释放固拉多和盖欧卡的原始力量。",
       "line": 2104
     },
     "Talk to Mr. Stone in Slateport City.": {
@@ -3337,7 +3337,7 @@
       "line": 2181
     },
     "Defeat Primal Groudon in Harsh Sunlight Weather.": {
-      "translation": "",
+      "translation": "在严酷的阳光天气下击败原始固拉多。",
       "line": 2181
     },
     "Primal Kyogre": {
@@ -3345,7 +3345,7 @@
       "line": 2182
     },
     "Defeat Primal Kyogre in Raining Weather.": {
-      "translation": "",
+      "translation": "在雨天击败原始盖欧卡。",
       "line": 2182
     },
     "Defeat the Primal Reversions. Predict their rampage by monitoring the weather at the Weather Institute.": {
@@ -3365,7 +3365,7 @@
       "line": 2200
     },
     "Aipom Alley": {
-      "translation": "",
+      "translation": "爱波姆巷",
       "line": 2203
     },
     "Defeat the Aipoms": {
@@ -3445,11 +3445,11 @@
       "line": 2242
     },
     "Possessed Mewtwo": {
-      "translation": "",
+      "translation": "着魔的超梦",
       "line": 2245
     },
     "Defeat Mewtwo to free it from Howard's control!": {
-      "translation": "",
+      "translation": "击败超梦，使其摆脱霍华德的控制！",
       "line": 2245
     },
     "Talk to Mewtwo near Cerulean Cave about Detective Pikachu's partner.": {
@@ -3465,7 +3465,7 @@
       "line": 2255
     },
     "Talk to Detective Raichu": {
-      "translation": "",
+      "translation": "与雷丘侦探交谈",
       "line": 2261
     },
     "The Great Vivillon Hunt!": {
@@ -3821,7 +3821,7 @@
       "line": 2429
     },
     "It has been said that Mewtwo can Mega Evolve. Search for clues on how to find its Mega Stones, so you can control this unrivaled power.": {
-      "translation": "",
+      "translation": "据说超梦可以超级进化。寻找有关如何找到超级宝石的线索，这样你就可以控制这种无与伦比的力量。",
       "line": 2429
     },
     "Mewtwo": {
@@ -3869,7 +3869,7 @@
       "line": 2455
     },
     "You eventually found a trainer standing where Mewtwo once did in Cerulean Cave. Talk to Green.": {
-      "translation": "",
+      "translation": "你最终发现一名训练师站在超梦曾经在蔚蓝洞窟里站过的地方。与格林交谈。",
       "line": 2458
     },
     "Unrivaled Green": {
@@ -3877,7 +3877,7 @@
       "line": 2461
     },
     "It seems Green is irritated that you caught Mewtwo before she could. Defeat her in Cerulean Cave.": {
-      "translation": "",
+      "translation": "格林似乎对你抢在超梦之前抓住她感到恼火。在蔚蓝洞窟击败她。",
       "line": 2461
     },
     "You received Mewtwonite X from Green!": {
@@ -3889,51 +3889,51 @@
       "line": 2474
     },
     "Talk to Anomaly Mewtwo in Cerulean Cave.": {
-      "translation": "",
+      "translation": "与蔚蓝洞穴中的异常超梦交谈。",
       "line": 2477
     },
     "Anomaly Mewtwo 1": {
-      "translation": "",
+      "translation": "异常超梦1",
       "line": 2480
     },
     "Mewtwo wishes to find a place it can live undisturbed. You know of such a place, but it seems unwilling to listen. Defeat Anomaly Mewtwo near Cerulean Cave so you may attempt to talk to it.": {
-      "translation": "",
+      "translation": "超梦希望找到一个可以不受干扰地生活的地方。你知道有这样的地方，但似乎不愿意听。在蔚蓝洞穴附近击败异常超梦，这样你就可以尝试与它交谈。",
       "line": 2480
     },
     "Anomaly Mewtwo 2": {
-      "translation": "",
+      "translation": "异常超梦2",
       "line": 2483
     },
     "It escaped to the west. Defeat Anomaly Mewtwo again.": {
-      "translation": "",
+      "translation": "它逃到了西方。再次击败异常超梦。",
       "line": 2483
     },
     "Anomaly Mewtwo 3": {
-      "translation": "",
+      "translation": "异常超梦3",
       "line": 2486
     },
     "It changed form and flew off in the direction of the sea. Defeat Anomaly Mewtwo yet again.": {
-      "translation": "",
+      "translation": "它身形一变，朝着大海的方向飞去。再次击败异常超梦。",
       "line": 2486
     },
     "Anomaly Mewtwo 4": {
-      "translation": "",
+      "translation": "异常超梦4",
       "line": 2489
     },
     "It flew off to the peak of a great mountain. Defeat Anomaly Mewtwo yet again.": {
-      "translation": "",
+      "translation": "它飞向了一座大山的山顶。再次击败异常超梦。",
       "line": 2489
     },
     "Anomaly Mewtwo 5": {
-      "translation": "",
+      "translation": "异常超梦5",
       "line": 2492
     },
     "It flew off to a faraway region to hide in a large city. Defeat Anomaly Mewtwo yet again.": {
-      "translation": "",
+      "translation": "它飞到了很远的地方，躲进了一座大城市。再次击败异常超梦。",
       "line": 2492
     },
     "Talk to Anomaly Mewtwo in Pokémon Village.": {
-      "translation": "",
+      "translation": "与宝可梦村的异常超梦交谈。",
       "line": 2495
     },
     "Find the Great Twisted Spoon in P2 Lab.": {
@@ -3941,7 +3941,7 @@
       "line": 2498
     },
     "Gather the Great Twisted Spoon, Psychic Gems, and Fighting Gems for Mewtwo.": {
-      "translation": "",
+      "translation": "为超梦收集大扭曲勺子、心灵宝石和战斗宝石。",
       "line": 2505
     },
     "Pokémon Village": {
@@ -3949,11 +3949,11 @@
       "line": 2510
     },
     "Anomaly Mewtwo": {
-      "translation": "",
+      "translation": "异常超梦",
       "line": 2510
     },
     "Defeat Anomaly Mewtwo in Pokémon Village.": {
-      "translation": "",
+      "translation": "击败宝可梦村的异常超梦。",
       "line": 2510
     },
     "You received Mewtwonite Y from Anomaly Mewtwo!": {
@@ -3969,11 +3969,11 @@
       "line": 2532
     },
     "Melemele Spearow": {
-      "translation": "",
+      "translation": "梅勒梅勒·斯皮罗",
       "line": 2534
     },
     "Protect the mysterious girl's Pokémon! Battle the Spearow near the Ruins of Conflict.": {
-      "translation": "",
+      "translation": "保护神秘少女的宝可梦！在冲突废墟附近与 烈雀 战斗。",
       "line": 2534
     },
     "<i>The bridge collapses and you and the floating Pokémon start falling to your doom... But you are saved by a mysterious Pokémon!</i>": {
@@ -4157,7 +4157,7 @@
       "line": 2632
     },
     "That must have been the Pokémon known as Sudowoodo. Our research is insufficient to define what it means to be a Pokémon Trainer... We'll never be able to stop the Blinding One like this...": {
-      "translation": "",
+      "translation": "那一定是被称为“须藤木多”的宝可梦。我们的研究不足以定义成为一名宝可梦训练师意味着什么......我们永远无法像这样阻止致盲者......",
       "line": 2634
     },
     "Dulse": {
@@ -4213,15 +4213,15 @@
       "line": 2656
     },
     "Diglett's Tunnel": {
-      "translation": "",
+      "translation": "迪格利特隧道",
       "line": 2660
     },
     "You hear the echoes of bad rap and low self-esteem in the distance. Clear Diglett's Tunnel.": {
-      "translation": "",
+      "translation": "你会听到远处传来坏说唱和自卑的回声。清理迪格利特的隧道。",
       "line": 2660
     },
     "Just when things were startin' to heat up, yo, I got surrounded by Diglett and beat up, yo!": {
-      "translation": "",
+      "translation": "正当事情开始升温的时候，哟，我被迪格利特包围了，殴打了，哟！",
       "line": 2662
     },
     "Team Skull": {
@@ -4477,11 +4477,11 @@
       "line": 2812
     },
     "Exeggutor Island Hill": {
-      "translation": "",
+      "translation": "椰蛋岛山",
       "line": 2816
     },
     "Hapu has permitted you to visit sacred ground. Find the other flute by clearing Exeggutor Island Hill.": {
-      "translation": "",
+      "translation": "哈普允许你参观圣地。通过清理椰蛋岛山找到另一支笛子。",
       "line": 2816
     },
     "Now we have both the Sun Flute and the Moon Flute!</br><img src=\"assets/images/items/fluteItem/Sun_Flute.png\"/><img src=\"assets/images/items/fluteItem/Moon_Flute.png\"/>": {
@@ -4525,7 +4525,7 @@
       "line": 2830
     },
     "Exeggutor Island": {
-      "translation": "",
+      "translation": "椰蛋岛",
       "line": 2835
     },
     "Proceed to Vast Poni Canyon and prove your skills in a Grand Trial against Poni's new kahuna, Hapu!": {
@@ -4765,7 +4765,7 @@
       "line": 2963
     },
     "Help Gladion restore his Silvally's memories.": {
-      "translation": "",
+      "translation": "帮助格拉吉欧恢复他的银伴战兽的记忆。",
       "line": 2963
     },
     "Silvally (Normal)": {
@@ -4777,7 +4777,7 @@
       "line": 2965
     },
     "Get some training before looking for Silvally's memories. Catch or hatch 100 Fighting, Rock, Dark and Fairy Types": {
-      "translation": "",
+      "translation": "在寻找银伴战兽的记忆之前接受一些训练。捕捉或孵化100种格斗、岩石、恶和妖精属性",
       "line": 2975
     },
     "Talk to important people around Melemele Island.": {
@@ -4797,19 +4797,19 @@
       "line": 2980
     },
     "Start your search for Silvally's memories by asking important people around Alola.": {
-      "translation": "",
+      "translation": "通过询问阿罗拉周围的重要人物来开始寻找银伴战兽的记忆。",
       "line": 2987
     },
     "Talk to Gladion in the Aether Foundation and tell him what you found out about Silvally's memories.": {
-      "translation": "",
+      "translation": "与以太基金会的格拉吉欧交谈并告诉他你对银伴战兽记忆的发现。",
       "line": 2990
     },
     "You probably need to train a little before going looking for more of Silvally memories. Catch or hatch 100 Water, Grass, Fire, Electric, Ground and Ice types.": {
-      "translation": "",
+      "translation": "在寻找更多银伴战兽记忆之前，你可能需要进行一些训练。捕获或孵化100种水、草、火、电、地面和冰类型。",
       "line": 2993
     },
     "Search for Silvally's Memory near pools of freshwater. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在淡水池附近寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 2995
     },
     "Buy the Water Memory from Captain Lana with Dungeon Tokens.": {
@@ -4821,7 +4821,7 @@
       "line": 3000
     },
     "Search for Silvally's Memory in overgrown forests. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在杂草丛生的森林中寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3006
     },
     "Buy the Grass Memory from Captain Mallow with Quest Points.": {
@@ -4833,7 +4833,7 @@
       "line": 3011
     },
     "Search for Silvally's Memory near fiery hotspots. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在热点地区附近搜索银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3017
     },
     "Buy the Fire Memory from Captain Kiawe with Battle Points.": {
@@ -4845,7 +4845,7 @@
       "line": 3022
     },
     "Search for Silvally's Memory in electrical institutions. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在电力机构中搜索银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3028
     },
     "Buy the Electric Memory from Captain Sophocles with Pokédollars.": {
@@ -4857,7 +4857,7 @@
       "line": 3033
     },
     "Search for Silvally's Memory near snow-covered peaks. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在白雪覆盖的山峰附近寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3039
     },
     "Buy the Ice Memory from Veteran Aristo with Diamonds.": {
@@ -4877,7 +4877,7 @@
       "line": 3046
     },
     "Search for Silvally's Memory in isolated ground. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在孤立的地面中寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3050
     },
     "Buy the Ground Memory from Kahuna Hapu with Farm Points.": {
@@ -4897,11 +4897,11 @@
       "line": 3061
     },
     "Get some training before looking for more of Silvally's memories. Catch or hatch 100 Bug, Flying, Poison, Ghost, Psychic, Steel and Dragon types.": {
-      "translation": "",
+      "translation": "在寻找银伴战兽的更多记忆之前，先接受一些训练。捕捉或孵化100种虫、飞行、毒、幽灵、超能力、钢和龙属性。",
       "line": 3064
     },
     "Search for Silvally's Memory where pests make their home. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "寻找银伴战兽的记忆，那里是害虫的栖息地。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3066
     },
     "Guzma Bug Memory": {
@@ -4913,7 +4913,7 @@
       "line": 3069
     },
     "Search for Silvally's Memory where the earth opens to the sky. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在大地向天空敞开的地方寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3072
     },
     "Kahili Flying Memory": {
@@ -4925,7 +4925,7 @@
       "line": 3075
     },
     "Search for Silvally's Memory near an ancient trial. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在古代审判场附近寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3078
     },
     "Plumeria Poison Memory": {
@@ -4937,7 +4937,7 @@
       "line": 3081
     },
     "Search for Silvally's Memory near an abandoned village. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在一个废弃村庄附近寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3084
     },
     "Acerola Ghost Memory": {
@@ -4949,7 +4949,7 @@
       "line": 3087
     },
     "Search for Silvally's Memory in a modern haven. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在现代避难所中寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3090
     },
     "Faba Psychic Memory": {
@@ -4961,7 +4961,7 @@
       "line": 3093
     },
     "Search for Silvally's Memory near a steel dome. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在钢制圆顶附近寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3096
     },
     "Molayne Steel Memory": {
@@ -4973,7 +4973,7 @@
       "line": 3099
     },
     "Search for Silvally's Memory near a tree. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "",
+      "translation": "在树附近寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3102
     },
     "Ryuki Dragon Memory": {
@@ -4985,7 +4985,7 @@
       "line": 3105
     },
     "Go talk to Gladion in the Aether Foundation and tell him you've recovered all the Silvally Memories!": {
-      "translation": "",
+      "translation": "去以太基金会与格拉吉欧交谈并告诉他你已经恢复了所有的银伴战兽记忆！",
       "line": 3108
     },
     "Ultra Beast Hunt": {
@@ -5039,7 +5039,7 @@
       "line": 3152
     },
     "Nihilego has been spotted at Wela Volcano Park and Diglett's Tunnel!": {
-      "translation": "",
+      "translation": "Nihilego 已在韦拉火山公园和迪格利特隧道被发现！",
       "line": 3152
     },
     "Buzzwole": {
@@ -5147,7 +5147,7 @@
       "line": 3240
     },
     "Catch or hatch 5 Ditto.": {
-      "translation": "",
+      "translation": "捕获或孵化5只同上。",
       "line": 3240
     },
     "Elite Molayne": {
@@ -5171,7 +5171,7 @@
       "line": 3262
     },
     "Catch or hatch 5 Alolan Grimer.": {
-      "translation": "",
+      "translation": "捕获或孵化5阿罗拉格里默。",
       "line": 3262
     },
     "Slugma": {
@@ -5179,7 +5179,7 @@
       "line": 3263
     },
     "Catch or hatch 5 Slugma.": {
-      "translation": "",
+      "translation": "捕获或孵化5只斯拉格玛。",
       "line": 3263
     },
     "Gulpin": {
@@ -5187,7 +5187,7 @@
       "line": 3264
     },
     "Catch or hatch 10 Gulpin.": {
-      "translation": "",
+      "translation": "捕获或孵化10只 溶食兽。",
       "line": 3264
     },
     "Step 5 of Let's Go, Meltan!": {
@@ -5203,7 +5203,7 @@
       "line": 3279
     },
     "Catch or hatch 10 Magnemite.": {
-      "translation": "",
+      "translation": "捕获或孵化10个磁铁矿。",
       "line": 3279
     },
     "Exeggcute": {
@@ -5211,7 +5211,7 @@
       "line": 3280
     },
     "Catch or hatch 10 Exeggcute.": {
-      "translation": "",
+      "translation": "捕获或孵化10个 蛋蛋。",
       "line": 3280
     },
     "Elite Acerola": {
@@ -5227,7 +5227,7 @@
       "line": 3291
     },
     "Catch or hatch 15 Drowzee.": {
-      "translation": "",
+      "translation": "捕获或孵化15只 催眠貘。",
       "line": 3291
     },
     "Cubone": {
@@ -5235,7 +5235,7 @@
       "line": 3292
     },
     "Catch or hatch 15 Cubone.": {
-      "translation": "",
+      "translation": "捕获或孵化15个立方体。",
       "line": 3292
     },
     "Scyther": {
@@ -5243,7 +5243,7 @@
       "line": 3293
     },
     "Catch or hatch 15 Scyther.": {
-      "translation": "",
+      "translation": "捕获或孵化15只镰刀。",
       "line": 3293
     },
     "Elite Kahili": {
@@ -5259,7 +5259,7 @@
       "line": 3305
     },
     "Catch or hatch 20 Kabuto.": {
-      "translation": "",
+      "translation": "捕获或孵化20个 化石盔。",
       "line": 3305
     },
     "Omanyte": {
@@ -5267,7 +5267,7 @@
       "line": 3306
     },
     "Catch or hatch 20 Omanyte.": {
-      "translation": "",
+      "translation": "捕获或孵化20只阿曼人。",
       "line": 3306
     },
     "Step 9 of Let's Go, Meltan!": {
@@ -5279,7 +5279,7 @@
       "line": 3317
     },
     "Catch or hatch 20 Anorith.": {
-      "translation": "",
+      "translation": "捕获或孵化20个阿诺里斯。",
       "line": 3317
     },
     "Lileep": {
@@ -5287,7 +5287,7 @@
       "line": 3318
     },
     "Catch or hatch 20 Lileep.": {
-      "translation": "",
+      "translation": "捕获或孵化20只 触手百合。",
       "line": 3318
     },
     "Aerodactyl": {
@@ -5295,7 +5295,7 @@
       "line": 3319
     },
     "Catch or hatch 20 Aerodactyl.": {
-      "translation": "",
+      "translation": "捕获或孵化20只翼龙。",
       "line": 3319
     },
     "Champion Hau": {
@@ -5403,11 +5403,11 @@
       "line": 3383
     },
     "Magikarp Jump": {
-      "translation": "",
+      "translation": "鲤鱼跳",
       "line": 3394
     },
     "Go to Hoppy Town and share their love for Magikarp.": {
-      "translation": "",
+      "translation": "前往 Hoppy Town 分享他们对鲤鱼王的热爱。",
       "line": 3394
     },
     "Use the subregion travel to talk to Mayor Karp in Hoppy Town.": {
@@ -5419,7 +5419,7 @@
       "line": 3404
     },
     "Help Dr. Splash unlock the full potential of your Magikarp.": {
-      "translation": "",
+      "translation": "帮助 Splash 博士释放你的鲤鱼王的全部潜力。",
       "line": 3404
     },
     "Talk to Dr. Splash in Hoppy Town.": {
@@ -5439,7 +5439,7 @@
       "line": 3437
     },
     "Catch or hatch 10 Spoink.": {
-      "translation": "",
+      "translation": "捕获或孵化10个斯波因克。",
       "line": 3437
     },
     "Voltorb": {
@@ -5447,7 +5447,7 @@
       "line": 3440
     },
     "Catch or hatch 10 Voltorb.": {
-      "translation": "",
+      "translation": "捕获或孵化10个 霹雳电球。",
       "line": 3440
     },
     "Gather materials for Dr. Splash.": {
@@ -5463,7 +5463,7 @@
       "line": 3458
     },
     "Catch or hatch 10 Dwebble.": {
-      "translation": "",
+      "translation": "捕获或孵化10只 石居蟹。",
       "line": 3458
     },
     "Boldore": {
@@ -5479,7 +5479,7 @@
       "line": 3460
     },
     "Catch or hatch 10 Forretress.": {
-      "translation": "",
+      "translation": "捕获或孵化10只 Fortress。",
       "line": 3460
     },
     "Golem": {
@@ -5487,7 +5487,7 @@
       "line": 3461
     },
     "Catch or hatch 10 Golem.": {
-      "translation": "",
+      "translation": "捕获或孵化10个傀儡。",
       "line": 3461
     },
     "Steelix": {
@@ -5495,7 +5495,7 @@
       "line": 3462
     },
     "Catch or hatch 10 Steelix.": {
-      "translation": "",
+      "translation": "捕获或孵化10只 大钢蛇。",
       "line": 3462
     },
     "Catch Pokémon for Dr. Splash's training grounds.": {
@@ -5515,7 +5515,7 @@
       "line": 3481
     },
     "Magikarp_Biscuit": {
-      "translation": "",
+      "translation": "鲤鱼王_饼干",
       "line": 3485
     },
     "Magikarp Saucy Blue": {
@@ -5659,11 +5659,11 @@
       "line": 3577
     },
     "Leon failed to capture Eternatus. Defeat it before it can cause any more damage!": {
-      "translation": "",
+      "translation": "莱昂未能捕获永恒。在它造成更多伤害之前击败它！",
       "line": 3577
     },
     "Eternatus has ascended to its Eternamax form! Catch it to put an end to the Darkest Day!": {
-      "translation": "",
+      "translation": "无极汰那 已提升至 无极巨化 形态！抓住它，结束最黑暗的一天！",
       "line": 3590
     },
     "After all those interruptions, it's finally time for the Championship match! Talk to Leon at Wyndon Stadium.": {
@@ -5731,19 +5731,19 @@
       "line": 3623
     },
     "Rampaging Gyarados": {
-      "translation": "",
+      "translation": "狂暴暴鲤龙",
       "line": 3626
     },
     "Sordward and Shielbert have forced a Gyarados to rampage in Hulbury Stadium. Defeat it as well.": {
-      "translation": "",
+      "translation": "索德沃德和希尔伯特迫使暴鲤龙在赫尔伯里体育场横冲直撞。打败它也一样。",
       "line": 3626
     },
     "Rampaging Torkoal": {
-      "translation": "",
+      "translation": "狂暴的托考尔",
       "line": 3629
     },
     "Sordward and Shielbert have forced a Torkoal to rampage in Motostoke Stadium. Defeat it as well.": {
-      "translation": "",
+      "translation": "索德沃德和希尔伯特迫使一只托考尔人在摩托斯托克体育场横冲直撞。打败它也一样。",
       "line": 3629
     },
     "Talk to Sordward & Shielbert in Wedgehurst.": {
@@ -6083,7 +6083,7 @@
       "line": 3851
     },
     "Play with Flowering Celebi.": {
-      "translation": "",
+      "translation": "与开花的雪拉比一起玩耍。",
       "line": 3851
     },
     "The Crown of Galar": {
@@ -6191,59 +6191,59 @@
       "line": 3939
     },
     "You witnessed 3 powerful looking bird pokemon resembling Articuno, Zapdos, and Moltres fighting over the fruit of the Dyna Tree. Upon noticing you, they attack!": {
-      "translation": "",
+      "translation": "你目睹了3种看起来强大的鸟类宝可梦，例如 急冻鸟、闪电鸟 和 火焰鸟，它们正在争夺 Dyna Tree 的果实。一旦发现你，他们就会发起攻击！",
       "line": 3939
     },
     "Tell Peony about your encounter with the birds resembling Articuno, Zapdos, and Moltres.": {
-      "translation": "",
+      "translation": "告诉 Peony 你与 急冻鸟、闪电鸟 和 火焰鸟 等鸟类的遭遇。",
       "line": 3942
     },
     "Search for Galarian Articuno in the Crown Tundra.": {
-      "translation": "",
+      "translation": "在皇冠苔原寻找伽拉瑞阿提库诺。",
       "line": 3945
     },
     "Galarian Articuno 1": {
-      "translation": "",
+      "translation": "伽勒安急冻鸟1",
       "line": 3946
     },
     "Galarian Articuno 2": {
-      "translation": "",
+      "translation": "伽勒安急冻鸟2",
       "line": 3947
     },
     "Galarian Articuno 3": {
-      "translation": "",
+      "translation": "伽勒安急冻鸟3",
       "line": 3948
     },
     "Search for Galarian Zapdos in the Wild Area of Southern Galar.": {
-      "translation": "",
+      "translation": "在南伽勒尔的荒野中寻找伽勒安扎普多斯。",
       "line": 3950
     },
     "Galarian Zapdos 1": {
-      "translation": "",
+      "translation": "加拉利安 闪电鸟 1",
       "line": 3951
     },
     "Galarian Zapdos 2": {
-      "translation": "",
+      "translation": "加拉利安 闪电鸟 2",
       "line": 3952
     },
     "Galarian Zapdos 3": {
-      "translation": "",
+      "translation": "加拉利安 闪电鸟 3",
       "line": 3953
     },
     "Search for Galarian Moltres in the Isle of Armor.": {
-      "translation": "",
+      "translation": "在盔甲岛寻找加勒安莫尔特雷斯。",
       "line": 3955
     },
     "Galarian Moltres 1": {
-      "translation": "",
+      "translation": "伽勒安莫尔特斯1",
       "line": 3956
     },
     "Galarian Moltres 2": {
-      "translation": "",
+      "translation": "伽勒安莫尔特雷斯2",
       "line": 3957
     },
     "Galarian Moltres 3": {
-      "translation": "",
+      "translation": "伽勒安摩尔特斯3",
       "line": 3958
     },
     "Galarian Articuno, Zapdos, and Moltres have fled to the Crown Tundra, Southern Galar, and the Isle of Armor respectively. Search for them.": {
@@ -6275,11 +6275,11 @@
       "line": 3980
     },
     "The Ancient Golems": {
-      "translation": "",
+      "translation": "远古傀儡",
       "line": 3988
     },
     "Discover the ancient Golems in the ruins of the Crown Tundra.": {
-      "translation": "",
+      "translation": "发现皇冠苔原废墟中的古代傀儡。",
       "line": 3988
     },
     "Talk to Peony to find out about some ancient ruins.": {
@@ -6327,7 +6327,7 @@
       "line": 4009
     },
     "Catch Regirock, Regice, and Registeel in the Rock Peak Ruins, Iceberg Ruins, and Iron Ruins respectively.": {
-      "translation": "",
+      "translation": "分别在岩峰废墟、冰山废墟和铁废墟中捕获雷吉洛克、雷吉斯和雷吉斯蒂尔。",
       "line": 4020
     },
     "You have captured Regirock, Regice, and Registeel, now go report back to Peony.": {
@@ -6371,7 +6371,7 @@
       "line": 4052
     },
     "Explore the Max Lair and discover the Gigantamax Pokémon.": {
-      "translation": "",
+      "translation": "探索 Max Lair 并发现 超极巨化 宝可梦。",
       "line": 4052
     },
     "Peony's daughter, Peonia, wants to talk to you in Freezington.": {
@@ -6383,7 +6383,7 @@
       "line": 4057
     },
     "Clear Max Lair to encounter a Gigantamax Pokémon.": {
-      "translation": "",
+      "translation": "清除麦克斯巢穴，遇到超极麦克斯宝可梦。",
       "line": 4057
     },
     "Report back to Peonia in Max Lair.": {
@@ -6511,7 +6511,7 @@
       "line": 4092
     },
     "You've finally obtained enough Wishing Pieces to attract every Gigantamax Pokémon to the Max Lair! Tell Peonia about your achievement in Max Lair.": {
-      "translation": "",
+      "translation": "你终于获得了足够的许愿碎片来吸引所有超极巨化宝可梦来到最大巢穴！告诉佩妮娅你在麦克斯莱尔的成就。",
       "line": 4094
     },
     "It seems something is going on in Hammerlocke! Talk to Leon in Energy Plant.": {
@@ -6523,11 +6523,11 @@
       "line": 4100
     },
     "Eternamax Eternatus has appeared in the Energy Plant yet again! Bring it down once more.": {
-      "translation": "",
+      "translation": "无极巨化 无极汰那 再次出现在能源工厂中！再把它放下来。",
       "line": 4100
     },
     "You defeated Eternamax Eternatus once more. Talk to Leon in Energy Plant.": {
-      "translation": "",
+      "translation": "你再次击败了永恒巨轮永恒者。与能源工厂的莱昂交谈。",
       "line": 4103
     },
     "Go back to the Max Lair to tell Peonia what happened.": {
@@ -6763,7 +6763,7 @@
       "line": 4235
     },
     "That looked like a Togepi!... well, maybe not. Anyway, there is a big Egg Hunt going on in the woods south of Rustboro in Hoenn; maybe you should take a look?": {
-      "translation": "",
+      "translation": "那看起来像 波克比！...好吧，也许不是。无论如何，在丰缘市拉斯特伯勒以南的树林里，正在举行一场大型的寻蛋活动；也许你应该看一下？",
       "line": 4235
     },
     "The eggs ran away! Talk to the egg hunter in Petalburg Woods.": {

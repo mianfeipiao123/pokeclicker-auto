@@ -523,7 +523,7 @@
       "line": 327
     },
     "Why Is My Voltorb Upside Down?": {
-      "translation": "",
+      "translation": "为什么我的 霹雳电球 是颠倒的？",
       "line": 329
     },
     "Purchase your first Poké Ball.": {
@@ -579,7 +579,7 @@
       "line": 336
     },
     "I Got a Few Shiny Voltorb! Oh, Wait...": {
-      "translation": "",
+      "translation": "我有一些异色的 霹雳电球！哦，等等...",
       "line": 337
     },
     "Obtain 10 Great Balls.": {
@@ -1599,7 +1599,7 @@
       "line": 490
     },
     "Where Pinsir?": {
-      "translation": "",
+      "translation": "平西尔在哪里？",
       "line": 492
     },
     "Reach Safari Level 5.": {
@@ -1607,7 +1607,7 @@
       "line": 492
     },
     "Chasing the Chansey": {
-      "translation": "",
+      "translation": "追逐钱西",
       "line": 493
     },
     "Reach Safari Level 15.": {
@@ -1845,7 +1845,7 @@
       "_confidence": 0.85
     },
     "Complete the ${...} Pokédex!": {
-      "translation": "",
+      "translation": "完成${...}图鉴！",
       "line": 593
     },
     "${...} Shiny Trainer": {
@@ -1873,7 +1873,7 @@
       "_confidence": 0.85
     },
     "Complete the ${...} Shiny Pokédex!": {
-      "translation": "",
+      "translation": "完成 ${...} 异色图鉴！",
       "line": 597
     },
     "Unown (A)": {
@@ -1885,7 +1885,7 @@
       "line": 604
     },
     "Catch all unique Unown forms.": {
-      "translation": "",
+      "translation": "捕捉所有独特的未知形态。",
       "line": 604
     },
     "\"I am the Alpha and the Omega\"": {
@@ -1893,7 +1893,7 @@
       "line": 605
     },
     "Catch all unique Shiny Unown forms.": {
-      "translation": "",
+      "translation": "捕捉所有独特的异色未知图腾形态。",
       "line": 605
     },
     "I am the Alpha and the Omega": {
@@ -1917,7 +1917,7 @@
       "line": 611
     },
     "Catch 32 unique Alcremie flavors.": {
-      "translation": "",
+      "translation": "品尝32种独特的 霜奶仙 口味。",
       "line": 611
     },
     "Gotta Taste 'Em All!": {
@@ -1929,7 +1929,7 @@
       "line": 612
     },
     "Catch all unique Alcremie flavors.": {
-      "translation": "",
+      "translation": "品尝所有独特的 霜奶仙 口味。",
       "line": 612
     },
     "Yoshida's Coffees Enjoyer": {
@@ -1941,7 +1941,7 @@
       "line": 613
     },
     "Catch 32 unique Shiny Alcremie flavors.": {
-      "translation": "",
+      "translation": "品尝32种独特的异色 霜奶仙 口味。",
       "line": 613
     },
     "All These Flavors And You Choose To Be Cheesy": {
@@ -1953,7 +1953,7 @@
       "line": 614
     },
     "Catch all unique Shiny Alcremie flavors.": {
-      "translation": "",
+      "translation": "品尝所有独特的 Shiny 霜奶仙 口味。",
       "line": 614
     },
     "Gigantamax": {
@@ -1969,7 +1969,7 @@
       "line": 619
     },
     "Catch all Gigantamax Pokémon.": {
-      "translation": "",
+      "translation": "捕捉所有超极巨化宝可梦。",
       "line": 619
     },
     "Really Big Sparkle": {
@@ -1977,7 +1977,7 @@
       "line": 620
     },
     "Catch all Shiny Gigantamax Pokémon.": {
-      "translation": "",
+      "translation": "捕捉所有异色超极巨化宝可梦。",
       "line": 620
     },
     "Sevii Islands": {
@@ -2017,7 +2017,7 @@
       "line": 629
     },
     "Magikarp Jump": {
-      "translation": "",
+      "translation": "鲤鱼跳",
       "line": 631
     },
     "Do You Even Splash?": {
@@ -2025,7 +2025,7 @@
       "line": 636
     },
     "Catch all unique Magikarp forms.": {
-      "translation": "",
+      "translation": "捕捉所有独特的鲤鱼王形态。",
       "line": 636
     },
     "Twenty Thousands Karps Under the Seas": {
@@ -2033,7 +2033,7 @@
       "line": 637
     },
     "Catch all unique Shiny Magikarp forms.": {
-      "translation": "",
+      "translation": "捕捉所有独特的异色鲤鱼王形态。",
       "line": 637
     },
     "Orre": {

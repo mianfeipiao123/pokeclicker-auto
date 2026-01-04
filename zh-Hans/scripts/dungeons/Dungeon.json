@@ -303,7 +303,7 @@
       "_confidence": 0.85
     },
     "Diglett's Cave": {
-      "translation": "",
+      "translation": "迪格利特洞穴",
       "line": 732
     },
     "Diglett": {
@@ -1483,7 +1483,7 @@
       "line": 1949
     },
     "Unown appear at random everyday one at a time. An additional Unown will spawn after 100 and 250 clears of the ruins.": {
-      "translation": "",
+      "translation": "未知的事物每天都会随机出现。清除废墟100和250次后，会生成额外的未知生物。",
       "line": 1950
     },
     "Tanoby Ruins": {
@@ -1691,7 +1691,7 @@
       "line": 2222
     },
     "Slowpoke Well": {
-      "translation": "",
+      "translation": "呆呆之井",
       "line": 2232
     },
     "Lureball": {
@@ -2655,7 +2655,7 @@
       "line": 3913
     },
     "The Three Golems": {
-      "translation": "",
+      "translation": "三个傀儡",
       "line": 3913
     },
     "Regice": {
@@ -6183,7 +6183,7 @@
       "line": 9281
     },
     "Abraham": {
-      "translation": "",
+      "translation": "亚伯拉罕",
       "line": 9283
     },
     "Heatmor": {
@@ -6755,7 +6755,7 @@
       "line": 10146
     },
     "Kangaskhanite": {
-      "translation": "",
+      "translation": "坎加斯汗石",
       "line": 10173
     },
     "Team Flare Grunt Duo": {
@@ -7131,7 +7131,7 @@
       "line": 10875
     },
     "Anomaly Mewtwo": {
-      "translation": "",
+      "translation": "异常超梦",
       "line": 10881
     },
     "Mega Mewtwo X": {
@@ -7227,7 +7227,7 @@
       "line": 10983
     },
     "Garchompite": {
-      "translation": "",
+      "translation": "石斑岩",
       "line": 11013
     },
     "Michele": {
@@ -7471,7 +7471,7 @@
       "line": 11281
     },
     "Pikachu Valley": {
-      "translation": "",
+      "translation": "皮卡丘谷",
       "line": 11285
     },
     "Dedenne": {
@@ -7703,7 +7703,7 @@
       "line": 11558
     },
     "Diglett's Tunnel": {
-      "translation": "",
+      "translation": "迪格利特隧道",
       "line": 11562
     },
     "Shieldon": {
@@ -8011,7 +8011,7 @@
       "line": 12068
     },
     "Exeggutor Island Hill": {
-      "translation": "",
+      "translation": "椰蛋岛山",
       "line": 12072
     },
     "Alolan Exeggutor": {
@@ -8747,7 +8747,7 @@
       "line": 13156
     },
     "The Ancient Golems": {
-      "translation": "",
+      "translation": "远古傀儡",
       "line": 13173
     },
     "Iron Ruins": {

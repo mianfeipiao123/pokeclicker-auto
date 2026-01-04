@@ -9,8 +9,8 @@
   },
   "files": {
     "hardcoded-map.json": {
-      "total": 5937,
-      "translated": 5937,
+      "total": 5022,
+      "translated": 5022,
       "sourceFile": null
     },
     "modules/achievements/Achievement.json": {

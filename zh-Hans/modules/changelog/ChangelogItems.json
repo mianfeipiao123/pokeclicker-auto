@@ -103,7 +103,7 @@
       "line": 37
     },
     "Shortcut for the Castform (weather) App available after clearing Weather Institute 250 times": {
-      "translation": "",
+      "translation": "通过气象研究所250次后即可使用 飘浮泡泡（天气）应用程序的快捷方式",
       "line": 38
     },
     "Shortcut for the Purify Chamber available upon purifying your first Shadow Pokémon": {
@@ -175,7 +175,7 @@
       "line": 55
     },
     "Pokémon in the route encounter list can now be clicked to open the Pokédex statistics window": {
-      "translation": "",
+      "translation": "现在可以点击路线遭遇列表中的宝可梦来打开宝可梦图鉴统计窗口",
       "line": 56
     },
     "Kanto Berry Master will no longer give duplicate Enigma Berry directional hints": {
@@ -211,7 +211,7 @@
       "line": 64
     },
     "Defeating a regions Champion will now reveal the Pokédex for that region": {
-      "translation": "",
+      "translation": "击败地区冠军现在将显示该地区的图鉴",
       "line": 65
     },
     "Aggronite obtain method changed to Legendary loot in Rusturf Tunnel": {
@@ -223,7 +223,7 @@
       "line": 67
     },
     "Magikarp Jump subregion no longer affected by the regional debuff": {
-      "translation": "",
+      "translation": "鲤鱼跳跃分区不再受区域减益影响",
       "line": 68
     },
     "Currency display module will now dynamically show additional currencies as they are unlocked or earned": {
@@ -251,7 +251,7 @@
       "line": 75
     },
     "Fixed EV count display on routes with duplicate Pokémon (Magikarp Jump)": {
-      "translation": "",
+      "translation": "修复了具有重复宝可梦（鲤鱼王 Jump）的路线上的努力值计数显示",
       "line": 76
     },
     "Fixed potential softlock in the An Unrivaled Power quest line": {
@@ -303,7 +303,7 @@
       "line": 94
     },
     "Shadow sprites can be used on the Trainer Profile": {
-      "translation": "",
+      "translation": "阴影精灵可用于训练师资料",
       "line": 95
     },
     "Underground feature has been overhauled - see Help tab in-game": {
@@ -311,7 +311,7 @@
       "line": 96
     },
     "Additional Unown appear in each dungeon after 100 and 250 clears": {
-      "translation": "",
+      "translation": "通关100次和250次后，每个迷宫中都会出现额外的未知物品",
       "line": 97
     },
     "Key Stone pricing adjusted - starts low and increases after each purchase until reaching a cap": {
@@ -455,7 +455,7 @@
       "line": 136
     },
     "Renamed Ditto (Transforming) to Ditto (Magikarp)": {
-      "translation": "",
+      "translation": "将 百变怪（变形）重命名为 百变怪（鲤鱼王）",
       "line": 137
     },
     "Added Pokémon name translations to several additional locations": {
@@ -523,7 +523,7 @@
       "line": 157
     },
     "Fish Pond safari area in Magikarp Jump sub-region": {
-      "translation": "",
+      "translation": "鲤鱼王 Jump 次区域的鱼池游猎区",
       "line": 158
     },
     "Setting to disable auto-save": {
@@ -559,7 +559,7 @@
       "line": 166
     },
     "Additional category management tools added to the Pokédex & Hatchery": {
-      "translation": "",
+      "translation": "图鉴和孵化场新增了其他类别管理工具",
       "line": 167
     },
     "Everstone can now be used as a held item to prevent evolution": {
@@ -607,7 +607,7 @@
       "line": 178
     },
     "The \"Caught Not Shadow\" Pokédex filter will now only show Pokémon with a shadow form": {
-      "translation": "",
+      "translation": "“抓不到影子” 图鉴 过滤器现在只会显示暗影形态的宝可梦",
       "line": 179
     },
     "Caught Not Shadow": {
@@ -727,7 +727,7 @@
       "line": 213
     },
     "Pokédex EVs display now includes decimals": {
-      "translation": "",
+      "translation": "图鉴 努力值显示现在包含小数",
       "line": 214
     },
     "Pokéball Selector & Pokémon List modules can be vertically resized": {
@@ -835,7 +835,7 @@
       "line": 255
     },
     "Pokédex shadow and purified caught status filters": {
-      "translation": "",
+      "translation": "宝可梦图鉴阴影和净化的捕获状态过滤器",
       "line": 256
     },
     "Notification for when the Purify Chamber is ready": {
@@ -895,7 +895,7 @@
       "line": 277
     },
     "Mewtwo strikes back! event reworked": {
-      "translation": "",
+      "translation": "超梦反击！事件重做",
       "line": 278
     },
     "Halloween! event can now be activated with the Event Calendar": {
@@ -1079,7 +1079,7 @@
       "line": 341
     },
     "Pokédex filter improvements": {
-      "translation": "",
+      "translation": "宝可梦图鉴过滤器改进",
       "line": 342
     },
     "Pokémon in the hatchery/queue can be seen in the vitamin list": {
@@ -1099,7 +1099,7 @@
       "line": 347
     },
     "Pokédex & hatchery unusable at certain resolutions": {
-      "translation": "",
+      "translation": "图鉴和孵化场在某些分辨率下无法使用",
       "line": 348
     },
     "Deleting a category sometimes causing a game crash": {
@@ -1187,11 +1187,11 @@
       "line": 380
     },
     "Roamer NPCs now reveal the Pokémon in the Pokédex": {
-      "translation": "",
+      "translation": "漫游者 NPC 现在会在图鉴中显示宝可梦",
       "line": 381
     },
     "Totem Marowak can now drop Thick Club": {
-      "translation": "",
+      "translation": "霸主嘎啦嘎啦现在也会掉落粗骨头",
       "line": 382
     },
     "No more Mega Stones in berry trades": {
@@ -1283,7 +1283,7 @@
       "line": 426
     },
     "Added Magikarp Jump Subregion": {
-      "translation": "",
+      "translation": "添加了鲤鱼跳跃分区",
       "line": 427
     },
     "Added new Vitamins": {
@@ -1347,7 +1347,7 @@
       "line": 445
     },
     "Misc fixes for Suicune Quest": {
-      "translation": "",
+      "translation": "水君任务的其他修复",
       "line": 446
     },
     "Attack Achievements appearing again on reload": {
@@ -1359,7 +1359,7 @@
       "line": 450
     },
     "Shop Magikarp no longer awards EVs": {
-      "translation": "",
+      "translation": "商店鲤鱼王不再奖励努力值",
       "line": 451
     },
     "Base wandering Pokémon no longer award EVs": {
@@ -1399,7 +1399,7 @@
       "line": 468
     },
     "Kecleon overworld battles added": {
-      "translation": "",
+      "translation": "添加了 变隐龙 主世界战斗",
       "line": 469
     },
     "New Challenge mode added": {
@@ -1451,7 +1451,7 @@
       "line": 481
     },
     "Removed guaranteed Unown (A) from Ruins of Alph": {
-      "translation": "",
+      "translation": "从阿尔夫废墟中移除了保证未知的 (A)",
       "line": 482
     },
     "Adjusted some Pokémon teams": {
@@ -1471,7 +1471,7 @@
       "line": 491
     },
     "Spooky Togepi evolution line": {
-      "translation": "",
+      "translation": "幽灵托格皮进化线",
       "line": 492
     },
     "Increased chance of undiscovered fossils appearing in the Underground": {
@@ -1555,7 +1555,7 @@
       "line": 524
     },
     "Sudowoodo overworld battles added": {
-      "translation": "",
+      "translation": "添加了 树才怪 主世界战斗",
       "line": 525
     },
     "Sevii now has it's own achievement pool": {
@@ -1595,7 +1595,7 @@
       "line": 534
     },
     "Improved Hatchery and Pokédex loading times": {
-      "translation": "",
+      "translation": "改进了孵化场和图鉴加载时间",
       "line": 535
     },
     "Adjusted Underground layer generation": {
@@ -1691,7 +1691,7 @@
       "line": 571
     },
     "Improved load times for Pokédex and Hatchery": {
-      "translation": "",
+      "translation": "改进了图鉴和孵化场的加载时间",
       "line": 572
     },
     "Harvest rates for berries with a 0.5 harvest rate": {
@@ -1723,7 +1723,7 @@
       "line": 581
     },
     "Pinkan Dodrio is now purchasable in place of Pinkan Exeggutor": {
-      "translation": "",
+      "translation": "粉红 嘟嘟利 现在可以购买来代替 粉红 椰蛋树",
       "line": 582
     },
     "Sevii island fixes": {
@@ -1779,7 +1779,7 @@
       "line": 606
     },
     "Celebi questline": {
-      "translation": "",
+      "translation": "雪拉比任务线",
       "line": 607
     },
     "Added ability to lock plots in the farm": {
@@ -2039,7 +2039,7 @@
       "line": 691
     },
     "Buffed Diglett's cave": {
-      "translation": "",
+      "translation": "抛光迪格利特的洞穴",
       "line": 692
     },
     "Roaming Pokémon encounters now use their own sound and notification": {
@@ -2083,7 +2083,7 @@
       "line": 704
     },
     "Unown (A) HP in Ruins of Alph": {
-      "translation": "",
+      "translation": "阿尔夫废墟中未知的（A）HP",
       "line": 705
     },
     "Being able to leave the region early if pokédex challenge enabled": {
@@ -2223,7 +2223,7 @@
       "line": 744
     },
     "Updated Pokédex filtering options": {
-      "translation": "",
+      "translation": "更新了图鉴过滤选项",
       "line": 745
     },
     "Added option to hide Shiny Pokémon in the Protein menu": {
@@ -2275,7 +2275,7 @@
       "line": 760
     },
     "Ruins of Alph added Unown (A) as a boss until caught": {
-      "translation": "",
+      "translation": "《阿尔夫废墟》添加了未知 (A) 作为 Boss，直到被抓住",
       "line": 761
     },
     "Pokémon now sorted by ID in the evolution stone menu": {
@@ -2307,7 +2307,7 @@
       "line": 770
     },
     "Updated Unown encounters": {
-      "translation": "",
+      "translation": "更新了未知的遭遇",
       "line": 771
     },
     "Updated webworker and game ticks": {
@@ -2403,7 +2403,7 @@
       "line": 797
     },
     "Ruins of Alph Unown encounters": {
-      "translation": "",
+      "translation": "阿尔夫废墟未知遭遇",
       "line": 798
     },
     "Save profiles not loading if they contained a % symbol": {
@@ -2519,7 +2519,7 @@
       "line": 832
     },
     "Trim search text in Pokédex": {
-      "translation": "",
+      "translation": "修剪图鉴中的搜索文本",
       "line": 833
     },
     "Weather changes": {
@@ -2739,7 +2739,7 @@
       "line": 894
     },
     "Adjusted Castform encounters": {
-      "translation": "",
+      "translation": "调整后的Castform遭遇",
       "line": 895
     },
     "Adjusted some items purchase locations": {
@@ -2791,7 +2791,7 @@
       "line": 912
     },
     "Updated Slowpoke rare item drops": {
-      "translation": "",
+      "translation": "更新了呆呆兽稀有物品掉落",
       "line": 913
     },
     "Added Farm, Daycare, Underground locations to all maps": {
@@ -2835,7 +2835,7 @@
       "line": 926
     },
     "Regional Pokédex achievements": {
-      "translation": "",
+      "translation": "地区图鉴成就",
       "line": 927
     },
     "Protein achievements": {
@@ -3505,7 +3505,7 @@
       "line": 1130
     },
     "Add option to display Pokédex ID in hatchery": {
-      "translation": "",
+      "translation": "添加在孵化场显示 图鉴 ID 的选项",
       "line": 1131
     },
     "Save achievement filters": {
@@ -3709,7 +3709,7 @@
       "line": 1195
     },
     "Pokédex hide shiny images toggle correctly reflects current state": {
-      "translation": "",
+      "translation": "图鉴隐藏异色图像切换正确反映当前状态",
       "line": 1196
     },
     "v0.6.5": {
@@ -3717,7 +3717,7 @@
       "line": 1199
     },
     "Added toggle to hide shiny images in Pokédex": {
-      "translation": "",
+      "translation": "添加了隐藏 图鉴 中异色图像的开关",
       "line": 1200
     },
     "New display options added to Hatchery": {
@@ -3881,7 +3881,7 @@
       "line": 1249
     },
     "Other Deoxys forms obtainable in the Battle Frontier": {
-      "translation": "",
+      "translation": "对战开拓区中可获得的其他代欧奇希斯形态",
       "line": 1250
     },
     "Protein item now has a use, buy from Pokémon League, use in Hatchery": {
@@ -4173,7 +4173,7 @@
       "line": 1328
     },
     "Added region filter to Pokédex": {
-      "translation": "",
+      "translation": "为 图鉴 添加了区域过滤器",
       "line": 1329
     },
     "Added sort dropdown to the Hatchery": {
@@ -4241,7 +4241,7 @@
       "line": 1347
     },
     "NPCs now in towns, will provide dialog that will help the player complete their Pokédex": {
-      "translation": "",
+      "translation": "现在城镇中的 NPC 将提供对话，帮助玩家完成他们的图鉴",
       "line": 1348
     },
     "More notification settings have been added": {
@@ -4265,11 +4265,11 @@
       "line": 1353
     },
     "Electrike is now exclusive to eggs": {
-      "translation": "",
+      "translation": "落雷兽 现在是鸡蛋的专属产品",
       "line": 1354
     },
     "\"Complete the Kanto Pokédex!\" achievement now requires all 151 Kanto Pokémon": {
-      "translation": "",
+      "translation": "“完成关东图鉴！”成就现在需要全部151只关东宝可梦",
       "line": 1355
     },
     "Complete the Kanto Pokédex!": {
@@ -4277,11 +4277,11 @@
       "line": 1355
     },
     "Regirock, Regice and Registeel no longer Roaming, now in Sealed Chamber dungeon": {
-      "translation": "",
+      "translation": "雷吉洛克、雷吉斯和雷吉斯蒂尔不再漫游，现在位于密封室迷宫中",
       "line": 1356
     },
     "Kyogre and Groudon will only appear in their dungeon after defeating the Hoenn Elite 4": {
-      "translation": "",
+      "translation": "盖欧卡和固拉多只有在击败丰缘精英4后才会出现在他们的迷宫中",
       "line": 1357
     },
     "If you encounter a new Pokémon that is also shiny, the higher tier ball will be selected": {
@@ -4389,7 +4389,7 @@
       "line": 1387
     },
     "Possible to start with a Pikachu if no starter Pokémon selected enough times": {
-      "translation": "",
+      "translation": "如果没有选择足够多的起始宝可梦，可以从皮卡丘开始",
       "line": 1388
     },
     "Some Roaming Pokémon will only appear after certain requirements have been met": {
@@ -4469,7 +4469,7 @@
       "line": 1411
     },
     "Buffed Erika Victreebel": {
-      "translation": "",
+      "translation": "莉佳·维克特里贝尔 (Erika 大食花)",
       "line": 1412
     },
     "Unobtainable items will no longer remain in the Underground": {
@@ -4621,15 +4621,15 @@
       "line": 1456
     },
     "Added Pokédex filter for Pokémon that drop rare items": {
-      "translation": "",
+      "translation": "添加了 图鉴 过滤器，用于掉落稀有物品的宝可梦",
       "line": 1457
     },
     "Added Deoxys quest line": {
-      "translation": "",
+      "translation": "添加了代欧奇希斯任务线",
       "line": 1458
     },
     "Deoxys no longer roaming": {
-      "translation": "",
+      "translation": "代欧奇希斯不再漫游",
       "line": 1459
     },
     "Separate Day Care modal into individual tabs for Pokémon, Eggs and Fossils": {
@@ -4641,7 +4641,7 @@
       "line": 1461
     },
     "Event Pokémon no longer displayed in Pokédex": {
-      "translation": "",
+      "translation": "活动宝可梦不再显示在图鉴中",
       "line": 1462
     },
     "Reduce memory usage in Underground": {
@@ -4665,7 +4665,7 @@
       "line": 1469
     },
     "Can now filter the Pokédex by pure type Pokémon by selecting None for the second type": {
-      "translation": "",
+      "translation": "现在可以通过为第二种类型选择“无”来按纯类型宝可梦过滤宝可梦图鉴",
       "line": 1470
     },
     "Added statistic for Hatched Shiny Pokémon": {
@@ -4765,7 +4765,7 @@
       "line": 1500
     },
     "Added Dratini to Route 45": {
-      "translation": "",
+      "translation": "将 迷你龙 添加到45号公路",
       "line": 1501
     },
     "Underground should now work better on smaller screens": {
@@ -5065,7 +5065,7 @@
       "line": 1590
     },
     "Fix Eeveelutions": {
-      "translation": "",
+      "translation": "修复解决方案",
       "line": 1591
     },
     "v0.4.5": {
@@ -5077,7 +5077,7 @@
       "line": 1594
     },
     "Flying Pikachu Event": {
-      "translation": "",
+      "translation": "飞行皮卡丘活动",
       "line": 1595
     },
     "Special events can now appear in game": {
@@ -5117,7 +5117,7 @@
       "line": 1606
     },
     "Pokémon statistics can be viewed by clicking a Pokémon in the Pokédex": {
-      "translation": "",
+      "translation": "宝可梦统计数据可以通过点击宝可梦图鉴中的宝可梦来查看",
       "line": 1607
     },
     "Update some game codes": {
@@ -5193,7 +5193,7 @@
       "line": 1631
     },
     "Pokédex filtering should be working again": {
-      "translation": "",
+      "translation": "宝可梦图鉴过滤功能应该会再次发挥作用",
       "line": 1632
     },
     "Some items showing _ in their name in notifications": {
@@ -5241,11 +5241,11 @@
       "line": 1645
     },
     "Eevee will now evolve into Espeon or Umbreon depending on the time of day (when using Time stone)": {
-      "translation": "",
+      "translation": "伊布 现在将根据一天中的时间进化为 太阳伊布 或 月亮伊布（使用时间宝石时）",
       "line": 1646
     },
     "Can no longer evolve Magmar and Electabuzz before you are allowed": {
-      "translation": "",
+      "translation": "在获得允许之前不能再进化 鸭嘴火兽 和 电击兽",
       "line": 1647
     },
     "Fix breeding steps gained for newer regions": {
@@ -5321,7 +5321,7 @@
       "line": 1670
     },
     "Wailmer pail unlocks at 3 Cheri berries instead of 5": {
-      "translation": "",
+      "translation": "吼吼鲸 桶需要3个 Cheri 树果解锁，而不是5个",
       "line": 1671
     },
     "Tooltips no longer overstay their welcome on the Farm": {

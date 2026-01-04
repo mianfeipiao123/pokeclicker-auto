@@ -355,7 +355,7 @@
       "line": 196
     },
     "Snorlax route 12": {
-      "translation": "",
+      "translation": "斯诺拉克斯12号道路",
       "line": 201
     },
     "Kanto Route 14": {
@@ -383,7 +383,7 @@
       "line": 240
     },
     "Snorlax route 16": {
-      "translation": "",
+      "translation": "斯诺拉克斯16号道路",
       "line": 244
     },
     "Kanto Route 17": {
@@ -863,7 +863,7 @@
       "line": 647
     },
     "Hatch Phanpy first.": {
-      "translation": "",
+      "translation": "首先孵化Phanpy。",
       "line": 652
     },
     "Team Rocket's Hideout": {
@@ -887,7 +887,7 @@
       "line": 667
     },
     "Have Phanpy newly hatched and at level below 21, or 51 if you cleared the Team Rocket's Hideout 250 times or more.": {
-      "translation": "",
+      "translation": "拥有新孵化的 小小象，且等级低于21，如果你清除了火箭队藏身处250次或以上，则等级低于51。",
       "line": 667
     },
     "Mt. Mortar": {
@@ -2799,7 +2799,7 @@
       "line": 1944
     },
     "Diglett's Tunnel": {
-      "translation": "",
+      "translation": "迪格利特隧道",
       "line": 1947
     },
     "Akala Outskirts": {
@@ -3131,7 +3131,7 @@
       "line": 2187
     },
     "Magikarp Jump": {
-      "translation": "",
+      "translation": "鲤鱼跳",
       "line": 2191
     },
     "Quick League Bridge": {
@@ -5047,19 +5047,19 @@
       "line": 4253
     },
     "Santa Jynx 1": {
-      "translation": "",
+      "translation": "圣吉克斯1",
       "line": 4254
     },
     "Santa Jynx 2": {
-      "translation": "",
+      "translation": "圣吉克斯2",
       "line": 4258
     },
     "Santa Jynx 3": {
-      "translation": "",
+      "translation": "圣吉克斯3",
       "line": 4262
     },
     "Santa Jynx 4": {
-      "translation": "",
+      "translation": "圣吉克斯4号",
       "line": 4266
     },
     "Santa Jynx": {
@@ -5071,7 +5071,7 @@
       "line": 4272
     },
     "Santa Jynx appears for the day after defeating its Band at Bill's House, and will remain until the maximum number of Christmas presents have been collected.": {
-      "translation": "",
+      "translation": "圣金克斯在正辉之家击败其乐队后的第二天就会出现，并将一直保留到收集到最大数量的圣诞礼物为止。",
       "line": 4274
     }
   }

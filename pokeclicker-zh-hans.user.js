@@ -150,6 +150,12 @@
 
         // Common in-game terms that may already be translated but appear inside English sentences.
         s = s.replace(/图鉴/g, 'Pokédex');
+        s = s.replace(/宝可梦币|宝可币/g, 'Poké Coins');
+        s = s.replace(/超极巨化/g, 'Gigantamax');
+        s = s.replace(/无极巨化/g, 'Eternamax');
+        s = s.replace(/暗影/g, 'Shadow ');
+        s = s.replace(/粉红/g, 'Pinkan');
+        s = s.replace(/胆噬虫/g, 'Wimpod');
 
         if (reversePokemonTranslations.length) {
             for (const [zh, en] of reversePokemonTranslations) {
@@ -157,6 +163,8 @@
                 if (s.includes(zh)) s = s.split(zh).join(en);
             }
         }
+
+        s = s.replace(/Farfetch'd'd/g, "Farfetch'd");
         return normalizeText(s);
     };
 

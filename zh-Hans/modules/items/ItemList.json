@@ -483,7 +483,7 @@
       "line": 136
     },
     "A Mega Stone for Blastoise.": {
-      "translation": "",
+      "translation": "水箭龟的超级石。",
       "line": 136
     },
     "Blaziken": {
@@ -495,7 +495,7 @@
       "line": 138
     },
     "A Mega Stone for Blaziken.": {
-      "translation": "",
+      "translation": "火焰鸡的超级石。",
       "line": 138
     },
     "Kyogre": {
@@ -511,15 +511,15 @@
       "line": 141
     },
     "Charizardite X": {
-      "translation": "",
+      "translation": "火线闪石 X",
       "line": 142
     },
     "A Mega Stone for Charizard.": {
-      "translation": "",
+      "translation": "喷火龙的超级石。",
       "line": 142
     },
     "Charizardite Y": {
-      "translation": "",
+      "translation": "火线闪石Y",
       "line": 144
     },
     "Diancie": {
@@ -631,7 +631,7 @@
       "line": 172
     },
     "A Mega Stone for Sceptile.": {
-      "translation": "",
+      "translation": "蜥蜴王的超级石。",
       "line": 172
     },
     "Scizor": {
@@ -659,7 +659,7 @@
       "line": 178
     },
     "A Mega Stone for Swampert.": {
-      "translation": "",
+      "translation": "巨沼怪的超级石。",
       "line": 178
     },
     "Tyranitar": {
@@ -671,11 +671,11 @@
       "line": 180
     },
     "Venusaurite": {
-      "translation": "",
+      "translation": "金星龙石",
       "line": 181
     },
     "A Mega Stone for Venusaur.": {
-      "translation": "",
+      "translation": "妙蛙花的超级石。",
       "line": 181
     },
     "Fire Egg": {
@@ -731,7 +731,7 @@
       "line": 194
     },
     "A Bell that can summon the Legendary Pokémon Lugia": {
-      "translation": "",
+      "translation": "可以召唤传说的宝可梦洛奇亚的铃铛",
       "line": 194
     },
     "Whirl Guardian": {
@@ -847,7 +847,7 @@
       "line": 201
     },
     "Mysterious_Vial_Detective_Pikachu": {
-      "translation": "",
+      "translation": "神秘瓶侦探皮卡丘",
       "line": 202
     },
     "Mysterious Vial": {
@@ -855,7 +855,7 @@
       "line": 202
     },
     "An Aipom dropped this while running away, I wonder what it is?": {
-      "translation": "",
+      "translation": "一只 长尾怪手 在逃跑时掉落了这个，我想知道这是什么？",
       "line": 202
     },
     "Detective Pikachu": {
@@ -967,7 +967,7 @@
       "line": 210
     },
     "Sand_Bag_Magikarp_Jump": {
-      "translation": "",
+      "translation": "沙袋_鲤鱼王_Jump",
       "line": 211
     },
     "Sand Bag": {
@@ -983,7 +983,7 @@
       "line": 211
     },
     "Jump_Counter_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Jump_Counter_鲤鱼王_Jump",
       "line": 212
     },
     "Jump Counter": {
@@ -991,7 +991,7 @@
       "line": 212
     },
     "Timber_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Timber_鲤鱼王_Jump",
       "line": 213
     },
     "Timber": {
@@ -999,7 +999,7 @@
       "line": 213
     },
     "Rock_Cruncher_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Rock_Cruncher_鲤鱼王_Jump",
       "line": 214
     },
     "Rock Cruncher": {
@@ -1007,7 +1007,7 @@
       "line": 214
     },
     "Power_Generator_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Power_Generator_鲤鱼王_Jump",
       "line": 215
     },
     "Power Generator": {
@@ -1015,7 +1015,7 @@
       "line": 215
     },
     "Pokeball_Smash_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Pokeball_Smash_鲤鱼王_Jump",
       "line": 216
     },
     "Pokéball Smash": {
@@ -1023,11 +1023,11 @@
       "line": 216
     },
     "Push_Dwebble_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_石居蟹_鲤鱼王_Jump",
       "line": 217
     },
     "Push Dwebble": {
-      "translation": "",
+      "translation": "推石居蟹",
       "line": 217
     },
     "One of the pushing Pokémons Dr. Splash asked you for his laboratory": {
@@ -1043,27 +1043,27 @@
       "line": 218
     },
     "Push_Forretress_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_佛烈托斯_鲤鱼王_Jump",
       "line": 219
     },
     "Push Forretress": {
-      "translation": "",
+      "translation": "推堡垒",
       "line": 219
     },
     "Push_Golem_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_隆隆岩_鲤鱼王_Jump",
       "line": 220
     },
     "Push Golem": {
-      "translation": "",
+      "translation": "推傀儡",
       "line": 220
     },
     "Push_Steelix_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_大钢蛇_鲤鱼王_Jump",
       "line": 221
     },
     "Push Steelix": {
-      "translation": "",
+      "translation": "推斯蒂利克斯",
       "line": 221
     },
     "Prison_Bottle": {
@@ -1095,7 +1095,7 @@
       "line": 223
     },
     "Fighting_Memory_Silvally": {
-      "translation": "",
+      "translation": "战斗_记忆_银伴战兽",
       "line": 224
     },
     "Fighting Memory": {
@@ -1103,7 +1103,7 @@
       "line": 224
     },
     "One of Silvally's memories, obtained from Kahuna Hala in Iki Town": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从壹岐镇的卡胡纳·哈拉处获得",
       "line": 224
     },
     "Typing some Memories": {
@@ -1111,7 +1111,7 @@
       "line": 224
     },
     "Rock_Memory_Silvally": {
-      "translation": "",
+      "translation": "岩石记忆银伴战兽",
       "line": 225
     },
     "Rock Memory": {
@@ -1119,11 +1119,11 @@
       "line": 225
     },
     "One of Silvally's memories, obtained from Kahuna Olivia in Konikoni City": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从科尼科尼市的卡胡娜·奥利维亚处获得",
       "line": 225
     },
     "Dark_Memory_Silvally": {
-      "translation": "",
+      "translation": "黑暗记忆银伴战兽",
       "line": 226
     },
     "Dark Memory": {
@@ -1131,11 +1131,11 @@
       "line": 226
     },
     "One of Silvally's memories, obtained from Kahuna Nanu in Malie City": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从马利市的卡胡纳·纳努处获得",
       "line": 226
     },
     "Fairy_Memory_Silvally": {
-      "translation": "",
+      "translation": "童话_记忆_银伴战兽",
       "line": 227
     },
     "Fairy Memory": {
@@ -1143,11 +1143,11 @@
       "line": 227
     },
     "One of Silvally's memories, obtained from Captain Mina in Seafolk Village": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从海民村的米娜船长处获得",
       "line": 227
     },
     "Water_Memory_Silvally": {
-      "translation": "",
+      "translation": "水_记忆_银伴战兽",
       "line": 228
     },
     "Water Memory": {
@@ -1155,11 +1155,11 @@
       "line": 228
     },
     "One of Silvally's memories, obtained from Captain Lana in Brooklet Hill": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从布鲁克特山的拉娜船长那里获得",
       "line": 228
     },
     "Grass_Memory_Silvally": {
-      "translation": "",
+      "translation": "草_记忆_银伴战兽",
       "line": 229
     },
     "Grass Memory": {
@@ -1167,11 +1167,11 @@
       "line": 229
     },
     "One of Silvally's memories, obtained from Captain Mallow in Lush Jungle": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从郁郁葱葱的丛林中的马洛船长那里获得",
       "line": 229
     },
     "Fire_Memory_Silvally": {
-      "translation": "",
+      "translation": "火_记忆_银伴战兽",
       "line": 230
     },
     "Fire Memory": {
@@ -1179,11 +1179,11 @@
       "line": 230
     },
     "One of Silvally's memories, obtained from Captain Kiawe in Wela Volcano Park": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从韦拉火山公园的基亚威船长处获得",
       "line": 230
     },
     "Electric_Memory_Silvally": {
-      "translation": "",
+      "translation": "电_记忆_银伴战兽",
       "line": 231
     },
     "Electric Memory": {
@@ -1191,11 +1191,11 @@
       "line": 231
     },
     "One of Silvally's memories, obtained from Captain Sophocles in Hokulani Observatory": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从霍库拉尼天文台的索福克勒斯船长处获得",
       "line": 231
     },
     "Ice_Memory_Silvally": {
-      "translation": "",
+      "translation": "冰_记忆_银伴战兽",
       "line": 232
     },
     "Ice Memory": {
@@ -1203,11 +1203,11 @@
       "line": 232
     },
     "One of Silvally's memories, obtained from Veteran Aristo in Mt. Lanakila": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从拉纳基拉山的老兵阿里斯托处获得",
       "line": 232
     },
     "Ground_Memory_Silvally": {
-      "translation": "",
+      "translation": "地面_记忆_银伴战兽",
       "line": 233
     },
     "Ground Memory": {
@@ -1215,11 +1215,11 @@
       "line": 233
     },
     "One of Silvally's memories, obtained from Kahuna Hapu on Exeggutor Island Hill": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从椰蛋岛山上的卡胡纳·哈普处获得",
       "line": 233
     },
     "Bug_Memory_Silvally": {
-      "translation": "",
+      "translation": "Bug_Memory_银伴战兽",
       "line": 234
     },
     "Bug Memory": {
@@ -1227,11 +1227,11 @@
       "line": 234
     },
     "One of Silvally's memories, obtained from Guzma in Po Town": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从波镇的古兹玛处获得",
       "line": 234
     },
     "Flying_Memory_Silvally": {
-      "translation": "",
+      "translation": "飞行记忆银伴战兽",
       "line": 235
     },
     "Flying Memory": {
@@ -1239,11 +1239,11 @@
       "line": 235
     },
     "One of Silvally's memories, obtained from Kahili on Ten Carat Hill": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从十克拉山的卡希利处获得",
       "line": 235
     },
     "Poison_Memory_Silvally": {
-      "translation": "",
+      "translation": "毒_记忆_银伴战兽",
       "line": 236
     },
     "Poison Memory": {
@@ -1251,11 +1251,11 @@
       "line": 236
     },
     "One of Silvally's memories, obtained from Plumeria in Vast Poni Canyon": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从广阔波尼峡谷的鸡蛋花处获得",
       "line": 236
     },
     "Ghost_Memory_Silvally": {
-      "translation": "",
+      "translation": "幽灵_记忆_银伴战兽",
       "line": 237
     },
     "Ghost Memory": {
@@ -1263,11 +1263,11 @@
       "line": 237
     },
     "One of Silvally's memories, obtained from Captain Acerola in Thrifty Megamart": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从 Thrifty Megamart 的阿塞罗拉船长处获得",
       "line": 237
     },
     "Psychic_Memory_Silvally": {
-      "translation": "",
+      "translation": "心灵_记忆_银伴战兽",
       "line": 238
     },
     "Psychic Memory": {
@@ -1275,11 +1275,11 @@
       "line": 238
     },
     "One of Silvally's memories, obtained from Aether Branch Chief Faba in Aether Paradise": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从以太乐园的以太分部首领法巴处获得",
       "line": 238
     },
     "Steel_Memory_Silvally": {
-      "translation": "",
+      "translation": "钢_记忆_银伴战兽",
       "line": 239
     },
     "Steel Memory": {
@@ -1287,11 +1287,11 @@
       "line": 239
     },
     "One of Silvally's memories, obtained from Molayne in Royal Avenue": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从皇家大道的莫兰处获得",
       "line": 239
     },
     "Dragon_Memory_Silvally": {
-      "translation": "",
+      "translation": "龙_记忆_银伴战兽",
       "line": 240
     },
     "Dragon Memory": {
@@ -1299,7 +1299,7 @@
       "line": 240
     },
     "One of Silvally's memories, obtained from Ryuki in A Tree Maybe": {
-      "translation": "",
+      "translation": "银伴战兽的记忆之一，从《一棵树也许》中的龙树处获得",
       "line": 240
     },
     "Max_Mushroom_IoA": {
@@ -1355,7 +1355,7 @@
       "line": 244
     },
     "Attracts Gigantamax Pokémon to the Max Lair": {
-      "translation": "",
+      "translation": "将超极巨化宝可梦吸引到最大巢穴",
       "line": 244
     },
     "The Lair of Giants": {
@@ -1383,7 +1383,7 @@
       "line": 266
     },
     "Strengthen your Magikarp": {
-      "translation": "",
+      "translation": "强化你的鲤鱼王",
       "line": 267
     },
     "Rare_bone": {
@@ -1971,7 +1971,7 @@
       "line": 363
     },
     "Probably Feebas": {
-      "translation": "",
+      "translation": "可能是费巴斯",
       "line": 364
     },
     "Magikarp (Feebas)": {
@@ -1995,7 +1995,7 @@
       "line": 368
     },
     "Probably Chimecho": {
-      "translation": "",
+      "translation": "可能是奇梅乔",
       "line": 371
     },
     "Hoppip (Chimecho)": {
@@ -2075,7 +2075,7 @@
       "line": 392
     },
     "Probably Not Pikachu": {
-      "translation": "",
+      "translation": "可能不是皮卡丘",
       "line": 393
     },
     "Inkay (Pikachu)": {
@@ -2091,7 +2091,7 @@
       "line": 396
     },
     "Silvally (Fighting) 1": {
-      "translation": "",
+      "translation": "银伴战兽（格斗）1",
       "line": 398
     },
     "Silvally (Fighting)": {
@@ -2099,11 +2099,11 @@
       "line": 398
     },
     "Silvally (Fighting) 2": {
-      "translation": "",
+      "translation": "银伴战兽（格斗）2",
       "line": 400
     },
     "Silvally (Rock) 1": {
-      "translation": "",
+      "translation": "银伴战兽（岩石）1",
       "line": 402
     },
     "Silvally (Rock)": {
@@ -2111,11 +2111,11 @@
       "line": 402
     },
     "Silvally (Rock) 2": {
-      "translation": "",
+      "translation": "银伴战兽（岩石）2",
       "line": 404
     },
     "Silvally (Dark) 1": {
-      "translation": "",
+      "translation": "银伴战兽（深色）1",
       "line": 406
     },
     "Silvally (Dark)": {
@@ -2123,11 +2123,11 @@
       "line": 406
     },
     "Silvally (Dark) 2": {
-      "translation": "",
+      "translation": "银伴战兽（黑暗）2",
       "line": 408
     },
     "Silvally (Fairy) 1": {
-      "translation": "",
+      "translation": "银伴战兽（妖精）1",
       "line": 410
     },
     "Silvally (Fairy)": {
@@ -2135,11 +2135,11 @@
       "line": 410
     },
     "Silvally (Fairy) 2": {
-      "translation": "",
+      "translation": "银伴战兽（妖精）2",
       "line": 412
     },
     "Silvally (Water) 1": {
-      "translation": "",
+      "translation": "银伴战兽（水）1",
       "line": 414
     },
     "Silvally (Water)": {
@@ -2147,11 +2147,11 @@
       "line": 414
     },
     "Silvally (Water) 2": {
-      "translation": "",
+      "translation": "银伴战兽（水）2",
       "line": 416
     },
     "Silvally (Grass) 1": {
-      "translation": "",
+      "translation": "银伴战兽（草）1",
       "line": 418
     },
     "Silvally (Grass)": {
@@ -2159,11 +2159,11 @@
       "line": 418
     },
     "Silvally (Grass) 2": {
-      "translation": "",
+      "translation": "银伴战兽（草）2",
       "line": 420
     },
     "Silvally (Fire) 1": {
-      "translation": "",
+      "translation": "银伴战兽（火）1",
       "line": 422
     },
     "Silvally (Fire)": {
@@ -2171,11 +2171,11 @@
       "line": 422
     },
     "Silvally (Fire) 2": {
-      "translation": "",
+      "translation": "银伴战兽（火）2",
       "line": 424
     },
     "Silvally (Electric) 1": {
-      "translation": "",
+      "translation": "银伴战兽（电）1",
       "line": 426
     },
     "Silvally (Electric)": {
@@ -2183,11 +2183,11 @@
       "line": 426
     },
     "Silvally (Electric) 2": {
-      "translation": "",
+      "translation": "银伴战兽（电）2",
       "line": 428
     },
     "Silvally (Ice) 1": {
-      "translation": "",
+      "translation": "银伴战兽（冰）1",
       "line": 430
     },
     "Silvally (Ice)": {
@@ -2195,11 +2195,11 @@
       "line": 430
     },
     "Silvally (Ice) 2": {
-      "translation": "",
+      "translation": "银伴战兽（冰）2",
       "line": 432
     },
     "Silvally (Ground) 1": {
-      "translation": "",
+      "translation": "银伴战兽（地面）1",
       "line": 434
     },
     "Silvally (Ground)": {
@@ -2207,11 +2207,11 @@
       "line": 434
     },
     "Silvally (Ground) 2": {
-      "translation": "",
+      "translation": "银伴战兽（地面）2",
       "line": 436
     },
     "Silvally (Bug) 1": {
-      "translation": "",
+      "translation": "银伴战兽（虫）1",
       "line": 438
     },
     "Silvally (Bug)": {
@@ -2219,11 +2219,11 @@
       "line": 438
     },
     "Silvally (Bug) 2": {
-      "translation": "",
+      "translation": "银伴战兽（虫）2",
       "line": 440
     },
     "Silvally (Flying) 1": {
-      "translation": "",
+      "translation": "银伴战兽（飞行）1",
       "line": 442
     },
     "Silvally (Flying)": {
@@ -2231,11 +2231,11 @@
       "line": 442
     },
     "Silvally (Flying) 2": {
-      "translation": "",
+      "translation": "银伴战兽（飞行）2",
       "line": 444
     },
     "Silvally (Poison) 1": {
-      "translation": "",
+      "translation": "银伴战兽（毒药）1",
       "line": 446
     },
     "Silvally (Poison)": {
@@ -2243,11 +2243,11 @@
       "line": 446
     },
     "Silvally (Poison) 2": {
-      "translation": "",
+      "translation": "银伴战兽（毒药）2",
       "line": 448
     },
     "Silvally (Ghost) 1": {
-      "translation": "",
+      "translation": "银伴战兽（幽灵）1",
       "line": 450
     },
     "Silvally (Ghost)": {
@@ -2255,11 +2255,11 @@
       "line": 450
     },
     "Silvally (Ghost) 2": {
-      "translation": "",
+      "translation": "银伴战兽（幽灵）2",
       "line": 452
     },
     "Silvally (Psychic) 1": {
-      "translation": "",
+      "translation": "银伴战兽（心灵）1",
       "line": 454
     },
     "Silvally (Psychic)": {
@@ -2267,11 +2267,11 @@
       "line": 454
     },
     "Silvally (Psychic) 2": {
-      "translation": "",
+      "translation": "银伴战兽（超能力）2",
       "line": 456
     },
     "Silvally (Steel) 1": {
-      "translation": "",
+      "translation": "银伴战兽（钢）1",
       "line": 458
     },
     "Silvally (Steel)": {
@@ -2279,11 +2279,11 @@
       "line": 458
     },
     "Silvally (Steel) 2": {
-      "translation": "",
+      "translation": "银伴战兽（钢）2",
       "line": 460
     },
     "Silvally (Dragon) 1": {
-      "translation": "",
+      "translation": "银伴战兽（龙）1",
       "line": 462
     },
     "Silvally (Dragon)": {
@@ -2291,7 +2291,7 @@
       "line": 462
     },
     "Silvally (Dragon) 2": {
-      "translation": "",
+      "translation": "银伴战兽（龙）2",
       "line": 464
     },
     "Dracozolt": {

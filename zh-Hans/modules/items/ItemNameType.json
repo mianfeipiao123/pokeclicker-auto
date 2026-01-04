@@ -243,7 +243,7 @@
       "line": 78
     },
     "Aerodactylite": {
-      "translation": "",
+      "translation": "风指岩",
       "line": 79
     },
     "Aggronite": {
@@ -287,11 +287,11 @@
       "line": 89
     },
     "Charizardite_X": {
-      "translation": "",
+      "translation": "火闪石_X",
       "line": 90
     },
     "Charizardite_Y": {
-      "translation": "",
+      "translation": "火线闪石_Y",
       "line": 91
     },
     "Diancite": {
@@ -303,7 +303,7 @@
       "line": 93
     },
     "Garchompite": {
-      "translation": "",
+      "translation": "石斑岩",
       "line": 94
     },
     "Gardevoirite": {
@@ -311,7 +311,7 @@
       "line": 95
     },
     "Gengarite": {
-      "translation": "",
+      "translation": "根加里特",
       "line": 96
     },
     "Glalitite": {
@@ -319,7 +319,7 @@
       "line": 97
     },
     "Gyaradosite": {
-      "translation": "",
+      "translation": "伽拉多石",
       "line": 98
     },
     "Heracronite": {
@@ -331,7 +331,7 @@
       "line": 100
     },
     "Kangaskhanite": {
-      "translation": "",
+      "translation": "坎加斯汗石",
       "line": 101
     },
     "Latiasite": {
@@ -347,7 +347,7 @@
       "line": 104
     },
     "Lucarionite": {
-      "translation": "",
+      "translation": "萤石",
       "line": 105
     },
     "Manectite": {
@@ -383,7 +383,7 @@
       "line": 113
     },
     "Pinsirite": {
-      "translation": "",
+      "translation": "针硅铁矿",
       "line": 114
     },
     "Red_Orb": {
@@ -415,7 +415,7 @@
       "line": 121
     },
     "Steelixite": {
-      "translation": "",
+      "translation": "钢石",
       "line": 122
     },
     "Swampertite": {
@@ -423,11 +423,11 @@
       "line": 123
     },
     "Tyranitarite": {
-      "translation": "",
+      "translation": "暴闪石",
       "line": 124
     },
     "Venusaurite": {
-      "translation": "",
+      "translation": "金星龙石",
       "line": 125
     },
     "Fire_egg": {
@@ -499,7 +499,7 @@
       "line": 142
     },
     "Mysterious_Vial_Detective_Pikachu": {
-      "translation": "",
+      "translation": "神秘瓶侦探皮卡丘",
       "line": 143
     },
     "Heart_Diamond_Diancie": {
@@ -535,31 +535,31 @@
       "line": 151
     },
     "Sand_Bag_Magikarp_Jump": {
-      "translation": "",
+      "translation": "沙袋_鲤鱼王_Jump",
       "line": 152
     },
     "Jump_Counter_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Jump_Counter_鲤鱼王_Jump",
       "line": 153
     },
     "Timber_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Timber_鲤鱼王_Jump",
       "line": 154
     },
     "Rock_Cruncher_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Rock_Cruncher_鲤鱼王_Jump",
       "line": 155
     },
     "Power_Generator_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Power_Generator_鲤鱼王_Jump",
       "line": 156
     },
     "Pokeball_Smash_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Pokeball_Smash_鲤鱼王_Jump",
       "line": 157
     },
     "Push_Dwebble_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_石居蟹_鲤鱼王_Jump",
       "line": 158
     },
     "Push_Boldore_Magikarp_Jump": {
@@ -567,15 +567,15 @@
       "line": 159
     },
     "Push_Forretress_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_佛烈托斯_鲤鱼王_Jump",
       "line": 160
     },
     "Push_Golem_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_隆隆岩_鲤鱼王_Jump",
       "line": 161
     },
     "Push_Steelix_Magikarp_Jump": {
-      "translation": "",
+      "translation": "Push_大钢蛇_鲤鱼王_Jump",
       "line": 162
     },
     "Prison_Bottle": {
@@ -591,71 +591,71 @@
       "line": 165
     },
     "Fighting_Memory_Silvally": {
-      "translation": "",
+      "translation": "战斗_记忆_银伴战兽",
       "line": 166
     },
     "Rock_Memory_Silvally": {
-      "translation": "",
+      "translation": "岩石记忆银伴战兽",
       "line": 167
     },
     "Dark_Memory_Silvally": {
-      "translation": "",
+      "translation": "黑暗记忆银伴战兽",
       "line": 168
     },
     "Fairy_Memory_Silvally": {
-      "translation": "",
+      "translation": "童话_记忆_银伴战兽",
       "line": 169
     },
     "Water_Memory_Silvally": {
-      "translation": "",
+      "translation": "水_记忆_银伴战兽",
       "line": 170
     },
     "Grass_Memory_Silvally": {
-      "translation": "",
+      "translation": "草_记忆_银伴战兽",
       "line": 171
     },
     "Fire_Memory_Silvally": {
-      "translation": "",
+      "translation": "火_记忆_银伴战兽",
       "line": 172
     },
     "Electric_Memory_Silvally": {
-      "translation": "",
+      "translation": "电_记忆_银伴战兽",
       "line": 173
     },
     "Ice_Memory_Silvally": {
-      "translation": "",
+      "translation": "冰_记忆_银伴战兽",
       "line": 174
     },
     "Ground_Memory_Silvally": {
-      "translation": "",
+      "translation": "地面_记忆_银伴战兽",
       "line": 175
     },
     "Bug_Memory_Silvally": {
-      "translation": "",
+      "translation": "Bug_Memory_银伴战兽",
       "line": 176
     },
     "Flying_Memory_Silvally": {
-      "translation": "",
+      "translation": "飞行记忆银伴战兽",
       "line": 177
     },
     "Poison_Memory_Silvally": {
-      "translation": "",
+      "translation": "毒_记忆_银伴战兽",
       "line": 178
     },
     "Ghost_Memory_Silvally": {
-      "translation": "",
+      "translation": "幽灵_记忆_银伴战兽",
       "line": 179
     },
     "Psychic_Memory_Silvally": {
-      "translation": "",
+      "translation": "心灵_记忆_银伴战兽",
       "line": 180
     },
     "Steel_Memory_Silvally": {
-      "translation": "",
+      "translation": "钢_记忆_银伴战兽",
       "line": 181
     },
     "Dragon_Memory_Silvally": {
-      "translation": "",
+      "translation": "龙_记忆_银伴战兽",
       "line": 182
     },
     "Max_Mushroom_IoA": {
@@ -691,7 +691,7 @@
       "line": 190
     },
     "Magikarp_Biscuit": {
-      "translation": "",
+      "translation": "鲤鱼王_饼干",
       "line": 191
     },
     "Christmas_present": {
@@ -1123,139 +1123,139 @@
       "line": 298
     },
     "Silvally (Fighting) 1": {
-      "translation": "",
+      "translation": "银伴战兽（格斗）1",
       "line": 299
     },
     "Silvally (Fighting) 2": {
-      "translation": "",
+      "translation": "银伴战兽（格斗）2",
       "line": 300
     },
     "Silvally (Rock) 1": {
-      "translation": "",
+      "translation": "银伴战兽（岩石）1",
       "line": 301
     },
     "Silvally (Rock) 2": {
-      "translation": "",
+      "translation": "银伴战兽（岩石）2",
       "line": 302
     },
     "Silvally (Dark) 1": {
-      "translation": "",
+      "translation": "银伴战兽（深色）1",
       "line": 303
     },
     "Silvally (Dark) 2": {
-      "translation": "",
+      "translation": "银伴战兽（黑暗）2",
       "line": 304
     },
     "Silvally (Fairy) 1": {
-      "translation": "",
+      "translation": "银伴战兽（妖精）1",
       "line": 305
     },
     "Silvally (Fairy) 2": {
-      "translation": "",
+      "translation": "银伴战兽（妖精）2",
       "line": 306
     },
     "Silvally (Water) 1": {
-      "translation": "",
+      "translation": "银伴战兽（水）1",
       "line": 307
     },
     "Silvally (Water) 2": {
-      "translation": "",
+      "translation": "银伴战兽（水）2",
       "line": 308
     },
     "Silvally (Grass) 1": {
-      "translation": "",
+      "translation": "银伴战兽（草）1",
       "line": 309
     },
     "Silvally (Grass) 2": {
-      "translation": "",
+      "translation": "银伴战兽（草）2",
       "line": 310
     },
     "Silvally (Fire) 1": {
-      "translation": "",
+      "translation": "银伴战兽（火）1",
       "line": 311
     },
     "Silvally (Fire) 2": {
-      "translation": "",
+      "translation": "银伴战兽（火）2",
       "line": 312
     },
     "Silvally (Electric) 1": {
-      "translation": "",
+      "translation": "银伴战兽（电）1",
       "line": 313
     },
     "Silvally (Electric) 2": {
-      "translation": "",
+      "translation": "银伴战兽（电）2",
       "line": 314
     },
     "Silvally (Ice) 1": {
-      "translation": "",
+      "translation": "银伴战兽（冰）1",
       "line": 315
     },
     "Silvally (Ice) 2": {
-      "translation": "",
+      "translation": "银伴战兽（冰）2",
       "line": 316
     },
     "Silvally (Ground) 1": {
-      "translation": "",
+      "translation": "银伴战兽（地面）1",
       "line": 317
     },
     "Silvally (Ground) 2": {
-      "translation": "",
+      "translation": "银伴战兽（地面）2",
       "line": 318
     },
     "Silvally (Bug) 1": {
-      "translation": "",
+      "translation": "银伴战兽（虫）1",
       "line": 319
     },
     "Silvally (Bug) 2": {
-      "translation": "",
+      "translation": "银伴战兽（虫）2",
       "line": 320
     },
     "Silvally (Flying) 1": {
-      "translation": "",
+      "translation": "银伴战兽（飞行）1",
       "line": 321
     },
     "Silvally (Flying) 2": {
-      "translation": "",
+      "translation": "银伴战兽（飞行）2",
       "line": 322
     },
     "Silvally (Poison) 1": {
-      "translation": "",
+      "translation": "银伴战兽（毒药）1",
       "line": 323
     },
     "Silvally (Poison) 2": {
-      "translation": "",
+      "translation": "银伴战兽（毒药）2",
       "line": 324
     },
     "Silvally (Ghost) 1": {
-      "translation": "",
+      "translation": "银伴战兽（幽灵）1",
       "line": 325
     },
     "Silvally (Ghost) 2": {
-      "translation": "",
+      "translation": "银伴战兽（幽灵）2",
       "line": 326
     },
     "Silvally (Psychic) 1": {
-      "translation": "",
+      "translation": "银伴战兽（心灵）1",
       "line": 327
     },
     "Silvally (Psychic) 2": {
-      "translation": "",
+      "translation": "银伴战兽（超能力）2",
       "line": 328
     },
     "Silvally (Steel) 1": {
-      "translation": "",
+      "translation": "银伴战兽（钢）1",
       "line": 329
     },
     "Silvally (Steel) 2": {
-      "translation": "",
+      "translation": "银伴战兽（钢）2",
       "line": 330
     },
     "Silvally (Dragon) 1": {
-      "translation": "",
+      "translation": "银伴战兽（龙）1",
       "line": 331
     },
     "Silvally (Dragon) 2": {
-      "translation": "",
+      "translation": "银伴战兽（龙）2",
       "line": 332
     },
     "Dracozolt": {
@@ -1475,7 +1475,7 @@
       "line": 386
     },
     "Magmarizer": {
-      "translation": "",
+      "translation": "磁化器",
       "line": 387
     },
     "Protector": {

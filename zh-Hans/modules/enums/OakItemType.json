@@ -11,11 +11,11 @@
       "line": 2
     },
     "Amulet_Coin": {
-      "translation": "护身符_硬币",
+      "translation": "护符金币",
       "line": 3
     },
     "Rocky_Helmet": {
-      "translation": "洛奇_头盔",
+      "translation": "凸凸头盔",
       "line": 4
     },
     "Exp_Share": {
@@ -23,19 +23,19 @@
       "line": 5
     },
     "Sprayduck": {
-      "translation": "喷雾鸭",
+      "translation": "可达鸭喷壶",
       "line": 6
     },
     "Shiny_Charm": {
-      "translation": "异色_护符",
+      "translation": "闪耀护符",
       "line": 7
     },
     "Magma_Stone": {
-      "translation": "岩浆_石头",
+      "translation": "熔岩石",
       "line": 8
     },
     "Cell_Battery": {
-      "translation": "电池_电池",
+      "translation": "充电电池",
       "line": 9
     },
     "Squirtbottle": {

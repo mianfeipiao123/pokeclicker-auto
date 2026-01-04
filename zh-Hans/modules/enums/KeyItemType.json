@@ -11,11 +11,11 @@
       "line": 2
     },
     "Coin_case": {
-      "translation": "硬币箱",
+      "translation": "代币盒",
       "line": 3
     },
     "Pokeball_bag": {
-      "translation": "精灵球袋",
+      "translation": "精灵球背包",
       "line": 4
     },
     "Town_map": {
@@ -23,15 +23,15 @@
       "line": 5
     },
     "Dungeon_ticket": {
-      "translation": "迷宫_门票",
+      "translation": "迷宫门票",
       "line": 6
     },
     "Super_rod": {
-      "translation": "超级杆",
+      "translation": "超级钓竿",
       "line": 7
     },
     "Holo_caster": {
-      "translation": "Holo_caster",
+      "translation": "全息对讲机",
       "line": 8
     },
     "Mystery_egg": {
@@ -39,23 +39,23 @@
       "line": 9
     },
     "Safari_ticket": {
-      "translation": "Safari_门票",
+      "translation": "狩猎区门票",
       "line": 10
     },
     "Wailmer_pail": {
-      "translation": "威尔默_桶",
+      "translation": "吼吼鲸喷壶",
       "line": 11
     },
     "Explorer_kit": {
-      "translation": "资源管理器工具包",
+      "translation": "探险套装",
       "line": 12
     },
     "Eon_ticket": {
-      "translation": "Eon_ticket",
+      "translation": "无限船票",
       "line": 13
     },
     "Event_calendar": {
-      "translation": "事件日历",
+      "translation": "活动日历",
       "line": 14
     },
     "Gem_case": {
@@ -63,19 +63,19 @@
       "line": 15
     },
     "DNA_splicers": {
-      "translation": "DNA_剪接器",
+      "translation": "基因楔子",
       "line": 16
     },
     "Reins_of_unity": {
-      "translation": "团结缰绳",
+      "translation": "牵绊缰绳",
       "line": 17
     },
     "Pokerus_virus": {
-      "translation": "宝可病毒_virus",
+      "translation": "宝可病毒",
       "line": 18
     },
     "Z-Power_Ring": {
-      "translation": "Z-Power_Ring",
+      "translation": "Z力量手环",
       "line": 19
     }
   }

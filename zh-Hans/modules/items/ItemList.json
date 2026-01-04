@@ -707,7 +707,7 @@
       "line": 190
     },
     "Meteorite_Bills_Errand": {
-      "translation": "陨石_账单_差事",
+      "translation": "陨石正辉的任务",
       "line": 193
     },
     "Meteorite for Celio": {
@@ -739,7 +739,7 @@
       "line": 194
     },
     "Clear_Bell_Hooh": {
-      "translation": "清除_贝尔_胡",
+      "translation": "清除贝尔胡",
       "line": 195
     },
     "Clear Bell": {
@@ -755,7 +755,7 @@
       "line": 195
     },
     "GS_Ball_Celebi": {
-      "translation": "GS_球_塞拉比",
+      "translation": "GS球时拉比",
       "line": 196
     },
     "GS Ball": {
@@ -771,7 +771,7 @@
       "line": 196
     },
     "Eon_Ticket_Latis": {
-      "translation": "Eon_Ticket_Latis",
+      "translation": "无限船票拉帝亚斯拉帝欧斯",
       "line": 197
     },
     "Eon Ticket": {
@@ -787,7 +787,7 @@
       "line": 197
     },
     "Celios_Errand_Ruby": {
-      "translation": "Celios_差事_Ruby",
+      "translation": "西里奥的任务红宝石",
       "line": 198
     },
     "Ruby": {
@@ -803,7 +803,7 @@
       "line": 198
     },
     "Celios_Errand_Sapphire": {
-      "translation": "Celios_差事_蓝宝石",
+      "translation": "西里奥的任务蓝宝石",
       "line": 199
     },
     "Sapphire": {
@@ -815,7 +815,7 @@
       "line": 199
     },
     "Crystalline_Cocoon_Jirachi": {
-      "translation": "水晶_茧_基拉祈",
+      "translation": "水晶茧基拉祈",
       "line": 200
     },
     "Crystalline Cocoon": {
@@ -831,7 +831,7 @@
       "line": 200
     },
     "Meteorite_Shard_Delta": {
-      "translation": "陨石_碎片_Delta",
+      "translation": "陨石碎片代欧奇希斯",
       "line": 201
     },
     "Meteorite Shard": {
@@ -863,7 +863,7 @@
       "line": 202
     },
     "Heart_Diamond_Diancie": {
-      "translation": "心_钻石_蒂安希",
+      "translation": "心之钻石蒂安希",
       "line": 203
     },
     "Heart Diamond": {
@@ -895,7 +895,7 @@
       "line": 204
     },
     "Orange_Petal_Mina": {
-      "translation": "橙色_花瓣_米娜",
+      "translation": "橙色花瓣米娜",
       "line": 205
     },
     "Orange Petal": {
@@ -907,7 +907,7 @@
       "line": 205
     },
     "Yellow_Petal_Mina": {
-      "translation": "黄色_花瓣_米娜",
+      "translation": "黄色花瓣米娜",
       "line": 206
     },
     "Yellow Petal": {
@@ -931,7 +931,7 @@
       "line": 207
     },
     "Blue_Petal_Mina": {
-      "translation": "蓝色_花瓣_米娜",
+      "translation": "蓝色花瓣米娜",
       "line": 208
     },
     "Blue Petal": {
@@ -943,7 +943,7 @@
       "line": 208
     },
     "Purple_Petal_Mina": {
-      "translation": "紫色_花瓣_米娜",
+      "translation": "紫色花瓣米娜",
       "line": 209
     },
     "Purple Petal": {
@@ -955,7 +955,7 @@
       "line": 209
     },
     "Pink_Petal_Mina": {
-      "translation": "粉色_花瓣_米娜",
+      "translation": "粉色花瓣米娜",
       "line": 210
     },
     "Pink Petal": {
@@ -967,7 +967,7 @@
       "line": 210
     },
     "Sand_Bag_Magikarp_Jump": {
-      "translation": "沙袋_鲤鱼王_Jump",
+      "translation": "沙袋鲤鱼王跳跃",
       "line": 211
     },
     "Sand Bag": {
@@ -983,7 +983,7 @@
       "line": 211
     },
     "Jump_Counter_Magikarp_Jump": {
-      "translation": "Jump_Counter_鲤鱼王_Jump",
+      "translation": "跳跃计数器鲤鱼王跳跃",
       "line": 212
     },
     "Jump Counter": {
@@ -991,7 +991,7 @@
       "line": 212
     },
     "Timber_Magikarp_Jump": {
-      "translation": "Timber_鲤鱼王_Jump",
+      "translation": "木材鲤鱼王跳跃",
       "line": 213
     },
     "Timber": {
@@ -999,7 +999,7 @@
       "line": 213
     },
     "Rock_Cruncher_Magikarp_Jump": {
-      "translation": "Rock_Cruncher_鲤鱼王_Jump",
+      "translation": "碎岩机鲤鱼王跳跃",
       "line": 214
     },
     "Rock Cruncher": {
@@ -1007,7 +1007,7 @@
       "line": 214
     },
     "Power_Generator_Magikarp_Jump": {
-      "translation": "Power_Generator_鲤鱼王_Jump",
+      "translation": "发电机鲤鱼王跳跃",
       "line": 215
     },
     "Power Generator": {

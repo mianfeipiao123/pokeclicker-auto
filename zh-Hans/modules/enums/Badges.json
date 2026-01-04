@@ -11,35 +11,35 @@
       "line": 2
     },
     "Boulder": {
-      "translation": "博尔德",
+      "translation": "灰色徽章",
       "line": 4
     },
     "Cascade": {
-      "translation": "级联",
+      "translation": "蓝色徽章",
       "line": 5
     },
     "Thunder": {
-      "translation": "雷",
+      "translation": "橙色徽章",
       "line": 6
     },
     "Rainbow": {
-      "translation": "彩虹",
+      "translation": "彩虹徽章",
       "line": 7
     },
     "Soul": {
-      "translation": "灵魂",
+      "translation": "粉色徽章",
       "line": 8
     },
     "Marsh": {
-      "translation": "沼泽",
+      "translation": "金色徽章",
       "line": 9
     },
     "Volcano": {
-      "translation": "火山",
+      "translation": "深红徽章",
       "line": 10
     },
     "Earth": {
-      "translation": "地球",
+      "translation": "绿色徽章",
       "line": 11
     },
     "Elite_Lorelei": {
@@ -59,39 +59,39 @@
       "line": 15
     },
     "Elite_KantoChampion": {
-      "translation": "精英_关东冠军",
+      "translation": "关都冠军",
       "line": 16
     },
     "Zephyr": {
-      "translation": "和风",
+      "translation": "飞翔徽章",
       "line": 18
     },
     "Hive": {
-      "translation": "蜂巢",
+      "translation": "虫子徽章",
       "line": 19
     },
     "Plain": {
-      "translation": "清楚的",
+      "translation": "普通徽章",
       "line": 20
     },
     "Fog": {
-      "translation": "雾",
+      "translation": "幻影徽章",
       "line": 21
     },
     "Storm": {
-      "translation": "风暴",
+      "translation": "惊涛徽章",
       "line": 22
     },
     "Mineral": {
-      "translation": "矿物",
+      "translation": "钢铁徽章",
       "line": 23
     },
     "Glacier": {
-      "translation": "冰川",
+      "translation": "冰柱徽章",
       "line": 24
     },
     "Rising": {
-      "translation": "瑞星",
+      "translation": "升龙徽章",
       "line": 25
     },
     "Elite_Will": {
@@ -111,39 +111,39 @@
       "line": 29
     },
     "Elite_JohtoChampion": {
-      "translation": "精英_JohtoChampion",
+      "translation": "城都冠军",
       "line": 30
     },
     "Stone": {
-      "translation": "石头",
+      "translation": "岩石徽章",
       "line": 32
     },
     "Knuckle": {
-      "translation": "指关节",
+      "translation": "格斗徽章",
       "line": 33
     },
     "Dynamo": {
-      "translation": "发电机",
+      "translation": "电气徽章",
       "line": 34
     },
     "Heat": {
-      "translation": "热",
+      "translation": "火焰徽章",
       "line": 35
     },
     "Balance": {
-      "translation": "平衡",
+      "translation": "天秤徽章",
       "line": 36
     },
     "Feather": {
-      "translation": "羽毛",
+      "translation": "羽翼徽章",
       "line": 37
     },
     "Mind": {
-      "translation": "头脑",
+      "translation": "心灵徽章",
       "line": 38
     },
     "Rain": {
-      "translation": "雨天",
+      "translation": "雨滴徽章",
       "line": 39
     },
     "Elite_Sidney": {
@@ -163,7 +163,7 @@
       "line": 43
     },
     "Elite_HoennChampion": {
-      "translation": "精英_HoennChampion",
+      "translation": "丰缘冠军",
       "line": 44
     },
     "Coral-Eye": {
@@ -183,19 +183,19 @@
       "line": 49
     },
     "Elite_OrangeChampion": {
-      "translation": "精英_OrangeChampion",
+      "translation": "橘子群岛冠军",
       "line": 50
     },
     "Elite_F_Disk": {
-      "translation": "精英_F_磁盘",
+      "translation": "F磁盘",
       "line": 52
     },
     "Elite_L_Disk": {
-      "translation": "精英_L_磁盘",
+      "translation": "L磁盘",
       "line": 53
     },
     "Elite_R_Disk": {
-      "translation": "精英_R_磁盘",
+      "translation": "R磁盘",
       "line": 54
     },
     "Elite_U_Disk": {
@@ -203,23 +203,23 @@
       "line": 55
     },
     "Elite_ColosseumLovrina": {
-      "translation": "Elite_ColosseumLovrina",
+      "translation": "竞技场洛芙琳娜",
       "line": 56
     },
     "Elite_ColosseumSnattle": {
-      "translation": "Elite_Colosseum斯纳奇姆",
+      "translation": "竞技场斯纳奇姆",
       "line": 57
     },
     "Elite_ColosseumGorigan": {
-      "translation": "Elite_ColosseumGorigan",
+      "translation": "竞技场戈利冈",
       "line": 58
     },
     "Elite_ColosseumArdos": {
-      "translation": "精英_阿多斯斗兽场",
+      "translation": "竞技场阿多斯",
       "line": 59
     },
     "Elite_ColosseumEldes": {
-      "translation": "精英_Colosseum埃尔德斯",
+      "translation": "竞技场埃尔德斯",
       "line": 60
     },
     "Coal": {
@@ -271,7 +271,7 @@
       "line": 73
     },
     "Elite_SinnohChampion": {
-      "translation": "精英_神奥冠军",
+      "translation": "神奥冠军",
       "line": 74
     },
     "Basic": {
@@ -323,7 +323,7 @@
       "line": 87
     },
     "Elite_UnovaChampion": {
-      "translation": "Elite_UnovaChampion",
+      "translation": "合众冠军",
       "line": 88
     },
     "Bug": {
@@ -375,15 +375,15 @@
       "line": 101
     },
     "Elite_KalosChampion": {
-      "translation": "精英_KalosChampion",
+      "translation": "卡洛斯冠军",
       "line": 102
     },
     "Melemele_Stamp": {
-      "translation": "美乐美乐_邮票",
+      "translation": "美乐美乐印章",
       "line": 104
     },
     "Akala_Stamp": {
-      "translation": "阿卡拉_邮票",
+      "translation": "阿卡拉印章",
       "line": 105
     },
     "Ula_Ula_Stamp": {
@@ -391,7 +391,7 @@
       "line": 106
     },
     "Poni_Stamp": {
-      "translation": "波尼_斯坦普",
+      "translation": "波尼印章",
       "line": 107
     },
     "Elite_Olivia": {
@@ -411,7 +411,7 @@
       "line": 111
     },
     "Champion_Stamp": {
-      "translation": "冠军_邮票",
+      "translation": "冠军印章",
       "line": 112
     },
     "Friend_League": {
@@ -447,7 +447,7 @@
       "line": 121
     },
     "E4_League": {
-      "translation": "E4_联赛",
+      "translation": "四天王联赛",
       "line": 122
     },
     "Master_League": {
@@ -459,7 +459,7 @@
       "line": 125
     },
     "Galar_Water": {
-      "translation": "伽勒尔_水",
+      "translation": "伽勒尔水",
       "line": 126
     },
     "Galar_Fire": {
@@ -467,15 +467,15 @@
       "line": 127
     },
     "Galar_Fighting": {
-      "translation": "伽勒尔_格斗",
+      "translation": "伽勒尔格斗",
       "line": 128
     },
     "Galar_Ghost": {
-      "translation": "伽勒尔_幽灵",
+      "translation": "伽勒尔幽灵",
       "line": 129
     },
     "Galar_Fairy": {
-      "translation": "伽勒尔_妖精",
+      "translation": "伽勒尔妖精",
       "line": 130
     },
     "Galar_Rock": {
@@ -483,63 +483,63 @@
       "line": 131
     },
     "Galar_Ice": {
-      "translation": "伽勒尔_冰",
+      "translation": "伽勒尔冰",
       "line": 132
     },
     "Galar_Dark": {
-      "translation": "伽勒尔_暗",
+      "translation": "伽勒尔恶",
       "line": 133
     },
     "Galar_Dragon": {
-      "translation": "伽勒尔_龙",
+      "translation": "伽勒尔龙",
       "line": 134
     },
     "Elite_Marnie": {
-      "translation": "精英_玛俐",
+      "translation": "玛俐",
       "line": 135
     },
     "Elite_Bede": {
-      "translation": "精英_贝德",
+      "translation": "彼特",
       "line": 136
     },
     "Elite_Hop": {
-      "translation": "精英_赫普",
+      "translation": "赫普",
       "line": 137
     },
     "Elite_GalarChampion": {
-      "translation": "精英_伽勒尔冠军",
+      "translation": "伽勒尔冠军",
       "line": 138
     },
     "Elite_ArmorPoison": {
-      "translation": "精英_装甲毒药",
+      "translation": "铠岛毒",
       "line": 140
     },
     "Elite_ArmorPsychic": {
-      "translation": "Elite_ArmorPsychic",
+      "translation": "铠岛超能力",
       "line": 141
     },
     "Elite_ArmorMatron": {
-      "translation": "精英_ArmorMatron",
+      "translation": "铠岛女主人",
       "line": 142
     },
     "Elite_ArmorChampion": {
-      "translation": "Elite_ArmorChampion",
+      "translation": "铠岛冠军",
       "line": 143
     },
     "Elite_CrownChampion": {
-      "translation": "精英_皇冠冠军",
+      "translation": "冠之雪原冠军",
       "line": 145
     },
     "Noble_Kleavor": {
-      "translation": "Noble_Kleavor",
+      "translation": "王·劈斧螳螂",
       "line": 147
     },
     "Noble_Lilligant": {
-      "translation": "贵族_Lilligant",
+      "translation": "王·裙儿小姐",
       "line": 148
     },
     "Noble_Arcanine": {
-      "translation": "贵族_风速狗",
+      "translation": "王·风速狗",
       "line": 149
     },
     "Noble_Electrode": {
@@ -547,7 +547,7 @@
       "line": 150
     },
     "Noble_Avalugg": {
-      "translation": "贵族_阿瓦鲁格",
+      "translation": "王·冰岩怪",
       "line": 151
     },
     "Azure": {
@@ -603,11 +603,11 @@
       "line": 165
     },
     "Elite_PaldeaChampion": {
-      "translation": "精英_PaldeaChampion",
+      "translation": "帕底亚冠军",
       "line": 166
     },
     "Elite_Nemona": {
-      "translation": "精英_妮莫",
+      "translation": "妮莫",
       "line": 167
     },
     "Dark_Star": {
@@ -631,11 +631,11 @@
       "line": 173
     },
     "Elite_Clavell": {
-      "translation": "精英_克拉维尔",
+      "translation": "克拉维尔",
       "line": 174
     },
     "Elite_Penny": {
-      "translation": "精英_佩妮",
+      "translation": "牡丹",
       "line": 175
     },
     "Rock_Titan": {
@@ -647,19 +647,19 @@
       "line": 178
     },
     "Steel_Titan": {
-      "translation": "钢_泰坦",
+      "translation": "钢之宝主",
       "line": 179
     },
     "Ground_Titan": {
-      "translation": "地面_泰坦",
+      "translation": "地面之宝主",
       "line": 180
     },
     "Dragon_Titan": {
-      "translation": "龙_泰坦",
+      "translation": "龙之宝主",
       "line": 181
     },
     "Elite_Arven": {
-      "translation": "精英_阿文",
+      "translation": "派蒙",
       "line": 182
     },
     "Scarlet": {

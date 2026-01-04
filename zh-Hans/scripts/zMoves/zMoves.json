@@ -11,11 +11,11 @@
       "line": 5
     },
     "Z-Power_Ring": {
-      "translation": "Z-Power_Ring",
+      "translation": "Z力量手环",
       "line": 56
     },
     "ZMOVE_${...}_MULTIPLIER": {
-      "translation": "ZMOVE_${...}_MULTIPLIER",
+      "translation": "Z招式${...}倍率",
       "line": 75,
       "_rematchedFrom": "ZMOVE_${...}_MULTIPLIER",
       "_confidence": 0.85

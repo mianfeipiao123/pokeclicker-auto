@@ -27,7 +27,7 @@
       "line": 95
     },
     "Game Corner Shop": {
-      "translation": "游戏角店",
+      "translation": "游戏城商店",
       "line": 97
     },
     "Charity Chansey": {
@@ -43,7 +43,7 @@
       "line": 227
     },
     "Trade with Prof. Ivy": {
-      "translation": "与艾维教授进行贸易",
+      "translation": "与内木博士进行贸易",
       "line": 228
     },
     "Pinkan Pokémon Reserve": {
@@ -99,7 +99,7 @@
       "line": 254
     },
     "Good of you to come see me. I need you to pick up something for me. A special kind of Poké Ball, found by Professor Ivy. She lives on one of the Sevii Islands, east of Three Island.": {
-      "translation": "你能来看我真好。我需要你帮我拿点东西。艾薇教授发现的一种特殊的精灵球。她住在三岛以东的塞维群岛之一。",
+      "translation": "你能来看我真好。我需要你帮我拿点东西。内木博士发现的一种特殊的精灵球。她住在三岛以东的七之岛之一。",
       "line": 259
     },
     "I don't know who else to trust with this. It's very important and very valuable.": {
@@ -119,7 +119,7 @@
       "line": 268
     },
     "I know just the man for the job! Kurt, a Poké Ball expert. He lives in Azalea Town, in Johto. Please deliver the GS Ball to him.": {
-      "translation": "我认识最适合这份工作的人！库尔特，精灵球专家。他住在城都地区的桧皮镇。请把 GS 球交给他。",
+      "translation": "我认识最适合这份工作的人！钢铁，精灵球专家。他住在城都地区的桧皮镇。请把 GS 球交给他。",
       "line": 269
     },
     "Old Man": {
@@ -179,7 +179,7 @@
       "line": 304
     },
     "When you defeat a Pokémon you gain a gem of that Pokémon's type. If the Pokémon has two types you gain one for each! Defeating very strong Pokémon, such as those owned by gym leaders, gets you five!": {
-      "translation": "当你击败宝可梦时，你会获得该宝可梦类型的宝石。如果宝可梦有两种类型，则每种类型都会获得一种！击败非常强大的宝可梦（例如道馆老板拥有的宝可梦），你将获得五个！",
+      "translation": "当你击败宝可梦时，你会获得该宝可梦类型的宝石。如果宝可梦有两种类型，则每种类型都会获得一种！击败非常强大的宝可梦（例如道馆馆主拥有的宝可梦），你将获得五个！",
       "line": 305
     },
     "You can click Gems in the Start Menu to boost your damage using these gems. For example, using rock gems you can boost the super effective damage of your rock type Pokémon! Those flying types had better watch out for your might!": {
@@ -239,7 +239,7 @@
       "line": 325
     },
     "Super Nerd Jovan": {
-      "translation": "超级书呆子约翰",
+      "translation": "超级宅男乔范",
       "line": 327
     },
     "In my spare time I like to play this kickass browser game. It takes ages to get all the best stuff.": {
@@ -599,7 +599,7 @@
       "line": 485
     },
     "There's been some recent sightings of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "最近在{ROUTE_NAME}上看到了一些漫游的宝可梦！",
+      "translation": "最近在{ROUTENAME}上看到了一些漫游的宝可梦！",
       "line": 486
     },
     "You! Not again! I'll be there first next time! Having followed it here, I'm starting to understand what Suicune is after.": {
@@ -655,7 +655,7 @@
       "line": 510
     },
     "Ah, yes. Welcome! Welcome! Almost didn't see you there. I'm just so busy trying to get this darned thing to work. Once it's complete we can finally have a direct communications network between the Sevii Islands and Kanto!": {
-      "translation": "啊，是的。欢迎！欢迎！差点没看到你。我正忙着让这该死的东西发挥作用。一旦完成，我们终于可以在塞维群岛和关东之间建立直接通信网络了！",
+      "translation": "啊，是的。欢迎！欢迎！差点没看到你。我正忙着让这该死的东西发挥作用。一旦完成，我们终于可以在七之岛和关东之间建立直接通信网络了！",
       "line": 511
     },
     "I don't even have time to go and pick up an important package. A meteorite, found by the owner of the game corner on Two Island. It contains important materials for my machine.": {
@@ -711,11 +711,11 @@
       "line": 541
     },
     "While I was studying gemstones, I discovered something important. There is another gem that forms a pair with this Ruby. That other gemstone is supposed to be in the Sevii Islands. Please, I need you to go find the other gem.": {
-      "translation": "当我研究宝石时，我发现了一些重要的事情。还有另一种宝石可以与这颗红宝石配对。另一颗宝石应该位于塞维群岛。拜托，我需要你去寻找另一颗宝石。",
+      "translation": "当我研究宝石时，我发现了一些重要的事情。还有另一种宝石可以与这颗红宝石配对。另一颗宝石应该位于七之岛。拜托，我需要你去寻找另一颗宝石。",
       "line": 542
     },
     "Here, take my ferry pass. It will let you get to all of the Sevii Islands. Please, I can't do it without your help.": {
-      "translation": "在这里，拿走我的渡轮通行证。它将让你到达所有塞维群岛。拜托，没有你的帮助我做不到。",
+      "translation": "在这里，拿走我的渡轮通行证。它将让你到达所有七之岛。拜托，没有你的帮助我做不到。",
       "line": 543
     },
     "So this is the gem that forms a pair with the Ruby... You've gone through a lot to get this, didn't you? You don't have to tell me. I know it wasn't easy. Thank you so much! Now it's my turn to work for you! Please give me a little time.": {
@@ -811,7 +811,7 @@
       "line": 597
     },
     "Prof. Ivy": {
-      "translation": "艾维教授",
+      "translation": "内木博士",
       "line": 602
     },
     "Welcome to Valencia Island! Well, this tiny beach on Valencia Island. I don't know why I decided to have this lab built below this giant cliff... Can't even get to the rest of the island from here.": {
@@ -915,7 +915,7 @@
       "line": 643
     },
     "Apparently some kid released one of his Pokémon around here. That Pokémon, its partner, and for whatever reason, the Legendary Beasts from Johto have been seen roaming on {ROUTE_NAME}.": {
-      "translation": "显然有一个孩子在这附近释放了他的一只宝可梦。人们看到那只宝可梦、它的伙伴，以及无论出于什么原因，来自城都的传奇野兽在 {ROUTE_NAME} 上漫游。",
+      "translation": "显然有一个孩子在这附近释放了他的一只宝可梦。人们看到那只宝可梦、它的伙伴，以及无论出于什么原因，来自城都的传奇野兽在 {ROUTENAME} 上漫游。",
       "line": 644
     },
     "Ruin Maniac": {
@@ -1295,7 +1295,7 @@
       "line": 844
     },
     "</i></br><img src=\"assets/images/megaStone/Mewtwonite_X.png\"/></br><i>You obtained the Mewtwonite X!</i>": {
-      "translation": "</i></br><img src=\"assets/images/megaStone/Mewtwonite_X.png\"/></br><i>你获得了超梦进化石X！</i>",
+      "translation": "</i></br><img src=\"assets/images/megaStone/MewtwoniteX.png\"/></br><i>你获得了超梦进化石X！</i>",
       "line": 845
     },
     "assets/images/megaStone/Mewtwonite_X.png": {
@@ -1575,7 +1575,7 @@
       "line": 1096
     },
     "Professor Ivy's Lab": {
-      "translation": "艾维教授的实验室",
+      "translation": "内木博士的实验室",
       "line": 1102
     },
     "Client Island": {
@@ -1859,7 +1859,7 @@
       "line": 1582
     },
     "Kurt": {
-      "translation": "库尔特",
+      "translation": "钢铁",
       "line": 1586
     },
     "Those poor Slowpoke! I'm not doing anything until those disgusting Rockets are gone!": {
@@ -2269,7 +2269,7 @@
       "line": 1849
     },
     "On the news, they are getting more reports of roaming Pokémon appearing on {ROUTE_NAME}!": {
-      "translation": "在新闻中，他们收到了更多有关漫游宝可梦出现在 {ROUTE_NAME} 上的报道！",
+      "translation": "在新闻中，他们收到了更多有关漫游宝可梦出现在 {ROUTENAME} 上的报道！",
       "line": 1850
     },
     "assets/images/npcs/Pokéfan (male).png": {
@@ -2737,7 +2737,7 @@
       "line": 2406
     },
     "Our sources indicate that roaming Pokémon are gathering on {ROUTE_NAME}!": {
-      "translation": "我们的消息来源表明，漫游宝可梦正在{ROUTE_NAME}上聚集！",
+      "translation": "我们的消息来源表明，漫游宝可梦正在{ROUTENAME}上聚集！",
       "line": 2407
     },
     "assets/images/npcs/Reporter.png": {
@@ -4291,7 +4291,7 @@
       "line": 3162
     },
     "I sense the presence of rare Pokémon at the {ROUTE_NAME}! Hurry, before the fates intervene!": {
-      "translation": "我感觉到{ROUTE_NAME}上有稀有宝可梦！快点，在命运干预之前！",
+      "translation": "我感觉到{ROUTENAME}上有稀有宝可梦！快点，在命运干预之前！",
       "line": 3163
     },
     "assets/images/npcs/Psychic (female).png": {
@@ -5551,7 +5551,7 @@
       "line": 4323
     },
     "I spotted a bunch of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "我在 {ROUTE_NAME} 上发现了一群漫游的宝可梦！",
+      "translation": "我在 {ROUTENAME} 上发现了一群漫游的宝可梦！",
       "line": 4324
     },
     "Lake Trio": {
@@ -6547,7 +6547,7 @@
       "line": 5208
     },
     "Our research indicates a higher concentration of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "我们的研究表明，{ROUTE_NAME} 上的漫游宝可梦更加集中！",
+      "translation": "我们的研究表明，{ROUTENAME} 上的漫游宝可梦更加集中！",
       "line": 5209
     },
     "Prof. Juniper": {
@@ -7795,7 +7795,7 @@
       "line": 6266
     },
     "The spirits tell me roaming Pokémon have been spotted on {ROUTE_NAME}!": {
-      "translation": "灵魂告诉我在 {ROUTE_NAME} 上发现了漫游的宝可梦！",
+      "translation": "灵魂告诉我在 {ROUTENAME} 上发现了漫游的宝可梦！",
       "line": 6267
     },
     "Kalos TV News": {
@@ -8719,7 +8719,7 @@
       "line": 6948
     },
     "Water_Memory_Silvally": {
-      "translation": "水_记忆_银伴战兽",
+      "translation": "水记忆银伴战兽",
       "line": 6948
     },
     "Mallow's Trade": {
@@ -8727,7 +8727,7 @@
       "line": 6956
     },
     "Grass_Memory_Silvally": {
-      "translation": "草_记忆_银伴战兽",
+      "translation": "草记忆银伴战兽",
       "line": 6958
     },
     "Kiawe's Trade": {
@@ -8735,7 +8735,7 @@
       "line": 6966
     },
     "Fire_Memory_Silvally": {
-      "translation": "火_记忆_银伴战兽",
+      "translation": "火记忆银伴战兽",
       "line": 6968
     },
     "Sophocles's Trade": {
@@ -8743,7 +8743,7 @@
       "line": 6976
     },
     "Electric_Memory_Silvally": {
-      "translation": "电_记忆_银伴战兽",
+      "translation": "电记忆银伴战兽",
       "line": 6978
     },
     "Veteran Aristo's Trade": {
@@ -8751,7 +8751,7 @@
       "line": 6986
     },
     "Ice_Memory_Silvally": {
-      "translation": "冰_记忆_银伴战兽",
+      "translation": "冰记忆银伴战兽",
       "line": 6988
     },
     "Hapu's Trade": {
@@ -8759,7 +8759,7 @@
       "line": 6996
     },
     "Ground_Memory_Silvally": {
-      "translation": "地面_记忆_银伴战兽",
+      "translation": "地面记忆银伴战兽",
       "line": 6998
     },
     "Trade": {
@@ -9189,7 +9189,7 @@
       "line": 7170
     },
     "Some very rare Pokémon have been sighted on {ROUTE_NAME}. I hope we can learn more about them.": {
-      "translation": "在{ROUTE_NAME}上发现了一些非常稀有的宝可梦。我希望我们能够更多地了解他们。",
+      "translation": "在{ROUTENAME}上发现了一些非常稀有的宝可梦。我希望我们能够更多地了解他们。",
       "line": 7171
     },
     "assets/images/npcs/Assistant Branch Chief Wicke.png": {
@@ -10313,7 +10313,7 @@
       "line": 7776
     },
     "There are some singularly stunning individuals down at {ROUTE_NAME}! Some Magikarp with real personality!": {
-      "translation": "{ROUTE_NAME} 上有一些令人惊叹的人物！一些具有真正个性的鲤鱼王！",
+      "translation": "{ROUTENAME} 上有一些令人惊叹的人物！一些具有真正个性的鲤鱼王！",
       "line": 7777
     },
     "assets/images/npcs/Roddy Tackle.png": {
@@ -11581,7 +11581,7 @@
       "line": 8799
     },
     "I've heard there's been sightings of a never-before-seen, super strong Pokémon on {ROUTE_NAME}! You should go check it out!": {
-      "translation": "我听说{ROUTE_NAME}上出现了前所未见的超强宝可梦！你应该去看看！",
+      "translation": "我听说{ROUTENAME}上出现了前所未见的超强宝可梦！你应该去看看！",
       "line": 8800
     },
     "assets/images/npcs/Professor Sonia.png": {
@@ -11593,7 +11593,7 @@
       "line": 8804
     },
     "One of the other students said they saw a rare Pokémon on {ROUTE_NAME}. Might be worth having a look.": {
-      "translation": "其他一名学生表示，他们在 {ROUTE_NAME} 上看到了一种罕见的宝可梦。可能值得一看。",
+      "translation": "其他一名学生表示，他们在 {ROUTENAME} 上看到了一种罕见的宝可梦。可能值得一看。",
       "line": 8805
     },
     "assets/images/npcs/Master Dojo.png": {
@@ -11929,7 +11929,7 @@
       "line": 8998
     },
     "If my eyes didn't deceive me, I saw a rare Pokémon at {ROUTE_NAME}. Go and see if you can find it if you're interested.": {
-      "translation": "如果我的眼睛没有欺骗我，我在{ROUTE_NAME}看到了一只稀有的宝可梦。有兴趣的话就去看看能不能找到。",
+      "translation": "如果我的眼睛没有欺骗我，我在{ROUTENAME}看到了一只稀有的宝可梦。有兴趣的话就去看看能不能找到。",
       "line": 8999
     },
     "Wow! The Crown Tundra is filled with wild fossil Pokémon! I've heard stories of these snowfields protecting the Pokémon living here, but this level of sanctuary is insane!": {
@@ -13081,7 +13081,7 @@
       "line": 10052
     },
     "Hey, hey, did you hear? A group of students saw some super rare Pokémon on {ROUTE_NAME}!": {
-      "translation": "嘿嘿嘿，你听到了吗？一群学生在{ROUTE_NAME}上看到了一些超级稀有的宝可梦！",
+      "translation": "嘿嘿嘿，你听到了吗？一群学生在{ROUTENAME}上看到了一些超级稀有的宝可梦！",
       "line": 10053
     },
     "Cabo Poco": {

@@ -1841,7 +1841,7 @@
       "line": 568
     },
     "logBook.${...}": {
-      "translation": "",
+      "translation": "日志。${...}",
       "line": 572
     },
     "catchFilters.initialEnabled": {
@@ -1873,7 +1873,7 @@
       "line": 581
     },
     "modalCollapse.${...}": {
-      "translation": "",
+      "translation": "模态折叠。${...}",
       "line": 581
     },
     "moduleHeight.pokeballSelector": {

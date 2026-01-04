@@ -81,7 +81,7 @@
       "line": 157
     },
     "${...}h": {
-      "translation": "",
+      "translation": "${...}小时",
       "line": 159
     },
     "<div><strong>Consumes:</strong></div>": {

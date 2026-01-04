@@ -77,7 +77,7 @@
       "_confidence": 0.85
     },
     "You don't have any ${...}s left...": {
-      "translation": "",
+      "translation": "你没有剩余的 ${...} 了...",
       "line": 149
     },
     "${...}/": {

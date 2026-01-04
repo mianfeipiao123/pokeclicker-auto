@@ -7,7 +7,7 @@
   },
   "entries": {
     "${...} Master": {
-      "translation": "",
+      "translation": "${...} 大师",
       "line": 17
     },
     "<p>${...}</p>": {

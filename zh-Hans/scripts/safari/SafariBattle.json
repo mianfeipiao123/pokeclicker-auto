@@ -111,7 +111,7 @@
       "line": 196
     },
     "<img src=\"assets/images/currency/contestToken.svg\" height=\"24px\"/> You earned ${...} Contest Tokens!": {
-      "translation": "",
+      "translation": "<img src=\"assets/images/currency/contestToken.svg\" height=\"24px\"/> 你获得了${...}个竞赛代币！",
       "line": 196
     },
     "You don't have enough ${...}": {

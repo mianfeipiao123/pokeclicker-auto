@@ -189,7 +189,7 @@
       "_confidence": 0.85
     },
     "${...}s": {
-      "translation": "",
+      "translation": "${...}s",
       "line": 550
     },
     "Ready": {
@@ -209,7 +209,7 @@
       "_confidence": 0.85
     },
     "${...}h": {
-      "translation": "",
+      "translation": "${...}小时",
       "line": 588
     },
     "${...}m": {
@@ -239,7 +239,7 @@
       "_confidence": 0.85
     },
     "${...}M": {
-      "translation": "",
+      "translation": "${...}M",
       "line": 672
     },
     "${...}K": {

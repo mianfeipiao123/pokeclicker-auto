@@ -81,7 +81,7 @@
       "_confidence": 0.85
     },
     "${...} Master": {
-      "translation": "",
+      "translation": "${...} 大师",
       "line": 308
     },
     "${...}'s Blimp": {

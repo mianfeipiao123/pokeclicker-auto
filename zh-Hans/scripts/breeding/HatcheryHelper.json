@@ -27,7 +27,7 @@
       "line": 53
     },
     "assets/images/currency/${...}.svg": {
-      "translation": "",
+      "translation": "资产/图像/货币/${...}.svg",
       "line": 53
     },
     "money": {
@@ -45,7 +45,7 @@
       "_confidence": 0.85
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "",
+      "translation": "资产/图像/个人资料/培训师-${...}.png",
       "line": 96
     },
     "pixelated": {

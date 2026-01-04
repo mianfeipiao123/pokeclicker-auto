@@ -7,7 +7,7 @@
   },
   "entries": {
     "Invalid dungeon for quest: ${...}": {
-      "translation": "",
+      "translation": "任务迷宫无效：${...}",
       "line": 14
     },
     "en-US": {

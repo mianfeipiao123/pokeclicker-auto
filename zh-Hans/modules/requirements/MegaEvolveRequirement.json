@@ -37,7 +37,7 @@
       "line": 28
     },
     "Needs at least ${...} attack to Mega Evolve.": {
-      "translation": "",
+      "translation": "需要至少 ${...} 攻击才能进行超级进化。",
       "line": 28
     },
     "<br />": {

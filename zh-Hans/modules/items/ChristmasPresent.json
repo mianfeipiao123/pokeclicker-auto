@@ -43,11 +43,11 @@
       "line": 28
     },
     "assets/images/currency/${...}.svg": {
-      "translation": "",
+      "translation": "资产/图像/货币/${...}.svg",
       "line": 28
     },
     "You opened the gift and received <img src=\"assets/images/currency/${...}.svg\" height=\"24px\"/> ${...}.": {
-      "translation": "",
+      "translation": "你打开礼物并获得了 <img src=\"assets/images/currency/${...}.svg\" height=\"24px\"/> ${...}。",
       "line": 28
     },
     "A lovely Christmas Present.": {

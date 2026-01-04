@@ -39,7 +39,7 @@
       "line": 127
     },
     "All quests completed. Your quest list has been refreshed and you gained an extra <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}.": {
-      "translation": "",
+      "translation": "所有任务已完成。你的任务列表已刷新，你额外获得了 <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}。",
       "line": 127
     },
     "cannot claim quest..": {

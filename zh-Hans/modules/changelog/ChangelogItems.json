@@ -4017,7 +4017,7 @@
       "line": 1285
     },
     "Show event Pokémon in the Pokédex": {
-      "translation": "",
+      "translation": "在图鉴中显示活动宝可梦",
       "line": 1286
     },
     "Can no longer upgrade shard effectiveness where there is no usage": {
@@ -4481,7 +4481,7 @@
       "line": 1414
     },
     "Hide alternate forms from Pokédex that have not yet been caught": {
-      "translation": "",
+      "translation": "隐藏图鉴中尚未被发现的替代形态",
       "line": 1415
     },
     "Shaymin (sky) form types corrected": {
@@ -5025,7 +5025,7 @@
       "line": 1578
     },
     "Show the amount of Pokémon visible in Pokédex with filters active": {
-      "translation": "",
+      "translation": "显示宝可梦图鉴中可见的宝可梦数量（过滤器处于活动状态）",
       "line": 1579
     },
     "Event Pokémon no longer count towards achievements or being able to travel to next region": {
@@ -5397,7 +5397,7 @@
       "line": 1692
     },
     "Show Pokéball image by caught Pokémon in the Pokédex": {
-      "translation": "",
+      "translation": "在图鉴中显示捕获的宝可梦的神奇球图像",
       "line": 1693
     },
     "Show the reason you cannot access a location": {

@@ -25,7 +25,7 @@
       "_confidence": 0.85
     },
     "${...} Berry": {
-      "translation": "",
+      "translation": "${...}树果",
       "line": 9
     },
     "Obtain a ${...}<br/><i>(No Oak Item challenge runs only)</i>": {

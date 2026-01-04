@@ -83,7 +83,7 @@
       "line": 104
     },
     "${...}url('assets/images/dynamic-background/pokemon/${...}${...}.png')": {
-      "translation": "",
+      "translation": "${...}url('assets/images/dynamic-background/pokemon/${...}${...}.png')",
       "line": 104
     },
     "speed-${...}": {

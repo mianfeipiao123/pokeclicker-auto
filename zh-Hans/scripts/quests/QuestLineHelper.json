@@ -31,7 +31,7 @@
       "line": 24
     },
     "<img width=\"60\" src=\"assets/images/items/zCrystal/${...}.svg\"/> You got the ${...}!": {
-      "translation": "",
+      "translation": "<img width=\"60\" src=\"assets/images/items/zCrystal/${...}.svg\"/> 你获得了${...}！",
       "line": 24
     },
     "Clear ${...}'s Trial at ${...}.": {

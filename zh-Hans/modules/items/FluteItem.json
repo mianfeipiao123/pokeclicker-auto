@@ -59,7 +59,7 @@
       "line": 35
     },
     "You don't have the ${...}...": {
-      "translation": "",
+      "translation": "你没有 ${...}...",
       "line": 50
     },
     "You don't have enough gems to use this Flute.": {

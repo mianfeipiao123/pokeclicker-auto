@@ -19,7 +19,7 @@
       "line": 6
     },
     "${...} unique Pokémon need to be caught.": {
-      "translation": "",
+      "translation": "需要捕捉 ${...} 个独特的宝可梦。",
       "line": 14
     }
   }

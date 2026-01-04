@@ -153,7 +153,7 @@
       "line": 117
     },
     "promptClose${...}": {
-      "translation": "",
+      "translation": "提示关闭${...}",
       "line": 119
     },
     "close": {
@@ -185,7 +185,7 @@
       "line": 127
     },
     "promptInput${...}": {
-      "translation": "",
+      "translation": "提示输入${...}",
       "line": 127
     },
     "text": {
@@ -253,7 +253,7 @@
       "line": 216
     },
     "modalConfirm${...}": {
-      "translation": "",
+      "translation": "模态确认${...}",
       "line": 216
     },
     "btn col outline-dark btn-secondary": {

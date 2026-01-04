@@ -15,7 +15,7 @@
       "line": 2
     },
     "${...} Pokémon needs to be infected.": {
-      "translation": "",
+      "translation": "${...} 个宝可梦需要被感染。",
       "line": 14
     }
   }

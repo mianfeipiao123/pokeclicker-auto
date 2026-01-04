@@ -1783,15 +1783,15 @@
       "line": 3130
     },
     "player${...}": {
-      "translation": "",
+      "translation": "玩家${...}",
       "line": 3135
     },
     "save${...}": {
-      "translation": "",
+      "translation": "保存${...}",
       "line": 3136
     },
     "settings${...}": {
-      "translation": "",
+      "translation": "设置${...}",
       "line": 3137
     },
     "[v${...}] Game has been updated!": {

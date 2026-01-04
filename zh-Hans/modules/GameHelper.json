@@ -21,15 +21,15 @@
       "line": 43
     },
     "${...}b": {
-      "translation": "",
+      "translation": "${...}b",
       "line": 86
     },
     "${...}m": {
-      "translation": "",
+      "translation": "${...}m",
       "line": 87
     },
     "${...}k": {
-      "translation": "",
+      "translation": "${...}k",
       "line": 88
     },
     "an": {

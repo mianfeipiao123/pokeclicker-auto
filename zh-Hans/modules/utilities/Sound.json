@@ -53,7 +53,7 @@
       "line": 64
     },
     "sound.${...}": {
-      "translation": "",
+      "translation": "声音。${...}",
       "line": 67
     }
   }

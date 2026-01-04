@@ -19,7 +19,7 @@
       "line": 15
     },
     "Collect all buried treasure ${...} time${...} in the Underground mines.": {
-      "translation": "",
+      "translation": "在地下矿井中将埋藏的宝藏全部挖出 ${...} 次。",
       "line": 15
     }
   }

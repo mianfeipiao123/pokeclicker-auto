@@ -15,7 +15,7 @@
       "line": 2
     },
     "Collect ${...} item${...} from the Underground mines.": {
-      "translation": "",
+      "translation": "在地下矿井中挖出 ${...} 个道具。",
       "line": 15
     }
   }

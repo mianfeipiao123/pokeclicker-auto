@@ -19,7 +19,7 @@
       "line": 47
     },
     "It appears you are not strong enough to defeat ${...}.": {
-      "translation": "",
+      "translation": "你的实力似乎不足以击败${...}。",
       "line": 83
     },
     "show": {

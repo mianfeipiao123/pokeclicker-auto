@@ -43,7 +43,7 @@
       "line": 5
     },
     "modules.${...}": {
-      "translation": "",
+      "translation": "模块。${...}",
       "line": 9
     },
     "Modules sort order ${...}": {

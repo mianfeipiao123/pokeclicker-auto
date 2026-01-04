@@ -27,7 +27,7 @@
       "line": 8
     },
     "Loadout ${...}": {
-      "translation": "",
+      "translation": "装载${...}",
       "line": 17
     }
   }

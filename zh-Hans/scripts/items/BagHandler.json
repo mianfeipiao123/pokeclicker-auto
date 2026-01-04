@@ -7,7 +7,7 @@
   },
   "entries": {
     "${...} Berry": {
-      "translation": "",
+      "translation": "${...}树果",
       "line": 20
     },
     "${...} Gem": {

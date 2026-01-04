@@ -51,7 +51,7 @@
       "line": 58
     },
     "You don't have any ${...}s left...": {
-      "translation": "",
+      "translation": "你没有剩余的 ${...} 了...",
       "line": 68
     },
     "${...} isn't possible to evolve right now...<br>Check the lock icons next to the pokeballs for more details.": {

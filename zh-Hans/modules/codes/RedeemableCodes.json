@@ -281,7 +281,7 @@
       "line": 236
     },
     "Invalid code ${...}": {
-      "translation": "",
+      "translation": "无效代码 ${...}",
       "line": 264
     }
   }

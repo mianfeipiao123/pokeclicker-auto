@@ -143,11 +143,11 @@
       "line": 68
     },
     "save${...}": {
-      "translation": "",
+      "translation": "保存${...}",
       "line": 94
     },
     "player${...}": {
-      "translation": "",
+      "translation": "玩家${...}",
       "line": 96
     },
     "Trainer": {
@@ -177,7 +177,7 @@
       "line": 123
     },
     "settings${...}": {
-      "translation": "",
+      "translation": "设置${...}",
       "line": 154
     },
     "Missing save data..": {

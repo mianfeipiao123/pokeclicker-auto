@@ -155,7 +155,7 @@
       "line": 50
     },
     "Cell Battery Oak Item now reduces the charges required to discharge": {
-      "translation": "电池 Oak Item 现在减少了放电所需的电量",
+      "translation": "电池大木博士道具现在会减少放电所需的电量",
       "line": 51
     },
     "Palaeontologist Token can now be traded for Diamonds": {
@@ -1839,7 +1839,7 @@
       "line": 633
     },
     "Ability to name Oak item loadouts": {
-      "translation": "能够命名 Oak 物品装载",
+      "translation": "可以为大木博士道具装载命名",
       "line": 634
     },
     "Shards now appear in Underground": {
@@ -2471,7 +2471,7 @@
       "line": 818
     },
     "Progress bar showing as incomplete when an Oak Item is ready to be upgraded": {
-      "translation": "当 Oak 物品准备好升级时，进度条显示为不完整",
+      "translation": "当大木博士道具已可升级时，进度条却显示为未完成",
       "line": 819
     },
     "v0.8.15": {
@@ -3869,7 +3869,7 @@
       "line": 1246
     },
     "Hotkeys added for oak items modal (O to open, number keys to toggle items)": {
-      "translation": "为橡木项目模式添加热键（O 打开，数字键切换项目）",
+      "translation": "为大木博士道具界面添加热键（O 打开，数字键切换道具）",
       "line": 1247
     },
     "Hotkeys added for Pokéball selector modal (P + number to open, number keys to toggle items)": {
@@ -4109,7 +4109,7 @@
       "line": 1310
     },
     "Always show total levels in Oak Item tooltips": {
-      "translation": "始终在 Oak Item 工具提示中显示总级别",
+      "translation": "始终在大木博士道具提示中显示总等级",
       "line": 1311
     },
     "Updated images for shop Pokémon": {
@@ -4789,7 +4789,7 @@
       "line": 1506
     },
     "Update Oak items tooltip when upgraded": {
-      "translation": "升级时更新 Oak 物品工具提示",
+      "translation": "升级时更新大木博士道具提示",
       "line": 1507
     },
     "Auto refresh Daily Deals when upgrade purchased": {
@@ -4973,11 +4973,11 @@
       "line": 1564
     },
     "Show Oak Item details on hover on main screen": {
-      "translation": "将鼠标悬停在主屏幕上时显示 Oak 项目详细信息",
+      "translation": "将鼠标悬停在主界面时显示大木博士道具详情",
       "line": 1565
     },
     "Updated Oak Items modal to show current experience on hover": {
-      "translation": "更新了 Oak Items 模式以显示悬停时的当前体验",
+      "translation": "更新了大木博士道具界面，悬停时显示当前经验值",
       "line": 1566
     },
     "Animate town and dungeon background images": {

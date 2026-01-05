@@ -7,11 +7,11 @@
   },
   "entries": {
     "Pokémon Restricted": {
-      "translation": "宝可梦限制",
+      "translation": "宝可梦专用",
       "line": 27
     },
     "Type Restricted": {
-      "translation": "类型受限",
+      "translation": "属性限定",
       "line": 31
     },
     "EV Gain": {
@@ -35,11 +35,11 @@
       "line": 63
     },
     "raises": {
-      "translation": "",
+      "translation": "提高",
       "line": 67
     },
     "lowers": {
-      "translation": "",
+      "translation": "降低",
       "line": 67
     },
     "en-US": {
@@ -50,32 +50,40 @@
       "translation": "百分比",
       "line": 67
     },
-    "A held item that ${...} the attack of ${...} by ${...})}${...}.": {
-      "translation": "",
+    "A held item that ${...} the attack of ${...} by ${...}.": {
+      "translation": "携带该道具可${...}${...}的攻击${...}。",
+      "line": 67
+    },
+    "A held item that ${...} the attack of ${...} by ${...} in the Battle Frontier.": {
+      "translation": "在对战开拓区，携带该道具可${...}${...}的攻击${...}。",
+      "line": 67
+    },
+    "A held item that ${...} the attack of ${...} by ${...} and ${...} its click attack contribution by ${...}%.": {
+      "translation": "携带该道具可${...}${...}的攻击${...}，并${...}点击攻击贡献${...}%。",
       "line": 67
     },
     "${...} ${...}-type Pokémon": {
-      "translation": "${...} ${...}型宝可梦",
+      "translation": "${...}${...}属性宝可梦",
       "line": 100,
       "_rematchedFrom": "${...} ${...}-type Pokémon",
       "_confidence": 0.85
     },
     "and ${...} its click attack contribution by ${...}%": {
-      "translation": "${...} 其点击攻击贡献为 ${...}%",
+      "translation": "并${...}点击攻击贡献${...}%",
       "line": 141,
       "_rematchedFrom": "and ${...} its click attack contribution by ${...}%",
       "_confidence": 0.85
     },
-    "A held item that increases EV gains for the holding Pokémon by ${...})}.": {
-      "translation": "",
+    "A held item that increases EV gains for ${...} by ${...}.": {
+      "translation": "${...}获得的努力值提高${...}。",
       "line": 158
     },
     "the holding Pokémon": {
-      "translation": "持有的宝可梦",
+      "translation": "携带该道具的宝可梦",
       "line": 173
     },
-    "A held item that earns ${...} ${...})} bonus Experience Points.": {
-      "translation": "",
+    "A held item that earns ${...} ${...} bonus Experience Points.": {
+      "translation": "${...}获得的经验值提高${...}。",
       "line": 175
     },
     "Wonder_Chest": {
@@ -103,7 +111,7 @@
       "line": 181
     },
     "the holding Shadow Pokémon": {
-      "translation": "持有的暗影宝可梦",
+      "translation": "携带该道具的暗影宝可梦",
       "line": 183
     },
     "Excite_Scent": {

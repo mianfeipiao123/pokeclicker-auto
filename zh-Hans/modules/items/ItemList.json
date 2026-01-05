@@ -1371,7 +1371,11 @@
       "line": 257
     },
     "Reduces steps required when hatching": {
-      "translation": "减少孵化时所需的步骤",
+      "translation": "减少孵化所需的步数",
+      "line": 263
+    },
+    "Reduces steps required when hatching.": {
+      "translation": "减少孵化所需的步数。",
       "line": 263
     },
     "Rare Candy": {

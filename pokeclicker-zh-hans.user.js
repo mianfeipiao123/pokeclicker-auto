@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.23
+// @version      0.1.24
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -554,19 +554,37 @@
 
         // Tooltip titles often look like `<u>${name}</u><br/>${descriptionHtml}`.
         // Translate the full HTML description suffix first (it may contain `<br/>`/`<i>` tags which would otherwise get split).
-        const suffixSeps = ['</u><br/>', '</u><br>'];
-        for (const sep of suffixSeps) {
-            const idx = input.indexOf(sep);
-            if (idx < 0) continue;
-            const suffix = input.slice(idx + sep.length);
-            const { leading, core, trailing } = splitOuterWhitespace(suffix);
-            const suffixKey = normalizeText(core);
-            if (!suffixKey) break;
-            const resolvedSuffix = resolveTranslation(suffixKey, map, patterns);
-            if (resolvedSuffix) {
-                input = `${input.slice(0, idx + sep.length)}${leading}${resolvedSuffix}${trailing}`;
+        const tooltipBreakMatch = input.match(/<\/u><br\s*\/?>/i);
+        if (tooltipBreakMatch) {
+            const sep = tooltipBreakMatch[0];
+            const idx = input.toLowerCase().indexOf(sep.toLowerCase());
+            if (idx >= 0) {
+                const suffix = input.slice(idx + sep.length);
+                const { leading, core, trailing } = splitOuterWhitespace(suffix);
+                const rawSuffixKey = normalizeText(core);
+
+                const canonicalizeTooltipKey = (s) => String(s)
+                    .replace(/<br\s*\/?>/gi, '<br/>')
+                    .replace(/\bPok[eé]mon\b/g, 'Pokémon')
+                    .replace(/attack bonus\s*%/gi, 'attack bonus %');
+
+                const candidates = [];
+                if (rawSuffixKey) {
+                    candidates.push(rawSuffixKey);
+                    const canon = canonicalizeTooltipKey(rawSuffixKey);
+                    if (canon !== rawSuffixKey) candidates.push(canon);
+                    if (rawSuffixKey.endsWith('.')) candidates.push(rawSuffixKey.slice(0, -1));
+                    if (canon.endsWith('.')) candidates.push(canon.slice(0, -1));
+                }
+
+                for (const c of candidates) {
+                    const resolvedSuffix = resolveTranslation(c, map, patterns);
+                    if (resolvedSuffix) {
+                        input = `${input.slice(0, idx + sep.length)}${leading}${resolvedSuffix}${trailing}`;
+                        break;
+                    }
+                }
             }
-            break;
         }
 
         const hasHan = /[\u4E00-\u9FFF]/.test(input);

@@ -1,10 +1,10 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-05T14:38:50.227Z",
+    "generatedAt": "2026-01-05T14:55:36.619Z",
     "sourceIndexVersion": "2.0.0",
     "fileCount": 421,
-    "entryCount": 15273,
-    "loadedEntries": 26049,
+    "entryCount": 15274,
+    "loadedEntries": 26050,
     "collisionKeyCount": 3889,
     "excluded": [
       "locales/**",
@@ -10804,7 +10804,8 @@
     "Reduced_Fossil_Pieces": "减少化石碎片",
     "Reduced_Plates": "减少_板块",
     "Reduced_Shards": "减少_碎片",
-    "Reduces steps required when hatching": "减少孵化时所需的步骤",
+    "Reduces steps required when hatching": "减少孵化所需的步数",
+    "Reduces steps required when hatching.": "减少孵化所需的步数。",
     "Reduces the discovery time of mines when applicable": "适用时减少矿洞的发现时间",
     "Reduces the Survey area": "缩小测量范围",
     "RedzepR": "雷泽普R",

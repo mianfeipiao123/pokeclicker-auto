@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.21
+// @version      0.1.22
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -440,7 +440,22 @@
             // We only support consuming placeholders from left to right.
             if (zhParts.length <= 1) continue;
             if (zhParts.length > enParts.length) continue;
-            const re = new RegExp(`^${enParts.map(escapeRegExp).join('(.+?)')}$`);
+
+            // Smarter grouping when placeholders are separated only by whitespace.
+            // Avoid splitting "the holding Pokémon" into "the" + "holding Pokémon 25%".
+            const placeholderCount = enParts.length - 1;
+            let reSource = `^${escapeRegExp(enParts[0])}`;
+            for (let i = 1; i < enParts.length; i += 1) {
+                const sep = enParts[i];
+                const sepIsWhitespace = sep.length > 0 && sep.trim() === '';
+                const isLastPlaceholder = i === placeholderCount;
+                const group = sepIsWhitespace && !isLastPlaceholder ? '(.+)' : '(.+?)';
+                reSource += group;
+                reSource += sepIsWhitespace ? '\\s+' : escapeRegExp(sep);
+            }
+            reSource += '$';
+
+            const re = new RegExp(reSource);
             patterns.push({ re, zhParts });
         }
         // Longer regex first to reduce accidental matches

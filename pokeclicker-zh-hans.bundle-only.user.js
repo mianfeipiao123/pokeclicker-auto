@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.26
+// @version      0.1.27
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -17,15 +17,50 @@
     'use strict';
 
     let notifierLoadedMessage = 'Translations loaded';
+    /** @type {null | ((s: string) => string | null)} */
+    let translateForNotifier = null;
     const hookNotifier = () => {
-        if (window.Notifier?.notify) {
+        if (window.Notifier?.notify && !window.Notifier.__pkcZhHansPatched) {
             const originalNotify = window.Notifier.notify.bind(window.Notifier);
+            const originalConfirm = window.Notifier.confirm?.bind(window.Notifier);
             window.Notifier.notify = (options) => {
                 if (options?.message?.startsWith('Using ') && options.message.includes(' for translations')) {
                     options.message = notifierLoadedMessage;
                 }
+                if (translateForNotifier) {
+                    if (typeof options?.title === 'string') {
+                        const eventMatch = options.title.match(/^(\[EVENT\]\s+)(.+)$/);
+                        if (eventMatch) {
+                            const t = translateForNotifier(eventMatch[2]);
+                            if (t) options.title = `${eventMatch[1]}${t}`;
+                        } else {
+                            const t = translateForNotifier(options.title);
+                            if (t) options.title = t;
+                        }
+                    }
+                    if (typeof options?.message === 'string') {
+                        const t = translateForNotifier(options.message);
+                        if (t) options.message = t;
+                    }
+                }
                 return originalNotify(options);
             };
+            if (originalConfirm) {
+                window.Notifier.confirm = (options) => {
+                    if (translateForNotifier) {
+                        if (typeof options?.title === 'string') {
+                            const t = translateForNotifier(options.title);
+                            if (t) options.title = t;
+                        }
+                        if (typeof options?.message === 'string') {
+                            const t = translateForNotifier(options.message);
+                            if (t) options.message = t;
+                        }
+                    }
+                    return originalConfirm(options);
+                };
+            }
+            Object.defineProperty(window.Notifier, '__pkcZhHansPatched', { value: true });
             return true;
         }
         return false;
@@ -37,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.20';
+    const SCRIPT_VERSION = '0.1.27';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -354,6 +389,15 @@
                     || (shouldUseHardcodedMap(typeName) ? map?.[typeName] : undefined)
                     || typeName;
                 return `${typeZh}属性宝可梦`;
+            }
+        }
+
+        const articleMatch = key.match(/^(?:a|an)\s+(.+)$/i);
+        if (articleMatch) {
+            const rest = normalizeText(articleMatch[1]);
+            if (rest) {
+                const t = translateDynamicSegment(rest, map);
+                if (t && t !== rest) return t;
             }
         }
 
@@ -831,6 +875,47 @@
 
         const patterns = buildPatterns(map);
         const cache = new Map();
+
+        translateForNotifier = (text) => resolveTranslation(text, map, patterns);
+        window.PokeClickerZhHans.lookup = (text) => resolveTranslation(text, map, patterns);
+        window.PokeClickerZhHans.getBundleMeta = () => bundle?._meta ?? null;
+
+        // If game-side i18n isn't loaded (bad URL/path), this helps quickly confirm which bundle is active.
+        if (DEBUG) {
+            // eslint-disable-next-line no-console
+            console.info('[PokéClicker zh-Hans] bundle meta:', bundle?._meta ?? null);
+            // eslint-disable-next-line no-console
+            console.info('[PokéClicker zh-Hans] lookup sample:', {
+                'Halloween!': resolveTranslation('Halloween!', map, patterns),
+                'Spooky Pokémon are trick-or-treating for a limited time around Kanto, Johto and Hoenn.': resolveTranslation(
+                    'Spooky Pokémon are trick-or-treating for a limited time around Kanto, Johto and Hoenn.',
+                    map,
+                    patterns,
+                ),
+            });
+        }
+
+        // Patch non-observable runtime strings (e.g. SpecialEvent.description) so KO html-binding renders Chinese immediately.
+        const tryPatchSpecialEvents = () => {
+            try {
+                const events = window.App?.game?.specialEvents?.events;
+                if (!Array.isArray(events) || !events.length) return false;
+                for (const event of events) {
+                    if (!event || typeof event.description !== 'string') continue;
+                    const t = resolveTranslation(event.description, map, patterns);
+                    if (t) event.description = t;
+                }
+                return true;
+            } catch {
+                return false;
+            }
+        };
+        if (!tryPatchSpecialEvents()) {
+            const interval = setInterval(() => {
+                if (tryPatchSpecialEvents()) clearInterval(interval);
+            }, 200);
+            setTimeout(() => clearInterval(interval), 15000);
+        }
 
         applyMapToRoot(document.documentElement, map, patterns, cache);
 

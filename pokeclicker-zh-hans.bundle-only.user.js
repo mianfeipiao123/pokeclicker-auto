@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.21
+// @version      0.1.22
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -546,7 +546,7 @@
             return out === piece ? piece : out;
         };
 
-        const englishRunRe = /[A-Za-z][A-Za-z0-9\s,.\"'!?():/\\-]*/g;
+        const englishRunRe = /[A-Za-zÉé][A-Za-z0-9Éé\s,.%\"'’!?():/\\-]*/g;
         let out = '';
         let lastIndex = 0;
         let changed = false;

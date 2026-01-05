@@ -75,7 +75,7 @@
       "line": 40
     },
     "EXP Share": {
-      "translation": "经验分享",
+      "translation": "学习装置",
       "line": 42
     },
     "Gain more exp from battling": {
@@ -83,7 +83,7 @@
       "line": 42
     },
     "Sprayduck": {
-      "translation": "喷雾鸭",
+      "translation": "可达鸭喷壶",
       "line": 44
     },
     "Makes your berries grow faster": {
@@ -99,7 +99,7 @@
       "line": 46
     },
     "Magma Stone": {
-      "translation": "岩浆石",
+      "translation": "火山镇石",
       "line": 48
     },
     "Hatch eggs faster": {
@@ -107,7 +107,7 @@
       "line": 48
     },
     "Cell Battery": {
-      "translation": "蓄电池",
+      "translation": "充电电池",
       "line": 50
     },
     "Reduce the charges needed to discharge": {

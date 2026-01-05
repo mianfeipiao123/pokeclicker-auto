@@ -15,43 +15,43 @@
       "line": 7
     },
     "Rare Bone": {
-      "translation": "稀有骨头",
+      "translation": "贵重骨头",
       "line": 13
     },
     "Star Piece": {
-      "translation": "星星片",
+      "translation": "星星碎片",
       "line": 14
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 15
     },
     "Max Revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 16
     },
     "Iron Ball": {
-      "translation": "铁球",
+      "translation": "黑色铁球",
       "line": 17
     },
     "Heart Scale": {
-      "translation": "心脏量表",
+      "translation": "心之鳞片",
       "line": 18
     },
     "Light Clay": {
-      "translation": "轻粘土",
+      "translation": "光之黏土",
       "line": 19
     },
     "Odd Keystone": {
-      "translation": "奇数梯形校正",
+      "translation": "楔石",
       "line": 20
     },
     "Hard Stone": {
-      "translation": "坚硬的石头",
+      "translation": "硬石头",
       "line": 21
     },
     "Oval Stone": {
-      "translation": "椭圆形石",
+      "translation": "浑圆之石",
       "line": 22
     },
     "Everstone": {
@@ -59,87 +59,87 @@
       "line": 23
     },
     "Smooth Rock": {
-      "translation": "平滑岩石",
+      "translation": "沙沙岩石",
       "line": 24
     },
     "Heat Rock": {
-      "translation": "热岩石",
+      "translation": "炽热岩石",
       "line": 25
     },
     "Icy Rock": {
-      "translation": "冰冷的岩石",
+      "translation": "冰冷岩石",
       "line": 26
     },
     "Damp Rock": {
-      "translation": "潮湿的岩石",
+      "translation": "潮湿岩石",
       "line": 27
     },
     "Draco Plate": {
-      "translation": "德拉科板甲",
+      "translation": "龙之石板",
       "line": 28
     },
     "Dread Plate": {
-      "translation": "恐惧板甲",
+      "translation": "恶颜石板",
       "line": 29
     },
     "Earth Plate": {
-      "translation": "地球板",
+      "translation": "大地石板",
       "line": 30
     },
     "Fist Plate": {
-      "translation": "拳头板",
+      "translation": "拳头石板",
       "line": 31
     },
     "Flame Plate": {
-      "translation": "火焰板",
+      "translation": "火球石板",
       "line": 32
     },
     "Icicle Plate": {
-      "translation": "冰柱板",
+      "translation": "冰柱石板",
       "line": 33
     },
     "Insect Plate": {
-      "translation": "昆虫盘",
+      "translation": "玉虫石板",
       "line": 34
     },
     "Iron Plate": {
-      "translation": "铁板",
+      "translation": "钢铁石板",
       "line": 35
     },
     "Meadow Plate": {
-      "translation": "草甸板",
+      "translation": "碧绿石板",
       "line": 36
     },
     "Mind Plate": {
-      "translation": "思维板",
+      "translation": "神奇石板",
       "line": 37
     },
     "Sky Plate": {
-      "translation": "天空板",
+      "translation": "蓝天石板",
       "line": 38
     },
     "Splash Plate": {
-      "translation": "防溅板",
+      "translation": "水滴石板",
       "line": 39
     },
     "Spooky Plate": {
-      "translation": "幽灵盘",
+      "translation": "妖怪石板",
       "line": 40
     },
     "Stone Plate": {
-      "translation": "石板",
+      "translation": "岩石石板",
       "line": 41
     },
     "Toxic Plate": {
-      "translation": "剧毒板",
+      "translation": "剧毒石板",
       "line": 42
     },
     "Zap Plate": {
-      "translation": "电击板",
+      "translation": "雷电石板",
       "line": 43
     },
     "Pixie Plate": {
-      "translation": "精灵盘",
+      "translation": "妖精石板",
       "line": 44
     },
     "Blank Plate": {
@@ -155,7 +155,7 @@
       "line": 47
     },
     "Old Amber": {
-      "translation": "秘琥珀",
+      "translation": "秘密琥珀",
       "line": 48
     },
     "Root Fossil": {
@@ -167,15 +167,15 @@
       "line": 50
     },
     "Armor Fossil": {
-      "translation": "铠甲化石",
+      "translation": "盾甲化石",
       "line": 51
     },
     "Skull Fossil": {
-      "translation": "头骨化石",
+      "translation": "头盖化石",
       "line": 52
     },
     "Cover Fossil": {
-      "translation": "盖盖虫化石",
+      "translation": "背盖化石",
       "line": 53
     },
     "Plume Fossil": {
@@ -183,11 +183,11 @@
       "line": 54
     },
     "Jaw Fossil": {
-      "translation": "颚骨化石",
+      "translation": "颚之化石",
       "line": 55
     },
     "Sail Fossil": {
-      "translation": "帆帆化石",
+      "translation": "鳍之化石",
       "line": 56
     },
     "Fossilized Bird": {
@@ -195,15 +195,15 @@
       "line": 57
     },
     "Fossilized Fish": {
-      "translation": "鱼化石",
+      "translation": "化石鱼",
       "line": 58
     },
     "Fossilized Drake": {
-      "translation": "化石幼龙",
+      "translation": "化石龙",
       "line": 59
     },
     "Fossilized Dino": {
-      "translation": "恐龙化石",
+      "translation": "化石海兽",
       "line": 60
     },
     "Fire Stone": {
@@ -231,19 +231,19 @@
       "line": 66
     },
     "Shiny Stone": {
-      "translation": "异色的石头",
+      "translation": "光之石",
       "line": 67
     },
     "Dusk Stone": {
-      "translation": "黄昏石",
+      "translation": "暗之石",
       "line": 68
     },
     "Dawn Stone": {
-      "translation": "黎明石",
+      "translation": "觉醒之石",
       "line": 69
     },
     "Ice Stone": {
-      "translation": "冰石",
+      "translation": "冰之石",
       "line": 70
     },
     "Red Shard": {

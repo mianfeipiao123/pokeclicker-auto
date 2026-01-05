@@ -135,7 +135,7 @@
       "line": 49
     },
     "X Attack": {
-      "translation": "X攻击",
+      "translation": "力量强化",
       "line": 49
     },
     "+50% Bonus to click attack for 30 seconds": {
@@ -171,11 +171,11 @@
       "line": 53
     },
     "Dowsing Machine": {
-      "translation": "探宝仪",
+      "translation": "探宝器",
       "line": 53
     },
     "+50% Bonus to Pokédollars gained for 30 seconds": {
-      "translation": "",
+      "translation": "+50% 30秒内获得的宝可币奖励",
       "line": 54
     },
     "Lucky Incense": {
@@ -203,7 +203,7 @@
       "line": 65
     },
     "Explorer Kit": {
-      "translation": "探索者套件",
+      "translation": "探险套装",
       "line": 66
     },
     "Event Calendar": {
@@ -315,7 +315,7 @@
       "line": 79
     },
     "Boost Mulch": {
-      "translation": "增强肥料",
+      "translation": "劲劲肥",
       "line": 81
     },
     "Increases Berry growth rate.": {
@@ -323,7 +323,7 @@
       "line": 81
     },
     "Rich Mulch": {
-      "translation": "丰收肥料",
+      "translation": "硕果肥",
       "line": 82
     },
     "Increases Berry harvest rate and replant chances.": {
@@ -331,7 +331,7 @@
       "line": 82
     },
     "Surprise Mulch": {
-      "translation": "惊喜肥料",
+      "translation": "吃惊肥",
       "line": 83
     },
     "Increases Berry mutation rate.": {
@@ -339,7 +339,7 @@
       "line": 83
     },
     "Amaze Mulch": {
-      "translation": "惊奇肥料",
+      "translation": "超效肥",
       "line": 84
     },
     "A weaker combination of Boost, Rich and Surprise mulch.": {
@@ -355,7 +355,7 @@
       "line": 85
     },
     "Gooey Mulch": {
-      "translation": "黏性肥料",
+      "translation": "粘粘肥",
       "line": 86
     },
     "Helps attract rarer species. Gooed Pokémon are more likely to be caught.": {
@@ -379,11 +379,11 @@
       "line": 91
     },
     "Fast Ball": {
-      "translation": "快球",
+      "translation": "速度球",
       "line": 93
     },
     "Quick Ball": {
-      "translation": "快球",
+      "translation": "先机球",
       "line": 94
     },
     "Timer Ball": {
@@ -391,7 +391,7 @@
       "line": 95
     },
     "Dusk Ball": {
-      "translation": "黄昏球",
+      "translation": "黑暗球",
       "line": 96
     },
     "Luxury Ball": {
@@ -415,7 +415,7 @@
       "line": 101
     },
     "Beast Ball": {
-      "translation": "野兽球",
+      "translation": "究极球",
       "line": 102
     },
     "Moon Ball": {
@@ -479,7 +479,7 @@
       "line": 135
     },
     "Blastoisinite": {
-      "translation": "芽生岩",
+      "translation": "水箭龟进化石",
       "line": 136
     },
     "A Mega Stone for Blastoise.": {
@@ -491,7 +491,7 @@
       "line": 137
     },
     "Blazikenite": {
-      "translation": "钾镁石",
+      "translation": "火焰鸡进化石",
       "line": 138
     },
     "A Mega Stone for Blaziken.": {
@@ -511,7 +511,7 @@
       "line": 141
     },
     "Charizardite X": {
-      "translation": "火线闪石 X",
+      "translation": "喷火龙进化石Ｘ",
       "line": 142
     },
     "A Mega Stone for Charizard.": {
@@ -519,7 +519,7 @@
       "line": 142
     },
     "Charizardite Y": {
-      "translation": "火线闪石Y",
+      "translation": "喷火龙进化石Ｙ",
       "line": 144
     },
     "Diancie": {
@@ -627,7 +627,7 @@
       "line": 171
     },
     "Sceptilite": {
-      "translation": "锂辉石",
+      "translation": "蜥蜴王进化石",
       "line": 172
     },
     "A Mega Stone for Sceptile.": {
@@ -655,7 +655,7 @@
       "line": 177
     },
     "Swampertite": {
-      "translation": "沼泽矿",
+      "translation": "巨沼怪进化石",
       "line": 178
     },
     "A Mega Stone for Swampert.": {
@@ -671,7 +671,7 @@
       "line": 180
     },
     "Venusaurite": {
-      "translation": "金星龙石",
+      "translation": "妙蛙花进化石",
       "line": 181
     },
     "A Mega Stone for Venusaur.": {
@@ -703,7 +703,7 @@
       "line": 189
     },
     "Mystery Egg": {
-      "translation": "神秘蛋",
+      "translation": "神奇蛋",
       "line": 190
     },
     "Meteorite_Bills_Errand": {
@@ -727,7 +727,7 @@
       "line": 194
     },
     "Tidal Bell": {
-      "translation": "潮汐钟",
+      "translation": "海声铃铛",
       "line": 194
     },
     "A Bell that can summon the Legendary Pokémon Lugia": {
@@ -775,7 +775,7 @@
       "line": 197
     },
     "Eon Ticket": {
-      "translation": "永安票",
+      "translation": "无限船票",
       "line": 197
     },
     "A limited edition ticket for a cruise to the Southern Island.": {
@@ -1031,47 +1031,47 @@
       "line": 217
     },
     "One of the pushing Pokémons Dr. Splash asked you for his laboratory": {
-      "translation": "一只咄咄逼人的宝可梦水花博士向你询问他的实验室",
+      "translation": "水花博士为他的实验室向你索要的“推动宝可梦”之一",
       "line": 217
     },
     "Push_Boldore_Magikarp_Jump": {
-      "translation": "",
+      "translation": "推地幔岩（跳跃！鲤鱼王）",
       "line": 218
     },
     "Push Boldore": {
-      "translation": "",
+      "translation": "推地幔岩",
       "line": 218
     },
     "Push_Forretress_Magikarp_Jump": {
-      "translation": "Push_佛烈托斯_鲤鱼王_Jump",
+      "translation": "推佛烈托斯（跳跃！鲤鱼王）",
       "line": 219
     },
     "Push Forretress": {
-      "translation": "推堡垒",
+      "translation": "推佛烈托斯",
       "line": 219
     },
     "Push_Golem_Magikarp_Jump": {
-      "translation": "Push_隆隆岩_鲤鱼王_Jump",
+      "translation": "推隆隆岩（跳跃！鲤鱼王）",
       "line": 220
     },
     "Push Golem": {
-      "translation": "推傀儡",
+      "translation": "推隆隆岩",
       "line": 220
     },
     "Push_Steelix_Magikarp_Jump": {
-      "translation": "Push_大钢蛇_鲤鱼王_Jump",
+      "translation": "推大钢蛇（跳跃！鲤鱼王）",
       "line": 221
     },
     "Push Steelix": {
-      "translation": "推斯蒂利克斯",
+      "translation": "推大钢蛇",
       "line": 221
     },
     "Prison_Bottle": {
-      "translation": "监狱瓶",
+      "translation": "惩戒之壶",
       "line": 222
     },
     "Prison Bottle": {
-      "translation": "监狱之瓶",
+      "translation": "惩戒之壶",
       "line": 222
     },
     "A magical bottle used to bind Hoopa": {
@@ -1099,7 +1099,7 @@
       "line": 224
     },
     "Fighting Memory": {
-      "translation": "战斗记忆",
+      "translation": "战斗存储碟",
       "line": 224
     },
     "One of Silvally's memories, obtained from Kahuna Hala in Iki Town": {
@@ -1115,7 +1115,7 @@
       "line": 225
     },
     "Rock Memory": {
-      "translation": "岩石记忆",
+      "translation": "岩石存储碟",
       "line": 225
     },
     "One of Silvally's memories, obtained from Kahuna Olivia in Konikoni City": {
@@ -1127,7 +1127,7 @@
       "line": 226
     },
     "Dark Memory": {
-      "translation": "黑暗记忆",
+      "translation": "黑暗存储碟",
       "line": 226
     },
     "One of Silvally's memories, obtained from Kahuna Nanu in Malie City": {
@@ -1139,7 +1139,7 @@
       "line": 227
     },
     "Fairy Memory": {
-      "translation": "童话记忆",
+      "translation": "妖精存储碟",
       "line": 227
     },
     "One of Silvally's memories, obtained from Captain Mina in Seafolk Village": {
@@ -1151,7 +1151,7 @@
       "line": 228
     },
     "Water Memory": {
-      "translation": "水记忆",
+      "translation": "清水存储碟",
       "line": 228
     },
     "One of Silvally's memories, obtained from Captain Lana in Brooklet Hill": {
@@ -1163,7 +1163,7 @@
       "line": 229
     },
     "Grass Memory": {
-      "translation": "草的记忆",
+      "translation": "青草存储碟",
       "line": 229
     },
     "One of Silvally's memories, obtained from Captain Mallow in Lush Jungle": {
@@ -1175,7 +1175,7 @@
       "line": 230
     },
     "Fire Memory": {
-      "translation": "火焰记忆",
+      "translation": "火焰存储碟",
       "line": 230
     },
     "One of Silvally's memories, obtained from Captain Kiawe in Wela Volcano Park": {
@@ -1187,7 +1187,7 @@
       "line": 231
     },
     "Electric Memory": {
-      "translation": "电记忆",
+      "translation": "电子存储碟",
       "line": 231
     },
     "One of Silvally's memories, obtained from Captain Sophocles in Hokulani Observatory": {
@@ -1199,7 +1199,7 @@
       "line": 232
     },
     "Ice Memory": {
-      "translation": "冰记忆",
+      "translation": "冰雪存储碟",
       "line": 232
     },
     "One of Silvally's memories, obtained from Veteran Aristo in Mt. Lanakila": {
@@ -1211,7 +1211,7 @@
       "line": 233
     },
     "Ground Memory": {
-      "translation": "地面记忆",
+      "translation": "大地存储碟",
       "line": 233
     },
     "One of Silvally's memories, obtained from Kahuna Hapu on Exeggutor Island Hill": {
@@ -1223,7 +1223,7 @@
       "line": 234
     },
     "Bug Memory": {
-      "translation": "错误记忆",
+      "translation": "虫子存储碟",
       "line": 234
     },
     "One of Silvally's memories, obtained from Guzma in Po Town": {
@@ -1235,7 +1235,7 @@
       "line": 235
     },
     "Flying Memory": {
-      "translation": "飞翔的记忆",
+      "translation": "飞翔存储碟",
       "line": 235
     },
     "One of Silvally's memories, obtained from Kahili on Ten Carat Hill": {
@@ -1247,7 +1247,7 @@
       "line": 236
     },
     "Poison Memory": {
-      "translation": "毒记忆",
+      "translation": "毒存储碟",
       "line": 236
     },
     "One of Silvally's memories, obtained from Plumeria in Vast Poni Canyon": {
@@ -1259,7 +1259,7 @@
       "line": 237
     },
     "Ghost Memory": {
-      "translation": "幽灵记忆",
+      "translation": "幽灵存储碟",
       "line": 237
     },
     "One of Silvally's memories, obtained from Captain Acerola in Thrifty Megamart": {
@@ -1271,7 +1271,7 @@
       "line": 238
     },
     "Psychic Memory": {
-      "translation": "心灵记忆",
+      "translation": "精神存储碟",
       "line": 238
     },
     "One of Silvally's memories, obtained from Aether Branch Chief Faba in Aether Paradise": {
@@ -1283,7 +1283,7 @@
       "line": 239
     },
     "Steel Memory": {
-      "translation": "钢记忆",
+      "translation": "钢铁存储碟",
       "line": 239
     },
     "One of Silvally's memories, obtained from Molayne in Royal Avenue": {
@@ -1295,7 +1295,7 @@
       "line": 240
     },
     "Dragon Memory": {
-      "translation": "龙之记忆",
+      "translation": "龙存储碟",
       "line": 240
     },
     "One of Silvally's memories, obtained from Ryuki in A Tree Maybe": {
@@ -1323,7 +1323,7 @@
       "line": 242
     },
     "Shaderoot Carrot": {
-      "translation": "荫根胡萝卜",
+      "translation": "黑萝卜",
       "line": 242
     },
     "Carrot that the King of Bountiful Harvest's beloved steed likes to eat. It grew in a gloomy field.": {
@@ -1339,7 +1339,7 @@
       "line": 243
     },
     "Iceroot Carrot": {
-      "translation": "冰根胡萝卜",
+      "translation": "冰萝卜",
       "line": 243
     },
     "Carrot that the King of Bountiful Harvest's beloved steed likes to eat. It grew in a field covered in snow.": {
@@ -1347,11 +1347,11 @@
       "line": 243
     },
     "Wishing_Piece": {
-      "translation": "许愿星",
+      "translation": "许愿星块",
       "line": 244
     },
     "Wishing Piece": {
-      "translation": "许愿星",
+      "translation": "许愿星块",
       "line": 244
     },
     "Attracts Gigantamax Pokémon to the Max Lair": {
@@ -1387,247 +1387,247 @@
       "line": 267
     },
     "Rare_bone": {
-      "translation": "稀有骨",
+      "translation": "贵重骨头",
       "line": 274
     },
     "Rare Bone": {
-      "translation": "稀有骨头",
+      "translation": "贵重骨头",
       "line": 274
     },
     "Star_piece": {
-      "translation": "明星作品",
+      "translation": "星星碎片",
       "line": 275
     },
     "Star Piece": {
-      "translation": "星星片",
+      "translation": "星星碎片",
       "line": 275
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 276
     },
     "Max_revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 277
     },
     "Max Revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 277
     },
     "Iron_ball": {
-      "translation": "铁球",
+      "translation": "黑色铁球",
       "line": 278
     },
     "Iron Ball": {
-      "translation": "铁球",
+      "translation": "黑色铁球",
       "line": 278
     },
     "Heart_scale": {
-      "translation": "Heart_scale",
+      "translation": "心之鳞片",
       "line": 279
     },
     "Heart Scale": {
-      "translation": "心脏量表",
+      "translation": "心之鳞片",
       "line": 279
     },
     "Light_clay": {
-      "translation": "轻粘土",
+      "translation": "光之黏土",
       "line": 280
     },
     "Light Clay": {
-      "translation": "轻粘土",
+      "translation": "光之黏土",
       "line": 280
     },
     "Odd_keystone": {
-      "translation": "奇数梯形校正",
+      "translation": "楔石",
       "line": 281
     },
     "Odd Keystone": {
-      "translation": "奇数梯形校正",
+      "translation": "楔石",
       "line": 281
     },
     "Hard_stone": {
-      "translation": "硬石",
+      "translation": "硬石头",
       "line": 282
     },
     "Hard Stone": {
-      "translation": "坚硬的石头",
+      "translation": "硬石头",
       "line": 282
     },
     "Oval_stone": {
-      "translation": "椭圆石",
+      "translation": "浑圆之石",
       "line": 283
     },
     "Oval Stone": {
-      "translation": "椭圆形石",
+      "translation": "浑圆之石",
       "line": 283
     },
     "Smooth_rock": {
-      "translation": "平滑岩石",
+      "translation": "沙沙岩石",
       "line": 284
     },
     "Smooth Rock": {
-      "translation": "平滑岩石",
+      "translation": "沙沙岩石",
       "line": 284
     },
     "Heat_rock": {
-      "translation": "热岩石",
+      "translation": "炽热岩石",
       "line": 285
     },
     "Heat Rock": {
-      "translation": "热岩石",
+      "translation": "炽热岩石",
       "line": 285
     },
     "Icy_rock": {
-      "translation": "冰冷的岩石",
+      "translation": "冰冷岩石",
       "line": 286
     },
     "Icy Rock": {
-      "translation": "冰冷的岩石",
+      "translation": "冰冷岩石",
       "line": 286
     },
     "Damp_rock": {
-      "translation": "潮湿的岩石",
+      "translation": "潮湿岩石",
       "line": 287
     },
     "Damp Rock": {
-      "translation": "潮湿的岩石",
+      "translation": "潮湿岩石",
       "line": 287
     },
     "Draco_plate": {
-      "translation": "德拉科_盘",
+      "translation": "龙之石板",
       "line": 289
     },
     "Draco Plate": {
-      "translation": "德拉科板甲",
+      "translation": "龙之石板",
       "line": 289
     },
     "Dread_plate": {
-      "translation": "恐惧板",
+      "translation": "恶颜石板",
       "line": 290
     },
     "Dread Plate": {
-      "translation": "恐惧板甲",
+      "translation": "恶颜石板",
       "line": 290
     },
     "Earth_plate": {
-      "translation": "地球板",
+      "translation": "大地石板",
       "line": 291
     },
     "Earth Plate": {
-      "translation": "地球板",
+      "translation": "大地石板",
       "line": 291
     },
     "Fist_plate": {
-      "translation": "拳头板",
+      "translation": "拳头石板",
       "line": 292
     },
     "Fist Plate": {
-      "translation": "拳头板",
+      "translation": "拳头石板",
       "line": 292
     },
     "Flame_plate": {
-      "translation": "火焰板",
+      "translation": "火球石板",
       "line": 293
     },
     "Flame Plate": {
-      "translation": "火焰板",
+      "translation": "火球石板",
       "line": 293
     },
     "Icicle_plate": {
-      "translation": "冰柱_板",
+      "translation": "冰柱石板",
       "line": 294
     },
     "Icicle Plate": {
-      "translation": "冰柱板",
+      "translation": "冰柱石板",
       "line": 294
     },
     "Insect_plate": {
-      "translation": "昆虫盘",
+      "translation": "玉虫石板",
       "line": 295
     },
     "Insect Plate": {
-      "translation": "昆虫盘",
+      "translation": "玉虫石板",
       "line": 295
     },
     "Iron_plate": {
-      "translation": "铁板",
+      "translation": "钢铁石板",
       "line": 296
     },
     "Iron Plate": {
-      "translation": "铁板",
+      "translation": "钢铁石板",
       "line": 296
     },
     "Meadow_plate": {
-      "translation": "草地盘",
+      "translation": "碧绿石板",
       "line": 297
     },
     "Meadow Plate": {
-      "translation": "草甸板",
+      "translation": "碧绿石板",
       "line": 297
     },
     "Mind_plate": {
-      "translation": "思维板",
+      "translation": "神奇石板",
       "line": 298
     },
     "Mind Plate": {
-      "translation": "思维板",
+      "translation": "神奇石板",
       "line": 298
     },
     "Sky_plate": {
-      "translation": "天空盘",
+      "translation": "蓝天石板",
       "line": 299
     },
     "Sky Plate": {
-      "translation": "天空板",
+      "translation": "蓝天石板",
       "line": 299
     },
     "Splash_plate": {
-      "translation": "飞溅板",
+      "translation": "水滴石板",
       "line": 300
     },
     "Splash Plate": {
-      "translation": "防溅板",
+      "translation": "水滴石板",
       "line": 300
     },
     "Spooky_plate": {
-      "translation": "幽灵盘",
+      "translation": "妖怪石板",
       "line": 301
     },
     "Spooky Plate": {
-      "translation": "幽灵盘",
+      "translation": "妖怪石板",
       "line": 301
     },
     "Stone_plate": {
-      "translation": "石板",
+      "translation": "岩石石板",
       "line": 302
     },
     "Stone Plate": {
-      "translation": "石板",
+      "translation": "岩石石板",
       "line": 302
     },
     "Toxic_plate": {
-      "translation": "有毒_板",
+      "translation": "剧毒石板",
       "line": 303
     },
     "Toxic Plate": {
-      "translation": "剧毒板",
+      "translation": "剧毒石板",
       "line": 303
     },
     "Zap_plate": {
-      "translation": "Zap_plate",
+      "translation": "雷电石板",
       "line": 304
     },
     "Zap Plate": {
-      "translation": "电击板",
+      "translation": "雷电石板",
       "line": 304
     },
     "Pixie_plate": {
-      "translation": "小精灵_盘",
+      "translation": "妖精石板",
       "line": 305
     },
     "Pixie Plate": {
-      "translation": "精灵盘",
+      "translation": "妖精石板",
       "line": 305
     },
     "Blank_plate": {
@@ -1639,7 +1639,7 @@
       "line": 306
     },
     "Helix_fossil": {
-      "translation": "螺旋化石",
+      "translation": "贝壳化石",
       "line": 308
     },
     "Helix Fossil": {
@@ -1647,7 +1647,7 @@
       "line": 308
     },
     "Dome_fossil": {
-      "translation": "圆顶化石",
+      "translation": "甲壳化石",
       "line": 309
     },
     "Dome Fossil": {
@@ -1655,15 +1655,15 @@
       "line": 309
     },
     "Old_amber": {
-      "translation": "老琥珀",
+      "translation": "秘密琥珀",
       "line": 310
     },
     "Old Amber": {
-      "translation": "秘琥珀",
+      "translation": "秘密琥珀",
       "line": 310
     },
     "Root_fossil": {
-      "translation": "根化石",
+      "translation": "根状化石",
       "line": 311
     },
     "Root Fossil": {
@@ -1671,7 +1671,7 @@
       "line": 311
     },
     "Claw_fossil": {
-      "translation": "爪化石",
+      "translation": "爪子化石",
       "line": 312
     },
     "Claw Fossil": {
@@ -1679,31 +1679,31 @@
       "line": 312
     },
     "Armor_fossil": {
-      "translation": "铠甲化石",
+      "translation": "盾甲化石",
       "line": 313
     },
     "Armor Fossil": {
-      "translation": "铠甲化石",
+      "translation": "盾甲化石",
       "line": 313
     },
     "Skull_fossil": {
-      "translation": "头骨化石",
+      "translation": "头盖化石",
       "line": 314
     },
     "Skull Fossil": {
-      "translation": "头骨化石",
+      "translation": "头盖化石",
       "line": 314
     },
     "Cover_fossil": {
-      "translation": "封面_化石",
+      "translation": "背盖化石",
       "line": 315
     },
     "Cover Fossil": {
-      "translation": "盖盖虫化石",
+      "translation": "背盖化石",
       "line": 315
     },
     "Plume_fossil": {
-      "translation": "羽化石",
+      "translation": "羽毛化石",
       "line": 316
     },
     "Plume Fossil": {
@@ -1711,19 +1711,19 @@
       "line": 316
     },
     "Jaw_fossil": {
-      "translation": "下颌化石",
+      "translation": "颚之化石",
       "line": 317
     },
     "Jaw Fossil": {
-      "translation": "颚骨化石",
+      "translation": "颚之化石",
       "line": 317
     },
     "Sail_fossil": {
-      "translation": "帆化石",
+      "translation": "鳍之化石",
       "line": 318
     },
     "Sail Fossil": {
-      "translation": "帆帆化石",
+      "translation": "鳍之化石",
       "line": 318
     },
     "Fossilized_bird": {
@@ -1739,7 +1739,7 @@
       "line": 320
     },
     "Fossilized Fish": {
-      "translation": "鱼化石",
+      "translation": "化石鱼",
       "line": 320
     },
     "Fossilized_drake": {
@@ -1747,19 +1747,19 @@
       "line": 321
     },
     "Fossilized Drake": {
-      "translation": "化石幼龙",
+      "translation": "化石龙",
       "line": 321
     },
     "Fossilized_dino": {
-      "translation": "恐龙化石",
+      "translation": "化石海兽",
       "line": 322
     },
     "Fossilized Dino": {
-      "translation": "恐龙化石",
+      "translation": "化石海兽",
       "line": 322
     },
     "Red_shard": {
-      "translation": "红_碎片",
+      "translation": "红色碎片",
       "line": 324
     },
     "Red Shard": {
@@ -1767,7 +1767,7 @@
       "line": 324
     },
     "Yellow_shard": {
-      "translation": "黄_碎片",
+      "translation": "黄色碎片",
       "line": 325
     },
     "Yellow Shard": {
@@ -1775,7 +1775,7 @@
       "line": 325
     },
     "Green_shard": {
-      "translation": "绿色_碎片",
+      "translation": "绿色碎片",
       "line": 326
     },
     "Green Shard": {
@@ -1783,7 +1783,7 @@
       "line": 326
     },
     "Blue_shard": {
-      "translation": "蓝_碎片",
+      "translation": "蓝色碎片",
       "line": 327
     },
     "Blue Shard": {

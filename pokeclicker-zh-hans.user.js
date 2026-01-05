@@ -123,7 +123,10 @@
   }
 }
 
-.badgeEntry p::after {
+/* Badge suffix ("Badge" -> "徽章") – keep compatible with upstream selectors */
+.badgeEntry p::after,
+#badge-list .badge[data-badge-name]::after,
+.badge[data-badge-name]::after {
   content: '${badgeSuffix}' !important;
 }
 
@@ -477,6 +480,21 @@
             }
         }
 
+        // Humanified enum names often appear in DOM text (spaces instead of underscores), e.g. "Melemele Stamp".
+        // Try lookup variants against the loaded map (which contains enum keys like "Melemele_Stamp").
+        for (const k of candidates) {
+            if (!shouldUseHardcodedMap(k)) continue;
+            if (!/[\s-]/.test(k)) continue;
+            const variants = new Set();
+            variants.add(k.replace(/\s+/g, '_'));
+            variants.add(k.replace(/-/g, '_'));
+            variants.add(k.replace(/\s+/g, '_').replace(/-/g, '_'));
+            for (const vKey of variants) {
+                const v = map?.[vKey];
+                if (typeof v === 'string' && v && !v.includes('${...}')) return v;
+            }
+        }
+
         if (patterns.length) {
             for (const k of candidates) {
                 const matched = applyPatterns(k, patterns, map);
@@ -488,14 +506,15 @@
         // e.g. "Spike Shell Badge" / "BoulderBadge".
         const badgeWord = map?.Badge || '徽章';
         for (const k of candidates) {
-            const m = k.match(/^(.+?) Badge$/) || k.match(/^(.+?)Badge$/);
+            const m = k.match(/^(.+?)\s*(?:Badge|badge)([.!?:,])?$/);
             if (!m) continue;
             const name = normalizeText(m[1]);
             if (!name) continue;
             const translatedName = translateDynamicSegment(name, map);
             if (!translatedName || translatedName === name) continue;
-            if (translatedName.endsWith('徽章') || translatedName.endsWith(badgeWord)) return translatedName;
-            return `${translatedName}${badgeWord}`;
+            const punct = m[2] || '';
+            if (translatedName.endsWith('徽章') || translatedName.endsWith(badgeWord)) return `${translatedName}${punct}`;
+            return `${translatedName}${badgeWord}${punct}`;
         }
 
         return null;

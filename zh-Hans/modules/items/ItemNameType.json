@@ -23,7 +23,7 @@
       "line": 16
     },
     "Dowsing_machine": {
-      "translation": "探矿机",
+      "translation": "探宝器",
       "line": 17
     },
     "Lucky_incense": {
@@ -35,7 +35,7 @@
       "line": 26
     },
     "Explorer_kit": {
-      "translation": "资源管理器工具包",
+      "translation": "探险套装",
       "line": 27
     },
     "Event_calendar": {
@@ -59,11 +59,11 @@
       "line": 32
     },
     "Yellow_Flute": {
-      "translation": "黄笛",
+      "translation": "黄色玻璃哨",
       "line": 33
     },
     "Black_Flute": {
-      "translation": "黑笛",
+      "translation": "黑色玻璃哨",
       "line": 34
     },
     "Time_Flute": {
@@ -71,31 +71,31 @@
       "line": 35
     },
     "Red_Flute": {
-      "translation": "红笛",
+      "translation": "红色玻璃哨",
       "line": 36
     },
     "White_Flute": {
-      "translation": "白笛",
+      "translation": "白色玻璃哨",
       "line": 37
     },
     "Blue_Flute": {
-      "translation": "蓝笛",
+      "translation": "蓝色玻璃哨",
       "line": 38
     },
     "Boost_Mulch": {
-      "translation": "增强肥料",
+      "translation": "劲劲肥",
       "line": 39
     },
     "Rich_Mulch": {
-      "translation": "丰富的肥料",
+      "translation": "硕果肥",
       "line": 40
     },
     "Surprise_Mulch": {
-      "translation": "惊喜_肥料",
+      "translation": "吃惊肥",
       "line": 41
     },
     "Amaze_Mulch": {
-      "translation": "惊奇_肥料",
+      "translation": "超效肥",
       "line": 42
     },
     "Freeze_Mulch": {
@@ -103,7 +103,7 @@
       "line": 43
     },
     "Gooey_Mulch": {
-      "translation": "粘性肥料",
+      "translation": "粘粘肥",
       "line": 44
     },
     "Pokeball": {
@@ -111,11 +111,11 @@
       "line": 45
     },
     "Greatball": {
-      "translation": "伟大的球",
+      "translation": "超级球",
       "line": 46
     },
     "Ultraball": {
-      "translation": "超级球",
+      "translation": "高级球",
       "line": 47
     },
     "Masterball": {
@@ -123,11 +123,11 @@
       "line": 48
     },
     "Fastball": {
-      "translation": "快球",
+      "translation": "速度球",
       "line": 49
     },
     "Quickball": {
-      "translation": "快球",
+      "translation": "先机球",
       "line": 50
     },
     "Timerball": {
@@ -135,7 +135,7 @@
       "line": 51
     },
     "Duskball": {
-      "translation": "黄昏球",
+      "translation": "黑暗球",
       "line": 52
     },
     "Luxuryball": {
@@ -143,7 +143,7 @@
       "line": 53
     },
     "Diveball": {
-      "translation": "跳水球",
+      "translation": "潜水球",
       "line": 54
     },
     "Lureball": {
@@ -151,7 +151,7 @@
       "line": 55
     },
     "Nestball": {
-      "translation": "雀巢球",
+      "translation": "巢穴球",
       "line": 56
     },
     "Repeatball": {
@@ -159,11 +159,11 @@
       "line": 57
     },
     "Beastball": {
-      "translation": "野兽球",
+      "translation": "究极球",
       "line": 58
     },
     "Moonball": {
-      "translation": "月球",
+      "translation": "月亮球",
       "line": 59
     },
     "Berry_Shovel": {
@@ -235,135 +235,135 @@
       "line": 76
     },
     "Abomasite": {
-      "translation": "菱形石",
+      "translation": "暴雪王进化石",
       "line": 77
     },
     "Absolite": {
-      "translation": "绝对",
+      "translation": "阿勃梭鲁进化石",
       "line": 78
     },
     "Aerodactylite": {
-      "translation": "风指岩",
+      "translation": "化石翼龙进化石",
       "line": 79
     },
     "Aggronite": {
-      "translation": "花岗岩",
+      "translation": "波士可多拉进化石",
       "line": 80
     },
     "Alakazite": {
-      "translation": "铝钾石",
+      "translation": "胡地进化石",
       "line": 81
     },
     "Ampharosite": {
-      "translation": "水铝镁石",
+      "translation": "电龙进化石",
       "line": 82
     },
     "Audinite": {
-      "translation": "奥金石",
+      "translation": "差不多娃娃进化石",
       "line": 83
     },
     "Banettite": {
-      "translation": "班尼特石",
+      "translation": "诅咒娃娃进化石",
       "line": 84
     },
     "Beedrillite": {
-      "translation": "铍石",
+      "translation": "大针蜂进化石",
       "line": 85
     },
     "Blastoisinite": {
-      "translation": "芽生岩",
+      "translation": "水箭龟进化石",
       "line": 86
     },
     "Blazikenite": {
-      "translation": "钾镁石",
+      "translation": "火焰鸡进化石",
       "line": 87
     },
     "Blue_Orb": {
-      "translation": "蓝色球体",
+      "translation": "靛蓝色宝珠",
       "line": 88
     },
     "Cameruptite": {
-      "translation": "钙辉石",
+      "translation": "喷火驼进化石",
       "line": 89
     },
     "Charizardite_X": {
-      "translation": "火闪石_X",
+      "translation": "喷火龙进化石Ｘ",
       "line": 90
     },
     "Charizardite_Y": {
-      "translation": "火线闪石_Y",
+      "translation": "喷火龙进化石Ｙ",
       "line": 91
     },
     "Diancite": {
-      "translation": "红铁矿",
+      "translation": "蒂安希进化石",
       "line": 92
     },
     "Galladite": {
-      "translation": "铅铜矿",
+      "translation": "艾路雷朵进化石",
       "line": 93
     },
     "Garchompite": {
-      "translation": "石斑岩",
+      "translation": "烈咬陆鲨进化石",
       "line": 94
     },
     "Gardevoirite": {
-      "translation": "黄檀",
+      "translation": "沙奈朵进化石",
       "line": 95
     },
     "Gengarite": {
-      "translation": "根加里特",
+      "translation": "耿鬼进化石",
       "line": 96
     },
     "Glalitite": {
-      "translation": "格拉利特石",
+      "translation": "冰鬼护进化石",
       "line": 97
     },
     "Gyaradosite": {
-      "translation": "伽拉多石",
+      "translation": "暴鲤龙进化石",
       "line": 98
     },
     "Heracronite": {
-      "translation": "赫拉克朗石",
+      "translation": "赫拉克罗斯进化石",
       "line": 99
     },
     "Houndoominite": {
-      "translation": "黑云石",
+      "translation": "黑鲁加进化石",
       "line": 100
     },
     "Kangaskhanite": {
-      "translation": "坎加斯汗石",
+      "translation": "袋兽进化石",
       "line": 101
     },
     "Latiasite": {
-      "translation": "拉铁矿",
+      "translation": "拉帝亚斯进化石",
       "line": 102
     },
     "Latiosite": {
-      "translation": "拉硫石",
+      "translation": "拉帝欧斯进化石",
       "line": 103
     },
     "Lopunnite": {
-      "translation": "长辉石",
+      "translation": "长耳兔进化石",
       "line": 104
     },
     "Lucarionite": {
-      "translation": "萤石",
+      "translation": "路卡利欧进化石",
       "line": 105
     },
     "Manectite": {
-      "translation": "钙锰矿",
+      "translation": "雷电兽进化石",
       "line": 106
     },
     "Mawilite": {
-      "translation": "马维利特",
+      "translation": "大嘴娃进化石",
       "line": 107
     },
     "Medichamite": {
-      "translation": "麦迪查姆特",
+      "translation": "恰雷姆进化石",
       "line": 108
     },
     "Metagrossite": {
-      "translation": "巨花岗岩",
+      "translation": "巨金怪进化石",
       "line": 109
     },
     "Meteorite": {
@@ -371,63 +371,63 @@
       "line": 110
     },
     "Mewtwonite_X": {
-      "translation": "超凡石_X",
+      "translation": "超梦进化石Ｘ",
       "line": 111
     },
     "Mewtwonite_Y": {
-      "translation": "超锰矿_Y",
+      "translation": "超梦进化石Ｙ",
       "line": 112
     },
     "Pidgeotite": {
-      "translation": "云杉",
+      "translation": "大比鸟进化石",
       "line": 113
     },
     "Pinsirite": {
-      "translation": "针硅铁矿",
+      "translation": "凯罗斯进化石",
       "line": 114
     },
     "Red_Orb": {
-      "translation": "红球",
+      "translation": "朱红色宝珠",
       "line": 115
     },
     "Sablenite": {
-      "translation": "沙长石",
+      "translation": "勾魂眼进化石",
       "line": 116
     },
     "Salamencite": {
-      "translation": "萨拉门石",
+      "translation": "暴飞龙进化石",
       "line": 117
     },
     "Sceptilite": {
-      "translation": "锂辉石",
+      "translation": "蜥蜴王进化石",
       "line": 118
     },
     "Scizorite": {
-      "translation": "细长石",
+      "translation": "巨钳螳螂进化石",
       "line": 119
     },
     "Sharpedonite": {
-      "translation": "尖石",
+      "translation": "巨牙鲨进化石",
       "line": 120
     },
     "Slowbronite": {
-      "translation": "慢锰矿",
+      "translation": "呆壳兽进化石",
       "line": 121
     },
     "Steelixite": {
-      "translation": "钢石",
+      "translation": "大钢蛇进化石",
       "line": 122
     },
     "Swampertite": {
-      "translation": "沼泽矿",
+      "translation": "巨沼怪进化石",
       "line": 123
     },
     "Tyranitarite": {
-      "translation": "暴闪石",
+      "translation": "班基拉斯进化石",
       "line": 124
     },
     "Venusaurite": {
-      "translation": "金星龙石",
+      "translation": "妙蛙花进化石",
       "line": 125
     },
     "Fire_egg": {
@@ -459,7 +459,7 @@
       "line": 132
     },
     "Mystery_egg": {
-      "translation": "神秘蛋",
+      "translation": "神奇蛋",
       "line": 133
     },
     "Meteorite_Bills_Errand": {
@@ -555,39 +555,39 @@
       "line": 156
     },
     "Pokeball_Smash_Magikarp_Jump": {
-      "translation": "Pokeball_Smash_鲤鱼王_Jump",
+      "translation": "精灵球粉碎（跳跃！鲤鱼王）",
       "line": 157
     },
     "Push_Dwebble_Magikarp_Jump": {
-      "translation": "Push_石居蟹_鲤鱼王_Jump",
+      "translation": "推石居蟹（跳跃！鲤鱼王）",
       "line": 158
     },
     "Push_Boldore_Magikarp_Jump": {
-      "translation": "",
+      "translation": "推地幔岩（跳跃！鲤鱼王）",
       "line": 159
     },
     "Push_Forretress_Magikarp_Jump": {
-      "translation": "Push_佛烈托斯_鲤鱼王_Jump",
+      "translation": "推佛烈托斯（跳跃！鲤鱼王）",
       "line": 160
     },
     "Push_Golem_Magikarp_Jump": {
-      "translation": "Push_隆隆岩_鲤鱼王_Jump",
+      "translation": "推隆隆岩（跳跃！鲤鱼王）",
       "line": 161
     },
     "Push_Steelix_Magikarp_Jump": {
-      "translation": "Push_大钢蛇_鲤鱼王_Jump",
+      "translation": "推大钢蛇（跳跃！鲤鱼王）",
       "line": 162
     },
     "Prison_Bottle": {
-      "translation": "监狱瓶",
+      "translation": "惩戒之壶",
       "line": 163
     },
     "Great_Twisted_Spoon": {
-      "translation": "伟大的扭曲勺子",
+      "translation": "巨大弯曲汤匙",
       "line": 164
     },
     "Island_Challenge_Amulet": {
-      "translation": "岛屿_挑战_护身符",
+      "translation": "岛屿巡礼护身符",
       "line": 165
     },
     "Fighting_Memory_Silvally": {
@@ -663,27 +663,27 @@
       "line": 183
     },
     "Shaderoot_Carrot_Calyrex": {
-      "translation": "Shaderoot_Carrot_Calyrex",
+      "translation": "黑萝卜",
       "line": 184
     },
     "Iceroot_Carrot_Calyrex": {
-      "translation": "冰根_胡萝卜_花萼",
+      "translation": "冰萝卜",
       "line": 185
     },
     "Wishing_Piece": {
-      "translation": "许愿星",
+      "translation": "许愿星块",
       "line": 186
     },
     "Protein": {
-      "translation": "蛋白质",
+      "translation": "攻击增强剂",
       "line": 187
     },
     "Calcium": {
-      "translation": "钙",
+      "translation": "特攻增强剂",
       "line": 188
     },
     "Carbos": {
-      "translation": "增强剂",
+      "translation": "速度增强剂",
       "line": 189
     },
     "Rare_Candy": {
@@ -699,127 +699,127 @@
       "line": 192
     },
     "Rare_bone": {
-      "translation": "稀有骨",
+      "translation": "贵重骨头",
       "line": 193
     },
     "Star_piece": {
-      "translation": "明星作品",
+      "translation": "星星碎片",
       "line": 194
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 195
     },
     "Max_revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 196
     },
     "Iron_ball": {
-      "translation": "铁球",
+      "translation": "黑色铁球",
       "line": 197
     },
     "Heart_scale": {
-      "translation": "Heart_scale",
+      "translation": "心之鳞片",
       "line": 198
     },
     "Light_clay": {
-      "translation": "轻粘土",
+      "translation": "光之黏土",
       "line": 199
     },
     "Odd_keystone": {
-      "translation": "奇数梯形校正",
+      "translation": "楔石",
       "line": 200
     },
     "Hard_stone": {
-      "translation": "硬石",
+      "translation": "硬石头",
       "line": 201
     },
     "Oval_stone": {
-      "translation": "椭圆石",
+      "translation": "浑圆之石",
       "line": 202
     },
     "Smooth_rock": {
-      "translation": "平滑岩石",
+      "translation": "沙沙岩石",
       "line": 203
     },
     "Heat_rock": {
-      "translation": "热岩石",
+      "translation": "炽热岩石",
       "line": 204
     },
     "Icy_rock": {
-      "translation": "冰冷的岩石",
+      "translation": "冰冷岩石",
       "line": 205
     },
     "Damp_rock": {
-      "translation": "潮湿的岩石",
+      "translation": "潮湿岩石",
       "line": 206
     },
     "Draco_plate": {
-      "translation": "德拉科_盘",
+      "translation": "龙之石板",
       "line": 207
     },
     "Dread_plate": {
-      "translation": "恐惧板",
+      "translation": "恶颜石板",
       "line": 208
     },
     "Earth_plate": {
-      "translation": "地球板",
+      "translation": "大地石板",
       "line": 209
     },
     "Fist_plate": {
-      "translation": "拳头板",
+      "translation": "拳头石板",
       "line": 210
     },
     "Flame_plate": {
-      "translation": "火焰板",
+      "translation": "火球石板",
       "line": 211
     },
     "Icicle_plate": {
-      "translation": "冰柱_板",
+      "translation": "冰柱石板",
       "line": 212
     },
     "Insect_plate": {
-      "translation": "昆虫盘",
+      "translation": "玉虫石板",
       "line": 213
     },
     "Iron_plate": {
-      "translation": "铁板",
+      "translation": "钢铁石板",
       "line": 214
     },
     "Meadow_plate": {
-      "translation": "草地盘",
+      "translation": "碧绿石板",
       "line": 215
     },
     "Mind_plate": {
-      "translation": "思维板",
+      "translation": "神奇石板",
       "line": 216
     },
     "Sky_plate": {
-      "translation": "天空盘",
+      "translation": "蓝天石板",
       "line": 217
     },
     "Splash_plate": {
-      "translation": "飞溅板",
+      "translation": "水滴石板",
       "line": 218
     },
     "Spooky_plate": {
-      "translation": "幽灵盘",
+      "translation": "妖怪石板",
       "line": 219
     },
     "Stone_plate": {
-      "translation": "石板",
+      "translation": "岩石石板",
       "line": 220
     },
     "Toxic_plate": {
-      "translation": "有毒_板",
+      "translation": "剧毒石板",
       "line": 221
     },
     "Zap_plate": {
-      "translation": "Zap_plate",
+      "translation": "雷电石板",
       "line": 222
     },
     "Pixie_plate": {
-      "translation": "小精灵_盘",
+      "translation": "妖精石板",
       "line": 223
     },
     "Blank_plate": {
@@ -827,47 +827,47 @@
       "line": 224
     },
     "Helix_fossil": {
-      "translation": "螺旋化石",
+      "translation": "贝壳化石",
       "line": 225
     },
     "Dome_fossil": {
-      "translation": "圆顶化石",
+      "translation": "甲壳化石",
       "line": 226
     },
     "Old_amber": {
-      "translation": "老琥珀",
+      "translation": "秘密琥珀",
       "line": 227
     },
     "Root_fossil": {
-      "translation": "根化石",
+      "translation": "根状化石",
       "line": 228
     },
     "Claw_fossil": {
-      "translation": "爪化石",
+      "translation": "爪子化石",
       "line": 229
     },
     "Armor_fossil": {
-      "translation": "铠甲化石",
+      "translation": "盾甲化石",
       "line": 230
     },
     "Skull_fossil": {
-      "translation": "头骨化石",
+      "translation": "头盖化石",
       "line": 231
     },
     "Cover_fossil": {
-      "translation": "封面_化石",
+      "translation": "背盖化石",
       "line": 232
     },
     "Plume_fossil": {
-      "translation": "羽化石",
+      "translation": "羽毛化石",
       "line": 233
     },
     "Jaw_fossil": {
-      "translation": "下颌化石",
+      "translation": "颚之化石",
       "line": 234
     },
     "Sail_fossil": {
-      "translation": "帆化石",
+      "translation": "鳍之化石",
       "line": 235
     },
     "Fossilized_bird": {
@@ -883,27 +883,27 @@
       "line": 238
     },
     "Fossilized_dino": {
-      "translation": "恐龙化石",
+      "translation": "化石海兽",
       "line": 239
     },
     "Red_shard": {
-      "translation": "红_碎片",
+      "translation": "红色碎片",
       "line": 240
     },
     "Yellow_shard": {
-      "translation": "黄_碎片",
+      "translation": "黄色碎片",
       "line": 241
     },
     "Green_shard": {
-      "translation": "绿色_碎片",
+      "translation": "绿色碎片",
       "line": 242
     },
     "Blue_shard": {
-      "translation": "蓝_碎片",
+      "translation": "蓝色碎片",
       "line": 243
     },
     "Grey_shard": {
-      "translation": "灰_碎片",
+      "translation": "灰色碎片",
       "line": 244
     },
     "Purple_shard": {
@@ -911,7 +911,7 @@
       "line": 245
     },
     "Ochre_shard": {
-      "translation": "赭石_碎片",
+      "translation": "赭色碎片",
       "line": 246
     },
     "Black_shard": {
@@ -919,11 +919,11 @@
       "line": 247
     },
     "Crimson_shard": {
-      "translation": "Crimson_shard",
+      "translation": "深红碎片",
       "line": 248
     },
     "Lime_shard": {
-      "translation": "石灰_碎片",
+      "translation": "石灰碎片",
       "line": 249
     },
     "White_shard": {
@@ -931,11 +931,11 @@
       "line": 250
     },
     "Pink_shard": {
-      "translation": "粉红_碎片",
+      "translation": "粉色碎片",
       "line": 251
     },
     "Cyan_shard": {
-      "translation": "青色_碎片",
+      "translation": "青色碎片",
       "line": 252
     },
     "Rose_shard": {
@@ -947,7 +947,7 @@
       "line": 254
     },
     "Beige_shard": {
-      "translation": "米色_碎片",
+      "translation": "米色碎片",
       "line": 255
     },
     "Slate_shard": {
@@ -1391,23 +1391,23 @@
       "line": 365
     },
     "Leaf_stone": {
-      "translation": "叶石",
+      "translation": "叶之石",
       "line": 366
     },
     "Fire_stone": {
-      "translation": "火石",
+      "translation": "火之石",
       "line": 367
     },
     "Water_stone": {
-      "translation": "水石",
+      "translation": "水之石",
       "line": 368
     },
     "Thunder_stone": {
-      "translation": "雷石",
+      "translation": "雷之石",
       "line": 369
     },
     "Moon_stone": {
-      "translation": "月光石",
+      "translation": "月之石",
       "line": 370
     },
     "Linking_cord": {
@@ -1419,15 +1419,15 @@
       "line": 372
     },
     "Soothe_bell": {
-      "translation": "安抚铃",
+      "translation": "安抚之铃",
       "line": 373
     },
     "Metal_coat": {
-      "translation": "金属涂层",
+      "translation": "金属膜",
       "line": 374
     },
     "Kings_rock": {
-      "translation": "王者岩石",
+      "translation": "王者之证",
       "line": 375
     },
     "Upgrade": {
@@ -1435,11 +1435,11 @@
       "line": 376
     },
     "Dragon_scale": {
-      "translation": "龙鳞",
+      "translation": "龙之鳞片",
       "line": 377
     },
     "Prism_scale": {
-      "translation": "棱镜尺度",
+      "translation": "美丽鳞片",
       "line": 378
     },
     "Deepsea_tooth": {
@@ -1451,43 +1451,43 @@
       "line": 380
     },
     "Shiny_stone": {
-      "translation": "异色的石头",
+      "translation": "光之石",
       "line": 381
     },
     "Dusk_stone": {
-      "translation": "黄昏石",
+      "translation": "暗之石",
       "line": 382
     },
     "Dawn_stone": {
-      "translation": "黎明石",
+      "translation": "觉醒之石",
       "line": 383
     },
     "Razor_claw": {
-      "translation": "剃刀爪",
+      "translation": "锐利之爪",
       "line": 384
     },
     "Razor_fang": {
-      "translation": "剃刀牙",
+      "translation": "锐利之牙",
       "line": 385
     },
     "Electirizer": {
-      "translation": "起电器",
+      "translation": "电力增幅器",
       "line": 386
     },
     "Magmarizer": {
-      "translation": "磁化器",
+      "translation": "熔岩增幅器",
       "line": 387
     },
     "Protector": {
-      "translation": "保护者",
+      "translation": "护具",
       "line": 388
     },
     "Dubious_disc": {
-      "translation": "怪异光碟",
+      "translation": "可疑补丁",
       "line": 389
     },
     "Reaper_cloth": {
-      "translation": "收割者布",
+      "translation": "灵界之布",
       "line": 390
     },
     "Black_DNA": {
@@ -1499,19 +1499,19 @@
       "line": 392
     },
     "Sachet": {
-      "translation": "香囊",
+      "translation": "香袋",
       "line": 393
     },
     "Whipped_dream": {
-      "translation": "鞭打梦",
+      "translation": "泡沫奶油",
       "line": 394
     },
     "Key_stone": {
-      "translation": "基石",
+      "translation": "钥石",
       "line": 395
     },
     "Ice_stone": {
-      "translation": "冰石",
+      "translation": "冰之石",
       "line": 396
     },
     "Solar_light": {
@@ -1531,31 +1531,31 @@
       "line": 400
     },
     "Sweet_apple": {
-      "translation": "甜苹果",
+      "translation": "甜甜苹果",
       "line": 401
     },
     "Tart_apple": {
-      "translation": "挞苹果",
+      "translation": "酸酸苹果",
       "line": 402
     },
     "Cracked_pot": {
-      "translation": "破裂的锅",
+      "translation": "破裂的茶壶",
       "line": 403
     },
     "Galarica_cuff": {
-      "translation": "伽勒豆蔻腕带",
+      "translation": "伽勒豆蔻手环",
       "line": 404
     },
     "Galarica_wreath": {
-      "translation": "伽勒豆蔻花环",
+      "translation": "伽勒豆蔻花圈",
       "line": 405
     },
     "Black_mane_hair": {
-      "translation": "黑鬃毛",
+      "translation": "黑色鬃毛",
       "line": 406
     },
     "White_mane_hair": {
-      "translation": "白鬃毛",
+      "translation": "白色鬃毛",
       "line": 407
     },
     "Black_augurite": {
@@ -1659,59 +1659,59 @@
       "line": 432
     },
     "Muscle_Band": {
-      "translation": "肌肉带",
+      "translation": "力量头带",
       "line": 433
     },
     "Light_Ball": {
-      "translation": "光球",
+      "translation": "电气球",
       "line": 434
     },
     "Lucky_Punch": {
-      "translation": "幸运拳",
+      "translation": "吉利拳",
       "line": 435
     },
     "Quick_Powder": {
-      "translation": "快粉",
+      "translation": "速度粉",
       "line": 436
     },
     "Thick_Club": {
-      "translation": "粗俱乐部",
+      "translation": "粗骨头",
       "line": 437
     },
     "Soul_Dew": {
-      "translation": "灵魂露",
+      "translation": "心之水滴",
       "line": 438
     },
     "Adamant_Orb": {
-      "translation": "金刚球",
+      "translation": "金刚宝珠",
       "line": 439
     },
     "Lustrous_Orb": {
-      "translation": "光泽宝珠",
+      "translation": "白玉宝珠",
       "line": 440
     },
     "Griseous_Orb": {
-      "translation": "Griseous_Orb",
+      "translation": "白金宝珠",
       "line": 441
     },
     "Gracidea": {
-      "translation": "格拉西代亚",
+      "translation": "葛拉西蒂亚花",
       "line": 442
     },
     "Burn_Drive": {
-      "translation": "刻录驱动器",
+      "translation": "火焰卡带",
       "line": 443
     },
     "Chill_Drive": {
-      "translation": "冷静驾驶",
+      "translation": "冰冻卡带",
       "line": 444
     },
     "Douse_Drive": {
-      "translation": "杜斯_驱动器",
+      "translation": "水流卡带",
       "line": 445
     },
     "Shock_Drive": {
-      "translation": "冲击_驱动",
+      "translation": "闪电卡带",
       "line": 446
     },
     "Leek": {
@@ -1719,11 +1719,11 @@
       "line": 447
     },
     "Rusted_Sword": {
-      "translation": "生锈的剑",
+      "translation": "腐朽的剑",
       "line": 448
     },
     "Rusted_Shield": {
-      "translation": "生锈的盾牌",
+      "translation": "腐朽的盾",
       "line": 449
     },
     "Wellspring_Mask": {
@@ -1747,7 +1747,7 @@
       "line": 454
     },
     "Black_Glasses": {
-      "translation": "黑色_眼镜",
+      "translation": "黑色眼镜",
       "line": 455
     },
     "Charcoal": {
@@ -1755,7 +1755,7 @@
       "line": 456
     },
     "Dragon_Fang": {
-      "translation": "龙牙",
+      "translation": "龙之牙",
       "line": 457
     },
     "Magnet": {
@@ -1763,7 +1763,7 @@
       "line": 458
     },
     "Metal_Powder": {
-      "translation": "金属_粉末",
+      "translation": "金属粉",
       "line": 459
     },
     "Miracle_Seed": {
@@ -1771,11 +1771,11 @@
       "line": 460
     },
     "Mystic_Water": {
-      "translation": "神秘水",
+      "translation": "神秘水滴",
       "line": 461
     },
     "Never_Melt_Ice": {
-      "translation": "永不融化的冰",
+      "translation": "不融冰",
       "line": 462
     },
     "Fairy_Feather": {
@@ -1783,15 +1783,15 @@
       "line": 463
     },
     "Poison_Barb": {
-      "translation": "毒倒刺",
+      "translation": "毒针",
       "line": 464
     },
     "Rock_Incense": {
-      "translation": "岩石香",
+      "translation": "岩石薰香",
       "line": 465
     },
     "Sharp_Beak": {
-      "translation": "尖嘴",
+      "translation": "锐利鸟嘴",
       "line": 466
     },
     "Silk_Scarf": {
@@ -1803,15 +1803,15 @@
       "line": 468
     },
     "Soft_Sand": {
-      "translation": "软沙",
+      "translation": "柔软沙子",
       "line": 469
     },
     "Spell_Tag": {
-      "translation": "拼写标签",
+      "translation": "诅咒之符",
       "line": 470
     },
     "Twisted_Spoon": {
-      "translation": "扭曲勺子",
+      "translation": "弯曲的汤匙",
       "line": 471
     },
     "Agile_Scroll": {
@@ -1823,11 +1823,11 @@
       "line": 473
     },
     "Power_Herb": {
-      "translation": "能量草本",
+      "translation": "强力香草",
       "line": 474
     },
     "Macho_Brace": {
-      "translation": "Macho_Brace",
+      "translation": "强制锻炼器",
       "line": 475
     },
     "Power_Bracer": {

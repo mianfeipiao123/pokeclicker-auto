@@ -35,11 +35,11 @@
       "line": 33
     },
     "Water_stone": {
-      "translation": "水石",
+      "translation": "水之石",
       "line": 34
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 35
     },
     "Green": {
@@ -63,19 +63,19 @@
       "line": 42
     },
     "Red_shard": {
-      "translation": "红_碎片",
+      "translation": "红色碎片",
       "line": 43
     },
     "Blue_shard": {
-      "translation": "蓝_碎片",
+      "translation": "蓝色碎片",
       "line": 44
     },
     "Yellow_shard": {
-      "translation": "黄_碎片",
+      "translation": "黄色碎片",
       "line": 45
     },
     "Green_shard": {
-      "translation": "绿色_碎片",
+      "translation": "绿色碎片",
       "line": 46
     },
     "Orange": {
@@ -99,19 +99,19 @@
       "line": 52
     },
     "Fire_stone": {
-      "translation": "火石",
+      "translation": "火之石",
       "line": 53
     },
     "Protein": {
-      "translation": "蛋白质",
+      "translation": "攻击增强剂",
       "line": 54
     },
     "Calcium": {
-      "translation": "钙",
+      "translation": "特攻增强剂",
       "line": 55
     },
     "Carbos": {
-      "translation": "增强剂",
+      "translation": "速度增强剂",
       "line": 56
     },
     "Rare_Candy": {
@@ -139,23 +139,23 @@
       "line": 62
     },
     "Moon_stone": {
-      "translation": "月光石",
+      "translation": "月之石",
       "line": 63
     },
     "Leaf_stone": {
-      "translation": "叶石",
+      "translation": "叶之石",
       "line": 64
     },
     "Thunder_stone": {
-      "translation": "雷石",
+      "translation": "雷之石",
       "line": 65
     },
     "Heart_scale": {
-      "translation": "Heart_scale",
+      "translation": "心之鳞片",
       "line": 66
     },
     "Max_revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 67
     },
     "No orbs left.": {

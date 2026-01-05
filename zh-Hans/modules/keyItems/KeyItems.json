@@ -47,7 +47,7 @@
       "line": 25
     },
     "Coin Case": {
-      "translation": "零钱盒",
+      "translation": "代币盒",
       "line": 25
     },
     "A small bag that can hold many different types of Poké Balls.": {
@@ -83,7 +83,7 @@
       "line": 41
     },
     "Super Rod": {
-      "translation": "超级棒",
+      "translation": "厉害钓竿",
       "line": 42
     },
     "A device that allows users to see and track Achievements. Completing Achievements gives useful bonuses.": {
@@ -95,7 +95,7 @@
       "line": 44
     },
     "Holo Caster": {
-      "translation": "全息脚轮",
+      "translation": "全息影像通讯器",
       "line": 44
     },
     "A mysterious Egg obtained from Mr. Pokémon. This allows you to use the Pokémon Day Care to help improve your Pokémon Attack. Some baby Pokémon can only be found through breeding, too!": {
@@ -103,7 +103,7 @@
       "line": 45
     },
     "Mystery Egg": {
-      "translation": "神秘蛋",
+      "translation": "神奇蛋",
       "line": 46
     },
     "This ticket grants access to the Safari Zone right outside Fuchsia City.": {
@@ -119,7 +119,7 @@
       "line": 48
     },
     "Wailmer Pail": {
-      "translation": "威尔默桶",
+      "translation": "吼吼鲸喷壶",
       "line": 49
     },
     "A bag filled with convenient tools for exploring. It provides access to the Underground.": {
@@ -127,7 +127,7 @@
       "line": 51
     },
     "Explorer Kit": {
-      "translation": "探索者套件",
+      "translation": "探险套装",
       "line": 51
     },
     "A limited edition ticket for a cruise to the Southern Island.": {
@@ -135,7 +135,7 @@
       "line": 52
     },
     "Eon Ticket": {
-      "translation": "永安票",
+      "translation": "无限船票",
       "line": 52
     },
     "This calendar will keep you up to date on the latest events and let you start events early.": {
@@ -159,7 +159,7 @@
       "line": 55
     },
     "DNA Splicers": {
-      "translation": "DNA拼合器",
+      "translation": "基因之楔",
       "line": 55
     },
     "Reins that people presented to the king. They enhance Calyrex's power over bountiful harvests and unite Calyrex with its beloved steeds.": {
@@ -191,7 +191,7 @@
       "line": 73
     },
     "Z-Power_Ring": {
-      "translation": "Z-Power_Ring",
+      "translation": "Ｚ强力手环",
       "line": 80
     },
     "A gift from Melemele's kahuna that enables the use of Z-Crystals. What they do is still under development.": {
@@ -199,7 +199,7 @@
       "line": 82
     },
     "Z-Power Ring": {
-      "translation": "",
+      "translation": "Ｚ强力手环",
       "line": 83
     }
   }

@@ -43,7 +43,7 @@
       "line": 23
     },
     "Protein": {
-      "translation": "蛋白质",
+      "translation": "攻击增强剂",
       "line": 26
     },
     "Rare_Candy": {
@@ -51,11 +51,11 @@
       "line": 27
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 28
     },
     "Max Revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 29
     },
     "Exeggcute (Single)": {
@@ -67,7 +67,7 @@
       "line": 30
     },
     "Pinsirite": {
-      "translation": "针硅铁矿",
+      "translation": "凯罗斯进化石",
       "line": 31
     },
     "Pinsir": {
@@ -75,11 +75,11 @@
       "line": 31
     },
     "Nestball": {
-      "translation": "雀巢球",
+      "translation": "巢穴球",
       "line": 34
     },
     "Fastball": {
-      "translation": "快球",
+      "translation": "速度球",
       "line": 35
     },
     "Luxuryball": {
@@ -87,19 +87,19 @@
       "line": 36
     },
     "Boost_Mulch": {
-      "translation": "增强肥料",
+      "translation": "劲劲肥",
       "line": 39
     },
     "Rich_Mulch": {
-      "translation": "丰富的肥料",
+      "translation": "硕果肥",
       "line": 40
     },
     "Surprise_Mulch": {
-      "translation": "惊喜_肥料",
+      "translation": "吃惊肥",
       "line": 41
     },
     "Amaze_Mulch": {
-      "translation": "惊奇_肥料",
+      "translation": "超效肥",
       "line": 42
     },
     "Freeze_Mulch": {
@@ -123,7 +123,7 @@
       "line": 48
     },
     "Calcium": {
-      "translation": "钙",
+      "translation": "特攻增强剂",
       "line": 53
     },
     "Black Shard": {
@@ -143,87 +143,87 @@
       "line": 58
     },
     "Dawn Stone": {
-      "translation": "黎明石",
+      "translation": "觉醒之石",
       "line": 59
     },
     "Dusk Stone": {
-      "translation": "黄昏石",
+      "translation": "暗之石",
       "line": 60
     },
     "Shiny Stone": {
-      "translation": "异色的石头",
+      "translation": "光之石",
       "line": 61
     },
     "Odd Keystone": {
-      "translation": "奇数梯形校正",
+      "translation": "楔石",
       "line": 62
     },
     "Draco Plate": {
-      "translation": "德拉科板甲",
+      "translation": "龙之石板",
       "line": 63
     },
     "Dread Plate": {
-      "translation": "恐惧板甲",
+      "translation": "恶颜石板",
       "line": 64
     },
     "Earth Plate": {
-      "translation": "地球板",
+      "translation": "大地石板",
       "line": 65
     },
     "Fist Plate": {
-      "translation": "拳头板",
+      "translation": "拳头石板",
       "line": 66
     },
     "Flame Plate": {
-      "translation": "火焰板",
+      "translation": "火球石板",
       "line": 67
     },
     "Icicle Plate": {
-      "translation": "冰柱板",
+      "translation": "冰柱石板",
       "line": 68
     },
     "Insect Plate": {
-      "translation": "昆虫盘",
+      "translation": "玉虫石板",
       "line": 69
     },
     "Iron Plate": {
-      "translation": "铁板",
+      "translation": "钢铁石板",
       "line": 70
     },
     "Meadow Plate": {
-      "translation": "草甸板",
+      "translation": "碧绿石板",
       "line": 71
     },
     "Mind Plate": {
-      "translation": "思维板",
+      "translation": "神奇石板",
       "line": 72
     },
     "Pixie Plate": {
-      "translation": "精灵盘",
+      "translation": "妖精石板",
       "line": 73
     },
     "Sky Plate": {
-      "translation": "天空板",
+      "translation": "蓝天石板",
       "line": 74
     },
     "Splash Plate": {
-      "translation": "防溅板",
+      "translation": "水滴石板",
       "line": 75
     },
     "Spooky Plate": {
-      "translation": "幽灵盘",
+      "translation": "妖怪石板",
       "line": 76
     },
     "Stone Plate": {
-      "translation": "石板",
+      "translation": "岩石石板",
       "line": 77
     },
     "Toxic Plate": {
-      "translation": "剧毒板",
+      "translation": "剧毒石板",
       "line": 78
     },
     "Zap Plate": {
-      "translation": "电击板",
+      "translation": "雷电石板",
       "line": 79
     },
     "Mago": {
@@ -247,11 +247,11 @@
       "line": 87
     },
     "Carbos": {
-      "translation": "增强剂",
+      "translation": "速度增强剂",
       "line": 91
     },
     "Duskball": {
-      "translation": "黄昏球",
+      "translation": "黑暗球",
       "line": 94
     },
     "Repeatball": {
@@ -259,11 +259,11 @@
       "line": 96
     },
     "Star Piece": {
-      "translation": "星星片",
+      "translation": "星星碎片",
       "line": 97
     },
     "Scizorite": {
-      "translation": "细长石",
+      "translation": "巨钳螳螂进化石",
       "line": 99
     },
     "Scizor": {
@@ -287,7 +287,7 @@
       "line": 106
     },
     "Damp Rock": {
-      "translation": "潮湿的岩石",
+      "translation": "潮湿岩石",
       "line": 107
     },
     "Magikarp_Biscuit": {
@@ -295,7 +295,7 @@
       "line": 110
     },
     "Diveball": {
-      "translation": "跳水球",
+      "translation": "潜水球",
       "line": 111
     }
   }

@@ -215,7 +215,7 @@
       "line": 611
     },
     "Black_Glasses": {
-      "translation": "黑色_眼镜",
+      "translation": "黑色眼镜",
       "line": 612
     },
     "Squad Leader Squirtle": {
@@ -547,7 +547,7 @@
       "line": 2192
     },
     "Moon_stone": {
-      "translation": "月光石",
+      "translation": "月之石",
       "line": 2201
     },
     "Vulpix": {
@@ -767,7 +767,7 @@
       "line": 3112
     },
     "Kings_rock": {
-      "translation": "王者岩石",
+      "translation": "王者之证",
       "line": 3121
     },
     "Abra": {
@@ -863,7 +863,7 @@
       "line": 3532
     },
     "Hard Stone": {
-      "translation": "坚硬的石头",
+      "translation": "硬石头",
       "line": 3541
     },
     "Alolan Golem": {
@@ -923,7 +923,7 @@
       "line": 3776
     },
     "Metal_coat": {
-      "translation": "金属涂层",
+      "translation": "金属膜",
       "line": 3785
     },
     "Magnezone": {
@@ -1031,7 +1031,7 @@
       "line": 4195
     },
     "Ice Stone": {
-      "translation": "冰石",
+      "translation": "冰之石",
       "line": 4204
     },
     "Onix (Rocker)": {
@@ -1111,11 +1111,11 @@
       "line": 4523
     },
     "Rare Bone": {
-      "translation": "稀有骨头",
+      "translation": "贵重骨头",
       "line": 4533
     },
     "Thick_Club": {
-      "translation": "粗俱乐部",
+      "translation": "粗骨头",
       "line": 4570
     },
     "Totem Marowak": {
@@ -1183,7 +1183,7 @@
       "line": 4814
     },
     "Lucky_Punch": {
-      "translation": "幸运拳",
+      "translation": "吉利拳",
       "line": 4823
     },
     "Charity Chansey": {
@@ -1231,7 +1231,7 @@
       "line": 4956
     },
     "Dragon_scale": {
-      "translation": "龙鳞",
+      "translation": "龙之鳞片",
       "line": 4965
     },
     "Kingdra": {
@@ -1307,7 +1307,7 @@
       "line": 5214
     },
     "Electirizer": {
-      "translation": "起电器",
+      "translation": "电力增幅器",
       "line": 5223
     },
     "Pinkan Electabuzz": {
@@ -1323,7 +1323,7 @@
       "line": 5256
     },
     "Magmarizer": {
-      "translation": "磁化器",
+      "translation": "熔岩增幅器",
       "line": 5265
     },
     "Pinsir": {
@@ -2255,7 +2255,7 @@
       "line": 9479
     },
     "Oval Stone": {
-      "translation": "椭圆形石",
+      "translation": "浑圆之石",
       "line": 9513
     },
     "Raikou": {
@@ -2379,7 +2379,7 @@
       "line": 10107
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 10116
     },
     "Galarian Zigzagoon": {
@@ -2391,7 +2391,7 @@
       "line": 10127
     },
     "Max Revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 10153
     },
     "Obstagoon": {
@@ -2575,7 +2575,7 @@
       "line": 10933
     },
     "Iron Ball": {
-      "translation": "铁球",
+      "translation": "黑色铁球",
       "line": 10942
     },
     "Aron": {
@@ -2915,7 +2915,7 @@
       "line": 12404
     },
     "Heart Scale": {
-      "translation": "心脏量表",
+      "translation": "心之鳞片",
       "line": 12418
     },
     "Bagon": {
@@ -2971,7 +2971,7 @@
       "line": 12651
     },
     "Soul_Dew": {
-      "translation": "灵魂露",
+      "translation": "心之水滴",
       "line": 12663
     },
     "Latios": {
@@ -3015,7 +3015,7 @@
       "line": 12872
     },
     "Star Piece": {
-      "translation": "星星片",
+      "translation": "星星碎片",
       "line": 12886
     },
     "Deoxys": {
@@ -3435,7 +3435,7 @@
       "line": 15421
     },
     "Adamant_Orb": {
-      "translation": "金刚球",
+      "translation": "金刚宝珠",
       "line": 15427
     },
     "Dialga (Origin)": {
@@ -3447,7 +3447,7 @@
       "line": 15461
     },
     "Lustrous_Orb": {
-      "translation": "光泽宝珠",
+      "translation": "白玉宝珠",
       "line": 15467
     },
     "Palkia (Origin)": {
@@ -3467,7 +3467,7 @@
       "line": 15538
     },
     "Griseous_Orb": {
-      "translation": "Griseous_Orb",
+      "translation": "白金宝珠",
       "line": 15544
     },
     "Giratina (Origin)": {
@@ -3495,7 +3495,7 @@
       "line": 15664
     },
     "Gracidea": {
-      "translation": "格拉西代亚",
+      "translation": "葛拉西蒂亚花",
       "line": 15669
     },
     "Shaymin (Sky)": {
@@ -4343,7 +4343,7 @@
       "line": 19540
     },
     "Burn_Drive": {
-      "translation": "刻录驱动器",
+      "translation": "火焰卡带",
       "line": 19547
     },
     "Genesect (Burn)": {
@@ -4351,7 +4351,7 @@
       "line": 19547
     },
     "Chill_Drive": {
-      "translation": "冷静驾驶",
+      "translation": "冰冻卡带",
       "line": 19548
     },
     "Genesect (Chill)": {
@@ -4359,7 +4359,7 @@
       "line": 19548
     },
     "Douse_Drive": {
-      "translation": "杜斯_驱动器",
+      "translation": "水流卡带",
       "line": 19549
     },
     "Genesect (Douse)": {
@@ -4367,7 +4367,7 @@
       "line": 19549
     },
     "Shock_Drive": {
-      "translation": "冲击_驱动",
+      "translation": "闪电卡带",
       "line": 19550
     },
     "Genesect (Shock)": {
@@ -5307,7 +5307,7 @@
       "line": 23961
     },
     "Razor_fang": {
-      "translation": "剃刀牙",
+      "translation": "锐利之牙",
       "line": 23975
     },
     "Drampa": {
@@ -5327,7 +5327,7 @@
       "line": 24022
     },
     "Razor_claw": {
-      "translation": "剃刀爪",
+      "translation": "锐利之爪",
       "line": 24031
     },
     "Kommo-o": {
@@ -6135,7 +6135,7 @@
       "line": 28170
     },
     "Rusted_Sword": {
-      "translation": "生锈的剑",
+      "translation": "腐朽的剑",
       "line": 28181
     },
     "Zacian (Crowned Sword)": {
@@ -6147,7 +6147,7 @@
       "line": 28213
     },
     "Rusted_Shield": {
-      "translation": "生锈的盾牌",
+      "translation": "腐朽的盾",
       "line": 28224
     },
     "Zamazenta (Crowned Shield)": {
@@ -6211,7 +6211,7 @@
       "line": 28506
     },
     "White_mane_hair": {
-      "translation": "白鬃毛",
+      "translation": "白色鬃毛",
       "line": 28520
     },
     "Spectrier": {
@@ -6219,7 +6219,7 @@
       "line": 28527
     },
     "Black_mane_hair": {
-      "translation": "黑鬃毛",
+      "translation": "黑色鬃毛",
       "line": 28541
     },
     "Calyrex": {

@@ -695,7 +695,7 @@
       "line": 732
     },
     "Light_Ball": {
-      "translation": "光球",
+      "translation": "电气球",
       "line": 736
     },
     "You were awarded a Light Ball for defeating Red.": {
@@ -2855,7 +2855,7 @@
       "line": 2651
     },
     "Key_stone": {
-      "translation": "基石",
+      "translation": "钥石",
       "line": 2654
     },
     "You were awarded a Key Stone from Wallace!": {
@@ -4311,7 +4311,7 @@
       "line": 3946
     },
     "Z-Power_Ring": {
-      "translation": "Z-Power_Ring",
+      "translation": "Ｚ强力手环",
       "line": 3950
     },
     "Skull 1": {

@@ -33,11 +33,11 @@
       "line": 65
     },
     "Greatball": {
-      "translation": "伟大的球",
+      "translation": "超级球",
       "line": 67
     },
     "Ultraball": {
-      "translation": "超级球",
+      "translation": "高级球",
       "line": 68
     },
     "Rare_Candy": {
@@ -53,19 +53,19 @@
       "line": 73
     },
     "Water_stone": {
-      "translation": "水石",
+      "translation": "水之石",
       "line": 74
     },
     "Leaf_stone": {
-      "translation": "叶石",
+      "translation": "叶之石",
       "line": 75
     },
     "Thunder_stone": {
-      "translation": "雷石",
+      "translation": "雷之石",
       "line": 76
     },
     "Fire_stone": {
-      "translation": "火石",
+      "translation": "火之石",
       "line": 77
     },
     "Deoxys (Attack)": {
@@ -81,15 +81,15 @@
       "line": 81
     },
     "Dowsing_machine": {
-      "translation": "探矿机",
+      "translation": "探宝器",
       "line": 82
     },
     "Mystery_egg": {
-      "translation": "神秘蛋",
+      "translation": "神奇蛋",
       "line": 83
     },
     "Moon_stone": {
-      "translation": "月光石",
+      "translation": "月之石",
       "line": 88
     },
     "Deoxys (Defense)": {
@@ -101,7 +101,7 @@
       "line": 92
     },
     "Dragon_scale": {
-      "translation": "龙鳞",
+      "translation": "龙之鳞片",
       "line": 93
     },
     "Sun_stone": {
@@ -109,11 +109,11 @@
       "line": 94
     },
     "Kings_rock": {
-      "translation": "王者岩石",
+      "translation": "王者之证",
       "line": 95
     },
     "Metal_coat": {
-      "translation": "金属涂层",
+      "translation": "金属膜",
       "line": 96
     },
     "Upgrade": {
@@ -125,7 +125,7 @@
       "line": 99
     },
     "Soothe_bell": {
-      "translation": "安抚铃",
+      "translation": "安抚之铃",
       "line": 100
     },
     "Deepsea_tooth": {
@@ -133,7 +133,7 @@
       "line": 101
     },
     "Shiny_stone": {
-      "translation": "异色的石头",
+      "translation": "光之石",
       "line": 102
     },
     "Deepsea_scale": {
@@ -141,47 +141,47 @@
       "line": 103
     },
     "Dusk_stone": {
-      "translation": "黄昏石",
+      "translation": "暗之石",
       "line": 104
     },
     "Prism_scale": {
-      "translation": "棱镜尺度",
+      "translation": "美丽鳞片",
       "line": 105
     },
     "Dawn_stone": {
-      "translation": "黎明石",
+      "translation": "觉醒之石",
       "line": 106
     },
     "Razor_claw": {
-      "translation": "剃刀爪",
+      "translation": "锐利之爪",
       "line": 107
     },
     "Razor_fang": {
-      "translation": "剃刀牙",
+      "translation": "锐利之牙",
       "line": 108
     },
     "Dubious_disc": {
-      "translation": "怪异光碟",
+      "translation": "可疑补丁",
       "line": 109
     },
     "Magmarizer": {
-      "translation": "磁化器",
+      "translation": "熔岩增幅器",
       "line": 111
     },
     "Electirizer": {
-      "translation": "起电器",
+      "translation": "电力增幅器",
       "line": 112
     },
     "Protector": {
-      "translation": "保护者",
+      "translation": "护具",
       "line": 113
     },
     "Reaper_cloth": {
-      "translation": "收割者布",
+      "translation": "灵界之布",
       "line": 114
     },
     "Sachet": {
-      "translation": "香囊",
+      "translation": "香袋",
       "line": 115
     },
     "Vivillon (Poké Ball)": {
@@ -193,11 +193,11 @@
       "line": 116
     },
     "Whipped_dream": {
-      "translation": "鞭打梦",
+      "translation": "泡沫奶油",
       "line": 117
     },
     "Lopunnite": {
-      "translation": "长辉石",
+      "translation": "长耳兔进化石",
       "line": 118
     },
     "Lopunny": {
@@ -205,7 +205,7 @@
       "line": 118
     },
     "Ice_stone": {
-      "translation": "冰石",
+      "translation": "冰之石",
       "line": 119
     },
     "Masterball": {

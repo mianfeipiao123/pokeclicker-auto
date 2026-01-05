@@ -3279,7 +3279,7 @@
       "_confidence": 0.95
     },
     "EON-TICKET": {
-      "translation": "EON-票务",
+      "translation": "无限船票",
       "line": 2671
     },
     "Surfer Dave": {
@@ -9257,7 +9257,7 @@
       "line": 7198
     },
     "Oh, and here, $playername$. Some Revives. It's the least I can do after all the running around I've made you do.": {
-      "translation": "哦，这里是$playername$。有些复活了。在我让你跑来跑去之后，这是我至少能做的了。",
+      "translation": "哦对了，$playername$，再给你一些活力碎片。让你跑了这么多趟，这是我至少能做的事。",
       "line": 7199
     },
     "assets/images/npcs/Lillie.png": {

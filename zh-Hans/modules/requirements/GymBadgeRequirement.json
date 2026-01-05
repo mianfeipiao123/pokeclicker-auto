@@ -29,7 +29,7 @@
       "_confidence": 0.85
     },
     "Requires the ${...} badge.": {
-      "translation": "需要 ${...} 徽章。",
+      "translation": "需要${...}徽章。",
       "line": 19,
       "_rematchedFrom": "Requires the ${...} badge.",
       "_confidence": 0.85

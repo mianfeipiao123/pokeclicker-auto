@@ -105,7 +105,7 @@
       "line": 65
     },
     "everstone": {
-      "translation": "永石",
+      "translation": "不变之石",
       "line": 72
     },
     "Everstone": {
@@ -133,7 +133,7 @@
       "line": 88
     },
     "Dragon_Fang": {
-      "translation": "龙牙",
+      "translation": "龙之牙",
       "line": 88
     },
     "Magnet": {
@@ -149,11 +149,11 @@
       "line": 89
     },
     "Mystic_Water": {
-      "translation": "神秘水",
+      "translation": "神秘水滴",
       "line": 89
     },
     "Never_Melt_Ice": {
-      "translation": "永不融化的冰",
+      "translation": "不融冰",
       "line": 89
     },
     "Fairy_Feather": {
@@ -161,15 +161,15 @@
       "line": 89
     },
     "Poison_Barb": {
-      "translation": "毒倒刺",
+      "translation": "毒针",
       "line": 89
     },
     "Rock_Incense": {
-      "translation": "岩石香",
+      "translation": "岩石薰香",
       "line": 89
     },
     "Sharp_Beak": {
-      "translation": "尖嘴",
+      "translation": "锐利鸟嘴",
       "line": 90
     },
     "Silk_Scarf": {
@@ -181,15 +181,15 @@
       "line": 90
     },
     "Soft_Sand": {
-      "translation": "软沙",
+      "translation": "柔软沙子",
       "line": 90
     },
     "Spell_Tag": {
-      "translation": "拼写标签",
+      "translation": "诅咒之符",
       "line": 90
     },
     "Twisted_Spoon": {
-      "translation": "扭曲勺子",
+      "translation": "弯曲的汤匙",
       "line": 90
     },
     "You gained 3 random Held Items, that boosts a specific type!": {
@@ -197,7 +197,7 @@
       "line": 95
     },
     "eon-ticket": {
-      "translation": "",
+      "translation": "无限船票",
       "line": 103
     },
     "You got an Eon Ticket!": {
@@ -205,7 +205,7 @@
       "line": 109
     },
     "ampharosite": {
-      "translation": "两性石",
+      "translation": "电龙进化石",
       "line": 117
     },
     "You gained an Ampharosite!": {

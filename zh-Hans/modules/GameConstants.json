@@ -131,11 +131,11 @@
       "line": 477
     },
     "Fastball": {
-      "translation": "快球",
+      "translation": "速度球",
       "line": 478
     },
     "Quickball": {
-      "translation": "快球",
+      "translation": "先机球",
       "line": 479
     },
     "Timerball": {
@@ -143,7 +143,7 @@
       "line": 480
     },
     "Duskball": {
-      "translation": "黄昏球",
+      "translation": "黑暗球",
       "line": 481
     },
     "Luxuryball": {
@@ -163,7 +163,7 @@
       "line": 485
     },
     "Repeatball": {
-      "translation": "先机球",
+      "translation": "重复球",
       "line": 486
     },
     "Beastball": {
@@ -1553,23 +1553,23 @@
       "line": 1003
     },
     "Leaf_stone": {
-      "translation": "叶石",
+      "translation": "叶之石",
       "line": 1032
     },
     "Fire_stone": {
-      "translation": "火石",
+      "translation": "火之石",
       "line": 1033
     },
     "Water_stone": {
-      "translation": "水石",
+      "translation": "水之石",
       "line": 1034
     },
     "Thunder_stone": {
-      "translation": "雷石",
+      "translation": "雷之石",
       "line": 1035
     },
     "Moon_stone": {
-      "translation": "月光石",
+      "translation": "月之石",
       "line": 1036
     },
     "Linking_cord": {
@@ -1581,15 +1581,15 @@
       "line": 1038
     },
     "Soothe_bell": {
-      "translation": "安抚铃",
+      "translation": "安抚之铃",
       "line": 1039
     },
     "Metal_coat": {
-      "translation": "金属涂层",
+      "translation": "金属膜",
       "line": 1040
     },
     "Kings_rock": {
-      "translation": "王者岩石",
+      "translation": "王者之证",
       "line": 1041
     },
     "Upgrade": {
@@ -1597,11 +1597,11 @@
       "line": 1042
     },
     "Dragon_scale": {
-      "translation": "龙鳞",
+      "translation": "龙之鳞片",
       "line": 1043
     },
     "Prism_scale": {
-      "translation": "棱镜尺度",
+      "translation": "美丽鳞片",
       "line": 1044
     },
     "Deepsea_tooth": {
@@ -1613,43 +1613,43 @@
       "line": 1046
     },
     "Shiny_stone": {
-      "translation": "异色的石头",
+      "translation": "光之石",
       "line": 1047
     },
     "Dusk_stone": {
-      "translation": "黄昏石",
+      "translation": "暗之石",
       "line": 1048
     },
     "Dawn_stone": {
-      "translation": "黎明石",
+      "translation": "觉醒之石",
       "line": 1049
     },
     "Razor_claw": {
-      "translation": "剃刀爪",
+      "translation": "锐利之爪",
       "line": 1050
     },
     "Razor_fang": {
-      "translation": "剃刀牙",
+      "translation": "锐利之牙",
       "line": 1051
     },
     "Electirizer": {
-      "translation": "起电器",
+      "translation": "电力增幅器",
       "line": 1052
     },
     "Magmarizer": {
-      "translation": "磁化器",
+      "translation": "熔岩增幅器",
       "line": 1053
     },
     "Protector": {
-      "translation": "保护者",
+      "translation": "护具",
       "line": 1054
     },
     "Dubious_disc": {
-      "translation": "怪异光碟",
+      "translation": "可疑补丁",
       "line": 1055
     },
     "Reaper_cloth": {
-      "translation": "收割者布",
+      "translation": "灵界之布",
       "line": 1056
     },
     "Black_DNA": {
@@ -1661,19 +1661,19 @@
       "line": 1058
     },
     "Sachet": {
-      "translation": "香囊",
+      "translation": "香袋",
       "line": 1059
     },
     "Whipped_dream": {
-      "translation": "鞭打梦",
+      "translation": "泡沫奶油",
       "line": 1060
     },
     "Key_stone": {
-      "translation": "基石",
+      "translation": "钥石",
       "line": 1061
     },
     "Ice_stone": {
-      "translation": "冰石",
+      "translation": "冰之石",
       "line": 1062
     },
     "Solar_light": {
@@ -1693,31 +1693,31 @@
       "line": 1066
     },
     "Sweet_apple": {
-      "translation": "甜苹果",
+      "translation": "甜甜苹果",
       "line": 1067
     },
     "Tart_apple": {
-      "translation": "挞苹果",
+      "translation": "酸酸苹果",
       "line": 1068
     },
     "Cracked_pot": {
-      "translation": "破裂的锅",
+      "translation": "破裂的茶壶",
       "line": 1069
     },
     "Galarica_cuff": {
-      "translation": "伽勒豆蔻腕带",
+      "translation": "伽勒豆蔻手环",
       "line": 1070
     },
     "Galarica_wreath": {
-      "translation": "伽勒豆蔻花环",
+      "translation": "伽勒豆蔻花圈",
       "line": 1071
     },
     "Black_mane_hair": {
-      "translation": "黑鬃毛",
+      "translation": "黑色鬃毛",
       "line": 1072
     },
     "White_mane_hair": {
-      "translation": "白鬃毛",
+      "translation": "白色鬃毛",
       "line": 1073
     },
     "Black_augurite": {
@@ -1765,7 +1765,7 @@
       "line": 1089
     },
     "Dowsing_machine": {
-      "translation": "探矿机",
+      "translation": "探宝器",
       "line": 1090
     },
     "Lucky_incense": {
@@ -1773,11 +1773,11 @@
       "line": 1091
     },
     "Yellow_Flute": {
-      "translation": "黄笛",
+      "translation": "黄色玻璃哨",
       "line": 1095
     },
     "Black_Flute": {
-      "translation": "黑笛",
+      "translation": "黑色玻璃哨",
       "line": 1096
     },
     "Time_Flute": {
@@ -1785,15 +1785,15 @@
       "line": 1097
     },
     "Red_Flute": {
-      "translation": "红笛",
+      "translation": "红色玻璃哨",
       "line": 1098
     },
     "White_Flute": {
-      "translation": "白笛",
+      "translation": "白色玻璃哨",
       "line": 1099
     },
     "Blue_Flute": {
-      "translation": "蓝笛",
+      "translation": "蓝色玻璃哨",
       "line": 1100
     },
     "Pinkan Arbok": {
@@ -2117,7 +2117,7 @@
       "line": 1220
     },
     "Mystery_egg": {
-      "translation": "神秘蛋",
+      "translation": "神奇蛋",
       "line": 1221
     },
     "Celadon City": {
@@ -4645,31 +4645,31 @@
       "line": 2450
     },
     "Strawberry Sweet": {
-      "translation": "草莓甜",
+      "translation": "草莓糖饰",
       "line": 2456
     },
     "Love Sweet": {
-      "translation": "爱甜甜",
+      "translation": "爱心糖饰",
       "line": 2457
     },
     "Berry Sweet": {
-      "translation": "树果甜",
+      "translation": "野莓糖饰",
       "line": 2458
     },
     "Clover Sweet": {
-      "translation": "三叶草甜",
+      "translation": "幸运草糖饰",
       "line": 2459
     },
     "Flower Sweet": {
-      "translation": "花甜",
+      "translation": "花朵糖饰",
       "line": 2460
     },
     "Star Sweet": {
-      "translation": "星甜",
+      "translation": "星星糖饰",
       "line": 2461
     },
     "Ribbon Sweet": {
-      "translation": "丝带甜",
+      "translation": "蝴蝶结糖饰",
       "line": 2462
     },
     "Nidoran(F)": {

@@ -131,11 +131,11 @@
       "line": 187
     },
     "Light_Ball": {
-      "translation": "光球",
+      "translation": "电气球",
       "line": 189
     },
     "Light Ball": {
-      "translation": "光球",
+      "translation": "电气球",
       "line": 189
     },
     "Pikachu": {
@@ -143,11 +143,11 @@
       "line": 189
     },
     "Lucky_Punch": {
-      "translation": "幸运拳",
+      "translation": "吉利拳",
       "line": 191
     },
     "Lucky Punch": {
-      "translation": "幸运拳",
+      "translation": "吉利拳",
       "line": 191
     },
     "Happiny, Chansey or Blissey": {
@@ -191,11 +191,11 @@
       "line": 197
     },
     "Adamant_Orb": {
-      "translation": "金刚玉",
+      "translation": "金刚宝珠",
       "line": 199
     },
     "Adamant Orb": {
-      "translation": "金刚玉",
+      "translation": "金刚宝珠",
       "line": 199
     },
     "Dialga": {
@@ -203,11 +203,11 @@
       "line": 199
     },
     "Lustrous_Orb": {
-      "translation": "白玉",
+      "translation": "白玉宝珠",
       "line": 201
     },
     "Lustrous Orb": {
-      "translation": "白玉",
+      "translation": "白玉宝珠",
       "line": 201
     },
     "Palkia": {
@@ -215,11 +215,11 @@
       "line": 201
     },
     "Griseous_Orb": {
-      "translation": "白金玉",
+      "translation": "白金宝珠",
       "line": 203
     },
     "Griseous Orb": {
-      "translation": "白金玉",
+      "translation": "白金宝珠",
       "line": 203
     },
     "Giratina": {
@@ -227,7 +227,7 @@
       "line": 203
     },
     "Gracidea": {
-      "translation": "葛拉西蒂亚",
+      "translation": "葛拉西蒂亚花",
       "line": 205
     },
     "Shaymin": {
@@ -291,11 +291,11 @@
       "line": 217
     },
     "Rusted_Sword": {
-      "translation": "腐朽之剑",
+      "translation": "腐朽的剑",
       "line": 219
     },
     "Rusted Sword": {
-      "translation": "腐朽之剑",
+      "translation": "腐朽的剑",
       "line": 219
     },
     "Zacian": {
@@ -303,11 +303,11 @@
       "line": 219
     },
     "Rusted_Shield": {
-      "translation": "腐朽之盾",
+      "translation": "腐朽的盾",
       "line": 221
     },
     "Rusted Shield": {
-      "translation": "腐朽之盾",
+      "translation": "腐朽的盾",
       "line": 221
     },
     "Zamazenta": {
@@ -379,11 +379,11 @@
       "line": 236
     },
     "Dragon_Fang": {
-      "translation": "龙牙",
+      "translation": "龙之牙",
       "line": 237
     },
     "Dragon Fang": {
-      "translation": "龙牙",
+      "translation": "龙之牙",
       "line": 237
     },
     "Magnet": {
@@ -395,7 +395,7 @@
       "line": 239
     },
     "Metal Powder": {
-      "translation": "金属粉末",
+      "translation": "金属粉",
       "line": 239
     },
     "Miracle_Seed": {
@@ -407,19 +407,19 @@
       "line": 240
     },
     "Mystic_Water": {
-      "translation": "神秘水",
+      "translation": "神秘水滴",
       "line": 241
     },
     "Mystic Water": {
-      "translation": "神秘水",
+      "translation": "神秘水滴",
       "line": 241
     },
     "Never_Melt_Ice": {
-      "translation": "永不融化的冰",
+      "translation": "不融冰",
       "line": 242
     },
     "Never-Melt Ice": {
-      "translation": "永不融化的冰",
+      "translation": "不融冰",
       "line": 242
     },
     "Fairy_Feather": {
@@ -431,27 +431,27 @@
       "line": 243
     },
     "Poison_Barb": {
-      "translation": "毒倒刺",
+      "translation": "毒针",
       "line": 244
     },
     "Poison Barb": {
-      "translation": "毒倒刺",
+      "translation": "毒针",
       "line": 244
     },
     "Rock_Incense": {
-      "translation": "岩石香",
+      "translation": "岩石薰香",
       "line": 245
     },
     "Rock Incense": {
-      "translation": "岩香",
+      "translation": "岩石薰香",
       "line": 245
     },
     "Sharp_Beak": {
-      "translation": "尖嘴",
+      "translation": "锐利鸟嘴",
       "line": 246
     },
     "Sharp Beak": {
-      "translation": "尖嘴",
+      "translation": "锐利鸟嘴",
       "line": 246
     },
     "Silk_Scarf": {
@@ -459,7 +459,7 @@
       "line": 247
     },
     "Silk Scarf": {
-      "translation": "真丝围巾",
+      "translation": "丝绸围巾",
       "line": 247
     },
     "Silver_Powder": {
@@ -471,27 +471,27 @@
       "line": 248
     },
     "Soft_Sand": {
-      "translation": "软沙",
+      "translation": "柔软沙子",
       "line": 249
     },
     "Soft Sand": {
-      "translation": "软沙",
+      "translation": "柔软沙子",
       "line": 249
     },
     "Spell_Tag": {
-      "translation": "拼写标签",
+      "translation": "诅咒之符",
       "line": 250
     },
     "Spell Tag": {
-      "translation": "拼写标签",
+      "translation": "诅咒之符",
       "line": 250
     },
     "Twisted_Spoon": {
-      "translation": "扭曲勺子",
+      "translation": "弯曲的汤匙",
       "line": 251
     },
     "Twisted Spoon": {
-      "translation": "扭勺",
+      "translation": "弯曲的汤匙",
       "line": 251
     },
     "Agile_Scroll": {
@@ -511,11 +511,11 @@
       "line": 254
     },
     "Power_Herb": {
-      "translation": "能量草本",
+      "translation": "强力香草",
       "line": 256
     },
     "Power Herb": {
-      "translation": "强力药草",
+      "translation": "强力香草",
       "line": 256
     },
     "in the Battle Frontier": {
@@ -529,7 +529,7 @@
       "line": 259
     },
     "Macho Brace": {
-      "translation": "男子气概的支撑",
+      "translation": "强制锻炼器",
       "line": 259
     },
     "Power_Bracer": {
@@ -537,7 +537,7 @@
       "line": 260
     },
     "Power Bracer": {
-      "translation": "动力护腕",
+      "translation": "力量护腕",
       "line": 260
     },
     "Everstone": {

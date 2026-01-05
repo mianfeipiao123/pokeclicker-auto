@@ -253,15 +253,15 @@
       "line": 675
     },
     "Dowsing_machine": {
-      "translation": "探矿机",
+      "translation": "探宝器",
       "line": 691
     },
     "Greatball": {
-      "translation": "伟大的球",
+      "translation": "超级球",
       "line": 694
     },
     "Star Piece": {
-      "translation": "星星片",
+      "translation": "星星碎片",
       "line": 696
     },
     "Grimer": {
@@ -327,7 +327,7 @@
       "line": 744
     },
     "Max Revive": {
-      "translation": "最大复活",
+      "translation": "活力块",
       "line": 745
     },
     "Dugtrio": {
@@ -451,15 +451,15 @@
       "line": 850
     },
     "Oval Stone": {
-      "translation": "椭圆形石",
+      "translation": "浑圆之石",
       "line": 856
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 857
     },
     "Heart Scale": {
-      "translation": "心脏量表",
+      "translation": "心之鳞片",
       "line": 861
     },
     "Ariana": {
@@ -487,7 +487,7 @@
       "line": 941
     },
     "Nestball": {
-      "translation": "雀巢球",
+      "translation": "巢穴球",
       "line": 957
     },
     "Team Rocket Boss": {
@@ -583,11 +583,11 @@
       "line": 1047
     },
     "Rare Bone": {
-      "translation": "稀有骨头",
+      "translation": "贵重骨头",
       "line": 1057
     },
     "Ultraball": {
-      "translation": "超级球",
+      "translation": "高级球",
       "line": 1058
     },
     "Marowak": {
@@ -1159,7 +1159,7 @@
       "line": 1654
     },
     "Protein": {
-      "translation": "蛋白质",
+      "translation": "攻击增强剂",
       "line": 1674
     },
     "Mewtwo": {
@@ -1227,15 +1227,15 @@
       "line": 1725
     },
     "Splash Plate": {
-      "translation": "防溅板",
+      "translation": "水滴石板",
       "line": 1729
     },
     "Icicle Plate": {
-      "translation": "冰柱板",
+      "translation": "冰柱石板",
       "line": 1730
     },
     "Never_Melt_Ice": {
-      "translation": "永不融化的冰",
+      "translation": "不融冰",
       "line": 1734
     },
     "Sunburst Island": {
@@ -1255,15 +1255,15 @@
       "line": 1751
     },
     "Flame Plate": {
-      "translation": "火焰板",
+      "translation": "火球石板",
       "line": 1763
     },
     "Heat Rock": {
-      "translation": "热岩石",
+      "translation": "炽热岩石",
       "line": 1766
     },
     "Icy Rock": {
-      "translation": "冰冷的岩石",
+      "translation": "冰冷岩石",
       "line": 1767
     },
     "Crystal Onix": {
@@ -1307,11 +1307,11 @@
       "line": 1790
     },
     "Toxic Plate": {
-      "translation": "剧毒板",
+      "translation": "剧毒石板",
       "line": 1803
     },
     "Spooky Plate": {
-      "translation": "幽灵盘",
+      "translation": "妖怪石板",
       "line": 1804
     },
     "Silk_Scarf": {
@@ -1515,7 +1515,7 @@
       "line": 1969
     },
     "Mind Plate": {
-      "translation": "思维板",
+      "translation": "神奇石板",
       "line": 1977
     },
     "Unown (${...})": {
@@ -1623,7 +1623,7 @@
       "line": 2065
     },
     "Meadow Plate": {
-      "translation": "草甸板",
+      "translation": "碧绿石板",
       "line": 2078
     },
     "Miracle_Seed": {
@@ -1655,7 +1655,7 @@
       "line": 2121
     },
     "Twisted_Spoon": {
-      "translation": "扭曲勺子",
+      "translation": "弯曲的汤匙",
       "line": 2138
     },
     "Union Cave": {
@@ -1679,7 +1679,7 @@
       "line": 2192
     },
     "Soft_Sand": {
-      "translation": "软沙",
+      "translation": "柔软沙子",
       "line": 2208
     },
     "Daniel": {
@@ -1699,7 +1699,7 @@
       "line": 2261
     },
     "Poison_Barb": {
-      "translation": "毒倒刺",
+      "translation": "毒针",
       "line": 2266
     },
     "Rocket Executive": {
@@ -1731,7 +1731,7 @@
       "line": 2307
     },
     "Insect Plate": {
-      "translation": "昆虫盘",
+      "translation": "玉虫石板",
       "line": 2310
     },
     "Silver_Powder": {
@@ -1739,7 +1739,7 @@
       "line": 2312
     },
     "Zap Plate": {
-      "translation": "电击板",
+      "translation": "雷电石板",
       "line": 2314
     },
     "Noctowl": {
@@ -1815,11 +1815,11 @@
       "line": 2441
     },
     "Sky Plate": {
-      "translation": "天空板",
+      "translation": "蓝天石板",
       "line": 2457
     },
     "Sharp_Beak": {
-      "translation": "尖嘴",
+      "translation": "锐利鸟嘴",
       "line": 2458
     },
     "Ho-Oh": {
@@ -1835,11 +1835,11 @@
       "line": 2478
     },
     "Moonball": {
-      "translation": "月球",
+      "translation": "月亮球",
       "line": 2486
     },
     "Mystic_Water": {
-      "translation": "神秘水",
+      "translation": "神秘水滴",
       "line": 2491
     },
     "Lugia": {
@@ -1867,19 +1867,19 @@
       "line": 2530
     },
     "Iron Plate": {
-      "translation": "铁板",
+      "translation": "钢铁石板",
       "line": 2539
     },
     "Stone Plate": {
-      "translation": "石板",
+      "translation": "岩石石板",
       "line": 2540
     },
     "Earth Plate": {
-      "translation": "地球板",
+      "translation": "大地石板",
       "line": 2541
     },
     "Draco Plate": {
-      "translation": "德拉科板甲",
+      "translation": "龙之石板",
       "line": 2542
     },
     "Black_Belt": {
@@ -1923,11 +1923,11 @@
       "line": 2630
     },
     "Dread Plate": {
-      "translation": "恐惧板甲",
+      "translation": "恶颜石板",
       "line": 2650
     },
     "Black_Glasses": {
-      "translation": "黑色_眼镜",
+      "translation": "黑色眼镜",
       "line": 2652
     },
     "Petrel": {
@@ -1967,7 +1967,7 @@
       "line": 2776
     },
     "Metal_Powder": {
-      "translation": "金属_粉末",
+      "translation": "金属粉",
       "line": 2805
     },
     "Magnet": {
@@ -2015,11 +2015,11 @@
       "line": 2913
     },
     "Hard Stone": {
-      "translation": "坚硬的石头",
+      "translation": "硬石头",
       "line": 2925
     },
     "Rock_Incense": {
-      "translation": "岩石香",
+      "translation": "岩石薰香",
       "line": 2928
     },
     "Seaking": {
@@ -2031,7 +2031,7 @@
       "line": 2939
     },
     "Dragon_Fang": {
-      "translation": "龙牙",
+      "translation": "龙之牙",
       "line": 2959
     },
     "Mt. Silver": {
@@ -2059,11 +2059,11 @@
       "line": 2971
     },
     "Fist Plate": {
-      "translation": "拳头板",
+      "translation": "拳头石板",
       "line": 2986
     },
     "Spell_Tag": {
-      "translation": "拼写标签",
+      "translation": "诅咒之符",
       "line": 2992
     },
     "Larvitar": {
@@ -2135,7 +2135,7 @@
       "line": 3079
     },
     "Aggronite": {
-      "translation": "花岗岩",
+      "translation": "波士可多拉进化石",
       "line": 3098
     },
     "Granite Cave": {
@@ -2379,11 +2379,11 @@
       "line": 3392
     },
     "Damp Rock": {
-      "translation": "潮湿的岩石",
+      "translation": "潮湿岩石",
       "line": 3427
     },
     "Smooth Rock": {
-      "translation": "平滑岩石",
+      "translation": "沙沙岩石",
       "line": 3428
     },
     "Aqua Admin": {
@@ -2535,11 +2535,11 @@
       "line": 3635
     },
     "Diveball": {
-      "translation": "跳水球",
+      "translation": "潜水球",
       "line": 3677
     },
     "Duskball": {
-      "translation": "黄昏球",
+      "translation": "黑暗球",
       "line": 3682
     },
     "Matt": {
@@ -2799,7 +2799,7 @@
       "line": 4048
     },
     "Carbos": {
-      "translation": "增强剂",
+      "translation": "速度增强剂",
       "line": 4068
     },
     "Deoxys": {
@@ -3303,7 +3303,7 @@
       "line": 4610
     },
     "Fastball": {
-      "translation": "快球",
+      "translation": "速度球",
       "line": 4625
     },
     "Vivid_Scent": {
@@ -3411,7 +3411,7 @@
       "line": 4741
     },
     "Macho_Brace": {
-      "translation": "Macho_Brace",
+      "translation": "强制锻炼器",
       "line": 4758
     },
     "Peon": {
@@ -4283,7 +4283,7 @@
       "line": 6174
     },
     "Muscle_Band": {
-      "translation": "肌肉带",
+      "translation": "力量头带",
       "line": 6197
     },
     "Shady Guy": {
@@ -4415,7 +4415,7 @@
       "line": 6441
     },
     "Calcium": {
-      "translation": "钙",
+      "translation": "特攻增强剂",
       "line": 6452
     },
     "Gorigan": {
@@ -4663,7 +4663,7 @@
       "line": 6924
     },
     "Odd Keystone": {
-      "translation": "奇数梯形校正",
+      "translation": "楔石",
       "line": 6940
     },
     "Rotom": {
@@ -5155,7 +5155,7 @@
       "line": 7817
     },
     "Pixie Plate": {
-      "translation": "精灵盘",
+      "translation": "妖精石板",
       "line": 7828
     },
     "Arceus (Normal)": {
@@ -5191,7 +5191,7 @@
       "line": 7906
     },
     "Power_Herb": {
-      "translation": "能量草本",
+      "translation": "强力香草",
       "line": 7922
     },
     "Shaymin (Land)": {
@@ -6263,7 +6263,7 @@
       "line": 9341
     },
     "Quickball": {
-      "translation": "快球",
+      "translation": "先机球",
       "line": 9363
     },
     "Terrakion": {
@@ -6631,19 +6631,19 @@
       "line": 9961
     },
     "Burn_Drive": {
-      "translation": "刻录驱动器",
+      "translation": "火焰卡带",
       "line": 9988
     },
     "Chill_Drive": {
-      "translation": "冷静驾驶",
+      "translation": "冰冻卡带",
       "line": 9989
     },
     "Douse_Drive": {
-      "translation": "杜斯_驱动器",
+      "translation": "水流卡带",
       "line": 9990
     },
     "Shock_Drive": {
-      "translation": "冲击_驱动",
+      "translation": "闪电卡带",
       "line": 9991
     },
     "Great_Twisted_Spoon": {
@@ -6719,7 +6719,7 @@
       "line": 10062
     },
     "Heracronite": {
-      "translation": "赫拉克朗石",
+      "translation": "赫拉克罗斯进化石",
       "line": 10085
     },
     "Bunnelby": {
@@ -6755,7 +6755,7 @@
       "line": 10146
     },
     "Kangaskhanite": {
-      "translation": "坎加斯汗石",
+      "translation": "袋兽进化石",
       "line": 10173
     },
     "Team Flare Grunt Duo": {
@@ -7023,7 +7023,7 @@
       "line": 10596
     },
     "Abomasite": {
-      "translation": "菱形石",
+      "translation": "暴雪王进化石",
       "line": 10629
     },
     "Team Flare Mable": {
@@ -7127,7 +7127,7 @@
       "line": 10854
     },
     "Quick_Powder": {
-      "translation": "快粉",
+      "translation": "速度粉",
       "line": 10875
     },
     "Anomaly Mewtwo": {
@@ -7227,7 +7227,7 @@
       "line": 10983
     },
     "Garchompite": {
-      "translation": "石斑岩",
+      "translation": "烈咬陆鲨进化石",
       "line": 11013
     },
     "Michele": {
@@ -7951,7 +7951,7 @@
       "line": 11991
     },
     "Iron Ball": {
-      "translation": "铁球",
+      "translation": "黑色铁球",
       "line": 12027
     },
     "Dulse": {

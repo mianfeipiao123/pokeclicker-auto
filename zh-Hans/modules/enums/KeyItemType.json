@@ -27,15 +27,15 @@
       "line": 6
     },
     "Super_rod": {
-      "translation": "超级钓竿",
+      "translation": "厉害钓竿",
       "line": 7
     },
     "Holo_caster": {
-      "translation": "全息对讲机",
+      "translation": "全息影像通讯器",
       "line": 8
     },
     "Mystery_egg": {
-      "translation": "神秘蛋",
+      "translation": "神奇蛋",
       "line": 9
     },
     "Safari_ticket": {
@@ -63,7 +63,7 @@
       "line": 15
     },
     "DNA_splicers": {
-      "translation": "基因楔子",
+      "translation": "基因之楔",
       "line": 16
     },
     "Reins_of_unity": {
@@ -75,7 +75,7 @@
       "line": 18
     },
     "Z-Power_Ring": {
-      "translation": "Z力量手环",
+      "translation": "Ｚ强力手环",
       "line": 19
     }
   }

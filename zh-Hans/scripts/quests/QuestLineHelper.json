@@ -215,7 +215,7 @@
       "line": 169
     },
     "Moon_stone": {
-      "translation": "月光石",
+      "translation": "月之石",
       "line": 169
     },
     "Bill's Grandpa": {
@@ -239,7 +239,7 @@
       "line": 183
     },
     "Leaf_stone": {
-      "translation": "叶石",
+      "translation": "叶之石",
       "line": 183
     },
     "Staryu": {
@@ -259,7 +259,7 @@
       "line": 197
     },
     "Water_stone": {
-      "translation": "水石",
+      "translation": "水之石",
       "line": 197
     },
     "Growlithe": {
@@ -279,7 +279,7 @@
       "line": 211
     },
     "Fire_stone": {
-      "translation": "火石",
+      "translation": "火之石",
       "line": 211
     },
     "Pikachu": {
@@ -299,7 +299,7 @@
       "line": 225
     },
     "Thunder_stone": {
-      "translation": "雷石",
+      "translation": "雷之石",
       "line": 225
     },
     "Bill's Grandpa would like to have a battle with you!": {
@@ -2747,11 +2747,11 @@
       "line": 1778
     },
     "Sail_fossil": {
-      "translation": "帆化石",
+      "translation": "鳍之化石",
       "line": 1783
     },
     "Jaw_fossil": {
-      "translation": "下颌化石",
+      "translation": "颚之化石",
       "line": 1783
     },
     "Fossil Scientist has given you a ${...}!": {
@@ -3005,7 +3005,7 @@
       "line": 1946
     },
     "Key_stone": {
-      "translation": "基石",
+      "translation": "钥石",
       "line": 1946
     },
     "The Delta Episode": {
@@ -4093,7 +4093,7 @@
       "line": 2607
     },
     "Revive": {
-      "translation": "复活",
+      "translation": "活力碎片",
       "line": 2607
     },
     "Iki Town": {

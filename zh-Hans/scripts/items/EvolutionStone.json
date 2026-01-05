@@ -55,11 +55,11 @@
       "line": 85
     },
     "Metal Coat": {
-      "translation": "金属涂层",
+      "translation": "金属膜",
       "line": 86
     },
     "King's Rock": {
-      "translation": "国王石",
+      "translation": "王者之证",
       "line": 87
     },
     "Upgrade": {
@@ -67,11 +67,11 @@
       "line": 88
     },
     "Dragon Scale": {
-      "translation": "龙鳞",
+      "translation": "龙之鳞片",
       "line": 89
     },
     "Prism Scale": {
-      "translation": "棱镜刻度",
+      "translation": "美丽鳞片",
       "line": 90
     },
     "Deep Sea Tooth": {
@@ -79,47 +79,47 @@
       "line": 91
     },
     "Deep Sea Scale": {
-      "translation": "深海规模",
+      "translation": "深海鳞片",
       "line": 92
     },
     "Shiny Stone": {
-      "translation": "异色的石头",
+      "translation": "光之石",
       "line": 93
     },
     "Dusk Stone": {
-      "translation": "黄昏石",
+      "translation": "暗之石",
       "line": 94
     },
     "Dawn Stone": {
-      "translation": "黎明石",
+      "translation": "觉醒之石",
       "line": 95
     },
     "Razor Claw": {
-      "translation": "剃刀利爪",
+      "translation": "锐利之爪",
       "line": 96
     },
     "Razor Fang": {
-      "translation": "剃刀尖牙",
+      "translation": "锐利之牙",
       "line": 97
     },
     "Electirizer": {
-      "translation": "起电器",
+      "translation": "电力增幅器",
       "line": 98
     },
     "Magmarizer": {
-      "translation": "磁化器",
+      "translation": "熔岩增幅器",
       "line": 99
     },
     "Protector": {
-      "translation": "保护者",
+      "translation": "护具",
       "line": 100
     },
     "Dubious Disc": {
-      "translation": "可疑光盘",
+      "translation": "可疑补丁",
       "line": 101
     },
     "Reaper Cloth": {
-      "translation": "收割者布",
+      "translation": "灵界之布",
       "line": 102
     },
     "Black DNA": {
@@ -131,19 +131,19 @@
       "line": 104
     },
     "Sachet": {
-      "translation": "香囊",
+      "translation": "香袋",
       "line": 105
     },
     "Whipped Dream": {
-      "translation": "鞭打的梦想",
+      "translation": "泡沫奶油",
       "line": 106
     },
     "Key Stone": {
-      "translation": "基石",
+      "translation": "钥石",
       "line": 107
     },
     "Ice Stone": {
-      "translation": "冰石",
+      "translation": "冰之石",
       "line": 108
     },
     "Solar Light": {
@@ -163,23 +163,23 @@
       "line": 112
     },
     "Sweet Apple": {
-      "translation": "甜苹果",
+      "translation": "甜甜苹果",
       "line": 113
     },
     "Tart Apple": {
-      "translation": "酸苹果",
+      "translation": "酸酸苹果",
       "line": 114
     },
     "Cracked Pot": {
-      "translation": "锅裂",
+      "translation": "破裂的茶壶",
       "line": 115
     },
     "Galarica Cuff": {
-      "translation": "伽勒豆蔻腕带",
+      "translation": "伽勒豆蔻手环",
       "line": 116
     },
     "Galarica Wreath": {
-      "translation": "伽勒豆蔻花环",
+      "translation": "伽勒豆蔻花圈",
       "line": 117
     },
     "Black Mane Hair": {

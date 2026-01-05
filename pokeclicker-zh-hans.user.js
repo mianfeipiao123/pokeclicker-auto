@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.24
+// @version      0.1.25
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -956,6 +956,8 @@
                     for (const n of m.addedNodes) {
                         applyMapToNode(n, map, patterns, cache);
                     }
+                } else if (m.type === 'attributes') {
+                    applyMapToElementAttributes(m.target, map, patterns, cache);
                 } else if (m.type === 'characterData') {
                     applyMapToTextNode(m.target, map, patterns, cache);
                 }
@@ -966,6 +968,9 @@
             subtree: true,
             childList: true,
             characterData: true,
+            attributes: true,
+            attributeOldValue: true,
+            attributeFilter: attrNames,
         });
     };
 

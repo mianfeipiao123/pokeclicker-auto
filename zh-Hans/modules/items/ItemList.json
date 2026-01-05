@@ -1363,11 +1363,11 @@
       "line": 244
     },
     "Increases Pokémon attack bonus.<br/><i>(attack gained per breeding cycle)</i><br/>Increases steps required when hatching by 20": {
-      "translation": "",
+      "translation": "提高宝可梦攻击加成。<br/><i>（每次繁殖周期获得的攻击）</i><br/>孵化所需步数增加20",
       "line": 251
     },
     "Increases Pokémon attack bonus %.<br/><i>(attack gained per breeding cycle)</i><br/>Increases steps required when hatching by 20": {
-      "translation": "",
+      "translation": "提高宝可梦攻击加成比例。<br/><i>（每次繁殖周期获得的攻击）</i><br/>孵化所需步数增加20",
       "line": 257
     },
     "Reduces steps required when hatching": {

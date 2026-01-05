@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.23
+// @version      0.1.24
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -532,8 +532,25 @@
     };
 
     const translateSegmentsFallback = (text, map, patterns, cache) => {
-        const input = String(text ?? '');
+        let input = String(text ?? '');
         if (!input) return null;
+
+        // Tooltip titles often look like `<u>${name}</u><br/>${descriptionHtml}`.
+        // Translate the full HTML description suffix first (it may contain `<br/>`/`<i>` tags which would otherwise get split).
+        const suffixSeps = ['</u><br/>', '</u><br>'];
+        for (const sep of suffixSeps) {
+            const idx = input.indexOf(sep);
+            if (idx < 0) continue;
+            const suffix = input.slice(idx + sep.length);
+            const { leading, core, trailing } = splitOuterWhitespace(suffix);
+            const suffixKey = normalizeText(core);
+            if (!suffixKey) break;
+            const resolvedSuffix = resolveTranslation(suffixKey, map, patterns);
+            if (resolvedSuffix) {
+                input = `${input.slice(0, idx + sep.length)}${leading}${resolvedSuffix}${trailing}`;
+            }
+            break;
+        }
 
         const hasHan = /[\u4E00-\u9FFF]/.test(input);
         const hasLatin = /[A-Za-z]/.test(input);

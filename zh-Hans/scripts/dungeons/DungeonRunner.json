@@ -11,7 +11,7 @@
       "line": 27
     },
     "You need the Dungeon Ticket to access dungeons. <i>Check out the shop at Viridian City.</i>": {
-      "translation": "",
+      "translation": "你需要迷宫门票才能进入迷宫。 <i>去常磐市的商店看看吧。</i>",
       "line": 28
     },
     "You don't have access to this dungeon yet. <i>${...}</i>": {

@@ -43,7 +43,7 @@
       "line": 24
     },
     "A case for holding Pokédollars.": {
-      "translation": "",
+      "translation": "用于存放代币的盒子。",
       "line": 25
     },
     "Coin Case": {
@@ -63,7 +63,7 @@
       "line": 27
     },
     "This is the Town Map.<br/>Use this to move to between different Routes, Towns and Dungeons.": {
-      "translation": "",
+      "translation": "这是城镇地图。<br/>用它在不同的道路、城镇和迷宫之间移动。",
       "line": 35
     },
     "Town Map": {
@@ -71,7 +71,7 @@
       "line": 39
     },
     "This ticket grants access to all dungeons in the Kanto region and beyond.<br/><strong>Tip:</strong> You gain Dungeon Tokens by capturing Pokémon.": {
-      "translation": "",
+      "translation": "这张门票可让你进入关都地区及之后的所有迷宫。<br/><strong>提示：</strong>捕捉宝可梦可获得迷宫代币。",
       "line": 40
     },
     "Dungeon Ticket": {
@@ -163,6 +163,10 @@
       "line": 55
     },
     "Reins that people presented to the king. They enhance Calyrex's power over bountiful harvests and unite Calyrex with its beloved steeds.": {
+      "translation": "人们献给国王的缰绳。它们增强了蕾冠王操控丰收的力量，并将蕾冠王与其心爱的战马连接在一起。",
+      "line": 56
+    },
+    "Reins that people presented to the king. They enhance Calyrex’s power over bountiful harvests and unite Calyrex with its beloved steeds.": {
       "translation": "人们献给国王的缰绳。它们增强了蕾冠王操控丰收的力量，并将蕾冠王与其心爱的战马连接在一起。",
       "line": 56
     },

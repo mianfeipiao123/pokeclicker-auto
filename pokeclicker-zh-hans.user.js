@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.19
+// @version      0.1.20
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -356,6 +356,19 @@
 
         if (key === 'a' || key === 'an') {
             return '';
+        }
+
+        // Type-restricted phrases are constructed dynamically, e.g. "an Electric-type Pokémon".
+        // Translate them here so outer template translations don't leave English fragments.
+        const typePokemonMatch = key.match(/^(?:(?:a|an)\s+)?(.+?)-type\s+Pok[eé]mon$/i);
+        if (typePokemonMatch) {
+            const typeName = normalizeText(typePokemonMatch[1]);
+            if (typeName) {
+                const typeZh = typeTranslations?.[typeName]
+                    || (shouldUseHardcodedMap(typeName) ? map?.[typeName] : undefined)
+                    || typeName;
+                return `${typeZh}属性宝可梦`;
+            }
         }
 
         const pokemon = pokemonTranslations?.[key];

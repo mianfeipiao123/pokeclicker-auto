@@ -23,7 +23,7 @@
       "line": 11
     },
     "I took you for granted, and so I lost. As proof of your victory, I confer on you this... the official Pokémon League BoulderBadge.": {
-      "translation": "我把你视为理所当然，所以我输了。作为你胜利的证明，我授予你这个……官方的宝可梦联盟 BoulderBadge。",
+      "translation": "我太小看你了，所以才输了。作为你胜利的证明，我将这枚……宝可梦联盟官方的灰色徽章授予你。",
       "line": 15
     },
     "Cerulean City": {
@@ -43,7 +43,7 @@
       "line": 23
     },
     "Wow! You're too much, all right! You can have the CascadeBadge to show that you beat me.": {
-      "translation": "哇！你太过分了，好吧！你可以拥有 CascadeBadge 来证明你打败了我。",
+      "translation": "哇！你真厉害！这枚蓝色徽章给你，用来证明你打败了我！",
       "line": 27
     },
     "Team Rocket": {
@@ -71,7 +71,7 @@
       "line": 39
     },
     "Now that's a shocker! You're the real deal, kid! Fine, then, take the ThunderBadge!": {
-      "translation": "现在真是令人震惊！你真是货真价实的孩子！好吧，那么，拿下 ThunderBadge！",
+      "translation": "这可真叫人吃惊！小鬼，你确实有两下子！好吧，拿去！橙色徽章是你的了！",
       "line": 43
     },
     "Blue 3": {
@@ -127,7 +127,7 @@
       "line": 69
     },
     "This loss shocks me! But a loss is a loss. I admit I didn't work hard enough to win. You earned the MarshBadge.": {
-      "translation": "这个损失让我震惊！但损失就是损失。我承认我没有努力去赢得胜利。你赢得了 MarshBadge。",
+      "translation": "这场败北让我大吃一惊！不过输了就是输了。我承认自己还不够努力。金色徽章归你了。",
       "line": 73
     },
     "Fuchsia City": {
@@ -183,7 +183,7 @@
       "line": 106
     },
     "I have burned down to nothing! Not even ashes remain! You have earned the VolcanoBadge.": {
-      "translation": "我已经被烧得一无所有了！连骨灰都没有留下！你已获得火山徽章。",
+      "translation": "我已经燃烧殆尽！连灰烬都不剩了！你已经获得深红徽章！",
       "line": 110
     },
     "Pokémon Mansion": {
@@ -219,7 +219,7 @@
       "line": 123
     },
     "Ha! That was a truly intense fight. You have won! As proof, here is the Earth Badge!": {
-      "translation": "哈!那真是一场激烈的战斗。你赢了！作为证据，这是地球徽章！",
+      "translation": "哈！真是一场激烈的战斗。你赢了！作为证明，这枚绿色徽章给你！",
       "line": 128
     },
     "Persons of Interest": {
@@ -1087,7 +1087,7 @@
       "line": 676
     },
     "Nice job, guys. Here are your Spike Shell badges, guys.": {
-      "translation": "干得好，伙计们。伙计们，这是你们的 Spike Shell 徽章。",
+      "translation": "干得好，伙计们。这是你们的尖刺壳徽章。",
       "line": 682
     },
     "Kumquat Island": {
@@ -2513,7 +2513,7 @@
       "line": 1598
     },
     "Friend League": {
-      "translation": "友盟",
+      "translation": "友情联赛",
       "line": 1610
     },
     "Karson": {
@@ -2565,7 +2565,7 @@
       "line": 1647
     },
     "Heavy League": {
-      "translation": "重联盟",
+      "translation": "重量联赛",
       "line": 1650
     },
     "Kareign": {
@@ -2585,7 +2585,7 @@
       "line": 1657
     },
     "Kareign's Heavy League Gym": {
-      "translation": "卡林的重联盟道馆",
+      "translation": "卡林的重量联赛道馆",
       "line": 1668
     },
     "Jump Champ Green": {
@@ -2593,7 +2593,7 @@
       "line": 1669
     },
     "Great League": {
-      "translation": "大联盟",
+      "translation": "伟大联赛",
       "line": 1673
     },
     "Karbuck": {
@@ -2609,7 +2609,7 @@
       "line": 1680
     },
     "Fast League": {
-      "translation": "快速联赛",
+      "translation": "极速联赛",
       "line": 1693
     },
     "Kareign 2": {
@@ -2629,11 +2629,11 @@
       "line": 1700
     },
     "Kareign's Fast League Gym": {
-      "translation": "卡林的快速联盟道馆",
+      "translation": "卡林的极速联赛道馆",
       "line": 1711
     },
     "Luxury League": {
-      "translation": "豪华联赛",
+      "translation": "奢华联赛",
       "line": 1716
     },
     "Jump Champ": {
@@ -2653,11 +2653,11 @@
       "line": 1723
     },
     "Jump Champ's Luxury League Gym": {
-      "translation": "Jump Champ 的豪华联盟道馆",
+      "translation": "跳跃冠军的奢华联赛道馆",
       "line": 1734
     },
     "Heal League": {
-      "translation": "治愈联盟",
+      "translation": "治愈联赛",
       "line": 1739
     },
     "Karami": {
@@ -2697,11 +2697,11 @@
       "line": 1766
     },
     "Jump Champ's Ultra League Gym": {
-      "translation": "Jump Champ 的 Ultra League 道馆",
+      "translation": "跳跃冠军的超级联赛道馆",
       "line": 1777
     },
     "E4 League": {
-      "translation": "E4联赛",
+      "translation": "四天王联赛",
       "line": 1782
     },
     "Jump Champ 3": {
@@ -2721,7 +2721,7 @@
       "line": 1789
     },
     "Jump Champ's Elite League Gym": {
-      "translation": "Jump Champ 的精英联盟道馆",
+      "translation": "跳跃冠军的四天王联赛道馆",
       "line": 1800
     },
     "Master League": {

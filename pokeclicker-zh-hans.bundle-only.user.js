@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.18
+// @version      0.1.20
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -37,7 +37,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.18';
+    const SCRIPT_VERSION = '0.1.20';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -351,6 +351,22 @@
             return mapped;
         }
 
+        // Dynamic enum names often appear humanified (spaces instead of underscores), e.g. "Spike Shell".
+        // Try lookup variants against the loaded map (which contains enum keys like "Spike_Shell").
+        if (shouldUseHardcodedMap(key) && (key.includes(' ') || key.includes('-'))) {
+            const candidates = [];
+            const underscored = key.replace(/\s+/g, '_');
+            candidates.push(underscored);
+            if (underscored.includes('-')) candidates.push(underscored.replace(/-/g, '_'));
+            if (key.includes('-')) candidates.push(key.replace(/-/g, '_'));
+            for (const c of candidates) {
+                const v = map?.[c];
+                if (typeof v === 'string' && v && !v.includes('${...}')) {
+                    return v;
+                }
+            }
+        }
+
         const gymAtMatch = key.match(/^(.+?)'s Gym at (.+)$/);
         if (gymAtMatch) {
             const leader = gymAtMatch[1];
@@ -449,6 +465,20 @@
                 const matched = applyPatterns(k, patterns, map);
                 if (typeof matched === 'string' && matched) return matched;
             }
+        }
+
+        // Handle dynamic badge names that are not present as full strings in translation maps,
+        // e.g. "Spike Shell Badge" / "BoulderBadge".
+        const badgeWord = map?.Badge || '徽章';
+        for (const k of candidates) {
+            const m = k.match(/^(.+?) Badge$/) || k.match(/^(.+?)Badge$/);
+            if (!m) continue;
+            const name = normalizeText(m[1]);
+            if (!name) continue;
+            const translatedName = translateDynamicSegment(name, map);
+            if (!translatedName || translatedName === name) continue;
+            if (translatedName.endsWith('徽章') || translatedName.endsWith(badgeWord)) return translatedName;
+            return `${translatedName}${badgeWord}`;
         }
 
         return null;

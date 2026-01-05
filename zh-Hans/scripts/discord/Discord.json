@@ -7,7 +7,7 @@
   },
   "entries": {
     "discord": {
-      "translation": "不和谐",
+      "translation": "Discord",
       "line": 2
     },
     "Unown (D)": {
@@ -51,7 +51,7 @@
       "line": 18
     },
     "A Discord-style Rotom!": {
-      "translation": "不和谐风格的洛托姆！",
+      "translation": "Discord 风格的洛托姆！",
       "line": 18
     },
     "HatcheryHelperLeslie": {
@@ -71,7 +71,7 @@
       "line": 34
     },
     "Successfully logged in to Discord!": {
-      "translation": "已成功登录Discord！",
+      "translation": "已成功登录 Discord！",
       "line": 38
     },
     "$DISCORD_LOGIN_PROXY?action=login&redirect_uri=${...}": {
@@ -81,7 +81,7 @@
       "_confidence": 0.85
     },
     "Unlink Discord?": {
-      "translation": "解除不和谐链接？",
+      "translation": "解除 Discord 绑定？",
       "line": 54
     },
     "Are you sure?": {
@@ -97,7 +97,7 @@
       "line": 107
     },
     "You must sign in to Discord before attempting to use this code": {
-      "translation": "在尝试使用此代码之前，你必须先登录Discord",
+      "translation": "在尝试使用此代码之前，你必须先登录 Discord",
       "line": 115
     },
     "Invalid code ${...}": {

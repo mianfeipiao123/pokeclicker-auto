@@ -7,7 +7,7 @@
   },
   "entries": {
     "[Discord Code] ${...}": {
-      "translation": "[不一致代码] ${...}",
+      "translation": "[Discord 代码] ${...}",
       "line": 17,
       "_rematchedFrom": "[Discord Code] ${...}",
       "_confidence": 0.85

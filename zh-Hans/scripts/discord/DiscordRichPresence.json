@@ -211,19 +211,19 @@
       "line": 236
     },
     "discord-rp.enabled": {
-      "translation": "启用discord-rp",
+      "translation": "启用 Discord Rich Presence",
       "line": 246
     },
     "discord-rp.line-1": {
-      "translation": "不和谐-rp.line-1",
+      "translation": "Discord Rich Presence 第1行",
       "line": 247
     },
     "discord-rp.line-2": {
-      "translation": "不和谐-rp.line-2",
+      "translation": "Discord Rich Presence 第2行",
       "line": 248
     },
     "discord-rp.timer-reset": {
-      "translation": "不和谐 rp. 计时器重置",
+      "translation": "切换区域时重置计时",
       "line": 252
     },
     "discord-rp.timer": {
@@ -231,7 +231,7 @@
       "line": 257
     },
     "discord-rp.large-image": {
-      "translation": "不和谐 rp.大图像",
+      "translation": "Discord 大图标",
       "line": 262
     },
     "current-environment": {
@@ -249,7 +249,7 @@
       "_confidence": 0.85
     },
     "discord-rp.small-image": {
-      "translation": "不和谐 rp.小图像",
+      "translation": "Discord 小图标",
       "line": 271
     },
     "cycle": {

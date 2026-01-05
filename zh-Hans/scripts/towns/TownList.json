@@ -5571,7 +5571,7 @@
       "line": 4330
     },
     "<i>In order to do so, you must collect Ghost gems by defeating Ghost type Pokémon and find a Spooky Plate. There should be some in this dungeon, we can sense their energy.</i>": {
-      "translation": "<i>为此，你必须通过击败幽灵系宝可梦来收集幽灵宝石，并找到一块怖思石板。这个地牢里应该有一些，我们能感知到它们的能量。</i>",
+      "translation": "<i>为此，你必须通过击败幽灵属性宝可梦来收集幽灵宝石，并找到一块妖怪石板。这个迷宫里应该有一些，我们能感知到它们的能量。</i>",
       "line": 4331
     },
     "assets/images/npcs/specialNPCs/Lake Trio.png": {
@@ -11305,7 +11305,7 @@
       "line": 8670
     },
     "That video stream... That was from Hammerlocke Stadium, right? What in the world did the chairman do...?": {
-      "translation": "那个视频流……是来自哈默洛克体育场，对吧？主席到底做了什么……？",
+      "translation": "那个视频流……是来自宫门竞技场，对吧？洛兹会长到底做了什么……？",
       "line": 8675
     },
     "I want to help my brother! I've got to! But I can't even manage to beat you, so what sort of help could I ever be...?": {

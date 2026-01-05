@@ -899,7 +899,7 @@
       "line": 278
     },
     "Halloween! event can now be activated with the Event Calendar": {
-      "translation": "万圣节！现在可以使用事件日历激活事件",
+      "translation": "万圣节！现在可以使用活动日历激活。",
       "line": 279
     },
     "EXP Aura added to Custap berry": {
@@ -979,7 +979,7 @@
       "line": 308
     },
     "Event Calendar - Halloween not included (purchased in Hammerlocke)": {
-      "translation": "活动日历 - 不包括万圣节（在 Hammerlocke 购买）",
+      "translation": "活动日历 - 不包括万圣节（在宫门市购买）",
       "line": 309
     },
     "Added additional catch filters": {
@@ -2063,7 +2063,7 @@
       "line": 697
     },
     "Discord Pokémon can no longer be obtained before you reach the respective regions": {
-      "translation": "在到达相应区域之前，无法再获得不和谐的宝可梦",
+      "translation": "在到达相应区域之前，无法再获得 Discord 宝可梦",
       "line": 698
     },
     "Save data can be copied to clipboard if unable to download": {
@@ -4225,7 +4225,7 @@
       "line": 1341
     },
     "Discord usernames should no longer affect saves": {
-      "translation": "不和谐的用户名不应再影响保存",
+      "translation": "Discord 用户名不应再影响存档",
       "line": 1342
     },
     "v0.5.5": {

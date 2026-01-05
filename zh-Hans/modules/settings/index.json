@@ -479,7 +479,7 @@
       "line": 136
     },
     "Ripe/Death": {
-      "translation": "",
+      "translation": "成熟/枯萎",
       "line": 137
     },
     "Include base farm timer during altered berry growth times": {
@@ -699,7 +699,7 @@
       "line": 187
     },
     "Show mute/unmute button": {
-      "translation": "",
+      "translation": "显示静音/取消静音按钮",
       "line": 190
     },
     "locked": {
@@ -1537,7 +1537,7 @@
       "line": 507
     },
     "Mute/Unmute Sounds": {
-      "translation": "",
+      "translation": "静音/取消静音",
       "line": 507
     },
     "hotkey.shop.buy": {
@@ -1613,11 +1613,11 @@
       "line": 520
     },
     "discord-rp.line-1": {
-      "translation": "不和谐-rp.line-1",
+      "translation": "discord-rp.line-1",
       "line": 521
     },
     "Discord line 1 text": {
-      "translation": "不一致第1行文本",
+      "translation": "Discord 第1行文本",
       "line": 521
     },
     "Shinies: {caught_shiny}/{caught} {sparkle}": {
@@ -1625,11 +1625,11 @@
       "line": 521
     },
     "discord-rp.line-2": {
-      "translation": "不和谐-rp.line-2",
+      "translation": "discord-rp.line-2",
       "line": 522
     },
     "Discord line 2 text": {
-      "translation": "不一致第2行文本",
+      "translation": "Discord 第2行文本",
       "line": 522
     },
     "Total Attack: {attack}": {
@@ -1645,7 +1645,7 @@
       "line": 523
     },
     "discord-rp.timer-reset": {
-      "translation": "不和谐 rp. 计时器重置",
+      "translation": "discord-rp.timer-reset",
       "line": 524
     },
     "Reset timer on area change": {
@@ -1653,11 +1653,11 @@
       "line": 524
     },
     "discord-rp.large-image": {
-      "translation": "不和谐 rp.大图像",
+      "translation": "discord-rp.large-image",
       "line": 525
     },
     "Discord main image": {
-      "translation": "不和谐主图",
+      "translation": "Discord 主图标",
       "line": 525
     },
     "PokéClicker Logo": {
@@ -1765,11 +1765,11 @@
       "line": 540
     },
     "discord-rp.small-image": {
-      "translation": "不和谐 rp.小图像",
+      "translation": "discord-rp.small-image",
       "line": 543
     },
     "Discord small image": {
-      "translation": "不和谐小图片",
+      "translation": "Discord 小图标",
       "line": 543
     },
     "Money": {
@@ -1865,7 +1865,7 @@
       "line": 577
     },
     "Include Attack modifiers (Held Item, EVs, Shadow/Purified) in Attack Bonus and Breeding Efficiency": {
-      "translation": "",
+      "translation": "在攻击加成与繁殖效率中包含攻击修正（持有物品、努力值、暗影/净化）",
       "line": 577
     },
     "Modal Collapse": {

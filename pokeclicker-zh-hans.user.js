@@ -219,7 +219,10 @@
 
         // Common in-game terms that may already be translated but appear inside English sentences.
         s = s.replace(/图鉴/g, 'Pokédex');
-        s = s.replace(/宝可梦币|宝可币/g, 'Poké Coins');
+        s = s.replace(/神奇币/g, 'Poké Coins');
+        s = s.replace(/宝可币/g, 'Poké Coins');
+        s = s.replace(/宝可元/g, 'Pokédollars');
+        s = s.replace(/宝可梦币/g, 'Pokédollars');
         s = s.replace(/超极巨化/g, 'Gigantamax');
         s = s.replace(/无极巨化/g, 'Eternamax');
         s = s.replace(/暗影/g, 'Shadow ');

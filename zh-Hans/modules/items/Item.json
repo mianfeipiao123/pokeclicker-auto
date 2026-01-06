@@ -63,7 +63,7 @@
       "_confidence": 0.85
     },
     "Pokédollars": {
-      "translation": "",
+      "translation": "宝可梦币",
       "line": 124
     },
     "t have enough ${...} to buy ${n.toLocaleString(": {

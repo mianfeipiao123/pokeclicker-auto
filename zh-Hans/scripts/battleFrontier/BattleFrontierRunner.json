@@ -39,7 +39,7 @@
       "line": 96
     },
     "You managed to beat stage ${...}. You received ${...} Battle Points. You received ${...} Pokédollars.": {
-      "translation": "你成功击败了第${...}关。你获得了${...}对战点数。你获得了${...}宝可元。",
+      "translation": "你成功击败了第${...}关。你获得了${...}对战点数。你获得了${...}宝可梦币。",
       "line": 97
     },
     "Are you sure you want to leave? You can always return later and start off where you left.": {

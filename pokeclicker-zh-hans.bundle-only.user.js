@@ -214,7 +214,10 @@
         if (!/[\u4E00-\u9FFF]/.test(s) || !/[A-Za-z]/.test(s)) return s;
 
         s = s.replace(/图鉴/g, 'Pokédex');
-        s = s.replace(/宝可梦币|宝可币/g, 'Poké Coins');
+        s = s.replace(/神奇币/g, 'Poké Coins');
+        s = s.replace(/宝可币/g, 'Poké Coins');
+        s = s.replace(/宝可元/g, 'Pokédollars');
+        s = s.replace(/宝可梦币/g, 'Pokédollars');
         s = s.replace(/超极巨化/g, 'Gigantamax');
         s = s.replace(/无极巨化/g, 'Eternamax');
         s = s.replace(/暗影/g, 'Shadow ');

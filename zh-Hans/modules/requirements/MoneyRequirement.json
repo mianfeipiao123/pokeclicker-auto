@@ -15,7 +15,7 @@
       "line": 2
     },
     "${...} Pokédollars need to be obtained.": {
-      "translation": "",
+      "translation": "需要获得${...}宝可梦币。",
       "line": 14
     }
   }

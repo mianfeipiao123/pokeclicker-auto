@@ -51,7 +51,7 @@
       "line": 210
     },
     "Defeated: ${...} Pokémon Earned: ${...} Pokédollars": {
-      "translation": "击败：${...}只宝可梦 获得：${...}宝可元",
+      "translation": "击败：${...}只宝可梦 获得：${...}宝可梦币",
       "line": 211
     },
     "<li>${...} ${...}</li>": {

@@ -70,6 +70,18 @@
       "translation": "城镇地图",
       "line": 39
     },
+    "This ticket grants access to all dungeons in the Kanto region and beyond.": {
+      "translation": "这张门票可让你进入关都地区及之后的所有迷宫。",
+      "line": 40
+    },
+    "Tip:": {
+      "translation": "提示：",
+      "line": 40
+    },
+    "You gain Dungeon Tokens by capturing Pokémon.": {
+      "translation": "捕捉宝可梦可获得迷宫代币。",
+      "line": 40
+    },
     "This ticket grants access to all dungeons in the Kanto region and beyond.<br/><strong>Tip:</strong> You gain Dungeon Tokens by capturing Pokémon.": {
       "translation": "这张门票可让你进入关都地区及之后的所有迷宫。<br/><strong>提示：</strong>捕捉宝可梦可获得迷宫代币。",
       "line": 40

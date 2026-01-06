@@ -3973,7 +3973,7 @@
       "line": 1274
     },
     "Completed Quest and Achievements will show in the Log Book": {
-      "translation": "已完成的任务和成就将显示在日志中",
+      "translation": "已完成的任务和成就将显示在冒险日志中",
       "line": 1275
     },
     "See Pokémon Attack after calculations by hovering Pokémon Attack value": {
@@ -5089,7 +5089,7 @@
       "line": 1597
     },
     "Always add caught Shiny Pokémon to the Log Book": {
-      "translation": "务必将捕获的异色宝可梦添加到日志中",
+      "translation": "始终将捕获的异色宝可梦记录到冒险日志中",
       "line": 1598
     },
     "Added close button on the top right of more modals": {

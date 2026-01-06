@@ -1,9 +1,9 @@
 {
   "type": {
-    "NEW": "新",
+    "NEW": "新发现",
     "SHINY": "异色",
-    "CAUGHT": "捕捉",
-    "ESCAPED": "挣脱",
+    "CAUGHT": "捕获",
+    "ESCAPED": "逃走",
     "ROAMER": "漫游",
     "ACHIEVE": "成就",
     "QUEST": "任务",

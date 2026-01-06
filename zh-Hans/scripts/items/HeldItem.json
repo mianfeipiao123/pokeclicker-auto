@@ -51,7 +51,7 @@
       "line": 67
     },
     "A held item that ${...} the attack of ${...} by ${...}.": {
-      "translation": "携带该道具可${...}${...}的攻击${...}。",
+      "translation": "携带该道具可使${...}攻击力${...}${...}。",
       "line": 67
     },
     "against": {
@@ -83,12 +83,20 @@
       "line": 0
     },
     "A held item that ${...} the attack of ${...} by ${...} in the Battle Frontier.": {
-      "translation": "在对战开拓区，携带该道具可${...}${...}的攻击${...}。",
+      "translation": "在对战开拓区，携带该道具可使${...}攻击力${...}${...}。",
       "line": 67
     },
     "A held item that ${...} the attack of ${...} by ${...} and ${...} its click attack contribution by ${...}%.": {
-      "translation": "携带该道具可${...}${...}的攻击${...}，并${...}点击攻击贡献${...}%。",
+      "translation": "携带该道具可使${...}攻击力${...}${...}，并${...}点击攻击贡献${...}%。",
       "line": 67
+    },
+    "A held item that ${...} the attack of ${...} by ${...} against Dungeon Bosses.": {
+      "translation": "携带该道具可使${...}攻击力${...}${...}，对迷宫首领有效。",
+      "line": 0
+    },
+    "A held item that ${...} the attack of ${...} by ${...} against Dungeon Bosses": {
+      "translation": "携带该道具可使${...}攻击力${...}${...}，对迷宫首领有效",
+      "line": 0
     },
     "${...} ${...}-type Pokémon": {
       "translation": "${...}${...}属性宝可梦",

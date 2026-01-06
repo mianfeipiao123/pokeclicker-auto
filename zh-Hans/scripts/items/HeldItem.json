@@ -54,6 +54,34 @@
       "translation": "携带该道具可${...}${...}的攻击${...}。",
       "line": 67
     },
+    "against": {
+      "translation": "对",
+      "line": 0
+    },
+    "Dungeon Bosses": {
+      "translation": "迷宫首领",
+      "line": 0
+    },
+    "Dungeon Bosses.": {
+      "translation": "迷宫首领。",
+      "line": 0
+    },
+    "Bosses": {
+      "translation": "首领",
+      "line": 0
+    },
+    "Bosses.": {
+      "translation": "首领。",
+      "line": 0
+    },
+    "against Dungeon Bosses": {
+      "translation": "对迷宫首领有效",
+      "line": 0
+    },
+    "against Dungeon Bosses.": {
+      "translation": "对迷宫首领有效。",
+      "line": 0
+    },
     "A held item that ${...} the attack of ${...} by ${...} in the Battle Frontier.": {
       "translation": "在对战开拓区，携带该道具可${...}${...}的攻击${...}。",
       "line": 67

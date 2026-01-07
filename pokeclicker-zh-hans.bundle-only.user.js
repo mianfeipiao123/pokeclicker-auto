@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.34
+// @version      0.1.35
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.34';
+    const SCRIPT_VERSION = '0.1.35';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -582,6 +582,19 @@
             const punct = m[2] || '';
             if (translatedName.endsWith('徽章') || translatedName.endsWith(badgeWord)) return `${translatedName}${punct}`;
             return `${translatedName}${badgeWord}${punct}`;
+        }
+
+        // Many settings/labels are rendered as `${displayName}:` in templates.
+        // If the only difference is a trailing colon, try translating without it and re-append.
+        for (const k of candidates) {
+            const m = k.match(/^(.*?)([:：])$/);
+            if (!m) continue;
+            const base = normalizeText(m[1]);
+            if (!base) continue;
+            const translatedBase = resolveTranslation(base, map, patterns);
+            if (!translatedBase || translatedBase === base) continue;
+            if (translatedBase.endsWith(':') || translatedBase.endsWith('：')) return translatedBase;
+            return `${translatedBase}${m[2]}`;
         }
 
         return null;

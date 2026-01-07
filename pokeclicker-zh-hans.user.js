@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.30
+// @version      0.1.31
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -73,7 +73,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.30';
+    const SCRIPT_VERSION = '0.1.31';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -1011,8 +1011,44 @@
             return translateSegmentsFallback(text, map, patterns, cache);
         };
 
-        translateForNotifier = translateWithFallback;
-        window.PokeClickerZhHans.lookup = translateWithFallback;
+        const translateHtmlFragment = (html) => {
+            const input = String(html ?? '');
+            if (!input) return null;
+            try {
+                const container = document.createElement('div');
+                container.innerHTML = input.replace(/\r?\n/g, '<br/>');
+                applyMapToRoot(container, map, patterns, cache);
+                return container.innerHTML;
+            } catch {
+                return null;
+            }
+        };
+
+        const translateForNotifierImpl = (text) => {
+            if (typeof text !== 'string' || !text) return null;
+            const input = normalizeForLookup(text);
+            const looksLikeHtml = /<[^>]+>/.test(text);
+            if (looksLikeHtml) return translateHtmlFragment(text);
+
+            const full = translateWithFallback(input);
+            if (full) return full;
+
+            const lines = text.split(/\r?\n/);
+            if (lines.length <= 1) return null;
+            let changed = false;
+            const outLines = lines.map((line) => {
+                const t = translateWithFallback(line);
+                if (t && t !== line) {
+                    changed = true;
+                    return t;
+                }
+                return line;
+            });
+            return changed ? outLines.join('\n') : null;
+        };
+
+        translateForNotifier = translateForNotifierImpl;
+        window.PokeClickerZhHans.lookup = translateForNotifierImpl;
         window.PokeClickerZhHans.getBundleMeta = () => bundle?._meta ?? null;
 
         if (DEBUG) {
@@ -1067,5 +1103,12 @@
         });
     };
 
-    window.addEventListener('DOMContentLoaded', () => void start(), { once: true });
+    let started = false;
+    const startOnce = () => {
+        if (started) return;
+        started = true;
+        void start();
+    };
+    startOnce();
+    window.addEventListener('DOMContentLoaded', startOnce, { once: true });
 })();

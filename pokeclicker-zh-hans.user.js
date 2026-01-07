@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.28
+// @version      0.1.29
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -73,7 +73,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.28';
+    const SCRIPT_VERSION = '0.1.29';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -603,6 +603,11 @@
     const translateSegmentsFallback = (text, map, patterns, cache) => {
         let input = String(text ?? '');
         if (!input) return null;
+        try {
+            input = input.normalize('NFC');
+        } catch {
+            // ignore
+        }
 
         // Tooltip titles often look like `<u>${name}</u><br/>${descriptionHtml}`.
         // Translate the full HTML description suffix first (it may contain `<br/>`/`<i>` tags which would otherwise get split).

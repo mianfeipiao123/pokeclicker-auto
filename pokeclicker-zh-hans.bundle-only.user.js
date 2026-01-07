@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.28
+// @version      0.1.29
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.28';
+    const SCRIPT_VERSION = '0.1.29';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -586,6 +586,11 @@
     const translateSegmentsFallback = (text, map, patterns, cache) => {
         let input = String(text ?? '');
         if (!input) return null;
+        try {
+            input = input.normalize('NFC');
+        } catch {
+            // ignore
+        }
 
         // Tooltip titles often look like `<u>${name}</u><br/>${descriptionHtml}`.
         // Translate the full HTML description suffix first (it may contain `<br/>`/`<i>` tags which would otherwise get split).

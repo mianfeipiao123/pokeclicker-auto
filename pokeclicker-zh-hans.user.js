@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.36
+// @version      0.1.37
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -73,7 +73,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.36';
+    const SCRIPT_VERSION = '0.1.37';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -266,10 +266,17 @@
 
     const shouldSkipNode = (node) => {
         if (!node) return true;
-        const parent = node.parentElement;
-        if (!parent) return false;
-        const tag = parent.tagName?.toLowerCase();
-        return tag === 'script' || tag === 'style' || tag === 'textarea' || tag === 'code' || tag === 'pre';
+        // Skip translating code-ish UI where raw keys/values should remain untouched (e.g. hotkey <kbd>).
+        let el = node.parentElement;
+        for (let i = 0; i < 6 && el; i += 1) {
+            const tag = el.tagName?.toLowerCase();
+            if (!tag) break;
+            if (tag === 'script' || tag === 'style' || tag === 'textarea' || tag === 'code' || tag === 'pre' || tag === 'kbd') {
+                return true;
+            }
+            el = el.parentElement;
+        }
+        return false;
     };
 
     // Force i18next language early

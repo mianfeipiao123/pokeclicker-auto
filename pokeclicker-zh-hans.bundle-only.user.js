@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.36
+// @version      0.1.37
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.36';
+    const SCRIPT_VERSION = '0.1.37';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -259,10 +259,17 @@
 
     const shouldSkipNode = (node) => {
         if (!node) return true;
-        const parent = node.parentElement;
-        if (!parent) return false;
-        const tag = parent.tagName?.toLowerCase();
-        return tag === 'script' || tag === 'style' || tag === 'textarea' || tag === 'code' || tag === 'pre';
+        // Skip translating code-ish UI where raw keys/values should remain untouched (e.g. hotkey <kbd>).
+        let el = node.parentElement;
+        for (let i = 0; i < 6 && el; i += 1) {
+            const tag = el.tagName?.toLowerCase();
+            if (!tag) break;
+            if (tag === 'script' || tag === 'style' || tag === 'textarea' || tag === 'code' || tag === 'pre' || tag === 'kbd') {
+                return true;
+            }
+            el = el.parentElement;
+        }
+        return false;
     };
 
     try {

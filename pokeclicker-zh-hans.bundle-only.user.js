@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.27
+// @version      0.1.28
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.27';
+    const SCRIPT_VERSION = '0.1.28';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -198,6 +198,11 @@
 
     const normalizeForLookup = (text) => {
         let s = String(text ?? '');
+        try {
+            s = s.normalize('NFC');
+        } catch {
+            // ignore
+        }
         s = s
             .replace(/\u00A0/g, ' ')
             .replace(/，/g, ',')

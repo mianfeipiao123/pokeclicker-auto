@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.35
+// @version      0.1.36
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -73,7 +73,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.35';
+    const SCRIPT_VERSION = '0.1.36';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -719,6 +719,27 @@
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
+
+        // In a few places, the game builds English plurals by appending a separate "s" node.
+        // When the base word is translated to Chinese (e.g. "Dungeon" -> "迷宫"), the leftover "s" becomes visible ("迷宫s").
+        // Strip such orphan plural suffixes when they directly follow a CJK text node.
+        try {
+            const rawNode = String(textNode.nodeValue ?? '');
+            const rawTrimmed = rawNode.replace(/\u00A0/g, ' ').trim();
+            if (rawTrimmed === 's') {
+                const prev = textNode.previousSibling;
+                if (prev?.nodeType === Node.TEXT_NODE) {
+                    const prevText = String(prev.nodeValue ?? '').replace(/\u00A0/g, ' ').trim();
+                    if (/[\u4E00-\u9FFF]$/.test(prevText)) {
+                        textNode.nodeValue = rawNode.replace(/s/g, '');
+                        return;
+                    }
+                }
+            }
+        } catch {
+            // ignore
+        }
+
         const raw = String(textNode.nodeValue ?? '');
         const { leading, core, trailing } = splitOuterWhitespace(raw);
         const key = normalizeText(core);

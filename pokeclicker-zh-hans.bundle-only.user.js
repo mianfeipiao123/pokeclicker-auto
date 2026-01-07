@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.29
+// @version      0.1.30
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.29';
+    const SCRIPT_VERSION = '0.1.30';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -889,8 +889,14 @@
         const patterns = buildPatterns(map);
         const cache = new Map();
 
-        translateForNotifier = (text) => resolveTranslation(text, map, patterns);
-        window.PokeClickerZhHans.lookup = (text) => resolveTranslation(text, map, patterns);
+        const translateWithFallback = (text) => {
+            const resolved = resolveTranslation(text, map, patterns);
+            if (resolved) return resolved;
+            return translateSegmentsFallback(text, map, patterns, cache);
+        };
+
+        translateForNotifier = translateWithFallback;
+        window.PokeClickerZhHans.lookup = translateWithFallback;
         window.PokeClickerZhHans.getBundleMeta = () => bundle?._meta ?? null;
 
         // If game-side i18n isn't loaded (bad URL/path), this helps quickly confirm which bundle is active.

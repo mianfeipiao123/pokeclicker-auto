@@ -3,7 +3,7 @@
     "sourceFile": "src/scripts/gym/Gym.ts",
     "lastUpdated": "2026-01-02",
     "totalStrings": 22,
-    "translatedCount": 14
+    "translatedCount": 19
   },
   "entries": {
     "Battle Gym Leaders to earn badges": {
@@ -49,11 +49,11 @@
       "line": 148
     },
     "Auto Restart Gym<br/>": {
-      "translation": "",
+      "translation": "自动重战道馆<br/>",
       "line": 164
     },
     "Cost: Free!<br/>": {
-      "translation": "",
+      "translation": "费用：免费！<br/>",
       "line": 168
     },
     "en-US": {
@@ -65,11 +65,11 @@
       "line": 170
     },
     "Cost: <img src=\"assets/images/currency/money.svg\" height=\"18px\"/> ${...} per battle<br/>": {
-      "translation": "",
+      "translation": "费用：<img src=\"assets/images/currency/money.svg\" height=\"18px\"/> ${...}（每场战斗）<br/>",
       "line": 170
     },
     "<br/><span class=\"text-success\">10 Clears - Unlock auto-gym</span><br/>": {
-      "translation": "",
+      "translation": "<br/><span class=\"text-success\">10 次通关 - 解锁道馆自动重战</span><br/>",
       "line": 172
     },
     "text-success": {
@@ -81,7 +81,7 @@
       "line": 173
     },
     "<span class=\"${...}\">100 Clears - Free auto-gym</span>": {
-      "translation": "",
+      "translation": "<span class=\"${...}\">100 次通关 - 道馆自动重战免费</span>",
       "line": 173
     },
     "percent": {

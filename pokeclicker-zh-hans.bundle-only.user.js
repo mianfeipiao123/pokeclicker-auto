@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.33
+// @version      0.1.34
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.33';
+    const SCRIPT_VERSION = '0.1.34';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -476,6 +476,9 @@
             if (enParts.length <= 1) continue;
             if (zhParts.length <= 1) continue;
             if (zhParts.length > enParts.length) continue;
+            // Avoid overly-generic patterns like "${...} ${...}" (no literal anchor text).
+            const literal = enParts.join('');
+            if (!literal || !literal.trim()) continue;
 
             // Smarter grouping when placeholders are separated only by whitespace.
             // Avoid splitting "the holding Pokémon" into "the" + "holding Pokémon 25%".
@@ -492,9 +495,10 @@
             reSource += '$';
 
             const re = new RegExp(reSource);
-            patterns.push({ re, zhParts });
+            const literalLen = literal.replace(/\s+/g, ' ').trim().length;
+            patterns.push({ re, zhParts, literalLen });
         }
-        patterns.sort((a, b) => b.re.source.length - a.re.source.length);
+        patterns.sort((a, b) => (b.literalLen - a.literalLen) || (b.re.source.length - a.re.source.length));
         return patterns;
     };
 
@@ -511,7 +515,7 @@
                 }
                 out += segment + suffix;
             }
-            return out;
+            if (out && out !== text) return out;
         }
         return null;
     };

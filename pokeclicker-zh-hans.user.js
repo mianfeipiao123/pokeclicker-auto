@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.33
+// @version      0.1.34
 // @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -73,7 +73,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.33';
+    const SCRIPT_VERSION = '0.1.34';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -492,6 +492,9 @@
             // We only support consuming placeholders from left to right.
             if (zhParts.length <= 1) continue;
             if (zhParts.length > enParts.length) continue;
+            // Avoid overly-generic patterns like "${...} ${...}" (no literal anchor text).
+            const literal = enParts.join('');
+            if (!literal || !literal.trim()) continue;
 
             // Smarter grouping when placeholders are separated only by whitespace.
             // Avoid splitting "the holding Pokémon" into "the" + "holding Pokémon 25%".
@@ -508,10 +511,11 @@
             reSource += '$';
 
             const re = new RegExp(reSource);
-            patterns.push({ re, zhParts });
+            const literalLen = literal.replace(/\s+/g, ' ').trim().length;
+            patterns.push({ re, zhParts, literalLen });
         }
-        // Longer regex first to reduce accidental matches
-        patterns.sort((a, b) => b.re.source.length - a.re.source.length);
+        // Prefer patterns with more literal anchor text, then longer regex.
+        patterns.sort((a, b) => (b.literalLen - a.literalLen) || (b.re.source.length - a.re.source.length));
         return patterns;
     };
 
@@ -528,7 +532,7 @@
                 }
                 out += segment + suffix;
             }
-            return out;
+            if (out && out !== text) return out;
         }
         return null;
     };

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.32
+// @version      0.1.33
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.32';
+    const SCRIPT_VERSION = '0.1.33';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -983,6 +983,46 @@
         if (!tryPatchKoTooltipBinding()) {
             const interval = setInterval(() => {
                 if (tryPatchKoTooltipBinding()) clearInterval(interval);
+            }, 200);
+            setTimeout(() => clearInterval(interval), 15000);
+        }
+
+        // Patch Bootstrap's tooltip title getter so already-initialized tooltips also show Chinese.
+        const tryPatchBootstrapTooltip = () => {
+            try {
+                const patchCtor = (Ctor) => {
+                    const proto = Ctor?.prototype;
+                    if (!proto || proto.__pkcZhHansTitlePatched) return false;
+                    const methodName = typeof proto.getTitle === 'function'
+                        ? 'getTitle'
+                        : (typeof proto._getTitle === 'function' ? '_getTitle' : null);
+                    if (!methodName) return false;
+                    const original = proto[methodName];
+                    proto[methodName] = function (...args) {
+                        const title = original.apply(this, args);
+                        if (typeof title !== 'string' || !title) return title;
+                        const t = translateForNotifierImpl(title);
+                        return t || title;
+                    };
+                    Object.defineProperty(proto, '__pkcZhHansTitlePatched', { value: true });
+                    return true;
+                };
+
+                const $ = window.jQuery || window.$;
+                const jqCtor = $?.fn?.tooltip?.Constructor;
+                const patchedJq = patchCtor(jqCtor);
+
+                const bsCtor = window.bootstrap?.Tooltip;
+                const patchedBs = patchCtor(bsCtor);
+
+                return patchedJq || patchedBs;
+            } catch {
+                return false;
+            }
+        };
+        if (!tryPatchBootstrapTooltip()) {
+            const interval = setInterval(() => {
+                if (tryPatchBootstrapTooltip()) clearInterval(interval);
             }, 200);
             setTimeout(() => clearInterval(interval), 15000);
         }

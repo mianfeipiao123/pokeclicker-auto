@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 bundle）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.31
+// @version      0.1.32
 // @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
@@ -72,7 +72,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.31';
+    const SCRIPT_VERSION = '0.1.32';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -934,6 +934,58 @@
         translateForNotifier = translateForNotifierImpl;
         window.PokeClickerZhHans.lookup = translateForNotifierImpl;
         window.PokeClickerZhHans.getBundleMeta = () => bundle?._meta ?? null;
+
+        // Patch the Knockout tooltip binding so titles are translated before Bootstrap renders them.
+        // This covers dynamic HTML tooltips like DayCycle.tooltip() in `townMap.html`.
+        const tryPatchKoTooltipBinding = () => {
+            try {
+                const ko = window.ko;
+                const handler = ko?.bindingHandlers?.tooltip;
+                if (!handler || handler.__pkcZhHansTitlePatched) return false;
+
+                const wrapValueAccessor = (valueAccessor) => () => {
+                    const local = ko.utils.unwrapObservable(valueAccessor());
+                    if (!local || typeof local !== 'object') return local;
+                    const out = { ...local };
+                    if (typeof out.title === 'string') {
+                        const t = translateForNotifierImpl(out.title);
+                        if (t) out.title = t;
+                    }
+                    return out;
+                };
+
+                if (typeof handler.init === 'function') {
+                    const originalInit = handler.init;
+                    handler.init = function (element, valueAccessor, allBindings, viewModel, bindingContext) {
+                        return originalInit.call(
+                            this,
+                            element,
+                            wrapValueAccessor(valueAccessor),
+                            allBindings,
+                            viewModel,
+                            bindingContext,
+                        );
+                    };
+                }
+                if (typeof handler.update === 'function') {
+                    const originalUpdate = handler.update;
+                    handler.update = function (element, valueAccessor) {
+                        return originalUpdate.call(this, element, wrapValueAccessor(valueAccessor));
+                    };
+                }
+
+                Object.defineProperty(handler, '__pkcZhHansTitlePatched', { value: true });
+                return true;
+            } catch {
+                return false;
+            }
+        };
+        if (!tryPatchKoTooltipBinding()) {
+            const interval = setInterval(() => {
+                if (tryPatchKoTooltipBinding()) clearInterval(interval);
+            }, 200);
+            setTimeout(() => clearInterval(interval), 15000);
+        }
 
         // If game-side i18n isn't loaded (bad URL/path), this helps quickly confirm which bundle is active.
         if (DEBUG) {

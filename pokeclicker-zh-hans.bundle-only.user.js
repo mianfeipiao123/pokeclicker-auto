@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.38
+// @version      0.1.39
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -74,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.38';
+    const SCRIPT_VERSION = '0.1.39';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -102,6 +102,22 @@
     let pokemonTranslations = {};
     /** @type {Array<[string,string]>} */
     let reversePokemonTranslations = [];
+
+    /** @type {Array<[string,string]>} */
+    let demixReplacements = [];
+
+    const templates = {
+        typePokemon: '{{type}}-type Pokémon',
+        gymAt: '{{gym}} ({{town}})',
+        trialAt: '{{trial}} ({{town}})',
+        route: {
+            noRegion: 'Route {{routeNumber}}',
+            withRegion: 'Route {{routeNumber}} ({{regionOrSub}})',
+        },
+    };
+
+    /** @type {{ badgeSuffix: string | null }} */
+    let userscriptCssLabels = { badgeSuffix: null };
 
     let DEBUG = false;
     try {
@@ -220,16 +236,12 @@
         if (!s) return s;
         if (!/[\u4E00-\u9FFF]/.test(s) || !/[A-Za-z]/.test(s)) return s;
 
-        s = s.replace(/图鉴/g, 'Pokédex');
-        s = s.replace(/神奇币/g, 'Poké Coins');
-        s = s.replace(/宝可币/g, 'Poké Coins');
-        s = s.replace(/宝可元/g, 'Pokédollars');
-        s = s.replace(/宝可梦币/g, 'Pokédollars');
-        s = s.replace(/超极巨化/g, 'Gigantamax');
-        s = s.replace(/无极巨化/g, 'Eternamax');
-        s = s.replace(/暗影/g, 'Shadow ');
-        s = s.replace(/粉红/g, 'Pinkan');
-        s = s.replace(/胆噬虫/g, 'Wimpod');
+        if (demixReplacements.length) {
+            for (const [from, to] of demixReplacements) {
+                if (!from) continue;
+                if (s.includes(from)) s = s.split(from).join(to ?? '');
+            }
+        }
 
         if (reversePokemonTranslations.length) {
             for (const [zh, en] of reversePokemonTranslations) {
@@ -358,6 +370,22 @@
             return null;
         };
 
+        const parseDemixReplacements = (raw) => {
+            const out = [];
+            if (typeof raw !== 'string' || !raw.trim()) return out;
+            const lines = raw.split(/\r?\n/);
+            for (const line of lines) {
+                if (!line || !line.trim()) continue;
+                const idx = line.indexOf('=');
+                if (idx <= 0) continue;
+                const from = line.slice(0, idx).trim();
+                const to = line.slice(idx + 1);
+                if (!from) continue;
+                out.push([from, to]);
+            }
+            return out;
+        };
+
         const config = {
             notifierLoadedMessage: getEntry('__userscript.notifier.loaded') ?? notifierLoadedMessage,
             css: {
@@ -367,6 +395,16 @@
                 genderFemale: getEntry('__userscript.css.genderFemale') ?? null,
                 pokedexAttackPrefix: getEntry('__userscript.css.pokedexAttackPrefix') ?? null,
             },
+            templates: {
+                typePokemon: getEntry('__userscript.template.typePokemon') ?? templates.typePokemon,
+                gymAt: getEntry('__userscript.template.gymAt') ?? templates.gymAt,
+                trialAt: getEntry('__userscript.template.trialAt') ?? templates.trialAt,
+                route: {
+                    noRegion: getEntry('__userscript.template.route.noRegion') ?? templates.route.noRegion,
+                    withRegion: getEntry('__userscript.template.route.withRegion') ?? templates.route.withRegion,
+                },
+            },
+            demixReplacements: parseDemixReplacements(getEntry('__userscript.demix.replacements')),
             types: {},
         };
 
@@ -377,6 +415,12 @@
 
         return config;
     };
+
+    const formatTemplate = (tmpl, vars) =>
+        String(tmpl ?? '').replace(/\{\{(\w+)\}\}/g, (m, k) => {
+            const v = vars?.[k];
+            return typeof v === 'string' || typeof v === 'number' ? String(v) : m;
+        });
 
     const resolveI18NextNesting = (text, dict) => {
         let out = String(text ?? '');
@@ -405,7 +449,7 @@
                 const typeZh = typeTranslations?.[typeName]
                     || (shouldUseHardcodedMap(typeName) ? map?.[typeName] : undefined)
                     || typeName;
-                return `${typeZh}属性宝可梦`;
+                return formatTemplate(templates.typePokemon, { type: typeZh });
             }
         }
 
@@ -451,14 +495,14 @@
             const leaderGymKey = `${leader}'s Gym`;
             const leaderGym = translateDynamicSegment(leaderGymKey, map);
             const townName = translateDynamicSegment(town, map);
-            return `${leaderGym}（${townName}）`;
+            return formatTemplate(templates.gymAt, { gym: leaderGym, town: townName });
         }
 
         const trialAtMatch = key.match(/^(.+? Trial) at (.+)$/);
         if (trialAtMatch) {
             const trialName = translateDynamicSegment(trialAtMatch[1], map);
             const trialTown = translateDynamicSegment(trialAtMatch[2], map);
-            return `${trialName}（${trialTown}）`;
+            return formatTemplate(templates.trialAt, { trial: trialName, town: trialTown });
         }
 
         const type = typeTranslations?.[key];
@@ -468,7 +512,10 @@
         if (routeMatch) {
             const routeNumber = routeMatch[1];
             const regionOrSub = routeMatch[2] ? translateDynamicSegment(routeMatch[2], map) : '';
-            return regionOrSub ? `${routeNumber}号道路（${regionOrSub}）` : `${routeNumber}号道路`;
+            if (regionOrSub) {
+                return formatTemplate(templates.route.withRegion, { routeNumber, regionOrSub });
+            }
+            return formatTemplate(templates.route.noRegion, { routeNumber });
         }
 
         return segment;
@@ -580,7 +627,7 @@
 
         // Handle dynamic badge names that are not present as full strings in translation maps,
         // e.g. "Spike Shell Badge" / "BoulderBadge".
-        const badgeWord = map?.Badge || '徽章';
+        const badgeWord = userscriptCssLabels.badgeSuffix || map?.Badge || 'Badge';
         for (const k of candidates) {
             const m = k.match(/^(.+?)\s*(?:Badge|badge)([.!?:,])?$/);
             if (!m) continue;
@@ -589,7 +636,7 @@
             const translatedName = translateDynamicSegment(name, map);
             if (!translatedName || translatedName === name) continue;
             const punct = m[2] || '';
-            if (translatedName.endsWith('徽章') || translatedName.endsWith(badgeWord)) return `${translatedName}${punct}`;
+            if (translatedName.endsWith(badgeWord)) return `${translatedName}${punct}`;
             return `${translatedName}${badgeWord}${punct}`;
         }
 
@@ -888,7 +935,7 @@
             if (!res.ok) throw new Error(`bundle fetch failed: ${res.status}`);
             bundle = await res.json();
         } catch (e) {
-            console.error('[PokéClicker zh-Hans] 无法加载 bundle.json（仅 Bundle 模式，不会回退至分文件翻译）:', e);
+            console.error('[PokéClicker zh-Hans] Failed to load bundle.json (bundle-only mode):', e);
             return;
         }
 
@@ -911,6 +958,15 @@
             const config = loadUserscriptConfigFromBundle(bundle);
             notifierLoadedMessage = config.notifierLoadedMessage || notifierLoadedMessage;
             typeTranslations = config.types || typeTranslations;
+            if (config?.css?.badgeSuffix) userscriptCssLabels.badgeSuffix = config.css.badgeSuffix;
+            if (Array.isArray(config?.demixReplacements)) demixReplacements = config.demixReplacements;
+            if (config?.templates) {
+                templates.typePokemon = config.templates.typePokemon ?? templates.typePokemon;
+                templates.gymAt = config.templates.gymAt ?? templates.gymAt;
+                templates.trialAt = config.templates.trialAt ?? templates.trialAt;
+                templates.route.noRegion = config.templates.route?.noRegion ?? templates.route.noRegion;
+                templates.route.withRegion = config.templates.route?.withRegion ?? templates.route.withRegion;
+            }
             injectCssOverrides(config.css);
         } catch {
             injectCssOverrides(null);

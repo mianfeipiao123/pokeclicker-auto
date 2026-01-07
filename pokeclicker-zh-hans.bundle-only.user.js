@@ -1,8 +1,10 @@
 // ==UserScript==
-// @name         PokéClicker 简体中文补全（仅 bundle）
+// @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.37
-// @description  仅从你的 GitHub 加载 zh-Hans/bundle.json（单文件）并替换页面中仍写死的英文
+// @version      0.1.38
+// @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
+// @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
+// @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
 // @match        http://localhost:*/*
@@ -16,7 +18,7 @@
 (() => {
     'use strict';
 
-    let notifierLoadedMessage = 'Translations loaded';
+    let notifierLoadedMessage = 'Translations loaded.';
     /** @type {null | ((s: string) => string | null)} */
     let translateForNotifier = null;
     const hookNotifier = () => {
@@ -72,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.37';
+    const SCRIPT_VERSION = '0.1.38';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -886,7 +888,7 @@
             if (!res.ok) throw new Error(`bundle fetch failed: ${res.status}`);
             bundle = await res.json();
         } catch (e) {
-            console.error('[PokéClicker zh-Hans] 无法加载 bundle.json（此脚本不会回退到分文件）:', e);
+            console.error('[PokéClicker zh-Hans] 无法加载 bundle.json（仅 Bundle 模式，不会回退至分文件翻译）:', e);
             return;
         }
 

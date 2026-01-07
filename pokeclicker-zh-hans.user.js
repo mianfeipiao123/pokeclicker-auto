@@ -1,8 +1,10 @@
 // ==UserScript==
-// @name         PokéClicker 简体中文补全（全量翻译文件 + DOM 替换）
+// @name         PokéClicker 简体中文补全（全量翻译 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.37
-// @description  从你自己的 GitHub 加载 zh-Hans 翻译文件，并把页面上仍写死的英文替换为中文
+// @version      0.1.38
+// @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
+// @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
+// @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
 // @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
 // @match        http://localhost:*/*
@@ -16,8 +18,8 @@
 (() => {
     'use strict';
 
-    // 拦截 Notifier.notify 替换翻译加载通知（文案从外置配置加载）
-    let notifierLoadedMessage = 'Translations loaded';
+    // 拦截 Notifier.notify，用于替换“翻译资源已加载”的提示（文案从外置配置加载）
+    let notifierLoadedMessage = 'Translations loaded.';
     /** @type {null | ((s: string) => string | null)} */
     let translateForNotifier = null;
     const hookNotifier = () => {
@@ -73,7 +75,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.37';
+    const SCRIPT_VERSION = '0.1.38';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -1008,11 +1010,11 @@
                         console.info('[PokéClicker zh-Hans] 已加载分文件翻译:', files.length, '个文件,', Object.keys(map).length, '条翻译');
                     }
                 } else {
-                    console.error('[PokéClicker zh-Hans] 无法加载翻译索引文件');
+                    console.error('[PokéClicker zh-Hans] 无法加载翻译索引文件。');
                 }
             }
         } catch (e) {
-            console.error('[PokéClicker zh-Hans] 加载翻译失败:', e);
+            console.error('[PokéClicker zh-Hans] 加载翻译资源失败:', e);
         }
 
         try {

@@ -19,7 +19,7 @@
       "line": 8
     },
     "Route Defeats": {
-      "translation": "路线失败",
+      "translation": "路线击败数",
       "line": 17
     },
     "${...} Pokémon need to be defeated on ${...}.": {

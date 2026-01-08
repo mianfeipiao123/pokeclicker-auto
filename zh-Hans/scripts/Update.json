@@ -111,7 +111,7 @@
       "line": 404
     },
     "Safari_ticket": {
-      "translation": "Safari_门票",
+      "translation": "狩猎区门票",
       "line": 409
     },
     "Shard_case": {
@@ -1429,7 +1429,7 @@
       "line": 2565
     },
     "Grey_shard": {
-      "translation": "灰_碎片",
+      "translation": "灰色碎片",
       "line": 2565
     },
     "Purple_shard": {
@@ -1437,7 +1437,7 @@
       "line": 2565
     },
     "Ochre_shard": {
-      "translation": "赭石_碎片",
+      "translation": "赭色碎片",
       "line": 2565
     },
     "Black_shard": {
@@ -1445,11 +1445,11 @@
       "line": 2565
     },
     "Crimson_shard": {
-      "translation": "Crimson_shard",
+      "translation": "深红碎片",
       "line": 2565
     },
     "Lime_shard": {
-      "translation": "石灰_碎片",
+      "translation": "石灰碎片",
       "line": 2565
     },
     "White_shard": {
@@ -1457,11 +1457,11 @@
       "line": 2565
     },
     "Pink_shard": {
-      "translation": "粉红_碎片",
+      "translation": "粉色碎片",
       "line": 2565
     },
     "Cyan_shard": {
-      "translation": "青色_碎片",
+      "translation": "青色碎片",
       "line": 2565
     },
     "Rose_shard": {
@@ -1647,7 +1647,7 @@
       "line": 2902
     },
     "discord-rp.line-1": {
-      "translation": "discord-rp.line-1",
+      "translation": "Discord Rich Presence 第1行",
       "line": 2927
     },
     "{underground_trades}": {
@@ -1655,7 +1655,7 @@
       "line": 2928
     },
     "discord-rp.line-2": {
-      "translation": "discord-rp.line-2",
+      "translation": "Discord Rich Presence 第2行",
       "line": 2930
     },
     "eternalfloettegift": {

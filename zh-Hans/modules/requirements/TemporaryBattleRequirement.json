@@ -23,7 +23,7 @@
       "line": 17
     },
     "${...} ${...}": {
-      "translation": "",
+      "translation": "${...} ${...}",
       "line": 17
     },
     "Requires beating ${...}${...}.": {

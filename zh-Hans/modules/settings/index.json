@@ -1605,7 +1605,7 @@
       "line": 517
     },
     "discord-rp.enabled": {
-      "translation": "启用discord-rp",
+      "translation": "启用 Discord Rich Presence",
       "line": 520
     },
     "Discord RP enabled": {
@@ -1613,7 +1613,7 @@
       "line": 520
     },
     "discord-rp.line-1": {
-      "translation": "discord-rp.line-1",
+      "translation": "Discord Rich Presence 第1行",
       "line": 521
     },
     "Discord line 1 text": {
@@ -1625,7 +1625,7 @@
       "line": 521
     },
     "discord-rp.line-2": {
-      "translation": "discord-rp.line-2",
+      "translation": "Discord Rich Presence 第2行",
       "line": 522
     },
     "Discord line 2 text": {
@@ -1645,7 +1645,7 @@
       "line": 523
     },
     "discord-rp.timer-reset": {
-      "translation": "discord-rp.timer-reset",
+      "translation": "切换区域时重置计时",
       "line": 524
     },
     "Reset timer on area change": {
@@ -1653,7 +1653,7 @@
       "line": 524
     },
     "discord-rp.large-image": {
-      "translation": "discord-rp.large-image",
+      "translation": "Discord 大图标",
       "line": 525
     },
     "Discord main image": {
@@ -1765,7 +1765,7 @@
       "line": 540
     },
     "discord-rp.small-image": {
-      "translation": "discord-rp.small-image",
+      "translation": "Discord 小图标",
       "line": 543
     },
     "Discord small image": {

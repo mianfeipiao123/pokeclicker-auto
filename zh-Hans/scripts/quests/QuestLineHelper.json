@@ -211,7 +211,7 @@
       "line": 166
     },
     "Show your Jigglypuff to Bill's Grandpa.": {
-      "translation": "",
+      "translation": "向正辉的爷爷展示你的胖丁。",
       "line": 169
     },
     "Moon_stone": {
@@ -235,7 +235,7 @@
       "line": 180
     },
     "Show your Oddish to Bill's Grandpa.": {
-      "translation": "",
+      "translation": "向正辉的爷爷展示你的走路草。",
       "line": 183
     },
     "Leaf_stone": {
@@ -255,7 +255,7 @@
       "line": 194
     },
     "Show your Staryu to Bill's Grandpa.": {
-      "translation": "",
+      "translation": "向正辉的爷爷展示你的海星星。",
       "line": 197
     },
     "Water_stone": {
@@ -275,7 +275,7 @@
       "line": 208
     },
     "Show your Growlithe to Bill's Grandpa.": {
-      "translation": "",
+      "translation": "向正辉的爷爷展示你的卡蒂狗。",
       "line": 211
     },
     "Fire_stone": {
@@ -295,7 +295,7 @@
       "line": 222
     },
     "Show your Pikachu to Bill's Grandpa.": {
-      "translation": "",
+      "translation": "向正辉的爷爷展示你的皮卡丘。",
       "line": 225
     },
     "Thunder_stone": {
@@ -1173,7 +1173,7 @@
       "line": 863
     },
     "The Three Golems": {
-      "translation": "三个傀儡",
+      "translation": "三巨人",
       "line": 871
     },
     "Discover the secrets of the Sealed Chamber.": {
@@ -1469,15 +1469,15 @@
       "line": 1066
     },
     "Cipher Peon Doven": {
-      "translation": "密码队手下 多文",
+      "translation": "密码 Peon Doven",
       "line": 1067
     },
     "Cipher Peon Silton": {
-      "translation": "密码队手下 西尔顿",
+      "translation": "密码·佩恩·西尔顿",
       "line": 1068
     },
     "Cipher Peon Kass": {
-      "translation": "密码队手下 卡斯",
+      "translation": "密码 Peon Kass",
       "line": 1069
     },
     "Relic Cave": {
@@ -1493,7 +1493,7 @@
       "line": 1076
     },
     "Mt. Battle": {
-      "translation": "山战",
+      "translation": "战斗山",
       "line": 1079
     },
     "There's rumors of more Team Cipher activity at Mt. Battle. Go investigate!": {
@@ -1665,7 +1665,7 @@
       "line": 1154
     },
     "Spear Pillar": {
-      "translation": "矛柱",
+      "translation": "枪之柱",
       "line": 1157
     },
     "The lake guardians have been rescued, but Cyrus has used them to forge the Red Chain. He is taking it to the top of Mount Coronet. Follow him! Clear Spear Pillar.": {
@@ -1673,7 +1673,7 @@
       "line": 1157
     },
     "Mt. Coronet": {
-      "translation": "皇冠山",
+      "translation": "天冠山",
       "line": 1162
     },
     "Distortion World": {
@@ -1745,7 +1745,7 @@
       "line": 1208
     },
     "Eterna Forest": {
-      "translation": "永恒森林",
+      "translation": "百代森林",
       "line": 1211
     },
     "Parasect": {
@@ -2147,7 +2147,7 @@
       "line": 1448
     },
     "Destiny Deoxys": {
-      "translation": "命运代欧奇希斯",
+      "translation": "裂空的访问者 代欧奇希斯",
       "line": 1456
     },
     "Discover the mystery of the crashed meteor.": {
@@ -2255,7 +2255,7 @@
       "line": 1518
     },
     "Pinwheel Forest": {
-      "translation": "风车森林",
+      "translation": "矢车森林",
       "line": 1521
     },
     "Now that you know where to find Virizion, search for them in Pinwheel Forest.": {
@@ -2463,7 +2463,7 @@
       "line": 1625
     },
     "Cipher Peon Naps": {
-      "translation": "密码队手下 纳普斯",
+      "translation": "密码苦工小睡",
       "line": 1628
     },
     "Fight the Cipher Peons attacking the Pokémon HQ Lab.": {
@@ -2471,7 +2471,7 @@
       "line": 1628
     },
     "Gateon Port Battles": {
-      "translation": "盖顿港之战",
+      "translation": "加顿港口之战",
       "line": 1631
     },
     "Clear Gateon Port to search for the Cipher Peons who kidnapped Professor Krane.": {
@@ -2615,7 +2615,7 @@
       "line": 1694
     },
     "Cipher Peon Smarton": {
-      "translation": "密码队手下 斯马顿",
+      "translation": "密码佩恩斯马顿",
       "line": 1700
     },
     "Fight the Cipher Peon at the wreck of the S. S. Libra.": {
@@ -4517,11 +4517,11 @@
       "line": 2828
     },
     "Plumeria": {
-      "translation": "蛋花",
+      "translation": "布鲁美丽",
       "line": 2829
     },
     "Plumeria (league)": {
-      "translation": "蛋花（联赛）",
+      "translation": "布鲁美丽（联赛）",
       "line": 2830
     },
     "Exeggutor Island": {
@@ -4533,7 +4533,7 @@
       "line": 2835
     },
     "Vast Poni Canyon": {
-      "translation": "广阔的波尼峡谷",
+      "translation": "波尼大峡谷",
       "line": 2839
     },
     "Trial Site": {
@@ -6179,7 +6179,7 @@
       "line": 3933
     },
     "Dyna Tree Hill": {
-      "translation": "极巨树山丘",
+      "translation": "戴纳树山",
       "line": 3936
     },
     "Some unknown bird Pokémon have been sighted near Dyna Tree Hill in Ballimere Lake. Explore the area to see for yourself.": {
@@ -6275,7 +6275,7 @@
       "line": 3980
     },
     "The Ancient Golems": {
-      "translation": "古代巨像",
+      "translation": "远古傀儡",
       "line": 3988
     },
     "Discover the ancient Golems in the ruins of the Crown Tundra.": {
@@ -6367,7 +6367,7 @@
       "line": 4044
     },
     "The Lair of Giants": {
-      "translation": "巨人的巢穴",
+      "translation": "极巨巢穴探险",
       "line": 4052
     },
     "Explore the Max Lair and discover the Gigantamax Pokémon.": {
@@ -6675,7 +6675,7 @@
       "line": 4178
     },
     "Victory Road": {
-      "translation": "胜利路",
+      "translation": "冠军之路",
       "line": 4185
     },
     "Challenge Paldea's Gyms to challenge your new rival, Nemona.": {
@@ -6759,7 +6759,7 @@
       "line": 4232
     },
     "Petalburg Woods": {
-      "translation": "佩塔堡伍兹",
+      "translation": "橙华森林",
       "line": 4235
     },
     "That looked like a Togepi!... well, maybe not. Anyway, there is a big Egg Hunt going on in the woods south of Rustboro in Hoenn; maybe you should take a look?": {

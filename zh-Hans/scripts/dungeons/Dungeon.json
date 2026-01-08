@@ -303,7 +303,7 @@
       "_confidence": 0.85
     },
     "Diglett's Cave": {
-      "translation": "迪格利特洞穴",
+      "translation": "地鼠洞穴",
       "line": 732
     },
     "Diglett": {
@@ -2071,7 +2071,7 @@
       "line": 3001
     },
     "Petalburg Woods": {
-      "translation": "佩塔堡伍兹",
+      "translation": "橙华森林",
       "line": 3006
     },
     "Poochyena": {
@@ -2363,7 +2363,7 @@
       "line": 3317
     },
     "New Mauville": {
-      "translation": "新莫维尔",
+      "translation": "新紫堇",
       "line": 3344
     },
     "Vivillon (Continental)": {
@@ -2655,7 +2655,7 @@
       "line": 3913
     },
     "The Three Golems": {
-      "translation": "三个傀儡",
+      "translation": "三巨人",
       "line": 3913
     },
     "Regice": {
@@ -4587,7 +4587,7 @@
       "line": 6841
     },
     "Eterna Forest": {
-      "translation": "永恒森林",
+      "translation": "百代森林",
       "line": 6845
     },
     "Kricketot": {
@@ -4779,7 +4779,7 @@
       "line": 7061
     },
     "Mt. Coronet South": {
-      "translation": "皇冠山南",
+      "translation": "天冠山南",
       "line": 7086
     },
     "Cleffa": {
@@ -4911,7 +4911,7 @@
       "line": 7309
     },
     "Mt. Coronet North": {
-      "translation": "皇冠山北",
+      "translation": "天冠山北",
       "line": 7371
     },
     "Snover": {
@@ -4955,7 +4955,7 @@
       "line": 7522
     },
     "Spear Pillar": {
-      "translation": "矛柱",
+      "translation": "枪之柱",
       "line": 7526
     },
     "Bronzong": {
@@ -5143,7 +5143,7 @@
       "line": 7770
     },
     "Hall of Origin": {
-      "translation": "起源大厅",
+      "translation": "创始之间",
       "line": 7795
     },
     "Eevee": {
@@ -5619,7 +5619,7 @@
       "line": 8442
     },
     "Chargestone Cave": {
-      "translation": "充能石洞",
+      "translation": "电气石洞穴",
       "line": 8453
     },
     "Boldore": {
@@ -6439,7 +6439,7 @@
       "line": 9663
     },
     "Pinwheel Forest": {
-      "translation": "风车森林",
+      "translation": "矢车森林",
       "line": 9667
     },
     "Tympole": {
@@ -7459,7 +7459,7 @@
       "line": 11272
     },
     "Vast Poni Canyon": {
-      "translation": "广阔的波尼峡谷",
+      "translation": "波尼大峡谷",
       "line": 11277
     },
     "Hakamo-o": {
@@ -8539,7 +8539,7 @@
       "line": 12834
     },
     "The Lair of Giants": {
-      "translation": "巨人的巢穴",
+      "translation": "极巨巢穴探险",
       "line": 12836
     },
     "Rose": {

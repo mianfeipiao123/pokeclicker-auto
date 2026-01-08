@@ -311,7 +311,7 @@
       "line": 133
     },
     "Grey_shard": {
-      "translation": "灰_碎片",
+      "translation": "灰色碎片",
       "line": 134
     },
     "Purple_shard": {
@@ -319,7 +319,7 @@
       "line": 135
     },
     "Ochre_shard": {
-      "translation": "赭石_碎片",
+      "translation": "赭色碎片",
       "line": 136
     },
     "Black_shard": {
@@ -327,11 +327,11 @@
       "line": 137
     },
     "Crimson_shard": {
-      "translation": "Crimson_shard",
+      "translation": "深红碎片",
       "line": 138
     },
     "Lime_shard": {
-      "translation": "石灰_碎片",
+      "translation": "石灰碎片",
       "line": 139
     },
     "White_shard": {
@@ -339,11 +339,11 @@
       "line": 140
     },
     "Pink_shard": {
-      "translation": "粉红_碎片",
+      "translation": "粉色碎片",
       "line": 141
     },
     "Cyan_shard": {
-      "translation": "青色_碎片",
+      "translation": "青色碎片",
       "line": 142
     },
     "Rose_shard": {
@@ -355,7 +355,7 @@
       "line": 144
     },
     "Beige_shard": {
-      "translation": "米色_碎片",
+      "translation": "米色碎片",
       "line": 145
     },
     "Slate_shard": {

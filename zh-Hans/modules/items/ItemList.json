@@ -1015,7 +1015,7 @@
       "line": 215
     },
     "Pokeball_Smash_Magikarp_Jump": {
-      "translation": "Pokeball_Smash_鲤鱼王_Jump",
+      "translation": "精灵球粉碎（跳跃！鲤鱼王）",
       "line": 216
     },
     "Pokéball Smash": {
@@ -1023,7 +1023,7 @@
       "line": 216
     },
     "Push_Dwebble_Magikarp_Jump": {
-      "translation": "Push_石居蟹_鲤鱼王_Jump",
+      "translation": "推石居蟹（跳跃！鲤鱼王）",
       "line": 217
     },
     "Push Dwebble": {
@@ -1083,7 +1083,7 @@
       "line": 222
     },
     "Island_Challenge_Amulet": {
-      "translation": "岛屿_挑战_护身符",
+      "translation": "岛屿巡礼护身符",
       "line": 223
     },
     "Island Challenge Amulet": {
@@ -1147,7 +1147,7 @@
       "line": 227
     },
     "Water_Memory_Silvally": {
-      "translation": "水_记忆_银伴战兽",
+      "translation": "水记忆银伴战兽",
       "line": 228
     },
     "Water Memory": {
@@ -1159,7 +1159,7 @@
       "line": 228
     },
     "Grass_Memory_Silvally": {
-      "translation": "草_记忆_银伴战兽",
+      "translation": "草记忆银伴战兽",
       "line": 229
     },
     "Grass Memory": {
@@ -1171,7 +1171,7 @@
       "line": 229
     },
     "Fire_Memory_Silvally": {
-      "translation": "火_记忆_银伴战兽",
+      "translation": "火记忆银伴战兽",
       "line": 230
     },
     "Fire Memory": {
@@ -1183,7 +1183,7 @@
       "line": 230
     },
     "Electric_Memory_Silvally": {
-      "translation": "电_记忆_银伴战兽",
+      "translation": "电记忆银伴战兽",
       "line": 231
     },
     "Electric Memory": {
@@ -1195,7 +1195,7 @@
       "line": 231
     },
     "Ice_Memory_Silvally": {
-      "translation": "冰_记忆_银伴战兽",
+      "translation": "冰记忆银伴战兽",
       "line": 232
     },
     "Ice Memory": {
@@ -1207,7 +1207,7 @@
       "line": 232
     },
     "Ground_Memory_Silvally": {
-      "translation": "地面_记忆_银伴战兽",
+      "translation": "地面记忆银伴战兽",
       "line": 233
     },
     "Ground Memory": {
@@ -1319,7 +1319,7 @@
       "line": 241
     },
     "Shaderoot_Carrot_Calyrex": {
-      "translation": "Shaderoot_Carrot_Calyrex",
+      "translation": "黑萝卜",
       "line": 242
     },
     "Shaderoot Carrot": {
@@ -1335,7 +1335,7 @@
       "line": 242
     },
     "Iceroot_Carrot_Calyrex": {
-      "translation": "冰根_胡萝卜_花萼",
+      "translation": "冰萝卜",
       "line": 243
     },
     "Iceroot Carrot": {
@@ -1815,7 +1815,7 @@
       "line": 327
     },
     "Grey_shard": {
-      "translation": "灰_碎片",
+      "translation": "灰色碎片",
       "line": 328
     },
     "Grey Shard": {
@@ -1831,7 +1831,7 @@
       "line": 329
     },
     "Ochre_shard": {
-      "translation": "赭石_碎片",
+      "translation": "赭色碎片",
       "line": 330
     },
     "Ochre Shard": {
@@ -1847,7 +1847,7 @@
       "line": 331
     },
     "Crimson_shard": {
-      "translation": "Crimson_shard",
+      "translation": "深红碎片",
       "line": 332
     },
     "Crimson Shard": {
@@ -1855,7 +1855,7 @@
       "line": 332
     },
     "Lime_shard": {
-      "translation": "石灰_碎片",
+      "translation": "石灰碎片",
       "line": 333
     },
     "Lime Shard": {
@@ -1871,7 +1871,7 @@
       "line": 334
     },
     "Pink_shard": {
-      "translation": "粉红_碎片",
+      "translation": "粉色碎片",
       "line": 335
     },
     "Pink Shard": {
@@ -1879,7 +1879,7 @@
       "line": 335
     },
     "Cyan_shard": {
-      "translation": "青色_碎片",
+      "translation": "青色碎片",
       "line": 336
     },
     "Cyan Shard": {
@@ -1903,7 +1903,7 @@
       "line": 338
     },
     "Beige_shard": {
-      "translation": "米色_碎片",
+      "translation": "米色碎片",
       "line": 339
     },
     "Beige Shard": {
@@ -1995,7 +1995,7 @@
       "line": 363
     },
     "Probably Feebas": {
-      "translation": "可能是费巴斯",
+      "translation": "应该是丑丑鱼",
       "line": 364
     },
     "Magikarp (Feebas)": {
@@ -2019,7 +2019,7 @@
       "line": 368
     },
     "Probably Chimecho": {
-      "translation": "可能是奇梅乔",
+      "translation": "应该是风铃铃",
       "line": 371
     },
     "Hoppip (Chimecho)": {

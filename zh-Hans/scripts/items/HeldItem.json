@@ -151,7 +151,7 @@
       "line": 183
     },
     "Excite_Scent": {
-      "translation": "激动香氛",
+      "translation": "兴奋_气味",
       "line": 183
     },
     "Excite Scent": {
@@ -159,7 +159,7 @@
       "line": 183
     },
     "Vivid_Scent": {
-      "translation": "生动香氛",
+      "translation": "生动_香味",
       "line": 185
     },
     "Vivid Scent": {
@@ -315,7 +315,7 @@
       "line": 213
     },
     "Great_Twisted_Spoon": {
-      "translation": "巨大弯曲汤匙",
+      "translation": "伟大的扭曲勺子",
       "line": 215
     },
     "Great Twisted Spoon": {
@@ -327,7 +327,7 @@
       "line": 215
     },
     "Leek": {
-      "translation": "大葱",
+      "translation": "韭葱",
       "line": 217
     },
     "Farfetch'd or Sirfetch'd": {
@@ -359,7 +359,7 @@
       "line": 221
     },
     "Wellspring_Mask": {
-      "translation": "水井面具",
+      "translation": "泉源面膜",
       "line": 223
     },
     "Wellspring Mask": {
@@ -371,7 +371,7 @@
       "line": 223
     },
     "Hearthflame_Mask": {
-      "translation": "火灶面具",
+      "translation": "炉火_面具",
       "line": 225
     },
     "Hearthflame Mask": {
@@ -379,7 +379,7 @@
       "line": 225
     },
     "Cornerstone_Mask": {
-      "translation": "基石面具",
+      "translation": "基石_面具",
       "line": 227
     },
     "Cornerstone Mask": {
@@ -387,7 +387,7 @@
       "line": 227
     },
     "Booster_Energy": {
-      "translation": "驱劲能量",
+      "translation": "助推器_能量",
       "line": 229
     },
     "Booster Energy": {
@@ -539,7 +539,7 @@
       "line": 251
     },
     "Agile_Scroll": {
-      "translation": "敏捷卷轴",
+      "translation": "敏捷_滚动",
       "line": 253
     },
     "Agile Scroll": {
@@ -547,7 +547,7 @@
       "line": 253
     },
     "Strong_Scroll": {
-      "translation": "强力卷轴",
+      "translation": "强卷轴",
       "line": 254
     },
     "Strong Scroll": {

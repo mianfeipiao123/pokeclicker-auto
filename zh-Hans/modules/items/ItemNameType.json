@@ -31,7 +31,7 @@
       "line": 18
     },
     "Dungeon_ticket": {
-      "translation": "迷宫_门票",
+      "translation": "迷宫门票",
       "line": 26
     },
     "Explorer_kit": {
@@ -39,7 +39,7 @@
       "line": 27
     },
     "Event_calendar": {
-      "translation": "事件日历",
+      "translation": "活动日历",
       "line": 28
     },
     "Squirtbottle": {
@@ -463,39 +463,39 @@
       "line": 133
     },
     "Meteorite_Bills_Errand": {
-      "translation": "陨石_账单_差事",
+      "translation": "陨石正辉的任务",
       "line": 134
     },
     "Tidal_Bell_Lugia": {
-      "translation": "潮汐钟洛奇亚",
+      "translation": "海声铃铛（洛奇亚）",
       "line": 135
     },
     "Clear_Bell_Hooh": {
-      "translation": "清除_贝尔_胡",
+      "translation": "清澈之铃（凤王）",
       "line": 136
     },
     "GS_Ball_Celebi": {
-      "translation": "GS_球_塞拉比",
+      "translation": "GS球时拉比",
       "line": 137
     },
     "Eon_Ticket_Latis": {
-      "translation": "Eon_Ticket_Latis",
+      "translation": "无限船票拉帝亚斯拉帝欧斯",
       "line": 138
     },
     "Celios_Errand_Ruby": {
-      "translation": "Celios_差事_Ruby",
+      "translation": "西里奥的差事红宝石",
       "line": 139
     },
     "Celios_Errand_Sapphire": {
-      "translation": "Celios_差事_蓝宝石",
+      "translation": "西里奥的差事蓝宝石",
       "line": 140
     },
     "Crystalline_Cocoon_Jirachi": {
-      "translation": "水晶_茧_基拉祈",
+      "translation": "水晶茧基拉祈",
       "line": 141
     },
     "Meteorite_Shard_Delta": {
-      "translation": "陨石_碎片_Delta",
+      "translation": "陨石碎片代欧奇希斯",
       "line": 142
     },
     "Mysterious_Vial_Detective_Pikachu": {
@@ -503,7 +503,7 @@
       "line": 143
     },
     "Heart_Diamond_Diancie": {
-      "translation": "心_钻石_蒂安希",
+      "translation": "心之钻石蒂安希",
       "line": 144
     },
     "Red_Petal_Mina": {
@@ -511,11 +511,11 @@
       "line": 145
     },
     "Orange_Petal_Mina": {
-      "translation": "橙色_花瓣_米娜",
+      "translation": "橙色花瓣米娜",
       "line": 146
     },
     "Yellow_Petal_Mina": {
-      "translation": "黄色_花瓣_米娜",
+      "translation": "黄色花瓣米娜",
       "line": 147
     },
     "Green_Petal_Mina": {
@@ -523,35 +523,35 @@
       "line": 148
     },
     "Blue_Petal_Mina": {
-      "translation": "蓝色_花瓣_米娜",
+      "translation": "蓝色花瓣米娜",
       "line": 149
     },
     "Purple_Petal_Mina": {
-      "translation": "紫色_花瓣_米娜",
+      "translation": "紫色花瓣米娜",
       "line": 150
     },
     "Pink_Petal_Mina": {
-      "translation": "粉色_花瓣_米娜",
+      "translation": "粉色花瓣米娜",
       "line": 151
     },
     "Sand_Bag_Magikarp_Jump": {
-      "translation": "沙袋_鲤鱼王_Jump",
+      "translation": "沙袋鲤鱼王跳跃",
       "line": 152
     },
     "Jump_Counter_Magikarp_Jump": {
-      "translation": "Jump_Counter_鲤鱼王_Jump",
+      "translation": "跳跃计数器鲤鱼王跳跃",
       "line": 153
     },
     "Timber_Magikarp_Jump": {
-      "translation": "Timber_鲤鱼王_Jump",
+      "translation": "木材鲤鱼王跳跃",
       "line": 154
     },
     "Rock_Cruncher_Magikarp_Jump": {
-      "translation": "Rock_Cruncher_鲤鱼王_Jump",
+      "translation": "碎岩机鲤鱼王跳跃",
       "line": 155
     },
     "Power_Generator_Magikarp_Jump": {
-      "translation": "Power_Generator_鲤鱼王_Jump",
+      "translation": "发电机鲤鱼王跳跃",
       "line": 156
     },
     "Pokeball_Smash_Magikarp_Jump": {
@@ -583,7 +583,7 @@
       "line": 163
     },
     "Great_Twisted_Spoon": {
-      "translation": "巨大弯曲汤匙",
+      "translation": "伟大的扭曲勺子",
       "line": 164
     },
     "Island_Challenge_Amulet": {
@@ -607,27 +607,27 @@
       "line": 169
     },
     "Water_Memory_Silvally": {
-      "translation": "水_记忆_银伴战兽",
+      "translation": "水记忆银伴战兽",
       "line": 170
     },
     "Grass_Memory_Silvally": {
-      "translation": "草_记忆_银伴战兽",
+      "translation": "草记忆银伴战兽",
       "line": 171
     },
     "Fire_Memory_Silvally": {
-      "translation": "火_记忆_银伴战兽",
+      "translation": "火记忆银伴战兽",
       "line": 172
     },
     "Electric_Memory_Silvally": {
-      "translation": "电_记忆_银伴战兽",
+      "translation": "电记忆银伴战兽",
       "line": 173
     },
     "Ice_Memory_Silvally": {
-      "translation": "冰_记忆_银伴战兽",
+      "translation": "冰记忆银伴战兽",
       "line": 174
     },
     "Ground_Memory_Silvally": {
-      "translation": "地面_记忆_银伴战兽",
+      "translation": "地面记忆银伴战兽",
       "line": 175
     },
     "Bug_Memory_Silvally": {

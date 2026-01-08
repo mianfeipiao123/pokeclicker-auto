@@ -1616,6 +1616,7 @@
     "Amount": "数量",
     "Amount of Treasure": "宝藏数量",
     "Amount:": "数量：",
+    "Amount: ${...}": "数量：${...}",
     "Amount(${...}, ${...})": "金额(${...}, ${...})",
     "Ampharos": "电龙",
     "Ampharosite": "电龙进化石",

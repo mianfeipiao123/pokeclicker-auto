@@ -8,6 +8,7 @@
     "@import \"gameMenu.html\"": "@导入“gameMenu.html”",
     "** Filters closer to the": "** 过滤器靠近",
     "Amount:": "数量：",
+    "Amount: ${...}": "数量：${...}",
     "Back": "上一步",
     "Click the \"Toggle Settings\" button for a filter to configure how it works. Options listed first are all the values that are checked when catching - you can click their": "点击过滤器的“切换设置”按钮以配置其工作方式。首先列出的选项是捕获时检查的所有值 - 你可以点击它们",
     "Configure Filters": "配置过滤器",

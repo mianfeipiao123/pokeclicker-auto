@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.40
+// @version      0.1.41
 // @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -75,7 +75,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.40';
+    const SCRIPT_VERSION = '0.1.41';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -339,8 +339,34 @@
     }
 
     const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content', 'data-intro'];
+    const ATTR_SELECTOR = attrNames.map((a) => `[${a}]`).join(',');
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    class LruCache extends Map {
+        constructor(limit) {
+            super();
+            this.limit = Number.isFinite(limit) && limit > 0 ? limit : 20000;
+        }
+
+        get(key) {
+            if (!super.has(key)) return undefined;
+            const value = super.get(key);
+            super.delete(key);
+            super.set(key, value);
+            return value;
+        }
+
+        set(key, value) {
+            if (super.has(key)) super.delete(key);
+            super.set(key, value);
+            if (this.size > this.limit) {
+                const firstKey = this.keys().next().value;
+                super.delete(firstKey);
+            }
+            return this;
+        }
+    }
 
     /** @type {Record<string,string>} */
     let typeTranslations = {};
@@ -954,7 +980,7 @@
         if (root.nodeType === Node.ELEMENT_NODE) {
             applyMapToElementAttributes(root, map, patterns, cache);
         }
-        root.querySelectorAll?.('*')?.forEach((el) => applyMapToElementAttributes(el, map, patterns, cache));
+        root.querySelectorAll?.(ATTR_SELECTOR)?.forEach((el) => applyMapToElementAttributes(el, map, patterns, cache));
     };
 
     const applyMapToNode = (node, map, patterns, cache) => {
@@ -968,7 +994,12 @@
             return;
         }
         if (node.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
-            node.childNodes?.forEach((c) => applyMapToNode(c, map, patterns, cache));
+            // Some environments may not support querySelectorAll on DocumentFragment.
+            if (typeof node.querySelectorAll === 'function') {
+                applyMapToRoot(node, map, patterns, cache);
+            } else {
+                node.childNodes?.forEach((c) => applyMapToNode(c, map, patterns, cache));
+            }
         }
     };
 
@@ -1121,7 +1152,7 @@
         }
 
         const patterns = buildPatterns(map);
-        const cache = new Map();
+        const cache = new LruCache(20000);
 
         const translateWithFallback = (text) => {
             const resolved = resolveTranslation(text, map, patterns);
@@ -1289,18 +1320,71 @@
 
         applyMapToRoot(document.documentElement, map, patterns, cache);
 
+        const pendingRoots = new Set();
+        const pendingAttrs = new Set();
+        const pendingText = new Set();
+        let scheduled = false;
+
+        const addRoot = (node) => {
+            if (!node) return;
+            // Skip if an existing root already covers this node.
+            for (const r of pendingRoots) {
+                if (r === node) return;
+                if (r?.contains?.(node)) return;
+            }
+            // If this node covers existing roots, drop them.
+            for (const r of pendingRoots) {
+                if (node?.contains?.(r)) pendingRoots.delete(r);
+            }
+            pendingRoots.add(node);
+        };
+
+        const scheduleFlush = () => {
+            if (scheduled) return;
+            scheduled = true;
+            const flush = () => {
+                scheduled = false;
+                const roots = Array.from(pendingRoots);
+                const attrs = Array.from(pendingAttrs);
+                const textNodes = Array.from(pendingText);
+                pendingRoots.clear();
+                pendingAttrs.clear();
+                pendingText.clear();
+
+                for (const n of roots) applyMapToNode(n, map, patterns, cache);
+
+                const coveredByRoots = (n) => roots.some((r) => r?.contains?.(n));
+                for (const el of attrs) {
+                    if (!coveredByRoots(el)) applyMapToElementAttributes(el, map, patterns, cache);
+                }
+                for (const t of textNodes) {
+                    if (!coveredByRoots(t)) applyMapToTextNode(t, map, patterns, cache);
+                }
+            };
+
+            const raf = window.requestAnimationFrame?.bind(window);
+            if (raf) raf(flush);
+            else setTimeout(flush, 16);
+        };
+
         const observer = new MutationObserver((mutations) => {
             for (const m of mutations) {
                 if (m.type === 'childList') {
                     for (const n of m.addedNodes) {
-                        applyMapToNode(n, map, patterns, cache);
+                        if (!n) continue;
+                        if (n.nodeType === Node.TEXT_NODE) {
+                            pendingText.add(n);
+                        } else if (n.nodeType === Node.ELEMENT_NODE || n.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
+                            addRoot(n);
+                        }
                     }
                 } else if (m.type === 'attributes') {
-                    applyMapToElementAttributes(m.target, map, patterns, cache);
+                    pendingAttrs.add(m.target);
                 } else if (m.type === 'characterData') {
-                    applyMapToTextNode(m.target, map, patterns, cache);
+                    if (m.target?.nodeType === Node.TEXT_NODE) pendingText.add(m.target);
                 }
             }
+            if (pendingRoots.size || pendingAttrs.size || pendingText.size) scheduleFlush();
         });
 
         observer.observe(document.documentElement, {

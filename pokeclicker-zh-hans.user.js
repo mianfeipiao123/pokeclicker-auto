@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.43
+// @version      0.1.44
 // @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -75,7 +75,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.43';
+    const SCRIPT_VERSION = '0.1.44';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -98,6 +98,51 @@
         }
         return TRANSLATIONS_PARAM_VALUE;
     })();
+
+    const uniqueStrings = (arr) => Array.from(new Set((arr ?? []).filter((v) => typeof v === 'string' && v)));
+    const joinUrl = (base, path) => {
+        const b = String(base ?? '').replace(/\/+$/, '');
+        const p = String(path ?? '').replace(/^\/+/, '');
+        if (!b) return p;
+        if (!p) return b;
+        return `${b}/${p}`;
+    };
+
+    const JSDELIVR_BASE_URL = (() => {
+        const fromGithubSpec = (spec) => {
+            const parts = String(spec ?? '').split('/').filter(Boolean);
+            if (parts.length < 3) return null;
+            const owner = parts[0];
+            const repo = parts[1];
+            const ref = parts[2];
+            const rest = parts.slice(3).join('/');
+            return `https://cdn.jsdelivr.net/gh/${owner}/${repo}@${ref}${rest ? `/${rest}` : ''}`;
+        };
+
+        try {
+            if (TRANSLATIONS_PARAM_VALUE.startsWith('github:')) {
+                const spec = TRANSLATIONS_PARAM_VALUE.split(':')[1] ?? '';
+                return fromGithubSpec(spec);
+            }
+
+            const m = String(TRANSLATIONS_BASE_URL).match(
+                /^https?:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)(?:\/(.*))?$/,
+            );
+            if (m) {
+                const owner = m[1];
+                const repo = m[2];
+                const ref = m[3];
+                const rest = m[4] || '';
+                return `https://cdn.jsdelivr.net/gh/${owner}/${repo}@${ref}${rest ? `/${rest}` : ''}`;
+            }
+        } catch {
+            // ignore
+        }
+        return null;
+    })();
+
+    const TRANSLATIONS_BASE_URL_CANDIDATES = uniqueStrings([TRANSLATIONS_BASE_URL, JSDELIVR_BASE_URL]);
+    const buildUrlCandidates = (relPath) => TRANSLATIONS_BASE_URL_CANDIDATES.map((base) => joinUrl(base, relPath));
 
     const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/locales/pokemon.json`;
     const USERSCRIPT_CONFIG_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/overrides/userscript.json`;
@@ -152,6 +197,7 @@
             forceLang: FORCE_LANG,
             translations: TRANSLATIONS_PARAM_VALUE,
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
+            translationsBaseUrlCandidates: TRANSLATIONS_BASE_URL_CANDIDATES,
         }),
     };
 
@@ -393,11 +439,32 @@
         'Fairy',
     ];
 
+    const fetchJsonWithFallback = async (urls, init) => {
+        let lastError = null;
+        for (const url of urls) {
+            try {
+                const res = await fetch(url, init);
+                if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
+                const json = await res.json();
+                if (!json || typeof json !== 'object') throw new Error('json invalid');
+                if (DEBUG && url !== urls[0]) {
+                    // eslint-disable-next-line no-console
+                    console.info('[PokéClicker zh-Hans] Loaded from fallback:', url);
+                }
+                return json;
+            } catch (e) {
+                lastError = e;
+            }
+        }
+        throw lastError || new Error('fetch failed');
+    };
+
     const loadUserscriptConfig = async () => {
         try {
-            const res = await fetch(USERSCRIPT_CONFIG_URL, { cache: 'no-cache' });
-            if (!res.ok) return null;
-            const json = await res.json();
+            const json = await fetchJsonWithFallback(
+                buildUrlCandidates(`${FORCE_LANG}/overrides/userscript.json`),
+                { cache: 'no-cache' },
+            );
             const entries = json?.entries ?? {};
             const getEntry = (k) => {
                 const v = entries?.[k];
@@ -1077,9 +1144,10 @@
 
         const loadMapFromBundle = async () => {
             try {
-                const res = await fetch(BUNDLE_URL, { cache: 'no-cache' });
-                if (!res.ok) return false;
-                const json = await res.json();
+                const json = await fetchJsonWithFallback(
+                    buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
+                    { cache: 'no-cache' },
+                );
                 let count = 0;
                 count += ingestEntriesToMap(json?.entries);
                 count += ingestEntriesToMap(json?.entriesCaseSensitive);
@@ -1097,23 +1165,27 @@
         try {
             const ok = await loadMapFromBundle();
             if (!ok) {
-                const indexUrl = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/_index.json`;
-                const indexRes = await fetch(indexUrl, { cache: 'no-cache' });
-                if (indexRes.ok) {
-                    const index = await indexRes.json();
+                try {
+                    const index = await fetchJsonWithFallback(
+                        buildUrlCandidates(`${FORCE_LANG}/_index.json`),
+                        { cache: 'no-cache' },
+                    );
                     const files = Object.keys(index.files || {}).filter((f) =>
                         !f.includes('/code.json')
                         && !f.startsWith('locales/')
                         && f !== 'overrides/userscript.json'
                         && f !== 'bundle.json'
                     );
-                    const results = await Promise.all(
-                        files.map(file =>
-                            fetch(`${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/${file}`, { cache: 'no-cache' })
-                                .then(r => r.ok ? r.json() : null)
-                                .catch(() => null)
-                        )
-                    );
+                    const results = await Promise.all(files.map(async (file) => {
+                        try {
+                            return await fetchJsonWithFallback(
+                                buildUrlCandidates(`${FORCE_LANG}/${file}`),
+                                { cache: 'no-cache' },
+                            );
+                        } catch {
+                            return null;
+                        }
+                    }));
                     for (const data of results) {
                         ingestEntriesToMap(data?.entries);
                         ingestEntriesToMap(data?.entriesCaseSensitive);
@@ -1122,7 +1194,7 @@
                         // eslint-disable-next-line no-console
                         console.info('[PokéClicker zh-Hans] Loaded split translations:', files.length, 'files,', Object.keys(map).length, 'entries');
                     }
-                } else {
+                } catch {
                     console.error('[PokéClicker zh-Hans] Failed to load translations index.');
                 }
             }
@@ -1153,9 +1225,11 @@
         }
 
         try {
-            const res = await fetch(POKEMON_TRANSLATIONS_URL, { cache: 'no-cache' });
-            if (res.ok) {
-                const json = await res.json();
+            const json = await fetchJsonWithFallback(
+                buildUrlCandidates(`${FORCE_LANG}/locales/pokemon.json`),
+                { cache: 'no-cache' },
+            );
+            if (json) {
                 const dict = {};
                 for (const [k, v] of Object.entries(json ?? {})) {
                     if (k === 'alt' && v && typeof v === 'object') {

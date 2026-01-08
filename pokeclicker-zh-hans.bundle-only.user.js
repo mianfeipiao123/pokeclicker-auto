@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.43
+// @version      0.1.44
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -74,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.43';
+    const SCRIPT_VERSION = '0.1.44';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -95,6 +95,56 @@
     })();
 
     const BUNDLE_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/bundle.json`;
+
+    const uniqueStrings = (arr) => Array.from(new Set((arr ?? []).filter((v) => typeof v === 'string' && v)));
+    const joinUrl = (base, path) => {
+        const b = String(base ?? '').replace(/\/+$/, '');
+        const p = String(path ?? '').replace(/^\/+/, '');
+        if (!b) return p;
+        if (!p) return b;
+        return `${b}/${p}`;
+    };
+
+    const JSDELIVR_BASE_URL = (() => {
+        const fromGithubSpec = (spec) => {
+            const parts = String(spec ?? '').split('/').filter(Boolean);
+            if (parts.length < 3) return null;
+            const owner = parts[0];
+            const repo = parts[1];
+            const ref = parts[2];
+            const rest = parts.slice(3).join('/');
+            return `https://cdn.jsdelivr.net/gh/${owner}/${repo}@${ref}${rest ? `/${rest}` : ''}`;
+        };
+
+        try {
+            if (TRANSLATIONS_PARAM_VALUE.startsWith('github:')) {
+                const spec = TRANSLATIONS_PARAM_VALUE.split(':')[1] ?? '';
+                return fromGithubSpec(spec);
+            }
+
+            const m = String(TRANSLATIONS_BASE_URL).match(
+                /^https?:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)(?:\/(.*))?$/,
+            );
+            if (m) {
+                const owner = m[1];
+                const repo = m[2];
+                const ref = m[3];
+                const rest = m[4] || '';
+                return `https://cdn.jsdelivr.net/gh/${owner}/${repo}@${ref}${rest ? `/${rest}` : ''}`;
+            }
+        } catch {
+            // ignore
+        }
+        return null;
+    })();
+
+    const BUNDLE_URL_CANDIDATES = (() => {
+        const urls = [BUNDLE_URL];
+        if (typeof JSDELIVR_BASE_URL === 'string' && JSDELIVR_BASE_URL) {
+            urls.push(joinUrl(JSDELIVR_BASE_URL, `${FORCE_LANG}/bundle.json`));
+        }
+        return uniqueStrings(urls);
+    })();
 
     const INLINE_OVERRIDES = {};
 
@@ -144,6 +194,7 @@
             translations: TRANSLATIONS_PARAM_VALUE,
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
             bundleUrl: BUNDLE_URL,
+            bundleUrlCandidates: BUNDLE_URL_CANDIDATES,
         }),
     };
 
@@ -1089,9 +1140,25 @@
         let bundle = null;
 
         try {
-            const res = await fetch(BUNDLE_URL, { cache: 'no-cache' });
-            if (!res.ok) throw new Error(`bundle fetch failed: ${res.status}`);
-            bundle = await res.json();
+            let lastError = null;
+            for (const url of BUNDLE_URL_CANDIDATES) {
+                try {
+                    const res = await fetch(url, { cache: 'no-cache' });
+                    if (!res.ok) throw new Error(`bundle fetch failed: ${res.status}`);
+                    const json = await res.json();
+                    if (!json || typeof json !== 'object') throw new Error('bundle json invalid');
+                    bundle = json;
+                    if (DEBUG && url !== BUNDLE_URL) {
+                        // eslint-disable-next-line no-console
+                        console.info('[PokéClicker zh-Hans] Loaded bundle from fallback:', url);
+                    }
+                    lastError = null;
+                    break;
+                } catch (err) {
+                    lastError = err;
+                }
+            }
+            if (!bundle) throw lastError || new Error('bundle fetch failed');
         } catch (e) {
             const cached = await loadBundleFromCache();
             if (cached) {

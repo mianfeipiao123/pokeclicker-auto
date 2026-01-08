@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.41
+// @version      0.1.43
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -74,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.41';
+    const SCRIPT_VERSION = '0.1.43';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -145,6 +145,122 @@
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
             bundleUrl: BUNDLE_URL,
         }),
+    };
+
+    // Cache bundle.json in IndexedDB as an offline/failure fallback.
+    // We still prefer network-first to keep translations as up-to-date as possible.
+    const BUNDLE_CACHE = (() => {
+        const DB_NAME = 'pokeclicker-zh-hans';
+        const STORE_NAME = 'bundle-cache';
+        const DB_VERSION = 1;
+
+        /** @type {Promise<IDBDatabase | null> | null} */
+        let dbPromise = null;
+
+        const openDb = () => {
+            if (dbPromise) return dbPromise;
+            if (!('indexedDB' in window)) return Promise.resolve(null);
+            dbPromise = new Promise((resolve) => {
+                try {
+                    const req = indexedDB.open(DB_NAME, DB_VERSION);
+                    req.onupgradeneeded = () => {
+                        try {
+                            const db = req.result;
+                            if (!db.objectStoreNames.contains(STORE_NAME)) {
+                                db.createObjectStore(STORE_NAME, { keyPath: 'key' });
+                            }
+                        } catch {
+                            // ignore
+                        }
+                    };
+                    req.onsuccess = () => resolve(req.result);
+                    req.onerror = () => resolve(null);
+                } catch {
+                    resolve(null);
+                }
+            });
+            return dbPromise;
+        };
+
+        const get = async (key) => {
+            const db = await openDb();
+            if (!db) return null;
+            return await new Promise((resolve) => {
+                try {
+                    const tx = db.transaction(STORE_NAME, 'readonly');
+                    const store = tx.objectStore(STORE_NAME);
+                    const req = store.get(key);
+                    req.onsuccess = () => resolve(req.result || null);
+                    req.onerror = () => resolve(null);
+                } catch {
+                    resolve(null);
+                }
+            });
+        };
+
+        const put = async (record) => {
+            const db = await openDb();
+            if (!db) return false;
+            return await new Promise((resolve) => {
+                try {
+                    const tx = db.transaction(STORE_NAME, 'readwrite');
+                    const store = tx.objectStore(STORE_NAME);
+                    const req = store.put(record);
+                    req.onsuccess = () => resolve(true);
+                    req.onerror = () => resolve(false);
+                } catch {
+                    resolve(false);
+                }
+            });
+        };
+
+        return { get, put };
+    })();
+
+    const BUNDLE_CACHE_META_KEY = `pokeclickerZhHansBundleMeta:${BUNDLE_URL}`;
+    const getCachedBundleGeneratedAt = () => {
+        try {
+            return localStorage.getItem(BUNDLE_CACHE_META_KEY);
+        } catch {
+            return null;
+        }
+    };
+    const setCachedBundleGeneratedAt = (generatedAt) => {
+        try {
+            if (typeof generatedAt === 'string' && generatedAt) localStorage.setItem(BUNDLE_CACHE_META_KEY, generatedAt);
+        } catch {
+            // ignore
+        }
+    };
+
+    const loadBundleFromCache = async () => {
+        try {
+            const rec = await BUNDLE_CACHE.get(BUNDLE_URL);
+            if (rec?.bundle && typeof rec.bundle === 'object') return rec.bundle;
+        } catch {
+            // ignore
+        }
+        return null;
+    };
+
+    const saveBundleToCache = async (bundle) => {
+        try {
+            const generatedAt = bundle?._meta?.generatedAt;
+            const prev = getCachedBundleGeneratedAt();
+            if (typeof generatedAt === 'string' && generatedAt && prev === generatedAt) return;
+
+            const ok = await BUNDLE_CACHE.put({
+                key: BUNDLE_URL,
+                url: BUNDLE_URL,
+                savedAt: Date.now(),
+                generatedAt: typeof generatedAt === 'string' ? generatedAt : null,
+                scriptVersion: SCRIPT_VERSION,
+                bundle,
+            });
+            if (ok && typeof generatedAt === 'string') setCachedBundleGeneratedAt(generatedAt);
+        } catch {
+            // ignore
+        }
     };
 
     const escapeCssContent = (s) =>
@@ -619,6 +735,17 @@
             if (typeof direct === 'string' && direct) return direct;
         }
 
+        // Case-insensitive fallback for DOM strings that differ only by capitalization.
+        // Uses a precomputed index built from non-colliding keys.
+        const casefoldIndex = map?.__pkcZhHansCasefoldIndex;
+        if (casefoldIndex && typeof casefoldIndex.get === 'function') {
+            for (const k of candidates) {
+                if (!k) continue;
+                const v = casefoldIndex.get(String(k).toLowerCase());
+                if (typeof v === 'string' && v) return v;
+            }
+        }
+
         const useMap = candidates.some((k) => shouldUseHardcodedMap(k));
         if (!useMap) return null;
 
@@ -966,9 +1093,19 @@
             if (!res.ok) throw new Error(`bundle fetch failed: ${res.status}`);
             bundle = await res.json();
         } catch (e) {
-            console.error('[PokéClicker zh-Hans] Failed to load bundle.json (bundle-only mode):', e);
-            return;
+            const cached = await loadBundleFromCache();
+            if (cached) {
+                bundle = cached;
+                // eslint-disable-next-line no-console
+                console.warn('[PokéClicker zh-Hans] Failed to fetch bundle.json, using cached bundle:', e);
+            } else {
+                console.error('[PokéClicker zh-Hans] Failed to load bundle.json (bundle-only mode):', e);
+                return;
+            }
         }
+
+        // Best-effort cache update for offline fallback (no impact on "latest" preference).
+        void saveBundleToCache(bundle);
 
         try {
             const addEntry = (key, value) => {
@@ -1001,6 +1138,28 @@
 
             ingestEntries(bundle?.entries);
             ingestEntries(bundle?.entriesCaseSensitive);
+        } catch {
+            // ignore
+        }
+
+        // Build a safe case-insensitive index for translation lookups.
+        // If multiple keys collide case-insensitively, we skip the entire group.
+        try {
+            const index = new Map();
+            const dup = new Set();
+            for (const [k, v] of Object.entries(map)) {
+                if (typeof k !== 'string' || !k) continue;
+                if (typeof v !== 'string' || !v) continue;
+                const lk = k.toLowerCase();
+                if (dup.has(lk)) continue;
+                if (index.has(lk)) {
+                    index.delete(lk);
+                    dup.add(lk);
+                    continue;
+                }
+                index.set(lk, v);
+            }
+            Object.defineProperty(map, '__pkcZhHansCasefoldIndex', { value: index });
         } catch {
             // ignore
         }
@@ -1292,7 +1451,6 @@
             childList: true,
             characterData: true,
             attributes: true,
-            attributeOldValue: true,
             attributeFilter: attrNames,
         });
     };

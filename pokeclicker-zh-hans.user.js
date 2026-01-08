@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.41
+// @version      0.1.43
 // @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -75,7 +75,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.41';
+    const SCRIPT_VERSION = '0.1.43';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -635,6 +635,17 @@
             if (typeof direct === 'string' && direct) return direct;
         }
 
+        // Case-insensitive fallback for DOM strings that differ only by capitalization.
+        // Uses a precomputed index built from non-colliding keys.
+        const casefoldIndex = map?.__pkcZhHansCasefoldIndex;
+        if (casefoldIndex && typeof casefoldIndex.get === 'function') {
+            for (const k of candidates) {
+                if (!k) continue;
+                const v = casefoldIndex.get(String(k).toLowerCase());
+                if (typeof v === 'string' && v) return v;
+            }
+        }
+
         const useMap = candidates.some((k) => shouldUseHardcodedMap(k));
         if (!useMap) return null;
 
@@ -1119,6 +1130,28 @@
             console.error('[PokéClicker zh-Hans] Failed to load translation resources:', e);
         }
 
+        // Build a safe case-insensitive index for translation lookups.
+        // If multiple keys collide case-insensitively, we skip the entire group.
+        try {
+            const index = new Map();
+            const dup = new Set();
+            for (const [k, v] of Object.entries(map)) {
+                if (typeof k !== 'string' || !k) continue;
+                if (typeof v !== 'string' || !v) continue;
+                const lk = k.toLowerCase();
+                if (dup.has(lk)) continue;
+                if (index.has(lk)) {
+                    index.delete(lk);
+                    dup.add(lk);
+                    continue;
+                }
+                index.set(lk, v);
+            }
+            Object.defineProperty(map, '__pkcZhHansCasefoldIndex', { value: index });
+        } catch {
+            // ignore
+        }
+
         try {
             const res = await fetch(POKEMON_TRANSLATIONS_URL, { cache: 'no-cache' });
             if (res.ok) {
@@ -1392,7 +1425,6 @@
             childList: true,
             characterData: true,
             attributes: true,
-            attributeOldValue: true,
             attributeFilter: attrNames,
         });
     };

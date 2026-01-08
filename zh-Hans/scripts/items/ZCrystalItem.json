@@ -7,7 +7,7 @@
   },
   "entries": {
     "Allows ${...}-type Pokémon to use Z-Moves for the next battle. They then need to rest a bit.": {
-      "translation": "允许$​​{...}型宝可梦在下一场战斗中使用Z招式。然后他们需要休息一下。",
+      "translation": "允许${...}属性宝可梦在下一场战斗中使用Z招式。之后它们需要稍作休息。",
       "line": 8,
       "_rematchedFrom": "Allows ${...}-type Pokémon to use Z-Moves for the next battle. They then need to rest a bit.",
       "_confidence": 0.85

@@ -77,7 +77,7 @@
       "_confidence": 0.95
     },
     "Using ${...} for translations": {
-      "translation": "已加载中文翻译",
+      "translation": "使用 ${...} 进行翻译",
       "line": 57,
       "_rematchedFrom": "Using ${...} for translations",
       "_confidence": 0.85

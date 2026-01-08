@@ -93,7 +93,6 @@
     "${...} × Diamonds": "${...} × 钻石",
     "${...} against ${...}": "${...} 兑 ${...}",
     "${...} caught": "${...} 被抓住",
-    "${...} clears": "${...} 清除",
     "${...} Clears": "${...} 清除",
     "${...} Damage: ${...}": "${...} 伤害：${...}",
     "${...} day${...}": "${...} 天${...}",
@@ -1033,9 +1032,7 @@
     "AbstractBeliefs": "抽象信念",
     "Access the towns content": "访问城镇内容",
     "ACHIEVE": "达到",
-    "ACTIVATE": "激活",
     "active": "积极的",
-    "ACTIVE": "积极的",
     "Active Quest Lines": "进行中的任务线",
     "Add all Pokémon matching the current filters to this category.": "将所有符合当前筛选条件的宝可梦添加到此分类。",
     "Add/Remove": "添加/删除",
@@ -1127,7 +1124,6 @@
     "checkbox-game-": "复选框游戏-",
     "chest": "胸部",
     "Chisel:": "凿：",
-    "clears": "清除",
     "Click \"List\" to start a new quest.": "点击“列表”开始新的任务。",
     "Click Attack:": "点击攻击：",
     "Click here to set a new key": "点击此处设置新密钥",
@@ -1165,7 +1161,6 @@
     "Counter-Clockwise": "逆时针",
     "Credited individual": "信用个人",
     "CrimsonMirelands": "赤红沼泽",
-    "currency": "货币",
     "Current mine is a": "目前的矿井是一个",
     "Current mine is not a": "当前矿井不是",
     "Currently Kanto through": "目前关都至",
@@ -1179,7 +1174,6 @@
     "DaveYognaught": "戴夫·约格诺特",
     "Daycare:": "培育屋：",
     "Day Care": "培育屋",
-    "DayCare": "培育屋",
     "Daycare": "培育屋",
     "Pokémon Day Care": "培育屋",
     "Pokemon Day Care": "培育屋",
@@ -1195,7 +1189,6 @@
     "digs up the last treasure: When the 'Auto restart selected mine' toggle is enabled, the game will automatically try to find a new mine of your selected type.": "挖出最后一个宝藏时：当启用'自动重启选定的矿洞'开关时，游戏将自动尝试寻找你所选类型的新矿洞。",
     "Disable Category Mode": "禁用分类模式",
     "Disable or enable types of logs": "禁用或启用日志类型",
-    "DISABLED": "禁用",
     "Disables the ability to use click attacks.": "禁用使用点击攻击的能力。",
     "Disables the usage of all Oak items.": "禁用所有大木博士道具的使用。",
     "Disables the usage of vitamins.": "禁用维生素的使用。",
@@ -1232,14 +1225,11 @@
     "无极巨化 ${...}": "无极巨化形态 ${...}",
     "无极巨化 无极汰那": "永恒巨轮",
     "EV bonus": "努力值加成倍率",
-    "EVENT": "事件",
     "EverstoneDealer": "Everstone经销商",
     "Evolution mutations:": "进化突变：",
     "EVs can be gained in a variety of ways, but are primarily gained by capturing (not breeding) Pokémon.": "努力值可以通过多种方式获得，但主要是通过捕获（而不是繁殖）宝可梦来获得。",
     "Exception:": "例外：",
-    "experience": "经验",
     "Experience and Leveling": "经验和升级",
-    "expert": "专家",
     "Expert Actions:": "专家行动：",
     "Expertise:": "专业知识：",
     "Experts are characters you can hire to assist with mining tasks. They perform actions at certain timing intervals and become more efficient as they level up. Each of them bring their own powerful tools, so their actions will not affect the durability of your tools.": "专家是你可以雇佣来协助采矿任务的角色。他们以一定的时间间隔执行行动，并随着等级的提高而变得更加高效。他们每个人都带着自己强大的工具，所以他们的行为不会影响你工具的耐用性。",
@@ -1297,7 +1287,6 @@
     "In progress": "进行中",
     "In some scenario, multiple of your filters may meet all of their conditions, but only one can be used to choose a ball for catching.": "在某些情况下，多个过滤器可能满足所有条件，但只有一个可以用于选择要接球的球。",
     "In the farm you can plant and harvest Berries.": "在农场里，你可以种植和收获树果。",
-    "in the start menu.": "在开始菜单中。",
     "Increases by": "增加",
     "Increases the chances of mutations.": "增加突变的机会。",
     "Increases the minimum and maximum amount of treasures that can be found in a mine": "增加矿井中可找到的宝藏的最小和最大数量",
@@ -1321,7 +1310,6 @@
     "Line 1 text:": "第1行文本：",
     "Line 2 text:": "第2行文本：",
     "locations": "地点",
-    "lock": "锁",
     "Lock all plots.": "锁定所有地块。",
     "Lock/Unlock a plot from interaction.": "通过交互锁定/解锁情节。",
     "Locking a plot prevents you from planting, harvesting,": "锁定一块地块可以防止你种植、收获、",
@@ -1447,12 +1435,10 @@
     "Right click (or long press on mobile) can be used to enable/disable filters from the main screen without opening this menu.": "右键点击（或在移动设备上长按）可用于从主屏幕启用/禁用过滤器，而无需打开此菜单。",
     "ROAMER": "漫游者",
     "Roamer Modifier:": "漫游者修改器：",
-    "roamers": "漫游者",
     "RobinLaevaert": "罗宾·拉瓦特",
     "Rock (∞)": "岩石 (∞)",
     "rock${...}": "岩石${...}",
     "route": "路线",
-    "route 11": "11号道路",
     "Route 5, or click": "5号道路，或点击",
     "route-${...}": "路线-${...}",
     "routes": "路线",
@@ -1503,7 +1489,6 @@
     "Start Date/Time": "开始日期/时间",
     "starter": "起动机",
     "Starts at": "开始于",
-    "status": "地位",
     "Step Efficiency:": "步数效率：",
     "Step: ${...} / ${...}": "步骤：${...} / ${...}",
     "Subreddit:": "子版块：",
@@ -1609,7 +1594,6 @@
     "WandererHandling": "流浪者处理",
     "Wandering Pokémon": "流浪宝可梦",
     "wanderingPokémonDisplay": "流浪的宝可梦显示",
-    "weather": "天气",
     "When all treasures have been seen, and the spot that is being mined has at least 1 adjacent tile with a reward": "当所有宝藏都已被看到，并且正在开采的地点至少有1个相邻的方块且有奖励时",
     "When all treasures have been seen, and the spot that is being mined has no adjacent tiles with a reward": "当所有宝藏都已被看到，并且正在开采的地点没有相邻的带有奖励的图块时",
     "When an expert digs up a treasure (last click), there is a chance that they will keep the treasure for themselves.": "当专家挖出宝藏时（最后点击），他们有机会将宝藏据为己有。",
@@ -2375,5 +2359,71 @@
     "Entrance": "入口",
     "Underground Entrance": "采掘场入口",
     "Push_Wimpod_Magikarp_Jump": "Push_胆小虫_鲤鱼王_Jump"
-  }
+  },
+  "entriesCaseSensitive": [
+    [
+      "${...} clears",
+      "${...} 清除"
+    ],
+    [
+      "ACTIVATE",
+      "激活"
+    ],
+    [
+      "ACTIVE",
+      "积极的"
+    ],
+    [
+      "clears",
+      "清除"
+    ],
+    [
+      "currency",
+      "货币"
+    ],
+    [
+      "DayCare",
+      "培育屋"
+    ],
+    [
+      "DISABLED",
+      "禁用"
+    ],
+    [
+      "EVENT",
+      "事件"
+    ],
+    [
+      "experience",
+      "经验"
+    ],
+    [
+      "expert",
+      "专家"
+    ],
+    [
+      "in the start menu.",
+      "在开始菜单中。"
+    ],
+    [
+      "lock",
+      "锁"
+    ],
+    [
+      "roamers",
+      "漫游者"
+    ],
+    [
+      "route 11",
+      "11号道路"
+    ],
+    [
+      "status",
+      "地位"
+    ],
+    [
+      "weather",
+      "天气"
+    ]
+  ]
 }

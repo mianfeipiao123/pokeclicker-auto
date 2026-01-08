@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.39
+// @version      0.1.40
 // @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -75,7 +75,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.39';
+    const SCRIPT_VERSION = '0.1.40';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -999,25 +999,48 @@
         /** @type {Record<string,string>} */
         let map = {};
 
+        const addEntryToMap = (key, value) => {
+            if (typeof key !== 'string' || !key) return false;
+            if (typeof value === 'string' && value) {
+                map[key] = value;
+                return true;
+            }
+            if (value && typeof value === 'object' && typeof value.translation === 'string' && value.translation) {
+                map[key] = value.translation;
+                return true;
+            }
+            return false;
+        };
+
+        const ingestEntriesToMap = (entriesLike) => {
+            let count = 0;
+            if (!entriesLike) return count;
+            if (Array.isArray(entriesLike)) {
+                for (const item of entriesLike) {
+                    if (Array.isArray(item) && item.length >= 2) {
+                        if (addEntryToMap(item[0], item[1])) count += 1;
+                    } else if (item && typeof item === 'object' && 'key' in item && 'value' in item) {
+                        if (addEntryToMap(item.key, item.value)) count += 1;
+                    }
+                }
+                return count;
+            }
+            if (typeof entriesLike === 'object') {
+                for (const [key, value] of Object.entries(entriesLike)) {
+                    if (addEntryToMap(key, value)) count += 1;
+                }
+            }
+            return count;
+        };
+
         const loadMapFromBundle = async () => {
             try {
                 const res = await fetch(BUNDLE_URL, { cache: 'no-cache' });
                 if (!res.ok) return false;
                 const json = await res.json();
-                const entries = json?.entries ?? {};
-                if (!entries || typeof entries !== 'object') return false;
                 let count = 0;
-                for (const [key, value] of Object.entries(entries)) {
-                    if (typeof value === 'string' && value) {
-                        map[key] = value;
-                        count += 1;
-                        continue;
-                    }
-                    if (value && typeof value === 'object' && typeof value.translation === 'string' && value.translation) {
-                        map[key] = value.translation;
-                        count += 1;
-                    }
-                }
+                count += ingestEntriesToMap(json?.entries);
+                count += ingestEntriesToMap(json?.entriesCaseSensitive);
                 if (DEBUG) {
                     // eslint-disable-next-line no-console
                     console.info('[PokéClicker zh-Hans] Loaded bundle:', count, 'entries');
@@ -1050,15 +1073,8 @@
                         )
                     );
                     for (const data of results) {
-                        if (data?.entries) {
-                            for (const [key, value] of Object.entries(data.entries)) {
-                                if (typeof value === 'string') {
-                                    if (value) map[key] = value;
-                                } else if (value?.translation) {
-                                    map[key] = value.translation;
-                                }
-                            }
-                        }
+                        ingestEntriesToMap(data?.entries);
+                        ingestEntriesToMap(data?.entriesCaseSensitive);
                     }
                     if (DEBUG) {
                         // eslint-disable-next-line no-console

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.39
+// @version      0.1.40
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -74,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.39';
+    const SCRIPT_VERSION = '0.1.40';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -940,16 +940,36 @@
         }
 
         try {
-            const entries = bundle?.entries ?? {};
-            for (const [key, value] of Object.entries(entries)) {
+            const addEntry = (key, value) => {
+                if (typeof key !== 'string' || !key) return;
                 if (typeof value === 'string' && value) {
                     map[key] = value;
-                    continue;
+                    return;
                 }
                 if (value && typeof value === 'object' && typeof value.translation === 'string' && value.translation) {
                     map[key] = value.translation;
                 }
-            }
+            };
+
+            const ingestEntries = (entriesLike) => {
+                if (!entriesLike) return;
+                if (Array.isArray(entriesLike)) {
+                    for (const item of entriesLike) {
+                        if (Array.isArray(item) && item.length >= 2) {
+                            addEntry(item[0], item[1]);
+                        } else if (item && typeof item === 'object' && 'key' in item && 'value' in item) {
+                            addEntry(item.key, item.value);
+                        }
+                    }
+                    return;
+                }
+                if (typeof entriesLike === 'object') {
+                    for (const [key, value] of Object.entries(entriesLike)) addEntry(key, value);
+                }
+            };
+
+            ingestEntries(bundle?.entries);
+            ingestEntries(bundle?.entriesCaseSensitive);
         } catch {
             // ignore
         }

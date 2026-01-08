@@ -520,7 +520,6 @@
     "${...} Blue": "${...} 蓝色",
     "${...} cannot be owned yet.": "${...} 尚不能被拥有。",
     "${...} caught": "${...} 被抓住",
-    "${...} clears": "${...} 清除",
     "${...} Clears": "${...} 清除",
     "${...} per battle": "${...}（每场战斗）",
     "${...} Clears - ${...} reward": "${...} 次通关 - 奖励：${...}",
@@ -689,16 +688,13 @@
     "${...}${...} Regular": "${...}${...} 常规",
     "${...}${...} Ruler": "${...}${...} 标尺",
     "${...}b": "${...}b",
-    "${...}B": "${...}b",
     "${...}Berry": "${...}树果",
     "${...}d": "${...}d",
     "${...}es": "${...}es",
     "${...}h": "${...}小时",
     "${...}h${...}m": "${...}小时${...}分钟",
     "${...}k": "${...}k",
-    "${...}K": "${...}k",
     "${...}m": "${...}m",
-    "${...}M": "${...}M",
     "${...}Observable": "${...}可观察",
     "${...}px": "${...} 像素",
     "${...}s": "${...}s",
@@ -1004,7 +1000,6 @@
     "a Nanab Berry": "纳纳布树果",
     "A new mine can be manually found by clicking the Find mine button in the Dig tab.": "点击“挖掘”选项卡中的“查找矿洞”按钮可以手动查找新矿洞。",
     "A new world": "一个新世界",
-    "A New World": "新世界",
     "A newer version of the game is available:": "游戏有更新版本可用：",
     "A newer version of the game is available: <a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">Reload Page</a>": "游戏有新版本可用： <a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">刷新页面</a>",
     "A newer version of the game is available:\\n\\n<a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">Reload Page</a>": "游戏有新版本可用：\\n\\n<a class=\"btn btn-warning btn-block\" href=\"#\" onclick=\"location.reload(true);\">重新加载页面</a>",
@@ -1108,7 +1103,6 @@
     "Achah! You're strong! I was worried that you might be struggling with your training.": "阿迦！你很强！我担心你的训练可能会遇到困难。",
     "Acheivements re-filter once acheivement completed": "成就完成后会重新过滤成就",
     "ACHIEVE": "达到",
-    "achievement": "成就",
     "Achievement": "成就",
     "Achievement Bonus": "成就奖金",
     "Achievement bonus percentage now also applies to Dungeon Tokens": "成就奖励百分比现在也适用于迷宫代币",
@@ -1132,11 +1126,9 @@
     "Action": "行动",
     "Actions": "行动",
     "Activate": "激活",
-    "ACTIVATE": "激活",
     "Activate in-game challenge modes!": "激活游戏中的挑战模式！",
     "Activating Dowsing Machine now increases the chance to multiply loot from dungeon chests": "激活探矿机现在会增加迷宫箱中战利品倍增的机会",
     "active": "积极的",
-    "ACTIVE": "积极的",
     "Active Challenge Mode?": "激活挑战模式？",
     "Active Quest Lines": "进行中的任务线",
     "Actor": "演员",
@@ -1489,14 +1481,12 @@
     "Alcremie (Strawberry Salted)": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.salted]]",
     "Alcremie (Strawberry Vanilla)": "[[Alcremie]] [[alt.sweet.theme.strawberry]] [[alt.sweet.flavor.vanilla]]",
     "Alcremie sweets big icons": "霜奶仙 糖果大图标",
-    "alex": "亚历克斯",
     "Alex": "亚历克斯",
     "Alexa": "亚历克斯",
     "Alfornada": "阿尔福纳达",
     "Alfred": "阿尔弗雷德",
     "Alia": "阿莉亚",
     "Aline": "艾琳",
-    "all": "全部",
     "All": "全部",
     "All ${...} will be removed from <u>every</u> Pokémon in your party.": "所有${...}将从你队伍中的<u>每只</u>宝可梦身上移除。",
     "All badges now displayed in badge case when available": "所有徽章现在都显示在徽章盒中（如有）",
@@ -1623,13 +1613,11 @@
     "Ambrette Fossil Lab": "琥珀化石实验室",
     "Ambrette Town": "古香镇",
     "Amoonguss": "败露球菇",
-    "amount": "数量",
     "Amount": "数量",
     "Amount of Treasure": "宝藏数量",
     "Amount:": "数量：",
     "Amount(${...}, ${...})": "金额(${...}, ${...})",
     "Ampharos": "电龙",
-    "ampharosite": "电龙进化石",
     "Ampharosite": "电龙进化石",
     "Amphy": "安菲",
     "Amulet Coin": "护符金币",
@@ -1916,12 +1904,10 @@
     "Athlete (female)": "运动员（女）",
     "Athlete (male)": "运动员（男）",
     "Atsushi": "笃",
-    "attack": "攻击",
     "Attack": "攻击",
     "Attack achievement no longer based on current region": "攻击成就不再基于当前区域",
     "Attack Achievements appearing again on reload": "攻击成就在重新加载时再次出现",
     "Attack at level 100": "攻击等级100",
-    "Attack at Level 100": "100级时攻击力",
     "Attack Bonus": "攻击加成",
     "Attack Bonus display value now includes additional attack modifiers": "攻击加值显示值现在包括额外的攻击修正值",
     "Attack Bonus: ${...}": "攻击奖励：${...}",
@@ -2091,7 +2077,6 @@
     "Battle Item Master": "战斗道具大师",
     "Battle Items": "战斗物品",
     "Battle Items are disabled": "战斗物品被禁用",
-    "Battle Items are Disabled": "战斗物品被禁用",
     "Battle Items are disabled.": "战斗物品被禁用。",
     "Battle items no longer always active": "战斗物品不再始终有效",
     "Battle Points": "对战点数",
@@ -2301,7 +2286,6 @@
     "Blue_Petal_Mina": "蓝色_花瓣_米娜",
     "Blue_shard": "蓝色碎片",
     "Blue-lgpe": "蓝色-lgpe",
-    "Blue-LGPE": "蓝色-LGPE",
     "Blue-Masters": "蓝色大师",
     "Blue1": "蓝色1",
     "Blue2": "蓝色2",
@@ -2377,7 +2361,6 @@
     "Breed more": "繁殖更多",
     "Breed their evolution.": "培育他们的进化。",
     "Breeder": "饲养员",
-    "breeding": "选育",
     "Breeding": "培育",
     "Breeding display takes up less space on smaller screens now": "现在，育种显示在较小的屏幕上占用的空间更少",
     "Breeding Efficiency": "培育效率",
@@ -2453,7 +2436,6 @@
     "Bug": "虫",
     "Bug Buds": "虫芽",
     "Bug catcher": "捕虫器",
-    "Bug Catcher": "捕虫器",
     "Bug Catcher Elliot": "捕虫者埃利奥特",
     "Bug Catcher John": "捕虫者约翰",
     "Bug Catcher Michel": "捕虫者米歇尔",
@@ -2709,7 +2691,6 @@
     "Capture your first Pokémon.": "捕捉你的第一只宝可梦。",
     "Capture your first Shadow Pokémon": "捕捉你的第一只暗影宝可梦",
     "Capture your first Shiny Pokémon.": "捕捉你的第一只异色宝可梦。",
-    "captured": "被捕获",
     "Captured": "被捕获",
     "Cara Liss": "卡拉·利斯",
     "Carbink": "小碎钻",
@@ -2838,10 +2819,8 @@
     "Catching a shiny in the Safari zone grants additional Safari EXP": "在 Safari 区域捕获异色会获得额外的 狩猎经验",
     "Catching a shiny shadow Pokémon not awarding the shiny": "捕捉异色的暗影宝可梦不会奖励异色",
     "Catching lots of Ultra Beasts? Oh you want to know more about Beast Balls!": "捕获大量究极异兽？哦，你想了解更多关于野兽球的信息！",
-    "categories": "类别",
     "Categories": "类别",
     "Categorized": "分类",
-    "category": "类别",
     "Category": "类别",
     "Category ${...}": "类别 ${...}",
     "Category list no longer cut off in Hacthery": "Hactery 中的类别列表不再被切断",
@@ -2850,9 +2829,7 @@
     "Caterpie": "绿毛虫",
     "Cathy": "凯茜",
     "Catrina": "卡特里娜",
-    "caught": "捕捉",
     "Caught": "已捕获",
-    "CAUGHT": "捕捉",
     "Caught error while applying update v${...}:": "应用更新 v${...} 时遇到错误：",
     "Caught error while backing up old save file to localStorage:": "将旧保存文件备份到 localStorage 时遇到错误：",
     "Caught error while backing up save file to localStorage:": "将保存文件备份到 localStorage 时遇到错误：",
@@ -2865,7 +2842,6 @@
     "Caught Shadow": "已捕获（暗影）",
     "Caught Shiny": "已捕获（异色）",
     "Caught Status": "捕获状态",
-    "cave": "洞窟",
     "Cave": "洞穴",
     "Cave Environment": "洞穴环境",
     "Cave Gem Environment": "洞穴宝石环境",
@@ -2898,7 +2874,6 @@
     "Celso": "塞尔索",
     "Centimeters": "厘米",
     "Centiskorch": "焚焰蚣",
-    "cerulean": "天蓝色的",
     "Cerulean": "天蓝色",
     "Cerulean Cave": "蔚蓝洞",
     "Cerulean City": "华蓝市",
@@ -2919,7 +2894,6 @@
     "Challenge Miror B.": "挑战镜子B.",
     "Challenge Mode": "挑战模式",
     "Challenge modes": "挑战模式",
-    "Challenge Modes": "挑战模式",
     "Challenge Paldea's Gyms to challenge your new rival, Nemona.": "挑战帕尔迪亚的道馆，挑战你的新对手妮莫。",
     "Challenge Road": "挑战之路",
     "Challenge Snattle": "挑战小食",
@@ -3072,7 +3046,6 @@
     "Cipher Admin Ardos": "密码管理员 Ardos",
     "Cipher Admin Dakim": "密码管理员达基姆",
     "Cipher Admin Ein": "密码管理员",
-    "cipher Admin Eldes": "密码管理员埃尔德斯",
     "Cipher Admin Eldes": "密码管理埃尔德斯",
     "Cipher Admin Gorigan": "密码管理员 Gorigan",
     "Cipher Admin Lovrina": "密码管理员洛夫里纳",
@@ -3178,7 +3151,6 @@
     "Clear_Bell_Hooh": "清除_贝尔_胡",
     "ClearBattleFrontier": "清除对战开拓区",
     "ClearBattleFrontierQuest": "清除对战开拓区任务",
-    "clears": "清除",
     "Clears": "清除",
     "Clefable": "皮可西",
     "Clefairy": "皮皮",
@@ -3241,7 +3213,6 @@
     "CobaltCoastlands": "钴海岸",
     "Cobble": "鹅卵石",
     "Code activated!": "代码已激活！",
-    "Code Activated!": "代码已激活！",
     "Code Contributions": "代码贡献",
     "Cofagrigus": "迭失棺",
     "Coffy": "科菲",
@@ -3267,7 +3238,6 @@
     "Collected all treasures": "收集所有宝藏",
     "Collected treasure:": "收集到的宝物：",
     "Collector": "集电极",
-    "color": "颜色",
     "Color": "颜色",
     "Color Wanderers": "色彩漫游者",
     "color: red; font-size: 16px;": "颜色: 红色;字体大小：16px；",
@@ -3323,7 +3293,6 @@
     "Complete the ${...} Shiny Pokédex!": "完成 ${...} 异色图鉴！",
     "Complete the tutorial quests to continue.": "完成教程任务以继续。",
     "Complete your first quest.": "完成你的第一个任务。",
-    "completed": "完全的",
     "Completed": "已完成",
     "Completed Mine:": "已完成的矿山：",
     "Completed Quest and Achievements will show in the Log Book": "已完成的任务和成就将显示在冒险日志中",
@@ -3424,12 +3393,10 @@
     "Corviknight": "钢铠鸦",
     "Corvisquire": "蓝鸦",
     "Corwin": "科温",
-    "cosmo": "科斯莫",
     "Cosmo": "科斯莫",
     "Cosmoem": "科斯莫姆",
     "Cosmog": "科斯莫古",
     "Cosplay Pikachu Shuffle Icons": "Cosplay 皮卡丘随机播放图标",
-    "cost": "成本",
     "Cost": "花费",
     "Cost / Hatch:": "成本/孵化：",
     "Cost / Run": "运行成本",
@@ -3519,7 +3486,6 @@
     "Curing Them One at a Time": "一次治愈一个",
     "Curious Trainers, we shall not let you run around as you please!": "好奇的训练家，我们不会让你们随意乱跑的！",
     "Currencies": "货币",
-    "currency": "货币",
     "Currency": "货币",
     "Currency display module will now dynamically show additional currencies as they are unlocked or earned": "货币显示模块现在将动态显示解锁或赚取的其他货币",
     "Currency display on main view moved to own module": "主视图上的货币显示已移至自己的模块",
@@ -3542,7 +3508,6 @@
     "Cutiefly": "萌虻",
     "Cyan Shard": "青色碎片",
     "Cyan_shard": "青色_碎片",
-    "cyborg": "赛博格",
     "Cyborg": "赛博格",
     "cycle": "循环",
     "Cycle All": "全部循环",
@@ -3590,7 +3555,6 @@
     "DapperDwarf": "衣冠楚楚的矮人",
     "Dappled Grove": "斑驳的树林",
     "Darien": "达里恩",
-    "dark": "黑暗的",
     "Dark": "恶",
     "Dark Cave": "黑暗洞穴",
     "Dark gems": "恶系宝石",
@@ -3602,7 +3566,6 @@
     "Dark: 1.10x": "恶系：1.10x",
     "darker-25": "较暗-25",
     "Darkinium Z": "达金合金 Z",
-    "darkly": "黑暗",
     "Darkly": "黑暗",
     "Darkrai": "达克莱伊",
     "Darkrai roams Sinnoh around New Moon, and lives on the island during other moon phases.": "达克莱伊在新月周围漫游神奥，并在其他月相期间居住在岛上。",
@@ -3614,7 +3577,6 @@
     "Darrius": "达里厄斯",
     "Dartrix": "投羽枭",
     "Darumaka": "火红不倒翁",
-    "darwin": "达尔文",
     "Darwin": "达尔文",
     "Data": "数据",
     "data-type1": "数据类型1",
@@ -3640,7 +3602,6 @@
     "Day: ${...}": "白天：${...}",
     "Day: 10:00 - 18:00": "白天：10:00 - 18:00",
     "Daycare": "培育屋",
-    "DayCare": "培育屋",
     "Daycare:": "培育屋：",
     "de": "德",
     "Dead tree map sprite": "死树地图精灵",
@@ -3668,7 +3629,6 @@
     "Deerling (Winter)": "[[Deerling]] [[alt.winter]]",
     "Deertrack Heights": "鹿迹高地",
     "Deertrack Path": "鹿径",
-    "default": "默认",
     "Default": "默认",
     "Defeat ${...} ${...} in ${...} 1,000 times.": "在 ${...} 内击败 ${...} ${...} 1,000次。",
     "Defeat ${...} ${...} in ${...} 10 times.": "在 ${...} 中击败 ${...} ${...} 10次。",
@@ -3678,7 +3638,6 @@
     "Defeat ${...} in ${...} ${...} times.": "在 ${...}（${...}）挑战并获胜 ${...} 次。",
     "Defeat ${...} in ${...}.": "在${...}中击败${...}。",
     "Defeat ${...} Pokémon on ${...}.": "击败 ${...} 只宝可梦（地点：${...}）。",
-    "defeat ${...} Pokémon.": "击败 ${...} 宝可梦。",
     "Defeat ${...} Pokémon.": "击败 ${...} 只宝可梦。",
     "Defeat 1,000 Pokémon on ${...}.": "在 ${...} 击败1,000只宝可梦。",
     "Defeat 1,000 Pokémon.": "击败1,000只宝可梦。",
@@ -3822,7 +3781,6 @@
     "Delan": "德兰",
     "Delcatty": "优雅猫",
     "Delete": "删除",
-    "DELETE": "删除",
     "Delete pokeball filter": "删除精灵球过滤器",
     "DELETE SAVE": "删除存档",
     "Delete save file": "删除存档文件",
@@ -3858,7 +3816,6 @@
     "Derek": "德里克",
     "Derid": "德里德",
     "Descending (highest value first)": "降序（最高值优先）",
-    "description": "描述",
     "Description": "描述",
     "Desert Environment": "沙漠环境",
     "Desert Resort": "沙漠度假村",
@@ -3898,12 +3855,10 @@
     "Dialga": "帝牙卢卡",
     "Dialga (Origin)": "[[Dialga]] 起源形态",
     "Dialga was captured in the Origin Ball and returned to its base form!": "帝牙卢卡被困在了源球之中，恢复了基本形态！",
-    "diamond": "钻石",
     "Diamond": "钻石",
     "Diamond Heath": "钻石荒地",
     "Diamond Settlement": "钻石结算",
     "Diamond treasures cannot be traded for other items, only sold for diamonds.": "钻石宝物不能兑换其他物品，只能出售钻石。",
-    "diamonds": "钻石",
     "Diamonds": "钻石",
     "Diamonds<br /><br />Gained by selling treasure found in the Underground.": "钻石<br /><br />通过出售采掘场发现的宝藏获得。",
     "Diana": "戴安娜",
@@ -3961,9 +3916,7 @@
     "Disable or enable types of logs": "禁用或启用日志类型",
     "Disable the right click menu": "禁用右键菜单",
     "disableAutoDownloadBackupSaveOnUpdate": "游戏更新时禁用自动下载存档",
-    "disabled": "残疾人",
     "Disabled": "已禁用",
-    "DISABLED": "禁用",
     "disableRightClickMenu": "禁用右键菜单",
     "Disables the ability to use Click Attacks": "禁用使用点击攻击的能力",
     "Disables the ability to use click attacks.": "禁用使用点击攻击的能力。",
@@ -4105,7 +4058,6 @@
     "Douse Drive Genesect": "杜斯驱动器盖内塞克特",
     "Douse_Drive": "水流卡带",
     "Doven": "多芬",
-    "down": "向下",
     "Down": "向下",
     "Download Save": "下载存档",
     "Download save game": "下载游戏存档",
@@ -4205,7 +4157,6 @@
     "Dummy!": "假的！",
     "Duncan": "邓肯",
     "Duncapham": "邓卡彭",
-    "dungeon": "迷宫",
     "Dungeon": "迷宫",
     "Dungeons": "迷宫",
     "Dungeon Attempts": "迷宫尝试",
@@ -4364,7 +4315,6 @@
     "Efficiency refers to how many actions they can do per work cycle.": "效率是指每个工作周期可以执行多少操作。",
     "Efficiency:": "效率：",
     "Efficiency: ${...}": "效率：${...}",
-    "egg": "蛋",
     "Egg": "蛋",
     "Egg Factory": "蛋厂",
     "Egg hatched": "蛋孵化了",
@@ -4619,7 +4569,6 @@
     "Enter": "进入",
     "Enter Battle Frontier": "进入对战开拓区",
     "Enter code...": "输入代码...",
-    "Enter Code...": "输入代码...",
     "Enter Friend Safari": "进入好友Safari",
     "Enter Safari Zone": "进入野生动物区",
     "Enter the Battle Frontier and defeat stage 100.": "进入对战开拓区并击败第100关。",
@@ -4631,7 +4580,6 @@
     "Eon_ticket": "无限船票",
     "Eon_Ticket_Latis": "Eon_Ticket_Latis",
     "eon-ticket": "无限船票",
-    "EON-TICKET": "无限船票",
     "epic": "史诗",
     "Equip another Oak Item!": "装备另一个大木博士道具！",
     "Equip the ${...} and": "装备 ${...} 和",
@@ -4691,7 +4639,6 @@
     "Eusine was here a second ago. He seemed very excited, but then he suddenly left. I don't know where he went, but he seemed to be particularly interested in the blue one.": "尤辛一秒钟前还在这里。他看上去很兴奋，但随后却突然离开了。不知道他去了哪里，但他似乎对蓝色的特别感兴趣。",
     "Eusine's Chase": "尤辛的追逐",
     "Eustace": "尤斯塔斯",
-    "ev": "努力值",
     "EV bonus": "努力值加成倍率",
     "EV bonus now taken into account for Breeding Effeciency sorting": "育种效率排序现在考虑了努力值奖励",
     "EV bonus:": "努力值加成：",
@@ -4707,7 +4654,6 @@
     "Even though it is bitter, it should be eaten peel and all. The hair on the peel cleans the stomach from the inside.": "尽管它很苦，但还是应该连皮一起吃。果皮上的毛发从内部清洁胃。",
     "Even though resources, space, and energy on this planet are limited, the number of people and Pokémon has increased to an unsustainable level. Whether it's money or energy, the ones who steal are the ones who win in this world.": "尽管这个星球上的资源、空间和能源都是有限的，但人口和宝可梦的数量却增加到了不可持续的水平。无论是金钱还是精力，在这个世界上，偷窃的人就是胜利者。",
     "Event": "活动",
-    "EVENT": "事件",
     "Event Calendar": "活动日历",
     "Event Calendar - Halloween not included (purchased in Hammerlocke)": "活动日历 - 不包括万圣节（在宫门市购买）",
     "Event description line breaks": "事件描述换行符",
@@ -4719,12 +4665,10 @@
     "Event Roaming Pokémon": "活动漫游宝可梦",
     "Event start/end information": "活动开始/结束信息",
     "Event_calendar": "事件日历",
-    "events": "事件",
     "Events": "活动",
     "Ever Grande City": "彩幽市",
     "Ever since growing old I'm no longer the Pokémon Trainer that I used to be. Now I always like to keep my garden full of Kasib Berries.": "自从老了之后，我就不再是以前的宝可梦训练家了。现在我总是喜欢让我的花园种满卡西布树果。",
     "Ever since the incident at Aether Paradise, where you encountered UB-01 Symbiont, also known as Nihilego, we have heard reports of other Symbiont appearing in Alola. And other types of UBs too.": "自从在以太乐园事件中遇到了 UB-01共生体（也称为 Nihilego）之后，我们就听到了其他共生体出现在阿罗拉的报道。还有其他类型的 UB。",
-    "everstone": "不变之石",
     "Everstone": "不变之石",
     "Everstone can now be used as a held item to prevent evolution": "永恒石现在可以用作持有物品以防止进化",
     "EverstoneDealer": "Everstone经销商",
@@ -4748,7 +4692,6 @@
     "Evolution Stones will show a caught indicator in shops": "进化石将在商店中显示捕获指示器",
     "evolutionitems": "进化物品",
     "evolutions": "进化",
-    "evs": "落雷兽",
     "Ev": "努力值",
     "EVs": "努力值",
     "EVs are unlocked after defeating the Distortion World dungeon in Sinnoh.": "击败神奥的扭曲世界迷宫后，努力值将被解锁。",
@@ -4776,18 +4719,14 @@
     "Exeggutor Island Hill": "椰蛋岛山",
     "Exeggutor Tree": "椰枣树",
     "Exinn": "埃克辛",
-    "exp": "经验值",
     "Exp": "经验值",
     "EXP Aura added to Custap berry": "卡斯塔普树果中添加了 EXP 光环",
     "EXP Gain": "经验增益",
     "Exp Share": "学习装置",
-    "EXP Share": "学习装置",
     "Exp_Share": "学习装置",
-    "experience": "经验",
     "Experience": "经验值",
     "Experience and Leveling": "经验和升级",
     "Experience gain has been rebalanced": "经验增益已重新平衡",
-    "expert": "专家",
     "Expert": "专家",
     "Expert Actions:": "专家行动：",
     "Expert Mechanics": "专家机械师",
@@ -4868,7 +4807,6 @@
     "Farid": "法里德",
     "Farigh": "法里格",
     "Farigiraf": "奇麒麟",
-    "farm": "农场",
     "Farm": "农场",
     "Farm & Underground modules added to main view; can be disabled in settings": "农场和采掘场模块已添加到主视图；可在设置中禁用",
     "Farm Apprentice": "农场学徒",
@@ -4911,7 +4849,6 @@
     "FarmHandJamie": "农场帮手杰米",
     "FarmHandKerry": "农手嘉里",
     "FarmHandRiley": "农场手莱利",
-    "farming": "农业",
     "Farming": "农业",
     "Farming Apprentice": "农业学徒",
     "Farming Info": "农业信息",
@@ -4939,7 +4876,6 @@
     "Fein": "费恩",
     "Feldas": "费尔达斯",
     "Felix": "菲利克斯",
-    "female": "女性",
     "Female": "雌性",
     "Fen": "分",
     "fence": "栅栏",
@@ -5177,7 +5113,6 @@
     "Fine, I'll do it myself": "好吧，我自己来做",
     "Finizen": "波普海豚",
     "Finneon": "荧光鱼",
-    "fire": "火",
     "Fire": "火",
     "Fire All": "全部解雇",
     "Fire Egg": "火蛋",
@@ -5276,7 +5211,6 @@
     "Flannery's Gym": "亚莎的道馆",
     "Flapple": "苹裹龙",
     "Flareon": "火伊布",
-    "flatly": "断然",
     "Flatly": "断然",
     "Flavor": "味道",
     "Fletchinder": "火箭雀",
@@ -5363,7 +5297,6 @@
     "For the next set of memories I've been keeping an ear out and have heard some rumors:": "对于接下来的记忆，我一直在倾听并听到了一些谣言：",
     "For what it's worth, I say don't go to any of those places. Too wet, too hot and too... jungly. Why not stay here? Have a coffee! Enjoy the city!": "无论如何，我建议不要去这些地方。太湿、太热、太……丛林。为什么不留在这里？喝杯咖啡吧！享受这座城市！",
     "Force save game": "强制保存游戏",
-    "forest": "森林",
     "Forest": "森林",
     "Forest Environment": "森林环境",
     "Forest of Focus": "焦点森林",
@@ -5401,7 +5334,6 @@
     "FossilMasterGalarRoute6": "FossilMaster伽勒尔Route6",
     "FossilNacreneMuseum": "化石珍珠母博物馆",
     "FossilOreburghMiningMuseum": "奥勒堡化石矿业博物馆",
-    "fossils": "化石",
     "Fossils": "化石",
     "Fossils display caught status in Hatchery": "化石显示孵化场的捕获状况",
     "Fossils will now show in the Hatchery": "化石现在将在孵化场展示",
@@ -5502,7 +5434,6 @@
     "Gaeric": "盖里克",
     "Gahahaaa! Look at me, takin' a thrashin' from a youngster like you!": "哈哈哈！看看我，被你这样的年轻人狠狠地打了一顿！",
     "Gain ${...} ${...} gems.": "获得 ${...} 个${...}宝石。",
-    "Gain ${...} ${...} Gems.": "获得 ${...} 个${...}宝石。",
     "Gain ${...} Dungeon Tokens.": "获得 ${...} 迷宫代币。",
     "Gain ${...} Farm Points.": "获得 ${...} 农场点数。",
     "Gain ${...} Poké Coins.": "获得 ${...} 宝可币。",
@@ -5661,11 +5592,9 @@
     "GemCave": "宝石洞",
     "Gemma": "芽",
     "gemplates": "宝石板",
-    "gems": "宝石",
     "Gems": "宝石",
     "Gems menu UI has been overhauled": "宝石菜单 UI 已彻底修改",
     "Gen 8 Reporter (Lucy Stevens)": "第8代记者（露西·大吾斯）",
-    "gender": "性别",
     "Gender": "性别",
     "Gender Ratio": "性别比例",
     "Genderless": "无性别",
@@ -5786,7 +5715,6 @@
     "Giratina (Altered)": "[[Giratina]] 别种形态",
     "Giratina (Origin)": "[[Giratina]] 起源形态",
     "Giratina questline": "骑拉帝纳任务线",
-    "github:": "GitHub：",
     "Github:": "GitHub：",
     "Give": "给",
     "Give a Pokémon a very unoriginal nickname.": "给宝可梦起一个非常非原创的昵称。",
@@ -5918,7 +5846,6 @@
     "Grant": "授予",
     "granted": "的确",
     "Grapploct": "八爪武师",
-    "grass": "草",
     "Grass": "草",
     "Grass Egg": "草蛋",
     "Grass Environment": "草地环境",
@@ -5934,7 +5861,6 @@
     "Grassium Z": "草Z",
     "Grasswither Shrine": "草威瑟神殿",
     "Graveler": "隆隆石",
-    "graveyard": "墓地",
     "Graveyard": "墓地",
     "Graveyard Environment": "墓地环境",
     "Great Ball": "超级球",
@@ -6125,7 +6051,6 @@
     "Hatch Steps": "孵化步数",
     "Hatch your first egg.": "孵化你的第一个蛋。",
     "Hatch!": "孵化！",
-    "hatched": "孵化的",
     "Hatched": "已孵化",
     "Hatched display value not updating in hatchery": "孵化场中的孵化显示值未更新",
     "Hatched:": "已孵化：",
@@ -7172,7 +7097,6 @@
     "In the near future, when I become the Governor of Orre, I shall appoint you as my official secretary. Let that be a motivation for you to constantly better your skills!": "在不久的将来，当我成为奥尔州长时，我将任命你为我的正式秘书。让它成为你不断提高技能的动力！",
     "In the Safari Zone:": "在野生动物园区：",
     "In the Shadow of Giants": "在巨人的阴影下",
-    "in the start menu.": "在开始菜单中。",
     "in the Start Menu.": "在开始菜单中。",
     "in the Underground": "在地下",
     "in this dungeon!": "在这个迷宫中！",
@@ -7184,7 +7108,6 @@
     "Include base farm timer during altered berry growth times": "在改变树果生长时间期间包括基础农场计时器",
     "Include Breeding": "包括育种",
     "Including the 3 already here, there are 33 Gigantamax Pokémon. I imagine you'll need more than 200 Wishing Pieces to get all of 'em to show up.": "加上已经在这里的3只，超极巨化宝可梦共有33只。我想你得收集200多个许愿星才能让它们全部出现。",
-    "incomplete": "不完整的",
     "Incomplete": "未完成",
     "Incomplete Area": "不完整区域",
     "Incorrect egg steps for several Pokémon": "多个宝可梦的蛋步骤不正确",
@@ -7248,7 +7171,6 @@
     "Infernape": "烈焰猴",
     "Infiltrate the underground fighting ring.": "潜入地下斗场。",
     "infinite": "无限",
-    "info": "信息",
     "Info": "信息",
     "Informant": "线人",
     "Information": "信息",
@@ -7427,7 +7349,6 @@
     "It's weird, but… I don't get that down when I lose to you.": "这很奇怪，但是……当我输给你时我就无法理解这一点。",
     "It\\'s a new day!": "新的一天开始了！",
     "Italiano": "意大利人",
-    "item": "物品",
     "Item": "物品",
     "Item '${...}' created with invalid nonpositive base price, defaulting to Infinity": "使用无效的非正基本价格创建的商品“${...}”，默认为无穷大",
     "Item Bag": "物品袋",
@@ -7536,7 +7457,6 @@
     "Jomas": "乔马斯",
     "Jonah": "约拿",
     "Jonah & Brenda": "乔纳和布伦达",
-    "jones": "琼斯",
     "Jones": "琼斯",
     "JorMxDos": "乔尔·麦克斯多斯",
     "José": "何塞",
@@ -7546,7 +7466,6 @@
     "Joshah": "约沙",
     "Joshua": "约书亚",
     "Jostav": "约斯塔夫",
-    "journal": "冒险笔记",
     "Journal": "冒险笔记",
     "Jovan": "约万",
     "Joy Scent": "欢乐香氛",
@@ -7944,7 +7863,6 @@
     "Ledyba": "芭瓢虫",
     "Lee": "李",
     "Leek": "大葱",
-    "left": "左",
     "Left": "左",
     "left ${...}ms linear, top ${...}ms ${...}": "左侧 ${...}ms 线性，顶部 ${...}ms ${...}",
     "Left click to give, Right click to take": "左键点击给予，右键点击获取",
@@ -7983,7 +7901,6 @@
     "Let's Go Pikachu": "[[alt.letsGo]] [[Pikachu]]",
     "Let's Go, Meltan!": "出发吧，美录坦！",
     "Let's Go!": "我们走吧！",
-    "Let's GO!": "我们走吧！",
     "Let's make a deal first though: If I defeat you, you'll let us do our experiments on that thing and leave us alone forever, but if you defeat me I'll give that Memory to you. Sounds like a deal? Then let's see if you can take the new Faba!": "不过，我们先做个协议：如果我打败了你，你就让我们对那东西进行实验，然后永远别打扰我们，但如果你打败了我，我就把那段记忆给你。听起来像是一笔交易？那就看看你能不能拿下新蚕豆吧！",
     "Let's make one thing clear: I didn't lose! You may have won...but there's a difference!": "让我们澄清一件事：我没有输！你可能赢了……但有区别！",
     "Let's See How High the Catch Rate Becomes": "看看捕获率有多高",
@@ -8058,7 +7975,6 @@
     "Listen here! Neither I nor Skuntank admit defeat to you just yet-our challenge to you still stands!": "听这里！我和臭鼬都不承认输给你——我们对你的挑战仍然存在！",
     "Listen well! We swore to be loyal to Lord Ghetsis since he saved us! The only thing we want is the world Lord Ghetsis desires! Even if we lose, Lord Ghetsis simply has to win...": "好好听！自从魁奇思勋爵救了我们之后，我们就发誓效忠他！我们唯一想要的就是盖西斯勋爵所渴望的世界！即使我们输了，魁奇思大人也必须赢……",
     "Listen, trainer who will face Lysandre. A terribly long time ago... There was a man and a Pokémon. A war began. The man's beloved Pokémon took part in the war.": "听着，即将面对弗拉达利的训练师。很久以前……有一个男人和一只宝可梦。一场战争开始了。男人心爱的宝可梦参加了战争。",
-    "litera": "文学",
     "Litera": "利特拉",
     "Litleo": "小狮狮",
     "Litnar": "利特纳尔",
@@ -8079,12 +7995,10 @@
     "Locate the Ruby. Clear Ruby Path in Mt. Ember.": "找到红宝石。清理余烬山的红宝石之路。",
     "locations": "地点",
     "Locations of several Pokémon have been adjusted": "调整了部分宝可梦的位置",
-    "lock": "锁",
     "Lock": "锁",
     "Lock All": "全部锁定",
     "Lock all plots.": "锁定所有地块。",
     "Lock/Unlock a plot from interaction.": "通过交互锁定/解锁情节。",
-    "locked": "锁定",
     "Locked": "锁定",
     "Locked Location": "锁定位置",
     "Locked plots ignore Harvest All, Plant All, or Mulch All buttons as well as Farm Hand activity.": "锁定的地块忽略“全部收获”、“全部种植”或“全部覆盖”按钮以及农场手工活动。",
@@ -8199,7 +8113,6 @@
     "Lum": "木子果",
     "Lum Berries": "木子果",
     "Lum berry now affects Haban": "腰果现在影响哈班",
-    "lumen": "流明",
     "Lumen": "流明",
     "Lumi": "卢米",
     "Lumina": "卢米纳",
@@ -8228,7 +8141,6 @@
     "Lustrous Orb": "白玉宝珠",
     "Lustrous_Orb": "白玉宝珠",
     "Luvdisc": "爱心鱼",
-    "lux": "勒克斯",
     "Lux": "勒克斯",
     "Luxio": "勒克猫",
     "Luxray": "伦琴猫",
@@ -8358,7 +8270,6 @@
     "Maki": "真木",
     "Makuhita": "幕下力士",
     "Malamar": "乌贼王",
-    "male": "男性",
     "Male": "雄性",
     "Male: ${...} <br/> Female: ${...} <br/> Genderless: ${...}": "男：${...} <br/> 女：${...} <br/> 无性别：${...}",
     "Malia": "马利亚",
@@ -8451,7 +8362,6 @@
     "Master_League": "大师联赛",
     "Masterball": "大师球",
     "Mateo": "马特奥",
-    "materia": "材料",
     "Materia": "材料",
     "Matt": "马特",
     "Matt 1": "马特1",
@@ -8768,7 +8678,6 @@
     "Minor text fixes": "小文本修复",
     "Minor theme adjustments": "小幅主题调整",
     "Minor theme fixes": "小主题修复",
-    "minty": "薄荷味的",
     "Minty": "薄荷",
     "Minun": "负电拍拍",
     "Miracle Chest": "奇迹宝箱",
@@ -8853,7 +8762,6 @@
     "Mom": "妈妈",
     "Monami": "莫奈米",
     "Monday": "周一",
-    "money": "宝可梦币",
     "Money": "宝可梦币",
     "Money does not grow on trees": "钱不是长在树上的",
     "Monferno": "猛火猴",
@@ -9084,7 +8992,6 @@
     "Nacrene City": "纳克伦市",
     "Nacrene Museum": "珍珠博物馆",
     "Naganadel": "四颚针龙",
-    "name": "名称",
     "Name": "名称",
     "Name or ID": "名称或编号",
     "Nanab": "蕉香果",
@@ -9157,14 +9064,12 @@
     "Nest Ball": "巢穴球",
     "Nest Ball catch chance inside dungeons": "巢球在迷宫内抓住机会",
     "Nestball": "巢穴球",
-    "never": "绝不",
     "Never": "从不",
     "Never before have I seen a Trainer command Pokémon with more grace than I... In recognition of your prowess, I present to you this Gym Badge.": "我从来没有见过训练家比我更优雅地指挥宝可梦......为了表彰你的实力，我向你赠送这个道馆徽章。",
     "Never you mind that, get outta here!": "别介意这个，离开这里！",
     "Never_Melt_Ice": "不融冰",
     "Never-Melt Ice": "不融冰",
     "New": "新的",
-    "NEW": "新",
     "New achievement earned": "获得新成就",
     "New Achievements": "新成果",
     "New Bark Town": "若叶镇",
@@ -9294,7 +9199,6 @@
     "Noivern": "音波龙",
     "Nomel": "檬柠果",
     "Non-Shiny Is Now Becoming Rare": "无光泽现在变得罕见",
-    "none": "没有任何",
     "None": "无",
     "None of the Above": "以上都不是",
     "None of your enabled filters match this scenario": "你启用的过滤器均不符合此场景",
@@ -9663,7 +9567,6 @@
     "Oinkologne (Female)": "[[Oinkologne]][[alt.female]]",
     "Oinkologne (Male)": "[[Oinkologne]][[alt.male]]",
     "Ok": "好的",
-    "OK": "确定",
     "OK, I Have Enough Attack Already...": "好吧，我的攻击力已经够了……",
     "OK, OK! I get my R from a guy at Clifford Industries, in Goldenrod City.": "好的，好的！我的 R 是从金罗德市克利福德工业公司的一个人那里得到的。",
     "OK, so I lost... but I got to see a lot of the good points of you and your Pokémon!": "好吧，所以我输了……但我看到了你和你的宝可梦的很多优点！",
@@ -9821,7 +9724,6 @@
     "Orville": "奥维尔",
     "Oshawott": "水水獭",
     "Other": "其他",
-    "OTHER": "其他",
     "Other berries will now be tasked in Quests": "其他树果现在将在任务中承担任务",
     "Other Deoxys forms obtainable in the Battle Frontier": "对战开拓区中可获得的其他代欧奇希斯形态",
     "Other factors that will multiply damage value include flutes, battle items, and weather. Gems can be used to change the effectiveness and weakness multipliers as well.": "其他会增加伤害值的因素包括长笛、战斗物品和天气。宝石也可用于改变有效性和弱点乘数。",
@@ -9968,7 +9870,6 @@
     "per level, up to": "每级，最多",
     "per level, up to a maximum of": "每级最多可达",
     "percent": "百分比",
-    "percentage": "百分比",
     "Percentage": "百分比",
     "Perdy": "珀迪",
     "Peren": "佩伦",
@@ -10216,7 +10117,6 @@
     "Poké Mart": "宝可超市",
     "Poké Mart ${...}": "宝可梦超市 ${...}",
     "Pokéball": "精灵球",
-    "pokeball": "精灵球",
     "Pokeball": "精灵球",
     "Pokéball filter option - Category": "精灵球过滤器选项 - 类别",
     "Pokéball filter priority order can now be changed (Gameplay settings)": "现在可以更改神奇球过滤器的优先顺序（游戏设置）",
@@ -10234,7 +10134,6 @@
     "pokeballFilterPokemonType": "pokeballFilterPokemonType",
     "pokeballFilterPokemonType1": "pokeballFilterPokemonType1",
     "pokeballFilterPokemonType2": "pokeballFilterPokemonType2",
-    "pokeballs": "精灵球",
     "Pokeballs": "精灵球",
     "Pokéballs going negative while catching farm wanderers": "捕捉农场流浪者时精灵球变为负值",
     "PokeBlock_${...}": "PokeBlock_${...}",
@@ -10283,7 +10182,6 @@
     "Pokéfan Trevor": "宝可梦特雷弗",
     "PokéManiac": "精灵宝可梦",
     "Pokémon": "宝可梦",
-    "pokemon": "宝可梦",
     "Pokemon": "宝可梦",
     "Pokémon alternate forms can now be obtained": "现在可以获得宝可梦的替代形态",
     "Pokémon Army": "宝可梦军团",
@@ -10378,7 +10276,6 @@
     "Pokémon:": "宝可梦：",
     "Pokémon... Shall no longer exist. Pokémon are wonderful beings. Humans have worked with Pokémon, and we have helped each other flourish. But precisely because of that, they will inevitably become tools for war and theft!": "宝可梦……将不复存在。宝可梦是奇妙的存在。人类与宝可梦合作，我们互相帮助，共同繁荣。但也正因为如此，它们必然成为战争和盗窃的工具！",
     "pokemon/": "宝可梦/",
-    "pokerus": "宝可病毒",
     "Pokerus": "宝可病毒",
     "Pokérus and EVs": "宝可病毒和努力值",
     "Pokérus can now spread between Pokémon sharing a type": "宝可梦现在可以在共享类型的宝可梦之间传播",
@@ -10471,7 +10368,6 @@
     "Prism_scale": "美丽鳞片",
     "Prison Bottle": "惩戒之壶",
     "Prison_Bottle": "惩戒之壶",
-    "probably a variable name": "可能是变量名",
     "Probably A Variable Name": "可能是变量名",
     "Probably Chimecho": "应该是风铃铃",
     "Probably Feebas": "应该是丑丑鱼",
@@ -10523,7 +10419,6 @@
     "Professor Sycamore just told me. You are unstoppable! Congratulations!": "布拉塔诺教授刚刚告诉我。你势不可挡！恭喜！",
     "Professor Sycamore told me how much stronger you've become.": "西卡莫尔教授告诉我你变得多么强大。",
     "Professor Sycamore wants to meet you in Lumiose City. He's with Lysandre, go say hi.": "布拉塔诺教授想在密阿雷市与你见面。他和弗拉达利在一起，去打个招呼吧。",
-    "profile": "轮廓",
     "Profile": "个人资料",
     "Profile Characters: Kris, Green (LGFR and LGPE), Firefarmer, Ghetsis": "人物简介：Kris、Green（LGFR 和 LGPE）、Firefarmer、Ghetsis",
     "Profit": "利润",
@@ -10560,7 +10455,6 @@
     "Psyduck": "可达鸭",
     "pt-BR": "PT-BR",
     "Puff, puff... I am...no match for you. ...As I predicted.": "噗噗……我……不是你的对手。 ……正如我所预料的那样。",
-    "pulse": "脉冲",
     "Pulse": "脉冲",
     "Pummelo Island": "柚子岛",
     "Pumpkaboo": "南瓜精",
@@ -10644,9 +10538,7 @@
     "Quaquaval": "狂欢浪舞鸭",
     "Quaxly": "润水鸭",
     "Quaxwell": "涌跃鸭",
-    "quest": "寻求",
     "Quest": "任务",
-    "QUEST": "寻求",
     "Quest \"${...}\" failed to load": "任务“${...}”加载失败",
     "Quest at Location": "地点任务",
     "Quest box sometimes dissapearing": "任务箱有时会消失",
@@ -10674,7 +10566,6 @@
     "Quest not completing if restarted after being quit": "退出后重新启动任务无法完成",
     "Quest Point rebalance": "任务点重新平衡",
     "Quest points": "任务点数",
-    "Quest Points": "任务点数",
     "Quest Points<br /><br />Gained by completing Quests.": "任务点数<br /><br />通过完成任务获得。",
     "Quest progress decreasing or becoming negative": "任务进度减少或变为负值",
     "Questline ${...} has progressed past this point.": "任务线 ${...} 已经超越了这一点。",
@@ -10684,13 +10575,11 @@
     "Questline requirements": "任务线要求",
     "QuestLineHelper: Duplicate QuestLine names detected": "QuestLineHelper：检测到重复的 QuestLine 名称",
     "questlines": "任务线",
-    "quests": "任务",
     "Quests": "任务",
     "Quests (": "任务（",
     "Quests (${...}/${...})": "任务（${...}/${...}）",
     "Quests list not auto refreshed on new day or level up": "任务列表不会在新的一天或升级时自动刷新",
     "Quests(${...}/${...})": "任务（${...}/${...}）",
-    "queue": "队列",
     "Queue": "队列",
     "Queue functionality added to Hatchery": "孵化场添加了队列功能",
     "Queue is currently limited by your Queue Size setting.": "队列当前受你的队列大小设置的限制。",
@@ -10759,7 +10648,6 @@
     "Rampaging Zamazenta": "狂暴的扎马森塔",
     "Rampardos": "战槌龙",
     "Randall": "兰德尔",
-    "random": "随机的",
     "Random": "随机",
     "randomly": "随机地",
     "RangeSettingTemplate": "范围设置模板",
@@ -10899,7 +10787,6 @@
     "Regieleki": "雷吉艾勒奇",
     "Regigigas": "雷吉奇卡斯",
     "Reginald & Lorenzo": "雷金纳德和洛伦佐",
-    "region": "地区",
     "Region": "地区",
     "Region will be significantly less likely to drop Epic, Legendary, and Mythic loot.": "区域掉落史诗、传奇和神话战利品的可能性将大大降低。",
     "Region(s)": "地区",
@@ -11064,7 +10951,6 @@
     "Riden": "里登",
     "Rider": "骑士",
     "Rider (male and female)": "骑手（男、女）",
-    "right": "右",
     "Right": "右",
     "Right click (or long press on mobile) can be used to enable/disable filters from the main screen without opening this menu.": "右键点击（或在移动设备上长按）可用于从主屏幕启用/禁用过滤器，而无需打开此菜单。",
     "Right! Well, I've decided that you three... will now take the Master Dojo's...final...last...ultimate...third trial!": "正确的！好吧，我决定你们三个……现在将参加大师道场的……最后……最后……最终……第三次试炼！",
@@ -11090,15 +10976,11 @@
     "Rival Silver": "对手银牌",
     "Rixor": "里克索",
     "Roadside Motel": "路边汽车旅馆",
-    "roamer": "漫游者",
     "Roamer": "游走宝可梦",
-    "ROAMER": "漫游者",
     "Roamer Modifier:": "漫游者修改器：",
     "Roamer NPCs now reveal the Pokémon in the Pokédex": "漫游者 NPC 现在会在图鉴中显示宝可梦",
     "Roamer Status": "漫游者状态",
-    "roamers": "漫游者",
     "Roamers": "漫游者",
-    "roaming": "漫游",
     "Roaming": "漫游",
     "Roaming Pokémon": "漫游宝可梦",
     "Roaming Pokémon chance of appearing is now based on route difficulty": "漫游宝可梦的出现几率现在取决于路线难度",
@@ -11184,10 +11066,8 @@
     "Rotom (Wash)": "清洗[[Rotom]]",
     "Rotom Dex": "洛托姆德克斯",
     "Rotom-Dex": "Rotom-Dex",
-    "route": "路线",
     "Route": "道路",
     "Route 1 Hau'oli Outskirts": "1号道路（好奥乐市郊）",
-    "route 11": "11号道路",
     "Route 11": "11号道路",
     "Route 14": "14号道路",
     "Route 3": "3号道路",
@@ -11349,7 +11229,6 @@
     "Sandra": "桑德拉",
     "Sandshrew": "穿山鼠",
     "Sandslash": "穿山王",
-    "sandstone": "砂岩",
     "Sandstone": "砂岩",
     "Sandstorm": "沙暴",
     "Sandy Shocks": "沙铁皮",
@@ -11551,7 +11430,6 @@
     "Setting to disable auto-save": "设置禁用自动保存",
     "Setting to disable the flashing animation before traveling to a new region": "设置在前往新区域之前禁用闪烁动画",
     "setting-${...}": "设置-${...}",
-    "settings": "设置",
     "Settings": "设置",
     "Settings to change colors of route highlights": "更改路线高亮颜色的设置",
     "settings${...}": "设置${...}",
@@ -11580,7 +11458,6 @@
     "Sewaddle": "虫宝包",
     "Shaderoot Carrot": "黑萝卜",
     "Shaderoot_Carrot_Calyrex": "黑萝卜",
-    "shadow": "阴影",
     "Shadow": "暗影",
     "Shadow ${...} is not unlocked yet or does not exist": "暗影${...} 尚未解锁或不存在",
     "Shadow Crocanaw": "暗影鳄",
@@ -11609,14 +11486,12 @@
     "Shard Trader": "碎片交易者",
     "Shard traders": "碎片交易者",
     "Shard_case": "分片箱",
-    "shards": "碎片",
     "Shards": "碎片",
     "Shards are now called Gems": "碎片现在称为宝石",
     "Shards can have lots of different colors. Different Dungeons will have different colors, so keep an eye out! Most of them can't even be found in Kanto!": "碎片可以有很多不同的颜色。不同的迷宫会有不同的颜色，所以要留意！大部分在关都都找不到！",
     "Shards now appear in Underground": "碎片现在出现在采掘场",
     "Shards types can now be collapsed": "碎片类型现在可以折叠",
     "Shared Experience": "分享经验",
-    "sharlene": "沙琳",
     "Sharlene": "沙琳",
     "Sharp Beak": "锐利鸟嘴",
     "Sharp_Beak": "锐利鸟嘴",
@@ -11660,9 +11535,7 @@
     "Shinies Hatched": "异色的孵化",
     "Shinies: {caught_shiny}/{caught} {sparkle}": "异色：{caught_shiny}/{caught} {sparkle}",
     "Shinx": "小猫怪",
-    "shiny": "异色的",
     "Shiny": "异色",
-    "SHINY": "异色的",
     "Shiny ${...} is not unlocked yet": "异色的 ${...} 尚未解锁",
     "Shiny Alcremie": "异色霜奶仙",
     "Shiny Chance": "闪光几率",
@@ -11877,7 +11750,6 @@
     "Simisage": "花椰猿",
     "Simisear": "爆香猿",
     "Simon": "西蒙",
-    "simplex": "单纯形",
     "Simplex": "单纯形",
     "Sina": "新浪",
     "Sinan": "思南",
@@ -11931,7 +11803,6 @@
     "Skarmory": "盔甲鸟",
     "Skeledirge": "骨纹巨声鳄",
     "Skeptical Fisherman": "持怀疑态度的渔夫",
-    "sketchy": "粗略的",
     "Sketchy": "粗略",
     "Sketchy theme checkboxes and close icons should display correctly now": "粗略的主题复选框和关闭图标现在应该正确显示",
     "Skiddo": "坐骑小羊",
@@ -11967,7 +11838,6 @@
     "Skylar & Narasha": "斯凯拉和娜拉莎",
     "Slaking": "请假王",
     "Slakoth": "懒人獭",
-    "slate": "石板",
     "Slate": "石板",
     "Slate Shard": "板岩碎片",
     "Slate_shard": "石板分片",
@@ -12074,7 +11944,6 @@
     "Softlock from Safari Ticket and Shard Case if the user refreshed the page after obtaining a badge": "如果用户在获得徽章后刷新页面，则 Safari Ticket 和 Shard Case 会出现软锁",
     "Solaceon Ruins": "索拉森废墟",
     "Solaceon Town": "索拉森镇",
-    "solar": "太阳的",
     "Solar": "太阳的",
     "Solar Light": "太阳能灯",
     "Solar_light": "太阳能灯",
@@ -12205,7 +12074,6 @@
     "Southern Island": "南岛",
     "Souvenir Shop Attendant": "纪念品店服务员",
     "Space": "空间",
-    "spacelab": "太空实验室",
     "Spacelab": "太空实验室",
     "sparkle": "火花",
     "Sparring Partners": "陪练伙伴",
@@ -12228,7 +12096,6 @@
     "Spectator": "旁观者",
     "Spectrier": "灵幽马",
     "Spectrier and Glastrier are now roaming the Crown Tundra. Catch them when the opportunity arises!": "灵幽马和雪暴马现在正在王冠雪原上漫游。趁有机会把它们抓住！",
-    "speed": "速度",
     "Speed": "速度",
     "speed-${...}": "速度-${...}",
     "Speedy Runner": "快速跑者",
@@ -12335,12 +12202,10 @@
     "Staryu": "海星星",
     "static": "静止的",
     "Statistic": "统计",
-    "statistics": "统计数据",
     "Statistics": "统计数据",
     "Statistics can now be viewed from the Start Menu": "现在可以从“开始”菜单查看统计信息",
     "Statistics update": "统计数据更新",
     "Stats": "统计数据",
-    "status": "地位",
     "Status": "状态",
     "Stay For Dinner": "留下来吃晚饭",
     "Steamdrift Way": "蒸汽漂流之路",
@@ -12358,7 +12223,6 @@
     "Steenee": "甜舞妮",
     "Steer clear of the Alolan version of Golem, its electrical fields are too dangerous to use.": "避开阿罗拉版本的傀儡，它的电场太危险而无法使用。",
     "Stefan & Jasmin": "斯特凡和贾斯敏",
-    "step": "步骤",
     "Step": "步骤",
     "Step 1 of Let's Go, Meltan!": "《走吧，美录坦！》的第一步",
     "Step 10 of Let's Go, Meltan!": "《走吧，美录坦！》的第10步",
@@ -12377,7 +12241,6 @@
     "Stepping-Stone Sea": "踏脚石海",
     "Steps per Attack Bonus": "每次攻击奖励步数",
     "Sterling": "英镑",
-    "steve": "史蒂夫",
     "Steve": "史蒂夫",
     "Steve and Alex": "史蒂夫和亚历克斯",
     "Steven": "大吾",
@@ -12411,7 +12274,6 @@
     "Stop the return of the Darkest Day!": "阻止至暗之日的回归！",
     "Stop the weapons from making a mess.": "阻止武器造成混乱。",
     "Stops Berry growth and auras. Mutations will still occur while berries are frozen.": "阻止树果生长和光环。当树果被冷冻时，突变仍然会发生。",
-    "Stops Berry growth and auras. Mutations will still occur while Berries are frozen.": "阻止树果生长和光环。当树果被冷冻时，突变仍然会发生。",
     "Stops the holder from evolving due to level or a stone being used. Also prevents new baby Pokémon from hatching.": "阻止持有者因等级或使用的石头而进化。还可以防止新的宝可梦宝宝孵化。",
     "Storm": "惊涛",
     "Stoutland": "长毛狗",
@@ -12479,7 +12341,6 @@
     "Super Rod": "厉害钓竿",
     "Super Spreader": "超级传播者",
     "Super_rod": "厉害钓竿",
-    "superhero": "超级英雄",
     "Superhero": "超级英雄",
     "Supplies are limited, reserve your spot on a cruise to the Southern Island!": "供应有限，请预订前往南岛的游轮位置！",
     "Supreme": "最高",
@@ -13141,7 +13002,6 @@
     "The weather needs to be ${...}": "天气需要 ${...}",
     "The Weather Trio": "天气三人组",
     "Their prized Magneton had evolved into a Magnezone!": "他们珍贵的三合一磁怪进化成了自爆磁怪！",
-    "theme": "主题",
     "Theme": "主题",
     "Then my programme got interrupted by an emergency broadcast. A report on the first confirmed sightings of Tornadus and Thundurus in over twenty-five years! I've read so much about them, they are my favorites.": "然后我的节目被紧急广播打断了。关于二十五年来首次确认看到龙卷风和雷雨云的报告！我读了很多关于他们的文章，他们是我的最爱。",
     "Then one day, all my progress was gone. I don't know exactly what happened. Something updated, some cookies got cleaned up, I don't know. I had to start all over from the beginning.": "然后有一天，我所有的进步都消失了。我不知道到底发生了什么。更新了一些东西，一些cookie被清理了，我不知道。我必须从头开始。",
@@ -13698,7 +13558,6 @@
     "Trading always follows a 3 to 1 ratio (e.g., trade 3 treasures to receive 1 new treasure).": "交易始终遵循3比1的比例（例如，交易3个宝藏即可获得1个新宝藏）。",
     "Train Kubfu by defeating Dark and Water-type Pokémon.": "通过击败暗系和水系宝可梦来训练库布夫。",
     "Train Kubfu more by catching or hatching Dark and Water-type Pokémon.": "通过捕捉或孵化暗系和水系宝可梦来更多地训练库布夫。",
-    "trainer": "教练员",
     "Trainer": "训练师",
     "Trainer image fixes": "教练图像修复",
     "Trainer name": "训练家名称",
@@ -13802,7 +13661,6 @@
     "Tyme": "泰姆",
     "Tympole": "圆蝌蚪",
     "Tynamo": "麻麻小鱼",
-    "type": "类型",
     "Type": "属性",
     "Type 1": "类型1",
     "Type 2": "2型",
@@ -13848,7 +13706,6 @@
     "unableToPayFarmHand": "unableToPayFarmHand",
     "unableToPayHatcheryHelper": "unableToPayHatcheryHelper",
     "Unbound Hoopa": "不受束缚的胡帕",
-    "uncaught": "未捕获的",
     "Uncaught": "未捕获",
     "Uncaught Pokémon": "未捕获的宝可梦",
     "Uncaught Shadow Pokémon": "未捕获的暗影宝可梦",
@@ -13860,7 +13717,6 @@
     "Undella Bay": "安德拉湾",
     "Undella Town": "安德拉镇",
     "Under Colosseum": "罗马斗兽场下",
-    "underground": "采掘场",
     "Underground": "采掘场",
     "Underground Aerodactylite": "地下化石",
     "Underground Battery is ready to be discharged": "挖掘电池已蓄满，可以释放",
@@ -13936,7 +13792,6 @@
     "Union Cave": "互连洞",
     "Unique Pokémon": "独特的宝可梦",
     "Unique Transformations": "特殊形态",
-    "united": "团结的",
     "United": "团结的",
     "Unknown": "未知",
     "Unknown Area": "未知区域",
@@ -14035,7 +13890,6 @@
     "Unrivaled Green": "无与伦比的绿色",
     "Unrivaled Red": "无与伦比的红色",
     "Unstoppable Fighting Machine": "不可阻挡的战斗机器",
-    "up": "向上",
     "Up": "向上",
     "Up to 3 Farm Hands can be hired at a time.": "一次最多可以雇佣3名农场帮手。",
     "Upcoming Rewards": "即将到来的奖励",
@@ -14190,7 +14044,6 @@
     "Valerie": "瓦莱丽",
     "Valley Windworks": "山谷风厂",
     "ValorBeastFlame": "勇猛猛兽火焰",
-    "value": "价值",
     "Value": "价值",
     "Vana": "瓦娜",
     "Vance": "万斯",
@@ -14274,7 +14127,6 @@
     "Vitamin Stockpile": "维生素储备",
     "vitaminHideMaxedPokemon": "vitaminHideMaxedPokemon",
     "vitaminHideShinyPokemon": "vitaminHideShinyPokemon",
-    "vitamins": "维生素",
     "Vitamins": "维生素",
     "Vitamins are disabled": "营养剂已禁用",
     "Vitamins are disabled.": "维生素禁用。",
@@ -14282,7 +14134,6 @@
     "Vitamins couldn't be modified for Pokémon in Hatchery or Queue.": "无法修改孵化室或队列中宝可梦的营养剂。",
     "Vitamins couldn\\'t be modified for Pokémon in Hatchery or Queue.": "无法修改孵化屋或队列中宝可梦的营养剂。",
     "Vitamins used": "使用的维生素",
-    "Vitamins Used": "使用的维生素",
     "Vitamins: ${...}": "维生素：${...}",
     "Vito": "维托",
     "Vivid Scent": "香气浓郁",
@@ -14362,7 +14213,6 @@
     "Walking in the Safari Zone will now add steps to your eggs": "现在，在野生动物区行走将为你的蛋添加步骤",
     "Walking Wake": "波荡水",
     "Wallace": "米可利",
-    "wallet": "钱包",
     "Wallet": "钱包",
     "Wally": "沃利",
     "Wally 1": "沃利1",
@@ -14389,7 +14239,6 @@
     "Warden Melli": "典狱长梅利",
     "Warden Sabi": "典狱长萨比",
     "Warm-Up Tunnel": "热身隧道",
-    "warning": "警告",
     "Warning": "警告",
     "warp hole": "曲速孔",
     "Wartortle": "卡咪龟",
@@ -14403,7 +14252,6 @@
     "Watch the clock, if you make it to the next floor you'll get a time boost to help you find the boss.": "注意时钟，如果你到达下一层，你将获得时间加成来帮助你找到老板。",
     "Watchog": "步哨鼠",
     "Watchtower Ruins": "了望塔遗址",
-    "water": "水",
     "Water": "水",
     "Water Egg": "水蛋",
     "Water Environment": "水环境",
@@ -14461,7 +14309,6 @@
     "We're working on construction of a Magnet Train line to shuttle people <b>east to Kanto</b>. Once it's completed, people will be able to get to Saffron City in record time!": "我们正在修建磁悬浮列车线路，把人们运送到<b>东边的关都</b>。完工后，大家就能以破纪录的速度抵达金黄市！",
     "We've been using the electricity we stole from the Power Plant to get everything prepared for activating the ultimate weapon. But it's not like that's all we'll need to use it. Are you following me? We'll need energy absorbed from Pokémon to power the device! Yes! It's the stones on Route 10 that will steal that energy for us and power the ultimate weapon.": "我们一直在使用从发电厂偷来的电力来为激活终极武器做好一切准备。但这并不是我们需要使用它的全部。你在跟踪我吗？我们需要从宝可梦吸收能量来为设备供电！是的！ 10号道路上的石头将为我们窃取能量并为终极武器提供动力。",
     "We've got stuff here nobody else has got! But keep any Dowsing Machines you have away from the merchandise… especially the RageCandyBars.": "我们这里有别人没有的东西！但请将你拥有的任何探矿机远离商品……尤其是 RageCandyBars。",
-    "weather": "天气",
     "Weather": "天气",
     "Weather adjustments": "天气调整",
     "Weather changes": "天气变化",
@@ -15436,6 +15283,620 @@
     "Zzzzt!!! How'zzz it going, kiddo? Havin' fun in the Alolan sun?": "嘶嘶！！！怎么样，孩子？在阿罗拉的阳光下玩得开心吗？",
     "Zzzzt!!! You've almost made it, kiddo! Championship is on the horizzzon! I'm rootin' for ya!": "嘶嘶！！！你快成功了，孩子！冠军指日可待！我支持你！"
   },
+  "entriesCaseSensitive": [
+    [
+      "${...} clears",
+      "${...} 清除"
+    ],
+    [
+      "${...}B",
+      "${...}b"
+    ],
+    [
+      "${...}K",
+      "${...}k"
+    ],
+    [
+      "${...}M",
+      "${...}M"
+    ],
+    [
+      "A New World",
+      "新世界"
+    ],
+    [
+      "achievement",
+      "成就"
+    ],
+    [
+      "ACTIVATE",
+      "激活"
+    ],
+    [
+      "ACTIVE",
+      "积极的"
+    ],
+    [
+      "alex",
+      "亚历克斯"
+    ],
+    [
+      "all",
+      "全部"
+    ],
+    [
+      "amount",
+      "数量"
+    ],
+    [
+      "ampharosite",
+      "电龙进化石"
+    ],
+    [
+      "attack",
+      "攻击"
+    ],
+    [
+      "Attack at Level 100",
+      "100级时攻击力"
+    ],
+    [
+      "Battle Items are Disabled",
+      "战斗物品被禁用"
+    ],
+    [
+      "Blue-LGPE",
+      "蓝色-LGPE"
+    ],
+    [
+      "breeding",
+      "选育"
+    ],
+    [
+      "Bug Catcher",
+      "捕虫器"
+    ],
+    [
+      "captured",
+      "被捕获"
+    ],
+    [
+      "categories",
+      "类别"
+    ],
+    [
+      "category",
+      "类别"
+    ],
+    [
+      "caught",
+      "捕捉"
+    ],
+    [
+      "CAUGHT",
+      "捕捉"
+    ],
+    [
+      "cave",
+      "洞窟"
+    ],
+    [
+      "cerulean",
+      "天蓝色的"
+    ],
+    [
+      "Challenge Modes",
+      "挑战模式"
+    ],
+    [
+      "cipher Admin Eldes",
+      "密码管理员埃尔德斯"
+    ],
+    [
+      "clears",
+      "清除"
+    ],
+    [
+      "Code Activated!",
+      "代码已激活！"
+    ],
+    [
+      "color",
+      "颜色"
+    ],
+    [
+      "completed",
+      "完全的"
+    ],
+    [
+      "cosmo",
+      "科斯莫"
+    ],
+    [
+      "cost",
+      "成本"
+    ],
+    [
+      "currency",
+      "货币"
+    ],
+    [
+      "cyborg",
+      "赛博格"
+    ],
+    [
+      "dark",
+      "黑暗的"
+    ],
+    [
+      "darkly",
+      "黑暗"
+    ],
+    [
+      "darwin",
+      "达尔文"
+    ],
+    [
+      "DayCare",
+      "培育屋"
+    ],
+    [
+      "default",
+      "默认"
+    ],
+    [
+      "defeat ${...} Pokémon.",
+      "击败 ${...} 宝可梦。"
+    ],
+    [
+      "DELETE",
+      "删除"
+    ],
+    [
+      "description",
+      "描述"
+    ],
+    [
+      "diamond",
+      "钻石"
+    ],
+    [
+      "diamonds",
+      "钻石"
+    ],
+    [
+      "disabled",
+      "残疾人"
+    ],
+    [
+      "DISABLED",
+      "禁用"
+    ],
+    [
+      "down",
+      "向下"
+    ],
+    [
+      "dungeon",
+      "迷宫"
+    ],
+    [
+      "egg",
+      "蛋"
+    ],
+    [
+      "Enter Code...",
+      "输入代码..."
+    ],
+    [
+      "EON-TICKET",
+      "无限船票"
+    ],
+    [
+      "ev",
+      "努力值"
+    ],
+    [
+      "EVENT",
+      "事件"
+    ],
+    [
+      "events",
+      "事件"
+    ],
+    [
+      "everstone",
+      "不变之石"
+    ],
+    [
+      "evs",
+      "落雷兽"
+    ],
+    [
+      "exp",
+      "经验值"
+    ],
+    [
+      "EXP Share",
+      "学习装置"
+    ],
+    [
+      "experience",
+      "经验"
+    ],
+    [
+      "expert",
+      "专家"
+    ],
+    [
+      "farm",
+      "农场"
+    ],
+    [
+      "farming",
+      "农业"
+    ],
+    [
+      "female",
+      "女性"
+    ],
+    [
+      "fire",
+      "火"
+    ],
+    [
+      "flatly",
+      "断然"
+    ],
+    [
+      "forest",
+      "森林"
+    ],
+    [
+      "fossils",
+      "化石"
+    ],
+    [
+      "Gain ${...} ${...} Gems.",
+      "获得 ${...} 个${...}宝石。"
+    ],
+    [
+      "gems",
+      "宝石"
+    ],
+    [
+      "gender",
+      "性别"
+    ],
+    [
+      "github:",
+      "GitHub："
+    ],
+    [
+      "grass",
+      "草"
+    ],
+    [
+      "graveyard",
+      "墓地"
+    ],
+    [
+      "hatched",
+      "孵化的"
+    ],
+    [
+      "in the start menu.",
+      "在开始菜单中。"
+    ],
+    [
+      "incomplete",
+      "不完整的"
+    ],
+    [
+      "info",
+      "信息"
+    ],
+    [
+      "item",
+      "物品"
+    ],
+    [
+      "jones",
+      "琼斯"
+    ],
+    [
+      "journal",
+      "冒险笔记"
+    ],
+    [
+      "left",
+      "左"
+    ],
+    [
+      "Let's GO!",
+      "我们走吧！"
+    ],
+    [
+      "litera",
+      "文学"
+    ],
+    [
+      "lock",
+      "锁"
+    ],
+    [
+      "locked",
+      "锁定"
+    ],
+    [
+      "lumen",
+      "流明"
+    ],
+    [
+      "lux",
+      "勒克斯"
+    ],
+    [
+      "male",
+      "男性"
+    ],
+    [
+      "materia",
+      "材料"
+    ],
+    [
+      "minty",
+      "薄荷味的"
+    ],
+    [
+      "money",
+      "宝可梦币"
+    ],
+    [
+      "name",
+      "名称"
+    ],
+    [
+      "never",
+      "绝不"
+    ],
+    [
+      "NEW",
+      "新"
+    ],
+    [
+      "none",
+      "没有任何"
+    ],
+    [
+      "OK",
+      "确定"
+    ],
+    [
+      "OTHER",
+      "其他"
+    ],
+    [
+      "percentage",
+      "百分比"
+    ],
+    [
+      "pokeball",
+      "精灵球"
+    ],
+    [
+      "pokeballs",
+      "精灵球"
+    ],
+    [
+      "pokemon",
+      "宝可梦"
+    ],
+    [
+      "pokerus",
+      "宝可病毒"
+    ],
+    [
+      "probably a variable name",
+      "可能是变量名"
+    ],
+    [
+      "profile",
+      "轮廓"
+    ],
+    [
+      "pulse",
+      "脉冲"
+    ],
+    [
+      "quest",
+      "寻求"
+    ],
+    [
+      "QUEST",
+      "寻求"
+    ],
+    [
+      "Quest Points",
+      "任务点数"
+    ],
+    [
+      "quests",
+      "任务"
+    ],
+    [
+      "queue",
+      "队列"
+    ],
+    [
+      "random",
+      "随机的"
+    ],
+    [
+      "region",
+      "地区"
+    ],
+    [
+      "right",
+      "右"
+    ],
+    [
+      "roamer",
+      "漫游者"
+    ],
+    [
+      "ROAMER",
+      "漫游者"
+    ],
+    [
+      "roamers",
+      "漫游者"
+    ],
+    [
+      "roaming",
+      "漫游"
+    ],
+    [
+      "route",
+      "路线"
+    ],
+    [
+      "route 11",
+      "11号道路"
+    ],
+    [
+      "sandstone",
+      "砂岩"
+    ],
+    [
+      "settings",
+      "设置"
+    ],
+    [
+      "shadow",
+      "阴影"
+    ],
+    [
+      "shards",
+      "碎片"
+    ],
+    [
+      "sharlene",
+      "沙琳"
+    ],
+    [
+      "shiny",
+      "异色的"
+    ],
+    [
+      "SHINY",
+      "异色的"
+    ],
+    [
+      "simplex",
+      "单纯形"
+    ],
+    [
+      "sketchy",
+      "粗略的"
+    ],
+    [
+      "slate",
+      "石板"
+    ],
+    [
+      "solar",
+      "太阳的"
+    ],
+    [
+      "spacelab",
+      "太空实验室"
+    ],
+    [
+      "speed",
+      "速度"
+    ],
+    [
+      "statistics",
+      "统计数据"
+    ],
+    [
+      "status",
+      "地位"
+    ],
+    [
+      "step",
+      "步骤"
+    ],
+    [
+      "steve",
+      "史蒂夫"
+    ],
+    [
+      "Stops Berry growth and auras. Mutations will still occur while Berries are frozen.",
+      "阻止树果生长和光环。当树果被冷冻时，突变仍然会发生。"
+    ],
+    [
+      "superhero",
+      "超级英雄"
+    ],
+    [
+      "theme",
+      "主题"
+    ],
+    [
+      "trainer",
+      "教练员"
+    ],
+    [
+      "type",
+      "类型"
+    ],
+    [
+      "uncaught",
+      "未捕获的"
+    ],
+    [
+      "underground",
+      "采掘场"
+    ],
+    [
+      "united",
+      "团结的"
+    ],
+    [
+      "up",
+      "向上"
+    ],
+    [
+      "value",
+      "价值"
+    ],
+    [
+      "vitamins",
+      "维生素"
+    ],
+    [
+      "Vitamins Used",
+      "使用的维生素"
+    ],
+    [
+      "wallet",
+      "钱包"
+    ],
+    [
+      "warning",
+      "警告"
+    ],
+    [
+      "water",
+      "水"
+    ],
+    [
+      "weather",
+      "天气"
+    ]
+  ],
   "pokemon": {
     "alt": {
       "mega": "超级",

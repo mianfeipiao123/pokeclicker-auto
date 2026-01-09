@@ -199,11 +199,11 @@
       "line": 61
     },
     "Dungeon loot now has a (reduced) chance to be multiplied without Dowsing Machine": {
-      "translation": "迷宫战利品现在在没有探矿机的情况下有（减少）倍增的机会",
+      "translation": "迷宫战利品现在在没有探矿机的情况下有（减少）倍增几率",
       "line": 62
     },
     "Activating Dowsing Machine now increases the chance to multiply loot from dungeon chests": {
-      "translation": "激活探矿机现在会增加迷宫箱中战利品倍增的机会",
+      "translation": "激活探矿机现在会增加迷宫箱中战利品倍增几率",
       "line": 63
     },
     "Adjusted Nomel berry mutation requirement": {
@@ -3143,7 +3143,7 @@
       "line": 1018
     },
     "When purchasing multiple shop Pokémon the shiny chance was only rolled once": {
-      "translation": "当购买多个商店宝可梦时，异色的机会只会滚动一次",
+      "translation": "当购买多个商店宝可梦时，异色几率只会滚动一次",
       "line": 1019
     },
     "Some Pokémon silhouettes showing colors when not obtained yet": {
@@ -3617,7 +3617,7 @@
       "line": 1162
     },
     "Modals locking game if clicked too fast": {
-      "translation": "如果点击太快，模态会锁定游戏",
+      "translation": "如果点击太快，弹窗会锁定游戏",
       "line": 1163
     },
     "v0.6.8": {
@@ -3761,7 +3761,7 @@
       "line": 1210
     },
     "Increase Farm wandering Pokémon shiny chance": {
-      "translation": "增加农场流浪宝可梦异色的机会",
+      "translation": "增加农场流浪宝可梦异色几率",
       "line": 1211
     },
     "Misc Farm changes": {
@@ -4097,7 +4097,7 @@
       "line": 1307
     },
     "Pokéball selector made smaller, now makes use of a modal": {
-      "translation": "Pokéball 选择器变得更小，现在使用模态",
+      "translation": "Pokéball 选择器变得更小，现在使用弹窗",
       "line": 1308
     },
     "Add some spacing to Damage Calculator": {
@@ -4249,7 +4249,7 @@
       "line": 1349
     },
     "Increase shiny chance when using an evolution item": {
-      "translation": "使用进化物品时增加异色的机会",
+      "translation": "使用进化物品时增加异色几率",
       "line": 1350
     },
     "Increase shiny chance for dungeon Pokémon": {
@@ -4637,7 +4637,7 @@
       "line": 1460
     },
     "Update modal displays": {
-      "translation": "更新模态显示",
+      "translation": "更新弹窗显示",
       "line": 1461
     },
     "Event Pokémon no longer displayed in Pokédex": {
@@ -5093,7 +5093,7 @@
       "line": 1598
     },
     "Added close button on the top right of more modals": {
-      "translation": "更多模态右上角添加关闭按钮",
+      "translation": "更多弹窗右上角添加关闭按钮",
       "line": 1599
     },
     "Dungeon layout should be shuffled again": {

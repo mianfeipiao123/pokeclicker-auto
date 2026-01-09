@@ -1869,11 +1869,11 @@
       "line": 577
     },
     "Modal Collapse": {
-      "translation": "模态崩溃",
+      "translation": "弹窗崩溃",
       "line": 581
     },
     "modalCollapse.${...}": {
-      "translation": "模态折叠。${...}",
+      "translation": "弹窗折叠。${...}",
       "line": 581
     },
     "moduleHeight.pokeballSelector": {

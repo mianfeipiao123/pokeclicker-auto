@@ -81,7 +81,7 @@
       "line": 106
     },
     "modalCollapse.${...}": {
-      "translation": "模态折叠。${...}",
+      "translation": "弹窗折叠。${...}",
       "line": 106
     },
     "show.bs.collapse": {

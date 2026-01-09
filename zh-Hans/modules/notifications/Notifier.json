@@ -123,7 +123,7 @@
       "line": 114
     },
     "modal${...}": {
-      "translation": "模态${...}",
+      "translation": "弹窗${...}",
       "line": 114,
       "_rematchedFrom": "modal${...}",
       "_confidence": 0.85
@@ -209,7 +209,7 @@
       "line": 138
     },
     "#modal${...}": {
-      "translation": "#模态${...}",
+      "translation": "#弹窗${...}",
       "line": 139,
       "_rematchedFrom": "#modal${...}",
       "_confidence": 0.85
@@ -253,7 +253,7 @@
       "line": 216
     },
     "modalConfirm${...}": {
-      "translation": "模态确认${...}",
+      "translation": "弹窗确认${...}",
       "line": 216
     },
     "btn col outline-dark btn-secondary": {

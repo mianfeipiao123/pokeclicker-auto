@@ -431,7 +431,7 @@
       "line": 790
     },
     "Due to its poisonous nature, it increases the chances of mutations near it.": {
-      "translation": "由于其有毒性质，它增加了附近发生突变的机会。",
+      "translation": "由于其有毒性质，它增加了附近发生突变几率。",
       "line": 792
     },
     "Grimer": {
@@ -463,7 +463,7 @@
       "line": 811
     },
     "Growing these Berries will soften the ground around it, increasing the chances of replanting.": {
-      "translation": "种植这些树果会软化周围的土壤，增加重新种植的机会。",
+      "translation": "种植这些树果会软化周围的土壤，增加重新种植几率。",
       "line": 812
     },
     "Sandshrew": {
@@ -563,7 +563,7 @@
       "line": 888
     },
     "This Berry plant hardens the surrounding soil, decreasing the chances of replanting.": {
-      "translation": "这种树果植物使周围的土壤变硬，减少了重新种植的机会。",
+      "translation": "这种树果植物使周围的土壤变硬，减少了重新种植几率。",
       "line": 889
     },
     "Rhyhorn": {
@@ -679,7 +679,7 @@
       "line": 969
     },
     "This Berry plant is very hardy and resistant, making it resistant to mutations, and also decreasing the chance of mutations around it.": {
-      "translation": "这种树果植物非常耐寒和抵抗力，使其能够抵抗突变，并减少周围发生突变的机会。",
+      "translation": "这种树果植物非常耐寒和抵抗力，使其能够抵抗突变，并减少周围发生突变几率。",
       "line": 970
     },
     "Magnemite": {

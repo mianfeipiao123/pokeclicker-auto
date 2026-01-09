@@ -331,7 +331,7 @@
       "line": 253
     },
     "Illegal activity is afoot. Clear the Rocket Game Corner in Celadon City.": {
-      "translation": "非法活动正在进行中。清除玉虹市的火箭游戏角。",
+      "translation": "非法活动正在进行中。通关玉虹市的火箭游戏角。",
       "line": 253
     },
     "I see that you raise Pokémon with utmost care. A child like you would never understand what I hope to achieve. I shall step aside this time! I hope we meet again...": {
@@ -347,7 +347,7 @@
       "line": 261
     },
     "Team Rocket has occupied Silph Co. Clear Silph Co. in Saffron City to find the Card Key.": {
-      "translation": "火箭队已经占领了西尔佛公司。清除金黄市的西尔佛公司来寻找卡钥匙。",
+      "translation": "火箭队已经占领了西尔佛公司。通关金黄市的西尔佛公司以寻找卡钥匙。",
       "line": 261
     },
     "What kept you $playername$? Hahaha! I thought you'd turn up if I waited here! I guess Team Rocket slowed you down! Not that I care! I saw you in Saffron, so I decided to see if you got better!": {
@@ -367,7 +367,7 @@
       "line": 269
     },
     "Team Rocket has occupied Silph Co. Clear Silph Co. in Saffron City once more to foil their plans.": {
-      "translation": "火箭队再次占领了西尔佛公司。清除西尔佛公司位于金黄市，以挫败他们的计划。",
+      "translation": "火箭队再次占领了西尔佛公司。再次通关金黄市的西尔佛公司，粉碎他们的计划。",
       "line": 272
     },
     "Arrgh!! I lost again!? Blast it all! You ruined our plans for Silph! But Team Rocket will never fall! $playername$, never forget that all Pokémon exist for Team Rocket! I must go, but I shall return!": {
@@ -383,7 +383,7 @@
       "line": 290
     },
     "If you take down Team Rocket's leader one more time they will surely never come back from this! Clear Viridian City Gym.": {
-      "translation": "如果你再打倒火箭队的队长，他们肯定就再也回不来了！清除常磐市道馆。",
+      "translation": "如果你再击败一次火箭队的老大，他们肯定就再也回不来了！挑战并战胜常磐市道馆。",
       "line": 290
     },
     "Mining Expedition": {
@@ -451,7 +451,7 @@
       "line": 341
     },
     "Find Lostelle. Clear Berry Forest.": {
-      "translation": "找到洛斯特尔。清除树果森林。",
+      "translation": "找到洛斯特尔。通关树果森林。",
       "line": 341
     },
     "Lostelle has been found. Return to the Game Corner owner on Two Island.": {
@@ -715,7 +715,7 @@
       "line": 538
     },
     "Clear the Ice Path to give Sayo a push.": {
-      "translation": "清除冰雪通路，推一把沙代。",
+      "translation": "通关冰之通路，帮沙代一把。",
       "line": 538
     },
     "Talk to Kimono Girl Kuni in Goldenrod City.": {
@@ -723,7 +723,7 @@
       "line": 541
     },
     "Clear the Radio Tower to get rid of any lingering Team Rocket activity.": {
-      "translation": "清除无线电塔以消除任何残留的火箭队活动。",
+      "translation": "通关无线电塔，消除任何残留的火箭队活动。",
       "line": 544
     },
     "Meet the Kimono Girls at the Whirl Islands.": {
@@ -1521,7 +1521,7 @@
       "line": 1090
     },
     "Track down the TV broadcast coming from The Under in Pyrite Town. Clear The Under.": {
-      "translation": "追踪来自黄铁矿镇地下的电视广播。清除下方。",
+      "translation": "追踪来自黄铁矿镇「下层」的电视广播。通关下层。",
       "line": 1090
     },
     "Aiyeeeeh! How dare you! How could I get bested by a mere child? Remember this! I'll get you back for this!": {
@@ -1545,7 +1545,7 @@
       "line": 1101
     },
     "Follow the secret tunnel to the Cipher Lab and clear out the enemies.": {
-      "translation": "沿着秘密隧道前往密码实验室并清除敌人。",
+      "translation": "沿着秘密隧道前往密码实验室并击败敌人。",
       "line": 1101
     },
     "Humph! Your struggle to get here was all in vain! The Shadow Pokémon we produced have already been moved elsewhere. And that, of course, includes the ultimate Shadow Pokémon I created for the boss! Wahahahah!": {
@@ -1605,7 +1605,7 @@
       "line": 1133
     },
     "Team Galactic is kidnapping Pokémon now. Clear Team Galactic Eterna Building in Eterna City.": {
-      "translation": "银河队现在正在绑架宝可梦。清除永恒之城银河团队大楼。",
+      "translation": "银河队现在正在绑架宝可梦。通关百代市的银河团队永恒大厦。",
       "line": 1133
     },
     "Pastoria City": {
@@ -1661,7 +1661,7 @@
       "line": 1154
     },
     "You failed to protect any of the lake guardians. They have been taken to Veilstone City. So that's what that strange building was... Clear Team Galactic HQ in Veilstone City.": {
-      "translation": "你没能保护任何湖泊守护者。他们被带到了帷幕市。原来那栋奇怪的建筑就是……清除位于帷幕市的银河队总部。",
+      "translation": "你没能保护任何湖泊守护者。他们被带到了帷幕市。原来那栋奇怪的建筑就是……通关帷幕市的银河队总部。",
       "line": 1154
     },
     "Spear Pillar": {
@@ -1753,7 +1753,7 @@
       "line": 1211
     },
     "They're using Parasect to navigate the Eterna Forest. Clear out a Parasect and they should get trapped!": {
-      "translation": "他们使用 派拉斯ect 在永恒森林中导航。清除寄生虫，他们就会被困住！",
+      "translation": "他们用派拉斯特在百代森林中导航。击败一只派拉斯特，他们就会被困住！",
       "line": 1211
     },
     "Manaphy Go-Rock MGrunt 4": {
@@ -2087,7 +2087,7 @@
       "line": 1407
     },
     "Team Plasma has fled the scene with the stolen DNA Splicers. Find and clear out the Plasma Frigate.": {
-      "translation": "等离子队带着被盗的 DNA拼合器逃离了现场。找到并清除等离子护卫舰。",
+      "translation": "等离子队带着被盗的 DNA拼合器逃离了现场。找到并通关等离子护卫舰。",
       "line": 1408
     },
     "Giant Chasm": {
@@ -2825,11 +2825,11 @@
       "line": 1829
     },
     "For someone so obsessed with beauty he seems to really care about filth... Anyway, the Poké Ball Factory sounds like a fun place, let's go check it out.": {
-      "translation": "对于一个如此痴迷于美丽的人来说，他似乎真的很在乎肮脏……不管怎样，宝可梦球工厂听起来是一个有趣的地方，我们去看看吧。",
+      "translation": "对于一个如此痴迷于美的人来说，他却这么在意肮脏……不管怎样，精灵球工厂听起来挺有意思的，我们去看看吧。",
       "line": 1830
     },
     "No way you beat us! Wow, we are lame. Probability is just probability after all... Absolutes do not exist. But enough already! We've already stolen the Poké Balls, Great Balls, and Ultra Balls. Let's call it good and leave.": {
-      "translation": "你怎么可能打败我们！哇，我们是瘸子。概率毕竟只是概率……绝对不存在。但已经够了！我们已经偷走了宝可梦球、伟大球和超级球。我们就说这很好然后离开吧。",
+      "translation": "你居然能打败我们！哇，我们也太菜了。概率终究只是概率……世上没有绝对。但够了！精灵球、超级球和高级球我们都已经偷走了。见好就收，撤！",
       "line": 1832
     },
     "Team Flare Bryony": {
@@ -2841,7 +2841,7 @@
       "line": 1843
     },
     "Now that Team Flare is not in the Poké Ball Factory anymore, talk with the Director that you just saved.": {
-      "translation": "现在耀斑队已经不在精灵球工厂了，请与你刚刚救下的总监交谈。",
+      "translation": "现在闪焰队已经不在精灵球工厂了，去和你刚救下的厂长谈谈。",
       "line": 1850
     },
     "Professor Sycamore is waiting for you in Dendemille Town. He has some important things to say about the legendary Pokémon of Kalos.": {
@@ -2853,7 +2853,7 @@
       "line": 1856
     },
     "You were going to Frost Cavern for Pokémon, but what you found there is Team Flare instead! Clear it!": {
-      "translation": "你本来要去冰霜洞窟看宝可梦，但你发现那里却是闪焰队！清除它！",
+      "translation": "你本来要去冰霜洞窟寻找宝可梦，却发现里面是闪焰队！把他们赶出去！",
       "line": 1856
     },
     "Not just strong... TOO strong! Not ordinary, indeed. Whatever, it doesn't matter, we already tested what we wanted to know. The Abomasnow from this cavern is a fine specimen. The more we agitate it, the stronger its Snow Warning ability becomes, making the snow fall even more furiously. Whoever has the most energy will come out on top! And it's Team Flare, and only Team Flare who will survive!": {
@@ -3073,7 +3073,7 @@
       "line": 1989
     },
     "Clear Granite Cave 10 times.": {
-      "translation": "清除花岗岩洞穴10次。",
+      "translation": "通关花岗岩洞穴10次。",
       "line": 1989
     },
     "Find a Star Piece.": {
@@ -3109,7 +3109,7 @@
       "line": 2017
     },
     "Clear Meteor Falls 10 times to search for the Meteor Shard.": {
-      "translation": "清除流星瀑布10次以寻找流星碎片。",
+      "translation": "通关流星瀑布10次以寻找流星碎片。",
       "line": 2017
     },
     "Talk to the Draconid Elder in Meteor Falls.": {
@@ -3225,7 +3225,7 @@
       "line": 2106
     },
     "Clear Granite Cave 10 times to search for the Primal Reversion Mural.": {
-      "translation": "清除花岗岩洞穴10次以寻找原始回归壁画。",
+      "translation": "通关花岗岩洞穴10次以寻找原始回归壁画。",
       "line": 2109
     },
     "Examine the first Primal Mural in Granite Cave.": {
@@ -3997,7 +3997,7 @@
       "line": 2547
     },
     "Follow Lillie to the Trainers' School dungeon and clear it.": {
-      "translation": "跟随莉莉前往训练师学校的迷宫并清除它。",
+      "translation": "跟随莉莉前往训练家学校的迷宫并通关。",
       "line": 2547
     },
     "You seemed to be in perfect sync with your Pokémon—weren't you? Um... Since we've come this far together, why don't I show you some more of the city?": {
@@ -4465,7 +4465,7 @@
       "line": 2801
     },
     "Explore Poni Island for signs of its kahuna. Clear Ancient Poni Path.": {
-      "translation": "探索波尼岛，寻找其魅力的迹象。清除远古波尼小径。",
+      "translation": "探索波尼岛，寻找其卡胡纳的线索。通关远古波尼小径。",
       "line": 2803
     },
     "Oh! Been a while, friends. The kahuna? Hrmm. Well, I suppose the time might be right now... All right. Let us all proceed to the ruins. You stick with me, you two.": {
@@ -4637,7 +4637,7 @@
       "line": 2905
     },
     "One step closer to victory: Clear Mount Lanakila!": {
-      "translation": "距离胜利又近了一步：清除拉纳基拉山！",
+      "translation": "距离胜利又近了一步：通关拉纳基拉山！",
       "line": 2905
     },
     "<i>You see Necrozma unconscious in a crater, drained of light and in a dormant state. Best to let it rest for a while.</i>": {
@@ -5635,7 +5635,7 @@
       "line": 3565
     },
     "Chairman Rose has interrupted your fight with Leon and brought about the Darkest Day. Clear Slumbering Weald Shrine.": {
-      "translation": "罗丝主席打断了你与莱昂的战斗，并带来了至暗之日。清除沉睡的荒原神殿。",
+      "translation": "罗丝主席打断了你与丹帝的战斗，并带来了至暗之日。通关沉睡的荒原神殿。",
       "line": 3565
     },
     "Talk to Hop in Slumbering Weald Shrine.": {
@@ -6307,7 +6307,7 @@
       "line": 4000
     },
     "Clear Iceberg Ruins 10 times.": {
-      "translation": "清除冰山遗迹10次。",
+      "translation": "通关冰山遗迹10次。",
       "line": 4000
     },
     "Iron Ruins": {
@@ -6315,7 +6315,7 @@
       "line": 4001
     },
     "Clear Iron Ruins 10 times.": {
-      "translation": "清除铁废墟10次。",
+      "translation": "通关铁废墟10次。",
       "line": 4001
     },
     "Clear Rock Peak Ruins, Iceberg Ruins, and Iron Ruins 10 times each.": {

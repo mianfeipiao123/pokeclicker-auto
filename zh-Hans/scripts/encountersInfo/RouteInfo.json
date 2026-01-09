@@ -7,7 +7,7 @@
   },
   "entries": {
     "land": {
-      "translation": "土地",
+      "translation": "陆地",
       "line": 11
     },
     "water": {
@@ -19,19 +19,19 @@
       "line": 21
     },
     "special": {
-      "translation": "特别的",
+      "translation": "特殊",
       "line": 26
     },
     "roamer": {
-      "translation": "漫游者",
+      "translation": "徘徊",
       "line": 35
     },
     "Event Roaming Pokémon": {
-      "translation": "活动漫游宝可梦",
+      "translation": "活动徘徊宝可梦",
       "line": 44
     },
     "Roaming Pokémon": {
-      "translation": "漫游宝可梦",
+      "translation": "徘徊宝可梦",
       "line": 46
     },
     "Event Pokémon": {

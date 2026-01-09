@@ -7,11 +7,11 @@
   },
   "entries": {
     "btn btn-primary": {
-      "translation": "btn btn-主要",
+      "translation": "btn btn-primary",
       "line": 7
     },
     "Enter Safari Zone": {
-      "translation": "进入野生动物区",
+      "translation": "进入狩猎区",
       "line": 10
     }
   }

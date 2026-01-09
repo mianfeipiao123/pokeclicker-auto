@@ -87,7 +87,7 @@
       "line": 71
     },
     "pokeballFilterCaughtShiny": {
-      "translation": "pokeballFilter已捕获Shiny",
+      "translation": "pokeballFilterCaughtShiny",
       "line": 77
     },
     "Caught Shiny": {
@@ -103,7 +103,7 @@
       "line": 82
     },
     "pokeballFilterCaughtShadow": {
-      "translation": "pokeballFilter已捕获Shadow",
+      "translation": "pokeballFilterCaughtShadow",
       "line": 88
     },
     "Caught Shadow": {

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.44
+// @version      0.1.45
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -74,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.44';
+    const SCRIPT_VERSION = '0.1.45';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -146,6 +146,68 @@
         return uniqueStrings(urls);
     })();
 
+    const DEFAULT_FETCH_TIMEOUT_MS = 5000;
+    const parseTimeoutMs = (value) => {
+        const n = Number(value);
+        if (!Number.isFinite(n) || n <= 0) return null;
+        return Math.round(n);
+    };
+
+    let RAW_FETCH_TIMEOUT_MS = DEFAULT_FETCH_TIMEOUT_MS;
+    let FALLBACK_FETCH_TIMEOUT_MS = DEFAULT_FETCH_TIMEOUT_MS;
+    try {
+        RAW_FETCH_TIMEOUT_MS = parseTimeoutMs(localStorage.getItem('pokeclickerZhHansTimeoutRawMs')) ?? DEFAULT_FETCH_TIMEOUT_MS;
+        FALLBACK_FETCH_TIMEOUT_MS = parseTimeoutMs(localStorage.getItem('pokeclickerZhHansTimeoutFallbackMs')) ?? DEFAULT_FETCH_TIMEOUT_MS;
+    } catch {
+        RAW_FETCH_TIMEOUT_MS = DEFAULT_FETCH_TIMEOUT_MS;
+        FALLBACK_FETCH_TIMEOUT_MS = DEFAULT_FETCH_TIMEOUT_MS;
+    }
+
+    const timeoutError = (ms, url) => {
+        const err = new Error(`timeout after ${ms}ms`);
+        err.code = 'TIMEOUT';
+        err.timeoutMs = ms;
+        err.url = url;
+        return err;
+    };
+
+    const fetchWithTimeout = async (url, init, timeoutMs) => {
+        const ms = Number.isFinite(timeoutMs) && timeoutMs > 0 ? timeoutMs : 0;
+        const supportsAbort = typeof AbortController === 'function';
+        const controller = supportsAbort ? new AbortController() : null;
+        const signal = controller?.signal;
+        let timeoutId = null;
+
+        const fetchPromise = fetch(url, signal ? { ...(init ?? {}), signal } : (init ?? {}));
+        if (!ms) return await fetchPromise;
+
+        const timerPromise = new Promise((_, reject) => {
+            timeoutId = setTimeout(() => {
+                try {
+                    controller?.abort();
+                } catch {
+                    // ignore
+                }
+                reject(timeoutError(ms, url));
+            }, ms);
+        });
+
+        try {
+            return await Promise.race([fetchPromise, timerPromise]);
+        } finally {
+            if (timeoutId) clearTimeout(timeoutId);
+            if (!supportsAbort) fetchPromise.catch(() => {});
+        }
+    };
+
+    const fetchJsonWithTimeout = async (url, init, timeoutMs) => {
+        const res = await fetchWithTimeout(url, init, timeoutMs);
+        if (!res?.ok) throw new Error(`fetch failed: ${res?.status ?? 'unknown'}`);
+        const json = await res.json();
+        if (!json || typeof json !== 'object') throw new Error('json invalid');
+        return json;
+    };
+
     const INLINE_OVERRIDES = {};
 
     /** @type {Record<string,string>} */
@@ -195,6 +257,8 @@
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
             bundleUrl: BUNDLE_URL,
             bundleUrlCandidates: BUNDLE_URL_CANDIDATES,
+            fetchTimeoutRawMs: RAW_FETCH_TIMEOUT_MS,
+            fetchTimeoutFallbackMs: FALLBACK_FETCH_TIMEOUT_MS,
         }),
     };
 
@@ -1141,13 +1205,11 @@
 
         try {
             let lastError = null;
-            for (const url of BUNDLE_URL_CANDIDATES) {
+            for (let i = 0; i < BUNDLE_URL_CANDIDATES.length; i += 1) {
+                const url = BUNDLE_URL_CANDIDATES[i];
+                const timeoutMs = i === 0 ? RAW_FETCH_TIMEOUT_MS : FALLBACK_FETCH_TIMEOUT_MS;
                 try {
-                    const res = await fetch(url, { cache: 'no-cache' });
-                    if (!res.ok) throw new Error(`bundle fetch failed: ${res.status}`);
-                    const json = await res.json();
-                    if (!json || typeof json !== 'object') throw new Error('bundle json invalid');
-                    bundle = json;
+                    bundle = await fetchJsonWithTimeout(url, { cache: 'no-cache' }, timeoutMs);
                     if (DEBUG && url !== BUNDLE_URL) {
                         // eslint-disable-next-line no-console
                         console.info('[PokéClicker zh-Hans] Loaded bundle from fallback:', url);

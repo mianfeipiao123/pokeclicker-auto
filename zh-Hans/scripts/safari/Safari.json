@@ -27,7 +27,7 @@
       "line": 140
     },
     "Safari Zone": {
-      "translation": "野生动物园区",
+      "translation": "狩猎区",
       "line": 229
     },
     "You have an active Safari in ${...}. Do you want to quit that Safari and start a new one?": {
@@ -37,7 +37,7 @@
       "_confidence": 0.85
     },
     "Quit": {
-      "translation": "辞职",
+      "translation": "退出",
       "line": 232
     },
     "hide": {
@@ -91,7 +91,7 @@
       "line": 502
     },
     "right": {
-      "translation": "正确的",
+      "translation": "右",
       "line": 504
     },
     "down": {
@@ -103,7 +103,7 @@
       "line": 593
     },
     "hover": {
-      "translation": "徘徊",
+      "translation": "hover",
       "line": 618
     },
     "Max level reached": {
@@ -143,27 +143,27 @@
       "_confidence": 0.85
     },
     "mousedown": {
-      "translation": "鼠标按下",
+      "translation": "mousedown",
       "line": 643
     },
     "mouseout": {
-      "translation": "鼠标移开",
+      "translation": "mouseout",
       "line": 644
     },
     "mouseup": {
-      "translation": "鼠标向上",
+      "translation": "mouseup",
       "line": 645
     },
     "touchstart": {
-      "translation": "触摸启动",
+      "translation": "touchstart",
       "line": 646
     },
     "touchend": {
-      "translation": "触摸端",
+      "translation": "touchend",
       "line": 647
     },
     "touchcancel": {
-      "translation": "触摸取消",
+      "translation": "touchcancel",
       "line": 648
     },
     "hide.bs.modal": {
@@ -179,7 +179,7 @@
       "line": 662
     },
     "Friend Safari": {
-      "translation": "朋友野生动物园",
+      "translation": "朋友狩猎区",
       "line": 665
     },
     "Hoppy Town Fishing Pond": {

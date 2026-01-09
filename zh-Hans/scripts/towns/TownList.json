@@ -459,7 +459,7 @@
       "line": 437
     },
     "Did you know that sparkling Pokémon are more often found in Dungeons, on Farms, from Eggs, and even from Shops, the Safari Zone, and Evolutions from Items?": {
-      "translation": "你是否知道异色宝可梦更常见于迷宫、农场、蛋，甚至商店、野生动物区和物品进化？",
+      "translation": "你是否知道异色宝可梦更常见于迷宫、农场、蛋，甚至商店、狩猎区和物品进化？",
       "line": 438
     },
     "assets/images/npcs/Mr. Fuji.png": {
@@ -599,7 +599,7 @@
       "line": 485
     },
     "There's been some recent sightings of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "最近在{ROUTENAME}上看到了一些漫游的宝可梦！",
+      "translation": "最近在{ROUTENAME}上看到了一些徘徊的宝可梦！",
       "line": 486
     },
     "You! Not again! I'll be there first next time! Having followed it here, I'm starting to understand what Suicune is after.": {
@@ -1195,11 +1195,11 @@
       "line": 806
     },
     "I heard there was a stone hidden in the Safari Zone that makes Pinsir stronger!": {
-      "translation": "我听说野生原野区里藏着一块能让凯罗斯变强的石头！",
+      "translation": "我听说狩猎区里藏着一块能让凯罗斯变强的石头！",
       "line": 807
     },
     "But... I don't have a high enough Safari Level to find it.": {
-      "translation": "但是...我没有足够高的 Safari 级别来找到它。",
+      "translation": "但是……我的狩猎等级还不够高，找不到它。",
       "line": 808
     },
     "The Candy Man": {
@@ -1467,11 +1467,11 @@
       "line": 1013
     },
     "Safari Zone": {
-      "translation": "野生动物园区",
+      "translation": "狩猎区",
       "line": 1026
     },
     "Obtain the Safari Ticket": {
-      "translation": "获取 Safari 门票",
+      "translation": "获取狩猎区门票",
       "line": 1032
     },
     "Cinnabar Island": {
@@ -2269,7 +2269,7 @@
       "line": 1849
     },
     "On the news, they are getting more reports of roaming Pokémon appearing on {ROUTE_NAME}!": {
-      "translation": "在新闻中，他们收到了更多有关漫游宝可梦出现在 {ROUTENAME} 上的报道！",
+      "translation": "在新闻中，他们收到了更多有关徘徊宝可梦出现在 {ROUTENAME} 上的报道！",
       "line": 1850
     },
     "assets/images/npcs/Pokéfan (male).png": {
@@ -2737,7 +2737,7 @@
       "line": 2406
     },
     "Our sources indicate that roaming Pokémon are gathering on {ROUTE_NAME}!": {
-      "translation": "我们的消息来源表明，漫游宝可梦正在{ROUTENAME}上聚集！",
+      "translation": "我们的消息来源表明，徘徊宝可梦正在{ROUTENAME}上聚集！",
       "line": 2407
     },
     "assets/images/npcs/Reporter.png": {
@@ -5159,7 +5159,7 @@
       "line": 4178
     },
     "Welcome to Sinnoh! There are many legends and myths here. For example, it is said that trainers that conquer the Lake nearby, Lake Verity, will meet a mythical Pokémon known for Emotion roaming around the region. It sure would have been awesome to partner with that Pokémon in one of my routines!": {
-      "translation": "欢迎来到神奥！这里有许多传说和神话。例如，据说征服附近的真实湖的训练家将会遇到一只以情感在该地区漫游的神话宝可梦。如果能在我的日常活动中与那只宝可梦搭档，那真是太棒了！",
+      "translation": "欢迎来到神奥！这里有许多传说和神话。例如，据说征服附近的真砂湖的训练家将会遇到一只以情感著称、在该地区徘徊的幻之宝可梦。如果能在我的日常活动中与那只宝可梦搭档，那真是太棒了！",
       "line": 4179
     },
     "assets/images/npcs/Contest Champion (Johanna).png": {
@@ -5303,7 +5303,7 @@
       "line": 4227
     },
     "Hey, welcome to the Pal Park! Have you been to my Dad's Safari Zone in Kanto? We don't have as many Pokémon here, but I've heard that a flower Pokémon found here can bloom when it's sunny outside!": {
-      "translation": "嘿，欢迎来到帕尔公园！你去过我爸爸在关都的野生动物园吗？我们这里的宝可梦不多，但我听说这里发现的花宝可梦在外面阳光明媚的时候会开花！",
+      "translation": "嘿，欢迎来到帕尔公园！你去过我爸爸在关都的狩猎区吗？我们这里的宝可梦不多，但我听说这里发现的花宝可梦在外面阳光明媚的时候会开花！",
       "line": 4228
     },
     "Burglar": {
@@ -5551,7 +5551,7 @@
       "line": 4323
     },
     "I spotted a bunch of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "我在 {ROUTENAME} 上发现了一群漫游的宝可梦！",
+      "translation": "我在 {ROUTENAME} 上发现了一群徘徊的宝可梦！",
       "line": 4324
     },
     "Lake Trio": {
@@ -6547,7 +6547,7 @@
       "line": 5208
     },
     "Our research indicates a higher concentration of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "我们的研究表明，{ROUTENAME} 上的漫游宝可梦更加集中！",
+      "translation": "我们的研究表明，{ROUTENAME} 上的徘徊宝可梦更加集中！",
       "line": 5209
     },
     "Prof. Juniper": {
@@ -7795,7 +7795,7 @@
       "line": 6266
     },
     "The spirits tell me roaming Pokémon have been spotted on {ROUTE_NAME}!": {
-      "translation": "灵魂告诉我在 {ROUTENAME} 上发现了漫游的宝可梦！",
+      "translation": "灵魂告诉我在 {ROUTENAME} 上发现了徘徊的宝可梦！",
       "line": 6267
     },
     "Kalos TV News": {
@@ -8375,15 +8375,15 @@
       "line": 6476
     },
     "Welcome to the Friend Safari!": {
-      "translation": "欢迎来到朋友野生动物园！",
+      "translation": "欢迎来到朋友狩猎区！",
       "line": 6477
     },
     "This place is a lot like the Kanto Safari Zone, except we get a much wider variety of Pokémon coming through here.": {
-      "translation": "这个地方很像关都野生动物区，只不过这里有更多种类的宝可梦。",
+      "translation": "这个地方很像关都狩猎区，只不过这里有更多种类的宝可梦。",
       "line": 6478
     },
     "Our park staff stocks the Safari with different hard-to-find Pokémon every day. Many of these Pokémon can't be caught anywhere else in the world!": {
-      "translation": "我们的公园工作人员每天都会在野生动物园里储备各种难以找到的宝可梦。其中许多宝可梦是在世界其他地方无法捕获的！",
+      "translation": "我们的公园工作人员每天都会在狩猎区里准备各种难以找到的宝可梦。其中许多宝可梦是在世界其他地方无法捕获的！",
       "line": 6479
     },
     "As new and rare types of Pokémon are discovered, park staff will add them to our rotation of potential stock!": {

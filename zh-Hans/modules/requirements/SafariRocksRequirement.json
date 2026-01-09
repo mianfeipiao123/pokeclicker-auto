@@ -15,7 +15,7 @@
       "line": 2
     },
     "${...} Rocks needs to be thrown in a Safari Zone.": {
-      "translation": "${...}石头需要扔进狩猎地带。",
+      "translation": "需要在狩猎区投掷 ${...} 块石头。",
       "line": 14,
       "_rematchedFrom": "${...} Rocks needs to be thrown in a Safari Zone.",
       "_confidence": 0.85

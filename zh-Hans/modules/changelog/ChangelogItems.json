@@ -359,7 +359,7 @@
       "line": 108
     },
     "Roaming Pokémon encounter rate on subregion routes has been adjusted": {
-      "translation": "分区路线的漫游宝可梦遭遇率已调整",
+      "translation": "分区路线的徘徊宝可梦遭遇率已调整",
       "line": 109
     },
     "Number keys can now be used to select a save on the save selection menu": {
@@ -603,7 +603,7 @@
       "line": 177
     },
     "Safari Zones now have an encounter display similar to dungeons": {
-      "translation": "野生动物园区域现在有类似于迷宫的遭遇显示",
+      "translation": "狩猎区现在有类似于迷宫的遭遇显示",
       "line": 178
     },
     "The \"Caught Not Shadow\" Pokédex filter will now only show Pokémon with a shadow form": {
@@ -787,7 +787,7 @@
       "line": 235
     },
     "Great Marsh Safari Zone in Sinnoh": {
-      "translation": "神奥大沼泽野生动物区",
+      "translation": "神奥大沼泽狩猎区",
       "line": 236
     },
     "Pokéball filter option - Category": {
@@ -879,7 +879,7 @@
       "line": 271
     },
     "Added ability to Surf on water in Safari zone": {
-      "translation": "增加了在野生动物区水上冲浪的能力",
+      "translation": "增加了在狩猎区水上冲浪的能力",
       "line": 274
     },
     "Safari animation speed increases with level": {
@@ -939,7 +939,7 @@
       "line": 293
     },
     "Safari Zone based achievements": {
-      "translation": "基于 Safari Zone 的成就",
+      "translation": "基于狩猎区的成就",
       "line": 294
     },
     "Adjust Safari Zone item spawning": {
@@ -967,15 +967,15 @@
       "line": 305
     },
     "Friend Safari is now open!": {
-      "translation": "朋友野生动物园现已开放！",
+      "translation": "朋友狩猎区现已开放！",
       "line": 306
     },
     "Safari XP & Safari Level - see the Help tab in the Safari Zone for more information": {
-      "translation": "狩猎经验 和 狩猎等级 - 请参阅 Safari 区域中的“帮助”选项卡以获取更多信息",
+      "translation": "狩猎经验 和 狩猎等级 - 请参阅狩猎区中的“帮助”选项卡以获取更多信息",
       "line": 307
     },
     "Safari keybinds": {
-      "translation": "Safari 按键绑定",
+      "translation": "狩猎区按键绑定",
       "line": 308
     },
     "Event Calendar - Halloween not included (purchased in Hammerlocke)": {
@@ -1295,7 +1295,7 @@
       "line": 429
     },
     "Added PokéRus indicator to shops and Safari Zone": {
-      "translation": "为商店和 Safari Zone 添加了 PokéRus 指示器",
+      "translation": "为商店和狩猎区添加了 PokéRus 指示器",
       "line": 430
     },
     "Added more Held Items": {
@@ -1319,7 +1319,7 @@
       "line": 435
     },
     "Buffed shiny chance for Safari Zone": {
-      "translation": "增加了 Safari Zone 的异色几率",
+      "translation": "增加了狩猎区的异色几率",
       "line": 436
     },
     "Changed evoluion items layout": {
@@ -2043,7 +2043,7 @@
       "line": 692
     },
     "Roaming Pokémon encounters now use their own sound and notification": {
-      "translation": "漫游宝可梦遭遇现在使用自己的声音和通知",
+      "translation": "徘徊宝可梦遭遇现在使用自己的声音和通知",
       "line": 693
     },
     "Experience gain has been rebalanced": {
@@ -2199,7 +2199,7 @@
       "line": 738
     },
     "Can now change movement keys for Safari Zone": {
-      "translation": "现在可以更改 Safari Zone 的移动键",
+      "translation": "现在可以更改狩猎区的移动键",
       "line": 739
     },
     "Timer now starts in Dungeons once you have moved": {
@@ -2235,7 +2235,7 @@
       "line": 747
     },
     "Safari Zone movement animations": {
-      "translation": "Safari Zone 移动动画",
+      "translation": "狩猎区移动动画",
       "line": 748
     },
     "Shiny code wrong name displayed occasionally": {
@@ -2339,7 +2339,7 @@
       "line": 780
     },
     "On screen Safari Zone controls not working": {
-      "translation": "屏幕上的 Safari Zone 控件不起作用",
+      "translation": "屏幕上的狩猎区控件不起作用",
       "line": 781
     },
     "Achievement filtering": {
@@ -2755,7 +2755,7 @@
       "line": 899
     },
     "Being able to go into Bait debt in the Safari Zone": {
-      "translation": "能够在野生动物区陷入诱饵债务",
+      "translation": "能够在狩猎区陷入诱饵债务",
       "line": 900
     },
     "v0.8.11": {
@@ -3275,7 +3275,7 @@
       "line": 1061
     },
     "Safari Zone encounter statistics": {
-      "translation": "Safari Zone 遭遇统计",
+      "translation": "狩猎区遭遇统计",
       "line": 1062
     },
     "Some roaming event mons": {
@@ -3653,7 +3653,7 @@
       "line": 1177
     },
     "Doubled the chance of encountering uncaught Roaming Pokémon": {
-      "translation": "遇到未捕获的漫游宝可梦的几率翻倍",
+      "translation": "遇到未捕获的徘徊宝可梦的几率翻倍",
       "line": 1178
     },
     "Save category filter in Hatchery upon reloading": {
@@ -3969,7 +3969,7 @@
       "line": 1273
     },
     "Safari Zone Pokémon can now appear as overworld sprites": {
-      "translation": "Safari Zone 宝可梦现在可以显示为主世界精灵",
+      "translation": "狩猎区宝可梦现在可以显示为主世界精灵",
       "line": 1274
     },
     "Completed Quest and Achievements will show in the Log Book": {
@@ -4025,11 +4025,11 @@
       "line": 1287
     },
     "Roaming Pokémon chance of appearing is now based on route difficulty": {
-      "translation": "漫游宝可梦的出现几率现在取决于路线难度",
+      "translation": "徘徊宝可梦的出现几率现在取决于路线难度",
       "line": 1288
     },
     "Doubled the chance of encountering uncaught Pokémon in the Safari Zone": {
-      "translation": "在野生动物区遇到未捕获的宝可梦的几率增加了一倍",
+      "translation": "在狩猎区遇到未捕获的宝可梦的几率增加了一倍",
       "line": 1289
     },
     "Display Pokéball amount in selector modal": {
@@ -4161,7 +4161,7 @@
       "line": 1325
     },
     "Walking in the Safari Zone will now add steps to your eggs": {
-      "translation": "现在，在野生动物区行走将为你的蛋添加步骤",
+      "translation": "现在，在狩猎区行走将为你的蛋添加步骤",
       "line": 1326
     },
     "Achievements added for reaching maximum level on oak items": {
@@ -4393,7 +4393,7 @@
       "line": 1388
     },
     "Some Roaming Pokémon will only appear after certain requirements have been met": {
-      "translation": "一些漫游宝可梦只有在满足某些要求后才会出现",
+      "translation": "一些徘徊宝可梦只有在满足某些要求后才会出现",
       "line": 1389
     },
     "Some Dungeon Pokémon will only appear after certain requirements have been met": {
@@ -4681,7 +4681,7 @@
       "line": 1473
     },
     "Safari Zone should no longer lock up": {
-      "translation": "Safari Zone 不应再锁定",
+      "translation": "狩猎区不应再卡死",
       "line": 1474
     },
     "Event Pokémon can now evolve": {
@@ -4773,7 +4773,7 @@
       "line": 1502
     },
     "Enlarge buttons in Shortcut menu, Safari Zone": {
-      "translation": "放大快捷菜单、Safari Zone 中的按钮",
+      "translation": "放大快捷菜单、狩猎区中的按钮",
       "line": 1503
     },
     "Make Shop items fit better": {

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-09T07:31:52.964Z",
-    "totalEntries": 2357,
+    "generatedAt": "2026-01-09T08:33:04.716Z",
+    "totalEntries": 2359,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
   "entries": {
@@ -288,7 +288,7 @@
     "Add/Remove": "添加/删除",
     "Additional plots can be unlocked by spending Berries.": "花费树果可以解锁更多地块。",
     "AevitasDragonkin": "AevitasDragonkin",
-    "After paying the entrance fee, you will be able to walk around in the Safari Zone. To encounter Pokémon, you must either walk in the tall grass or walk into Pokémon that randomly appear on the map.": "支付门票后，你就可以在野生动物园区四处走动。要遇到宝可梦，你必须走在高高的草丛中，或者走进地图上随机出现的宝可梦。",
+    "After paying the entrance fee, you will be able to walk around in the Safari Zone. To encounter Pokémon, you must either walk in the tall grass or walk into Pokémon that randomly appear on the map.": "支付门票后，你就可以在狩猎区四处走动。要遇到宝可梦，你必须走在高草丛中，或者走进地图上随机出现的宝可梦。",
     "After your turn of the encounter, if it did not result in the encounter ending, the wild Pokémon will have a chance of running away.": "在你的遭遇回合结束后，如果没有导致遭遇结束，野生宝可梦将有机会逃跑。",
     "Aguav Berries": "芭亚果",
     "AlabasterIcelands": "AlabasterIcelands",
@@ -657,7 +657,7 @@
     "Do you want to activate No Oak Item challenge mode?": "你想激活无大木博士道具挑战模式吗？",
     "Do you want to activate No Protein challenge mode?": "你想激活无蛋白质挑战模式吗？",
     "Do you want to activate No Shard challenge mode?": "你想激活无碎片挑战模式吗？",
-    "Do you want to quit that Safari and start a new one?": "你想退出那个狩猎地带并开始一个新的吗？",
+    "Do you want to quit that Safari and start a new one?": "你想退出那个狩猎区并开始一个新的吗？",
     "DommyThicc": "DommyThicc",
     "Done": "完成",
     "Done!": "完成！",
@@ -1160,7 +1160,7 @@
     "In progress": "进行中",
     "In some scenario, multiple of your filters may meet all of their conditions, but only one can be used to choose a ball for catching.": "在某些情况下，多个过滤器可能满足所有条件，但只有一个可以用于选择要接球的球。",
     "In the farm you can plant and harvest Berries.": "在农场里，你可以种植和收获树果。",
-    "In the Safari Zone:": "在野生动物园区：",
+    "In the Safari Zone:": "在狩猎区：",
     "in the Start Menu.": "在开始菜单中。",
     "in the Underground": "在地下",
     "in this dungeon!": "在这个迷宫中！",
@@ -1260,8 +1260,8 @@
     "logbook:type.OTHER:": "其他：",
     "logbook:type.QUEST": "任务",
     "logbook:type.QUEST:": "任务：",
-    "logbook:type.ROAMER": "漫游",
-    "logbook:type.ROAMER:": "漫游：",
+    "logbook:type.ROAMER": "徘徊",
+    "logbook:type.ROAMER:": "徘徊：",
     "logbook:type.SHINY": "异色",
     "logbook:type.SHINY:": "异色：",
     "logbook:type.WANDER": "游荡",
@@ -1636,7 +1636,7 @@
     "S.S.Anne": "圣安奴号",
     "Sabrina's Gym": "娜姿的道馆",
     "Safari Level will increase the effectiveness of Rocks and Bait, the catch chance, the Egg Steps gained from walking, and the odds that an item will spawn when a Pokémon is caught.": "狩猎等级将提高岩石和诱饵的有效性、捕获机会、步行获得的蛋步以及捕获宝可梦时生成物品的几率。",
-    "safari-${...}-${...}": "野生动物园-${...}-${...}",
+    "safari-${...}-${...}": "狩猎区-${...}-${...}",
     "Salac": "龙舌果",
     "Sale Confirmed!": "出售完成！",
     "Same Category Trading:": "同类交易：",
@@ -1818,7 +1818,7 @@
     "The amount of treasure a player can find is random, between the minimum (inclusive) and maximum (inclusive), and increases as their Underground Level increases:": "玩家可以找到的宝藏数量是随机的，介于最小（含）和最大（含）之间，并且随着地下等级的增加而增加：",
     "The Battery is a system that charges up as you or your expert mines tiles.": "电池是一个在你或你的专家开采瓷砖时充电的系统。",
     "The chance starts at": "机会开始于",
-    "The chance to encounter a roaming Pokémon is": "遇到漫游宝可梦的机会是",
+    "The chance to encounter a roaming Pokémon is": "遇到徘徊宝可梦的几率是",
     "The cost displayed is how much you will be charged per hatch.": "显示的成本是每次孵化需要支付的费用。",
     "The damage you do against an enemy Pokémon is the sum of the attack of all Pokémon the player has, after type effectiveness, type weakness, and other multipliers are applied.": "你对敌方宝可梦造成的伤害是玩家拥有的所有宝可梦的攻击力的总和，在应用类型有效性、类型弱点和其他乘数后。",
     "The discovery time is calculated as follows:": "发现时间计算如下：",
@@ -1833,7 +1833,8 @@
     "The odds for this item are preserved despite the dungeon being debuffed.": "尽管迷宫被减益，但该物品的几率仍然保留。",
     "The original game was developed by @IshaD#1866, who has since decided to stop work on this project.": "最初的游戏是由 @IshaD#1866开发的，他后来决定停止该项目的工作。",
     "The restore rate of your tools depends on your Underground level.": "你的工具的恢复率取决于你的地下等级。",
-    "The Safari Zone uses a different method of encountering and capturing Pokémon, and it contains several unique Pokémon.": "野生动物区使用不同的方法来遭遇和捕获宝可梦，并且包含几种独特的宝可梦。",
+    "The Safari Zone uses a different method of encountering and capturing Pokémon, and it contains several unique Pokémon.": "狩猎区使用不同的方法来遭遇和捕获宝可梦，并且包含几种独特的宝可梦。",
+    "the start menu": "开始菜单",
     "The Start Menu also has a button to open the Wiki.": "开始菜单还有一个用于打开 Wiki 的按钮。",
     "The strength of the debuff is based on your highest region, not the region you are battling in.": "减益效果的强度取决于你的最高区域，而不是你正在战斗的区域。",
     "The Underground offers": "地铁提供",
@@ -2029,7 +2030,7 @@
     "What are Berries used for?": "树果有什么用？",
     "What are challenge modes?": "什么是挑战模式？",
     "What are the EV damage multipliers?": "努力值伤害乘数是多少？",
-    "What are the odds of finding a roaming Pokémon?": "找到漫游宝可梦的几率有多大？",
+    "What are the odds of finding a roaming Pokémon?": "找到徘徊宝可梦的几率有多大？",
     "What are the odds of finding a shiny Pokémon?": "找到异色的宝可梦的几率有多大？",
     "What do I get for activating challenge modes?": "激活挑战模式我能得到什么？",
     "What do the Pokérus status filters mean?": "宝可病毒状态过滤器的含义是什么？",
@@ -2158,7 +2159,7 @@
     "You hatched a ${...}!": "你孵化了${...}！",
     "You hatched an ${...}!": "你孵化了${...}！",
     "You have a free quest refresh.": "你有一次免费的任务刷新机会。",
-    "You have an active Safari in ${...}.": "你在${...}有一个正在进行的狩猎地带。",
+    "You have an active Safari in ${...}.": "你在${...}有一个正在进行的狩猎区。",
     "You have an active Safari in ${...}.\\nDo you want to quit that Safari and start a new one?": "你在${...}有一个进行中的狩猎区。\\n你想退出那个狩猎区并开始新的吗？",
     "You have captured a ${...}!": "你捕获了${...}！",
     "You have captured all of the Safari Pokémon": "你已捕获所有 Safari 宝可梦",
@@ -2232,7 +2233,7 @@
     "Your quest level has increased to ${...}!": "你的任务等级提升到了${...}级！",
     "Your quest level has increased to ${...}!\\n<i>You have a free quest refresh.</i>": "你的任务等级提升到${...}！\\n<i>你有一次免费任务刷新。</i>",
     "Your restore rate has grown so much that this tool has now become free to use.": "你的恢复率已经大大提高，该工具现在可以免费使用。",
-    "Your safari exploration will end when you have run out of Poké Balls. You can freely leave and re-enter without having to pay the fee again as long as you still have Poké Balls remaining.": "当你用完宝可梦球时，你的野生动物探索就会结束。只要你还有剩余的精灵球，你就可以自由离开和重新进入，无需再次支付费用。",
+    "Your safari exploration will end when you have run out of Poké Balls. You can freely leave and re-enter without having to pay the fee again as long as you still have Poké Balls remaining.": "当你用完精灵球时，你的狩猎区探索就会结束。只要你还有剩余的精灵球，你就可以自由离开和重新进入，无需再次支付费用。",
     "Your save file will likely be compatible with the final release.": "你的保存文件可能会与最终版本兼容。",
     "Your underground level will affect the following:": "你的地下层将影响以下内容：",
     "Z-Crystals": "Z-晶体",
@@ -2362,5 +2363,11 @@
     "粉红": "粉红果",
     "胆噬虫": "胆小虫",
     "超极巨化 ${...}": "超极巨${...}"
-  }
+  },
+  "entriesCaseSensitive": [
+    [
+      "in the start menu.",
+      "在开始菜单中。"
+    ]
+  ]
 }

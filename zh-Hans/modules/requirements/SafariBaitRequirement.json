@@ -15,7 +15,7 @@
       "line": 2
     },
     "${...} Bait needs to be thrown in a Safari Zone.": {
-      "translation": "${...}诱饵需要扔到狩猎地带。",
+      "translation": "需要在狩猎区投掷 ${...} 个诱饵。",
       "line": 14,
       "_rematchedFrom": "${...} Bait needs to be thrown in a Safari Zone.",
       "_confidence": 0.85

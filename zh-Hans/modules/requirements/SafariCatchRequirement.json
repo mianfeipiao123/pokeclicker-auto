@@ -19,7 +19,7 @@
       "line": 17
     },
     "${...}${...} Pokémon needs to be captured in a Safari Zone.": {
-      "translation": "${...}${...} 个宝可梦需要在 Safari 区域中捕获。",
+      "translation": "需要在狩猎区捕获 ${...}${...} 只宝可梦。",
       "line": 17,
       "_rematchedFrom": "${...}${...} Pokémon needs to be captured in a Safari Zone.",
       "_confidence": 0.85

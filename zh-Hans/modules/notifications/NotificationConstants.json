@@ -35,11 +35,11 @@
       "line": 14
     },
     "roaming": {
-      "translation": "漫游",
+      "translation": "徘徊",
       "line": 15
     },
     "Roaming Pokémon encountered": {
-      "translation": "遇到漫游宝可梦",
+      "translation": "遇到徘徊宝可梦",
       "line": 15
     },
     "achievement": {
@@ -187,11 +187,11 @@
       "line": 46
     },
     "notification.encountered_roaming": {
-      "translation": "遭遇漫游宝可梦",
+      "translation": "遭遇徘徊宝可梦",
       "line": 47
     },
     "Encountered a roaming Pokémon": {
-      "translation": "遇到了漫游的宝可梦",
+      "translation": "遇到了徘徊的宝可梦",
       "line": 47
     },
     "notification.quest_ready_to_complete": {

@@ -20,11 +20,11 @@
       "line": 11
     },
     "__userscript.css.genderMale": {
-      "translation": "男",
+      "translation": "♂",
       "line": 12
     },
     "__userscript.css.genderFemale": {
-      "translation": "女",
+      "translation": "♀",
       "line": 13
     },
     "__userscript.css.pokedexAttackPrefix": {

@@ -205,10 +205,6 @@
         }
     };
 
-    const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/locales/pokemon.json`;
-    const USERSCRIPT_CONFIG_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/overrides/userscript.json`;
-    const BUNDLE_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/bundle.json`;
-
     // Keep script logic generic
     const INLINE_OVERRIDES = {};
 

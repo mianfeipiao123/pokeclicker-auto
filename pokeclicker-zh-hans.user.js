@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.45
+// @version      0.1.46
 // @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -75,7 +75,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.45';
+    const SCRIPT_VERSION = '0.1.46';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -169,15 +169,22 @@
         return err;
     };
 
-    const fetchWithTimeout = async (url, init, timeoutMs) => {
+    const fetchJsonWithTimeout = async (url, init, timeoutMs) => {
         const ms = Number.isFinite(timeoutMs) && timeoutMs > 0 ? timeoutMs : 0;
         const supportsAbort = typeof AbortController === 'function';
         const controller = supportsAbort ? new AbortController() : null;
         const signal = controller?.signal;
         let timeoutId = null;
 
-        const fetchPromise = fetch(url, signal ? { ...(init ?? {}), signal } : (init ?? {}));
-        if (!ms) return await fetchPromise;
+        const workPromise = (async () => {
+            const res = await fetch(url, signal ? { ...(init ?? {}), signal } : (init ?? {}));
+            if (!res?.ok) throw new Error(`fetch failed: ${res?.status ?? 'unknown'}`);
+            const json = await res.json();
+            if (!json || typeof json !== 'object') throw new Error('json invalid');
+            return json;
+        })();
+
+        if (!ms) return await workPromise;
 
         const timerPromise = new Promise((_, reject) => {
             timeoutId = setTimeout(() => {
@@ -191,19 +198,11 @@
         });
 
         try {
-            return await Promise.race([fetchPromise, timerPromise]);
+            return await Promise.race([workPromise, timerPromise]);
         } finally {
             if (timeoutId) clearTimeout(timeoutId);
-            if (!supportsAbort) fetchPromise.catch(() => {});
+            if (!supportsAbort) workPromise.catch(() => {});
         }
-    };
-
-    const fetchJsonWithTimeout = async (url, init, timeoutMs) => {
-        const res = await fetchWithTimeout(url, init, timeoutMs);
-        if (!res?.ok) throw new Error(`fetch failed: ${res?.status ?? 'unknown'}`);
-        const json = await res.json();
-        if (!json || typeof json !== 'object') throw new Error('json invalid');
-        return json;
     };
 
     const POKEMON_TRANSLATIONS_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/locales/pokemon.json`;

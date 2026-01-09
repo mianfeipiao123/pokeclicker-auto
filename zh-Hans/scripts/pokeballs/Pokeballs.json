@@ -19,15 +19,15 @@
       "line": 17
     },
     "+5% chance to catch": {
-      "translation": "+5% 抓住机会",
+      "translation": "捕获率+5%",
       "line": 18
     },
     "+10% chance to catch": {
-      "translation": "+10% 抓住机会",
+      "translation": "捕获率+10%",
       "line": 19
     },
     "100% chance to catch": {
-      "translation": "100%抓住机会",
+      "translation": "捕获率100%",
       "line": 20
     },
     "Reduced catch time": {
@@ -35,11 +35,11 @@
       "line": 21
     },
     "Increased catch rate on routes with less Pokémon defeated": {
-      "translation": "击败宝可梦较少的路线上的捕获率提高",
+      "translation": "在击败宝可梦数量较少的路线上提高捕获率",
       "line": 35
     },
     "Increased catch rate on routes with more Pokémon defeated": {
-      "translation": "打败更多宝可梦的路线上的捕获率提高",
+      "translation": "在击败宝可梦数量较多的路线上提高捕获率",
       "line": 52
     },
     "Increased catch rate at night time or in dungeons": {
@@ -59,7 +59,7 @@
       "line": 74
     },
     "Increased catch rate on fished Pokémon": {
-      "translation": "提高了捕获的宝可梦的捕获率",
+      "translation": "提高钓到的宝可梦的捕获率",
       "line": 90
     },
     "Increased catch rate on earlier routes": {
@@ -67,7 +67,7 @@
       "line": 109
     },
     "Increased catch rate for Pokémon captured more times, plus higher EV gains": {
-      "translation": "提高了宝可梦的捕获率，捕获了更多次，并且获得了更高的努力值增益",
+      "translation": "捕获次数越多的宝可梦捕获率越高，且获得更多努力值",
       "line": 115
     },
     "Can only be used on Ultra Beasts": {
@@ -75,7 +75,7 @@
       "line": 119
     },
     "Anabel": {
-      "translation": "安娜贝尔",
+      "translation": "丽拉",
       "line": 119
     },
     "Increased catch rate by the light of the moon": {

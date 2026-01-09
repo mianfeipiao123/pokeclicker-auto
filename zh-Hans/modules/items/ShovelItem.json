@@ -23,7 +23,7 @@
       "line": 6
     },
     "Berry_Shovel": {
-      "translation": "树果铲子",
+      "translation": "树果铲",
       "line": 11
     },
     "farm": {
@@ -31,7 +31,7 @@
       "line": 11
     },
     "Mulch_Shovel": {
-      "translation": "护根铲",
+      "translation": "肥料铲",
       "line": 25
     }
   }

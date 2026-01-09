@@ -7,7 +7,7 @@
   },
   "entries": {
     "dark": {
-      "translation": "黑暗的",
+      "translation": "",
       "line": 17
     },
     "success": {
@@ -15,7 +15,7 @@
       "line": 18
     },
     "primary": {
-      "translation": "基本的",
+      "translation": "",
       "line": 19
     },
     "warning": {

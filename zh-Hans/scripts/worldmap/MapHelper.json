@@ -75,7 +75,7 @@
       "line": 294
     },
     "You cannot access this dock yet!${...}": {
-      "translation": "你还无法访问此扩展坞！${...}",
+      "translation": "你还无法访问此码头！${...}",
       "line": 294,
       "_rematchedFrom": "You cannot access this dock yet!${...}",
       "_confidence": 0.85

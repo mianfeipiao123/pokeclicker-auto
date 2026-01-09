@@ -7,7 +7,7 @@
   },
   "entries": {
     "knockout": {
-      "translation": "昏死",
+      "translation": "",
       "line": 3
     },
     "../enums/KeyItemType": {
@@ -19,7 +19,7 @@
       "line": 13
     },
     "static": {
-      "translation": "静止的",
+      "translation": "",
       "line": 15
     }
   }

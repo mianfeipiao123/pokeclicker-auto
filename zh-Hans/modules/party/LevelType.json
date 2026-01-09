@@ -7,27 +7,27 @@
   },
   "entries": {
     "erratic": {
-      "translation": "不稳定的",
+      "translation": "不规则",
       "line": 3
     },
     "fast": {
-      "translation": "快速地",
+      "translation": "快速",
       "line": 4
     },
     "mediumfast": {
-      "translation": "中快",
+      "translation": "较快",
       "line": 5
     },
     "mediumslow": {
-      "translation": "中慢",
+      "translation": "较慢",
       "line": 6
     },
     "slow": {
-      "translation": "慢的",
+      "translation": "缓慢",
       "line": 7
     },
     "fluctuating": {
-      "translation": "波动的",
+      "translation": "起伏",
       "line": 8
     }
   }

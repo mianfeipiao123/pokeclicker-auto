@@ -409,7 +409,7 @@
       "line": 7095
     },
     "My trial is in this town. Right there, inside my very own houseboat. Normally you'd have to clear my trial to find our kahuna on Exeggutor Island, but I guess you took care of some things, huh?": {
-      "translation": "我的审判就在这个镇上。就在那里，在我自己的船屋内。通常你必须完成我的试炼才能在椰蛋岛找到我们的卡胡纳，但我猜你已经处理了一些事情，是吧？",
+      "translation": "我的审判就在这个镇上。就在那里，在我自己的船屋内。通常你必须完成我的试炼才能在椰蛋岛找到我们的岛屿之王，但我猜你已经处理了一些事情，是吧？",
       "line": 7142
     },
     "There is a ceremony held for the Legendary Pokémon at the Altar of the Sunne and Moone that uses two particular flutes. Ho! You already have the one. The other is said to be held on Exeggutor Island.": {
@@ -520,7 +520,7 @@
       "translation": "波尼岛有人看见布鲁美丽带着一些旧骷髅队手下在广阔的波尼峡谷附近徘徊。这很可疑，估计他们找到什么稀有的东西——也许就是银伴战兽的记忆。",
       "line": 7586
     },
-    "Ula'ula Island people have seen Captain Acerola inside the Thrifty Megamart with a Mimikyu carrying a disk-shaped item, which I suspect is a Silvally Memory.": {
+    "Ula'ula Island people have seen Captain Acerola inside the 超值超市（废弃店） with a Mimikyu carrying a disk-shaped item, which I suspect is a Silvally Memory.": {
       "translation": "乌拉乌拉岛的人看见队长阿塞萝拉在旧超级市场里，身边有只谜拟丘正拿着一个圆盘状的东西，我怀疑那就是银伴战兽的记忆。",
       "line": 7587
     },
@@ -528,7 +528,7 @@
       "translation": "我听说莫兰想要温习一下他的训练。他在皇家大道，而且还提供了一个奇怪的奖励，我猜是银伴战兽记忆。",
       "line": 7589
     },
-    "Also, while I was walking near A Tree Maybe I saw a guy dressed almost like an old Pokémon that doesn't exist anymore with a Silvally Memory.": {
+    "Also, while I was walking near 也许是树 I saw a guy dressed almost like an old Pokémon that doesn't exist anymore with a Silvally Memory.": {
       "translation": "另外，当我在一棵树附近散步时，也许我看到一个人穿着几乎像一个已经不存在的旧宝可梦，并且具有银伴战兽记忆。",
       "line": 7590
     },
@@ -540,7 +540,7 @@
       "translation": "让我猜猜，你是冲着我在这儿找到的银伴战兽记忆来的吧？从你的气场我就看得出来。你和那些只为观光或对战而来的游客、挑战者不一样——你是在执行任务，对吧？",
       "line": 7611
     },
-    "Hey there, $playername$! Have you checked out the trail behind the Thrifty Megamart lately? It's been pretty wild! I ventured there the other day and stumbled upon a Mimikyu holding a Silvally Memory. It was quite a challenge to retrieve it, but I managed to befriend it and recover the disk eventually. I love the thrill of exploring new places and discovering new stuff, don't you?": {
+    "Hey there, $playername$! Have you checked out the trail behind the 超值超市（废弃店） lately? It's been pretty wild! I ventured there the other day and stumbled upon a Mimikyu holding a Silvally Memory. It was quite a challenge to retrieve it, but I managed to befriend it and recover the disk eventually. I love the thrill of exploring new places and discovering new stuff, don't you?": {
       "translation": "嗨，$playername$！你最近去过旧超级市场后面的那条小道吗？那里可刺激了！前几天我探险时偶然遇到一只抱着银伴战兽记忆的谜拟丘。把它拿回来可不容易，不过我最后还是和它成了朋友，顺利取回了圆盘。我超喜欢探索新地方、发现新东西的感觉，你不觉得很棒吗？",
       "line": 7618
     },

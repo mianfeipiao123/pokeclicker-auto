@@ -311,7 +311,7 @@
       "line": 79
     },
     "ev": {
-      "translation": "落雷兽",
+      "translation": "努力值",
       "line": 79
     },
     "Boost Mulch": {
@@ -691,7 +691,7 @@
       "line": 186
     },
     "Fighting Egg": {
-      "translation": "战斗蛋",
+      "translation": "格斗蛋",
       "line": 187
     },
     "Electric Egg": {
@@ -711,11 +711,11 @@
       "line": 193
     },
     "Meteorite for Celio": {
-      "translation": "给西里奥的陨石",
+      "translation": "给尼尔的陨石",
       "line": 193
     },
     "A Meteorite the Game Corner owner gave you for find his daughter": {
-      "translation": "游戏角老板送给你一颗陨石来寻找他的女儿",
+      "translation": "游戏城老板因你找到他女儿而送给你的陨石",
       "line": 193
     },
     "Bill's Errand": {
@@ -735,7 +735,7 @@
       "line": 194
     },
     "Whirl Guardian": {
-      "translation": "旋风守护者",
+      "translation": "漩涡守护者",
       "line": 194
     },
     "Clear_Bell_Hooh": {
@@ -783,11 +783,11 @@
       "line": 197
     },
     "The Eon Duo": {
-      "translation": "亿恩二人组",
+      "translation": "心之水滴双子",
       "line": 197
     },
     "Celios_Errand_Ruby": {
-      "translation": "西里奥的差事红宝石",
+      "translation": "尼尔的差事红宝石",
       "line": 198
     },
     "Ruby": {
@@ -795,15 +795,15 @@
       "line": 198
     },
     "A Ruby found in Ruby Path": {
-      "translation": "在 Ruby Path 中发现的 Ruby",
+      "translation": "在红宝石之路发现的红宝石",
       "line": 198
     },
     "Celio's Errand": {
-      "translation": "西里奥的差事",
+      "translation": "尼尔的差事",
       "line": 198
     },
     "Celios_Errand_Sapphire": {
-      "translation": "西里奥的差事蓝宝石",
+      "translation": "尼尔的差事蓝宝石",
       "line": 199
     },
     "Sapphire": {
@@ -843,7 +843,7 @@
       "line": 201
     },
     "The Delta Episode": {
-      "translation": "三角洲情节",
+      "translation": "终章",
       "line": 201
     },
     "Mysterious_Vial_Detective_Pikachu": {
@@ -887,7 +887,7 @@
       "line": 204
     },
     "One of the Petals you need for Mina's trial given by Captain Kiawe": {
-      "translation": "米娜审判所需的花瓣之一，由基亚威船长提供",
+      "translation": "米娜审判所需的花瓣之一，由卡奇队长提供",
       "line": 204
     },
     "Island Challenge": {
@@ -915,7 +915,7 @@
       "line": 206
     },
     "One of the Petals you need for Mina's trial given by Captain Sophocles": {
-      "translation": "索福克勒斯船长给予米娜审判所需的花瓣之一",
+      "translation": "马睿因队长给予米娜审判所需的花瓣之一",
       "line": 206
     },
     "Green_Petal_Mina": {
@@ -927,7 +927,7 @@
       "line": 207
     },
     "One of the Petals you need for Mina's trial given by Captain Mallow": {
-      "translation": "米娜审判所需的花瓣之一，由马洛船长提供",
+      "translation": "米娜审判所需的花瓣之一，由玛奥队长提供",
       "line": 207
     },
     "Blue_Petal_Mina": {
@@ -951,7 +951,7 @@
       "line": 209
     },
     "One of the Petals you need for Mina's trial given by Kahuna Nanu": {
-      "translation": "卡胡纳·纳努 (卡胡纳 Nanu) 提供的米娜审判所需的花瓣之一",
+      "translation": "岛屿之王·默丹 (岛屿之王·默丹) 提供的米娜审判所需的花瓣之一",
       "line": 209
     },
     "Pink_Petal_Mina": {
@@ -1103,11 +1103,11 @@
       "line": 224
     },
     "One of Silvally's memories, obtained from Kahuna Hala in Iki Town": {
-      "translation": "银伴战兽的记忆之一，从壹岐镇的卡胡纳·哈拉处获得",
+      "translation": "银伴战兽的记忆之一，从壹岐镇的岛屿之王·哈拉处获得",
       "line": 224
     },
     "Typing some Memories": {
-      "translation": "打字一些记忆",
+      "translation": "收集存储碟",
       "line": 224
     },
     "Rock_Memory_Silvally": {
@@ -1119,7 +1119,7 @@
       "line": 225
     },
     "One of Silvally's memories, obtained from Kahuna Olivia in Konikoni City": {
-      "translation": "银伴战兽的记忆之一，从科尼科尼市的卡胡娜·奥利维亚处获得",
+      "translation": "银伴战兽的记忆之一，从科尼科尼市的岛屿之王·丽姿处获得",
       "line": 225
     },
     "Dark_Memory_Silvally": {
@@ -1131,7 +1131,7 @@
       "line": 226
     },
     "One of Silvally's memories, obtained from Kahuna Nanu in Malie City": {
-      "translation": "银伴战兽的记忆之一，从马利市的卡胡纳·纳努处获得",
+      "translation": "银伴战兽的记忆之一，从马利市的岛屿之王·默丹处获得",
       "line": 226
     },
     "Fairy_Memory_Silvally": {
@@ -1143,7 +1143,7 @@
       "line": 227
     },
     "One of Silvally's memories, obtained from Captain Mina in Seafolk Village": {
-      "translation": "银伴战兽的记忆之一，从海民村的米娜船长处获得",
+      "translation": "银伴战兽的记忆之一，从海民村的茉莉队长处获得",
       "line": 227
     },
     "Water_Memory_Silvally": {
@@ -1155,7 +1155,7 @@
       "line": 228
     },
     "One of Silvally's memories, obtained from Captain Lana in Brooklet Hill": {
-      "translation": "银伴战兽的记忆之一，从布鲁克特山的拉娜船长那里获得",
+      "translation": "银伴战兽的记忆之一，从布鲁克特山的水莲队长那里获得",
       "line": 228
     },
     "Grass_Memory_Silvally": {
@@ -1167,7 +1167,7 @@
       "line": 229
     },
     "One of Silvally's memories, obtained from Captain Mallow in Lush Jungle": {
-      "translation": "银伴战兽的记忆之一，从郁郁葱葱的丛林中的马洛船长那里获得",
+      "translation": "银伴战兽的记忆之一，从郁郁葱葱的丛林中的玛奥队长那里获得",
       "line": 229
     },
     "Fire_Memory_Silvally": {
@@ -1179,7 +1179,7 @@
       "line": 230
     },
     "One of Silvally's memories, obtained from Captain Kiawe in Wela Volcano Park": {
-      "translation": "银伴战兽的记忆之一，从韦拉火山公园的基亚威船长处获得",
+      "translation": "银伴战兽的记忆之一，从韦拉火山公园的卡奇队长处获得",
       "line": 230
     },
     "Electric_Memory_Silvally": {
@@ -1191,7 +1191,7 @@
       "line": 231
     },
     "One of Silvally's memories, obtained from Captain Sophocles in Hokulani Observatory": {
-      "translation": "银伴战兽的记忆之一，从霍库拉尼天文台的索福克勒斯船长处获得",
+      "translation": "银伴战兽的记忆之一，从霍库拉尼天文台的马睿因队长处获得",
       "line": 231
     },
     "Ice_Memory_Silvally": {
@@ -1215,7 +1215,7 @@
       "line": 233
     },
     "One of Silvally's memories, obtained from Kahuna Hapu on Exeggutor Island Hill": {
-      "translation": "银伴战兽的记忆之一，从椰蛋岛山上的卡胡纳·哈普处获得",
+      "translation": "银伴战兽的记忆之一，从椰蛋岛山上的岛屿之王·哈普处获得",
       "line": 233
     },
     "Bug_Memory_Silvally": {
@@ -1223,11 +1223,11 @@
       "line": 234
     },
     "Bug Memory": {
-      "translation": "虫子存储碟",
+      "translation": "虫存储碟",
       "line": 234
     },
     "One of Silvally's memories, obtained from Guzma in Po Town": {
-      "translation": "银伴战兽的记忆之一，从波镇的古兹玛处获得",
+      "translation": "银伴战兽的记忆之一，从波镇的古兹马处获得",
       "line": 234
     },
     "Flying_Memory_Silvally": {
@@ -1251,7 +1251,7 @@
       "line": 236
     },
     "One of Silvally's memories, obtained from Plumeria in Vast Poni Canyon": {
-      "translation": "银伴战兽的记忆之一，从广阔波尼峡谷的鸡蛋花处获得",
+      "translation": "银伴战兽的记忆之一，从广阔波尼峡谷的布尔美丽处获得",
       "line": 236
     },
     "Ghost_Memory_Silvally": {
@@ -1262,8 +1262,8 @@
       "translation": "幽灵存储碟",
       "line": 237
     },
-    "One of Silvally's memories, obtained from Captain Acerola in Thrifty Megamart": {
-      "translation": "银伴战兽的记忆之一，从 Thrifty Megamart 的阿塞罗拉船长处获得",
+    "One of Silvally's memories, obtained from Captain Acerola in 超值超市（废弃店）": {
+      "translation": "银伴战兽的记忆之一，从 超值超市（废弃店） 的阿塞罗拉队长处获得",
       "line": 237
     },
     "Psychic_Memory_Silvally": {
@@ -1298,8 +1298,8 @@
       "translation": "龙存储碟",
       "line": 240
     },
-    "One of Silvally's memories, obtained from Ryuki in A Tree Maybe": {
-      "translation": "银伴战兽的记忆之一，从《一棵树也许》中的龙树处获得",
+    "One of Silvally's memories, obtained from Ryuki in 也许是树": {
+      "translation": "银伴战兽的记忆之一，从也许是树中的龙树处获得",
       "line": 240
     },
     "Max_Mushroom_IoA": {
@@ -1855,11 +1855,11 @@
       "line": 332
     },
     "Lime_shard": {
-      "translation": "石灰碎片",
+      "translation": "青柠碎片",
       "line": 333
     },
     "Lime Shard": {
-      "translation": "石灰碎片",
+      "translation": "青柠碎片",
       "line": 333
     },
     "White_shard": {

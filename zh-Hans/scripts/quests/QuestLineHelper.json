@@ -327,11 +327,11 @@
       "line": 251
     },
     "Rocket Game Corner": {
-      "translation": "火箭游戏角",
+      "translation": "火箭游戏城",
       "line": 253
     },
     "Illegal activity is afoot. Clear the Rocket Game Corner in Celadon City.": {
-      "translation": "非法活动正在进行中。通关玉虹市的火箭游戏角。",
+      "translation": "非法活动正在进行中。通关玉虹市的火箭游戏城。",
       "line": 253
     },
     "I see that you raise Pokémon with utmost care. A child like you would never understand what I hope to achieve. I shall step aside this time! I hope we meet again...": {
@@ -415,11 +415,11 @@
       "line": 323
     },
     "Use the Subregional Travel button at the top of the map to travel to the Sevii Islands and speak with Celio on One Island.": {
-      "translation": "使用地图顶部的次区域旅行按钮前往塞维群岛，并在一之岛与西里奥交谈。",
+      "translation": "使用地图顶部的次区域旅行按钮前往塞维群岛，并在一之岛与尼尔交谈。",
       "line": 325
     },
     "Ask the Game Corner owner on Two Island about the meteorite.": {
-      "translation": "向二岛的游戏角老板询问陨石的情况。",
+      "translation": "向二岛的游戏城老板询问陨石的情况。",
       "line": 328
     },
     "A biker gang has invaded Three island. They will not let you continue to Berry Forest. Defeat the Biker Goons.": {
@@ -455,7 +455,7 @@
       "line": 341
     },
     "Lostelle has been found. Return to the Game Corner owner on Two Island.": {
-      "translation": "洛斯泰尔被发现了。返回到两岛的游戏角所有者那里。",
+      "translation": "洛斯泰尔被发现了。返回到两岛的游戏城所有者那里。",
       "line": 344
     },
     "Celio has rewarded you with 1,000 Quest Points!": {
@@ -463,7 +463,7 @@
       "line": 351
     },
     "Deliver the meteorite to Celio on One Island.": {
-      "translation": "将陨石交给一之岛的西里奥。",
+      "translation": "将陨石交给一之岛的尼尔。",
       "line": 357
     },
     "Persons of Interest": {
@@ -1021,15 +1021,15 @@
       "line": 772
     },
     "Celio's Errand": {
-      "translation": "西里奥的差事",
+      "translation": "尼尔的差事",
       "line": 779
     },
     "Celio has asked you to help him set up a digital connection between the Sevii Islands and Hoenn.": {
-      "translation": "西里奥请求你帮助他在塞维群岛和丰缘之间建立数字连接。",
+      "translation": "尼尔请求你帮助他在塞维群岛和丰缘之间建立数字连接。",
       "line": 779
     },
     "Speak with Celio on One Island in Sevii.": {
-      "translation": "与塞维群岛一之岛的西里奥交谈。",
+      "translation": "与塞维群岛一之岛的尼尔交谈。",
       "line": 781
     },
     "Eavesdrop on the Team Rocket Grunts at Mt. Ember.": {
@@ -1061,7 +1061,7 @@
       "line": 796
     },
     "Return the Ruby to Celio on One Island": {
-      "translation": "将红宝石归还给一之岛的西里奥",
+      "translation": "将红宝石归还给一之岛的尼尔",
       "line": 799
     },
     "Icefall Cave": {
@@ -1121,7 +1121,7 @@
       "line": 824
     },
     "Return the Sapphire to Celio on One Island": {
-      "translation": "将蓝宝石归还给一之岛的西里奥",
+      "translation": "将蓝宝石归还给一之岛的尼尔",
       "line": 827
     },
     "Team Rocket's Pinkan Theme Park": {
@@ -4237,7 +4237,7 @@
       "line": 2669
     },
     "Reach Kahuna Olivia and Lillie at the Ruins of Life and complete Akala's Grand Trial!": {
-      "translation": "到达生命废墟的卡胡娜·奥利维亚和莉莉艾并完成阿卡拉的大试炼！",
+      "translation": "到达生命废墟的岛屿之王·丽姿和莉莉艾并完成阿卡拉的大试炼！",
       "line": 2669
     },
     "Ultra Wormhole": {
@@ -4308,7 +4308,7 @@
       "translation": "我只是想自己去散步，看看成为一名训练师的感觉……所以哈普和我分道扬镳……但后来内比试图从我的包里拿出来……",
       "line": 2705
     },
-    "Thrifty Megamart": {
+    "超值超市（废弃店）": {
       "translation": "节俭的超级市场",
       "line": 2712
     },
@@ -4349,7 +4349,7 @@
       "line": 2722
     },
     "Kahuna Nanu is challenging you to a Grand Trial in Malie City! Test your strength before you go to Aether by defeating him.": {
-      "translation": "卡胡纳 Nanu 正在马利市向你发起大考验！在前往以太之前击败他来测试你的力量。",
+      "translation": "岛屿之王·默丹 正在马利市向你发起大考验！在前往以太之前击败他来测试你的力量。",
       "line": 2726
     },
     "Aether Foundation": {
@@ -4465,11 +4465,11 @@
       "line": 2801
     },
     "Explore Poni Island for signs of its kahuna. Clear Ancient Poni Path.": {
-      "translation": "探索波尼岛，寻找其卡胡纳的线索。通关远古波尼小径。",
+      "translation": "探索波尼岛，寻找其岛屿之王的线索。通关远古波尼小径。",
       "line": 2803
     },
     "Oh! Been a while, friends. The kahuna? Hrmm. Well, I suppose the time might be right now... All right. Let us all proceed to the ruins. You stick with me, you two.": {
-      "translation": "哦！好久不见了，朋友们。卡胡纳？嗯。嗯，我想现在可能是时候了……好吧。让我们一起前往废墟吧。你们两个，跟我一起吧。",
+      "translation": "哦！好久不见了，朋友们。岛屿之王？嗯。嗯，我想现在可能是时候了……好吧。让我们一起前往废墟吧。你们两个，跟我一起吧。",
       "line": 2805
     },
     "Talk to Hapu at the Ruins of Hope.": {
@@ -4705,7 +4705,7 @@
       "line": 2934
     },
     "Captain Mina": {
-      "translation": "米娜船长",
+      "translation": "茉莉队长",
       "line": 2936
     },
     "Defeat Captain Mina in Seafolk Village.": {
@@ -4713,7 +4713,7 @@
       "line": 2936
     },
     "Captain Ilima": {
-      "translation": "伊利马船长",
+      "translation": "伊利马队长",
       "line": 2939
     },
     "Defeat Captain Ilima in Hau'oli Cemetery.": {
@@ -4721,7 +4721,7 @@
       "line": 2939
     },
     "Captain Mallow": {
-      "translation": "马洛船长",
+      "translation": "玛奥队长",
       "line": 2942
     },
     "Defeat Captain Mallow in Lush Jungle.": {
@@ -4729,7 +4729,7 @@
       "line": 2942
     },
     "Captain Lana": {
-      "translation": "拉娜船长",
+      "translation": "水莲队长",
       "line": 2945
     },
     "Defeat Captain Lana in Lush Jungle.": {
@@ -4737,7 +4737,7 @@
       "line": 2945
     },
     "Captain Kiawe": {
-      "translation": "基亚威船长",
+      "translation": "卡奇队长",
       "line": 2948
     },
     "Defeat Captain Kiawe in Wela Volcano Park.": {
@@ -4745,7 +4745,7 @@
       "line": 2948
     },
     "Captain Sophocles": {
-      "translation": "索福克勒斯船长",
+      "translation": "马睿因队长",
       "line": 2951
     },
     "Defeat Captain Sophocles in Hokulani Observatory.": {
@@ -4753,7 +4753,7 @@
       "line": 2951
     },
     "Kahuna Nanu": {
-      "translation": "卡胡纳·纳努",
+      "translation": "岛屿之王·默丹",
       "line": 2954
     },
     "Captain Acerola is apparently busy with something at the top of Mount Lanakila. Defeat Kahuna Nanu in Aether House instead.": {
@@ -4813,7 +4813,7 @@
       "line": 2995
     },
     "Buy the Water Memory from Captain Lana with Dungeon Tokens.": {
-      "translation": "使用迷宫代币从拉娜船长那里购买水之记忆。",
+      "translation": "使用迷宫代币从水莲队长那里购买水之记忆。",
       "line": 2998
     },
     "Thank you so much $playername$! Now I can finally buy that rod I've always wanted!": {
@@ -4825,7 +4825,7 @@
       "line": 3006
     },
     "Buy the Grass Memory from Captain Mallow with Quest Points.": {
-      "translation": "使用任务点从马洛船长那里购买草记忆。",
+      "translation": "使用任务点从玛奥队长那里购买草记忆。",
       "line": 3009
     },
     "Thank you, $playername$. I'll go to the market and buy the new ingredients right now!": {
@@ -4837,7 +4837,7 @@
       "line": 3017
     },
     "Buy the Fire Memory from Captain Kiawe with Battle Points.": {
-      "translation": "使用战斗点数从基亚威船长处购买火焰记忆。",
+      "translation": "使用战斗点数从卡奇队长处购买火焰记忆。",
       "line": 3020
     },
     "Thanks, $playername$. I'll be going to the market to buy the project supplies this instant.": {
@@ -4849,7 +4849,7 @@
       "line": 3028
     },
     "Buy the Electric Memory from Captain Sophocles with Pokédollars.": {
-      "translation": "用宝可梦币从索福克勒斯船长那里购买电记忆。",
+      "translation": "用宝可梦币从马睿因队长那里购买电记忆。",
       "line": 3031
     },
     "Thank you, $playername$! Now I'll go buy some new equipment for my laboratory.": {
@@ -4881,7 +4881,7 @@
       "line": 3050
     },
     "Buy the Ground Memory from Kahuna Hapu with Farm Points.": {
-      "translation": "使用农场点数从卡胡纳 Hapu 购买地面记忆。",
+      "translation": "使用农场点数从岛屿之王·哈普 购买地面记忆。",
       "line": 3053
     },
     "Wow you're pretty good at the farm, $playername$! I'll go buy the palm tree seeds right this instant!": {
@@ -4889,7 +4889,7 @@
       "line": 3055
     },
     "Kahuna Hapu": {
-      "translation": "卡胡纳·哈普",
+      "translation": "岛屿之王·哈普",
       "line": 3056
     },
     "Go show Gladion those memories you've bought in the Aether Foundation": {
@@ -4945,7 +4945,7 @@
       "line": 3087
     },
     "Defeat Captain Acerola to get the Memory back.": {
-      "translation": "击败阿塞罗拉船长以恢复记忆。",
+      "translation": "击败阿塞罗拉队长以恢复记忆。",
       "line": 3087
     },
     "Search for Silvally's Memory in a modern haven. Ask Gladion at Aether Foundation if you're lost.": {
@@ -5079,7 +5079,7 @@
       "_confidence": 0.95
     },
     "Talk to Kahuna Nanu at the Roadside Motel.": {
-      "translation": "与路边汽车旅馆的卡胡纳·纳努交谈。",
+      "translation": "与路边汽车旅馆的岛屿之王·默丹交谈。",
       "line": 3174
     },
     "Kartana": {
@@ -5095,11 +5095,11 @@
       "line": 3181
     },
     "Kahuna Nanu UB": {
-      "translation": "卡胡纳·纳努 UB",
+      "translation": "岛屿之王·默丹 UB",
       "line": 3186
     },
     "Defeat Kahuna Nanu at the Roadside Motel.": {
-      "translation": "在路边汽车旅馆击败卡胡纳·纳努。",
+      "translation": "在路边汽车旅馆击败岛屿之王·默丹。",
       "line": 3186
     },
     "Blacephalon": {

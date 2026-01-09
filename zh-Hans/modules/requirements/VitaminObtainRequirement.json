@@ -15,7 +15,7 @@
       "line": 2
     },
     "${...} Vitamins need to be obtained.": {
-      "translation": "${...} 需要获取维生素。",
+      "translation": "${...} 需要获取营养剂。",
       "line": 14,
       "_rematchedFrom": "${...} Vitamins need to be obtained.",
       "_confidence": 0.85

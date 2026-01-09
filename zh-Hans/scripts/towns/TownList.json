@@ -6611,11 +6611,11 @@
       "line": 5241
     },
     "I used to have my Pokémon maxed out on Protein, but then I found out about the new Vitamins!": {
-      "translation": "我曾经让我的宝可梦蛋白质含量达到极限，但后来我发现了新的维生素！",
+      "translation": "我曾经让我的宝可梦蛋白质含量达到极限，但后来我发现了新的营养剂！",
       "line": 5242
     },
     "I swapped out some of my Proteins for the new Vitamins, but then I was left with a bunch of extra Protein I couldn't use.": {
-      "translation": "我用一些蛋白质换成了新的维生素，但后来我留下了一堆我无法使用的额外蛋白质。",
+      "translation": "我用一些蛋白质换成了新的营养剂，但后来我留下了一堆我无法使用的额外蛋白质。",
       "line": 5243
     },
     "Luckily I was able to use the code REFUND-VITAMINS to get my money back! Too bad it only has one use though...": {
@@ -6623,7 +6623,7 @@
       "line": 5244
     },
     "It will also only refund Vitamins you bought after hitting the price cap.": {
-      "translation": "它还只会退还你在达到价格上限后购买的维生素。",
+      "translation": "它还只会退还你在达到价格上限后购买的营养剂。",
       "line": 5245
     },
     "Friendly Waitress": {
@@ -7223,7 +7223,7 @@
       "line": 6017
     },
     "And if some of the rumours about Mega Stones are true... it'll be worth keeping track of those sorts of things.": {
-      "translation": "如果有关巨型石头的一些谣言是真的……那么就值得跟踪这些事情。",
+      "translation": "如果有关超进化石的一些谣言是真的……那么就值得跟踪这些事情。",
       "line": 6018
     },
     "assets/images/npcs/Dexio (Gen 6).png": {
@@ -10105,7 +10105,7 @@
       "line": 7663
     },
     "That is where you come in. The Champion of Alola. We do not have the battle power, but hopefully you do. Please allow Anabel to test your battle ability to ensure that you can handle this job.": {
-      "translation": "这就是你进来的地方。阿罗拉的冠军。我们没有战斗力，但希望你有。请让安娜贝尔测试一下你的战斗能力，以确保你能够胜任这份工作。",
+      "translation": "这就是你进来的地方。阿罗拉的冠军。我们没有战斗力，但希望你有。请让丽拉测试一下你的战斗能力，以确保你能够胜任这份工作。",
       "line": 7664
     },
     "assets/images/npcs/Looker.png": {
@@ -10113,7 +10113,7 @@
       "line": 7666
     },
     "Anabel": {
-      "translation": "安娜贝尔",
+      "translation": "丽拉",
       "line": 7669
     },
     "The testing is complete. I see no problem at all with your skills. Rather I would have to praise you for them. Welcome to the team!": {

@@ -103,11 +103,11 @@
       "line": 134
     },
     "vitamins": {
-      "translation": "维生素",
+      "translation": "营养剂",
       "line": 135
     },
     "Vitamins: ${...}": {
-      "translation": "维生素：${...}",
+      "translation": "营养剂：${...}",
       "line": 135,
       "_rematchedFrom": "Vitamins: ${...}",
       "_confidence": 0.85

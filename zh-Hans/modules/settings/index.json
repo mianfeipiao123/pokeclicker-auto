@@ -897,7 +897,7 @@
       "line": 275
     },
     "Hide Pokémon with max vitamin": {
-      "translation": "隐藏具有最大维生素的宝可梦",
+      "translation": "隐藏具有最大营养剂的宝可梦",
       "line": 275
     },
     "vitaminHideShinyPokemon": {
@@ -1139,11 +1139,11 @@
       "line": 373
     },
     "Vitamins used": {
-      "translation": "使用的维生素",
+      "translation": "使用的营养剂",
       "line": 374
     },
     "vitamins": {
-      "translation": "维生素",
+      "translation": "营养剂",
       "line": 374
     },
     "EVs": {

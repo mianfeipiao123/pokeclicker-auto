@@ -195,7 +195,7 @@
       "line": 60
     },
     "Vitamin distributions can now be freely entered in the vitamin menu as an alternative to using the plus or minus buttons": {
-      "translation": "现在可以在维生素菜单中自由输入维生素分布，作为使用加号或减号按钮的替代方法",
+      "translation": "现在可以在营养剂菜单中自由输入营养剂分布，作为使用加号或减号按钮的替代方法",
       "line": 61
     },
     "Dungeon loot now has a (reduced) chance to be multiplied without Dowsing Machine": {
@@ -655,7 +655,7 @@
       "line": 192
     },
     "Duplicate notifications when removing all Vitamins": {
-      "translation": "删除所有维生素时出现重复通知",
+      "translation": "删除所有营养剂时出现重复通知",
       "line": 193
     },
     "Tutorial Pokéball selector": {
@@ -1087,7 +1087,7 @@
       "line": 343
     },
     "Acquired Mega Stones displayed in item bag": {
-      "translation": "获得的巨型石头显示在物品袋中",
+      "translation": "获得的超进化石显示在物品袋中",
       "line": 344
     },
     "Updated egg colors in Hatchery": {
@@ -1155,7 +1155,7 @@
       "line": 372
     },
     "Redeemable code to refund all Vitamins: REFUND-VITAMINS (one time use)": {
-      "translation": "可兑换所有维生素退款的代码：REFUND-VITAMINS（一次性使用）",
+      "translation": "可兑换所有营养剂退款的代码：REFUND-VITAMINS（一次性使用）",
       "line": 373
     },
     "Adjusted Luxury Ball, now awards random currencies": {
@@ -1195,7 +1195,7 @@
       "line": 382
     },
     "No more Mega Stones in berry trades": {
-      "translation": "树果交易中不再有巨型石头",
+      "translation": "树果交易中不再有超进化石",
       "line": 386
     },
     "Farm aura displays": {
@@ -1231,7 +1231,7 @@
       "line": 395
     },
     "Fixed scrollbar for vitamin modal": {
-      "translation": "修复了维生素模式的滚动条",
+      "translation": "修复了营养剂模式的滚动条",
       "line": 398
     },
     "Fixed shops": {
@@ -1247,7 +1247,7 @@
       "line": 403
     },
     "Improved Vitamin UI": {
-      "translation": "改进维生素用户界面",
+      "translation": "改进营养剂用户界面",
       "line": 407
     },
     "Can now open multiple Dream Orbs at a time": {
@@ -1287,7 +1287,7 @@
       "line": 427
     },
     "Added new Vitamins": {
-      "translation": "添加了新的维生素",
+      "translation": "添加了新的营养剂",
       "line": 428
     },
     "Added more Mega Evolutions": {

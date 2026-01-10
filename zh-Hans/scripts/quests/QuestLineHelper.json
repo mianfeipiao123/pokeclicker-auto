@@ -867,7 +867,7 @@
       "line": 640
     },
     "Raid the Team Aqua hideout.": {
-      "translation": "突袭水族队的藏身处。",
+      "translation": "突袭海洋队的藏身处。",
       "line": 640
     },
     "You found a Master Ball!": {
@@ -879,7 +879,7 @@
       "line": 653
     },
     "Team Aqua's leader Archie escaped from their hideout. Find him in the Seafloor Cavern and put a stop to this once and for all!": {
-      "translation": "阿克娅队的队长阿奇从他们的藏身处逃了出来。在海底洞穴中找到他并一劳永逸地阻止这一切！",
+      "translation": "海洋队的队长阿奇从他们的藏身处逃了出来。在海底洞穴中找到他并一劳永逸地阻止这一切！",
       "line": 653
     },
     "The Weather Trio": {
@@ -1693,7 +1693,7 @@
       "line": 1181
     },
     "Speak to Professor Hastings in Sandgem Town.": {
-      "translation": "与双叶镇的黑斯廷斯教授交谈。",
+      "translation": "与双叶镇的哈斯汀斯博士交谈。",
       "line": 1183
     },
     "Search for clues in Eterna Forest.": {
@@ -1773,13 +1773,13 @@
       "line": 1217
     },
     "Return the egg to Professor Hastings in Sandgem Town.": {
-      "translation": "将蛋归还给双叶镇的黑斯廷斯教授。",
+      "translation": "将蛋归还给双叶镇的哈斯汀斯博士。",
       "line": 1220,
       "_rematchedFrom": "Return the egg to Professor Hastings in Sandgem Town.",
       "_confidence": 0.95
     },
     "Professor Hastings has headed off to Canalave to do more research on Manaphy. Check in on him when you can!": {
-      "translation": "黑斯廷斯教授已前往美央市对玛纳菲进行更多研究。当你可以的时候去看看他吧！",
+      "translation": "哈斯汀斯博士已前往美央市对玛纳菲进行更多研究。当你可以的时候去看看他吧！",
       "line": 1223
     },
     "A little girl's Happiny stole the egg! Search for witnesses east of Canalave!": {
@@ -3141,7 +3141,7 @@
       "line": 2030
     },
     "Defeat the Team Aqua and Magma Grunts attacking the Mossdeep Space Center.": {
-      "translation": "击败攻击莫斯迪普太空中心的水族队和岩浆步兵队。",
+      "translation": "击败攻击莫斯迪普太空中心的海洋队和岩浆步兵队。",
       "line": 2036
     },
     "Courtney 2": {
@@ -3217,7 +3217,7 @@
       "line": 2104
     },
     "Teams Aqua and Magma have been trying to unlock the Primal power of Groudon and Kyogre.": {
-      "translation": "阿克娅队和岩浆队一直在尝试释放固拉多和盖欧卡的原始力量。",
+      "translation": "海洋队和岩浆队一直在尝试释放固拉多和盖欧卡的原始力量。",
       "line": 2104
     },
     "Talk to Mr. Stone in Slateport City.": {
@@ -3301,7 +3301,7 @@
       "line": 2154
     },
     "Defeat the Team Aqua and Team Magma leaders in the Seafloor Cavern.": {
-      "translation": "击败海底洞穴中的水族队和岩浆队领导人。",
+      "translation": "击败海底洞穴中的海洋队和岩浆队头目。",
       "line": 2160
     },
     "Clear the Weather Institute 10 times to search for clues about Archie and Maxie's plans.": {
@@ -5359,15 +5359,15 @@
       "line": 3366
     },
     "Defeat Team Aqua Leader Archie.": {
-      "translation": "击败水族队长阿奇。",
+      "translation": "击败海洋队头目阿奇。",
       "line": 3366
     },
     "Team Magma Leader Maxie": {
-      "translation": "岩浆队队长赤焰松",
+      "translation": "岩浆队头目赤焰松",
       "line": 3367
     },
     "Defeat Team Magma Leader Maxie.": {
-      "translation": "击败岩浆队队长赤焰松。",
+      "translation": "击败岩浆队头目赤焰松。",
       "line": 3367
     },
     "Defeat Archie and Maxie.": {
@@ -5379,7 +5379,7 @@
       "line": 3374
     },
     "Defeat Team Galactic Leader Cyrus.": {
-      "translation": "击败银河队领袖赤日。",
+      "translation": "击败银河队头目赤日。",
       "line": 3374
     },
     "Team Flare Leader Lysandre": {

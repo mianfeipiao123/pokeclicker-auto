@@ -1689,11 +1689,11 @@
       "line": 1181
     },
     "A rare egg is at the Sandgem Lab! Surely it should be easy to hatch one little egg, right?": {
-      "translation": "Sandgem 实验室有一个稀有的彩蛋！孵化一个小蛋应该很容易吧？",
+      "translation": "双叶研究所有一个稀有的彩蛋！孵化一个小蛋应该很容易吧？",
       "line": 1181
     },
     "Speak to Professor Hastings in Sandgem Town.": {
-      "translation": "与桑杰姆镇的黑斯廷斯教授交谈。",
+      "translation": "与双叶镇的黑斯廷斯教授交谈。",
       "line": 1183
     },
     "Search for clues in Eterna Forest.": {
@@ -1773,7 +1773,7 @@
       "line": 1217
     },
     "Return the egg to Professor Hastings in Sandgem Town.": {
-      "translation": "将蛋归还给桑德宝石镇的黑斯廷斯教授。",
+      "translation": "将蛋归还给双叶镇的黑斯廷斯教授。",
       "line": 1220,
       "_rematchedFrom": "Return the egg to Professor Hastings in Sandgem Town.",
       "_confidence": 0.95
@@ -1783,7 +1783,7 @@
       "line": 1223
     },
     "A little girl's Happiny stole the egg! Search for witnesses east of Canalave!": {
-      "translation": "一个小女孩的幸福偷了蛋！在卡纳拉夫以东寻找目击者！",
+      "translation": "一个小女孩的小福蛋偷了蛋！在卡纳拉夫以东寻找目击者！",
       "line": 1226
     },
     "The Happiny headed north out of Jubilife! Ask for witnesses in the next town.": {
@@ -1823,11 +1823,11 @@
       "line": 1254
     },
     "An ex-Go-Rock in Sandgem Town has turned to Pokémon Pinching, and wants to steal the egg first. But after all you've been through to get it, he's in for a rude awakening": {
-      "translation": "Sandgem 镇的一名前 Go-Rock 转向了宝可梦捏捏，并想先偷蛋。但在你经历了一切才得到它之后，他猛然醒悟",
+      "translation": "双叶镇的一名前 Go-Rock 转向了宝可梦捏捏，并想先偷蛋。但在你经历了一切才得到它之后，他猛然醒悟",
       "line": 1254
     },
     "After leaving Sandgem, the Happiny went south-east, across the water. There's only one place it could be now...": {
-      "translation": "离开桑德宝石后，幸福号向东南方向航行，穿过水域。现在只有一个地方可以...",
+      "translation": "离开双叶镇后，小福蛋向东南方向航行，穿过水域。现在只有一个地方可以...",
       "line": 1257
     },
     "Oh no, you're not gonna let more boulders stop you now. Catch or hatch 50 Fighting-types and smash right through them.": {
@@ -4033,7 +4033,7 @@
       "line": 2569
     },
     "What an incredible Trainer you are! The Z-Crystal from the pedestal is yours now! It is known as Normalium Z!": {
-      "translation": "你是一位多么令人难以置信的教练啊！底座上的 Z 纯晶现在就是你的了！它被称为Normalium Z！",
+      "translation": "你是一位多么令人难以置信的训练家啊！底座上的 Z 纯晶现在就是你的了！它被称为Normalium Z！",
       "line": 2569
     },
     "Melemele Meadow": {
@@ -4173,7 +4173,7 @@
       "line": 2641
     },
     "Give me your name, Trainer. $playername$, eh? That's a fine name. I like the way you handled yourself in battle. Perhaps we'll meet again someday.": {
-      "translation": "告诉我你的名字，教练。 $playername$，嗯？这是一个很好的名字。我喜欢你在战斗中的处理方式。也许有一天我们会再次见面。",
+      "translation": "告诉我你的名字，训练家。 $playername$，嗯？这是一个很好的名字。我喜欢你在战斗中的处理方式。也许有一天我们会再次见面。",
       "line": 2643
     },
     "Hapu": {
@@ -4201,7 +4201,7 @@
       "line": 2653
     },
     "Wow, you're even stronger than I thought! Looks like you've cleared all three of Akala's trials! Here! A gift for such an inspiring young Trainer!": {
-      "translation": "哇，你比我想象的还要强！看起来你已经完成了阿卡拉的全部三项试炼！这里！送给如此鼓舞人心的年轻教练的礼物！",
+      "translation": "哇，你比我想象的还要强！看起来你已经完成了阿卡拉的全部三项试炼！这里！送给如此鼓舞人心的年轻训练家的礼物！",
       "line": 2653
     },
     "Talk to Professor Burnet in Heahea City after you've finished exploring Lush Jungle.": {

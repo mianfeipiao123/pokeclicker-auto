@@ -19,7 +19,7 @@
       "line": 13
     },
     "trainer": {
-      "translation": "教练员",
+      "translation": "训练家",
       "line": 15
     },
     "egg": {
@@ -257,7 +257,7 @@
       "line": 272
     },
     "trainer-${...}": {
-      "translation": "教练-${...}",
+      "translation": "训练家-${...}",
       "line": 279,
       "_rematchedFrom": "trainer-${...}",
       "_confidence": 0.85

@@ -59,7 +59,7 @@
       "line": 69
     },
     "trainer-bg-${...}": {
-      "translation": "教练-bg-${...}",
+      "translation": "训练家-bg-${...}",
       "line": 87,
       "_rematchedFrom": "trainer-bg-${...}",
       "_confidence": 0.85

@@ -1,4 +1,4 @@
-{
+﻿{
   "_meta": {
     "sourceFile": "src/scripts/towns/TownList.ts",
     "lastUpdated": "2026-01-03"
@@ -818,3 +818,4 @@
     }
   }
 }
+

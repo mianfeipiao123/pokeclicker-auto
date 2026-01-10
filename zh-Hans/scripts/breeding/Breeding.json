@@ -735,7 +735,7 @@
       "line": 586
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "资产/图像/个人资料/培训师-${...}.png",
+      "translation": "资产/图像/个人资料/训练家-${...}.png",
       "line": 586,
       "_rematchedFrom": "assets/images/profile/trainer-${...}.png",
       "_confidence": 0.85

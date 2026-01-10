@@ -307,7 +307,7 @@
       "line": 79
     },
     "Ghost": {
-      "translation": "鬼",
+      "translation": "幽灵",
       "line": 79
     },
     "ev": {
@@ -343,11 +343,11 @@
       "line": 84
     },
     "A weaker combination of Boost, Rich and Surprise mulch.": {
-      "translation": "Boost、Rich 和 Surprise 肥料的较弱组合。",
+      "translation": "劲劲肥、硕果肥和吃惊肥的较弱组合。",
       "line": 84
     },
     "Freeze Mulch": {
-      "translation": "冷冻肥料",
+      "translation": "冷冻肥",
       "line": 85
     },
     "Stops Berry growth and auras. Mutations will still occur while berries are frozen.": {

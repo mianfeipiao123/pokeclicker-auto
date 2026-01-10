@@ -11,15 +11,15 @@
       "line": 2
     },
     "Boulder": {
-      "translation": "灰色",
+      "translation": "灰色徽章",
       "line": 4
     },
     "Cascade": {
-      "translation": "蓝色",
+      "translation": "蓝色徽章",
       "line": 5
     },
     "Thunder": {
-      "translation": "橙色",
+      "translation": "橙色徽章",
       "line": 6
     },
     "Rainbow": {
@@ -27,19 +27,19 @@
       "line": 7
     },
     "Soul": {
-      "translation": "粉色",
+      "translation": "粉色徽章",
       "line": 8
     },
     "Marsh": {
-      "translation": "金色",
+      "translation": "金色徽章",
       "line": 9
     },
     "Volcano": {
-      "translation": "深红",
+      "translation": "深红徽章",
       "line": 10
     },
     "Earth": {
-      "translation": "绿色",
+      "translation": "绿色徽章",
       "line": 11
     },
     "Elite_Lorelei": {
@@ -63,35 +63,35 @@
       "line": 16
     },
     "Zephyr": {
-      "translation": "飞翔",
+      "translation": "飞翔徽章",
       "line": 18
     },
     "Hive": {
-      "translation": "虫子",
+      "translation": "虫子徽章",
       "line": 19
     },
     "Plain": {
-      "translation": "普通",
+      "translation": "普通徽章",
       "line": 20
     },
     "Fog": {
-      "translation": "幻影",
+      "translation": "幻影徽章",
       "line": 21
     },
     "Storm": {
-      "translation": "惊涛",
+      "translation": "惊涛徽章",
       "line": 22
     },
     "Mineral": {
-      "translation": "钢铁",
+      "translation": "钢铁徽章",
       "line": 23
     },
     "Glacier": {
-      "translation": "冰柱",
+      "translation": "冰柱徽章",
       "line": 24
     },
     "Rising": {
-      "translation": "升龙",
+      "translation": "升龙徽章",
       "line": 25
     },
     "Elite_Will": {
@@ -115,35 +115,35 @@
       "line": 30
     },
     "Stone": {
-      "translation": "岩石",
+      "translation": "岩石徽章",
       "line": 32
     },
     "Knuckle": {
-      "translation": "格斗",
+      "translation": "格斗徽章",
       "line": 33
     },
     "Dynamo": {
-      "translation": "电气",
+      "translation": "电气徽章",
       "line": 34
     },
     "Heat": {
-      "translation": "火焰",
+      "translation": "火焰徽章",
       "line": 35
     },
     "Balance": {
-      "translation": "天秤",
+      "translation": "天秤徽章",
       "line": 36
     },
     "Feather": {
-      "translation": "羽翼",
+      "translation": "羽翼徽章",
       "line": 37
     },
     "Mind": {
-      "translation": "心灵",
+      "translation": "心灵徽章",
       "line": 38
     },
     "Rain": {
-      "translation": "雨滴",
+      "translation": "雨滴徽章",
       "line": 39
     },
     "Elite_Sidney": {
@@ -199,7 +199,7 @@
       "line": 54
     },
     "Elite_U_Disk": {
-      "translation": "精英U盘",
+      "translation": "U磁盘",
       "line": 55
     },
     "Elite_ColosseumLovrina": {
@@ -223,19 +223,19 @@
       "line": 60
     },
     "Coal": {
-      "translation": "煤炭",
+      "translation": "煤炭徽章",
       "line": 62
     },
     "Forest": {
-      "translation": "森林",
+      "translation": "森林徽章",
       "line": 63
     },
     "Relic": {
-      "translation": "遗迹",
+      "translation": "遗迹徽章",
       "line": 64
     },
     "Cobble": {
-      "translation": "鹅卵石",
+      "translation": "圆石徽章",
       "line": 65
     },
     "Fen": {
@@ -243,15 +243,15 @@
       "line": 66
     },
     "Mine": {
-      "translation": "矿",
+      "translation": "矿山徽章",
       "line": 67
     },
     "Icicle": {
-      "translation": "冰柱",
+      "translation": "冰柱徽章",
       "line": 68
     },
     "Beacon": {
-      "translation": "灯塔",
+      "translation": "灯塔徽章",
       "line": 69
     },
     "Elite_Aaron": {
@@ -275,7 +275,7 @@
       "line": 74
     },
     "Basic": {
-      "translation": "",
+      "translation": "普通徽章",
       "line": 76
     },
     "Toxic": {
@@ -331,11 +331,11 @@
       "line": 90
     },
     "Cliff": {
-      "translation": "悬崖",
+      "translation": "悬崖徽章",
       "line": 91
     },
     "Rumble": {
-      "translation": "隆隆",
+      "translation": "隆隆徽章",
       "line": 92
     },
     "Plant": {
@@ -343,7 +343,7 @@
       "line": 93
     },
     "Voltage": {
-      "translation": "电压",
+      "translation": "电压徽章",
       "line": 94
     },
     "Fairy": {
@@ -355,7 +355,7 @@
       "line": 96
     },
     "Iceberg": {
-      "translation": "冰山",
+      "translation": "冰山徽章",
       "line": 97
     },
     "Elite_Malva": {

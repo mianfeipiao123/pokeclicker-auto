@@ -1,4 +1,4 @@
-{
+﻿{
   "_meta": {
     "sourceFile": "src/modules/GameConstants.ts",
     "lastUpdated": "2026-01-02",
@@ -313,7 +313,7 @@
       "line": 772
     },
     "Lake Acuity": {
-      "translation": "敏锐湖",
+      "translation": "睿智湖",
       "line": 773
     },
     "Twist Mountain": {
@@ -333,11 +333,11 @@
       "line": 778
     },
     "Dreamyard": {
-      "translation": "梦想园",
+      "translation": "梦之遗迹",
       "line": 791
     },
     "Jagged Pass": {
-      "translation": "锯齿状通行证",
+      "translation": "凹凸山道",
       "line": 801
     },
     "Mt. Chimney Crater": {
@@ -345,7 +345,7 @@
       "line": 801
     },
     "Mt. Pyre": {
-      "translation": "柴堆山",
+      "translation": "送火山",
       "line": 801
     },
     "Near Space": {
@@ -381,11 +381,11 @@
       "line": 812
     },
     "Indigo Plateau Johto": {
-      "translation": "城都石英高原酒店",
+      "translation": "城都石英高原",
       "line": 812
     },
     "Sea Mauville": {
-      "translation": "海淡紫色",
+      "translation": "海紫堇",
       "line": 813
     },
     "Weather Institute": {
@@ -393,7 +393,7 @@
       "line": 813
     },
     "Aqua Hideout": {
-      "translation": "阿夸藏身处",
+      "translation": "海洋队基地",
       "line": 813
     },
     "Sky Pillar": {
@@ -401,19 +401,19 @@
       "line": 813
     },
     "Mossdeep Space Center": {
-      "translation": "莫斯迪普航天中心",
+      "translation": "绿岭宇宙中心",
       "line": 813
     },
     "Valley Windworks": {
-      "translation": "山谷风厂",
+      "translation": "谷间发电所",
       "line": 814
     },
     "Old Chateau": {
-      "translation": "老城堡",
+      "translation": "森之洋馆",
       "line": 814
     },
     "Team Galactic Eterna Building": {
-      "translation": "银河团队永恒大厦",
+      "translation": "银河队百代大厦",
       "line": 814
     },
     "Team Galactic HQ": {
@@ -425,7 +425,7 @@
       "line": 815
     },
     "Castelia Sewers": {
-      "translation": "卡斯特利亚下水道",
+      "translation": "飞云下水道",
       "line": 815
     },
     "A Totally Unsuspicious Frigate": {
@@ -437,7 +437,7 @@
       "line": 815
     },
     "Giant Chasm": {
-      "translation": "巨大的鸿沟",
+      "translation": "巨人洞窟",
       "line": 815
     },
     "Cave of Being": {
@@ -457,7 +457,7 @@
       "line": 816
     },
     "Team Flare Secret HQ": {
-      "translation": "耀斑队秘密总部",
+      "translation": "闪焰队秘密总部",
       "line": 816
     },
     "Trainers' School": {
@@ -497,7 +497,7 @@
       "line": 825
     },
     "Pastoria City": {
-      "translation": "帕斯托里亚市",
+      "translation": "湿原市",
       "line": 826
     },
     "Lake Verity": {
@@ -1216,8 +1216,7 @@
       "translation": "尼比市",
       "line": 922
     },
-    "Cianwood City": {
-      "translation": "浅葱市",
+    "Cianwood City": { "translation": "湛蓝市",
       "line": 923
     },
     "Rustboro City": {
@@ -1253,11 +1252,11 @@
       "line": 934
     },
     "Deep Colosseum": {
-      "translation": "深罗马斗兽场",
+      "translation": "深层竞技场",
       "line": 935
     },
     "Under Colosseum": {
-      "translation": "罗马斗兽场下",
+      "translation": "地下竞技场",
       "line": 935
     },
     "Altar of the Sunne and Moone": {
@@ -1413,7 +1412,7 @@
       "line": 969
     },
     "Castelia City": {
-      "translation": "卡斯特利亚市",
+      "translation": "飞云市",
       "line": 970
     },
     "Mistralton City": {
@@ -2681,11 +2680,11 @@
       "line": 1859
     },
     "Snorlax route 12": {
-      "translation": "斯诺拉克斯12号道路",
+      "translation": "卡比兽12号道路",
       "line": 1860
     },
     "Snorlax route 16": {
-      "translation": "斯诺拉克斯16号道路",
+      "translation": "卡比兽16号道路",
       "line": 1861
     },
     "Blue 5": {
@@ -3145,11 +3144,11 @@
       "line": 1975
     },
     "Ghetsis 1": {
-      "translation": "盖西斯1",
+      "translation": "魁奇思1",
       "line": 1976
     },
     "Ghetsis 2": {
-      "translation": "盖西斯2",
+      "translation": "魁奇思2",
       "line": 1977
     },
     "Hugh 5": {
@@ -3165,27 +3164,27 @@
       "line": 1980
     },
     "Red Genesect 1": {
-      "translation": "红色盖内塞克特1",
+      "translation": "红色盖诺赛克特1",
       "line": 1981
     },
     "Genesect Burn": {
-      "translation": "盖诺塞克特烧伤",
+      "translation": "火焰卡带盖诺赛克特",
       "line": 1982
     },
     "Genesect Chill": {
-      "translation": "盖诺塞克特寒意",
+      "translation": "冰冻卡带盖诺赛克特",
       "line": 1983
     },
     "Genesect Douse": {
-      "translation": "盖诺塞克特·杜斯",
+      "translation": "水流卡带盖诺赛克特",
       "line": 1984
     },
     "Genesect Shock": {
-      "translation": "盖诺塞克特冲击",
+      "translation": "闪电卡带盖诺赛克特",
       "line": 1985
     },
     "Red Genesect 2": {
-      "translation": "红色盖诺塞克特2",
+      "translation": "红色盖诺赛克特2",
       "line": 1986
     },
     "Dream Researcher": {
@@ -3425,7 +3424,7 @@
       "line": 2045
     },
     "Team Flare Boss Lysandre 1": {
-      "translation": "耀斑队 Boss 弗拉达利1",
+      "translation": "闪焰队 Boss 弗拉达利1",
       "line": 2046
     },
     "Sycamore 2": {
@@ -3505,7 +3504,7 @@
       "line": 2066
     },
     "Team Flare Boss Lysandre 2": {
-      "translation": "耀斑队 Boss 弗拉达利2",
+      "translation": "闪焰队 Boss 弗拉达利2",
       "line": 2067
     },
     "Wild Houndour Horde": {
@@ -3773,7 +3772,7 @@
       "line": 2133
     },
     "Team Flare Leader Lysandre": {
-      "translation": "耀斑队队长 弗拉达利",
+      "translation": "闪焰队队长 弗拉达利",
       "line": 2134
     },
     "Team Plasma Leader Ghetsis": {
@@ -4834,3 +4833,4 @@
     }
   }
 }
+

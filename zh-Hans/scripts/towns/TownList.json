@@ -1,4 +1,4 @@
-{
+﻿{
   "_meta": {
     "sourceFile": "src/scripts/towns/TownList.ts",
     "lastUpdated": "2026-01-02",
@@ -2141,7 +2141,7 @@
       "line": 1762
     },
     "Professor Elm tells me you are a master trainer. Please, show me your skills by training your Pokémon.": {
-      "translation": "空木博士告诉我你是一位大师级培训师。请通过训练你的宝可梦来向我展示你的技能。",
+      "translation": "空木博士告诉我你是一位大师级训练家。请通过训练你的宝可梦来向我展示你的技能。",
       "line": 1763
     },
     "assets/images/npcs/Kimono Girl.png": {
@@ -2508,8 +2508,7 @@
       "translation": "浅葱灯塔",
       "line": 1996
     },
-    "Cianwood City": {
-      "translation": "浅葱市",
+    "Cianwood City": { "translation": "湛蓝市",
       "line": 2002
     },
     "Mahogany Town": {
@@ -2533,7 +2532,7 @@
       "line": 2031
     },
     "Indigo Plateau Johto": {
-      "translation": "城都石英高原酒店",
+      "translation": "城都石英高原",
       "line": 2035
     },
     "Silver 7": {
@@ -3327,7 +3326,7 @@
       "line": 2699
     },
     "Reports are coming in from the Mossdeep Space Center that a meteor is headed our way!": {
-      "translation": "莫斯迪普航天中心传来报告称一颗流星正朝我们飞来！",
+      "translation": "绿岭宇宙中心传来报告称一颗流星正朝我们飞来！",
       "line": 2700
     },
     "It's on a collision course with an island north of Route 131. I've been tasked with finding a way to stop this meteor.": {
@@ -3399,7 +3398,7 @@
       "line": 2726
     },
     "There's been a lot of hubbub and excitement in the region since the Mossdeep Space Center announced that a meteor was headed our way. This has lead to a lot of new faces in Hoenn.": {
-      "translation": "自从莫斯迪普航天中心宣布一颗流星正向我们袭来以来，该地区充满了喧闹和兴奋。这给丰缘市带来了很多新面孔。",
+      "translation": "自从绿岭宇宙中心宣布一颗流星正向我们袭来以来，该地区充满了喧闹和兴奋。这给丰缘市带来了很多新面孔。",
       "line": 2727
     },
     "Some of them have been carrying small but powerful items known as Key Stones. These have the power to let Pokémon Mega Evolve! You may have experienced something like that in Kalos, but it's new to us here.": {
@@ -3627,7 +3626,7 @@
       "line": 2831
     },
     "Thank you, dear. Now then... That is an impressive machine. Snap your fingers, the asteroid vanishes, and we all live happily ever after? It's a good thing you saved it from those Aqua and Magma thugs.": {
-      "translation": "谢谢你亲爱的。那么……那是一台令人印象深刻的机器。打个响指，小行星就消失了，我们就从此过上幸福的生活了吗？幸好你从那些海洋队和岩浆队暴徒手中救了它。",
+      "translation": "谢谢你亲爱的。那么……那是一台令人印象深刻的机器。打个响指，小行星就消失了，我们就从此过上幸福的生活了吗？幸好你从那些海洋队和熔岩队暴徒手中救了它。",
       "line": 2835
     },
     "This thing is the best hope we have of saving this planet and everything on it. But you know... It could also be the worst tragedy imaginable for some other world and everything on it.": {
@@ -4131,7 +4130,7 @@
       "line": 3097
     },
     "They told me that I had to let them have free reign in town, or there would be trouble. They're out at the Colosseum causing trouble.": {
-      "translation": "他们告诉我，我必须让他们在城里自由支配，否则就会有麻烦。他们在罗马斗兽场制造麻烦。",
+      "translation": "他们告诉我，我必须让他们在城里自由支配，否则就会有麻烦。他们在竞技场制造麻烦。",
       "line": 3098
     },
     "Doken": {
@@ -4703,7 +4702,7 @@
       "line": 3366
     },
     "Sea Mauville": {
-      "translation": "海淡紫色",
+      "translation": "海紫堇",
       "line": 3370
     },
     "Verdanturf Town": {
@@ -4723,7 +4722,7 @@
       "line": 3393
     },
     "Jagged Pass": {
-      "translation": "锯齿状通行证",
+      "translation": "凹凸山道",
       "line": 3393
     },
     "Magma Hideout": {
@@ -4767,7 +4766,7 @@
       "line": 3462
     },
     "Mossdeep Space Center": {
-      "translation": "莫斯迪普航天中心",
+      "translation": "绿岭宇宙中心",
       "line": 3472
     },
     "Aqua Grunt": {
@@ -4919,11 +4918,11 @@
       "line": 3571
     },
     "Deep Colosseum": {
-      "translation": "深罗马斗兽场",
+      "translation": "深层竞技场",
       "line": 3571
     },
     "Under Colosseum": {
-      "translation": "罗马斗兽场下",
+      "translation": "地下竞技场",
       "line": 3571
     },
     "Agate Village": {
@@ -5043,7 +5042,7 @@
       "line": 3734
     },
     "Mt. Pyre": {
-      "translation": "柴堆山",
+      "translation": "送火山",
       "line": 3744
     },
     "Delta Tabitha": {
@@ -5051,7 +5050,7 @@
       "line": 3759
     },
     "Aqua Hideout": {
-      "translation": "阿夸藏身处",
+      "translation": "海洋队基地",
       "line": 3764
     },
     "Delta Shelly": {
@@ -5235,7 +5234,7 @@
       "line": 4202
     },
     "Oh, you came from the Forest! That Old Chateau is so creepy, isn't it? I've heard that trainers that catch the weird ghost in the TV have found ghosts in other appliances. Even lawnmowers!": {
-      "translation": "哦，你来自森林！那个老城堡太令人毛骨悚然了，不是吗？我听说那些在电视中发现怪异鬼魂的培训师也在其他电器中发现了鬼魂。甚至割草机！",
+      "translation": "哦，你来自森林！那个森之洋馆太令人毛骨悚然了，不是吗？我听说那些在电视中发现怪异鬼魂的训练家也在其他电器中发现了鬼魂。甚至割草机！",
       "line": 4203
     },
     "assets/images/npcs/Lass.png": {
@@ -5611,7 +5610,7 @@
       "line": 4356
     },
     "Next stop is Unova! I've always wanted to visit Castelia City, personally...": {
-      "translation": "下一站是合众国！我一直想去卡斯特利亚市亲自参观一下......",
+      "translation": "下一站是合众地区！我一直想去飞云市亲自参观一下......",
       "line": 4357
     },
     "assets/images/npcs/Professor Rowan.png": {
@@ -6067,7 +6066,7 @@
       "line": 4599
     },
     "Team Galactic Eterna Building": {
-      "translation": "银河团队永恒大厦",
+      "translation": "银河队百代大厦",
       "line": 4603
     },
     "Eterna Forest": {
@@ -6107,7 +6106,7 @@
       "line": 4642
     },
     "Pastoria City": {
-      "translation": "帕斯托里亚市",
+      "translation": "湿原市",
       "line": 4648
     },
     "Celestic Town": {
@@ -6187,7 +6186,7 @@
       "line": 4767
     },
     "Valley Windworks": {
-      "translation": "山谷风厂",
+      "translation": "谷间发电所",
       "line": 4779
     },
     "Manaphy Go-Rock MGrunt 1": {
@@ -6215,7 +6214,7 @@
       "line": 4796
     },
     "Old Chateau": {
-      "translation": "老城堡",
+      "translation": "森之洋馆",
       "line": 4801
     },
     "Manaphy Go-Rock Commander": {
@@ -6243,7 +6242,7 @@
       "line": 4855
     },
     "Lake Acuity": {
-      "translation": "敏锐湖",
+      "translation": "睿智湖",
       "line": 4874
     },
     "Distortion World": {
@@ -6459,7 +6458,7 @@
       "line": 5175
     },
     "That aside! The reason I have been traveling all over Unova and battling many Pokémon Trainers is because I was testing the viability of this approach to bringing out the full strength of Pokémon. In that respect, you've done an amazing job.": {
-      "translation": "抛开这一点！我之所以在合众国各地旅行并与许多宝可梦训练家战斗，是因为我正在测试这种方法的可行性，以发挥宝可梦的全部力量。在这方面，你做得非常出色。",
+      "translation": "抛开这一点！我之所以在合众地区各地旅行并与许多宝可梦训练家战斗，是因为我正在测试这种方法的可行性，以发挥宝可梦的全部力量。在这方面，你做得非常出色。",
       "line": 5176
     },
     "Well now! Tell me if you have the answer I desire or not! If you're ready, come at me!": {
@@ -6471,7 +6470,7 @@
       "line": 5179
     },
     "Giant Chasm": {
-      "translation": "巨大的鸿沟",
+      "translation": "巨人洞窟",
       "line": 5180
     },
     "Plasma Shadow 1": {
@@ -6487,7 +6486,7 @@
       "line": 5183
     },
     "Listen well! We swore to be loyal to Lord Ghetsis since he saved us! The only thing we want is the world Lord Ghetsis desires! Even if we lose, Lord Ghetsis simply has to win...": {
-      "translation": "好好听！自从魁奇思勋爵救了我们之后，我们就发誓效忠他！我们唯一想要的就是盖西斯勋爵所渴望的世界！即使我们输了，魁奇思大人也必须赢……",
+      "translation": "好好听！自从魁奇思勋爵救了我们之后，我们就发誓效忠他！我们唯一想要的就是魁奇思勋爵所渴望的世界！即使我们输了，魁奇思大人也必须赢……",
       "line": 5184
     },
     "The only thing you can do is watch Lord Ghetsis use Kyurem to freeze Unova solid. That's all...": {
@@ -6499,7 +6498,7 @@
       "line": 5187
     },
     "Ghetsis 1": {
-      "translation": "盖西斯1",
+      "translation": "魁奇思1",
       "line": 5188
     },
     "Legends say Kyurem is missing a part of itself. It is waiting for a hero to fill in the missing parts of its body with Truth or Ideals.": {
@@ -6523,7 +6522,7 @@
       "line": 5196
     },
     "So you defeated Ghetsis. Interesting. You must be a very strong trainer.": {
-      "translation": "所以你打败了盖西斯。有趣的。你一定是一位非常强大的训练家。",
+      "translation": "所以你打败了魁奇思。有趣的。你一定是一位非常强大的训练家。",
       "line": 5199
     },
     "A rare Pokémon is hiding somewhere inside this abandoned laboratory. You can catch it if you want. I have no interest in it.": {
@@ -6571,7 +6570,7 @@
       "line": 5218
     },
     "Welcome to my laboratory, trainer! I am working here to understand the mysterious Interdream Zone.": {
-      "translation": "欢迎来到我的实验室，培训师！我在这里工作是为了了解神秘的梦境空间。",
+      "translation": "欢迎来到我的实验室，训练家！我在这里工作是为了了解神秘的梦境空间。",
       "line": 5219
     },
     "My laboratory equipment can convert the energy of dreams you experience while sleeping, or \"Offline\" into orbs. We can then open these orbs and see what your mind experienced in the Interdream Zone.": {
@@ -6775,7 +6774,7 @@
       "line": 5350
     },
     "They haven't been seen in Unova for millions of years! If one is here now, it's sure to be a little confused about what the world is like.": {
-      "translation": "他们已经数百万年没有在合众国出现了！如果一个人现在在这里，肯定会对这个世界到底是什么样子感到有点困惑。",
+      "translation": "他们已经数百万年没有在合众地区出现了！如果一个人现在在这里，肯定会对这个世界到底是什么样子感到有点困惑。",
       "line": 5351
     },
     "I worry it might attack the city out of fear.": {
@@ -6803,7 +6802,7 @@
       "line": 5367
     },
     "They also have a high-speed form, which I hear has been sighted across Unova.": {
-      "translation": "它们还有一种高速形态，我听说在合众国上空都曾看到过它们。",
+      "translation": "它们还有一种高速形态，我听说在合众地区上空都曾看到过它们。",
       "line": 5368
     },
     "Trainers report on sightings of various Genesect holding the same Drives as the Genesect they own.": {
@@ -6811,11 +6810,11 @@
       "line": 5375
     },
     "It seems like this Dungeon's Genesect is choosing its Drive based on the Moon Cycle!": {
-      "translation": "看来这个迷宫的盖诺塞克特正在根据月球周期来选择驱动力！",
+      "translation": "看来这个迷宫的盖诺赛克特正在根据月球周期来选择驱动力！",
       "line": 5376
     },
     "Meanwhile the high-speed form races to different Dungeons all across Unova.": {
-      "translation": "与此同时，高速形态正在前往合众国各地的不同迷宫。",
+      "translation": "与此同时，高速形态正在前往合众地区各地的不同迷宫。",
       "line": 5377
     },
     "Aspertia City": {
@@ -6839,11 +6838,11 @@
       "line": 5409
     },
     "Castelia City": {
-      "translation": "卡斯特利亚市",
+      "translation": "飞云市",
       "line": 5414
     },
     "Castelia Sewers": {
-      "translation": "卡斯特利亚下水道",
+      "translation": "飞云下水道",
       "line": 5418
     },
     "A Perfectly Ordinary Frigate": {
@@ -6851,7 +6850,7 @@
       "line": 5424
     },
     "Nimbasa City": {
-      "translation": "宁巴萨市",
+      "translation": "雷文市",
       "line": 5438
     },
     "Team Plasma Grunt 2": {
@@ -6995,7 +6994,7 @@
       "line": 5631
     },
     "Pokémon League Unova": {
-      "translation": "宝可梦联盟合众国",
+      "translation": "宝可梦联盟合众地区",
       "line": 5640
     },
     "Elite Shauntal": {
@@ -7051,11 +7050,11 @@
       "line": 5672
     },
     "Red Genesect 1": {
-      "translation": "红色盖内塞克特1",
+      "translation": "红色盖诺赛克特1",
       "line": 5686
     },
     "Red Genesect 2": {
-      "translation": "红色盖诺塞克特2",
+      "translation": "红色盖诺赛克特2",
       "line": 5686
     },
     "Relic Passage": {
@@ -7099,7 +7098,7 @@
       "line": 5769
     },
     "Ghetsis 2": {
-      "translation": "盖西斯2",
+      "translation": "魁奇思2",
       "line": 5782
     },
     "Kyurem 2": {
@@ -7139,7 +7138,7 @@
       "line": 5847
     },
     "Dreamyard": {
-      "translation": "梦想园",
+      "translation": "梦之遗迹",
       "line": 5863
     },
     "Furfrou (Debutante)": {
@@ -7919,7 +7918,7 @@
       "line": 6325
     },
     "Team Flare Boss Lysandre": {
-      "translation": "耀斑队 Boss 弗拉达利",
+      "translation": "闪焰队 Boss 弗拉达利",
       "line": 6330
     },
     "What a startling development! I never would've thought you were really a chosen one!": {
@@ -7979,7 +7978,7 @@
       "line": 6347
     },
     "I would ask you to go, but I'm sure you're really busy either dealing with Team Flare or the Pokémon League challenge.": {
-      "translation": "我想邀请你去，但我确信你真的很忙，要么忙于处理耀斑队，要么忙于宝可梦联盟的挑战。",
+      "translation": "我想邀请你去，但我确信你真的很忙，要么忙于处理闪焰队，要么忙于宝可梦联盟的挑战。",
       "line": 6348
     },
     "Once you are done, you could come back at dusk. Maybe you can do something about it...": {
@@ -7987,7 +7986,7 @@
       "line": 6349
     },
     "Team Flare Boss Lysandre 2": {
-      "translation": "耀斑队 Boss 弗拉达利2",
+      "translation": "闪焰队 Boss 弗拉达利2",
       "line": 6351
     },
     "Confused Hiker": {
@@ -8399,7 +8398,7 @@
       "line": 6484
     },
     "It takes a very experienced trainer to find it, though.": {
-      "translation": "不过，需要非常有经验的培训师才能找到它。",
+      "translation": "不过，需要非常有经验的训练家才能找到它。",
       "line": 6485
     },
     "<i>This place is... beautiful. I am amazed such a place truly exists.</i>": {
@@ -8547,7 +8546,7 @@
       "line": 6614
     },
     "Team Flare Secret HQ": {
-      "translation": "耀斑队秘密总部",
+      "translation": "闪焰队秘密总部",
       "line": 6618
     },
     "Team Flare Grunt 2": {
@@ -8687,7 +8686,7 @@
       "line": 6789
     },
     "Team Flare Boss Lysandre 1": {
-      "translation": "耀斑队 Boss 弗拉达利1",
+      "translation": "闪焰队 Boss 弗拉达利1",
       "line": 6804
     },
     "Terminus Cave": {
@@ -9293,7 +9292,7 @@
       "line": 7214
     },
     "Lush Jungle": {
-      "translation": "茂密的丛林",
+      "translation": "葱郁洞窟",
       "line": 7217
     },
     "Talk to Lillie": {
@@ -9821,7 +9820,7 @@
       "line": 7539
     },
     "Hey, welcome to the Lush Jungle! How are you doing today? I'm not so good. I wanted to try a new ingredient to see if it attracts Lurantis, but it costs too much. Like, a lot of Quest Points. I just can't afford it.": {
-      "translation": "嘿，欢迎来到茂密的丛林！你今天怎么样？我没那么好。我想尝试一种新成分，看看它是否能吸引鲁兰蒂斯，但它的成本太高了。就像很多任务点一样。我就是买不起。",
+      "translation": "嘿，欢迎来到葱郁洞窟！你今天怎么样？我没那么好。我想尝试一种新成分，看看它是否能吸引鲁兰蒂斯，但它的成本太高了。就像很多任务点一样。我就是买不起。",
       "line": 7540
     },
     "Oh, you're asking if I have a Silvally Memory? You mean from that weird fusion-like Pokémon? Yeah, I do. It has a weird green coloration on it, which weirdly enough reminds me of Pokémon resistant to Electric attacks and weak against Fire attacks.": {
@@ -9829,7 +9828,7 @@
       "line": 7541
     },
     "How about a trade? I will give you the Memory if you give me some Quest Points, how 'bout that? Ok, I'll be here in the Lush Jungle for a while, so you can get Quest Points and come back later to do the trade if you need to.": {
-      "translation": "做个交易怎么样？如果你给我一些任务点，我就给你记忆，怎么样？好的，我会在茂密的丛林待一段时间，这样你就可以获得任务点数，如果需要的话稍后再回来进行交易。",
+      "translation": "做个交易怎么样？如果你给我一些任务点，我就给你记忆，怎么样？好的，我会在葱郁洞窟待一段时间，这样你就可以获得任务点数，如果需要的话稍后再回来进行交易。",
       "line": 7542
     },
     "assets/images/npcs/Mallow.png": {
@@ -10153,7 +10152,7 @@
       "line": 7686
     },
     "I'm sure the UBs will truly flourish in the company of a competent trainer like yourself. It'll be much better for them than being locked up in some stuffy lab. Just be sure to let us know how they are doing.": {
-      "translation": "我相信，在像你这样有能力的培训师的陪伴下，UB 将会真正蓬勃发展。这对他们来说比被关在闷热的实验室里要好得多。请务必让我们知道他们的情况。",
+      "translation": "我相信，在像你这样有能力的训练家的陪伴下，UB 将会真正蓬勃发展。这对他们来说比被关在闷热的实验室里要好得多。请务必让我们知道他们的情况。",
       "line": 7687
     },
     "Now, enough chit-chat. UB-02 Absorption and UB-02 Beauty, Buzzwole and Pheromosa, have been sighted on Melemele Island. You know what to do!": {
@@ -10861,7 +10860,7 @@
       "line": 8321
     },
     "Team Magma Leader Maxie": {
-      "translation": "岩浆队头目赤焰松",
+      "translation": "熔岩队头目赤焰松",
       "line": 8322
     },
     "Team Galactic Leader Cyrus": {
@@ -10869,7 +10868,7 @@
       "line": 8323
     },
     "Team Flare Leader Lysandre": {
-      "translation": "耀斑队队长 弗拉达利",
+      "translation": "闪焰队队长 弗拉达利",
       "line": 8324
     },
     "Team Plasma Leader Ghetsis": {
@@ -13266,3 +13265,5 @@
     }
   }
 }
+
+

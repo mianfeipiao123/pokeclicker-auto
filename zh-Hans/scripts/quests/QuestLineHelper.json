@@ -1,4 +1,4 @@
-{
+﻿{
   "_meta": {
     "sourceFile": "src/scripts/quests/QuestLineHelper.ts",
     "lastUpdated": "2026-01-02",
@@ -503,15 +503,14 @@
       "line": 385
     },
     "Talk to the Pharmacist in Cianwood City.": {
-      "translation": "与 Cianwood 城的药剂师交谈。",
+      "translation": "与湛蓝市的药剂师交谈。",
       "line": 388
     },
-    "Cianwood City": {
-      "translation": "浅葱市",
+    "Cianwood City": { "translation": "湛蓝市",
       "line": 391
     },
     "The Pharmacist said he needs some time to finish Amphys medicine. Clear the Cianwood City Gym in the meantime.": {
-      "translation": "药剂师说他需要一些时间才能完成安菲斯药物。同时清理 Cianwood 城市体育馆。",
+      "translation": "药剂师说他需要一些时间才能完成安菲斯药物。同时清理湛蓝市道馆。",
       "line": 391
     },
     "Give Amphy their medicine in the Olivine Lighthouse.": {
@@ -843,7 +842,7 @@
       "line": 631
     },
     "Stop Team Magma at Mt. Chimney Crater.": {
-      "translation": "在烟囱火山口阻止岩浆队。",
+      "translation": "在烟囱火山口阻止熔岩队。",
       "line": 631
     },
     "Weather Institute": {
@@ -859,11 +858,11 @@
       "line": 637
     },
     "Raid the Team Magma hideout.": {
-      "translation": "突袭岩浆队藏身处。",
+      "translation": "突袭熔岩队藏身处。",
       "line": 637
     },
     "Aqua Hideout": {
-      "translation": "阿夸藏身处",
+      "translation": "海洋队基地",
       "line": 640
     },
     "Raid the Team Aqua hideout.": {
@@ -1593,7 +1592,7 @@
       "line": 1128
     },
     "Valley Windworks": {
-      "translation": "山谷风厂",
+      "translation": "谷间发电所",
       "line": 1130
     },
     "Team Galactic is stealing energy. Clear Valley Windworks.": {
@@ -1601,19 +1600,19 @@
       "line": 1130
     },
     "Team Galactic Eterna Building": {
-      "translation": "银河团队永恒大厦",
+      "translation": "银河队百代大厦",
       "line": 1133
     },
     "Team Galactic is kidnapping Pokémon now. Clear Team Galactic Eterna Building in Eterna City.": {
-      "translation": "银河队现在正在绑架宝可梦。通关百代市的银河团队永恒大厦。",
+      "translation": "银河队现在正在绑架宝可梦。通关百代市的银河队百代大厦。",
       "line": 1133
     },
     "Pastoria City": {
-      "translation": "帕斯托里亚市",
+      "translation": "湿原市",
       "line": 1136
     },
     "All is quiet. Team Galactic isn't doing anything. Maybe they learned their lesson. Just keep traveling, I guess. Clear the Pastoria City Gym.": {
-      "translation": "一切都很安静。银河队什么也没做。也许他们吸取了教训。我想，继续旅行吧。清理帕斯托里亚市体育馆。",
+      "translation": "一切都很安静。银河队什么也没做。也许他们吸取了教训。我想，继续旅行吧。清理湿原市道馆。",
       "line": 1136
     },
     "Galactic Boss Cyrus": {
@@ -1649,7 +1648,7 @@
       "line": 1148
     },
     "Lake Acuity": {
-      "translation": "敏锐湖",
+      "translation": "睿智湖",
       "line": 1151
     },
     "Lake Verity's guardian was also taken. Only one lake remains. Clear Lake Acuity.": {
@@ -1769,7 +1768,7 @@
       "line": 1217
     },
     "You've cornered the Go-Rock Commander outside the Old Chateau! Time to finish this.": {
-      "translation": "你已将 Go-Rock 指挥官逼到了老城堡外！是时候完成这件事了。",
+      "translation": "你已将 Go-Rock 指挥官逼到了森之洋馆外！是时候完成这件事了。",
       "line": 1217
     },
     "Return the egg to Professor Hastings in Sandgem Town.": {
@@ -1895,7 +1894,7 @@
       "line": 1295
     },
     "At Lake Acuity, ask Uxie about the Distortion World.": {
-      "translation": "在敏锐湖，向 Uxie 询问扭曲世界的情况。",
+      "translation": "在睿智湖，向 Uxie 询问扭曲世界的情况。",
       "line": 1298
     },
     "Obtain 10 Crimson Shards.": {
@@ -1955,15 +1954,15 @@
       "line": 1338
     },
     "A Team Plasma Grunt in Virbank City would like to steal your Pokémon. Defeat the grunt.": {
-      "translation": "维班克市的等离子队步兵想要偷走你的宝可梦。击败手下。",
+      "translation": "立涌市的等离子队步兵想要偷走你的宝可梦。击败手下。",
       "line": 1338
     },
     "Castelia Sewers": {
-      "translation": "卡斯特利亚下水道",
+      "translation": "飞云下水道",
       "line": 1341
     },
     "Some Team Plasma Grunts were seen entering the Castelia Sewers. Clear Castelia Sewers.": {
-      "translation": "有人看到一些等离子队士兵进入卡斯特利亚下水道。清理卡斯特利亚下水道。",
+      "translation": "有人看到一些等离子队士兵进入飞云下水道。清理飞云下水道。",
       "line": 1341
     },
     "Investigate the Perfectly Ordinary Frigate.": {
@@ -1971,15 +1970,15 @@
       "line": 1344
     },
     "Nimbasa City": {
-      "translation": "宁巴萨市",
+      "translation": "雷文市",
       "line": 1347
     },
     "Seems there's nothing suspicious going on in Castelia City. Time to continue your journey. Clear the Nimbasa Gym.": {
-      "translation": "卡斯特利亚市内似乎没有什么可疑的事情发生。是时候继续你的旅程了。清理宁巴萨道馆。",
+      "translation": "飞云市内似乎没有什么可疑的事情发生。是时候继续你的旅程了。清理雷文道馆。",
       "line": 1347
     },
     "Hugh thinks some Team Plasma Grunts in Nimbasa City are stealing Pokémon. Defeat the grunts.": {
-      "translation": "休认为宁巴萨市的一些等离子队士兵正在偷走宝可梦。击败手下。",
+      "translation": "休认为雷文市的一些等离子队士兵正在偷走宝可梦。击败手下。",
       "line": 1350
     },
     "Team Plasma Grunt 2": {
@@ -2091,7 +2090,7 @@
       "line": 1408
     },
     "Giant Chasm": {
-      "translation": "巨大的鸿沟",
+      "translation": "巨人洞窟",
       "line": 1412
     },
     "Team Plasma's leader Ghetsis plans on using the DNA Splicers on Kyurem in Giant Chasm. Clear the dungeon to end his evil plans.": {
@@ -2131,19 +2130,19 @@
       "line": 1428
     },
     "Ghetsis 1": {
-      "translation": "盖西斯1",
+      "translation": "魁奇思1",
       "line": 1431
     },
     "Ghetsis has done something to the legendary Dragon-type Pokémon inside Giant Chasm!": {
-      "translation": "盖西斯对巨大裂缝内的传说中的龙系宝可梦做了什么！",
+      "translation": "魁奇思对巨大裂缝内的传说中的龙系宝可梦做了什么！",
       "line": 1431
     },
     "Ghetsis 2": {
-      "translation": "盖西斯2",
+      "translation": "魁奇思2",
       "line": 1448
     },
     "Defeat Ghetsis one final time!": {
-      "translation": "最后一次击败盖西斯！",
+      "translation": "最后一次击败魁奇思！",
       "line": 1448
     },
     "Destiny Deoxys": {
@@ -2391,51 +2390,51 @@
       "line": 1586
     },
     "Red Genesect 1": {
-      "translation": "红色盖内塞克特1",
+      "translation": "红色盖诺赛克特1",
       "line": 1589
     },
     "Fight the mysterious Pokémon in the Castelia Sewers.": {
-      "translation": "在卡斯特利亚下水道中与神秘的宝可梦战斗。",
+      "translation": "在飞云下水道中与神秘的宝可梦战斗。",
       "line": 1589
     },
     "Search the Castelia Sewers for clues about the Red Genesect.": {
-      "translation": "搜索卡斯特利亚下水道寻找有关红色盖诺赛克特的线索。",
+      "translation": "搜索飞云下水道寻找有关红色盖诺赛克特的线索。",
       "line": 1592
     },
     "Talk to the Ancient Bug Hunter in the Castelia Sewers.": {
-      "translation": "与卡斯特利亚下水道的远古虫猎人交谈。",
+      "translation": "与飞云下水道的远古虫猎人交谈。",
       "line": 1595
     },
     "Defeat the four Genesect surrounding Castelia City.": {
-      "translation": "击败卡斯特利亚市周围的四只盖诺赛克特。",
+      "translation": "击败飞云市周围的四只盖诺赛克特。",
       "line": 1598
     },
     "Genesect Burn": {
-      "translation": "盖诺塞克特烧伤",
+      "translation": "火焰卡带盖诺赛克特",
       "line": 1599
     },
     "Genesect Chill": {
-      "translation": "盖诺塞克特寒意",
+      "translation": "冰冻卡带盖诺赛克特",
       "line": 1600
     },
     "Genesect Douse": {
-      "translation": "盖诺塞克特·杜斯",
+      "translation": "水流卡带盖诺赛克特",
       "line": 1601
     },
     "Genesect Shock": {
-      "translation": "盖诺塞克特冲击",
+      "translation": "闪电卡带盖诺赛克特",
       "line": 1602
     },
     "Red Genesect 2": {
-      "translation": "红色盖诺塞克特2",
+      "translation": "红色盖诺赛克特2",
       "line": 1606
     },
     "The Red Genesect is trying to escape the Castelia Sewers, stop it!": {
-      "translation": "红色盖诺赛克特正试图逃离卡斯特利亚下水道，阻止它！",
+      "translation": "红色盖诺赛克特正试图逃离飞云下水道，阻止它！",
       "line": 1606
     },
     "Witness the battle between the Red Genesect and another powerful Pokémon in Castelia City.": {
-      "translation": "在卡斯特利亚市见证红色盖诺赛克特与另一只强大宝可梦之间的战斗。",
+      "translation": "在飞云市见证红色盖诺赛克特与另一只强大宝可梦之间的战斗。",
       "line": 1609
     },
     "The Red Genesect has crashed into the P2 Lab and escaped underground. Start digging to learn more.": {
@@ -2447,7 +2446,7 @@
       "line": 1615
     },
     "Catch Genesect in P2 Lab.": {
-      "translation": "在 P2实验室抓住盖诺塞克特。",
+      "translation": "在 P2实验室抓住盖诺赛克特。",
       "line": 1615
     },
     "Gale of Darkness": {
@@ -2913,7 +2912,7 @@
       "line": 1888
     },
     "Team Flare Secret HQ": {
-      "translation": "耀斑队秘密总部",
+      "translation": "闪焰队秘密总部",
       "line": 1890
     },
     "The ultimate weapon was activated in Geosenge Town! Go to the Team Flare Secret HQ to put a stop to it! First step: Beating Team Flare Aliana.": {
@@ -2945,7 +2944,7 @@
       "line": 1908
     },
     "You are getting close. Resume delving into the Team Flare Secret HQ! Fourth step: Beating Team Flare Mable.": {
-      "translation": "你正在接近。继续深入研究耀斑队的秘密总部！第四步：击败 Flare Mable 团队。",
+      "translation": "你正在接近。继续深入研究闪焰队的秘密总部！第四步：击败 Flare Mable 团队。",
       "line": 1914
     },
     "The power of the Legendary Pokémon... The power to grant life to all around it... The power to steal life from all around it... It's a mysterious ability that even scientists like us haven't been able to really decode. What d'you think will happen to the world if we fuel the ultimate weapon with something like that?": {
@@ -2957,7 +2956,7 @@
       "line": 1922
     },
     "This is it, you've beaten Lysandre at the top of his game in Team Flare Secret HQ, right? He might have something else to say...": {
-      "translation": "就是这样，你已经在耀斑队秘密总部击败了处于巅峰状态的弗拉达利，对吧？他或许还有别的话要说……",
+      "translation": "就是这样，你已经在闪焰队秘密总部击败了处于巅峰状态的弗拉达利，对吧？他或许还有别的话要说……",
       "line": 1925
     },
     "Xerneas": {
@@ -2985,7 +2984,7 @@
       "line": 1936
     },
     "Team Flare Boss Lysandre 1": {
-      "translation": "耀斑队 Boss 弗拉达利1",
+      "translation": "闪焰队 Boss 弗拉达利1",
       "line": 1939
     },
     "Stop Team Flare Boss Lysandre in Team Flare Secret HQ once and for all!!": {
@@ -3153,7 +3152,7 @@
       "line": 2039
     },
     "Defeat the admins trying to take over the Mossdeep Space Center.": {
-      "translation": "击败试图接管莫斯迪普航天中心的管理员。",
+      "translation": "击败试图接管绿岭宇宙中心的管理员。",
       "line": 2045
     },
     "Follow Zinnia to the Aqua hideout and search for her.": {
@@ -3169,7 +3168,7 @@
       "line": 2056
     },
     "Talk to Maxie in the Team Magma Hideout.": {
-      "translation": "与岩浆队藏身处的赤焰松交谈。",
+      "translation": "与熔岩队藏身处的赤焰松交谈。",
       "line": 2059
     },
     "Talk to Wallace in Sootopolis City.": {
@@ -3217,7 +3216,7 @@
       "line": 2104
     },
     "Teams Aqua and Magma have been trying to unlock the Primal power of Groudon and Kyogre.": {
-      "translation": "海洋队和岩浆队一直在尝试释放固拉多和盖欧卡的原始力量。",
+      "translation": "海洋队和熔岩队一直在尝试释放固拉多和盖欧卡的原始力量。",
       "line": 2104
     },
     "Talk to Mr. Stone in Slateport City.": {
@@ -3301,7 +3300,7 @@
       "line": 2154
     },
     "Defeat the Team Aqua and Team Magma leaders in the Seafloor Cavern.": {
-      "translation": "击败海底洞穴中的海洋队和岩浆队头目。",
+      "translation": "击败海底洞穴中的海洋队和熔岩队头目。",
       "line": 2160
     },
     "Clear the Weather Institute 10 times to search for clues about Archie and Maxie's plans.": {
@@ -3313,11 +3312,11 @@
       "line": 2165
     },
     "Mt. Pyre": {
-      "translation": "柴堆山",
+      "translation": "送火山",
       "line": 2168
     },
     "Investigate Mt. Pyre for the source of the disturbances.": {
-      "translation": "调查柴堆山的干扰源。",
+      "translation": "调查送火山的干扰源。",
       "line": 2168
     },
     "Talk to Archie.": {
@@ -4193,7 +4192,7 @@
       "line": 2650
     },
     "Lush Jungle": {
-      "translation": "茂密的丛林",
+      "translation": "葱郁洞窟",
       "line": 2653
     },
     "Mallow": {
@@ -5363,11 +5362,11 @@
       "line": 3366
     },
     "Team Magma Leader Maxie": {
-      "translation": "岩浆队头目赤焰松",
+      "translation": "熔岩队头目赤焰松",
       "line": 3367
     },
     "Defeat Team Magma Leader Maxie.": {
-      "translation": "击败岩浆队头目赤焰松。",
+      "translation": "击败熔岩队头目赤焰松。",
       "line": 3367
     },
     "Defeat Archie and Maxie.": {
@@ -5383,11 +5382,11 @@
       "line": 3374
     },
     "Team Flare Leader Lysandre": {
-      "translation": "耀斑队队长 弗拉达利",
+      "translation": "闪焰队队长 弗拉达利",
       "line": 3377
     },
     "Defeat Team Flare Leader Lysandre.": {
-      "translation": "击败耀斑队队长弗拉达利。",
+      "translation": "击败闪焰队队长弗拉达利。",
       "line": 3377
     },
     "Team Plasma Leader Ghetsis": {
@@ -5395,7 +5394,7 @@
       "line": 3380
     },
     "Defeat Team Plasma Leader Ghetsis.": {
-      "translation": "击败等离子队队长盖西斯。",
+      "translation": "击败等离子队队长魁奇思。",
       "line": 3380
     },
     "Defeat Team Rainbow Leader Giovanni.": {
@@ -6776,3 +6775,5 @@
     }
   }
 }
+
+

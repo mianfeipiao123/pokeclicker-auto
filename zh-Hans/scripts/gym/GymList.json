@@ -1,4 +1,4 @@
-{
+﻿{
   "_meta": {
     "sourceFile": "src/scripts/gym/GymList.ts",
     "lastUpdated": "2026-01-02",
@@ -486,8 +486,7 @@
       "translation": "生病的安法罗斯",
       "line": 299
     },
-    "Cianwood City": {
-      "translation": "浅葱市",
+    "Cianwood City": { "translation": "湛蓝市",
       "line": 302
     },
     "Chuck": {
@@ -767,7 +766,7 @@
       "line": 493
     },
     "Jagged Pass": {
-      "translation": "锯齿状通行证",
+      "translation": "凹凸山道",
       "line": 494
     },
     "Petalburg City": {
@@ -1401,7 +1400,7 @@
       "line": 924
     },
     "Pastoria City": {
-      "translation": "帕斯托里亚市",
+      "translation": "湿原市",
       "line": 927
     },
     "Crasher Wake": {
@@ -1681,7 +1680,7 @@
       "line": 1091
     },
     "Castelia City": {
-      "translation": "卡斯特利亚市",
+      "translation": "飞云市",
       "line": 1094
     },
     "Burgh": {
@@ -1709,11 +1708,11 @@
       "line": 1105
     },
     "Castelia Sewers": {
-      "translation": "卡斯特利亚下水道",
+      "translation": "飞云下水道",
       "line": 1106
     },
     "Nimbasa City": {
-      "translation": "宁巴萨市",
+      "translation": "雷文市",
       "line": 1108
     },
     "Elesa": {
@@ -3958,3 +3957,4 @@
     }
   }
 }
+

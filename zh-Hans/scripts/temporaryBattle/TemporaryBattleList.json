@@ -1,4 +1,4 @@
-{
+﻿{
   "_meta": {
     "sourceFile": "src/scripts/temporaryBattle/TemporaryBattleList.ts",
     "lastUpdated": "2026-01-01",
@@ -163,7 +163,7 @@
       "line": 117
     },
     "Snorlax route 12": {
-      "translation": "斯诺拉克斯12号道路",
+      "translation": "卡比兽12号道路",
       "line": 120
     },
     "Snorlax": {
@@ -175,7 +175,7 @@
       "line": 131
     },
     "Snorlax route 16": {
-      "translation": "斯诺拉克斯16号道路",
+      "translation": "卡比兽16号道路",
       "line": 137
     },
     "Celadon City": {
@@ -526,8 +526,7 @@
       "translation": "民吉的追逐",
       "line": 523
     },
-    "Cianwood City": {
-      "translation": "浅葱市",
+    "Cianwood City": { "translation": "湛蓝市",
       "line": 529
     },
     "../pokemon/245": {
@@ -1551,7 +1550,7 @@
       "line": 1439
     },
     "Pastoria City": {
-      "translation": "帕斯托里亚市",
+      "translation": "湿原市",
       "line": 1447
     },
     "Galactic Boss Cyrus": {
@@ -1867,7 +1866,7 @@
       "line": 1760
     },
     "Castelia City": {
-      "translation": "卡斯特利亚市",
+      "translation": "飞云市",
       "line": 1761
     },
     "Team Plasma (colress)": {
@@ -2087,7 +2086,7 @@
       "line": 1951
     },
     "Team Plasma (zinzolin)": {
-      "translation": "等离子团队（辛佐林）",
+      "translation": "等离子队（辛佐林）",
       "line": 1952
     },
     "Team Plasma Grunt 7": {
@@ -2167,7 +2166,7 @@
       "line": 2040
     },
     "Giant Chasm": {
-      "translation": "巨大的鸿沟",
+      "translation": "巨人洞窟",
       "line": 2042
     },
     "Colress": {
@@ -2207,7 +2206,7 @@
       "line": 2089
     },
     "Ghetsis 1": {
-      "translation": "盖西斯1",
+      "translation": "魁奇思1",
       "line": 2097
     },
     "Kyurem (Black)": {
@@ -2227,7 +2226,7 @@
       "line": 2112
     },
     "Ghetsis 2": {
-      "translation": "盖西斯2",
+      "translation": "魁奇思2",
       "line": 2116
     },
     "Cofagrigus": {
@@ -2415,7 +2414,7 @@
       "line": 2306
     },
     "Red Genesect 1": {
-      "translation": "红色盖内塞克特1",
+      "translation": "红色盖诺赛克特1",
       "line": 2322
     },
     "Genesect": {
@@ -2431,7 +2430,7 @@
       "line": 2329
     },
     "Genesect Burn": {
-      "translation": "盖诺塞克特烧伤",
+      "translation": "火焰卡带盖诺赛克特",
       "line": 2334
     },
     "Genesect (Burn)": {
@@ -2439,15 +2438,15 @@
       "line": 2336
     },
     "Burn Drive Genesect": {
-      "translation": "刻录驱动器盖诺塞克特",
+      "translation": "火焰卡带盖诺赛克特",
       "line": 2341
     },
     "Castelia Sewers": {
-      "translation": "卡斯特利亚下水道",
+      "translation": "飞云下水道",
       "line": 2342
     },
     "Genesect Chill": {
-      "translation": "盖诺塞克特寒意",
+      "translation": "冰冻卡带盖诺赛克特",
       "line": 2347
     },
     "Genesect (Chill)": {
@@ -2455,11 +2454,11 @@
       "line": 2349
     },
     "Chill Drive Genesect": {
-      "translation": "寒冷驱动杰内塞克特",
+      "translation": "冰冻卡带盖诺赛克特",
       "line": 2354
     },
     "Genesect Douse": {
-      "translation": "盖诺塞克特·杜斯",
+      "translation": "水流卡带盖诺赛克特",
       "line": 2360
     },
     "Genesect (Douse)": {
@@ -2467,11 +2466,11 @@
       "line": 2362
     },
     "Douse Drive Genesect": {
-      "translation": "杜斯驱动器盖内塞克特",
+      "translation": "水流卡带盖诺赛克特",
       "line": 2367
     },
     "Genesect Shock": {
-      "translation": "盖诺塞克特冲击",
+      "translation": "闪电卡带盖诺赛克特",
       "line": 2373
     },
     "Genesect (Shock)": {
@@ -2479,11 +2478,11 @@
       "line": 2375
     },
     "Shock Drive Genesect": {
-      "translation": "冲击驱动吉诺塞克特",
+      "translation": "闪电卡带盖诺赛克特",
       "line": 2380
     },
     "Red Genesect 2": {
-      "translation": "红色盖诺塞克特2",
+      "translation": "红色盖诺赛克特2",
       "line": 2386
     },
     "Genesect (High-Speed)": {
@@ -3323,7 +3322,7 @@
       "line": 3010
     },
     "Mt. Pyre": {
-      "translation": "柴堆山",
+      "translation": "送火山",
       "line": 3015
     },
     "../pokemon/383.01": {
@@ -3687,7 +3686,7 @@
       "line": 3354
     },
     "Team Flare Boss Lysandre 1": {
-      "translation": "耀斑队 Boss 弗拉达利1",
+      "translation": "闪焰队 Boss 弗拉达利1",
       "line": 3363
     },
     "Mienshao": {
@@ -3707,7 +3706,7 @@
       "line": 3371
     },
     "Team Flare Boss Lysandre": {
-      "translation": "耀斑队 Boss 弗拉达利",
+      "translation": "闪焰队 Boss 弗拉达利",
       "line": 3375
     },
     "Sycamore 2": {
@@ -4019,7 +4018,7 @@
       "line": 3683
     },
     "Team Flare Boss Lysandre 2": {
-      "translation": "耀斑队 Boss 弗拉达利2",
+      "translation": "闪焰队 Boss 弗拉达利2",
       "line": 3688
     },
     "I see the strength to protect within you... Hopefully you can do a better job than me and protect a tomorrow that will be better than today. Take this Gyaradosite.</br><img src=\"assets/images/megaStone/Gyaradosite.png\"/></br>": {
@@ -5315,7 +5314,7 @@
       "line": 4741
     },
     "Team Magma Leader Maxie": {
-      "translation": "岩浆队头目赤焰松",
+      "translation": "熔岩队头目赤焰松",
       "line": 4745
     },
     "Groudon": {
@@ -5335,7 +5334,7 @@
       "line": 4762
     },
     "Team Flare Leader Lysandre": {
-      "translation": "耀斑队队长 弗拉达利",
+      "translation": "闪焰队队长 弗拉达利",
       "line": 4780
     },
     "I can feel the fire of your convictions burning deep within your heart!": {

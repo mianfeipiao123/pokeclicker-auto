@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-10T18:46:03.549Z",
+    "generatedAt": "2026-01-10T19:40:11.979Z",
     "totalEntries": 2356,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
@@ -2118,7 +2118,7 @@
     "You can still get gems and use them to buy items such as flutes or Pokémon.": "你仍然可以获得宝石并用它们购买笛子或宝可梦等物品。",
     "You can unlock a plot by using the toggle or pressing": "你可以使用切换开关或按",
     "You can use evolution items by clicking": "你可以通过点击使用进化物品",
-    "You can use the Contagious Poké Ball selector (unlocked after getting Pokérus) to focus catching Pokémon with less than 50 EVs. Note that setting this selector to \"Do not catch\" will prevent you from catching any Contagious Pokémon, even if your Caught selector has a Poké Ball set.": "你可以使用传染性精灵球选择器（获得宝可梦后解锁）来集中捕捉努力值数少于50的宝可梦。请注意，将此选择器设置为“不捕捉”将阻止你捕捉任何传染性宝可梦，即使你的“捕捉”选择器具有精灵球套装。",
+    "You can use the Contagious Poké Ball selector (unlocked after getting Pokérus) to focus catching Pokémon with less than 50 EVs. Note that setting this selector to \"Do not catch\" will prevent you from catching any Contagious Pokémon, even if your Caught selector has a Poké Ball set.": "你可以使用可传染精灵球选择器（获得宝可病毒后解锁）来集中捕捉努力值少于50的宝可梦。请注意，将此选择器设置为“不捕捉”将阻止你捕捉任何可传染的宝可梦，即使你的“已捕获”选择器已经设置了精灵球。",
     "You can view all your": "你可以查看你的所有",
     "You can\\'t access that dungeon right now!": "你现在无法进入那个迷宫！",
     "You can\\'t currently afford to hire me...": "你目前付不起雇用我的费用...",

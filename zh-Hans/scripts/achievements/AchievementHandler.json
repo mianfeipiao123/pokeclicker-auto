@@ -1675,7 +1675,7 @@
       "line": 504
     },
     "Obtain all ${...} Mega Stones.": {
-      "translation": "获得所有 ${...} 巨型宝石。",
+      "translation": "获得所有 ${...} 超进化石。",
       "line": 504,
       "_rematchedFrom": "Obtain all ${...} Mega Stones.",
       "_confidence": 0.85

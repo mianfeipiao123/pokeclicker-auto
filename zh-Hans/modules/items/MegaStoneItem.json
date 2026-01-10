@@ -27,7 +27,7 @@
       "line": 38
     },
     "A Mega Stone for ${...}.": {
-      "translation": "${...}的超级石。",
+      "translation": "${...}的超进化石。",
       "line": 46,
       "_rematchedFrom": "A Mega Stone for ${...}.",
       "_confidence": 0.85

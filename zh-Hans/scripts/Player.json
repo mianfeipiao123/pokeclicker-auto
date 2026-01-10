@@ -17,13 +17,13 @@
       "_confidence": 0.95
     },
     "${...} has gained a Mega Stone!": {
-      "translation": "${...} 获得了超级石！",
+      "translation": "${...} 获得了超进化石！",
       "line": 196,
       "_rematchedFrom": "${...} has gained a Mega Stone!",
       "_confidence": 0.85
     },
     "You have gained a Mega Stone for ${...}!": {
-      "translation": "你获得了 ${...} 的超级石！",
+      "translation": "你获得了 ${...} 的超进化石！",
       "line": 196,
       "_rematchedFrom": "You have gained a Mega Stone for ${...}!",
       "_confidence": 0.85

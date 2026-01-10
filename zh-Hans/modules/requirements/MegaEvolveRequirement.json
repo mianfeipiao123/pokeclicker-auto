@@ -27,7 +27,7 @@
       "line": 21
     },
     "${...} needs the ${...} Mega Stone.": {
-      "translation": "${...}需要${...}超级石。",
+      "translation": "${...}需要${...}超进化石。",
       "line": 25,
       "_rematchedFrom": "${...} needs the ${...} Mega Stone.",
       "_confidence": 0.85

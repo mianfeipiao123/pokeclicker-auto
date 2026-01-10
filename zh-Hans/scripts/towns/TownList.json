@@ -311,7 +311,7 @@
       "line": 358
     },
     "I was thinking, Bill told me about a Pokémon that is very loyal to its trainer. It's supposed to roar well.": {
-      "translation": "我在想，正辉告诉我有一种对训练师非常忠诚的宝可梦。应该会很好地咆哮。",
+      "translation": "我在想，正辉告诉我有一种对训练家非常忠诚的宝可梦。应该会很好地咆哮。",
       "line": 359
     },
     "I would really like to meet one, can you stop by if you capture one, please?": {
@@ -383,7 +383,7 @@
       "line": 400
     },
     "Take a look at it! Suicune is still there waiting for you! It has been waiting for a worthy Trainer to whom it can entrust itself!": {
-      "translation": "快看！水君还在那里等着你！它一直在等待一个值得托付的训练师！",
+      "translation": "快看！水君还在那里等着你！它一直在等待一个值得托付的训练家！",
       "line": 401
     },
     "assets/images/npcs/Eusine.png": {
@@ -607,7 +607,7 @@
       "line": 490
     },
     "To be honest, I would like to keep this information to myself. But I want to be an honest Trainer in front of Suicune! That's why I am sharing a clue with you.": {
-      "translation": "说实话，我本想把这个信息留给自己。但我想在水君面前做一个诚实的训练师！所以我要和你分享这个线索。",
+      "translation": "说实话，我本想把这个信息留给自己。但我想在水君面前做一个诚实的训练家！所以我要和你分享这个线索。",
       "line": 491
     },
     "It seems that... Suicune prefers a hilly place near water... Somewhere north. I don't know exactly where, yet. It will be just you and me! Who'll find it first? I challenge you!": {
@@ -699,7 +699,7 @@
       "line": 531
     },
     "How have things been for you? Oh, is that right? You've caught more Pokémon. Do you know what? Maybe I can be useful to you. I'm modifying the Network Machine right now. I'm changing it so it can handle trades over long distances. When I get finished, you'll be trading for exotic Pokémon from Trainers far away.": {
-      "translation": "你过得怎么样？哦，是吗？你捕获了更多宝可梦。你知道什么吗？也许我对你有用。我现在正在修改网络机器。我正在对其进行更改，以便它可以处理长距离交易。当我完成后，你将可以从远处的训练师处交易奇异的宝可梦。",
+      "translation": "你过得怎么样？哦，是吗？你捕获了更多宝可梦。你知道什么吗？也许我对你有用。我现在正在修改网络机器。我正在对其进行更改，以便它可以处理长距离交易。当我完成后，你将可以从远处的训练家处交易奇异的宝可梦。",
       "line": 534
     },
     "But, there is a slight catch. For the link to work, the Machine needs a special gemstone. It's supposed to be on One Island, but I haven't found one yet. Who knows where it could be.": {
@@ -1927,7 +1927,7 @@
       "line": 1624
     },
     "I can't think of a better trainer for this Celebi.": {
-      "translation": "我想不出比你更适合这只时拉比的训练师了。",
+      "translation": "我想不出比你更适合这只时拉比的训练家了。",
       "line": 1625
     },
     "Celebi wasn't there? Strange, usually it loves to play with young people at the shrine.": {
@@ -1955,11 +1955,11 @@
       "line": 1649
     },
     "If it wants to play I'm sure a great trainer such as yourself can figure out a way that you can be friends and play all the time!": {
-      "translation": "如果它想玩，我相信像你这样优秀的训练师可以找到一种方法，让你们可以成为朋友并一直玩！",
+      "translation": "如果它想玩，我相信像你这样优秀的训练家可以找到一种方法，让你们可以成为朋友并一直玩！",
       "line": 1650
     },
     "I'm glad Celebi has been released from that wretched prison and has found a home with a great young trainer like yourself. I'm going back to Kanto.": {
-      "translation": "我很高兴时拉比从那个可怕的牢笼中被释放出来，并在像你这样优秀的年轻训练师那里找到了归宿。我要回关都了。",
+      "translation": "我很高兴时拉比从那个可怕的牢笼中被释放出来，并在像你这样优秀的年轻训练家那里找到了归宿。我要回关都了。",
       "line": 1657
     },
     "Goodbye Celebi.": {
@@ -2229,7 +2229,7 @@
       "line": 1821
     },
     "I've decided. I'll battle you as a trainer to earn Suicune's respect! Come on! Let's battle now!": {
-      "translation": "我决定了！我要以训练师的身份和你对战，赢得水君的认可！来吧！现在就对战！",
+      "translation": "我决定了！我要以训练家的身份和你对战，赢得水君的认可！来吧！现在就对战！",
       "line": 1822
     },
     "Souvenir Shop Attendant": {
@@ -2897,7 +2897,7 @@
       "line": 2473
     },
     "Ah, so you are the new trainer in the region? I've heard tales of your exploits. My name is Wallace. I was once the Gym Leader of Sootopolis, but something came up. So now, I've entrusted my mentor Juan with the Gym's operation.": {
-      "translation": "啊，这么说你就是这个地区的新训练师了？我听说过你的功绩。我叫米可利。我曾经是苏托波利斯的道馆馆主，但发生了一些事情。所以现在，我把道馆的运营委托给了我的导师胡安。",
+      "translation": "啊，这么说你就是这个地区的新训练家了？我听说过你的功绩。我叫米可利。我曾经是琉璃市的道馆馆主，但发生了一些事情。所以现在，我把道馆的运营委托给了我的导师胡安。",
       "line": 2474
     },
     "Groudon and Kyogre, the two Pokémon wreaking havoc in Sootopolis City, are considered to be Super-Ancient Pokémon. But there aren't just two Super-Ancient Pokémon. Somewhere, there is a Super-Ancient Pokémon named Rayquaza. It's said that it was Rayquaza that becalmed the two combatants in the distant past.": {
@@ -2929,7 +2929,7 @@
       "line": 2484
     },
     "Kyogre and Groudon are rumored to live deep within this very cave, but they are unlikely to show themselves to any normal trainer. Maybe the champion of Hoenn could earn their respect.": {
-      "translation": "据说盖欧卡和固拉多住在这个洞穴的深处，但它们不太可能出现在普通训练师面前。也许丰缘的冠军能够赢得它们的尊重。",
+      "translation": "据说盖欧卡和固拉多住在这个洞穴的深处，但它们不太可能出现在普通训练家面前。也许丰缘的冠军能够赢得它们的尊重。",
       "line": 2485
     },
     "The Super-Ancient Pokémon Clash": {
@@ -2997,7 +2997,7 @@
       "line": 2514
     },
     "I have found what appears to be a crystalline cocoon that contains Jirachi, the Wish Pokémon! I would be honored if you would take this cocoon as thanks for helping me. Legend has it that Jirachi will appear for a trainer who is pure of heart and grant them a wish!": {
-      "translation": "我发现了一个看起来像水晶茧的东西，里面装着基拉祈，许愿宝可梦！如果你能收下这个茧作为对我帮助的感谢，我会感到非常荣幸。传说基拉祈会出现在心地纯洁的训练师面前，实现他们的愿望！",
+      "translation": "我发现了一个看起来像水晶茧的东西，里面装着基拉祈，许愿宝可梦！如果你能收下这个茧作为对我帮助的感谢，我会感到非常荣幸。传说基拉祈会出现在心地纯洁的训练家面前，实现他们的愿望！",
       "line": 2515
     },
     "<i>Butler gives you a crystalline cocoon containing Jirachi.</i>": {
@@ -3065,7 +3065,7 @@
       "line": 2547
     },
     "Cool Trainer Dillan": {
-      "translation": "酷训练师迪兰",
+      "translation": "酷训练家迪兰",
       "line": 2549
     },
     "Hey newcomer! I see you are the Hoenn Champion. You must be an amazing Trainer!": {
@@ -3073,7 +3073,7 @@
       "line": 2550
     },
     "At the Battle Frontier, you can test your skills against Trainers from all over the world.": {
-      "translation": "在对战开拓区，你可以与来自世界各地的训练师一起测试你的技能。",
+      "translation": "在对战开拓区，你可以与来自世界各地的训练家一起测试你的技能。",
       "line": 2551
     },
     "Since some of these Trainers come from far away, you may see Pokémon that you might not be able to catch yet.": {
@@ -3347,7 +3347,7 @@
       "line": 2707
     },
     "You must be $playername$, the trainer Wa... People are talking about.": {
-      "translation": "你一定是$playername$，训练师Wa...人们正在谈论。",
+      "translation": "你一定是$playername$，训练家Wa...人们正在谈论。",
       "line": 2708
     },
     "If you're here, it means you've heard the same news that I have: a meteor is headed towards this island.": {
@@ -3683,7 +3683,7 @@
       "line": 2855
     },
     "Oh uh... forget I said that. Zinnia's already gone. I have no idea where she went, but another Draconid or even an ancient Sootopolitan might know. Maybe try talking to Wallace?": {
-      "translation": "哦呃...忘记我说过了。希嘉娜已经走了。我不知道她去了哪里，但另一个天龙族甚至古代的苏托波利斯人可能知道。也许尝试和米可利谈谈？",
+      "translation": "哦呃...忘记我说过了。希嘉娜已经走了。我不知道她去了哪里，但另一个天龙族甚至古代的琉璃市人可能知道。也许尝试和米可利谈谈？",
       "line": 2856
     },
     "assets/images/npcs/Magma Leader.png": {
@@ -3787,7 +3787,7 @@
       "line": 2922
     },
     "You're a rather impressive trainer $playername$, but there's no way you can beat me. Come back when you're stronger.": {
-      "translation": "你是一位相当令人印象深刻的训练师$playername$，但你不可能打败我。等你更强了再回来吧。",
+      "translation": "你是一位相当令人印象深刻的训练家$playername$，但你不可能打败我。等你更强了再回来吧。",
       "line": 2928
     },
     "Delta Steven": {
@@ -4127,7 +4127,7 @@
       "line": 3096
     },
     "Those masked trainers went and kidnapped my beloved Plusle! How dare they!": {
-      "translation": "那些蒙面训练师绑架了我心爱的正电拍拍！他们怎么敢！",
+      "translation": "那些蒙面训练家绑架了我心爱的正电拍拍！他们怎么敢！",
       "line": 3097
     },
     "They told me that I had to let them have free reign in town, or there would be trouble. They're out at the Colosseum causing trouble.": {
@@ -4207,7 +4207,7 @@
       "line": 3134
     },
     "<i>Scripts litter Venus' desk, as well as other, more suspicious files addressing what trainers in town have which Pokémon. There are also several letters labeled \"Mayor's Office\".</i>": {
-      "translation": "<i>剧本散落在维纳斯的桌子上，还有其他更可疑的文件，记录着镇上的训练师有哪些宝可梦。还有几封标有\"市长办公室\"的信件。</i>",
+      "translation": "<i>剧本散落在维纳斯的桌子上，还有其他更可疑的文件，记录着镇上的训练家有哪些宝可梦。还有几封标有\"市长办公室\"的信件。</i>",
       "line": 3135
     },
     "Mayor's Office": {
@@ -4279,7 +4279,7 @@
       "line": 3159
     },
     "Those Pokémon would be better off in the hands of a radical trainer who knows how to use Catch Filters, like me!": {
-      "translation": "这些宝可梦在像我这样知道如何使用捕捉过滤器的激进训练师手中会更好！",
+      "translation": "这些宝可梦在像我这样知道如何使用捕捉过滤器的激进训练家手中会更好！",
       "line": 3160
     },
     "assets/images/npcs/Roller Boy.png": {
@@ -4523,7 +4523,7 @@
       "line": 3240
     },
     "In my time in captivity, I learned that the new Grand Master of Team Cipher has used a powerful Shadow Pokémon to kidnap all the trainers and Pokémon from the S. S. Libra and has taken them to Citadark Island!": {
-      "translation": "在我被囚禁期间，我得知密码队的新任大师使用强大的暗影宝可梦从天秤号绑架了所有训练师和宝可梦，并将他们带到了暗黑岛！",
+      "translation": "在我被囚禁期间，我得知密码队的新任大师使用强大的暗影宝可梦从天秤号绑架了所有训练家和宝可梦，并将他们带到了暗黑岛！",
       "line": 3241
     },
     "Snagging this powerful Shadow Pokémon will be hard, take this Master Ball!": {
@@ -4543,7 +4543,7 @@
       "line": 3248
     },
     "Only the toughest trainers in Orre are allowed to fight here! I'm just watching until I get stronger.": {
-      "translation": "只有奥雷最厉害的训练师才被允许在这里战斗！我只是看着，直到我变得更强。",
+      "translation": "只有奥雷最厉害的训练家才被允许在这里战斗！我只是看着，直到我变得更强。",
       "line": 3249
     },
     "Green Pulsing Gemstone": {
@@ -5199,7 +5199,7 @@
       "line": 4190
     },
     "Did you know?! The Gym Leaders of Canalave and Oreburgh are father and son! And what's more- there's a third person in the mix! Apparently he's such a dedicated digger he travelled all the way to Kanto to set up shop selling Explorer Kits! Talk about a family tradition!": {
-      "translation": "你可知道？！卡纳拉夫和奥勒堡的道馆馆主是父子！更重要的是——还有第三个人！显然他是一位非常热心的挖掘者，他专程跑到关都开设了一家销售探险家套件的商店！谈论家庭传统！",
+      "translation": "你可知道？！美央市和黑金市的道馆馆主是父子！更重要的是——还有第三个人！显然他是一位非常热心的挖掘者，他专程跑到关都开设了一家销售探险家套件的商店！谈论家庭传统！",
       "line": 4191
     },
     "Too bad there are only two new fossils in the Sinnoh region. If there was one more, maybe he could be a Gym Leader too!": {
@@ -5339,7 +5339,7 @@
       "line": 4240
     },
     "Oh, hello! Say, have you ever heard of Cresselia? Once when I was really little I had a really bad dream I couldn't wake up from, but then a kind trainer went to an island near here and got help from Cresselia to cure me!": {
-      "translation": "哦，你好！话说，你听说过克雷色利亚吗？有一次，当我很小的时候，我做了一个非常糟糕的梦，无法醒来，但后来一位善良的训练师去了附近的一个岛屿，并得到了克雷色利亚的帮助来治愈我！",
+      "translation": "哦，你好！话说，你听说过克雷色利亚吗？有一次，当我很小的时候，我做了一个非常糟糕的梦，无法醒来，但后来一位善良的训练家去了附近的一个岛屿，并得到了克雷色利亚的帮助来治愈我！",
       "line": 4241
     },
     "Maybe if you can prove yourself by conquering that island, you could find Cresselia roaming around the region...": {
@@ -5491,7 +5491,7 @@
       "line": 4295
     },
     "Ace Trainer Quinn": {
-      "translation": "王牌训练师奎因",
+      "translation": "王牌训练家奎因",
       "line": 4298
     },
     "Something amazing happened on top of Mt. Coronet. We could see it all the way from here. I'm sure everyone in the entire region saw it.": {
@@ -5681,11 +5681,11 @@
       "line": 4381
     },
     "Canalave's Library has several books detailing the legends of Manaphy. Perhaps one of them can help us find out how to hatch this egg.": {
-      "translation": "卡纳拉夫的图书馆有几本书详细介绍了玛纳菲的传奇故事。也许其中之一可以帮助我们找出如何孵化这颗蛋。",
+      "translation": "美央市的图书馆有几本书详细介绍了玛纳菲的传奇故事。也许其中之一可以帮助我们找出如何孵化这颗蛋。",
       "line": 4382
     },
     "No time to waste - I'll see you at the Canalave Library!": {
-      "translation": "没有时间可以浪费了 - 我们在卡纳拉夫图书馆见！",
+      "translation": "没有时间可以浪费了 - 我们在美央市图书馆见！",
       "line": 4383
     },
     "Trainer, there's trouble afoot!": {
@@ -5821,7 +5821,7 @@
       "line": 4449
     },
     "I was worried its trainer had lost it, so I came here to ask around. I hope you catch up to it soon.": {
-      "translation": "我担心它的训练师把它弄丢了，就来这里打听。我希望你能尽快赶上它。",
+      "translation": "我担心它的训练家把它弄丢了，就来这里打听。我希望你能尽快赶上它。",
       "line": 4450
     },
     "<i>If it has a better sense of direction than the Go-Rock Squad, it'll probably pop out at Eterna City.</i>": {
@@ -5905,7 +5905,7 @@
       "line": 4492
     },
     "When I saw it still running, I tried to catch up to it, but it got into the Oreburgh Tunnel and I lost track of it.": {
-      "translation": "当我看到它还在跑时，我试图追上它，但它进入了奥勒堡隧道，我失去了它的踪迹。",
+      "translation": "当我看到它还在跑时，我试图追上它，但它进入了黑金市隧道，我失去了它的踪迹。",
       "line": 4493
     },
     "...Say, are you alright? You look a little... bug-eyed.": {
@@ -6043,19 +6043,19 @@
       "line": 4566
     },
     "Oreburgh City": {
-      "translation": "奥勒堡市",
+      "translation": "黑金市市",
       "line": 4576
     },
     "FossilOreburghMiningMuseum": {
-      "translation": "奥勒堡化石矿业博物馆",
+      "translation": "黑金市化石矿业博物馆",
       "line": 4580
     },
     "Oreburgh Mining Museum": {
-      "translation": "奥勒堡矿业博物馆",
+      "translation": "黑金市矿业博物馆",
       "line": 4580
     },
     "Oreburgh Gate": {
-      "translation": "奥勒堡门",
+      "translation": "黑金市门",
       "line": 4582
     },
     "Floaroma Town": {
@@ -6311,7 +6311,7 @@
       "line": 5124
     },
     "Last time they were spotted they just roamed around, causing all kinds of mischief. According to my books anyway. I'm sure that amazing trainer from the TV will want to catch these mighty forces of nature.": {
-      "translation": "上次被发现时，它们只是四处游荡，造成各种恶作剧。无论如何，根据我的书。我确信电视上那位出色的训练师会想要捕捉这些强大的自然力量。",
+      "translation": "上次被发现时，它们只是四处游荡，造成各种恶作剧。无论如何，根据我的书。我确信电视上那位出色的训练家会想要捕捉这些强大的自然力量。",
       "line": 5125
     },
     "assets/images/npcs/School Kid (female).png": {
@@ -6459,7 +6459,7 @@
       "line": 5175
     },
     "That aside! The reason I have been traveling all over Unova and battling many Pokémon Trainers is because I was testing the viability of this approach to bringing out the full strength of Pokémon. In that respect, you've done an amazing job.": {
-      "translation": "抛开这一点！我之所以在合众国各地旅行并与许多宝可梦训练师战斗，是因为我正在测试这种方法的可行性，以发挥宝可梦的全部力量。在这方面，你做得非常出色。",
+      "translation": "抛开这一点！我之所以在合众国各地旅行并与许多宝可梦训练家战斗，是因为我正在测试这种方法的可行性，以发挥宝可梦的全部力量。在这方面，你做得非常出色。",
       "line": 5176
     },
     "Well now! Tell me if you have the answer I desire or not! If you're ready, come at me!": {
@@ -6807,7 +6807,7 @@
       "line": 5368
     },
     "Trainers report on sightings of various Genesect holding the same Drives as the Genesect they own.": {
-      "translation": "训练师报告称，目击到不同的盖诺赛克特持有与他们所拥有的盖诺赛克特相同的驱动器。",
+      "translation": "训练家报告称，目击到不同的盖诺赛克特持有与他们所拥有的盖诺赛克特相同的驱动器。",
       "line": 5375
     },
     "It seems like this Dungeon's Genesect is choosing its Drive based on the Moon Cycle!": {
@@ -7411,7 +7411,7 @@
       "line": 6105
     },
     "Unfortunately my skills as a collector far surpass my skills as a Pokémon trainer. But anyone who can become the Champion of Kalos surely can convince Grant that this stone will be in good hands.": {
-      "translation": "不幸的是，我作为收藏家的技能远远超过了作为宝可梦训练师的技能。但任何能够成为卡洛斯冠军的人都一定能让格兰特相信这块石头会得到妥善保管。",
+      "translation": "不幸的是，我作为收藏家的技能远远超过了作为宝可梦训练家的技能。但任何能够成为卡洛斯冠军的人都一定能让格兰特相信这块石头会得到妥善保管。",
       "line": 6106
     },
     "assets/images/npcs/Collector.png": {
@@ -7691,7 +7691,7 @@
       "line": 6228
     },
     "You saved us! Thank you so much! You're an astounding Pokémon Trainer.": {
-      "translation": "你救了我们！太感谢了！你是一位令人惊叹的宝可梦训练师。",
+      "translation": "你救了我们！太感谢了！你是一位令人惊叹的宝可梦训练家。",
       "line": 6229
     },
     "Very well, then. I want to show my appreciation. I'll give you a Master Ball.": {
@@ -7803,7 +7803,7 @@
       "line": 6270
     },
     "Pokémon Trainers. I come to you to make an important announcement. Listen well.": {
-      "translation": "宝可梦训练师。我来找你是要宣布一个重要的消息。好好听。",
+      "translation": "宝可梦训练家。我来找你是要宣布一个重要的消息。好好听。",
       "line": 6271
     },
     "Team Flare will revive the ultimate weapon, eliminate everyone who isn't in our group, and return the world to a beautiful, natural state.": {
@@ -7831,7 +7831,7 @@
       "line": 6282
     },
     "Listen, trainer who will face Lysandre. A terribly long time ago... There was a man and a Pokémon. A war began. The man's beloved Pokémon took part in the war.": {
-      "translation": "听着，即将面对弗拉达利的训练师。很久以前……有一个男人和一只宝可梦。一场战争开始了。男人心爱的宝可梦参加了战争。",
+      "translation": "听着，即将面对弗拉达利的训练家。很久以前……有一个男人和一只宝可梦。一场战争开始了。男人心爱的宝可梦参加了战争。",
       "line": 6288
     },
     "The Pokémon died. The man wanted to bring the Pokémon back. No matter what it took. The man built a machine to give it life and succeeded.": {
@@ -8347,7 +8347,7 @@
       "line": 6465
     },
     "<i>You see an Icy Snow Vivillon bundled up with its trainer. It's enjoying a much-needed warm cup of cocoa to counteract the icy cave around it.</i>": {
-      "translation": "<i>你看到冰雪花纹的彩粉蝶和训练师裹得严严实实，正喝着一杯热可可，抵御周围冰冷的洞窟。</i>",
+      "translation": "<i>你看到冰雪花纹的彩粉蝶和训练家裹得严严实实，正喝着一杯热可可，抵御周围冰冷的洞窟。</i>",
       "line": 6466
     },
     "<img src=\"assets/images/npcs/textbody/VivillonPhotobookPokéBall.png\" style=\"max-width:100%; height:auto\"/>": {
@@ -8487,7 +8487,7 @@
       "line": 6552
     },
     "Sycamore 1": {
-      "translation": "梧桐1",
+      "translation": "布拉塔诺博士1",
       "line": 6556
     },
     "Team Flare Lysandre 1": {
@@ -8587,7 +8587,7 @@
       "line": 6674
     },
     "Sycamore 2": {
-      "translation": "梧桐2号",
+      "translation": "布拉塔诺博士2",
       "line": 6678
     },
     "Snowbelle City": {
@@ -9001,7 +9001,7 @@
       "line": 7094
     },
     "I like sneaking snacks inside the Battle Royal Dome. One time I snuck in pancakes and there were two trainers from Kanto who both had a Pikachu. I ended up sharing some with one.": {
-      "translation": "我喜欢在皇家圆顶之战中偷偷吃零食。有一次我偷偷溜进煎饼，发现有两个来自关都的训练师，他们都有一只皮卡丘。我最终与一个人分享了一些。",
+      "translation": "我喜欢在皇家圆顶之战中偷偷吃零食。有一次我偷偷溜进煎饼，发现有两个来自关都的训练家，他们都有一只皮卡丘。我最终与一个人分享了一些。",
       "line": 7095
     },
     "Weird thing is, both trainers evolved their Pikachu after the battle, but one had a different form from usual! Maybe there's something about Alola that makes certain Pokémon evolve differently? I would check my Evolution Items if I were you.": {
@@ -9985,7 +9985,7 @@
       "line": 7612
     },
     "If you want it that bad, you gotta earn it. I won't just hand it over to you. I'm starting from scratch as a Pokémon Trainer and doing it right this time, so you gotta show me what you're made of, in a battle. You and your Pokémon against me and mine! Are you up for the challenge, kid?": {
-      "translation": "如果你那么想要它，你就必须赢得它。我不会只把它交给你。我从零开始担任宝可梦训练师，这次做得很好，所以你必须在战斗中向我展示你的实力。你和你的宝可梦对抗我和我的！孩子，你准备好迎接挑战了吗？",
+      "translation": "如果你那么想要它，你就必须赢得它。我不会只把它交给你。我从零开始担任宝可梦训练家，这次做得很好，所以你必须在战斗中向我展示你的实力。你和你的宝可梦对抗我和我的！孩子，你准备好迎接挑战了吗？",
       "line": 7613
     },
     "assets/images/npcs/Plumeria (league).png": {
@@ -10013,7 +10013,7 @@
       "line": 7625
     },
     "Oh, welcome $playername$, the Champion of Alola! I see you <i>still</i> haven't lost that title. You're a pretty... <i>worthy</i> trainer, aren't you? Anyways, I think you should come visit us another time we're... er.. busy! Yes, we're extremely busy right now...": {
-      "translation": "哦，欢迎你，$playername$，阿罗拉冠军！看来你<i>至今</i>还没丢掉这个头衔。你可真是个……<i>了不起</i>的训练师啊？总之，我觉得你还是改天再来吧，我们……呃……很忙！对，我们现在非常忙……",
+      "translation": "哦，欢迎你，$playername$，阿罗拉冠军！看来你<i>至今</i>还没丢掉这个头衔。你可真是个……<i>了不起</i>的训练家啊？总之，我觉得你还是改天再来吧，我们……呃……很忙！对，我们现在非常忙……",
       "line": 7626
     },
     "Oh, you're looking for a Silvally Memory? Well I can't help you with it so bye! What? You're not leaving until I help you? Ugh.. kids are so annoying these days.. er... I mean I'd gladly help, I'm just <i>busy</i> right now. <i>LikeISaidTwoSecondsAgo.</i>": {
@@ -10253,7 +10253,7 @@
       "line": 7756
     },
     "Mimikyu trainer": {
-      "translation": "谜拟丘训练师",
+      "translation": "谜拟丘训练家",
       "line": 7757
     },
     "Mimikyu really cares about it's costume.": {
@@ -12461,7 +12461,7 @@
       "line": 9358
     },
     "Elite Trainer Marnie": {
-      "translation": "精英训练师玛俐",
+      "translation": "精英训练家玛俐",
       "line": 9362
     },
     "Elite Gym Leader Bede": {
@@ -12469,7 +12469,7 @@
       "line": 9362
     },
     "Elite Trainer Hop": {
-      "translation": "精英训练师赫普",
+      "translation": "精英训练家赫普",
       "line": 9362
     },
     "Champion Leon": {
@@ -12513,7 +12513,7 @@
       "line": 9410
     },
     "Elite Trainer Peony": {
-      "translation": "精英训练师皮欧尼",
+      "translation": "精英训练家皮欧尼",
       "line": 9413
     },
     "Hop 8": {

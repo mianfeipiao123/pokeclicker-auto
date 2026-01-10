@@ -61,7 +61,7 @@
       "_confidence": 0.85
     },
     "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> Sale Confirmed!</b><br/>${...}× ${...} has been boxed up for sale. Good choice, Trainer!": {
-      "translation": "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> 出售确认！</b><br/>${...}× ${...}已打包出售。好选择，训练师！",
+      "translation": "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> 出售确认！</b><br/>${...}× ${...}已打包出售。好选择，训练家！",
       "line": 138,
       "_rematchedFrom": "<b><img src=\"${...}\" height=\"24px\" class=\"pixelated\"/> Sale Confirmed!</b><br/>${...}× ${...} has been boxed up for sale. Good choice, Trainer!",
       "_confidence": 0.85

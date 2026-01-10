@@ -61,7 +61,7 @@
       "line": 1820
     },
     "I've decided. I'll battle you as a trainer to earn Suicune's respect! Come on! Let's battle now!": {
-      "translation": "我决定了！我要以训练师的身份和你对战，赢得水君的认可！来吧！现在就对战！",
+      "translation": "我决定了！我要以训练家的身份和你对战，赢得水君的认可！来吧！现在就对战！",
       "line": 1821
     },
     "Some adventurers reported criminal activities on route 42. Team Rocket are allegedly attempting to steal newborn Phanpy...": {
@@ -313,7 +313,7 @@
       "line": 6463
     },
     "<i>You see an Icy Snow Vivillon bundled up with its trainer. It's enjoying a much-needed warm cup of cocoa to counteract the icy cave around it.</i>": {
-      "translation": "<i>你看到冰雪花纹的彩粉蝶和训练师裹得严严实实，正喝着一杯热可可，抵御周围冰冷的洞窟。</i>",
+      "translation": "<i>你看到冰雪花纹的彩粉蝶和训练家裹得严严实实，正喝着一杯热可可，抵御周围冰冷的洞窟。</i>",
       "line": 6465
     },
     "<i>Lastly, you see a Poké Ball Vivillon in a darkened mall. It's trying to scare the camerawoman, completely unaware of the sinister eyes peering from the darkness behind it.</i>": {
@@ -401,7 +401,7 @@
       "line": 7081
     },
     "I like sneaking snacks inside the Battle Royal Dome. One time I snuck in pancakes and there were two trainers from Kanto who both had a Pikachu. I ended up sharing some with one.": {
-      "translation": "我喜欢在皇家圆顶之战中偷偷吃零食。有一次我偷偷溜进煎饼，发现有两个来自关都的训练师，他们都有一只皮卡丘。我最终与一个人分享了一些。",
+      "translation": "我喜欢在皇家圆顶之战中偷偷吃零食。有一次我偷偷溜进煎饼，发现有两个来自关都的训练家，他们都有一只皮卡丘。我最终与一个人分享了一些。",
       "line": 7094
     },
     "Weird thing is, both trainers evolved their Pikachu after the battle, but one had a different form from usual! Maybe there's something about Alola that makes certain Pokémon evolve differently? I would check my Evolution Items if I were you.": {
@@ -549,7 +549,7 @@
       "line": 7619
     },
     "Oh, welcome $playername$, the Champion of Alola! I see you <i>still</i> haven't lost that title. You're a pretty... <i>worthy</i> trainer, aren't you? Anyways, I think you should come visit us another time we're... er.. busy! Yes, we're extremely busy right now...": {
-      "translation": "哦，欢迎你，$playername$，阿罗拉冠军！看来你<i>至今</i>还没丢掉这个头衔。你可真是个……<i>了不起</i>的训练师啊？总之，我觉得你还是改天再来吧，我们……呃……很忙！对，我们现在非常忙……",
+      "translation": "哦，欢迎你，$playername$，阿罗拉冠军！看来你<i>至今</i>还没丢掉这个头衔。你可真是个……<i>了不起</i>的训练家啊？总之，我觉得你还是改天再来吧，我们……呃……很忙！对，我们现在非常忙……",
       "line": 7625
     },
     "Oh, you're looking for a Silvally Memory? Well I can't help you with it so bye! What? You're not leaving until I help you? Ugh.. kids are so annoying these days.. er... I mean I'd gladly help, I'm just <i>busy</i> right now. <i>LikeISaidTwoSecondsAgo.</i>": {

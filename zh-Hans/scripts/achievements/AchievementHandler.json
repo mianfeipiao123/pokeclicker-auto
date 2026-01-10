@@ -403,7 +403,7 @@
       "line": 310
     },
     "Basic Trainer": {
-      "translation": "基础训练师",
+      "translation": "基础训练家",
       "line": 312
     },
     "Have 100 Attack.": {
@@ -1849,7 +1849,7 @@
       "line": 593
     },
     "${...} Shiny Trainer": {
-      "translation": "${...} 异色训练师",
+      "translation": "${...} 异色训练家",
       "line": 595,
       "_rematchedFrom": "${...} Shiny Trainer",
       "_confidence": 0.85

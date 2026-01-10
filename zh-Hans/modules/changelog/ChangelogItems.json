@@ -303,7 +303,7 @@
       "line": 94
     },
     "Shadow sprites can be used on the Trainer Profile": {
-      "translation": "阴影精灵可用于训练师资料",
+      "translation": "阴影精灵可用于训练家资料",
       "line": 95
     },
     "Underground feature has been overhauled - see Help tab in-game": {
@@ -327,7 +327,7 @@
       "line": 100
     },
     "Dungeon trainer pokemon HP has been nerfed": {
-      "translation": "迷宫训练师宝可梦HP已被削弱",
+      "translation": "迷宫训练家宝可梦HP已被削弱",
       "line": 101
     },
     "Pokémon with a single type now award double Gems of that type": {
@@ -1983,7 +1983,7 @@
       "line": 674
     },
     "Incorrect trainer showing in dungeons": {
-      "translation": "迷宫中显示的训练师不正确",
+      "translation": "迷宫中显示的训练家不正确",
       "line": 675
     },
     "Fixed incorrect experience debuff": {
@@ -2527,7 +2527,7 @@
       "line": 834
     },
     "Show players trainer image as the trainer in the dungeon": {
-      "translation": "向玩家展示迷宫中的训练师形象",
+      "translation": "向玩家展示迷宫中的训练家形象",
       "line": 835
     },
     "Missing shop items": {
@@ -2711,7 +2711,7 @@
       "line": 887
     },
     "Added new Johto trainers": {
-      "translation": "添加了新的城都训练师",
+      "translation": "添加了新的城都训练家",
       "line": 888
     },
     "Added new Johto dungeons": {
@@ -2927,7 +2927,7 @@
       "line": 951
     },
     "Dungeon trainers re-appearing after failing them previously": {
-      "translation": "迷宫训练师在之前失败后重新出现",
+      "translation": "迷宫训练家在之前失败后重新出现",
       "line": 952
     },
     "v0.8.7": {
@@ -3179,7 +3179,7 @@
       "line": 1029
     },
     "Update some dungeon trainers HP": {
-      "translation": "更新部分迷宫训练师HP",
+      "translation": "更新部分迷宫训练家HP",
       "line": 1030
     },
     "2nd part of re-capturing tutorial is now optional, as may still appear odd on some browsers": {
@@ -3195,11 +3195,11 @@
       "line": 1035
     },
     "Added trainers to Hoenn dungeons": {
-      "translation": "为 Hoenn 迷宫添加了训练师",
+      "translation": "为 Hoenn 迷宫添加了训练家",
       "line": 1036
     },
     "Added trainers to Unova dungeons": {
-      "translation": "为合众迷宫添加了训练师",
+      "translation": "为合众迷宫添加了训练家",
       "line": 1037
     },
     "Tidy up some badge sprites": {
@@ -3319,11 +3319,11 @@
       "line": 1076
     },
     "Dungeon Trainers Pokémon will now reward Dungeon Tokens when defeated": {
-      "translation": "迷宫训练师宝可梦现在在被击败时会奖励迷宫代币",
+      "translation": "迷宫训练家宝可梦现在在被击败时会奖励迷宫代币",
       "line": 1077
     },
     "Dungeon Trainers will now reward Money when defeated": {
-      "translation": "迷宫训练师现在在被击败时会奖励金钱",
+      "translation": "迷宫训练家现在在被击败时会奖励金钱",
       "line": 1078
     },
     "Sound not remembering previously set volume": {
@@ -3347,7 +3347,7 @@
       "line": 1083
     },
     "Fixed some missing trainer sprites": {
-      "translation": "修复了一些缺失的训练师精灵",
+      "translation": "修复了一些缺失的训练家精灵",
       "line": 1084
     },
     "Fixed some routes/dungeons showing incorrect backgrounds": {
@@ -3393,7 +3393,7 @@
       "line": 1097
     },
     "Trainers added to Kanto Dungeons": {
-      "translation": "关都迷宫添加训练师",
+      "translation": "关都迷宫添加训练家",
       "line": 1098
     },
     "Log wandering Pokémon for Farm": {

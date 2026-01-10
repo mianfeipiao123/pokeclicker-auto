@@ -755,7 +755,7 @@
       "line": 563
     },
     "Prove your abilities as a trainer to the Kimono Girls of Ecruteak City.": {
-      "translation": "向 Ecruteak 市的和服女孩证明你作为训练师的能力。",
+      "translation": "向 Ecruteak 市的和服女孩证明你作为训练家的能力。",
       "line": 563
     },
     "Ho-Oh": {
@@ -1409,7 +1409,7 @@
       "line": 1037
     },
     "Fight trainers in Pyrite Town to flush out the criminals.": {
-      "translation": "与黄铁矿镇的训练师战斗，消灭罪犯。",
+      "translation": "与黄铁矿镇的训练家战斗，消灭罪犯。",
       "line": 1037
     },
     "Talk to the distraught bodybuilder Duking in Pyrite Town.": {
@@ -1421,7 +1421,7 @@
       "line": 1043
     },
     "Fight trainers in Pyrite Colosseum to flush out the criminals.": {
-      "translation": "在黄铁矿斗兽场与训练师战斗，消灭罪犯。",
+      "translation": "在黄铁矿斗兽场与训练家战斗，消灭罪犯。",
       "line": 1043
     },
     "Pyrite Building": {
@@ -1429,7 +1429,7 @@
       "line": 1046
     },
     "No sign of Shadow Pokémon so far. Fight trainers at the Pyrite Building to flush out the criminals.": {
-      "translation": "到目前为止还没有暗影宝可梦的迹象。在黄铁矿大楼与训练师战斗，消灭罪犯。",
+      "translation": "到目前为止还没有暗影宝可梦的迹象。在黄铁矿大楼与训练家战斗，消灭罪犯。",
       "line": 1046
     },
     "Interrogate Hunter Doken in the Pyrite Building to find out who has taken Plusle, and where to.": {
@@ -1779,11 +1779,11 @@
       "_confidence": 0.95
     },
     "Professor Hastings has headed off to Canalave to do more research on Manaphy. Check in on him when you can!": {
-      "translation": "黑斯廷斯教授已前往卡纳拉夫对玛纳菲进行更多研究。当你可以的时候去看看他吧！",
+      "translation": "黑斯廷斯教授已前往美央市对玛纳菲进行更多研究。当你可以的时候去看看他吧！",
       "line": 1223
     },
     "A little girl's Happiny stole the egg! Search for witnesses east of Canalave!": {
-      "translation": "一个小女孩的小福蛋偷了蛋！在卡纳拉夫以东寻找目击者！",
+      "translation": "一个小女孩的小福蛋偷了蛋！在美央市以东寻找目击者！",
       "line": 1226
     },
     "The Happiny headed north out of Jubilife! Ask for witnesses in the next town.": {
@@ -1811,7 +1811,7 @@
       "line": 1244
     },
     "The Happiny fled from Oreburgh and headed west, through the Oreburgh Gate. Search for another witness on the far side.": {
-      "translation": "幸福号从奥勒堡逃出，通过奥勒堡门向西行驶。在另一边寻找另一位目击者。",
+      "translation": "幸福号从黑金市逃出，通过黑金市门向西行驶。在另一边寻找另一位目击者。",
       "line": 1247
     },
     "Search for evidence of the Happiny's path after turning south from Jubilife City.": {
@@ -2519,7 +2519,7 @@
       "line": 1651
     },
     "Cooltrainer (male)": {
-      "translation": "酷训练师（男）",
+      "translation": "酷训练家（男）",
       "line": 1652
     },
     "Cipher Admin Lovrina": {
@@ -2727,7 +2727,7 @@
       "line": 1770
     },
     "What's this? Well, well. What do we have here? A nosy little trainer has come poking around. Listen up! We're the fashionable team whose very name makes people tremble in fear: Team Flare! Team Flare's goal is to make it so we're the only ones who are happy! We don't care one bit about what happens to other trainers or Pokémon. Get out of here, kid. Don't you know not to play with fire? We'll obliterate you!": {
-      "translation": "这是什么？好吧，好吧。我们这里有什么？一个爱管闲事的小训练师过来闲逛。听着！我们是一支名字让人心惊胆战的时尚队伍：Team Flare！ Team Flare 的目标是让我们成为唯一快乐的人！我们一点也不关心其他训练师或宝可梦发生了什么。离开这里，孩子。难道你不知道不要玩火吗？我们会消灭你！",
+      "translation": "这是什么？好吧，好吧。我们这里有什么？一个爱管闲事的小训练家过来闲逛。听着！我们是一支名字让人心惊胆战的时尚队伍：Team Flare！ Team Flare 的目标是让我们成为唯一快乐的人！我们一点也不关心其他训练家或宝可梦发生了什么。离开这里，孩子。难道你不知道不要玩火吗？我们会消灭你！",
       "line": 1772
     },
     "Team Flare Grunt": {
@@ -3869,7 +3869,7 @@
       "line": 2455
     },
     "You eventually found a trainer standing where Mewtwo once did in Cerulean Cave. Talk to Green.": {
-      "translation": "你最终发现一名训练师站在超梦曾经在蔚蓝洞窟里站过的地方。与格林交谈。",
+      "translation": "你最终发现一名训练家站在超梦曾经在蔚蓝洞窟里站过的地方。与格林交谈。",
       "line": 2458
     },
     "Unrivaled Green": {
@@ -4017,7 +4017,7 @@
       "line": 2556
     },
     "My thanks to you and your Pokémon. These grunts are always bothering me and my trial site. You... you're the trainer who cleared the Trainers' School so effortlessly! Allow me to see if you're ready for my trial!": {
-      "translation": "我感谢你和你的宝可梦。这些咕哝声总是困扰着我和我的试用现场。你……你就是那个轻松通过训练师学校的训练师！让我看看你是否准备好接受我的审判！",
+      "translation": "我感谢你和你的宝可梦。这些咕哝声总是困扰着我和我的试用现场。你……你就是那个轻松通过训练家学校的训练家！让我看看你是否准备好接受我的审判！",
       "line": 2558
     },
     "Ilima": {
@@ -4157,7 +4157,7 @@
       "line": 2632
     },
     "That must have been the Pokémon known as Sudowoodo. Our research is insufficient to define what it means to be a Pokémon Trainer... We'll never be able to stop the Blinding One like this...": {
-      "translation": "那一定是被称为“须藤木多”的宝可梦。我们的研究不足以定义成为一名宝可梦训练师意味着什么......我们永远无法像这样阻止致盲者......",
+      "translation": "那一定是被称为“须藤木多”的宝可梦。我们的研究不足以定义成为一名宝可梦训练家意味着什么......我们永远无法像这样阻止致盲者......",
       "line": 2634
     },
     "Dulse": {
@@ -4305,7 +4305,7 @@
       "line": 2703
     },
     "I just wanted to go for a stroll on my own, to see what it must feel like to be a Trainer... So Hapu and I went our separate ways... but then Nebby tried to get out of my bag...": {
-      "translation": "我只是想自己去散步，看看成为一名训练师的感觉……所以哈普和我分道扬镳……但后来内比试图从我的包里拿出来……",
+      "translation": "我只是想自己去散步，看看成为一名训练家的感觉……所以哈普和我分道扬镳……但后来内比试图从我的包里拿出来……",
       "line": 2705
     },
     "超值超市（废弃店）": {
@@ -4609,7 +4609,7 @@
       "line": 2890
     },
     "You are challenged by Pokémon Trainer Lillie! Welcome her to the world of trainers by battling her at the Altar of the Sunne and Moone.": {
-      "translation": "宝可梦训练家莉莉艾向你发起挑战！欢迎她来到训练师的世界，在苏尼和穆恩祭坛与她战斗。",
+      "translation": "宝可梦训练家莉莉艾向你发起挑战！欢迎她来到训练家的世界，在苏尼和穆恩祭坛与她战斗。",
       "line": 2894
     },
     "Mina's Houseboat": {
@@ -4621,7 +4621,7 @@
       "line": 2898
     },
     "That's a pretty great picture. You and your Pokémon! You're a great Pokémon Trainer! So here you go! A piece of Fairium Z for you!": {
-      "translation": "这是一幅非常棒的图画。你和你的宝可梦！你是一位出色的宝可梦训练师！那么就到这里吧！送给你一件 Fairium Z！",
+      "translation": "这是一幅非常棒的图画。你和你的宝可梦！你是一位出色的宝可梦训练家！那么就到这里吧！送给你一件 Fairium Z！",
       "line": 2898
     },
     "Gladion 3": {
@@ -5591,7 +5591,7 @@
       "line": 3544
     },
     "Elite Trainer Marnie": {
-      "translation": "精英训练师玛俐",
+      "translation": "精英训练家玛俐",
       "line": 3547
     },
     "Defeat Marnie at Wyndon Stadium to reach the quarter-finals of the Champion Cup.": {
@@ -5607,7 +5607,7 @@
       "line": 3550
     },
     "Elite Trainer Hop": {
-      "translation": "精英训练师赫普",
+      "translation": "精英训练家赫普",
       "line": 3553
     },
     "Defeat Hop to reach the final of the Champion Cup!": {

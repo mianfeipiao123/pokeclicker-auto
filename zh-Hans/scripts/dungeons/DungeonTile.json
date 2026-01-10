@@ -7,11 +7,11 @@
   },
   "entries": {
     "tile tile-invisible": {
-      "translation": "瓷砖瓷砖-隐形",
+      "translation": "",
       "line": 49
     },
     "tile tile-player": {
-      "translation": "瓷砖瓷砖播放器",
+      "translation": "",
       "line": 53
     },
     "tile": {

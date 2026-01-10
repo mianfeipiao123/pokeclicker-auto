@@ -431,7 +431,7 @@
       "line": 188
     },
     "Dynamic BG Shiny Meltan/Melmetal": {
-      "translation": "",
+      "translation": "动态背景异色[[Meltan]]/[[Melmetal]]",
       "line": 189
     },
     "Rainbow Rocket sprite re-colours": {
@@ -541,7 +541,7 @@
       "line": 247
     },
     "Paldea dynamic background before edits": {
-      "translation": "编辑前的 Paldea 动态背景",
+      "translation": "编辑前的帕底亚动态背景",
       "line": 248
     },
     "Data": {
@@ -1797,7 +1797,7 @@
       "line": 601
     },
     "Genesect (High-Speed) and Drive Forms": {
-      "translation": "Genesect（高速）和驱动形式",
+      "translation": "[[Genesect]]（高速）及驱动形态",
       "line": 602
     },
     "Koga Trainer": {
@@ -2093,7 +2093,7 @@
       "line": 736
     },
     "Lusamine (nihilego) shiny": {
-      "translation": "露莎米奈 (nihilego) 异色",
+      "translation": "露莎米奈（虚吾伊德）异色",
       "line": 737
     },
     "Rider (male and female)": {
@@ -2105,7 +2105,7 @@
       "line": 739
     },
     "Rotom-Dex": {
-      "translation": "Rotom-Dex",
+      "translation": "洛托姆图鉴",
       "line": 740
     },
     "Rui": {
@@ -2477,11 +2477,11 @@
       "line": 877
     },
     "Dynamic BG Meltan": {
-      "translation": "动态BG美录坦",
+      "translation": "动态背景[[Meltan]]",
       "line": 878
     },
     "Dynamic BG Melmetal": {
-      "translation": "动态BG Melmetal",
+      "translation": "动态背景[[Melmetal]]",
       "line": 879
     },
     "Guzzlord (Overworld)": {
@@ -3013,7 +3013,7 @@
       "line": 1126
     },
     "Dynamic BG Galar (Gen 8) sprites": {
-      "translation": "动态 BG Galar（第8代）精灵",
+      "translation": "动态背景 伽勒尔（第8代）精灵",
       "line": 1129
     },
     "Sandi315": {
@@ -3517,7 +3517,7 @@
       "line": 1336
     },
     "Dexio (Gen 6)": {
-      "translation": "Dexio（第6代）",
+      "translation": "[[Dexio]]（第6世代）",
       "line": 1337
     },
     "Dulse": {

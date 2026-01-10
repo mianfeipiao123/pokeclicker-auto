@@ -1571,7 +1571,7 @@
       "line": 528
     },
     "Hoenn badge requirement ordering": {
-      "translation": "Hoenn 徽章要求订购",
+      "translation": "丰缘徽章需求排序",
       "line": 529
     },
     "Updated typed egg pools": {
@@ -1679,7 +1679,7 @@
       "line": 565
     },
     "Unova, Kalos and Alola Elite 4 can now be challenged in any order": {
-      "translation": "Unova、Kalos 和 Alola Elite 4现在可以按任意顺序进行挑战",
+      "translation": "合众、卡洛斯和阿罗拉四天王现在可以按任意顺序挑战",
       "line": 566
     },
     "Misc Pokémon stats updated": {
@@ -2847,7 +2847,7 @@
       "line": 929
     },
     "Updated Kalos environments": {
-      "translation": "更新了 Kalos 环境",
+      "translation": "更新了卡洛斯环境",
       "line": 930
     },
     "Added a legend to the map": {
@@ -2991,7 +2991,7 @@
       "line": 972
     },
     "Decrease shop multiplier when fighting Trainers/Gyms/Elite 4": {
-      "translation": "",
+      "translation": "在挑战训练家/道馆/四天王时降低商店倍率",
       "line": 973
     },
     "Boss icon visible on light themes": {
@@ -3103,7 +3103,7 @@
       "line": 1007
     },
     "Added Mystery Egg to Unova shop": {
-      "translation": "向 Unova 商店添加了神秘蛋",
+      "translation": "向合众商店添加了神秘蛋",
       "line": 1008
     },
     "Updated the look of most maps": {
@@ -3195,7 +3195,7 @@
       "line": 1035
     },
     "Added trainers to Hoenn dungeons": {
-      "translation": "为 Hoenn 迷宫添加了训练家",
+      "translation": "为丰缘迷宫添加了训练家",
       "line": 1036
     },
     "Added trainers to Unova dungeons": {
@@ -3673,7 +3673,7 @@
       "line": 1183
     },
     "Fixed larger BerryDex timers": {
-      "translation": "修复了较大的 BerryDex 计时器",
+      "translation": "修复了较大的树果图鉴计时器",
       "line": 1185
     },
     "Fixed quests auto refreshing if you gain a level then refreshed the page": {
@@ -3705,7 +3705,7 @@
       "line": 1194
     },
     "Time displayed in BerryDex": {
-      "translation": "BerryDex 中显示的时间",
+      "translation": "树果图鉴中显示的时间",
       "line": 1195
     },
     "Pokédex hide shiny images toggle correctly reflects current state": {
@@ -3745,7 +3745,7 @@
       "line": 1206
     },
     "Updated BerryDex to show more readable time format": {
-      "translation": "更新了 BerryDex 以显示更易读的时间格式",
+      "translation": "更新了树果图鉴，以显示更易读的时间格式",
       "line": 1207
     },
     "Berries are less likely to mutate nearby plots to themselves": {
@@ -3821,7 +3821,7 @@
       "line": 1230
     },
     "Show Berry hints in BerryDex": {
-      "translation": "在 BerryDex 中显示 Berry 提示",
+      "translation": "在树果图鉴中显示树果提示",
       "line": 1231
     },
     "Farm mulch should work correctly now": {
@@ -4281,7 +4281,7 @@
       "line": 1356
     },
     "Kyogre and Groudon will only appear in their dungeon after defeating the Hoenn Elite 4": {
-      "translation": "盖欧卡和固拉多只有在击败丰缘精英4后才会出现在他们的迷宫中",
+      "translation": "盖欧卡和固拉多只有在击败丰缘四天王后才会出现在各自的迷宫中",
       "line": 1357
     },
     "If you encounter a new Pokémon that is also shiny, the higher tier ball will be selected": {
@@ -5285,7 +5285,7 @@
       "line": 1659
     },
     "Remove Hoenn dungeons for now to avoid triggering errors": {
-      "translation": "暂时删除 Hoenn 迷宫以避免触发错误",
+      "translation": "暂时移除丰缘迷宫以避免触发错误",
       "line": 1660
     },
     "Other berries will now be tasked in Quests": {
@@ -5437,7 +5437,7 @@
       "line": 1704
     },
     "Show the hatchery \"list\" button once Johto unlocked without page refresh": {
-      "translation": "Johto 解锁后显示孵化场“列表”按钮，无需刷新页面",
+      "translation": "城都解锁后显示孵化场“列表”按钮，无需刷新页面",
       "line": 1705
     },
     "list": {

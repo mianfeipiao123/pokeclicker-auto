@@ -55,7 +55,7 @@
       "line": 347
     },
     "btn btn-block btn-danger": {
-      "translation": "btn btn-阻止 btn-危险",
+      "translation": "",
       "line": 303
     },
     "App.game.challenges.list.disableClickAttack.activate();": {
@@ -1697,7 +1697,7 @@
       "line": 2996
     },
     "btn btn-block btn-warning": {
-      "translation": "btn btn-阻止 btn-警告",
+      "translation": "",
       "line": 3029
     },
     "Click to Backup Save!": {

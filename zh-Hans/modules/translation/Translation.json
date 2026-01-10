@@ -7,7 +7,7 @@
   },
   "entries": {
     "i18next": {
-      "translation": "i18下一个",
+      "translation": "",
       "line": 1
     },
     "i18next-chained-backend": {
@@ -83,11 +83,11 @@
       "_confidence": 0.85
     },
     "true": {
-      "translation": "真的",
+      "translation": "",
       "line": 61
     },
     "en": {
-      "translation": "zh",
+      "translation": "",
       "line": 73
     },
     "$TRANSLATIONS_URL": {

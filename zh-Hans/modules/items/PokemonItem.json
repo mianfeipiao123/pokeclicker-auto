@@ -61,7 +61,7 @@
       "_confidence": 0.85
     },
     "${(shiny) ?": {
-      "translation": "${(shiny) ? ",
+      "translation": "",
       "line": 55
     },
     "Already resistant!": {

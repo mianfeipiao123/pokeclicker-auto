@@ -31,23 +31,23 @@
       "line": 17
     },
     "caught": {
-      "translation": "捕捉",
+      "translation": "捕获",
       "line": 26
     },
     "caught_shiny": {
-      "translation": "",
+      "translation": "捕获异色",
       "line": 31
     },
     "hatched": {
-      "translation": "孵化的",
+      "translation": "孵化",
       "line": 36
     },
     "hatched_shiny": {
-      "translation": "",
+      "translation": "孵化异色",
       "line": 41
     },
     "sparkle": {
-      "translation": "火花",
+      "translation": "闪光",
       "line": 46
     },
     "pokerus": {
@@ -55,7 +55,7 @@
       "line": 51
     },
     "pokerus_resistant": {
-      "translation": "",
+      "translation": "宝可病毒抗体",
       "line": 56
     },
     "attack": {
@@ -63,11 +63,11 @@
       "line": 61
     },
     "regional_attack": {
-      "translation": "",
+      "translation": "地区攻击力",
       "line": 66
     },
     "current_region": {
-      "translation": "",
+      "translation": "当前地区",
       "line": 71
     },
     "Unknown Region": {
@@ -75,7 +75,7 @@
       "line": 73
     },
     "current_subregion": {
-      "translation": "",
+      "translation": "当前次区域",
       "line": 76
     },
     "Unknown Subregion": {
@@ -83,7 +83,7 @@
       "line": 78
     },
     "current_route": {
-      "translation": "",
+      "translation": "当前道路",
       "line": 81
     },
     "Unknown Area": {
@@ -91,19 +91,19 @@
       "line": 82
     },
     "current_area": {
-      "translation": "",
+      "translation": "当前区域",
       "line": 86
     },
     "current_route_stats": {
-      "translation": "",
+      "translation": "当前道路统计",
       "line": 91
     },
     "current_area_stats": {
-      "translation": "",
+      "translation": "当前区域统计",
       "line": 96
     },
     "dungeon_tokens": {
-      "translation": "",
+      "translation": "迷宫代币",
       "line": 106
     },
     "diamonds": {
@@ -111,19 +111,19 @@
       "line": 111
     },
     "farm_points": {
-      "translation": "",
+      "translation": "农场点数",
       "line": 116
     },
     "quest_points": {
-      "translation": "",
+      "translation": "任务点数",
       "line": 121
     },
     "battle_points": {
-      "translation": "",
+      "translation": "战斗点数",
       "line": 126
     },
     "achievement_bonus": {
-      "translation": "",
+      "translation": "成就加成",
       "line": 131
     },
     "clicks": {
@@ -131,7 +131,7 @@
       "line": 136
     },
     "time_played": {
-      "translation": "",
+      "translation": "游玩时间",
       "line": 141
     },
     "0 Seconds": {
@@ -139,59 +139,59 @@
       "line": 143
     },
     "underground_levels_cleared": {
-      "translation": "",
+      "translation": "地下通关层数",
       "line": 146
     },
     "underground_items_found": {
-      "translation": "",
+      "translation": "地下发现物品数",
       "line": 151
     },
     "underground_trades": {
-      "translation": "",
+      "translation": "地下交易次数",
       "line": 156
     },
     "quests_completed": {
-      "translation": "",
+      "translation": "已完成任务数",
       "line": 161
     },
     "frontier_stages_cleared": {
-      "translation": "",
+      "translation": "对战开拓区通关层数",
       "line": 166
     },
     "frontier_highest_cleared": {
-      "translation": "",
+      "translation": "对战开拓区最高通关层数",
       "line": 171
     },
     "total_berries_obtained": {
-      "translation": "",
+      "translation": "累计获得树果数",
       "line": 176
     },
     "total_manual_harvests": {
-      "translation": "",
+      "translation": "累计手动收获次数",
       "line": 181
     },
     "total_berries_harvested": {
-      "translation": "",
+      "translation": "累计收获树果数",
       "line": 186
     },
     "total_berries_replanted": {
-      "translation": "",
+      "translation": "累计重新种植树果数",
       "line": 191
     },
     "total_berries_mutated": {
-      "translation": "",
+      "translation": "累计树果变异次数",
       "line": 196
     },
     "total_mulches_used": {
-      "translation": "",
+      "translation": "累计使用肥料数",
       "line": 201
     },
     "total_shovels_used": {
-      "translation": "",
+      "translation": "累计使用铲子次数",
       "line": 206
     },
     "berry_daily_deal_trades": {
-      "translation": "",
+      "translation": "树果每日交易次数",
       "line": 211
     },
     "number": {
@@ -227,7 +227,7 @@
       "line": 252
     },
     "discord-rp.timer": {
-      "translation": "Discord-rp.timer",
+      "translation": "计时器",
       "line": 257
     },
     "discord-rp.large-image": {
@@ -235,7 +235,7 @@
       "line": 262
     },
     "current-environment": {
-      "translation": "",
+      "translation": "当前环境",
       "line": 263
     },
     "grass": {
@@ -263,15 +263,15 @@
       "_confidence": 0.85
     },
     "Total Attack: {attack}": {
-      "translation": "总攻击力：{攻击}",
+      "translation": "总攻击力：{attack}",
       "line": 280
     },
     "Total Hatched: {hatched}": {
-      "translation": "孵化总数：{孵化}",
+      "translation": "孵化总数：{hatched}",
       "line": 284
     },
     "Shinies: {caught_shiny}/{caught} ✨": {
-      "translation": "",
+      "translation": "异色：{caught_shiny}/{caught} ✨",
       "line": 288
     }
   }

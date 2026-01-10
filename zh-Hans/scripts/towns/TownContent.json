@@ -17,7 +17,7 @@
       "_confidence": 0.85
     },
     "btn btn-info": {
-      "translation": "btn btn-信息",
+      "translation": "",
       "line": 59
     },
     "Dock": {
@@ -25,7 +25,7 @@
       "line": 71
     },
     "btn btn-primary": {
-      "translation": "btn btn-主要",
+      "translation": "",
       "line": 77
     },
     "Enter Battle Frontier": {
@@ -33,7 +33,7 @@
       "line": 85
     },
     "btn btn-warning": {
-      "translation": "btn btn-警告",
+      "translation": "",
       "line": 91
     },
     "show": {
@@ -47,7 +47,7 @@
       "_confidence": 0.85
     },
     "btn btn-secondary": {
-      "translation": "btn btn-次要",
+      "translation": "",
       "line": 114
     },
     "Tutorial Quests": {

@@ -7,11 +7,11 @@
   },
   "entries": {
     "btn btn-success": {
-      "translation": "btn btn-成功",
+      "translation": "",
       "line": 21
     },
     "btn btn-secondary": {
-      "translation": "btn btn-次要",
+      "translation": "",
       "line": 22
     },
     "Fight ${...}": {

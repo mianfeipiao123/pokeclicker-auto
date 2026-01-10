@@ -995,7 +995,7 @@
       "line": 399
     },
     "Bling x10!": {
-      "translation": "异色 x10！",
+      "translation": "异色×10！",
       "line": 400
     },
     "Obtain 10,000 Diamonds.": {
@@ -1849,7 +1849,7 @@
       "line": 593
     },
     "${...} Shiny Trainer": {
-      "translation": "${...} 异色训练家",
+      "translation": "${...}异色训练家",
       "line": 595,
       "_rematchedFrom": "${...} Shiny Trainer",
       "_confidence": 0.85
@@ -1867,13 +1867,13 @@
       "_confidence": 0.85
     },
     "${...} Shiny Master": {
-      "translation": "${...} 异色大师",
+      "translation": "${...}异色大师",
       "line": 597,
       "_rematchedFrom": "${...} Shiny Master",
       "_confidence": 0.85
     },
     "Complete the ${...} Shiny Pokédex!": {
-      "translation": "完成 ${...} 异色图鉴！",
+      "translation": "完成${...}异色图鉴！",
       "line": 597
     },
     "Unown (A)": {
@@ -1913,11 +1913,11 @@
       "line": 611
     },
     "Catch 32 unique Battle Café flavors.": {
-      "translation": "品尝32种独特的 Battle Café 口味。",
+      "translation": "捕获32种不同的战斗咖啡馆口味。",
       "line": 611
     },
     "Catch 32 unique Alcremie flavors.": {
-      "translation": "品尝32种独特的 霜奶仙 口味。",
+      "translation": "捕获32种不同口味的霜奶仙。",
       "line": 611
     },
     "Gotta Taste 'Em All!": {
@@ -1925,11 +1925,11 @@
       "line": 612
     },
     "Catch all unique Battle Café flavors.": {
-      "translation": "品尝所有独特的 Battle Café 风味。",
+      "translation": "捕获所有不同的战斗咖啡馆口味。",
       "line": 612
     },
     "Catch all unique Alcremie flavors.": {
-      "translation": "品尝所有独特的 霜奶仙 口味。",
+      "translation": "捕获所有不同口味的霜奶仙。",
       "line": 612
     },
     "Yoshida's Coffees Enjoyer": {
@@ -1937,11 +1937,11 @@
       "line": 613
     },
     "Catch 32 unique Shiny Battle Café flavors.": {
-      "translation": "品尝32种独特的 异色对战咖啡厅 口味。",
+      "translation": "捕获32种不同的异色战斗咖啡馆口味。",
       "line": 613
     },
     "Catch 32 unique Shiny Alcremie flavors.": {
-      "translation": "品尝32种独特的异色 霜奶仙 口味。",
+      "translation": "捕获32种不同口味的异色霜奶仙。",
       "line": 613
     },
     "All These Flavors And You Choose To Be Cheesy": {
@@ -1949,7 +1949,7 @@
       "line": 614
     },
     "Catch all unique Shiny Battle Café flavors.": {
-      "translation": "品尝所有独特的异色战斗咖啡馆风味。",
+      "translation": "捕获所有不同的异色战斗咖啡馆口味。",
       "line": 614
     },
     "Catch all unique Shiny Alcremie flavors.": {
@@ -2369,7 +2369,7 @@
       "line": 816
     },
     "Have all Battle Café flavors resistant to Pokérus.": {
-      "translation": "让所有 Battle Café 口味都能抵抗宝可病毒。",
+      "translation": "让所有战斗咖啡馆口味都对宝可病毒产生抗体。",
       "line": 817
     },
     "The cake is not a lie": {

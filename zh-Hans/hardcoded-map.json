@@ -1,14 +1,13 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-09T08:33:04.716Z",
-    "totalEntries": 2359,
+    "generatedAt": "2026-01-10T18:06:17.957Z",
+    "totalEntries": 2357,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
   "entries": {
     "#pokeball-filter-options-${...}": "#pokeball-filter-options-${...}",
     "#route-${...}": "#route-${...}",
     "#tier-${...}": "#tier-${...}",
-    "${...}": "${BerryType[$data]}",
     "${...} / ${...} s": "${...} / ${...} 秒",
     "${...} against ${...}": "${...} 兑 ${...}",
     "${...} Blue": "${...} 蓝色",
@@ -114,7 +113,7 @@
     "+${...}% bonus to EV Yield": "+${...}% 努力值产出加成",
     "+${...}% bonus to Gym and Dungeon Timers": "+${...}% 道馆和迷宫计时器加成",
     "+${...}% bonus to Pokémon Attack": "+${...}% 宝可梦攻击加成",
-    "+${...}% bonus to Shiny Chance": "+${...}% 异色几率加成",
+    "+${...}% bonus to Shiny Chance": "+${...}%异色几率加成",
     "+50% Bonus to Poké Coins gained for 30 seconds": "+50% 宝可币奖励持续30秒",
     ", they will however give you a discount the more runs you purchase in one go.": "，但是，你一次性购买的运行次数越多，他们就会给你折扣。",
     ", transfer it to the other device, and import it from the save selector screen.": "，将其传输到其他设备，然后从保存选择器屏幕导入。",
@@ -419,7 +418,7 @@
     "Bonus:": "奖金：",
     "BooleanSettingSliderTemplate": "BooleanSettingSliderTemplate",
     "BooleanSettingTemplate": "BooleanSettingTemplate",
-    "Boosts Wanderer catch rate by 10% and increases the chance of non-base Wanderers appearing. Available from Unova.": "流浪者捕获率提高10%，并增加非基地流浪者出现的几率。可从 Unova 购买。",
+    "Boosts Wanderer catch rate by 10% and increases the chance of non-base Wanderers appearing. Available from Unova.": "游荡宝可梦捕获率提高10%，并提高出现非基础游荡宝可梦的几率。合众地区起可用。",
     "Brawly's Gym": "藤树的道馆",
     "Breed their evolution.": "培育他们的进化。",
     "Breeding has higher odds of obtaining a shiny Pokémon": "繁殖获得异色宝可梦的几率更高",
@@ -872,7 +871,7 @@
     "Fight Pokémon Trainer Calem": "对战 宝可梦训练家卡鲁穆",
     "Fight Pokémon Trainer Cheren": "对战 宝可梦训练家黑连",
     "Fight Pokémon Trainer Colress": "对战 宝可梦训练家阿克罗玛",
-    "Fight Pokémon Trainer Dexio": "对战 宝可梦训练家德克希欧",
+    "Fight Pokémon Trainer Dexio": "对战 宝可梦训练家德克西奥",
     "Fight Pokémon Trainer Gladion": "对战 宝可梦训练家格拉吉欧",
     "Fight Pokémon Trainer Green": "对战 宝可梦训练家叶子",
     "Fight Pokémon Trainer Hau": "对战 宝可梦训练家哈乌",
@@ -2363,11 +2362,5 @@
     "粉红": "粉红果",
     "胆噬虫": "胆小虫",
     "超极巨化 ${...}": "超极巨${...}"
-  },
-  "entriesCaseSensitive": [
-    [
-      "in the start menu.",
-      "在开始菜单中。"
-    ]
-  ]
+  }
 }

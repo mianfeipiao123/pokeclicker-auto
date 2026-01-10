@@ -583,7 +583,7 @@
       "line": 163
     },
     "Great_Twisted_Spoon": {
-      "translation": "伟大的扭曲勺子",
+      "translation": "大弯曲汤匙",
       "line": 164
     },
     "Island_Challenge_Amulet": {
@@ -591,71 +591,71 @@
       "line": 165
     },
     "Fighting_Memory_Silvally": {
-      "translation": "战斗_记忆_银伴战兽",
+      "translation": "格斗记忆碟",
       "line": 166
     },
     "Rock_Memory_Silvally": {
-      "translation": "岩石记忆银伴战兽",
+      "translation": "岩石记忆碟",
       "line": 167
     },
     "Dark_Memory_Silvally": {
-      "translation": "黑暗记忆银伴战兽",
+      "translation": "恶记忆碟",
       "line": 168
     },
     "Fairy_Memory_Silvally": {
-      "translation": "童话_记忆_银伴战兽",
+      "translation": "妖精记忆碟",
       "line": 169
     },
     "Water_Memory_Silvally": {
-      "translation": "水记忆银伴战兽",
+      "translation": "水记忆碟",
       "line": 170
     },
     "Grass_Memory_Silvally": {
-      "translation": "草记忆银伴战兽",
+      "translation": "草记忆碟",
       "line": 171
     },
     "Fire_Memory_Silvally": {
-      "translation": "火记忆银伴战兽",
+      "translation": "火记忆碟",
       "line": 172
     },
     "Electric_Memory_Silvally": {
-      "translation": "电记忆银伴战兽",
+      "translation": "电记忆碟",
       "line": 173
     },
     "Ice_Memory_Silvally": {
-      "translation": "冰记忆银伴战兽",
+      "translation": "冰记忆碟",
       "line": 174
     },
     "Ground_Memory_Silvally": {
-      "translation": "地面记忆银伴战兽",
+      "translation": "地面记忆碟",
       "line": 175
     },
     "Bug_Memory_Silvally": {
-      "translation": "Bug_Memory_银伴战兽",
+      "translation": "虫记忆碟",
       "line": 176
     },
     "Flying_Memory_Silvally": {
-      "translation": "飞行记忆银伴战兽",
+      "translation": "飞行记忆碟",
       "line": 177
     },
     "Poison_Memory_Silvally": {
-      "translation": "毒_记忆_银伴战兽",
+      "translation": "毒记忆碟",
       "line": 178
     },
     "Ghost_Memory_Silvally": {
-      "translation": "幽灵_记忆_银伴战兽",
+      "translation": "幽灵记忆碟",
       "line": 179
     },
     "Psychic_Memory_Silvally": {
-      "translation": "心灵_记忆_银伴战兽",
+      "translation": "超能力记忆碟",
       "line": 180
     },
     "Steel_Memory_Silvally": {
-      "translation": "钢_记忆_银伴战兽",
+      "translation": "钢记忆碟",
       "line": 181
     },
     "Dragon_Memory_Silvally": {
-      "translation": "龙_记忆_银伴战兽",
+      "translation": "龙记忆碟",
       "line": 182
     },
     "Max_Mushroom_IoA": {
@@ -1139,11 +1139,11 @@
       "line": 302
     },
     "Silvally (Dark) 1": {
-      "translation": "银伴战兽（深色）1",
+      "translation": "银伴战兽（恶）1",
       "line": 303
     },
     "Silvally (Dark) 2": {
-      "translation": "银伴战兽（黑暗）2",
+      "translation": "银伴战兽（恶）2",
       "line": 304
     },
     "Silvally (Fairy) 1": {
@@ -1219,11 +1219,11 @@
       "line": 322
     },
     "Silvally (Poison) 1": {
-      "translation": "银伴战兽（毒药）1",
+      "translation": "银伴战兽（毒）1",
       "line": 323
     },
     "Silvally (Poison) 2": {
-      "translation": "银伴战兽（毒药）2",
+      "translation": "银伴战兽（毒）2",
       "line": 324
     },
     "Silvally (Ghost) 1": {
@@ -1235,7 +1235,7 @@
       "line": 326
     },
     "Silvally (Psychic) 1": {
-      "translation": "银伴战兽（心灵）1",
+      "translation": "银伴战兽（超能力）1",
       "line": 327
     },
     "Silvally (Psychic) 2": {
@@ -1431,7 +1431,7 @@
       "line": 375
     },
     "Upgrade": {
-      "translation": "升级",
+      "translation": "升级数据",
       "line": 376
     },
     "Dragon_scale": {
@@ -1611,11 +1611,11 @@
       "line": 420
     },
     "HatcheryHelperJasmine": {
-      "translation": "孵化场助手茉莉花",
+      "translation": "孵化场助手茉莉",
       "line": 421
     },
     "HatcheryHelperDakota": {
-      "translation": "孵化场助手达科他州",
+      "translation": "孵化场助手达科他",
       "line": 422
     },
     "HatcheryHelperCameron": {
@@ -1651,11 +1651,11 @@
       "line": 430
     },
     "Excite_Scent": {
-      "translation": "兴奋_气味",
+      "translation": "兴奋香氛",
       "line": 431
     },
     "Vivid_Scent": {
-      "translation": "生动_香味",
+      "translation": "鲜艳香氛",
       "line": 432
     },
     "Muscle_Band": {
@@ -1715,31 +1715,31 @@
       "line": 446
     },
     "Leek": {
-      "translation": "韭葱",
+      "translation": "大葱",
       "line": 447
     },
     "Rusted_Sword": {
-      "translation": "腐朽的剑",
+      "translation": "锈蚀的剑",
       "line": 448
     },
     "Rusted_Shield": {
-      "translation": "腐朽的盾",
+      "translation": "锈蚀的盾",
       "line": 449
     },
     "Wellspring_Mask": {
-      "translation": "泉源面膜",
+      "translation": "水井面具",
       "line": 450
     },
     "Hearthflame_Mask": {
-      "translation": "炉火_面具",
+      "translation": "火灶面具",
       "line": 451
     },
     "Cornerstone_Mask": {
-      "translation": "基石_面具",
+      "translation": "础石面具",
       "line": 452
     },
     "Booster_Energy": {
-      "translation": "助推器_能量",
+      "translation": "驱劲能量",
       "line": 453
     },
     "Black_Belt": {
@@ -1815,11 +1815,11 @@
       "line": 471
     },
     "Agile_Scroll": {
-      "translation": "敏捷_滚动",
+      "translation": "敏捷卷轴",
       "line": 472
     },
     "Strong_Scroll": {
-      "translation": "强卷轴",
+      "translation": "刚猛卷轴",
       "line": 473
     },
     "Power_Herb": {
@@ -1839,11 +1839,11 @@
       "line": 477
     },
     "Normalium Z": {
-      "translation": "正态Z",
+      "translation": "一般Z",
       "line": 478
     },
     "Firium Z": {
-      "translation": "菲瑞姆Z",
+      "translation": "火Z",
       "line": 479
     },
     "Waterium Z": {
@@ -1851,7 +1851,7 @@
       "line": 480
     },
     "Electrium Z": {
-      "translation": "电金 Z",
+      "translation": "电Z",
       "line": 481
     },
     "Grassium Z": {
@@ -1859,7 +1859,7 @@
       "line": 482
     },
     "Icium Z": {
-      "translation": "伊苏姆Z",
+      "translation": "冰Z",
       "line": 483
     },
     "Fightinium Z": {
@@ -1871,35 +1871,35 @@
       "line": 485
     },
     "Groundium Z": {
-      "translation": "根Z",
+      "translation": "地面Z",
       "line": 486
     },
     "Flyinium Z": {
-      "translation": "飞尼姆 Z",
+      "translation": "飞行Z",
       "line": 487
     },
     "Psychium Z": {
-      "translation": "洋车前草Z",
+      "translation": "超能力Z",
       "line": 488
     },
     "Buginium Z": {
-      "translation": "紫丁香Z",
+      "translation": "虫Z",
       "line": 489
     },
     "Rockium Z": {
-      "translation": "岩Z",
+      "translation": "岩石Z",
       "line": 490
     },
     "Ghostium Z": {
-      "translation": "鬼魂Z",
+      "translation": "幽灵Z",
       "line": 491
     },
     "Dragonium Z": {
-      "translation": "龙金Z",
+      "translation": "龙Z",
       "line": 492
     },
     "Darkinium Z": {
-      "translation": "达金合金 Z",
+      "translation": "恶Z",
       "line": 493
     },
     "Steelium Z": {
@@ -1907,7 +1907,7 @@
       "line": 494
     },
     "Fairium Z": {
-      "translation": "仙气Z",
+      "translation": "妖精Z",
       "line": 495
     }
   }

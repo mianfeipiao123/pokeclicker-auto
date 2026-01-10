@@ -239,7 +239,7 @@
       "line": 65
     },
     "Fen": {
-      "translation": "分",
+      "translation": "湿地徽章",
       "line": 66
     },
     "Mine": {
@@ -279,27 +279,27 @@
       "line": 76
     },
     "Toxic": {
-      "translation": "有毒的",
+      "translation": "剧毒徽章",
       "line": 77
     },
     "Insect": {
-      "translation": "昆虫",
+      "translation": "甲虫徽章",
       "line": 78
     },
     "Bolt": {
-      "translation": "螺栓",
+      "translation": "电击徽章",
       "line": 79
     },
     "Quake": {
-      "translation": "雷神之锤",
+      "translation": "震动徽章",
       "line": 80
     },
     "Jet": {
-      "translation": "喷射",
+      "translation": "喷气徽章",
       "line": 81
     },
     "Legend": {
-      "translation": "图例",
+      "translation": "传说徽章",
       "line": 82
     },
     "Wave": {
@@ -339,7 +339,7 @@
       "line": 92
     },
     "Plant": {
-      "translation": "种植",
+      "translation": "植物徽章",
       "line": 93
     },
     "Voltage": {
@@ -367,7 +367,7 @@
       "line": 99
     },
     "Elite_Wikstrom": {
-      "translation": "四天王钢铁",
+      "translation": "四天王雁铠",
       "line": 100
     },
     "Elite_Drasna": {
@@ -387,7 +387,7 @@
       "line": 105
     },
     "Ula_Ula_Stamp": {
-      "translation": "乌拉乌拉邮票",
+      "translation": "乌拉乌拉印章",
       "line": 106
     },
     "Poni_Stamp": {
@@ -543,7 +543,7 @@
       "line": 149
     },
     "Noble_Electrode": {
-      "translation": "贵族电极",
+      "translation": "王·顽皮雷弹",
       "line": 150
     },
     "Noble_Avalugg": {
@@ -615,7 +615,7 @@
       "line": 169
     },
     "Fire_Star": {
-      "translation": "火星",
+      "translation": "火之星",
       "line": 170
     },
     "Poison_Star": {
@@ -623,11 +623,11 @@
       "line": 171
     },
     "Fairy_Star": {
-      "translation": "仙女星",
+      "translation": "妖精之星",
       "line": 172
     },
     "Fighting_Star": {
-      "translation": "格斗明星",
+      "translation": "格斗之星",
       "line": 173
     },
     "Elite_Clavell": {
@@ -639,11 +639,11 @@
       "line": 175
     },
     "Rock_Titan": {
-      "translation": "岩石泰坦",
+      "translation": "岩之宝主",
       "line": 177
     },
     "Flying_Titan": {
-      "translation": "飞行泰坦",
+      "translation": "翔之宝主",
       "line": 178
     },
     "Steel_Titan": {
@@ -659,7 +659,7 @@
       "line": 181
     },
     "Elite_Arven": {
-      "translation": "派蒙",
+      "translation": "派帕",
       "line": 182
     },
     "Scarlet": {

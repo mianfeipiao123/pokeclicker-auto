@@ -731,7 +731,7 @@
       "line": 214
     },
     "Pokéball Selector & Pokémon List modules can be vertically resized": {
-      "translation": "宝可梦球选择器和宝可梦列表模块可以垂直调整大小",
+      "translation": "精灵球选择器和宝可梦列表模块可以垂直调整大小",
       "line": 215
     },
     "Poor randomization of certain daily occurrences": {
@@ -1039,7 +1039,7 @@
       "line": 327
     },
     "Broken Gym Leader sprites": {
-      "translation": "破碎的道馆领袖精灵",
+      "translation": "破碎的道馆馆主精灵",
       "line": 328
     },
     "Delete save triggering if cancelled after typing DELETE": {

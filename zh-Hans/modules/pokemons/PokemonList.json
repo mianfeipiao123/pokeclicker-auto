@@ -1923,7 +1923,7 @@
       "line": 8046
     },
     "Unown (F)": {
-      "translation": "[[Unown]] (女)",
+      "translation": "[[Unown]] (F)",
       "line": 8066
     },
     "Unown (G)": {
@@ -1935,7 +1935,7 @@
       "line": 8106
     },
     "Unown (I)": {
-      "translation": "[[Unown]] (一)",
+      "translation": "[[Unown]] (I)",
       "line": 8126
     },
     "Unown (J)": {
@@ -1947,11 +1947,11 @@
       "line": 8166
     },
     "Unown (L)": {
-      "translation": "[[Unown]] (大)",
+      "translation": "[[Unown]] (L)",
       "line": 8186
     },
     "Unown (M)": {
-      "translation": "[[Unown]] (男)",
+      "translation": "[[Unown]] (M)",
       "line": 8206
     },
     "Unown (N)": {
@@ -1967,7 +1967,7 @@
       "line": 8266
     },
     "Unown (Q)": {
-      "translation": "[[Unown]] (问)",
+      "translation": "[[Unown]] (Q)",
       "line": 8286
     },
     "Unown (R)": {
@@ -1999,7 +1999,7 @@
       "line": 8426
     },
     "Unown (Y)": {
-      "translation": "[[Unown]] (是)",
+      "translation": "[[Unown]] (Y)",
       "line": 8446
     },
     "Unown (Z)": {

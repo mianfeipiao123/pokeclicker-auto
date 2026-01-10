@@ -2141,7 +2141,7 @@
       "line": 1762
     },
     "Professor Elm tells me you are a master trainer. Please, show me your skills by training your Pokémon.": {
-      "translation": "埃尔姆教授告诉我你是一位大师级培训师。请通过训练你的宝可梦来向我展示你的技能。",
+      "translation": "空木博士告诉我你是一位大师级培训师。请通过训练你的宝可梦来向我展示你的技能。",
       "line": 1763
     },
     "assets/images/npcs/Kimono Girl.png": {
@@ -2341,7 +2341,7 @@
       "line": 1875
     },
     "Prof. Elm": {
-      "translation": "埃尔姆教授",
+      "translation": "空木博士",
       "line": 1877
     },
     "Oh, another regional Pokédex completed so soon?": {
@@ -2757,7 +2757,7 @@
       "line": 2412
     },
     "Prof. Cozmo": {
-      "translation": "科兹莫教授",
+      "translation": "日暮博士",
       "line": 2415
     },
     "Oh! Welcome, welcome. Do you by any chance have any Meteorites? No? Ah well, I'm studying the Pokémon Deoxys and I've heard that a Meteorite can cause it to change forms!": {
@@ -4371,7 +4371,7 @@
       "line": 3178
     },
     "If such a Pokémon existed, Professor Krane at the Pokémon HQ Lab would know about it.": {
-      "translation": "如果存在这样的宝可梦，宝可梦总部实验室的克兰教授就会知道它。",
+      "translation": "如果存在这样的宝可梦，宝可梦总部实验室的克雷因博士就会知道它。",
       "line": 3179
     },
     "Gale of Darkness": {
@@ -4399,7 +4399,7 @@
       "line": 3190
     },
     "Yes, I heard that Professor Krane was kidnapped from the Pokémon HQ Lab. There's some shady characters up on Mount Battle who might know more.": {
-      "translation": "是的，我听说克兰教授被从宝可梦总部实验室绑架了。 Mount Battle 上有一些可疑的人物可能知道更多。",
+      "translation": "是的，我听说克雷因博士被从宝可梦总部实验室绑架了。 Mount Battle 上有一些可疑的人物可能知道更多。",
       "line": 3191
     },
     "Cipher Admin Lovrina": {
@@ -4415,7 +4415,7 @@
       "line": 3197
     },
     "And don't bother looking for Professor Krane here, he's like long gone.": {
-      "translation": "别费心在这里寻找克兰教授了，他就像早已消失了一样。",
+      "translation": "别费心在这里寻找克雷因博士了，他就像早已消失了一样。",
       "line": 3198
     },
     "assets/images/npcs/Cipher Admin Lovrina.png": {
@@ -4467,7 +4467,7 @@
       "line": 3216
     },
     "I haven't seen Professor Krane around here, but hopefully this will be of some use to you.": {
-      "translation": "我在这里没有见过克兰教授，但希望这对你有用。",
+      "translation": "我在这里没有见过克雷因博士，但希望这对你有用。",
       "line": 3217
     },
     "Mr. Verich": {
@@ -4515,7 +4515,7 @@
       "line": 3236
     },
     "Professor Krane": {
-      "translation": "克兰教授",
+      "translation": "克雷因博士",
       "line": 3239
     },
     "$playername$! Thank you for rescuing me from those fiends!": {
@@ -4567,11 +4567,11 @@
       "line": 3258
     },
     "Professor Lund": {
-      "translation": "隆德教授",
+      "translation": "隆德博士",
       "line": 3261
     },
     "Hey, good job on chasing away those Pokémon. My name is Professor Lund and I'm leading the science team in this area.": {
-      "translation": "嘿，干得好，赶走了那些宝可梦。我是隆德教授，我领导着这一领域的科学团队。",
+      "translation": "嘿，干得好，赶走了那些宝可梦。我是隆德博士，我领导着这一领域的科学团队。",
       "line": 3262
     },
     "You must know a meteorite has landed in this area... What are you saying? You already found it?!": {
@@ -5603,7 +5603,7 @@
       "line": 4348
     },
     "Prof. Rowan": {
-      "translation": "罗文教授",
+      "translation": "山梨博士",
       "line": 4354
     },
     "Congratulations, you're more than half-way completed on the national Pokédex!": {
@@ -5925,7 +5925,7 @@
       "line": 4502
     },
     "They were heading south, towards Professor Rowan's lab!": {
-      "translation": "他们正在向南行驶，前往罗文教授的实验室！",
+      "translation": "他们正在向南行驶，前往山梨博士的实验室！",
       "line": 4503
     },
     "You're chasing after them too, right? Good luck catching up to them!": {
@@ -5999,11 +5999,11 @@
       "line": 4536
     },
     "Prof. Rowan's Assistant": {
-      "translation": "罗文教授的助理",
+      "translation": "山梨博士的助理",
       "line": 4539
     },
     "Hey, $playername$! According to Prof. Rowan's research, 90% of all Pokémon are somehow tied to evolution! Yup, you can also see a Pokémon's evolution line in your Pokédex.": {
-      "translation": "嘿，$玩家名$！根据罗文教授的研究，90%的宝可梦都与进化有关！是的，你也可以在你的图鉴中看到宝可梦的进化线。",
+      "translation": "嘿，$玩家名$！根据山梨博士的研究，90%的宝可梦都与进化有关！是的，你也可以在你的图鉴中看到宝可梦的进化线。",
       "line": 4540
     },
     "Speaking of Pokémon! How's your Pokédex coming along? Wow! You have so many Pokémon that can evolve!": {
@@ -6543,7 +6543,7 @@
       "line": 5205
     },
     "Professor Juniper's Aide": {
-      "translation": "杜松教授的助手",
+      "translation": "红豆杉博士的助手",
       "line": 5208
     },
     "Our research indicates a higher concentration of roaming Pokémon on {ROUTE_NAME}!": {
@@ -6551,7 +6551,7 @@
       "line": 5209
     },
     "Prof. Juniper": {
-      "translation": "杜松教授",
+      "translation": "红豆杉博士",
       "line": 5212
     },
     "Let me see your progress...Ah, fantastic, as usual!": {
@@ -6567,7 +6567,7 @@
       "line": 5216
     },
     "Professor Burnet": {
-      "translation": "伯内特教授",
+      "translation": "芭内特博士",
       "line": 5218
     },
     "Welcome to my laboratory, trainer! I am working here to understand the mysterious Interdream Zone.": {
@@ -6595,7 +6595,7 @@
       "line": 5226
     },
     "I have been helping Professor Burnet explore the Interdream Zone with the help of my Audino.": {
-      "translation": "我一直在我的 差不多娃娃 的帮助下帮助伯内特教授探索 梦境空间。",
+      "translation": "我一直在我的 差不多娃娃 的帮助下帮助芭内特博士探索 梦境空间。",
       "line": 5227
     },
     "Audino's excellent hearing lets it pick up even the quietest hints from Dream Orbs. If you can help the professor advance her research, I may be able to help you in return.": {
@@ -7235,7 +7235,7 @@
       "line": 6023
     },
     "Oh! You've already met Professor Sycamore, how wonderful! That is a wonderful thing, indeed. You are one of the chosen ones.": {
-      "translation": "哦！你已经认识了布拉塔诺教授，太棒了！这确实是一件美妙的事情。你是被选中的人之一。",
+      "translation": "哦！你已经认识了布拉塔诺博士，太棒了！这确实是一件美妙的事情。你是被选中的人之一。",
       "line": 6024
     },
     "I am Lysandre. I've tried to learn as much about Pokémon as I can to help build a brighter future. Professor Sycamore has taught me so much.": {
@@ -9273,11 +9273,11 @@
       "line": 7205
     },
     "By chance, have you spoken to Professor Burnet? She and Professor Kukui have been so kind, helping me investigate Nebby's origins. She's not here at the moment, but I'd like introduce you.": {
-      "translation": "碰巧，你和伯内特教授谈过吗？她和库库伊教授非常友善，帮助我调查了内比的起源。她现在不在，但我想介绍一下你。",
+      "translation": "碰巧，你和芭内特博士谈过吗？她和库库伊博士非常友善，帮助我调查了内比的起源。她现在不在，但我想介绍一下你。",
       "line": 7206
     },
     "Talk to Professor Burnet": {
-      "translation": "与伯内特教授交谈",
+      "translation": "与芭内特博士交谈",
       "line": 7211
     },
     "Nebby's Pokémon species, Cosmog, used to be known as the child of the stars. Its modern name was coined by a researcher in Aether Paradise!": {
@@ -9461,7 +9461,7 @@
       "line": 7310
     },
     "I work as Professor Kukui's assistant. He's told me to show you around the island, so come along now.": {
-      "translation": "我是库库伊教授的助手。他让我带你环岛一周，所以现在就跟来吧。",
+      "translation": "我是库库伊博士的助手。他让我带你环岛一周，所以现在就跟来吧。",
       "line": 7311
     },
     "Nebby! Nebby, come back!": {
@@ -9481,7 +9481,7 @@
       "line": 7325
     },
     "Professor Burnet has been so kind, and she's helping me try to find a way to get Nebby back to its own home... She's been like...like a real mother to me.": {
-      "translation": "伯内特教授非常友善，她正在帮助我找到一种方法让内比回到自己的家......她对我来说就像......就像一个真正的母亲。",
+      "translation": "芭内特博士非常友善，她正在帮助我找到一种方法让内比回到自己的家......她对我来说就像......就像一个真正的母亲。",
       "line": 7331
     },
     "I'll be waiting here until you're ready to join us to the Ruins of Life. I've heard that there is a group of terrible people called Team Skull who try to steal Pokémon. We need to be careful if we want to escape the notice of such a collection of villains... Isn't that right, $playername$?": {
@@ -11813,7 +11813,7 @@
       "line": 8927
     },
     "Hmm? Who are you? Oh, so Ash sent you to help me? That's great!": {
-      "translation": "唔？你是谁？哦，所以阿什派你来帮助我？那太棒了！",
+      "translation": "唔？你是谁？哦，所以小智派你来帮助我？那太棒了！",
       "line": 8928
     },
     "So, I'm part of a tribe of Pokémon called Zarude, I was raised by them despite being a human. One of them has gone missing, I've been told they were seen roaming, completely lost, around the Isle of Armor.": {
@@ -11857,7 +11857,7 @@
       "line": 8952
     },
     "Would you be able to bring Ash here? I think the 3 of us together should be able to calm the lot of them down. He's probably still at the Master Dojo.": {
-      "translation": "你能带阿什来这里吗？我想我们三个人一起应该能够让他们平静下来。他大概还在大师道场。",
+      "translation": "你能带小智来这里吗？我想我们三个人一起应该能够让他们平静下来。他大概还在大师道场。",
       "line": 8953
     },
     "You're back! How did it go with the Zarude?": {
@@ -11877,7 +11877,7 @@
       "line": 8962
     },
     "You brought Ash? Fantastic! And just in time, the Zarude are starting to wake up. Ash, could you have your Pokémon help me explain to them what's going on?": {
-      "translation": "你把阿什带来了？极好的！就在此时，扎鲁德人开始苏醒。小智，你能让你的宝可梦帮我向他们解释一下发生了什么事吗？",
+      "translation": "你把小智带来了？极好的！就在此时，扎鲁德人开始苏醒。小智，你能让你的宝可梦帮我向他们解释一下发生了什么事吗？",
       "line": 8968
     },
     "Okay! It seems they finally understand. I'm really sorry for all the trouble they caused for you.": {
@@ -12277,7 +12277,7 @@
       "line": 9202
     },
     "Prof. Magnolia": {
-      "translation": "木兰教授",
+      "translation": "木兰博士",
       "line": 9205
     },
     "Ahhh, how incredible. Look how far you have come, dear trainer. Congratulations on another complete Pokédex.": {
@@ -12337,7 +12337,7 @@
       "line": 9248
     },
     "Professor Magnolia's House": {
-      "translation": "木兰教授之家",
+      "translation": "木兰博士之家",
       "line": 9257
     },
     "Motostoke": {

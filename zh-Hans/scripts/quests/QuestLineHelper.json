@@ -779,7 +779,7 @@
       "line": 576
     },
     "Talk to Professor Ivy in her lab in the Sevii Islands.": {
-      "translation": "与艾维教授位于塞维群岛的实验室交谈。",
+      "translation": "与内木博士位于塞维群岛的实验室交谈。",
       "line": 579
     },
     "Deliver the GS Ball to Professor Oak in Pallet Town.": {
@@ -1149,7 +1149,7 @@
       "line": 853
     },
     "Collect Fairy Gems and Pixie Plates": {
-      "translation": "收集仙女宝石和精灵盘",
+      "translation": "收集仙女宝石和妖精石板",
       "line": 854
     },
     "Talk to Team Rocket on Pinkan Island to open the theme park!": {
@@ -4529,7 +4529,7 @@
       "line": 2835
     },
     "Proceed to Vast Poni Canyon and prove your skills in a Grand Trial against Poni's new kahuna, Hapu!": {
-      "translation": "前往广阔的波尼峡谷，在大试炼中对抗波尼的新魔王哈普，证明你的技能！",
+      "translation": "前往广阔的波尼峡谷，在大试炼中对抗波尼的新岛屿之王哈普，证明你的技能！",
       "line": 2835
     },
     "Vast Poni Canyon": {
@@ -5061,7 +5061,7 @@
       "line": 3166
     },
     "Defeat Trial Captain Mina at the Roadside Motel.": {
-      "translation": "在路边汽车旅馆击败审判队长米娜。",
+      "translation": "在路边汽车旅馆击败试炼队长米娜。",
       "line": 3166
     },
     "Talk to Captain Mina at the Roadside Motel.": {
@@ -5727,7 +5727,7 @@
       "line": 3623
     },
     "Sordward and Shielbert are forcing Pokémon to rampage in Galar's Stadiums. First is a Tsareena in Turffield Stadium. Defeat it.": {
-      "translation": "索德沃德和希尔伯特迫使宝可梦在伽勒尔的体育场内横冲直撞。第一个是特菲尔德体育场的 Tsareena。打败它。",
+      "translation": "索德沃德和希尔伯特迫使宝可梦在伽勒尔的体育场内横冲直撞。第一个是草路镇竞技场的 Tsareena。打败它。",
       "line": 3623
     },
     "Rampaging Gyarados": {
@@ -5735,7 +5735,7 @@
       "line": 3626
     },
     "Sordward and Shielbert have forced a Gyarados to rampage in Hulbury Stadium. Defeat it as well.": {
-      "translation": "索德沃德和希尔伯特迫使暴鲤龙在赫尔伯里体育场横冲直撞。打败它也一样。",
+      "translation": "索德沃德和希尔伯特迫使暴鲤龙在水舟镇竞技场横冲直撞。打败它也一样。",
       "line": 3626
     },
     "Rampaging Torkoal": {
@@ -5747,7 +5747,7 @@
       "line": 3629
     },
     "Talk to Sordward & Shielbert in Wedgehurst.": {
-      "translation": "与韦奇赫斯特的索德沃德和希尔伯特交谈。",
+      "translation": "与木桩镇的索德沃德和希尔伯特交谈。",
       "line": 3632
     },
     "Sordward & Shielbert": {
@@ -5755,7 +5755,7 @@
       "line": 3635
     },
     "Sordward and Shielbert are trying to steal the Wishing Stars at Professor Magnolia's Lab in Wedgehurst. Stop them.": {
-      "translation": "索德沃德和希尔伯特正试图窃取位于韦奇赫斯特的木兰博士实验室的许愿星。阻止他们。",
+      "translation": "索德沃德和希尔伯特正试图窃取位于木桩镇的木兰博士实验室的许愿星。阻止他们。",
       "line": 3635
     },
     "Rampaging Conkeldurr": {
@@ -5783,7 +5783,7 @@
       "line": 3646
     },
     "There were rampaging Pokémon at Ballonlea Stadium, but Bede already defeated them. There are no more rampaging Pokémon for now, and he wants to battle.": {
-      "translation": "巴隆利体育场里有狂暴的宝可梦，但贝德已经打败了它们。现在已经没有狂暴的宝可梦了，他想要战斗。",
+      "translation": "舞姿镇竞技场里有狂暴的宝可梦，但贝德已经打败了它们。现在已经没有狂暴的宝可梦了，他想要战斗。",
       "line": 3646
     },
     "Rampaging Gigalith": {
@@ -5811,7 +5811,7 @@
       "line": 3657
     },
     "There are no more rampaging Pokémon for now and Marnie wants to battle you in Spikemuth.": {
-      "translation": "现在已经没有狂暴的宝可梦了，玛妮想在斯派克穆斯与你战斗。",
+      "translation": "现在已经没有狂暴的宝可梦了，玛妮想在尖钉镇与你战斗。",
       "line": 3657
     },
     "Rampaging Haxorus": {

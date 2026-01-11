@@ -1,14 +1,16 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（全量翻译 + DOM 替换）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.46
+// @version      0.1.47
 // @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
-// @match        https://pokeclicker.com/*
 // @match        https://www.pokeclicker.com/*
-// @match        http://localhost:*/*
-// @match        http://127.0.0.1:*/*
+// @match        https://g8hh.github.io/pokeclicker/*
+// @match        https://pokeclicker.g8hh.com/*
+// @match        https://pokeclicker.g8hh.com.cn/*
+// @match        https://yx.g8hh.com/pokeclicker/*
+// @match        https://dreamnya.github.io/pokeclicker/*
 // @updateURL    https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.user.js
 // @downloadURL  https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.user.js
 // @run-at       document-start
@@ -75,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.46';
+    const SCRIPT_VERSION = '0.1.47';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:

@@ -11,27 +11,27 @@
       "line": 2
     },
     "Boulder": {
-      "translation": "灰色徽章",
+      "translation": "灰徽章",
       "line": 4
     },
     "Cascade": {
-      "translation": "蓝色徽章",
+      "translation": "蓝徽章",
       "line": 5
     },
     "Thunder": {
-      "translation": "橙色徽章",
+      "translation": "橙徽章",
       "line": 6
     },
     "Rainbow": {
-      "translation": "彩虹",
+      "translation": "彩虹徽章",
       "line": 7
     },
     "Soul": {
-      "translation": "粉色徽章",
+      "translation": "粉徽章",
       "line": 8
     },
     "Marsh": {
-      "translation": "金色徽章",
+      "translation": "金徽章",
       "line": 9
     },
     "Volcano": {
@@ -39,7 +39,7 @@
       "line": 10
     },
     "Earth": {
-      "translation": "绿色徽章",
+      "translation": "绿徽章",
       "line": 11
     },
     "Elite_Lorelei": {
@@ -63,7 +63,7 @@
       "line": 16
     },
     "Zephyr": {
-      "translation": "飞翔徽章",
+      "translation": "飞翼徽章",
       "line": 18
     },
     "Hive": {
@@ -303,7 +303,7 @@
       "line": 82
     },
     "Wave": {
-      "translation": "海浪",
+      "translation": "海浪徽章",
       "line": 83
     },
     "Elite_Shauntal": {
@@ -327,7 +327,7 @@
       "line": 88
     },
     "Bug": {
-      "translation": "虫",
+      "translation": "虫子徽章",
       "line": 90
     },
     "Cliff": {
@@ -347,11 +347,11 @@
       "line": 94
     },
     "Fairy": {
-      "translation": "妖精",
+      "translation": "妖精徽章",
       "line": 95
     },
     "Psychic": {
-      "translation": "超能力",
+      "translation": "超能力徽章",
       "line": 96
     },
     "Iceberg": {

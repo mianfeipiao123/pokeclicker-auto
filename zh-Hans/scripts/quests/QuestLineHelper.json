@@ -1,4 +1,4 @@
-﻿{
+{
   "_meta": {
     "sourceFile": "src/scripts/quests/QuestLineHelper.ts",
     "lastUpdated": "2026-01-02",
@@ -506,7 +506,8 @@
       "translation": "与湛蓝市的药剂师交谈。",
       "line": 388
     },
-    "Cianwood City": { "translation": "湛蓝市",
+    "Cianwood City": {
+      "translation": "湛蓝市",
       "line": 391
     },
     "The Pharmacist said he needs some time to finish Amphys medicine. Clear the Cianwood City Gym in the meantime.": {
@@ -4307,10 +4308,6 @@
       "translation": "我只是想自己去散步，看看成为一名训练家的感觉……所以哈普和我分道扬镳……但后来内比试图从我的包里拿出来……",
       "line": 2705
     },
-    "超值超市（废弃店）": {
-      "translation": "节俭的超级市场",
-      "line": 2712
-    },
     "Acerola": {
       "translation": "阿塞萝拉",
       "line": 2712
@@ -6775,5 +6772,3 @@
     }
   }
 }
-
-

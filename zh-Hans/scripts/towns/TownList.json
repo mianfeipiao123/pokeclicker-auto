@@ -1,4 +1,4 @@
-﻿{
+{
   "_meta": {
     "sourceFile": "src/scripts/towns/TownList.ts",
     "lastUpdated": "2026-01-02",
@@ -2508,7 +2508,8 @@
       "translation": "浅葱灯塔",
       "line": 1996
     },
-    "Cianwood City": { "translation": "湛蓝市",
+    "Cianwood City": {
+      "translation": "湛蓝市",
       "line": 2002
     },
     "Mahogany Town": {
@@ -10615,10 +10616,6 @@
       "translation": "拉纳基拉山",
       "line": 8032
     },
-    "也许是树": {
-      "translation": "也许是一棵树",
-      "line": 8037
-    },
     "Ryuki Dragon Memory": {
       "translation": "龙骑龙记忆",
       "line": 8041
@@ -10830,10 +10827,6 @@
     "Hokulani Observatory": {
       "translation": "霍库拉尼天文台",
       "line": 8283
-    },
-    "超值超市（废弃店）": {
-      "translation": "节俭的超级市场",
-      "line": 8291
     },
     "Acerola Ghost Memory": {
       "translation": "西印度樱桃幽灵记忆",
@@ -13265,5 +13258,3 @@
     }
   }
 }
-
-

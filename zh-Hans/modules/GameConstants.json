@@ -1,4 +1,4 @@
-﻿{
+{
   "_meta": {
     "sourceFile": "src/modules/GameConstants.ts",
     "lastUpdated": "2026-01-02",
@@ -466,10 +466,6 @@
     },
     "Hokulani Observatory": {
       "translation": "霍库拉尼天文台",
-      "line": 817
-    },
-    "超值超市（废弃店）": {
-      "translation": "节俭的超级市场",
       "line": 817
     },
     "Aether Foundation": {
@@ -1216,7 +1212,8 @@
       "translation": "尼比市",
       "line": 922
     },
-    "Cianwood City": { "translation": "湛蓝市",
+    "Cianwood City": {
+      "translation": "湛蓝市",
       "line": 923
     },
     "Rustboro City": {
@@ -4833,4 +4830,3 @@
     }
   }
 }
-

@@ -1,4 +1,4 @@
-﻿{
+{
   "_meta": {
     "sourceFile": "src/scripts/temporaryBattle/TemporaryBattleList.ts",
     "lastUpdated": "2026-01-01",
@@ -526,7 +526,8 @@
       "translation": "民吉的追逐",
       "line": 523
     },
-    "Cianwood City": { "translation": "湛蓝市",
+    "Cianwood City": {
+      "translation": "湛蓝市",
       "line": 529
     },
     "../pokemon/245": {
@@ -4636,10 +4637,6 @@
     "assets/images/items/zCrystal/Psychium Z.svg": {
       "translation": "",
       "line": 4242
-    },
-    "超值超市（废弃店）": {
-      "translation": "节俭的超级市场",
-      "line": 4243
     },
     "Trial Site of Haina Desert": {
       "translation": "海纳沙漠试验场",

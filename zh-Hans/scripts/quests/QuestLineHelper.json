@@ -202,12 +202,20 @@
       "translation": "点击\"列表\"查看当前可完成的任务，完成后可获得 <img title=\"任务点数\" src=\"assets/images/currency/questPoint.svg\" height=\"24px\"> 任务点数。",
       "line": 136
     },
+    "Click \"List\" to see the current quests that can be completed for": {
+      "translation": "点击“列表”查看当前可完成的任务，完成后可获得",
+      "line": 136
+    },
     "List": {
       "translation": "列表",
       "line": 136
     },
     "Quest points": {
       "translation": "任务点数",
+      "line": 136
+    },
+    "Quest Points.": {
+      "translation": "任务点数。",
       "line": 136
     },
     "assets/images/currency/questPoint.svg": {
@@ -3521,7 +3529,7 @@
       "line": 2269
     },
     "Capture or hatch 100 ${...}-type Pokémon.": {
-      "translation": "捕获或孵化100个 ${...} 型宝可梦。",
+      "translation": "捕获或孵化100个 ${...} 属性宝可梦。",
       "line": 2273,
       "_rematchedFrom": "Capture or hatch 100 ${...}-type Pokémon.",
       "_confidence": 0.85
@@ -3681,7 +3689,7 @@
       "line": 2311
     },
     "Capture or hatch 200 Normal-type Pokémon.": {
-      "translation": "捕获或孵化200只普通型宝可梦。",
+      "translation": "捕获或孵化200只普通属性宝可梦。",
       "line": 2314
     },
     "A Vivillon is hiding somewhere. Only the strongest Challengers can reach it.": {
@@ -3691,7 +3699,7 @@
       "_confidence": 0.95
     },
     "You caught the last rare Vivillon (Poké Ball). Congratulations!": {
-      "translation": "你抓到了最后一只稀有的碧粉蝶（精灵球花纹）。\n恭喜！",
+      "translation": "你抓到了最后一只稀有的彩粉蝶（精灵球花纹）。\n恭喜！",
       "line": 2328
     },
     "Vivillon (Poké Ball)": {
@@ -3713,7 +3721,7 @@
       "line": 2341
     },
     "Capture or hatch 100 Fairy-type Pokémon to follow Diancie's Fairy Aura.": {
-      "translation": "捕捉或孵化100只妖精型宝可梦来追随蒂安希的妖精光环。",
+      "translation": "捕捉或孵化100只妖精属性宝可梦来追随蒂安希的妖精光环。",
       "line": 2343
     },
     "Riot": {

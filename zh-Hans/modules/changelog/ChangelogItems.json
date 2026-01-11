@@ -463,7 +463,7 @@
       "line": 138
     },
     "Removed Z-Power Ring from Key Items list as it is not yet obtainable": {
-      "translation": "从关键物品列表中删除了 Z-Power 戒指，因为它尚未获得",
+      "translation": "从重要物品列表中删除了 Z-Power 戒指，因为它尚未获得",
       "line": 139
     },
     "Effect of Petaya berry will be shown with altered berry growth times": {
@@ -2127,7 +2127,7 @@
       "line": 717
     },
     "Key items not being obtained": {
-      "translation": "关键物品未获得",
+      "translation": "重要物品未获得",
       "line": 718
     },
     "Underground hammer sprite not appearing": {
@@ -5165,7 +5165,7 @@
       "line": 1620
     },
     "Tidy up Key items, Evolution stones selector": {
-      "translation": "整理关键物品，进化石选择器",
+      "translation": "整理重要物品，进化石选择器",
       "line": 1621
     },
     "Sketchy theme checkboxes and close icons should display correctly now": {
@@ -5177,7 +5177,7 @@
       "line": 1625
     },
     "Fixed some Key items not being given when supposed to": {
-      "translation": "修复了一些应该提供的关键物品却没有提供的问题",
+      "translation": "修复了一些应该提供的重要物品却没有提供的问题",
       "line": 1626
     },
     "v0.4.1": {
@@ -5385,7 +5385,7 @@
       "line": 1688
     },
     "Selecting \"max\" in store will no longer freeze the game for key items": {
-      "translation": "在商店中选择“最大”将不再冻结游戏中的关键物品",
+      "translation": "在商店中选择“最大”将不再冻结游戏中的重要物品",
       "line": 1689
     },
     "max": {

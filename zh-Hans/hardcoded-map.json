@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-11T11:32:59.288Z",
+    "generatedAt": "2026-01-11T11:53:59.496Z",
     "totalEntries": 2248,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
@@ -1348,7 +1348,7 @@
     "New challenge mode added: Regional Attack Debuff.\\n\\nLowers Pokémon attack based on native region and highest reached region.\\n\\nThis is the default and recommended way to play, but is now an optional challenge.\\n\\nPlease choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": "新增挑战模式：地区攻击削弱。\\n\\n根据宝可梦原产地区和已到达的最高地区降低攻击力。\\n\\n这是默认且推荐的游戏方式，但现在是可选挑战。\\n\\n请选择是否启用此挑战模式（之后无法重新启用）",
     "New challenge mode added: Require Complete Pokédex.\\n\\nRequires a complete regional pokédex before moving on to the next region.\\n\\nThis is the default and recommended way to play, but is now an optional challenge.\\n\\nPlease choose if you would like this challenge mode to be enabled or disabled (cannot be re-enabled later)": "新增挑战模式：需要完成图鉴。\\n\\n需要完成地区图鉴才能前往下一个地区。\\n\\n这是默认且推荐的游戏方式，但现在是可选挑战。\\n\\n请选择是否启用此挑战模式（之后无法重新启用）",
     "New challenge mode added: Slow EVs.\\n\\nDiminishes the rate at which EVs are gained.\\n\\nThis is an optional challenge and is NOT the recommended way to play.\\n\\nPlease choose if you would like this challenge mode to be disabled or enabled.\\n\\nCan be disabled later. Can NOT be enabled later!": "新增挑战模式：缓慢努力值。\\n\\n降低获得努力值的速度。\\n\\n这是可选挑战，不是推荐的游戏方式。\\n\\n请选择是否启用此挑战模式。\\n\\n之后可以禁用，但无法启用！",
-    "New key item!": "新关键物品！",
+    "New key item!": "获得新的重要物品！",
     "New Pokémon you capture, shinies obtained, Pokémon made resistant to Pokérus, and Purified Pokémon all increase your click attack.": "你捕获的新宝可梦、获得的异色、对宝可病毒有抵抗力的宝可梦以及净化的宝可梦都会增加你的点击攻击力。",
     "New Save": "新存档",
     "Next": "下一步",

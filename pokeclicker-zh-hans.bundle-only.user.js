@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.47
+// @version      0.1.48
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -74,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.47';
+    const SCRIPT_VERSION = '0.1.48';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -1600,7 +1600,8 @@
             setTimeout(() => clearInterval(interval), 15000);
         }
 
-        applyMapToRoot(document.documentElement, map, patterns, cache);
+        const getObserverRoot = () => document.body || document.documentElement;
+        applyMapToRoot(getObserverRoot(), map, patterns, cache);
 
         const pendingRoots = new Set();
         const pendingAttrs = new Set();
@@ -1669,13 +1670,35 @@
             if (pendingRoots.size || pendingAttrs.size || pendingText.size) scheduleFlush();
         });
 
-        observer.observe(document.documentElement, {
+        let observerRoot = getObserverRoot();
+        observer.observe(observerRoot, {
             subtree: true,
             childList: true,
             characterData: true,
             attributes: true,
             attributeFilter: attrNames,
         });
+
+        const trySwitchToBody = () => {
+            const body = document.body;
+            if (!body || observerRoot === body) return;
+            observerRoot = body;
+            observer.disconnect();
+            observer.observe(observerRoot, {
+                subtree: true,
+                childList: true,
+                characterData: true,
+                attributes: true,
+                attributeFilter: attrNames,
+            });
+        };
+        if (observerRoot !== document.body) {
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', trySwitchToBody, { once: true });
+            } else {
+                trySwitchToBody();
+            }
+        }
     };
 
     let started = false;

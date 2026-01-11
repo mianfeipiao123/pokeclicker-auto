@@ -142,6 +142,18 @@
       "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
       "line": 97
     },
+    "Select the": {
+      "translation": "选择",
+      "line": 97
+    },
+    "Poké Ball to use this type of ball to capture already caught Pokémon, which will give you": {
+      "translation": "精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得",
+      "line": 97
+    },
+    "Dungeon Tokens when captured.": {
+      "translation": "迷宫代币。",
+      "line": 97
+    },
     "Poké Ball": {
       "translation": "精灵球",
       "line": 97

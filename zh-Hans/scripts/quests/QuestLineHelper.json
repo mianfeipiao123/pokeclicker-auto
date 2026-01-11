@@ -79,10 +79,38 @@
       "line": 74
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
-      "translation": "根据宝可梦的捕获/闪光状态选择使用哪种精灵球。<br/><i><sup>将鼠标悬停在名称上了解更多信息。</sup></i><br/><br/>捕获宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击\"已捕获\"选择器来试试吧。",
+      "translation": "根据宝可梦的已捕获/异色状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
+      "line": 79
+    },
+    "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens\nGained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
+      "translation": "根据宝可梦的已捕获/异色状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
+      "line": 79
+    },
+    "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.": {
+      "translation": "根据宝可梦的已捕获/异色状态，选择用于捕捉的精灵球种类。",
+      "line": 79
+    },
+    "Hover over the names for more info.": {
+      "translation": "将鼠标悬停在名称上以查看更多信息。",
+      "line": 79
+    },
+    "Capturing Pokémon gains you": {
+      "translation": "捕捉宝可梦可获得",
+      "line": 79
+    },
+    "Dungeon Tokens.": {
+      "translation": "迷宫代币。",
+      "line": 79
+    },
+    "Try now by clicking the \"Caught\" selector to change it.": {
+      "translation": "现在点击“已捕获”选择器切换试试吧。",
       "line": 79
     },
     "Dungeon Tokens Gained by capturing Pokémon": {
+      "translation": "迷宫代币\n通过捕获宝可梦获得",
+      "line": 79
+    },
+    "Dungeon Tokens\nGained by capturing Pokémon": {
       "translation": "迷宫代币\n通过捕获宝可梦获得",
       "line": 79
     },
@@ -107,7 +135,11 @@
       "line": 96
     },
     "Select the <img title=\"Poké Ball\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> Poké Ball to use this type of ball to capture already caught Pokémon, which will give you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens when captured.": {
-      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球来捕获已捕获过的宝可梦，捕获后可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
+      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
+      "line": 97
+    },
+    "Select the <img title=\"Poké Ball\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> Poké Ball to use this type of ball to capture already caught Pokémon, which will give you <img title=\"Dungeon Tokens\nGained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens when captured.": {
+      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
       "line": 97
     },
     "Poké Ball": {

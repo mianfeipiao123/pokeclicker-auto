@@ -1107,7 +1107,7 @@
       "line": 757
     },
     "I found Detective Pikachu's partner some days ago injured on the side of the road, and have nursed him back to health. I hope this reunion will suffice.": {
-      "translation": "前些天我在路边发现了大侦探皮卡丘的搭档受伤，便把他照料至康复。希望这次重聚能让你们满意。",
+      "translation": "前些天我在路边发现了名侦探皮卡丘的搭档受伤，便把他照料至康复。希望这次重聚能让你们满意。",
       "line": 758
     },
     "Detective Raichu": {
@@ -8731,7 +8731,7 @@
       "line": 6958
     },
     "Kiawe's Trade": {
-      "translation": "凯威贸易",
+      "translation": "卡奇的交换",
       "line": 6966
     },
     "Fire_Memory_Silvally": {
@@ -8739,7 +8739,7 @@
       "line": 6968
     },
     "Sophocles's Trade": {
-      "translation": "索福克勒斯的贸易",
+      "translation": "马玛内的贸易",
       "line": 6976
     },
     "Electric_Memory_Silvally": {
@@ -9065,7 +9065,7 @@
       "line": 7115
     },
     "Officer Nanu": {
-      "translation": "纳努警官",
+      "translation": "默丹警官",
       "line": 7117
     },
     "A trial-goer, huh? Figures. Look, I'm not gonna fight someone who is taking on Team Skull. So...go. Just go.": {
@@ -9093,7 +9093,7 @@
       "line": 7132
     },
     "Mina": {
-      "translation": "米娜",
+      "translation": "茉莉",
       "line": 7135
     },
     "We don't have a kahuna on Poni, so I don't have an actual trial or anything...": {
@@ -9101,7 +9101,7 @@
       "line": 7136
     },
     "Old man Nanu has been looking after our grand trials up until now. I'm the captain and all, so I've gotta come up with a trial.": {
-      "translation": "纳努老人至今一直在照顾我们的大试炼。我是队长，所以我必须想出一个办法。",
+      "translation": "默丹老人至今一直在照顾我们的大试炼。我是队长，所以我必须想出一个办法。",
       "line": 7137
     },
     "assets/images/npcs/Mina.png": {
@@ -9853,7 +9853,7 @@
       "line": 7551
     },
     "Captain Sophocles": {
-      "translation": "马睿因队长",
+      "translation": "马玛内队长",
       "line": 7554
     },
     "Hey, $playername$! How are you doing? I've been doing great, except that my equipment is getting old and rusted. I would like to buy some more, but I don't have enough money to buy any right now.": {
@@ -9889,7 +9889,7 @@
       "line": 7568
     },
     "Hey, $playername$. How's it going? Looking for a rematch, or did you come here explore the Poni Island secrets? Oh, I see. You're looking for a Silvally Memory. I found a memory in the ground here, so I took it and studied it a bit. All I could find out is that it was from some Silvally. I also found another memory while helping Mina out with her trial. I gave it to her, but I'm not sure if she found out how it works.": {
-      "translation": "嘿，$playername$。怎么样了？想要重赛，还是来这里探索波尼岛的秘密？我懂了。你正在寻找银伴战兽记忆。我在这里的地下发现了一段记忆，所以我把它拿过来研究了一下。我所能找到的只是那是来自某个银伴战兽的人。在帮助米娜完成审判的过程中，我还发现了另一段记忆。我把它给了她，但我不确定她是否知道它是如何工作的。",
+      "translation": "嘿，$playername$。怎么样了？想要重赛，还是来这里探索波尼岛的秘密？我懂了。你正在寻找银伴战兽记忆。我在这里的地下发现了一段记忆，所以我把它拿过来研究了一下。我所能找到的只是那是来自某个银伴战兽的人。在帮助茉莉完成审判的过程中，我还发现了另一段记忆。我把它给了她，但我不确定她是否知道它是如何工作的。",
       "line": 7569
     },
     "Anyway. Can I ask you something? Do you know any farmers? I'm needing to plant more palm trees around here on Exeggutor Island but I don't have enough Farm Points to buy all the seeds I need. If I got in contact with a farmer I could get them for much cheaper or even free! Oh? You know how to use the Farm? So that means you have a lot of Farm Points, right? Good! How about you give me some of those Farm Points for this Silvally Memory? Ok, I'll be here taking care of the Exeggutor for a while so you can come and visit me anytime to do this trade.": {
@@ -10165,7 +10165,7 @@
       "line": 7694
     },
     "It doesn't matter though. There is no rest for us. Captain Mina is here with news, but she insists on battling you before she'll tell us anything.": {
-      "translation": "不过没关系。我们没有休息。米娜队长带来了消息，但她坚持在告诉我们任何事情之前先与你战斗。",
+      "translation": "不过没关系。我们没有休息。茉莉队长带来了消息，但她坚持在告诉我们任何事情之前先与你战斗。",
       "line": 7695
     },
     "Still in tip top shape I see. Good. That means you're strong enough to take out this monster I heard about on Akala Island.": {
@@ -10221,7 +10221,7 @@
       "line": 7736
     },
     "Ten years ago, a very similar incident occured. Looker and his team were assigned to fight Guzzlord. Nanu was there too. They lost. Looker lost a colleague that day.": {
-      "translation": "十年前，曾发生过类似的事件。 Looker 和他的团队被派去对抗 恶食大王。纳努也在场。他们输了。那天，Looker 失去了一位同事。",
+      "translation": "十年前，曾发生过类似的事件。 Looker 和他的团队被派去对抗 恶食大王。默丹也在场。他们输了。那天，Looker 失去了一位同事。",
       "line": 7737
     },
     "After the battle they found something. A strange young girl, alone in the wilderness of Poni Island. They found me. It seems I came from another world as well. Not their world though. These creatures are strange to me too.": {
@@ -10489,7 +10489,7 @@
       "line": 7900
     },
     "Captain Mina UB": {
-      "translation": "米娜 UB 队长",
+      "translation": "茉莉 UB 队长",
       "line": 7904
     },
     "Kahuna Nanu UB": {
@@ -10565,7 +10565,7 @@
       "line": 7996
     },
     "Mina's Houseboat": {
-      "translation": "米娜的船屋",
+      "translation": "茉莉的船屋",
       "line": 8000
     },
     "Exeggutor Island": {

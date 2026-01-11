@@ -539,7 +539,7 @@
       "line": 380
     },
     "Jasmine's Ampharos seems to be sick!": {
-      "translation": "茉莉的安法洛斯好像生病了！",
+      "translation": "阿蜜的电龙好像生病了！",
       "line": 380
     },
     "Olivine Lighthouse": {
@@ -551,7 +551,7 @@
       "line": 382
     },
     "Talk to Jasmine in the Olivine Lighthouse.": {
-      "translation": "在浅葱灯塔与茉莉交谈。",
+      "translation": "在浅葱灯塔与阿蜜交谈。",
       "line": 385
     },
     "Talk to the Pharmacist in Cianwood City.": {
@@ -3409,7 +3409,7 @@
       "line": 2198
     },
     "Detective Pikachu's partner has gone missing, and he needs your help!": {
-      "translation": "大侦探皮卡丘的搭档失踪了，他需要你的帮助！",
+      "translation": "名侦探皮卡丘的搭档失踪了，他需要你的帮助！",
       "line": 2198
     },
     "Search Goldenrod City for clues.": {
@@ -3429,7 +3429,7 @@
       "line": 2206
     },
     "Detective Pikachu has an informant who knows more about the mysterious vial. Meet with him in Saffron City.": {
-      "translation": "大侦探皮卡丘有一位线人对这支神秘试剂瓶更了解。去金黄市与他会面。",
+      "translation": "名侦探皮卡丘有一位线人对这支神秘试剂瓶更了解。去金黄市与他会面。",
       "line": 2209
     },
     "Mime Interview": {
@@ -3477,7 +3477,7 @@
       "line": 2230
     },
     "Detective Pikachu is injured. He asks you to get help from his friend near Cerulean Cave": {
-      "translation": "大侦探皮卡丘受伤了。他请你去华蓝洞窟附近找他的朋友帮忙。",
+      "translation": "名侦探皮卡丘受伤了。他请你去华蓝洞窟附近找他的朋友帮忙。",
       "line": 2233
     },
     "Confront Howard Clifford in Goldenrod City about his involvement with the R vials.": {
@@ -3505,7 +3505,7 @@
       "line": 2245
     },
     "Talk to Mewtwo near Cerulean Cave about Detective Pikachu's partner.": {
-      "translation": "在华蓝洞窟附近与超梦谈谈大侦探皮卡丘的搭档。",
+      "translation": "在华蓝洞窟附近与超梦谈谈名侦探皮卡丘的搭档。",
       "line": 2248
     },
     "Detective Raichu": {
@@ -3513,7 +3513,7 @@
       "line": 2252
     },
     "Detective Pikachu's partner has been nursed back to health!": {
-      "translation": "大侦探皮卡丘的搭档已被照料康复！",
+      "translation": "名侦探皮卡丘的搭档已被照料康复！",
       "line": 2255
     },
     "Talk to Detective Raichu": {
@@ -4237,7 +4237,7 @@
       "line": 2650
     },
     "Kiawe": {
-      "translation": "基亚韦",
+      "translation": "卡奇",
       "line": 2650
     },
     "Whoa! S-spectacular! That Pokémon was protecting this Firium Z. Now it is yours.": {
@@ -4329,7 +4329,7 @@
       "line": 2696
     },
     "Sophocles": {
-      "translation": "索福克勒斯",
+      "translation": "马玛内",
       "line": 2696
     },
     "That Pokémon was really something else! Here, I'll give you this Electrium Z to reward you for beating it.": {
@@ -4661,11 +4661,11 @@
       "line": 2894
     },
     "Mina's Houseboat": {
-      "translation": "米娜的船屋",
+      "translation": "茉莉的船屋",
       "line": 2898
     },
     "Mina": {
-      "translation": "米娜",
+      "translation": "茉莉",
       "line": 2898
     },
     "That's a pretty great picture. You and your Pokémon! You're a great Pokémon Trainer! So here you go! A piece of Fairium Z for you!": {
@@ -4745,7 +4745,7 @@
       "line": 2928
     },
     "Mina's Trial": {
-      "translation": "米娜的审判",
+      "translation": "茉莉的审判",
       "line": 2934
     },
     "Mina has asked you to battle the Trial captains of the other islands to earn access to her Trial site.": {
@@ -4793,7 +4793,7 @@
       "line": 2948
     },
     "Captain Sophocles": {
-      "translation": "马睿因队长",
+      "translation": "马玛内队长",
       "line": 2951
     },
     "Defeat Captain Sophocles in Hokulani Observatory.": {
@@ -4897,7 +4897,7 @@
       "line": 3028
     },
     "Buy the Electric Memory from Captain Sophocles with Pokédollars.": {
-      "translation": "用宝可梦币从马睿因队长那里购买电记忆。",
+      "translation": "用宝可梦币从马玛内队长那里购买电记忆。",
       "line": 3031
     },
     "Thank you, $playername$! Now I'll go buy some new equipment for my laboratory.": {
@@ -5105,15 +5105,15 @@
       "_confidence": 0.95
     },
     "Captain Mina UB": {
-      "translation": "米娜 UB 队长",
+      "translation": "茉莉 UB 队长",
       "line": 3166
     },
     "Defeat Trial Captain Mina at the Roadside Motel.": {
-      "translation": "在路边汽车旅馆击败试炼队长米娜。",
+      "translation": "在路边汽车旅馆击败试炼队长茉莉。",
       "line": 3166
     },
     "Talk to Captain Mina at the Roadside Motel.": {
-      "translation": "与路边汽车旅馆的米娜队长交谈。",
+      "translation": "与路边汽车旅馆的茉莉队长交谈。",
       "line": 3169
     },
     "Xurkitree": {

@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-11T16:45:05.237Z",
+    "generatedAt": "2026-01-11T20:13:36.390Z",
     "totalEntries": 2248,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
@@ -123,7 +123,7 @@
     "-shiny": "-异色的",
     ". This is then further reduced as you discover treasures in your current mine.": "。当你在当前矿井中发现宝藏时，这种情况会进一步减少。",
     ". This mine only contains 1 treasure, which can be any of the mega stones (if eligible) or other special treasures.": "。该矿井仅包含1个宝藏，可以是任何超进化石（如果符合条件）或其他特殊宝藏。",
-    ". You can even find a Pokémon exclusive to the client when you reach the Sevii Islands!": "。当你到达塞维群岛时，你甚至可以找到客户端专属的宝可梦！",
+    ". You can even find a Pokémon exclusive to the client when you reach the Sevii Islands!": "。当你到达七之岛时，你甚至可以找到客户端专属的宝可梦！",
     "..and so on": "..等等",
     "0 0 6px ${...}": "0 0 6像素 ${...}",
     "0/hour": "0/小时",
@@ -795,9 +795,9 @@
     "Fight Aether Branch Chief Faba": "对战 以太分部长扎奥博",
     "Fight Agitated Spearow": "对战 愤怒的烈雀",
     "Fight Anomaly Mewtwo": "对战 异常超梦",
-    "Fight Aqua Admin Matt": "对战 水舰队干部阿潮",
-    "Fight Aqua Admin Shelly": "对战 水舰队干部伊莎贝尔",
-    "Fight Aqua Grunt": "对战 水舰队小兵",
+    "Fight Aqua Admin Matt": "对战 海洋队干部 阿潮",
+    "Fight Aqua Admin Shelly": "对战 海洋队干部 阿泉",
+    "Fight Aqua Grunt": "对战 海洋队手下",
     "Fight Archie": "对战 水梧桐",
     "Fight Ash Ketchum": "对战 小智",
     "Fight Biker Goon": "对战 飞车党小混混",

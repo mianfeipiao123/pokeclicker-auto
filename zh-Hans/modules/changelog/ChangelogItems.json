@@ -607,7 +607,7 @@
       "line": 178
     },
     "The \"Caught Not Shadow\" Pokédex filter will now only show Pokémon with a shadow form": {
-      "translation": "“抓不到影子” 图鉴 过滤器现在只会显示暗影形态的宝可梦",
+      "translation": "“已捕获（无暗影）”图鉴筛选器现在只会显示拥有暗影形态的宝可梦",
       "line": 179
     },
     "Caught Not Shadow": {
@@ -1559,7 +1559,7 @@
       "line": 525
     },
     "Sevii now has it's own achievement pool": {
-      "translation": "塞维群岛现在拥有自己的成就池",
+      "translation": "七之岛现在拥有自己的成就池",
       "line": 526
     },
     "Dungeon floors added for dungeons of size 10 or bigger": {
@@ -1727,7 +1727,7 @@
       "line": 582
     },
     "Sevii island fixes": {
-      "translation": "塞维群岛修复",
+      "translation": "七之岛修复",
       "line": 585
     },
     "Alola islands being inaccessible for some people": {
@@ -1747,11 +1747,11 @@
       "line": 591
     },
     "Sevii islands 4, 5, 6 and 7": {
-      "translation": "塞维群岛第4～7岛",
+      "translation": "七之岛（4～7号岛）",
       "line": 592
     },
     "Sevii questline": {
-      "translation": "塞维群岛任务线",
+      "translation": "七之岛任务线",
       "line": 593
     },
     "Detective Pikachu questline": {
@@ -1855,7 +1855,7 @@
       "line": 637
     },
     "First 3 Sevii islands": {
-      "translation": "塞维群岛第1～3岛",
+      "translation": "七之岛（1～3号岛）",
       "line": 639
     },
     "Freeze mulch added to Farm": {
@@ -1895,7 +1895,7 @@
       "line": 648
     },
     "Trade stone is now Linking cord": {
-      "translation": "贸易石现在是连接线",
+      "translation": "贸易石现已更名为联系绳",
       "line": 649
     },
     "More filters and sorting options added": {
@@ -3989,7 +3989,7 @@
       "line": 1278
     },
     "Boost Dungeon Tokens gained slightly": {
-      "translation": "Boost Dungeon 代币略有增加",
+      "translation": "迷宫代币获得量略微提升",
       "line": 1279
     },
     "Updated images, Use svg images for Currency and Pokéballs": {

@@ -1155,7 +1155,7 @@
       "line": 1642
     },
     "Cerulean Cave": {
-      "translation": "蔚蓝洞",
+      "translation": "华蓝洞窟",
       "line": 1654
     },
     "Protein": {
@@ -2115,7 +2115,7 @@
       "line": 3046
     },
     "Team Aqua Grunt": {
-      "translation": "水族咕噜队",
+      "translation": "海洋队手下",
       "line": 3047
     },
     "Torchic (Egg)": {
@@ -2275,19 +2275,19 @@
       "line": 3233
     },
     "Team Magma Grunt": {
-      "translation": "岩浆步兵团队",
+      "translation": "熔岩队手下",
       "line": 3235
     },
     "Magma Admin": {
-      "translation": "岩浆管理员",
+      "translation": "熔岩队干部",
       "line": 3241
     },
     "Tabitha": {
-      "translation": "塔比莎",
+      "translation": "火村",
       "line": 3247
     },
     "Magma Leader": {
-      "translation": "岩浆领袖",
+      "translation": "熔岩队首领",
       "line": 3263
     },
     "Mightyena": {
@@ -2387,7 +2387,7 @@
       "line": 3428
     },
     "Aqua Admin": {
-      "translation": "水族管理员",
+      "translation": "海洋队干部",
       "line": 3439
     },
     "Primal Reversion": {
@@ -2395,11 +2395,11 @@
       "line": 3443
     },
     "Shelly": {
-      "translation": "雪莉",
+      "translation": "阿泉",
       "line": 3443
     },
     "(shelly)": {
-      "translation": "（雪莉）",
+      "translation": "（阿泉）",
       "line": 3443
     },
     "Castform": {
@@ -2543,7 +2543,7 @@
       "line": 3682
     },
     "Matt": {
-      "translation": "马特",
+      "translation": "阿潮",
       "line": 3694
     },
     "(matt)": {
@@ -2607,7 +2607,7 @@
       "line": 3775
     },
     "Aqua Leader": {
-      "translation": "海洋队头目",
+      "translation": "海洋队首领",
       "line": 3822
     },
     "Archie": {
@@ -7339,7 +7339,7 @@
       "line": 11107
     },
     "Verdant Cavern": {
-      "translation": "翠绿的洞穴",
+      "translation": "葱郁洞窟",
       "line": 11125
     },
     "Alolan Rattata": {
@@ -7363,7 +7363,7 @@
       "line": 11132
     },
     "Team Skull Grunt": {
-      "translation": "骷髅队步兵",
+      "translation": "骷髅队手下",
       "line": 11133
     },
     "Alolan Raticate": {
@@ -7395,7 +7395,7 @@
       "line": 11160
     },
     "of Verdant Cavern": {
-      "translation": "翠绿洞穴的",
+      "translation": "葱郁洞窟的",
       "line": 11179
     },
     "Melemele Meadow": {
@@ -7607,7 +7607,7 @@
       "line": 11453
     },
     "Wela Volcano Park": {
-      "translation": "韦拉火山公园",
+      "translation": "维拉火山公园",
       "line": 11457
     },
     "Magby": {
@@ -7651,11 +7651,11 @@
       "line": 11496
     },
     "of Wela Volcano Park": {
-      "translation": "韦拉火山公园",
+      "translation": "维拉火山公园",
       "line": 11510
     },
     "Lush Jungle": {
-      "translation": "葱郁洞窟",
+      "translation": "树荫丛林",
       "line": 11514
     },
     "Trumbeak": {
@@ -7699,7 +7699,7 @@
       "line": 11549
     },
     "of Lush Jungle": {
-      "translation": "葱郁洞窟",
+      "translation": "树荫丛林的",
       "line": 11558
     },
     "Diglett's Tunnel": {
@@ -7723,7 +7723,7 @@
       "line": 11575
     },
     "Memorial Hill": {
-      "translation": "纪念山",
+      "translation": "回忆之丘",
       "line": 11600
     },
     "Phantump": {
@@ -7751,7 +7751,7 @@
       "line": 11619
     },
     "Malie Garden": {
-      "translation": "马里花园",
+      "translation": "马利埃庭园",
       "line": 11643
     },
     "Kartana": {

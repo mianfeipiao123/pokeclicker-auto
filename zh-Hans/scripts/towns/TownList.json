@@ -99,7 +99,7 @@
       "line": 254
     },
     "Good of you to come see me. I need you to pick up something for me. A special kind of Poké Ball, found by Professor Ivy. She lives on one of the Sevii Islands, east of Three Island.": {
-      "translation": "你能来看我真好。我需要你帮我拿点东西。内木博士发现的一种特殊的精灵球。她住在三之岛以东的塞维群岛的一座岛上。",
+      "translation": "你能来看我真好。我需要你帮我拿点东西。内木博士发现的一种特殊的精灵球。她住在三之岛以东的七之岛某座岛上。",
       "line": 259
     },
     "I don't know who else to trust with this. It's very important and very valuable.": {
@@ -651,7 +651,7 @@
       "line": 508
     },
     "Celio": {
-      "translation": "尼尔",
+      "translation": "锦辉",
       "line": 510
     },
     "Ah, yes. Welcome! Welcome! Almost didn't see you there. I'm just so busy trying to get this darned thing to work. Once it's complete we can finally have a direct communications network between the Sevii Islands and Kanto!": {
@@ -659,11 +659,11 @@
       "line": 511
     },
     "I don't even have time to go and pick up an important package. A meteorite, found by the owner of the game corner on Two Island. It contains important materials for my machine.": {
-      "translation": "我什至没有时间去取一个重要的包裹。陨石，是二岛游戏城的主人发现的。它包含我的机器的重要材料。",
+      "translation": "我甚至连去取一份重要包裹的时间都没有。那是一颗陨石，是二之岛游戏城的老板发现的，里面含有我这台机器所需的重要材料。",
       "line": 512
     },
     "You seem like the adventuring type. Tell you what. How about Bill stays here with me to work on this machine, and you go fetch my Meteorite for me.": {
-      "translation": "你看起来像是喜欢冒险的人。告诉你什么。正辉留在这儿和我一起修理这台机器怎么样，你去帮我取陨石吧。",
+      "translation": "你看起来像是喜欢冒险的人。这样吧，正辉就留在这里和我一起修理这台机器，你去帮我把那块陨石取回来，怎么样？",
       "line": 513
     },
     "assets/images/npcs/Celio.png": {
@@ -695,7 +695,7 @@
       "line": 528
     },
     "Celio's Errand": {
-      "translation": "尼尔的差事",
+      "translation": "锦辉的差事",
       "line": 531
     },
     "How have things been for you? Oh, is that right? You've caught more Pokémon. Do you know what? Maybe I can be useful to you. I'm modifying the Network Machine right now. I'm changing it so it can handle trades over long distances. When I get finished, you'll be trading for exotic Pokémon from Trainers far away.": {
@@ -755,7 +755,7 @@
       "line": 568
     },
     "What? The meteorite for Celio? Yes, I can give that to you. But I need you to do something for me first.": {
-      "translation": "什么？尼尔的陨石？是的，我可以给你。但我需要你先帮我做一件事。",
+      "translation": "什么？给锦辉的陨石？是的，我可以给你。但我需要你先帮我做一件事。",
       "line": 569
     },
     "My daughter Lostelle is missing. She likes to pick berries in the Berry Forest on Three Island. She does it all the time. But this time she hasn't come back. Please go find her.": {
@@ -1251,7 +1251,7 @@
       "line": 825
     },
     "Not much use in having two of the same Mega Stone, so she might be willing to give one up. If you want to find her, you should check out Cerulean Cave.": {
-      "translation": "拥有两块相同的巨石并没有多大用处，所以她可能愿意放弃一颗。如果你想找到她，你应该去蔚蓝洞窟看看。",
+      "translation": "拥有两块相同的超进化石并没有多大用处，所以她可能愿意放弃一颗。如果你想找到她，你应该去华蓝洞窟看看。",
       "line": 826
     },
     "assets/images/npcs/Blue-lgpe.png": {
@@ -1415,7 +1415,7 @@
       "line": 944
     },
     "Cerulean Cave": {
-      "translation": "蔚蓝洞",
+      "translation": "华蓝洞窟",
       "line": 948
     },
     "Bill's House": {
@@ -1539,11 +1539,11 @@
       "line": 1076
     },
     "Sevii Rocket Grunt 1": {
-      "translation": "塞维群岛火箭队手下1",
+      "translation": "七之岛火箭队手下1",
       "line": 1076
     },
     "Sevii Rocket Grunt 2": {
-      "translation": "塞维群岛火箭队手下2",
+      "translation": "七之岛火箭队手下2",
       "line": 1076
     },
     "Two Island": {
@@ -1599,23 +1599,23 @@
       "line": 1140
     },
     "Sevii Rocket Grunt 3": {
-      "translation": "塞维群岛火箭队手下3",
+      "translation": "七之岛火箭队手下3",
       "line": 1144
     },
     "Sevii Rocket Grunt 4": {
-      "translation": "塞维群岛火箭队手下4",
+      "translation": "七之岛火箭队手下4",
       "line": 1144
     },
     "Sevii Rocket Grunt 5": {
-      "translation": "塞维群岛火箭队手下5",
+      "translation": "七之岛火箭队手下5",
       "line": 1144
     },
     "Sevii Rocket Ariana": {
-      "translation": "塞维群岛火箭队干部 雅典娜",
+      "translation": "七之岛火箭队干部 雅典娜",
       "line": 1144
     },
     "Sevii Rocket Archer": {
-      "translation": "塞维群岛火箭队干部 阿波罗",
+      "translation": "七之岛火箭队干部 阿波罗",
       "line": 1144
     },
     "Scientist Gideon": {
@@ -3847,7 +3847,7 @@
       "line": 2967
     },
     "<i>A large mural depicting some sort of oceanic whale-like Pokémon. It seems to be engaged in a battle.</i>": {
-      "translation": "<i>一幅描绘某种海洋�的鲸鱼宝可梦的大型壁画。它似乎正在进行战斗。</i>",
+      "translation": "<i>一幅描绘某种海洋中的鲸鱼般宝可梦的大型壁画。它似乎正在进行战斗。</i>",
       "line": 2968
     },
     "<i>You see someone else looking at the mural: Steven Stone!</i>": {
@@ -4659,11 +4659,11 @@
       "line": 3321
     },
     "Courtney 1": {
-      "translation": "考特尼1",
+      "translation": "火雁1",
       "line": 3325
     },
     "Matt 1": {
-      "translation": "马特1",
+      "translation": "阿潮1",
       "line": 3325
     },
     "Rustboro City": {
@@ -4727,7 +4727,7 @@
       "line": 3393
     },
     "Magma Hideout": {
-      "translation": "岩浆藏身处",
+      "translation": "熔岩队基地",
       "line": 3393
     },
     "Fallarbor Town": {
@@ -4771,19 +4771,19 @@
       "line": 3472
     },
     "Aqua Grunt": {
-      "translation": "阿库鲁特",
+      "translation": "海洋队手下",
       "line": 3476
     },
     "Magma Grunt": {
-      "translation": "岩浆步兵",
+      "translation": "熔岩队手下",
       "line": 3476
     },
     "Courtney 2": {
-      "translation": "考特尼2",
+      "translation": "火雁2",
       "line": 3476
     },
     "Matt 2": {
-      "translation": "马特2",
+      "translation": "阿潮2",
       "line": 3476
     },
     "Dr Cozmo": {
@@ -4867,11 +4867,11 @@
       "line": 3534
     },
     "Matt 3": {
-      "translation": "马特3",
+      "translation": "阿潮3",
       "line": 3538
     },
     "Courtney 3": {
-      "translation": "考特尼3",
+      "translation": "火雁3",
       "line": 3538
     },
     "Obtain an Eon Ticket": {
@@ -7655,7 +7655,7 @@
       "line": 6207
     },
     "Some Pokémon evolve when exposed to a Linking Cord, or sent through a trade.": {
-      "translation": "有些宝可梦在接触连接线或通过交易发送时会进化。",
+      "translation": "有些宝可梦在使用联系绳，或在交换时会进化。",
       "line": 6212
     },
     "That's right. Haunter is one of those Pokemon.": {
@@ -7663,7 +7663,7 @@
       "line": 6213
     },
     "I don't have enough Quest Points to buy a Linking Cord, but a girl named Mindy from Snowpoint City offered to trade me her Haunter for a Medicham.": {
-      "translation": "我任务点数不够买连接线，不过雪峰市有个叫米蒂的女孩愿意用她的鬼斯通跟我交换恰雷姆。",
+      "translation": "我任务点数不够买联系绳，不过雪峰市有个叫米蒂的女孩愿意用她的鬼斯通跟我交换恰雷姆。",
       "line": 6214
     },
     "Hopefully I'll have a Gengar soon...": {
@@ -8835,7 +8835,7 @@
       "line": 7027
     },
     "This island only has one trial: Captain Ilima's trial in Verdant Cavern, below the Melemele Woods. Come back here after clearing that challenge for your Grand trial battle.": {
-      "translation": "这个岛上只有一项审判：伊利马队长在梅勒梅勒森林下方的翠绿洞穴中进行的审判。完成大试炼战斗的挑战后，请回到这里。",
+      "translation": "这个岛上只有一项考验：伊利马队长会在梅勒梅勒森林下方的葱郁洞窟主持考验。完成该挑战后，请回到这里进行大考验。",
       "line": 7028
     },
     "assets/images/npcs/Hala.png": {
@@ -8875,7 +8875,7 @@
       "line": 7046
     },
     "Captain Lana's trial in Brooklet Hill, Captain Kiawe's trial in Wela Volcano Park and Captain Mallow's trial in Lush Jungle.": {
-      "translation": "水莲队长在布鲁克莱特山的审判、卡奇队长在韦拉火山公园的审判以及玛奥队长在郁郁葱葱的丛林的审判。",
+      "translation": "水莲队长在布鲁克莱特山的考验、卡奇队长在维拉火山公园的考验，以及玛奥队长在树荫丛林的考验。",
       "line": 7047
     },
     "For what it's worth, I say don't go to any of those places. Too wet, too hot and too... jungly. Why not stay here? Have a coffee! Enjoy the city!": {
@@ -9061,7 +9061,7 @@
       "line": 7114
     },
     "After the battle, Crabrawler evolved! I didn't even know he could do that. He's so different now. But I still love him. He's my best friend, and he's even better at rock smashing now!": {
-      "translation": "战斗结束后，爬行者进化了！我什至不知道他能做到这一点。他现在很不一样了。但我仍然爱他。他是我最好的朋友，而且他现在砸石头的技术更出色了！",
+      "translation": "战斗结束后，好胜蟹进化了！我之前甚至不知道它还能进化。它现在完全不一样了……但我还是喜欢它。它是我最好的伙伴，而且现在砸岩石也更厉害了！",
       "line": 7115
     },
     "Officer Nanu": {
@@ -9293,7 +9293,7 @@
       "line": 7214
     },
     "Lush Jungle": {
-      "translation": "葱郁洞窟",
+      "translation": "树荫丛林",
       "line": 7217
     },
     "Talk to Lillie": {
@@ -9697,7 +9697,7 @@
       "line": 7478
     },
     "I found that while getting back here after helping Ilima in the Verdant Cavern. If you need it, I can give it to you. Here it is. Oh, also Kahuna Olivia told me she found one of these on Akala Island somewhere. Maybe you should go and ask her for it too. She'll probably give it to you as she also doesn't know what it is.": {
-      "translation": "我在翠绿洞穴帮助伊利马后回到这里时发现了这一点。如果你需要的话我可以给你。这里是。哦，岛屿之王·丽姿还告诉我她在阿卡拉岛的某个地方发现了其中一个。也许你也应该去问她要。她可能会把它给你，因为她也不知道它是什么。",
+      "translation": "我是在从葱郁洞窟帮伊利马回来时发现的。如果你需要，我可以给你。给你。对了，阿卡拉的岛屿之王丽姿也说她在岛上的某处捡到过一个。你也可以去问问她，她大概也愿意给你——毕竟她也不知道这是什么。",
       "line": 7479
     },
     "Hey, kiddo. What are you doing here? Just visiting Akala Island? Cus y'know lots of tourists come here to see the Battle Royal. So, what're you doing here? Looking for something?": {
@@ -9777,11 +9777,11 @@
       "line": 7521
     },
     "A green-haired girl in Lush Jungle,": {
-      "translation": "茂密丛林中的绿发少女，",
+      "translation": "树荫丛林里的绿发少女，",
       "line": 7522
     },
     "A black and red-haired guy at the Wela Volcano Park,": {
-      "translation": "韦拉火山公园的一个黑红头发的家伙，",
+      "translation": "维拉火山公园里的一个黑红发的家伙，",
       "line": 7523
     },
     "A child with orange hair in the Hokulani Observatory,": {
@@ -9821,15 +9821,15 @@
       "line": 7539
     },
     "Hey, welcome to the Lush Jungle! How are you doing today? I'm not so good. I wanted to try a new ingredient to see if it attracts Lurantis, but it costs too much. Like, a lot of Quest Points. I just can't afford it.": {
-      "translation": "嘿，欢迎来到葱郁洞窟！你今天怎么样？我没那么好。我想尝试一种新成分，看看它是否能吸引鲁兰蒂斯，但它的成本太高了。就像很多任务点一样。我就是买不起。",
+      "translation": "嘿，欢迎来到树荫丛林！你今天怎么样？我可不太好。我想试试一种新配方，看看能不能把兰螳花引出来，可是要花太多任务点了……真的很多。我根本负担不起。",
       "line": 7540
     },
     "Oh, you're asking if I have a Silvally Memory? You mean from that weird fusion-like Pokémon? Yeah, I do. It has a weird green coloration on it, which weirdly enough reminds me of Pokémon resistant to Electric attacks and weak against Fire attacks.": {
-      "translation": "哦，你是问我有没有银伴战兽记忆？你是说那个奇怪的融合型宝可梦吗？是的，我愿意。它上面有一种奇怪的绿色，这很奇怪，让我想起宝可梦对电攻击有抵抗力，但对火攻击却很弱。",
+      "translation": "哦，你问我有没有银伴战兽的记忆？就是那个像合体一样的奇怪宝可梦？当然有。我这块记忆是奇怪的绿色，不知怎么的，让我想起那种能抵抗电属性招式、却怕火属性招式的宝可梦。",
       "line": 7541
     },
     "How about a trade? I will give you the Memory if you give me some Quest Points, how 'bout that? Ok, I'll be here in the Lush Jungle for a while, so you can get Quest Points and come back later to do the trade if you need to.": {
-      "translation": "做个交易怎么样？如果你给我一些任务点，我就给你记忆，怎么样？好的，我会在葱郁洞窟待一段时间，这样你就可以获得任务点数，如果需要的话稍后再回来进行交易。",
+      "translation": "要不要做个交易？你给我一些任务点，我就把这块记忆给你，怎么样？我会在树荫丛林待一阵子，你可以先去攒任务点，之后再回来找我交易。",
       "line": 7542
     },
     "assets/images/npcs/Mallow.png": {
@@ -10473,15 +10473,15 @@
       "line": 7894
     },
     "Verdant Cavern": {
-      "translation": "翠绿的洞穴",
+      "translation": "葱郁洞窟",
       "line": 7894
     },
     "Melemele Meadow": {
-      "translation": "梅勒梅勒草甸",
+      "translation": "美乐美乐花园",
       "line": 7894
     },
     "Skull 2": {
-      "translation": "骷髅2",
+      "translation": "骷髅队手下2",
       "line": 7896
     },
     "Roadside Motel": {
@@ -10497,7 +10497,7 @@
       "line": 7904
     },
     "Heahea City": {
-      "translation": "合和市",
+      "translation": "慷待市",
       "line": 7910
     },
     "Paniola Town": {
@@ -10517,7 +10517,7 @@
       "line": 7934
     },
     "Skull 3": {
-      "translation": "骷髅3",
+      "translation": "骷髅队手下3",
       "line": 7936
     },
     "Konikoni City": {
@@ -10541,11 +10541,11 @@
       "line": 7959
     },
     "Malie City": {
-      "translation": "马列市",
+      "translation": "马利埃静市",
       "line": 7966
     },
     "Malie Garden": {
-      "translation": "马里花园",
+      "translation": "马利埃庭园",
       "line": 7970
     },
     "Tapu Village": {
@@ -10557,7 +10557,7 @@
       "line": 7986
     },
     "Skull 5": {
-      "translation": "骷髅5",
+      "translation": "骷髅队手下5",
       "line": 7990
     },
     "Seafolk Village": {
@@ -10809,7 +10809,7 @@
       "line": 8241
     },
     "Wela Volcano Park": {
-      "translation": "韦拉火山公园",
+      "translation": "维拉火山公园",
       "line": 8247
     },
     "Diglett's Tunnel": {
@@ -10817,7 +10817,7 @@
       "line": 8265
     },
     "Memorial Hill": {
-      "translation": "纪念山",
+      "translation": "回忆之丘",
       "line": 8271
     },
     "Hau 5": {
@@ -10849,11 +10849,11 @@
       "line": 8319
     },
     "Team Aqua Leader Archie": {
-      "translation": "Aqua 队长阿奇",
+      "translation": "海洋队首领 水梧桐",
       "line": 8321
     },
     "Team Magma Leader Maxie": {
-      "translation": "熔岩队头目赤焰松",
+      "translation": "熔岩队首领 赤焰松",
       "line": 8322
     },
     "Team Galactic Leader Cyrus": {
@@ -11425,7 +11425,7 @@
       "line": 8726
     },
     "Really... You're amazing. So amazing, maybe, that I don't even realize just how amazing you really are!": {
-      "translation": "真的……你太棒了。太神奇了，也许，我什至没有意识到你到底有多神奇！",
+      "translation": "真的……你太厉害了。太不可思议了，也许我甚至还没意识到你到底有多强！",
       "line": 8727
     },
     "So, do you think... Would you be up for one more battle?": {

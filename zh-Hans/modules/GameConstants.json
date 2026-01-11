@@ -301,7 +301,7 @@
       "line": 763
     },
     "Lush Jungle": {
-      "translation": "茂密的丛林",
+      "translation": "树荫丛林",
       "line": 764
     },
     "Heartwood": {
@@ -613,7 +613,7 @@
       "line": 835
     },
     "Cerulean Cave": {
-      "translation": "蔚蓝洞",
+      "translation": "华蓝洞窟",
       "line": 835
     },
     "Ruby Path": {
@@ -793,7 +793,7 @@
       "line": 840
     },
     "Verdant Cavern": {
-      "translation": "翠绿的洞穴",
+      "translation": "葱郁洞窟",
       "line": 841
     },
     "Seaward Cave": {
@@ -1105,7 +1105,7 @@
       "line": 902
     },
     "Wela Volcano Park": {
-      "translation": "韦拉火山公园",
+      "translation": "维拉火山公园",
       "line": 906
     },
     "Motostoke": {
@@ -1177,7 +1177,7 @@
       "line": 917
     },
     "Malie Garden": {
-      "translation": "马里花园",
+      "translation": "马利埃庭园",
       "line": 917
     },
     "Ula'ula Meadow": {
@@ -1505,7 +1505,7 @@
       "line": 983
     },
     "Memorial Hill": {
-      "translation": "纪念山",
+      "translation": "回忆之丘",
       "line": 983
     },
     "water": {
@@ -1569,7 +1569,7 @@
       "line": 1036
     },
     "Linking_cord": {
-      "translation": "连接线",
+      "translation": "联系绳",
       "line": 1037
     },
     "Sun_stone": {
@@ -2285,7 +2285,7 @@
       "line": 1401
     },
     "Malie City": {
-      "translation": "马列市",
+      "translation": "马利埃静市",
       "line": 1402
     },
     "Exeggutor Island": {
@@ -2565,7 +2565,7 @@
       "line": 1673
     },
     "Melemele Meadow": {
-      "translation": "梅勒梅勒草甸",
+      "translation": "美乐美乐花园",
       "line": 1702
     },
     "Pikachu Valley": {
@@ -2917,31 +2917,31 @@
       "line": 1919
     },
     "Sevii Rocket Grunt 1": {
-      "translation": "塞维群岛火箭队手下1",
+      "translation": "七之岛火箭队手下1",
       "line": 1920
     },
     "Sevii Rocket Grunt 2": {
-      "translation": "塞维群岛火箭队手下2",
+      "translation": "七之岛火箭队手下2",
       "line": 1921
     },
     "Sevii Rocket Grunt 3": {
-      "translation": "塞维群岛火箭队手下3",
+      "translation": "七之岛火箭队手下3",
       "line": 1922
     },
     "Sevii Rocket Grunt 4": {
-      "translation": "塞维群岛火箭队手下4",
+      "translation": "七之岛火箭队手下4",
       "line": 1923
     },
     "Sevii Rocket Grunt 5": {
-      "translation": "塞维群岛火箭队手下5",
+      "translation": "七之岛火箭队手下5",
       "line": 1924
     },
     "Sevii Rocket Ariana": {
-      "translation": "塞维群岛火箭队干部 雅典娜",
+      "translation": "七之岛火箭队干部 雅典娜",
       "line": 1925
     },
     "Sevii Rocket Archer": {
-      "translation": "塞维群岛火箭队干部 阿波罗",
+      "translation": "七之岛火箭队干部 阿波罗",
       "line": 1926
     },
     "Scientist Gideon": {
@@ -3557,7 +3557,7 @@
       "line": 2080
     },
     "Skull 1": {
-      "translation": "头骨1",
+      "translation": "骷髅队手下1",
       "line": 2081
     },
     "Ilima": {
@@ -3565,7 +3565,7 @@
       "line": 2082
     },
     "Skull 2": {
-      "translation": "骷髅2",
+      "translation": "骷髅队手下2",
       "line": 2083
     },
     "Recon Squad 1": {
@@ -3597,7 +3597,7 @@
       "line": 2090
     },
     "Skull 3": {
-      "translation": "骷髅3",
+      "translation": "骷髅队手下3",
       "line": 2091
     },
     "Battle Royal": {
@@ -3617,7 +3617,7 @@
       "line": 2095
     },
     "Skull 4": {
-      "translation": "骷髅4",
+      "translation": "骷髅队手下4",
       "line": 2096
     },
     "Molayne": {
@@ -3625,11 +3625,11 @@
       "line": 2097
     },
     "Psychium Z Trial": {
-      "translation": "Psychium Z 试验",
+      "translation": "超能力Z试炼",
       "line": 2098
     },
     "Skull 5": {
-      "translation": "骷髅5",
+      "translation": "骷髅队手下5",
       "line": 2099
     },
     "Plumeria 2": {
@@ -3645,7 +3645,7 @@
       "line": 2102
     },
     "Skull 6": {
-      "translation": "骷髅6",
+      "translation": "骷髅队手下6",
       "line": 2103
     },
     "Recon Squad 3": {
@@ -4557,7 +4557,7 @@
       "line": 2370
     },
     "Heahea City": {
-      "translation": "合和市",
+      "translation": "慷待市",
       "line": 2379
     },
     "Paniola Town": {
@@ -4757,11 +4757,11 @@
       "line": 2624
     },
     "Normalium Z": {
-      "translation": "正态Z",
+      "translation": "一般Z",
       "line": 2633
     },
     "Firium Z": {
-      "translation": "菲瑞姆Z",
+      "translation": "火Z",
       "line": 2634
     },
     "Waterium Z": {
@@ -4769,7 +4769,7 @@
       "line": 2635
     },
     "Electrium Z": {
-      "translation": "电金 Z",
+      "translation": "电Z",
       "line": 2636
     },
     "Grassium Z": {
@@ -4777,7 +4777,7 @@
       "line": 2637
     },
     "Icium Z": {
-      "translation": "伊苏姆Z",
+      "translation": "冰Z",
       "line": 2638
     },
     "Fightinium Z": {
@@ -4789,35 +4789,35 @@
       "line": 2640
     },
     "Groundium Z": {
-      "translation": "根Z",
+      "translation": "地面Z",
       "line": 2641
     },
     "Flyinium Z": {
-      "translation": "飞尼姆 Z",
+      "translation": "飞行Z",
       "line": 2642
     },
     "Psychium Z": {
-      "translation": "洋车前草Z",
+      "translation": "超能力Z",
       "line": 2643
     },
     "Buginium Z": {
-      "translation": "紫丁香Z",
+      "translation": "虫Z",
       "line": 2644
     },
     "Rockium Z": {
-      "translation": "岩Z",
+      "translation": "岩石Z",
       "line": 2645
     },
     "Ghostium Z": {
-      "translation": "鬼魂Z",
+      "translation": "幽灵Z",
       "line": 2646
     },
     "Dragonium Z": {
-      "translation": "龙金Z",
+      "translation": "龙Z",
       "line": 2647
     },
     "Darkinium Z": {
-      "translation": "达金合金 Z",
+      "translation": "恶Z",
       "line": 2648
     },
     "Steelium Z": {
@@ -4825,7 +4825,7 @@
       "line": 2649
     },
     "Fairium Z": {
-      "translation": "仙气Z",
+      "translation": "妖精Z",
       "line": 2650
     }
   }

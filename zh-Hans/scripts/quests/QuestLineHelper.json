@@ -463,11 +463,11 @@
       "line": 323
     },
     "Bill has asked you to journey to the Sevii Islands with him to set up a digital connection to mainland Kanto.": {
-      "translation": "正辉邀请你和他一起前往塞维群岛，建立与关都大陆的数字连接。",
+      "translation": "正辉邀请你和他一起前往七之岛，建立与关都大陆的数字连接。",
       "line": 323
     },
     "Use the Subregional Travel button at the top of the map to travel to the Sevii Islands and speak with Celio on One Island.": {
-      "translation": "使用地图顶部的次区域旅行按钮前往塞维群岛，并在一之岛与尼尔交谈。",
+      "translation": "使用地图顶部的次区域旅行按钮前往七之岛，并在一之岛与锦辉交谈。",
       "line": 325
     },
     "Ask the Game Corner owner on Two Island about the meteorite.": {
@@ -511,11 +511,11 @@
       "line": 344
     },
     "Celio has rewarded you with 1,000 Quest Points!": {
-      "translation": "Celio 奖励了你1,000任务点！",
+      "translation": "锦辉奖励了你1,000任务点！",
       "line": 351
     },
     "Deliver the meteorite to Celio on One Island.": {
-      "translation": "将陨石交给一之岛的尼尔。",
+      "translation": "将陨石交给一之岛的锦辉。",
       "line": 357
     },
     "Persons of Interest": {
@@ -831,7 +831,7 @@
       "line": 576
     },
     "Talk to Professor Ivy in her lab in the Sevii Islands.": {
-      "translation": "与内木博士位于塞维群岛的实验室交谈。",
+      "translation": "与内木博士位于七之岛的实验室交谈。",
       "line": 579
     },
     "Deliver the GS Ball to Professor Oak in Pallet Town.": {
@@ -1073,15 +1073,15 @@
       "line": 772
     },
     "Celio's Errand": {
-      "translation": "尼尔的差事",
+      "translation": "锦辉的差事",
       "line": 779
     },
     "Celio has asked you to help him set up a digital connection between the Sevii Islands and Hoenn.": {
-      "translation": "尼尔请求你帮助他在塞维群岛和丰缘之间建立数字连接。",
+      "translation": "锦辉请求你帮助他在七之岛和丰缘之间建立数字连接。",
       "line": 779
     },
     "Speak with Celio on One Island in Sevii.": {
-      "translation": "与塞维群岛一之岛的尼尔交谈。",
+      "translation": "与七之岛一之岛的锦辉交谈。",
       "line": 781
     },
     "Eavesdrop on the Team Rocket Grunts at Mt. Ember.": {
@@ -1093,11 +1093,11 @@
       "line": 787
     },
     "Sevii Rocket Grunt 1": {
-      "translation": "塞维群岛火箭队手下1",
+      "translation": "七之岛火箭队手下1",
       "line": 788
     },
     "Sevii Rocket Grunt 2": {
-      "translation": "塞维群岛火箭队手下2",
+      "translation": "七之岛火箭队手下2",
       "line": 789
     },
     "Ruby Path": {
@@ -1109,11 +1109,11 @@
       "line": 793
     },
     "Take the Ruby in Ruby Path": {
-      "translation": "在 Ruby 路径中获取 Ruby",
+      "translation": "在红宝石之路取得红宝石",
       "line": 796
     },
     "Return the Ruby to Celio on One Island": {
-      "translation": "将红宝石归还给一之岛的尼尔",
+      "translation": "将红宝石归还给一之岛的锦辉",
       "line": 799
     },
     "Icefall Cave": {
@@ -1137,19 +1137,19 @@
       "line": 811
     },
     "Sevii Rocket Grunt 3": {
-      "translation": "塞维群岛火箭队手下3",
+      "translation": "七之岛火箭队手下3",
       "line": 812
     },
     "Sevii Rocket Grunt 4": {
-      "translation": "塞维群岛火箭队手下4",
+      "translation": "七之岛火箭队手下4",
       "line": 813
     },
     "Sevii Rocket Grunt 5": {
-      "translation": "塞维群岛火箭队手下5",
+      "translation": "七之岛火箭队手下5",
       "line": 814
     },
     "Sevii Rocket Ariana": {
-      "translation": "塞维群岛火箭队干部 雅典娜",
+      "translation": "七之岛火箭队干部 雅典娜",
       "line": 818
     },
     "Defeat Team Rocket Executive Ariana in Rocket Warehouse.": {
@@ -1157,7 +1157,7 @@
       "line": 818
     },
     "Sevii Rocket Archer": {
-      "translation": "塞维群岛火箭队干部 阿波罗",
+      "translation": "七之岛火箭队干部 阿波罗",
       "line": 821
     },
     "Defeat Team Rocket Executive Archer in Rocket Warehouse.": {
@@ -1173,7 +1173,7 @@
       "line": 824
     },
     "Return the Sapphire to Celio on One Island": {
-      "translation": "将蓝宝石归还给一之岛的尼尔",
+      "translation": "将蓝宝石归还给一之岛的锦辉",
       "line": 827
     },
     "Team Rocket's Pinkan Theme Park": {
@@ -3909,27 +3909,27 @@
       "line": 2449
     },
     "Talk to Blue in Viridian City.": {
-      "translation": "与常磐市的Blue交谈。",
+      "translation": "与常磐市的小蓝交谈。",
       "line": 2452
     },
     "Cerulean Cave": {
-      "translation": "蔚蓝洞",
+      "translation": "华蓝洞窟",
       "line": 2455
     },
     "Look for Blue's old rival in Cerulean Cave": {
-      "translation": "去蔚蓝洞窟寻找小蓝的老对手",
+      "translation": "前往华蓝洞窟寻找小蓝的旧对手",
       "line": 2455
     },
     "You eventually found a trainer standing where Mewtwo once did in Cerulean Cave. Talk to Green.": {
-      "translation": "你最终发现一名训练家站在超梦曾经在蔚蓝洞窟里站过的地方。与格林交谈。",
+      "translation": "你最终发现一名训练家站在超梦曾经在华蓝洞窟里站过的地方。与小绿交谈。",
       "line": 2458
     },
     "Unrivaled Green": {
-      "translation": "无与伦比的绿色",
+      "translation": "无可匹敌的小绿",
       "line": 2461
     },
     "It seems Green is irritated that you caught Mewtwo before she could. Defeat her in Cerulean Cave.": {
-      "translation": "格林似乎对你抢在超梦之前抓住她感到恼火。在蔚蓝洞窟击败她。",
+      "translation": "小绿似乎对你抢在她之前捕获超梦感到恼火。在华蓝洞窟击败她。",
       "line": 2461
     },
     "You received Mewtwonite X from Green!": {
@@ -3937,11 +3937,11 @@
       "line": 2468
     },
     "Talk to Green in Cerulean Cave.": {
-      "translation": "与华蓝洞窟的格林交谈。",
+      "translation": "与华蓝洞窟的小绿交谈。",
       "line": 2474
     },
     "Talk to Anomaly Mewtwo in Cerulean Cave.": {
-      "translation": "与蔚蓝洞穴中的异常超梦交谈。",
+      "translation": "与华蓝洞窟的异常超梦交谈。",
       "line": 2477
     },
     "Anomaly Mewtwo 1": {
@@ -3949,7 +3949,7 @@
       "line": 2480
     },
     "Mewtwo wishes to find a place it can live undisturbed. You know of such a place, but it seems unwilling to listen. Defeat Anomaly Mewtwo near Cerulean Cave so you may attempt to talk to it.": {
-      "translation": "超梦希望找到一个可以不受干扰地生活的地方。你知道有这样的地方，但似乎不愿意听。在蔚蓝洞穴附近击败异常超梦，这样你就可以尝试与它交谈。",
+      "translation": "超梦希望找到一个可以不受干扰地生活的地方。你知道有这样的地方，但它似乎不愿意听。请在华蓝洞窟附近击败异常超梦，这样你就可以尝试与它交谈。",
       "line": 2480
     },
     "Anomaly Mewtwo 2": {
@@ -4061,7 +4061,7 @@
       "line": 2550
     },
     "Skull 1": {
-      "translation": "头骨1",
+      "translation": "骷髅队手下1",
       "line": 2556
     },
     "Beat up the Team Skull grunts loitering on Hau'oli City's Dock.": {
@@ -4081,19 +4081,19 @@
       "line": 2565
     },
     "Verdant Cavern": {
-      "translation": "翠绿的洞穴",
+      "translation": "葱郁洞窟",
       "line": 2569
     },
     "What an incredible Trainer you are! The Z-Crystal from the pedestal is yours now! It is known as Normalium Z!": {
-      "translation": "你是一位多么令人难以置信的训练家啊！底座上的 Z 纯晶现在就是你的了！它被称为Normalium Z！",
+      "translation": "你真是了不起的训练家！台座上的Z纯晶现在属于你了！它名为一般Z！",
       "line": 2569
     },
     "Melemele Meadow": {
-      "translation": "梅勒梅勒草甸",
+      "translation": "美乐美乐花园",
       "line": 2572
     },
     "Lillie needs your help. Continue past Route 3 and clear Melemele Meadow.": {
-      "translation": "莉莉需要你的帮助。继续经过3号道路并清理 美乐美乐花园。",
+      "translation": "莉莉需要你的帮助。继续前往3号道路，并通关美乐美乐花园。",
       "line": 2572
     },
     "Pew!<br><br><i>Nebby flees.</i>": {
@@ -4137,7 +4137,7 @@
       "line": 2597
     },
     "Return Nebby to Lillie in Melemele Meadow.": {
-      "translation": "将纳比交给梅乐乐草甸的莉莉。",
+      "translation": "把小星云交给美乐美乐花园的莉莉艾。",
       "line": 2603
     },
     "Lillie still has something on her mind. Talk to her in Iki Town.": {
@@ -4165,7 +4165,7 @@
       "line": 2616
     },
     "Hello there. There's a wonderful breeze blowing out here today. The glistening Flyinium Z... It's yours now. Use it well.": {
-      "translation": "你好呀。今天这里吹着阵阵微风。闪闪发光的 Flyinium Z...现在是你的了。好好利用它。",
+      "translation": "你好呀。今天这里吹着阵阵微风。闪闪发光的飞行Z……现在是你的了。好好利用它。",
       "line": 2616
     },
     "There is one more Z Crystal on Ten Carat Hill. Find the Trial Site and claim it!": {
@@ -4185,7 +4185,7 @@
       "line": 2623
     },
     "Plan out your course of action with Lillie in Heahea City.": {
-      "translation": "与希合市的莉莉艾一起计划行动方针。",
+      "translation": "在慷待市与莉莉艾一起制定行动计划。",
       "line": 2625
     },
     "Brooklet Hill": {
@@ -4197,7 +4197,7 @@
       "line": 2629
     },
     "Very well done! You do know what this is, don't you? Please take this Waterium Z.": {
-      "translation": "做得很好！你知道这是什么，不是吗？请收下这个Waterium Z。",
+      "translation": "做得很好！你知道这是什么吧？请收下这枚水Z。",
       "line": 2629
     },
     "Recon Squad 2": {
@@ -4217,7 +4217,7 @@
       "line": 2635
     },
     "Skull 3": {
-      "translation": "骷髅3",
+      "translation": "骷髅队手下3",
       "line": 2641
     },
     "Team Skull is causing trouble on Route 6! Looks like they haven't learned their lesson.": {
@@ -4233,7 +4233,7 @@
       "line": 2644
     },
     "Wela Volcano Park": {
-      "translation": "韦拉火山公园",
+      "translation": "维拉火山公园",
       "line": 2650
     },
     "Kiawe": {
@@ -4241,15 +4241,15 @@
       "line": 2650
     },
     "Whoa! S-spectacular! That Pokémon was protecting this Firium Z. Now it is yours.": {
-      "translation": "哇！ S-壮观！那个宝可梦正在保护这个Firium Z。现在它是你的了。",
+      "translation": "哇！太、太精彩了！那个宝可梦一直在守护这枚火Z。现在它属于你了。",
       "line": 2650
     },
     "Lush Jungle": {
-      "translation": "葱郁洞窟",
+      "translation": "树荫丛林",
       "line": 2653
     },
     "Mallow": {
-      "translation": "锦葵",
+      "translation": "玛奥",
       "line": 2653
     },
     "Wow, you're even stronger than I thought! Looks like you've cleared all three of Akala's trials! Here! A gift for such an inspiring young Trainer!": {
@@ -4257,7 +4257,7 @@
       "line": 2653
     },
     "Talk to Professor Burnet in Heahea City after you've finished exploring Lush Jungle.": {
-      "translation": "探索完郁郁葱葱的丛林后，与赫希亚市的芭内特博士交谈。",
+      "translation": "探索完树荫丛林后，与慷待市的芭内特博士交谈。",
       "line": 2656
     },
     "Professor Burnet": {
@@ -4317,7 +4317,7 @@
       "line": 2688
     },
     "Skull 4": {
-      "translation": "骷髅4",
+      "translation": "骷髅队手下4",
       "line": 2692
     },
     "Team Skull are trying to steal a bus stop sign on Route 10! This misdeed won't go unpunished!": {
@@ -4333,11 +4333,11 @@
       "line": 2696
     },
     "That Pokémon was really something else! Here, I'll give you this Electrium Z to reward you for beating it.": {
-      "translation": "那个宝可梦真是不一样啊！在这里，我会给你这个 Electrium Z 作为你击败它的奖励。",
+      "translation": "那个宝可梦真是不得了！来，这枚电Z就当作你打败它的奖励。",
       "line": 2696
     },
     "Malie Garden": {
-      "translation": "马里花园",
+      "translation": "马利埃庭园",
       "line": 2699
     },
     "Team Skull Boss Guzma": {
@@ -4345,11 +4345,11 @@
       "line": 2699
     },
     "Team Skull are being annoying. Get rid of them. Beat their boss Guzma in the Malie Garden dungeon.": {
-      "translation": "骷髅队很烦人。摆脱他们。在马利花园迷宫中击败他们的老大古兹马。",
+      "translation": "骷髅队又来闹事了。去把他们赶走，在马利埃庭园迷宫击败他们的老大古兹马。",
       "line": 2699
     },
     "Skull 5": {
-      "translation": "骷髅5",
+      "translation": "骷髅队手下5",
       "line": 2703
     },
     "Lillie has run into a Team Skull grunt at Aether House. Politely beat up his Pokémon.": {
@@ -4377,7 +4377,7 @@
       "line": 2715
     },
     "<i>There is a chest full of Bug-type Z-Crystals next to Guzma. You obtained a Buginium Z!<i>": {
-      "translation": "<i>古兹马旁边有一个装满虫型 Z 纯晶的箱子。你获得了 Buginium Z！<i>",
+      "translation": "<i>古兹马旁边有一个装满虫属性Z纯晶的箱子。你获得了虫Z！<i>",
       "line": 2715
     },
     "Team Skull have stolen the Yungoos from Aether House. Raid their base. Clear the Po Town dungeon.": {
@@ -4385,7 +4385,7 @@
       "line": 2715
     },
     "Malie City": {
-      "translation": "马列市",
+      "translation": "马利埃静市",
       "line": 2719
     },
     "Gladion 2": {
@@ -4493,11 +4493,11 @@
       "line": 2786
     },
     "Psychium Z Trial": {
-      "translation": "Psychium Z 试验",
+      "translation": "超能力Z试炼",
       "line": 2789
     },
     "There are more Z Crystals on Ula'ula. Find the Trial Site hidden in Haina Desert after clearing the Route.": {
-      "translation": "乌拉乌拉上有更多 Z 纯晶。清理路线后找到隐藏在海纳沙漠中的审判地点。",
+      "translation": "乌拉乌拉岛上还有更多Z纯晶。通关该道路后，在哈伊纳沙漠找到隐藏的试炼场地。",
       "line": 2789
     },
     "Molayne": {
@@ -4549,7 +4549,7 @@
       "line": 2820
     },
     "Skull 6": {
-      "translation": "骷髅6",
+      "translation": "骷髅队手下6",
       "line": 2825
     },
     "Team Skull are being annoying again. Settle the score with them near Vast Poni Canyon.": {
@@ -4589,7 +4589,7 @@
       "line": 2839
     },
     "<i>You obtained a Dragon-Type Z-Crystal. The Dragonium Z is yours!<i>": {
-      "translation": "<i>你获得了龙型Z纯晶。 Dragonium Z 是你的了！<i>",
+      "translation": "<i>你获得了龙属性Z纯晶。龙Z是你的了！<i>",
       "line": 2839
     },
     "Clear the ancient Trial Site of Vast Poni Canyon.": {
@@ -4669,7 +4669,7 @@
       "line": 2898
     },
     "That's a pretty great picture. You and your Pokémon! You're a great Pokémon Trainer! So here you go! A piece of Fairium Z for you!": {
-      "translation": "这是一幅非常棒的图画。你和你的宝可梦！你是一位出色的宝可梦训练家！那么就到这里吧！送给你一件 Fairium Z！",
+      "translation": "这是一幅非常棒的图画。你和你的宝可梦！你是一位出色的宝可梦训练家！那么就送你一枚妖精Z吧！",
       "line": 2898
     },
     "Gladion 3": {
@@ -4697,7 +4697,7 @@
       "line": 2908
     },
     "Congratulations! You've claimed the Icium Z! Onwards to the Pokémon League now!": {
-      "translation": "恭喜！你已获得 Icium Z！现在就进入宝可梦联盟吧！",
+      "translation": "恭喜！你已获得冰Z！现在就前往宝可梦联盟吧！",
       "line": 2913
     },
     "You were so distracted by Necrozma you forgot about the Z Crystal! Find the Trial Site in the Mount Lanakila dungeon.": {
@@ -5087,7 +5087,7 @@
       "line": 3152
     },
     "Nihilego has been spotted at Wela Volcano Park and Diglett's Tunnel!": {
-      "translation": "Nihilego 已在韦拉火山公园和迪格利特隧道被发现！",
+      "translation": "虚吾伊德已在维拉火山公园和迪格利特隧道出现！",
       "line": 3152
     },
     "Buzzwole": {
@@ -5099,7 +5099,7 @@
       "line": 3160
     },
     "Rare Ultra Beasts have been spotted! Buzzwole in Melemele Meadow and Pheromosa in Verdant Cavern!": {
-      "translation": "罕见的究极异兽被发现！ 美乐美乐花园 的 Buzzwole 和 Verdant Cavern 的 Pheromosa！",
+      "translation": "罕见的究极异兽被发现！爆肌蚊出现在美乐美乐花园，费洛美螂出现在葱郁洞窟！",
       "line": 3161,
       "_rematchedFrom": "Rare Ultra Beasts have been spotted! Buzzwole in Melemele Meadow and Pheromosa in Verdant Cavern!",
       "_confidence": 0.95
@@ -5121,7 +5121,7 @@
       "line": 3172
     },
     "Xurkitree has been spotted at Memorial Hill and Lush Jungle!": {
-      "translation": "Xurkitree 已在纪念山和郁郁葱葱的丛林中被发现！",
+      "translation": "电束木已在回忆之丘和树荫丛林出现！",
       "line": 3172,
       "_rematchedFrom": "Xurkitree has been spotted at Memorial Hill and Lush Jungle!",
       "_confidence": 0.95
@@ -5139,7 +5139,7 @@
       "line": 3180
     },
     "Rare Ultra Beasts have been spotted! Kartana at Malie Garden and Route 17, and Celesteela at Malie Garden and Haina Desert!": {
-      "translation": "罕见的究极异兽被发现！马利花园和17号道路的卡塔纳 (Kartana)，马利花园和海纳沙漠的塞莱斯蒂拉 (Celesteela)！",
+      "translation": "罕见的究极异兽被发现！纸御剑出现在马利埃庭园和17号道路，铁火辉夜出现在马利埃庭园和哈伊纳沙漠！",
       "line": 3181
     },
     "Kahuna Nanu UB": {
@@ -5159,7 +5159,7 @@
       "line": 3195
     },
     "Rare Ultra Beasts have been spotted! Blacephalon and Stakataka are both at Poni Grove!": {
-      "translation": "罕见的究极异兽被发现！布莱塞法隆和斯塔卡塔卡都在波尼格罗夫！",
+      "translation": "罕见的究极异兽被发现！砰头小丑和垒磊石都在波尼树林！",
       "line": 3196
     },
     "You caught all the Ultra Beasts!": {
@@ -5171,7 +5171,7 @@
       "line": 3207
     },
     "Catch Guzzlord at Resolution Cave.": {
-      "translation": "在决议洞穴抓住古兹领主。",
+      "translation": "在决议洞穴捕捉恶食大王。",
       "line": 3207
     },
     "Let's Go, Meltan!": {

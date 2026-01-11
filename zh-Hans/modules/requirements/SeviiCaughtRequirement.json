@@ -47,7 +47,7 @@
       "line": 15
     },
     "${...} unique Sevii Pokémon need to be caught.": {
-      "translation": "需要捕捉${...}种塞维群岛独特宝可梦。",
+      "translation": "需要捕捉${...}种七之岛特有的宝可梦。",
       "line": 21,
       "_rematchedFrom": "${...} unique Sevii Pokémon need to be caught.",
       "_confidence": 0.85

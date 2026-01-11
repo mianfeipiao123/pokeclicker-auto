@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokéClicker 简体中文补全（仅 Bundle 模式）
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.46
+// @version      0.1.47
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -74,7 +74,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.46';
+    const SCRIPT_VERSION = '0.1.47';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -261,8 +261,8 @@
         }),
     };
 
-    // Cache bundle.json in IndexedDB as an offline/failure fallback.
-    // We still prefer network-first to keep translations as up-to-date as possible.
+    // Cache bundle.json in IndexedDB for faster startup + offline fallback.
+    // We prefer cache-first, and refresh in the background when possible.
     const BUNDLE_CACHE = (() => {
         const DB_NAME = 'pokeclicker-zh-hans';
         const STORE_NAME = 'bundle-cache';
@@ -375,6 +375,23 @@
         } catch {
             // ignore
         }
+    };
+
+    const notifyInfo = (title, message) => {
+        try {
+            if (window.Notifier?.notify) {
+                window.Notifier.notify({
+                    title: String(title ?? ''),
+                    message: String(message ?? ''),
+                    timeout: 7000,
+                });
+                return;
+            }
+        } catch {
+            // ignore
+        }
+        // eslint-disable-next-line no-console
+        console.info('[PokéClicker zh-Hans]', title, message);
     };
 
     const escapeCssContent = (s) =>
@@ -515,6 +532,14 @@
         }
         return false;
     };
+
+    const LATIN_RE = /[A-Za-zÉé]/;
+
+    /** @type {WeakMap<Node, string>} */
+    const processedTextNodeValues = new WeakMap();
+
+    /** @type {Record<string, WeakMap<Element, string>>} */
+    const processedAttrValues = {};
 
     try {
         localStorage.setItem('i18nextLng', FORCE_LANG);
@@ -926,6 +951,9 @@
     const translateSegmentsFallback = (text, map, patterns, cache) => {
         let input = String(text ?? '');
         if (!input) return null;
+
+        // If there's no Latin text, there's nothing useful to translate (avoid work on already-Chinese nodes).
+        if (!LATIN_RE.test(input)) return null;
         try {
             input = input.normalize('NFC');
         } catch {
@@ -966,10 +994,6 @@
                 }
             }
         }
-
-        const hasHan = /[\u4E00-\u9FFF]/.test(input);
-        const hasLatin = /[A-Za-z]/.test(input);
-        if (!hasHan && !hasLatin) return null;
 
         const translatePiece = (piece) => {
             if (!piece) return piece;
@@ -1027,8 +1051,18 @@
             for (const attr of attrNames) {
                 const raw = el.getAttribute(attr);
                 if (!raw) continue;
+
+                if (!processedAttrValues[attr]) processedAttrValues[attr] = new WeakMap();
+                const attrCache = processedAttrValues[attr];
+                if (attrCache.get(el) === raw) continue;
+                attrCache.set(el, raw);
+
+                if (!LATIN_RE.test(raw)) continue;
                 const translated = translateSegmentsFallback(raw, map, patterns, cache);
-                if (translated) el.setAttribute(attr, translated);
+                if (translated) {
+                    el.setAttribute(attr, translated);
+                    attrCache.set(el, translated);
+                }
             }
         } catch {
             // ignore
@@ -1038,6 +1072,13 @@
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
+
+        const rawNodeValue = String(textNode.nodeValue ?? '');
+        if (processedTextNodeValues.get(textNode) === rawNodeValue) return;
+        processedTextNodeValues.set(textNode, rawNodeValue);
+
+        // Skip already-Chinese text nodes (and anything without Latin letters).
+        if (!LATIN_RE.test(rawNodeValue)) return;
 
         // In a few places, the game builds English plurals by appending a separate "s" node.
         // When the base word is translated to Chinese (e.g. "Dungeon" -> "迷宫"), the leftover "s" becomes visible ("迷宫s").
@@ -1051,6 +1092,7 @@
                     const prevText = String(prev.nodeValue ?? '').replace(/\u00A0/g, ' ').trim();
                     if (/[\u4E00-\u9FFF]$/.test(prevText)) {
                         textNode.nodeValue = rawNode.replace(/s/g, '');
+                        processedTextNodeValues.set(textNode, String(textNode.nodeValue ?? ''));
                         return;
                     }
                 }
@@ -1068,7 +1110,10 @@
             const cached = cache.get(key);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
-                if (out !== raw) textNode.nodeValue = out;
+                if (out !== raw) {
+                    textNode.nodeValue = out;
+                    processedTextNodeValues.set(textNode, out);
+                }
                 return;
             }
         }
@@ -1081,7 +1126,10 @@
         const cached = cache.get(key);
         if (cached) {
             const out = `${leading}${cached}${trailing}`;
-            if (out !== raw) textNode.nodeValue = out;
+            if (out !== raw) {
+                textNode.nodeValue = out;
+                processedTextNodeValues.set(textNode, out);
+            }
             return;
         }
 
@@ -1122,7 +1170,10 @@
             }
             if (changed) {
                 const out = `${leading}${parts.join('')}${trailing}`;
-                if (out !== raw) textNode.nodeValue = out;
+                if (out !== raw) {
+                    textNode.nodeValue = out;
+                    processedTextNodeValues.set(textNode, out);
+                }
                 return;
             }
         }
@@ -1130,7 +1181,10 @@
         const segOut = translateSegmentsFallback(core, map, patterns, cache);
         if (segOut) {
             const out = `${leading}${segOut}${trailing}`;
-            if (out !== raw) textNode.nodeValue = out;
+            if (out !== raw) {
+                textNode.nodeValue = out;
+                processedTextNodeValues.set(textNode, out);
+            }
             return;
         }
 
@@ -1201,38 +1255,79 @@
         /** @type {Record<string,string>} */
         const map = {};
         let bundle = null;
+        let loadedFromCache = false;
 
-        try {
+        // Cache-first: load cached bundle immediately if available.
+        const cached = await loadBundleFromCache();
+        if (cached) {
+            bundle = cached;
+            loadedFromCache = true;
+            if (DEBUG) {
+                // eslint-disable-next-line no-console
+                console.info('[PokéClicker zh-Hans] Loaded bundle from cache:', cached?._meta ?? null);
+            }
+        }
+
+        const fetchBundleFromNetwork = async () => {
             let lastError = null;
             for (let i = 0; i < BUNDLE_URL_CANDIDATES.length; i += 1) {
                 const url = BUNDLE_URL_CANDIDATES[i];
                 const timeoutMs = i === 0 ? RAW_FETCH_TIMEOUT_MS : FALLBACK_FETCH_TIMEOUT_MS;
                 try {
-                    bundle = await fetchJsonWithTimeout(url, { cache: 'no-cache' }, timeoutMs);
+                    const b = await fetchJsonWithTimeout(url, { cache: 'no-cache' }, timeoutMs);
                     if (DEBUG && url !== BUNDLE_URL) {
                         // eslint-disable-next-line no-console
                         console.info('[PokéClicker zh-Hans] Loaded bundle from fallback:', url);
                     }
-                    lastError = null;
-                    break;
+                    return b;
                 } catch (err) {
                     lastError = err;
                 }
             }
-            if (!bundle) throw lastError || new Error('bundle fetch failed');
-        } catch (e) {
-            const cached = await loadBundleFromCache();
-            if (cached) {
-                bundle = cached;
-                // eslint-disable-next-line no-console
-                console.warn('[PokéClicker zh-Hans] Failed to fetch bundle.json, using cached bundle:', e);
-            } else {
+            throw lastError || new Error('bundle fetch failed');
+        };
+
+        // If cache is missing, we must fetch before proceeding.
+        if (!bundle) {
+            try {
+                bundle = await fetchBundleFromNetwork();
+            } catch (e) {
                 console.error('[PokéClicker zh-Hans] Failed to load bundle.json (bundle-only mode):', e);
                 return;
             }
         }
 
-        // Best-effort cache update for offline fallback (no impact on "latest" preference).
+        // Background refresh: update cache, and notify to refresh if a newer bundle is downloaded.
+        if (loadedFromCache) {
+            const currentGeneratedAt = bundle?._meta?.generatedAt ?? null;
+            const schedule = (fn) => {
+                const ric = window.requestIdleCallback?.bind(window);
+                if (ric) return ric(fn, { timeout: 5000 });
+                return setTimeout(fn, 2500);
+            };
+            schedule(async () => {
+                try {
+                    const latest = await fetchBundleFromNetwork();
+                    const latestGeneratedAt = latest?._meta?.generatedAt ?? null;
+                    await saveBundleToCache(latest);
+
+                    if (typeof latestGeneratedAt === 'string'
+                        && latestGeneratedAt
+                        && typeof currentGeneratedAt === 'string'
+                        && currentGeneratedAt
+                        && latestGeneratedAt !== currentGeneratedAt) {
+                        notifyInfo('翻译已更新', '已在后台下载新的中文翻译，刷新页面后生效。');
+                    }
+                } catch (e) {
+                    if (DEBUG) {
+                        // eslint-disable-next-line no-console
+                        console.warn('[PokéClicker zh-Hans] Background bundle refresh failed:', e);
+                    }
+                }
+            });
+        }
+
+        // Best-effort cache update for offline fallback.
         void saveBundleToCache(bundle);
 
         try {

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-10T19:40:11.979Z",
-    "totalEntries": 2356,
+    "generatedAt": "2026-01-11T04:25:54.046Z",
+    "totalEntries": 2357,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
   "entries": {
@@ -1867,6 +1867,7 @@
     "This category is in use by the ${...} Pokéball filters and cannot be removed.": "此分类正在被${...}精灵球过滤器使用，无法移除。",
     "This challenge is activated by default.": "默认情况下会激活此挑战。",
     "This dungeon is debuffed and will be significantly less likely to drop Epic, Legendary, and Mythic loot.": "这个迷宫已被减益，并且掉落史诗、传奇和神话战利品的可能性将大大降低。",
+    "This filter affects wild Pokémon with the combined traits of:": "此过滤器会作用于同时具备以下特征的野生宝可梦：",
     "This is": "这是",
     "This is a current priority, but there are no set timelines; it will be ready when it is ready.": "这是当前的优先事项，但没有设定时间表；准备好了就准备好了。",
     "This is a setting on browsers that slows down inactive windows.": "这是浏览器上的一项设置，可以减慢非活动窗口的速度。",

@@ -79,11 +79,11 @@
       "line": 67
     },
     "Already": {
-      "translation": "",
+      "translation": "已",
       "line": 71
     },
     "Not yet": {
-      "translation": "",
+      "translation": "未",
       "line": 71
     },
     "pokeballFilterCaughtShiny": {
@@ -95,11 +95,11 @@
       "line": 78
     },
     "already": {
-      "translation": "",
+      "translation": "已",
       "line": 82
     },
     "not yet": {
-      "translation": "",
+      "translation": "未",
       "line": 82
     },
     "pokeballFilterCaughtShadow": {
@@ -111,11 +111,11 @@
       "line": 89
     },
     "Pokérus State": {
-      "translation": "宝客状态",
+      "translation": "宝可病毒状态",
       "line": 101
     },
     "Pokérus virus is required": {
-      "translation": "需要宝可病毒病毒",
+      "translation": "需要宝可病毒",
       "line": 110
     },
     "pokeballFilterPokemonType": {

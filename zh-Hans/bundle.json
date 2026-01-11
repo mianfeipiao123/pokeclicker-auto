@@ -1,10 +1,10 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-10T19:40:11.977Z",
+    "generatedAt": "2026-01-11T04:25:54.035Z",
     "sourceIndexVersion": "2.0.0",
     "fileCount": 421,
-    "entryCount": 15210,
-    "loadedEntries": 26133,
+    "entryCount": 15213,
+    "loadedEntries": 26138,
     "collisionKeyCount": 10790,
     "collisionEventCount": 10790,
     "valueConflictCount": 93,
@@ -1436,6 +1436,7 @@
     "Alooshii": "阿卢什伊",
     "Alpha Kricketune": "阿尔法板球曲",
     "Alphabet Soup for Ruin Maniac": "废墟狂人的字母汤",
+    "Already": "已",
     "Already claimed!": "已经认领了！",
     "Already resistant!": "已经抵抗了！",
     "Already spinning.": "已经在旋转了。",
@@ -9095,6 +9096,7 @@
     "Not just that, but those Pokémon appear to be holding a sword and shield as if they were using them!": "不仅如此，那些宝可梦似乎还拿着剑和盾，就像在使用它们一样！",
     "Not much use in having two of the same Mega Stone, so she might be willing to give one up. If you want to find her, you should check out Cerulean Cave.": "拥有两块相同的巨石并没有多大用处，所以她可能愿意放弃一颗。如果你想找到她，你应该去蔚蓝洞窟看看。",
     "Not Shiny": "非异色",
+    "Not yet": "未",
     "Note that progress does not automatically carry over between devices.": "请注意，进度不会自动在设备之间延续。",
     "Note:": "注意：",
     "NOTE: Base attack is the value your Pokémon originally has at level 100, before any breeding buffs.": "注意：基础攻击力是指你的宝可梦在100级时的初始值（不包括任何繁殖增益）。",
@@ -10140,11 +10142,11 @@
     "Pokérus is a beneficial virus your Pokémon can catch. EVs, also called Effort Values, increase the attack of your Pokémon.": "宝可梦是一种你的宝可梦可以感染的有益病毒。 努力值，也称为努力值，可以增加宝可梦的攻击力。",
     "Pokérus is spread by Pokémon that are infected, to other Pokémon in the hatchery (not in the queue) that share a type with the infected Pokémon. Neither Pokémon can be ready to hatch, nor can a Hatchery Helper be used on either Pokémon.": "宝可梦由受感染的宝可梦传播到孵化场（而不是队列中）与受感染宝可梦共享类型的其他宝可梦。两个宝可梦都无法准备好孵化，孵化场助手也无法对任何一个宝可梦使用。",
     "Pokérus spreading between helpers": "宝可乐在助手之间传播",
-    "Pokérus State": "宝客状态",
+    "Pokérus State": "宝可病毒状态",
     "Pokérus Status": "宝可病毒状态",
     "Pokérus status not visually updating in the hatchery": "孵化场中的宝可病毒状态未在视觉上更新",
     "Pokérus Virus": "宝可病毒",
-    "Pokérus virus is required": "需要宝可病毒病毒",
+    "Pokérus virus is required": "需要宝可病毒",
     "Politoed": "蚊香蛙皇",
     "Poliwag": "蚊香蝌蚪",
     "Poliwhirl": "蚊香君",
@@ -13022,6 +13024,7 @@
     "This could have unintended consequences": "这可能会产生意想不到的后果",
     "This discovery is essential to understanding underground ecosystems. I'll keep it!": "这一发现对于了解地下生态系统至关重要。我会保留它！",
     "This dungeon is debuffed and will be significantly less likely to drop Epic, Legendary, and Mythic loot.": "这个迷宫已被减益，并且掉落史诗、传奇和神话战利品的可能性将大大降低。",
+    "This filter affects wild Pokémon with the combined traits of:": "此过滤器会作用于同时具备以下特征的野生宝可梦：",
     "This glossy and colorful Berry has a mouthwateringly delicious appearance. However, it is awfully sour.": "这种光泽多彩的树果具有令人垂涎欲滴的美味外观。然而，它非常酸。",
     "This has to be some kind of mistake. I demand a do-over!": "这一定是某种错误。我要求重来！",
     "This inspires Pokémon to train harder.": "这激励宝可梦更加努力地训练。",
@@ -17176,6 +17179,10 @@
       "全部"
     ],
     [
+      "already",
+      "已"
+    ],
+    [
       "amount",
       "数量"
     ],
@@ -17470,6 +17477,10 @@
     [
       "none",
       "没有任何"
+    ],
+    [
+      "not yet",
+      "未"
     ],
     [
       "OK",

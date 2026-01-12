@@ -591,7 +591,7 @@
       "line": 483
     },
     "Blue 5": {
-      "translation": "蓝5",
+      "translation": "青绿5",
       "line": 483
     },
     "Youngster Wendy": {
@@ -599,7 +599,7 @@
       "line": 485
     },
     "There's been some recent sightings of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "最近在{ROUTENAME}上看到了一些徘徊的宝可梦！",
+      "translation": "最近在{ROUTE_NAME}上看到了一些徘徊的宝可梦！",
       "line": 486
     },
     "You! Not again! I'll be there first next time! Having followed it here, I'm starting to understand what Suicune is after.": {
@@ -915,7 +915,7 @@
       "line": 643
     },
     "Apparently some kid released one of his Pokémon around here. That Pokémon, its partner, and for whatever reason, the Legendary Beasts from Johto have been seen roaming on {ROUTE_NAME}.": {
-      "translation": "显然有一个孩子在这附近释放了他的一只宝可梦。人们看到那只宝可梦、它的伙伴，以及无论出于什么原因，来自城都的传奇野兽在 {ROUTENAME} 上漫游。",
+      "translation": "显然有一个孩子在这附近释放了他的一只宝可梦。人们看到那只宝可梦、它的伙伴，以及无论出于什么原因，来自城都的传奇野兽在 {ROUTE_NAME} 上漫游。",
       "line": 644
     },
     "Ruin Maniac": {
@@ -1239,7 +1239,7 @@
       "line": 821
     },
     "Blue": {
-      "translation": "蓝色",
+      "translation": "青绿",
       "line": 823
     },
     "So, you said you want to know where you might find Mewtwo's Mega Stones, right?": {
@@ -1263,7 +1263,7 @@
       "line": 829
     },
     "Green": {
-      "translation": "绿色",
+      "translation": "小绿",
       "line": 832
     },
     "<i>Ow! You were hit by a low-flying Poké Ball!</i>": {
@@ -1275,7 +1275,7 @@
       "line": 834
     },
     "Well, uh... nice to meet you. I'm Green! So hey, I'm just curious... Are you here because you're also looking for... y'know, something special?": {
-      "translation": "嗯，呃...很高兴认识你。我是绿！所以嘿，我只是好奇...你来这里是因为你也在寻找...你知道，一些特别的东西吗？",
+      "translation": "嗯，呃……很高兴认识你。我是小绿！所以嘛，我只是有点好奇……你来这里，也是为了找……你懂的，那种特别的东西吗？",
       "line": 835
     },
     "R-right! Mewtwo! ...Drat, so you knew about it already, huh.......": {
@@ -1295,7 +1295,7 @@
       "line": 844
     },
     "</i></br><img src=\"assets/images/megaStone/Mewtwonite_X.png\"/></br><i>You obtained the Mewtwonite X!</i>": {
-      "translation": "</i></br><img src=\"assets/images/megaStone/MewtwoniteX.png\"/></br><i>你获得了超梦进化石X！</i>",
+      "translation": "</i></br><img src=\"assets/images/megaStone/Mewtwonite_X.png\"/></br><i>你获得了超梦进化石X！</i>",
       "line": 845
     },
     "assets/images/megaStone/Mewtwonite_X.png": {
@@ -1395,7 +1395,7 @@
       "line": 908
     },
     "Unrivaled Blue": {
-      "translation": "无与伦比的蓝色",
+      "translation": "无可匹敌的青绿",
       "line": 912
     },
     "Pewter City": {
@@ -1519,7 +1519,7 @@
       "line": 1053
     },
     "Unrivaled Red": {
-      "translation": "无与伦比的红色",
+      "translation": "无可匹敌的赤红",
       "line": 1053
     },
     "Victory Road": {
@@ -1695,7 +1695,7 @@
       "line": 1267
     },
     "Blue 4": {
-      "translation": "蓝色4",
+      "translation": "青绿4",
       "line": 1296
     },
     "Power Plant": {
@@ -1719,7 +1719,7 @@
       "line": 1352
     },
     "Unrivaled Green": {
-      "translation": "无与伦比的绿色",
+      "translation": "无可匹敌的小绿",
       "line": 1368
     },
     "Sunburst Island": {
@@ -2269,7 +2269,7 @@
       "line": 1849
     },
     "On the news, they are getting more reports of roaming Pokémon appearing on {ROUTE_NAME}!": {
-      "translation": "在新闻中，他们收到了更多有关徘徊宝可梦出现在 {ROUTENAME} 上的报道！",
+      "translation": "在新闻中，他们收到了更多有关徘徊宝可梦出现在 {ROUTE_NAME} 上的报道！",
       "line": 1850
     },
     "assets/images/npcs/Pokéfan (male).png": {
@@ -2737,7 +2737,7 @@
       "line": 2406
     },
     "Our sources indicate that roaming Pokémon are gathering on {ROUTE_NAME}!": {
-      "translation": "我们的消息来源表明，徘徊宝可梦正在{ROUTENAME}上聚集！",
+      "translation": "我们的消息来源表明，徘徊宝可梦正在{ROUTE_NAME}上聚集！",
       "line": 2407
     },
     "assets/images/npcs/Reporter.png": {
@@ -4291,7 +4291,7 @@
       "line": 3162
     },
     "I sense the presence of rare Pokémon at the {ROUTE_NAME}! Hurry, before the fates intervene!": {
-      "translation": "我感觉到{ROUTENAME}上有稀有宝可梦！快点，在命运干预之前！",
+      "translation": "我感觉到{ROUTE_NAME}上有稀有宝可梦！快点，在命运干预之前！",
       "line": 3163
     },
     "assets/images/npcs/Psychic (female).png": {
@@ -5551,7 +5551,7 @@
       "line": 4323
     },
     "I spotted a bunch of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "我在 {ROUTENAME} 上发现了一群徘徊的宝可梦！",
+      "translation": "我在 {ROUTE_NAME} 上发现了一群徘徊的宝可梦！",
       "line": 4324
     },
     "Lake Trio": {
@@ -6547,7 +6547,7 @@
       "line": 5208
     },
     "Our research indicates a higher concentration of roaming Pokémon on {ROUTE_NAME}!": {
-      "translation": "我们的研究表明，{ROUTENAME} 上的徘徊宝可梦更加集中！",
+      "translation": "我们的研究表明，{ROUTE_NAME} 上的徘徊宝可梦更加集中！",
       "line": 5209
     },
     "Prof. Juniper": {
@@ -7795,7 +7795,7 @@
       "line": 6266
     },
     "The spirits tell me roaming Pokémon have been spotted on {ROUTE_NAME}!": {
-      "translation": "灵魂告诉我在 {ROUTENAME} 上发现了徘徊的宝可梦！",
+      "translation": "灵魂告诉我在 {ROUTE_NAME} 上发现了徘徊的宝可梦！",
       "line": 6267
     },
     "Kalos TV News": {
@@ -8827,15 +8827,15 @@
       "line": 7025
     },
     "Here we don't have gyms. We have the Island Challenge. On each of our four islands you will complete one or more trials.": {
-      "translation": "我们这里没有道馆。我们有岛屿巡礼赛。在我们的四个岛屿中的每一个上，你都将完成一项或多项试验。",
+      "translation": "我们这里没有道馆。我们进行的是诸岛巡礼。在四座岛屿上，你需要完成一项或多项考验。",
       "line": 7026
     },
     "After completing all of an island's trials, you will battle that island's kahuna in a Grand trial.": {
-      "translation": "完成岛屿的所有试炼后，你将在大试炼中与该岛的岛屿之王战斗。",
+      "translation": "完成一座岛上的所有考验后，你将挑战该岛的岛屿之王，接受大考验。",
       "line": 7027
     },
     "This island only has one trial: Captain Ilima's trial in Verdant Cavern, below the Melemele Woods. Come back here after clearing that challenge for your Grand trial battle.": {
-      "translation": "这个岛上只有一项考验：伊利马队长会在梅勒梅勒森林下方的葱郁洞窟主持考验。完成该挑战后，请回到这里进行大考验。",
+      "translation": "这个岛上只有一项考验：伊利马队长会在美乐美乐森林下方的葱郁洞窟主持考验。完成该挑战后，请回到这里进行大考验。",
       "line": 7028
     },
     "assets/images/npcs/Hala.png": {
@@ -8847,11 +8847,11 @@
       "line": 7033
     },
     "Greetings. Captain Ilima here. In every locale where a captain holds his or her trials, you will encounter a particularly strong boss, known as a Totem Pokémon. To clear a Trial, all you have to do is defeat these Pokémon!": {
-      "translation": "问候。我是队长伊利马。在队长进行试炼的每个地点，你都会遇到特别强大的头目——霸主宝可梦。要通过试炼，你只需击败它们！",
+      "translation": "你好，我是考验队长伊利马。在每个队长主持考验的地方，你都会遇到特别强大的头目——霸主宝可梦。要通过考验，只要打倒它们就行！",
       "line": 7034
     },
     "Some Trial Sites are protected by different Pokémon depending on the time of day. The difficulty of each Trial isn't affected by these changes, but it makes for quite the interesting observance!": {
-      "translation": "一些试用地点根据一天中的时间受到不同宝可梦的保护。每个试炼的难度不会受到这些变化的影响，但它却带来了相当有趣的遵守！",
+      "translation": "有些考验场地会根据昼夜由不同的宝可梦守护。这样的变化不会影响考验的难度，不过观察起来很有意思！",
       "line": 7035
     },
     "assets/images/npcs/Ilima.png": {
@@ -8871,11 +8871,11 @@
       "line": 7045
     },
     "Akala Island has three trials.": {
-      "translation": "阿卡拉岛有三个试炼。",
+      "translation": "阿卡拉岛有三个考验。",
       "line": 7046
     },
     "Captain Lana's trial in Brooklet Hill, Captain Kiawe's trial in Wela Volcano Park and Captain Mallow's trial in Lush Jungle.": {
-      "translation": "水莲队长在布鲁克莱特山的考验、卡奇队长在维拉火山公园的考验，以及玛奥队长在树荫丛林的考验。",
+      "translation": "水莲队长在潺潺之丘的考验、卡奇队长在维拉火山公园的考验，以及玛奥队长在树荫丛林的考验。",
       "line": 7047
     },
     "For what it's worth, I say don't go to any of those places. Too wet, too hot and too... jungly. Why not stay here? Have a coffee! Enjoy the city!": {
@@ -9017,11 +9017,11 @@
       "line": 7098
     },
     "What do you mean Grand trials are just like gym battles? It's a totally different thing!": {
-      "translation": "什么叫大试炼就像道馆战斗一样？这是完全不同的事情！",
+      "translation": "什么叫大考验就像道馆战斗一样？这是完全不同的事情！",
       "line": 7099
     },
     "Come fight me in our very special and unique brand new Pokémon League and see if you still think our Island Challenge is nothing special!": {
-      "translation": "快来在我们非常特别且独特的全新宝可梦联盟中与我战斗吧，看看你是否仍然认为我们的岛屿巡礼没什么特别的！",
+      "translation": "快来在我们非常特别且独特的全新宝可梦联盟中与我战斗吧，看看你是否仍然认为我们的诸岛巡礼没什么特别的！",
       "line": 7100
     },
     "assets/images/npcs/Olivia.png": {
@@ -9069,7 +9069,7 @@
       "line": 7117
     },
     "A trial-goer, huh? Figures. Look, I'm not gonna fight someone who is taking on Team Skull. So...go. Just go.": {
-      "translation": "一个试炼者吧？数字。听着，我不会和那些正在对抗骷髅队的人战斗。所以...走吧。走吧。",
+      "translation": "是来参加考验的训练家啊？我就知道。听着，我可不会跟正在对付骷髅队的人打。所以……走吧。快走。",
       "line": 7118
     },
     "Office Worker Royce": {
@@ -9097,11 +9097,11 @@
       "line": 7135
     },
     "We don't have a kahuna on Poni, so I don't have an actual trial or anything...": {
-      "translation": "我们在波尼上没有岛屿之王，所以我没有进行实际的审判或任何东西......",
+      "translation": "我们波尼岛没有岛屿之王，所以也没有正式的大考验之类的……",
       "line": 7136
     },
     "Old man Nanu has been looking after our grand trials up until now. I'm the captain and all, so I've gotta come up with a trial.": {
-      "translation": "默丹老人至今一直在照顾我们的大试炼。我是队长，所以我必须想出一个办法。",
+      "translation": "到目前为止，默丹先生一直在负责我们的大考验。我是队长嘛，所以得想个考验出来。",
       "line": 7137
     },
     "assets/images/npcs/Mina.png": {
@@ -9117,11 +9117,11 @@
       "line": 7142
     },
     "My trial is in this town. Right there, inside my very own houseboat. Normally you'd have to clear my trial to find our kahuna on Exeggutor Island, but I guess you took care of some things, huh?": {
-      "translation": "我的审判就在这个镇上。就在那里，在我自己的船屋内。通常你必须完成我的试炼才能在椰蛋岛找到我们的岛屿之王，但我猜你已经处理了一些事情，是吧？",
+      "translation": "我的考验就在这个镇上。就在那里，在我自己的船屋内。通常你必须完成我的考验才能在椰蛋岛找到我们的岛屿之王，不过我猜你已经处理了一些事情，是吧？",
       "line": 7143
     },
     "Well, in that case, I'd better add a little something more. This is the final trial of your island challenge, after all. I hope you're ready for your toughest opponents yet!": {
-      "translation": "好吧，既然如此，我最好再补充一点。毕竟，这是你的岛屿巡礼的最终考验。我希望你已经准备好迎接最难对付的对手了！",
+      "translation": "好吧，既然如此，我最好再补充一点。毕竟，这是你的诸岛巡礼的最终考验。我希望你已经准备好迎接最难对付的对手了！",
       "line": 7144
     },
     "It's been a while. You must be a formidable Trainer indeed if you are able to get Necrozma as one of your allies.": {
@@ -9189,7 +9189,7 @@
       "line": 7170
     },
     "Some very rare Pokémon have been sighted on {ROUTE_NAME}. I hope we can learn more about them.": {
-      "translation": "在{ROUTENAME}上发现了一些非常稀有的宝可梦。我希望我们能够更多地了解他们。",
+      "translation": "在{ROUTE_NAME}上发现了一些非常稀有的宝可梦。我希望我们能够更多地了解他们。",
       "line": 7171
     },
     "assets/images/npcs/Assistant Branch Chief Wicke.png": {
@@ -9349,7 +9349,7 @@
       "line": 7241
     },
     "My grandfather died suddenly some years back, and we were left without a kahuna on Poni. So I set out on my own sort of island challenge, traveling Alola and trying to grow stronger. Lillie. The kahuna you wished to meet is now here.": {
-      "translation": "几年前，我的祖父突然去世，我们在波尼岛上失去了一个岛屿之王。因此，我开始了自己的岛屿巡礼，前往阿罗拉并努力变得更强。莉莉。你想见到的岛屿之王现在就在这里。",
+      "translation": "几年前，我的祖父突然去世，我们在波尼岛上失去了一个岛屿之王。因此，我开始了自己的诸岛巡礼，前往阿罗拉并努力变得更强。莉莉。你想见到的岛屿之王现在就在这里。",
       "line": 7242
     },
     "There is a ceremony held for the Legendary Pokémon at the Altar of the Sunne and Moone that uses two particular flutes. Ho! You already have the one. The other is said to be held on Exeggutor Island.": {
@@ -9717,7 +9717,7 @@
       "line": 7487
     },
     "I found it while helping Mallow with her trial. If you want it, you can have it. It's useless to me anyway.": {
-      "translation": "我在帮助马洛进行审判时发现了它。如果你想要它，你就可以拥有它。反正对我来说没什么用。",
+      "translation": "我是在帮玛奥进行考验时发现它的。如果你想要，就拿去吧。反正对我也没什么用。",
       "line": 7488
     },
     "Oh, hello. How can I help you? You're looking for Silvally Memories? What do they look like? Oh, so like a disk with a broken part. I think I <i>have</i> seen one while helping Acerola with her trial. Here, you can take it.": {
@@ -9889,7 +9889,7 @@
       "line": 7568
     },
     "Hey, $playername$. How's it going? Looking for a rematch, or did you come here explore the Poni Island secrets? Oh, I see. You're looking for a Silvally Memory. I found a memory in the ground here, so I took it and studied it a bit. All I could find out is that it was from some Silvally. I also found another memory while helping Mina out with her trial. I gave it to her, but I'm not sure if she found out how it works.": {
-      "translation": "嘿，$playername$。怎么样了？想要重赛，还是来这里探索波尼岛的秘密？我懂了。你正在寻找银伴战兽记忆。我在这里的地下发现了一段记忆，所以我把它拿过来研究了一下。我所能找到的只是那是来自某个银伴战兽的人。在帮助茉莉完成审判的过程中，我还发现了另一段记忆。我把它给了她，但我不确定她是否知道它是如何工作的。",
+      "translation": "嘿，$playername$。最近怎么样？想跟我再战一场，还是来探索波尼岛的秘密？……哦，我明白了，你在找银伴战兽的记忆。我在这里的地下发现了一枚记忆，所以就带走研究了一下。我只查到它来自某只银伴战兽。另外，我在帮茉莉进行考验的时候也发现了另一枚记忆。我把它交给她了，不过不确定她是否弄明白怎么用。",
       "line": 7569
     },
     "Anyway. Can I ask you something? Do you know any farmers? I'm needing to plant more palm trees around here on Exeggutor Island but I don't have enough Farm Points to buy all the seeds I need. If I got in contact with a farmer I could get them for much cheaper or even free! Oh? You know how to use the Farm? So that means you have a lot of Farm Points, right? Good! How about you give me some of those Farm Points for this Silvally Memory? Ok, I'll be here taking care of the Exeggutor for a while so you can come and visit me anytime to do this trade.": {
@@ -10061,7 +10061,7 @@
       "line": 7643
     },
     "A Dragon-type Silvally Memory, you say? Rock on! I had a feeling it was something rare and powerful, but I never would have guessed it was a Silvally Memory! But now that I know what I have, I can't simply give it to you. I'm a rock star, not a trial captain! We're on stage and the crowd wants a show!": {
-      "translation": "你说的是龙型银伴战兽记忆？继续岩石吧！我有一种感觉，这是一种罕见而强大的东西，但我万万没想到这是银伴战兽的记忆！但既然我知道我拥有什么，我就不能简单地把它给你了。我是岩石明星，不是试炼队长！我们在舞台上，观众想要表演！",
+      "translation": "你说的是龙属性银伴战兽记忆？Rock on！我就觉得这东西罕见又强大，可万万没想到竟然是银伴战兽的记忆！不过既然我知道它是什么，就不能随随便便给你了。我是摇滚明星，不是考验队长！我们在舞台上，观众想看一场表演！",
       "line": 7644
     },
     "If you want this Silvally Memory, you have to defeat me in a burning hot battle! It won't be easy, mind you. My babies are dying to play a set, and I won't be holding back! But if you truly have what it takes to be the champion, then you should be up for the challenge, yeah? Right on! Let's rock!": {
@@ -10313,7 +10313,7 @@
       "line": 7776
     },
     "There are some singularly stunning individuals down at {ROUTE_NAME}! Some Magikarp with real personality!": {
-      "translation": "{ROUTENAME} 上有一些令人惊叹的人物！一些具有真正个性的鲤鱼王！",
+      "translation": "{ROUTE_NAME} 上有一些令人惊叹的人物！一些具有真正个性的鲤鱼王！",
       "line": 7777
     },
     "assets/images/npcs/Roddy Tackle.png": {
@@ -11573,7 +11573,7 @@
       "line": 8799
     },
     "I've heard there's been sightings of a never-before-seen, super strong Pokémon on {ROUTE_NAME}! You should go check it out!": {
-      "translation": "我听说{ROUTENAME}上出现了前所未见的超强宝可梦！你应该去看看！",
+      "translation": "我听说{ROUTE_NAME}上出现了前所未见的超强宝可梦！你应该去看看！",
       "line": 8800
     },
     "assets/images/npcs/Professor Sonia.png": {
@@ -11585,7 +11585,7 @@
       "line": 8804
     },
     "One of the other students said they saw a rare Pokémon on {ROUTE_NAME}. Might be worth having a look.": {
-      "translation": "其他一名学生表示，他们在 {ROUTENAME} 上看到了一种罕见的宝可梦。可能值得一看。",
+      "translation": "其他一名学生表示，他们在 {ROUTE_NAME} 上看到了一种罕见的宝可梦。可能值得一看。",
       "line": 8805
     },
     "assets/images/npcs/Master Dojo.png": {
@@ -11921,7 +11921,7 @@
       "line": 8998
     },
     "If my eyes didn't deceive me, I saw a rare Pokémon at {ROUTE_NAME}. Go and see if you can find it if you're interested.": {
-      "translation": "如果我的眼睛没有欺骗我，我在{ROUTENAME}看到了一只稀有的宝可梦。有兴趣的话就去看看能不能找到。",
+      "translation": "如果我的眼睛没有欺骗我，我在{ROUTE_NAME}看到了一只稀有的宝可梦。有兴趣的话就去看看能不能找到。",
       "line": 8999
     },
     "Wow! The Crown Tundra is filled with wild fossil Pokémon! I've heard stories of these snowfields protecting the Pokémon living here, but this level of sanctuary is insane!": {
@@ -13073,7 +13073,7 @@
       "line": 10052
     },
     "Hey, hey, did you hear? A group of students saw some super rare Pokémon on {ROUTE_NAME}!": {
-      "translation": "嘿嘿嘿，你听到了吗？一群学生在{ROUTENAME}上看到了一些超级稀有的宝可梦！",
+      "translation": "嘿嘿嘿，你听到了吗？一群学生在{ROUTE_NAME}上看到了一些超级稀有的宝可梦！",
       "line": 10053
     },
     "Cabo Poco": {

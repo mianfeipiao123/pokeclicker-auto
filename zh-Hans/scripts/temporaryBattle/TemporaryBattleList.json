@@ -7,7 +7,7 @@
   },
   "entries": {
     "Blue 1": {
-      "translation": "蓝色1",
+      "translation": "青绿1",
       "line": 6
     },
     "Pidgey": {
@@ -31,7 +31,7 @@
       "line": 15
     },
     "Rival Blue": {
-      "translation": "对手蓝",
+      "translation": "劲敌青绿",
       "line": 22
     },
     "Viridian City": {
@@ -39,7 +39,7 @@
       "line": 23
     },
     "Blue1": {
-      "translation": "蓝色1",
+      "translation": "青绿1",
       "line": 24
     },
     "Default": {
@@ -47,7 +47,7 @@
       "line": 25
     },
     "Blue 2": {
-      "translation": "蓝色2",
+      "translation": "青绿2",
       "line": 28
     },
     "Pidgeotto": {
@@ -71,7 +71,7 @@
       "line": 44
     },
     "Blue 3": {
-      "translation": "蓝色3",
+      "translation": "青绿3",
       "line": 48
     },
     "Raticate": {
@@ -103,11 +103,11 @@
       "line": 64
     },
     "Blue2": {
-      "translation": "蓝色2",
+      "translation": "青绿2",
       "line": 65
     },
     "Blue 4": {
-      "translation": "蓝色4",
+      "translation": "青绿4",
       "line": 68
     },
     "Exeggcute": {
@@ -319,7 +319,7 @@
       "line": 254
     },
     "Blue 6": {
-      "translation": "蓝色6",
+      "translation": "青绿6",
       "line": 256
     },
     "Rhyhorn": {
@@ -391,7 +391,7 @@
       "line": 416
     },
     "Rival Silver": {
-      "translation": "对手银牌",
+      "translation": "劲敌银",
       "line": 420
     },
     "Cherrygrove City": {
@@ -3283,7 +3283,7 @@
       "line": 2974
     },
     "You're too late, $playername$! I have uncovered the secrets of the Blue Orb, despite Maxie's meddling!": {
-      "translation": "你来得太晚了，$playername$！尽管赤焰松插手，我还是揭开了蓝色球体的秘密！",
+      "translation": "你来得太晚了，$playername$！尽管赤焰松插手，我还是揭开了靛蓝色宝珠的秘密！",
       "line": 2982
     },
     "Archie": {
@@ -4139,7 +4139,7 @@
       "line": 3796
     },
     "Unrivaled Blue": {
-      "translation": "无与伦比的蓝色",
+      "translation": "无可匹敌的青绿",
       "line": 3800
     },
     "Exeggutor": {
@@ -4399,7 +4399,7 @@
       "line": 4024
     },
     "That's what I would expect from a Trainer doing the island challenge. I felt the bond between you and your Pokémon!": {
-      "translation": "这就是我对进行岛屿巡礼的训练家的期望。我感受到了你和你的宝可梦之间的羁绊！",
+      "translation": "这才像是在进行诸岛巡礼的训练家！我感受到了你和你的宝可梦之间的羁绊！",
       "line": 4027
     },
     "Sina": {
@@ -4639,7 +4639,7 @@
       "line": 4242
     },
     "Trial Site of Haina Desert": {
-      "translation": "哈伊纳沙漠试炼场",
+      "translation": "哈伊纳沙漠考验场地",
       "line": 4247
     },
     "Tapu Village": {
@@ -4647,7 +4647,7 @@
       "line": 4248
     },
     "Trial Site": {
-      "translation": "试炼地点",
+      "translation": "考验场地",
       "line": 4250
     },
     "Plumeria 2": {
@@ -4819,7 +4819,7 @@
       "line": 4378
     },
     "Island Challenge": {
-      "translation": "岛屿巡礼",
+      "translation": "诸岛巡礼",
       "line": 4379
     },
     "Mina": {
@@ -5447,7 +5447,7 @@
       "line": 4900
     },
     "Jump Champ Blue": {
-      "translation": "跳跃冠军蓝色",
+      "translation": "跳跃冠军青绿",
       "line": 4901
     },
     "Magikarp Jump Karpress": {

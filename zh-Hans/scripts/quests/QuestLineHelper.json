@@ -35,13 +35,13 @@
       "line": 24
     },
     "Clear ${...}'s Trial at ${...}.": {
-      "translation": "在 ${...} 完成 ${...} 的试炼。",
+      "translation": "在 ${...} 完成 ${...} 的考验。",
       "line": 29,
       "_rematchedFrom": "Clear ${...}'s Trial at ${...}.",
       "_confidence": 0.85
     },
     "Trial Site of ${...}": {
-      "translation": "${...} 的试炼地点",
+      "translation": "${...} 的考验场地",
       "line": 30,
       "_rematchedFrom": "Trial Site of ${...}",
       "_confidence": 0.85
@@ -403,19 +403,19 @@
       "line": 261
     },
     "What kept you $playername$? Hahaha! I thought you'd turn up if I waited here! I guess Team Rocket slowed you down! Not that I care! I saw you in Saffron, so I decided to see if you got better!": {
-      "translation": "是什么让你$playername$留了下来？哈哈哈！我以为如果我在这里等你就会出现！我猜火箭队拖慢了你的速度！我不在乎！我在藏红花看到了你，所以我决定看看你是否好起来了！",
+      "translation": "是什么让你$playername$耽搁了？哈哈哈！我就知道只要我在这里等，你就会出现！我猜火箭队拖慢了你的脚步！不过无所谓！我在金黄市见过你，所以我想看看你有没有变得更强！",
       "line": 263
     },
     "Rival Blue": {
-      "translation": "对手蓝",
+      "translation": "劲敌青绿",
       "line": 264
     },
     "Blue 5": {
-      "translation": "蓝5",
+      "translation": "青绿5",
       "line": 269
     },
     "Blue is getting in your way. Defeat him in Silph Co.": {
-      "translation": "蓝色妨碍了你。在西尔佛公司击败他。",
+      "translation": "青绿挡住了你的去路。在西尔佛公司击败他。",
       "line": 269
     },
     "Team Rocket has occupied Silph Co. Clear Silph Co. in Saffron City once more to foil their plans.": {
@@ -675,7 +675,7 @@
       "line": 464
     },
     "Suicune 1": {
-      "translation": "",
+      "translation": "水君1",
       "line": 466
     },
     "Find Suicune.": {
@@ -695,7 +695,7 @@
       "line": 472
     },
     "Suicune 2": {
-      "translation": "",
+      "translation": "水君2",
       "line": 475
     },
     "Talk to Eusine in Mahogany Town.": {
@@ -703,7 +703,7 @@
       "line": 478
     },
     "Suicune 3": {
-      "translation": "",
+      "translation": "水君3",
       "line": 481
     },
     "Talk to Eusine in Vermilion City.": {
@@ -711,7 +711,7 @@
       "line": 484
     },
     "Suicune 4": {
-      "translation": "",
+      "translation": "水君4",
       "line": 487
     },
     "Talk to Eusine in Fuchsia City.": {
@@ -719,7 +719,7 @@
       "line": 490
     },
     "Suicune 5": {
-      "translation": "",
+      "translation": "水君5",
       "line": 493
     },
     "Talk to Eusine in Bill's House.": {
@@ -1421,7 +1421,7 @@
       "line": 1006
     },
     "You can now start catching Shadow Pokémon!<br/><br/>A \"New Shadow\" filter has been added to your list, be sure to select a Poké Ball and move it to the desired position!": {
-      "translation": "",
+      "translation": "你现在可以开始捕捉暗影宝可梦了！<br/><br/>你的列表中新增了“新暗影”筛选器，记得选择一种精灵球，并将它移动到你想要的位置！",
       "line": 1015
     },
     "New Shadow": {
@@ -1429,15 +1429,15 @@
       "line": 1015
     },
     "bg-secondary": {
-      "translation": "BG-中学",
+      "translation": "bg-secondary",
       "line": 1018
     },
     "right": {
-      "translation": "正确的",
+      "translation": "right",
       "line": 1020
     },
     "bottom": {
-      "translation": "底部",
+      "translation": "bottom",
       "line": 1020
     },
     "Check what is in the mysterious sack.": {
@@ -3445,7 +3445,7 @@
       "line": 2215
     },
     "talk": {
-      "translation": "",
+      "translation": "交谈",
       "line": 2215
     },
     "Underground Fighting Ring": {
@@ -3897,11 +3897,11 @@
       "line": 2438
     },
     ".....right. Of course..... Well, you have no leads for now, so may as well defeat and catch some Psychic and Fighting-type Pokémon.": {
-      "translation": "",
+      "translation": "……没错。当然……嗯，你现在还没有线索，不如先去打倒并捕捉一些超能力属性和格斗属性的宝可梦吧。",
       "line": 2447
     },
     "Unrivaled Blue": {
-      "translation": "无与伦比的蓝色",
+      "translation": "无可匹敌的青绿",
       "line": 2449
     },
     "Blue has contacted you, saying he knows something but wants a fight first. He is at Viridian City.": {
@@ -4029,7 +4029,7 @@
       "line": 2534
     },
     "<i>The bridge collapses and you and the floating Pokémon start falling to your doom... But you are saved by a mysterious Pokémon!</i>": {
-      "translation": "",
+      "translation": "<i>桥梁坍塌了，你和那只漂浮的宝可梦一起坠向深渊……但一只神秘的宝可梦救了你！</i>",
       "line": 2536
     },
     "Melemele Guardian": {
@@ -4069,7 +4069,7 @@
       "line": 2556
     },
     "My thanks to you and your Pokémon. These grunts are always bothering me and my trial site. You... you're the trainer who cleared the Trainers' School so effortlessly! Allow me to see if you're ready for my trial!": {
-      "translation": "我感谢你和你的宝可梦。这些咕哝声总是困扰着我和我的试用现场。你……你就是那个轻松通过训练家学校的训练家！让我看看你是否准备好接受我的审判！",
+      "translation": "谢谢你和你的宝可梦。这些骷髅队手下总在骚扰我和我的考验场地。你……就是那个轻轻松松通过训练家学校的训练家吧！让我看看你是否已经准备好接受我的考验！",
       "line": 2558
     },
     "Ilima": {
@@ -4097,7 +4097,7 @@
       "line": 2572
     },
     "Pew!<br><br><i>Nebby flees.</i>": {
-      "translation": "",
+      "translation": "咻！<br><br><i>内比逃走了。</i>",
       "line": 2574
     },
     "Nebby": {
@@ -4117,7 +4117,7 @@
       "line": 2581
     },
     "Pew~<br><br><i>Nebby stays. It seems like it's following you now!</i>": {
-      "translation": "",
+      "translation": "咻～<br><br><i>内比留下来了。它似乎决定跟着你了！</i>",
       "line": 2583
     },
     "Recon Squad 1": {
@@ -4153,7 +4153,7 @@
       "line": 2612
     },
     "Defeat Hala in Iki Town to complete Melemele's Grand Trial!": {
-      "translation": "击败利利镇的哈拉，完成梅乐梅勒的大试炼！",
+      "translation": "在利利镇击败哈拉，完成美乐美乐岛的大考验！",
       "line": 2612
     },
     "Ten Carat Hill": {
@@ -4169,11 +4169,11 @@
       "line": 2616
     },
     "There is one more Z Crystal on Ten Carat Hill. Find the Trial Site and claim it!": {
-      "translation": "十克拉山上还有一颗 Z 纯晶。找到试炼地点并领取它！",
+      "translation": "十克拉山上还有一颗Z纯晶。找到考验场地并领取它！",
       "line": 2616
     },
     "Trial Site of Ten Carat Hill": {
-      "translation": "十克拉山试验场",
+      "translation": "十克拉山考验场地",
       "line": 2616
     },
     "Symbiotic Relations": {
@@ -4253,7 +4253,7 @@
       "line": 2653
     },
     "Wow, you're even stronger than I thought! Looks like you've cleared all three of Akala's trials! Here! A gift for such an inspiring young Trainer!": {
-      "translation": "哇，你比我想象的还要强！看起来你已经完成了阿卡拉的全部三项试炼！这里！送给如此鼓舞人心的年轻训练家的礼物！",
+      "translation": "哇，你比我想象的还要强！看起来你已经完成了阿卡拉岛的三项考验！来！送给如此鼓舞人心的年轻训练家的礼物！",
       "line": 2653
     },
     "Talk to Professor Burnet in Heahea City after you've finished exploring Lush Jungle.": {
@@ -4289,11 +4289,11 @@
       "line": 2669
     },
     "Reach Kahuna Olivia and Lillie at the Ruins of Life and complete Akala's Grand Trial!": {
-      "translation": "到达生命废墟的岛屿之王·丽姿和莉莉艾并完成阿卡拉的大试炼！",
+      "translation": "在生命遗迹与岛屿之王·丽姿和莉莉艾会合，并完成阿卡拉岛的大考验！",
       "line": 2669
     },
     "Ultra Wormhole": {
-      "translation": "超虫洞",
+      "translation": "究极之洞",
       "line": 2673
     },
     "A strange creature has appeared in Aether Paradise. Make it go away. Clear the Ultra Wormhole.": {
@@ -4413,11 +4413,11 @@
       "line": 2732
     },
     "Ultra Recon Squad": {
-      "translation": "超级侦察队",
+      "translation": "究极调查队",
       "line": 2733
     },
     "specialNPCs/Ultra Recon Squad (all)": {
-      "translation": "",
+      "translation": "究极调查队（全员）",
       "line": 2734
     },
     "Aether Branch Chief Faba": {
@@ -4445,7 +4445,7 @@
       "line": 2748
     },
     "The daughter who stole my Cosmog from me and the son who took my Type: Null! All I ever did was give you two all the love I had, and all you did was betray me! You have no right to ask for my attention now!</br>But it doesn't matter now. None of that matters now! Watch... I will open the Ultra Wormhole for you... Come to me, my sweet beast!": {
-      "translation": "",
+      "translation": "把科斯莫古从我身边偷走的女儿，还有夺走我“属性：空”的儿子！我明明把全部的爱都给了你们，你们却只会背叛我！你们现在没有资格再来求我关注！</br>不过已经无所谓了。那些都无所谓了！看好了……我会为你们打开究极之洞……来吧，我亲爱的异兽！",
       "line": 2750
     },
     "Lusamine": {
@@ -4465,7 +4465,7 @@
       "line": 2757
     },
     "All that I want is my precious beast! I don't care about any of the rest of you! I don't care if you are my child or not! If you're not beautiful enough to be worthy of my love, then I don't NEED you!</br></br><i>Lusamine left into the Ultra Wormhole.</i></br><img src=\"assets/images/npcs/specialNPCs/Wormhole.png\"></img>": {
-      "translation": "",
+      "translation": "我想要的只有我那珍贵的异兽！其他人我都不在乎！不管你是不是我的孩子我都不在乎！如果你不够美、不配得到我的爱，那我就不需要你！</br></br><i>露莎米奈走进了究极之洞。</i></br><img src=\"assets/images/npcs/specialNPCs/Wormhole.png\"></img>",
       "line": 2759
     },
     "assets/images/npcs/specialNPCs/Wormhole.png": {
@@ -4493,11 +4493,11 @@
       "line": 2786
     },
     "Psychium Z Trial": {
-      "translation": "超能力Z试炼",
+      "translation": "超能力Z考验",
       "line": 2789
     },
     "There are more Z Crystals on Ula'ula. Find the Trial Site hidden in Haina Desert after clearing the Route.": {
-      "translation": "乌拉乌拉岛上还有更多Z纯晶。通关该道路后，在哈伊纳沙漠找到隐藏的试炼场地。",
+      "translation": "乌拉乌拉岛上还有更多Z纯晶。通关该道路后，在哈伊纳沙漠找到隐藏的考验场地。",
       "line": 2789
     },
     "Molayne": {
@@ -4533,7 +4533,7 @@
       "line": 2816
     },
     "Now we have both the Sun Flute and the Moon Flute!</br><img src=\"assets/images/items/fluteItem/Sun_Flute.png\"/><img src=\"assets/images/items/fluteItem/Moon_Flute.png\"/>": {
-      "translation": "",
+      "translation": "现在我们已经同时拥有太阳之笛和月亮之笛了！</br><img src=\"assets/images/items/fluteItem/Sun_Flute.png\"/><img src=\"assets/images/items/fluteItem/Moon_Flute.png\"/>",
       "line": 2818
     },
     "assets/images/items/fluteItem/Sun_Flute.png": {
@@ -4557,7 +4557,7 @@
       "line": 2825
     },
     "That's enough, grunts. No one wants to see a sore loser.</br></br>You. To be honest, I've treated you really badly. Even if I apologize, I know it's probably too late for you to forgive me. This is my way of saying sorry, OK? Take it. It's Poisonium Z.</br><img width=\"100\" src=\"assets/images/items/zCrystal/Poisonium Z.svg\">": {
-      "translation": "",
+      "translation": "够了，手下们。没人想看你们输不起。</br></br>你。说实话，我以前对你很差。就算我道歉，我也知道可能已经太迟了，你大概不会原谅我了。就当这是我的赔礼吧，好吗？收下它。这是毒Z。</br><img width=\"100\" src=\"assets/images/items/zCrystal/Poisonium Z.svg\">",
       "line": 2828
     },
     "assets/images/items/zCrystal/Poisonium Z.svg": {
@@ -4577,7 +4577,7 @@
       "line": 2835
     },
     "Proceed to Vast Poni Canyon and prove your skills in a Grand Trial against Poni's new kahuna, Hapu!": {
-      "translation": "前往广阔的波尼峡谷，在大试炼中对抗波尼的新岛屿之王哈普，证明你的技能！",
+      "translation": "前往广阔的波尼峡谷，在大考验中挑战波尼的新任岛屿之王哈普，证明你的实力！",
       "line": 2835
     },
     "Vast Poni Canyon": {
@@ -4585,7 +4585,7 @@
       "line": 2839
     },
     "Trial Site": {
-      "translation": "试炼地点",
+      "translation": "考验场地",
       "line": 2839
     },
     "<i>You obtained a Dragon-Type Z-Crystal. The Dragonium Z is yours!<i>": {
@@ -4593,11 +4593,11 @@
       "line": 2839
     },
     "Clear the ancient Trial Site of Vast Poni Canyon.": {
-      "translation": "清理广阔波尼峡谷的古老审判地点。",
+      "translation": "清理广阔波尼峡谷的古老考验场地。",
       "line": 2839
     },
     "Trial Site of Vast Poni Canyon": {
-      "translation": "广阔的波尼峡谷试验场",
+      "translation": "广阔的波尼峡谷考验场地",
       "line": 2839
     },
     "Play the Sun Flute during Day or Dusk.": {
@@ -4617,11 +4617,11 @@
       "line": 2851
     },
     "Lillie...</br>...</br>Heh...</br>When did you... start becoming so beautiful?": {
-      "translation": "",
+      "translation": "莉莉艾……</br>……</br>呵……</br>你从什么时候开始……变得这么美了？",
       "line": 2853
     },
     "specialNPCs/Aether President (lillie)": {
-      "translation": "",
+      "translation": "以太基金会理事长（莉莉艾）",
       "line": 2855
     },
     "Eater of Light": {
@@ -4689,7 +4689,7 @@
       "line": 2905
     },
     "<i>You see Necrozma unconscious in a crater, drained of light and in a dormant state. Best to let it rest for a while.</i>": {
-      "translation": "",
+      "translation": "<i>你看到奈克洛兹玛倒在陨坑里，光芒被吸尽，陷入了沉睡。还是让它先休息一会儿吧。</i>",
       "line": 2907
     },
     "../pokemon/800": {
@@ -4701,19 +4701,19 @@
       "line": 2913
     },
     "You were so distracted by Necrozma you forgot about the Z Crystal! Find the Trial Site in the Mount Lanakila dungeon.": {
-      "translation": "你被奈克洛兹玛搞得心烦意乱，以至于忘记了 Z 纯晶！在拉纳基拉山迷宫中找到审判地点。",
+      "translation": "你太被奈克洛兹玛分心了，以至于忘记了Z纯晶！在拉纳基拉山迷宫中找到考验场地。",
       "line": 2913
     },
     "Trial Site of Mount Lanakila": {
-      "translation": "拉纳基拉山试验场",
+      "translation": "拉纳基拉山考验场地",
       "line": 2913
     },
     "Island Challenge": {
-      "translation": "岛屿巡礼",
+      "translation": "诸岛巡礼",
       "line": 2921
     },
     "Embark on the Island Challenge and be graced by the Tapus' presence!": {
-      "translation": "踏上岛屿巡礼并因卡璞的出现而感到荣幸！",
+      "translation": "踏上诸岛巡礼之路，迎接卡璞们的祝福！",
       "line": 2921
     },
     "Hau 2": {
@@ -4721,7 +4721,7 @@
       "line": 2921
     },
     "Start your Island Challenge at Professor Kukui's Lab.": {
-      "translation": "在库库伊博士的实验室开始你的岛屿巡礼。",
+      "translation": "在库库伊博士的实验室开始你的诸岛巡礼。",
       "line": 2923
     },
     "Woah there, tester! This quest is still under development! You should go out there and test the story in the meantime, yeah!": {
@@ -4729,7 +4729,7 @@
       "line": 2926
     },
     "Alola $playername$! You ready to take on the island challenge? This amulet here is proof that you're up to the task, yeah! With this in hand you'll get to experience some ultra changes in Alola's trials, too! Woo!</br></br><img src=\"assets/images/items/quest/Island_Challenge_Amulet.png\">": {
-      "translation": "",
+      "translation": "阿罗拉，$playername$！准备好挑战诸岛巡礼了吗？这个护符就是你具备资格的证明！有了它，你也能在阿罗拉的考验中体验一些“究极”的变化！哟！</br></br><img src=\"assets/images/items/quest/Island_Challenge_Amulet.png\">",
       "line": 2926
     },
     "assets/images/items/quest/Island_Challenge_Amulet.png": {
@@ -4745,59 +4745,59 @@
       "line": 2928
     },
     "Mina's Trial": {
-      "translation": "茉莉的审判",
+      "translation": "茉莉的考验",
       "line": 2934
     },
     "Mina has asked you to battle the Trial captains of the other islands to earn access to her Trial site.": {
-      "translation": "",
+      "translation": "茉莉请你去挑战其他岛屿的考验队长，以获得进入她的考验场地的资格。",
       "line": 2934
     },
     "Captain Mina": {
-      "translation": "茉莉队长",
+      "translation": "考验队长茉莉",
       "line": 2936
     },
     "Defeat Captain Mina in Seafolk Village.": {
-      "translation": "",
+      "translation": "在海洋居民村击败考验队长茉莉。",
       "line": 2936
     },
     "Captain Ilima": {
-      "translation": "伊利马队长",
+      "translation": "考验队长伊利马",
       "line": 2939
     },
     "Defeat Captain Ilima in Hau'oli Cemetery.": {
-      "translation": "",
+      "translation": "在好奥乐墓园击败考验队长伊利马。",
       "line": 2939
     },
     "Captain Mallow": {
-      "translation": "玛奥队长",
+      "translation": "考验队长玛奥",
       "line": 2942
     },
     "Defeat Captain Mallow in Lush Jungle.": {
-      "translation": "",
+      "translation": "在树荫丛林击败考验队长玛奥。",
       "line": 2942
     },
     "Captain Lana": {
-      "translation": "水莲队长",
+      "translation": "考验队长水莲",
       "line": 2945
     },
     "Defeat Captain Lana in Lush Jungle.": {
-      "translation": "",
+      "translation": "在树荫丛林击败考验队长水莲。",
       "line": 2945
     },
     "Captain Kiawe": {
-      "translation": "卡奇队长",
+      "translation": "考验队长卡奇",
       "line": 2948
     },
     "Defeat Captain Kiawe in Wela Volcano Park.": {
-      "translation": "",
+      "translation": "在维拉火山公园击败考验队长卡奇。",
       "line": 2948
     },
     "Captain Sophocles": {
-      "translation": "马玛内队长",
+      "translation": "考验队长马玛内",
       "line": 2951
     },
     "Defeat Captain Sophocles in Hokulani Observatory.": {
-      "translation": "",
+      "translation": "在霍库拉尼天文台击败考验队长马玛内。",
       "line": 2951
     },
     "Kahuna Nanu": {
@@ -4805,7 +4805,7 @@
       "line": 2954
     },
     "Captain Acerola is apparently busy with something at the top of Mount Lanakila. Defeat Kahuna Nanu in Aether House instead.": {
-      "translation": "",
+      "translation": "考验队长阿塞萝拉似乎在拉纳基拉山山顶忙着什么。改为在以太之家击败岛屿之王·默丹。",
       "line": 2954
     },
     "Typing some Memories": {
@@ -4973,7 +4973,7 @@
       "line": 3075
     },
     "Search for Silvally's Memory near an ancient trial. Ask Gladion at Aether Foundation if you're lost.": {
-      "translation": "在古代审判场附近寻找银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
+      "translation": "在古老考验场地附近寻找更多银伴战兽的记忆。如果你迷路了，请询问以太基金会的格拉吉欧。",
       "line": 3078
     },
     "Plumeria Poison Memory": {
@@ -5109,7 +5109,7 @@
       "line": 3166
     },
     "Defeat Trial Captain Mina at the Roadside Motel.": {
-      "translation": "在路边汽车旅馆击败试炼队长茉莉。",
+      "translation": "在路边汽车旅馆击败考验队长茉莉。",
       "line": 3166
     },
     "Talk to Captain Mina at the Roadside Motel.": {
@@ -5519,7 +5519,7 @@
       "line": 3459
     },
     "Catch or hatch 10 Boldore.": {
-      "translation": "",
+      "translation": "捕获或孵化10只地幔岩。",
       "line": 3459
     },
     "Forretress": {
@@ -6007,7 +6007,7 @@
       "line": 3749
     },
     "For the final trial, you must defeat both Klara and Avery on the Master Dojo Battle Court.": {
-      "translation": "在最终审判中，你必须在大师道场战斗场上击败克拉拉和艾弗里。",
+      "translation": "在最终考验中，你必须在大师道场对战场地击败克拉拉和艾弗里。",
       "line": 3754
     },
     "Kubfu": {

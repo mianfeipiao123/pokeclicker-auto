@@ -7,7 +7,7 @@
   },
   "entries": {
     "Invalid gym town for quest: ${...}": {
-      "translation": "任务的健身城镇无效：${...}",
+      "translation": "任务的道馆所在城镇无效：${...}",
       "line": 14,
       "_rematchedFrom": "Invalid gym town for quest: ${...}",
       "_confidence": 0.85
@@ -21,11 +21,11 @@
       "line": 51
     },
     "Trial": {
-      "translation": "审判",
+      "translation": "考验",
       "line": 60
     },
     "at ${...}": {
-      "translation": "价格为 ${...}",
+      "translation": "在 ${...}",
       "line": 61,
       "_rematchedFrom": "at ${...}",
       "_confidence": 0.85

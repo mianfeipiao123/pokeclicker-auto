@@ -391,7 +391,7 @@
       "line": 255
     },
     "Team Rocket Boss Giovanni": {
-      "translation": "火箭队老大乔瓦尼",
+      "translation": "火箭队老大坂木",
       "line": 256
     },
     "Silph Co.": {
@@ -867,11 +867,11 @@
       "line": 603
     },
     "Rocket Boss Giovanni": {
-      "translation": "火箭队老大乔瓦尼",
+      "translation": "火箭队老大坂木",
       "line": 606
     },
     "Defeat Giovanni.": {
-      "translation": "击败乔瓦尼。",
+      "translation": "击败坂木。",
       "line": 606
     },
     "Celebi": {
@@ -887,7 +887,7 @@
       "line": 629
     },
     "Put a stop to the schemes of Team Aqua and Team Magma!": {
-      "translation": "阻止 Aqua 队和 Magma 队的阴谋！",
+      "translation": "阻止海洋队和熔岩队的阴谋！",
       "line": 629
     },
     "Mt. Chimney Crater": {
@@ -903,15 +903,15 @@
       "line": 634
     },
     "Stop Team Aqua at the Weather Institute.": {
-      "translation": "在气象研究所阻止 Aqua 队。",
+      "translation": "在气象研究所阻止海洋队。",
       "line": 634
     },
     "Magma Hideout": {
-      "translation": "岩浆藏身处",
+      "translation": "熔岩队基地",
       "line": 637
     },
     "Raid the Team Magma hideout.": {
-      "translation": "突袭熔岩队藏身处。",
+      "translation": "突袭熔岩队基地。",
       "line": 637
     },
     "Aqua Hideout": {
@@ -919,7 +919,7 @@
       "line": 640
     },
     "Raid the Team Aqua hideout.": {
-      "translation": "突袭海洋队的藏身处。",
+      "translation": "突袭海洋队基地。",
       "line": 640
     },
     "You found a Master Ball!": {
@@ -931,7 +931,7 @@
       "line": 653
     },
     "Team Aqua's leader Archie escaped from their hideout. Find him in the Seafloor Cavern and put a stop to this once and for all!": {
-      "translation": "海洋队的队长阿奇从他们的藏身处逃了出来。在海底洞穴中找到他并一劳永逸地阻止这一切！",
+      "translation": "海洋队老大水梧桐从基地逃走了。在海底洞穴找到他，彻底阻止这一切！",
       "line": 653
     },
     "The Weather Trio": {
@@ -959,15 +959,15 @@
       "line": 669
     },
     "Sky Pillar": {
-      "translation": "天柱",
+      "translation": "天空之柱",
       "line": 672
     },
     "Climb the Sky Pillar to find the super-ancient Pokémon Rayquaza.": {
-      "translation": "爬上天空之柱寻找超古代宝可梦烈空座。",
+      "translation": "爬上天空之柱寻找超古代宝可梦裂空座。",
       "line": 672
     },
     "Return to Sootopolis City to see what Rayquaza will do.": {
-      "translation": "返回琉璃市，看看烈空坐会做什么。",
+      "translation": "返回琉璃市，看看裂空座会做什么。",
       "line": 675
     },
     "Talk to Wallace in the Cave of Origin about the aftermath of the battle.": {
@@ -975,7 +975,7 @@
       "line": 678
     },
     "Rayquaza": {
-      "translation": "烈空坐",
+      "translation": "裂空座",
       "line": 681
     },
     "Kyogre": {
@@ -987,7 +987,7 @@
       "line": 685
     },
     "Catch the Weather Trio.": {
-      "translation": "观看天气三人组。",
+      "translation": "捕捉天气三神。",
       "line": 692
     },
     "Mystery of Deoxys": {
@@ -2103,7 +2103,7 @@
       "line": 1383
     },
     "Team Plasma has stolen the DNA Splicers and is assaulting the city with an army of grunts and shadows! Defend against the Team Plasma Assault!": {
-      "translation": "等离子队偷走了 DNA拼合器，并用一支由手下和暗影组成的军队攻击这座城市！抵御等离子队的进攻！",
+      "translation": "等离子队偷走了基因之楔，并用一支由手下和暗影组成的军队攻击这座城市！抵御等离子队的进攻！",
       "line": 1386
     },
     "Team Plasma Grunt 7": {
@@ -2139,7 +2139,7 @@
       "line": 1407
     },
     "Team Plasma has fled the scene with the stolen DNA Splicers. Find and clear out the Plasma Frigate.": {
-      "translation": "等离子队带着被盗的 DNA拼合器逃离了现场。找到并通关等离子护卫舰。",
+      "translation": "等离子队带着被盗的基因之楔逃离了现场。找到并通关等离子护卫舰。",
       "line": 1408
     },
     "Giant Chasm": {
@@ -2147,7 +2147,7 @@
       "line": 1412
     },
     "Team Plasma's leader Ghetsis plans on using the DNA Splicers on Kyurem in Giant Chasm. Clear the dungeon to end his evil plans.": {
-      "translation": "等离子队的领导者魁奇思计划在巨型裂谷的酋雷姆上使用 DNA拼合器。通关迷宫以结束他的邪恶计划。",
+      "translation": "等离子队的老大魁奇思计划在巨型裂谷的酋雷姆身上使用基因之楔。通关迷宫以结束他的邪恶计划。",
       "line": 1412
     },
     "Talk to Colress on the Plasma Frigate.": {
@@ -2215,11 +2215,11 @@
       "line": 1461
     },
     "Destiny Deoxys Rayquaza": {
-      "translation": "命运代欧奇希斯·烈空坐",
+      "translation": "命运代欧奇希斯·裂空座",
       "line": 1464
     },
     "Rayquaza and Deoxys are rampaging in the area. Try to calm them down.": {
-      "translation": "烈空坐和代欧奇希斯正在该地区横行。尝试让他们平静下来。",
+      "translation": "裂空座和代欧奇希斯正在该地区横行。尝试让它们平静下来。",
       "line": 1464
     },
     "Now that the situation has calmed down talk to the local scientists about the Green Gemstone.": {
@@ -2247,15 +2247,15 @@
       "line": 1484
     },
     "Destiny Rayquaza": {
-      "translation": "命运烈空坐",
+      "translation": "命运裂空座",
       "line": 1487
     },
     "Rayquaza attacks again. Calm it down for the last time.": {
-      "translation": "烈空坐再次攻击。最后一次冷静下来。",
+      "translation": "裂空座再次攻击。最后一次让它冷静下来。",
       "line": 1487
     },
     "Rayquaza realized that the Deoxys are no threat. Reunite the Purple and Green Gemmed Deoxys.": {
-      "translation": "烈空坐意识到代欧奇希斯并不构成威胁。重新组合紫色和绿色宝石代欧奇希斯。",
+      "translation": "裂空座意识到代欧奇希斯并不构成威胁。重新组合紫色与绿色宝石，复原代欧奇希斯。",
       "line": 1490
     },
     "Swords of Justice": {
@@ -3073,7 +3073,7 @@
       "line": 1956
     },
     "Talk to the mysterious figure at the Sky Pillar.": {
-      "translation": "与天柱上的神秘人物交谈。",
+      "translation": "与天空之柱上的神秘人物交谈。",
       "line": 1959
     },
     "Travel with Zinnia to Littleroot Town and talk to May.": {
@@ -3177,23 +3177,23 @@
       "line": 2023
     },
     "Aqua Grunt": {
-      "translation": "阿库鲁特",
+      "translation": "海洋队手下",
       "line": 2029
     },
     "Defeat the Aqua Grunt.": {
-      "translation": "击败阿库鲁特。",
+      "translation": "击败海洋队手下。",
       "line": 2029
     },
     "Magma Grunt": {
-      "translation": "岩浆步兵",
+      "translation": "熔岩队手下",
       "line": 2030
     },
     "Defeat the Magma Grunt.": {
-      "translation": "击败岩浆步兵。",
+      "translation": "击败熔岩队手下。",
       "line": 2030
     },
     "Defeat the Team Aqua and Magma Grunts attacking the Mossdeep Space Center.": {
-      "translation": "击败攻击莫斯迪普太空中心的海洋队和岩浆步兵队。",
+      "translation": "击败攻击莫斯迪普太空中心的海洋队与熔岩队手下。",
       "line": 2036
     },
     "Courtney 2": {
@@ -3209,19 +3209,19 @@
       "line": 2045
     },
     "Follow Zinnia to the Aqua hideout and search for her.": {
-      "translation": "跟随 Zinnia 前往 Aqua 藏身处并寻找她。",
+      "translation": "跟随希嘉娜前往海洋队基地并寻找她。",
       "line": 2050
     },
     "Talk to Archie in the Team Aqua Hideout.": {
-      "translation": "与 Aqua 团队藏身处的阿奇交谈。",
+      "translation": "在海洋队基地与水梧桐交谈。",
       "line": 2053
     },
     "Follow Zinnia to the Magma Hideout and search for her.": {
-      "translation": "跟随希嘉娜前往岩浆藏身处并寻找她。",
+      "translation": "跟随希嘉娜前往熔岩队基地并寻找她。",
       "line": 2056
     },
     "Talk to Maxie in the Team Magma Hideout.": {
-      "translation": "与熔岩队藏身处的赤焰松交谈。",
+      "translation": "在熔岩队基地与赤焰松交谈。",
       "line": 2059
     },
     "Talk to Wallace in Sootopolis City.": {
@@ -3241,7 +3241,7 @@
       "line": 2068
     },
     "Defeat Zinnia at the Sky Pillar.": {
-      "translation": "击败天柱处的希嘉娜。",
+      "translation": "击败天空之柱处的希嘉娜。",
       "line": 2068
     },
     "Your Meteorite Shards combine into a Meteorite!": {
@@ -3257,11 +3257,11 @@
       "line": 2087
     },
     "Mega Evolve Rayquaza.": {
-      "translation": "Mega进化烈空坐。",
+      "translation": "超级进化裂空座。",
       "line": 2087
     },
     "Fly Mega Rayquaza into space to destroy the Meteor.": {
-      "translation": "将巨型烈空坐飞入太空摧毁流星。",
+      "translation": "让超级裂空座飞入太空摧毁流星。",
       "line": 2093
     },
     "Primal Reversion": {
@@ -3337,15 +3337,15 @@
       "line": 2150
     },
     "Archie Primal": {
-      "translation": "阿奇·原始",
+      "translation": "水梧桐·原始",
       "line": 2153
     },
     "Defeat Archie": {
-      "translation": "击败阿奇",
+      "translation": "击败水梧桐",
       "line": 2153
     },
     "Maxie Primal": {
-      "translation": "赤焰松·普里马尔",
+      "translation": "赤焰松·原始",
       "line": 2154
     },
     "Defeat Maxie": {
@@ -3353,11 +3353,11 @@
       "line": 2154
     },
     "Defeat the Team Aqua and Team Magma leaders in the Seafloor Cavern.": {
-      "translation": "击败海底洞穴中的海洋队和熔岩队头目。",
+      "translation": "击败海底洞穴中的海洋队与熔岩队老大。",
       "line": 2160
     },
     "Clear the Weather Institute 10 times to search for clues about Archie and Maxie's plans.": {
-      "translation": "通关气象研究所10次，寻找有关阿奇和赤焰松计划的线索。",
+      "translation": "通关气象研究所10次，寻找有关水梧桐和赤焰松计划的线索。",
       "line": 2162
     },
     "Scan the area for unusual weather at the Weather Institute.": {
@@ -3373,7 +3373,7 @@
       "line": 2168
     },
     "Talk to Archie.": {
-      "translation": "与阿奇交谈。",
+      "translation": "与水梧桐交谈。",
       "line": 2171
     },
     "Talk to Maxie.": {
@@ -3381,7 +3381,7 @@
       "line": 2173
     },
     "Find out what the Team Leaders are up to at Mt. Pyre.": {
-      "translation": "了解皮尔山的队长们在做什么。",
+      "translation": "弄清楚送火山的两位老大在做什么。",
       "line": 2179
     },
     "Primal Groudon": {
@@ -4421,11 +4421,11 @@
       "line": 2734
     },
     "Aether Branch Chief Faba": {
-      "translation": "以太分部负责人法巴",
+      "translation": "以太分部负责人扎奥博",
       "line": 2739
     },
     "Aether Branch Faba's ego is blocking your way. Defeat him in the Aether Foundation dungeon to get closer to Lusamine.": {
-      "translation": "以太分支法巴的自我阻碍了你的道路。在以太基金会迷宫中击败他，可以更接近露莎米奈。",
+      "translation": "以太分部负责人扎奥博挡住了你的去路。在以太基金会迷宫中击败他，才能更接近露莎米奈。",
       "line": 2739
     },
     "H-h-how can this be?! How could this child... If you're looking for Cosmog, I suppose it might be downstairs.": {
@@ -4433,7 +4433,7 @@
       "line": 2741
     },
     "Faba": {
-      "translation": "蚕豆",
+      "translation": "扎奥博",
       "line": 2742
     },
     "Aether Branch Chief (faba)": {
@@ -4453,11 +4453,11 @@
       "line": 2751
     },
     "Aether President (lusamine)": {
-      "translation": "以太总统（露莎米娜）",
+      "translation": "以太基金会理事长（露莎米奈）",
       "line": 2752
     },
     "Aether President Lusamine": {
-      "translation": "以太总裁露莎米奈",
+      "translation": "以太基金会理事长露莎米奈",
       "line": 2757
     },
     "Lusamine is using Nebby to open an Ultra Wormhole! Defeat her in the Aether Foundation dungeon to put a stop to this.": {
@@ -4553,7 +4553,7 @@
       "line": 2825
     },
     "Team Skull are being annoying again. Settle the score with them near Vast Poni Canyon.": {
-      "translation": "骷髅队又惹麻烦了。在广阔的波尼峡谷附近与他们算账。",
+      "translation": "骷髅队又惹麻烦了。在波尼大峡谷附近与他们算账。",
       "line": 2825
     },
     "That's enough, grunts. No one wants to see a sore loser.</br></br>You. To be honest, I've treated you really badly. Even if I apologize, I know it's probably too late for you to forgive me. This is my way of saying sorry, OK? Take it. It's Poisonium Z.</br><img width=\"100\" src=\"assets/images/items/zCrystal/Poisonium Z.svg\">": {
@@ -4577,7 +4577,7 @@
       "line": 2835
     },
     "Proceed to Vast Poni Canyon and prove your skills in a Grand Trial against Poni's new kahuna, Hapu!": {
-      "translation": "前往广阔的波尼峡谷，在大考验中挑战波尼的新任岛屿之王哈普，证明你的实力！",
+      "translation": "前往波尼大峡谷，在大考验中挑战波尼的新任岛屿之王哈普，证明你的实力！",
       "line": 2835
     },
     "Vast Poni Canyon": {
@@ -4597,7 +4597,7 @@
       "line": 2839
     },
     "Trial Site of Vast Poni Canyon": {
-      "translation": "广阔的波尼峡谷考验场地",
+      "translation": "波尼大峡谷的考验场地",
       "line": 2839
     },
     "Play the Sun Flute during Day or Dusk.": {
@@ -4953,11 +4953,11 @@
       "line": 3066
     },
     "Guzma Bug Memory": {
-      "translation": "古兹马错误记忆",
+      "translation": "古兹马的虫记忆",
       "line": 3069
     },
     "Defeat Guzma to get the Memory back.": {
-      "translation": "击败古兹马以恢复记忆。",
+      "translation": "击败古兹马以取回记忆。",
       "line": 3069
     },
     "Search for Silvally's Memory where the earth opens to the sky. Ask Gladion at Aether Foundation if you're lost.": {
@@ -4965,7 +4965,7 @@
       "line": 3072
     },
     "Kahili Flying Memory": {
-      "translation": "卡希丽飞行记忆",
+      "translation": "卡希丽的飞行记忆",
       "line": 3075
     },
     "Defeat Kahili to get the Memory back.": {
@@ -4977,11 +4977,11 @@
       "line": 3078
     },
     "Plumeria Poison Memory": {
-      "translation": "蛋花毒记忆",
+      "translation": "布鲁美丽的毒记忆",
       "line": 3081
     },
     "Defeat Plumeria to get the Memory back.": {
-      "translation": "击败 Plumeria 以恢复记忆。",
+      "translation": "击败布鲁美丽以取回记忆。",
       "line": 3081
     },
     "Search for Silvally's Memory near an abandoned village. Ask Gladion at Aether Foundation if you're lost.": {
@@ -4989,11 +4989,11 @@
       "line": 3084
     },
     "Acerola Ghost Memory": {
-      "translation": "西印度樱桃幽灵记忆",
+      "translation": "阿塞萝拉的幽灵记忆",
       "line": 3087
     },
     "Defeat Captain Acerola to get the Memory back.": {
-      "translation": "击败阿塞罗拉队长以恢复记忆。",
+      "translation": "击败考验队长阿塞萝拉以取回记忆。",
       "line": 3087
     },
     "Search for Silvally's Memory in a modern haven. Ask Gladion at Aether Foundation if you're lost.": {
@@ -5001,11 +5001,11 @@
       "line": 3090
     },
     "Faba Psychic Memory": {
-      "translation": "蚕豆心灵记忆",
+      "translation": "扎奥博的超能力记忆",
       "line": 3093
     },
     "Defeat Aether Branch Chief Faba to get the Memory back.": {
-      "translation": "击败以太分部首领法巴以取回记忆。",
+      "translation": "击败以太分部负责人扎奥博以取回记忆。",
       "line": 3093
     },
     "Search for Silvally's Memory near a steel dome. Ask Gladion at Aether Foundation if you're lost.": {
@@ -5013,11 +5013,11 @@
       "line": 3096
     },
     "Molayne Steel Memory": {
-      "translation": "莫兰钢记忆",
+      "translation": "马睿因的钢记忆",
       "line": 3099
     },
     "Defeat Molayne to get the Memory back.": {
-      "translation": "击败莫兰以取回记忆。",
+      "translation": "击败马睿因以取回记忆。",
       "line": 3099
     },
     "Search for Silvally's Memory near a tree. Ask Gladion at Aether Foundation if you're lost.": {
@@ -5025,11 +5025,11 @@
       "line": 3102
     },
     "Ryuki Dragon Memory": {
-      "translation": "龙骑龙记忆",
+      "translation": "龙葵的龙记忆",
       "line": 3105
     },
     "Defeat Ryuki to get the Memory back.": {
-      "translation": "击败龙骑，夺回记忆。",
+      "translation": "击败龙葵以取回记忆。",
       "line": 3105
     },
     "Go talk to Gladion in the Aether Foundation and tell him you've recovered all the Silvally Memories!": {
@@ -5367,7 +5367,7 @@
       "line": 3331
     },
     "Team Rainbow Leader Giovanni": {
-      "translation": "彩虹队队长乔瓦尼",
+      "translation": "彩虹火箭队老大坂木",
       "line": 3332
     },
     "Defeat Team Rainbow Rocket.": {
@@ -5399,31 +5399,31 @@
       "line": 3359
     },
     "Defeat Aether Branch Chief Faba.": {
-      "translation": "击败以太分部首领法巴。",
+      "translation": "击败以太分部负责人扎奥博。",
       "line": 3363
     },
     "Team Aqua Leader Archie": {
-      "translation": "Aqua 队长阿奇",
+      "translation": "海洋队老大水梧桐",
       "line": 3366
     },
     "Defeat Team Aqua Leader Archie.": {
-      "translation": "击败海洋队头目阿奇。",
+      "translation": "击败海洋队老大水梧桐。",
       "line": 3366
     },
     "Team Magma Leader Maxie": {
-      "translation": "熔岩队头目赤焰松",
+      "translation": "熔岩队老大赤焰松",
       "line": 3367
     },
     "Defeat Team Magma Leader Maxie.": {
-      "translation": "击败熔岩队头目赤焰松。",
+      "translation": "击败熔岩队老大赤焰松。",
       "line": 3367
     },
     "Defeat Archie and Maxie.": {
-      "translation": "击败阿奇和赤焰松。",
+      "translation": "击败水梧桐和赤焰松。",
       "line": 3372
     },
     "Team Galactic Leader Cyrus": {
-      "translation": "银河队队长赤日",
+      "translation": "银河队老大赤日",
       "line": 3374
     },
     "Defeat Team Galactic Leader Cyrus.": {
@@ -5431,15 +5431,15 @@
       "line": 3374
     },
     "Team Flare Leader Lysandre": {
-      "translation": "闪焰队队长 弗拉达利",
+      "translation": "闪焰队首领弗拉达利",
       "line": 3377
     },
     "Defeat Team Flare Leader Lysandre.": {
-      "translation": "击败闪焰队队长弗拉达利。",
+      "translation": "击败闪焰队首领弗拉达利。",
       "line": 3377
     },
     "Team Plasma Leader Ghetsis": {
-      "translation": "Plasma 团队负责人 Ghetsis",
+      "translation": "等离子队老大魁奇思",
       "line": 3380
     },
     "Defeat Team Plasma Leader Ghetsis.": {
@@ -5447,7 +5447,7 @@
       "line": 3380
     },
     "Defeat Team Rainbow Leader Giovanni.": {
-      "translation": "击败彩虹队队长乔瓦尼。",
+      "translation": "击败彩虹火箭队老大坂木。",
       "line": 3383
     },
     "Magikarp Jump": {

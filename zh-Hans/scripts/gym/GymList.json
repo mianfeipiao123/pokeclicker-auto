@@ -219,7 +219,7 @@
       "line": 123
     },
     "Ha! That was a truly intense fight. You have won! As proof, here is the Earth Badge!": {
-      "translation": "哈！真是一场激烈的战斗。你赢了！作为证明，这枚绿色徽章给你！",
+      "translation": "哈！真是一场激烈的战斗。你赢了！作为证明，这枚大地徽章给你！",
       "line": 128
     },
     "Persons of Interest": {
@@ -227,7 +227,7 @@
       "line": 137
     },
     "Team Rocket Boss Giovanni": {
-      "translation": "火箭队老大乔瓦尼",
+      "translation": "火箭队老大坂木",
       "line": 140
     },
     "Elite Lorelei": {
@@ -886,7 +886,7 @@
       "line": 554
     },
     "Sky Pillar": {
-      "translation": "天柱",
+      "translation": "天空之柱",
       "line": 555
     },
     "Elite Sidney": {

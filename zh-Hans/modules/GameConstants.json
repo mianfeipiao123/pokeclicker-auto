@@ -397,7 +397,7 @@
       "line": 813
     },
     "Sky Pillar": {
-      "translation": "天柱",
+      "translation": "天空之柱",
       "line": 813
     },
     "Mossdeep Space Center": {
@@ -693,7 +693,7 @@
       "line": 837
     },
     "Magma Hideout": {
-      "translation": "岩浆藏身处",
+      "translation": "熔岩队基地",
       "line": 837
     },
     "Seafloor Cavern": {
@@ -2965,7 +2965,7 @@
       "line": 1931
     },
     "Rocket Boss Giovanni": {
-      "translation": "火箭队老大乔瓦尼",
+      "translation": "火箭队老大坂木",
       "line": 1932
     },
     "Barry 1": {
@@ -3237,11 +3237,11 @@
       "line": 1999
     },
     "Aqua Grunt": {
-      "translation": "阿库鲁特",
+      "translation": "海洋队手下",
       "line": 2000
     },
     "Magma Grunt": {
-      "translation": "岩浆步兵",
+      "translation": "熔岩队手下",
       "line": 2001
     },
     "Courtney 2": {
@@ -3325,11 +3325,11 @@
       "line": 2021
     },
     "Archie Primal": {
-      "translation": "阿奇·原始",
+      "translation": "水梧桐·原始",
       "line": 2022
     },
     "Maxie Primal": {
-      "translation": "赤焰松·普里马尔",
+      "translation": "赤焰松·原始",
       "line": 2023
     },
     "Primal Groudon": {
@@ -3581,7 +3581,7 @@
       "line": 2086
     },
     "Sina": {
-      "translation": "新浪",
+      "translation": "希娜",
       "line": 2087
     },
     "Hau 4": {
@@ -3605,11 +3605,11 @@
       "line": 2092
     },
     "Plumeria 1": {
-      "translation": "蛋花1",
+      "translation": "布鲁美丽1",
       "line": 2093
     },
     "Ultra Wormhole": {
-      "translation": "超虫洞",
+      "translation": "究极之洞",
       "line": 2094
     },
     "Hau 5": {
@@ -3625,7 +3625,7 @@
       "line": 2097
     },
     "Psychium Z Trial": {
-      "translation": "超能力Z试炼",
+      "translation": "超能力Z考验",
       "line": 2098
     },
     "Skull 5": {
@@ -3633,7 +3633,7 @@
       "line": 2099
     },
     "Plumeria 2": {
-      "translation": "蛋花2",
+      "translation": "布鲁美丽2",
       "line": 2100
     },
     "Gladion 2": {
@@ -3641,7 +3641,7 @@
       "line": 2101
     },
     "Exeggutor Tree": {
-      "translation": "椰枣树",
+      "translation": "椰蛋树",
       "line": 2102
     },
     "Skull 6": {
@@ -3701,31 +3701,31 @@
       "line": 2116
     },
     "Guzma Bug Memory": {
-      "translation": "古兹马错误记忆",
+      "translation": "古兹马的虫记忆",
       "line": 2117
     },
     "Kahili Flying Memory": {
-      "translation": "卡希丽飞行记忆",
+      "translation": "卡希丽的飞行记忆",
       "line": 2118
     },
     "Plumeria Poison Memory": {
-      "translation": "蛋花毒记忆",
+      "translation": "布鲁美丽的毒记忆",
       "line": 2119
     },
     "Acerola Ghost Memory": {
-      "translation": "西印度樱桃幽灵记忆",
+      "translation": "阿塞萝拉的幽灵记忆",
       "line": 2120
     },
     "Faba Psychic Memory": {
-      "translation": "蚕豆心灵记忆",
+      "translation": "扎奥博的超能力记忆",
       "line": 2121
     },
     "Molayne Steel Memory": {
-      "translation": "莫兰钢记忆",
+      "translation": "马睿因的钢记忆",
       "line": 2122
     },
     "Ryuki Dragon Memory": {
-      "translation": "龙骑龙记忆",
+      "translation": "龙葵的龙记忆",
       "line": 2123
     },
     "Anabel": {
@@ -3753,31 +3753,31 @@
       "line": 2129
     },
     "Aether Branch Chief Faba": {
-      "translation": "以太分部负责人法巴",
+      "translation": "以太分部负责人扎奥博",
       "line": 2130
     },
     "Team Aqua Leader Archie": {
-      "translation": "Aqua 队长阿奇",
+      "translation": "海洋队老大水梧桐",
       "line": 2131
     },
     "Team Magma Leader Maxie": {
-      "translation": "岩浆队头目赤焰松",
+      "translation": "熔岩队老大赤焰松",
       "line": 2132
     },
     "Team Galactic Leader Cyrus": {
-      "translation": "银河队队长赤日",
+      "translation": "银河队老大赤日",
       "line": 2133
     },
     "Team Flare Leader Lysandre": {
-      "translation": "闪焰队队长 弗拉达利",
+      "translation": "闪焰队首领弗拉达利",
       "line": 2134
     },
     "Team Plasma Leader Ghetsis": {
-      "translation": "Plasma 团队负责人 Ghetsis",
+      "translation": "等离子队老大魁奇思",
       "line": 2135
     },
     "Team Rainbow Leader Giovanni": {
-      "translation": "彩虹队队长乔瓦尼",
+      "translation": "彩虹火箭队老大坂木",
       "line": 2136
     },
     "Magikarp Jump Koylee": {
@@ -4257,7 +4257,7 @@
       "line": 2256
     },
     "Destiny Deoxys Rayquaza": {
-      "translation": "命运代欧奇希斯·烈空坐",
+      "translation": "命运代欧奇希斯·裂空座",
       "line": 2257
     },
     "Destiny Deoxys Army": {
@@ -4265,7 +4265,7 @@
       "line": 2258
     },
     "Destiny Rayquaza": {
-      "translation": "命运烈空坐",
+      "translation": "命运裂空座",
       "line": 2259
     },
     "Volo 1": {

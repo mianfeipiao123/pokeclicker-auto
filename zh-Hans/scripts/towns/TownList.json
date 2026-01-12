@@ -1943,7 +1943,7 @@
       "line": 1634
     },
     "So Giovanni was there at the Falls while you were dealing with that mess at the Radio Tower? If only we had known, we could have had him arrested right then and there.": {
-      "translation": "那么当你在无线电塔处理混乱的时候，乔瓦尼就在瀑布吗？如果我们知道的话，我们就可以当场逮捕他。",
+      "translation": "那么当你在无线电塔处理混乱的时候，坂木就在瀑布吗？要是我们早知道，就能当场把他逮捕了。",
       "line": 1641
     },
     "The Time Distortion seems to have cleared up. Celebi should be happy now. You should go check out the Shrine again.": {
@@ -2609,7 +2609,7 @@
       "line": 2161
     },
     "Rocket Boss Giovanni": {
-      "translation": "火箭队老大乔瓦尼",
+      "translation": "火箭队老大坂木",
       "line": 2172
     },
     "Victory Road Johto": {
@@ -3999,7 +3999,7 @@
       "line": 3050
     },
     "Archie and Maxie are still lurking somewhere in Hoenn, but without the Orbs I think they're mostly harmless. If you need some help smacking em down again, come get me!": {
-      "translation": "阿奇和赤焰松仍然潜伏在丰缘的某个地方，但如果没有球体，我认为他们基本上是无害的。如果你需要帮助再次打击他们，就来找我吧！",
+      "translation": "水梧桐和赤焰松仍然潜伏在丰缘的某个地方，但没有宝珠的话，我想他们也掀不起什么风浪。如果你想再次挫败他们，就来找我吧！",
       "line": 3051
     },
     "Explore the Outskirt Stand": {
@@ -4183,7 +4183,7 @@
       "line": 3121
     },
     "Rui! And you are? $playername$? Nice to meet you!": {
-      "translation": "瑞！而你呢？ $玩家名$？很高兴见到你！",
+      "translation": "瑞！而你呢？$playername$？很高兴见到你！",
       "line": 3122
     },
     "Thank you both for saving me from those goons. They were disrupting the peace and tranquility of this whole area.": {
@@ -4519,7 +4519,7 @@
       "line": 3239
     },
     "$playername$! Thank you for rescuing me from those fiends!": {
-      "translation": "$玩家名$！谢谢你把我从那些恶魔手中救了出来！",
+      "translation": "$playername$！谢谢你把我从那些恶魔手中救了出来！",
       "line": 3240
     },
     "In my time in captivity, I learned that the new Grand Master of Team Cipher has used a powerful Shadow Pokémon to kidnap all the trainers and Pokémon from the S. S. Libra and has taken them to Citadark Island!": {
@@ -4819,7 +4819,7 @@
       "line": 3511
     },
     "Destiny Deoxys Rayquaza": {
-      "translation": "命运代欧奇希斯·烈空坐",
+      "translation": "命运代欧奇希斯·裂空座",
       "line": 3515
     },
     "Destiny Deoxys Army": {
@@ -4827,7 +4827,7 @@
       "line": 3515
     },
     "Destiny Rayquaza": {
-      "translation": "命运烈空坐",
+      "translation": "命运裂空座",
       "line": 3515
     },
     "Deoxys Replica": {
@@ -5071,15 +5071,15 @@
       "line": 3790
     },
     "Archie Primal": {
-      "translation": "阿奇·原始",
+      "translation": "水梧桐·原始",
       "line": 3805
     },
     "Maxie Primal": {
-      "translation": "赤焰松·普里马尔",
+      "translation": "赤焰松·原始",
       "line": 3805
     },
     "Sky Pillar": {
-      "translation": "天柱",
+      "translation": "天空之柱",
       "line": 3810
     },
     "Zinnia 2": {
@@ -6003,7 +6003,7 @@
       "line": 4539
     },
     "Hey, $playername$! According to Prof. Rowan's research, 90% of all Pokémon are somehow tied to evolution! Yup, you can also see a Pokémon's evolution line in your Pokédex.": {
-      "translation": "嘿，$玩家名$！根据山梨博士的研究，90%的宝可梦都与进化有关！是的，你也可以在你的图鉴中看到宝可梦的进化线。",
+      "translation": "嘿，$playername$！根据山梨博士的研究，90%的宝可梦都与进化有关！没错，你也可以在图鉴里查看宝可梦的进化链。",
       "line": 4540
     },
     "Speaking of Pokémon! How's your Pokédex coming along? Wow! You have so many Pokémon that can evolve!": {
@@ -6511,7 +6511,7 @@
       "line": 5193
     },
     "If you have DNA splicers, perhaps you can make Kyurem whole again.": {
-      "translation": "如果你有 DNA拼合器，也许你可以让酋雷姆再次完整。",
+      "translation": "如果你有基因之楔，也许你可以让酋雷姆再次完整。",
       "line": 5194
     },
     "I've never seen it, but supposedly it works just like any other evolution item.": {
@@ -8083,7 +8083,7 @@
       "line": 6401
     },
     "$playername$! No luck?": {
-      "translation": "$玩家名$！运气不好？",
+      "translation": "$playername$！运气不好？",
       "line": 6405
     },
     "Maybe beating the Pokémon isn't enough. Try catching some of these Psychic Pokémon.": {
@@ -9417,7 +9417,7 @@
       "line": 7272
     },
     "Wait- what is this darkness in the sky? Oh my goodness! $playername$! In the sky! Another Ultra Wormhole!": {
-      "translation": "等等——天空中的黑暗是什么？哦，我的天啊！ $玩家名$！在天空中！又一个超虫洞！",
+      "translation": "等等——天空中的黑暗是什么？哦，我的天啊！$playername$！看天上！又一个究极之洞！",
       "line": 7273
     },
     "I...I've been wanting to thank you for saving Nebby that day. Back then I was so desperate... It hasn't all been easy... but I'm really glad that I came to Alola! I've decided I'm going to become a real Trainer and meet all kinds of wonderful Pokémon!": {
@@ -9509,7 +9509,7 @@
       "line": 7347
     },
     "Pokémon being abducted like that... Maybe even hurt... I just can't stand the idea! $playername$! Please...help them!": {
-      "translation": "宝可梦就这样被绑架了……甚至可能会受伤……我就是无法忍受这个想法！ $玩家名$！请...帮助他们！",
+      "translation": "宝可梦就这样被绑架了……甚至可能会受伤……我一想到就受不了！$playername$！请……帮帮它们！",
       "line": 7353
     },
     "So Hapu lives here on Poni Island? Let's go, $playername$! She can help us find the kahuna! It will be good to see her and Mudsdale again!": {
@@ -9557,7 +9557,7 @@
       "line": 7383
     },
     "$playername$! Please help Nebby for me! But also... if you can... try to help Necrozma, like you did mother.": {
-      "translation": "$玩家名$！请帮帮我奈比！但同时……如果可以的话……尝试帮助奈克洛兹玛，就像你帮助母亲一样。",
+      "translation": "$playername$！请帮帮我内比！但同时……如果可以的话……也请试着帮助奈克洛兹玛，就像你帮助母亲那样。",
       "line": 7384
     },
     "Hau": {
@@ -9565,7 +9565,7 @@
       "line": 7390
     },
     "So the foundation really was working together with Team Skull? Lillie, Gladion, and Lusamine all are a family?! This is, like, way too mind-blowing to think about right now. $playername$! Let's knock some skulls together for now!": {
-      "translation": "那么基金会真的在与骷髅队合作吗？莉莉艾、格拉迪翁、露莎米奈竟然是一家人？！现在想想，这实在是太令人兴奋了。 $玩家名$！现在让我们一起敲一些头骨吧！",
+      "translation": "那么基金会真的在与骷髅队合作吗？莉莉艾、格拉吉欧、露莎米奈竟然是一家人？！这也太震撼了。$playername$！先狠狠干翻骷髅队吧！",
       "line": 7391
     },
     "assets/images/npcs/Hau.png": {
@@ -9577,7 +9577,7 @@
       "line": 7397
     },
     "$playername$! Stop the president!!! If we don't, Alola will be flooded with beasts!": {
-      "translation": "$玩家名$！阻止总统！！！如果我们不这样做，阿罗拉就会被野兽淹没！",
+      "translation": "$playername$！阻止理事长！！！不然阿罗拉就会被究极异兽淹没！",
       "line": 7398
     },
     "assets/images/npcs/Gladion (stance).png": {
@@ -9589,7 +9589,7 @@
       "line": 7404
     },
     "$playername$. Been a while, friend. And who might this be?": {
-      "translation": "$玩家名$。有一段时间了，朋友。这可能是谁？",
+      "translation": "$playername$。好久不见，朋友。这位是？",
       "line": 7410
     },
     "Lillie? And she plans to visit Ula'ula's ruins? Well, that's some fine initiative. I'd be happy to show her the way whenever she'd like to go.": {
@@ -9917,11 +9917,11 @@
       "line": 7585
     },
     "Melemele Island inhabitants have seen Kahili taking daily walks on Ten Carat Hill, she might've found a Silvally Memory during one of those walks.": {
-      "translation": "梅莱梅莱岛的居民曾见过卡希莉每天在十克拉山上散步，她可能在其中一次散步中发现了银伴战兽的记忆。",
+      "translation": "美乐美乐岛的居民说，他们见过卡希丽每天在十克拉山散步，她可能在其中一次散步时发现了银伴战兽的记忆。",
       "line": 7586
     },
     "Some people from Poni Island have seen Plumeria walking around with some old Team Skull grunts around the Vast Poni Canyon. That is really suspicious, so they probably found something rare or presumably a Silvally Memory.": {
-      "translation": "波尼岛有人看见布鲁美丽带着一些旧骷髅队手下在广阔的波尼峡谷附近徘徊。这很可疑，估计他们找到什么稀有的东西——也许就是银伴战兽的记忆。",
+      "translation": "波尼岛有人看见布鲁美丽带着一些旧骷髅队手下在波尼大峡谷附近徘徊。这很可疑，估计他们找到了什么稀有的东西——也许就是银伴战兽的记忆。",
       "line": 7587
     },
     "Ula'ula Island people have seen Captain Acerola inside the 超值超市（废弃店） with a Mimikyu carrying a disk-shaped item, which I suspect is a Silvally Memory.": {
@@ -9933,15 +9933,15 @@
       "line": 7589
     },
     "I've heard Molayne wanted to brush up on his training a bit. He's at the Royal Avenue, and he's also offering a strange reward which I presume is a Silvally Memory.": {
-      "translation": "我听说莫兰想要温习一下他的训练。他在皇家大道，而且还提供了一个奇怪的奖励，我猜是银伴战兽记忆。",
+      "translation": "我听说马睿因想再磨练一下实力。他在皇家大道，而且还拿出一个奇怪的奖励，我猜那是银伴战兽的记忆。",
       "line": 7590
     },
     "Also, while I was walking near 也许是树 I saw a guy dressed almost like an old Pokémon that doesn't exist anymore with a Silvally Memory.": {
-      "translation": "另外，当我在一棵树附近散步时，也许我看到一个人穿着几乎像一个已经不存在的旧宝可梦，并且具有银伴战兽记忆。",
+      "translation": "另外，我在「也许是一棵树」附近散步时，看见一个人穿得几乎像一只已经不存在的古老宝可梦，而且还带着银伴战兽的记忆。",
       "line": 7591
     },
     "They are all tough trainers, so you might need to train more to defeat them.": {
-      "translation": "他们都是强硬的训练家，所以你可能需要更多的训练才能击败他们。",
+      "translation": "他们都是强手，所以你可能需要再多锻炼一下才能打赢他们。",
       "line": 7592
     },
     "Guzma": {
@@ -9977,7 +9977,7 @@
       "line": 7610
     },
     "Well, hey! Look who we have here! It's the Champ, wandering all the way into Vast Poni Canyon! You gotta have guts to do that, kid. Not many trainers dare to challenge this place.": {
-      "translation": "嗯，嘿！看看我们这里有谁！这是冠军，一路漫步进入广阔的波尼峡谷！你必须有勇气这么做，孩子。敢于挑战这个地方的训练家并不多。",
+      "translation": "嗯，嘿！看看我们这里有谁！这是冠军，一路漫步进了波尼大峡谷！你必须有勇气这么做，孩子。敢于挑战这个地方的训练家并不多。",
       "line": 7611
     },
     "Let me guess, you're after this Silvally Memory I found around here, aren't you? I can tell by the way you carry yourself. You're not like the rest of the tourists and challengers who come here just for a sightseeing or a battle. You're on a mission, right?": {
@@ -10009,7 +10009,7 @@
       "line": 7622
     },
     "Aether Branch Chief Faba": {
-      "translation": "以太分部负责人法巴",
+      "translation": "以太分部负责人扎奥博",
       "line": 7625
     },
     "Oh, welcome $playername$, the Champion of Alola! I see you <i>still</i> haven't lost that title. You're a pretty... <i>worthy</i> trainer, aren't you? Anyways, I think you should come visit us another time we're... er.. busy! Yes, we're extremely busy right now...": {
@@ -10025,7 +10025,7 @@
       "line": 7628
     },
     "Let's make a deal first though: If I defeat you, you'll let us do our experiments on that thing and leave us alone forever, but if you defeat me I'll give that Memory to you. Sounds like a deal? Then let's see if you can take the new Faba!": {
-      "translation": "不过，我们先做个协议：如果我打败了你，你就让我们对那东西进行实验，然后永远别打扰我们，但如果你打败了我，我就把那段记忆给你。听起来像是一笔交易？那就看看你能不能拿下新蚕豆吧！",
+      "translation": "不过，我们先做个协议：如果我打败了你，你就让我们对那东西进行实验，然后永远别来打扰我们；但如果你打败了我，我就把那段记忆交给你。听起来像是一笔交易？那就看看你能不能拿下新·扎奥博吧！",
       "line": 7629
     },
     "assets/images/npcs/Aether Branch Chief (faba).png": {
@@ -10049,11 +10049,11 @@
       "line": 7638
     },
     "Ryuki": {
-      "translation": "龙树",
+      "translation": "龙葵",
       "line": 7641
     },
     "Yo, traveler! The name's Ryuki! You've come here to battle against a star like me, haven't you? No? Why's that? I see, you're looking for something?": {
-      "translation": "哟，旅行者！名字叫琉璃！你来这里就是为了和我这样的明星战斗的，不是吗？不？这是为什么呢？我明白了，你在找东西吗？",
+      "translation": "哟，旅行者！我叫龙葵！你是来和我这样的明星过招的吧？不？为什么？……哦，我明白了，你是在找什么东西吗？",
       "line": 7642
     },
     "Speaking of which, I stumbled upon a gnarly disk in my travels recently. It was unlike any music disk I had ever seen before, it has a rockin' dark blue coloration. But for all its uniqueness, I can't make out what it is, see?": {
@@ -10513,7 +10513,7 @@
       "line": 7934
     },
     "Molayne Steel Memory": {
-      "translation": "莫兰钢记忆",
+      "translation": "马睿因的钢记忆",
       "line": 7934
     },
     "Skull 3": {
@@ -10529,7 +10529,7 @@
       "line": 7950
     },
     "Ultra Wormhole": {
-      "translation": "超虫洞",
+      "translation": "究极之洞",
       "line": 7955
     },
     "Aether Foundation": {
@@ -10537,7 +10537,7 @@
       "line": 7958
     },
     "Faba Psychic Memory": {
-      "translation": "蚕豆心灵记忆",
+      "translation": "扎奥博的超能力记忆",
       "line": 7959
     },
     "Malie City": {
@@ -10617,7 +10617,7 @@
       "line": 8032
     },
     "Ryuki Dragon Memory": {
-      "translation": "龙骑龙记忆",
+      "translation": "龙葵的龙记忆",
       "line": 8041
     },
     "Hoppy Town": {
@@ -10841,39 +10841,39 @@
       "line": 8305
     },
     "Guzma Bug Memory": {
-      "translation": "古兹马错误记忆",
+      "translation": "古兹马的虫记忆",
       "line": 8310
     },
     "Memory Replicator": {
-      "translation": "内存复制器",
+      "translation": "记忆复制器",
       "line": 8319
     },
     "Team Aqua Leader Archie": {
-      "translation": "海洋队首领 水梧桐",
+      "translation": "海洋队老大水梧桐",
       "line": 8321
     },
     "Team Magma Leader Maxie": {
-      "translation": "熔岩队首领 赤焰松",
+      "translation": "熔岩队老大赤焰松",
       "line": 8322
     },
     "Team Galactic Leader Cyrus": {
-      "translation": "银河队队长赤日",
+      "translation": "银河队老大赤日",
       "line": 8323
     },
     "Team Flare Leader Lysandre": {
-      "translation": "闪焰队队长 弗拉达利",
+      "translation": "闪焰队首领弗拉达利",
       "line": 8324
     },
     "Team Plasma Leader Ghetsis": {
-      "translation": "Plasma 团队负责人 Ghetsis",
+      "translation": "等离子队老大魁奇思",
       "line": 8325
     },
     "Team Rainbow Leader Giovanni": {
-      "translation": "彩虹队队长乔瓦尼",
+      "translation": "彩虹火箭队老大坂木",
       "line": 8326
     },
     "Exeggutor Tree": {
-      "translation": "椰枣树",
+      "translation": "椰蛋树",
       "line": 8337
     },
     "Recon Squad 3": {
@@ -10881,7 +10881,7 @@
       "line": 8346
     },
     "Plumeria Poison Memory": {
-      "translation": "蛋花毒记忆",
+      "translation": "布鲁美丽的毒记忆",
       "line": 8348
     },
     "Gladion 3": {
@@ -10893,23 +10893,23 @@
       "line": 8368
     },
     "Melemele Spearow": {
-      "translation": "梅勒梅勒·斯皮罗",
+      "translation": "美乐美乐烈雀",
       "line": 8379
     },
     "Ruins of Life": {
-      "translation": "生命的废墟",
+      "translation": "生命遗迹",
       "line": 8384
     },
     "Plumeria 1": {
-      "translation": "蛋花1",
+      "translation": "布鲁美丽1",
       "line": 8388
     },
     "Ruins of Abundance": {
-      "translation": "丰饶废墟",
+      "translation": "丰饶遗迹",
       "line": 8394
     },
     "Ruins of Hope": {
-      "translation": "希望的废墟",
+      "translation": "希望遗迹",
       "line": 8400
     },
     "Poni Meadow": {

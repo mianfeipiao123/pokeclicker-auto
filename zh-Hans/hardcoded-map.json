@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-15T07:18:49.427Z",
+    "generatedAt": "2026-01-15T11:20:02.339Z",
     "totalEntries": 2257,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
@@ -1589,7 +1589,7 @@
     "Require Complete Pokédex": "需要完整的图鉴",
     "Requirements": "要求",
     "Requires a complete regional Pokédex before moving on to the next region.": "在进入下一个地区之前需要完整的地区图鉴。",
-    "Requires the Earth Badge.": "需要大地徽章。",
+    "Requires the Earth Badge.": "需要绿色徽章。",
     "Reset Categories": "重置分类",
     "Reset Colors": "重置颜色",
     "Reset Default Settings": "重置默认设置",
@@ -2143,7 +2143,7 @@
     "You claimed <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}!": "你获得了 <img src=\"./assets/images/currency/questPoint.svg\" height=\"24px\"/> ${...}！",
     "You do not have access to the Day Care yet.\\n<i>Clear Route 3 first.</i>": "你还不能进入培育屋。\\n<i>请先通关3号道路。</i>",
     "You do not have the Gem Case.": "你没有宝石盒。",
-    "You do not have the Gem Case.\\n<i>Requires the Earth Badge.</i>": "你没有宝石盒。\\n<i>需要大地徽章。</i>",
+    "You do not have the Gem Case.\\n<i>Requires the Earth Badge.</i>": "你没有宝石盒。\\n<i>需要绿色徽章。</i>",
     "You don't get anything special for having challenges active, but each challenge will give you a ribbon on your trainer profile.": "积极参与挑战不会给你带来任何特别的好处，但每次挑战都会在你的训练家个人资料中添加一条丝带。",
     "You don't have access to that location yet.": "你还无法进入该地点。",
     "You don't have access to that location yet.\\n<i>${...}</i>": "你还不能进入该地点。\\n<i>${...}</i>",

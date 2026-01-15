@@ -199,7 +199,7 @@
       "line": 313
     },
     "Have I got a deal just for you!": {
-      "translation": "我有专门为你做的交易吗？",
+      "translation": "我这有笔好买卖要给你！",
       "line": 314
     },
     "I'll let you have a super secret Pokémon. For the right price! Buying this pokemon Takes No Effort, you should Value it.": {
@@ -371,7 +371,7 @@
       "line": 392
     },
     "Eusine": {
-      "translation": "民吉",
+      "translation": "小松",
       "line": 397
     },
     "Puff, puff... I am...no match for you. ...As I predicted.": {
@@ -391,7 +391,7 @@
       "line": 404
     },
     "Eusine's Chase": {
-      "translation": "民吉的追逐",
+      "translation": "小松的追逐",
       "line": 405
     },
     "Fan Club Chairman": {
@@ -2047,7 +2047,7 @@
       "line": 1701
     },
     "The Sick Ampharos": {
-      "translation": "生病的安法罗斯",
+      "translation": "生病的电龙",
       "line": 1702
     },
     "Pharmacist": {
@@ -2129,7 +2129,7 @@
       "line": 1754
     },
     "Eusine was here a second ago. He seemed very excited, but then he suddenly left. I don't know where he went, but he seemed to be particularly interested in the blue one.": {
-      "translation": "民吉一秒钟前还在这里。他看上去很兴奋，但随后却突然离开了。不知道他去了哪里，但他似乎对蓝色的特别感兴趣。",
+      "translation": "小松一秒钟前还在这里。他看上去很兴奋，但随后却突然离开了。不知道他去了哪里，但他似乎对蓝色的特别感兴趣。",
       "line": 1755
     },
     "assets/images/npcs/PokéManiac.png": {
@@ -4055,7 +4055,7 @@
       "line": 3072
     },
     "My name is Rui, by the way. I'm a psychic of sorts, on a mission to save Pokémon who have had their souls corrupted by some evil folks in Orre.": {
-      "translation": "顺便说一句，我叫瑞。我是某种超能力者，肩负着拯救灵魂被奥雷邪恶之人腐蚀的宝可梦的使命。",
+      "translation": "顺便说一句，我叫瑞。我是某种超能力者，肩负着拯救灵魂被欧雷邪恶之人腐蚀的宝可梦的使命。",
       "line": 3073
     },
     "There's a few in this city that need help. Can you come with me though? I'm worried more shady guys will show up.": {
@@ -4495,7 +4495,7 @@
       "line": 3229
     },
     "With this robot, we can explore the deserts of Orre! Surely Chobin and $playername$ will find something interesting!": {
-      "translation": "有了这个机器人，我们就可以探索奥尔沙漠了！ Chobin 和 $playername$ 肯定会发现一些有趣的东西！",
+      "translation": "有了这个机器人，我们就可以探索欧雷的沙漠了！乔宾和 $playername$ 肯定会发现一些有趣的东西！",
       "line": 3230
     },
     "assets/images/npcs/Robo Groudon.png": {
@@ -4543,7 +4543,7 @@
       "line": 3248
     },
     "Only the toughest trainers in Orre are allowed to fight here! I'm just watching until I get stronger.": {
-      "translation": "只有奥雷最厉害的训练家才被允许在这里战斗！我只是看着，直到我变得更强。",
+      "translation": "只有欧雷最厉害的训练家才被允许在这里战斗！我只是看着，直到我变得更强。",
       "line": 3249
     },
     "Green Pulsing Gemstone": {
@@ -4651,7 +4651,7 @@
       "line": 3301
     },
     "Oldale Town": {
-      "translation": "奥尔代尔镇",
+      "translation": "古玫镇",
       "line": 3311
     },
     "Petalburg City": {
@@ -4999,7 +4999,7 @@
       "line": 3648
     },
     "Orre Colosseum": {
-      "translation": "奥尔斗兽场",
+      "translation": "欧雷斗兽场",
       "line": 3654
     },
     "Cipher Admin Gorigan": {
@@ -5199,7 +5199,7 @@
       "line": 4190
     },
     "Did you know?! The Gym Leaders of Canalave and Oreburgh are father and son! And what's more- there's a third person in the mix! Apparently he's such a dedicated digger he travelled all the way to Kanto to set up shop selling Explorer Kits! Talk about a family tradition!": {
-      "translation": "你可知道？！美央市和黑金市的道馆馆主是父子！更重要的是——还有第三个人！显然他是一位非常热心的挖掘者，他专程跑到关都开设了一家销售探险家套件的商店！谈论家庭传统！",
+      "translation": "你知道吗？！水脉市和黑金市的道馆馆主是父子！更厉害的是——家里还有第三位！听说他是个挖掘狂人，特地跑到关都开店卖探险套件！真是家族传统！",
       "line": 4191
     },
     "Too bad there are only two new fossils in the Sinnoh region. If there was one more, maybe he could be a Gym Leader too!": {
@@ -5283,7 +5283,7 @@
       "line": 4218
     },
     "I'm so happy for them, all of that training in Mt. Coronet must have paid off!": {
-      "translation": "我为他们感到高兴，所有在皇冠山的训练一定得到了回报！",
+      "translation": "我真替他们高兴，在天冠山那么久的训练一定有回报！",
       "line": 4219
     },
     "Cynthia's Grandmother": {
@@ -5495,7 +5495,7 @@
       "line": 4298
     },
     "Something amazing happened on top of Mt. Coronet. We could see it all the way from here. I'm sure everyone in the entire region saw it.": {
-      "translation": "皇冠山顶上发生了一件奇妙的事情。从这里我们可以一路看到它。我相信整个地区的每个人都看到了。",
+      "translation": "天冠山山顶上发生了一件奇妙的事情。从这里我们都能看到。我相信整个地区的人都看到了。",
       "line": 4299
     },
     "What? You were there? What happened? What was that purple thing?": {
@@ -5523,7 +5523,7 @@
       "line": 4306
     },
     "My old friend Newton used to study the Distortion World, he was working on opening a gate to it. I've heard that you were able to enter the Distortion World from a portal at the top of Mt. Coronet, so I was wondering if you could help me open a new portal to fulfill my friend's wish.": {
-      "translation": "我的老朋友牛顿曾经研究过扭曲世界，他正在致力于打开通往扭曲世界的大门。我听说你可以从皇冠山山顶的传送门进入扭曲世界，所以我想知道你是否可以帮我打开一个新的传送门，以完成我朋友的愿望。",
+      "translation": "我的老朋友牛顿曾经研究过扭曲世界，他正在致力于打开通往扭曲世界的大门。我听说你可以从天冠山山顶的传送门进入扭曲世界，所以我想知道你是否可以帮我打开一个新的传送门，以完成我朋友的愿望。",
       "line": 4307
     },
     "An old book about Sinnoh's history was recently discovered at the Canalave City Library, it may have useful information.": {
@@ -5677,15 +5677,15 @@
       "line": 4380
     },
     "While you were gone I discovered that the egg belongs to Manaphy! No wonder the Go-Rock Squad was after it.": {
-      "translation": "你走后我发现那颗蛋是玛纳菲的！难怪岩石小队会追捕它。",
+      "translation": "你走后我发现那颗蛋是玛纳霏的！难怪岩石小队会追捕它。",
       "line": 4381
     },
     "Canalave's Library has several books detailing the legends of Manaphy. Perhaps one of them can help us find out how to hatch this egg.": {
-      "translation": "美央市的图书馆有几本书详细介绍了玛纳菲的传奇故事。也许其中之一可以帮助我们找出如何孵化这颗蛋。",
+      "translation": "水脉市的图书馆里有几本书详细记载了玛纳霏的传说。也许其中一本能帮我们找出孵化这颗蛋的方法。",
       "line": 4382
     },
     "No time to waste - I'll see you at the Canalave Library!": {
-      "translation": "没有时间可以浪费了 - 我们在美央市图书馆见！",
+      "translation": "没时间浪费了——我们在水脉市图书馆见！",
       "line": 4383
     },
     "Trainer, there's trouble afoot!": {
@@ -5693,23 +5693,23 @@
       "line": 4390
     },
     "The egg was stolen again - this time by a Happiny who belongs to a little girl here. It went eastward at top speed - it's probably left this city far behind it now.": {
-      "translation": "蛋又被偷了——这次是属于这里一个小女孩的小福蛋。它以最快的速度向东行驶——现在可能已经把这座城市远远地抛在了后面。",
+      "translation": "蛋又被偷了——这次是这里一个小女孩的小福蛋干的。它以最快的速度往东跑——现在估计已经把这座城市甩得很远了。",
       "line": 4391
     },
     "We must retrieve that egg at all costs! Please, you have to chase down the egg-napper!": {
-      "translation": "我们必须不惜一切代价取回那颗蛋！拜托，你一定要追捕那个打蛋的人！",
+      "translation": "我们必须不惜一切代价找回那颗蛋！拜托，你一定要追上那个偷蛋贼！",
       "line": 4392
     },
     "Ah, Manaphy hatched, did it? Looks like all that running around you and Happiny did incubated it enough to hatch it.": {
-      "translation": "啊，玛纳菲孵化了，是吗？看来你周围跑来跑去的人和幸福确实孵化了它足以孵化它。",
+      "translation": "啊，玛纳霏孵化了，是吗？看来你和小福蛋这一路到处奔走，把蛋孵得够热，终于孵出来了。",
       "line": 4399
     },
     "There is something I've discovered researching the Manaphy stories here. Apparently, Manaphy can be bred to produce an entirely different species of Pokémon!": {
-      "translation": "我在研究玛纳菲故事时发现了一些东西。显然，玛纳霏可以培育出完全不同种类的宝可梦！",
+      "translation": "我在研究玛纳霏的传说时发现了一些东西。显然，玛纳霏可以培育出完全不同种类的宝可梦！",
       "line": 4400
     },
     "Quite frankly, it's probably for the best if Manaphy stays with you. Apparently many things want to take that Pokémon for themselves, and I don't have the strength to fend them off.": {
-      "translation": "坦率地说，如果玛纳菲留在你身边可能是最好的选择。看来很多东西都想把那只宝可梦占为己有，而我却没有力量去抵挡它们。",
+      "translation": "坦率地说，玛纳霏留在你身边或许才是最好的选择。看来很多人都想把那只宝可梦占为己有，而我却没有力量去抵挡他们。",
       "line": 4401
     },
     "Strange Boulders": {
@@ -5801,7 +5801,7 @@
       "line": 4440
     },
     "I did see a Happiny like that. They were heading north, across Route 204.": {
-      "translation": "我确实见过这样的幸福。他们正向北行驶，穿过204号道路。",
+      "translation": "我确实见过那样的小福蛋。它往北跑了，穿过204号道路。",
       "line": 4441
     },
     "assets/images/npcs/Black Belt.png": {
@@ -5817,7 +5817,7 @@
       "line": 4448
     },
     "I was just minding my own business, when a little pink thing knocked me right over! By the time I got up, it was long gone, racing for the Eterna Forest.": {
-      "translation": "我正忙着自己的事，突然一个粉红色的小东西把我撞倒了！当我起身时，它早已消失，正在向永恒森林飞驰而去。",
+      "translation": "我正忙着自己的事，突然一个粉红色的小东西把我撞倒了！当我起身时，它早就没影了，直奔百代森林去了。",
       "line": 4449
     },
     "I was worried its trainer had lost it, so I came here to ask around. I hope you catch up to it soon.": {
@@ -5825,7 +5825,7 @@
       "line": 4450
     },
     "<i>If it has a better sense of direction than the Go-Rock Squad, it'll probably pop out at Eterna City.</i>": {
-      "translation": "<i>如果它比岩石小队的方向感更好，它可能会在永生市出现。</i>",
+      "translation": "<i>如果它比岩石小队的方向感更好，估计会出现在百代市。</i>",
       "line": 4451
     },
     "assets/images/npcs/Lady.png": {
@@ -5841,11 +5841,11 @@
       "line": 4458
     },
     "It ran right through here and went across Route 211, straight for Mt. Coronet.": {
-      "translation": "就从这里穿过，穿过211号道路，直奔皇冠山。",
+      "translation": "它就从这里跑过去，穿过211号道路，直奔天冠山。",
       "line": 4459
     },
     "<i>Did the Happiny really leave Eterna and brave Mt. Coronet with the egg in tow? Maybe it's reached the other side by now.</i>": {
-      "translation": "<i>小福蛋真的带着蛋离开永生市勇闯天冠山了吗？也许它现在已经到达另一边了。</i>",
+      "translation": "<i>小福蛋真的带着蛋离开百代市、勇闯天冠山了吗？也许它现在已经到达另一边了。</i>",
       "line": 4460
     },
     "assets/images/npcs/Cyclist (female).png": {
@@ -5857,7 +5857,7 @@
       "line": 4466
     },
     "I was just finishing up my shift at the Café Cabin when a little pink puffball ran past! It was heading south, for the ruins down there.": {
-      "translation": "我刚刚在咖啡厅下班，这时一只粉红色的小马勃跑了过来！它正在向南行驶，前往那里的废墟。",
+      "translation": "我刚从咖啡馆下班，就有个粉红色的小毛球跑过去了！它往南跑，朝那边的遗迹去了。",
       "line": 4467
     },
     "...Eh, it was a Happiny? ...That's one fast Happiny, then, isn't it?": {
@@ -6023,11 +6023,11 @@
       "line": 4546
     },
     "Sandgem Town": {
-      "translation": "双叶镇",
+      "translation": "真砂镇",
       "line": 4556
     },
     "Manaphy Go-Rock Pincher": {
-      "translation": "玛纳菲 Go-Rock Pincher",
+      "translation": "玛纳霏 Go-Rock Pincher",
       "line": 4560
     },
     "Santa's Secret Daycare": {
@@ -6043,7 +6043,7 @@
       "line": 4566
     },
     "Oreburgh City": {
-      "translation": "黑金市市",
+      "translation": "黑金市",
       "line": 4576
     },
     "FossilOreburghMiningMuseum": {
@@ -6055,7 +6055,7 @@
       "line": 4580
     },
     "Oreburgh Gate": {
-      "translation": "黑金市门",
+      "translation": "黑金闸口",
       "line": 4582
     },
     "Floaroma Town": {
@@ -6095,7 +6095,7 @@
       "line": 4613
     },
     "Solaceon Town": {
-      "translation": "索拉森镇",
+      "translation": "随意镇",
       "line": 4628
     },
     "Veilstone City": {
@@ -6123,7 +6123,7 @@
       "line": 4667
     },
     "Manaphy Egg Protectors": {
-      "translation": "Manaphy 蛋保护器",
+      "translation": "玛纳霏蛋守护者",
       "line": 4671
     },
     "Canalave City": {
@@ -6191,27 +6191,27 @@
       "line": 4779
     },
     "Manaphy Go-Rock MGrunt 1": {
-      "translation": "玛纳菲 Go-Rock MGrunt 1",
+      "translation": "玛纳霏 Go-Rock MGrunt 1",
       "line": 4796
     },
     "Manaphy Go-Rock MGrunt 2": {
-      "translation": "玛纳菲 Go-Rock MGrunt 2",
+      "translation": "玛纳霏 Go-Rock MGrunt 2",
       "line": 4796
     },
     "Manaphy Go-Rock MGrunt 3": {
-      "translation": "玛纳菲 Go-Rock MGrunt 3",
+      "translation": "玛纳霏 Go-Rock MGrunt 3",
       "line": 4796
     },
     "Manaphy Go-Rock MGrunt 4": {
-      "translation": "玛纳菲 Go-Rock MGrunt 4",
+      "translation": "玛纳霏 Go-Rock MGrunt 4",
       "line": 4796
     },
     "Manaphy Go-Rock FGrunt 1": {
-      "translation": "玛纳菲 Go-Rock FGrunt 1",
+      "translation": "玛纳霏 Go-Rock FGrunt 1",
       "line": 4796
     },
     "Manaphy Go-Rock FGrunt 2": {
-      "translation": "玛纳菲 Go-Rock FGrunt 2",
+      "translation": "玛纳霏 Go-Rock FGrunt 2",
       "line": 4796
     },
     "Old Chateau": {
@@ -6219,7 +6219,7 @@
       "line": 4801
     },
     "Manaphy Go-Rock Commander": {
-      "translation": "玛纳菲岩石指挥官",
+      "translation": "玛纳霏岩石指挥官",
       "line": 4809
     },
     "Wayward Cave": {
@@ -6227,7 +6227,7 @@
       "line": 4817
     },
     "Solaceon Ruins": {
-      "translation": "索拉森废墟",
+      "translation": "随意遗迹",
       "line": 4829
     },
     "Iron Island": {
@@ -7511,7 +7511,7 @@
       "line": 6147
     },
     "My Ampharos has gotten a boost since a friendly soul gave me an Ampharosite!": {
-      "translation": "自从一个友好的灵魂给了我一个安法罗斯石以来，我的安法罗斯石得到了提升！",
+      "translation": "自从一个友好的灵魂给了我一个电龙石以来，我的电龙石得到了提升！",
       "line": 6148
     },
     "Luckily my Ampharos was already strong enough to use it!": {
@@ -7943,7 +7943,7 @@
       "line": 6335
     },
     "Floette... It's been 3,000 years...": {
-      "translation": "弗洛特……已经三千年了……",
+      "translation": "花叶蒂……已经三千年了……",
       "line": 6340
     },
     "And with you... another of your kind?": {
@@ -7955,7 +7955,7 @@
       "line": 6342
     },
     "Floette (Eternal)": {
-      "translation": "[[Floette]] 永恒之花",
+      "translation": "永恒之花[[Floette]]",
       "line": 6343
     },
     "assets/images/pokemon/670.05.png": {
@@ -7963,7 +7963,7 @@
       "line": 6343
     },
     "eternalfloettegift": {
-      "translation": "永恒的飘逸礼物",
+      "translation": "永恒之花花叶蒂的礼物",
       "line": 6343
     },
     "Old Gentleman Harold": {
@@ -8699,11 +8699,11 @@
       "line": 6815
     },
     "Looker's Exchange": {
-      "translation": "Looker的交流",
+      "translation": "帅哥的交换所",
       "line": 6877
     },
     "Ultra Beast Hunt": {
-      "translation": "究极野兽狩猎",
+      "translation": "究极异兽狩猎",
       "line": 6877
     },
     "Type: Null": {
@@ -9861,7 +9861,7 @@
       "line": 7555
     },
     "So, how can I help you? Oh, you're looking for a Silvally Memory? I have been keeping one of them here and doing a little bit of testing to find out how it works. Maybe we could make a trade. I'll trade the Silvally Memory for some Pokédollars. I'll be trying to figure out how it works, so you can go get Pokédollars and come back later to trade if you need to.": {
-      "translation": "那么，我能怎么帮你？哦，你在找银伴战兽的记忆？我一直把一块记忆留在这里，做了点测试想搞清它怎么用。也许我们可以交易：我用记忆换一些宝可梦币。我还在研究它怎么用，所以你去攒些宝可梦币，之后需要的话再回来交易就行。",
+      "translation": "那么，我能怎么帮你？哦，你在找银伴战兽的记忆？我一直把一块记忆留在这里，做了点测试想搞清它怎么用。也许我们可以交易：我用记忆换一些宝可币。我还在研究它怎么用，所以你去攒些宝可币，之后需要的话再回来交易就行。",
       "line": 7556
     },
     "assets/images/npcs/Sophocles.png": {
@@ -10085,15 +10085,15 @@
       "line": 7653
     },
     "Looker": {
-      "translation": "观察者",
+      "translation": "帅哥",
       "line": 7659
     },
     "I'm very grateful that you accepted my invitation. My name is Looker. This here is my boss, Chief Anabel, head of the UB Taskforce.": {
-      "translation": "我非常感谢你接受我的邀请。我的名字是看者。这是我的老板，Anabel 酋长，UB 特别小组的负责人。",
+      "translation": "感谢你接受我的邀请。我是帅哥。这位是我的上司莉拉长官，也是究极异兽对策队负责人。",
       "line": 7660
     },
     "Ever since the incident at Aether Paradise, where you encountered UB-01 Symbiont, also known as Nihilego, we have heard reports of other Symbiont appearing in Alola. And other types of UBs too.": {
-      "translation": "自从在以太乐园事件中遇到了 UB-01共生体（也称为 Nihilego）之后，我们就听到了其他共生体出现在阿罗拉的报道。还有其他类型的 UB。",
+      "translation": "自从在以太乐园事件中你遇到 UB-01 共生体（虚吾伊德）之后，我们又收到其他“共生体”在阿罗拉出现的报告，甚至还有其他类型的究极异兽（UB）。",
       "line": 7661
     },
     "They came here from a different world. Dropped rudely into our world against their will. We know nothing about them. They could be dangerous. They are almost certainly extremely wary and combative.": {
@@ -10105,7 +10105,7 @@
       "line": 7663
     },
     "That is where you come in. The Champion of Alola. We do not have the battle power, but hopefully you do. Please allow Anabel to test your battle ability to ensure that you can handle this job.": {
-      "translation": "这就是你进来的地方。阿罗拉的冠军。我们没有战斗力，但希望你有。请让丽拉测试一下你的战斗能力，以确保你能够胜任这份工作。",
+      "translation": "这就是需要你出马的时候了——阿罗拉的冠军。我们战斗力不足，但你一定可以。请让莉拉测试一下你的对战实力，确保你能胜任这项任务。",
       "line": 7664
     },
     "assets/images/npcs/Looker.png": {
@@ -10113,7 +10113,7 @@
       "line": 7666
     },
     "Anabel": {
-      "translation": "丽拉",
+      "translation": "莉拉",
       "line": 7669
     },
     "The testing is complete. I see no problem at all with your skills. Rather I would have to praise you for them. Welcome to the team!": {
@@ -10121,11 +10121,11 @@
       "line": 7670
     },
     "There is no more time to waste. UB-01 Symbiont, Nihilego, has been spotted on Akala Island! I will protect the nearby population centers, you must go and confront the Beast!": {
-      "translation": "没有更多的时间可以浪费了。 UB-01共生体 Nihilego 已在阿卡拉岛被发现！我会保护附近的人口中心，你必须去对抗野兽！",
+      "translation": "没时间浪费了。UB-01 共生体（虚吾伊德）已在阿卡拉岛现身！我会保护附近的城镇，你必须去对付那只究极异兽！",
       "line": 7671
     },
     "Looker will stay here to coordinate reinforcements if needed. You can ask him about the special Beast Balls you will be using on this mission. I have given you a couple of them, but they are expensive so you will have to pitch in if you need more.": {
-      "translation": "如果需要的话，卢克将留在这里协调增援。你可以向他询问你将在这次任务中使用的特殊兽球。我已经给了你几个，但它们很贵，所以如果你需要更多，你就得帮忙了。",
+      "translation": "如有需要，帅哥会留在这里协调增援。你也可以向他了解这次任务要用的特殊精灵球——究极球。我先给你几个，但它们很贵，如果想要更多就得你自己出点力了。",
       "line": 7672
     },
     "assets/images/npcs/Anabel.png": {
@@ -10133,19 +10133,19 @@
       "line": 7674
     },
     "Catching lots of Ultra Beasts? Oh you want to know more about Beast Balls!": {
-      "translation": "捕获大量究极异兽？哦，你想了解更多关于野兽球的信息！",
+      "translation": "捕获很多究极异兽？哦，你想了解更多关于究极球的信息！",
       "line": 7678
     },
     "Beast Balls can only be used to catch Ultra Beasts. You can't even try to use them against normal Pokémon, and any other Poké Ball type won't work against Ultra Beasts.": {
-      "translation": "兽球只能用来捕捉究极异兽。你甚至不能尝试用它们对抗普通的宝可梦，任何其他类型的精灵球都无法对抗究极异兽。",
+      "translation": "究极球只能用来捕捉究极异兽。你甚至无法对普通宝可梦使用它们，而其他任何类型的精灵球对究极异兽也不会奏效。",
       "line": 7679
     },
     "To help you out, I've added an \"Ultra Beast\" option to the Encounter Type Pokéball filter setting. You can use this to set up a filter just for Ultra Beasts. Don't forget to enable it and assign Beast Balls!": {
-      "translation": "为了帮助你，我在遭遇类型精灵球过滤器设置中添加了“终极野兽”选项。你可以使用它来设置专门针对 Ultra Beasts 的过滤器。不要忘记启用它并分配野兽球！",
+      "translation": "为了帮你，我在“遭遇类型”的精灵球筛选设置里新增了“究极异兽”选项。你可以用它专门为究极异兽设置筛选器。别忘了启用并分配究极球！",
       "line": 7680
     },
     "Ultra Beast": {
-      "translation": "究极兽",
+      "translation": "究极异兽",
       "line": 7680
     },
     "Congratulations on a job well done. I've had contact with our colleagues at HQ. They have agreed to let you keep the UBs you catch.": {
@@ -10157,11 +10157,11 @@
       "line": 7687
     },
     "Now, enough chit-chat. UB-02 Absorption and UB-02 Beauty, Buzzwole and Pheromosa, have been sighted on Melemele Island. You know what to do!": {
-      "translation": "现在，闲聊够了。 UB-02吸收和 UB-02美丽、Buzzwole 和 Pheromosa 已在 Melemele 岛上被发现。你知道该怎么做！",
+      "translation": "好了，闲聊到此为止。UB-02 吸收与 UB-02 美丽——爆肌蚊和费洛美螂，已在美乐美乐岛被发现。你知道该怎么做！",
       "line": 7688
     },
     "Congratulations once again. Looker told me he wants to take us to a great restaurant to celebrate. I don't know how he knows any restaurants around here, we've only just arrived.": {
-      "translation": "再次祝贺。 Looker 告诉我他想带我们去一家很棒的餐厅庆祝。我不知道他怎么知道这附近有什么餐馆，我们才刚到。",
+      "translation": "再次祝贺。帅哥说他想带我们去一家很棒的餐厅庆祝。我不知道他怎么知道这附近有什么餐馆，我们才刚到。",
       "line": 7694
     },
     "It doesn't matter though. There is no rest for us. Captain Mina is here with news, but she insists on battling you before she'll tell us anything.": {
@@ -10173,7 +10173,7 @@
       "line": 7701
     },
     "According to your little list here its... uhm... this one! UB-03 Lighting. Xurkitree. These are some strange names you guys come up with.": {
-      "translation": "根据你这里的小清单，它......呃......这个！ UB-03照明。旭基树。这些是你们想出的一些奇怪的名字。",
+      "translation": "根据你这份小清单……呃，就是这个！UB-03 照明。电束木。你们起的名字还真奇怪。",
       "line": 7702
     },
     "Good luck out there!": {
@@ -10189,7 +10189,7 @@
       "line": 7711
     },
     "It's not like I've seen them or anything. Your friend Looker knew them from the description though. UB-04 Blade and UB-04 Blaster he called them. Kartana and Celesteela.": {
-      "translation": "我好像没见过他们什么的。不过你的朋友 Looker 从描述中认识了他们。他称它们为 UB-04 Blade 和 UB-04 Blaster。卡塔娜和塞莱斯蒂拉。",
+      "translation": "我又没见过它们。不过你的朋友帅哥从描述里认出来了，说那是 UB-04 Blade 和 UB-04 Blaster：纸御剑和铁火辉夜。",
       "line": 7712
     },
     "Good job on rounding up those creatures, kid.": {
@@ -10205,7 +10205,7 @@
       "line": 7727
     },
     "Looker's informants told us about monster sightings on Poni Island. It seems UB Assembly and UB Burst, Stakataka and Blacephalon, have taken up residence.": {
-      "translation": "Looker 的线人告诉我们有关波尼岛怪物目击事件。 UB Assembly 和 UB Burst、Stakataka 和 Blacephalon 似乎已经入驻。",
+      "translation": "帅哥的线人告诉我们，波尼岛出现了怪物目击事件。看起来是 UB Assembly 和 UB Burst——垒磊石和砰头小丑——在那里安营扎寨了。",
       "line": 7728
     },
     "Please be careful.": {
@@ -10217,11 +10217,11 @@
       "line": 7735
     },
     "Our final target is UB-05 Glutton. Guzzlord. It is very dangerous. You must not underestimate this beast.": {
-      "translation": "我们的最终目标是UB-05暴食者。古兹领主。这是非常危险的。你绝对不能低估这只野兽。",
+      "translation": "我们的最终目标是 UB-05 暴食——恶食大王。它非常危险，绝不能掉以轻心。",
       "line": 7736
     },
     "Ten years ago, a very similar incident occured. Looker and his team were assigned to fight Guzzlord. Nanu was there too. They lost. Looker lost a colleague that day.": {
-      "translation": "十年前，曾发生过类似的事件。 Looker 和他的团队被派去对抗 恶食大王。默丹也在场。他们输了。那天，Looker 失去了一位同事。",
+      "translation": "十年前，也发生过类似的事件。帅哥和他的团队奉命去对付恶食大王，默丹也在场。他们输了。那天，帅哥失去了一位同伴。",
       "line": 7737
     },
     "After the battle they found something. A strange young girl, alone in the wilderness of Poni Island. They found me. It seems I came from another world as well. Not their world though. These creatures are strange to me too.": {
@@ -11273,7 +11273,7 @@
       "line": 8662
     },
     "Broadcast of Chairman Rose": {
-      "translation": "罗斯主席的广播",
+      "translation": "洛兹会长的广播",
       "line": 8664
     },
     "Hello there, Leon! Just letting you know...": {
@@ -11341,7 +11341,7 @@
       "line": 8691
     },
     "Chairman Rose": {
-      "translation": "罗斯主席",
+      "translation": "洛兹会长",
       "line": 8697
     },
     "Most impressive! I wouldn't expect any less from a challenger endorsed by the strongest Champion ever to grace our beloved Galar region!": {
@@ -11353,11 +11353,11 @@
       "line": 8699
     },
     "It's too bad, but it can't be helped... In order to solve the energy issue as soon as possible, we awakened Eternatus. But we couldn't control it. The Champion came to aid me, even at the cost of abandoning the match. Indeed, just like a knight in shining armor coming to rescue a princess from a dragon!": {
-      "translation": "可惜了，但也没办法……为了尽快解决能源问题，我们觉醒了永恒。但我们无法控制它。冠军来帮助我，甚至不惜放弃比赛。确实，就像一位穿着闪亮盔甲的骑士从恶龙手中拯救公主一样！",
+      "translation": "可惜，不过也没办法……为了尽快解决能源问题，我们唤醒了无极汰那，可我们却无法控制它。冠军甚至不惜放弃比赛也赶来帮我。确实，就像身披闪亮铠甲的骑士从恶龙手里救出公主一样！",
       "line": 8700
     },
     "I do tend to ramble on, I know. I love to make speeches. But I think I can stop talking now. I think the Champion should have captured Eternatus by now. If you're curious, you can take the lift up.": {
-      "translation": "我知道，我确实倾向于胡言乱语。我喜欢演讲。但我想我现在可以停止说话了。我认为冠军现在应该已经占领了永恒。如果你好奇的话，可以乘电梯上去。",
+      "translation": "我知道，我确实爱唠叨。我喜欢演讲。不过我想我现在可以闭嘴了——我觉得冠军这会儿应该已经抓住无极汰那了。你要是好奇，就坐电梯上去看看吧。",
       "line": 8701
     },
     "And I trust you'll be going too, right, Hop? I certainly hope losing to me didn't discourage you too much. Go on now, both of you! Go see how our Champion is doing!": {
@@ -11369,7 +11369,7 @@
       "line": 8708
     },
     "You caught Eternatus!": {
-      "translation": "你抓住了永恒！",
+      "translation": "你抓住了无极汰那！",
       "line": 8709
     },
     "Eternatus": {
@@ -11381,7 +11381,7 @@
       "line": 8710
     },
     "eternatuscatch": {
-      "translation": "永恒捕获",
+      "translation": "捕获无极汰那",
       "line": 8710
     },
     "Leon": {
@@ -11397,7 +11397,7 @@
       "line": 8714
     },
     "A real hero, who battled alongside the Legendary Pokémon, Zacian and Zamazenta... I couldn't have dreamed of a better challenger to help increase my winning streak!": {
-      "translation": "一位真正的英雄，与传奇宝可梦、扎西安和扎马森塔并肩作战……我想不到还有比这更好的挑战者来帮助我增加连胜！",
+      "translation": "一位真正的英雄，与传奇宝可梦[[Zacian]]和[[Zamazenta]]并肩作战……我想不到还有比这更好的挑战者来帮助我增加连胜！",
       "line": 8715
     },
     "Now that I've seen just what kind of strength you possess as the greatest of challengers...crushing you into the dirt will show everyone just how strong their Champion truly is!": {
@@ -11417,7 +11417,7 @@
       "line": 8720
     },
     "Huh? What're you doing here in the woods? Nobody ever comes in here, since this is the forest where Zacian and Zamazenta rested. It's the best place to do a bit of thinking, since it's so quiet and all.": {
-      "translation": "啊？你在树林里做什么？从来没有人进来过这里，因为这是扎西安和扎马森塔休息的森林。这是思考的最佳场所，因为这里非常安静。",
+      "translation": "啊？你在树林里做什么？从来没有人进来过这里，因为这是[[Zacian]]和[[Zamazenta]]休息过的森林。这是思考的最佳场所，因为这里非常安静。",
       "line": 8725
     },
     "Oh, but I hadn't had the chance to tell you! Congrats on your victory! Honestly... I never thought you'd manage to beat my brother. The greatest Champion Galar ever had! He was undefeatable till you came around! It's actually still pretty hard to believe...": {
@@ -11477,7 +11477,7 @@
       "line": 8744
     },
     "We know all the Wishing Stars that Chairman Rose had gathered are here. We celebrities have an advanced level of insight into such things!": {
-      "translation": "我们知道罗斯主席聚集的所有许愿星都在这里。我们名人对于这些事情的洞察力是非常高的！",
+      "translation": "我们知道洛兹会长聚集的所有许愿星都在这里。我们名人对于这些事情的洞察力是非常高的！",
       "line": 8749
     },
     "You non-celebrities are not suited to having such valuable things. Hand them over to us.": {
@@ -11501,7 +11501,7 @@
       "line": 8760
     },
     "It's all because you ruffians had to go and save Galar from Eternatus!": {
-      "translation": "这都是因为你们这些恶棍必须去从永恒之手手中拯救伽勒尔！",
+      "translation": "都是因为你们这些家伙非要把伽勒尔从无极汰那的威胁下救出来！",
       "line": 8761
     },
     "You said that the real heroes were Pokémon! You just carelessly changed history!": {
@@ -11525,7 +11525,7 @@
       "line": 8766
     },
     "Fwahaheho! We did it! Zacian and Zamazenta came, following after the Rusted Sword and Shield!": {
-      "translation": "哇哈哈！我们做到了！扎西安和扎马森塔追随着锈剑与盾而来！",
+      "translation": "哇哈哈！我们做到了！[[Zacian]]和[[Zamazenta]]追随着锈剑与盾而来！",
       "line": 8773
     },
     "Yes! Expose your true, barbaric, brutish nature...and reveal to us exactly who the false kings are!": {
@@ -11553,11 +11553,11 @@
       "line": 8785
     },
     "Huh? Oh, hi. I forgot to say, congrats on catching Zacian and Zamazenta!": {
-      "translation": "啊？哦，嗨。我忘了说，恭喜你抓住了扎西安和扎马森塔！",
+      "translation": "啊？哦，嗨。我忘了说，恭喜你抓住了[[Zacian]]和[[Zamazenta]]！",
       "line": 8790
     },
     "Y'know, Zacian and Zamazenta got the Rusted Sword and the Rusted Shield back, right?": {
-      "translation": "你知道，扎西安和扎马森塔拿回了生锈之剑和生锈之盾，对吧？",
+      "translation": "你知道，[[Zacian]]和[[Zamazenta]]拿回了生锈之剑和生锈之盾，对吧？",
       "line": 8791
     },
     "But when you caught them, neither were using them. But they must still have them, right?": {
@@ -12301,7 +12301,7 @@
       "line": 9224
     },
     "magearnamysterygift": {
-      "translation": "玛格纳神秘礼物",
+      "translation": "玛机雅娜的神秘礼物",
       "line": 9225
     },
     "Complete all regional Shiny Master achievements from Kanto through Galar.": {
@@ -12561,11 +12561,11 @@
       "line": 9467
     },
     "Rampaging Zacian": {
-      "translation": "狂暴的扎西亚",
+      "translation": "狂暴的[[Zacian]]",
       "line": 9467
     },
     "Rampaging Zamazenta": {
-      "translation": "狂暴的扎马森塔",
+      "translation": "狂暴的[[Zamazenta]]",
       "line": 9467
     },
     "Eternamax Eternatus": {
@@ -12757,7 +12757,7 @@
       "line": 9658
     },
     "Jubilife Village": {
-      "translation": "银禧村",
+      "translation": "祝庆村",
       "line": 9663
     },
     "Volo 1": {
@@ -12945,7 +12945,7 @@
       "line": 9896
     },
     "Ancient Solaceon Ruins": {
-      "translation": "远古索拉森遗址",
+      "translation": "远古随意遗迹",
       "line": 9905
     },
     "Volo 2": {

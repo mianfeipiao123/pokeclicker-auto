@@ -519,7 +519,7 @@
       "line": 357
     },
     "Persons of Interest": {
-      "translation": "感兴趣的人",
+      "translation": "重要人物",
       "line": 365
     },
     "Some people want to talk to you.": {
@@ -535,7 +535,7 @@
       "line": 370
     },
     "The Sick Ampharos": {
-      "translation": "生病的安法罗斯",
+      "translation": "生病的电龙",
       "line": 380
     },
     "Jasmine's Ampharos seems to be sick!": {
@@ -571,7 +571,7 @@
       "line": 397
     },
     "Team Rocket Again": {
-      "translation": "再次火箭队",
+      "translation": "火箭队卷土重来",
       "line": 408
     },
     "Team Rocket is up to no good again!": {
@@ -615,7 +615,7 @@
       "line": 434
     },
     "Talk to Eusine in Ecruteak City.": {
-      "translation": "与圆朱市的民吉交谈。",
+      "translation": "与圆朱市的小松交谈。",
       "line": 436
     },
     "Burned Tower": {
@@ -639,7 +639,7 @@
       "line": 445
     },
     "Eusine's Chase": {
-      "translation": "民吉的追逐",
+      "translation": "小松的追逐",
       "line": 445
     },
     "Raikou": {
@@ -683,15 +683,15 @@
       "line": 466
     },
     "Talk to Eusine in Cianwood City.": {
-      "translation": "与湛蓝市的民吉交谈。",
+      "translation": "与湛蓝市的小松交谈。",
       "line": 469
     },
     "Eusine": {
-      "translation": "民吉",
+      "translation": "小松",
       "line": 472
     },
     "Defeat Eusine.": {
-      "translation": "击败民吉。",
+      "translation": "击败小松。",
       "line": 472
     },
     "Suicune 2": {
@@ -699,7 +699,7 @@
       "line": 475
     },
     "Talk to Eusine in Mahogany Town.": {
-      "translation": "与阿柳镇的民吉交谈。",
+      "translation": "与阿柳镇的小松交谈。",
       "line": 478
     },
     "Suicune 3": {
@@ -707,7 +707,7 @@
       "line": 481
     },
     "Talk to Eusine in Vermilion City.": {
-      "translation": "与枯叶市的民吉交谈。",
+      "translation": "与枯叶市的小松交谈。",
       "line": 484
     },
     "Suicune 4": {
@@ -715,7 +715,7 @@
       "line": 487
     },
     "Talk to Eusine in Fuchsia City.": {
-      "translation": "与浅红市的民吉交谈。",
+      "translation": "与浅红市的小松交谈。",
       "line": 490
     },
     "Suicune 5": {
@@ -723,7 +723,7 @@
       "line": 493
     },
     "Talk to Eusine in Bill's House.": {
-      "translation": "与正辉之家的民吉交谈。",
+      "translation": "与正辉之家的小松交谈。",
       "line": 496
     },
     "Whirl Guardian": {
@@ -1397,11 +1397,11 @@
       "line": 998
     },
     "Explore Orre and uncover the origin of Shadow Pokémon.": {
-      "translation": "探索奥雷并揭开暗影宝可梦的起源。",
+      "translation": "探索欧雷并揭开暗影宝可梦的起源。",
       "line": 998
     },
     "Travel to Orre and explore the Outskirt Stand.": {
-      "translation": "前往奥尔并探索郊区看台。",
+      "translation": "前往欧雷并探索郊区看台。",
       "line": 1000
     },
     "Willie": {
@@ -1493,7 +1493,7 @@
       "line": 1052
     },
     "Find Miror B. and rescue Duking's Plusle in Pyrite Cave!": {
-      "translation": "找到 镜像博士 并拯救黄铁洞中的 达金's 正电拍拍！",
+      "translation": "找到镜子B，并在黄铁矿洞中救出杜金的正电拍拍！",
       "line": 1052
     },
     "How, how, how dare you! Don't you dare think you'll get away with your latest outrage! One of these days, I will take great pleasure in kicking you about with my elegant dance steps! Oh, and I'm not giving up our Shadow Pokémon plan!": {
@@ -1501,23 +1501,23 @@
       "line": 1054
     },
     "Miror B.": {
-      "translation": "镜子 B.",
+      "translation": "镜子B",
       "line": 1055
     },
     "Cipher Admin Miror B": {
-      "translation": "密码管理镜像 B",
+      "translation": "暗影密码团干部 镜子B",
       "line": 1056
     },
     "Free Duking's Plusle.": {
-      "translation": "免费 达金's 正电拍拍。",
+      "translation": "解救杜金的正电拍拍。",
       "line": 1060
     },
     "Discuss your next move with Rui at Pyrite Colosseum.": {
-      "translation": "在 Pyrite Colosseum 与 Rui 讨论你的下一步行动。",
+      "translation": "在黄铁矿斗兽场与瑞讨论你的下一步行动。",
       "line": 1063
     },
     "Defeat the Team Cipher Peons looting Agate Village.": {
-      "translation": "击败在玛瑙村掠夺的密码队手下。",
+      "translation": "击败在玛瑙村掠夺的暗影密码团手下。",
       "line": 1066
     },
     "Cipher Peon Doven": {
@@ -1721,7 +1721,7 @@
       "line": 1157
     },
     "The lake guardians have been rescued, but Cyrus has used them to forge the Red Chain. He is taking it to the top of Mount Coronet. Follow him! Clear Spear Pillar.": {
-      "translation": "湖泊守护者已获救，但赤日利用他们铸造了红链。他正带着它登上皇冠山的山顶。跟着他！透明矛柱。",
+      "translation": "湖之守护者已获救，但赤日利用他们铸造了红色锁链。他正带着它登上天冠山山顶。跟上他！通关枪之柱。",
       "line": 1157
     },
     "Mt. Coronet": {
@@ -1733,7 +1733,7 @@
       "line": 1171
     },
     "Cyrus planned to use the Red Chain to enslave Dialga and Palkia, but he accidentally angered Giratina and has been taken to its realm. A portal has appeared on top of Mount Coronet. Use it to follow Cyrus and end his threat once and for all. Clear Distortion World.": {
-      "translation": "赤日计划用红锁链奴役帝牙卢卡和帕路奇犽，却意外激怒了骑拉帝纳，被带到了它的领域。皇冠山山顶出现了一个传送门。用它来跟踪赤日并一劳永逸地结束他的威胁。清晰的扭曲世界。",
+      "translation": "赤日计划用红色锁链奴役帝牙卢卡和帕路奇亚，却意外激怒了骑拉帝纳，并被带到了它的领域。天冠山山顶出现了一个传送门。用它追踪赤日，并一劳永逸地终结他的威胁。通关扭曲世界。",
       "line": 1172
     },
     "Recover the Precious Egg!": {
@@ -1749,7 +1749,7 @@
       "line": 1183
     },
     "Search for clues in Eterna Forest.": {
-      "translation": "在永恒森林中寻找线索。",
+      "translation": "在百代森林中寻找线索。",
       "line": 1186
     },
     "Catch or hatch 50 Water-type Pokémon, and see if those boulders are really just boulders.": {
@@ -1757,43 +1757,43 @@
       "line": 1189
     },
     "Manaphy Go-Rock MGrunt 1": {
-      "translation": "玛纳菲 Go-Rock MGrunt 1",
+      "translation": "玛纳霏 Go-Rock MGrunt 1",
       "line": 1192
     },
     "Time to give those mysterious boulders the soaking of their life! Return to the Eterna Forest, and prepare for a battle.": {
-      "translation": "是时候让那些神秘的巨石浸透生命了！返回永恒森林，准备战斗。",
+      "translation": "是时候让那些神秘的巨石浸透生命了！返回百代森林，准备战斗。",
       "line": 1192
     },
     "Speak to the Go-Rock Commander in the Eterna Forest.": {
-      "translation": "与埃特纳森林中的岩石指挥官交谈。",
+      "translation": "与百代森林中的岩石指挥官交谈。",
       "line": 1195
     },
     "Manaphy Go-Rock FGrunt 1": {
-      "translation": "玛纳菲 Go-Rock FGrunt 1",
+      "translation": "玛纳霏 Go-Rock FGrunt 1",
       "line": 1198
     },
     "Chase the fleeing Go-Rock Squad through the Eterna Forest!": {
-      "translation": "在永恒森林中追击逃跑的岩石小队！",
+      "translation": "在百代森林中追击逃跑的岩石小队！",
       "line": 1198
     },
     "Keep chasing the Go-Rock Squad through the Eterna Forest, but... didn't they already pass that tree?": {
-      "translation": "继续追着岩石小队穿过永恒森林，但是……他们不是已经过了那棵树了吗？",
+      "translation": "继续追着岩石小队穿过百代森林，但是……他们不是已经路过那棵树了吗？",
       "line": 1201
     },
     "Manaphy Go-Rock MGrunt 2": {
-      "translation": "玛纳菲 Go-Rock MGrunt 2",
+      "translation": "玛纳霏 Go-Rock MGrunt 2",
       "line": 1202
     },
     "Manaphy Go-Rock MGrunt 3": {
-      "translation": "玛纳菲 Go-Rock MGrunt 3",
+      "translation": "玛纳霏 Go-Rock MGrunt 3",
       "line": 1203
     },
     "Manaphy Go-Rock FGrunt 2": {
-      "translation": "玛纳菲 Go-Rock FGrunt 2",
+      "translation": "玛纳霏 Go-Rock FGrunt 2",
       "line": 1204
     },
     "The Go-Rock Squad are definitely going in circles, but they're too dumb to realise it. Interrogate one on their method of navigating the Eterna Forest!": {
-      "translation": "岩石小队肯定是在兜圈子，但他们太笨了，没有意识到这一点。询问他们在永恒森林中航行的方法！",
+      "translation": "岩石小队肯定是在兜圈子，但他们太笨了，根本没意识到。问问他们是怎么在百代森林里辨别方向的！",
       "line": 1208
     },
     "Eterna Forest": {
@@ -1809,15 +1809,15 @@
       "line": 1211
     },
     "Manaphy Go-Rock MGrunt 4": {
-      "translation": "玛纳菲 Go-Rock MGrunt 4",
+      "translation": "玛纳霏 Go-Rock MGrunt 4",
       "line": 1214
     },
     "Now you've muddied the path, continue the Eterna Forest chase!": {
-      "translation": "现在你已经把路弄脏了，继续永恒森林的追逐吧！",
+      "translation": "现在你已经把路弄乱了，继续在百代森林追击吧！",
       "line": 1214
     },
     "Manaphy Go-Rock Commander": {
-      "translation": "玛纳菲岩石指挥官",
+      "translation": "玛纳霏岩石指挥官",
       "line": 1217
     },
     "You've cornered the Go-Rock Commander outside the Old Chateau! Time to finish this.": {
@@ -1831,47 +1831,47 @@
       "_confidence": 0.95
     },
     "Professor Hastings has headed off to Canalave to do more research on Manaphy. Check in on him when you can!": {
-      "translation": "哈斯汀斯博士已前往美央市对玛纳菲进行更多研究。当你可以的时候去看看他吧！",
+      "translation": "哈斯汀斯博士已前往水脉市，对玛纳霏进行更多研究。你有空就去看看他吧！",
       "line": 1223
     },
     "A little girl's Happiny stole the egg! Search for witnesses east of Canalave!": {
-      "translation": "一个小女孩的小福蛋偷了蛋！在美央市以东寻找目击者！",
+      "translation": "一个小女孩的小福蛋偷走了蛋！在水脉市以东寻找目击者！",
       "line": 1226
     },
     "The Happiny headed north out of Jubilife! Ask for witnesses in the next town.": {
-      "translation": "幸福号从禧年号出发向北行驶！询问下一个城镇的目击者。",
+      "translation": "小福蛋从祝庆市往北跑了！去下一个城镇问问目击者。",
       "line": 1229
     },
     "The Happiny went north, through the Eterna Forest. Ask if anyone's seen it in Eterna City.": {
-      "translation": "幸福号向北行驶，穿过永恒森林。问问有人在永恒城见过吗？",
+      "translation": "小福蛋往北跑，穿过百代森林。问问有没有人在百代市见过它。",
       "line": 1232
     },
     "Search for someone who's seen the Happiny Egg-napper! It was last seen heading east across Route 211.": {
-      "translation": "寻找看过快乐蛋打蛋器的人！最后一次看到它是沿着211号道路向东行驶。",
+      "translation": "寻找见过小福蛋偷蛋贼的人！上一次有人看到它沿着211号道路往东跑。",
       "line": 1235
     },
     "Keep asking around and following the Happiny Egg-thief! It was heading south, towards Solaceon Town.": {
-      "translation": "继续四处打听并追踪快乐蛋贼！它正向南行驶，前往索拉森镇。",
+      "translation": "继续四处打听并追踪小福蛋偷蛋贼！它正往南跑，前往随意镇。",
       "line": 1238
     },
     "Hopefully you can finally catch up to this Happiny at Hearthome City. Ask around for any witnesses.": {
-      "translation": "希望你最终能在家缘市赶上这份幸福。四处询问是否有目击证人。",
+      "translation": "希望你终于能在家缘市追上这只小福蛋。四处询问是否有目击证人。",
       "line": 1241
     },
     "The Happiny went through Mt. Coronet again? This time it went west through the Southern path. Ask around for witnesses on the other side.": {
-      "translation": "幸福号又穿越皇冠山了？这次是沿南道向西行。四处询问另一边的目击者。",
+      "translation": "小福蛋又穿越天冠山了？这次它沿着南侧通道往西跑。到另一边去找找目击者。",
       "line": 1244
     },
     "The Happiny fled from Oreburgh and headed west, through the Oreburgh Gate. Search for another witness on the far side.": {
-      "translation": "幸福号从黑金市逃出，通过黑金市门向西行驶。在另一边寻找另一位目击者。",
+      "translation": "小福蛋从黑金市逃走了，穿过黑金闸口往西跑。在另一边寻找另一位目击者。",
       "line": 1247
     },
     "Search for evidence of the Happiny's path after turning south from Jubilife City.": {
-      "translation": "从欢乐城向南转向后，寻找幸福号路径的证据。",
+      "translation": "小福蛋从祝庆市往南跑后，寻找它行进路线的线索。",
       "line": 1251
     },
     "Manaphy Go-Rock Pincher": {
-      "translation": "玛纳菲 Go-Rock Pincher",
+      "translation": "玛纳霏 Go-Rock Pincher",
       "line": 1254
     },
     "An ex-Go-Rock in Sandgem Town has turned to Pokémon Pinching, and wants to steal the egg first. But after all you've been through to get it, he's in for a rude awakening": {
@@ -1879,7 +1879,7 @@
       "line": 1254
     },
     "After leaving Sandgem, the Happiny went south-east, across the water. There's only one place it could be now...": {
-      "translation": "离开真砂镇后，小福蛋向东南方向航行，穿过水域。现在只有一个地方可以...",
+      "translation": "离开真砂镇后，小福蛋往东南方向跑去，穿过水域。现在只有一个地方可去……",
       "line": 1257
     },
     "Oh no, you're not gonna let more boulders stop you now. Catch or hatch 50 Fighting-types and smash right through them.": {
@@ -1887,7 +1887,7 @@
       "line": 1260
     },
     "Manaphy Egg Protectors": {
-      "translation": "Manaphy 蛋保护器",
+      "translation": "玛纳霏蛋守护者",
       "line": 1263
     },
     "Time to head back to Pal Park and teach this little pink snot not to steal important eggs!": {
@@ -1895,7 +1895,7 @@
       "line": 1263
     },
     "The egg hatched after your battle with the egg-nappers! Bring Manaphy back to Hastings in Canalave City, and close off this mission for good.": {
-      "translation": "与蛋打蛋者战斗后，蛋孵化了！将玛纳菲带回水脉市的黑斯廷斯，并永远结束这次任务。",
+      "translation": "与偷蛋贼战斗后，蛋孵化了！把玛纳霏带回水脉市交给哈斯汀斯博士，彻底结束这项任务。",
       "line": 1266
     },
     "Zero's Ambition": {
@@ -2507,11 +2507,11 @@
       "line": 1623
     },
     "Team Cipher has returned to Orre. Stop their new evil plan!": {
-      "translation": "密码小队已返回奥尔。阻止他们新的邪恶计划！",
+      "translation": "暗影密码团已返回欧雷。阻止他们新的邪恶计划！",
       "line": 1623
     },
     "Ask around Gateon Port for clues about new Team Cipher activity.": {
-      "translation": "在盖顿港四处打听密码队新动向的线索。",
+      "translation": "在盖顿港打听暗影密码团新动向的线索。",
       "line": 1625
     },
     "Cipher Peon Naps": {
@@ -2607,7 +2607,7 @@
       "line": 1670
     },
     "Find and defeat Miror B. near a cool cave.": {
-      "translation": "在一个凉爽的洞穴附近找到并击败 镜像博士。",
+      "translation": "在凉爽洞穴附近找到并击败镜子B。",
       "line": 1670
     },
     "Cipher Commander Exol": {
@@ -2695,7 +2695,7 @@
       "line": 1719
     },
     "Miror B. has surfaced again! Fight him at the Outskirt Stand.": {
-      "translation": "镜像博士又出现了！在外围看台与他战斗。",
+      "translation": "镜子B又出现了！在外围摊位与他战斗。",
       "line": 1719
     },
     "Snagem Hideout": {
@@ -4897,7 +4897,7 @@
       "line": 3028
     },
     "Buy the Electric Memory from Captain Sophocles with Pokédollars.": {
-      "translation": "用宝可梦币从马玛内队长那里购买电记忆。",
+      "translation": "用宝可币从马玛内队长那里购买电记忆。",
       "line": 3031
     },
     "Thank you, $playername$! Now I'll go buy some new equipment for my laboratory.": {
@@ -5037,7 +5037,7 @@
       "line": 3108
     },
     "Ultra Beast Hunt": {
-      "translation": "究极野兽狩猎",
+      "translation": "究极异兽狩猎",
       "line": 3117
     },
     "Track down the mysterious Ultra Beasts": {
@@ -5045,23 +5045,23 @@
       "line": 3117
     },
     "Talk to Looker at the Roadside Motel.": {
-      "translation": "与路边汽车旅馆的Looker 交谈。",
+      "translation": "与路边汽车旅馆的帅哥交谈。",
       "line": 3119
     },
     "Anabel": {
-      "translation": "丽拉",
+      "translation": "莉拉",
       "line": 3126
     },
     "Defeat Agent Anabel at the Roadside Motel.": {
-      "translation": "在路边汽车旅馆击败特工丽拉。",
+      "translation": "在路边汽车旅馆击败特工莉拉。",
       "line": 3126
     },
     "Talk to Anabel at the Roadside Motel.": {
-      "translation": "与路边汽车旅馆的丽拉交谈。",
+      "translation": "与路边汽车旅馆的莉拉交谈。",
       "line": 3129
     },
     "Talk to Looker at the Roadside Motel to learn about Beast Balls.": {
-      "translation": "与路边汽车旅馆的Looker交谈，了解野兽球。",
+      "translation": "与路边汽车旅馆的帅哥交谈，了解究极球。",
       "line": 3132
     },
     "times!": {
@@ -5195,7 +5195,7 @@
       "line": 3240
     },
     "Catch or hatch 5 Ditto.": {
-      "translation": "捕获或孵化5只同上。",
+      "translation": "捕获或孵化5只百变怪。",
       "line": 3240
     },
     "Elite Molayne": {
@@ -5619,11 +5619,11 @@
       "line": 3531
     },
     "Continue your Gym Challenge and have a battle with Hop in Circhester.": {
-      "translation": "继续你的体操挑战并在瑟切斯特与霍普进行一场战斗。",
+      "translation": "继续你的道馆挑战，并在战竞镇与赫普对战。",
       "line": 3531
     },
     "Talk to Hop.": {
-      "translation": "与霍普交谈。",
+      "translation": "与赫普交谈。",
       "line": 3535
     },
     "Learn more about the heroes who stopped The Darkest Day.": {
@@ -5631,11 +5631,11 @@
       "line": 3542
     },
     "Hammerlocke": {
-      "translation": "宫门市",
+      "translation": "拳关市",
       "line": 3544
     },
     "Continue your Gym Challenge and gain entry to the Champion Cup.": {
-      "translation": "继续你的体操挑战并获得冠军杯的参赛资格。",
+      "translation": "继续你的道馆挑战并获得冠军杯的参赛资格。",
       "line": 3544
     },
     "Elite Trainer Marnie": {
@@ -5643,7 +5643,7 @@
       "line": 3547
     },
     "Defeat Marnie at Wyndon Stadium to reach the quarter-finals of the Champion Cup.": {
-      "translation": "在温登体育场击败玛俐，进入冠军杯四分之一决赛。",
+      "translation": "在宫门竞技场击败玛俐，进入冠军杯四分之一决赛。",
       "line": 3547
     },
     "Elite Gym Leader Bede": {
@@ -5671,31 +5671,31 @@
       "line": 3556
     },
     "The Championship Match is about to start, but Chairman Rose is broadcasting something to the Stadium? Listen to the broadcast.": {
-      "translation": "冠军赛即将开始，罗斯主席却在向球场广播什么？收听广播。",
+      "translation": "冠军赛即将开始，洛兹会长却在向球场广播什么？收听广播。",
       "line": 3559
     },
     "Talk to Hop in Wyndon Stadium.": {
-      "translation": "与温登体育场的霍普交谈。",
+      "translation": "与宫门竞技场的赫普交谈。",
       "line": 3562
     },
     "Slumbering Weald Shrine": {
-      "translation": "沉睡的荒原神殿",
+      "translation": "微寐森林神殿",
       "line": 3565
     },
     "Chairman Rose has interrupted your fight with Leon and brought about the Darkest Day. Clear Slumbering Weald Shrine.": {
-      "translation": "罗丝主席打断了你与丹帝的战斗，并带来了至暗之日。通关沉睡的荒原神殿。",
+      "translation": "洛兹会长打断了你与丹帝的对战，并引发了“黑暗之日”。通关微寐森林神殿。",
       "line": 3565
     },
     "Talk to Hop in Slumbering Weald Shrine.": {
-      "translation": "与沉睡的荒野神殿中的霍普交谈。",
+      "translation": "与微寐森林神殿中的赫普交谈。",
       "line": 3568
     },
     "Energy Plant": {
-      "translation": "能源厂",
+      "translation": "能源工厂",
       "line": 3571
     },
     "Unfortunately, all you found at the Slumbering Weald was a rusty sword and shield. Go to the Energy Plant in Hammerlocke to put an end to Chairman Rose's plans!": {
-      "translation": "不幸的是，你在沉睡森林里找到的只有一把生锈的剑和盾牌。前往宫门市的能源工厂，终结洛兹会长的计划！",
+      "translation": "不幸的是，你在微寐森林里只找到一把生锈的剑和盾牌。前往拳关市的能源工厂，终结洛兹会长的计划！",
       "line": 3571
     },
     "Talk to Chairman Rose in Energy Plant": {
@@ -5707,7 +5707,7 @@
       "line": 3577
     },
     "Leon failed to capture Eternatus. Defeat it before it can cause any more damage!": {
-      "translation": "莱昂未能捕获永恒。在它造成更多伤害之前击败它！",
+      "translation": "丹帝未能捕获无极汰那。在它造成更多破坏之前击败它！",
       "line": 3577
     },
     "Eternatus has ascended to its Eternamax form! Catch it to put an end to the Darkest Day!": {
@@ -5715,7 +5715,7 @@
       "line": 3590
     },
     "After all those interruptions, it's finally time for the Championship match! Talk to Leon at Wyndon Stadium.": {
-      "translation": "经历了这么多干扰之后，冠军赛终于到了！在温登体育场与丹帝交谈。",
+      "translation": "经历了这么多干扰之后，冠军赛终于到了！在宫门竞技场与丹帝交谈。",
       "line": 3593
     },
     "Champion Leon": {
@@ -5735,7 +5735,7 @@
       "line": 3604
     },
     "Talk to Hop in the Slumbering Weald.": {
-      "translation": "与沉睡森林中的霍普交谈。",
+      "translation": "与微寐森林中的赫普交谈。",
       "line": 3606
     },
     "Hop 8": {
@@ -5743,11 +5743,11 @@
       "line": 3609
     },
     "Hop wants to fight you one more time at Slumbering Weald Shrine.": {
-      "translation": "霍普想在沉睡的荒野神殿与你再战一次。",
+      "translation": "赫普想在微寐森林神殿与你再战一次。",
       "line": 3609
     },
     "Talk to Sordward & Shielbert in the Slumbering Weald.": {
-      "translation": "与沉睡原野中的索德沃德和希尔伯特交谈。",
+      "translation": "与微寐森林中的索德沃德和希尔伯特交谈。",
       "line": 3612
     },
     "Sordward 1": {
@@ -5851,7 +5851,7 @@
       "line": 3650
     },
     "Sordward and Shielbert have forced a Gigalith and a Froslass to rampage in Circhester Stadium. Defeat them both": {
-      "translation": "索德沃德和希尔伯特迫使庞岩怪和雪妖女在 Circhester 竞技场横冲直撞。把它们都打倒吧。",
+      "translation": "索德沃德和希尔伯特迫使庞岩怪和雪妖女在战竞竞技场横冲直撞。把它们都打倒吧。",
       "line": 3655
     },
     "Gym Leader Marnie": {
@@ -5867,7 +5867,7 @@
       "line": 3660
     },
     "Sordward and Shielbert have forced a Haxorus to rampage in Hammerlocke Stadium. Hopefully this is the last one.": {
-      "translation": "索德沃德和希尔伯特迫使斧牙龙在宫门竞技场横冲直撞。希望这是最后一次。",
+      "translation": "索德沃德和希尔伯特迫使斧牙龙在拳关竞技场横冲直撞。希望这是最后一次。",
       "line": 3660
     },
     "Talk to Sordward & Shielbert in the Energy Plant.": {
@@ -5883,27 +5883,27 @@
       "line": 3667
     },
     "Sordward and Shielbert are trying to use the Rusted Sword and Shield to make Zacian and Zamazenta go on a rampage in Energy Plant. Stop them.": {
-      "translation": "索德沃德和希尔伯特试图使用生锈的剑和盾牌让扎西安和扎马森塔在能源工厂横冲直撞。阻止他们。",
+      "translation": "索德沃德和希尔伯特试图使用生锈的剑和盾牌让苍响和藏玛然特在能源工厂横冲直撞。阻止他们。",
       "line": 3672
     },
     "Rampaging Zacian": {
-      "translation": "狂暴的扎西亚",
+      "translation": "狂暴的[[Zacian]]",
       "line": 3677
     },
     "Defeat Zacian.": {
-      "translation": "击败扎西安。",
+      "translation": "击败苍响。",
       "line": 3677
     },
     "Rampaging Zamazenta": {
-      "translation": "狂暴的扎马森塔",
+      "translation": "狂暴的[[Zamazenta]]",
       "line": 3678
     },
     "Defeat Zamazenta.": {
-      "translation": "击败扎马森塔。",
+      "translation": "击败藏玛然特。",
       "line": 3678
     },
     "Zacian and Zamazenta are rampaging in Energy Plant. Defeat them!": {
-      "translation": "扎西安和扎马森塔在能源工厂里横冲直撞。打败他们！",
+      "translation": "苍响和藏玛然特在能源工厂里横冲直撞。打败他们！",
       "line": 3683
     },
     "Talk to Piers in the Energy Plant.": {
@@ -5915,7 +5915,7 @@
       "line": 3688
     },
     "Catch Zacian.": {
-      "translation": "抓住扎西安。",
+      "translation": "抓住苍响。",
       "line": 3688
     },
     "Zamazenta (Battle Hero)": {
@@ -5923,11 +5923,11 @@
       "line": 3689
     },
     "Catch Zamazenta.": {
-      "translation": "抓住扎马森塔。",
+      "translation": "抓住藏玛然特。",
       "line": 3689
     },
     "Now that they have calmed down, Zacian and Zamazenta seem to be willing to let you try to catch them!": {
-      "translation": "现在他们已经平静下来了，扎西安和扎马森塔似乎愿意让你尝试抓住他们！",
+      "translation": "现在它们已经平静下来了，苍响和藏玛然特似乎愿意让你尝试捕捉它们！",
       "line": 3694
     },
     "The Dojo's Armor": {
@@ -6563,7 +6563,7 @@
       "line": 4094
     },
     "It seems something is going on in Hammerlocke! Talk to Leon in Energy Plant.": {
-      "translation": "宫门市似乎发生了什么事！去能源工厂与丹帝对话。",
+      "translation": "拳关市似乎发生了什么事！去能源工厂与丹帝对话。",
       "line": 4097
     },
     "Eternamax Eternatus": {
@@ -6575,7 +6575,7 @@
       "line": 4100
     },
     "You defeated Eternamax Eternatus once more. Talk to Leon in Energy Plant.": {
-      "translation": "你再次击败了永恒巨轮永恒者。与能源工厂的莱昂交谈。",
+      "translation": "你再次击败了无极巨化无极汰那。与能源工厂的丹帝交谈。",
       "line": 4103
     },
     "Go back to the Max Lair to tell Peonia what happened.": {

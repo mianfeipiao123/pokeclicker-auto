@@ -23,7 +23,7 @@
       "_confidence": 0.85
     },
     "earn bonus Pokédollars ${...} times.": {
-      "translation": "触发额外宝可梦币奖励 ${...} 次。",
+      "translation": "触发额外宝可币奖励 ${...} 次。",
       "line": 49
     },
     "defeat ${...} Pokémon.": {

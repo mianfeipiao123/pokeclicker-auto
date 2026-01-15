@@ -23,7 +23,7 @@
       "line": 224
     },
     "Pokedollars": {
-      "translation": "宝可梦币",
+      "translation": "宝可币",
       "line": 225
     },
     "Dungeon Token": {
@@ -721,7 +721,7 @@
       "line": 837
     },
     "Oreburgh Gate": {
-      "translation": "黑金市门",
+      "translation": "黑金闸口",
       "line": 838
     },
     "Wayward Cave": {
@@ -729,7 +729,7 @@
       "line": 838
     },
     "Solaceon Ruins": {
-      "translation": "索拉森废墟",
+      "translation": "随意遗迹",
       "line": 838
     },
     "Iron Island": {
@@ -865,7 +865,7 @@
       "line": 843
     },
     "Ancient Solaceon Ruins": {
-      "translation": "远古索拉森遗址",
+      "translation": "远古随意遗迹",
       "line": 843
     },
     "Seaside Hollow": {
@@ -901,7 +901,7 @@
       "line": 848
     },
     "Jubilife Village": {
-      "translation": "银禧村",
+      "translation": "祝庆村",
       "line": 848
     },
     "Galaxy Hall": {
@@ -1069,7 +1069,7 @@
       "line": 894
     },
     "Circhester": {
-      "translation": "拳关市",
+      "translation": "战竞镇",
       "line": 896
     },
     "Crown Shrine": {
@@ -1077,7 +1077,7 @@
       "line": 896
     },
     "Freezington": {
-      "translation": "冰砌镇",
+      "translation": "冻凝村",
       "line": 896
     },
     "Cinnabar Island": {
@@ -1189,11 +1189,11 @@
       "line": 917
     },
     "Slumbering Weald": {
-      "translation": "沉睡的原野",
+      "translation": "微寐森林",
       "line": 918
     },
     "Slumbering Weald Shrine": {
-      "translation": "沉睡的荒原神殿",
+      "translation": "微寐森林神殿",
       "line": 918
     },
     "Glimwood Tangle": {
@@ -1233,7 +1233,7 @@
       "line": 924
     },
     "Oreburgh City": {
-      "translation": "黑金市市",
+      "translation": "黑金市",
       "line": 925
     },
     "Kiloude City": {
@@ -1273,7 +1273,7 @@
       "line": 946
     },
     "Orre Colosseum": {
-      "translation": "奥尔斗兽场",
+      "translation": "欧雷斗兽场",
       "line": 946
     },
     "Lentimas Town": {
@@ -1449,7 +1449,7 @@
       "line": 973
     },
     "Hammerlocke": {
-      "translation": "宫门市",
+      "translation": "拳关市",
       "line": 973
     },
     "Tower of Darkness": {
@@ -1465,11 +1465,11 @@
       "line": 973
     },
     "Wyndon": {
-      "translation": "温登",
+      "translation": "宫门市",
       "line": 973
     },
     "Wyndon Stadium": {
-      "translation": "温登体育场",
+      "translation": "宫门竞技场",
       "line": 973
     },
     "Master Dojo": {
@@ -2325,11 +2325,11 @@
       "line": 1416
     },
     "Circhester1": {
-      "translation": "环切斯特1",
+      "translation": "战竞镇1",
       "line": 1418
     },
     "Circhester2": {
-      "translation": "环切斯特2",
+      "translation": "战竞镇2",
       "line": 1419
     },
     "Elite Trainer Marnie": {
@@ -2761,7 +2761,7 @@
       "line": 1880
     },
     "Eusine": {
-      "translation": "民吉",
+      "translation": "小松",
       "line": 1881
     },
     "Suicune 2": {
@@ -3001,39 +3001,39 @@
       "line": 1940
     },
     "Manaphy Go-Rock MGrunt 1": {
-      "translation": "玛纳菲 Go-Rock MGrunt 1",
+      "translation": "玛纳霏 Go-Rock MGrunt 1",
       "line": 1941
     },
     "Manaphy Go-Rock MGrunt 2": {
-      "translation": "玛纳菲 Go-Rock MGrunt 2",
+      "translation": "玛纳霏 Go-Rock MGrunt 2",
       "line": 1942
     },
     "Manaphy Go-Rock MGrunt 3": {
-      "translation": "玛纳菲 Go-Rock MGrunt 3",
+      "translation": "玛纳霏 Go-Rock MGrunt 3",
       "line": 1943
     },
     "Manaphy Go-Rock MGrunt 4": {
-      "translation": "玛纳菲 Go-Rock MGrunt 4",
+      "translation": "玛纳霏 Go-Rock MGrunt 4",
       "line": 1944
     },
     "Manaphy Go-Rock FGrunt 1": {
-      "translation": "玛纳菲 Go-Rock FGrunt 1",
+      "translation": "玛纳霏 Go-Rock FGrunt 1",
       "line": 1945
     },
     "Manaphy Go-Rock FGrunt 2": {
-      "translation": "玛纳菲 Go-Rock FGrunt 2",
+      "translation": "玛纳霏 Go-Rock FGrunt 2",
       "line": 1946
     },
     "Manaphy Go-Rock Commander": {
-      "translation": "玛纳菲岩石指挥官",
+      "translation": "玛纳霏岩石指挥官",
       "line": 1947
     },
     "Manaphy Go-Rock Pincher": {
-      "translation": "玛纳菲 Go-Rock Pincher",
+      "translation": "玛纳霏 Go-Rock Pincher",
       "line": 1948
     },
     "Manaphy Egg Protectors": {
-      "translation": "Manaphy 蛋保护器",
+      "translation": "玛纳霏蛋守护者",
       "line": 1949
     },
     "Zero": {
@@ -3989,11 +3989,11 @@
       "line": 2188
     },
     "Rampaging Zacian": {
-      "translation": "狂暴的扎西亚",
+      "translation": "狂暴的[[Zacian]]",
       "line": 2189
     },
     "Rampaging Zamazenta": {
-      "translation": "狂暴的扎马森塔",
+      "translation": "狂暴的[[Zamazenta]]",
       "line": 2190
     },
     "Klara 1": {
@@ -4493,7 +4493,7 @@
       "line": 2339
     },
     "Solaceon Town": {
-      "translation": "索拉森镇",
+      "translation": "随意镇",
       "line": 2342
     },
     "Celestic Town": {

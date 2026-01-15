@@ -19,7 +19,7 @@
       "line": 30
     },
     "Maximum Flow has accumulated at the Purify Chamber in Orre!": {
-      "translation": "奥尔雷的净化室已累积最大流量！",
+      "translation": "欧雷的净化室已累积最大流量！",
       "line": 90
     },
     "show": {
@@ -27,7 +27,7 @@
       "line": 100
     },
     "You need to progress in the Shadows in the Desert quest line to unlock this feature.": {
-      "translation": "你需要在\"沙漠中的阴影\"任务线中进一步推进才能解锁此功能。",
+      "translation": "你需要在“沙漠中的暗影”任务线中进一步推进才能解锁此功能。",
       "line": 103
     }
   }

@@ -89,7 +89,7 @@
       "line": 176
     },
     "<br/><br/><i class=\"text-warning\">You will not receive Pokédollars for clearing the gym.</i>": {
-      "translation": "<br/><br/><i class=\"text-warning\">通关该道馆不会获得宝可梦币。</i>",
+      "translation": "<br/><br/><i class=\"text-warning\">通关该道馆不会获得宝可币。</i>",
       "line": 179
     },
     "text-warning": {

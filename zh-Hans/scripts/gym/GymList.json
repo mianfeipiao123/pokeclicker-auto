@@ -23,7 +23,7 @@
       "line": 11
     },
     "I took you for granted, and so I lost. As proof of your victory, I confer on you this... the official Pokémon League BoulderBadge.": {
-      "translation": "我太小看你了，所以才输了。作为你胜利的证明，我将这枚……宝可梦联盟官方的灰色徽章授予你。",
+      "translation": "我太小看你了，所以才输了。作为你胜利的证明，我将这枚……宝可梦联盟官方的灰徽章授予你。",
       "line": 15
     },
     "Cerulean City": {
@@ -43,7 +43,7 @@
       "line": 23
     },
     "Wow! You're too much, all right! You can have the CascadeBadge to show that you beat me.": {
-      "translation": "哇！你真厉害！这枚蓝色徽章给你，用来证明你打败了我！",
+      "translation": "哇！你真厉害！这枚蓝徽章给你，用来证明你打败了我！",
       "line": 27
     },
     "Team Rocket": {
@@ -71,7 +71,7 @@
       "line": 39
     },
     "Now that's a shocker! You're the real deal, kid! Fine, then, take the ThunderBadge!": {
-      "translation": "这可真叫人吃惊！小鬼，你确实有两下子！好吧，拿去！橙色徽章是你的了！",
+      "translation": "这可真叫人吃惊！小鬼，你确实有两下子！好吧，拿去！橙徽章是你的了！",
       "line": 43
     },
     "Blue 3": {
@@ -127,7 +127,7 @@
       "line": 69
     },
     "This loss shocks me! But a loss is a loss. I admit I didn't work hard enough to win. You earned the MarshBadge.": {
-      "translation": "这场败北让我大吃一惊！不过输了就是输了。我承认自己还不够努力。金色徽章归你了。",
+      "translation": "这场败北让我大吃一惊！不过输了就是输了。我承认自己还不够努力。金徽章归你了。",
       "line": 73
     },
     "Fuchsia City": {
@@ -223,7 +223,7 @@
       "line": 128
     },
     "Persons of Interest": {
-      "translation": "感兴趣的人",
+      "translation": "重要人物",
       "line": 137
     },
     "Team Rocket Boss Giovanni": {
@@ -479,11 +479,11 @@
       "line": 295
     },
     "Team Rocket Again": {
-      "translation": "再次火箭队",
+      "translation": "火箭队卷土重来",
       "line": 298
     },
     "The Sick Ampharos": {
-      "translation": "生病的安法罗斯",
+      "translation": "生病的电龙",
       "line": 299
     },
     "Cianwood City": { "translation": "湛蓝市",
@@ -1320,7 +1320,7 @@
       "line": 869
     },
     "Oreburgh City": {
-      "translation": "黑金市市",
+      "translation": "黑金市",
       "line": 872
     },
     "Roark": {
@@ -2904,7 +2904,7 @@
       "line": 1917
     },
     "Circhester1": {
-      "translation": "环切斯特1",
+      "translation": "战竞镇1",
       "line": 1918
     },
     "Stonjourner": {
@@ -2920,7 +2920,7 @@
       "line": 1927
     },
     "Gordie's Circhester Gym": {
-      "translation": "戈迪的环形道馆",
+      "translation": "玛瓜的战竞镇道馆",
       "line": 1929
     },
     "Melony": {
@@ -2928,7 +2928,7 @@
       "line": 1932
     },
     "Circhester2": {
-      "translation": "环切斯特2",
+      "translation": "战竞镇2",
       "line": 1933
     },
     "Frosmoth": {
@@ -2956,7 +2956,7 @@
       "line": 1943
     },
     "Melony's Circhester Gym": {
-      "translation": "Melony's Circhester 道馆",
+      "translation": "美蓉的战竞镇道馆",
       "line": 1945
     },
     "Piers": {

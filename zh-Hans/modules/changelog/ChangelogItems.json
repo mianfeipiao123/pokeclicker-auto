@@ -231,7 +231,7 @@
       "line": 69
     },
     "Manaphy and Phione now have unique egg patterns": {
-      "translation": "玛纳菲和菲奥涅现在拥有独特的蛋图案",
+      "translation": "玛纳霏和霏欧纳现在拥有独特的蛋图案",
       "line": 70
     },
     "Adjustments to the types of some Pokémon": {
@@ -303,7 +303,7 @@
       "line": 94
     },
     "Shadow sprites can be used on the Trainer Profile": {
-      "translation": "阴影精灵可用于训练家资料",
+      "translation": "暗影图像可用于训练家资料",
       "line": 95
     },
     "Underground feature has been overhauled - see Help tab in-game": {
@@ -563,7 +563,7 @@
       "line": 167
     },
     "Everstone can now be used as a held item to prevent evolution": {
-      "translation": "永恒石现在可以用作持有物品以防止进化",
+      "translation": "不变之石现在也能作为携带物品使用，以阻止进化",
       "line": 168
     },
     "Auto-gym feature reworked": {
@@ -599,7 +599,7 @@
       "line": 176
     },
     "Orre dungeons have an updated encounter display": {
-      "translation": "奥雷迷宫有更新的遭遇显示",
+      "translation": "欧雷迷宫有更新的遭遇显示",
       "line": 177
     },
     "Safari Zones now have an encounter display similar to dungeons": {
@@ -775,7 +775,7 @@
       "line": 232
     },
     "Orre - Gale of Darkness": {
-      "translation": "奥雷 - 黑暗之风",
+      "translation": "欧雷 - 黑暗之风",
       "line": 233
     },
     "Gigantamax": {
@@ -855,7 +855,7 @@
       "line": 264
     },
     "Enter the Colosseum - Orre is now available!": {
-      "translation": "进入竞技场 - 奥尔雷现已开放！",
+      "translation": "进入竞技场 - 欧雷现已开放！",
       "line": 265
     },
     "Snover Berry": {
@@ -1039,7 +1039,7 @@
       "line": 327
     },
     "Broken Gym Leader sprites": {
-      "translation": "破碎的道馆馆主精灵",
+      "translation": "损坏的道馆馆主图像",
       "line": 328
     },
     "Delete save triggering if cancelled after typing DELETE": {
@@ -1879,7 +1879,7 @@
       "line": 644
     },
     "Updated current location to use player sprite": {
-      "translation": "更新了当前位置以使用玩家精灵",
+      "translation": "更新了当前位置以使用玩家图像",
       "line": 645
     },
     "Updated default quest location color": {
@@ -1931,7 +1931,7 @@
       "line": 657
     },
     "Updated some sprites": {
-      "translation": "更新了一些精灵",
+      "translation": "更新了一些图像",
       "line": 658
     },
     "Withered berries statistics not increasing correctly": {
@@ -2167,7 +2167,7 @@
       "line": 730
     },
     "Updated Hammer and Chisel sprites in Underground": {
-      "translation": "更新了地下的锤子和凿子精灵",
+      "translation": "更新了地下的锤子和凿子图像",
       "line": 731
     },
     "Updated Hatchery sort options and directions, Added a tooltip": {
@@ -2183,7 +2183,7 @@
       "line": 734
     },
     "Updated Pokémon League sprites on map": {
-      "translation": "更新了地图上的宝可梦联盟精灵",
+      "translation": "更新了地图上的宝可梦联盟图像",
       "line": 735
     },
     "Adjusted some themes": {
@@ -2267,7 +2267,7 @@
       "line": 758
     },
     "Grouped Mt. Coronet and Melemele Woods surrounding Dungeons": {
-      "translation": "迷宫周围分组的皇冠山和美乐美乐森林",
+      "translation": "将天冠山与美乐美乐森林周边的迷宫进行分组",
       "line": 759
     },
     "Moved sell all button in Underground to the Treasures tab": {
@@ -2315,7 +2315,7 @@
       "line": 772
     },
     "Updated some sprite inconsistencies": {
-      "translation": "更新了一些精灵不一致的问题",
+      "translation": "修复了一些图像不一致的问题",
       "line": 773
     },
     "Underground sell all no longer starts breeding fossils": {
@@ -2391,7 +2391,7 @@
       "line": 794
     },
     "Adjusted some sprites": {
-      "translation": "调整了一些精灵",
+      "translation": "调整了一些图像",
       "line": 795
     },
     "Indicate HP buff when opening chests in Dungeons": {
@@ -2883,7 +2883,7 @@
       "line": 940
     },
     "Credits modal for sprites and code contributions": {
-      "translation": "精灵和代码贡献的积分模式",
+      "translation": "贴图与代码贡献者鸣谢弹窗",
       "line": 941
     },
     "Can only move to tiles adjacent to visited tiles within Dungeons": {
@@ -3203,7 +3203,7 @@
       "line": 1037
     },
     "Tidy up some badge sprites": {
-      "translation": "整理一些徽章精灵",
+      "translation": "整理一些徽章图标",
       "line": 1038
     },
     "Starting tutorial no longer skippable": {
@@ -3219,7 +3219,7 @@
       "line": 1041
     },
     "Fixed a few Pokémon sprites": {
-      "translation": "修复了一些宝可梦精灵",
+      "translation": "修复了一些宝可梦图像",
       "line": 1042
     },
     "Added some missing/unobtainable Kalos Pokémon": {
@@ -3331,7 +3331,7 @@
       "line": 1079
     },
     "Let's Go mons not showing in Pokémon list": {
-      "translation": "Let's Go mons 未出现在宝可梦列表中",
+      "translation": "搭档宝可梦未出现在宝可梦列表中",
       "line": 1080
     },
     "Some missing stone evolutions": {
@@ -3343,11 +3343,11 @@
       "line": 1082
     },
     "Fixed some Pokémon shop sprites": {
-      "translation": "修复了一些宝可梦商店精灵",
+      "translation": "修复了一些宝可梦商店图像",
       "line": 1083
     },
     "Fixed some missing trainer sprites": {
-      "translation": "修复了一些缺失的训练家精灵",
+      "translation": "修复了一些缺失的训练家图像",
       "line": 1084
     },
     "Fixed some routes/dungeons showing incorrect backgrounds": {
@@ -3969,7 +3969,7 @@
       "line": 1273
     },
     "Safari Zone Pokémon can now appear as overworld sprites": {
-      "translation": "狩猎区宝可梦现在可以显示为主世界精灵",
+      "translation": "狩猎区宝可梦现在可以显示为主世界贴图",
       "line": 1274
     },
     "Completed Quest and Achievements will show in the Log Book": {
@@ -3981,7 +3981,7 @@
       "line": 1276
     },
     "Add sparkle to shiny overworld sprites for Dynamic Background and Safari Zone": {
-      "translation": "为动态背景和 Safari 区域的异色主世界精灵添加异色",
+      "translation": "为动态背景和狩猎区的异色主世界贴图添加闪光特效",
       "line": 1277
     },
     "Can sort Pokémon by Times Hatched": {

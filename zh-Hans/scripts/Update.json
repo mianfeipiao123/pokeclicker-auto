@@ -247,7 +247,7 @@
       "line": 489
     },
     "Team Rocket Again": {
-      "translation": "再次火箭队",
+      "translation": "火箭队卷土重来",
       "line": 505
     },
     "Regional Attack Debuff (recommended)": {
@@ -345,7 +345,7 @@
       "line": 809
     },
     "Persons of Interest": {
-      "translation": "感兴趣的人",
+      "translation": "重要人物",
       "line": 813
     },
     "notification.common_dungeon_item_found": {
@@ -921,7 +921,7 @@
       "line": 1866
     },
     "Eusine's Chase": {
-      "translation": "民吉的追逐",
+      "translation": "小松的追逐",
       "line": 1874
     },
     "Unfinished Business": {
@@ -1483,7 +1483,7 @@
       "line": 2609
     },
     "The Sick Ampharos": {
-      "translation": "生病的安法罗斯",
+      "translation": "生病的电龙",
       "line": 2627
     },
     "Eater of Light": {
@@ -1659,11 +1659,11 @@
       "line": 2930
     },
     "eternalfloettegift": {
-      "translation": "永恒的飘逸礼物",
+      "translation": "永恒之花花叶蒂的礼物",
       "line": 2949
     },
     "magearnamysterygift": {
-      "translation": "玛格纳神秘礼物",
+      "translation": "玛机雅娜的神秘礼物",
       "line": 2953
     },
     "./package.json": {

@@ -15,7 +15,7 @@
       "line": 39
     },
     "shiny": {
-      "translation": "异色的",
+      "translation": "闪光的",
       "line": 80
     },
     "${...} is ready to hatch!": {
@@ -29,7 +29,7 @@
       "line": 104
     },
     "✨ You hatched a shiny ${...}! ✨": {
-      "translation": "✨ 你孵化了异色${...}！ ✨",
+      "translation": "✨ 你孵化了闪光${...}！ ✨",
       "line": 154,
       "_rematchedFrom": "✨ You hatched a shiny ${...}! ✨",
       "_confidence": 0.85

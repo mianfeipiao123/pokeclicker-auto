@@ -459,7 +459,7 @@
       "line": 437
     },
     "Did you know that sparkling Pokémon are more often found in Dungeons, on Farms, from Eggs, and even from Shops, the Safari Zone, and Evolutions from Items?": {
-      "translation": "你是否知道异色宝可梦更常见于迷宫、农场、蛋，甚至商店、狩猎区和物品进化？",
+      "translation": "你是否知道闪光宝可梦更常见于迷宫、农场、蛋，甚至商店、狩猎区和物品进化？",
       "line": 438
     },
     "assets/images/npcs/Mr. Fuji.png": {
@@ -471,7 +471,7 @@
       "line": 441
     },
     "I know a lot of useful stuff. Like the odds of finding a shiny Pokémon or how to increase Click Attack.": {
-      "translation": "我知道很多有用的东西。比如找到异色宝可梦的几率或如何增加点击攻击力。",
+      "translation": "我知道很多有用的东西。比如找到闪光宝可梦的几率或如何增加点击攻击力。",
       "line": 442
     },
     "No, I didn't learn this from talking to ghosts, don't be silly. There's a FAQ button in the Start Menu. It's very useful.": {
@@ -3033,7 +3033,7 @@
       "line": 2530
     },
     "To rebuild my machine, I will need a hundred power-generating Pokémon to run the machine, shiny pokemon to stabilize the energy matrix, and to conduct a new dig for fossilized Groudon materials. After that, I will need to calibrate the machine using DNA from Groudon itself.": {
-      "translation": "要重建我的机器，我需要一百只能发电的宝可梦来运行机器，异色宝可梦来稳定能量矩阵，还要进行新的挖掘以寻找固拉多的化石材料。之后，我需要使用固拉多本身的DNA来校准机器。",
+      "translation": "要重建我的机器，我需要一百只能发电的宝可梦来运行机器，闪光宝可梦来稳定能量矩阵，还要进行新的挖掘以寻找固拉多的化石材料。之后，我需要使用固拉多本身的DNA来校准机器。",
       "line": 2531
     },
     "A Meta Discovery": {
@@ -12289,7 +12289,7 @@
       "line": 9222
     },
     "You have received a Mystery Gift for completing the National Shiny Dex!": {
-      "translation": "完成全国异色图鉴后，你已收到一份神秘礼物！",
+      "translation": "完成全国闪光图鉴后，你已收到一份神秘礼物！",
       "line": 9223
     },
     "Magearna (Original Color)": {
@@ -12305,7 +12305,7 @@
       "line": 9225
     },
     "Complete all regional Shiny Master achievements from Kanto through Galar.": {
-      "translation": "完成从关都到伽勒尔的所有区域异色大师成就。",
+      "translation": "完成从关都到伽勒尔的所有区域闪光大师成就。",
       "line": 9225
     },
     "Postwick": {

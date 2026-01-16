@@ -305,7 +305,7 @@
       "line": 681
     },
     "shiny": {
-      "translation": "异色的",
+      "translation": "闪光的",
       "line": 682
     },
     "category": {
@@ -949,7 +949,7 @@
       "line": 2143
     },
     "Caught Shiny": {
-      "translation": "已捕获（异色）",
+      "translation": "已捕获（闪光）",
       "line": 2148
     },
     "New": {
@@ -957,7 +957,7 @@
       "line": 2153
     },
     "New Shiny": {
-      "translation": "新异色",
+      "translation": "新闪光",
       "line": 2158
     },
     "Abomasite": {

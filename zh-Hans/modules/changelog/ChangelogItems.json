@@ -219,7 +219,7 @@
       "line": 66
     },
     "Wild shiny Pokémon will now always drop their rare hold item upon being defeated": {
-      "translation": "野生异色宝可梦现在在被击败时总是会掉落稀有的持有物品",
+      "translation": "野生闪光宝可梦现在在被击败时总是会掉落稀有的持有物品",
       "line": 67
     },
     "Magikarp Jump subregion no longer affected by the regional debuff": {
@@ -323,7 +323,7 @@
       "line": 99
     },
     "Shiny farm wanderers now give 5x as many Farm Points": {
-      "translation": "异色的农场流浪者现在提供5倍的农场点数",
+      "translation": "闪光的农场流浪者现在提供5倍的农场点数",
       "line": 100
     },
     "Dungeon trainer pokemon HP has been nerfed": {
@@ -423,7 +423,7 @@
       "line": 125
     },
     "Shiny farm wanderers now trigger the correct audio cue": {
-      "translation": "异色的农场流浪者现在会触发正确的音频提示",
+      "translation": "闪光的农场流浪者现在会触发正确的音频提示",
       "line": 126
     },
     "Using a Moon Ball on a farm wanderer while in a town": {
@@ -711,7 +711,7 @@
       "line": 209
     },
     "Hatching a shiny Pokémon now awards 5x the normal attack gained": {
-      "translation": "孵化异色的宝可梦现在奖励普通攻击力的5倍",
+      "translation": "孵化闪光的宝可梦现在奖励普通攻击力的5倍",
       "line": 210
     },
     "Pokéball filter priority order can now be changed (Gameplay settings)": {
@@ -743,7 +743,7 @@
       "line": 220
     },
     "Catching a shiny shadow Pokémon not awarding the shiny": {
-      "translation": "捕捉异色的暗影宝可梦不会奖励异色",
+      "translation": "捕捉闪光的暗影宝可梦不会奖励闪光",
       "line": 221
     },
     "Various other minor bug fixes": {
@@ -907,7 +907,7 @@
       "line": 280
     },
     "Catching a shiny in the Safari zone grants additional Safari EXP": {
-      "translation": "在 Safari 区域捕获异色会获得额外的 狩猎经验",
+      "translation": "在 Safari 区域捕获闪光会获得额外的 狩猎经验",
       "line": 281
     },
     "Safari items spawning in inaccessible locations": {
@@ -1179,7 +1179,7 @@
       "line": 378
     },
     "Multiple tiers of flash in Dungeons": {
-      "translation": "迷宫中的多层异色",
+      "translation": "迷宫中的多层闪光",
       "line": 379
     },
     "Dawn is now during 5am-6am": {
@@ -1319,7 +1319,7 @@
       "line": 435
     },
     "Buffed shiny chance for Safari Zone": {
-      "translation": "增加了狩猎区的异色几率",
+      "translation": "增加了狩猎区的闪光几率",
       "line": 436
     },
     "Changed evoluion items layout": {
@@ -1523,7 +1523,7 @@
       "line": 509
     },
     "Battle Frontier reward Pokémon now have a chance to be shiny": {
-      "translation": "对战开拓区奖励宝可梦现在有机会是异色的",
+      "translation": "对战开拓区奖励宝可梦现在有机会是闪光的",
       "line": 510
     },
     "Adjusted shard prices": {
@@ -2227,7 +2227,7 @@
       "line": 745
     },
     "Added option to hide Shiny Pokémon in the Protein menu": {
-      "translation": "添加了在蛋白质菜单中隐藏异色宝可梦的选项",
+      "translation": "添加了在蛋白质菜单中隐藏闪光宝可梦的选项",
       "line": 746
     },
     "Berry Master shop buttons": {
@@ -2239,7 +2239,7 @@
       "line": 748
     },
     "Shiny code wrong name displayed occasionally": {
-      "translation": "异色代码偶尔显示错误名称",
+      "translation": "闪光代码偶尔显示错误名称",
       "line": 749
     },
     "Damage calculator updates correctly when you hatch Pokémon": {
@@ -2415,7 +2415,7 @@
       "line": 802
     },
     "Added Shiny achievements per region": {
-      "translation": "为每个地区添加了异色成就",
+      "translation": "为每个地区添加了闪光成就",
       "line": 803
     },
     "Show Evolution Stones from future regions in the items menu if you have at least 1": {
@@ -2907,7 +2907,7 @@
       "line": 946
     },
     "Route highlights for uncaught Pokémon, uncaught shiny Pokémon": {
-      "translation": "未捕获的宝可梦、未捕获的异色宝可梦的路线亮点",
+      "translation": "未捕获的宝可梦、未捕获的闪光宝可梦的路线亮点",
       "line": 947
     },
     "Settings to change colors of route highlights": {
@@ -3143,7 +3143,7 @@
       "line": 1018
     },
     "When purchasing multiple shop Pokémon the shiny chance was only rolled once": {
-      "translation": "当购买多个商店宝可梦时，异色几率只会滚动一次",
+      "translation": "当购买多个商店宝可梦时，闪光几率只会滚动一次",
       "line": 1019
     },
     "Some Pokémon silhouettes showing colors when not obtained yet": {
@@ -3525,7 +3525,7 @@
       "line": 1135
     },
     "Fixed shiny chance when hatching and using Shiny Charm": {
-      "translation": "修复了孵化和使用异色护符时的异色几率",
+      "translation": "修复了孵化和使用闪光护符时的闪光几率",
       "line": 1136
     },
     "Vermilion City image & name": {
@@ -3689,7 +3689,7 @@
       "line": 1190
     },
     "Show shiny symbol for Pokémon in Protein modal": {
-      "translation": "在蛋白质模式中显示宝可梦的异色符号",
+      "translation": "在蛋白质模式中显示宝可梦的闪光符号",
       "line": 1191
     },
     "Achievement pages being empty after completing last item on page": {
@@ -3709,7 +3709,7 @@
       "line": 1195
     },
     "Pokédex hide shiny images toggle correctly reflects current state": {
-      "translation": "图鉴隐藏异色图像切换正确反映当前状态",
+      "translation": "图鉴隐藏闪光图像切换正确反映当前状态",
       "line": 1196
     },
     "v0.6.5": {
@@ -3717,7 +3717,7 @@
       "line": 1199
     },
     "Added toggle to hide shiny images in Pokédex": {
-      "translation": "添加了隐藏 图鉴 中异色图像的开关",
+      "translation": "添加了隐藏 图鉴 中闪光图像的开关",
       "line": 1200
     },
     "New display options added to Hatchery": {
@@ -3761,7 +3761,7 @@
       "line": 1210
     },
     "Increase Farm wandering Pokémon shiny chance": {
-      "translation": "增加农场流浪宝可梦异色几率",
+      "translation": "增加农场流浪宝可梦闪光几率",
       "line": 1211
     },
     "Misc Farm changes": {
@@ -3981,7 +3981,7 @@
       "line": 1276
     },
     "Add sparkle to shiny overworld sprites for Dynamic Background and Safari Zone": {
-      "translation": "为动态背景和狩猎区的异色主世界贴图添加闪光特效",
+      "translation": "为动态背景和狩猎区的闪光主世界贴图添加闪光特效",
       "line": 1277
     },
     "Can sort Pokémon by Times Hatched": {
@@ -4249,11 +4249,11 @@
       "line": 1349
     },
     "Increase shiny chance when using an evolution item": {
-      "translation": "使用进化物品时增加异色几率",
+      "translation": "使用进化物品时增加闪光几率",
       "line": 1350
     },
     "Increase shiny chance for dungeon Pokémon": {
-      "translation": "增加迷宫宝可梦的异色几率",
+      "translation": "增加迷宫宝可梦的闪光几率",
       "line": 1351
     },
     "More shops added to towns": {
@@ -4285,7 +4285,7 @@
       "line": 1357
     },
     "If you encounter a new Pokémon that is also shiny, the higher tier ball will be selected": {
-      "translation": "如果你遇到同样异色的新宝可梦，将选择更高级别的球",
+      "translation": "如果你遇到同样闪光的新宝可梦，将选择更高级别的球",
       "line": 1358
     },
     "Battle item effect timers now display upto 99 hours": {
@@ -4669,7 +4669,7 @@
       "line": 1470
     },
     "Added statistic for Hatched Shiny Pokémon": {
-      "translation": "添加了孵化的异色宝可梦的统计数据",
+      "translation": "添加了孵化的闪光宝可梦的统计数据",
       "line": 1471
     },
     "Caught indicator on eggs showing if you have obtained all the Pokémon available in that egg type": {
@@ -4837,7 +4837,7 @@
       "line": 1520
     },
     "Moved shiny icon further into the corner in the Day Care view, to make it easier to spot already shiny Pokémon": {
-      "translation": "将异色图标移至培育屋视图的角落，以便更容易发现已经异色的宝可梦",
+      "translation": "将闪光图标移至培育屋视图的角落，以便更容易发现已经闪光的宝可梦",
       "line": 1521
     },
     "Dungeon size scales depending on region": {
@@ -5089,7 +5089,7 @@
       "line": 1597
     },
     "Always add caught Shiny Pokémon to the Log Book": {
-      "translation": "始终将捕获的异色宝可梦记录到冒险日志中",
+      "translation": "始终将捕获的闪光宝可梦记录到冒险日志中",
       "line": 1598
     },
     "Added close button on the top right of more modals": {
@@ -5273,7 +5273,7 @@
       "line": 1654
     },
     "Shiny Pokémon now increase click damage at a 50% rate compared to normal Pokémon": {
-      "translation": "与普通宝可梦相比，异色宝可梦现在以50% 的速度增加点击伤害",
+      "translation": "与普通宝可梦相比，闪光宝可梦现在以50% 的速度增加点击伤害",
       "line": 1655
     },
     "Allow better control of which type of ball to use when capturing a Pokémon": {
@@ -5357,7 +5357,7 @@
       "line": 1681
     },
     "Total shiny Pokémon caught no longer adds to your click attack": {
-      "translation": "捕获的异色宝可梦总数不再增加你的点击攻击",
+      "translation": "捕获的闪光宝可梦总数不再增加你的点击攻击",
       "line": 1682
     },
     "Halve xp needed to upgrade Oak items": {
@@ -5405,7 +5405,7 @@
       "line": 1694
     },
     "Total shiny Pokémon caught now add to your total click attack": {
-      "translation": "现在捕获的异色宝可梦总数会添加到你的总点击攻击中",
+      "translation": "现在捕获的闪光宝可梦总数会添加到你的总点击攻击中",
       "line": 1695
     },
     "Display floored dungeon tokens amount": {

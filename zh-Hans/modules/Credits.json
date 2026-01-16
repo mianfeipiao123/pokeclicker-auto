@@ -107,7 +107,7 @@
       "line": 79
     },
     "Shiny Alcremie": {
-      "translation": "异色霜奶仙",
+      "translation": "闪光霜奶仙",
       "line": 81
     },
     "Beliot419": {
@@ -431,7 +431,7 @@
       "line": 188
     },
     "Dynamic BG Shiny Meltan/Melmetal": {
-      "translation": "动态背景异色[[Meltan]]/[[Melmetal]]",
+      "translation": "动态背景闪光[[Meltan]]/[[Melmetal]]",
       "line": 189
     },
     "Rainbow Rocket sprite re-colours": {
@@ -1021,7 +1021,7 @@
       "line": 387
     },
     "Pinkan Rhyhorn (shiny)": {
-      "translation": "粉红 独角犀牛（异色）",
+      "translation": "粉红 独角犀牛（闪光）",
       "line": 388
     },
     "Pinkan Scyther Shuffle + Overworld": {
@@ -1489,7 +1489,7 @@
       "line": 504
     },
     "Spooky Togepi (shiny)": {
-      "translation": "幽灵托格皮（异色）",
+      "translation": "幽灵托格皮（闪光）",
       "line": 505
     },
     "Spooky Togetic": {
@@ -2093,7 +2093,7 @@
       "line": 736
     },
     "Lusamine (nihilego) shiny": {
-      "translation": "露莎米奈（虚吾伊德）异色",
+      "translation": "露莎米奈（虚吾伊德）闪光",
       "line": 737
     },
     "Rider (male and female)": {
@@ -2181,7 +2181,7 @@
       "line": 781
     },
     "Dynamic Background sprite recolors (shiny Bounsweet, nonshiny Decidueye, nonshiny Incineroar)": {
-      "translation": "动态背景精灵重新着色（异色的 Bounsweet、非异色的 Decidueye、非异色的 Incineroar）",
+      "translation": "动态背景精灵重新着色（闪光的 Bounsweet、非闪光的 Decidueye、非闪光的 Incineroar）",
       "line": 784
     },
     "Krokotips": {
@@ -2549,7 +2549,7 @@
       "line": 899
     },
     "Hisui Dynamic Background Shinies": {
-      "translation": "翡翠动态背景异色",
+      "translation": "翡翠动态背景闪光",
       "line": 903
     },
     "Leaf": {
@@ -2657,7 +2657,7 @@
       "line": 955
     },
     "shiny Totem Ribombee": {
-      "translation": "异色霸主蝶结萌虻",
+      "translation": "闪光霸主蝶结萌虻",
       "line": 956
     },
     "misc Map sprite edits": {
@@ -3817,7 +3817,7 @@
       "line": 2022
     },
     "Shinesprite41": {
-      "translation": "异色精灵41",
+      "translation": "闪光精灵41",
       "line": 2030
     },
     "Penguindude2000": {

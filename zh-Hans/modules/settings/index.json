@@ -739,11 +739,11 @@
       "line": 198
     },
     "Uncaught Shiny Pokémon and Missing Achievement": {
-      "translation": "未捕获的异色宝可梦和缺失的成就",
+      "translation": "未捕获的闪光宝可梦和缺失的成就",
       "line": 198
     },
     "Uncaught Shiny Pokémon": {
-      "translation": "未捕获的异色宝可梦",
+      "translation": "未捕获的闪光宝可梦",
       "line": 199
     },
     "Missing Achievement": {
@@ -877,7 +877,7 @@
       "line": 252
     },
     "Hide party shiny sprites": {
-      "translation": "隐藏队伍异色精灵",
+      "translation": "隐藏队伍闪光精灵",
       "line": 252
     },
     "partyShowPurifiedShadowSprites": {
@@ -905,7 +905,7 @@
       "line": 276
     },
     "Hide shiny Pokémon": {
-      "translation": "隐藏异色的宝可梦",
+      "translation": "隐藏闪光的宝可梦",
       "line": 276
     },
     "Search": {
@@ -1021,15 +1021,15 @@
       "line": 321
     },
     "Shiny Status": {
-      "translation": "异色状态",
+      "translation": "闪光状态",
       "line": 335
     },
     "Not Shiny": {
-      "translation": "非异色",
+      "translation": "非闪光",
       "line": 338
     },
     "Shiny": {
-      "translation": "异色",
+      "translation": "闪光",
       "line": 339
     },
     "Pokérus Status": {
@@ -1207,7 +1207,7 @@
       "line": 407
     },
     "Caught Not Shiny": {
-      "translation": "已捕获（无异色）",
+      "translation": "已捕获（无闪光）",
       "line": 408
     },
     "caught-not-shiny": {
@@ -1215,7 +1215,7 @@
       "line": 408
     },
     "Caught Shiny": {
-      "translation": "已捕获（异色）",
+      "translation": "已捕获（闪光）",
       "line": 409
     },
     "caught-shiny": {
@@ -1621,7 +1621,7 @@
       "line": 521
     },
     "Shinies: {caught_shiny}/{caught} {sparkle}": {
-      "translation": "异色：{caught_shiny}/{caught} {sparkle}",
+      "translation": "闪光：{caught_shiny}/{caught} {sparkle}",
       "line": 521
     },
     "discord-rp.line-2": {

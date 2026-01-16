@@ -35,7 +35,7 @@
       "line": 26
     },
     "caught_shiny": {
-      "translation": "捕获异色",
+      "translation": "捕获闪光",
       "line": 31
     },
     "hatched": {
@@ -43,7 +43,7 @@
       "line": 36
     },
     "hatched_shiny": {
-      "translation": "孵化异色",
+      "translation": "孵化闪光",
       "line": 41
     },
     "sparkle": {
@@ -271,7 +271,7 @@
       "line": 284
     },
     "Shinies: {caught_shiny}/{caught} ✨": {
-      "translation": "异色：{caught_shiny}/{caught} ✨",
+      "translation": "闪光：{caught_shiny}/{caught} ✨",
       "line": 288
     }
   }

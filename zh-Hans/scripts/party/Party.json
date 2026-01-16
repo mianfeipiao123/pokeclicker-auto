@@ -19,7 +19,7 @@
       "line": 94
     },
     "✨ You have captured a shiny ${...}! ✨": {
-      "translation": "✨ 你捕获了异色${...}！ ✨",
+      "translation": "✨ 你捕获了闪光${...}！ ✨",
       "line": 103,
       "_rematchedFrom": "✨ You have captured a shiny ${...}! ✨",
       "_confidence": 0.85

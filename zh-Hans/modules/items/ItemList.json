@@ -275,7 +275,7 @@
       "line": 77
     },
     "Shiny Chance": {
-      "translation": "异色几率",
+      "translation": "闪光几率",
       "line": 78
     },
     "Normal": {
@@ -291,7 +291,7 @@
       "line": 78
     },
     "shiny": {
-      "translation": "异色的",
+      "translation": "闪光的",
       "line": 78
     },
     "EV Yield": {

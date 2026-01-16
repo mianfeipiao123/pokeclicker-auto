@@ -95,7 +95,7 @@
       "line": 46
     },
     "Encounter shinies more often": {
-      "translation": "更频繁地遇到异色宝可梦",
+      "translation": "更频繁地遇到闪光宝可梦",
       "line": 46
     },
     "Magma Stone": {
@@ -173,7 +173,7 @@
       "line": 64
     },
     "shiny": {
-      "translation": "异色的",
+      "translation": "闪光的",
       "line": 65
     },
     "Could not find oakItem": {

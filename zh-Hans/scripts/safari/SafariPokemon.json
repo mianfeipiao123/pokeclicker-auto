@@ -7,7 +7,7 @@
   },
   "entries": {
     "✨ You encountered a shiny ${...}! ✨": {
-      "translation": "✨ 你遇到了异色${...}！ ✨",
+      "translation": "✨ 你遇到了闪光${...}！ ✨",
       "line": 39
     },
     "base": {

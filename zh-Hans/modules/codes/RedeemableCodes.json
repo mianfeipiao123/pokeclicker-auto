@@ -91,7 +91,7 @@
       "line": 43
     },
     "✨ You found a shiny ${...}! ✨": {
-      "translation": "✨ 你发现了异色${...}！ ✨",
+      "translation": "✨ 你发现了闪光${...}！ ✨",
       "line": 52,
       "_rematchedFrom": "✨ You found a shiny ${...}! ✨",
       "_confidence": 0.85

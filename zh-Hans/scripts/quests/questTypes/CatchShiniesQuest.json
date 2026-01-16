@@ -11,7 +11,7 @@
       "line": 22
     },
     "Capture or hatch ${...} shiny Pokémon.": {
-      "translation": "捕获或孵化 ${...} 只异色宝可梦。",
+      "translation": "捕获或孵化 ${...} 只闪光宝可梦。",
       "line": 22,
       "_rematchedFrom": "Capture or hatch ${...} shiny Pokémon.",
       "_confidence": 0.85

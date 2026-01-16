@@ -79,15 +79,15 @@
       "line": 74
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
-      "translation": "根据宝可梦的已捕获/异色状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
+      "translation": "根据宝可梦的已捕获/闪光状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
       "line": 79
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens\nGained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
-      "translation": "根据宝可梦的已捕获/异色状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
+      "translation": "根据宝可梦的已捕获/闪光状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
       "line": 79
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.": {
-      "translation": "根据宝可梦的已捕获/异色状态，选择用于捕捉的精灵球种类。",
+      "translation": "根据宝可梦的已捕获/闪光状态，选择用于捕捉的精灵球种类。",
       "line": 79
     },
     "Hover over the names for more info.": {

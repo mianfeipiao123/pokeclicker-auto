@@ -23,7 +23,7 @@
       "line": 13
     },
     "Shiny Pokémon encountered/hatched/wandering": {
-      "translation": "遇到/孵化/游荡的异色宝可梦",
+      "translation": "遇到/孵化/游荡的闪光宝可梦",
       "line": 13
     },
     "new_catch": {
@@ -31,7 +31,7 @@
       "line": 14
     },
     "New Pokémon/shiny captured": {
-      "translation": "捕获了新宝可梦/异色宝可梦",
+      "translation": "捕获了新宝可梦/闪光宝可梦",
       "line": 14
     },
     "roaming": {
@@ -179,11 +179,11 @@
       "line": 41
     },
     "notification.encountered_shiny": {
-      "translation": "遭遇异色宝可梦",
+      "translation": "遭遇闪光宝可梦",
       "line": 46
     },
     "Encountered a shiny Pokémon": {
-      "translation": "遇到了异色的宝可梦",
+      "translation": "遇到了闪光的宝可梦",
       "line": 46
     },
     "notification.encountered_roaming": {
@@ -239,7 +239,7 @@
       "line": 53
     },
     "notification.new_catch": {
-      "translation": "捕捉新宝可梦（包含异色）",
+      "translation": "捕捉新宝可梦（包含闪光）",
       "line": 54
     },
     "notification.battle_frontier": {
@@ -263,11 +263,11 @@
       "line": 60
     },
     "notification.hatched_shiny": {
-      "translation": "孵化异色宝可梦",
+      "translation": "孵化闪光宝可梦",
       "line": 61
     },
     "Egg hatched a shiny": {
-      "translation": "孵化出异色宝可梦",
+      "translation": "孵化出闪光宝可梦",
       "line": 61
     },
     "notification.hatchery_helper": {

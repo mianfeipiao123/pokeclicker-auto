@@ -6647,7 +6647,7 @@
       "line": 5256
     },
     "You might've heard about the Swords of Justice. They seem to be really worried recently and that also worries me, but you seem to be a really nice fellow so I'll tell you how to find their leader, Cobalion.": {
-      "translation": "你可能听说过正义之剑。他们最近似乎很担心，这也让我担心，但你似乎是一个非常好的人，所以我会告诉你如何找到他们的领导者 勾帕路翁。",
+      "translation": "你可能听说过圣剑士。他们最近似乎很担心，这也让我担心，但你似乎是一个非常好的人，所以我会告诉你如何找到他们的领袖勾帕路翁。",
       "line": 5257
     },
     "It usually lurks around the deepest layers of Mistralton Cave so you might be able to find it by exploring around here.": {
@@ -6655,7 +6655,7 @@
       "line": 5258
     },
     "Swords of Justice": {
-      "translation": "正义之剑",
+      "translation": "圣剑士",
       "line": 5261
     },
     "Cobalion": {
@@ -6667,7 +6667,7 @@
       "line": 5264
     },
     "Well, since he told you to find me, there must be a reason. Unless you're here to help me re-form the Swords of Justice? If so, then thank you for your aid. Meet me in the Moor of Icirrus after you find them. You should look for Terrakion first, somewhere in the depths of the Unova Victory Road. Good luck, Trainer.": {
-      "translation": "好吧，既然他让你来找我，那肯定是有原因的。除非你是来帮我重塑正义之剑的？如果是这样，那么感谢你的帮助。找到他们后，到伊西洛斯的荒原来见我。你应该首先寻找泰拉基翁，它位于合众的冠军之路深处的某个地方。祝你好运，训练家。",
+      "translation": "好吧，既然他让你来找我，那肯定是有原因的。除非你是来帮我重新集结圣剑士的？如果是这样，那么感谢你的帮助。找到它们后，到雪花湿地来见我。你应该先去找代拉基翁，它位于合众冠军之路深处的某个地方。祝你好运，训练家。",
       "line": 5265
     },
     "assets/images/pokemon/638.png": {
@@ -6679,7 +6679,7 @@
       "line": 5270
     },
     "How did you find me? Cobalion told me this place was well hidden! Anyways, what do you want from me? Cobalion wants to reunite the Swords of Justice? Do you think I'm dumb enough to fall for lies of a human?": {
-      "translation": "你是怎么找到我的？ 勾帕路翁 告诉我这个地方隐藏得很好！无论如何，你想从我这里得到什么？ 勾帕路翁想要让正义之剑重聚？你以为我傻到会被人类的谎言所欺骗吗？",
+      "translation": "你是怎么找到我的？勾帕路翁告诉我这个地方隐藏得很好！无论如何，你想从我这里得到什么？勾帕路翁想要让圣剑士重聚？你以为我傻到会被人类的谎言所欺骗吗？",
       "line": 5271
     },
     "I'll consider your worth only if you prove your strength and can beat me in battle!": {
@@ -6691,11 +6691,11 @@
       "line": 5274
     },
     "Thank you, $playername$. Your assistance with reuniting the Swords of Justice is greatly appreciated.": {
-      "translation": "谢谢你，$playername$。非常感谢你为重新统一正义之剑提供的帮助。",
+      "translation": "谢谢你，$playername$。非常感谢你为重新集结圣剑士提供的帮助。",
       "line": 5278
     },
     "Now that you've found and brought back Terrakion, you should probably look for Virizion. Virizion usually likes to meditate to the sound of nature, so Pinwheel Forest might be a good place to search in. Good luck, and report back once you've found each other.": {
-      "translation": "现在你已经找到并带回了 代拉基翁，你可能应该寻找 毕力吉翁。维里吉翁通常喜欢冥想大自然的声音，所以风车森林可能是一个搜索的好地方。祝你好运，找到对方后立即报告。",
+      "translation": "现在你已经找到并带回了代拉基翁，你可能应该寻找毕力吉翁。毕力吉翁通常喜欢冥想大自然的声音，所以矢车森林可能是一个搜索的好地方。祝你好运，找到对方后立即报告。",
       "line": 5279
     },
     "Virizion": {
@@ -6703,7 +6703,7 @@
       "line": 5284
     },
     "Hello, who are you, may I ask? You say you were sent here by Cobalion to reunite the Swords of Justice? I'm sorry dear, you'll have to create a much more believable lie to deceive me. I'm not so easily fooled.": {
-      "translation": "你好，请问你是谁？你说你是勾帕路翁派来这里重聚正义之剑的？对不起，亲爱的，你必须编造一个更可信的谎言来欺骗我。我没那么容易被骗。",
+      "translation": "你好，请问你是谁？你说你是勾帕路翁派来这里重聚圣剑士的？对不起，亲爱的，你必须编造一个更可信的谎言来欺骗我。我没那么容易被骗。",
       "line": 5285
     },
     "To earn my trust, you need to prove your patience to me. If you can gather 5,000 Grass Gems and bring them to me, then I'll trust your word. If you cannot handle such a task, do not return.": {
@@ -6715,11 +6715,11 @@
       "line": 5288
     },
     "Oh, you're back? And you've brought the 5,000 Grass Gems. I'm impressed. Very well, you've earned my trust. So, Cobalion wants us to meet at the Moor of Icirrus to reunite the Swords of Justice? Sounds just like the old Cobalion I remember. I'll make my way there now, you should come too. I'm sure your assistance is still desired.": {
-      "translation": "哦，你回来了？你还带来了5000颗草宝石。我印象深刻。很好，你赢得了我的信任。那么，勾帕路翁 希望我们在伊西鲁斯摩尔人会面，重新团结正义之剑？听起来就像我记忆中的旧 勾帕路翁。我现在就去那里，你也应该来。我确信仍然需要你的帮助。",
+      "translation": "哦，你回来了？你还带来了5000颗草宝石。我印象深刻。很好，你赢得了我的信任。那么，勾帕路翁希望我们在雪花湿地会合，重新集结圣剑士？听起来就像我记忆中的那个勾帕路翁。我现在就过去，你也一起来吧。我确信仍然需要你的帮助。",
       "line": 5292
     },
     "Welcome back, $playername$! I can see you've brought back Virizion. Thank you for your assistance towards reuniting the Swords of Justice.": {
-      "translation": "欢迎回来，$playername$！我看得出你已经带回了 毕力吉翁。感谢你为重新统一正义之剑提供的帮助。",
+      "translation": "欢迎回来，$playername$！我看得出你已经带回了毕力吉翁。感谢你为重新集结圣剑士提供的帮助。",
       "line": 5298
     },
     "Now, let's discuss the plan. Wait, you want to help too? You should know this will be a very dangerous mission, $playername$. We may not be able to fully protect you from the dangers we may face. The only way we can be sure of your safety is if you can hold your own against all three of us in battle. If you succeed, we will happily accept your assistance, but should you fail, then I apologise, but we cannot allow you to join the mission. What say you? Shall we spar?": {
@@ -6747,7 +6747,7 @@
       "line": 5329
     },
     "You were a great ally, $playername$. I feel it'd be a wise decision on my part if I joined your team, but that's a decision for you to make. If you decide you wish for me to join your team, you can look for me in the depths of Pinwheel Forest.": {
-      "translation": "你是一个伟大的盟友，$playername$。我觉得加入你的团队对我来说是一个明智的决定，但这是你的决定。如果你决定让我加入你的队伍，你可以在风车森林深处寻找我。",
+      "translation": "你是一个伟大的盟友，$playername$。我觉得加入你的团队对我来说是一个明智的决定，但这是你的决定。如果你决定让我加入你的队伍，你可以在矢车森林深处寻找我。",
       "line": 5335
     },
     "Investigate the P2 Laboratory": {
@@ -6811,7 +6811,7 @@
       "line": 5375
     },
     "It seems like this Dungeon's Genesect is choosing its Drive based on the Moon Cycle!": {
-      "translation": "看来这个迷宫的盖诺赛克特正在根据月球周期来选择驱动力！",
+      "translation": "看来这个迷宫的盖诺赛克特正在根据月相周期来选择驱动力！",
       "line": 5376
     },
     "Meanwhile the high-speed form races to different Dungeons all across Unova.": {
@@ -7035,7 +7035,7 @@
       "line": 5659
     },
     "Moor of Icirrus": {
-      "translation": "伊西洛斯的摩尔",
+      "translation": "雪花湿地",
       "line": 5660
     },
     "Floccesy Ranch": {
@@ -7127,7 +7127,7 @@
       "line": 5801
     },
     "Terrakion 1": {
-      "translation": "泰拉基翁1",
+      "translation": "代拉基翁1",
       "line": 5809
     },
     "Dragonspiral Tower": {
@@ -7135,7 +7135,7 @@
       "line": 5830
     },
     "Swords of Justice 1": {
-      "translation": "正义之剑1",
+      "translation": "圣剑士1",
       "line": 5847
     },
     "Dreamyard": {

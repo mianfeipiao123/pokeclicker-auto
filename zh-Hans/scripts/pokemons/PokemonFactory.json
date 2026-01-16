@@ -17,7 +17,7 @@
       "_confidence": 0.85
     },
     "You encountered a roaming ${...}!": {
-      "translation": "你遇到了徘徊的${...}！",
+      "translation": "你遇到了游走的${...}！",
       "line": 54,
       "_rematchedFrom": "You encountered a roaming ${...}!",
       "_confidence": 0.85
@@ -27,7 +27,7 @@
       "line": 114
     },
     "roaming": {
-      "translation": "徘徊",
+      "translation": "游走",
       "line": 265
     },
     "Griseous_Orb": {

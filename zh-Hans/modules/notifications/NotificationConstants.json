@@ -23,7 +23,7 @@
       "line": 13
     },
     "Shiny Pokémon encountered/hatched/wandering": {
-      "translation": "遇到/孵化/游荡的闪光宝可梦",
+      "translation": "遇到/孵化/来访的闪光宝可梦",
       "line": 13
     },
     "new_catch": {
@@ -35,11 +35,11 @@
       "line": 14
     },
     "roaming": {
-      "translation": "徘徊",
+      "translation": "游走",
       "line": 15
     },
     "Roaming Pokémon encountered": {
-      "translation": "遇到徘徊宝可梦",
+      "translation": "遇到游走宝可梦",
       "line": 15
     },
     "achievement": {
@@ -115,7 +115,7 @@
       "line": 27
     },
     "Hatchery queue is empty": {
-      "translation": "孵化场队列为空",
+      "translation": "孵化队列已空",
       "line": 27
     },
     "quest_ready_to_complete": {
@@ -171,11 +171,11 @@
       "line": 40
     },
     "wandering": {
-      "translation": "徘徊",
+      "translation": "来访",
       "line": 41
     },
     "Wandering Pokémon encountered": {
-      "translation": "遭遇游荡宝可梦",
+      "translation": "吸引到来访的宝可梦",
       "line": 41
     },
     "notification.encountered_shiny": {
@@ -187,11 +187,11 @@
       "line": 46
     },
     "notification.encountered_roaming": {
-      "translation": "遭遇徘徊宝可梦",
+      "translation": "遭遇游走宝可梦",
       "line": 47
     },
     "Encountered a roaming Pokémon": {
-      "translation": "遇到了徘徊的宝可梦",
+      "translation": "遇到了游走的宝可梦",
       "line": 47
     },
     "notification.quest_ready_to_complete": {
@@ -243,11 +243,11 @@
       "line": 54
     },
     "notification.battle_frontier": {
-      "translation": "战斗开拓区",
+      "translation": "对战开拓区",
       "line": 55
     },
     "notification.pokerus": {
-      "translation": "治愈宝可梦",
+      "translation": "宝可病毒痊愈",
       "line": 56
     },
     "notification.ready_to_hatch": {

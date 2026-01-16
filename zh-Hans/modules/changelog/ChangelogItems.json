@@ -359,7 +359,7 @@
       "line": 108
     },
     "Roaming Pokémon encounter rate on subregion routes has been adjusted": {
-      "translation": "分区路线的徘徊宝可梦遭遇率已调整",
+      "translation": "分区路线的游走宝可梦遭遇率已调整",
       "line": 109
     },
     "Number keys can now be used to select a save on the save selection menu": {
@@ -1163,7 +1163,7 @@
       "line": 374
     },
     "Adjusted wandering Pokémon on the Farm": {
-      "translation": "调整了农场里徘徊的宝可梦",
+      "translation": "调整了农场里游走的宝可梦",
       "line": 375
     },
     "Adjusted some fossil sizes in Underground": {
@@ -1363,7 +1363,7 @@
       "line": 451
     },
     "Base wandering Pokémon no longer award EVs": {
-      "translation": "基地徘徊的宝可梦不再奖励努力值",
+      "translation": "基地游走的宝可梦不再奖励努力值",
       "line": 452
     },
     "Starter not gaining Pokérus status": {
@@ -2043,7 +2043,7 @@
       "line": 692
     },
     "Roaming Pokémon encounters now use their own sound and notification": {
-      "translation": "徘徊宝可梦遭遇现在使用自己的声音和通知",
+      "translation": "游走宝可梦遭遇现在使用自己的声音和通知",
       "line": 693
     },
     "Experience gain has been rebalanced": {
@@ -3653,7 +3653,7 @@
       "line": 1177
     },
     "Doubled the chance of encountering uncaught Roaming Pokémon": {
-      "translation": "遇到未捕获的徘徊宝可梦的几率翻倍",
+      "translation": "遇到未捕获的游走宝可梦的几率翻倍",
       "line": 1178
     },
     "Save category filter in Hatchery upon reloading": {
@@ -4025,7 +4025,7 @@
       "line": 1287
     },
     "Roaming Pokémon chance of appearing is now based on route difficulty": {
-      "translation": "徘徊宝可梦的出现几率现在取决于路线难度",
+      "translation": "游走宝可梦的出现几率现在取决于路线难度",
       "line": 1288
     },
     "Doubled the chance of encountering uncaught Pokémon in the Safari Zone": {
@@ -4393,7 +4393,7 @@
       "line": 1388
     },
     "Some Roaming Pokémon will only appear after certain requirements have been met": {
-      "translation": "一些徘徊宝可梦只有在满足某些要求后才会出现",
+      "translation": "一些游走宝可梦只有在满足某些要求后才会出现",
       "line": 1389
     },
     "Some Dungeon Pokémon will only appear after certain requirements have been met": {

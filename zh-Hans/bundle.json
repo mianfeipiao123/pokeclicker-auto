@@ -1,10 +1,10 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-16T16:40:38.193Z",
+    "generatedAt": "2026-01-16T17:56:02.223Z",
     "sourceIndexVersion": "2.0.0",
     "fileCount": 421,
-    "entryCount": 15149,
-    "loadedEntries": 26076,
+    "entryCount": 15150,
+    "loadedEntries": 26077,
     "collisionKeyCount": 10792,
     "collisionEventCount": 10792,
     "valueConflictCount": 199,
@@ -7166,6 +7166,7 @@
     "It has a tendency to expand into nearby plots.": "它有扩展到附近地块的趋势。",
     "It has a tendency to overtake nearby plants.": "它有超越附近植物的趋势。",
     "It has a vibrant pink pigment, and it is found in such abundance on Pinkan Island that all Pokémon found there are colored Pink!": "它含有鲜艳的粉红色颜料，而且在平柑岛上极为常见，以至于那里的宝可梦都会呈粉红色！",
+    "It has been ${...} since your last save download. Would you like to download a backup now?": "距离你上次下载存档已经过去了${...}。现在要下载一份备份吗？",
     "It has been ${...} since your last save download. Would you like to download a backup now? <button class=\"btn btn-block btn-success\" onclick=\"Save.download()\" data-dismiss=\"toast\">Download Save</button>": "距离你上次下载存档备份已经过去了${...}。现在要下载一个备份吗？ <button class=\"btn btn-block btn-success\" onclick=\"Save.download()\" data-dismiss=\"toast\">下载存档</button>",
     "It has been said that Mewtwo can Mega Evolve. Search for clues on how to find its Mega Stones, so you can control this unrivaled power.": "据说超梦可以超级进化。寻找有关如何找到超级宝石的线索，这样你就可以控制这种无与伦比的力量。",
     "It has been spotted at some Lakes.": "人们在一些湖泊中发现了它。",

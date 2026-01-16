@@ -49,6 +49,10 @@
     "It has been ${...} since your last save download. Would you like to download a backup now? <button class=\"btn btn-block btn-success\" onclick=\"Save.download()\" data-dismiss=\"toast\">Download Save</button>": {
       "translation": "距离你上次下载存档备份已经过去了${...}。现在要下载一个备份吗？ <button class=\"btn btn-block btn-success\" onclick=\"Save.download()\" data-dismiss=\"toast\">下载存档</button>",
       "line": 39
+    },
+    "It has been ${...} since your last save download. Would you like to download a backup now?": {
+      "translation": "距离你上次下载存档已经过去了${...}。现在要下载一份备份吗？",
+      "line": 39
     }
   }
 }

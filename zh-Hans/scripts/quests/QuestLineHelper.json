@@ -2083,7 +2083,7 @@
       "line": 1377
     },
     "You have stumbled upon Zinzolin and a Team Plasma Grunt in Lacunosa Town. Defeat the grunt.": {
-      "translation": "你在拉库诺萨镇偶然发现了辛佐林和等离子队步兵。击败手下。",
+      "translation": "你在笼目镇偶然发现了辛佐林和等离子队步兵。击败手下。",
       "line": 1377
     },
     "Zinzolin 1": {
@@ -2131,7 +2131,7 @@
       "line": 1400
     },
     "Humilau City": {
-      "translation": "胡米劳市",
+      "translation": "青海波市",
       "line": 1404
     },
     "Plasma Frigate": {
@@ -2147,7 +2147,7 @@
       "line": 1412
     },
     "Team Plasma's leader Ghetsis plans on using the DNA Splicers on Kyurem in Giant Chasm. Clear the dungeon to end his evil plans.": {
-      "translation": "等离子队的老大魁奇思计划在巨型裂谷的酋雷姆身上使用基因之楔。通关迷宫以结束他的邪恶计划。",
+      "translation": "等离子队的老大魁奇思计划在巨人洞窟的酋雷姆身上使用基因之楔。通关迷宫以结束他的邪恶计划。",
       "line": 1412
     },
     "Talk to Colress on the Plasma Frigate.": {
@@ -2187,7 +2187,7 @@
       "line": 1431
     },
     "Ghetsis has done something to the legendary Dragon-type Pokémon inside Giant Chasm!": {
-      "translation": "魁奇思对巨大裂缝内的传说中的龙系宝可梦做了什么！",
+      "translation": "魁奇思对巨人洞窟内的传说中的龙系宝可梦做了什么！",
       "line": 1431
     },
     "Ghetsis 2": {
@@ -2207,7 +2207,7 @@
       "line": 1456
     },
     "There seems to be a big fuss about a new discovery in the Giant Chasm. Try finding it.": {
-      "translation": "巨大裂缝的新发现似乎引起了很大的轰动。尝试找到它。",
+      "translation": "巨人洞窟的新发现似乎引起了很大的轰动。尝试找到它。",
       "line": 1458
     },
     "You found a pulsating Green Gemstone. Take a closer look.": {
@@ -2239,7 +2239,7 @@
       "line": 1473
     },
     "The scientist you met at Giant Chasm is looking for you at the Battle Frontier.": {
-      "translation": "你在巨大裂缝遇到的科学家正在对战开拓区寻找你。",
+      "translation": "你在巨人洞窟遇到的科学家正在对战开拓区寻找你。",
       "line": 1476
     },
     "The generator isn't working. Look around for scraps to repair it.": {
@@ -2267,15 +2267,15 @@
       "line": 1498
     },
     "Talk to the Old Man in Mistralton Cave for clues on where the Swords of Justice are.": {
-      "translation": "与米斯特拉尔顿洞穴的老人交谈，寻找有关圣剑士所在位置的线索。",
+      "translation": "与吹寄洞穴的老人交谈，寻找有关圣剑士所在位置的线索。",
       "line": 1500
     },
     "Mistralton Cave": {
-      "translation": "米斯特拉尔顿洞穴",
+      "translation": "吹寄洞穴",
       "line": 1503
     },
     "Search around Mistralton Cave to see if you can find Cobalion, as the Old Man said.": {
-      "translation": "正如老人所说，在米斯特拉尔顿洞穴周围搜索，看看是否能找到勾帕路翁。",
+      "translation": "正如老人所说，在吹寄洞穴周围搜索，看看是否能找到勾帕路翁。",
       "line": 1503
     },
     "It looks like you've found Cobalion! Talk to them.": {
@@ -2287,7 +2287,7 @@
       "line": 1509
     },
     "Start reuniting the Swords of Justice once again. You should probably start looking for Terrakion around Unova's Victory Road.": {
-      "translation": "再次开始重新集结圣剑士。你或许应该开始在合众胜利路周围寻找代拉基翁。",
+      "translation": "再次开始重新集结圣剑士。你或许应该开始在合众冠军之路周围寻找代拉基翁。",
       "line": 1509
     },
     "You've found Terrakion! Talk to them about the reunion.": {
@@ -2339,7 +2339,7 @@
       "line": 1536
     },
     "Now that you've proven you're strong enough to help, take Cobalion's advice and search for Kyurem in the Giant Chasm.": {
-      "translation": "既然你已经证明自己有足够的力量来提供帮助，那就听从勾帕路翁的建议，在巨大裂缝中寻找酋雷姆吧。",
+      "translation": "既然你已经证明自己有足够的力量来提供帮助，那就听从勾帕路翁的建议，在巨人洞窟中寻找酋雷姆吧。",
       "line": 1539
     },
     "Report your findings to Cobalion at the Moor of Icirrus.": {
@@ -2351,7 +2351,7 @@
       "line": 1545
     },
     "Looks like Cobalion has seen Kyurem near Lacunosa Town. Go there and defeat Kyurem before it hurts any citizens.": {
-      "translation": "看起来勾帕路翁在拉库诺萨镇附近看到了酋雷姆。前往那里并在酋雷姆伤害任何公民之前击败它。",
+      "translation": "看起来勾帕路翁在笼目镇附近看到了酋雷姆。前往那里并在酋雷姆伤害任何公民之前击败它。",
       "line": 1545
     },
     "Seems like Kyurem has fled the town. You should talk to Cobalion while you're there.": {
@@ -2359,7 +2359,7 @@
       "line": 1548
     },
     "Kyurem is probably hiding in the Giant Chasm. Find its lair.": {
-      "translation": "酋雷姆很可能就藏在巨大裂缝中。找到它的巢穴。",
+      "translation": "酋雷姆很可能就藏在巨人洞窟中。找到它的巢穴。",
       "line": 1551
     },
     "Kyurem 2": {
@@ -2395,7 +2395,7 @@
       "line": 1565
     },
     "You've finally defeated Kyurem, sealing it within the Giant Chasm forever. Talk to the Swords of Justice in the Giant Chasm.": {
-      "translation": "你终于击败了酋雷姆，将其永远封印在巨大裂缝中。与巨大裂缝中的圣剑士交谈。",
+      "translation": "你终于击败了酋雷姆，将其永远封印在巨人洞窟中。与巨人洞窟中的圣剑士交谈。",
       "line": 1568
     },
     "Cobalion": {
@@ -2403,7 +2403,7 @@
       "line": 1571
     },
     "Capture the Leader of the Swords of Justice, Cobalion, in Mistralton Cave.": {
-      "translation": "在米斯特拉尔顿洞穴捕获圣剑士的领袖勾帕路翁。",
+      "translation": "在吹寄洞穴捕获圣剑士的领袖勾帕路翁。",
       "line": 1571
     },
     "Terrakion": {
@@ -2411,7 +2411,7 @@
       "line": 1572
     },
     "Capture the Toughest of the Swords of Justice, Terrakion, in Victory Road.": {
-      "translation": "在胜利之路捕获圣剑士中最坚韧的代拉基翁。",
+      "translation": "在冠军之路捕获圣剑士中最坚韧的代拉基翁。",
       "line": 1572
     },
     "Virizion": {

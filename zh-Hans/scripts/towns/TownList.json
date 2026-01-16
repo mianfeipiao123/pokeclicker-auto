@@ -4551,7 +4551,7 @@
       "line": 3254
     },
     "<i>Deep inside the Giant Chasm you find a Gemstone. It's moving, almost as if it was alive...</i>": {
-      "translation": "<i>在巨大裂缝深处，你发现了一颗宝石。它在移动，几乎就像它是活的...</i>",
+      "translation": "<i>在巨人洞窟深处，你发现了一颗宝石。它在移动，几乎就像它是活的...</i>",
       "line": 3255
     },
     "<i>As you decide to pick up the stone you hear a roar, followed by an explosion in the distance.</i>": {
@@ -4579,11 +4579,11 @@
       "line": 3263
     },
     "It's truly spectacular... We're going to move the gemstone to our laboratory in Hoenn. If you like you can come with us, our lab is near the Battle Frontier. While we analyze the Gemstone you can use the local facilities.": {
-      "translation": "这真是太壮观了……我们要把宝石搬到丰缘的实验室。如果你愿意的话可以跟我们一起去，我们的实验室就在战争边境附近。当我们分析宝石时，你可以使用当地的设施。",
+      "translation": "这真是太壮观了……我们要把宝石搬到丰缘的实验室。如果你愿意的话可以跟我们一起去，我们的实验室就在对战开拓区附近。当我们分析宝石时，你可以使用当地的设施。",
       "line": 3264
     },
     "You have certainly noticed but one of the Pokémon you've fought at the Giant Chasm is invading this town.": {
-      "translation": "你肯定已经注意到，你在巨大裂缝中战斗过的宝可梦之一正在入侵这个城镇。",
+      "translation": "你肯定已经注意到，你在巨人洞窟中战斗过的宝可梦之一正在入侵这个城镇。",
       "line": 3271
     },
     "The charts on the gemstone analysis were off the charts while you were fighting. We are this close to solving the mystery.": {
@@ -6651,7 +6651,7 @@
       "line": 5257
     },
     "It usually lurks around the deepest layers of Mistralton Cave so you might be able to find it by exploring around here.": {
-      "translation": "它通常潜伏在米斯特拉尔顿洞穴的最深处，因此你可以通过在这里探索来找到它。",
+      "translation": "它通常潜伏在吹寄洞穴的最深处，因此你可以通过在这里探索来找到它。",
       "line": 5258
     },
     "Swords of Justice": {
@@ -6727,11 +6727,11 @@
       "line": 5299
     },
     "Greetings, $playername$. I assume you couldn't find much, but I was able to find that Kyurem has been seen near Lacunosa Town. We should check it out immediately, before it decides to attack. You go ahead, I'll warn the others.": {
-      "translation": "你好，$playername$。我猜你找不到太多，但我发现酋雷姆在拉库诺萨镇附近出现过。我们应该在它决定攻击之前立即检查它。你先走吧，我会警告其他人的。",
+      "translation": "你好，$playername$。我猜你找不到太多，但我发现酋雷姆在笼目镇附近出现过。我们应该在它决定攻击之前立即检查它。你先走吧，我会警告其他人的。",
       "line": 5305
     },
     "Hey, $playername$. It's not your fault Kyurem fled, but I'm thinking it has probably gone into hiding. We should search the Giant Chasm for its lair at once.": {
-      "translation": "嘿，$playername$。酋雷姆逃跑不是你的错，但我想它可能已经躲起来了。我们应该立即在巨大裂缝中寻找它的巢穴。",
+      "translation": "嘿，$playername$。酋雷姆逃跑不是你的错，但我想它可能已经躲起来了。我们应该立即在巨人洞窟中寻找它的巢穴。",
       "line": 5311
     },
     "$playername$... Don't worry about us... We'll be fine... Defeat Kyurem once and for all so we can live in peace.": {
@@ -6739,7 +6739,7 @@
       "line": 5317
     },
     "Thank you for all your help, $playername$. You really were a great ally, and I hope we can meet again. As thanks for helping us, I'll be waiting for you in Mistralton Cave if you'd wish for me to join your team.": {
-      "translation": "感谢你的帮助，$playername$。你真是一位伟大的盟友，我希望我们能再次见面。为了感谢你对我们的帮助，如果你希望我加入你的团队，我会在米斯特拉尔顿洞穴等你。",
+      "translation": "感谢你的帮助，$playername$。你真是一位伟大的盟友，我希望我们能再次见面。为了感谢你对我们的帮助，如果你希望我加入你的团队，我会在吹寄洞穴等你。",
       "line": 5323
     },
     "Hey, you were a really great partner! It was really nice doing this mission with you, and you seem like a strong trainer, so if you want me to join your team, I'll be waiting at Victory Road!": {
@@ -6819,11 +6819,11 @@
       "line": 5377
     },
     "Aspertia City": {
-      "translation": "阿斯佩蒂亚市",
+      "translation": "桧扇市",
       "line": 5383
     },
     "Floccesy Town": {
-      "translation": "絮镇",
+      "translation": "算木镇",
       "line": 5393
     },
     "Hugh 1": {
@@ -6831,7 +6831,7 @@
       "line": 5401
     },
     "Virbank City": {
-      "translation": "维尔班克市",
+      "translation": "立涌市",
       "line": 5405
     },
     "Team Plasma Grunt 1": {
@@ -6875,7 +6875,7 @@
       "line": 5466
     },
     "Mistralton City": {
-      "translation": "米斯特拉尔顿市",
+      "translation": "吹寄市",
       "line": 5479
     },
     "Chargestone Cave": {
@@ -6887,11 +6887,11 @@
       "line": 5487
     },
     "Lentimas Town": {
-      "translation": "伦蒂马斯镇",
+      "translation": "山路镇",
       "line": 5492
     },
     "Undella Town": {
-      "translation": "安德拉镇",
+      "translation": "涟漪镇",
       "line": 5501
     },
     "Reversal Mountain": {
@@ -6899,7 +6899,7 @@
       "line": 5507
     },
     "Lacunosa Town": {
-      "translation": "拉库诺萨镇",
+      "translation": "笼目镇",
       "line": 5510
     },
     "Team Plasma Grunt 6": {
@@ -6943,7 +6943,7 @@
       "line": 5545
     },
     "Humilau City": {
-      "translation": "胡米劳市",
+      "translation": "青海波市",
       "line": 5554
     },
     "Icirrus City": {
@@ -6959,15 +6959,15 @@
       "line": 5577
     },
     "Nacrene City": {
-      "translation": "纳克伦市",
+      "translation": "七宝市",
       "line": 5593
     },
     "FossilNacreneMuseum": {
-      "translation": "化石珍珠母博物馆",
+      "translation": "七宝博物馆（化石）",
       "line": 5597
     },
     "Nacrene Museum": {
-      "translation": "珍珠博物馆",
+      "translation": "七宝博物馆",
       "line": 5597
     },
     "Pinwheel Forest": {
@@ -6975,15 +6975,15 @@
       "line": 5599
     },
     "Striaton City": {
-      "translation": "斯特里亚顿市",
+      "translation": "三曜市",
       "line": 5603
     },
     "Accumula Town": {
-      "translation": "阿卡穆拉镇",
+      "translation": "唐草镇",
       "line": 5612
     },
     "Nuvema Town": {
-      "translation": "努韦马镇",
+      "translation": "鹿子镇",
       "line": 5621
     },
     "Lab Ambush": {
@@ -7027,7 +7027,7 @@
       "line": 5648
     },
     "Pledge Grove": {
-      "translation": "普莱奇格罗夫",
+      "translation": "誓约之林",
       "line": 5654
     },
     "Keldeo": {
@@ -7039,7 +7039,7 @@
       "line": 5660
     },
     "Floccesy Ranch": {
-      "translation": "絮状牧场",
+      "translation": "算木牧场",
       "line": 5663
     },
     "Hugh 2": {
@@ -7071,7 +7071,7 @@
       "line": 5707
     },
     "Mistralton Cave": {
-      "translation": "米斯特拉尔顿洞穴",
+      "translation": "吹寄洞穴",
       "line": 5719
     },
     "Celestial Tower": {
@@ -7591,7 +7591,7 @@
       "line": 6184
     },
     "Ever since growing old I'm no longer the Pokémon Trainer that I used to be. Now I always like to keep my garden full of Kasib Berries.": {
-      "translation": "自从老了之后，我就不再是以前的宝可梦训练家了。现在我总是喜欢让我的花园种满卡西布树果。",
+      "translation": "自从老了之后，我就不再是以前的宝可梦训练家了。现在我总是喜欢让我的花园种满佛柑果。",
       "line": 6185
     },
     "One day, I forgot to harvest them, and within its withered husk, I found a small stone that enabled my Banette to perform a Mega Evolution.": {
@@ -9177,7 +9177,7 @@
       "line": 7163
     },
     "Care for a Poipole? It only costs a few thousand Quest Points!": {
-      "translation": "照顾 Poipole 吗？只需要几千任务点！",
+      "translation": "照顾毒贝比吗？只需要几千任务点！",
       "line": 7164
     },
     "assets/images/npcs/specialNPCs/Ultra Recon Squad (all).png": {

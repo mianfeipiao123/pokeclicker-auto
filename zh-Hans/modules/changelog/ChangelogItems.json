@@ -467,7 +467,7 @@
       "line": 139
     },
     "Effect of Petaya berry will be shown with altered berry growth times": {
-      "translation": "改变树果生长时间将显示番石榴树果的效果",
+      "translation": "改变树果生长时间时会显示龙火果的效果",
       "line": 140
     },
     "Miscellaneous text changes": {
@@ -2039,7 +2039,7 @@
       "line": 691
     },
     "Buffed Diglett's cave": {
-      "translation": "抛光迪格利特的洞穴",
+      "translation": "增强了地鼠洞穴",
       "line": 692
     },
     "Roaming Pokémon encounters now use their own sound and notification": {
@@ -2987,7 +2987,7 @@
       "line": 971
     },
     "Buffed Pledge Grove": {
-      "translation": "抛光的承诺格罗夫",
+      "translation": "增强了誓约之林",
       "line": 972
     },
     "Decrease shop multiplier when fighting Trainers/Gyms/Elite 4": {
@@ -3561,7 +3561,7 @@
       "line": 1146
     },
     "Babiri berry removed from Enigma pool": {
-      "translation": "巴比里树果从恩尼格玛池中移除",
+      "translation": "霹霹果已从谜芝果池中移除",
       "line": 1147
     },
     "v0.6.9": {
@@ -3577,11 +3577,11 @@
       "line": 1152
     },
     "Buffed Babiri berry effect": {
-      "translation": "抛光巴比里树果效果",
+      "translation": "增强了霹霹果效果",
       "line": 1153
     },
     "Buffed Enigma berry": {
-      "translation": "抛光恩尼格玛树果",
+      "translation": "增强了谜芝果效果",
       "line": 1154
     },
     "Buffed Farm wandering Pokémon rate": {
@@ -3589,11 +3589,11 @@
       "line": 1155
     },
     "Updated Petaya berry effect": {
-      "translation": "更新了 Petaya 树果效果",
+      "translation": "更新了龙火果效果",
       "line": 1156
     },
     "Updated Kasib berry effect": {
-      "translation": "更新了卡西布树果效果",
+      "translation": "更新了佛柑果效果",
       "line": 1157
     },
     "Added hints for more berries": {
@@ -3605,7 +3605,7 @@
       "line": 1159
     },
     "Buffed egg steps for baby Pokémon": {
-      "translation": "宝可梦宝宝的抛光蛋步",
+      "translation": "优化了宝宝宝可梦的孵化步数",
       "line": 1160
     },
     "Nerfed egg steps for evolved Pokémon forms": {

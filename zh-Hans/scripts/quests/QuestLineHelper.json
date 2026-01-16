@@ -1197,11 +1197,11 @@
       "line": 847
     },
     "Gain 10 Pixie Plates": {
-      "translation": "获得10个精灵板",
+      "translation": "获得10个妖精石板",
       "line": 853
     },
     "Collect Fairy Gems and Pixie Plates": {
-      "translation": "收集仙女宝石和妖精石板",
+      "translation": "收集妖精宝石和妖精石板",
       "line": 854
     },
     "Talk to Team Rocket on Pinkan Island to open the theme park!": {
@@ -1341,7 +1341,7 @@
       "line": 951
     },
     "Meta Groudon": {
-      "translation": "Meta固拉多",
+      "translation": "机械固拉多",
       "line": 954
     },
     "Butler's attempts to resurrect Groudon have gone terribly wrong! Fight the resulting abomination!": {
@@ -1389,7 +1389,7 @@
       "line": 987
     },
     "Butler has revived Meta Groudon at Mt. Chimney Crater. Catch Meta Groudon.": {
-      "translation": "巴特勒在烟囱火山口复活了​​梅塔·固拉多。抓住梅塔·固拉多。",
+      "translation": "巴特勒在烟囱火山口复活了机械固拉多。捕捉机械固拉多。",
       "line": 990
     },
     "Shadows in the Desert": {
@@ -2755,7 +2755,7 @@
       "line": 1759
     },
     "End Team Flare's plan to destroy the world and create a new one in its place.": {
-      "translation": "结束耀焰队毁灭世界并创造一个新世界的计划。",
+      "translation": "结束闪焰队毁灭世界并创造一个新世界的计划。",
       "line": 1759
     },
     "Talk to Lysandre inside Professor Sycamore's lab in Lumiose City.": {
@@ -2779,23 +2779,23 @@
       "line": 1770
     },
     "What's this? Well, well. What do we have here? A nosy little trainer has come poking around. Listen up! We're the fashionable team whose very name makes people tremble in fear: Team Flare! Team Flare's goal is to make it so we're the only ones who are happy! We don't care one bit about what happens to other trainers or Pokémon. Get out of here, kid. Don't you know not to play with fire? We'll obliterate you!": {
-      "translation": "这是什么？好吧，好吧。我们这里有什么？一个爱管闲事的小训练家过来闲逛。听着！我们是一支名字让人心惊胆战的时尚队伍：Team Flare！ Team Flare 的目标是让我们成为唯一快乐的人！我们一点也不关心其他训练家或宝可梦发生了什么。离开这里，孩子。难道你不知道不要玩火吗？我们会消灭你！",
+      "translation": "这是什么？哼哼。我们这儿来了个爱管闲事的小训练家啊。听好了！我们就是那支名字足以让人闻风丧胆的时尚组织——闪焰队！闪焰队的目标是让只有我们才会幸福！我们才不在乎其他训练家或宝可梦会怎样。滚开，小鬼。没听说过别玩火吗？我们会把你碾碎！",
       "line": 1772
     },
     "Team Flare Grunt": {
-      "translation": "闪焰队步兵",
+      "translation": "闪焰队手下",
       "line": 1773
     },
     "Team Flare Grunt (male)": {
-      "translation": "闪焰队步兵（男）",
+      "translation": "闪焰队手下（男）",
       "line": 1774
     },
     "Team Flare Grunt 1": {
-      "translation": "闪焰队步兵1",
+      "translation": "闪焰队手下 1",
       "line": 1778
     },
     "It seems that Team Flare Grunt is holding the scientist captive, free him!": {
-      "translation": "看来耀斑步兵队正在囚禁这位科学家，快释放他！",
+      "translation": "看来闪焰队手下挟持了这位研究员，快救他出来！",
       "line": 1778
     },
     "Sail_fossil": {
@@ -2813,7 +2813,7 @@
       "_confidence": 0.85
     },
     "From what you gathered, Team Flare wanted to sell fossils for money. Talk with the fossil scientist you just rescued in Glittering Cave.": {
-      "translation": "根据你收集的信息，耀斑团队想要出售化石换取金钱。与你刚刚在异色洞穴中救出的化石科学家交谈。",
+      "translation": "根据你收集到的线索，闪焰队打算把化石卖钱。去闪耀洞窟找你刚救出来的化石研究员谈谈。",
       "line": 1795
     },
     "Cyllage City": {
@@ -2821,19 +2821,19 @@
       "line": 1798
     },
     "With interesting thoughts about Team Flare in your head, you decide to challenge the Cyllage City Gym to become stronger.": {
-      "translation": "脑海中浮现出关于耀焰队的有趣想法，你决定挑战遥香市道馆，让自己变得更强。",
+      "translation": "脑海中浮现出关于闪焰队的想法，你决定挑战遥香市道馆，让自己变得更强。",
       "line": 1799
     },
     "You can see in Geosenge Town the Team Flare Grunt you battled earlier. Approach him once more.": {
-      "translation": "你可以在石香镇看到你之前战斗过的团队异色步兵。再一次靠近他。",
+      "translation": "你可以在石香镇看到你之前对战过的闪焰队手下。再去找他一次。",
       "line": 1802
     },
     "Team Flare Grunt 2": {
-      "translation": "闪焰队步兵2",
+      "translation": "闪焰队手下 2",
       "line": 1805
     },
     "Beat the Team Flare Grunt once more!": {
-      "translation": "再次击败火焰队步兵！",
+      "translation": "再次击败闪焰队手下！",
       "line": 1805
     },
     "You heard rumors of Diantha being in Coumarine City. Go there to check if you can see her.": {
@@ -2849,7 +2849,7 @@
       "line": 1814
     },
     "Team Flare Aliana": {
-      "translation": "火焰队阿莉安娜",
+      "translation": "闪焰队阿莉安娜",
       "line": 1814
     },
     "Well, that was extremely awkward... But ignoring that, Lumiose City still hasn't fixed the power outage, go clear the Kalos Power Plant.": {
@@ -2933,7 +2933,7 @@
       "line": 1870
     },
     "Team Flare Lysandre 1": {
-      "translation": "闪电队弗拉达利1",
+      "translation": "闪焰队弗拉达利 1",
       "line": 1873
     },
     "Show Team Flare Lysandre the strength of your convictions in Lumiose City!": {
@@ -2945,11 +2945,11 @@
       "line": 1876
     },
     "Team Flare Xerosic": {
-      "translation": "团队 Flare Xerosic",
+      "translation": "闪焰队克赛洛西奇",
       "line": 1879
     },
     "Now that you learnt what the ultimate weapon is able to do, you need to stop it. Team Flare Xerosic is in the way in Lumiose City, defeat him!": {
-      "translation": "现在你已经了解了终极武器的威力，你需要阻止它。Xerosic 在密阿雷市挡路，击败他！",
+      "translation": "现在你已经了解了终极武器的威力，你需要阻止它。克赛洛西奇在密阿雷市挡住了去路，击败他！",
       "line": 1879
     },
     "Press the blue button!": {
@@ -2961,7 +2961,7 @@
       "line": 1883
     },
     "Xerosic offers you the possibility to stop the ultimate weapon in Lumiose City. Blue or Red Button, press one!": {
-      "translation": "Xerosic 为你提供了阻止密阿雷市终极武器的可能性。蓝色或红色按钮，按一个！",
+      "translation": "克赛洛西奇为你提供了阻止密阿雷市终极武器的可能性。蓝色或红色按钮，按一个！",
       "line": 1888
     },
     "Team Flare Secret HQ": {
@@ -2969,27 +2969,27 @@
       "line": 1890
     },
     "The ultimate weapon was activated in Geosenge Town! Go to the Team Flare Secret HQ to put a stop to it! First step: Beating Team Flare Aliana.": {
-      "translation": "终极武器在石香镇启动！前往耀斑小队秘密总部阻止它！第一步：击败 Flare Aliana 队。",
+      "translation": "终极武器在石香镇启动！前往闪焰队秘密总部阻止它！第一步：击败闪焰队干部阿莉安娜。",
       "line": 1890
     },
     "I had fun at the Kalos Power Plant. Of course, we could have generated electricity with Team Flare's technology, too, you know. We just didn't think it justified the cost. To create a world for us and us alone, we have to play it smart, you see.": {
-      "translation": "我在卡洛斯发电厂玩得很开心。当然，我们也可以利用 Flare 团队的技术来发电，你知道的。我们只是认为这不值得付出代价。你看，为了为我们自己创造一个世界，我们必须聪明地行事。",
+      "translation": "我在卡洛斯发电厂玩得很开心。当然，我们也可以利用闪焰队的技术来发电，你知道的。我们只是认为这不值得付出代价。你看，为了为我们自己创造一个世界，我们必须聪明地行事。",
       "line": 1892
     },
     "Continue traversing through the Team Flare Secret HQ! Second step: Beating Team Flare Celosia.": {
-      "translation": "继续穿越耀斑小队的秘密总部！第二步：击败 Flare Celosia 队。",
+      "translation": "继续在闪焰队秘密总部前进！第二步：击败闪焰队干部塞洛西娅。",
       "line": 1898
     },
     "In reality, those stones that line Route 10 are the graves of Pokémon. When the ultimate weapon was used to end that horrible war over 3,000 years ago, it stole the lives of all those Pokémon. Their lives were the price of peace then. And if we want to make our own wishes come true today, we in Team Flare also have to sacrifice something precious.": {
-      "translation": "事实上，10号道路两旁的那些石头是宝可梦的坟墓。当终极武器被用来结束3000多年前那场可怕的战争时，它夺走了所有宝可梦的生命。他们的生命是当时和平的代价。而今天，如果我们想要实现自己的愿望，我们耀焰战队也必须牺牲一些宝贵的东西。",
+      "translation": "事实上，10号道路两旁的那些石头是宝可梦的坟墓。当终极武器被用来结束3000多年前那场可怕的战争时，它夺走了所有那些宝可梦的生命。它们的生命就是当时和平的代价。而今天，如果我们想要实现自己的愿望，我们闪焰队也必须牺牲一些宝贵的东西。",
       "line": 1900
     },
     "Team Flare Celosia": {
-      "translation": "闪焰队鸡冠花",
+      "translation": "闪焰队塞洛西娅",
       "line": 1901
     },
     "You should be halfway through. Go further in the Team Flare Secret HQ! Third step: Beating Team Flare Bryony.": {
-      "translation": "你应该已经完成​​一半了。在 Team Flare 秘密总部走得更远！第三步：击败 Flare Bryony 队。",
+      "translation": "你应该已经完成一半了。继续在闪焰队秘密总部前进！第三步：击败闪焰队干部布里奥尼。",
       "line": 1906
     },
     "We've been using the electricity we stole from the Power Plant to get everything prepared for activating the ultimate weapon. But it's not like that's all we'll need to use it. Are you following me? We'll need energy absorbed from Pokémon to power the device! Yes! It's the stones on Route 10 that will steal that energy for us and power the ultimate weapon.": {
@@ -2997,7 +2997,7 @@
       "line": 1908
     },
     "You are getting close. Resume delving into the Team Flare Secret HQ! Fourth step: Beating Team Flare Mable.": {
-      "translation": "你正在接近。继续深入研究闪焰队的秘密总部！第四步：击败 Flare Mable 团队。",
+      "translation": "你正在接近。继续深入闪焰队秘密总部！第四步：击败闪焰队干部梅布尔。",
       "line": 1914
     },
     "The power of the Legendary Pokémon... The power to grant life to all around it... The power to steal life from all around it... It's a mysterious ability that even scientists like us haven't been able to really decode. What d'you think will happen to the world if we fuel the ultimate weapon with something like that?": {
@@ -3005,7 +3005,7 @@
       "line": 1916
     },
     "You are almost there! One more time traversing through the Team Flare Secret HQ and you'll get to the end! Fifth step: Beating Team Flare Lysandre.": {
-      "translation": "你快到了！再穿越一次耀斑小队秘密总部，你就会到达终点！第五步：击败 Flare 弗拉达利 队。",
+      "translation": "你快到了！再穿越一次闪焰队秘密总部，你就会到达终点！第五步：击败闪焰队首领弗拉达利。",
       "line": 1922
     },
     "This is it, you've beaten Lysandre at the top of his game in Team Flare Secret HQ, right? He might have something else to say...": {
@@ -3029,19 +3029,19 @@
       "line": 1929
     },
     "You go to the lowest level of the Team Flare Secret HQ as Lysandre told you to. There you find Xerneas and Yveltal fighting each other! Fight them yourself and calm them down!": {
-      "translation": "按照弗拉达利的指示，你前往耀斑团队秘密总部的最底层。在那里你会发现哲尔尼亚斯和伊裴尔塔尔正在互相战斗！亲自与他们战斗并让他们平静下来！",
+      "translation": "按照弗拉达利的指示，你前往闪焰队秘密总部的最底层。在那里你会发现哲尔尼亚斯和伊裴尔塔尔正在互相战斗！亲自与它们对战，让它们冷静下来！",
       "line": 1934
     },
     "Lysandre appears menacingly in front of you in Team Flare Secret HQ. He doesn't seem fazed about you subsiding both legendary Pokémon.": {
-      "translation": "弗拉达利（弗拉达利）威胁性地出现在耀斑小队秘密总部的你面前。他似乎并不担心你资助两只传奇宝可梦。",
+      "translation": "弗拉达利在闪焰队秘密总部威胁性地出现在你面前。他似乎并不担心你安抚了两只传奇宝可梦。",
       "line": 1936
     },
     "Team Flare Boss Lysandre 1": {
-      "translation": "闪焰队 Boss 弗拉达利1",
+      "translation": "闪焰队老大弗拉达利 1",
       "line": 1939
     },
     "Stop Team Flare Boss Lysandre in Team Flare Secret HQ once and for all!!": {
-      "translation": "在Team Flare秘密总部一劳永逸地阻止Team Flare Boss 弗拉达利！",
+      "translation": "在闪焰队秘密总部一劳永逸地阻止闪焰队首领弗拉达利！",
       "line": 1939
     },
     "Champion Diantha": {
@@ -3757,7 +3757,7 @@
       "line": 2358
     },
     "Diancie needs help building a Heart Diamond to stabilize the Diamond Domain. Gather some Fairy Gems for her.": {
-      "translation": "蒂安希需要帮助建造一颗心形钻石来稳定钻石领域。为她收集一些仙女宝石。",
+      "translation": "蒂安希需要帮助建造一颗心形钻石来稳定钻石领域。为她收集一些妖精宝石。",
       "line": 2361
     },
     "Talk to Princess Diancie in Shalour City.": {

@@ -3681,7 +3681,7 @@
       "line": 1186
     },
     "Fix Quickball on routes with less than 10 kills": {
-      "translation": "修复击杀人数少于10人的路线上的 Quickball",
+      "translation": "修复击败数少于10的路线上的先机球",
       "line": 1187
     },
     "v0.6.6": {

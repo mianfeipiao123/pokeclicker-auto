@@ -52,7 +52,7 @@
       "line": 24
     },
     "__userscript.demix.replacements": {
-      "translation": "图鉴=Pokédex\n神奇币=Poké Coins\n宝可币=Poké Coins\n宝可元=Pokédollars\n超极巨化=Gigantamax\n无极巨化=Eternamax\n暗影=Shadow\n粉红=Pinkan\n胆噬虫=Wimpod",
+      "translation": "图鉴=Pokédex\n神奇币=Poké Coins\n宝可币=Poké Coins\n宝可元=Pokédollars\n超极巨化=Gigantamax\n无极巨化=Eternamax\n暗影=Shadow\n粉红=Pinkan\n胆小虫=Wimpod",
       "line": 25
     },
     "__userscript.type.None": {

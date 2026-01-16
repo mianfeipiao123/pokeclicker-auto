@@ -1413,11 +1413,11 @@
       "line": 1003
     },
     "Folly": {
-      "translation": "蠢事",
+      "translation": "福利",
       "line": 1006
     },
     "Fight Folly the Shady Guy in Phenac City": {
-      "translation": "在菲纳克市与阴暗家伙愚人作战",
+      "translation": "在菲纳克市与阴暗家伙福利作战",
       "line": 1006
     },
     "You can now start catching Shadow Pokémon!<br/><br/>A \"New Shadow\" filter has been added to your list, be sure to select a Poké Ball and move it to the desired position!": {
@@ -1521,15 +1521,15 @@
       "line": 1066
     },
     "Cipher Peon Doven": {
-      "translation": "密码 Peon Doven",
+      "translation": "暗影密码兵多文",
       "line": 1067
     },
     "Cipher Peon Silton": {
-      "translation": "密码·佩恩·西尔顿",
+      "translation": "暗影密码兵西尔顿",
       "line": 1068
     },
     "Cipher Peon Kass": {
-      "translation": "密码 Peon Kass",
+      "translation": "暗影密码兵卡斯",
       "line": 1069
     },
     "Relic Cave": {
@@ -1561,7 +1561,7 @@
       "line": 1082
     },
     "Cipher Admin Dakim": {
-      "translation": "密码管理员达基姆",
+      "translation": "暗影密码团干部 达基姆",
       "line": 1083
     },
     "Discuss your next move with Rui at Mt. Battle.": {
@@ -1581,11 +1581,11 @@
       "line": 1092
     },
     "Venus": {
-      "translation": "金星",
+      "translation": "维纳斯",
       "line": 1093
     },
     "Cipher Admin Venus": {
-      "translation": "密码管理员维纳斯",
+      "translation": "暗影密码团干部 维纳斯",
       "line": 1094
     },
     "Search Venus' Studio in the Under for clues.": {
@@ -1593,11 +1593,11 @@
       "line": 1098
     },
     "Cipher Lab": {
-      "translation": "密码实验室",
+      "translation": "暗影密码团实验室",
       "line": 1101
     },
     "Follow the secret tunnel to the Cipher Lab and clear out the enemies.": {
-      "translation": "沿着秘密隧道前往密码实验室并击败敌人。",
+      "translation": "沿着秘密隧道前往暗影密码团实验室并击败敌人。",
       "line": 1101
     },
     "Humph! Your struggle to get here was all in vain! The Shadow Pokémon we produced have already been moved elsewhere. And that, of course, includes the ultimate Shadow Pokémon I created for the boss! Wahahahah!": {
@@ -1609,7 +1609,7 @@
       "line": 1104
     },
     "Cipher Admin Ein": {
-      "translation": "密码管理员",
+      "translation": "暗影密码团干部 艾因",
       "line": 1105
     },
     "Realgam Tower Battles": {
@@ -1617,7 +1617,7 @@
       "line": 1109
     },
     "Team Cipher has taken over Realgam Tower! Fight to kick them out!": {
-      "translation": "暗影密码 队已经占领 Realgam Tower！奋力将他们赶出去！",
+      "translation": "暗影密码团已经占领 Realgam Tower！奋力将他们赶出去！",
       "line": 1109
     },
     "From the top of Realgam Tower, you see Mayor Es Cade. Go ask him for help.": {
@@ -1629,7 +1629,7 @@
       "line": 1115
     },
     "Team Cipher's leaders have holed up in the Realgam Colosseum. Fight them to end this once and for all!": {
-      "translation": "暗影密码 团队的领导者躲藏在 Realgam 竞技场中。与他们战斗，一劳永逸地结束这一切！",
+      "translation": "暗影密码团的领导者躲藏在 Realgam 竞技场中。与他们战斗，一劳永逸地结束这一切！",
       "line": 1115
     },
     "Just when you have him cornered, Evice calls in a helicopter. Watch him escape the Realgam Colosseum.": {
@@ -2075,7 +2075,7 @@
       "line": 1371
     },
     "The Frigate is gone. Nothing to do but move forward. Clear route 13.": {
-      "translation": "护卫舰不见了。没有什么可做的，只能继续前进。畅通13号道路。",
+      "translation": "护卫舰不见了。没有什么可做的，只能继续前进。通关13号道路。",
       "line": 1374
     },
     "Team Plasma Grunt 6": {
@@ -2515,11 +2515,11 @@
       "line": 1625
     },
     "Cipher Peon Naps": {
-      "translation": "密码苦工小睡",
+      "translation": "暗影密码兵纳普斯",
       "line": 1628
     },
     "Fight the Cipher Peons attacking the Pokémon HQ Lab.": {
-      "translation": "与攻击宝可梦总部实验室的密码苦工战斗。",
+      "translation": "与袭击宝可梦总部实验室的暗影密码兵战斗。",
       "line": 1628
     },
     "Gateon Port Battles": {
@@ -2527,7 +2527,7 @@
       "line": 1631
     },
     "Clear Gateon Port to search for the Cipher Peons who kidnapped Professor Krane.": {
-      "translation": "清理盖顿港，寻找绑架克兰博士的密码队手下。",
+      "translation": "清理盖顿港，寻找绑架克兰博士的暗影密码团手下。",
       "line": 1631
     },
     "Cipher? Nah, I don't play with those punks. I'm my own man, flying solo. No, I won't say where I got this Zangoose.": {
@@ -2563,7 +2563,7 @@
       "line": 1648
     },
     "Wow, you've got some strong Pokémon! You might be able to beat Team Cipher! I heard they re-activated their operations at the Cipher Lab.": {
-      "translation": "哇，你有一些强大的宝可梦！你也许能够击败暗影密码团！我听说他们重新启动了密码实验室的运作。",
+      "translation": "哇，你有一些强大的宝可梦！你也许能够击败暗影密码团！我听说他们重新启动了暗影密码团实验室的运作。",
       "line": 1650
     },
     "Vander": {
@@ -2575,15 +2575,15 @@
       "line": 1652
     },
     "Cipher Admin Lovrina": {
-      "translation": "密码管理员洛夫里纳",
+      "translation": "暗影密码团干部 洛夫里纳",
       "line": 1656
     },
     "Track down the new boss of the Cipher Lab.": {
-      "translation": "追踪密码实验室的新老板。",
+      "translation": "追踪暗影密码团实验室的新老板。",
       "line": 1656
     },
     "Talk to Cipher Admin Lovrina at the Cipher Lab.": {
-      "translation": "与密码实验室的密码管理员 Lovrina 交谈。",
+      "translation": "与暗影密码团实验室的暗影密码团干部 洛夫里纳交谈。",
       "line": 1659
     },
     "Pyrite Town is in chaos! Battle your way through to get some answers.": {
@@ -2591,7 +2591,7 @@
       "line": 1662
     },
     "This is Marcia live on the scene! Chaos in Pyrite Town as Team Cipher has returned! Rumors are swirling about an infamous dance machine making a scene!": {
-      "translation": "这是现场的玛西娅！密码队归来，黄铁矿镇一片混乱！关于臭名昭著的舞蹈机器大闹的谣言四起！",
+      "translation": "这是现场的玛西娅！暗影密码团归来，黄铁矿镇一片混乱！关于臭名昭著的舞蹈机器大闹的谣言四起！",
       "line": 1664
     },
     "Marcia": {
@@ -2611,7 +2611,7 @@
       "line": 1670
     },
     "Cipher Commander Exol": {
-      "translation": "密码指挥官埃克索尔",
+      "translation": "暗影密码团指挥官 埃克索尔",
       "line": 1673
     },
     "Track down the new boss of the Pyrite Building.": {
@@ -2619,7 +2619,7 @@
       "line": 1673
     },
     "Talk to Cipher Commander Exol at the Pyrite Building.": {
-      "translation": "与黄铁矿大厦的密码指挥官埃克索尔交谈。",
+      "translation": "在黄铁矿大厦与暗影密码团指挥官 埃克索尔交谈。",
       "line": 1676
     },
     "Phenac City Battles": {
@@ -2627,7 +2627,7 @@
       "line": 1679
     },
     "Battle through the new Cipher Peons in Phenac City.": {
-      "translation": "在菲纳克市与新的密码苦工战斗。",
+      "translation": "在菲纳克市与新的暗影密码兵战斗。",
       "line": 1679
     },
     "Phenac Stadium": {
@@ -2635,7 +2635,7 @@
       "line": 1682
     },
     "Cipher Admin Snattle": {
-      "translation": "密码管理小窍门",
+      "translation": "暗影密码团干部 斯纳特尔",
       "line": 1682
     },
     "Track down the new boss of the Phenac Stadium.": {
@@ -2643,7 +2643,7 @@
       "line": 1682
     },
     "Talk to Cipher Admin Snattle at the Phenac Stadium.": {
-      "translation": "与 菲纳克竞技场 的 暗影密码 Admin 斯纳奇姆 交谈。",
+      "translation": "在菲纳克体育场与暗影密码团干部 斯纳特尔交谈。",
       "line": 1685
     },
     "Talk to Mayor Trest at the Phenac City.": {
@@ -2667,11 +2667,11 @@
       "line": 1694
     },
     "Cipher Peon Smarton": {
-      "translation": "密码佩恩斯马顿",
+      "translation": "暗影密码兵斯马顿",
       "line": 1700
     },
     "Fight the Cipher Peon at the wreck of the S. S. Libra.": {
-      "translation": "在天秤号的残骸处与密码队手下战斗。",
+      "translation": "在天秤号的残骸处与暗影密码团手下战斗。",
       "line": 1700
     },
     "You find a crate of Luxury Balls in the wreckage.": {
@@ -2687,7 +2687,7 @@
       "line": 1716
     },
     "Fight Zook outside of the Cipher Key Lair.": {
-      "translation": "在密码钥匙巢穴外与祖克战斗。",
+      "translation": "在暗影密码团钥匙巢穴外与祖克战斗。",
       "line": 1716
     },
     "Miror B. 2": {
@@ -2707,11 +2707,11 @@
       "line": 1722
     },
     "Cipher Key Lair": {
-      "translation": "密码钥匙巢穴",
+      "translation": "暗影密码团钥匙巢穴",
       "line": 1725
     },
     "You found a key to the Cipher Key Lair. Find out what's inside!": {
-      "translation": "你找到了密码钥匙巢穴的钥匙。看看里面有什么！",
+      "translation": "你找到了暗影密码团钥匙巢穴的钥匙。看看里面有什么！",
       "line": 1725
     },
     "Bah! No fair! Fine, you can take your precious Professor Krane. Get out of here!": {
@@ -2723,7 +2723,7 @@
       "line": 1728
     },
     "Cipher Admin Gorigan": {
-      "translation": "密码管理员 Gorigan",
+      "translation": "暗影密码团干部 戈里根",
       "line": 1729
     },
     "Professor Krane gives you a Master Ball.": {
@@ -2739,11 +2739,11 @@
       "line": 1746
     },
     "Battle through Team Cipher on Citadark Isle": {
-      "translation": "在 暗黑岛 岛上与 暗影密码 团队战斗",
+      "translation": "在暗黑岛上与暗影密码团战斗",
       "line": 1746
     },
     "Citadark Isle Dome": {
-      "translation": "城堡岛圆顶",
+      "translation": "城暗岛圆顶",
       "line": 1749
     },
     "Defeat Grand Master Greevil and XD001 in the Citadark Isle Dome.": {
@@ -2945,11 +2945,11 @@
       "line": 1876
     },
     "Team Flare Xerosic": {
-      "translation": "闪焰队克赛洛西奇",
+      "translation": "闪焰队克赛洛西克",
       "line": 1879
     },
     "Now that you learnt what the ultimate weapon is able to do, you need to stop it. Team Flare Xerosic is in the way in Lumiose City, defeat him!": {
-      "translation": "现在你已经了解了终极武器的威力，你需要阻止它。克赛洛西奇在密阿雷市挡住了去路，击败他！",
+      "translation": "现在你已经了解了终极武器的威力，你需要阻止它。克赛洛西克在密阿雷市挡住了去路，击败他！",
       "line": 1879
     },
     "Press the blue button!": {
@@ -2961,7 +2961,7 @@
       "line": 1883
     },
     "Xerosic offers you the possibility to stop the ultimate weapon in Lumiose City. Blue or Red Button, press one!": {
-      "translation": "克赛洛西奇为你提供了阻止密阿雷市终极武器的可能性。蓝色或红色按钮，按一个！",
+      "translation": "克赛洛西克为你提供了阻止密阿雷市终极武器的可能性。蓝色或红色按钮，按一个！",
       "line": 1888
     },
     "Team Flare Secret HQ": {
@@ -4205,7 +4205,7 @@
       "line": 2632
     },
     "The Ultra Recon Squad is investigating an oddly familiar tree. Go check it out on Route 5.": {
-      "translation": "超级侦察队正在调查一棵奇怪的熟悉的树。去5号道路看看吧。",
+      "translation": "究极调查队正在调查一棵奇怪的熟悉的树。去5号道路看看吧。",
       "line": 2632
     },
     "That must have been the Pokémon known as Sudowoodo. Our research is insufficient to define what it means to be a Pokémon Trainer... We'll never be able to stop the Blinding One like this...": {

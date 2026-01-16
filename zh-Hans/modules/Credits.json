@@ -27,11 +27,11 @@
       "line": 19
     },
     "Cipher Peon (male and female)": {
-      "translation": "密码苦工（男性和女性）",
+      "translation": "暗影密码兵（男、女）",
       "line": 20
     },
     "Cipher Peon XD (male and female)": {
-      "translation": "暗影密码 Peon XD（男、女）",
+      "translation": "暗影密码兵 XD（男、女）",
       "line": 21
     },
     "Dakim": {
@@ -51,7 +51,7 @@
       "line": 25
     },
     "Venus": {
-      "translation": "金星",
+      "translation": "维纳斯",
       "line": 26
     },
     "Alooshii": {
@@ -557,7 +557,7 @@
       "line": 264
     },
     "Cipher Admin Ardos": {
-      "translation": "密码管理员 Ardos",
+      "translation": "暗影密码团干部 阿多斯",
       "line": 265
     },
     "assets/images/profile/trainer-121.png": {
@@ -617,19 +617,19 @@
       "line": 286
     },
     "Camp map sprite": {
-      "translation": "营地地图精灵",
+      "translation": "营地地图贴图",
       "line": 287
     },
     "Cipher Admin Lovrina": {
-      "translation": "密码管理员洛夫里纳",
+      "translation": "暗影密码团干部 洛夫里纳",
       "line": 288
     },
     "Cipher Commander Exol": {
-      "translation": "密码指挥官埃克索尔",
+      "translation": "暗影密码团指挥官 埃克索尔",
       "line": 289
     },
     "Cipher Peon Yellosix": {
-      "translation": "密码 Peon Yellosix",
+      "translation": "暗影密码兵 Yellosix",
       "line": 290
     },
     "Charitative chansey shuffle": {
@@ -1513,15 +1513,15 @@
       "line": 510
     },
     "Team Flare Admin (male)": {
-      "translation": "Flare团队管理员（男）",
+      "translation": "闪焰队干部（男）",
       "line": 511
     },
     "Team Flare Admin (female)": {
-      "translation": "Flare团队管理员（女）",
+      "translation": "闪焰队干部（女）",
       "line": 512
     },
     "Team Flare Aliana": {
-      "translation": "火焰队阿莉安娜",
+      "translation": "闪焰队阿莉安娜",
       "line": 513
     },
     "Team Magma and Aqua Admins": {
@@ -1645,7 +1645,7 @@
       "line": 543
     },
     "Vertical cave entrance map sprites": {
-      "translation": "垂直洞穴入口地图精灵",
+      "translation": "垂直洞穴入口地图贴图",
       "line": 544
     },
     "Vivillon Photobook": {
@@ -1981,7 +1981,7 @@
       "line": 675
     },
     "Team Flare Xerosic": {
-      "translation": "团队 Flare Xerosic",
+      "translation": "闪焰队克赛洛西克",
       "line": 676
     },
     "Tierno": {
@@ -2069,7 +2069,7 @@
       "line": 730
     },
     "Cipher Peon (yellow)": {
-      "translation": "密码苦工（黄色）",
+      "translation": "暗影密码兵（黄色）",
       "line": 731
     },
     "Egg pattern SVG - Manaphy": {
@@ -2137,27 +2137,27 @@
       "line": 751
     },
     "cipher Admin Eldes": {
-      "translation": "密码管理员埃尔德斯",
+      "translation": "暗影密码团干部 埃尔德斯",
       "line": 754
     },
     "Cipher Admin Gorigan": {
-      "translation": "密码管理员 Gorigan",
+      "translation": "暗影密码团干部 戈里根",
       "line": 755
     },
     "Cipher Admin Snattle": {
-      "translation": "密码管理小窍门",
+      "translation": "暗影密码团干部 斯纳特尔",
       "line": 756
     },
     "Cipher Peon Browsix": {
-      "translation": "密码 Peon Browsix",
+      "translation": "暗影密码兵 Browsix",
       "line": 757
     },
     "Cipher Peon Greesix": {
-      "translation": "密码 Peon Greesix",
+      "translation": "暗影密码兵 Greesix",
       "line": 758
     },
     "Cipher Peon Purpsix": {
-      "translation": "密码 Peon Purpsix",
+      "translation": "暗影密码兵 Purpsix",
       "line": 759
     },
     "Kensuyjin33": {
@@ -2165,7 +2165,7 @@
       "line": 764
     },
     "Blue sprite revamps": {
-      "translation": "蓝色精灵改造",
+      "translation": "蓝色贴图改造",
       "line": 768
     },
     "Kilima": {
@@ -2429,11 +2429,11 @@
       "line": 858
     },
     "Team Star Grunt (female)": {
-      "translation": "明星咕噜队（女）",
+      "translation": "天星队手下（女）",
       "line": 859
     },
     "Team Star Grunt (male)": {
-      "translation": "明星咕噜队（男）",
+      "translation": "天星队手下（男）",
       "line": 860
     },
     "Triathlete": {
@@ -2661,7 +2661,7 @@
       "line": 956
     },
     "misc Map sprite edits": {
-      "translation": "杂项地图精灵编辑",
+      "translation": "杂项地图贴图编辑",
       "line": 957
     },
     "nileplumb": {
@@ -3077,7 +3077,7 @@
       "line": 1167
     },
     "Cipher Key Lair": {
-      "translation": "密码钥匙巢穴",
+      "translation": "暗影密码团钥匙巢穴",
       "line": 1168
     },
     "Miror B. Peons": {
@@ -3085,23 +3085,23 @@
       "line": 1169
     },
     "Cipher Peon Blusix": {
-      "translation": "密码 Peon Blusix",
+      "translation": "暗影密码兵 Blusix",
       "line": 1170
     },
     "Cipher Peon Resix": {
-      "translation": "密码 Peon Resix",
+      "translation": "暗影密码兵 Resix",
       "line": 1171
     },
     "Cipher Peon (skrub)": {
-      "translation": "密码苦工 (skrub)",
+      "translation": "暗影密码兵 (skrub)",
       "line": 1172
     },
     "Cipher Peon (mirakle b)": {
-      "translation": "密码苦工 (mirakle b)",
+      "translation": "暗影密码兵 (mirakle b)",
       "line": 1173
     },
     "Coastland route map sprites": {
-      "translation": "海岸线路线图精灵",
+      "translation": "海岸线路线图贴图",
       "line": 1174
     },
     "Christmas Present": {
@@ -3113,7 +3113,7 @@
       "line": 1176
     },
     "Dead tree map sprite": {
-      "translation": "死树地图精灵",
+      "translation": "死树地图贴图",
       "line": 1177
     },
     "Detective Pikachu": {
@@ -3153,7 +3153,7 @@
       "line": 1186
     },
     "Iceland route map sprites": {
-      "translation": "冰岛路线图精灵",
+      "translation": "冰岛路线图贴图",
       "line": 1187
     },
     "Macro Cosmos (male) and (female)": {
@@ -3229,7 +3229,7 @@
       "line": 1205
     },
     "Mireland route map sprites": {
-      "translation": "Mireland 路线图精灵",
+      "translation": "Mireland 路线图贴图",
       "line": 1206
     },
     "Murph": {
@@ -3273,7 +3273,7 @@
       "line": 1216
     },
     "Pillar map sprite": {
-      "translation": "支柱地图精灵",
+      "translation": "支柱地图贴图",
       "line": 1217
     },
     "Pinkan Berry": {

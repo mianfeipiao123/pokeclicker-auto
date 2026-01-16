@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.51
+// @version      0.1.52
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -76,7 +76,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.51';
+    const SCRIPT_VERSION = '0.1.52';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -1050,6 +1050,8 @@
     const applyMapToElementAttributes = (el, map, patterns, cache) => {
         try {
             if (!el?.getAttribute) return;
+            const bootstrapToggle = (el.getAttribute('data-bs-toggle') || el.getAttribute('data-toggle') || '').toLowerCase();
+            const isBootstrapTooltipOrPopover = bootstrapToggle === 'tooltip' || bootstrapToggle === 'popover';
             for (const attr of attrNames) {
                 const raw = el.getAttribute(attr);
                 if (!raw) continue;
@@ -1058,6 +1060,16 @@
                 const attrCache = processedAttrValues[attr];
                 if (attrCache.get(el) === raw) continue;
                 attrCache.set(el, raw);
+
+                // Avoid fighting Bootstrap tooltip/popover internals.
+                // Bootstrap frequently copies/mutates `title` <-> `data-original-title`/`data-content`,
+                // and rewriting those attributes can cause UI flicker (e.g. map legend).
+                if (
+                    isBootstrapTooltipOrPopover
+                    && (attr === 'title' || attr === 'data-original-title' || attr === 'data-content')
+                ) {
+                    continue;
+                }
 
                 if (!LATIN_RE.test(raw)) continue;
                 const translated = translateSegmentsFallback(raw, map, patterns, cache);

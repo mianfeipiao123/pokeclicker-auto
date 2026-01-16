@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.51
+// @version      0.1.52
 // @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.51';
+    const SCRIPT_VERSION = '0.1.52';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -1043,10 +1043,22 @@
 
     const applyMapToElementAttributes = (element, map, patterns, cache) => {
         if (!element || element.nodeType !== Node.ELEMENT_NODE) return;
+        const bootstrapToggle = (element.getAttribute('data-bs-toggle') || element.getAttribute('data-toggle') || '').toLowerCase();
+        const isBootstrapTooltipOrPopover = bootstrapToggle === 'tooltip' || bootstrapToggle === 'popover';
         for (const attr of attrNames) {
             if (!element.hasAttribute(attr)) continue;
             const raw = element.getAttribute(attr);
             if (raw == null) continue;
+
+            // Avoid fighting Bootstrap tooltip/popover internals.
+            // Bootstrap frequently copies/mutates `title` <-> `data-original-title`/`data-content`,
+            // and rewriting those attributes can cause UI flicker (e.g. map legend).
+            if (
+                isBootstrapTooltipOrPopover
+                && (attr === 'title' || attr === 'data-original-title' || attr === 'data-content')
+            ) {
+                continue;
+            }
 
             if (attr === 'data-intro') {
                 try {

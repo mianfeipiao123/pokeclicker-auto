@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-16T09:25:55.280Z",
+    "generatedAt": "2026-01-16T09:50:42.249Z",
     "totalEntries": 2257,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
@@ -2220,7 +2220,7 @@
     "You received ${...} Battle Points.": "你获得了 ${...} 对战点数。",
     "You received a ${...}!": "你收到了${...}！",
     "You received an ${...}!": "你收到了${...}！",
-    "You snagged a Magnet from Miror B\\'s Voltorb!": "你从镜像博士的霹雳电球那里抢到了磁铁！",
+    "You snagged a Magnet from Miror B\\'s Voltorb!": "你从米拉波的霹雳电球那里夺取了磁铁！",
     "You still can buy them, so you can complete the related achievements.": "你仍然可以购买它们，以便完成相关成就。",
     "You still can click in the very first battle of the game.": "你仍然可以点击游戏的第一场战斗。",
     "You traded for ${...} × ${...}.": "你交换获得了${...} × ${...}。",

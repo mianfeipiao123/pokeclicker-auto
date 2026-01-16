@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-16T17:56:02.228Z",
+    "generatedAt": "2026-01-16T18:28:33.947Z",
     "totalEntries": 2261,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
@@ -553,9 +553,9 @@
     "Contains all possible treasures (except the treasure found in a": "包含所有可能的宝藏（除了在",
     "Contains only evolution items.": "仅包含进化物品。",
     "Contains only fossils and fossil pieces.": "仅包含化石和化石碎片。",
-    "Contains only gem plate treasures that can be sold for gems.": "仅包含可以出售宝石的宝石板珍宝。",
+    "Contains only gem plate treasures that can be sold for gems.": "仅包含可出售换取宝石的石板类宝物。",
     "Contains only shard treasures.": "仅包含碎片宝藏。",
-    "Contains only treasures that can be sold for diamonds.": "仅包含可以出售钻石的宝藏。",
+    "Contains only treasures that can be sold for diamonds.": "仅包含可出售换取钻石的宝物。",
     "Contest Points": "比赛积分",
     "Contest Tokens!": "竞赛代币！",
     "Contest Tokens<br /><br />Gained by competing in Contests.": "竞赛代币<br /><br />通过参加竞赛获得。",
@@ -628,7 +628,7 @@
     "Despite Zinnia having stolen their leaders Key Stones, Team Aqua and Team Magma seem to be at it again, cooking up a scheme involving something called \"Primal Reversion\".": "尽管希嘉娜偷走了他们的领袖钥匙石，海洋队和熔岩队似乎又开始行动，策划了一个涉及“原始回归”的计划。",
     "Detective Pikachu\\'s partner has been nursed back to health!": "名侦探皮卡丘的搭档已经恢复健康！",
     "Development": "开发",
-    "Diamond treasures cannot be traded for other items, only sold for diamonds.": "钻石宝物不能兑换其他物品，只能出售钻石。",
+    "Diamond treasures cannot be traded for other items, only sold for diamonds.": "钻石宝物不能兑换其他物品，只能出售换取钻石。",
     "Diamonds<br /><br />Gained by selling treasure found in the Underground.": "钻石<br /><br />通过出售采掘场发现的宝藏获得。",
     "different tools available, each with unique functions:": "可用的工具不同，每种工具都有独特的功能：",
     "Dig": "挖",
@@ -1030,7 +1030,7 @@
     "Ganlon": "龙火果",
     "Gardenia's Gym": "菜种的道馆",
     "Gem Bonuses are disabled.": "宝石奖励被禁用。",
-    "Gem Plates": "宝石板",
+    "Gem Plates": "石板",
     "Gem(s)/Second": "宝石/秒",
     "GemCave": "GemCave",
     "Gender": "性别",

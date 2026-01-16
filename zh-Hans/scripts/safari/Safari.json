@@ -57,7 +57,7 @@
       "line": 267
     },
     "sprite": {
-      "translation": "精灵",
+      "translation": "贴图",
       "line": 327
     },
     "walk${...}": {

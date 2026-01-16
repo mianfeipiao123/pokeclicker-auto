@@ -415,11 +415,11 @@
       "line": 92
     },
     "notification.wandering_pokemon": {
-      "translation": "吸引游荡宝可梦",
+      "translation": "吸引来访宝可梦",
       "line": 93
     },
     "notification.farm_hand": {
-      "translation": "农场手工雇用/解雇",
+      "translation": "农场助手雇用/解雇",
       "line": 94
     },
     "Farm Hand Hired/Fired": {

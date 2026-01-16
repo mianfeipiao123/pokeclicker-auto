@@ -117,7 +117,7 @@
       "line": 284
     },
     "A wild <strong>${...}</strong> is wandering around": {
-      "translation": "一只野生<strong>${...}</strong>正在徘徊",
+      "translation": "一只野生<strong>${...}</strong>正在闲逛",
       "line": 289,
       "_rematchedFrom": "A wild <strong>${...}</strong> is wandering around",
       "_confidence": 0.85

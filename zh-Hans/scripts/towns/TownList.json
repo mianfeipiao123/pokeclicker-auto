@@ -5463,7 +5463,7 @@
       "line": 4285
     },
     "<i>We will be waiting at Sendoff Spring, meet us there after you have collected the shards.</i>": {
-      "translation": "<i>我们将在送行泉等你，收集完碎片后在那里与我们见面。</i>",
+      "translation": "<i>我们将在送行之泉等你，收集完碎片后在那里与我们见面。</i>",
       "line": 4286
     },
     "assets/images/pokemon/480.png": {
@@ -5543,7 +5543,7 @@
       "line": 4316
     },
     "Wait, you said the book mentioned the Lake Trio, right? Legends say they have existed since the creation of the world, they may know how to enter the Distortion World.": {
-      "translation": "等等，你说书里提到了湖三重奏，对吗？传说他们自创世以来就存在，他们可能知道如何进入扭曲世界。",
+      "translation": "等等，你说书里提到了湖之众神，对吗？传说它们自创世以来就存在，它们可能知道如何进入扭曲世界。",
       "line": 4317
     },
     "Hiker Kevin": {
@@ -5555,7 +5555,7 @@
       "line": 4324
     },
     "Lake Trio": {
-      "translation": "三重奏湖",
+      "translation": "湖之众神",
       "line": 4327
     },
     "<i>You are finally here.</i>": {
@@ -6259,7 +6259,7 @@
       "line": 4910
     },
     "Sendoff Spring": {
-      "translation": "送别春天",
+      "translation": "送行之泉",
       "line": 4916
     },
     "Fullmoon Island": {
@@ -6359,7 +6359,7 @@
       "line": 5140
     },
     "Apparently this secret room is only accessible via a secret entrance in Relic Passage. Relic Passage runs from Driftveil City all the way under the river to Relic Castle. It's very impressive. Once I'm done investigating this part of the ruin I'm definitely going to check it out!": {
-      "translation": "显然这个秘密房间只能通过遗迹通道的秘密入口进入。遗迹通道从帆巴市一直延伸到河下的遗迹城堡。这是非常令人印象深刻的。一旦我调查完这部分废墟，我一定会去看看！",
+      "translation": "显然这个秘密房间只能通过古代秘道的秘密入口进入。古代秘道从帆巴市一直延伸到河下的古代城。这是非常令人印象深刻的。一旦我调查完这部分废墟，我一定会去看看！",
       "line": 5141
     },
     "assets/images/npcs/Ruin Maniac.png": {
@@ -6371,11 +6371,11 @@
       "line": 5144
     },
     "Whew! The desert is rough out there, glad you've made it all the way to Nimbasa.": {
-      "translation": "哇！那里的沙漠很崎岖，很高兴你一路到达宁巴萨。",
+      "translation": "哇！那里的沙漠很崎岖，很高兴你一路到达雷文市。",
       "line": 5145
     },
     "Sometimes I find some weird stuff out in the sand, sometimes even Pokémon hiding in Chests. Like this one time in Relic Castle, I found a Pokémon that looks like a statue that I've never seen before!": {
-      "translation": "有时我会在沙子里发现一些奇怪的东西，有时甚至会在箱子里发现宝可梦。就像这次在遗迹城堡里，我发现了一只像雕像一样的宝可梦，我以前从未见过！",
+      "translation": "有时我会在沙子里发现一些奇怪的东西，有时甚至会在箱子里发现宝可梦。就像这次在古代城里，我发现了一只像雕像一样的宝可梦，我以前从未见过！",
       "line": 5146
     },
     "assets/images/npcs/Backpacker (male).png": {
@@ -7059,15 +7059,15 @@
       "line": 5686
     },
     "Relic Passage": {
-      "translation": "遗迹通道",
+      "translation": "古代秘道",
       "line": 5691
     },
     "Relic Castle": {
-      "translation": "遗迹城堡",
+      "translation": "古代城",
       "line": 5697
     },
     "Lostlorn Forest": {
-      "translation": "失落森林",
+      "translation": "迷幻森林",
       "line": 5707
     },
     "Mistralton Cave": {
@@ -7115,7 +7115,7 @@
       "line": 5787
     },
     "Abundant Shrine": {
-      "translation": "丰富的神社",
+      "translation": "丰饶之祠",
       "line": 5793
     },
     "Tornadus": {

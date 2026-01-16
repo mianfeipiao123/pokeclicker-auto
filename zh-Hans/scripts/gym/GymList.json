@@ -1,4 +1,4 @@
-﻿{
+{
   "_meta": {
     "sourceFile": "src/scripts/gym/GymList.ts",
     "lastUpdated": "2026-01-02",
@@ -486,7 +486,8 @@
       "translation": "生病的电龙",
       "line": 299
     },
-    "Cianwood City": { "translation": "湛蓝市",
+    "Cianwood City": {
+      "translation": "湛蓝市",
       "line": 302
     },
     "Chuck": {
@@ -1140,11 +1141,11 @@
       "line": 736
     },
     "Cipher Admin Miror B.": {
-      "translation": "暗影密码团干部 米拉波",
+      "translation": "暗影密码团干部 迪斯裘",
       "line": 738
     },
     "Cipher Admin Miror B": {
-      "translation": "暗影密码团干部 米拉波",
+      "translation": "暗影密码团干部 迪斯裘",
       "line": 739
     },
     "Loudred": {
@@ -1164,7 +1165,7 @@
       "line": 750
     },
     "Challenge Miror B.": {
-      "translation": "挑战米拉波",
+      "translation": "挑战迪斯裘",
       "line": 752
     },
     "Cipher Admin Dakim": {

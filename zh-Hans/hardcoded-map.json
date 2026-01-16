@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-16T09:50:42.249Z",
+    "generatedAt": "2026-01-16T10:03:04.927Z",
     "totalEntries": 2257,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
@@ -864,7 +864,7 @@
     "Fight Max Raid": "对战 极巨团体战",
     "Fight Maxie": "对战 赤焰松",
     "Fight Meta Groudon": "对战 机械固拉多",
-    "Fight Miror B.": "对战 米拉波",
+    "Fight Miror B.": "对战 迪斯裘",
     "Fight Molayne": "对战 马睿因",
     "Fight Mr. Stone": "对战 兹伏奇先生",
     "Fight Officer Jenny": "对战 君莎小姐",
@@ -2220,7 +2220,7 @@
     "You received ${...} Battle Points.": "你获得了 ${...} 对战点数。",
     "You received a ${...}!": "你收到了${...}！",
     "You received an ${...}!": "你收到了${...}！",
-    "You snagged a Magnet from Miror B\\'s Voltorb!": "你从米拉波的霹雳电球那里夺取了磁铁！",
+    "You snagged a Magnet from Miror B\\'s Voltorb!": "你从迪斯裘的霹雳电球那里夺取了磁铁！",
     "You still can buy them, so you can complete the related achievements.": "你仍然可以购买它们，以便完成相关成就。",
     "You still can click in the very first battle of the game.": "你仍然可以点击游戏的第一场战斗。",
     "You traded for ${...} × ${...}.": "你交换获得了${...} × ${...}。",

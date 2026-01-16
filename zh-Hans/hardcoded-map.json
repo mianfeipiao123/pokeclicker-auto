@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-16T12:26:55.006Z",
-    "totalEntries": 2257,
+    "generatedAt": "2026-01-16T16:02:52.059Z",
+    "totalEntries": 2260,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
   "entries": {
@@ -1288,6 +1288,8 @@
     "Manage Wanderers:": "管理来访宝可梦：",
     "Map Colors": "地图颜色",
     "Map Legend:": "地图图例：",
+    "Map locations will be colored based on the following:": "地图上的位置会根据以下内容着色：",
+    "Map locations will be coloured based on the following:": "地图上的位置会根据以下内容着色：",
     "Maranga": "玛仑果",
     "MAX BONUS!": "最高加成！",
     "Max Energy:": "最大能量：",
@@ -1377,6 +1379,7 @@
     "Note that progress does not automatically carry over between devices.": "请注意，进度不会自动在设备之间延续。",
     "Note:": "注意：",
     "NOTE: Base attack is the value your Pokémon originally has at level 100, before any breeding buffs.": "注意：基础攻击力是指你的宝可梦在100级时的初始值（不包括任何繁殖增益）。",
+    "NOTE: Colors and priority can be customized in the settings menu": "注意：可在设置菜单中自定义颜色和优先级",
     "Note: The auto-restart triggered by the player digging up the last item": "注：玩家挖到最后一个物品会触发自动重启",
     "Note: there is no click damage in the Battle Frontier.": "注意：对战开拓区中没有点击伤害。",
     "NOTE: This is a": "注意：这是一个",

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-16T16:02:52.059Z",
-    "totalEntries": 2260,
+    "generatedAt": "2026-01-16T16:40:38.199Z",
+    "totalEntries": 2261,
     "note": "只包含modules/scripts中没有的独有翻译"
   },
   "entries": {
@@ -936,7 +936,7 @@
     "Fight The Bandit Clover": "对战 盗贼三叶草",
     "Fight The Bandit Coin": "对战 盗贼硬币",
     "Fight The Galaxy Team's Beni": "对战 银河队的阿笔",
-    "Fight The Survey Corps' Akari": "对战 调查队的晓",
+    "Fight The Survey Corps' Akari": "对战 调查组的小照",
     "Fight Trial Site of Haina Desert": "对战 哈伊纳沙漠试炼场",
     "Fight Twerps?": "对战 小鬼们？",
     "Fight Tykarp": "对战 泰卡普",
@@ -1570,7 +1570,7 @@
     "recommended.": "受到推崇的。",
     "Red Flute": "红色长笛",
     "Reduces the discovery time of mines when applicable": "适用时减少矿洞的发现时间",
-    "Reduces the Survey area": "缩小测量范围",
+    "Reduces the Survey area": "缩小探测范围",
     "Region will be significantly less likely to drop Epic, Legendary, and Mythic loot.": "区域掉落史诗、传奇和神话战利品的可能性将大大降低。",
     "Regional Attack Debuff": "区域攻击减益",
     "Regional Travel": "地区旅游",
@@ -1810,6 +1810,7 @@
     "Subregional Travel (Unova)": "子区域旅行（合众）",
     "Successful Tool Use:": "成功的工具使用：",
     "SunFlute": "SunFlute",
+    "Survey (S)": "探测（S）",
     "survey-${...}": "调查-${...}",
     "Sweet": "甜的",
     "SymaLoernn": "SymaLoernn",

@@ -219,7 +219,7 @@
       "line": 123
     },
     "Ha! That was a truly intense fight. You have won! As proof, here is the Earth Badge!": {
-      "translation": "哈！真是一场激烈的战斗。你赢了！作为证明，这枚绿色徽章给你！",
+      "translation": "哈！真是一场激烈的战斗。你赢了！作为证明，这枚大地徽章给你！",
       "line": 128
     },
     "Persons of Interest": {
@@ -3689,15 +3689,15 @@
       "line": 2430
     },
     "Giacomo of Team Star": {
-      "translation": "明星队的贾科莫",
+      "translation": "天星队的皮拿",
       "line": 2436
     },
     "Schedar Squad's Base": {
-      "translation": "施达小队基地",
+      "translation": "王良四小队基地",
       "line": 2438
     },
     "Mela": {
-      "translation": "梅拉",
+      "translation": "梅洛可",
       "line": 2439
     },
     "Schedar Starmobile": {
@@ -3705,15 +3705,15 @@
       "line": 2443
     },
     "Mela of Team Star": {
-      "translation": "明星队梅拉",
+      "translation": "天星队的梅洛可",
       "line": 2449
     },
     "Navi Squad's Base": {
-      "translation": "导航小队的基地",
+      "translation": "策星小队基地",
       "line": 2451
     },
     "Atticus": {
-      "translation": "阿蒂克斯",
+      "translation": "秋明",
       "line": 2452
     },
     "Revavroom": {
@@ -3725,15 +3725,15 @@
       "line": 2458
     },
     "Atticus of Team Star": {
-      "translation": "明星队阿蒂克斯",
+      "translation": "天星队的秋明",
       "line": 2464
     },
     "Ruchbah Squad's Base": {
-      "translation": "鲁奇巴小队基地",
+      "translation": "阁道三小队基地",
       "line": 2466
     },
     "Ortega": {
-      "translation": "奥尔特加",
+      "translation": "奥尔迪加",
       "line": 2467
     },
     "Azumarill": {
@@ -3749,15 +3749,15 @@
       "line": 2473
     },
     "Ortega of Team Star": {
-      "translation": "明星队的奥尔特加",
+      "translation": "天星队的奥尔迪加",
       "line": 2479
     },
     "Caph Squad's Base": {
-      "translation": "卡夫小队的基地",
+      "translation": "王良一小队基地",
       "line": 2481
     },
     "Eri": {
-      "translation": "埃里",
+      "translation": "枇琶",
       "line": 2482
     },
     "Passimian": {
@@ -3773,15 +3773,15 @@
       "line": 2489
     },
     "Eri of Team Star": {
-      "translation": "Team Star 的 Eri",
+      "translation": "天星队的枇琶",
       "line": 2495
     },
     "Director Clavell": {
-      "translation": "克拉维尔导演",
+      "translation": "克拉韦尔校长",
       "line": 2497
     },
     "Clavell": {
-      "translation": "克拉维尔",
+      "translation": "克拉韦尔",
       "line": 2498
     },
     "Oranguru": {
@@ -3797,11 +3797,11 @@
       "line": 2504
     },
     "Penny of Team Star": {
-      "translation": "明星队的佩妮",
+      "translation": "天星队的牡丹",
       "line": 2520
     },
     "Penny": {
-      "translation": "一分钱",
+      "translation": "牡丹",
       "line": 2521
     },
     "Stony Cliff Titan": {

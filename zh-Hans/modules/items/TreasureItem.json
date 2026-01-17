@@ -19,7 +19,7 @@
       "line": 3
     },
     "${...} dug out from the Underground.": {
-      "translation": "${...} 从采掘场挖出。",
+      "translation": "从采掘场挖出的${...}。",
       "line": 8,
       "_rematchedFrom": "${...} dug out from the Underground.",
       "_confidence": 0.85

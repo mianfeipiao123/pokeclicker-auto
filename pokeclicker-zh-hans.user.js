@@ -964,6 +964,28 @@
         const key = normalizeText(core);
         if (!key) return;
 
+        // Context override:
+        // Underground → Treasures groups "Gem" valueType items, which are actually Arceus Plates.
+        // Keep global "Gem" (= 属性宝石) intact, but show "石板" for this specific group title.
+        try {
+            if (key === 'Gem') {
+                const parent = textNode.parentElement;
+                if (
+                    parent
+                    && parent.tagName === 'SPAN'
+                    && parent.classList?.contains('font-weight-bold')
+                    && parent.closest?.('#treasures')
+                    && parent.closest?.('.card-header')
+                ) {
+                    const out = `${leading}石板${trailing}`;
+                    if (out !== raw) textNode.nodeValue = out;
+                    return;
+                }
+            }
+        } catch {
+            // ignore
+        }
+
         if (cache.has(key)) {
             const cached = cache.get(key);
             if (cached) {

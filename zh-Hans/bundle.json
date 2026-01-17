@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-01-17T02:32:31.549Z",
+    "generatedAt": "2026-01-17T04:08:30.605Z",
     "sourceIndexVersion": "2.0.0",
     "fileCount": 421,
     "entryCount": 15150,
@@ -86,7 +86,7 @@
     "${...} dropped a ${...}!": "${...}掉落了${...}！",
     "${...} dropped an ${...}!": "${...}掉落了${...}！",
     "${...} dug deeper...": "${...} 挖得更深...",
-    "${...} dug out from the Underground.": "${...} 从采掘场挖出。",
+    "${...} dug out from the Underground.": "从采掘场挖出的${...}。",
     "${...} Dungeon Tokens need to be obtained.": "需要获得${...} 迷宫代币。",
     "${...} Dweller": "${...} 居民",
     "${...} Expert": "${...} 专家",

@@ -43,11 +43,11 @@
       "line": 17
     },
     "Gems": {
-      "translation": "宝石",
+      "translation": "属性宝石",
       "line": 23
     },
     "gems": {
-      "translation": "宝石",
+      "translation": "属性宝石",
       "line": 24
     },
     "assets/images/gems/${...} Gem.png": {

@@ -15,7 +15,7 @@
       "line": 2
     },
     "${...} Hatchery Helpers need at least ${...} bonus.": {
-      "translation": "${...} 孵化场助手需要至少 ${...} 奖金。",
+      "translation": "${...} 培育屋助手需要至少 ${...} 奖金。",
       "line": 14,
       "_rematchedFrom": "${...} Hatchery Helpers need at least ${...} bonus.",
       "_confidence": 0.85

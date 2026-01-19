@@ -23,7 +23,7 @@
       "_confidence": 0.85
     },
     "${...} couldn't be modified for Pokémon in Hatchery or Queue.": {
-      "translation": "无法修改孵化场或队列中的宝可梦的 ${...}。",
+      "translation": "无法修改培育屋或队列中的宝可梦的 ${...}。",
       "line": 107,
       "_rematchedFrom": "${...} couldn't be modified for Pokémon in Hatchery or Queue.",
       "_confidence": 0.85

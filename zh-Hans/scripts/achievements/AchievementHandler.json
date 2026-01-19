@@ -43,7 +43,7 @@
       "line": 259
     },
     "I Should Buy a Poké Mart": {
-      "translation": "我应该买一个 Poké Mart",
+      "translation": "我应该买一个宝可梦集市",
       "line": 260
     },
     "Obtain 1,000 Pokédollars.": {
@@ -75,7 +75,7 @@
       "line": 263
     },
     "A Billion Poképennies": {
-      "translation": "十亿宝可梦",
+      "translation": "十亿宝可币",
       "line": 264
     },
     "Obtain 10,000,000 Pokédollars.": {
@@ -187,7 +187,7 @@
       "line": 280
     },
     "Better Than Season 1 Ash": {
-      "translation": "比第一季《灰烬》更好",
+      "translation": "比第一季的小智更强",
       "line": 281
     },
     "Capture 15 unique Pokémon.": {
@@ -203,7 +203,7 @@
       "line": 282
     },
     "Surpassing Ash": {
-      "translation": "超越灰烬",
+      "translation": "超越小智",
       "line": 283
     },
     "Capture 100 unique Pokémon.": {
@@ -275,7 +275,7 @@
       "line": 292
     },
     "Nvm, Found Some More": {
-      "translation": "Nvm，发现更多",
+      "translation": "算了，又找到一些",
       "line": 293
     },
     "Capture 75 unique Shiny Pokémon.": {
@@ -315,7 +315,7 @@
       "line": 297
     },
     "Non-Shiny Is Now Becoming Rare": {
-      "translation": "无光泽现在变得罕见",
+      "translation": "非闪光现在变得罕见",
       "line": 298
     },
     "Capture 1,000 unique Shiny Pokémon!": {
@@ -387,7 +387,7 @@
       "line": 308
     },
     "The Cake Is a Lie, but the Grind Is Real": {
-      "translation": "蛋糕是谎言，但研磨是真实的",
+      "translation": "蛋糕是谎言，但练级是真实的",
       "line": 309
     },
     "Defeat 100,000 Pokémon.": {
@@ -459,7 +459,7 @@
       "line": 318
     },
     "You Pressed F12 by Any Chance?": {
-      "translation": "你有机会按过 F12吗？",
+      "translation": "你该不会按了F12吧？",
       "line": 319
     },
     "Have 500,000 Attack.": {
@@ -555,7 +555,7 @@
       "line": 332
     },
     "Maybe Just a Few More for the Bunker": {
-      "translation": "也许只是为了掩体再多一些",
+      "translation": "也许地堡里还需要再多储备一些",
       "line": 333
     },
     "Purchase 10,000 Poké Balls.": {
@@ -643,7 +643,7 @@
       "line": 345
     },
     "They Don't Work on Ultra Beasts? That's False Advertising!": {
-      "translation": "他们对超级野兽不起作用？这就是虚假广告！",
+      "translation": "对究极异兽不起作用？这是虚假广告！",
       "line": 346
     },
     "Obtain 1,000 Ultra Balls.": {
@@ -675,7 +675,7 @@
       "line": 350
     },
     "Legendaries Hate That Guy": {
-      "translation": "传奇人物讨厌那个人",
+      "translation": "传说宝可梦讨厌那家伙",
       "line": 351
     },
     "Obtain 10 Master Balls.": {
@@ -707,7 +707,7 @@
       "line": 355
     },
     "YES MAN!": {
-      "translation": "是的，伙计！",
+      "translation": "有求必应！",
       "line": 356
     },
     "Complete 100 quests.": {
@@ -863,7 +863,7 @@
       "line": 379
     },
     "Unlock 5 Hatchery Helpers.": {
-      "translation": "解锁5个孵化场助手。",
+      "translation": "解锁5个培育屋助手。",
       "line": 379
     },
     "Why Do They Have To Work in Shifts?": {
@@ -871,7 +871,7 @@
       "line": 380
     },
     "Unlock 11 Hatchery Helpers.": {
-      "translation": "解锁11个孵化场助手。",
+      "translation": "解锁11个培育屋助手。",
       "line": 380
     },
     "My Loyal Helpers": {
@@ -879,7 +879,7 @@
       "line": 381
     },
     "Get 3 Hatchery Helpers to 10% bonus efficiency.": {
-      "translation": "获得3个孵化场助手，可提高10% 效率。",
+      "translation": "获得3个培育屋助手，可提高10% 效率。",
       "line": 381
     },
     "Let's Try Some Other Helpers Too?": {
@@ -887,7 +887,7 @@
       "line": 382
     },
     "Get 5 Hatchery Helpers to 10% bonus efficiency.": {
-      "translation": "获得5个孵化场助手即可获得10% 的额外效率。",
+      "translation": "获得5个培育屋助手即可获得10% 的额外效率。",
       "line": 382
     },
     "Sam Just Wants To Help": {
@@ -895,7 +895,7 @@
       "line": 383
     },
     "Get 10 Hatchery Helpers to 10% bonus efficiency.": {
-      "translation": "获得10个孵化场助手，可获得10% 的奖励效率。",
+      "translation": "获得10个培育屋助手，可获得10% 的奖励效率。",
       "line": 383
     },
     "When Are You Going to Breed Yourself?": {
@@ -903,7 +903,7 @@
       "line": 384
     },
     "Get 10 Hatchery Helpers to 25% bonus efficiency.": {
-      "translation": "获得10个孵化场助手，可获得25% 的额外效率。",
+      "translation": "获得10个培育屋助手，可获得25% 的额外效率。",
       "line": 384
     },
     "My New Dirty Hobby": {

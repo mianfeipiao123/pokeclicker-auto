@@ -673,7 +673,7 @@
       "_confidence": 0.85
     },
     "Tried to add ${...} to the hatchery while already being bred!": {
-      "translation": "尝试在已经孵化的情况下将 ${...} 添加到孵化场！",
+      "translation": "尝试在已经孵化的情况下将 ${...} 添加到培育屋！",
       "line": 267,
       "_rematchedFrom": "Tried to add ${...} to the hatchery while already being bred!",
       "_confidence": 0.85
@@ -687,11 +687,11 @@
       "line": 280
     },
     "Undefined EggItem could not be added to the hatchery!": {
-      "translation": "无法将未定义的 EggItem 添加到孵化场！",
+      "translation": "无法将未定义的 EggItem 添加到培育屋！",
       "line": 292
     },
     "Invalidly-typed data detected in hatchery queue: ${...}": {
-      "translation": "在孵化场队列中检测到无效类型的数据：${...}",
+      "translation": "在培育屋队列中检测到无效类型的数据：${...}",
       "line": 352,
       "_rematchedFrom": "Invalidly-typed data detected in hatchery queue: ${...}",
       "_confidence": 0.85
@@ -711,7 +711,7 @@
       "line": 364
     },
     "Hatchery queue is empty.": {
-      "translation": "孵化场队列为空。",
+      "translation": "培育屋队列为空。",
       "line": 424
     },
     "Cannot gain another eggslot.": {

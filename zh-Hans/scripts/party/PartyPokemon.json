@@ -51,7 +51,7 @@
       "_confidence": 0.85
     },
     "You cannot use ${...} on Pokémon in the hatchery.": {
-      "translation": "你不能对孵化场中的宝可梦使用 ${...}。",
+      "translation": "你不能对培育屋中的宝可梦使用 ${...}。",
       "line": 373,
       "_rematchedFrom": "You cannot use ${...} on Pokémon in the hatchery.",
       "_confidence": 0.85

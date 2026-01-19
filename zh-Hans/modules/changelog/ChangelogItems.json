@@ -87,11 +87,11 @@
       "line": 33
     },
     "Fossil revive system - fossils are now revived by a NPC in each region rather than in the hatchery": {
-      "translation": "化石复活系统 - 化石现在由每个地区的 NPC 复活，而不是在孵化场",
+      "translation": "化石复活系统 - 化石现在由每个地区的 NPC 复活，而不是在培育屋",
       "line": 34
     },
     "Eggs can now be added to the hatchery queue": {
-      "translation": "现在可以将蛋添加到孵化场队列中",
+      "translation": "现在可以将蛋添加到培育屋队列中",
       "line": 35
     },
     "Completing all quests in the list now awards bonus Quest Points": {
@@ -119,7 +119,7 @@
       "line": 41
     },
     "Eggs tab in the Hatchery now lists which Pokémon can be hatched from each egg along with their odds": {
-      "translation": "孵化场中的“蛋”选项卡现在列出了每个蛋可以孵化哪些宝可梦及其几率",
+      "translation": "培育屋中的“蛋”选项卡现在列出了每个蛋可以孵化哪些宝可梦及其几率",
       "line": 42
     },
     "Added keybinds to open the Achievement Tracker (T) and activate Battery Discharge (D) in the Underground": {
@@ -535,7 +535,7 @@
       "line": 160
     },
     "New Hatchery Helper available in Discord shop": {
-      "translation": "Discord 商店提供新的孵化场助手",
+      "translation": "Discord 商店提供新的培育屋助手",
       "line": 161
     },
     "Farm Wanderers have been reworked": {
@@ -559,7 +559,7 @@
       "line": 166
     },
     "Additional category management tools added to the Pokédex & Hatchery": {
-      "translation": "图鉴和孵化场新增了其他类别管理工具",
+      "translation": "图鉴和培育屋新增了其他类别管理工具",
       "line": 167
     },
     "Everstone can now be used as a held item to prevent evolution": {
@@ -635,7 +635,7 @@
       "line": 187
     },
     "Added setting to disable hatchery clear confirmation": {
-      "translation": "添加了禁用孵化场清除确认的设置",
+      "translation": "添加了禁用培育屋清除确认的设置",
       "line": 188
     },
     "Adjusted Holocaster unlock requirements": {
@@ -699,7 +699,7 @@
       "line": 206
     },
     "Hatchery, battle, and clicking performance optimizations": {
-      "translation": "孵化场、战斗和点击性能优化",
+      "translation": "培育屋、战斗和点击性能优化",
       "line": 207
     },
     "Pink Bow replaced with Fairy Feather": {
@@ -1003,7 +1003,7 @@
       "line": 316
     },
     "Improved hatchery helper customization": {
-      "translation": "改进孵化场助手定制",
+      "translation": "改进培育屋助手定制",
       "line": 317
     },
     "Several held items added to Galar dungeons": {
@@ -1035,7 +1035,7 @@
       "line": 326
     },
     "Pokedex & Hatchery filtering now works with party nickname": {
-      "translation": "图鉴和孵化场筛选现在支持队伍昵称",
+      "translation": "图鉴和培育屋筛选现在支持队伍昵称",
       "line": 327
     },
     "Broken Gym Leader sprites": {
@@ -1091,7 +1091,7 @@
       "line": 344
     },
     "Updated egg colors in Hatchery": {
-      "translation": "更新了孵化场的蛋颜色",
+      "translation": "更新了培育屋的蛋颜色",
       "line": 345
     },
     "Misc map changes": {
@@ -1099,7 +1099,7 @@
       "line": 347
     },
     "Pokédex & hatchery unusable at certain resolutions": {
-      "translation": "图鉴和孵化场在某些分辨率下无法使用",
+      "translation": "图鉴和培育屋在某些分辨率下无法使用",
       "line": 348
     },
     "Deleting a category sometimes causing a game crash": {
@@ -1171,7 +1171,7 @@
       "line": 376
     },
     "Hatchery search no longer uses Regex by default": {
-      "translation": "默认情况下，孵化场搜索不再使用正则表达式",
+      "translation": "默认情况下，培育屋搜索不再使用正则表达式",
       "line": 377
     },
     "Adjusted how locked evolutions are shown in evolution item menu": {
@@ -1211,7 +1211,7 @@
       "line": 389
     },
     "Real evolution challenge, using stones on Pokémon in the Hatchery": {
-      "translation": "真正的进化挑战，在孵化场对宝可梦使用石头",
+      "translation": "真正的进化挑战，在培育屋对宝可梦使用石头",
       "line": 390
     },
     "Evolution item caught indication including future regions": {
@@ -1259,7 +1259,7 @@
       "line": 409
     },
     "Misc Hatchery fixes": {
-      "translation": "其他孵化场修复",
+      "translation": "其他培育屋修复",
       "line": 412
     },
     "v0.10.6": {
@@ -1507,7 +1507,7 @@
       "line": 504
     },
     "Farm Point hatchery helper added": {
-      "translation": "添加了农场点孵化场助手",
+      "translation": "添加了农场点培育屋助手",
       "line": 505
     },
     "More questlines": {
@@ -1595,7 +1595,7 @@
       "line": 534
     },
     "Improved Hatchery and Pokédex loading times": {
-      "translation": "改进了孵化场和图鉴加载时间",
+      "translation": "改进了培育屋和图鉴加载时间",
       "line": 535
     },
     "Adjusted Underground layer generation": {
@@ -1635,7 +1635,7 @@
       "line": 552
     },
     "Re-adjusted when hatchery sounds play": {
-      "translation": "当孵化场声音播放时重新调整",
+      "translation": "当培育屋声音播放时重新调整",
       "line": 553
     },
     "Fix farm harvested statistics": {
@@ -1667,7 +1667,7 @@
       "line": 562
     },
     "Hatchery size settings": {
-      "translation": "孵化场尺寸设置",
+      "translation": "培育屋尺寸设置",
       "line": 563
     },
     "Updated Alola maps": {
@@ -1691,7 +1691,7 @@
       "line": 571
     },
     "Improved load times for Pokédex and Hatchery": {
-      "translation": "改进了图鉴和孵化场的加载时间",
+      "translation": "改进了图鉴和培育屋的加载时间",
       "line": 572
     },
     "Harvest rates for berries with a 0.5 harvest rate": {
@@ -1795,7 +1795,7 @@
       "line": 610
     },
     "Pokérus status not visually updating in the hatchery": {
-      "translation": "孵化场中的宝可病毒状态未在视觉上更新",
+      "translation": "培育屋中的宝可病毒状态未在视觉上更新",
       "line": 614
     },
     "Multi quest progression": {
@@ -1959,7 +1959,7 @@
       "line": 668
     },
     "Removed 'None' region from hatchery filters": {
-      "translation": "从孵化场过滤器中删除了“无”区域",
+      "translation": "从培育屋过滤器中删除了“无”区域",
       "line": 669
     },
     "Adjusted some dungeons environments": {
@@ -2107,7 +2107,7 @@
       "line": 710
     },
     "Hatchery queue not filling empty slots occasionally": {
-      "translation": "孵化场队列偶尔无法填满空位",
+      "translation": "培育屋队列偶尔无法填满空位",
       "line": 711
     },
     "Area completion status highlighting": {
@@ -2171,7 +2171,7 @@
       "line": 731
     },
     "Updated Hatchery sort options and directions, Added a tooltip": {
-      "translation": "更新了孵化场排序选项和方向，添加了工具提示",
+      "translation": "更新了培育屋排序选项和方向，添加了工具提示",
       "line": 732
     },
     "Display highest stage reached while in Battle Frontier": {
@@ -2179,7 +2179,7 @@
       "line": 733
     },
     "Added option to display Proteins used in Hatchery": {
-      "translation": "添加了显示孵化场中使用的蛋白质的选项",
+      "translation": "添加了显示培育屋中使用的蛋白质的选项",
       "line": 734
     },
     "Updated Pokémon League sprites on map": {
@@ -2215,7 +2215,7 @@
       "line": 742
     },
     "Fossils display caught status in Hatchery": {
-      "translation": "化石显示孵化场的捕获状况",
+      "translation": "化石显示培育屋的捕获状况",
       "line": 743
     },
     "Links on the Save Selector screen will now open in a new tab": {
@@ -2251,7 +2251,7 @@
       "line": 754
     },
     "Added Hatchery Helpers [BETA]": {
-      "translation": "添加了孵化场助手 [测试版]",
+      "translation": "添加了培育屋助手 [测试版]",
       "line": 755
     },
     "Added Flutes [BETA]": {
@@ -2767,11 +2767,11 @@
       "line": 904
     },
     "Hatchery and Protein list now sort independently of Party": {
-      "translation": "孵化场和蛋白质列表现在独立于派对进行排序",
+      "translation": "培育屋和蛋白质列表现在独立于派对进行排序",
       "line": 905
     },
     "Hatchery and Protein list not sorting": {
-      "translation": "孵化场和蛋白质列表未排序",
+      "translation": "培育屋和蛋白质列表未排序",
       "line": 906
     },
     "v0.8.10": {
@@ -3167,7 +3167,7 @@
       "line": 1026
     },
     "Hatched display value not updating in hatchery": {
-      "translation": "孵化场中的孵化显示值未更新",
+      "translation": "培育屋中的孵化显示值未更新",
       "line": 1027
     },
     "Various text fixes": {
@@ -3473,7 +3473,7 @@
       "line": 1118
     },
     "Hatchery steps given from Unvoa dungeons": {
-      "translation": "Unvoa 迷宫给出的孵化场步骤",
+      "translation": "Unvoa 迷宫给出的培育屋步骤",
       "line": 1119
     },
     "Old Amber quest reward": {
@@ -3505,7 +3505,7 @@
       "line": 1130
     },
     "Add option to display Pokédex ID in hatchery": {
-      "translation": "添加在孵化场显示 图鉴 ID 的选项",
+      "translation": "添加在培育屋显示 图鉴 ID 的选项",
       "line": 1131
     },
     "Save achievement filters": {
@@ -3629,7 +3629,7 @@
       "line": 1167
     },
     "Empty Hatchery queue notification added": {
-      "translation": "添加了空孵化场队列通知",
+      "translation": "添加了空培育屋队列通知",
       "line": 1168
     },
     "Nerfed Heatran": {
@@ -3657,7 +3657,7 @@
       "line": 1178
     },
     "Save category filter in Hatchery upon reloading": {
-      "translation": "重新加载后将类别过滤器保存在孵化场中",
+      "translation": "重新加载后将类别过滤器保存在培育屋中",
       "line": 1179
     },
     "Decreased the Shovel cost": {
@@ -3721,7 +3721,7 @@
       "line": 1200
     },
     "New display options added to Hatchery": {
-      "translation": "孵化场添加了新的显示选项",
+      "translation": "培育屋添加了新的显示选项",
       "line": 1201
     },
     "Can sort Pokémon list by total proteins used": {
@@ -3885,7 +3885,7 @@
       "line": 1250
     },
     "Protein item now has a use, buy from Pokémon League, use in Hatchery": {
-      "translation": "蛋白质物品现在有用途了，从宝可梦联盟购买，在孵化场使用",
+      "translation": "蛋白质物品现在有用途了，从宝可梦联盟购买，在培育屋使用",
       "line": 1251
     },
     "Free quest refreshes": {
@@ -3893,7 +3893,7 @@
       "line": 1252
     },
     "Hatchery filters are now saved upon reload": {
-      "translation": "孵化场过滤器现在在重新加载时保存",
+      "translation": "培育屋过滤器现在在重新加载时保存",
       "line": 1253
     },
     "Damage output modified, dual types nerfed, single types buffed": {
@@ -3961,7 +3961,7 @@
       "line": 1271
     },
     "Queue functionality added to Hatchery": {
-      "translation": "孵化场添加了队列功能",
+      "translation": "培育屋添加了队列功能",
       "line": 1272
     },
     "Can add Pokémon to custom Categories, and sort/filter by those": {
@@ -4073,7 +4073,7 @@
       "line": 1301
     },
     "Added setting for Hatchery egg ready to hatch animations": {
-      "translation": "添加了孵化场蛋准备孵化动画的设置",
+      "translation": "添加了培育屋蛋准备孵化动画的设置",
       "line": 1302
     },
     "More NPCs in towns around Johto and Hoenn": {
@@ -4105,7 +4105,7 @@
       "line": 1309
     },
     "Hatchery eggs will display in a row of 4 when module is in the middle columnn": {
-      "translation": "当模块位于中间栏时，孵化场蛋将显示为4行",
+      "translation": "当模块位于中间栏时，培育屋蛋将显示为4行",
       "line": 1310
     },
     "Always show total levels in Oak Item tooltips": {
@@ -4125,7 +4125,7 @@
       "line": 1314
     },
     "Updated Hatchery sort display": {
-      "translation": "更新了孵化场排序显示",
+      "translation": "更新了培育屋排序显示",
       "line": 1315
     },
     "Notification sounds normalized": {
@@ -4177,7 +4177,7 @@
       "line": 1329
     },
     "Added sort dropdown to the Hatchery": {
-      "translation": "为孵化场添加了排序下拉列表",
+      "translation": "为培育屋添加了排序下拉列表",
       "line": 1330
     },
     "Added setting for shop value increment amount": {
@@ -4197,7 +4197,7 @@
       "line": 1334
     },
     "Can hide the Pokémon filter in the Hatchery": {
-      "translation": "可以隐藏孵化场中的宝可梦过滤器",
+      "translation": "可以隐藏培育屋中的宝可梦过滤器",
       "line": 1335
     },
     "Energy use disabled once you complete a layer in Underground until refreshed": {
@@ -4305,7 +4305,7 @@
       "line": 1362
     },
     "Reduce some lag caused by hatchery filters": {
-      "translation": "减少孵化场过滤器造成的一些滞后",
+      "translation": "减少培育屋过滤器造成的一些滞后",
       "line": 1363
     },
     "Mystery egg can now hatch Pokémon from the Dragon Egg pool": {
@@ -4369,7 +4369,7 @@
       "line": 1380
     },
     "Hatchery should no longer cause lag when hatching": {
-      "translation": "孵化场在孵化时不应再造成滞后",
+      "translation": "培育屋在孵化时不应再造成滞后",
       "line": 1381
     },
     "Old Quests will no longer give a notification when completed once they are refreshed": {
@@ -4445,7 +4445,7 @@
       "line": 1403
     },
     "Fixed breeding filter displayed options being reset after hatchery filled up": {
-      "translation": "修复了孵化场填满后重置的繁殖过滤器显示选项",
+      "translation": "修复了培育屋填满后重置的繁殖过滤器显示选项",
       "line": 1404
     },
     "v0.5.1": {
@@ -4741,7 +4741,7 @@
       "line": 1492
     },
     "Fossils will now show in the Hatchery": {
-      "translation": "化石现在将在孵化场展示",
+      "translation": "化石现在将在培育屋展示",
       "line": 1493
     },
     "Update Farm layout for smaller displays": {
@@ -5437,7 +5437,7 @@
       "line": 1704
     },
     "Show the hatchery \"list\" button once Johto unlocked without page refresh": {
-      "translation": "城都解锁后显示孵化场“列表”按钮，无需刷新页面",
+      "translation": "城都解锁后显示培育屋“列表”按钮，无需刷新页面",
       "line": 1705
     },
     "list": {

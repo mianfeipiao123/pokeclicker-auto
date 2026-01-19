@@ -415,7 +415,7 @@
       "line": 114
     },
     "Hide Hatchery Modal": {
-      "translation": "隐藏孵化场弹窗",
+      "translation": "隐藏培育屋弹窗",
       "line": 117
     },
     "Never": {
@@ -651,7 +651,7 @@
       "line": 180
     },
     "Confirm before clearing the hatchery queue": {
-      "translation": "清除孵化场队列之前确认",
+      "translation": "清除培育屋队列之前确认",
       "line": 180
     },
     "confirmChangeHeldItem": {
@@ -1291,11 +1291,11 @@
       "line": 478
     },
     "hotkey.hatchery": {
-      "translation": "热键孵化场",
+      "translation": "热键培育屋",
       "line": 479
     },
     "Hatchery": {
-      "translation": "孵化场",
+      "translation": "培育屋",
       "line": 479
     },
     "hotkey.achievementsTracker": {

@@ -547,7 +547,7 @@
       "line": 471
     },
     "You can leave your level 100 Pokémon with us up at the Hatchery. Breeding them will reset their level, but they will be stronger! They gain 25% of their base attack!": {
-      "translation": "你可以将你的100级宝可梦留在孵化场。培育它们会重置它们的等级，但它们会变得更强！他们获得基础攻击力的25%！",
+      "translation": "你可以将你的100级宝可梦留在培育屋。培育它们会重置它们的等级，但它们会变得更强！他们获得基础攻击力的25%！",
       "line": 472
     },
     "And the best part is you can keep doing it over and over and over again! The sky is the limit! Reach for the stars!": {
@@ -2441,7 +2441,7 @@
       "line": 1926
     },
     "Oh? Some of your Pokémon may find an extra egg if left in the hatchery. Would you care to find out what baby will hatch?": {
-      "translation": "哦？如果你的一些宝可梦留在孵化场，可能会发现额外的蛋。你想知道会孵出什么宝宝吗？",
+      "translation": "哦？如果你的一些宝可梦留在培育屋，可能会发现额外的蛋。你想知道会孵出什么宝宝吗？",
       "line": 1928
     },
     "baby": {
@@ -2665,7 +2665,7 @@
       "line": 2373
     },
     "Onix (Rocker)": {
-      "translation": "[[Onix]]（摇滚客）",
+      "translation": "[[Onix]] (摇滚乐手)",
       "line": 2374
     },
     "Dugtrio (Punk)": {

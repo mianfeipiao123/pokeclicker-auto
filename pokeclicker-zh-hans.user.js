@@ -2,7 +2,7 @@
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
 // @version      0.1.53
-// @description  从 GitHub 仓库加载 zh-Hans 翻译文件，并替换页面中仍以英文显示的文本
+// @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
 // @match        https://www.pokeclicker.com/*

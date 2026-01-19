@@ -23,7 +23,7 @@
       "line": 16
     },
     "text-success": {
-      "translation": "文本成功",
+      "translation": "",
       "line": 19
     },
     "<span class=\"text-success\"><b>${...}</b></span>": {

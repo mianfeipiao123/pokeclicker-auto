@@ -15,7 +15,7 @@
       "line": 4
     },
     "true": {
-      "translation": "真的",
+      "translation": "",
       "line": 17
     },
     "blur": {
@@ -23,7 +23,7 @@
       "line": 18
     },
     "hide": {
-      "translation": "隐藏",
+      "translation": "",
       "line": 29
     },
     "rotate": {
@@ -39,11 +39,11 @@
       "line": 37
     },
     "transform": {
-      "translation": "转换",
+      "translation": "",
       "line": 40
     },
     "rotate(90,": {
-      "translation": "旋转（90，",
+      "translation": "",
       "line": 40
     },
     "attributes": {
@@ -59,7 +59,7 @@
       "line": 54
     },
     "none": {
-      "translation": "没有任何",
+      "translation": "",
       "line": 56
     },
     "[${...}=\"${...}\"]": {
@@ -67,7 +67,7 @@
       "line": 145
     },
     "moduleHeight.${...}": {
-      "translation": "模块高度。${...}",
+      "translation": "",
       "line": 171
     },
     "resizable-container": {
@@ -87,7 +87,7 @@
       "line": 196
     },
     "tooltip": {
-      "translation": "工具提示",
+      "translation": "",
       "line": 196
     },
     "arrow": {
@@ -115,11 +115,11 @@
       "line": 212
     },
     "bottom": {
-      "translation": "底部",
+      "translation": "",
       "line": 227
     },
     "click": {
-      "translation": "点击",
+      "translation": "",
       "line": 228
     }
   }

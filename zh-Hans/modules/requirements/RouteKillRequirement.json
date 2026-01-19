@@ -23,7 +23,7 @@
       "line": 17
     },
     "${...} Pokémon need to be defeated on ${...}.": {
-      "translation": "${...} 宝可梦需要在 ${...} 被击败。",
+      "translation": "需要在 ${...} 击败 ${...} 只宝可梦。",
       "line": 27,
       "_rematchedFrom": "${...} Pokémon need to be defeated on ${...}.",
       "_confidence": 0.85

@@ -19,7 +19,7 @@
       "line": 8
     },
     "${...} needs to be completed.": {
-      "translation": "${...} 需要填写。",
+      "translation": "${...} 需要完成。",
       "line": 18,
       "_rematchedFrom": "${...} needs to be completed.",
       "_confidence": 0.85

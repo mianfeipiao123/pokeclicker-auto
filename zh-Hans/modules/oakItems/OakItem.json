@@ -31,7 +31,7 @@
       "line": 8
     },
     "Capture ${...} more unique Pokémon": {
-      "translation": "捕捉 ${...} 个独特的宝可梦",
+      "translation": "再捕捉 ${...} 种不同的宝可梦",
       "line": 53,
       "_rematchedFrom": "Capture ${...} more unique Pokémon",
       "_confidence": 0.85

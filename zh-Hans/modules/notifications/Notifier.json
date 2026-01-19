@@ -27,11 +27,11 @@
       "line": 12
     },
     "granted": {
-      "translation": "的确",
+      "translation": "",
       "line": 36
     },
     "div": {
-      "translation": "分区",
+      "translation": "",
       "line": 37
     },
     "toast bg-${...}": {
@@ -63,7 +63,7 @@
       "line": 61
     },
     "text-muted": {
-      "translation": "文本静音",
+      "translation": "",
       "line": 62
     },
     "button": {
@@ -99,7 +99,7 @@
       "line": 69
     },
     "show": {
-      "translation": "展示",
+      "translation": "",
       "line": 76
     },
     "#${...}": {
@@ -111,7 +111,7 @@
       "line": 79
     },
     "hide": {
-      "translation": "隐藏",
+      "translation": "",
       "line": 81
     },
     "hidden.bs.toast": {
@@ -169,7 +169,7 @@
       "line": 119
     },
     "true": {
-      "translation": "真的",
+      "translation": "",
       "line": 120
     },
     "modal-body py-2 px-2 text-left": {
@@ -189,7 +189,7 @@
       "line": 127
     },
     "text": {
-      "translation": "文本",
+      "translation": "",
       "line": 127
     },
     "modal-footer p-2": {
@@ -201,7 +201,7 @@
       "line": 130
     },
     "keyup": {
-      "translation": "按键",
+      "translation": "",
       "line": 137
     },
     "Enter": {
@@ -233,7 +233,7 @@
       "line": 152
     },
     "click": {
-      "translation": "点击",
+      "translation": "",
       "line": 162
     },
     "hidden.bs.modal": {
@@ -273,7 +273,7 @@
       "line": 280
     },
     "text-warning": {
-      "translation": "文字警告",
+      "translation": "",
       "line": 281
     }
   }

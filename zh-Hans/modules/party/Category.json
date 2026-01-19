@@ -39,7 +39,7 @@
       "line": 31
     },
     "--pokemon-category-${...}": {
-      "translation": "--pokemon-类别-${...}",
+      "translation": "",
       "line": 70,
       "_rematchedFrom": "--pokemon-category-${...}",
       "_confidence": 0.85

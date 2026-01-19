@@ -35,11 +35,11 @@
       "line": 10
     },
     "input[name=\"amountOfStones\"]": {
-      "translation": "输入[名称=“石头数量”]",
+      "translation": "",
       "line": 36
     },
     "input[name=\"amountOfItems\"]": {
-      "translation": "输入[名称=“项目数量”]",
+      "translation": "",
       "line": 41
     },
     "No Pokémon selected.": {

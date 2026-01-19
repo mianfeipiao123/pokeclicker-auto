@@ -17,7 +17,7 @@
       "_confidence": 0.85
     },
     "function": {
-      "translation": "功能",
+      "translation": "",
       "line": 43
     },
     "${...}b": {
@@ -53,7 +53,7 @@
       "line": 202
     },
     "hidden": {
-      "translation": "隐",
+      "translation": "",
       "line": 202
     },
     "scroll": {
@@ -73,7 +73,7 @@
       "line": 253
     },
     "input": {
-      "translation": "输入",
+      "translation": "",
       "line": 253
     },
     "select": {

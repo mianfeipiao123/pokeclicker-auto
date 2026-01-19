@@ -71,11 +71,11 @@
       "line": 16
     },
     "Disables the usage of Gems to increase type effectiveness": {
-      "translation": "禁止使用 Gems 以提高类型效率",
+      "translation": "禁止使用宝石提升属性效果",
       "line": 16
     },
     "No Vitamins": {
-      "translation": "不含营养剂",
+      "translation": "禁用营养剂",
       "line": 17
     },
     "Disables the usage of Vitamins": {

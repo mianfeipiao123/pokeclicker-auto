@@ -23,11 +23,11 @@
       "line": 4
     },
     "Mega Stone": {
-      "translation": "超进化石",
+      "translation": "超级石",
       "line": 8
     },
     "${...} Mega Stones need to be obtained.": {
-      "translation": "需要获得 ${...} 超进化石。",
+      "translation": "需要获得 ${...} 超级石。",
       "line": 16,
       "_rematchedFrom": "${...} Mega Stones need to be obtained.",
       "_confidence": 0.85

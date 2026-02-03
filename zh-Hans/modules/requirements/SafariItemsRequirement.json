@@ -15,7 +15,7 @@
       "line": 2
     },
     "${...} Items needs to be picked up in a Safari Zone.": {
-      "translation": "需要在狩猎区拾取 ${...} 件物品。",
+      "translation": "需要在狩猎地带拾取 ${...} 件物品。",
       "line": 14,
       "_rematchedFrom": "${...} Items needs to be picked up in a Safari Zone.",
       "_confidence": 0.85

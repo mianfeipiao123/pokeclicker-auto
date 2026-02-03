@@ -15,7 +15,7 @@
       "line": 2
     },
     "Fully mine ${...} layer${...} in the Underground.": {
-      "translation": "在采掘场完全开采${...}层。",
+      "translation": "在地下大洞窟完全开采${...}层。",
       "line": 15,
       "_rematchedFrom": "Fully mine ${...} layer${...} in the Underground.",
       "_confidence": 0.85

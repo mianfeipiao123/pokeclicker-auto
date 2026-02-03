@@ -111,7 +111,7 @@
       "line": 404
     },
     "Safari_ticket": {
-      "translation": "狩猎区门票",
+      "translation": "狩猎地带门票",
       "line": 409
     },
     "Shard_case": {
@@ -1587,7 +1587,7 @@
       "line": 2779
     },
     "Underground refund": {
-      "translation": "采掘场退款",
+      "translation": "地下大洞窟退款",
       "line": 2790
     },
     "The old Underground upgrade system has been removed due to recent changes. We have refunded ${...} <img src=\"./assets/images/currency/diamond.svg\" height=\"24px\"/> to your wallet.": {
@@ -1603,7 +1603,7 @@
       "line": 2794
     },
     "Underground changes": {
-      "translation": "采掘场变更",
+      "translation": "地下大洞窟变更",
       "line": 2800
     },
     "The Underground has been overhauled! Check out the Underground Help tab for all the details on the new features and how everything works. Dive in and explore the changes! <button class=\"btn btn-block btn-secondary\" onclick=\"UndergroundController.openUndergroundModal()\" data-dismiss=\"toast\">Open Underground</button>": {

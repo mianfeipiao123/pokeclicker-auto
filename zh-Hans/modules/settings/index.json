@@ -615,7 +615,7 @@
       "line": 171
     },
     "Show Underground module on main screen": {
-      "translation": "在主屏幕上显示采掘场模块",
+      "translation": "在主屏幕上显示地下大洞窟模块",
       "line": 175
     },
     "enableUndergroundModuleMineControls": {
@@ -623,7 +623,7 @@
       "line": 176
     },
     "Enable Underground module mine controls": {
-      "translation": "启用采掘场模块挖掘控制",
+      "translation": "启用地下大洞窟模块挖掘控制",
       "line": 176
     },
     "currencyMainDisplayReduced": {
@@ -1315,11 +1315,11 @@
       "line": 481
     },
     "hotkey.underground": {
-      "translation": "快捷键.采掘场",
+      "translation": "快捷键.地下大洞窟",
       "line": 482
     },
     "Underground": {
-      "translation": "采掘场",
+      "translation": "地下大洞窟",
       "line": 482
     },
     "hotkey.shop": {
@@ -1395,7 +1395,7 @@
       "_confidence": 0.95
     },
     "hotkey.underground.hammer": {
-      "translation": "快捷键.采掘场.锤子",
+      "translation": "快捷键.地下大洞窟.锤子",
       "line": 492
     },
     "Switch to Hammer": {
@@ -1403,7 +1403,7 @@
       "line": 492
     },
     "hotkey.underground.chisel": {
-      "translation": "快捷键.采掘场.凿子",
+      "translation": "快捷键.地下大洞窟.凿子",
       "line": 493
     },
     "Switch to Chisel": {
@@ -1411,7 +1411,7 @@
       "line": 493
     },
     "hotkey.underground.bomb": {
-      "translation": "快捷键.采掘场.炸弹",
+      "translation": "快捷键.地下大洞窟.炸弹",
       "line": 494
     },
     "Switch to Bomb": {
@@ -1419,7 +1419,7 @@
       "line": 494
     },
     "hotkey.underground.survey": {
-      "translation": "快捷键.采掘场.探测",
+      "translation": "快捷键.地下大洞窟.探测",
       "line": 495
     },
     "Switch to Survey": {
@@ -1427,7 +1427,7 @@
       "line": 495
     },
     "hotkey.underground.discharge": {
-      "translation": "快捷键.采掘场.放电",
+      "translation": "快捷键.地下大洞窟.放电",
       "line": 496
     },
     "Discharge": {

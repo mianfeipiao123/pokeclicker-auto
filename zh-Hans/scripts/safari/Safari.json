@@ -27,7 +27,7 @@
       "line": 140
     },
     "Safari Zone": {
-      "translation": "狩猎区",
+      "translation": "狩猎地带",
       "line": 229
     },
     "You have an active Safari in ${...}. Do you want to quit that Safari and start a new one?": {
@@ -179,7 +179,7 @@
       "line": 662
     },
     "Friend Safari": {
-      "translation": "朋友狩猎区",
+      "translation": "朋友狩猎地带",
       "line": 665
     },
     "Hoppy Town Fishing Pond": {

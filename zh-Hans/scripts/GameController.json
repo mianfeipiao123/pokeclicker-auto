@@ -169,23 +169,23 @@
       "line": 190
     },
     "hotkey.underground.hammer": {
-      "translation": "快捷键.采掘场.锤子",
+      "translation": "快捷键.地下大洞窟.锤子",
       "line": 197
     },
     "hotkey.underground.chisel": {
-      "translation": "快捷键.采掘场.凿子",
+      "translation": "快捷键.地下大洞窟.凿子",
       "line": 200
     },
     "hotkey.underground.bomb": {
-      "translation": "快捷键.采掘场.炸弹",
+      "translation": "快捷键.地下大洞窟.炸弹",
       "line": 203
     },
     "hotkey.underground.survey": {
-      "translation": "快捷键.采掘场.探测",
+      "translation": "快捷键.地下大洞窟.探测",
       "line": 206
     },
     "hotkey.underground.discharge": {
-      "translation": "快捷键.采掘场.放电",
+      "translation": "快捷键.地下大洞窟.放电",
       "line": 209
     },
     "disabled": {
@@ -249,7 +249,7 @@
       "line": 403
     },
     "hotkey.underground": {
-      "translation": "快捷键.采掘场",
+      "translation": "快捷键.地下大洞窟",
       "line": 411
     },
     "hotkey.shop": {

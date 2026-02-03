@@ -123,7 +123,7 @@
       "line": 42
     },
     "Added keybinds to open the Achievement Tracker (T) and activate Battery Discharge (D) in the Underground": {
-      "translation": "新增快捷键：在采掘场中打开成就追踪器(T)和激活电池释放(D)",
+      "translation": "新增快捷键：在地下大洞窟中打开成就追踪器(T)和激活电池释放(D)",
       "line": 43
     },
     "Shop item tooltip now displays how much of the item the player owns": {
@@ -151,7 +151,7 @@
       "line": 49
     },
     "Battery Discharge (Underground) can now be used without equipping the Cell Battery Oak Item": {
-      "translation": "采掘场电池释放现在无需装备电池大木博士道具即可使用",
+      "translation": "地下大洞窟电池释放现在无需装备电池大木博士道具即可使用",
       "line": 50
     },
     "Cell Battery Oak Item now reduces the charges required to discharge": {
@@ -279,7 +279,7 @@
       "line": 84
     },
     "Underground images not loading or displaying incorrectly (might not kick in until a new layer)": {
-      "translation": "采掘场图像未加载或显示不正确（可能需要进入新层才会生效）",
+      "translation": "地下大洞窟图像未加载或显示不正确（可能需要进入新层才会生效）",
       "line": 85
     },
     "Dungeon debuff indicator incorrectly displaying on non-debuffed dungeons": {
@@ -307,7 +307,7 @@
       "line": 95
     },
     "Underground feature has been overhauled - see Help tab in-game": {
-      "translation": "采掘场功能已全面改版 - 请参阅游戏内的帮助选项卡",
+      "translation": "地下大洞窟功能已全面改版 - 请参阅游戏内的帮助选项卡",
       "line": 96
     },
     "Additional Unown appear in each dungeon after 100 and 250 clears": {
@@ -515,7 +515,7 @@
       "line": 155
     },
     "Farm & Underground modules added to main view; can be disabled in settings": {
-      "translation": "农场和采掘场模块已添加到主视图；可在设置中禁用",
+      "translation": "农场和地下大洞窟模块已添加到主视图；可在设置中禁用",
       "line": 156
     },
     "Moon Phase system & Moon Ball": {
@@ -543,7 +543,7 @@
       "line": 162
     },
     "Underground, diamonds, and daily deals adjusted": {
-      "translation": "采掘场、钻石和每日交易已调整",
+      "translation": "地下大洞窟、钻石和每日交易已调整",
       "line": 163
     },
     "Alola has been rebalanced and story quests revamped": {
@@ -603,7 +603,7 @@
       "line": 177
     },
     "Safari Zones now have an encounter display similar to dungeons": {
-      "translation": "狩猎区现在有类似于迷宫的遭遇显示",
+      "translation": "狩猎地带现在有类似于迷宫的遭遇显示",
       "line": 178
     },
     "The \"Caught Not Shadow\" Pokédex filter will now only show Pokémon with a shadow form": {
@@ -787,7 +787,7 @@
       "line": 235
     },
     "Great Marsh Safari Zone in Sinnoh": {
-      "translation": "神奥大沼泽狩猎区",
+      "translation": "神奥大沼泽狩猎地带",
       "line": 236
     },
     "Pokéball filter option - Category": {
@@ -879,7 +879,7 @@
       "line": 271
     },
     "Added ability to Surf on water in Safari zone": {
-      "translation": "增加了在狩猎区水上冲浪的能力",
+      "translation": "增加了在狩猎地带水上冲浪的能力",
       "line": 274
     },
     "Safari animation speed increases with level": {
@@ -939,7 +939,7 @@
       "line": 293
     },
     "Safari Zone based achievements": {
-      "translation": "基于狩猎区的成就",
+      "translation": "基于狩猎地带的成就",
       "line": 294
     },
     "Adjust Safari Zone item spawning": {
@@ -967,15 +967,15 @@
       "line": 305
     },
     "Friend Safari is now open!": {
-      "translation": "朋友狩猎区现已开放！",
+      "translation": "朋友狩猎地带现已开放！",
       "line": 306
     },
     "Safari XP & Safari Level - see the Help tab in the Safari Zone for more information": {
-      "translation": "狩猎经验 和 狩猎等级 - 请参阅狩猎区中的“帮助”选项卡以获取更多信息",
+      "translation": "狩猎经验 和 狩猎等级 - 请参阅狩猎地带中的“帮助”选项卡以获取更多信息",
       "line": 307
     },
     "Safari keybinds": {
-      "translation": "狩猎区按键绑定",
+      "translation": "狩猎地带按键绑定",
       "line": 308
     },
     "Event Calendar - Halloween not included (purchased in Hammerlocke)": {
@@ -1087,7 +1087,7 @@
       "line": 343
     },
     "Acquired Mega Stones displayed in item bag": {
-      "translation": "获得的超进化石显示在物品袋中",
+      "translation": "获得的超级石显示在物品袋中",
       "line": 344
     },
     "Updated egg colors in Hatchery": {
@@ -1167,7 +1167,7 @@
       "line": 375
     },
     "Adjusted some fossil sizes in Underground": {
-      "translation": "调整了采掘场中部分化石的尺寸",
+      "translation": "调整了地下大洞窟中部分化石的尺寸",
       "line": 376
     },
     "Hatchery search no longer uses Regex by default": {
@@ -1195,7 +1195,7 @@
       "line": 382
     },
     "No more Mega Stones in berry trades": {
-      "translation": "树果交易中不再有超进化石",
+      "translation": "树果交易中不再有超级石",
       "line": 386
     },
     "Farm aura displays": {
@@ -1203,7 +1203,7 @@
       "line": 387
     },
     "Underground buried item locations": {
-      "translation": "采掘场埋藏物品位置",
+      "translation": "地下大洞窟埋藏物品位置",
       "line": 388
     },
     "Fixed subregion for Altar of the Sunne and Moone": {
@@ -1295,7 +1295,7 @@
       "line": 429
     },
     "Added PokéRus indicator to shops and Safari Zone": {
-      "translation": "为商店和狩猎区添加了 PokéRus 指示器",
+      "translation": "为商店和狩猎地带添加了 PokéRus 指示器",
       "line": 430
     },
     "Added more Held Items": {
@@ -1319,7 +1319,7 @@
       "line": 435
     },
     "Buffed shiny chance for Safari Zone": {
-      "translation": "增加了狩猎区的闪光几率",
+      "translation": "增加了狩猎地带的闪光几率",
       "line": 436
     },
     "Changed evoluion items layout": {
@@ -1475,7 +1475,7 @@
       "line": 492
     },
     "Increased chance of undiscovered fossils appearing in the Underground": {
-      "translation": "采掘场中出现未发现化石的几率提高",
+      "translation": "地下大洞窟中出现未发现化石的几率提高",
       "line": 493
     },
     "Adjusted held item drop locations": {
@@ -1599,7 +1599,7 @@
       "line": 535
     },
     "Adjusted Underground layer generation": {
-      "translation": "调整了采掘场层生成",
+      "translation": "调整了地下大洞窟层生成",
       "line": 536
     },
     "Enigma will now show the full hint once unlocked": {
@@ -1763,7 +1763,7 @@
       "line": 595
     },
     "Adjusted Underground item sorting": {
-      "translation": "调整了采掘场物品排序",
+      "translation": "调整了地下大洞窟物品排序",
       "line": 596
     },
     "v0.9.12": {
@@ -1843,7 +1843,7 @@
       "line": 634
     },
     "Shards now appear in Underground": {
-      "translation": "碎片现在出现在采掘场",
+      "translation": "碎片现在出现在地下大洞窟",
       "line": 635
     },
     "Shard traders": {
@@ -1915,7 +1915,7 @@
       "line": 653
     },
     "Some Sinnoh and Alola stones added to Underground": {
-      "translation": "采掘场新增部分神奥和阿罗拉进化石",
+      "translation": "地下大洞窟新增部分神奥和阿罗拉进化石",
       "line": 654
     },
     "Adjusted loot found in dungeon chests": {
@@ -2199,7 +2199,7 @@
       "line": 738
     },
     "Can now change movement keys for Safari Zone": {
-      "translation": "现在可以更改狩猎区的移动键",
+      "translation": "现在可以更改狩猎地带的移动键",
       "line": 739
     },
     "Timer now starts in Dungeons once you have moved": {
@@ -2235,7 +2235,7 @@
       "line": 747
     },
     "Safari Zone movement animations": {
-      "translation": "狩猎区移动动画",
+      "translation": "狩猎地带移动动画",
       "line": 748
     },
     "Shiny code wrong name displayed occasionally": {
@@ -2271,7 +2271,7 @@
       "line": 759
     },
     "Moved sell all button in Underground to the Treasures tab": {
-      "translation": "将采掘场的全部出售按钮移至宝藏选项卡",
+      "translation": "将地下大洞窟的全部出售按钮移至宝藏选项卡",
       "line": 760
     },
     "Ruins of Alph added Unown (A) as a boss until caught": {
@@ -2319,7 +2319,7 @@
       "line": 773
     },
     "Underground sell all no longer starts breeding fossils": {
-      "translation": "采掘场全部出售不再自动开始孵化化石",
+      "translation": "地下大洞窟全部出售不再自动开始孵化化石",
       "line": 774
     },
     "v0.9.1": {
@@ -2339,7 +2339,7 @@
       "line": 780
     },
     "On screen Safari Zone controls not working": {
-      "translation": "屏幕上的狩猎区控件不起作用",
+      "translation": "屏幕上的狩猎地带控件不起作用",
       "line": 781
     },
     "Achievement filtering": {
@@ -2375,7 +2375,7 @@
       "line": 790
     },
     "Added Sell-all button to Underground": {
-      "translation": "新增采掘场全部出售按钮",
+      "translation": "新增地下大洞窟全部出售按钮",
       "line": 791
     },
     "Sinnoh Quest Line": {
@@ -2755,7 +2755,7 @@
       "line": 899
     },
     "Being able to go into Bait debt in the Safari Zone": {
-      "translation": "能够在狩猎区陷入诱饵债务",
+      "translation": "能够在狩猎地带陷入诱饵债务",
       "line": 900
     },
     "v0.8.11": {
@@ -2795,7 +2795,7 @@
       "line": 913
     },
     "Added Farm, Daycare, Underground locations to all maps": {
-      "translation": "在所有地图中添加了农场、培育屋、采掘场位置",
+      "translation": "在所有地图中添加了农场、培育屋、地下大洞窟位置",
       "line": 914
     },
     "Moved a few dungeons out of towns": {
@@ -2919,11 +2919,11 @@
       "line": 949
     },
     "Show net value of Underground in footer": {
-      "translation": "在页脚中显示采掘场的净值",
+      "translation": "在页脚中显示地下大洞窟的净值",
       "line": 950
     },
     "Some Fossils appearing in the underground too early": {
-      "translation": "部分化石过早出现在采掘场",
+      "translation": "部分化石过早出现在地下大洞窟",
       "line": 951
     },
     "Dungeon trainers re-appearing after failing them previously": {
@@ -3083,7 +3083,7 @@
       "line": 1000
     },
     "Show item count for non Underground items in the Daily deals": {
-      "translation": "在每日交易中显示非采掘场物品的数量",
+      "translation": "在每日交易中显示非地下大洞窟物品的数量",
       "line": 1001
     },
     "Being able to enter some dungeons early": {
@@ -3123,7 +3123,7 @@
       "line": 1012
     },
     "Underground not refreshing after completing layer and purchasing size upgrade": {
-      "translation": "完成挖掘层并购买尺寸升级后采掘场未刷新",
+      "translation": "完成挖掘层并购买尺寸升级后地下大洞窟未刷新",
       "line": 1013
     },
     "Softlock from Safari Ticket and Shard Case if the user refreshed the page after obtaining a badge": {
@@ -3263,7 +3263,7 @@
       "line": 1058
     },
     "Mine items quest in Underground": {
-      "translation": "采掘场挖掘物品任务",
+      "translation": "地下大洞窟挖掘物品任务",
       "line": 1059
     },
     "Fixed dungeon token gain": {
@@ -3275,7 +3275,7 @@
       "line": 1061
     },
     "Safari Zone encounter statistics": {
-      "translation": "狩猎区遭遇统计",
+      "translation": "狩猎地带遭遇统计",
       "line": 1062
     },
     "Some roaming event mons": {
@@ -3433,7 +3433,7 @@
       "line": 1107
     },
     "Underground no longer notifies on new game": {
-      "translation": "新游戏时采掘场不再弹出通知",
+      "translation": "新游戏时地下大洞窟不再弹出通知",
       "line": 1108
     },
     "Hide future region forms from Battle Frontier": {
@@ -3449,11 +3449,11 @@
       "line": 1113
     },
     "Underground": {
-      "translation": "采掘场",
+      "translation": "地下大洞窟",
       "line": 1113
     },
     "Underground revamped": {
-      "translation": "采掘场改版",
+      "translation": "地下大洞窟改版",
       "line": 1114
     },
     "More Pokémon held items added": {
@@ -3969,7 +3969,7 @@
       "line": 1273
     },
     "Safari Zone Pokémon can now appear as overworld sprites": {
-      "translation": "狩猎区宝可梦现在可以显示为主世界贴图",
+      "translation": "狩猎地带宝可梦现在可以显示为主世界贴图",
       "line": 1274
     },
     "Completed Quest and Achievements will show in the Log Book": {
@@ -3981,7 +3981,7 @@
       "line": 1276
     },
     "Add sparkle to shiny overworld sprites for Dynamic Background and Safari Zone": {
-      "translation": "为动态背景和狩猎区的闪光主世界贴图添加闪光特效",
+      "translation": "为动态背景和狩猎地带的闪光主世界贴图添加闪光特效",
       "line": 1277
     },
     "Can sort Pokémon by Times Hatched": {
@@ -4029,7 +4029,7 @@
       "line": 1288
     },
     "Doubled the chance of encountering uncaught Pokémon in the Safari Zone": {
-      "translation": "在狩猎区遇到未捕获的宝可梦的几率增加了一倍",
+      "translation": "在狩猎地带遇到未捕获的宝可梦的几率增加了一倍",
       "line": 1289
     },
     "Display Pokéball amount in selector modal": {
@@ -4049,7 +4049,7 @@
       "line": 1293
     },
     "Mine should no longer soft lock players": {
-      "translation": "采掘场不应再导致玩家卡住",
+      "translation": "地下大洞窟不应再导致玩家卡住",
       "line": 1294
     },
     "Alternate Form Pokémon statistics shown correctly": {
@@ -4061,7 +4061,7 @@
       "line": 1296
     },
     "Underground daily trades statistic will increment correctly when doing multiple trades": {
-      "translation": "进行多次交易时，采掘场每日交易统计将正确增加",
+      "translation": "进行多次交易时，地下大洞窟每日交易统计将正确增加",
       "line": 1297
     },
     "Minor display and text fixes": {
@@ -4161,7 +4161,7 @@
       "line": 1325
     },
     "Walking in the Safari Zone will now add steps to your eggs": {
-      "translation": "现在，在狩猎区行走将为你的蛋添加步骤",
+      "translation": "现在，在狩猎地带行走将为你的蛋添加步骤",
       "line": 1326
     },
     "Achievements added for reaching maximum level on oak items": {
@@ -4201,7 +4201,7 @@
       "line": 1335
     },
     "Energy use disabled once you complete a layer in Underground until refreshed": {
-      "translation": "在采掘场完成一层后能量使用将被禁用，直到刷新",
+      "translation": "在地下大洞窟完成一层后能量使用将被禁用，直到刷新",
       "line": 1336
     },
     "Added player icon in Dungeons": {
@@ -4217,7 +4217,7 @@
       "line": 1339
     },
     "Underground will no longer contain multiple deals with the same items": {
-      "translation": "采掘场不再包含相同物品的多个交易",
+      "translation": "地下大洞窟不再包含相同物品的多个交易",
       "line": 1340
     },
     "Shop prices should no longer overflow when too large": {
@@ -4237,7 +4237,7 @@
       "line": 1346
     },
     "Can sort Underground items by clicking on table titles": {
-      "translation": "可通过点击表格标题对采掘场物品排序",
+      "translation": "可通过点击表格标题对地下大洞窟物品排序",
       "line": 1347
     },
     "NPCs now in towns, will provide dialog that will help the player complete their Pokédex": {
@@ -4425,7 +4425,7 @@
       "line": 1398
     },
     "Underground quest line created": {
-      "translation": "采掘场任务线已创建",
+      "translation": "地下大洞窟任务线已创建",
       "line": 1399
     },
     "More statistics added": {
@@ -4513,7 +4513,7 @@
       "line": 1423
     },
     "2 new fossils added to the Underground": {
-      "translation": "采掘场新增2种化石",
+      "translation": "地下大洞窟新增2种化石",
       "line": 1424
     },
     "Pokémon alternate forms can now be obtained": {
@@ -4545,7 +4545,7 @@
       "line": 1431
     },
     "Removed hold evolution items from the Underground": {
-      "translation": "从采掘场移除了持有进化物品",
+      "translation": "从地下大洞窟移除了持有进化物品",
       "line": 1432
     },
     "v0.4.20": {
@@ -4597,15 +4597,15 @@
       "line": 1450
     },
     "Added Prospect ability to the Underground to see which types of items are in the current layer": {
-      "translation": "新增采掘场探测功能，可查看当前层有哪些类型的物品",
+      "translation": "新增地下大洞窟探测功能，可查看当前层有哪些类型的物品",
       "line": 1451
     },
     "Added Bomb ability to the Underground which will mine random tiles for you": {
-      "translation": "新增采掘场炸弹功能，可为你随机挖掘格子",
+      "translation": "新增地下大洞窟炸弹功能，可为你随机挖掘格子",
       "line": 1452
     },
     "Added ability to Skip layers in the Underground": {
-      "translation": "新增采掘场跳过层功能",
+      "translation": "新增地下大洞窟跳过层功能",
       "line": 1453
     },
     "Added ability to sell/trade multiple items at once in the Underground": {
@@ -4645,7 +4645,7 @@
       "line": 1462
     },
     "Reduce memory usage in Underground": {
-      "translation": "减少采掘场的内存使用",
+      "translation": "减少地下大洞窟的内存使用",
       "line": 1463
     },
     "v0.4.17": {
@@ -4681,7 +4681,7 @@
       "line": 1473
     },
     "Safari Zone should no longer lock up": {
-      "translation": "狩猎区不应再卡死",
+      "translation": "狩猎地带不应再卡死",
       "line": 1474
     },
     "Event Pokémon can now evolve": {
@@ -4689,7 +4689,7 @@
       "line": 1475
     },
     "Helix fossil now displays correctly when mining in the Underground": {
-      "translation": "在采掘场挖掘时螺旋化石现在可以正确显示",
+      "translation": "在地下大洞窟挖掘时螺旋化石现在可以正确显示",
       "line": 1476
     },
     "v0.4.16": {
@@ -4753,11 +4753,11 @@
       "line": 1495
     },
     "Underground now shows the 3 x 3 area which will be mined when using the hammer": {
-      "translation": "采掘场现在会显示使用锤子时将挖掘的3×3区域",
+      "translation": "地下大洞窟现在会显示使用锤子时将挖掘的3×3区域",
       "line": 1496
     },
     "Underground total items should now be correct": {
-      "translation": "采掘场物品总数现在应该正确了",
+      "translation": "地下大洞窟物品总数现在应该正确了",
       "line": 1497
     },
     "v0.4.14": {
@@ -4769,11 +4769,11 @@
       "line": 1501
     },
     "Underground should now work better on smaller screens": {
-      "translation": "采掘场现在在小屏幕上运行更流畅",
+      "translation": "地下大洞窟现在在小屏幕上运行更流畅",
       "line": 1502
     },
     "Enlarge buttons in Shortcut menu, Safari Zone": {
-      "translation": "放大快捷菜单、狩猎区中的按钮",
+      "translation": "放大快捷菜单、狩猎地带中的按钮",
       "line": 1503
     },
     "Make Shop items fit better": {
@@ -4817,7 +4817,7 @@
       "line": 1515
     },
     "Allow the game to continue running while Underground is open": {
-      "translation": "允许游戏在采掘场打开时继续运行",
+      "translation": "允许游戏在地下大洞窟打开时继续运行",
       "line": 1516
     },
     "Don't send the player back to Route 11 when leaving the Underground": {
@@ -5185,7 +5185,7 @@
       "line": 1629
     },
     "More items added to underground": {
-      "translation": "采掘场新增更多物品",
+      "translation": "地下大洞窟新增更多物品",
       "line": 1630
     },
     "All Hoenn Pokémon should be obtainable now": {
@@ -5445,7 +5445,7 @@
       "line": 1705
     },
     "Plates from underground should now sell for their correct value": {
-      "translation": "采掘场的石板现在应该以正确的价格出售",
+      "translation": "地下大洞窟的石板现在应该以正确的价格出售",
       "line": 1706
     },
     "v0.0.2": {

@@ -1031,7 +1031,7 @@
       "line": 405
     },
     "Dig up an item in the Underground for the first time.": {
-      "translation": "首次在采掘场挖出物品。",
+      "translation": "首次在地下大洞窟挖出物品。",
       "line": 405
     },
     "My Shovel Is Starting To Crack": {
@@ -1039,7 +1039,7 @@
       "line": 406
     },
     "Dig up 10 items in the Underground.": {
-      "translation": "在采掘场挖出10件物品。",
+      "translation": "在地下大洞窟挖出10件物品。",
       "line": 406
     },
     "Why Can't I Make a Diamond Shovel?": {
@@ -1047,7 +1047,7 @@
       "line": 407
     },
     "Dig up 100 items in the Underground.": {
-      "translation": "在采掘场挖出100件物品。",
+      "translation": "在地下大洞窟挖出100件物品。",
       "line": 407
     },
     "This Is Definitely Not Minecraft": {
@@ -1055,7 +1055,7 @@
       "line": 408
     },
     "Dig up 1,000 items in the Underground.": {
-      "translation": "在采掘场挖出1,000件物品。",
+      "translation": "在地下大洞窟挖出1,000件物品。",
       "line": 408
     },
     "I Wonder How Much Is Down There...": {
@@ -1063,7 +1063,7 @@
       "line": 409
     },
     "Dig up 10,000 items in the Underground.": {
-      "translation": "在采掘场挖出10,000件物品。",
+      "translation": "在地下大洞窟挖出10,000件物品。",
       "line": 409
     },
     "The Earth Is Like Onions": {
@@ -1071,7 +1071,7 @@
       "line": 411
     },
     "Dig deeper into the Underground for the first time.": {
-      "translation": "首次深入采掘场挖掘。",
+      "translation": "首次深入地下大洞窟挖掘。",
       "line": 411
     },
     "This Takes Foreverrrrrrr": {
@@ -1079,7 +1079,7 @@
       "line": 412
     },
     "Dig deeper into the Underground 10 times.": {
-      "translation": "深入采掘场挖掘10次。",
+      "translation": "深入地下大洞窟挖掘10次。",
       "line": 412
     },
     "DigDug Ain't Got Nothin' on Me": {
@@ -1087,7 +1087,7 @@
       "line": 413
     },
     "Dig deeper into the Underground 100 times.": {
-      "translation": "深入采掘场挖掘100次。",
+      "translation": "深入地下大洞窟挖掘100次。",
       "line": 413
     },
     "Both My Thumbs Are Green! This Can't Be Healthy": {
@@ -1095,7 +1095,7 @@
       "line": 414
     },
     "Dig deeper into the Underground 1,000 times.": {
-      "translation": "深入采掘场挖掘1,000次。",
+      "translation": "深入地下大洞窟挖掘1,000次。",
       "line": 414
     },
     "Well, this is easy": {
@@ -1503,7 +1503,7 @@
       "line": 476
     },
     "Pick up 10 Items in a Safari Zone": {
-      "translation": "在狩猎区拾取10件物品",
+      "translation": "在狩猎地带拾取10件物品",
       "line": 476
     },
     "Cheaper Than Buying It": {
@@ -1511,7 +1511,7 @@
       "line": 477
     },
     "Pick up 50 Items in a Safari Zone": {
-      "translation": "在狩猎区拾取50件物品",
+      "translation": "在狩猎地带拾取50件物品",
       "line": 477
     },
     "Itemfinder Has Nothing On Me!": {
@@ -1519,7 +1519,7 @@
       "line": 478
     },
     "Pick up 100 Items in a Safari Zone": {
-      "translation": "在狩猎区拾取100件物品",
+      "translation": "在狩猎地带拾取100件物品",
       "line": 478
     },
     "This Is Not A Pokéball!": {
@@ -1527,7 +1527,7 @@
       "line": 480
     },
     "Throw 10 Rocks in a Safari Zone": {
-      "translation": "在狩猎区扔10块石头",
+      "translation": "在狩猎地带扔10块石头",
       "line": 480
     },
     "You're A Big Meanie!": {
@@ -1535,7 +1535,7 @@
       "line": 481
     },
     "Throw 100 Rocks in a Safari Zone": {
-      "translation": "在狩猎区扔100块石头",
+      "translation": "在狩猎地带扔100块石头",
       "line": 481
     },
     "Why Are You Like This?": {
@@ -1543,7 +1543,7 @@
       "line": 482
     },
     "Throw 1,000 Rocks in a Safari Zone": {
-      "translation": "在狩猎区扔1,000块石头",
+      "translation": "在狩猎地带扔1,000块石头",
       "line": 482
     },
     "Hope It Likes Berries": {
@@ -1551,7 +1551,7 @@
       "line": 484
     },
     "Throw 10 Bait in a Safari Zone": {
-      "translation": "在狩猎区扔10个诱饵",
+      "translation": "在狩猎地带扔10个诱饵",
       "line": 484
     },
     "What Is \"Bait\" Made Of?": {
@@ -1559,7 +1559,7 @@
       "line": 485
     },
     "Throw 100 Bait in a Safari Zone": {
-      "translation": "在狩猎区扔100个诱饵",
+      "translation": "在狩猎地带扔100个诱饵",
       "line": 485
     },
     "Bait": {
@@ -1571,7 +1571,7 @@
       "line": 486
     },
     "Throw 1,000 Bait in a Safari Zone": {
-      "translation": "在狩猎区扔1,000个诱饵",
+      "translation": "在狩猎地带扔1,000个诱饵",
       "line": 486
     },
     "Gotta Get Your Steps In!": {
@@ -1579,7 +1579,7 @@
       "line": 488
     },
     "Walk 100 Steps in a Safari Zone": {
-      "translation": "在狩猎区步行100步",
+      "translation": "在狩猎地带步行100步",
       "line": 488
     },
     "One More Lap": {
@@ -1587,7 +1587,7 @@
       "line": 489
     },
     "Walk 1,000 Steps in a Safari Zone": {
-      "translation": "在狩猎区步行1,000步",
+      "translation": "在狩猎地带步行1,000步",
       "line": 489
     },
     "Marathon Runner 2": {
@@ -1595,7 +1595,7 @@
       "line": 490
     },
     "Walk 10,000 Steps in a Safari Zone": {
-      "translation": "在狩猎区步行10,000步",
+      "translation": "在狩猎地带步行10,000步",
       "line": 490
     },
     "Where Pinsir?": {
@@ -1627,7 +1627,7 @@
       "line": 496
     },
     "Catch 50 Pokémon in a Safari Zone": {
-      "translation": "在狩猎区捕捉50只宝可梦",
+      "translation": "在狩猎地带捕捉50只宝可梦",
       "line": 496
     },
     "Strategic Chucker": {
@@ -1635,15 +1635,15 @@
       "line": 497
     },
     "Catch 100 Pokémon in a Safari Zone": {
-      "translation": "在狩猎区捕捉100只宝可梦",
+      "translation": "在狩猎地带捕捉100只宝可梦",
       "line": 497
     },
     "Master of the Safari": {
-      "translation": "狩猎区大师",
+      "translation": "狩猎地带大师",
       "line": 498
     },
     "Catch 250 Pokémon in a Safari Zone": {
-      "translation": "在狩猎区捕捉250只宝可梦",
+      "translation": "在狩猎地带捕捉250只宝可梦",
       "line": 498
     },
     "Do Shines Cost Extra?": {
@@ -1651,7 +1651,7 @@
       "line": 499
     },
     "Catch a Shiny Pokémon in a Safari Zone": {
-      "translation": "在狩猎区捕捉闪光宝可梦",
+      "translation": "在狩猎地带捕捉闪光宝可梦",
       "line": 499
     },
     "What a neat rock!": {
@@ -1659,7 +1659,7 @@
       "line": 502
     },
     "Obtain your first Mega Stone.": {
-      "translation": "获得你的第一块超进化石。",
+      "translation": "获得你的第一块超级石。",
       "line": 502
     },
     "Go, Go, Mega Force!": {
@@ -1671,11 +1671,11 @@
       "line": 503
     },
     "Y'all got any more of them Mega Stones?": {
-      "translation": "你们还有更多超进化石吗？",
+      "translation": "你们还有更多超级石吗？",
       "line": 504
     },
     "Obtain all ${...} Mega Stones.": {
-      "translation": "获得所有 ${...} 超进化石。",
+      "translation": "获得所有 ${...} 超级石。",
       "line": 504,
       "_rematchedFrom": "Obtain all ${...} Mega Stones.",
       "_confidence": 0.85
@@ -2045,7 +2045,7 @@
       "line": 643
     },
     "Fully mine an Underground layer.": {
-      "translation": "完全开采采掘场一层。",
+      "translation": "完全开采地下大洞窟一层。",
       "line": 644
     },
     "Thorough miner": {
@@ -2449,7 +2449,7 @@
       "line": 863
     },
     "Catch a shiny Pokémon in a Safari Zone with your last ball.": {
-      "translation": "用你的最后一个球在狩猎区捕捉闪光宝可梦。",
+      "translation": "用你的最后一个球在狩猎地带捕捉闪光宝可梦。",
       "line": 864
     },
     "One ball left, one chance to make it shine": {

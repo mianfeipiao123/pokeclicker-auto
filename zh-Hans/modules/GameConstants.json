@@ -83,11 +83,11 @@
       "line": 239
     },
     "Underground": {
-      "translation": "采掘场",
+      "translation": "地下大洞窟",
       "line": 240
     },
     "Safari": {
-      "translation": "狩猎区",
+      "translation": "狩猎地带",
       "line": 241
     },
     "Battle Frontier": {
@@ -107,7 +107,7 @@
       "line": 245
     },
     "Mega Stone": {
-      "translation": "超进化石",
+      "translation": "超级石",
       "line": 246
     },
     "Game Over!<br>You have run out of safari balls to use.": {

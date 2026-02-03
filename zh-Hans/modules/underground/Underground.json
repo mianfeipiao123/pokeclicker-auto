@@ -59,11 +59,11 @@
       "line": 14
     },
     "Underground": {
-      "translation": "采掘场",
+      "translation": "地下大洞窟",
       "line": 17
     },
     "underground": {
-      "translation": "采掘场",
+      "translation": "地下大洞窟",
       "line": 18
     },
     "Your Underground level has increased to ${...}!": {

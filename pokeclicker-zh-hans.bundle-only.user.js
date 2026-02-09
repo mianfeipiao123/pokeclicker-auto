@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.54
+// @version      0.1.55
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -76,7 +76,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.54';
+    const SCRIPT_VERSION = '0.1.55';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -479,6 +479,14 @@
         s = s.replace(/\s*,\s*/g, ', ');
         return normalizeText(s);
     };
+
+    const foldPunctuationForLookup = (text) =>
+        String(text ?? '')
+            // Curly quotes/apostrophes → ASCII
+            .replace(/[\u2018\u2019\u02BC]/g, "'")
+            .replace(/[\u201C\u201D]/g, '"')
+            // Dashes/minus → ASCII hyphen
+            .replace(/[\u2013\u2014\u2212]/g, '-');
 
     const demixForLookup = (text) => {
         let s = normalizeForLookup(text);
@@ -918,6 +926,19 @@
             for (const k of candidates) {
                 if (!k) continue;
                 const v = casefoldIndex.get(String(k).toLowerCase());
+                if (typeof v === 'string' && v) return finalizeTranslation(v, map);
+            }
+        }
+
+        // Punctuation-folded fallback for typographic variants (e.g. "It’s" vs "It's").
+        // Uses a precomputed index built from non-colliding folded keys.
+        const punctFoldIndex = map?.__pkcZhHansPunctFoldIndex;
+        if (punctFoldIndex && typeof punctFoldIndex.get === 'function') {
+            for (const k of candidates) {
+                if (!k) continue;
+                const lk = foldPunctuationForLookup(normalizeForLookup(k)).toLowerCase();
+                if (!lk) continue;
+                const v = punctFoldIndex.get(lk);
                 if (typeof v === 'string' && v) return finalizeTranslation(v, map);
             }
         }
@@ -1457,6 +1478,29 @@
                 index.set(lk, v);
             }
             Object.defineProperty(map, '__pkcZhHansCasefoldIndex', { value: index });
+        } catch {
+            // ignore
+        }
+
+        // Build a safe punctuation-folded index for translation lookups.
+        // If multiple keys collide after folding, we skip the entire group.
+        try {
+            const index = new Map();
+            const dup = new Set();
+            for (const [k, v] of Object.entries(map)) {
+                if (typeof k !== 'string' || !k) continue;
+                if (typeof v !== 'string' || !v) continue;
+                const lk = foldPunctuationForLookup(normalizeForLookup(k)).toLowerCase();
+                if (!lk) continue;
+                if (dup.has(lk)) continue;
+                if (index.has(lk)) {
+                    index.delete(lk);
+                    dup.add(lk);
+                    continue;
+                }
+                index.set(lk, v);
+            }
+            Object.defineProperty(map, '__pkcZhHansPunctFoldIndex', { value: index });
         } catch {
             // ignore
         }

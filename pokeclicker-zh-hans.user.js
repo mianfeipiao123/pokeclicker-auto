@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.53
+// @version      0.1.54
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.53';
+    const SCRIPT_VERSION = '0.1.54';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -588,14 +588,49 @@
             return typeof v === 'string' || typeof v === 'number' ? String(v) : m;
         });
 
-    const resolveI18NextNesting = (text, dict) => {
+    const resolveI18NextNesting = (text, dict, fallbackDict) => {
         let out = String(text ?? '');
         for (let i = 0; i < 6; i += 1) {
-            const next = out.replace(/\[\[([^[\]]+?)\]\]/g, (_, key) => dict?.[key] ?? key);
+            const next = out.replace(/\[\[([^[\]]+?)\]\]/g, (m, rawKey) => {
+                const key = String(rawKey ?? '').trim();
+                if (!key) return '';
+                // Keep dynamic replacement templates like `[[pokemon::$1]]` intact.
+                if (key.includes('$')) return m;
+
+                const tryLookup = (k) => {
+                    if (!k) return undefined;
+                    const v = dict?.[k];
+                    if (typeof v === 'string') return v;
+                    const fv = fallbackDict?.[k];
+                    if (typeof fv === 'string') return fv;
+                    const casefoldIndex = fallbackDict?.__pkcZhHansCasefoldIndex;
+                    if (casefoldIndex && typeof casefoldIndex.get === 'function') {
+                        const cv = casefoldIndex.get(String(k).toLowerCase());
+                        if (typeof cv === 'string') return cv;
+                    }
+                    return undefined;
+                };
+
+                // Support cross-namespace nesting used by the game, e.g. `[[pokemon::Bulbasaur]]`.
+                if (/^pokemon::/i.test(key)) {
+                    const v = tryLookup(key.replace(/^pokemon::/i, ''));
+                    if (typeof v === 'string') return v;
+                }
+
+                const v = tryLookup(key);
+                if (typeof v === 'string') return v;
+                return key;
+            });
             if (next === out) break;
             out = next;
         }
         return out;
+    };
+
+    const finalizeTranslation = (value, map) => {
+        if (typeof value !== 'string') return value;
+        if (!value.includes('[[')) return value;
+        return resolveI18NextNesting(value, pokemonTranslations, map);
     };
 
     const translateDynamicSegment = (segment, map) => {
@@ -630,12 +665,12 @@
 
         const pokemon = pokemonTranslations?.[key];
         if (typeof pokemon === 'string') {
-            return resolveI18NextNesting(pokemon, pokemonTranslations);
+            return finalizeTranslation(pokemon, map);
         }
 
         const mapped = shouldUseHardcodedMap(key) ? map?.[key] : undefined;
         if (typeof mapped === 'string' && !mapped.includes('${...}')) {
-            return mapped;
+            return finalizeTranslation(mapped, map);
         }
 
         // Dynamic enum names often appear humanified (spaces instead of underscores), e.g. "Spike Shell".
@@ -754,12 +789,12 @@
 
         for (const k of candidates) {
             const inline = INLINE_OVERRIDES[k];
-            if (typeof inline === 'string' && inline) return inline;
+            if (typeof inline === 'string' && inline) return finalizeTranslation(inline, map);
         }
 
         for (const k of candidates) {
             const direct = map?.[k];
-            if (typeof direct === 'string' && direct) return direct;
+            if (typeof direct === 'string' && direct) return finalizeTranslation(direct, map);
         }
 
         // Case-insensitive fallback for DOM strings that differ only by capitalization.
@@ -769,7 +804,7 @@
             for (const k of candidates) {
                 if (!k) continue;
                 const v = casefoldIndex.get(String(k).toLowerCase());
-                if (typeof v === 'string' && v) return v;
+                if (typeof v === 'string' && v) return finalizeTranslation(v, map);
             }
         }
 
@@ -779,7 +814,7 @@
         for (const k of candidates) {
             const pokemon = pokemonTranslations?.[k];
             if (typeof pokemon === 'string') {
-                return resolveI18NextNesting(pokemon, pokemonTranslations);
+                return finalizeTranslation(pokemon, map);
             }
         }
 
@@ -794,14 +829,14 @@
             variants.add(k.replace(/\s+/g, '_').replace(/-/g, '_'));
             for (const vKey of variants) {
                 const v = map?.[vKey];
-                if (typeof v === 'string' && v && !v.includes('${...}')) return v;
+                if (typeof v === 'string' && v && !v.includes('${...}')) return finalizeTranslation(v, map);
             }
         }
 
         if (patterns.length) {
             for (const k of candidates) {
                 const matched = applyPatterns(k, patterns, map);
-                if (typeof matched === 'string' && matched) return matched;
+                if (typeof matched === 'string' && matched) return finalizeTranslation(matched, map);
             }
         }
 
@@ -816,8 +851,8 @@
             const translatedName = translateDynamicSegment(name, map);
             if (!translatedName || translatedName === name) continue;
             const punct = m[2] || '';
-            if (translatedName.endsWith(badgeWord)) return `${translatedName}${punct}`;
-            return `${translatedName}${badgeWord}${punct}`;
+            if (translatedName.endsWith(badgeWord)) return finalizeTranslation(`${translatedName}${punct}`, map);
+            return finalizeTranslation(`${translatedName}${badgeWord}${punct}`, map);
         }
 
         // Many settings/labels are rendered as `${displayName}:` in templates.

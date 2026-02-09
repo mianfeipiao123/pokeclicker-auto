@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.55
+// @version      0.1.56
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.55';
+    const SCRIPT_VERSION = '0.1.56';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -732,12 +732,30 @@
 
     const buildPatterns = (map) => {
         const placeholder = '${...}';
+        const singleBracePlaceholderRe = /\{(?!\{)[A-Z][A-Z0-9_]+\}(?!\})/g;
         const patterns = [];
         for (const [en, zh] of Object.entries(map)) {
-            if (!en.includes(placeholder)) continue;
-            if (typeof zh !== 'string' || !zh.includes(placeholder)) continue;
-            const enParts = en.split(placeholder);
-            const zhParts = zh.split(placeholder);
+            if (typeof zh !== 'string' || !zh) continue;
+
+            let enKey = en;
+            let zhValue = zh;
+
+            // Support dynamic placeholders from upstream code, e.g. `{ROUTE_NAME}` in RoamerNPC dialogs.
+            // Normalize single-brace placeholders into the existing `${...}` pattern system.
+            if (!(enKey.includes(placeholder) && zhValue.includes(placeholder)) && enKey.includes('{') && zhValue.includes('}')) {
+                const enReplaced = enKey.replace(singleBracePlaceholderRe, placeholder);
+                const zhReplaced = zhValue.replace(singleBracePlaceholderRe, placeholder);
+                if (enReplaced !== enKey && zhReplaced !== zhValue) {
+                    enKey = enReplaced;
+                    zhValue = zhReplaced;
+                }
+            }
+
+            if (!enKey.includes(placeholder)) continue;
+            if (!zhValue.includes(placeholder)) continue;
+
+            const enParts = enKey.split(placeholder);
+            const zhParts = zhValue.split(placeholder);
             if (enParts.length <= 1) continue;
             // Allow translations to omit placeholders (e.g. plural "s") by using fewer `${...}`.
             // We only support consuming placeholders from left to right.
@@ -858,6 +876,14 @@
             for (const k of candidates) {
                 const matched = applyPatterns(k, patterns, map);
                 if (typeof matched === 'string' && matched) return finalizeTranslation(matched, map);
+
+                // Pattern keys usually use ASCII punctuation, but upstream strings sometimes contain typographic variants
+                // (e.g. "I’ve" vs "I've"). Try a folded variant to improve match rate for dynamic templates.
+                const folded = foldPunctuationForLookup(k);
+                if (folded && folded !== k) {
+                    const matchedFolded = applyPatterns(folded, patterns, map);
+                    if (typeof matchedFolded === 'string' && matchedFolded) return finalizeTranslation(matchedFolded, map);
+                }
             }
         }
 

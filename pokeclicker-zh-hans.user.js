@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.56
+// @version      0.1.57
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.56';
+    const SCRIPT_VERSION = '0.1.57';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -405,6 +405,18 @@
             el = el.parentElement;
         }
         return false;
+    };
+
+    const isHotkeyValueNode = (textNode) => {
+        try {
+            const el = textNode?.parentElement;
+            if (!el) return false;
+            if (el.tagName?.toLowerCase() !== 'knockout') return false;
+            const bind = el.getAttribute?.('data-bind') || '';
+            return /\bhotkey\./i.test(bind);
+        } catch {
+            return false;
+        }
     };
 
     // Force i18next language early
@@ -1020,6 +1032,7 @@
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
+        if (isHotkeyValueNode(textNode)) return;
 
         // In a few places, the game builds English plurals by appending a separate "s" node.
         // When the base word is translated to Chinese (e.g. "Dungeon" -> "迷宫"), the leftover "s" becomes visible ("迷宫s").

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.56
+// @version      0.1.57
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -76,7 +76,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.56';
+    const SCRIPT_VERSION = '0.1.57';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -541,6 +541,18 @@
             el = el.parentElement;
         }
         return false;
+    };
+
+    const isHotkeyValueNode = (textNode) => {
+        try {
+            const el = textNode?.parentElement;
+            if (!el) return false;
+            if (el.tagName?.toLowerCase() !== 'knockout') return false;
+            const bind = el.getAttribute?.('data-bind') || '';
+            return /\bhotkey\./i.test(bind);
+        } catch {
+            return false;
+        }
     };
 
     const LATIN_RE = /[A-Za-zÉé]/;
@@ -1172,6 +1184,7 @@
         const rawNodeValue = String(textNode.nodeValue ?? '');
         if (processedTextNodeValues.get(textNode) === rawNodeValue) return;
         processedTextNodeValues.set(textNode, rawNodeValue);
+        if (isHotkeyValueNode(textNode)) return;
 
         // Skip already-Chinese text nodes (and anything without Latin letters).
         if (!LATIN_RE.test(rawNodeValue)) return;

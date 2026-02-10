@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.61
+// @version      0.1.62
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.61';
+    const SCRIPT_VERSION = '0.1.62';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -109,6 +109,46 @@
         if (!p) return b;
         return `${b}/${p}`;
     };
+
+    // i18next uses XHR to load `.../locales/{{lng}}/{{ns}}.json`.
+    // Some environments still end up requesting from the default translations host or the page-local `./locales` fallback,
+    // which produces noisy 404s even though the userscript can translate most UI via DOM mapping.
+    // Rewrite zh/zh-Hans locale file requests to our translations repo so they always resolve.
+    try {
+        const XHR = window.XMLHttpRequest;
+        if (typeof XHR === 'function' && !XHR.__pkcZhHansLocaleRewrite) {
+            const originalOpen = XHR.prototype.open;
+            const nsSet = new Set(['pokemon', 'logbook', 'settings', 'questlines']);
+            const rewriteLocaleUrl = (url) => {
+                if (typeof url !== 'string' || !url) return null;
+                if (!TRANSLATIONS_BASE_URL) return null;
+                let u;
+                try {
+                    u = new URL(url, window.location.href);
+                } catch {
+                    return null;
+                }
+                const m = u.pathname.match(/\/locales\/(zh(?:-Hans)?|zh-Hans|zh)\/([^/]+)\.json$/);
+                if (!m) return null;
+                const lng = m[1];
+                const ns = m[2];
+                if (!nsSet.has(ns)) return null;
+                return joinUrl(TRANSLATIONS_BASE_URL, `locales/${lng}/${ns}.json`);
+            };
+            XHR.prototype.open = function (method, url, ...rest) {
+                try {
+                    const rewritten = rewriteLocaleUrl(url);
+                    if (rewritten) url = rewritten;
+                } catch {
+                    // ignore
+                }
+                return originalOpen.call(this, method, url, ...rest);
+            };
+            Object.defineProperty(XHR, '__pkcZhHansLocaleRewrite', { value: true });
+        }
+    } catch {
+        // ignore
+    }
 
     const JSDELIVR_BASE_URL = (() => {
         const fromGithubSpec = (spec) => {
@@ -509,6 +549,50 @@
     // Force i18next language early
     try {
         localStorage.setItem('i18nextLng', FORCE_LANG);
+    } catch {
+        // ignore
+    }
+
+    // Guard the town "start" hotkey for edge cases where a non-dungeon town has no `content[0]`.
+    // Otherwise the game key handler can throw: "Cannot read properties of undefined (reading 'protectedOnclick')".
+    try {
+        if (!window.__pkcZhHansTownHotkeyGuard) {
+            Object.defineProperty(window, '__pkcZhHansTownHotkeyGuard', { value: true });
+            document.addEventListener('keydown', (e) => {
+                try {
+                    if (!e || typeof e.key !== 'string') return;
+                    const target = e.target;
+                    if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable)) return;
+
+                    const Settings = window.Settings;
+                    const App = window.App;
+                    const GameConstants = window.GameConstants;
+                    const player = window.player;
+                    if (!Settings?.getSetting || !App?.game || !GameConstants?.GameState || !player?.town) return;
+                    if (App.game.gameState !== GameConstants.GameState.town) return;
+
+                    const startKey = Settings.getSetting('hotkey.town.start')?.value;
+                    if (!startKey || e.key !== startKey) return;
+
+                    const isDungeonTown = (() => {
+                        try {
+                            return typeof window.DungeonTown === 'function' && player.town instanceof window.DungeonTown;
+                        } catch {
+                            return false;
+                        }
+                    })();
+                    if (isDungeonTown) return;
+
+                    const first = player.town?.content?.[0];
+                    if (!first || typeof first.protectedOnclick !== 'function') {
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+                    }
+                } catch {
+                    // ignore
+                }
+            }, true);
+        }
     } catch {
         // ignore
     }

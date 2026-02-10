@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.65
+// @version      0.1.66
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -79,7 +79,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.65';
+    const SCRIPT_VERSION = '0.1.66';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -418,49 +418,110 @@
     })();
 
     const BUNDLE_CACHE_META_KEY = `pokeclickerZhHansBundleMeta:${BUNDLE_URL}`;
-    const getCachedBundleGeneratedAt = () => {
+    const getCachedBundleMeta = () => {
         try {
-            return localStorage.getItem(BUNDLE_CACHE_META_KEY);
+            const raw = localStorage.getItem(BUNDLE_CACHE_META_KEY);
+            if (!raw) return null;
+            try {
+                const meta = JSON.parse(raw);
+                if (meta && typeof meta === 'object') return meta;
+            } catch {
+                // legacy: previously stored generatedAt as a plain string
+            }
+            return { generatedAt: raw, contentHash: null, scriptVersion: null };
         } catch {
             return null;
         }
     };
-    const setCachedBundleGeneratedAt = (generatedAt) => {
+    const setCachedBundleMeta = (meta) => {
         try {
-            if (typeof generatedAt === 'string' && generatedAt) localStorage.setItem(BUNDLE_CACHE_META_KEY, generatedAt);
+            localStorage.setItem(BUNDLE_CACHE_META_KEY, JSON.stringify(meta ?? null));
         } catch {
             // ignore
+        }
+    };
+
+    const hashStringFNV1a = (input) => {
+        const s = String(input ?? '');
+        let h = 0x811c9dc5;
+        for (let i = 0; i < s.length; i += 1) {
+            h ^= s.charCodeAt(i);
+            h = Math.imul(h, 0x01000193);
+        }
+        return (h >>> 0).toString(16).padStart(8, '0');
+    };
+
+    const computeBundleContentHash = (bundle) => {
+        try {
+            if (!bundle || typeof bundle !== 'object') return null;
+            return hashStringFNV1a(JSON.stringify(bundle));
+        } catch {
+            return null;
         }
     };
 
     const loadBundleFromCache = async () => {
         try {
             const rec = await BUNDLE_CACHE.get(BUNDLE_URL);
-            if (rec?.bundle && typeof rec.bundle === 'object') return rec.bundle;
+            if (!rec?.bundle || typeof rec.bundle !== 'object') return null;
+            if (typeof rec.scriptVersion === 'string' && rec.scriptVersion && rec.scriptVersion !== SCRIPT_VERSION) {
+                return null;
+            }
+            return rec;
         } catch {
             // ignore
         }
         return null;
     };
 
-    const saveBundleToCache = async (bundle) => {
+    const saveBundleToCache = async (bundle, prevRecord) => {
         try {
             const generatedAt = bundle?._meta?.generatedAt;
-            const prev = getCachedBundleGeneratedAt();
-            if (typeof generatedAt === 'string' && generatedAt && prev === generatedAt) return;
+            const contentHash = computeBundleContentHash(bundle);
+
+            const prevMeta = (() => {
+                if (prevRecord && typeof prevRecord === 'object') {
+                    return {
+                        generatedAt: prevRecord.generatedAt ?? prevRecord?.bundle?._meta?.generatedAt ?? null,
+                        contentHash: prevRecord.contentHash ?? null,
+                        scriptVersion: prevRecord.scriptVersion ?? null,
+                    };
+                }
+                return getCachedBundleMeta();
+            })();
+
+            if (prevMeta
+                && (prevMeta.scriptVersion === null || prevMeta.scriptVersion === SCRIPT_VERSION)
+                && typeof generatedAt === 'string'
+                && generatedAt
+                && prevMeta.generatedAt === generatedAt
+                && typeof contentHash === 'string'
+                && contentHash
+                && prevMeta.contentHash === contentHash) {
+                return { changed: false, generatedAt, contentHash };
+            }
 
             const ok = await BUNDLE_CACHE.put({
                 key: BUNDLE_URL,
                 url: BUNDLE_URL,
                 savedAt: Date.now(),
                 generatedAt: typeof generatedAt === 'string' ? generatedAt : null,
+                contentHash: typeof contentHash === 'string' ? contentHash : null,
                 scriptVersion: SCRIPT_VERSION,
                 bundle,
             });
-            if (ok && typeof generatedAt === 'string') setCachedBundleGeneratedAt(generatedAt);
+            if (ok) {
+                setCachedBundleMeta({
+                    generatedAt: typeof generatedAt === 'string' ? generatedAt : null,
+                    contentHash: typeof contentHash === 'string' ? contentHash : null,
+                    scriptVersion: SCRIPT_VERSION,
+                });
+            }
+            return { changed: ok, generatedAt, contentHash };
         } catch {
             // ignore
         }
+        return { changed: false, generatedAt: null, contentHash: null };
     };
 
     const notifyInfo = (title, message) => {
@@ -1713,12 +1774,16 @@
         let loadedFromCache = false;
 
         // Cache-first: load cached bundle immediately if available.
-        const cached = await loadBundleFromCache();
-        if (cached) {
-            bundle = cached;
+        // If cache record is legacy (missing contentHash), prefer network once (with cache fallback for offline).
+        const cachedRec = await loadBundleFromCache();
+        const cachedBundle = cachedRec?.bundle ?? null;
+        const cacheLooksLegacy = Boolean(cachedRec && typeof cachedRec.contentHash !== 'string');
+
+        if (cachedBundle && !cacheLooksLegacy) {
+            bundle = cachedBundle;
             loadedFromCache = true;
             if (DEBUG) {
-                log.info('Loaded bundle from cache:', cached?._meta ?? null);
+                log.info('Loaded bundle from cache:', cachedBundle?._meta ?? null);
             }
         }
 
@@ -1740,6 +1805,18 @@
             throw lastError || new Error('bundle fetch failed');
         };
 
+        if (cachedBundle && cacheLooksLegacy) {
+            try {
+                bundle = await fetchBundleFromNetwork();
+            } catch {
+                bundle = cachedBundle;
+                loadedFromCache = true;
+                if (DEBUG) {
+                    log.info('Loaded legacy bundle from cache:', cachedBundle?._meta ?? null);
+                }
+            }
+        }
+
         // If cache is missing, we must fetch before proceeding.
         if (!bundle) {
             try {
@@ -1752,7 +1829,8 @@
 
         // Background refresh: update cache, and notify to refresh if a newer bundle is downloaded.
         if (loadedFromCache) {
-            const currentGeneratedAt = bundle?._meta?.generatedAt ?? null;
+            const currentGeneratedAt = cachedRec?.generatedAt ?? bundle?._meta?.generatedAt ?? null;
+            const currentContentHash = cachedRec?.contentHash ?? null;
             const schedule = (fn) => {
                 const ric = window.requestIdleCallback?.bind(window);
                 if (ric) return ric(fn, { timeout: 5000 });
@@ -1761,14 +1839,21 @@
             schedule(async () => {
                 try {
                     const latest = await fetchBundleFromNetwork();
-                    const latestGeneratedAt = latest?._meta?.generatedAt ?? null;
-                    await saveBundleToCache(latest);
-
-                    if (typeof latestGeneratedAt === 'string'
+                    const saved = await saveBundleToCache(latest, cachedRec);
+                    const latestGeneratedAt = saved?.generatedAt ?? latest?._meta?.generatedAt ?? null;
+                    const latestContentHash = saved?.contentHash ?? null;
+                    const changed = Boolean(saved?.changed);
+                    const hasDifferentGeneratedAt = typeof latestGeneratedAt === 'string'
                         && latestGeneratedAt
                         && typeof currentGeneratedAt === 'string'
                         && currentGeneratedAt
-                        && latestGeneratedAt !== currentGeneratedAt) {
+                        && latestGeneratedAt !== currentGeneratedAt;
+                    const hasDifferentContentHash = typeof latestContentHash === 'string'
+                        && latestContentHash
+                        && typeof currentContentHash === 'string'
+                        && currentContentHash
+                        && latestContentHash !== currentContentHash;
+                    if (changed && (hasDifferentGeneratedAt || hasDifferentContentHash || !currentContentHash)) {
                         notifyInfo('翻译已更新', '已在后台下载新的中文翻译，刷新页面后生效。');
                     }
                 } catch (e) {
@@ -1779,8 +1864,8 @@
             });
         }
 
-        // Best-effort cache update for offline fallback.
-        void saveBundleToCache(bundle);
+        // Best-effort cache update for offline fallback (avoid hashing when loaded from cache).
+        if (!loadedFromCache) void saveBundleToCache(bundle, cachedRec);
 
         try {
             const addEntry = (key, value) => {

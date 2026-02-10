@@ -286,6 +286,9 @@
     /** @type {Array<[string,string]>} */
     let demixReplacements = [];
 
+    /** @type {string | null} */
+    let treasuresGemOverride = null;
+
     const templates = {
         typePokemon: '{{type}}-type Pokémon',
         gymAt: '{{gym}} ({{town}})',
@@ -330,6 +333,121 @@
             fetchTimeoutRawMs: RAW_FETCH_TIMEOUT_MS,
             fetchTimeoutFallbackMs: FALLBACK_FETCH_TIMEOUT_MS,
         }),
+    };
+
+    // Cache bundle.json in IndexedDB for faster startup + offline fallback.
+    const BUNDLE_CACHE = (() => {
+        const DB_NAME = 'pokeclicker-zh-hans';
+        const STORE_NAME = 'bundle-cache';
+        const DB_VERSION = 1;
+
+        /** @type {Promise<IDBDatabase | null> | null} */
+        let dbPromise = null;
+
+        const openDb = () => {
+            if (dbPromise) return dbPromise;
+            if (!('indexedDB' in window)) return Promise.resolve(null);
+            dbPromise = new Promise((resolve) => {
+                try {
+                    const req = indexedDB.open(DB_NAME, DB_VERSION);
+                    req.onupgradeneeded = () => {
+                        try {
+                            const db = req.result;
+                            if (!db.objectStoreNames.contains(STORE_NAME)) {
+                                db.createObjectStore(STORE_NAME, { keyPath: 'key' });
+                            }
+                        } catch {
+                            // ignore
+                        }
+                    };
+                    req.onsuccess = () => resolve(req.result);
+                    req.onerror = () => resolve(null);
+                } catch {
+                    resolve(null);
+                }
+            });
+            return dbPromise;
+        };
+
+        const get = async (key) => {
+            const db = await openDb();
+            if (!db) return null;
+            return await new Promise((resolve) => {
+                try {
+                    const tx = db.transaction(STORE_NAME, 'readonly');
+                    const store = tx.objectStore(STORE_NAME);
+                    const req = store.get(key);
+                    req.onsuccess = () => resolve(req.result || null);
+                    req.onerror = () => resolve(null);
+                } catch {
+                    resolve(null);
+                }
+            });
+        };
+
+        const put = async (record) => {
+            const db = await openDb();
+            if (!db) return false;
+            return await new Promise((resolve) => {
+                try {
+                    const tx = db.transaction(STORE_NAME, 'readwrite');
+                    const store = tx.objectStore(STORE_NAME);
+                    const req = store.put(record);
+                    req.onsuccess = () => resolve(true);
+                    req.onerror = () => resolve(false);
+                } catch {
+                    resolve(false);
+                }
+            });
+        };
+
+        return { get, put };
+    })();
+
+    const BUNDLE_CACHE_KEY = `bundle:${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/bundle.json`;
+    const BUNDLE_CACHE_META_KEY = `pokeclickerZhHansBundleMeta:${BUNDLE_CACHE_KEY}`;
+    const getCachedBundleGeneratedAt = () => {
+        try {
+            return localStorage.getItem(BUNDLE_CACHE_META_KEY);
+        } catch {
+            return null;
+        }
+    };
+    const setCachedBundleGeneratedAt = (generatedAt) => {
+        try {
+            if (typeof generatedAt === 'string' && generatedAt) localStorage.setItem(BUNDLE_CACHE_META_KEY, generatedAt);
+        } catch {
+            // ignore
+        }
+    };
+
+    const loadBundleFromCache = async () => {
+        try {
+            const rec = await BUNDLE_CACHE.get(BUNDLE_CACHE_KEY);
+            if (rec?.bundle && typeof rec.bundle === 'object') return rec.bundle;
+        } catch {
+            // ignore
+        }
+        return null;
+    };
+
+    const saveBundleToCache = async (bundle) => {
+        try {
+            const generatedAt = bundle?._meta?.generatedAt;
+            const prev = getCachedBundleGeneratedAt();
+            if (typeof generatedAt === 'string' && generatedAt && prev === generatedAt) return;
+
+            const ok = await BUNDLE_CACHE.put({
+                key: BUNDLE_CACHE_KEY,
+                savedAt: Date.now(),
+                generatedAt: typeof generatedAt === 'string' ? generatedAt : null,
+                scriptVersion: SCRIPT_VERSION,
+                bundle,
+            });
+            if (ok && typeof generatedAt === 'string') setCachedBundleGeneratedAt(generatedAt);
+        } catch {
+            // ignore
+        }
     };
 
     const escapeCssContent = (s) =>
@@ -420,6 +538,9 @@
             // Dashes/minus → ASCII hyphen
             .replace(/[\u2013\u2014\u2212]/g, '-');
 
+    /** @type {Set<string> | null} */
+    let demixFirstChars = null;
+
     const demixForLookup = (text) => {
         let s = normalizeForLookup(text);
         if (!s) return s;
@@ -433,9 +554,23 @@
         }
 
         if (reversePokemonTranslations.length) {
-            for (const [zh, en] of reversePokemonTranslations) {
-                if (!zh || !en) continue;
-                if (s.includes(zh)) s = s.split(zh).join(en);
+            // Quick pre-check: only enter the expensive loop if the string contains
+            // at least one first-character of a known Chinese Pokémon name.
+            if (!demixFirstChars) {
+                demixFirstChars = new Set();
+                for (const [zh] of reversePokemonTranslations) {
+                    if (zh) demixFirstChars.add(zh[0]);
+                }
+            }
+            let hasCandidate = false;
+            for (let i = 0; i < s.length; i += 1) {
+                if (demixFirstChars.has(s[i])) { hasCandidate = true; break; }
+            }
+            if (hasCandidate) {
+                for (const [zh, en] of reversePokemonTranslations) {
+                    if (!zh || !en) continue;
+                    if (s.includes(zh)) s = s.split(zh).join(en);
+                }
             }
         }
 
@@ -524,7 +659,7 @@
     };
 
     const WEATHER_TYPE_KEY_PREFIX = 'weatherType::';
-    const WEATHER_TYPE_KEYS = new Set([
+    let WEATHER_TYPE_KEYS = new Set([
         'Clear',
         'Overcast',
         'Rain',
@@ -693,26 +828,28 @@
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-    class LruCache extends Map {
+    class TranslationCache extends Map {
         constructor(limit) {
             super();
-            this.limit = Number.isFinite(limit) && limit > 0 ? limit : 20000;
+            this.limit = Number.isFinite(limit) && limit > 0 ? limit : 50000;
+            this._accessCount = 0;
         }
 
         get(key) {
-            if (!super.has(key)) return undefined;
-            const value = super.get(key);
-            super.delete(key);
-            super.set(key, value);
-            return value;
+            return super.get(key);
         }
 
         set(key, value) {
-            if (super.has(key)) super.delete(key);
             super.set(key, value);
-            if (this.size > this.limit) {
-                const firstKey = this.keys().next().value;
-                super.delete(firstKey);
+            if (super.size > this.limit) {
+                // Evict oldest 25% to amortize cost instead of evicting per-insert.
+                const evictCount = Math.floor(this.limit * 0.25);
+                let removed = 0;
+                for (const k of super.keys()) {
+                    if (removed >= evictCount) break;
+                    super.delete(k);
+                    removed += 1;
+                }
             }
             return this;
         }
@@ -721,7 +858,7 @@
     /** @type {Record<string,string>} */
     let typeTranslations = {};
 
-    const TYPE_KEYS = [
+    let TYPE_KEYS = [
         'None',
         'Normal',
         'Fire',
@@ -812,11 +949,35 @@
                 },
                 demixReplacements: parseDemixReplacements(getEntry('__userscript.demix.replacements')),
                 types: {},
+                context: {
+                    treasuresGem: getEntry('__userscript.context.treasures.gem') ?? null,
+                },
             };
 
-            for (const key of TYPE_KEYS) {
-                const v = getEntry(`__userscript.type.${key}`);
-                if (typeof v === 'string' && v) config.types[key] = v;
+            // Extract TYPE_KEYS dynamically from __userscript.type.* entries
+            const typeKeysFromConfig = [];
+            for (const key of Object.keys(entries)) {
+                if (!key.startsWith('__userscript.type.')) continue;
+                const typeName = key.slice('__userscript.type.'.length);
+                if (!typeName) continue;
+                const v = getEntry(key);
+                if (typeof v === 'string' && v) config.types[typeName] = v;
+                typeKeysFromConfig.push(typeName);
+            }
+            if (typeKeysFromConfig.length > 0) {
+                config.typeKeys = typeKeysFromConfig;
+            }
+
+            // Extract WEATHER_TYPE_KEYS dynamically from __userscript.weatherType.* entries
+            const weatherKeysFromConfig = [];
+            for (const key of Object.keys(entries)) {
+                if (!key.startsWith('__userscript.weatherType.')) continue;
+                const weatherName = key.slice('__userscript.weatherType.'.length);
+                if (!weatherName) continue;
+                weatherKeysFromConfig.push(weatherName);
+            }
+            if (weatherKeysFromConfig.length > 0) {
+                config.weatherTypeKeys = weatherKeysFromConfig;
             }
 
             return config;
@@ -1265,6 +1426,17 @@
         return changed ? out : null;
     };
 
+    /** Resolve a translation key through the cache, returning the result or null. */
+    const cachedResolve = (lookupKey, map, patterns, cache) => {
+        if (cache.has(lookupKey)) {
+            const v = cache.get(lookupKey);
+            return v || null;
+        }
+        const resolved = resolveTranslation(lookupKey, map, patterns);
+        cache.set(lookupKey, resolved ?? '');
+        return resolved || null;
+    };
+
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
@@ -1302,9 +1474,9 @@
 
         // Context override:
         // Underground → Treasures groups "Gem" valueType items, which are actually Arceus Plates.
-        // Keep global "Gem" (= 属性宝石) intact, but show "石板" for this specific group title.
+        // Keep global "Gem" (= 属性宝石) intact, but show context-specific label for this group title.
         try {
-            if (key === 'Gem') {
+            if (key === 'Gem' && treasuresGemOverride) {
                 const parent = textNode.parentElement;
                 if (
                     parent
@@ -1313,7 +1485,7 @@
                     && parent.closest?.('#treasures')
                     && parent.closest?.('.card-header')
                 ) {
-                    const out = `${leading}石板${trailing}`;
+                    const out = `${leading}${treasuresGemOverride}${trailing}`;
                     if (out !== raw) {
                         textNode.nodeValue = out;
                         processedTextNodeValues.set(textNode, out);
@@ -1327,24 +1499,7 @@
 
         const lookupKey = getWeatherTypeLookupKey(key, { textNode });
 
-        if (cache.has(lookupKey)) {
-            const cached = cache.get(lookupKey);
-            if (cached) {
-                const out = `${leading}${cached}${trailing}`;
-                if (out !== raw) {
-                    textNode.nodeValue = out;
-                    processedTextNodeValues.set(textNode, out);
-                }
-                return;
-            }
-        }
-
-        if (!cache.has(lookupKey)) {
-            const resolved = resolveTranslation(lookupKey, map, patterns);
-            cache.set(lookupKey, resolved ?? '');
-        }
-
-        const cached = cache.get(lookupKey);
+        const cached = cachedResolve(lookupKey, map, patterns, cache);
         if (cached) {
             const out = `${leading}${cached}${trailing}`;
             if (out !== raw) {
@@ -1487,24 +1642,7 @@
             const useMap = shouldUseHardcodedMap(key);
             const lookupKey = getWeatherTypeLookupKey(key, { element });
 
-            if (cache.has(lookupKey)) {
-                const cached = cache.get(lookupKey);
-                if (cached) {
-                    const out = `${leading}${cached}${trailing}`;
-                    if (out !== raw) {
-                        element.setAttribute(attr, out);
-                        attrCache.set(element, out);
-                    }
-                    continue;
-                }
-            }
-
-            if (!cache.has(lookupKey)) {
-                const resolved = resolveTranslation(lookupKey, map, patterns);
-                cache.set(lookupKey, resolved ?? '');
-            }
-
-            const cached = cache.get(lookupKey);
+            const cached = cachedResolve(lookupKey, map, patterns, cache);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
                 if (out !== raw) {
@@ -1590,6 +1728,15 @@
                 templates.route.noRegion = config.templates.route?.noRegion ?? templates.route.noRegion;
                 templates.route.withRegion = config.templates.route?.withRegion ?? templates.route.withRegion;
             }
+            if (Array.isArray(config.typeKeys) && config.typeKeys.length > 0) {
+                TYPE_KEYS = config.typeKeys;
+            }
+            if (Array.isArray(config.weatherTypeKeys) && config.weatherTypeKeys.length > 0) {
+                WEATHER_TYPE_KEYS = new Set(config.weatherTypeKeys);
+            }
+            if (typeof config.context?.treasuresGem === 'string' && config.context.treasuresGem) {
+                treasuresGemOverride = config.context.treasuresGem;
+            }
             injectCssOverrides(config.css);
         } else {
             injectCssOverrides(null);
@@ -1635,10 +1782,24 @@
 
         const loadMapFromBundle = async () => {
             try {
-                const json = await fetchJsonWithFallback(
-                    buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
-                    { cache: 'no-cache' },
-                );
+                // Cache-first: try IndexedDB cache before network
+                const cachedBundle = await loadBundleFromCache();
+                let json = cachedBundle;
+                let loadedFromCache = false;
+
+                if (json) {
+                    loadedFromCache = true;
+                    if (DEBUG) {
+                        // eslint-disable-next-line no-console
+                        console.info('[PokéClicker zh-Hans] Loaded bundle from cache:', json?._meta ?? null);
+                    }
+                } else {
+                    json = await fetchJsonWithFallback(
+                        buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
+                        { cache: 'no-cache' },
+                    );
+                }
+
                 bundleMeta = json?._meta ?? null;
                 let count = 0;
                 count += ingestEntriesToMap(json?.entries);
@@ -1647,6 +1808,52 @@
                     // eslint-disable-next-line no-console
                     console.info('[PokéClicker zh-Hans] Loaded bundle:', count, 'entries');
                 }
+
+                // Best-effort cache update
+                if (!loadedFromCache) {
+                    void saveBundleToCache(json);
+                } else {
+                    // Background refresh when loaded from cache
+                    const currentGeneratedAt = json?._meta?.generatedAt ?? null;
+                    const schedule = (fn) => {
+                        const ric = window.requestIdleCallback?.bind(window);
+                        if (ric) return ric(fn, { timeout: 5000 });
+                        return setTimeout(fn, 2500);
+                    };
+                    schedule(async () => {
+                        try {
+                            const latest = await fetchJsonWithFallback(
+                                buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
+                                { cache: 'no-cache' },
+                            );
+                            await saveBundleToCache(latest);
+                            const latestGeneratedAt = latest?._meta?.generatedAt ?? null;
+                            if (typeof latestGeneratedAt === 'string'
+                                && latestGeneratedAt
+                                && typeof currentGeneratedAt === 'string'
+                                && currentGeneratedAt
+                                && latestGeneratedAt !== currentGeneratedAt) {
+                                try {
+                                    if (window.Notifier?.notify) {
+                                        window.Notifier.notify({
+                                            title: '翻译已更新',
+                                            message: '已在后台下载新的中文翻译，刷新页面后生效。',
+                                            timeout: 7000,
+                                        });
+                                    }
+                                } catch {
+                                    // ignore
+                                }
+                            }
+                        } catch (e) {
+                            if (DEBUG) {
+                                // eslint-disable-next-line no-console
+                                console.warn('[PokéClicker zh-Hans] Background bundle refresh failed:', e);
+                            }
+                        }
+                    });
+                }
+
                 return count > 0;
             } catch {
                 return false;
@@ -1774,7 +1981,7 @@
         }
 
         const patterns = buildPatterns(map);
-        const cache = new LruCache(20000);
+        const cache = new TranslationCache(50000);
 
         const translateWithFallback = (text) => {
             const resolved = resolveTranslation(text, map, patterns);

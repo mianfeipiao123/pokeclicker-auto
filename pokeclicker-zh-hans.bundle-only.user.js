@@ -287,6 +287,9 @@
     /** @type {Array<[string,string]>} */
     let demixReplacements = [];
 
+    /** @type {string | null} */
+    let treasuresGemOverride = null;
+
     const templates = {
         typePokemon: '{{type}}-type Pokémon',
         gymAt: '{{gym}} ({{town}})',
@@ -558,6 +561,9 @@
             // Dashes/minus → ASCII hyphen
             .replace(/[\u2013\u2014\u2212]/g, '-');
 
+    /** @type {Set<string> | null} */
+    let demixFirstChars = null;
+
     const demixForLookup = (text) => {
         let s = normalizeForLookup(text);
         if (!s) return s;
@@ -571,9 +577,23 @@
         }
 
         if (reversePokemonTranslations.length) {
-            for (const [zh, en] of reversePokemonTranslations) {
-                if (!zh || !en) continue;
-                if (s.includes(zh)) s = s.split(zh).join(en);
+            // Quick pre-check: only enter the expensive loop if the string contains
+            // at least one first-character of a known Chinese Pokémon name.
+            if (!demixFirstChars) {
+                demixFirstChars = new Set();
+                for (const [zh] of reversePokemonTranslations) {
+                    if (zh) demixFirstChars.add(zh[0]);
+                }
+            }
+            let hasCandidate = false;
+            for (let i = 0; i < s.length; i += 1) {
+                if (demixFirstChars.has(s[i])) { hasCandidate = true; break; }
+            }
+            if (hasCandidate) {
+                for (const [zh, en] of reversePokemonTranslations) {
+                    if (!zh || !en) continue;
+                    if (s.includes(zh)) s = s.split(zh).join(en);
+                }
             }
         }
 
@@ -660,7 +680,7 @@
     };
 
     const WEATHER_TYPE_KEY_PREFIX = 'weatherType::';
-    const WEATHER_TYPE_KEYS = new Set([
+    let WEATHER_TYPE_KEYS = new Set([
         'Clear',
         'Overcast',
         'Rain',
@@ -830,26 +850,28 @@
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-    class LruCache extends Map {
+    class TranslationCache extends Map {
         constructor(limit) {
             super();
-            this.limit = Number.isFinite(limit) && limit > 0 ? limit : 20000;
+            this.limit = Number.isFinite(limit) && limit > 0 ? limit : 50000;
+            this._accessCount = 0;
         }
 
         get(key) {
-            if (!super.has(key)) return undefined;
-            const value = super.get(key);
-            super.delete(key);
-            super.set(key, value);
-            return value;
+            return super.get(key);
         }
 
         set(key, value) {
-            if (super.has(key)) super.delete(key);
             super.set(key, value);
-            if (this.size > this.limit) {
-                const firstKey = this.keys().next().value;
-                super.delete(firstKey);
+            if (super.size > this.limit) {
+                // Evict oldest 25% to amortize cost instead of evicting per-insert.
+                const evictCount = Math.floor(this.limit * 0.25);
+                let removed = 0;
+                for (const k of super.keys()) {
+                    if (removed >= evictCount) break;
+                    super.delete(k);
+                    removed += 1;
+                }
             }
             return this;
         }
@@ -858,7 +880,7 @@
     /** @type {Record<string,string>} */
     let typeTranslations = {};
 
-    const TYPE_KEYS = [
+    let TYPE_KEYS = [
         'None',
         'Normal',
         'Fire',
@@ -926,11 +948,35 @@
             },
             demixReplacements: parseDemixReplacements(getEntry('__userscript.demix.replacements')),
             types: {},
+            context: {
+                treasuresGem: getEntry('__userscript.context.treasures.gem') ?? null,
+            },
         };
 
-        for (const key of TYPE_KEYS) {
-            const v = getEntry(`__userscript.type.${key}`);
-            if (typeof v === 'string' && v) config.types[key] = v;
+        // Extract TYPE_KEYS dynamically from __userscript.type.* entries
+        const typeKeysFromConfig = [];
+        for (const key of Object.keys(entries)) {
+            if (!key.startsWith('__userscript.type.')) continue;
+            const typeName = key.slice('__userscript.type.'.length);
+            if (!typeName) continue;
+            const v = getEntry(key);
+            if (typeof v === 'string' && v) config.types[typeName] = v;
+            typeKeysFromConfig.push(typeName);
+        }
+        if (typeKeysFromConfig.length > 0) {
+            config.typeKeys = typeKeysFromConfig;
+        }
+
+        // Extract WEATHER_TYPE_KEYS dynamically from __userscript.weatherType.* entries
+        const weatherKeysFromConfig = [];
+        for (const key of Object.keys(entries)) {
+            if (!key.startsWith('__userscript.weatherType.')) continue;
+            const weatherName = key.slice('__userscript.weatherType.'.length);
+            if (!weatherName) continue;
+            weatherKeysFromConfig.push(weatherName);
+        }
+        if (weatherKeysFromConfig.length > 0) {
+            config.weatherTypeKeys = weatherKeysFromConfig;
         }
 
         return config;
@@ -1371,6 +1417,17 @@
         return changed ? out : null;
     };
 
+    /** Resolve a translation key through the cache, returning the result or null. */
+    const cachedResolve = (lookupKey, map, patterns, cache) => {
+        if (cache.has(lookupKey)) {
+            const v = cache.get(lookupKey);
+            return v || null;
+        }
+        const resolved = resolveTranslation(lookupKey, map, patterns);
+        cache.set(lookupKey, resolved ?? '');
+        return resolved || null;
+    };
+
     const applyMapToElementAttributes = (el, map, patterns, cache) => {
         try {
             if (!el?.getAttribute) return;
@@ -1401,10 +1458,8 @@
                     const { leading, core, trailing } = splitOuterWhitespace(raw);
                     const key = normalizeText(core);
                     const lookupKey = getWeatherTypeLookupKey(key, { element: el });
-                    if (lookupKey !== key) {
-                        const resolved = resolveTranslation(lookupKey, map, patterns);
-                        if (resolved) translated = `${leading}${resolved}${trailing}`;
-                    }
+                    const resolved = cachedResolve(lookupKey, map, patterns, cache);
+                    if (resolved) translated = `${leading}${resolved}${trailing}`;
                 } catch {
                     // ignore
                 }
@@ -1462,9 +1517,9 @@
 
         // Context override:
         // Underground → Treasures groups "Gem" valueType items, which are actually Arceus Plates.
-        // Keep global "Gem" (= 属性宝石) intact, but show "石板" for this specific group title.
+        // Keep global "Gem" (= 属性宝石) intact, but show context-specific label for this group title.
         try {
-            if (key === 'Gem') {
+            if (key === 'Gem' && treasuresGemOverride) {
                 const parent = textNode.parentElement;
                 if (
                     parent
@@ -1473,7 +1528,7 @@
                     && parent.closest?.('#treasures')
                     && parent.closest?.('.card-header')
                 ) {
-                    const out = `${leading}石板${trailing}`;
+                    const out = `${leading}${treasuresGemOverride}${trailing}`;
                     if (out !== raw) {
                         textNode.nodeValue = out;
                         processedTextNodeValues.set(textNode, out);
@@ -1487,24 +1542,7 @@
 
         const lookupKey = getWeatherTypeLookupKey(key, { textNode });
 
-        if (cache.has(lookupKey)) {
-            const cached = cache.get(lookupKey);
-            if (cached) {
-                const out = `${leading}${cached}${trailing}`;
-                if (out !== raw) {
-                    textNode.nodeValue = out;
-                    processedTextNodeValues.set(textNode, out);
-                }
-                return;
-            }
-        }
-
-        if (!cache.has(lookupKey)) {
-            const resolved = resolveTranslation(lookupKey, map, patterns);
-            cache.set(lookupKey, resolved ?? '');
-        }
-
-        const cached = cache.get(lookupKey);
+        const cached = cachedResolve(lookupKey, map, patterns, cache);
         if (cached) {
             const out = `${leading}${cached}${trailing}`;
             if (out !== raw) {
@@ -1827,6 +1865,15 @@
                 templates.route.noRegion = config.templates.route?.noRegion ?? templates.route.noRegion;
                 templates.route.withRegion = config.templates.route?.withRegion ?? templates.route.withRegion;
             }
+            if (Array.isArray(config.typeKeys) && config.typeKeys.length > 0) {
+                TYPE_KEYS = config.typeKeys;
+            }
+            if (Array.isArray(config.weatherTypeKeys) && config.weatherTypeKeys.length > 0) {
+                WEATHER_TYPE_KEYS = new Set(config.weatherTypeKeys);
+            }
+            if (typeof config.context?.treasuresGem === 'string' && config.context.treasuresGem) {
+                treasuresGemOverride = config.context.treasuresGem;
+            }
             injectCssOverrides(config.css);
         } catch {
             injectCssOverrides(null);
@@ -1850,7 +1897,7 @@
         }
 
         const patterns = buildPatterns(map);
-        const cache = new LruCache(20000);
+        const cache = new TranslationCache(50000);
 
         const translateWithFallback = (text) => {
             const resolved = resolveTranslation(text, map, patterns);

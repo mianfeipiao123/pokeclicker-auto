@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": null,
-    "lastUpdated": "2026-01-08",
-    "totalStrings": 31,
-    "translatedCount": 31,
+    "lastUpdated": "2026-02-10",
+    "totalStrings": 43,
+    "translatedCount": 43,
     "note": "Userscript-specific UI strings (CSS pseudo-elements, early hooks, and dynamic segment helpers)."
   },
   "entries": {
@@ -130,6 +130,54 @@
     "__userscript.type.Fairy": {
       "translation": "妖精",
       "line": 48
+    },
+    "__userscript.context.treasures.gem": {
+      "translation": "石板",
+      "line": 50
+    },
+    "__userscript.weatherType.Clear": {
+      "translation": "晴朗",
+      "line": 60
+    },
+    "__userscript.weatherType.Overcast": {
+      "translation": "阴天",
+      "line": 61
+    },
+    "__userscript.weatherType.Rain": {
+      "translation": "雨天",
+      "line": 62
+    },
+    "__userscript.weatherType.Thunderstorm": {
+      "translation": "雷暴",
+      "line": 63
+    },
+    "__userscript.weatherType.Snow": {
+      "translation": "雪",
+      "line": 64
+    },
+    "__userscript.weatherType.Hail": {
+      "translation": "冰雹",
+      "line": 65
+    },
+    "__userscript.weatherType.Blizzard": {
+      "translation": "暴风雪",
+      "line": 66
+    },
+    "__userscript.weatherType.Harsh Sunlight": {
+      "translation": "烈日",
+      "line": 67
+    },
+    "__userscript.weatherType.Sandstorm": {
+      "translation": "沙暴",
+      "line": 68
+    },
+    "__userscript.weatherType.Fog": {
+      "translation": "浓雾",
+      "line": 69
+    },
+    "__userscript.weatherType.Windy": {
+      "translation": "大风",
+      "line": 70
     }
   }
 }

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.59
+// @version      0.1.60
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -76,7 +76,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.58';
+    const SCRIPT_VERSION = '0.1.60';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -552,6 +552,40 @@
             return /\bhotkey\./i.test(bind);
         } catch {
             return false;
+        }
+    };
+
+    const INLINE_WRAPPER_TAGS = new Set(['i', 'em', 'b', 'strong', 'u']);
+    const buildInlineWrapperKey = (textNode, innerText) => {
+        try {
+            if (!textNode?.parentElement) return null;
+            const tags = [];
+            let el = textNode.parentElement;
+            for (let i = 0; i < 4 && el; i += 1) {
+                const tag = el.tagName?.toLowerCase();
+                if (!tag || !INLINE_WRAPPER_TAGS.has(tag)) break;
+                tags.push(tag);
+                el = el.parentElement;
+            }
+            if (!tags.length) return null;
+            const open = tags.slice().reverse().map((t) => `<${t}>`).join('');
+            const close = tags.map((t) => `</${t}>`).join('');
+            return `${open}${innerText}${close}`;
+        } catch {
+            return null;
+        }
+    };
+
+    const extractTextFromHtml = (html) => {
+        if (typeof html !== 'string' || !html) return null;
+        if (!html.includes('<')) return html;
+        try {
+            const template = document.createElement('template');
+            template.innerHTML = html;
+            const text = template.content.textContent ?? '';
+            return normalizeText(text);
+        } catch {
+            return null;
         }
     };
 
@@ -1409,6 +1443,29 @@
                 processedTextNodeValues.set(textNode, out);
             }
             return;
+        }
+
+        // Inline wrapper fallback:
+        // Some upstream strings are HTML fragments like `<i>...</i>` / `<b><i>...</i></b>`.
+        // When inserted via `innerHTML`, our DOM walker sees only the inner text node,
+        // while the translation map may contain the wrapped HTML string as the key.
+        try {
+            const wrappedKey = buildInlineWrapperKey(textNode, key);
+            if (wrappedKey) {
+                const wrapped = resolveTranslation(wrappedKey, map, patterns);
+                const wrappedText = extractTextFromHtml(wrapped);
+                if (wrappedText) {
+                    cache.set(lookupKey, wrappedText);
+                    const out = `${leading}${wrappedText}${trailing}`;
+                    if (out !== raw) {
+                        textNode.nodeValue = out;
+                        processedTextNodeValues.set(textNode, out);
+                    }
+                    return;
+                }
+            }
+        } catch {
+            // ignore
         }
 
         recordMissing(lookupKey);

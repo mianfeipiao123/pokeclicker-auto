@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.58
+// @version      0.1.59
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -1610,12 +1610,21 @@
                 const handler = ko?.bindingHandlers?.tooltip;
                 if (!handler || handler.__pkcZhHansTitlePatched) return false;
 
-                const wrapValueAccessor = (valueAccessor) => () => {
+                const wrapValueAccessor = (element, valueAccessor) => () => {
                     const local = ko.utils.unwrapObservable(valueAccessor());
                     if (!local || typeof local !== 'object') return local;
                     const out = { ...local };
                     if (typeof out.title === 'string') {
-                        const t = translateForNotifierImpl(out.title);
+                        const key = normalizeForLookup(out.title);
+                        let t;
+                        try {
+                            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(element)) {
+                                t = translateForNotifierImpl(`${WEATHER_TYPE_KEY_PREFIX}${key}`);
+                            }
+                        } catch {
+                            // ignore
+                        }
+                        if (!t) t = translateForNotifierImpl(out.title);
                         if (t) out.title = t;
                     }
                     return out;
@@ -1627,7 +1636,7 @@
                         return originalInit.call(
                             this,
                             element,
-                            wrapValueAccessor(valueAccessor),
+                            wrapValueAccessor(element, valueAccessor),
                             allBindings,
                             viewModel,
                             bindingContext,
@@ -1637,7 +1646,7 @@
                 if (typeof handler.update === 'function') {
                     const originalUpdate = handler.update;
                     handler.update = function (element, valueAccessor) {
-                        return originalUpdate.call(this, element, wrapValueAccessor(valueAccessor));
+                        return originalUpdate.call(this, element, wrapValueAccessor(element, valueAccessor));
                     };
                 }
 
@@ -1668,6 +1677,18 @@
                     proto[methodName] = function (...args) {
                         const title = original.apply(this, args);
                         if (typeof title !== 'string' || !title) return title;
+
+                        try {
+                            const key = normalizeForLookup(title);
+                            const el = this?._element || this?.element;
+                            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(el)) {
+                                const t = translateForNotifierImpl(`${WEATHER_TYPE_KEY_PREFIX}${key}`);
+                                if (t) return t;
+                            }
+                        } catch {
+                            // ignore
+                        }
+
                         const t = translateForNotifierImpl(title);
                         return t || title;
                     };

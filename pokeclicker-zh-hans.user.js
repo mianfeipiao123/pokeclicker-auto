@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.63
+// @version      0.1.64
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.63';
+    const SCRIPT_VERSION = '0.1.64';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -672,6 +672,24 @@
 
     const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content', 'data-intro'];
     const ATTR_SELECTOR = attrNames.map((a) => `[${a}]`).join(',');
+    const LATIN_RE = /[A-Za-zÉé]/;
+
+    /** @type {WeakMap<Node, string>} */
+    const processedTextNodeValues = new WeakMap();
+    /** @type {Record<string, WeakMap<Element, string>>} */
+    const processedAttrValues = {};
+
+    const getWeatherTypeLookupKey = (key, context) => {
+        try {
+            if (typeof key !== 'string' || !key) return key;
+            if (!WEATHER_TYPE_KEYS.has(key)) return key;
+            if (context?.textNode && isWeatherTypeContextTextNode(context.textNode)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+            if (context?.element && isWeatherTypeTooltipTriggerElement(context.element)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+        } catch {
+            // ignore
+        }
+        return key;
+    };
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
@@ -1250,7 +1268,11 @@
     const applyMapToTextNode = (textNode, map, patterns, cache) => {
         if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
         if (shouldSkipNode(textNode)) return;
+        const rawNodeValue = String(textNode.nodeValue ?? '');
+        if (processedTextNodeValues.get(textNode) === rawNodeValue) return;
+        processedTextNodeValues.set(textNode, rawNodeValue);
         if (isHotkeyValueNode(textNode)) return;
+        if (!LATIN_RE.test(rawNodeValue)) return;
 
         // In a few places, the game builds English plurals by appending a separate "s" node.
         // When the base word is translated to Chinese (e.g. "Dungeon" -> "迷宫"), the leftover "s" becomes visible ("迷宫s").
@@ -1264,6 +1286,7 @@
                     const prevText = String(prev.nodeValue ?? '').replace(/\u00A0/g, ' ').trim();
                     if (/[\u4E00-\u9FFF]$/.test(prevText)) {
                         textNode.nodeValue = rawNode.replace(/s/g, '');
+                        processedTextNodeValues.set(textNode, String(textNode.nodeValue ?? ''));
                         return;
                     }
                 }
@@ -1291,7 +1314,10 @@
                     && parent.closest?.('.card-header')
                 ) {
                     const out = `${leading}石板${trailing}`;
-                    if (out !== raw) textNode.nodeValue = out;
+                    if (out !== raw) {
+                        textNode.nodeValue = out;
+                        processedTextNodeValues.set(textNode, out);
+                    }
                     return;
                 }
             }
@@ -1299,20 +1325,16 @@
             // ignore
         }
 
-        let lookupKey = key;
-        try {
-            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeContextTextNode(textNode)) {
-                lookupKey = `${WEATHER_TYPE_KEY_PREFIX}${key}`;
-            }
-        } catch {
-            // ignore
-        }
+        const lookupKey = getWeatherTypeLookupKey(key, { textNode });
 
         if (cache.has(lookupKey)) {
             const cached = cache.get(lookupKey);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
-                if (out !== raw) textNode.nodeValue = out;
+                if (out !== raw) {
+                    textNode.nodeValue = out;
+                    processedTextNodeValues.set(textNode, out);
+                }
                 return;
             }
         }
@@ -1325,7 +1347,10 @@
         const cached = cache.get(lookupKey);
         if (cached) {
             const out = `${leading}${cached}${trailing}`;
-            if (out !== raw) textNode.nodeValue = out;
+            if (out !== raw) {
+                textNode.nodeValue = out;
+                processedTextNodeValues.set(textNode, out);
+            }
             return;
         }
 
@@ -1369,7 +1394,10 @@
                 const newCore = parts.join('');
                 cache.set(lookupKey, newCore);
                 const out = `${leading}${newCore}${trailing}`;
-                if (out !== raw) textNode.nodeValue = out;
+                if (out !== raw) {
+                    textNode.nodeValue = out;
+                    processedTextNodeValues.set(textNode, out);
+                }
                 return;
             }
         }
@@ -1378,7 +1406,10 @@
         if (segOut) {
             cache.set(lookupKey, segOut);
             const out = `${leading}${segOut}${trailing}`;
-            if (out !== raw) textNode.nodeValue = out;
+            if (out !== raw) {
+                textNode.nodeValue = out;
+                processedTextNodeValues.set(textNode, out);
+            }
             return;
         }
 
@@ -1394,7 +1425,10 @@
                 if (wrappedText) {
                     cache.set(lookupKey, wrappedText);
                     const out = `${leading}${wrappedText}${trailing}`;
-                    if (out !== raw) textNode.nodeValue = out;
+                    if (out !== raw) {
+                        textNode.nodeValue = out;
+                        processedTextNodeValues.set(textNode, out);
+                    }
                     return;
                 }
             }
@@ -1402,7 +1436,7 @@
             // ignore
         }
 
-        recordMissing(lookupKey);
+        if (shouldUseHardcodedMap(lookupKey)) recordMissing(lookupKey);
     };
 
     const applyMapToElementAttributes = (element, map, patterns, cache) => {
@@ -1413,6 +1447,11 @@
             if (!element.hasAttribute(attr)) continue;
             const raw = element.getAttribute(attr);
             if (raw == null) continue;
+
+            if (!processedAttrValues[attr]) processedAttrValues[attr] = new WeakMap();
+            const attrCache = processedAttrValues[attr];
+            if (attrCache.get(element) === raw) continue;
+            attrCache.set(element, raw);
 
             // Avoid fighting Bootstrap tooltip/popover internals.
             // Bootstrap frequently copies/mutates `title` <-> `data-original-title`/`data-content`,
@@ -1430,31 +1469,32 @@
                     template.innerHTML = raw;
                     applyMapToNode(template.content, map, patterns, cache);
                     const out = template.innerHTML;
-                    if (out && out !== raw) element.setAttribute(attr, out);
+                    if (out && out !== raw) {
+                        element.setAttribute(attr, out);
+                        attrCache.set(element, out);
+                    }
                 } catch {
                     // ignore
                 }
                 continue;
             }
 
+            if (!LATIN_RE.test(raw)) continue;
+
             const { leading, core, trailing } = splitOuterWhitespace(raw);
             const key = normalizeText(core);
             if (!key) continue;
             const useMap = shouldUseHardcodedMap(key);
-            let lookupKey = key;
-            try {
-                if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(element)) {
-                    lookupKey = `${WEATHER_TYPE_KEY_PREFIX}${key}`;
-                }
-            } catch {
-                // ignore
-            }
+            const lookupKey = getWeatherTypeLookupKey(key, { element });
 
             if (cache.has(lookupKey)) {
                 const cached = cache.get(lookupKey);
                 if (cached) {
                     const out = `${leading}${cached}${trailing}`;
-                    if (out !== raw) element.setAttribute(attr, out);
+                    if (out !== raw) {
+                        element.setAttribute(attr, out);
+                        attrCache.set(element, out);
+                    }
                     continue;
                 }
             }
@@ -1467,7 +1507,10 @@
             const cached = cache.get(lookupKey);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
-                if (out !== raw) element.setAttribute(attr, out);
+                if (out !== raw) {
+                    element.setAttribute(attr, out);
+                    attrCache.set(element, out);
+                }
                 continue;
             }
 
@@ -1475,7 +1518,10 @@
             if (segOut) {
                 cache.set(lookupKey, segOut);
                 const out = `${leading}${segOut}${trailing}`;
-                if (out !== raw) element.setAttribute(attr, out);
+                if (out !== raw) {
+                    element.setAttribute(attr, out);
+                    attrCache.set(element, out);
+                }
                 continue;
             }
 
@@ -1792,8 +1838,9 @@
                         const key = normalizeForLookup(out.title);
                         let t;
                         try {
-                            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(element)) {
-                                t = translateForNotifierImpl(`${WEATHER_TYPE_KEY_PREFIX}${key}`);
+                            const weatherKey = getWeatherTypeLookupKey(key, { element });
+                            if (weatherKey !== key) {
+                                t = translateForNotifierImpl(weatherKey);
                             }
                         } catch {
                             // ignore
@@ -1855,8 +1902,9 @@
                         try {
                             const key = normalizeForLookup(title);
                             const el = this?._element || this?.element;
-                            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(el)) {
-                                const t = translateForNotifierImpl(`${WEATHER_TYPE_KEY_PREFIX}${key}`);
+                            const weatherKey = getWeatherTypeLookupKey(key, { element: el });
+                            if (weatherKey !== key) {
+                                const t = translateForNotifierImpl(weatherKey);
                                 if (t) return t;
                             }
                         } catch {

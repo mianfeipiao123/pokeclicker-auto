@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.63
+// @version      0.1.64
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -76,7 +76,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.63';
+    const SCRIPT_VERSION = '0.1.64';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -719,6 +719,18 @@
 
     /** @type {Record<string, WeakMap<Element, string>>} */
     const processedAttrValues = {};
+
+    const getWeatherTypeLookupKey = (key, context) => {
+        try {
+            if (typeof key !== 'string' || !key) return key;
+            if (!WEATHER_TYPE_KEYS.has(key)) return key;
+            if (context?.textNode && isWeatherTypeContextTextNode(context.textNode)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+            if (context?.element && isWeatherTypeTooltipTriggerElement(context.element)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+        } catch {
+            // ignore
+        }
+        return key;
+    };
 
     if (FORCE_I18NEXT_LANG) {
         try {
@@ -1388,8 +1400,9 @@
                 try {
                     const { leading, core, trailing } = splitOuterWhitespace(raw);
                     const key = normalizeText(core);
-                    if (key && WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(el)) {
-                        const resolved = resolveTranslation(`${WEATHER_TYPE_KEY_PREFIX}${key}`, map, patterns);
+                    const lookupKey = getWeatherTypeLookupKey(key, { element: el });
+                    if (lookupKey !== key) {
+                        const resolved = resolveTranslation(lookupKey, map, patterns);
                         if (resolved) translated = `${leading}${resolved}${trailing}`;
                     }
                 } catch {
@@ -1472,14 +1485,7 @@
             // ignore
         }
 
-        let lookupKey = key;
-        try {
-            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeContextTextNode(textNode)) {
-                lookupKey = `${WEATHER_TYPE_KEY_PREFIX}${key}`;
-            }
-        } catch {
-            // ignore
-        }
+        const lookupKey = getWeatherTypeLookupKey(key, { textNode });
 
         if (cache.has(lookupKey)) {
             const cached = cache.get(lookupKey);
@@ -1908,8 +1914,9 @@
                         const key = normalizeForLookup(out.title);
                         let t;
                         try {
-                            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(element)) {
-                                t = translateForNotifierImpl(`${WEATHER_TYPE_KEY_PREFIX}${key}`);
+                            const weatherKey = getWeatherTypeLookupKey(key, { element });
+                            if (weatherKey !== key) {
+                                t = translateForNotifierImpl(weatherKey);
                             }
                         } catch {
                             // ignore
@@ -1971,8 +1978,9 @@
                         try {
                             const key = normalizeForLookup(title);
                             const el = this?._element || this?.element;
-                            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(el)) {
-                                const t = translateForNotifierImpl(`${WEATHER_TYPE_KEY_PREFIX}${key}`);
+                            const weatherKey = getWeatherTypeLookupKey(key, { element: el });
+                            if (weatherKey !== key) {
+                                const t = translateForNotifierImpl(weatherKey);
                                 if (t) return t;
                             }
                         } catch {

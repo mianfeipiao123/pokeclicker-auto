@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-02-10T12:00:00.000Z",
+    "generatedAt": "2026-02-10T16:00:00.000Z",
     "sourceIndexVersion": "2.0.0",
     "fileCount": 421,
     "entryCount": 15150,
@@ -12201,6 +12201,7 @@
     "Subregion": "次区域",
     "Subregional Travel": "次区域旅游",
     "Subregional Travel (": "次区域旅行（",
+    "Subregional Travel (${...})": "次区域旅行（${...}）",
     "Subregional Travel (Alola)": "子区域旅行（阿罗拉）",
     "Subregional Travel (Galar)": "子区域旅行（伽勒尔）",
     "Subregional Travel (Hoenn)": "子区域旅行（丰缘）",

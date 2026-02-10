@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.62
+// @version      0.1.63
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -76,7 +76,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.62';
+    const SCRIPT_VERSION = '0.1.63';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -96,6 +96,34 @@
         return TRANSLATIONS_PARAM_VALUE;
     })();
 
+    const parseBool = (value) => {
+        const s = String(value ?? '').trim().toLowerCase();
+        return s === '1' || s === 'true' || s === 'yes' || s === 'on';
+    };
+
+    // By default, do NOT interfere with the game's own i18next language/backend.
+    // The userscript primarily translates rendered DOM text via our hardcoded map.
+    //
+    // Opt-in (per browser) if you want the game to load i18next locales from our repo:
+    // `localStorage.setItem('pokeclickerZhHansOverrideGameTranslations', '1')`
+    //
+    // Optional: also force i18next to `zh-Hans`:
+    // `localStorage.setItem('pokeclickerZhHansForceI18nextLang', '1')`
+    const OVERRIDE_GAME_TRANSLATIONS = (() => {
+        try {
+            return parseBool(localStorage.getItem('pokeclickerZhHansOverrideGameTranslations'));
+        } catch {
+            return false;
+        }
+    })();
+    const FORCE_I18NEXT_LANG = (() => {
+        try {
+            return parseBool(localStorage.getItem('pokeclickerZhHansForceI18nextLang'));
+        } catch {
+            return false;
+        }
+    })();
+
     const BUNDLE_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/bundle.json`;
 
     const uniqueStrings = (arr) => Array.from(new Set((arr ?? []).filter((v) => typeof v === 'string' && v)));
@@ -107,44 +135,44 @@
         return `${b}/${p}`;
     };
 
-    // i18next uses XHR to load `.../locales/{{lng}}/{{ns}}.json`.
-    // Some environments still end up requesting from the default translations host or the page-local `./locales` fallback,
-    // which produces noisy 404s even though the userscript can translate most UI via DOM mapping.
-    // Rewrite zh/zh-Hans locale file requests to our translations repo so they always resolve.
-    try {
-        const XHR = window.XMLHttpRequest;
-        if (typeof XHR === 'function' && !XHR.__pkcZhHansLocaleRewrite) {
-            const originalOpen = XHR.prototype.open;
-            const nsSet = new Set(['pokemon', 'logbook', 'settings', 'questlines']);
-            const rewriteLocaleUrl = (url) => {
-                if (typeof url !== 'string' || !url) return null;
-                if (!TRANSLATIONS_BASE_URL) return null;
-                let u;
-                try {
-                    u = new URL(url, window.location.href);
-                } catch {
-                    return null;
-                }
-                const m = u.pathname.match(/\/locales\/(zh(?:-Hans)?|zh-Hans|zh)\/([^/]+)\.json$/);
-                if (!m) return null;
-                const lng = m[1];
-                const ns = m[2];
-                if (!nsSet.has(ns)) return null;
-                return joinUrl(TRANSLATIONS_BASE_URL, `locales/${lng}/${ns}.json`);
-            };
-            XHR.prototype.open = function (method, url, ...rest) {
-                try {
-                    const rewritten = rewriteLocaleUrl(url);
-                    if (rewritten) url = rewritten;
-                } catch {
-                    // ignore
-                }
-                return originalOpen.call(this, method, url, ...rest);
-            };
-            Object.defineProperty(XHR, '__pkcZhHansLocaleRewrite', { value: true });
+    if (OVERRIDE_GAME_TRANSLATIONS) {
+        // i18next uses XHR to load `.../locales/{{lng}}/{{ns}}.json`.
+        // Rewrite zh/zh-Hans locale file requests to our translations repo so they always resolve.
+        try {
+            const XHR = window.XMLHttpRequest;
+            if (typeof XHR === 'function' && !XHR.__pkcZhHansLocaleRewrite) {
+                const originalOpen = XHR.prototype.open;
+                const nsSet = new Set(['pokemon', 'logbook', 'settings', 'questlines']);
+                const rewriteLocaleUrl = (url) => {
+                    if (typeof url !== 'string' || !url) return null;
+                    if (!TRANSLATIONS_BASE_URL) return null;
+                    let u;
+                    try {
+                        u = new URL(url, window.location.href);
+                    } catch {
+                        return null;
+                    }
+                    const m = u.pathname.match(/\/locales\/(zh(?:-Hans)?|zh-Hans|zh)\/([^/]+)\.json$/);
+                    if (!m) return null;
+                    const lng = m[1];
+                    const ns = m[2];
+                    if (!nsSet.has(ns)) return null;
+                    return joinUrl(TRANSLATIONS_BASE_URL, `locales/${lng}/${ns}.json`);
+                };
+                XHR.prototype.open = function (method, url, ...rest) {
+                    try {
+                        const rewritten = rewriteLocaleUrl(url);
+                        if (rewritten) url = rewritten;
+                    } catch {
+                        // ignore
+                    }
+                    return originalOpen.call(this, method, url, ...rest);
+                };
+                Object.defineProperty(XHR, '__pkcZhHansLocaleRewrite', { value: true });
+            }
+        } catch {
+            // ignore
         }
-    } catch {
-        // ignore
     }
 
     const JSDELIVR_BASE_URL = (() => {
@@ -294,6 +322,8 @@
         getConfig: () => ({
             scriptVersion: SCRIPT_VERSION,
             forceLang: FORCE_LANG,
+            overrideGameTranslations: OVERRIDE_GAME_TRANSLATIONS,
+            forceI18nextLang: FORCE_I18NEXT_LANG,
             translations: TRANSLATIONS_PARAM_VALUE,
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
             bundleUrl: BUNDLE_URL,
@@ -690,10 +720,12 @@
     /** @type {Record<string, WeakMap<Element, string>>} */
     const processedAttrValues = {};
 
-    try {
-        localStorage.setItem('i18nextLng', FORCE_LANG);
-    } catch {
-        // ignore
+    if (FORCE_I18NEXT_LANG) {
+        try {
+            localStorage.setItem('i18nextLng', FORCE_LANG);
+        } catch {
+            // ignore
+        }
     }
 
     // Guard the town "start" hotkey for edge cases where a non-dungeon town has no `content[0]`.
@@ -740,43 +772,45 @@
         // ignore
     }
 
-    // Keep the address bar clean (no `?translations=...`) while still making the game read our translations override.
-    // The game reads overrides via: `new URLSearchParams(window.location.search).get('translations')`.
-    // We shim URLSearchParams to inject the parameter when it's built from `window.location.search`,
-    // and then remove the parameter from the visible URL.
-    try {
-        const OriginalURLSearchParams = window.URLSearchParams;
-        if (typeof OriginalURLSearchParams === 'function' && !OriginalURLSearchParams.__pkcZhHansShim) {
-            const buildAugmentedSearch = (search) => {
-                const s = String(search ?? '');
-                if (!s.startsWith('?')) return s;
-                if (s.includes(`${TRANSLATIONS_QUERY_KEY}=`)) return s;
-                const sep = s.length > 1 ? '&' : '';
-                return `${s}${sep}${TRANSLATIONS_QUERY_KEY}=${encodeURIComponent(TRANSLATIONS_PARAM_VALUE)}`;
-            };
+    if (OVERRIDE_GAME_TRANSLATIONS) {
+        // Keep the address bar clean (no `?translations=...`) while still making the game read our translations override.
+        // The game reads overrides via: `new URLSearchParams(window.location.search).get('translations')`.
+        // We shim URLSearchParams to inject the parameter when it's built from `window.location.search`,
+        // and then remove the parameter from the visible URL.
+        try {
+            const OriginalURLSearchParams = window.URLSearchParams;
+            if (typeof OriginalURLSearchParams === 'function' && !OriginalURLSearchParams.__pkcZhHansShim) {
+                const buildAugmentedSearch = (search) => {
+                    const s = String(search ?? '');
+                    if (!s.startsWith('?')) return s;
+                    if (s.includes(`${TRANSLATIONS_QUERY_KEY}=`)) return s;
+                    const sep = s.length > 1 ? '&' : '';
+                    return `${s}${sep}${TRANSLATIONS_QUERY_KEY}=${encodeURIComponent(TRANSLATIONS_PARAM_VALUE)}`;
+                };
 
-            // eslint-disable-next-line func-names
-            const PatchedURLSearchParams = function (init) {
-                const actual = (typeof init === 'string' && init === window.location.search)
-                    ? buildAugmentedSearch(init)
-                    : init;
-                // Support being called with or without `new`
-                // eslint-disable-next-line new-cap
-                return new OriginalURLSearchParams(actual);
-            };
-            PatchedURLSearchParams.prototype = OriginalURLSearchParams.prototype;
-            Object.setPrototypeOf(PatchedURLSearchParams, OriginalURLSearchParams);
-            Object.defineProperty(PatchedURLSearchParams, '__pkcZhHansShim', { value: true });
-            window.URLSearchParams = PatchedURLSearchParams;
-        }
+                // eslint-disable-next-line func-names
+                const PatchedURLSearchParams = function (init) {
+                    const actual = (typeof init === 'string' && init === window.location.search)
+                        ? buildAugmentedSearch(init)
+                        : init;
+                    // Support being called with or without `new`
+                    // eslint-disable-next-line new-cap
+                    return new OriginalURLSearchParams(actual);
+                };
+                PatchedURLSearchParams.prototype = OriginalURLSearchParams.prototype;
+                Object.setPrototypeOf(PatchedURLSearchParams, OriginalURLSearchParams);
+                Object.defineProperty(PatchedURLSearchParams, '__pkcZhHansShim', { value: true });
+                window.URLSearchParams = PatchedURLSearchParams;
+            }
 
-        const url = new URL(window.location.href);
-        if (url.searchParams.has(TRANSLATIONS_QUERY_KEY)) {
-            url.searchParams.delete(TRANSLATIONS_QUERY_KEY);
-            history.replaceState(null, '', url.toString());
+            const url = new URL(window.location.href);
+            if (url.searchParams.has(TRANSLATIONS_QUERY_KEY)) {
+                url.searchParams.delete(TRANSLATIONS_QUERY_KEY);
+                history.replaceState(null, '', url.toString());
+            }
+        } catch {
+            // ignore
         }
-    } catch {
-        // ignore
     }
 
     const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content', 'data-intro'];

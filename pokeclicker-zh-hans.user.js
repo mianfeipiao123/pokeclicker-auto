@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.60
+// @version      0.1.61
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.60';
+    const SCRIPT_VERSION = '0.1.61';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -1433,6 +1433,7 @@
 
         /** @type {Record<string,string>} */
         let map = {};
+        let bundleMeta = null;
 
         const addEntryToMap = (key, value) => {
             if (typeof key !== 'string' || !key) return false;
@@ -1474,6 +1475,7 @@
                     buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
                     { cache: 'no-cache' },
                 );
+                bundleMeta = json?._meta ?? null;
                 let count = 0;
                 count += ingestEntriesToMap(json?.entries);
                 count += ingestEntriesToMap(json?.entriesCaseSensitive);
@@ -1654,7 +1656,7 @@
 
         translateForNotifier = translateForNotifierImpl;
         window.PokeClickerZhHans.lookup = translateForNotifierImpl;
-        window.PokeClickerZhHans.getBundleMeta = () => bundle?._meta ?? null;
+        window.PokeClickerZhHans.getBundleMeta = () => bundleMeta;
 
         // Patch the Knockout tooltip binding so titles are translated before Bootstrap renders them.
         // This covers dynamic HTML tooltips like DayCycle.tooltip() in `townMap.html`.
@@ -1771,7 +1773,7 @@
 
         if (DEBUG) {
             // eslint-disable-next-line no-console
-            console.info('[PokéClicker zh-Hans] bundle meta:', bundle?._meta ?? null);
+            console.info('[PokéClicker zh-Hans] bundle meta:', bundleMeta);
         }
 
         const tryPatchSpecialEvents = () => {

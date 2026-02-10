@@ -107,23 +107,24 @@
     // By default, do NOT interfere with the game's own i18next language/backend.
     // The userscript primarily translates rendered DOM text via our hardcoded map.
     //
-    // Opt-in (per browser) if you want the game to load i18next locales from our repo:
-    // `localStorage.setItem('pokeclickerZhHansOverrideGameTranslations', '1')`
-    //
-    // Optional: also force i18next to `zh-Hans`:
-    // `localStorage.setItem('pokeclickerZhHansForceI18nextLang', '1')`
+    // Override game i18next translations with our repo by default.
+    // Opt-out: localStorage.setItem('pokeclickerZhHansOverrideGameTranslations', '0')
     const OVERRIDE_GAME_TRANSLATIONS = (() => {
         try {
-            return parseBool(localStorage.getItem('pokeclickerZhHansOverrideGameTranslations'));
+            const v = localStorage.getItem('pokeclickerZhHansOverrideGameTranslations');
+            return v === null ? true : parseBool(v);
         } catch {
-            return false;
+            return true;
         }
     })();
+    // Force i18next language to zh-Hans by default.
+    // Opt-out: localStorage.setItem('pokeclickerZhHansForceI18nextLang', '0')
     const FORCE_I18NEXT_LANG = (() => {
         try {
-            return parseBool(localStorage.getItem('pokeclickerZhHansForceI18nextLang'));
+            const v = localStorage.getItem('pokeclickerZhHansForceI18nextLang');
+            return v === null ? true : parseBool(v);
         } catch {
-            return false;
+            return true;
         }
     })();
 
@@ -160,7 +161,7 @@
                     const lng = m[1];
                     const ns = m[2];
                     if (!nsSet.has(ns)) return null;
-                    return joinUrl(TRANSLATIONS_BASE_URL, `locales/${lng}/${ns}.json`);
+                    return joinUrl(TRANSLATIONS_BASE_URL, `zh-Hans/locales/${ns}.json`);
                 };
                 XHR.prototype.open = function (method, url, ...rest) {
                     try {

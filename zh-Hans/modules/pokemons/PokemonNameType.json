@@ -355,7 +355,7 @@
       "line": 100
     },
     "Pikachu (Rock Star)": {
-      "translation": "摇滚巨星[[Pikachu]]",
+      "translation": "硬摇滚[[Pikachu]]",
       "line": 101
     },
     "Pikachu (Belle)": {
@@ -871,7 +871,7 @@
       "line": 229
     },
     "Onix (Rocker)": {
-      "translation": "[[Onix]] (摇滚乐手)",
+      "translation": "[[Onix]] (硬摇滚)",
       "line": 230
     },
     "Drowzee": {
@@ -1899,7 +1899,7 @@
       "line": 486
     },
     "Porygon2": {
-      "translation": "多边兽Ⅱ",
+      "translation": "多边兽2型",
       "line": 487
     },
     "Stantler": {
@@ -2635,11 +2635,11 @@
       "line": 670
     },
     "Meta Groudon": {
-      "translation": "怪物固拉多",
+      "translation": "怪物[[Groudon]]",
       "line": 671
     },
     "Rayquaza": {
-      "translation": "裂空座",
+      "translation": "烈空坐",
       "line": 672
     },
     "Mega Rayquaza": {
@@ -3095,7 +3095,7 @@
       "line": 785
     },
     "Porygon-Z": {
-      "translation": "多边兽Ｚ",
+      "translation": "多边兽乙型",
       "line": 786
     },
     "Gallade": {
@@ -4259,7 +4259,7 @@
       "line": 1076
     },
     "Floette (Eternal)": {
-      "translation": "永恒之花[[Floette]]",
+      "translation": "[[Floette]] 永恒之花",
       "line": 1077
     },
     "Florges (Red)": {

@@ -999,7 +999,7 @@
       "line": 982
     },
     "Meta Groudon": {
-      "translation": "怪物固拉多",
+      "translation": "怪物[[Groudon]]",
       "line": 990
     },
     "<i>Meta Groudon lets out a guttural roar and melts back into the earth!</i>": {
@@ -2259,7 +2259,7 @@
       "line": 2126
     },
     "Destiny Deoxys Rayquaza": {
-      "translation": "命运代欧奇希斯·裂空座",
+      "translation": "命运代欧奇希斯·烈空坐",
       "line": 2134
     },
     "Deoxys": {
@@ -2267,7 +2267,7 @@
       "line": 2137
     },
     "Rayquaza": {
-      "translation": "裂空座",
+      "translation": "烈空坐",
       "line": 2138
     },
     "<i>Rayquaza and Deoxys fled seperate ways.</i>": {
@@ -2307,7 +2307,7 @@
       "line": 2164
     },
     "Destiny Rayquaza": {
-      "translation": "命运裂空座",
+      "translation": "命运烈空坐",
       "line": 2168
     },
     "<i>Rayquaza calmed down.</i>": {
@@ -2847,7 +2847,7 @@
       "line": 2645
     },
     "Zinnia has gone to the top of the Sky Pillar to try to summon Rayquaza. Please, try to help her. This Key Stone may help you.": {
-      "translation": "希嘉娜已经前往天空之柱顶端，试图召唤裂空座。请试着帮助她。这块钥匙石也许能派上用场。",
+      "translation": "希嘉娜已经前往天空之柱顶端，试图召唤烈空坐。请试着帮助她。这块钥匙石也许能派上用场。",
       "line": 2647
     },
     "Wallace": {

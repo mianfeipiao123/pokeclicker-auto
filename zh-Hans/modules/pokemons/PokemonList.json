@@ -459,7 +459,7 @@
       "line": 1709
     },
     "Pikachu (Rock Star)": {
-      "translation": "摇滚巨星[[Pikachu]]",
+      "translation": "硬摇滚[[Pikachu]]",
       "line": 1729
     },
     "Pikachu (Belle)": {
@@ -1035,7 +1035,7 @@
       "line": 4204
     },
     "Onix (Rocker)": {
-      "translation": "[[Onix]] (摇滚乐手)",
+      "translation": "[[Onix]] (硬摇滚)",
       "line": 4208
     },
     "Drowzee": {
@@ -1559,7 +1559,7 @@
       "line": 6311
     },
     "Porygon2": {
-      "translation": "多边兽Ⅱ",
+      "translation": "多边兽2型",
       "line": 6317
     },
     "Omanyte": {
@@ -2203,7 +2203,7 @@
       "line": 9259
     },
     "Porygon-Z": {
-      "translation": "多边兽Ｚ",
+      "translation": "多边兽乙型",
       "line": 9297
     },
     "Upgrade": {
@@ -2999,11 +2999,11 @@
       "line": 12776
     },
     "Meta Groudon": {
-      "translation": "怪物固拉多",
+      "translation": "怪物[[Groudon]]",
       "line": 12811
     },
     "Rayquaza": {
-      "translation": "裂空座",
+      "translation": "烈空坐",
       "line": 12831
     },
     "Mega Rayquaza": {
@@ -4611,7 +4611,7 @@
       "line": 20680
     },
     "Floette (Eternal)": {
-      "translation": "永恒之花[[Floette]]",
+      "translation": "[[Floette]] 永恒之花",
       "line": 20695
     },
     "Skiddo": {

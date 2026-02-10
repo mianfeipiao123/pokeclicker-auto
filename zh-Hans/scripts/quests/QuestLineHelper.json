@@ -963,11 +963,11 @@
       "line": 672
     },
     "Climb the Sky Pillar to find the super-ancient Pokémon Rayquaza.": {
-      "translation": "爬上天空之柱寻找超古代宝可梦裂空座。",
+      "translation": "爬上天空之柱寻找超古代宝可梦烈空坐。",
       "line": 672
     },
     "Return to Sootopolis City to see what Rayquaza will do.": {
-      "translation": "返回琉璃市，看看裂空座会做什么。",
+      "translation": "返回琉璃市，看看烈空坐会做什么。",
       "line": 675
     },
     "Talk to Wallace in the Cave of Origin about the aftermath of the battle.": {
@@ -975,7 +975,7 @@
       "line": 678
     },
     "Rayquaza": {
-      "translation": "裂空座",
+      "translation": "烈空坐",
       "line": 681
     },
     "Kyogre": {
@@ -1341,7 +1341,7 @@
       "line": 951
     },
     "Meta Groudon": {
-      "translation": "怪物固拉多",
+      "translation": "怪物[[Groudon]]",
       "line": 954
     },
     "Butler's attempts to resurrect Groudon have gone terribly wrong! Fight the resulting abomination!": {
@@ -1389,7 +1389,7 @@
       "line": 987
     },
     "Butler has revived Meta Groudon at Mt. Chimney Crater. Catch Meta Groudon.": {
-      "translation": "巴特勒在烟囱火山口复活了机械固拉多。捕捉机械固拉多。",
+      "translation": "巴特勒在烟囱火山口复活了怪物固拉多。捕捉怪物固拉多。",
       "line": 990
     },
     "Shadows in the Desert": {
@@ -2215,11 +2215,11 @@
       "line": 1461
     },
     "Destiny Deoxys Rayquaza": {
-      "translation": "命运代欧奇希斯·裂空座",
+      "translation": "命运代欧奇希斯·烈空坐",
       "line": 1464
     },
     "Rayquaza and Deoxys are rampaging in the area. Try to calm them down.": {
-      "translation": "裂空座和代欧奇希斯正在该地区横行。尝试让它们平静下来。",
+      "translation": "烈空坐和代欧奇希斯正在该地区横行。尝试让它们平静下来。",
       "line": 1464
     },
     "Now that the situation has calmed down talk to the local scientists about the Green Gemstone.": {
@@ -2247,15 +2247,15 @@
       "line": 1484
     },
     "Destiny Rayquaza": {
-      "translation": "命运裂空座",
+      "translation": "命运烈空坐",
       "line": 1487
     },
     "Rayquaza attacks again. Calm it down for the last time.": {
-      "translation": "裂空座再次攻击。最后一次让它冷静下来。",
+      "translation": "烈空坐再次攻击。最后一次让它冷静下来。",
       "line": 1487
     },
     "Rayquaza realized that the Deoxys are no threat. Reunite the Purple and Green Gemmed Deoxys.": {
-      "translation": "裂空座意识到代欧奇希斯并不构成威胁。重新组合紫色与绿色宝石，复原代欧奇希斯。",
+      "translation": "烈空坐意识到代欧奇希斯并不构成威胁。重新组合紫色与绿色宝石，复原代欧奇希斯。",
       "line": 1490
     },
     "Swords of Justice": {
@@ -3257,11 +3257,11 @@
       "line": 2087
     },
     "Mega Evolve Rayquaza.": {
-      "translation": "超级进化裂空座。",
+      "translation": "超级进化烈空坐。",
       "line": 2087
     },
     "Fly Mega Rayquaza into space to destroy the Meteor.": {
-      "translation": "让超级裂空座飞入太空摧毁流星。",
+      "translation": "让超级烈空坐飞入太空摧毁流星。",
       "line": 2093
     },
     "Primal Reversion": {

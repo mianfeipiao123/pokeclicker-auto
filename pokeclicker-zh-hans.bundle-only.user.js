@@ -594,9 +594,13 @@
                     reverseByFirstChar.get(ch).push([zh, en]);
                 }
             }
+            const seen = new Set();
             for (let i = 0; i < s.length; i += 1) {
-                const bucket = reverseByFirstChar.get(s[i]);
+                const ch = s[i];
+                if (seen.has(ch)) continue;
+                const bucket = reverseByFirstChar.get(ch);
                 if (!bucket) continue;
+                seen.add(ch);
                 for (const [zh, en] of bucket) {
                     if (s.includes(zh)) s = s.split(zh).join(en);
                 }

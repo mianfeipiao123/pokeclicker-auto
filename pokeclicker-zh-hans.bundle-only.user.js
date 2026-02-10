@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.57
+// @version      0.1.58
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -76,7 +76,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.57';
+    const SCRIPT_VERSION = '0.1.58';
 
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
@@ -555,6 +555,59 @@
         }
     };
 
+    const WEATHER_TYPE_KEY_PREFIX = 'weatherType::';
+    const WEATHER_TYPE_KEYS = new Set([
+        'Clear',
+        'Overcast',
+        'Rain',
+        'Thunderstorm',
+        'Snow',
+        'Hail',
+        'Blizzard',
+        'Harsh Sunlight',
+        'Sandstorm',
+        'Fog',
+        'Windy',
+    ]);
+
+    const isWeatherTypeTooltipTriggerElement = (element) => {
+        try {
+            if (!element || element.nodeType !== Node.ELEMENT_NODE) return false;
+            if (element.classList?.contains('btn-weather-dock')) return true;
+            if (element.closest?.('#weatherAppModal')) return true;
+            const bind = element.getAttribute?.('data-bind') || '';
+            return /\bWeatherType\s*\[/.test(bind);
+        } catch {
+            return false;
+        }
+    };
+
+    const findBootstrapTooltipTriggerElement = (textNode) => {
+        try {
+            const el = textNode?.parentElement;
+            const tooltip = el?.closest?.('.tooltip');
+            const id = tooltip?.getAttribute?.('id') || '';
+            if (!id) return null;
+            const safe = id.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+            return document.querySelector?.(`[aria-describedby="${safe}"]`) || null;
+        } catch {
+            return null;
+        }
+    };
+
+    const isWeatherTypeContextTextNode = (textNode) => {
+        try {
+            const el = textNode?.parentElement;
+            if (!el) return false;
+            if (el.closest?.('#weatherAppModal')) return true;
+            if (el.closest?.('#ShipModal')) return true;
+            const trigger = findBootstrapTooltipTriggerElement(textNode);
+            return isWeatherTypeTooltipTriggerElement(trigger);
+        } catch {
+            return false;
+        }
+    };
+
     const LATIN_RE = /[A-Za-zÉé]/;
 
     /** @type {WeakMap<Node, string>} */
@@ -776,6 +829,19 @@
 
         if (key === 'a' || key === 'an') {
             return '';
+        }
+
+        // Weather enums are displayed via `humanifyString(WeatherType[...])`, which can collide with badges
+        // (e.g. Rain/Fog). Prefer `weatherType::...` when available.
+        try {
+            if (WEATHER_TYPE_KEYS.has(key)) {
+                const v = map?.[`${WEATHER_TYPE_KEY_PREFIX}${key}`];
+                if (typeof v === 'string' && v) {
+                    return finalizeTranslation(v, map);
+                }
+            }
+        } catch {
+            // ignore
         }
 
         // Type-restricted phrases are constructed dynamically, e.g. "an Electric-type Pokémon".
@@ -1166,7 +1232,21 @@
                 }
 
                 if (!LATIN_RE.test(raw)) continue;
-                const translated = translateSegmentsFallback(raw, map, patterns, cache);
+                let translated = null;
+                try {
+                    const { leading, core, trailing } = splitOuterWhitespace(raw);
+                    const key = normalizeText(core);
+                    if (key && WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(el)) {
+                        const resolved = resolveTranslation(`${WEATHER_TYPE_KEY_PREFIX}${key}`, map, patterns);
+                        if (resolved) translated = `${leading}${resolved}${trailing}`;
+                    }
+                } catch {
+                    // ignore
+                }
+
+                if (!translated) {
+                    translated = translateSegmentsFallback(raw, map, patterns, cache);
+                }
                 if (translated) {
                     el.setAttribute(attr, translated);
                     attrCache.set(el, translated);
@@ -1240,8 +1320,17 @@
             // ignore
         }
 
-        if (cache.has(key)) {
-            const cached = cache.get(key);
+        let lookupKey = key;
+        try {
+            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeContextTextNode(textNode)) {
+                lookupKey = `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+            }
+        } catch {
+            // ignore
+        }
+
+        if (cache.has(lookupKey)) {
+            const cached = cache.get(lookupKey);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
                 if (out !== raw) {
@@ -1252,12 +1341,12 @@
             }
         }
 
-        if (!cache.has(key)) {
-            const resolved = resolveTranslation(key, map, patterns);
-            cache.set(key, resolved ?? '');
+        if (!cache.has(lookupKey)) {
+            const resolved = resolveTranslation(lookupKey, map, patterns);
+            cache.set(lookupKey, resolved ?? '');
         }
 
-        const cached = cache.get(key);
+        const cached = cache.get(lookupKey);
         if (cached) {
             const out = `${leading}${cached}${trailing}`;
             if (out !== raw) {
@@ -1322,7 +1411,7 @@
             return;
         }
 
-        recordMissing(key);
+        recordMissing(lookupKey);
     };
 
     const applyMapToRoot = (root, map, patterns, cache) => {

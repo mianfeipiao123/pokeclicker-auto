@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.57
+// @version      0.1.58
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -77,7 +77,7 @@
         setTimeout(() => clearInterval(interval), 10000);
     }
 
-    const SCRIPT_VERSION = '0.1.57';
+    const SCRIPT_VERSION = '0.1.58';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -419,6 +419,59 @@
         }
     };
 
+    const WEATHER_TYPE_KEY_PREFIX = 'weatherType::';
+    const WEATHER_TYPE_KEYS = new Set([
+        'Clear',
+        'Overcast',
+        'Rain',
+        'Thunderstorm',
+        'Snow',
+        'Hail',
+        'Blizzard',
+        'Harsh Sunlight',
+        'Sandstorm',
+        'Fog',
+        'Windy',
+    ]);
+
+    const isWeatherTypeTooltipTriggerElement = (element) => {
+        try {
+            if (!element || element.nodeType !== Node.ELEMENT_NODE) return false;
+            if (element.classList?.contains('btn-weather-dock')) return true;
+            if (element.closest?.('#weatherAppModal')) return true;
+            const bind = element.getAttribute?.('data-bind') || '';
+            return /\bWeatherType\s*\[/.test(bind);
+        } catch {
+            return false;
+        }
+    };
+
+    const findBootstrapTooltipTriggerElement = (textNode) => {
+        try {
+            const el = textNode?.parentElement;
+            const tooltip = el?.closest?.('.tooltip');
+            const id = tooltip?.getAttribute?.('id') || '';
+            if (!id) return null;
+            const safe = id.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+            return document.querySelector?.(`[aria-describedby="${safe}"]`) || null;
+        } catch {
+            return null;
+        }
+    };
+
+    const isWeatherTypeContextTextNode = (textNode) => {
+        try {
+            const el = textNode?.parentElement;
+            if (!el) return false;
+            if (el.closest?.('#weatherAppModal')) return true;
+            if (el.closest?.('#ShipModal')) return true;
+            const trigger = findBootstrapTooltipTriggerElement(textNode);
+            return isWeatherTypeTooltipTriggerElement(trigger);
+        } catch {
+            return false;
+        }
+    };
+
     // Force i18next language early
     try {
         localStorage.setItem('i18nextLng', FORCE_LANG);
@@ -659,6 +712,19 @@
 
         if (key === 'a' || key === 'an') {
             return '';
+        }
+
+        // Weather enums are displayed via `humanifyString(WeatherType[...])`, which can collide with badges
+        // (e.g. Rain/Fog). Prefer `weatherType::...` when available.
+        try {
+            if (WEATHER_TYPE_KEYS.has(key)) {
+                const v = map?.[`${WEATHER_TYPE_KEY_PREFIX}${key}`];
+                if (typeof v === 'string' && v) {
+                    return finalizeTranslation(v, map);
+                }
+            }
+        } catch {
+            // ignore
         }
 
         // Type-restricted phrases are constructed dynamically, e.g. "an Electric-type Pokémon".
@@ -1081,8 +1147,17 @@
             // ignore
         }
 
-        if (cache.has(key)) {
-            const cached = cache.get(key);
+        let lookupKey = key;
+        try {
+            if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeContextTextNode(textNode)) {
+                lookupKey = `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+            }
+        } catch {
+            // ignore
+        }
+
+        if (cache.has(lookupKey)) {
+            const cached = cache.get(lookupKey);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
                 if (out !== raw) textNode.nodeValue = out;
@@ -1090,12 +1165,12 @@
             }
         }
 
-        if (!cache.has(key)) {
-            const resolved = resolveTranslation(key, map, patterns);
-            cache.set(key, resolved ?? '');
+        if (!cache.has(lookupKey)) {
+            const resolved = resolveTranslation(lookupKey, map, patterns);
+            cache.set(lookupKey, resolved ?? '');
         }
 
-        const cached = cache.get(key);
+        const cached = cache.get(lookupKey);
         if (cached) {
             const out = `${leading}${cached}${trailing}`;
             if (out !== raw) textNode.nodeValue = out;
@@ -1140,7 +1215,7 @@
 
             if (changed) {
                 const newCore = parts.join('');
-                cache.set(key, newCore);
+                cache.set(lookupKey, newCore);
                 const out = `${leading}${newCore}${trailing}`;
                 if (out !== raw) textNode.nodeValue = out;
                 return;
@@ -1149,13 +1224,13 @@
 
         const segOut = translateSegmentsFallback(core, map, patterns, cache);
         if (segOut) {
-            cache.set(key, segOut);
+            cache.set(lookupKey, segOut);
             const out = `${leading}${segOut}${trailing}`;
             if (out !== raw) textNode.nodeValue = out;
             return;
         }
 
-        recordMissing(key);
+        recordMissing(lookupKey);
     };
 
     const applyMapToElementAttributes = (element, map, patterns, cache) => {
@@ -1194,9 +1269,17 @@
             const key = normalizeText(core);
             if (!key) continue;
             const useMap = shouldUseHardcodedMap(key);
+            let lookupKey = key;
+            try {
+                if (WEATHER_TYPE_KEYS.has(key) && isWeatherTypeTooltipTriggerElement(element)) {
+                    lookupKey = `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+                }
+            } catch {
+                // ignore
+            }
 
-            if (cache.has(key)) {
-                const cached = cache.get(key);
+            if (cache.has(lookupKey)) {
+                const cached = cache.get(lookupKey);
                 if (cached) {
                     const out = `${leading}${cached}${trailing}`;
                     if (out !== raw) element.setAttribute(attr, out);
@@ -1204,12 +1287,12 @@
                 }
             }
 
-            if (!cache.has(key)) {
-                const resolved = resolveTranslation(key, map, patterns);
-                cache.set(key, resolved ?? '');
+            if (!cache.has(lookupKey)) {
+                const resolved = resolveTranslation(lookupKey, map, patterns);
+                cache.set(lookupKey, resolved ?? '');
             }
 
-            const cached = cache.get(key);
+            const cached = cache.get(lookupKey);
             if (cached) {
                 const out = `${leading}${cached}${trailing}`;
                 if (out !== raw) element.setAttribute(attr, out);
@@ -1218,13 +1301,13 @@
 
             const segOut = translateSegmentsFallback(core, map, patterns, cache);
             if (segOut) {
-                cache.set(key, segOut);
+                cache.set(lookupKey, segOut);
                 const out = `${leading}${segOut}${trailing}`;
                 if (out !== raw) element.setAttribute(attr, out);
                 continue;
             }
 
-            if (useMap) recordMissing(key);
+            if (useMap) recordMissing(lookupKey);
         }
     };
 

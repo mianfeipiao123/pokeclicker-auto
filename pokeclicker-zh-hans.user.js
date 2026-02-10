@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.64
+// @version      0.1.65
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -70,14 +70,17 @@
         }
         return false;
     };
-    if (!hookNotifier()) {
-        const interval = setInterval(() => {
-            if (hookNotifier()) clearInterval(interval);
-        }, 50);
-        setTimeout(() => clearInterval(interval), 10000);
-    }
+    const pollUntil = (fn, intervalMs = 200, timeoutMs = 15000) => {
+        if (fn()) return;
+        const id = setInterval(() => {
+            if (fn()) clearInterval(id);
+        }, intervalMs);
+        setTimeout(() => clearInterval(id), timeoutMs);
+    };
 
-    const SCRIPT_VERSION = '0.1.64';
+    pollUntil(hookNotifier, 50, 10000);
+
+    const SCRIPT_VERSION = '0.1.65';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -309,6 +312,13 @@
         DEBUG = false;
     }
 
+    const log = {
+        info: (...args) => { if (DEBUG) console.info('[PokéClicker zh-Hans]', ...args); },
+        warn: (...args) => { if (DEBUG) console.warn('[PokéClicker zh-Hans]', ...args); },
+        error: (...args) => console.error('[PokéClicker zh-Hans]', ...args),
+        swallow: (context, err) => { if (DEBUG) console.debug('[PokéClicker zh-Hans]', context, err); },
+    };
+
     const missingSet = new Set();
     const recordMissing = (key) => {
         if (!DEBUG) return;
@@ -513,6 +523,9 @@
             .replace(/\s+/g, ' ')
             .trim();
 
+    const CJK_PUNCT_MAP = { '\u00A0': ' ', '，': ',', '。': '.', '：': ':', '；': ';' };
+    const CJK_PUNCT_RE = /[\u00A0，。：；]/g;
+
     const normalizeForLookup = (text) => {
         let s = String(text ?? '');
         try {
@@ -520,12 +533,7 @@
         } catch {
             // ignore
         }
-        s = s
-            .replace(/\u00A0/g, ' ')
-            .replace(/，/g, ',')
-            .replace(/。/g, '.')
-            .replace(/：/g, ':')
-            .replace(/；/g, ';');
+        s = s.replace(CJK_PUNCT_RE, (ch) => CJK_PUNCT_MAP[ch]);
         s = s.replace(/\s*,\s*/g, ', ');
         return normalizeText(s);
     };
@@ -538,8 +546,8 @@
             // Dashes/minus → ASCII hyphen
             .replace(/[\u2013\u2014\u2212]/g, '-');
 
-    /** @type {Set<string> | null} */
-    let demixFirstChars = null;
+    /** @type {Map<string, Array<[string,string]>> | null} */
+    let reverseByFirstChar = null;
 
     const demixForLookup = (text) => {
         let s = normalizeForLookup(text);
@@ -554,21 +562,19 @@
         }
 
         if (reversePokemonTranslations.length) {
-            // Quick pre-check: only enter the expensive loop if the string contains
-            // at least one first-character of a known Chinese Pokémon name.
-            if (!demixFirstChars) {
-                demixFirstChars = new Set();
-                for (const [zh] of reversePokemonTranslations) {
-                    if (zh) demixFirstChars.add(zh[0]);
-                }
-            }
-            let hasCandidate = false;
-            for (let i = 0; i < s.length; i += 1) {
-                if (demixFirstChars.has(s[i])) { hasCandidate = true; break; }
-            }
-            if (hasCandidate) {
+            if (!reverseByFirstChar) {
+                reverseByFirstChar = new Map();
                 for (const [zh, en] of reversePokemonTranslations) {
                     if (!zh || !en) continue;
+                    const ch = zh[0];
+                    if (!reverseByFirstChar.has(ch)) reverseByFirstChar.set(ch, []);
+                    reverseByFirstChar.get(ch).push([zh, en]);
+                }
+            }
+            for (let i = 0; i < s.length; i += 1) {
+                const bucket = reverseByFirstChar.get(s[i]);
+                if (!bucket) continue;
+                for (const [zh, en] of bucket) {
                     if (s.includes(zh)) s = s.split(zh).join(en);
                 }
             }
@@ -888,8 +894,7 @@
             try {
                 const json = await fetchJsonWithTimeout(url, init, timeoutMs);
                 if (DEBUG && url !== urls[0]) {
-                    // eslint-disable-next-line no-console
-                    console.info('[PokéClicker zh-Hans] Loaded from fallback:', url);
+                    log.info('Loaded from fallback:', url);
                 }
                 return json;
             } catch (e) {
@@ -1085,14 +1090,15 @@
             return finalizeTranslation(pokemon, map);
         }
 
-        const mapped = shouldUseHardcodedMap(key) ? map?.[key] : undefined;
+        const useMap = shouldUseHardcodedMap(key);
+        const mapped = useMap ? map?.[key] : undefined;
         if (typeof mapped === 'string' && !mapped.includes('${...}')) {
             return finalizeTranslation(mapped, map);
         }
 
         // Dynamic enum names often appear humanified (spaces instead of underscores), e.g. "Spike Shell".
         // Try lookup variants against the loaded map (which contains enum keys like "Spike_Shell").
-        if (shouldUseHardcodedMap(key) && (key.includes(' ') || key.includes('-'))) {
+        if (useMap && (key.includes(' ') || key.includes('-'))) {
             const candidates = [];
             const underscored = key.replace(/\s+/g, '_');
             candidates.push(underscored);
@@ -1256,7 +1262,8 @@
             }
         }
 
-        const useMap = candidates.some((k) => shouldUseHardcodedMap(k));
+        const useMapFlags = candidates.map((k) => shouldUseHardcodedMap(k));
+        const useMap = useMapFlags.some(Boolean);
         if (!useMap) return null;
 
         for (const k of candidates) {
@@ -1268,8 +1275,9 @@
 
         // Humanified enum names often appear in DOM text (spaces instead of underscores), e.g. "Melemele Stamp".
         // Try lookup variants against the loaded map (which contains enum keys like "Melemele_Stamp").
-        for (const k of candidates) {
-            if (!shouldUseHardcodedMap(k)) continue;
+        for (let i = 0; i < candidates.length; i += 1) {
+            if (!useMapFlags[i]) continue;
+            const k = candidates[i];
             if (!/[\s-]/.test(k)) continue;
             const variants = new Set();
             variants.add(k.replace(/\s+/g, '_'));
@@ -1711,8 +1719,7 @@
 
     const start = async () => {
         if (DEBUG) {
-            // eslint-disable-next-line no-console
-            console.info('[PokéClicker zh-Hans]', window.PokeClickerZhHans.getConfig());
+            log.info(window.PokeClickerZhHans.getConfig());
         }
 
         const config = await loadUserscriptConfig();
@@ -1790,8 +1797,7 @@
                 if (json) {
                     loadedFromCache = true;
                     if (DEBUG) {
-                        // eslint-disable-next-line no-console
-                        console.info('[PokéClicker zh-Hans] Loaded bundle from cache:', json?._meta ?? null);
+                        log.info('Loaded bundle from cache:', json?._meta ?? null);
                     }
                 } else {
                     json = await fetchJsonWithFallback(
@@ -1805,8 +1811,7 @@
                 count += ingestEntriesToMap(json?.entries);
                 count += ingestEntriesToMap(json?.entriesCaseSensitive);
                 if (DEBUG) {
-                    // eslint-disable-next-line no-console
-                    console.info('[PokéClicker zh-Hans] Loaded bundle:', count, 'entries');
+                    log.info('Loaded bundle:', count, 'entries');
                 }
 
                 // Best-effort cache update
@@ -1847,8 +1852,7 @@
                             }
                         } catch (e) {
                             if (DEBUG) {
-                                // eslint-disable-next-line no-console
-                                console.warn('[PokéClicker zh-Hans] Background bundle refresh failed:', e);
+                                log.warn('Background bundle refresh failed:', e);
                             }
                         }
                     });
@@ -1890,15 +1894,14 @@
                         ingestEntriesToMap(data?.entriesCaseSensitive);
                     }
                     if (DEBUG) {
-                        // eslint-disable-next-line no-console
-                        console.info('[PokéClicker zh-Hans] Loaded split translations:', files.length, 'files,', Object.keys(map).length, 'entries');
+                        log.info('Loaded split translations:', files.length, 'files,', Object.keys(map).length, 'entries');
                     }
                 } catch {
-                    console.error('[PokéClicker zh-Hans] Failed to load translations index.');
+                    log.error('Failed to load translations index.');
                 }
             }
         } catch (e) {
-            console.error('[PokéClicker zh-Hans] Failed to load translation resources:', e);
+            log.error('Failed to load translation resources:', e);
         }
 
         // Build a safe case-insensitive index for translation lookups.
@@ -2084,12 +2087,7 @@
                 return false;
             }
         };
-        if (!tryPatchKoTooltipBinding()) {
-            const interval = setInterval(() => {
-                if (tryPatchKoTooltipBinding()) clearInterval(interval);
-            }, 200);
-            setTimeout(() => clearInterval(interval), 15000);
-        }
+        pollUntil(tryPatchKoTooltipBinding);
 
         // Patch Bootstrap's tooltip title getter so already-initialized tooltips also show Chinese.
         const tryPatchBootstrapTooltip = () => {
@@ -2137,16 +2135,10 @@
                 return false;
             }
         };
-        if (!tryPatchBootstrapTooltip()) {
-            const interval = setInterval(() => {
-                if (tryPatchBootstrapTooltip()) clearInterval(interval);
-            }, 200);
-            setTimeout(() => clearInterval(interval), 15000);
-        }
+        pollUntil(tryPatchBootstrapTooltip);
 
         if (DEBUG) {
-            // eslint-disable-next-line no-console
-            console.info('[PokéClicker zh-Hans] bundle meta:', bundleMeta);
+            log.info('bundle meta:', bundleMeta);
         }
 
         const tryPatchSpecialEvents = () => {
@@ -2163,12 +2155,7 @@
                 return false;
             }
         };
-        if (!tryPatchSpecialEvents()) {
-            const interval = setInterval(() => {
-                if (tryPatchSpecialEvents()) clearInterval(interval);
-            }, 200);
-            setTimeout(() => clearInterval(interval), 15000);
-        }
+        pollUntil(tryPatchSpecialEvents);
 
         applyMapToRoot(document.documentElement, map, patterns, cache);
 

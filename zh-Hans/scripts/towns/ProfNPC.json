@@ -10,13 +10,29 @@
       "translation": "${...} 大师",
       "line": 17
     },
+    "Hello, new Champion, you've come a long way!": {
+      "translation": "你好，新任冠军，你一路走来辛苦了！",
+      "line": 21
+    },
+    "Come see me once you've beat the Elite Four!": {
+      "translation": "等你击败四天王后再来找我吧！",
+      "line": 22
+    },
     "<p>${...}</p>": {
       "translation": "",
       "line": 28
     },
+    "To progress to the next region, you need to catch all Pokémon native to this region.": {
+      "translation": "要前往下一个地区，你需要捕获本地区原生的全部宝可梦。",
+      "line": 31
+    },
     "<p>To progress to the next region, you need to catch all Pokémon native to this region.</p>": {
       "translation": "",
       "line": 31
+    },
+    "You still have ${...} left to catch in this region! You're almost there!": {
+      "translation": "你在本地区还差${...}只宝可梦没捕获！就快完成了！",
+      "line": 33
     },
     "<p>You still have ${...} left to catch in this region! You're almost there!</p>": {
       "translation": "",

@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generatedAt": "2026-02-10T16:00:00.000Z",
+    "generatedAt": "2026-02-10T18:00:00.000Z",
     "sourceIndexVersion": "2.0.0",
     "fileCount": 421,
     "entryCount": 15150,
@@ -61,6 +61,7 @@
     "${...} ${...} need to be obtained.": "需要获取${...} ${...}。",
     "${...} ${...}-type Pokémon": "${...}${...}属性宝可梦",
     "${...} / ${...} s": "${...} / ${...} 秒",
+    "${...} - ${...} (${...})": "${...} - ${...}（${...}）",
     "${...} <i>\"${...}\" added to the Quest List!</i>": "${...}\n<i>\"${...}\"已添加到任务列表！</i>",
     "${...} <strong>Start time:</strong> ${...} <strong>End time:</strong> ${...}": "${...} <strong>开始时间：</strong> ${...} <strong>结束时间：</strong> ${...}",
     "${...} Ace": "${...} 王牌",

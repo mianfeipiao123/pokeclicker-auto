@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.66
+// @version      0.1.68
 // @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -20,6 +20,11 @@
 (() => {
     'use strict';
 
+    // ═══════════════════════════════════════════════
+    // 1. 配置与常量 (Configuration & Constants)
+    // ═══════════════════════════════════════════════
+
+    // 拦截 Notifier.notify，用于替换"翻译资源已加载"的提示（文案从外置配置加载）
     let notifierLoadedMessage = 'Translations loaded.';
     /** @type {null | ((s: string) => string | null)} */
     let translateForNotifier = null;
@@ -79,8 +84,16 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.66';
+    const SCRIPT_VERSION = '0.1.68';
 
+    // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
+    // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。
+    const ENABLE_SPLIT_TRANSLATIONS_FALLBACK = false;
+
+    // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
+    // You can override this per-browser via:
+    // `localStorage.setItem('pokeclickerZhHansTranslations', 'github:...')`
+    // or a custom URL base that hosts `/locales` and `/hardcoded`.
     const DEFAULT_TRANSLATIONS_PARAM_VALUE = 'github:mianfeipiao123/pokeclicker-auto/main';
     let TRANSLATIONS_PARAM_VALUE = DEFAULT_TRANSLATIONS_PARAM_VALUE;
     try {
@@ -127,8 +140,6 @@
             return true;
         }
     })();
-
-    const BUNDLE_URL = `${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/bundle.json`;
 
     const uniqueStrings = (arr) => Array.from(new Set((arr ?? []).filter((v) => typeof v === 'string' && v)));
     const joinUrl = (base, path) => {
@@ -212,13 +223,12 @@
         return null;
     })();
 
-    const BUNDLE_URL_CANDIDATES = (() => {
-        const urls = [BUNDLE_URL];
-        if (typeof JSDELIVR_BASE_URL === 'string' && JSDELIVR_BASE_URL) {
-            urls.push(joinUrl(JSDELIVR_BASE_URL, `${FORCE_LANG}/bundle.json`));
-        }
-        return uniqueStrings(urls);
-    })();
+    const TRANSLATIONS_BASE_URL_CANDIDATES = uniqueStrings([TRANSLATIONS_BASE_URL, JSDELIVR_BASE_URL]);
+    const buildUrlCandidates = (relPath) => TRANSLATIONS_BASE_URL_CANDIDATES.map((base) => joinUrl(base, relPath));
+
+    // ═══════════════════════════════════════════════
+    // 2. 网络与缓存 (Network & Cache)
+    // ═══════════════════════════════════════════════
 
     const DEFAULT_FETCH_TIMEOUT_MS = 5000;
     const parseTimeoutMs = (value) => {
@@ -281,6 +291,7 @@
         }
     };
 
+    // Keep script logic generic
     const INLINE_OVERRIDES = {};
 
     /** @type {Record<string,string>} */
@@ -329,7 +340,8 @@
         // eslint-disable-next-line no-console
         console.warn('[PokéClicker zh-Hans missing]', key);
     };
-
+    // Quick way to export missing strings from console.
+    // Example: `copy(PokeClickerZhHans.dumpMissing().join('\\n'))`
     // eslint-disable-next-line no-undef
     window.PokeClickerZhHans = {
         dumpMissing: () => Array.from(missingSet).sort((a, b) => a.localeCompare(b)),
@@ -338,17 +350,16 @@
             forceLang: FORCE_LANG,
             overrideGameTranslations: OVERRIDE_GAME_TRANSLATIONS,
             forceI18nextLang: FORCE_I18NEXT_LANG,
+            splitFallbackEnabled: ENABLE_SPLIT_TRANSLATIONS_FALLBACK,
             translations: TRANSLATIONS_PARAM_VALUE,
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
-            bundleUrl: BUNDLE_URL,
-            bundleUrlCandidates: BUNDLE_URL_CANDIDATES,
+            translationsBaseUrlCandidates: TRANSLATIONS_BASE_URL_CANDIDATES,
             fetchTimeoutRawMs: RAW_FETCH_TIMEOUT_MS,
             fetchTimeoutFallbackMs: FALLBACK_FETCH_TIMEOUT_MS,
         }),
     };
 
     // Cache bundle.json in IndexedDB for faster startup + offline fallback.
-    // We prefer cache-first, and refresh in the background when possible.
     const BUNDLE_CACHE = (() => {
         const DB_NAME = 'pokeclicker-zh-hans';
         const STORE_NAME = 'bundle-cache';
@@ -417,7 +428,8 @@
         return { get, put };
     })();
 
-    const BUNDLE_CACHE_META_KEY = `pokeclickerZhHansBundleMeta:${BUNDLE_URL}`;
+    const BUNDLE_CACHE_KEY = `bundle:${TRANSLATIONS_BASE_URL}/${FORCE_LANG}/bundle.json`;
+    const BUNDLE_CACHE_META_KEY = `pokeclickerZhHansBundleMeta:${BUNDLE_CACHE_KEY}`;
     const getCachedBundleMeta = () => {
         try {
             const raw = localStorage.getItem(BUNDLE_CACHE_META_KEY);
@@ -448,6 +460,7 @@
             h ^= s.charCodeAt(i);
             h = Math.imul(h, 0x01000193);
         }
+        // unsigned 32-bit hex
         return (h >>> 0).toString(16).padStart(8, '0');
     };
 
@@ -462,8 +475,9 @@
 
     const loadBundleFromCache = async () => {
         try {
-            const rec = await BUNDLE_CACHE.get(BUNDLE_URL);
+            const rec = await BUNDLE_CACHE.get(BUNDLE_CACHE_KEY);
             if (!rec?.bundle || typeof rec.bundle !== 'object') return null;
+            // Invalidate cache automatically when the script updates.
             if (typeof rec.scriptVersion === 'string' && rec.scriptVersion && rec.scriptVersion !== SCRIPT_VERSION) {
                 return null;
             }
@@ -490,6 +504,7 @@
                 return getCachedBundleMeta();
             })();
 
+            // Skip write when bundle has not changed (even if generatedAt stays the same).
             if (prevMeta
                 && (prevMeta.scriptVersion === null || prevMeta.scriptVersion === SCRIPT_VERSION)
                 && typeof generatedAt === 'string'
@@ -502,8 +517,7 @@
             }
 
             const ok = await BUNDLE_CACHE.put({
-                key: BUNDLE_URL,
-                url: BUNDLE_URL,
+                key: BUNDLE_CACHE_KEY,
                 savedAt: Date.now(),
                 generatedAt: typeof generatedAt === 'string' ? generatedAt : null,
                 contentHash: typeof contentHash === 'string' ? contentHash : null,
@@ -524,22 +538,9 @@
         return { changed: false, generatedAt: null, contentHash: null };
     };
 
-    const notifyInfo = (title, message) => {
-        try {
-            if (window.Notifier?.notify) {
-                window.Notifier.notify({
-                    title: String(title ?? ''),
-                    message: String(message ?? ''),
-                    timeout: 7000,
-                });
-                return;
-            }
-        } catch {
-            // ignore
-        }
-        // eslint-disable-next-line no-console
-        console.info('[PokéClicker zh-Hans]', title, message);
-    };
+    // ═══════════════════════════════════════════════
+    // 3. CSS 覆盖 (CSS Overrides)
+    // ═══════════════════════════════════════════════
 
     const escapeCssContent = (s) =>
         String(s ?? '')
@@ -559,11 +560,6 @@
   #middle-sort-column:empty::after,
   #right-column:empty::after {
     content: '${dragModules}' !important;
-    font-size: 16px !important;
-    color: #888 !important;
-    display: block !important;
-    padding: 10px !important;
-    text-align: center !important;
   }
 }
 
@@ -574,14 +570,15 @@
   content: '${badgeSuffix}' !important;
 }
 
-.pokemon-gender-male::after {
+.gender-toggle.toggler-wrapper .toggler-knob::after {
   content: '${genderMale}' !important;
 }
-.pokemon-gender-female::after {
+
+.gender-toggle.toggler-wrapper.style-1 input[type="checkbox"]:checked + .toggler-slider .toggler-knob::after {
   content: '${genderFemale}' !important;
 }
 
-#pokedexModal .pokedexEntry:hover .pokedexAttack::before {
+.pokedexEntry span.attack::before {
   content: '${pokedexAttackPrefix}' !important;
 }
 `;
@@ -602,6 +599,15 @@
         }
     };
 
+    // ═══════════════════════════════════════════════
+    // 4. 文本规范化与查找工具 (Text Normalization & Lookup Utilities)
+    // ═══════════════════════════════════════════════
+
+    /**
+     * Normalize whitespace: collapse runs, trim, and replace NBSP.
+     * @param {*} text - Input text (coerced to string).
+     * @returns {string} Cleaned text.
+     */
     const normalizeText = (text) =>
         String(text ?? '')
             .replace(/\u00A0/g, ' ')
@@ -611,8 +617,20 @@
     const CJK_PUNCT_MAP = { '\u00A0': ' ', '，': ',', '。': '.', '：': ':', '；': ';' };
     const CJK_PUNCT_RE = /[\u00A0，。：；]/g;
 
+    /**
+     * Normalize text for translation map lookup: NFC normalization, CJK punctuation
+     * mapping, and whitespace cleanup. Results are cached (up to 10,000 entries).
+     * @param {*} text - Input text (coerced to string).
+     * @returns {string} Normalized lookup key.
+     */
+    const _normCache = new Map();
+    const _NORM_CACHE_LIMIT = 10000;
     const normalizeForLookup = (text) => {
-        let s = String(text ?? '');
+        const input = String(text ?? '');
+        const cached = _normCache.get(input);
+        if (cached !== undefined) return cached;
+
+        let s = input;
         try {
             s = s.normalize('NFC');
         } catch {
@@ -620,7 +638,20 @@
         }
         s = s.replace(CJK_PUNCT_RE, (ch) => CJK_PUNCT_MAP[ch]);
         s = s.replace(/\s*,\s*/g, ', ');
-        return normalizeText(s);
+        const result = normalizeText(s);
+
+        if (_normCache.size >= _NORM_CACHE_LIMIT) {
+            // Evict oldest 25% to amortize cost.
+            const evictCount = Math.floor(_NORM_CACHE_LIMIT * 0.25);
+            let removed = 0;
+            for (const k of _normCache.keys()) {
+                if (removed >= evictCount) break;
+                _normCache.delete(k);
+                removed++;
+            }
+        }
+        _normCache.set(input, result);
+        return result;
     };
 
     const foldPunctuationForLookup = (text) =>
@@ -683,10 +714,24 @@
         };
     };
 
+    /**
+     * Determine whether to apply hardcoded map translations to a string.
+     * Returns true only when the text contains >=2 Latin characters and
+     * the Latin count >= CJK count (i.e. likely untranslated English).
+     * Uses fast charCode iteration instead of regex allocation.
+     * @param {*} text - Input text (coerced to string).
+     * @returns {boolean}
+     */
     const shouldUseHardcodedMap = (text) => {
         const s = String(text ?? '');
-        const latinCount = (s.match(/[A-Za-z]/g) || []).length;
-        const hanCount = (s.match(/[\u4E00-\u9FFF]/g) || []).length;
+        let latinCount = 0, hanCount = 0;
+        for (let i = 0; i < s.length; i++) {
+            const c = s.charCodeAt(i);
+            if ((c >= 0x41 && c <= 0x5A) || (c >= 0x61 && c <= 0x7A)) latinCount++;
+            else if (c >= 0x4E00 && c <= 0x9FFF) hanCount++;
+        }
+        // Only apply the hardcoded map to strings that are mostly Latin-script (i.e. likely untranslated English).
+        // This prevents bad map entries from rewriting already-translated Chinese Pokémon names.
         return latinCount >= 2 && latinCount >= hanCount;
     };
 
@@ -804,26 +849,7 @@
         }
     };
 
-    const LATIN_RE = /[A-Za-zÉé]/;
-
-    /** @type {WeakMap<Node, string>} */
-    const processedTextNodeValues = new WeakMap();
-
-    /** @type {Record<string, WeakMap<Element, string>>} */
-    const processedAttrValues = {};
-
-    const getWeatherTypeLookupKey = (key, context) => {
-        try {
-            if (typeof key !== 'string' || !key) return key;
-            if (!WEATHER_TYPE_KEYS.has(key)) return key;
-            if (context?.textNode && isWeatherTypeContextTextNode(context.textNode)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
-            if (context?.element && isWeatherTypeTooltipTriggerElement(context.element)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
-        } catch {
-            // ignore
-        }
-        return key;
-    };
-
+    // Optional: force i18next language early
     if (FORCE_I18NEXT_LANG) {
         try {
             localStorage.setItem('i18nextLng', FORCE_LANG);
@@ -919,6 +945,29 @@
 
     const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content', 'data-intro'];
     const ATTR_SELECTOR = attrNames.map((a) => `[${a}]`).join(',');
+    const LATIN_RE = /[A-Za-zÉé]/;
+    const ENGLISH_RUN_RE = /[A-Za-zÉé][A-Za-z0-9Éé\s,.%"''!?():/\\-]*/g;
+
+    /** @type {WeakMap<Node, string>} */
+    const processedTextNodeValues = new WeakMap();
+    /** @type {Record<string, WeakMap<Element, string>>} */
+    const processedAttrValues = {};
+
+    const getWeatherTypeLookupKey = (key, context) => {
+        try {
+            if (typeof key !== 'string' || !key) return key;
+            if (!WEATHER_TYPE_KEYS.has(key)) return key;
+            if (context?.textNode && isWeatherTypeContextTextNode(context.textNode)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+            if (context?.element && isWeatherTypeTooltipTriggerElement(context.element)) return `${WEATHER_TYPE_KEY_PREFIX}${key}`;
+        } catch {
+            // ignore
+        }
+        return key;
+    };
+
+    // ═══════════════════════════════════════════════
+    // 5. 翻译解析引擎 (Translation Resolution Engine)
+    // ═══════════════════════════════════════════════
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
@@ -974,84 +1023,109 @@
         'Fairy',
     ];
 
-    const loadUserscriptConfigFromBundle = (bundle) => {
-        const json = bundle?.userscriptConfig;
-        const entries = json?.entries ?? {};
-        const getEntry = (k) => {
-            const v = entries?.[k];
-            if (typeof v === 'string') return v;
-            if (v && typeof v === 'object' && typeof v.translation === 'string') return v.translation;
-            return null;
-        };
-
-        const parseDemixReplacements = (raw) => {
-            const out = [];
-            if (typeof raw !== 'string' || !raw.trim()) return out;
-            const lines = raw.split(/\r?\n/);
-            for (const line of lines) {
-                if (!line || !line.trim()) continue;
-                const idx = line.indexOf('=');
-                if (idx <= 0) continue;
-                const from = line.slice(0, idx).trim();
-                const to = line.slice(idx + 1);
-                if (!from) continue;
-                out.push([from, to]);
+    const fetchJsonWithFallback = async (urls, init) => {
+        let lastError = null;
+        for (let i = 0; i < urls.length; i += 1) {
+            const url = urls[i];
+            const timeoutMs = i === 0 ? RAW_FETCH_TIMEOUT_MS : FALLBACK_FETCH_TIMEOUT_MS;
+            try {
+                const json = await fetchJsonWithTimeout(url, init, timeoutMs);
+                if (DEBUG && url !== urls[0]) {
+                    log.info('Loaded from fallback:', url);
+                }
+                return json;
+            } catch (e) {
+                lastError = e;
             }
-            return out;
-        };
+        }
+        throw lastError || new Error('fetch failed');
+    };
 
-        const config = {
-            notifierLoadedMessage: getEntry('__userscript.notifier.loaded') ?? notifierLoadedMessage,
-            css: {
-                dragModules: getEntry('__userscript.css.dragModules') ?? null,
-                badgeSuffix: getEntry('__userscript.css.badgeSuffix') ?? null,
-                genderMale: getEntry('__userscript.css.genderMale') ?? null,
-                genderFemale: getEntry('__userscript.css.genderFemale') ?? null,
-                pokedexAttackPrefix: getEntry('__userscript.css.pokedexAttackPrefix') ?? null,
-            },
-            templates: {
-                typePokemon: getEntry('__userscript.template.typePokemon') ?? templates.typePokemon,
-                gymAt: getEntry('__userscript.template.gymAt') ?? templates.gymAt,
-                trialAt: getEntry('__userscript.template.trialAt') ?? templates.trialAt,
-                route: {
-                    noRegion: getEntry('__userscript.template.route.noRegion') ?? templates.route.noRegion,
-                    withRegion: getEntry('__userscript.template.route.withRegion') ?? templates.route.withRegion,
+    const loadUserscriptConfig = async () => {
+        try {
+            const json = await fetchJsonWithFallback(
+                buildUrlCandidates(`${FORCE_LANG}/overrides/userscript.json`),
+                { cache: 'no-cache' },
+            );
+            const entries = json?.entries ?? {};
+            const getEntry = (k) => {
+                const v = entries?.[k];
+                if (typeof v === 'string') return v;
+                if (v && typeof v === 'object' && typeof v.translation === 'string') return v.translation;
+                return null;
+            };
+
+            const parseDemixReplacements = (raw) => {
+                const out = [];
+                if (typeof raw !== 'string' || !raw.trim()) return out;
+                const lines = raw.split(/\r?\n/);
+                for (const line of lines) {
+                    if (!line || !line.trim()) continue;
+                    const idx = line.indexOf('=');
+                    if (idx <= 0) continue;
+                    const from = line.slice(0, idx).trim();
+                    const to = line.slice(idx + 1);
+                    if (!from) continue;
+                    out.push([from, to]);
+                }
+                return out;
+            };
+
+            const config = {
+                notifierLoadedMessage: getEntry('__userscript.notifier.loaded') ?? notifierLoadedMessage,
+                css: {
+                    dragModules: getEntry('__userscript.css.dragModules') ?? null,
+                    badgeSuffix: getEntry('__userscript.css.badgeSuffix') ?? null,
+                    genderMale: getEntry('__userscript.css.genderMale') ?? null,
+                    genderFemale: getEntry('__userscript.css.genderFemale') ?? null,
+                    pokedexAttackPrefix: getEntry('__userscript.css.pokedexAttackPrefix') ?? null,
                 },
-            },
-            demixReplacements: parseDemixReplacements(getEntry('__userscript.demix.replacements')),
-            types: {},
-            context: {
-                treasuresGem: getEntry('__userscript.context.treasures.gem') ?? null,
-            },
-        };
+                templates: {
+                    typePokemon: getEntry('__userscript.template.typePokemon') ?? templates.typePokemon,
+                    gymAt: getEntry('__userscript.template.gymAt') ?? templates.gymAt,
+                    trialAt: getEntry('__userscript.template.trialAt') ?? templates.trialAt,
+                    route: {
+                        noRegion: getEntry('__userscript.template.route.noRegion') ?? templates.route.noRegion,
+                        withRegion: getEntry('__userscript.template.route.withRegion') ?? templates.route.withRegion,
+                    },
+                },
+                demixReplacements: parseDemixReplacements(getEntry('__userscript.demix.replacements')),
+                types: {},
+                context: {
+                    treasuresGem: getEntry('__userscript.context.treasures.gem') ?? null,
+                },
+            };
 
-        // Extract TYPE_KEYS dynamically from __userscript.type.* entries
-        const typeKeysFromConfig = [];
-        for (const key of Object.keys(entries)) {
-            if (!key.startsWith('__userscript.type.')) continue;
-            const typeName = key.slice('__userscript.type.'.length);
-            if (!typeName) continue;
-            const v = getEntry(key);
-            if (typeof v === 'string' && v) config.types[typeName] = v;
-            typeKeysFromConfig.push(typeName);
-        }
-        if (typeKeysFromConfig.length > 0) {
-            config.typeKeys = typeKeysFromConfig;
-        }
+            // Extract TYPE_KEYS dynamically from __userscript.type.* entries
+            const typeKeysFromConfig = [];
+            for (const key of Object.keys(entries)) {
+                if (!key.startsWith('__userscript.type.')) continue;
+                const typeName = key.slice('__userscript.type.'.length);
+                if (!typeName) continue;
+                const v = getEntry(key);
+                if (typeof v === 'string' && v) config.types[typeName] = v;
+                typeKeysFromConfig.push(typeName);
+            }
+            if (typeKeysFromConfig.length > 0) {
+                config.typeKeys = typeKeysFromConfig;
+            }
 
-        // Extract WEATHER_TYPE_KEYS dynamically from __userscript.weatherType.* entries
-        const weatherKeysFromConfig = [];
-        for (const key of Object.keys(entries)) {
-            if (!key.startsWith('__userscript.weatherType.')) continue;
-            const weatherName = key.slice('__userscript.weatherType.'.length);
-            if (!weatherName) continue;
-            weatherKeysFromConfig.push(weatherName);
-        }
-        if (weatherKeysFromConfig.length > 0) {
-            config.weatherTypeKeys = weatherKeysFromConfig;
-        }
+            // Extract WEATHER_TYPE_KEYS dynamically from __userscript.weatherType.* entries
+            const weatherKeysFromConfig = [];
+            for (const key of Object.keys(entries)) {
+                if (!key.startsWith('__userscript.weatherType.')) continue;
+                const weatherName = key.slice('__userscript.weatherType.'.length);
+                if (!weatherName) continue;
+                weatherKeysFromConfig.push(weatherName);
+            }
+            if (weatherKeysFromConfig.length > 0) {
+                config.weatherTypeKeys = weatherKeysFromConfig;
+            }
 
-        return config;
+            return config;
+        } catch {
+            return null;
+        }
     };
 
     const formatTemplate = (tmpl, vars) =>
@@ -1208,6 +1282,19 @@
         return segment;
     };
 
+    /**
+     * @typedef {Object} Pattern
+     * @property {RegExp} re - Regex to match against English text.
+     * @property {string[]} zhParts - Chinese template parts split by placeholders.
+     * @property {number} literalLen - Length of literal (non-placeholder) anchor text.
+     * @property {string} firstChar - First character of the leading literal prefix ('*' if none).
+     */
+
+    /**
+     * Build regex-based translation patterns from map entries containing `${...}` placeholders.
+     * @param {Record<string, string>} map - Translation map.
+     * @returns {Pattern[]} Sorted patterns (most specific first).
+     */
     const buildPatterns = (map) => {
         const placeholder = '${...}';
         const singleBracePlaceholderRe = /\{(?!\{)[A-Z][A-Z0-9_]+\}(?!\})/g;
@@ -1235,6 +1322,8 @@
             const enParts = enKey.split(placeholder);
             const zhParts = zhValue.split(placeholder);
             if (enParts.length <= 1) continue;
+            // Allow translations to omit placeholders (e.g. plural "s") by using fewer `${...}`.
+            // We only support consuming placeholders from left to right.
             if (zhParts.length <= 1) continue;
             if (zhParts.length > enParts.length) continue;
             // Avoid overly-generic patterns like "${...} ${...}" (no literal anchor text).
@@ -1257,14 +1346,58 @@
 
             const re = new RegExp(reSource);
             const literalLen = literal.replace(/\s+/g, ' ').trim().length;
-            patterns.push({ re, zhParts, literalLen });
+            // First char of the leading literal prefix (empty prefix → wildcard '*').
+            const firstChar = enParts[0] ? enParts[0][0] : '*';
+            patterns.push({ re, zhParts, literalLen, firstChar });
         }
+        // Prefer patterns with more literal anchor text, then longer regex.
         patterns.sort((a, b) => (b.literalLen - a.literalLen) || (b.re.source.length - a.re.source.length));
         return patterns;
     };
 
-    const applyPatterns = (text, patterns, map) => {
+    /**
+     * Build a first-character index over sorted patterns for fast prefix-based filtering.
+     * @param {Pattern[]} patterns - Sorted pattern array from buildPatterns().
+     * @returns {Map<string, Pattern[]>} Map from first char (or '*') to matching patterns.
+     */
+    const buildPatternIndex = (patterns) => {
+        const index = new Map();
         for (const p of patterns) {
+            const ch = p.firstChar;
+            if (!index.has(ch)) index.set(ch, []);
+            index.get(ch).push(p);
+        }
+        return index;
+    };
+
+    /**
+     * Apply regex-based patterns to translate a text string.
+     * Uses patternIndex for fast first-char filtering when available.
+     * @param {string} text - English text to match.
+     * @param {Pattern[]} patterns - Full sorted pattern array.
+     * @param {Record<string, string>} map - Translation map for dynamic segment lookup.
+     * @param {Map<string, Pattern[]>|null} [patternIndex] - Optional first-char index.
+     * @returns {string|null} Translated text, or null if no pattern matched.
+     */
+    const applyPatterns = (text, patterns, map, patternIndex) => {
+        // If we have a first-char index, only test patterns whose first char matches or wildcard '*'.
+        let candidates;
+        if (patternIndex && text) {
+            const ch = text[0];
+            const exact = patternIndex.get(ch);
+            const wild = patternIndex.get('*');
+            if (exact && wild) {
+                // Merge and re-sort to preserve the global literalLen ordering invariant.
+                candidates = [...exact, ...wild].sort(
+                    (a, b) => (b.literalLen - a.literalLen) || (b.re.source.length - a.re.source.length),
+                );
+            } else {
+                candidates = exact || wild || patterns;
+            }
+        } else {
+            candidates = patterns;
+        }
+        for (const p of candidates) {
             const m = text.match(p.re);
             if (!m) continue;
             let out = p.zhParts[0] ?? '';
@@ -1281,60 +1414,61 @@
         return null;
     };
 
-    const resolveTranslation = (key, map, patterns) => {
-        if (!key) return null;
-        const altKey = normalizeForLookup(key);
-        const candidates = altKey && altKey !== key ? [key, altKey] : [key];
-        const demixed = demixForLookup(altKey || key);
-        if (demixed && !candidates.includes(demixed)) candidates.push(demixed);
-
+    /** Try inline overrides (hardcoded in-script). */
+    const resolveFromInlineOverrides = (candidates, map) => {
         for (const k of candidates) {
             const inline = INLINE_OVERRIDES[k];
             if (typeof inline === 'string' && inline) return finalizeTranslation(inline, map);
         }
+        return null;
+    };
 
+    /** Try direct map lookup (exact key match). */
+    const resolveFromDirectMap = (candidates, map) => {
         for (const k of candidates) {
             const direct = map?.[k];
             if (typeof direct === 'string' && direct) return finalizeTranslation(direct, map);
         }
+        return null;
+    };
 
-        // Case-insensitive fallback for DOM strings that differ only by capitalization.
-        // Uses a precomputed index built from non-colliding keys.
+    /** Case-insensitive fallback using a precomputed lowercase index. */
+    const resolveFromCasefoldIndex = (candidates, map) => {
         const casefoldIndex = map?.__pkcZhHansCasefoldIndex;
-        if (casefoldIndex && typeof casefoldIndex.get === 'function') {
-            for (const k of candidates) {
-                if (!k) continue;
-                const v = casefoldIndex.get(String(k).toLowerCase());
-                if (typeof v === 'string' && v) return finalizeTranslation(v, map);
-            }
+        if (!casefoldIndex || typeof casefoldIndex.get !== 'function') return null;
+        for (const k of candidates) {
+            if (!k) continue;
+            const v = casefoldIndex.get(String(k).toLowerCase());
+            if (typeof v === 'string' && v) return finalizeTranslation(v, map);
         }
+        return null;
+    };
 
-        // Punctuation-folded fallback for typographic variants (e.g. "It’s" vs "It's").
-        // Uses a precomputed index built from non-colliding folded keys.
+    /** Punctuation-folded fallback for typographic variants (e.g. "It\u2019s" vs "It's"). */
+    const resolveFromPunctFoldIndex = (candidates, map) => {
         const punctFoldIndex = map?.__pkcZhHansPunctFoldIndex;
-        if (punctFoldIndex && typeof punctFoldIndex.get === 'function') {
-            for (const k of candidates) {
-                if (!k) continue;
-                const lk = foldPunctuationForLookup(normalizeForLookup(k)).toLowerCase();
-                if (!lk) continue;
-                const v = punctFoldIndex.get(lk);
-                if (typeof v === 'string' && v) return finalizeTranslation(v, map);
-            }
+        if (!punctFoldIndex || typeof punctFoldIndex.get !== 'function') return null;
+        for (const k of candidates) {
+            if (!k) continue;
+            const lk = foldPunctuationForLookup(normalizeForLookup(k)).toLowerCase();
+            if (!lk) continue;
+            const v = punctFoldIndex.get(lk);
+            if (typeof v === 'string' && v) return finalizeTranslation(v, map);
         }
+        return null;
+    };
 
-        const useMapFlags = candidates.map((k) => shouldUseHardcodedMap(k));
-        const useMap = useMapFlags.some(Boolean);
-        if (!useMap) return null;
-
+    /** Try the dedicated Pok\u00e9mon dictionary. */
+    const resolveFromPokemonDict = (candidates, map) => {
         for (const k of candidates) {
             const pokemon = pokemonTranslations?.[k];
-            if (typeof pokemon === 'string') {
-                return finalizeTranslation(pokemon, map);
-            }
+            if (typeof pokemon === 'string') return finalizeTranslation(pokemon, map);
         }
+        return null;
+    };
 
-        // Humanified enum names often appear in DOM text (spaces instead of underscores), e.g. "Melemele Stamp".
-        // Try lookup variants against the loaded map (which contains enum keys like "Melemele_Stamp").
+    /** Humanified enum names (spaces/hyphens → underscores). */
+    const resolveFromHumanifiedEnum = (candidates, useMapFlags, map) => {
         for (let i = 0; i < candidates.length; i += 1) {
             if (!useMapFlags[i]) continue;
             const k = candidates[i];
@@ -1348,24 +1482,27 @@
                 if (typeof v === 'string' && v && !v.includes('${...}')) return finalizeTranslation(v, map);
             }
         }
+        return null;
+    };
 
-        if (patterns.length) {
-            for (const k of candidates) {
-                const matched = applyPatterns(k, patterns, map);
-                if (typeof matched === 'string' && matched) return finalizeTranslation(matched, map);
-
-                // Pattern keys usually use ASCII punctuation, but upstream strings sometimes contain typographic variants
-                // (e.g. "I’ve" vs "I've"). Try a folded variant to improve match rate for dynamic templates.
-                const folded = foldPunctuationForLookup(k);
-                if (folded && folded !== k) {
-                    const matchedFolded = applyPatterns(folded, patterns, map);
-                    if (typeof matchedFolded === 'string' && matchedFolded) return finalizeTranslation(matchedFolded, map);
-                }
+    /** Try pattern-based template matching (e.g. "${...} used ${...}!"). */
+    const resolveFromPatterns = (candidates, patterns, map) => {
+        if (!patterns.length) return null;
+        const idx = patterns.__pkcIndex;
+        for (const k of candidates) {
+            const matched = applyPatterns(k, patterns, map, idx);
+            if (typeof matched === 'string' && matched) return finalizeTranslation(matched, map);
+            const folded = foldPunctuationForLookup(k);
+            if (folded && folded !== k) {
+                const matchedFolded = applyPatterns(folded, patterns, map, idx);
+                if (typeof matchedFolded === 'string' && matchedFolded) return finalizeTranslation(matchedFolded, map);
             }
         }
+        return null;
+    };
 
-        // Handle dynamic badge names that are not present as full strings in translation maps,
-        // e.g. "Spike Shell Badge" / "BoulderBadge".
+    /** Handle dynamic badge names like "Spike Shell Badge". */
+    const resolveFromBadgeSuffix = (candidates, map) => {
         const badgeWord = userscriptCssLabels.badgeSuffix || map?.Badge || 'Badge';
         for (const k of candidates) {
             const m = k.match(/^(.+?)\s*(?:Badge|badge)([.!?:,])?$/);
@@ -1378,9 +1515,11 @@
             if (translatedName.endsWith(badgeWord)) return finalizeTranslation(`${translatedName}${punct}`, map);
             return finalizeTranslation(`${translatedName}${badgeWord}${punct}`, map);
         }
+        return null;
+    };
 
-        // Many settings/labels are rendered as `${displayName}:` in templates.
-        // If the only difference is a trailing colon, try translating without it and re-append.
+    /** Strip trailing colon and try translating the base, then re-append. */
+    const resolveFromTrailingColon = (candidates, map, patterns) => {
         for (const k of candidates) {
             const m = k.match(/^(.*?)([:：])$/);
             if (!m) continue;
@@ -1391,16 +1530,53 @@
             if (translatedBase.endsWith(':') || translatedBase.endsWith('：')) return translatedBase;
             return `${translatedBase}${m[2]}`;
         }
-
         return null;
     };
 
+    /**
+     * Resolve a translation key through a multi-strategy pipeline:
+     * inline overrides → direct map → casefold → punctfold → pokémon dict →
+     * humanified enum → patterns → badge suffix → trailing colon.
+     * @param {string} key - English text to translate.
+     * @param {Record<string, string>} map - Translation map.
+     * @param {Pattern[]} patterns - Regex pattern array.
+     * @returns {string|null} Translated text, or null if no strategy matched.
+     */
+    const resolveTranslation = (key, map, patterns) => {
+        if (!key) return null;
+        const altKey = normalizeForLookup(key);
+        const candidates = altKey && altKey !== key ? [key, altKey] : [key];
+        const demixed = demixForLookup(altKey || key);
+        if (demixed && !candidates.includes(demixed)) candidates.push(demixed);
+
+        // Compute map-eligibility flags once, up front.
+        const useMapFlags = candidates.map((k) => shouldUseHardcodedMap(k));
+        const useMap = useMapFlags.some(Boolean);
+
+        // Pipeline: try each strategy in order, return first non-null result.
+        return resolveFromInlineOverrides(candidates, map)
+            ?? resolveFromDirectMap(candidates, map)
+            ?? resolveFromCasefoldIndex(candidates, map)
+            ?? resolveFromPunctFoldIndex(candidates, map)
+            ?? (useMap ? resolveFromPokemonDict(candidates, map) : null)
+            ?? (useMap ? resolveFromHumanifiedEnum(candidates, useMapFlags, map) : null)
+            ?? (useMap ? resolveFromPatterns(candidates, patterns, map) : null)
+            ?? (useMap ? resolveFromBadgeSuffix(candidates, map) : null)
+            ?? (useMap ? resolveFromTrailingColon(candidates, map, patterns) : null);
+    };
+
+    /**
+     * Fallback translator for mixed English/Chinese text segments.
+     * Splits input on English runs, resolves each piece independently.
+     * @param {string} text - Text to translate.
+     * @param {Record<string, string>} map - Translation map.
+     * @param {Pattern[]} patterns - Regex pattern array.
+     * @param {TranslationCache} cache - LRU-style translation cache.
+     * @returns {string|null} Translated text, or null if nothing changed.
+     */
     const translateSegmentsFallback = (text, map, patterns, cache) => {
         let input = String(text ?? '');
         if (!input) return null;
-
-        // If there's no Latin text, there's nothing useful to translate (avoid work on already-Chinese nodes).
-        if (!LATIN_RE.test(input)) return null;
         try {
             input = input.normalize('NFC');
         } catch {
@@ -1442,12 +1618,17 @@
             }
         }
 
+        const hasHan = /[\u4E00-\u9FFF]/.test(input);
+        const hasLatin = /[A-Za-z]/.test(input);
+        if (!hasHan && !hasLatin) return null;
+
         const translatePiece = (piece) => {
             if (!piece) return piece;
             const { leading: l, core: c, trailing: t } = splitOuterWhitespace(piece);
             const pieceKey = normalizeText(c);
             if (!pieceKey) return piece;
 
+            // Handle leftover English articles (often appear as their own text node).
             if (pieceKey === 'a' || pieceKey === 'an') {
                 return '';
             }
@@ -1464,13 +1645,13 @@
             return out === piece ? piece : out;
         };
 
-        const englishRunRe = /[A-Za-zÉé][A-Za-z0-9Éé\s,.%\"'’!?():/\\-]*/g;
+        ENGLISH_RUN_RE.lastIndex = 0;
         let out = '';
         let lastIndex = 0;
         let changed = false;
         let m;
         // eslint-disable-next-line no-cond-assign
-        while (m = englishRunRe.exec(input)) {
+        while (m = ENGLISH_RUN_RE.exec(input)) {
             const before = input.slice(lastIndex, m.index);
             const beforeOut = translatePiece(before);
             if (beforeOut !== before) changed = true;
@@ -1492,81 +1673,31 @@
         return changed ? out : null;
     };
 
+    // ═══════════════════════════════════════════════
+    // 6. DOM 翻译 (DOM Translation)
+    // ═══════════════════════════════════════════════
+
+    let _cacheHits = 0;
+    let _cacheMisses = 0;
+
     /** Resolve a translation key through the cache, returning the result or null. */
     const cachedResolve = (lookupKey, map, patterns, cache) => {
         if (cache.has(lookupKey)) {
+            _cacheHits++;
             const v = cache.get(lookupKey);
             return v || null;
         }
+        _cacheMisses++;
         const resolved = resolveTranslation(lookupKey, map, patterns);
         cache.set(lookupKey, resolved ?? '');
         return resolved || null;
     };
 
-    const applyMapToElementAttributes = (el, map, patterns, cache) => {
-        try {
-            if (!el?.getAttribute) return;
-            const bootstrapToggle = (el.getAttribute('data-bs-toggle') || el.getAttribute('data-toggle') || '').toLowerCase();
-            const isBootstrapTooltipOrPopover = bootstrapToggle === 'tooltip' || bootstrapToggle === 'popover';
-            for (const attr of attrNames) {
-                const raw = el.getAttribute(attr);
-                if (!raw) continue;
-
-                if (!processedAttrValues[attr]) processedAttrValues[attr] = new WeakMap();
-                const attrCache = processedAttrValues[attr];
-                if (attrCache.get(el) === raw) continue;
-                attrCache.set(el, raw);
-
-                // Avoid fighting Bootstrap tooltip/popover internals.
-                // Bootstrap frequently copies/mutates `title` <-> `data-original-title`/`data-content`,
-                // and rewriting those attributes can cause UI flicker (e.g. map legend).
-                if (
-                    isBootstrapTooltipOrPopover
-                    && (attr === 'title' || attr === 'data-original-title' || attr === 'data-content')
-                ) {
-                    continue;
-                }
-
-                if (!LATIN_RE.test(raw)) continue;
-                let translated = null;
-                try {
-                    const { leading, core, trailing } = splitOuterWhitespace(raw);
-                    const key = normalizeText(core);
-                    const lookupKey = getWeatherTypeLookupKey(key, { element: el });
-                    const resolved = cachedResolve(lookupKey, map, patterns, cache);
-                    if (resolved) translated = `${leading}${resolved}${trailing}`;
-                } catch {
-                    // ignore
-                }
-
-                if (!translated) {
-                    translated = translateSegmentsFallback(raw, map, patterns, cache);
-                }
-                if (translated) {
-                    el.setAttribute(attr, translated);
-                    attrCache.set(el, translated);
-                }
-            }
-        } catch {
-            // ignore
-        }
-    };
-
-    const applyMapToTextNode = (textNode, map, patterns, cache) => {
-        if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
-        if (shouldSkipNode(textNode)) return;
-
-        const rawNodeValue = String(textNode.nodeValue ?? '');
-        if (processedTextNodeValues.get(textNode) === rawNodeValue) return;
-        processedTextNodeValues.set(textNode, rawNodeValue);
-        if (isHotkeyValueNode(textNode)) return;
-
-        // Skip already-Chinese text nodes (and anything without Latin letters).
-        if (!LATIN_RE.test(rawNodeValue)) return;
-
-        // In a few places, the game builds English plurals by appending a separate "s" node.
-        // When the base word is translated to Chinese (e.g. "Dungeon" -> "迷宫"), the leftover "s" becomes visible ("迷宫s").
-        // Strip such orphan plural suffixes when they directly follow a CJK text node.
+    /**
+     * Strip orphan plural "s" suffix that follows a CJK text node.
+     * @returns {boolean} true if handled (caller should return early).
+     */
+    const stripOrphanPluralSuffix = (textNode) => {
         try {
             const rawNode = String(textNode.nodeValue ?? '');
             const rawTrimmed = rawNode.replace(/\u00A0/g, ' ').trim();
@@ -1577,22 +1708,21 @@
                     if (/[\u4E00-\u9FFF]$/.test(prevText)) {
                         textNode.nodeValue = rawNode.replace(/s/g, '');
                         processedTextNodeValues.set(textNode, String(textNode.nodeValue ?? ''));
-                        return;
+                        return true;
                     }
                 }
             }
         } catch {
             // ignore
         }
+        return false;
+    };
 
-        const raw = String(textNode.nodeValue ?? '');
-        const { leading, core, trailing } = splitOuterWhitespace(raw);
-        const key = normalizeText(core);
-        if (!key) return;
-
-        // Context override:
-        // Underground → Treasures groups "Gem" valueType items, which are actually Arceus Plates.
-        // Keep global "Gem" (= 属性宝石) intact, but show context-specific label for this group title.
+    /**
+     * Context override for Underground → Treasures "Gem" group title.
+     * @returns {boolean} true if handled.
+     */
+    const handleTreasuresGemOverride = (textNode, key, leading, trailing, raw) => {
         try {
             if (key === 'Gem' && treasuresGemOverride) {
                 const parent = textNode.parentElement;
@@ -1608,12 +1738,121 @@
                         textNode.nodeValue = out;
                         processedTextNodeValues.set(textNode, out);
                     }
-                    return;
+                    return true;
                 }
             }
         } catch {
             // ignore
         }
+        return false;
+    };
+
+    /**
+     * Translate a multi-line text node by resolving each line independently.
+     * @returns {boolean} true if any translation was applied.
+     */
+    const translateMultilineTextNode = (textNode, core, leading, trailing, raw, lookupKey, map, patterns, cache) => {
+        if (!/[\r\n]/.test(core)) return false;
+
+        const parts = core.split(/(\r?\n+)/);
+        let changed = false;
+        for (let i = 0; i < parts.length; i += 1) {
+            const part = parts[i];
+            if (!part || /^\r?\n+$/.test(part)) continue;
+            const { leading: l, core: c, trailing: t } = splitOuterWhitespace(part);
+            const partKey = normalizeText(c);
+            if (!partKey) continue;
+
+            let partCached = cache.get(partKey);
+            if (partCached == null) {
+                const resolved = resolveTranslation(partKey, map, patterns);
+                cache.set(partKey, resolved ?? '');
+                partCached = resolved ?? '';
+            }
+
+            if (partCached) {
+                const outPart = `${l}${partCached}${t}`;
+                if (outPart !== part) {
+                    parts[i] = outPart;
+                    changed = true;
+                }
+                continue;
+            }
+
+            const segOut = translateSegmentsFallback(c, map, patterns, cache);
+            if (segOut) {
+                const outPart = `${l}${segOut}${t}`;
+                if (outPart !== part) {
+                    parts[i] = outPart;
+                    changed = true;
+                }
+            }
+        }
+
+        if (changed) {
+            const newCore = parts.join('');
+            cache.set(lookupKey, newCore);
+            const out = `${leading}${newCore}${trailing}`;
+            if (out !== raw) {
+                textNode.nodeValue = out;
+                processedTextNodeValues.set(textNode, out);
+            }
+        }
+        return changed;
+    };
+
+    /**
+     * Try resolving via inline wrapper tags (e.g. `<i>text</i>` as map key).
+     * @returns {boolean} true if handled.
+     */
+    const tryInlineWrapperFallback = (textNode, key, lookupKey, leading, trailing, raw, map, patterns, cache) => {
+        try {
+            const wrappedKey = buildInlineWrapperKey(textNode, key);
+            if (wrappedKey) {
+                const wrapped = resolveTranslation(wrappedKey, map, patterns);
+                const wrappedText = extractTextFromHtml(wrapped);
+                if (wrappedText) {
+                    cache.set(lookupKey, wrappedText);
+                    const out = `${leading}${wrappedText}${trailing}`;
+                    if (out !== raw) {
+                        textNode.nodeValue = out;
+                        processedTextNodeValues.set(textNode, out);
+                    }
+                    return true;
+                }
+            }
+        } catch {
+            // ignore
+        }
+        return false;
+    };
+
+    /**
+     * Translate a single DOM text node in-place.
+     * Tries full-key resolution, multi-line splitting, segment fallback,
+     * and inline wrapper fallback before giving up.
+     * @param {Text} textNode - DOM text node.
+     * @param {Record<string, string>} map - Translation map.
+     * @param {Pattern[]} patterns - Regex pattern array.
+     * @param {TranslationCache} cache - LRU-style translation cache.
+     */
+    const applyMapToTextNode = (textNode, map, patterns, cache) => {
+        if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
+        if (shouldSkipNode(textNode)) return;
+        const rawNodeValue = String(textNode.nodeValue ?? '');
+        if (processedTextNodeValues.get(textNode) === rawNodeValue) return;
+        processedTextNodeValues.set(textNode, rawNodeValue);
+        if (isHotkeyValueNode(textNode)) return;
+        if (!LATIN_RE.test(rawNodeValue)) return;
+
+        if (stripOrphanPluralSuffix(textNode)) return;
+
+        const raw = String(textNode.nodeValue ?? '');
+        const { leading, core, trailing } = splitOuterWhitespace(raw);
+        const key = normalizeText(core);
+        if (!key) return;
+
+        if (handleTreasuresGemOverride(textNode, key, leading, trailing, raw)) return;
 
         const lookupKey = getWeatherTypeLookupKey(key, { textNode });
 
@@ -1627,53 +1866,11 @@
             return;
         }
 
-        if (/[\r\n]/.test(core)) {
-            const parts = core.split(/(\r?\n+)/);
-            let changed = false;
-            for (let i = 0; i < parts.length; i += 1) {
-                const part = parts[i];
-                if (!part || /^\r?\n+$/.test(part)) continue;
-                const { leading: l, core: c, trailing: t } = splitOuterWhitespace(part);
-                const partKey = normalizeText(c);
-                if (!partKey) continue;
-
-                let partCached = cache.get(partKey);
-                if (partCached == null) {
-                    const resolved = resolveTranslation(partKey, map, patterns);
-                    cache.set(partKey, resolved ?? '');
-                    partCached = resolved ?? '';
-                }
-
-                if (partCached) {
-                    const outPart = `${l}${partCached}${t}`;
-                    if (outPart !== part) {
-                        parts[i] = outPart;
-                        changed = true;
-                    }
-                    continue;
-                }
-
-                const segOut = translateSegmentsFallback(c, map, patterns, cache);
-                if (segOut) {
-                    const outPart = `${l}${segOut}${t}`;
-                    if (outPart !== part) {
-                        parts[i] = outPart;
-                        changed = true;
-                    }
-                }
-            }
-            if (changed) {
-                const out = `${leading}${parts.join('')}${trailing}`;
-                if (out !== raw) {
-                    textNode.nodeValue = out;
-                    processedTextNodeValues.set(textNode, out);
-                }
-                return;
-            }
-        }
+        if (translateMultilineTextNode(textNode, core, leading, trailing, raw, lookupKey, map, patterns, cache)) return;
 
         const segOut = translateSegmentsFallback(core, map, patterns, cache);
         if (segOut) {
+            cache.set(lookupKey, segOut);
             const out = `${leading}${segOut}${trailing}`;
             if (out !== raw) {
                 textNode.nodeValue = out;
@@ -1682,40 +1879,92 @@
             return;
         }
 
-        // Inline wrapper fallback:
-        // Some upstream strings are HTML fragments like `<i>...</i>` / `<b><i>...</i></b>`.
-        // When inserted via `innerHTML`, our DOM walker sees only the inner text node,
-        // while the translation map may contain the wrapped HTML string as the key.
-        try {
-            const wrappedKey = buildInlineWrapperKey(textNode, key);
-            if (wrappedKey) {
-                const wrapped = resolveTranslation(wrappedKey, map, patterns);
-                const wrappedText = extractTextFromHtml(wrapped);
-                if (wrappedText) {
-                    cache.set(lookupKey, wrappedText);
-                    const out = `${leading}${wrappedText}${trailing}`;
-                    if (out !== raw) {
-                        textNode.nodeValue = out;
-                        processedTextNodeValues.set(textNode, out);
-                    }
-                    return;
-                }
-            }
-        } catch {
-            // ignore
-        }
+        if (tryInlineWrapperFallback(textNode, key, lookupKey, leading, trailing, raw, map, patterns, cache)) return;
 
-        recordMissing(lookupKey);
+        if (shouldUseHardcodedMap(lookupKey)) recordMissing(lookupKey);
+    };
+
+    const applyMapToElementAttributes = (element, map, patterns, cache) => {
+        if (!element || element.nodeType !== Node.ELEMENT_NODE) return;
+        const bootstrapToggle = (element.getAttribute('data-bs-toggle') || element.getAttribute('data-toggle') || '').toLowerCase();
+        const isBootstrapTooltipOrPopover = bootstrapToggle === 'tooltip' || bootstrapToggle === 'popover';
+        for (const attr of attrNames) {
+            if (!element.hasAttribute(attr)) continue;
+            const raw = element.getAttribute(attr);
+            if (raw == null) continue;
+
+            if (!processedAttrValues[attr]) processedAttrValues[attr] = new WeakMap();
+            const attrCache = processedAttrValues[attr];
+            if (attrCache.get(element) === raw) continue;
+            attrCache.set(element, raw);
+
+            // Avoid fighting Bootstrap tooltip/popover internals.
+            // Bootstrap frequently copies/mutates `title` <-> `data-original-title`/`data-content`,
+            // and rewriting those attributes can cause UI flicker (e.g. map legend).
+            if (
+                isBootstrapTooltipOrPopover
+                && (attr === 'title' || attr === 'data-original-title' || attr === 'data-content')
+            ) {
+                continue;
+            }
+
+            if (attr === 'data-intro') {
+                try {
+                    const template = document.createElement('template');
+                    template.innerHTML = raw;
+                    applyMapToNode(template.content, map, patterns, cache);
+                    const out = template.innerHTML;
+                    if (out && out !== raw) {
+                        element.setAttribute(attr, out);
+                        attrCache.set(element, out);
+                    }
+                } catch {
+                    // ignore
+                }
+                continue;
+            }
+
+            if (!LATIN_RE.test(raw)) continue;
+
+            const { leading, core, trailing } = splitOuterWhitespace(raw);
+            const key = normalizeText(core);
+            if (!key) continue;
+            const useMap = shouldUseHardcodedMap(key);
+            const lookupKey = getWeatherTypeLookupKey(key, { element });
+
+            const cached = cachedResolve(lookupKey, map, patterns, cache);
+            if (cached) {
+                const out = `${leading}${cached}${trailing}`;
+                if (out !== raw) {
+                    element.setAttribute(attr, out);
+                    attrCache.set(element, out);
+                }
+                continue;
+            }
+
+            const segOut = translateSegmentsFallback(core, map, patterns, cache);
+            if (segOut) {
+                cache.set(lookupKey, segOut);
+                const out = `${leading}${segOut}${trailing}`;
+                if (out !== raw) {
+                    element.setAttribute(attr, out);
+                    attrCache.set(element, out);
+                }
+                continue;
+            }
+
+            if (useMap) recordMissing(lookupKey);
+        }
     };
 
     const applyMapToRoot = (root, map, patterns, cache) => {
         if (!root) return;
-
         if (root.nodeType === Node.TEXT_NODE) {
             applyMapToTextNode(root, map, patterns, cache);
             return;
         }
 
+        // Text nodes
         const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
         let node;
         // eslint-disable-next-line no-cond-assign
@@ -1723,6 +1972,7 @@
             applyMapToTextNode(node, map, patterns, cache);
         }
 
+        // Common attributes (root + descendants)
         if (root.nodeType === Node.ELEMENT_NODE) {
             applyMapToElementAttributes(root, map, patterns, cache);
         }
@@ -1749,157 +1999,266 @@
         }
     };
 
-    const flattenPokemonTranslations = (raw) => {
-        const dict = {};
-        for (const [k, v] of Object.entries(raw ?? {})) {
-            if (k === 'alt' && v && typeof v === 'object') {
-                for (const [altKey, altValue] of Object.entries(v)) {
-                    if (typeof altValue === 'string') dict[`alt.${altKey}`] = altValue;
-                }
-                continue;
-            }
-            if (typeof v === 'string') dict[k] = v;
-        }
-        return dict;
-    };
+    // ═══════════════════════════════════════════════
+    // 7. 初始化与观察器 (Initialization & Observer)
+    // ═══════════════════════════════════════════════
 
     const start = async () => {
         if (DEBUG) {
             log.info(window.PokeClickerZhHans.getConfig());
         }
 
-        /** @type {Record<string,string>} */
-        const map = {};
-        let bundle = null;
-        let loadedFromCache = false;
-
-        // Cache-first: load cached bundle immediately if available.
-        // If cache record is legacy (missing contentHash), prefer network once (with cache fallback for offline).
-        const cachedRec = await loadBundleFromCache();
-        const cachedBundle = cachedRec?.bundle ?? null;
-        const cacheLooksLegacy = Boolean(cachedRec && typeof cachedRec.contentHash !== 'string');
-
-        if (cachedBundle && !cacheLooksLegacy) {
-            bundle = cachedBundle;
-            loadedFromCache = true;
-            if (DEBUG) {
-                log.info('Loaded bundle from cache:', cachedBundle?._meta ?? null);
-            }
+        // Show a loading banner while translations are being fetched.
+        let loadingBanner = null;
+        try {
+            loadingBanner = document.createElement('div');
+            loadingBanner.id = 'pkc-zh-hans-loading';
+            loadingBanner.textContent = '正在加载中文翻译...';
+            loadingBanner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:99999;' +
+                'background:#1a73e8;color:#fff;text-align:center;padding:4px 0;font-size:13px;' +
+                'font-family:system-ui,sans-serif;opacity:0.92;';
+            (document.body || document.documentElement).appendChild(loadingBanner);
+        } catch {
+            loadingBanner = null;
         }
 
-        const fetchBundleFromNetwork = async () => {
-            let lastError = null;
-            for (let i = 0; i < BUNDLE_URL_CANDIDATES.length; i += 1) {
-                const url = BUNDLE_URL_CANDIDATES[i];
-                const timeoutMs = i === 0 ? RAW_FETCH_TIMEOUT_MS : FALLBACK_FETCH_TIMEOUT_MS;
-                try {
-                    const b = await fetchJsonWithTimeout(url, { cache: 'no-cache' }, timeoutMs);
-                    if (DEBUG && url !== BUNDLE_URL) {
-                        log.info('Loaded bundle from fallback:', url);
-                    }
-                    return b;
-                } catch (err) {
-                    lastError = err;
-                }
-            }
-            throw lastError || new Error('bundle fetch failed');
+        const removeLoadingBanner = () => {
+            try { loadingBanner?.remove(); } catch { /* ignore */ }
+            loadingBanner = null;
         };
 
-        if (cachedBundle && cacheLooksLegacy) {
-            try {
-                bundle = await fetchBundleFromNetwork();
-            } catch {
-                bundle = cachedBundle;
-                loadedFromCache = true;
-                if (DEBUG) {
-                    log.info('Loaded legacy bundle from cache:', cachedBundle?._meta ?? null);
+        const config = await loadUserscriptConfig();
+        if (config) {
+            notifierLoadedMessage = config.notifierLoadedMessage || notifierLoadedMessage;
+            typeTranslations = config.types || typeTranslations;
+            if (config?.css?.badgeSuffix) userscriptCssLabels.badgeSuffix = config.css.badgeSuffix;
+            if (Array.isArray(config?.demixReplacements)) demixReplacements = config.demixReplacements;
+            if (config?.templates) {
+                templates.typePokemon = config.templates.typePokemon ?? templates.typePokemon;
+                templates.gymAt = config.templates.gymAt ?? templates.gymAt;
+                templates.trialAt = config.templates.trialAt ?? templates.trialAt;
+                templates.route.noRegion = config.templates.route?.noRegion ?? templates.route.noRegion;
+                templates.route.withRegion = config.templates.route?.withRegion ?? templates.route.withRegion;
+            }
+            if (Array.isArray(config.typeKeys) && config.typeKeys.length > 0) {
+                TYPE_KEYS = config.typeKeys;
+            }
+            if (Array.isArray(config.weatherTypeKeys) && config.weatherTypeKeys.length > 0) {
+                WEATHER_TYPE_KEYS = new Set(config.weatherTypeKeys);
+            }
+            if (typeof config.context?.treasuresGem === 'string' && config.context.treasuresGem) {
+                treasuresGemOverride = config.context.treasuresGem;
+            }
+            injectCssOverrides(config.css);
+        } else {
+            injectCssOverrides(null);
+        }
+
+        /** @type {Record<string,string>} */
+        let map = {};
+        let bundleMeta = null;
+
+        const addEntryToMap = (key, value) => {
+            if (typeof key !== 'string' || !key) return false;
+            if (typeof value === 'string' && value) {
+                map[key] = value;
+                return true;
+            }
+            if (value && typeof value === 'object' && typeof value.translation === 'string' && value.translation) {
+                map[key] = value.translation;
+                return true;
+            }
+            return false;
+        };
+
+        const ingestEntriesToMap = (entriesLike) => {
+            let count = 0;
+            if (!entriesLike) return count;
+            if (Array.isArray(entriesLike)) {
+                for (const item of entriesLike) {
+                    if (Array.isArray(item) && item.length >= 2) {
+                        if (addEntryToMap(item[0], item[1])) count += 1;
+                    } else if (item && typeof item === 'object' && 'key' in item && 'value' in item) {
+                        if (addEntryToMap(item.key, item.value)) count += 1;
+                    }
+                }
+                return count;
+            }
+            if (typeof entriesLike === 'object') {
+                for (const [key, value] of Object.entries(entriesLike)) {
+                    if (addEntryToMap(key, value)) count += 1;
                 }
             }
-        }
+            return count;
+        };
 
-        // If cache is missing, we must fetch before proceeding.
-        if (!bundle) {
+        const loadMapFromBundle = async () => {
             try {
-                bundle = await fetchBundleFromNetwork();
-            } catch (e) {
-                log.error('Failed to load bundle.json (bundle-only mode):', e);
-                return;
-            }
-        }
+                // Cache-first: try IndexedDB cache before network.
+                // If cache record is from an older script version or missing contentHash, prefer network once.
+                const cachedRec = await loadBundleFromCache();
+                const cachedBundle = cachedRec?.bundle ?? null;
+                const cacheLooksLegacy = Boolean(cachedRec && typeof cachedRec.contentHash !== 'string');
 
-        // Background refresh: update cache, and notify to refresh if a newer bundle is downloaded.
-        if (loadedFromCache) {
-            const currentGeneratedAt = cachedRec?.generatedAt ?? bundle?._meta?.generatedAt ?? null;
-            const currentContentHash = cachedRec?.contentHash ?? null;
-            const schedule = (fn) => {
-                const ric = window.requestIdleCallback?.bind(window);
-                if (ric) return ric(fn, { timeout: 5000 });
-                return setTimeout(fn, 2500);
-            };
-            schedule(async () => {
-                try {
-                    const latest = await fetchBundleFromNetwork();
-                    const saved = await saveBundleToCache(latest, cachedRec);
-                    const latestGeneratedAt = saved?.generatedAt ?? latest?._meta?.generatedAt ?? null;
-                    const latestContentHash = saved?.contentHash ?? null;
-                    const changed = Boolean(saved?.changed);
-                    const hasDifferentGeneratedAt = typeof latestGeneratedAt === 'string'
-                        && latestGeneratedAt
-                        && typeof currentGeneratedAt === 'string'
-                        && currentGeneratedAt
-                        && latestGeneratedAt !== currentGeneratedAt;
-                    const hasDifferentContentHash = typeof latestContentHash === 'string'
-                        && latestContentHash
-                        && typeof currentContentHash === 'string'
-                        && currentContentHash
-                        && latestContentHash !== currentContentHash;
-                    if (changed && (hasDifferentGeneratedAt || hasDifferentContentHash || !currentContentHash)) {
-                        notifyInfo('翻译已更新', '已在后台下载新的中文翻译，刷新页面后生效。');
-                    }
-                } catch (e) {
+                let json = null;
+                let loadedFromCache = false;
+
+                if (cachedBundle && !cacheLooksLegacy) {
+                    json = cachedBundle;
+                    loadedFromCache = true;
                     if (DEBUG) {
-                        log.warn('Background bundle refresh failed:', e);
+                        log.info('Loaded bundle from cache:', json?._meta ?? null);
                     }
-                }
-            });
-        }
-
-        // Best-effort cache update for offline fallback (avoid hashing when loaded from cache).
-        if (!loadedFromCache) void saveBundleToCache(bundle, cachedRec);
-
-        try {
-            const addEntry = (key, value) => {
-                if (typeof key !== 'string' || !key) return;
-                if (typeof value === 'string' && value) {
-                    map[key] = value;
-                    return;
-                }
-                if (value && typeof value === 'object' && typeof value.translation === 'string' && value.translation) {
-                    map[key] = value.translation;
-                }
-            };
-
-            const ingestEntries = (entriesLike) => {
-                if (!entriesLike) return;
-                if (Array.isArray(entriesLike)) {
-                    for (const item of entriesLike) {
-                        if (Array.isArray(item) && item.length >= 2) {
-                            addEntry(item[0], item[1]);
-                        } else if (item && typeof item === 'object' && 'key' in item && 'value' in item) {
-                            addEntry(item.key, item.value);
+                } else if (cachedBundle) {
+                    // Prefer network once (but keep cache as fallback for offline)
+                    json = await fetchJsonWithFallback(
+                        buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
+                        { cache: 'no-cache' },
+                    );
+                    if (!json) {
+                        json = cachedBundle;
+                        loadedFromCache = true;
+                        if (DEBUG) {
+                            log.info('Loaded legacy bundle from cache:', json?._meta ?? null);
                         }
                     }
-                    return;
+                } else {
+                    json = await fetchJsonWithFallback(
+                        buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
+                        { cache: 'no-cache' },
+                    );
                 }
-                if (typeof entriesLike === 'object') {
-                    for (const [key, value] of Object.entries(entriesLike)) addEntry(key, value);
-                }
-            };
 
-            ingestEntries(bundle?.entries);
-            ingestEntries(bundle?.entriesCaseSensitive);
+                bundleMeta = json?._meta ?? null;
+                let count = 0;
+                count += ingestEntriesToMap(json?.entries);
+                count += ingestEntriesToMap(json?.entriesCaseSensitive);
+                if (DEBUG) {
+                    log.info('Loaded bundle:', count, 'entries');
+                }
+
+                // Best-effort cache update
+                if (!loadedFromCache) {
+                    void saveBundleToCache(json);
+                } else {
+                    // Background refresh when loaded from cache
+                    const currentGeneratedAt = cachedRec?.generatedAt ?? json?._meta?.generatedAt ?? null;
+                    const currentContentHash = cachedRec?.contentHash ?? null;
+                    const schedule = (fn) => {
+                        const ric = window.requestIdleCallback?.bind(window);
+                        if (ric) return ric(fn, { timeout: 5000 });
+                        return setTimeout(fn, 2500);
+                    };
+                    schedule(async () => {
+                        try {
+                            const latest = await fetchJsonWithFallback(
+                                buildUrlCandidates(`${FORCE_LANG}/bundle.json`),
+                                { cache: 'no-cache' },
+                            );
+                            const saved = await saveBundleToCache(latest, cachedRec);
+                            const latestGeneratedAt = saved?.generatedAt ?? latest?._meta?.generatedAt ?? null;
+                            const latestContentHash = saved?.contentHash ?? null;
+                            const changed = Boolean(saved?.changed);
+                            const hasDifferentGeneratedAt = typeof latestGeneratedAt === 'string'
+                                && latestGeneratedAt
+                                && typeof currentGeneratedAt === 'string'
+                                && currentGeneratedAt
+                                && latestGeneratedAt !== currentGeneratedAt;
+                            const hasDifferentContentHash = typeof latestContentHash === 'string'
+                                && latestContentHash
+                                && typeof currentContentHash === 'string'
+                                && currentContentHash
+                                && latestContentHash !== currentContentHash;
+                            if (changed && (hasDifferentGeneratedAt || hasDifferentContentHash || !currentContentHash)) {
+                                try {
+                                    if (window.Notifier?.notify) {
+                                        window.Notifier.notify({
+                                            title: '翻译已更新',
+                                            message: '已在后台下载新的中文翻译，刷新页面后生效。',
+                                            timeout: 7000,
+                                        });
+                                    }
+                                } catch {
+                                    // ignore
+                                }
+                            }
+                        } catch (e) {
+                            if (DEBUG) {
+                                log.warn('Background bundle refresh failed:', e);
+                            }
+                        }
+                    });
+                }
+
+                return count > 0;
+            } catch {
+                return false;
+            }
+        };
+
+        // 优先加载 bundle（发布用单文件），失败再回退到分文件索引
+        try {
+            const ok = await loadMapFromBundle();
+            if (!ok && ENABLE_SPLIT_TRANSLATIONS_FALLBACK) {
+                try {
+                    const index = await fetchJsonWithFallback(
+                        buildUrlCandidates(`${FORCE_LANG}/_index.json`),
+                        { cache: 'no-cache' },
+                    );
+                    const files = Object.keys(index.files || {}).filter((f) =>
+                        !f.includes('/code.json')
+                        && !f.startsWith('locales/')
+                        && f !== 'overrides/userscript.json'
+                        && f !== 'bundle.json'
+                    );
+                    const results = await Promise.all(files.map(async (file) => {
+                        try {
+                            return await fetchJsonWithFallback(
+                                buildUrlCandidates(`${FORCE_LANG}/${file}`),
+                                { cache: 'no-cache' },
+                            );
+                        } catch {
+                            return null;
+                        }
+                    }));
+                    for (const data of results) {
+                        ingestEntriesToMap(data?.entries);
+                        ingestEntriesToMap(data?.entriesCaseSensitive);
+                    }
+                    if (DEBUG) {
+                        log.info('Loaded split translations:', files.length, 'files,', Object.keys(map).length, 'entries');
+                    }
+                } catch {
+                    log.error('Failed to load translations index.');
+                }
+            } else if (!ok) {
+                log.error('Failed to load bundle.json and split fallback is disabled.');
+            }
+        } catch (e) {
+            log.error('Failed to load translation resources:', e);
+        }
+
+        // Load user-defined translation overrides from localStorage.
+        // Must run BEFORE casefold/punctfold index building so overrides are included.
+        try {
+            const raw = localStorage.getItem('pokeclickerZhHansUserOverrides');
+            if (raw) {
+                const overrides = JSON.parse(raw);
+                if (overrides && typeof overrides === 'object') {
+                    let count = 0;
+                    for (const [k, v] of Object.entries(overrides)) {
+                        if (typeof k === 'string' && k && typeof v === 'string' && v) {
+                            map[k] = v;
+                            count++;
+                        }
+                    }
+                    if (DEBUG && count > 0) {
+                        log.info('Loaded user overrides:', count, 'entries');
+                    }
+                }
+            }
         } catch {
-            // ignore
+            // ignore invalid JSON
         }
 
         // Build a safe case-insensitive index for translation lookups.
@@ -1948,50 +2307,41 @@
         }
 
         try {
-            const config = loadUserscriptConfigFromBundle(bundle);
-            notifierLoadedMessage = config.notifierLoadedMessage || notifierLoadedMessage;
-            typeTranslations = config.types || typeTranslations;
-            if (config?.css?.badgeSuffix) userscriptCssLabels.badgeSuffix = config.css.badgeSuffix;
-            if (Array.isArray(config?.demixReplacements)) demixReplacements = config.demixReplacements;
-            if (config?.templates) {
-                templates.typePokemon = config.templates.typePokemon ?? templates.typePokemon;
-                templates.gymAt = config.templates.gymAt ?? templates.gymAt;
-                templates.trialAt = config.templates.trialAt ?? templates.trialAt;
-                templates.route.noRegion = config.templates.route?.noRegion ?? templates.route.noRegion;
-                templates.route.withRegion = config.templates.route?.withRegion ?? templates.route.withRegion;
-            }
-            if (Array.isArray(config.typeKeys) && config.typeKeys.length > 0) {
-                TYPE_KEYS = config.typeKeys;
-            }
-            if (Array.isArray(config.weatherTypeKeys) && config.weatherTypeKeys.length > 0) {
-                WEATHER_TYPE_KEYS = new Set(config.weatherTypeKeys);
-            }
-            if (typeof config.context?.treasuresGem === 'string' && config.context.treasuresGem) {
-                treasuresGemOverride = config.context.treasuresGem;
-            }
-            injectCssOverrides(config.css);
-        } catch {
-            injectCssOverrides(null);
-        }
+            const json = await fetchJsonWithFallback(
+                buildUrlCandidates(`${FORCE_LANG}/locales/pokemon.json`),
+                { cache: 'no-cache' },
+            );
+            if (json) {
+                const dict = {};
+                for (const [k, v] of Object.entries(json ?? {})) {
+                    if (k === 'alt' && v && typeof v === 'object') {
+                        for (const [altKey, altValue] of Object.entries(v)) {
+                            if (typeof altValue === 'string') dict[`alt.${altKey}`] = altValue;
+                        }
+                        continue;
+                    }
+                    if (typeof v === 'string') dict[k] = v;
+                }
+                pokemonTranslations = dict;
 
-        try {
-            pokemonTranslations = flattenPokemonTranslations(bundle?.pokemon ?? {});
-            const reverse = new Map();
-            for (const [en, zhRaw] of Object.entries(pokemonTranslations)) {
-                if (typeof zhRaw !== 'string' || !zhRaw) continue;
-                if (en.startsWith('alt.')) continue;
-                const zh = resolveI18NextNesting(zhRaw, pokemonTranslations);
-                if (!zh || typeof zh !== 'string') continue;
-                if (zh.length < 2) continue;
-                if (!/[\u4E00-\u9FFF]/.test(zh)) continue;
-                if (!reverse.has(zh)) reverse.set(zh, en);
+                const reverse = new Map();
+                for (const [en, zhRaw] of Object.entries(dict)) {
+                    if (typeof zhRaw !== 'string' || !zhRaw) continue;
+                    if (en.startsWith('alt.')) continue;
+                    const zh = resolveI18NextNesting(zhRaw, dict);
+                    if (!zh || typeof zh !== 'string') continue;
+                    if (zh.length < 2) continue;
+                    if (!/[\u4E00-\u9FFF]/.test(zh)) continue;
+                    if (!reverse.has(zh)) reverse.set(zh, en);
+                }
+                reversePokemonTranslations = Array.from(reverse.entries()).sort((a, b) => b[0].length - a[0].length);
             }
-            reversePokemonTranslations = Array.from(reverse.entries()).sort((a, b) => b[0].length - a[0].length);
         } catch {
             // ignore
         }
 
         const patterns = buildPatterns(map);
+        Object.defineProperty(patterns, '__pkcIndex', { value: buildPatternIndex(patterns) });
         const cache = new TranslationCache(50000);
 
         const translateWithFallback = (text) => {
@@ -2038,7 +2388,42 @@
 
         translateForNotifier = translateForNotifierImpl;
         window.PokeClickerZhHans.lookup = translateForNotifierImpl;
-        window.PokeClickerZhHans.getBundleMeta = () => bundle?._meta ?? null;
+        window.PokeClickerZhHans.getBundleMeta = () => bundleMeta;
+
+        /**
+         * Persist a user-defined translation override.
+         * @param {string} en - English key.
+         * @param {string} zh - Chinese translation value.
+         */
+        window.PokeClickerZhHans.setOverride = (en, zh) => {
+            if (typeof en !== 'string' || !en) return;
+            if (typeof zh !== 'string' || !zh) return;
+            try {
+                const raw = localStorage.getItem('pokeclickerZhHansUserOverrides');
+                const overrides = raw ? JSON.parse(raw) : {};
+                overrides[en] = zh;
+                localStorage.setItem('pokeclickerZhHansUserOverrides', JSON.stringify(overrides));
+                map[en] = zh;
+                cache.delete(en);
+                cache.delete(normalizeForLookup(en));
+            } catch {
+                // ignore
+            }
+        };
+
+        /** Return translation runtime statistics. */
+        window.PokeClickerZhHans.stats = () => ({
+            mapSize: Object.keys(map).length,
+            cacheSize: cache.size,
+            cacheHits: _cacheHits,
+            cacheMisses: _cacheMisses,
+            cacheHitRate: (_cacheHits + _cacheMisses) > 0
+                ? (_cacheHits / (_cacheHits + _cacheMisses) * 100).toFixed(1) + '%'
+                : 'N/A',
+            missingCount: missingSet.size,
+            patternCount: patterns.length,
+            normCacheSize: _normCache.size,
+        });
 
         // Patch the Knockout tooltip binding so titles are translated before Bootstrap renders them.
         // This covers dynamic HTML tooltips like DayCycle.tooltip() in `townMap.html`.
@@ -2145,20 +2530,10 @@
         };
         pollUntil(tryPatchBootstrapTooltip);
 
-        // If game-side i18n isn't loaded (bad URL/path), this helps quickly confirm which bundle is active.
         if (DEBUG) {
-            log.info('bundle meta:', bundle?._meta ?? null);
-            log.info('lookup sample:', {
-                'Halloween!': resolveTranslation('Halloween!', map, patterns),
-                'Spooky Pokémon are trick-or-treating for a limited time around Kanto, Johto and Hoenn.': resolveTranslation(
-                    'Spooky Pokémon are trick-or-treating for a limited time around Kanto, Johto and Hoenn.',
-                    map,
-                    patterns,
-                ),
-            });
+            log.info('bundle meta:', bundleMeta);
         }
 
-        // Patch non-observable runtime strings (e.g. SpecialEvent.description) so KO html-binding renders Chinese immediately.
         const tryPatchSpecialEvents = () => {
             try {
                 const events = window.App?.game?.specialEvents?.events;
@@ -2175,8 +2550,8 @@
         };
         pollUntil(tryPatchSpecialEvents);
 
-        const getObserverRoot = () => document.body || document.documentElement;
-        applyMapToRoot(getObserverRoot(), map, patterns, cache);
+        applyMapToRoot(document.documentElement, map, patterns, cache);
+        removeLoadingBanner();
 
         const pendingRoots = new Set();
         const pendingAttrs = new Set();
@@ -2185,6 +2560,8 @@
 
         const addRoot = (node) => {
             if (!node) return;
+            // If document.body is already queued, any child is redundant.
+            if (pendingRoots.has(document.body) && document.body?.contains?.(node)) return;
             // Skip if an existing root already covers this node.
             for (const r of pendingRoots) {
                 if (r === node) return;
@@ -2202,6 +2579,17 @@
             scheduled = true;
             const flush = () => {
                 scheduled = false;
+
+                // If pending items exceed a threshold, merge into a single full-document traversal.
+                const totalPending = pendingRoots.size + pendingAttrs.size + pendingText.size;
+                if (totalPending > 200) {
+                    pendingRoots.clear();
+                    pendingAttrs.clear();
+                    pendingText.clear();
+                    applyMapToRoot(document.documentElement, map, patterns, cache);
+                    return;
+                }
+
                 const roots = Array.from(pendingRoots);
                 const attrs = Array.from(pendingAttrs);
                 const textNodes = Array.from(pendingText);
@@ -2245,35 +2633,13 @@
             if (pendingRoots.size || pendingAttrs.size || pendingText.size) scheduleFlush();
         });
 
-        let observerRoot = getObserverRoot();
-        observer.observe(observerRoot, {
+        observer.observe(document.documentElement, {
             subtree: true,
             childList: true,
             characterData: true,
             attributes: true,
             attributeFilter: attrNames,
         });
-
-        const trySwitchToBody = () => {
-            const body = document.body;
-            if (!body || observerRoot === body) return;
-            observerRoot = body;
-            observer.disconnect();
-            observer.observe(observerRoot, {
-                subtree: true,
-                childList: true,
-                characterData: true,
-                attributes: true,
-                attributeFilter: attrNames,
-            });
-        };
-        if (observerRoot !== document.body) {
-            if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', trySwitchToBody, { once: true });
-            } else {
-                trySwitchToBody();
-            }
-        }
     };
 
     let started = false;

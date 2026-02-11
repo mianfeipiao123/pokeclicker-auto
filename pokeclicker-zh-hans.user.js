@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.67
+// @version      0.1.68
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -84,7 +84,11 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.67';
+    const SCRIPT_VERSION = '0.1.68';
+
+    // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
+    // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。
+    const ENABLE_SPLIT_TRANSLATIONS_FALLBACK = true;
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -346,6 +350,7 @@
             forceLang: FORCE_LANG,
             overrideGameTranslations: OVERRIDE_GAME_TRANSLATIONS,
             forceI18nextLang: FORCE_I18NEXT_LANG,
+            splitFallbackEnabled: ENABLE_SPLIT_TRANSLATIONS_FALLBACK,
             translations: TRANSLATIONS_PARAM_VALUE,
             translationsBaseUrl: TRANSLATIONS_BASE_URL,
             translationsBaseUrlCandidates: TRANSLATIONS_BASE_URL_CANDIDATES,
@@ -2194,7 +2199,7 @@
         // 优先加载 bundle（发布用单文件），失败再回退到分文件索引
         try {
             const ok = await loadMapFromBundle();
-            if (!ok) {
+            if (!ok && ENABLE_SPLIT_TRANSLATIONS_FALLBACK) {
                 try {
                     const index = await fetchJsonWithFallback(
                         buildUrlCandidates(`${FORCE_LANG}/_index.json`),
@@ -2226,6 +2231,8 @@
                 } catch {
                     log.error('Failed to load translations index.');
                 }
+            } else if (!ok) {
+                log.error('Failed to load bundle.json and split fallback is disabled.');
             }
         } catch (e) {
             log.error('Failed to load translation resources:', e);

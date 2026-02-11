@@ -11,6 +11,7 @@ orphaned-filtered.json
 rematch-suggestions.json
 reports/
 tooling/.state.json
+nul
 
 # 提取的字符串缓存
 zh-Hans/_extracted.json

@@ -16,7 +16,11 @@
 
 点击下方链接安装脚本：
 
-**[点击安装脚本](https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.user.js)**
+- 完整版（优先加载 `bundle.json`，失败回退分文件索引）  
+  **[点击安装脚本](https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.user.js)**
+
+- bundle-only（只加载 `bundle.json`，不回退分文件索引）  
+  **[点击安装脚本（bundle-only）](https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.bundle-only.user.js)**
 
 ## 使用说明
 

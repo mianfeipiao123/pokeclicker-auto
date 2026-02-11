@@ -5019,7 +5019,7 @@
       "line": 4496
     },
     "That was a good beat-down, Champion! You sure wrecked me again. This just proves how much of a tough trainer you are. Here is the Memory you've been looking for. </br><img src=\"assets/images/items/quest/Bug_Memory_Silvally.png\"></br><i>You obtained a Bug Silvally Memory!</i>": {
-      "translation": "",
+      "translation": "打得真漂亮，冠军！你又把我打得落花流水。这更证明你是一位多么强大的训练家。这就是你要找的存储碟。 </br><img src=\"assets/images/items/quest/Bug_Memory_Silvally.png\"></br><i>你获得了虫子存储碟！</i>",
       "line": 4498
     },
     "assets/images/items/quest/Bug_Memory_Silvally.png": {
@@ -5051,7 +5051,7 @@
       "line": 4513
     },
     "You're pretty talented, $playername$! No wonder you've become the Champion of Alola! Anyways, here is the Memory. I said I'd give it to you. </br><img src=\"assets/images/items/quest/Flying_Memory_Silvally.png\"></br><i>You obtained a Flying Silvally Memory!</i>": {
-      "translation": "",
+      "translation": "你很有天赋啊，$playername$！难怪你能成为阿罗拉冠军！总之，这是存储碟。我说过会给你的。 </br><img src=\"assets/images/items/quest/Flying_Memory_Silvally.png\"></br><i>你获得了飞翔存储碟！</i>",
       "line": 4515
     },
     "assets/images/items/quest/Flying_Memory_Silvally.png": {
@@ -5075,7 +5075,7 @@
       "line": 4529
     },
     "You're pretty strong, $playername$. Maybe my Pokémon and I need to go through more together to deepen our friendship. Take the Memory with you, you deserve it. </br><img src=\"assets/images/items/quest/Poison_Memory_Silvally.png\"></br><i>You obtained a Poison Silvally Memory!</i>": {
-      "translation": "",
+      "translation": "你很强，$playername$。也许我和宝可梦还得经历更多，才能加深彼此的羁绊。把这张存储碟带走吧，这是你应得的。 </br><img src=\"assets/images/items/quest/Poison_Memory_Silvally.png\"></br><i>你获得了毒存储碟！</i>",
       "line": 4532
     },
     "assets/images/items/quest/Poison_Memory_Silvally.png": {
@@ -5107,7 +5107,7 @@
       "line": 4547
     },
     "That was so much fun, $playername$! I hope you come by more times so we can battle more often! Anyways, here is the Memory Mimikyu had found. </br><img src=\"assets/images/items/quest/Ghost_Memory_Silvally.png\"></br><i>You obtained a Ghost Silvally Memory!</i>": {
-      "translation": "",
+      "translation": "刚才真是太有意思了，$playername$！希望你以后也常来，我们就能经常对战了！总之，这是谜拟丘找到的存储碟。 </br><img src=\"assets/images/items/quest/Ghost_Memory_Silvally.png\"></br><i>你获得了幽灵存储碟！</i>",
       "line": 4549
     },
     "assets/images/items/quest/Ghost_Memory_Silvally.png": {
@@ -5131,7 +5131,7 @@
       "line": 4561
     },
     "You're still pretty strong after all that time since our last battle. Well, take this Memory. Now off with you! </br><img src=\"assets/images/items/quest/Psychic_Memory_Silvally.png\"></br><i>You obtained a Psychic Silvally Memory!</i>": {
-      "translation": "",
+      "translation": "你在那之后依然很强嘛。那就拿着这张存储碟吧。快走吧！ </br><img src=\"assets/images/items/quest/Psychic_Memory_Silvally.png\"></br><i>你获得了精神存储碟！</i>",
       "line": 4566
     },
     "assets/images/items/quest/Psychic_Memory_Silvally.png": {
@@ -5159,7 +5159,7 @@
       "line": 4578
     },
     "That was a good match! Thank you for helping me train in here and as a reward for being the first person to defeat me, you can take this strange disk! </br><img src=\"assets/images/items/quest/Steel_Memory_Silvally.png\"></br><i>You obtained a Steel Silvally Memory!</i>": {
-      "translation": "",
+      "translation": "打得不错！谢谢你陪我在这里训练，而且作为第一个打败我的人，这张奇怪的圆盘就送给你了！ </br><img src=\"assets/images/items/quest/Steel_Memory_Silvally.png\"></br><i>你获得了钢铁存储碟！</i>",
       "line": 4583
     },
     "assets/images/items/quest/Steel_Memory_Silvally.png": {
@@ -5183,7 +5183,7 @@
       "line": 4598
     },
     "And the crowd goes wild! $playername$! You should come by my Gym someday! It's in Malie city on Ula'ula Island right above the Poké Mart, can't miss it. What? You've never seen it? It's totally there and a real thing! Anyways you can take this.. What was it's name? Oh, right. You can take this Memory with you. </br><img src=\"assets/images/items/quest/Dragon_Memory_Silvally.png\"></br><i>You obtained a Dragon Silvally Memory!</i>": {
-      "translation": "",
+      "translation": "观众都沸腾了！$playername$！有空来我道馆坐坐吧！就在乌拉乌拉岛马利埃市的宝可梦集市上面，绝对不会错过。什么？你没见过？它当然在，真的！总之，这个……它叫什么来着？哦对，你把这张存储碟带走吧。 </br><img src=\"assets/images/items/quest/Dragon_Memory_Silvally.png\"></br><i>你获得了龙存储碟！</i>",
       "line": 4600
     },
     "assets/images/items/quest/Dragon_Memory_Silvally.png": {

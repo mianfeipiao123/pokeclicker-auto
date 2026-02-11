@@ -359,7 +359,7 @@
       "line": 221
     },
     "Wellspring_Mask": {
-      "translation": "泉源面膜",
+      "translation": "水井面具",
       "line": 223
     },
     "Wellspring Mask": {
@@ -371,7 +371,7 @@
       "line": 223
     },
     "Hearthflame_Mask": {
-      "translation": "炉火_面具",
+      "translation": "火灶面具",
       "line": 225
     },
     "Hearthflame Mask": {
@@ -379,15 +379,15 @@
       "line": 225
     },
     "Cornerstone_Mask": {
-      "translation": "基石_面具",
+      "translation": "础石面具",
       "line": 227
     },
     "Cornerstone Mask": {
-      "translation": "基石面具",
+      "translation": "础石面具",
       "line": 227
     },
     "Booster_Energy": {
-      "translation": "助推器_能量",
+      "translation": "驱劲能量",
       "line": 229
     },
     "Booster Energy": {
@@ -539,7 +539,7 @@
       "line": 251
     },
     "Agile_Scroll": {
-      "translation": "敏捷_滚动",
+      "translation": "敏捷卷轴",
       "line": 253
     },
     "Agile Scroll": {
@@ -547,11 +547,11 @@
       "line": 253
     },
     "Strong_Scroll": {
-      "translation": "强卷轴",
+      "translation": "刚猛卷轴",
       "line": 254
     },
     "Strong Scroll": {
-      "translation": "强力卷轴",
+      "translation": "刚猛卷轴",
       "line": 254
     },
     "Power_Herb": {

@@ -1161,7 +1161,7 @@
       "line": 2385
     },
     "Memory_Silvally": {
-      "translation": "记忆_银伴战兽",
+      "translation": "存储碟",
       "line": 2395
     },
     "ClearBattleFrontier": {
@@ -1177,7 +1177,7 @@
       "line": 2537
     },
     "Pink_Bow": {
-      "translation": "粉色_蝴蝶结",
+      "translation": "粉红色丝带",
       "line": 2554
     },
     "Fairy_Feather": {
@@ -1543,7 +1543,7 @@
       "line": 2768
     },
     "Items_Min": {
-      "translation": "物品_最小值",
+      "translation": "最小物品数",
       "line": 2769
     },
     "Energy_Gain": {
@@ -1551,7 +1551,7 @@
       "line": 2770
     },
     "Energy_Regen_Time": {
-      "translation": "能量_再生_时间",
+      "translation": "能量恢复时间",
       "line": 2771
     },
     "Daily_Deals_Max": {
@@ -1563,23 +1563,23 @@
       "line": 2773
     },
     "Survey_Cost": {
-      "translation": "调查_成本",
+      "translation": "调查费用",
       "line": 2774
     },
     "Items_All": {
-      "translation": "物品_全部",
+      "translation": "物品（全部）",
       "line": 2775
     },
     "Reduced_Shards": {
-      "translation": "减少_碎片",
+      "translation": "碎片消耗减少",
       "line": 2776
     },
     "Reduced_Plates": {
-      "translation": "减少_板块",
+      "translation": "石板消耗减少",
       "line": 2777
     },
     "Reduced_Evolution_Items": {
-      "translation": "减少的_进化_项目",
+      "translation": "进化道具消耗减少",
       "line": 2778
     },
     "Reduced_Fossil_Pieces": {

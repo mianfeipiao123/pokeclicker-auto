@@ -15,7 +15,7 @@
       "line": 2
     },
     "PokeBlock_${...}": {
-      "translation": "PokeBlock_${...}",
+      "translation": "宝可方块${...}",
       "line": 8,
       "_rematchedFrom": "PokeBlock_${...}",
       "_confidence": 0.85

@@ -1095,7 +1095,7 @@
       "line": 223
     },
     "Fighting_Memory_Silvally": {
-      "translation": "战斗_记忆_银伴战兽",
+      "translation": "战斗存储碟",
       "line": 224
     },
     "Fighting Memory": {
@@ -1111,7 +1111,7 @@
       "line": 224
     },
     "Rock_Memory_Silvally": {
-      "translation": "岩石记忆银伴战兽",
+      "translation": "岩石存储碟",
       "line": 225
     },
     "Rock Memory": {
@@ -1123,7 +1123,7 @@
       "line": 225
     },
     "Dark_Memory_Silvally": {
-      "translation": "黑暗记忆银伴战兽",
+      "translation": "黑暗存储碟",
       "line": 226
     },
     "Dark Memory": {
@@ -1135,7 +1135,7 @@
       "line": 226
     },
     "Fairy_Memory_Silvally": {
-      "translation": "童话_记忆_银伴战兽",
+      "translation": "妖精存储碟",
       "line": 227
     },
     "Fairy Memory": {
@@ -1147,7 +1147,7 @@
       "line": 227
     },
     "Water_Memory_Silvally": {
-      "translation": "水记忆银伴战兽",
+      "translation": "清水存储碟",
       "line": 228
     },
     "Water Memory": {
@@ -1159,7 +1159,7 @@
       "line": 228
     },
     "Grass_Memory_Silvally": {
-      "translation": "草记忆银伴战兽",
+      "translation": "青草存储碟",
       "line": 229
     },
     "Grass Memory": {
@@ -1171,7 +1171,7 @@
       "line": 229
     },
     "Fire_Memory_Silvally": {
-      "translation": "火记忆银伴战兽",
+      "translation": "火焰存储碟",
       "line": 230
     },
     "Fire Memory": {
@@ -1183,7 +1183,7 @@
       "line": 230
     },
     "Electric_Memory_Silvally": {
-      "translation": "电记忆银伴战兽",
+      "translation": "电子存储碟",
       "line": 231
     },
     "Electric Memory": {
@@ -1195,7 +1195,7 @@
       "line": 231
     },
     "Ice_Memory_Silvally": {
-      "translation": "冰记忆银伴战兽",
+      "translation": "冰雪存储碟",
       "line": 232
     },
     "Ice Memory": {
@@ -1207,7 +1207,7 @@
       "line": 232
     },
     "Ground_Memory_Silvally": {
-      "translation": "地面记忆银伴战兽",
+      "translation": "大地存储碟",
       "line": 233
     },
     "Ground Memory": {
@@ -1219,11 +1219,11 @@
       "line": 233
     },
     "Bug_Memory_Silvally": {
-      "translation": "Bug_Memory_银伴战兽",
+      "translation": "虫子存储碟",
       "line": 234
     },
     "Bug Memory": {
-      "translation": "虫存储碟",
+      "translation": "虫子存储碟",
       "line": 234
     },
     "One of Silvally's memories, obtained from Guzma in Po Town": {
@@ -1231,7 +1231,7 @@
       "line": 234
     },
     "Flying_Memory_Silvally": {
-      "translation": "飞行记忆银伴战兽",
+      "translation": "飞翔存储碟",
       "line": 235
     },
     "Flying Memory": {
@@ -1243,7 +1243,7 @@
       "line": 235
     },
     "Poison_Memory_Silvally": {
-      "translation": "毒_记忆_银伴战兽",
+      "translation": "毒存储碟",
       "line": 236
     },
     "Poison Memory": {
@@ -1255,7 +1255,7 @@
       "line": 236
     },
     "Ghost_Memory_Silvally": {
-      "translation": "幽灵_记忆_银伴战兽",
+      "translation": "幽灵存储碟",
       "line": 237
     },
     "Ghost Memory": {
@@ -1267,7 +1267,7 @@
       "line": 237
     },
     "Psychic_Memory_Silvally": {
-      "translation": "心灵_记忆_银伴战兽",
+      "translation": "精神存储碟",
       "line": 238
     },
     "Psychic Memory": {
@@ -1279,7 +1279,7 @@
       "line": 238
     },
     "Steel_Memory_Silvally": {
-      "translation": "钢_记忆_银伴战兽",
+      "translation": "钢铁存储碟",
       "line": 239
     },
     "Steel Memory": {
@@ -1291,7 +1291,7 @@
       "line": 239
     },
     "Dragon_Memory_Silvally": {
-      "translation": "龙_记忆_银伴战兽",
+      "translation": "龙存储碟",
       "line": 240
     },
     "Dragon Memory": {
@@ -1919,11 +1919,11 @@
       "line": 340
     },
     "Palaeontologist_token": {
-      "translation": "古生物学家_token",
+      "translation": "古生物学家代币",
       "line": 342
     },
     "Palaeontologist Token": {
-      "translation": "古生物学家令牌",
+      "translation": "古生物学家代币",
       "line": 342
     },
     "Pinkan Arbok": {

@@ -16,27 +16,13 @@
 
 点击下方链接安装脚本：
 
-- 完整版（优先加载 `bundle.json`，失败回退分文件索引）  
-  **[点击安装脚本](https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.user.js)**
-
-- bundle-only（只加载 `bundle.json`，不回退分文件索引）  
+- bundle-only（只加载 `bundle.json`，请求更少）  
   **[点击安装脚本（bundle-only）](https://raw.githubusercontent.com/mianfeipiao123/pokeclicker-auto/main/pokeclicker-zh-hans.bundle-only.user.js)**
 
 ## 使用说明
 
 安装完成后，访问 [pokeclicker.com](https://www.pokeclicker.com/) 即可自动生效，游戏界面将显示为简体中文。
 
-### 可选配置
-
-脚本支持通过浏览器控制台设置以下选项：
-
-```javascript
-// 开启调试模式（显示未翻译的文本）
-localStorage.setItem('pokeclickerZhHansDebug', 'true');
-
-// 关闭调试模式
-localStorage.removeItem('pokeclickerZhHansDebug');
-```
 
 ## 更新脚本
 

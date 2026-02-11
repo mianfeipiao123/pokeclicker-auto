@@ -7,7 +7,7 @@
   },
   "entries": {
     "megastone": {
-      "translation": "巨石",
+      "translation": "超级石",
       "line": 2
     },
     "assets/images/megaStone/${...}.png": {
@@ -15,7 +15,7 @@
       "line": 12
     },
     "Use a Key Stone to Mega Evolve.": {
-      "translation": "使用钥匙石进行超级进化。",
+      "translation": "使用钥石进行超级进化。",
       "line": 17
     },
     "en-US": {

@@ -103,7 +103,7 @@
       "line": 37
     },
     "Shortcut for the Castform (weather) App available after clearing Weather Institute 250 times": {
-      "translation": "通过气象研究所250次后即可使用 飘浮泡泡（天气）应用程序的快捷方式",
+      "translation": "通过气象研究所250次后即可使用飘浮泡泡（天气）应用程序的快捷方式",
       "line": 38
     },
     "Shortcut for the Purify Chamber available upon purifying your first Shadow Pokémon": {
@@ -215,7 +215,7 @@
       "line": 65
     },
     "Aggronite obtain method changed to Legendary loot in Rusturf Tunnel": {
-      "translation": "锈石隧道中的 Aggronite 获取方法更改为传奇战利品",
+      "translation": "锈石隧道中的波士可多拉ite 获取方法更改为传奇战利品",
       "line": 66
     },
     "Wild shiny Pokémon will now always drop their rare hold item upon being defeated": {
@@ -455,7 +455,7 @@
       "line": 136
     },
     "Renamed Ditto (Transforming) to Ditto (Magikarp)": {
-      "translation": "将 百变怪（变形）重命名为 百变怪（鲤鱼王）",
+      "translation": "将百变怪（变形）重命名为百变怪（鲤鱼王）",
       "line": 137
     },
     "Added Pokémon name translations to several additional locations": {
@@ -727,7 +727,7 @@
       "line": 213
     },
     "Pokédex EVs display now includes decimals": {
-      "translation": "图鉴 努力值显示现在包含小数",
+      "translation": "图鉴努力值显示现在包含小数",
       "line": 214
     },
     "Pokéball Selector & Pokémon List modules can be vertically resized": {
@@ -759,7 +759,7 @@
       "line": 226
     },
     "Friend Safari rotation": {
-      "translation": "好友 Safari 轮换",
+      "translation": "朋友狩猎地带轮换",
       "line": 227
     },
     "Some achievements appearing in the wrong category": {
@@ -883,7 +883,7 @@
       "line": 274
     },
     "Safari animation speed increases with level": {
-      "translation": "Safari 动画速度随等级提高",
+      "translation": "狩猎地带动画速度随等级提高",
       "line": 275
     },
     "Weather rebalanced slightly": {
@@ -907,11 +907,11 @@
       "line": 280
     },
     "Catching a shiny in the Safari zone grants additional Safari EXP": {
-      "translation": "在 Safari 区域捕获闪光会获得额外的 狩猎经验",
+      "translation": "在狩猎地带捕获闪光会获得额外的狩猎经验",
       "line": 281
     },
     "Safari items spawning in inaccessible locations": {
-      "translation": "Safari 物品在无法到达的位置生成",
+      "translation": "狩猎地带物品生成在无法到达的位置",
       "line": 285
     },
     "Gem & Shard traders not having map overlay colors": {
@@ -919,7 +919,7 @@
       "line": 286
     },
     "Friend Safari appearing as uncaught on the map": {
-      "translation": "Friend Safari 在地图上显示为未捕获",
+      "translation": "朋友狩猎地带在地图上显示为未捕获",
       "line": 287
     },
     "v0.10.13": {
@@ -943,15 +943,15 @@
       "line": 294
     },
     "Adjust Safari Zone item spawning": {
-      "translation": "调整 Safari 区域物品生成",
+      "translation": "调整狩猎地带物品生成",
       "line": 295
     },
     "Replaced Pancham with Carbink in Mystery Eggs": {
-      "translation": "将神秘蛋中的 Pancham 替换为 Carbink",
+      "translation": "将神秘蛋中的顽皮熊猫替换为小碎钻",
       "line": 296
     },
     "Safari broken fences": {
-      "translation": "Safari 打破围栏",
+      "translation": "狩猎地带围栏破损",
       "line": 300
     },
     "Saves with encoded text": {
@@ -971,7 +971,7 @@
       "line": 306
     },
     "Safari XP & Safari Level - see the Help tab in the Safari Zone for more information": {
-      "translation": "狩猎经验 和 狩猎等级 - 请参阅狩猎地带中的“帮助”选项卡以获取更多信息",
+      "translation": "狩猎经验和狩猎等级 - 请参阅狩猎地带中的“帮助”选项卡以获取更多信息",
       "line": 307
     },
     "Safari keybinds": {
@@ -1063,7 +1063,7 @@
       "line": 337
     },
     "Hotkey to open Poké Mart shop": {
-      "translation": "打开 Poké Mart 商店的热键",
+      "translation": "打开友谊商店的热键",
       "line": 338
     },
     "Dungeon chests have a visual difference based on loot tier": {
@@ -1295,7 +1295,7 @@
       "line": 429
     },
     "Added PokéRus indicator to shops and Safari Zone": {
-      "translation": "为商店和狩猎地带添加了 PokéRus 指示器",
+      "translation": "为商店和狩猎地带添加了宝可病毒指示器",
       "line": 430
     },
     "Added more Held Items": {
@@ -1303,7 +1303,7 @@
       "line": 431
     },
     "Mapcolor for missing PokéRus Resistant": {
-      "translation": "缺少 PokéRus Resistant 的地图颜色",
+      "translation": "缺少宝可病毒抵抗的地图颜色",
       "line": 432
     },
     "Added a mute button": {
@@ -1399,7 +1399,7 @@
       "line": 468
     },
     "Kecleon overworld battles added": {
-      "translation": "添加了 变隐龙 主世界战斗",
+      "translation": "添加了变隐龙主世界战斗",
       "line": 469
     },
     "New Challenge mode added": {
@@ -1555,7 +1555,7 @@
       "line": 524
     },
     "Sudowoodo overworld battles added": {
-      "translation": "添加了 树才怪 主世界战斗",
+      "translation": "添加了树才怪主世界战斗",
       "line": 525
     },
     "Sevii now has it's own achievement pool": {
@@ -1623,7 +1623,7 @@
       "line": 546
     },
     "New Furfrou form added": {
-      "translation": "添加了新的 Furfrou 表单",
+      "translation": "添加了新的多丽米亚表单",
       "line": 547
     },
     "Buffed Pinkan berry harvest rate": {
@@ -1967,7 +1967,7 @@
       "line": 670
     },
     "Updated Floette (Eternal) stats": {
-      "translation": "更新了 Floette（永恒）统计数据",
+      "translation": "更新了花叶蒂（永恒）统计数据",
       "line": 671
     },
     "Display EV stats in pokédex": {
@@ -2595,7 +2595,7 @@
       "line": 853
     },
     "Reduced cost of Furfrou (Kabuki)": {
-      "translation": "降低 Furfrou（歌舞伎）的成本",
+      "translation": "降低多丽米亚（歌舞伎）的成本",
       "line": 854
     },
     "Adjusted some NPCs": {
@@ -2739,7 +2739,7 @@
       "line": 894
     },
     "Adjusted Castform encounters": {
-      "translation": "调整后的Castform遭遇",
+      "translation": "调整后的飘浮泡泡遭遇",
       "line": 895
     },
     "Adjusted some items purchase locations": {
@@ -3059,7 +3059,7 @@
       "line": 994
     },
     "Vivillon base form changed to Vivillon (Meadow)": {
-      "translation": "Vivillon 基础形态更改为 Vivillon（草地）",
+      "translation": "彩粉蝶基础形态更改为彩粉蝶（草地）",
       "line": 995
     },
     "Removed Rare Candy from shops until it has a use": {
@@ -3067,7 +3067,7 @@
       "line": 996
     },
     "Vivillon quest step not being completable if you had already defeated stage 666 in the Battle Frontier": {
-      "translation": "如果你已经在对战开拓区击败了第666关，则 Vivillon 任务步骤无法完成",
+      "translation": "如果你已经在对战开拓区击败了第666关，则彩粉蝶任务步骤无法完成",
       "line": 997
     },
     "Some Gyms had incorrect HP": {
@@ -3127,7 +3127,7 @@
       "line": 1013
     },
     "Softlock from Safari Ticket and Shard Case if the user refreshed the page after obtaining a badge": {
-      "translation": "如果用户在获得徽章后刷新页面，则 Safari Ticket 和 Shard Case 会出现软锁",
+      "translation": "如果用户在获得徽章后刷新页面，则狩猎地带门票和碎片盒会出现软锁",
       "line": 1014
     },
     "Gym/Elite Four money reward amounts": {
@@ -3243,7 +3243,7 @@
       "line": 1049
     },
     "Attempt to fix svg image on map for older Safari versions": {
-      "translation": "尝试修复旧版 Safari 地图上的 svg 图像",
+      "translation": "尝试修复旧版狩猎地带地图上的 svg 图像",
       "line": 1050
     },
     "v0.7.9": {
@@ -3271,7 +3271,7 @@
       "line": 1060
     },
     "Safari Zone animations": {
-      "translation": "Safari 区动画",
+      "translation": "狩猎地带动画",
       "line": 1061
     },
     "Safari Zone encounter statistics": {
@@ -3405,7 +3405,7 @@
       "line": 1100
     },
     "Add more Burmy forms": {
-      "translation": "添加更多 Burmy 表格",
+      "translation": "添加更多结草儿表格",
       "line": 1101
     },
     "Underground items can spawn in any rotation": {
@@ -3429,7 +3429,7 @@
       "line": 1106
     },
     "Fix Heatran & Kyurem HP": {
-      "translation": "修复 Heatran 和 Kyurem HP",
+      "translation": "修复席多蓝恩和酋雷姆 HP",
       "line": 1107
     },
     "Underground no longer notifies on new game": {
@@ -3505,7 +3505,7 @@
       "line": 1130
     },
     "Add option to display Pokédex ID in hatchery": {
-      "translation": "添加在培育屋显示 图鉴 ID 的选项",
+      "translation": "添加在培育屋显示图鉴 ID 的选项",
       "line": 1131
     },
     "Save achievement filters": {
@@ -3641,7 +3641,7 @@
       "line": 1171
     },
     "Can no longer move around the Safari Zone before paying": {
-      "translation": "付款前无法再在 Safari 区域内移动",
+      "translation": "付款前无法再在狩猎地带内移动",
       "line": 1173
     },
     "v0.6.7": {
@@ -3717,7 +3717,7 @@
       "line": 1199
     },
     "Added toggle to hide shiny images in Pokédex": {
-      "translation": "添加了隐藏 图鉴 中闪光图像的开关",
+      "translation": "添加了隐藏图鉴中闪光图像的开关",
       "line": 1200
     },
     "New display options added to Hatchery": {
@@ -4173,7 +4173,7 @@
       "line": 1328
     },
     "Added region filter to Pokédex": {
-      "translation": "为 图鉴 添加了区域过滤器",
+      "translation": "为图鉴添加了区域过滤器",
       "line": 1329
     },
     "Added sort dropdown to the Hatchery": {
@@ -4265,7 +4265,7 @@
       "line": 1353
     },
     "Electrike is now exclusive to eggs": {
-      "translation": "落雷兽 现在是蛋的专属产品",
+      "translation": "落雷兽现在是蛋的专属产品",
       "line": 1354
     },
     "\"Complete the Kanto Pokédex!\" achievement now requires all 151 Kanto Pokémon": {
@@ -4293,7 +4293,7 @@
       "line": 1359
     },
     "Phione now obtained by breeding Manaphy": {
-      "translation": "Phione现在可以通过繁殖Manaphy获得",
+      "translation": "霏欧纳现在可以通过繁殖玛纳霏获得",
       "line": 1360
     },
     "Quest list should only auto refresh if all quest are claimed or it is a new day": {
@@ -4357,11 +4357,11 @@
       "line": 1377
     },
     "Updated Burmy (plant) shop image": {
-      "translation": "更新了 Burmy（植物）商店形象",
+      "translation": "更新了结草儿（植物）商店形象",
       "line": 1378
     },
     "Safari Zone modal should no longer be able to close without clicking the intended buttons": {
-      "translation": "Safari 区域模式应该不再能够在不点击预期按钮的情况下关闭",
+      "translation": "狩猎地带弹窗不应再能在未点击预期按钮时关闭",
       "line": 1379
     },
     "Updated Shoal Cave entry cost": {
@@ -4457,7 +4457,7 @@
       "line": 1408
     },
     "Add Croagunk to Route 212": {
-      "translation": "将 Croagunk 添加到212号道路",
+      "translation": "将不良蛙添加到212号道路",
       "line": 1409
     },
     "Move Hippopotas from Route 210 → Route 214": {
@@ -4485,7 +4485,7 @@
       "line": 1415
     },
     "Shaymin (sky) form types corrected": {
-      "translation": "Shaymin（天空）表单类型已更正",
+      "translation": "谢米（天空）表单类型已更正",
       "line": 1416
     },
     "v0.5.0": {
@@ -4621,7 +4621,7 @@
       "line": 1456
     },
     "Added Pokédex filter for Pokémon that drop rare items": {
-      "translation": "添加了 图鉴 过滤器，用于掉落稀有物品的宝可梦",
+      "translation": "添加了图鉴过滤器，用于掉落稀有物品的宝可梦",
       "line": 1457
     },
     "Added Deoxys quest line": {
@@ -4749,7 +4749,7 @@
       "line": 1494
     },
     "Update Safari Zone cost": {
-      "translation": "更新 Safari 区费用",
+      "translation": "更新狩猎地带费用",
       "line": 1495
     },
     "Underground now shows the 3 x 3 area which will be mined when using the hammer": {
@@ -4765,7 +4765,7 @@
       "line": 1500
     },
     "Added Dratini to Route 45": {
-      "translation": "将 迷你龙 添加到45号道路",
+      "translation": "将迷你龙添加到45号道路",
       "line": 1501
     },
     "Underground should now work better on smaller screens": {
@@ -4805,7 +4805,7 @@
       "line": 1512
     },
     "Added Poké Mart to shortcuts module": {
-      "translation": "将 Poké Mart 添加到快捷方式模块",
+      "translation": "将友谊商店添加到快捷方式模块",
       "line": 1513
     },
     "Updated Masterball pricing": {
@@ -4889,7 +4889,7 @@
       "line": 1537
     },
     "Added mobile support to the Safari Zone": {
-      "translation": "为 Safari 区域添加了移动支持",
+      "translation": "为狩猎地带添加了移动支持",
       "line": 1538
     },
     "The Cell Battery Oak Item will now gain points each time you find an item": {
@@ -4901,7 +4901,7 @@
       "line": 1540
     },
     "Updated the layout of the Safari Zone": {
-      "translation": "更新了 Safari 区域的布局",
+      "translation": "更新了狩猎地带的布局",
       "line": 1541
     },
     "Stone evolutions will now only show the Pokéball if all possible evolutions have been caught": {
@@ -4965,7 +4965,7 @@
       "line": 1562
     },
     "Added caught status indicator to Safari Zone entrance": {
-      "translation": "在 Safari 区域入口处添加了捕获状态指示器",
+      "translation": "在狩猎地带入口处添加了捕获状态指示器",
       "line": 1563
     },
     "Added caught status indicator to Dungeons": {
@@ -5049,7 +5049,7 @@
       "line": 1586
     },
     "Safari now uses a Safari Ball": {
-      "translation": "Safari 现在使用 Safari Ball",
+      "translation": "狩猎地带现在使用狩猎球",
       "line": 1587
     },
     "Added ability to track event Pokémon statistics": {
@@ -5241,11 +5241,11 @@
       "line": 1645
     },
     "Eevee will now evolve into Espeon or Umbreon depending on the time of day (when using Time stone)": {
-      "translation": "伊布 现在将根据一天中的时间进化为 太阳伊布 或 月亮伊布（使用时间宝石时）",
+      "translation": "伊布现在将根据一天中的时间进化为太阳伊布或月亮伊布（使用时间宝石时）",
       "line": 1646
     },
     "Can no longer evolve Magmar and Electabuzz before you are allowed": {
-      "translation": "在获得允许之前不能再进化 鸭嘴火兽 和 电击兽",
+      "translation": "在获得允许之前不能再进化鸭嘴火兽和电击兽",
       "line": 1647
     },
     "Fix breeding steps gained for newer regions": {
@@ -5321,7 +5321,7 @@
       "line": 1670
     },
     "Wailmer pail unlocks at 3 Cheri berries instead of 5": {
-      "translation": "吼吼鲸 桶需要3个 Cheri 树果解锁，而不是5个",
+      "translation": "吼吼鲸桶需要3个 Cheri 树果解锁，而不是5个",
       "line": 1671
     },
     "Tooltips no longer overstay their welcome on the Farm": {

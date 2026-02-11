@@ -29,7 +29,7 @@
       "line": 62
     },
     "assets/images/farm/${...}Tree${...}.png": {
-      "translation": "资产/图像/农场/${...}Tree${...}.png",
+      "translation": "",
       "line": 64,
       "_rematchedFrom": "assets/images/farm/${...}Tree${...}.png",
       "_confidence": 0.85
@@ -77,7 +77,7 @@
       "line": 286
     },
     "<br>": {
-      "translation": "<br>",
+      "translation": "",
       "line": 289
     },
     "url('assets/images/dynamic-background/pokemon/sparkle.png'),": {

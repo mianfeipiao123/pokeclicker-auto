@@ -35,7 +35,7 @@
       "line": 56
     },
     "assets/images/breeding/${...}.png": {
-      "translation": "资产/图像/育种/${...}.png",
+      "translation": "",
       "line": 58
     },
     "assets/images/megaStone/${...}.png": {
@@ -47,7 +47,7 @@
       "line": 62
     },
     "assets/images/underground/${...}.png": {
-      "translation": "资产/图像/地下/${...}.png",
+      "translation": "",
       "line": 67,
       "_rematchedFrom": "assets/images/underground/${...}.png",
       "_confidence": 0.85

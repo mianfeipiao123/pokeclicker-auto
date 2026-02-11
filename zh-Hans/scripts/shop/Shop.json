@@ -11,7 +11,7 @@
       "line": 5
     },
     "Poké Mart": {
-      "translation": "宝可超市",
+      "translation": "友谊商店",
       "line": 8
     },
     "show": {
@@ -23,13 +23,13 @@
       "line": 20
     },
     "Poké Mart ${...}": {
-      "translation": "宝可梦超市 ${...}",
+      "translation": "友谊商店 ${...}",
       "line": 47,
       "_rematchedFrom": "Poké Mart ${...}",
       "_confidence": 0.85
     },
     "input[name=\"amountOfItems\"]": {
-      "translation": "输入[名称=“项目数量”]",
+      "translation": "",
       "line": 50
     }
   }

@@ -31,7 +31,7 @@
       "line": 14
     },
     "#animateCurrency-${...}": {
-      "translation": "#animateCurrency-${...}",
+      "translation": "",
       "line": 17,
       "_rematchedFrom": "#animateCurrency-${...}",
       "_confidence": 0.85

@@ -43,7 +43,7 @@
       "line": 9
     },
     "#saveSelector .save-container": {
-      "translation": "#saveSelector .save-container",
+      "translation": "",
       "line": 15
     },
     "save": {
@@ -51,7 +51,7 @@
       "line": 17
     },
     "#saveSelector .new-import-buttons": {
-      "translation": "#saveSelector .new-import-buttons",
+      "translation": "",
       "line": 23
     },
     "none": {
@@ -135,7 +135,7 @@
       "line": 52
     },
     "#saveSelector, #context-menu a": {
-      "translation": "#saveSelector，#context-menu a",
+      "translation": "",
       "line": 61
     },
     "keydown": {

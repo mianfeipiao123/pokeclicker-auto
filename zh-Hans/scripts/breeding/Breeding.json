@@ -735,13 +735,13 @@
       "line": 586
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "资产/图像/个人资料/训练家-${...}.png",
+      "translation": "",
       "line": 586,
       "_rematchedFrom": "assets/images/profile/trainer-${...}.png",
       "_confidence": 0.85
     },
     "assets/images/currency/${...}.svg": {
-      "translation": "资产/图像/货币/${...}.svg",
+      "translation": "",
       "line": 586,
       "_rematchedFrom": "assets/images/currency/${...}.svg",
       "_confidence": 0.85

@@ -33,7 +33,7 @@
       "line": 63
     },
     "#safariBattleModal .pageItemFooter": {
-      "translation": "#safariBattleModal .pageItemFooter",
+      "translation": "",
       "line": 70
     },
     "cubic-bezier(0,0,0.4,1)": {
@@ -61,7 +61,7 @@
       "line": 99
     },
     "#safariBattleModal .enemy > img": {
-      "translation": "#safariBattleModal .enemy > img",
+      "translation": "",
       "line": 108
     },
     "opacity": {
@@ -127,7 +127,7 @@
       "_confidence": 0.85
     },
     "<img width=16px src=\"${...}\">": {
-      "translation": "<img width=16px src=\"${...}\">",
+      "translation": "",
       "line": 223,
       "_rematchedFrom": "<img width=16px src=\"${...}\">",
       "_confidence": 0.85
@@ -147,7 +147,7 @@
       "line": 239
     },
     "<ptcl>": {
-      "translation": "<ptcl>",
+      "translation": "",
       "line": 242
     },
     "<img src=\"assets/images/safari/hit.png\">": {

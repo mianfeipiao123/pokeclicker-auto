@@ -23,11 +23,11 @@
       "line": 15
     },
     "assets/images/currency/${...}.svg": {
-      "translation": "资产/图像/货币/${...}.svg",
+      "translation": "",
       "line": 15
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "资产/图像/个人资料/训练家-${...}.png",
+      "translation": "",
       "line": 27
     },
     "Jasmine": {

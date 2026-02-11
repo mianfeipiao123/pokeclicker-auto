@@ -31,7 +31,7 @@
       "line": 30
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "资产/图像/个人资料/训练家-${...}.png",
+      "translation": "",
       "line": 129
     },
     "pixelated": {
@@ -39,7 +39,7 @@
       "line": 129
     },
     "[FARM HAND] <img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}": {
-      "translation": "【农场帮手】<img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}",
+      "translation": "",
       "line": 129
     },
     "t have enough Farm Points to hire me... Cost: <img src=\"./assets/images/currency/farmPoint.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString(": {

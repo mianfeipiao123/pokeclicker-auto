@@ -63,7 +63,7 @@
       "line": 42
     },
     "<br>": {
-      "translation": "<br>",
+      "translation": "",
       "line": 45
     },
     "You ran out of gems for the ${...}'s effect!": {
@@ -85,7 +85,7 @@
       "line": 182
     },
     "<table class=\"w-100\">": {
-      "translation": "<table class=\"w-100\">",
+      "translation": "",
       "line": 183
     },
     "w-100": {
@@ -93,7 +93,7 @@
       "line": 183
     },
     "<tr>": {
-      "translation": "<tr>",
+      "translation": "",
       "line": 185
     },
     "text-left": {

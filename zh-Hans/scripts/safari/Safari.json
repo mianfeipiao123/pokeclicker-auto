@@ -11,7 +11,7 @@
       "line": 6
     },
     "#safariModal .modal-dialog": {
-      "translation": "#safariModal .modal-dialog",
+      "translation": "",
       "line": 52
     },
     "fence": {
@@ -31,7 +31,7 @@
       "line": 229
     },
     "You have an active Safari in ${...}. Do you want to quit that Safari and start a new one?": {
-      "translation": "你在 ${...} 有一个活跃的 Safari。你想退出 Safari 并开始一个新的吗？",
+      "translation": "你在 ${...} 有一个活跃的狩猎地带。你想退出狩猎地带并开始一个新的吗？",
       "line": 230,
       "_rematchedFrom": "You have an active Safari in ${...}. Do you want to quit that Safari and start a new one?",
       "_confidence": 0.85
@@ -67,7 +67,7 @@
       "_confidence": 0.85
     },
     "#safari-${...}-${...}": {
-      "translation": "#safari-${...}-${...}",
+      "translation": "",
       "line": 375,
       "_rematchedFrom": "#safari-${...}-${...}",
       "_confidence": 0.85

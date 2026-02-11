@@ -67,7 +67,7 @@
       "line": 39
     },
     "Dynamic Background Wyrdeer": {
-      "translation": "动态背景 Wyrdeer",
+      "translation": "动态背景诡角鹿",
       "line": 43
     },
     "Pinkan Scyther": {
@@ -521,11 +521,11 @@
       "line": 234
     },
     "Dynamic Background Kleavor": {
-      "translation": "动态背景Kleavor",
+      "translation": "动态背景劈斧螳螂",
       "line": 243
     },
     "Dynamic Background Ursaluna": {
-      "translation": "动态背景 Ursaluna",
+      "translation": "动态背景月月熊",
       "line": 244
     },
     "Dynamic Background Sneasler": {
@@ -557,7 +557,7 @@
       "line": 264
     },
     "Cipher Admin Ardos": {
-      "translation": "暗影密码团干部 阿多斯",
+      "translation": "暗影密码团干部阿多斯",
       "line": 265
     },
     "assets/images/profile/trainer-121.png": {
@@ -565,15 +565,15 @@
       "line": 272
     },
     "Alcremie sweets big icons": {
-      "translation": "霜奶仙 糖果大图标",
+      "translation": "霜奶仙糖果大图标",
       "line": 274
     },
     "Arctovish shop image": {
-      "translation": "Arctovish商店形象",
+      "translation": "鳃鱼海兽商店形象",
       "line": 275
     },
     "Arctozolt shop image": {
-      "translation": "Arctozolt 商店形象",
+      "translation": "雷鸟海兽商店形象",
       "line": 276
     },
     "Argus Steel": {
@@ -585,11 +585,11 @@
       "line": 278
     },
     "Bill's Grandpa with Eevee": {
-      "translation": "正辉的爷爷带着 伊布",
+      "translation": "正辉的爷爷带着伊布",
       "line": 279
     },
     "Bill's Grandpa without Eevee": {
-      "translation": "正辉的爷爷不带 伊布",
+      "translation": "正辉的爷爷不带伊布",
       "line": 280
     },
     "Black Augurite": {
@@ -609,7 +609,7 @@
       "line": 284
     },
     "Burmy (No Coat) Overworld": {
-      "translation": "Burmy（无外套）主世界",
+      "translation": "结草儿（无外套）主世界",
       "line": 285
     },
     "Butler": {
@@ -621,11 +621,11 @@
       "line": 287
     },
     "Cipher Admin Lovrina": {
-      "translation": "暗影密码团干部 洛夫里纳",
+      "translation": "暗影密码团干部洛夫里纳",
       "line": 288
     },
     "Cipher Commander Exol": {
-      "translation": "暗影密码团指挥官 埃克索尔",
+      "translation": "暗影密码团指挥官埃克索尔",
       "line": 289
     },
     "Cipher Peon Yellosix": {
@@ -677,7 +677,7 @@
       "line": 301
     },
     "Dracozolt shop image": {
-      "translation": "Dracozolt 商店形象",
+      "translation": "雷鸟龙商店形象",
       "line": 302
     },
     "Dream Orbs": {
@@ -697,7 +697,7 @@
       "line": 306
     },
     "Exposed Applin + Overworld": {
-      "translation": "暴露的 Applin + 主世界",
+      "translation": "暴露的啃果虫 + 主世界",
       "line": 307
     },
     "Flabébé Overworld (All but Red)": {
@@ -753,7 +753,7 @@
       "line": 320
     },
     "Grotle (Acorn) Shop Icon": {
-      "translation": "Grotle（橡子）商店图标",
+      "translation": "树林龟（橡子）商店图标",
       "line": 321
     },
     "Grotle and Friends": {
@@ -869,15 +869,15 @@
       "line": 349
     },
     "Magikarp Brown Stripes Shop Icon": {
-      "translation": "鲤鱼王 棕色条纹商店图标",
+      "translation": "鲤鱼王棕色条纹商店图标",
       "line": 350
     },
     "Magikarp Blue Raindrops Shop Icon": {
-      "translation": "鲤鱼王 蓝色雨滴商店图标",
+      "translation": "鲤鱼王蓝色雨滴商店图标",
       "line": 351
     },
     "Magikarp Saucy Violet Shop Icon": {
-      "translation": "鲤鱼王 俏皮的紫罗兰商店图标",
+      "translation": "鲤鱼王俏皮的紫罗兰商店图标",
       "line": 352
     },
     "Magikarp (Feebas)": {
@@ -929,11 +929,11 @@
       "line": 364
     },
     "Mismagius (Illusion) Shop Icon": {
-      "translation": "Mismagius（幻觉）商店图标",
+      "translation": "梦妖魔（幻觉）商店图标",
       "line": 365
     },
     "Morpeko (Hungry) Overworld": {
-      "translation": "Morpeko（饥饿）主世界",
+      "translation": "莫鲁贝可（饥饿）主世界",
       "line": 366
     },
     "Mr Stone": {
@@ -949,7 +949,7 @@
       "line": 369
     },
     "Oricorio Overworld (All)": {
-      "translation": "Oricorio主世界(全部)",
+      "translation": "花舞鸟主世界(全部)",
       "line": 370
     },
     "Peat Block": {
@@ -1661,7 +1661,7 @@
       "line": 547
     },
     "Zarude (Dada) shop image": {
-      "translation": "Zarude（达达）店铺形象",
+      "translation": "萨戮德（达达）店铺形象",
       "line": 548
     },
     "Zero": {
@@ -1893,7 +1893,7 @@
       "line": 637
     },
     "Dynamic Background Basculegion": {
-      "translation": "动态背景 Basculegion",
+      "translation": "动态背景幽尾玄鱼",
       "line": 641
     },
     "Farboo171": {
@@ -2073,11 +2073,11 @@
       "line": 731
     },
     "Egg pattern SVG - Manaphy": {
-      "translation": "鸡蛋图案 SVG - Manaphy",
+      "translation": "鸡蛋图案 SVG - 玛纳霏",
       "line": 732
     },
     "Egg pattern SVG - Phione": {
-      "translation": "鸡蛋图案 SVG - Phione",
+      "translation": "鸡蛋图案 SVG - 霏欧纳",
       "line": 733
     },
     "Es Cade": {
@@ -2137,15 +2137,15 @@
       "line": 751
     },
     "cipher Admin Eldes": {
-      "translation": "暗影密码团干部 埃尔德斯",
+      "translation": "暗影密码团干部埃尔德斯",
       "line": 754
     },
     "Cipher Admin Gorigan": {
-      "translation": "暗影密码团干部 戈里根",
+      "translation": "暗影密码团干部戈里根",
       "line": 755
     },
     "Cipher Admin Snattle": {
-      "translation": "暗影密码团干部 斯纳特尔",
+      "translation": "暗影密码团干部斯纳特尔",
       "line": 756
     },
     "Cipher Peon Browsix": {
@@ -2181,7 +2181,7 @@
       "line": 781
     },
     "Dynamic Background sprite recolors (shiny Bounsweet, nonshiny Decidueye, nonshiny Incineroar)": {
-      "translation": "动态背景精灵重新着色（闪光的 Bounsweet、非闪光的 Decidueye、非闪光的 Incineroar）",
+      "translation": "动态背景精灵重新着色（闪光的甜竹竹、非闪光的狙射树枭、非闪光的炽焰咆哮虎）",
       "line": 784
     },
     "Krokotips": {
@@ -2669,7 +2669,7 @@
       "line": 963
     },
     "Furfrou Trim Shop Icons": {
-      "translation": "Furfrou 装饰店图标",
+      "translation": "多丽米亚装饰店图标",
       "line": 966
     },
     "pixie-rings": {
@@ -2681,7 +2681,7 @@
       "line": 975
     },
     "PKMNTrainerSpriterC, akuma-tsubasa & Metapod23": {
-      "translation": "PKMNTrainerSpriterC、akuma-tsubasa 和 Metapod23",
+      "translation": "PKMNTrainerSpriterC、akuma-tsubasa 和铁甲蛹23",
       "line": 980
     },
     "Ash Ketchum": {
@@ -3009,11 +3009,11 @@
       "line": 1121
     },
     "SageDeoxys, Wolfang62, LarryTurbo, tammyclaydon": {
-      "translation": "SageDeoxys、Wolfang62、LarryTurbo、tammyclaydon",
+      "translation": "Sage代欧奇希斯、Wolfang62、LarryTurbo、tammyclaydon",
       "line": 1126
     },
     "Dynamic BG Galar (Gen 8) sprites": {
-      "translation": "动态背景 伽勒尔（第8代）精灵",
+      "translation": "动态背景伽勒尔（第8代）精灵",
       "line": 1129
     },
     "Sandi315": {
@@ -3069,7 +3069,7 @@
       "line": 1165
     },
     "Camouflaged Kecleon image": {
-      "translation": "伪装的 变隐龙 图像",
+      "translation": "伪装的变隐龙图像",
       "line": 1166
     },
     "Cissy": {
@@ -3125,7 +3125,7 @@
       "line": 1179
     },
     "Dr Cozmo": {
-      "translation": "科兹莫博士",
+      "translation": "索蓝斯博士",
       "line": 1180
     },
     "Draconid Elder": {
@@ -3137,7 +3137,7 @@
       "line": 1182
     },
     "Elf Munchlax Shuffle": {
-      "translation": "精灵 Munchlax 洗牌",
+      "translation": "精灵小卡比兽洗牌",
       "line": 1183
     },
     "Friend Safari": {
@@ -3317,7 +3317,7 @@
       "line": 1227
     },
     "Salazzle overworld images": {
-      "translation": "Salazzle 世界图像",
+      "translation": "焰后蜥世界图像",
       "line": 1228
     },
     "Santa Jynx": {
@@ -3585,7 +3585,7 @@
       "line": 1362
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "资产/图像/个人资料/培训师-${...}.png",
+      "translation": "",
       "line": 1369
     },
     "#${...}": {

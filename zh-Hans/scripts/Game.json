@@ -47,11 +47,11 @@
       "line": 210
     },
     "Defeated: ${...} Pokémon Earned: <img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}": {
-      "translation": "击败：${...}只宝可梦 获得：<img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}",
+      "translation": "击败：${...}只宝可梦获得：<img src=\"./assets/images/currency/money.svg\" height=\"24px\"/> ${...}",
       "line": 210
     },
     "Defeated: ${...} Pokémon Earned: ${...} Pokédollars": {
-      "translation": "击败：${...}只宝可梦 获得：${...}宝可币",
+      "translation": "击败：${...}只宝可梦获得：${...}宝可币",
       "line": 211
     },
     "<li>${...} ${...}</li>": {

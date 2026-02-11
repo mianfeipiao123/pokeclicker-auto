@@ -35,7 +35,7 @@
       "line": 55
     },
     "assets/images/breeding/${...}.png": {
-      "translation": "资产/图像/育种/${...}.png",
+      "translation": "",
       "line": 75,
       "_rematchedFrom": "assets/images/breeding/${...}.png",
       "_confidence": 0.85
@@ -137,7 +137,7 @@
       "line": 147
     },
     "#breeding-pokemon-list-container .scrolling-div-breeding-list": {
-      "translation": "#breeding-pokemon-list-container .scrolling-div-breeding-list",
+      "translation": "",
       "line": 230
     }
   }

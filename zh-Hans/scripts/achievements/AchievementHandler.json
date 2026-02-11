@@ -43,7 +43,7 @@
       "line": 259
     },
     "I Should Buy a Poké Mart": {
-      "translation": "我应该买一个宝可梦集市",
+      "translation": "我应该开一家友谊商店",
       "line": 260
     },
     "Obtain 1,000 Pokédollars.": {
@@ -523,7 +523,7 @@
       "line": 327
     },
     "Why Is My Voltorb Upside Down?": {
-      "translation": "为什么我的 霹雳电球 是颠倒的？",
+      "translation": "为什么我的霹雳电球是颠倒的？",
       "line": 329
     },
     "Purchase your first Poké Ball.": {
@@ -579,7 +579,7 @@
       "line": 336
     },
     "I Got a Few Shiny Voltorb! Oh, Wait...": {
-      "translation": "我有一些闪光的 霹雳电球！哦，等等...",
+      "translation": "我有一些闪光的霹雳电球！哦，等等...",
       "line": 337
     },
     "Obtain 10 Great Balls.": {
@@ -1603,7 +1603,7 @@
       "line": 492
     },
     "Reach Safari Level 5.": {
-      "translation": "达到 Safari 等级5。",
+      "translation": "达到狩猎等级5。",
       "line": 492
     },
     "Chasing the Chansey": {
@@ -1611,7 +1611,7 @@
       "line": 493
     },
     "Reach Safari Level 15.": {
-      "translation": "达到 Safari 等级15。",
+      "translation": "达到狩猎等级15。",
       "line": 493
     },
     "Catch Animation Enthusiast": {
@@ -1619,7 +1619,7 @@
       "line": 494
     },
     "Reach Safari Level 30.": {
-      "translation": "达到 Safari 等级30。",
+      "translation": "达到狩猎等级30。",
       "line": 494
     },
     "Just Keep Chuckin' Balls": {
@@ -2217,7 +2217,7 @@
       "line": 727
     },
     "Reach the max Safari level.": {
-      "translation": "达到 Safari 最高级别。",
+      "translation": "达到狩猎地带最高级别。",
       "line": 728
     },
     "The most eggciting grind": {
@@ -2419,7 +2419,7 @@
       "_confidence": 0.85
     },
     "#${...} > .sortable": {
-      "translation": "#${...} > .sortable",
+      "translation": "",
       "line": 845,
       "_rematchedFrom": "#${...} > .sortable",
       "_confidence": 0.85

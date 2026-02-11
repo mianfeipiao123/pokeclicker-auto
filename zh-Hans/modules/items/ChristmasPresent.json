@@ -43,7 +43,7 @@
       "line": 28
     },
     "assets/images/currency/${...}.svg": {
-      "translation": "资产/图像/货币/${...}.svg",
+      "translation": "",
       "line": 28
     },
     "You opened the gift and received <img src=\"assets/images/currency/${...}.svg\" height=\"24px\"/> ${...}.": {

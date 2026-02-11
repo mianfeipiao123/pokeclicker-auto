@@ -13,7 +13,7 @@
       "_confidence": 0.95
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "资产/图像/个人资料/训练家-${...}.png",
+      "translation": "",
       "line": 59
     },
     "pixelated": {
@@ -21,7 +21,7 @@
       "line": 59
     },
     "[DUNGEON GUIDE] <img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}": {
-      "translation": "【迷宫向导】<img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}",
+      "translation": "",
       "line": 59
     },
     "I could not enter the dungeon anymore. Here is a refund.": {

@@ -83,7 +83,7 @@
       "line": 65
     },
     "<br/>": {
-      "translation": "<br/>",
+      "translation": "",
       "line": 68
     },
     "flex-grow-1": {
@@ -209,7 +209,7 @@
       "line": 138
     },
     "#modal${...}": {
-      "translation": "#弹窗${...}",
+      "translation": "",
       "line": 139,
       "_rematchedFrom": "#modal${...}",
       "_confidence": 0.85
@@ -219,7 +219,7 @@
       "line": 141
     },
     "#promptInput${...}": {
-      "translation": "#promptInput${...}",
+      "translation": "",
       "line": 142,
       "_rematchedFrom": "#promptInput${...}",
       "_confidence": 0.85

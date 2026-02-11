@@ -7,7 +7,7 @@
   },
   "entries": {
     "Explorers Poké Mart": {
-      "translation": "探险家宝可梦集市",
+      "translation": "探险家友谊商店",
       "line": 28
     },
     "Department Store": {
@@ -1611,11 +1611,11 @@
       "line": 1144
     },
     "Sevii Rocket Ariana": {
-      "translation": "七之岛火箭队干部 雅典娜",
+      "translation": "七之岛火箭队干部雅典娜",
       "line": 1144
     },
     "Sevii Rocket Archer": {
-      "translation": "七之岛火箭队干部 阿波罗",
+      "translation": "七之岛火箭队干部阿波罗",
       "line": 1144
     },
     "Scientist Gideon": {
@@ -2137,7 +2137,7 @@
       "line": 1757
     },
     "Kimono Girl Zuki": {
-      "translation": "和服女孩 小希",
+      "translation": "和服女孩小希",
       "line": 1762
     },
     "Professor Elm tells me you are a master trainer. Please, show me your skills by training your Pokémon.": {
@@ -2161,11 +2161,11 @@
       "line": 1770
     },
     "Kimono Girl Miki": {
-      "translation": "和服女孩 美纪",
+      "translation": "和服女孩美纪",
       "line": 1776
     },
     "My sisters Zuki and Naoko tell me you have helped them, and I thank you. Please help find my other two sisters, Sayo and Kuni. Please accept this as a token of my gratitude.": {
-      "translation": "我的姐妹 小希 和 直子 告诉我你帮助了她们，我谢谢你。请帮助找到我的另外两个姐妹，沙代 和 小六。请接受此作为我的谢意。",
+      "translation": "我的姐妹小希和直子告诉我你帮助了她们，我谢谢你。请帮助找到我的另外两个姐妹，沙代和小六。请接受此作为我的谢意。",
       "line": 1777
     },
     "Kimono Girl Sayo": {
@@ -2249,7 +2249,7 @@
       "line": 1835
     },
     "Some adventurers reported criminal activities on route 42. Team Rocket are allegedly attempting to steal newborn Phanpy...": {
-      "translation": "一些冒险家报告了42号道路上的犯罪活动。据称，火箭队正试图偷走刚出生的 小小象……",
+      "translation": "一些冒险家报告了42号道路上的犯罪活动。据称，火箭队正试图偷走刚出生的小小象……",
       "line": 1836
     },
     "Suicune... How brave it is! How refreshing it is! How beautiful it is! And how quickly it moves! It seems to be heading east.": {
@@ -2429,7 +2429,7 @@
       "line": 1921
     },
     "An experimental specimen can be bought here: A Sudowoodo that is no longer weak against Water attacks!": {
-      "translation": "可以在这里购买实验样本：对水攻击不再脆弱的 树才怪！",
+      "translation": "可以在这里购买实验样本：对水攻击不再脆弱的树才怪！",
       "line": 1922
     },
     "Elm's Assistant": {
@@ -2757,7 +2757,7 @@
       "line": 2412
     },
     "Prof. Cozmo": {
-      "translation": "日暮博士",
+      "translation": "索蓝斯博士",
       "line": 2415
     },
     "Oh! Welcome, welcome. Do you by any chance have any Meteorites? No? Ah well, I'm studying the Pokémon Deoxys and I've heard that a Meteorite can cause it to change forms!": {
@@ -3323,7 +3323,7 @@
       "line": 2695
     },
     "Dr. Cozmo": {
-      "translation": "科兹莫博士",
+      "translation": "索蓝斯博士",
       "line": 2699
     },
     "Reports are coming in from the Mossdeep Space Center that a meteor is headed our way!": {
@@ -3435,7 +3435,7 @@
       "line": 2744
     },
     "But it looks as though that time has already come. I'm sorry to ask this of you, but I need your help getting some materials for Devon Corporation's new rocket project. We think we can help Dr. Cozmo stop the incoming meteor.": {
-      "translation": "但看起来那个时刻已经到来了。我很抱歉向你提出这个问题，但我需要你的帮助，为德文公司的新火箭项目获取一些材料。我们认为我们可以帮助科兹莫博士阻止即将到来的流星。",
+      "translation": "但看起来那个时刻已经到来了。我很抱歉向你提出这个问题，但我需要你的帮助，为德文公司的新火箭项目获取一些材料。我们认为我们可以帮助索蓝斯博士阻止即将到来的流星。",
       "line": 2745
     },
     "Our company's records indicate that a meteor landed in Granite Cave thousands of years ago. Can you search the area for fragments of that meteor?": {
@@ -3523,7 +3523,7 @@
       "line": 2781
     },
     "<i>Zinnia bursts into the room and interrupts Dr. Cozmo!<i>": {
-      "translation": "<i>Zinnia 冲进房间并打断了 Cozmo 博士！<i>",
+      "translation": "<i>希嘉娜冲进房间并打断了索蓝斯博士！<i>",
       "line": 2782
     },
     "So this is what has come of human technology and of hope and blood and sweat and tears and... Well, the list gets kinda long and boring.": {
@@ -3643,7 +3643,7 @@
       "line": 2838
     },
     "<i>Zinnia smashes the complex machines Dr. Cozmo has been working on and flees.</i>": {
-      "translation": "<i>希嘉娜砸毁了科兹莫博士一直在工作的复杂机器然后逃跑了。</i>",
+      "translation": "<i>希嘉娜砸毁了索蓝斯博士一直在工作的复杂机器然后逃跑了。</i>",
       "line": 2839
     },
     "Archie": {
@@ -4363,7 +4363,7 @@
       "line": 3176
     },
     "I've been waiting for the S. S. Libra to come into port for HOURS!": {
-      "translation": "我已经等待 天秤号 进港几个小时了！",
+      "translation": "我已经等待天秤号进港几个小时了！",
       "line": 3177
     },
     "Rumor has it that some giant Pokémon picked it up and flew away with it, but that has to be impossible.": {
@@ -4403,7 +4403,7 @@
       "line": 3191
     },
     "Cipher Admin Lovrina": {
-      "translation": "暗影密码团干部 洛夫里纳",
+      "translation": "暗影密码团干部洛夫里纳",
       "line": 3195
     },
     "Ooh, I so hate to say this! I can't beat you right now. Master Greevil will so be cross with me but… But that's okay.": {
@@ -4411,7 +4411,7 @@
       "line": 3196
     },
     "I'll let you owe me this one time. But you have to promise you will think of my plan next time. If you see XD001 you will so want to help me. I'll so be waiting for you!": {
-      "translation": "我就让你欠我这一次。但你必须保证下次你会考虑我的计划。如果你看到 暗影洛奇亚，你一定会很想帮助我。我就这样等你吧！",
+      "translation": "我就让你欠我这一次。但你必须保证下次你会考虑我的计划。如果你看到暗影洛奇亚，你一定会很想帮助我。我就这样等你吧！",
       "line": 3197
     },
     "And don't bother looking for Professor Krane here, he's like long gone.": {
@@ -4423,7 +4423,7 @@
       "line": 3199
     },
     "Cipher Commander Exol": {
-      "translation": "暗影密码团指挥官 埃克索尔",
+      "translation": "暗影密码团指挥官埃克索尔",
       "line": 3202
     },
     "Your victory doesn't matter, we got what we came for!": {
@@ -4443,7 +4443,7 @@
       "line": 3206
     },
     "Cipher Admin Snattle": {
-      "translation": "暗影密码团干部 斯纳特尔",
+      "translation": "暗影密码团干部斯纳特尔",
       "line": 3209
     },
     "How is this possible?! I've never seen a trainer so strong! But, no matter! Surely I've bought Gorigan enough time.": {
@@ -4479,7 +4479,7 @@
       "line": 3222
     },
     "There's a lot of rumors buzzing around about the S. S. Libra, but if you ask me, it's long gone and may never be found.": {
-      "translation": "关于 天秤号 有很多谣言，但如果你问我，它早已消失，可能永远不会被发现。",
+      "translation": "关于天秤号有很多谣言，但如果你问我，它早已消失，可能永远不会被发现。",
       "line": 3223
     },
     "You'd have to be as crazy as Kaminko to go looking for it.": {
@@ -4503,7 +4503,7 @@
       "line": 3231
     },
     "Search the S. S. Libra": {
-      "translation": "搜索 天秤号",
+      "translation": "搜索天秤号",
       "line": 3234
     },
     "<i>You rummage around in the wreckage of the S. S. Libra, and find evidence of a recent battle. It looks like something very strong beat up a lot of weaker Pokémon.</i>": {
@@ -4563,7 +4563,7 @@
       "line": 3257
     },
     "Destiny Deoxys": {
-      "translation": "裂空的访问者 代欧奇希斯",
+      "translation": "裂空的访问者代欧奇希斯",
       "line": 3258
     },
     "Professor Lund": {
@@ -4787,7 +4787,7 @@
       "line": 3476
     },
     "Dr Cozmo": {
-      "translation": "科兹莫博士",
+      "translation": "索蓝斯博士",
       "line": 3476
     },
     "Near Space": {
@@ -4903,7 +4903,7 @@
       "line": 3567
     },
     "Cipher Admin Miror B.": {
-      "translation": "暗影密码团干部 迪斯裘",
+      "translation": "暗影密码团干部迪斯裘",
       "line": 3571
     },
     "Pyrite Colosseum": {
@@ -5003,15 +5003,15 @@
       "line": 3654
     },
     "Cipher Admin Gorigan": {
-      "translation": "暗影密码团干部 戈里根",
+      "translation": "暗影密码团干部戈里根",
       "line": 3658
     },
     "Cipher Admin Ardos": {
-      "translation": "暗影密码团干部 阿多斯",
+      "translation": "暗影密码团干部阿多斯",
       "line": 3658
     },
     "Cipher Admin Eldes": {
-      "translation": "暗影密码团干部 埃尔德斯",
+      "translation": "暗影密码团干部埃尔德斯",
       "line": 3658
     },
     "Rusturf Tunnel": {
@@ -5107,11 +5107,11 @@
       "line": 3913
     },
     "Cipher Admin Dakim": {
-      "translation": "暗影密码团干部 达基姆",
+      "translation": "暗影密码团干部达基姆",
       "line": 3920
     },
     "Cipher Admin Venus": {
-      "translation": "暗影密码团干部 维纳斯",
+      "translation": "暗影密码团干部维纳斯",
       "line": 3932
     },
     "Cipher Lab": {
@@ -5119,7 +5119,7 @@
       "line": 3937
     },
     "Cipher Admin Ein": {
-      "translation": "暗影密码团干部 艾因",
+      "translation": "暗影密码团干部艾因",
       "line": 3944
     },
     "Snagem Hideout": {
@@ -5251,7 +5251,7 @@
       "line": 4207
     },
     "If you give it to your Shaymin, it can change form!": {
-      "translation": "如果你把它交给你的 Shaymin，它可以改变形态！",
+      "translation": "如果你把它交给你的谢米，它可以改变形态！",
       "line": 4208
     },
     "Construction Worker": {
@@ -5977,7 +5977,7 @@
       "line": 4529
     },
     "Snover are happy to let you pick their berries. They then wander away into the wilderness. Please be kind to them!": {
-      "translation": "Snover 很乐意让你采摘他们的树果。然后他们就流浪到旷野。请善待他们！",
+      "translation": "雪笠怪很乐意让你采摘他们的树果。然后他们就流浪到旷野。请善待他们！",
       "line": 4530,
       "_rematchedFrom": "Snover are happy to let you pick their berries. They then wander away into the wilderness. Please be kind to them!",
       "_confidence": 0.95
@@ -6583,7 +6583,7 @@
       "line": 5220
     },
     "A trainer like you surely dreams of rare Pokémon. The more rare Pokémon you find from the Interdream Zone, the more we can explore to find others!": {
-      "translation": "像你这样的训练家肯定梦想着稀有的宝可梦。你从 梦境空间 中找到的宝可梦越多，我们就越能探索并找到其他宝可梦！",
+      "translation": "像你这样的训练家肯定梦想着稀有的宝可梦。你从梦境空间中找到的宝可梦越多，我们就越能探索并找到其他宝可梦！",
       "line": 5221
     },
     "assets/images/npcs/Professor Burnet.png": {
@@ -6595,15 +6595,15 @@
       "line": 5226
     },
     "I have been helping Professor Burnet explore the Interdream Zone with the help of my Audino.": {
-      "translation": "我一直在我的 差不多娃娃 的帮助下帮助芭内特博士探索 梦境空间。",
+      "translation": "我一直在我的差不多娃娃的帮助下帮助芭内特博士探索梦境空间。",
       "line": 5227
     },
     "Audino's excellent hearing lets it pick up even the quietest hints from Dream Orbs. If you can help the professor advance her research, I may be able to help you in return.": {
-      "translation": "差不多娃娃 出色的听力使其能够从 梦境宝珠 中接收到最安静的提示。如果你能帮助教授推进她的研究，我也许也能帮助你作为回报。",
+      "translation": "差不多娃娃出色的听力使其能够从梦境宝珠中接收到最安静的提示。如果你能帮助教授推进她的研究，我也许也能帮助你作为回报。",
       "line": 5228
     },
     "What a battle! That Audinite will let you Mega Evolve your Audino, under certain circumstances.": {
-      "translation": "真是一场战斗！在某些情况下，Audinite 可以让你超级进化你的 差不多娃娃。",
+      "translation": "真是一场战斗！在某些情况下，Audinite 可以让你超级进化你的差不多娃娃。",
       "line": 5235
     },
     "Pokémon Breeder": {
@@ -7239,7 +7239,7 @@
       "line": 6024
     },
     "I am Lysandre. I've tried to learn as much about Pokémon as I can to help build a brighter future. Professor Sycamore has taught me so much.": {
-      "translation": "我是弗拉达利。我尝试尽可能多地了解宝可梦，以帮助建立更光明的未来。 布拉塔诺 教授教会了我很多东西。",
+      "translation": "我是弗拉达利。我尝试尽可能多地了解宝可梦，以帮助建立更光明的未来。 布拉塔诺教授教会了我很多东西。",
       "line": 6025
     },
     "Now listen! It is vital that this world becomes a better place. The people and Pokémon chosen to make the world better must work tirelessly to achieve this goal.": {
@@ -7247,7 +7247,7 @@
       "line": 6026
     },
     "Well, I'll be off. Please give Professor Sycamore my best. My desire... it is for a more beautiful world!": {
-      "translation": "嗯，我这就走了。请向 布拉塔诺 教授致以最诚挚的谢意。我的愿望……是为了一个更加美丽的世界！",
+      "translation": "嗯，我这就走了。请向布拉塔诺教授致以最诚挚的谢意。我的愿望……是为了一个更加美丽的世界！",
       "line": 6027
     },
     "assets/images/npcs/Team Flare Lysandre.png": {
@@ -7347,7 +7347,7 @@
       "line": 6070
     },
     "According to my travel guide, this cave is filled with them! It says reviving a Sail Fossil can nab you an Amaura, the perfect anniversary gift for my pumpkin!": {
-      "translation": "根据我的旅游指南，这个洞穴里充满了它们！上面说复活风帆化石可以给你带来 Amaura，这是送给我的南瓜的完美周年纪念礼物！",
+      "translation": "根据我的旅游指南，这个洞穴里充满了它们！上面说复活风帆化石可以给你带来冰雪龙，这是送给我的南瓜的完美周年纪念礼物！",
       "line": 6071
     },
     "I MUST find a Sail Fossil! Nothing will get in the way of making my sunshine happy! She's taught me that anything is possible with the power of love!": {
@@ -8977,15 +8977,15 @@
       "line": 7088
     },
     "Each of the four islands in Alola has its own meadow, and each meadow has its own form of Oricorio. Each island, except for Akala Island. So you'd think there's only three forms of Oricorio, right?": {
-      "translation": "阿罗拉的四个岛屿都有自己的草地，每个草地都有自己的 Oricorio 形态。除阿卡拉岛外的每个岛屿。所以你会认为 Oricorio 只有三种形式，对吧？",
+      "translation": "阿罗拉的四个岛屿都有自己的草地，每个草地都有自己的花舞鸟形态。除阿卡拉岛外的每个岛屿。所以你会认为花舞鸟只有三种形式，对吧？",
       "line": 7089
     },
     "Wrong! There is a fourth! Did you know you can find all of the Oricorio forms on the farm? One of them doesn't appear anywhere else!": {
-      "translation": "错误的！还有第四个！你知道你可以在农场找到所有 Oricorio 表格吗？其中之一没有出现在其他地方！",
+      "translation": "错误的！还有第四个！你知道你可以在农场找到所有花舞鸟表格吗？其中之一没有出现在其他地方！",
       "line": 7090
     },
     "Each Oricorio form is attracted to the berry color that matches its own style. Red for Baile style, yellow for Pom-Pom style, pink for Pa'u style and purple for Sensu style.": {
-      "translation": "每种 Oricorio 形式都被与其自身风格相匹配的树果颜色所吸引。红色代表Baile 风格，黄色代表Pom-Pom 风格，粉色代表Pa'u 风格，紫色代表Sensu 风格。",
+      "translation": "每种花舞鸟形式都被与其自身风格相匹配的树果颜色所吸引。红色代表Baile 风格，黄色代表Pom-Pom 风格，粉色代表Pa'u 风格，紫色代表Sensu 风格。",
       "line": 7091
     },
     "You want to know which one can only be found on the farm? I'm sure you can figure that out yourself. Simple process of elimination, really.": {
@@ -9369,7 +9369,7 @@
       "line": 7249
     },
     "I have been studying Cosmoem and noticed that it needs the light from either the sun or the moon to reach its fullest potential.": {
-      "translation": "我一直在研究 Cosmoem，并注意到它需要来自太阳或月亮的光才能发挥其最大潜力。",
+      "translation": "我一直在研究科斯莫姆，并注意到它需要来自太阳或月亮的光才能发挥其最大潜力。",
       "line": 7250
     },
     "When exposed to the light of the sun and leveling up, it will transform into Solgaleo. And it will turn into Lunala with the light of the moon.": {
@@ -9685,7 +9685,7 @@
       "line": 7471
     },
     "Greetings, $playername$. May I help you with something? Oh, you're looking for things called Silvally Memories? Something like this one?": {
-      "translation": "你好，$playername$。我可以帮你做点什么吗？哦，你正在寻找名为 银伴战兽 记忆 的东西吗？像这样的东西吗？",
+      "translation": "你好，$playername$。我可以帮你做点什么吗？哦，你正在寻找名为银伴战兽记忆的东西吗？像这样的东西吗？",
       "line": 7477
     },
     "<img src=\"assets/images/items/quest/Fighting_Memory_Silvally.png\">": {
@@ -10985,11 +10985,11 @@
       "line": 8558
     },
     "For example, you can whip up a Vanilla Alcremie, by spinning clockwise for less than 5 seconds, during the day. Piece of cake! There's a unique form for each Sweet under this circumstance, so bake it till you make it!": {
-      "translation": "例如，你可以在白天顺时针旋转不到5秒来制作香草 霜奶仙。小菜一碟！在这种情况下，每种糖果都有独特的形式，所以请烘烤直到成功！",
+      "translation": "例如，你可以在白天顺时针旋转不到5秒来制作香草霜奶仙。小菜一碟！在这种情况下，每种糖果都有独特的形式，所以请烘烤直到成功！",
       "line": 8559
     },
     "There are more tiers to Alcremie than I can count. Mix up the direction, duration, time of day, and the given Sweet to discover all the flavours there are to find.": {
-      "translation": "霜奶仙 的层级多得我数不过来。混合方向、持续时间、一天中的时间和给定的糖果来发现所有可以找到的口味。",
+      "translation": "霜奶仙的层级多得我数不过来。混合方向、持续时间、一天中的时间和给定的糖果来发现所有可以找到的口味。",
       "line": 8560
     },
     "I will suggest that you only do 3 spins a day if you don't want to end up sick! You might be able to try more, when you get more experienced with a flavour...": {
@@ -11041,7 +11041,7 @@
       "line": 8574
     },
     "I can't be missing out on much anyways, what could be more perfect than my Applin!": {
-      "translation": "无论如何，我不能错过太多，还有什么比我的 Applin 更完美的呢！",
+      "translation": "无论如何，我不能错过太多，还有什么比我的啃果虫更完美的呢！",
       "line": 8575
     },
     "assets/images/npcs/Cook.png": {
@@ -11493,7 +11493,7 @@
       "line": 8758
     },
     "You want to know why we have been forcing those Pokémon to rampage? We did it in order to expose the true nature of Zacian and Zamazenta!": {
-      "translation": "你想知道为什么我们要强迫那些宝可梦横冲直撞吗？我们这样做是为了揭露Zacian和Zamazenta的真实本质！",
+      "translation": "你想知道为什么我们要强迫那些宝可梦横冲直撞吗？我们这样做是为了揭露苍响和藏玛然特的真实本质！",
       "line": 8759
     },
     "We have always been revered as the resplendent descendents of the real hero...": {
@@ -11753,7 +11753,7 @@
       "line": 8885
     },
     "Good! Now then... The first thing for you to do is become best friends with Kubfu! You need to build trust! Kubfu hasn't really had a chance to explore the world outside the dojo, so... Maybe it'll help you become better friends if you train alongside it!": {
-      "translation": "好的！那么现在...你要做的第一件事就是与 熊徒弟 成为最好的朋友！你需要建立信任！ 熊徒弟 还没有真正有机会探索道场之外的世界，所以...如果你和它一起训练，也许它会帮助你成为更好的朋友！",
+      "translation": "好的！那么现在...你要做的第一件事就是与熊徒弟成为最好的朋友！你需要建立信任！ 熊徒弟还没有真正有机会探索道场之外的世界，所以...如果你和它一起训练，也许它会帮助你成为更好的朋友！",
       "line": 8891
     },
     "Hmm. Maybe you should train against Dark and Water-types. It will be useful for it to know their weaknesses, since they will be its own weaknesses when it evolves.": {
@@ -11761,7 +11761,7 @@
       "line": 8892
     },
     "You're back! I can see already you look closer to Kubfu, and its training is going well! It isn't quite ready yet, however! To switch it up a little, you should now have it help you with catching some Water and Dark-type Pokémon!": {
-      "translation": "你回来了！我可以看到你已经离 熊徒弟 越来越近了，它的训练进展顺利！然而，它还没有完全准备好！稍微改变一下，你现在应该可以让它帮助你捕捉一些水系和暗系宝可梦！",
+      "translation": "你回来了！我可以看到你已经离熊徒弟越来越近了，它的训练进展顺利！然而，它还没有完全准备好！稍微改变一下，你现在应该可以让它帮助你捕捉一些水系和暗系宝可梦！",
       "line": 8898
     },
     "Good, good! You two are just the best of friends now, aren't you? Kubfu's really become more confident. How wonderful! I daresay I think you're both ready.": {
@@ -11777,7 +11777,7 @@
       "line": 8906
     },
     "Behold! Before you stands Urshifu! Sure to be unyielding armor that will shatter any blade turned against it... And it has mastered the styles of darkness and water!": {
-      "translation": "看哪！你面前站着Urshifu！肯定是坚不可摧的盔甲，可以粉碎任何对抗它的利刃……而且它已经掌握了黑暗和水的风格！",
+      "translation": "看哪！你面前站着武道熊师！肯定是坚不可摧的盔甲，可以粉碎任何对抗它的利刃……而且它已经掌握了黑暗和水的风格！",
       "line": 8912
     },
     "Ha! You've certainly grown, haven't you? And to think, not long ago you would've run and hid behind me the moment you got scared! Indeed, no matter how old I get, witnessing someone grow always brings joy to my heart. Urshifu! And you as well! Thank you both, from the bottom of my heart.": {
@@ -11829,7 +11829,7 @@
       "line": 8937
     },
     "Zaruza! Zaru Zaru! Zarude!.. Nope, they're too angry to listen. Looks like you'll have to fight them if we want to calm them down. Zarude are strong, but I'm sure you'll be fine if you are anywhere near as strong as Ash.": {
-      "translation": "扎鲁扎！扎鲁扎鲁！ Zarude！...不，他们太生气了，听不进去。看来如果我们想让他们平静下来你就得和他们战斗。扎鲁德很强大，但我相信如果你和小智一样强大的话，你会没事的。",
+      "translation": "扎鲁扎！扎鲁扎鲁！ 萨戮德！...不，他们太生气了，听不进去。看来如果我们想让他们平静下来你就得和他们战斗。扎鲁德很强大，但我相信如果你和小智一样强大的话，你会没事的。",
       "line": 8938
     },
     "Well, they're all knocked out. I'll try to talk reason into them when they wake up. Thanks for your help, I'm glad you found Zarude safe.": {
@@ -11853,7 +11853,7 @@
       "line": 8953
     },
     "You're back! How did it go with the Zarude?": {
-      "translation": "你回来了！ Zarude 的进展如何？",
+      "translation": "你回来了！ 萨戮德的进展如何？",
       "line": 8959
     },
     "Oh, I see, that's quite the problem... Still, you said they're all out cold for now, right? In that case, we should have time for a battle!": {
@@ -12033,7 +12033,7 @@
       "line": 9055
     },
     "Wait--you really caught Calyrex from the legends?! Thats's ultra-mega-brilliant! Report away!": {
-      "translation": "等等——你真的抓住了传说中的Calyrex？！那真是超级辉煌！报告走开！",
+      "translation": "等等——你真的抓住了传说中的蕾冠王？！那真是超级辉煌！报告走开！",
       "line": 9059
     },
     "Th-that noggin's MASSIVE! I-is that the King of Bountiful Harvests? The one calling the shots around here? Huh? I could swear I've seen it before... Or then again, maybe not...": {
@@ -12093,7 +12093,7 @@
       "line": 9087
     },
     "Wait--you really caught Articuno, Moltres, and Zapdos from the legends?! Thats's ultra-mega-brilliant! Report away!": {
-      "translation": "等等——你真的抓住了传说中的 急冻鸟、火焰鸟 和 闪电鸟？！那真是超级辉煌！报告走开！",
+      "translation": "等等——你真的抓住了传说中的急冻鸟、火焰鸟和闪电鸟？！那真是超级辉煌！报告走开！",
       "line": 9093
     },
     "So that's them is it? I can definitely see the resemblance, but they don't seem quite the same...": {
@@ -12225,7 +12225,7 @@
       "line": 9177
     },
     "Eternamax Eternatus has appeared again! There is no time to talk! Let's fight it together!": {
-      "translation": "无极巨化 无极汰那 再次出现！没时间说话了！让我们一起战斗吧！",
+      "translation": "无极巨化无极汰那再次出现！没时间说话了！让我们一起战斗吧！",
       "line": 9178
     },
     "Wow. You're just as amazing as ever. You're truly worthy of your title.": {
@@ -12669,7 +12669,7 @@
       "line": 9623
     },
     "Lastly, Landorus, the Pokémon hailed as the Guardian of the Fields. It seems it can be glimpsed in the Obsidian Fieldlands. Perhaps you'd be so good as to catch it for me?": {
-      "translation": "最后是被称为大地守护者的宝可梦 Landorus。似乎可以在黑曜石平原中瞥见它。也许你愿意帮我抓住它？",
+      "translation": "最后是被称为大地守护者的宝可梦土地云。似乎可以在黑曜石平原中瞥见它。也许你愿意帮我抓住它？",
       "line": 9624
     },
     "I know not why these three have chosen to show themselves. Perhaps the cause lies with the space-time rift...or simply within their own whims...": {
@@ -12681,7 +12681,7 @@
       "line": 9627
     },
     "Ah, you've arrived. You now know much about Landorus, Tornadus and even Thundurus. Well done.": {
-      "translation": "啊，你来了。现在你对 Landorus、Tornadus 甚至 Thundurus 已经了解很多了。干得好。",
+      "translation": "啊，你来了。现在你对土地云、龙卷云甚至雷电云已经了解很多了。干得好。",
       "line": 9630
     },
     "In more normal times, I would bid you to let these three fly free as is their nature.": {
@@ -12837,7 +12837,7 @@
       "line": 9745
     },
     "Lady of the Ridge: Lilligant": {
-      "translation": "山脊女士：Lilligant",
+      "translation": "山脊女士：裙儿小姐",
       "line": 9749
     },
     "Beachside Camp": {

@@ -59,11 +59,11 @@
       "line": 102
     },
     ":not(table, thead, tbody, tr, td, th)": {
-      "translation": ":not(表、thead、tbody、tr、td、th)",
+      "translation": "",
       "line": 139
     },
     ":scope > .lazy-loader-container": {
-      "translation": "：范围> .lazy-loader-container",
+      "translation": "",
       "line": 142
     },
     "display": {

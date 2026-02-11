@@ -79,11 +79,11 @@
       "line": 74
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
-      "translation": "根据宝可梦的已捕获/闪光状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
+      "translation": "根据宝可梦的已捕获/闪光状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
       "line": 79
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.<br/><i><sup>Hover over the names for more info.</sup></i><br/><br/>Capturing Pokémon gains you <img title=\"Dungeon Tokens\nGained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens.<br/><br/>Try now by clicking the \"Caught\" selector to change it.": {
-      "translation": "根据宝可梦的已捕获/闪光状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
+      "translation": "根据宝可梦的已捕获/闪光状态选择要使用的精灵球种类。<br/><i><sup>将鼠标悬停在名称上可查看详情。</sup></i><br/><br/>捕捉宝可梦可获得 <img title=\"迷宫代币通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。<br/><br/>现在点击“已捕获”选择器切换试试吧。",
       "line": 79
     },
     "Select which Poké Ball types to catch Pokémon with based on their caught/shiny status.": {
@@ -107,11 +107,11 @@
       "line": 79
     },
     "Dungeon Tokens Gained by capturing Pokémon": {
-      "translation": "迷宫代币\n通过捕获宝可梦获得",
+      "translation": "迷宫代币通过捕获宝可梦获得",
       "line": 79
     },
     "Dungeon Tokens\nGained by capturing Pokémon": {
-      "translation": "迷宫代币\n通过捕获宝可梦获得",
+      "translation": "迷宫代币通过捕获宝可梦获得",
       "line": 79
     },
     "assets/images/currency/dungeonToken.svg": {
@@ -131,15 +131,15 @@
       "line": 90
     },
     "#pokeballSelectorModal .modal-body": {
-      "translation": "#pokeballSelectorModal .modal-body",
+      "translation": "",
       "line": 96
     },
     "Select the <img title=\"Poké Ball\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> Poké Ball to use this type of ball to capture already caught Pokémon, which will give you <img title=\"Dungeon Tokens Gained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens when captured.": {
-      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
+      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得 <img title=\"迷宫代币通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
       "line": 97
     },
     "Select the <img title=\"Poké Ball\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> Poké Ball to use this type of ball to capture already caught Pokémon, which will give you <img title=\"Dungeon Tokens\nGained by capturing Pokémon\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> Dungeon Tokens when captured.": {
-      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得 <img title=\"迷宫代币\n通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
+      "translation": "选择 <img title=\"精灵球\" src=\"assets/images/pokeball/Pokeball.svg\" height=\"25px\"> 精灵球，把这种球用于捕捉已捕获的宝可梦；成功捕捉后可获得 <img title=\"迷宫代币通过捕获宝可梦获得\" src=\"assets/images/currency/dungeonToken.svg\" height=\"25px\"> 迷宫代币。",
       "line": 97
     },
     "Select the": {
@@ -163,7 +163,7 @@
       "line": 97
     },
     "#pokeballSelectorModal .clickable": {
-      "translation": "#pokeballSelectorModal .clickable",
+      "translation": "",
       "line": 106
     },
     "click": {
@@ -751,11 +751,11 @@
       "line": 519
     },
     "Kimono Girl Miki has given you a package containing 50 Ultra Balls.": {
-      "translation": "和服女孩 美纪 给了你一个包含50个超级球的包裹。",
+      "translation": "和服女孩美纪给了你一个包含50个超级球的包裹。",
       "line": 526
     },
     "Talk to Kimono Girl Miki at the Ecruteak City Dance Theatre.": {
-      "translation": "在 圆朱市舞蹈剧院 与和服女孩 美纪 交谈。",
+      "translation": "在圆朱市舞蹈剧院与和服女孩美纪交谈。",
       "line": 532
     },
     "Talk to Kimono Girl Sayo in the Ice Path.": {
@@ -1149,7 +1149,7 @@
       "line": 814
     },
     "Sevii Rocket Ariana": {
-      "translation": "七之岛火箭队干部 雅典娜",
+      "translation": "七之岛火箭队干部雅典娜",
       "line": 818
     },
     "Defeat Team Rocket Executive Ariana in Rocket Warehouse.": {
@@ -1157,7 +1157,7 @@
       "line": 818
     },
     "Sevii Rocket Archer": {
-      "translation": "七之岛火箭队干部 阿波罗",
+      "translation": "七之岛火箭队干部阿波罗",
       "line": 821
     },
     "Defeat Team Rocket Executive Archer in Rocket Warehouse.": {
@@ -1409,7 +1409,7 @@
       "line": 1003
     },
     "Fight Willie": {
-      "translation": "对战 威利",
+      "translation": "对战威利",
       "line": 1003
     },
     "Folly": {
@@ -1485,7 +1485,7 @@
       "line": 1046
     },
     "Interrogate Hunter Doken in the Pyrite Building to find out who has taken Plusle, and where to.": {
-      "translation": "审问黄铁矿大厦的猎人多肯，找出谁拿走了 正电拍拍，以及去了哪里。",
+      "translation": "审问黄铁矿大厦的猎人多肯，找出谁拿走了正电拍拍，以及去了哪里。",
       "line": 1049
     },
     "Pyrite Cave": {
@@ -1505,7 +1505,7 @@
       "line": 1055
     },
     "Cipher Admin Miror B": {
-      "translation": "暗影密码团干部 迪斯裘",
+      "translation": "暗影密码团干部迪斯裘",
       "line": 1056
     },
     "Free Duking's Plusle.": {
@@ -1561,7 +1561,7 @@
       "line": 1082
     },
     "Cipher Admin Dakim": {
-      "translation": "暗影密码团干部 达基姆",
+      "translation": "暗影密码团干部达基姆",
       "line": 1083
     },
     "Discuss your next move with Rui at Mt. Battle.": {
@@ -1585,7 +1585,7 @@
       "line": 1093
     },
     "Cipher Admin Venus": {
-      "translation": "暗影密码团干部 维纳斯",
+      "translation": "暗影密码团干部维纳斯",
       "line": 1094
     },
     "Search Venus' Studio in the Under for clues.": {
@@ -1609,7 +1609,7 @@
       "line": 1104
     },
     "Cipher Admin Ein": {
-      "translation": "暗影密码团干部 艾因",
+      "translation": "暗影密码团干部艾因",
       "line": 1105
     },
     "Realgam Tower Battles": {
@@ -1947,7 +1947,7 @@
       "line": 1295
     },
     "At Lake Acuity, ask Uxie about the Distortion World.": {
-      "translation": "在睿智湖，向 Uxie 询问扭曲世界的情况。",
+      "translation": "在睿智湖，向由克希询问扭曲世界的情况。",
       "line": 1298
     },
     "Obtain 10 Crimson Shards.": {
@@ -2199,7 +2199,7 @@
       "line": 1448
     },
     "Destiny Deoxys": {
-      "translation": "裂空的访问者 代欧奇希斯",
+      "translation": "裂空的访问者代欧奇希斯",
       "line": 1456
     },
     "Discover the mystery of the crashed meteor.": {
@@ -2299,7 +2299,7 @@
       "line": 1515
     },
     "Defeat Terrakion to prove you're worthy of their trust.": {
-      "translation": "击败 代拉基翁 以证明你值得他们信任。",
+      "translation": "击败代拉基翁以证明你值得他们信任。",
       "line": 1515
     },
     "Talk to Cobalion at the Moor of Icirrus to learn where to find Virizion.": {
@@ -2531,7 +2531,7 @@
       "line": 1631
     },
     "Cipher? Nah, I don't play with those punks. I'm my own man, flying solo. No, I won't say where I got this Zangoose.": {
-      "translation": "密码？不，我不和那些小混混一起玩。我是我自己的人，独自飞翔。不，我不会说我从哪里得到这个 猫鼬斩。",
+      "translation": "密码？不，我不和那些小混混一起玩。我是我自己的人，独自飞翔。不，我不会说我从哪里得到这个猫鼬斩。",
       "line": 1633
     },
     "Thug Zook": {
@@ -2575,7 +2575,7 @@
       "line": 1652
     },
     "Cipher Admin Lovrina": {
-      "translation": "暗影密码团干部 洛夫里纳",
+      "translation": "暗影密码团干部洛夫里纳",
       "line": 1656
     },
     "Track down the new boss of the Cipher Lab.": {
@@ -2583,7 +2583,7 @@
       "line": 1656
     },
     "Talk to Cipher Admin Lovrina at the Cipher Lab.": {
-      "translation": "与暗影密码团实验室的暗影密码团干部 洛夫里纳交谈。",
+      "translation": "与暗影密码团实验室的暗影密码团干部洛夫里纳交谈。",
       "line": 1659
     },
     "Pyrite Town is in chaos! Battle your way through to get some answers.": {
@@ -2611,7 +2611,7 @@
       "line": 1670
     },
     "Cipher Commander Exol": {
-      "translation": "暗影密码团指挥官 埃克索尔",
+      "translation": "暗影密码团指挥官埃克索尔",
       "line": 1673
     },
     "Track down the new boss of the Pyrite Building.": {
@@ -2619,7 +2619,7 @@
       "line": 1673
     },
     "Talk to Cipher Commander Exol at the Pyrite Building.": {
-      "translation": "在黄铁矿大厦与暗影密码团指挥官 埃克索尔交谈。",
+      "translation": "在黄铁矿大厦与暗影密码团指挥官埃克索尔交谈。",
       "line": 1676
     },
     "Phenac City Battles": {
@@ -2635,7 +2635,7 @@
       "line": 1682
     },
     "Cipher Admin Snattle": {
-      "translation": "暗影密码团干部 斯纳特尔",
+      "translation": "暗影密码团干部斯纳特尔",
       "line": 1682
     },
     "Track down the new boss of the Phenac Stadium.": {
@@ -2643,7 +2643,7 @@
       "line": 1682
     },
     "Talk to Cipher Admin Snattle at the Phenac Stadium.": {
-      "translation": "在菲纳克体育场与暗影密码团干部 斯纳特尔交谈。",
+      "translation": "在菲纳克体育场与暗影密码团干部斯纳特尔交谈。",
       "line": 1685
     },
     "Talk to Mayor Trest at the Phenac City.": {
@@ -2723,7 +2723,7 @@
       "line": 1728
     },
     "Cipher Admin Gorigan": {
-      "translation": "暗影密码团干部 戈里根",
+      "translation": "暗影密码团干部戈里根",
       "line": 1729
     },
     "Professor Krane gives you a Master Ball.": {
@@ -3069,7 +3069,7 @@
       "line": 1954
     },
     "Talk to Dr. Cozmo in Fallarbor Town.": {
-      "translation": "与法拉伯镇的科兹莫博士交谈。",
+      "translation": "与法拉伯镇的索蓝斯博士交谈。",
       "line": 1956
     },
     "Talk to the mysterious figure at the Sky Pillar.": {
@@ -3149,7 +3149,7 @@
       "line": 2002
     },
     "Talk to Dr. Cozmo at the Mossdeep Space Center.": {
-      "translation": "与莫斯迪普太空中心的科兹莫博士交谈。",
+      "translation": "与莫斯迪普太空中心的索蓝斯博士交谈。",
       "line": 2008
     },
     "Talk to Zinnia at the Mossdeep Space Center.": {
@@ -3547,7 +3547,7 @@
       "_confidence": 0.85
     },
     "Find and capture the rare Vivillon! Hint: ${...}": {
-      "translation": "找到并捕获稀有的 Vivillon！提示：${...}",
+      "translation": "找到并捕获稀有的彩粉蝶！提示：${...}",
       "line": 2291,
       "_rematchedFrom": "Find and capture the rare Vivillon! Hint: ${...}",
       "_confidence": 0.85
@@ -3707,7 +3707,7 @@
       "line": 2332
     },
     "Find and capture the rare Vivillon! Hint: Only the strongest Challengers can reach it.": {
-      "translation": "找到并捕获稀有的 Vivillon！提示：只有最强的挑战者才能到达。",
+      "translation": "找到并捕获稀有的彩粉蝶！提示：只有最强的挑战者才能到达。",
       "line": 2332,
       "_rematchedFrom": "Find and capture the rare Vivillon! Hint: Only the strongest Challengers can reach it.",
       "_confidence": 0.95
@@ -4025,7 +4025,7 @@
       "line": 2534
     },
     "Protect the mysterious girl's Pokémon! Battle the Spearow near the Ruins of Conflict.": {
-      "translation": "保护神秘少女的宝可梦！在冲突废墟附近与 烈雀 战斗。",
+      "translation": "保护神秘少女的宝可梦！在冲突废墟附近与烈雀战斗。",
       "line": 2534
     },
     "<i>The bridge collapses and you and the floating Pokémon start falling to your doom... But you are saved by a mysterious Pokémon!</i>": {
@@ -4397,7 +4397,7 @@
       "line": 2722
     },
     "Kahuna Nanu is challenging you to a Grand Trial in Malie City! Test your strength before you go to Aether by defeating him.": {
-      "translation": "岛屿之王·默丹 正在马利市向你发起大考验！在前往以太之前击败他来测试你的力量。",
+      "translation": "岛屿之王·默丹正在马利市向你发起大考验！在前往以太之前击败他来测试你的力量。",
       "line": 2726
     },
     "Aether Foundation": {
@@ -4409,7 +4409,7 @@
       "line": 2730
     },
     "That Lusamine! We will need you to leave us in peace so that we may do our job. Please don't get in our way. Leave Cosmog to us.": {
-      "translation": "那个露莎米奈！我们需要你让我们安静下来，以便我们能够完成我们的工作。请不要妨碍我们。把 Cosmog 交给我们吧。",
+      "translation": "那个露莎米奈！我们需要你让我们安静下来，以便我们能够完成我们的工作。请不要妨碍我们。把科斯莫古交给我们吧。",
       "line": 2732
     },
     "Ultra Recon Squad": {
@@ -4505,7 +4505,7 @@
       "line": 2793
     },
     "Get the Steelium Z. Defeat Molayne in Hokulani Observatory.": {
-      "translation": "获得 钢Z。在 霍库拉尼 天文台击败 马睿因。",
+      "translation": "获得钢Z。在霍库拉尼天文台击败马睿因。",
       "line": 2793
     },
     "Seek out the Pokémon of Alola's legends on Poni Island.": {
@@ -4929,7 +4929,7 @@
       "line": 3050
     },
     "Buy the Ground Memory from Kahuna Hapu with Farm Points.": {
-      "translation": "使用农场点数从岛屿之王·哈普 购买地面记忆。",
+      "translation": "使用农场点数从岛屿之王·哈普购买地面记忆。",
       "line": 3053
     },
     "Wow you're pretty good at the farm, $playername$! I'll go buy the palm tree seeds right this instant!": {
@@ -5235,7 +5235,7 @@
       "line": 3264
     },
     "Catch or hatch 10 Gulpin.": {
-      "translation": "捕获或孵化10只 溶食兽。",
+      "translation": "捕获或孵化10只溶食兽。",
       "line": 3264
     },
     "Step 5 of Let's Go, Meltan!": {
@@ -5259,7 +5259,7 @@
       "line": 3280
     },
     "Catch or hatch 10 Exeggcute.": {
-      "translation": "捕获或孵化10个 蛋蛋。",
+      "translation": "捕获或孵化10个蛋蛋。",
       "line": 3280
     },
     "Elite Acerola": {
@@ -5275,7 +5275,7 @@
       "line": 3291
     },
     "Catch or hatch 15 Drowzee.": {
-      "translation": "捕获或孵化15只 催眠貘。",
+      "translation": "捕获或孵化15只催眠貘。",
       "line": 3291
     },
     "Cubone": {
@@ -5307,7 +5307,7 @@
       "line": 3305
     },
     "Catch or hatch 20 Kabuto.": {
-      "translation": "捕获或孵化20个 化石盔。",
+      "translation": "捕获或孵化20个化石盔。",
       "line": 3305
     },
     "Omanyte": {
@@ -5335,7 +5335,7 @@
       "line": 3318
     },
     "Catch or hatch 20 Lileep.": {
-      "translation": "捕获或孵化20只 触手百合。",
+      "translation": "捕获或孵化20只触手百合。",
       "line": 3318
     },
     "Aerodactyl": {
@@ -5495,7 +5495,7 @@
       "line": 3440
     },
     "Catch or hatch 10 Voltorb.": {
-      "translation": "捕获或孵化10个 霹雳电球。",
+      "translation": "捕获或孵化10个霹雳电球。",
       "line": 3440
     },
     "Gather materials for Dr. Splash.": {
@@ -5511,7 +5511,7 @@
       "line": 3458
     },
     "Catch or hatch 10 Dwebble.": {
-      "translation": "捕获或孵化10只 石居蟹。",
+      "translation": "捕获或孵化10只石居蟹。",
       "line": 3458
     },
     "Boldore": {
@@ -5543,7 +5543,7 @@
       "line": 3462
     },
     "Catch or hatch 10 Steelix.": {
-      "translation": "捕获或孵化10只 大钢蛇。",
+      "translation": "捕获或孵化10只大钢蛇。",
       "line": 3462
     },
     "Catch Pokémon for Dr. Splash's training grounds.": {
@@ -5711,7 +5711,7 @@
       "line": 3577
     },
     "Eternatus has ascended to its Eternamax form! Catch it to put an end to the Darkest Day!": {
-      "translation": "无极汰那 已提升至 无极巨化 形态！抓住它，结束最黑暗的一天！",
+      "translation": "无极汰那已提升至无极巨化形态！抓住它，结束最黑暗的一天！",
       "line": 3590
     },
     "After all those interruptions, it's finally time for the Championship match! Talk to Leon at Wyndon Stadium.": {
@@ -5775,7 +5775,7 @@
       "line": 3623
     },
     "Sordward and Shielbert are forcing Pokémon to rampage in Galar's Stadiums. First is a Tsareena in Turffield Stadium. Defeat it.": {
-      "translation": "索德沃德和希尔伯特迫使宝可梦在伽勒尔的体育场内横冲直撞。第一个是草路镇竞技场的 Tsareena。打败它。",
+      "translation": "索德沃德和希尔伯特迫使宝可梦在伽勒尔的体育场内横冲直撞。第一个是草路镇竞技场的甜冷美后。打败它。",
       "line": 3623
     },
     "Rampaging Gyarados": {
@@ -6039,7 +6039,7 @@
       "line": 3792
     },
     "Level up Kubfu in both of the Towers of Two Fists to obtain Urshifu!": {
-      "translation": "在双拳之塔中升级 熊徒弟 以获得 Urshifu！",
+      "translation": "在双拳之塔中升级熊徒弟以获得武道熊师！",
       "line": 3797
     },
     "Talk to Mustard at one of the Towers of Two Fists.": {
@@ -6571,7 +6571,7 @@
       "line": 4100
     },
     "Eternamax Eternatus has appeared in the Energy Plant yet again! Bring it down once more.": {
-      "translation": "无极巨化 无极汰那 再次出现在能源工厂中！再把它放下来。",
+      "translation": "无极巨化无极汰那再次出现在能源工厂中！再把它放下来。",
       "line": 4100
     },
     "You defeated Eternamax Eternatus once more. Talk to Leon in Energy Plant.": {
@@ -6759,7 +6759,7 @@
       "line": 4203
     },
     "Help Koraidon and Miraidon find their homes in the mysterious Area Zero.": {
-      "translation": "帮助 故勒顿 和 密勒顿 在神秘的零区找到他们的家。",
+      "translation": "帮助故勒顿和密勒顿在神秘的零区找到他们的家。",
       "line": 4203
     },
     "How blu mouse?": {
@@ -6811,7 +6811,7 @@
       "line": 4235
     },
     "That looked like a Togepi!... well, maybe not. Anyway, there is a big Egg Hunt going on in the woods south of Rustboro in Hoenn; maybe you should take a look?": {
-      "translation": "那看起来像 波克比！...好吧，也许不是。无论如何，在丰缘市拉斯特伯勒以南的树林里，正在举行一场大型的寻蛋活动；也许你应该看一下？",
+      "translation": "那看起来像波克比！...好吧，也许不是。无论如何，在丰缘市拉斯特伯勒以南的树林里，正在举行一场大型的寻蛋活动；也许你应该看一下？",
       "line": 4235
     },
     "The eggs ran away! Talk to the egg hunter in Petalburg Woods.": {

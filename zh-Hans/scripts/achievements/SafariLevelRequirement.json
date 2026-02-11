@@ -7,7 +7,7 @@
   },
   "entries": {
     "Needs Safari Level ${...}.": {
-      "translation": "需要 Safari 级别 ${...}。",
+      "translation": "需要狩猎等级 ${...}。",
       "line": 11,
       "_rematchedFrom": "Needs Safari Level ${...}.",
       "_confidence": 0.85

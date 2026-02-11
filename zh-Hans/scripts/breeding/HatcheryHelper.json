@@ -27,7 +27,7 @@
       "line": 53
     },
     "assets/images/currency/${...}.svg": {
-      "translation": "资产/图像/货币/${...}.svg",
+      "translation": "",
       "line": 53
     },
     "money": {
@@ -45,7 +45,7 @@
       "_confidence": 0.85
     },
     "assets/images/profile/trainer-${...}.png": {
-      "translation": "资产/图像/个人资料/训练家-${...}.png",
+      "translation": "",
       "line": 96
     },
     "pixelated": {
@@ -53,7 +53,7 @@
       "line": 96
     },
     "[HATCHERY HELPER] <img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}": {
-      "translation": "【培育屋助手】<img src=\"assets/images/profile/trainer-${...}.png\" height=\"24px\" class=\"pixelated\"/> ${...}",
+      "translation": "",
       "line": 96
     },
     "t have enough ${...} to hire me... Cost: <img src=\"./assets/images/currency/${...}.svg\" height=\"24px\"/> ${this.cost.amount.toLocaleString(": {

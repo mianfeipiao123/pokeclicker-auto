@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.66
+// @version      0.1.67
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -20,7 +20,11 @@
 (() => {
     'use strict';
 
-    // 拦截 Notifier.notify，用于替换“翻译资源已加载”的提示（文案从外置配置加载）
+    // ═══════════════════════════════════════════════
+    // 1. 配置与常量 (Configuration & Constants)
+    // ═══════════════════════════════════════════════
+
+    // 拦截 Notifier.notify，用于替换"翻译资源已加载"的提示（文案从外置配置加载）
     let notifierLoadedMessage = 'Translations loaded.';
     /** @type {null | ((s: string) => string | null)} */
     let translateForNotifier = null;
@@ -80,7 +84,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.66';
+    const SCRIPT_VERSION = '0.1.67';
 
     // 1) i18n 翻译源（github: 语法会被游戏自动转成 raw.githubusercontent.com）
     // You can override this per-browser via:
@@ -217,6 +221,10 @@
 
     const TRANSLATIONS_BASE_URL_CANDIDATES = uniqueStrings([TRANSLATIONS_BASE_URL, JSDELIVR_BASE_URL]);
     const buildUrlCandidates = (relPath) => TRANSLATIONS_BASE_URL_CANDIDATES.map((base) => joinUrl(base, relPath));
+
+    // ═══════════════════════════════════════════════
+    // 2. 网络与缓存 (Network & Cache)
+    // ═══════════════════════════════════════════════
 
     const DEFAULT_FETCH_TIMEOUT_MS = 5000;
     const parseTimeoutMs = (value) => {
@@ -525,6 +533,10 @@
         return { changed: false, generatedAt: null, contentHash: null };
     };
 
+    // ═══════════════════════════════════════════════
+    // 3. CSS 覆盖 (CSS Overrides)
+    // ═══════════════════════════════════════════════
+
     const escapeCssContent = (s) =>
         String(s ?? '')
             .replace(/\\/g, '\\\\')
@@ -582,6 +594,15 @@
         }
     };
 
+    // ═══════════════════════════════════════════════
+    // 4. 文本规范化与查找工具 (Text Normalization & Lookup Utilities)
+    // ═══════════════════════════════════════════════
+
+    /**
+     * Normalize whitespace: collapse runs, trim, and replace NBSP.
+     * @param {*} text - Input text (coerced to string).
+     * @returns {string} Cleaned text.
+     */
     const normalizeText = (text) =>
         String(text ?? '')
             .replace(/\u00A0/g, ' ')
@@ -591,8 +612,20 @@
     const CJK_PUNCT_MAP = { '\u00A0': ' ', '，': ',', '。': '.', '：': ':', '；': ';' };
     const CJK_PUNCT_RE = /[\u00A0，。：；]/g;
 
+    /**
+     * Normalize text for translation map lookup: NFC normalization, CJK punctuation
+     * mapping, and whitespace cleanup. Results are cached (up to 10,000 entries).
+     * @param {*} text - Input text (coerced to string).
+     * @returns {string} Normalized lookup key.
+     */
+    const _normCache = new Map();
+    const _NORM_CACHE_LIMIT = 10000;
     const normalizeForLookup = (text) => {
-        let s = String(text ?? '');
+        const input = String(text ?? '');
+        const cached = _normCache.get(input);
+        if (cached !== undefined) return cached;
+
+        let s = input;
         try {
             s = s.normalize('NFC');
         } catch {
@@ -600,7 +633,20 @@
         }
         s = s.replace(CJK_PUNCT_RE, (ch) => CJK_PUNCT_MAP[ch]);
         s = s.replace(/\s*,\s*/g, ', ');
-        return normalizeText(s);
+        const result = normalizeText(s);
+
+        if (_normCache.size >= _NORM_CACHE_LIMIT) {
+            // Evict oldest 25% to amortize cost.
+            const evictCount = Math.floor(_NORM_CACHE_LIMIT * 0.25);
+            let removed = 0;
+            for (const k of _normCache.keys()) {
+                if (removed >= evictCount) break;
+                _normCache.delete(k);
+                removed++;
+            }
+        }
+        _normCache.set(input, result);
+        return result;
     };
 
     const foldPunctuationForLookup = (text) =>
@@ -663,10 +709,22 @@
         };
     };
 
+    /**
+     * Determine whether to apply hardcoded map translations to a string.
+     * Returns true only when the text contains >=2 Latin characters and
+     * the Latin count >= CJK count (i.e. likely untranslated English).
+     * Uses fast charCode iteration instead of regex allocation.
+     * @param {*} text - Input text (coerced to string).
+     * @returns {boolean}
+     */
     const shouldUseHardcodedMap = (text) => {
         const s = String(text ?? '');
-        const latinCount = (s.match(/[A-Za-z]/g) || []).length;
-        const hanCount = (s.match(/[\u4E00-\u9FFF]/g) || []).length;
+        let latinCount = 0, hanCount = 0;
+        for (let i = 0; i < s.length; i++) {
+            const c = s.charCodeAt(i);
+            if ((c >= 0x41 && c <= 0x5A) || (c >= 0x61 && c <= 0x7A)) latinCount++;
+            else if (c >= 0x4E00 && c <= 0x9FFF) hanCount++;
+        }
         // Only apply the hardcoded map to strings that are mostly Latin-script (i.e. likely untranslated English).
         // This prevents bad map entries from rewriting already-translated Chinese Pokémon names.
         return latinCount >= 2 && latinCount >= hanCount;
@@ -883,6 +941,7 @@
     const attrNames = ['title', 'placeholder', 'aria-label', 'alt', 'data-original-title', 'data-content', 'data-intro'];
     const ATTR_SELECTOR = attrNames.map((a) => `[${a}]`).join(',');
     const LATIN_RE = /[A-Za-zÉé]/;
+    const ENGLISH_RUN_RE = /[A-Za-zÉé][A-Za-z0-9Éé\s,.%"''!?():/\\-]*/g;
 
     /** @type {WeakMap<Node, string>} */
     const processedTextNodeValues = new WeakMap();
@@ -900,6 +959,10 @@
         }
         return key;
     };
+
+    // ═══════════════════════════════════════════════
+    // 5. 翻译解析引擎 (Translation Resolution Engine)
+    // ═══════════════════════════════════════════════
 
     const escapeRegExp = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
@@ -1214,6 +1277,19 @@
         return segment;
     };
 
+    /**
+     * @typedef {Object} Pattern
+     * @property {RegExp} re - Regex to match against English text.
+     * @property {string[]} zhParts - Chinese template parts split by placeholders.
+     * @property {number} literalLen - Length of literal (non-placeholder) anchor text.
+     * @property {string} firstChar - First character of the leading literal prefix ('*' if none).
+     */
+
+    /**
+     * Build regex-based translation patterns from map entries containing `${...}` placeholders.
+     * @param {Record<string, string>} map - Translation map.
+     * @returns {Pattern[]} Sorted patterns (most specific first).
+     */
     const buildPatterns = (map) => {
         const placeholder = '${...}';
         const singleBracePlaceholderRe = /\{(?!\{)[A-Z][A-Z0-9_]+\}(?!\})/g;
@@ -1265,15 +1341,58 @@
 
             const re = new RegExp(reSource);
             const literalLen = literal.replace(/\s+/g, ' ').trim().length;
-            patterns.push({ re, zhParts, literalLen });
+            // First char of the leading literal prefix (empty prefix → wildcard '*').
+            const firstChar = enParts[0] ? enParts[0][0] : '*';
+            patterns.push({ re, zhParts, literalLen, firstChar });
         }
         // Prefer patterns with more literal anchor text, then longer regex.
         patterns.sort((a, b) => (b.literalLen - a.literalLen) || (b.re.source.length - a.re.source.length));
         return patterns;
     };
 
-    const applyPatterns = (text, patterns, map) => {
+    /**
+     * Build a first-character index over sorted patterns for fast prefix-based filtering.
+     * @param {Pattern[]} patterns - Sorted pattern array from buildPatterns().
+     * @returns {Map<string, Pattern[]>} Map from first char (or '*') to matching patterns.
+     */
+    const buildPatternIndex = (patterns) => {
+        const index = new Map();
         for (const p of patterns) {
+            const ch = p.firstChar;
+            if (!index.has(ch)) index.set(ch, []);
+            index.get(ch).push(p);
+        }
+        return index;
+    };
+
+    /**
+     * Apply regex-based patterns to translate a text string.
+     * Uses patternIndex for fast first-char filtering when available.
+     * @param {string} text - English text to match.
+     * @param {Pattern[]} patterns - Full sorted pattern array.
+     * @param {Record<string, string>} map - Translation map for dynamic segment lookup.
+     * @param {Map<string, Pattern[]>|null} [patternIndex] - Optional first-char index.
+     * @returns {string|null} Translated text, or null if no pattern matched.
+     */
+    const applyPatterns = (text, patterns, map, patternIndex) => {
+        // If we have a first-char index, only test patterns whose first char matches or wildcard '*'.
+        let candidates;
+        if (patternIndex && text) {
+            const ch = text[0];
+            const exact = patternIndex.get(ch);
+            const wild = patternIndex.get('*');
+            if (exact && wild) {
+                // Merge and re-sort to preserve the global literalLen ordering invariant.
+                candidates = [...exact, ...wild].sort(
+                    (a, b) => (b.literalLen - a.literalLen) || (b.re.source.length - a.re.source.length),
+                );
+            } else {
+                candidates = exact || wild || patterns;
+            }
+        } else {
+            candidates = patterns;
+        }
+        for (const p of candidates) {
             const m = text.match(p.re);
             if (!m) continue;
             let out = p.zhParts[0] ?? '';
@@ -1290,60 +1409,61 @@
         return null;
     };
 
-    const resolveTranslation = (key, map, patterns) => {
-        if (!key) return null;
-        const altKey = normalizeForLookup(key);
-        const candidates = altKey && altKey !== key ? [key, altKey] : [key];
-        const demixed = demixForLookup(altKey || key);
-        if (demixed && !candidates.includes(demixed)) candidates.push(demixed);
-
+    /** Try inline overrides (hardcoded in-script). */
+    const resolveFromInlineOverrides = (candidates, map) => {
         for (const k of candidates) {
             const inline = INLINE_OVERRIDES[k];
             if (typeof inline === 'string' && inline) return finalizeTranslation(inline, map);
         }
+        return null;
+    };
 
+    /** Try direct map lookup (exact key match). */
+    const resolveFromDirectMap = (candidates, map) => {
         for (const k of candidates) {
             const direct = map?.[k];
             if (typeof direct === 'string' && direct) return finalizeTranslation(direct, map);
         }
+        return null;
+    };
 
-        // Case-insensitive fallback for DOM strings that differ only by capitalization.
-        // Uses a precomputed index built from non-colliding keys.
+    /** Case-insensitive fallback using a precomputed lowercase index. */
+    const resolveFromCasefoldIndex = (candidates, map) => {
         const casefoldIndex = map?.__pkcZhHansCasefoldIndex;
-        if (casefoldIndex && typeof casefoldIndex.get === 'function') {
-            for (const k of candidates) {
-                if (!k) continue;
-                const v = casefoldIndex.get(String(k).toLowerCase());
-                if (typeof v === 'string' && v) return finalizeTranslation(v, map);
-            }
+        if (!casefoldIndex || typeof casefoldIndex.get !== 'function') return null;
+        for (const k of candidates) {
+            if (!k) continue;
+            const v = casefoldIndex.get(String(k).toLowerCase());
+            if (typeof v === 'string' && v) return finalizeTranslation(v, map);
         }
+        return null;
+    };
 
-        // Punctuation-folded fallback for typographic variants (e.g. "It’s" vs "It's").
-        // Uses a precomputed index built from non-colliding folded keys.
+    /** Punctuation-folded fallback for typographic variants (e.g. "It\u2019s" vs "It's"). */
+    const resolveFromPunctFoldIndex = (candidates, map) => {
         const punctFoldIndex = map?.__pkcZhHansPunctFoldIndex;
-        if (punctFoldIndex && typeof punctFoldIndex.get === 'function') {
-            for (const k of candidates) {
-                if (!k) continue;
-                const lk = foldPunctuationForLookup(normalizeForLookup(k)).toLowerCase();
-                if (!lk) continue;
-                const v = punctFoldIndex.get(lk);
-                if (typeof v === 'string' && v) return finalizeTranslation(v, map);
-            }
+        if (!punctFoldIndex || typeof punctFoldIndex.get !== 'function') return null;
+        for (const k of candidates) {
+            if (!k) continue;
+            const lk = foldPunctuationForLookup(normalizeForLookup(k)).toLowerCase();
+            if (!lk) continue;
+            const v = punctFoldIndex.get(lk);
+            if (typeof v === 'string' && v) return finalizeTranslation(v, map);
         }
+        return null;
+    };
 
-        const useMapFlags = candidates.map((k) => shouldUseHardcodedMap(k));
-        const useMap = useMapFlags.some(Boolean);
-        if (!useMap) return null;
-
+    /** Try the dedicated Pok\u00e9mon dictionary. */
+    const resolveFromPokemonDict = (candidates, map) => {
         for (const k of candidates) {
             const pokemon = pokemonTranslations?.[k];
-            if (typeof pokemon === 'string') {
-                return finalizeTranslation(pokemon, map);
-            }
+            if (typeof pokemon === 'string') return finalizeTranslation(pokemon, map);
         }
+        return null;
+    };
 
-        // Humanified enum names often appear in DOM text (spaces instead of underscores), e.g. "Melemele Stamp".
-        // Try lookup variants against the loaded map (which contains enum keys like "Melemele_Stamp").
+    /** Humanified enum names (spaces/hyphens → underscores). */
+    const resolveFromHumanifiedEnum = (candidates, useMapFlags, map) => {
         for (let i = 0; i < candidates.length; i += 1) {
             if (!useMapFlags[i]) continue;
             const k = candidates[i];
@@ -1357,24 +1477,27 @@
                 if (typeof v === 'string' && v && !v.includes('${...}')) return finalizeTranslation(v, map);
             }
         }
+        return null;
+    };
 
-        if (patterns.length) {
-            for (const k of candidates) {
-                const matched = applyPatterns(k, patterns, map);
-                if (typeof matched === 'string' && matched) return finalizeTranslation(matched, map);
-
-                // Pattern keys usually use ASCII punctuation, but upstream strings sometimes contain typographic variants
-                // (e.g. "I’ve" vs "I've"). Try a folded variant to improve match rate for dynamic templates.
-                const folded = foldPunctuationForLookup(k);
-                if (folded && folded !== k) {
-                    const matchedFolded = applyPatterns(folded, patterns, map);
-                    if (typeof matchedFolded === 'string' && matchedFolded) return finalizeTranslation(matchedFolded, map);
-                }
+    /** Try pattern-based template matching (e.g. "${...} used ${...}!"). */
+    const resolveFromPatterns = (candidates, patterns, map) => {
+        if (!patterns.length) return null;
+        const idx = patterns.__pkcIndex;
+        for (const k of candidates) {
+            const matched = applyPatterns(k, patterns, map, idx);
+            if (typeof matched === 'string' && matched) return finalizeTranslation(matched, map);
+            const folded = foldPunctuationForLookup(k);
+            if (folded && folded !== k) {
+                const matchedFolded = applyPatterns(folded, patterns, map, idx);
+                if (typeof matchedFolded === 'string' && matchedFolded) return finalizeTranslation(matchedFolded, map);
             }
         }
+        return null;
+    };
 
-        // Handle dynamic badge names that are not present as full strings in translation maps,
-        // e.g. "Spike Shell Badge" / "BoulderBadge".
+    /** Handle dynamic badge names like "Spike Shell Badge". */
+    const resolveFromBadgeSuffix = (candidates, map) => {
         const badgeWord = userscriptCssLabels.badgeSuffix || map?.Badge || 'Badge';
         for (const k of candidates) {
             const m = k.match(/^(.+?)\s*(?:Badge|badge)([.!?:,])?$/);
@@ -1387,9 +1510,11 @@
             if (translatedName.endsWith(badgeWord)) return finalizeTranslation(`${translatedName}${punct}`, map);
             return finalizeTranslation(`${translatedName}${badgeWord}${punct}`, map);
         }
+        return null;
+    };
 
-        // Many settings/labels are rendered as `${displayName}:` in templates.
-        // If the only difference is a trailing colon, try translating without it and re-append.
+    /** Strip trailing colon and try translating the base, then re-append. */
+    const resolveFromTrailingColon = (candidates, map, patterns) => {
         for (const k of candidates) {
             const m = k.match(/^(.*?)([:：])$/);
             if (!m) continue;
@@ -1400,10 +1525,50 @@
             if (translatedBase.endsWith(':') || translatedBase.endsWith('：')) return translatedBase;
             return `${translatedBase}${m[2]}`;
         }
-
         return null;
     };
 
+    /**
+     * Resolve a translation key through a multi-strategy pipeline:
+     * inline overrides → direct map → casefold → punctfold → pokémon dict →
+     * humanified enum → patterns → badge suffix → trailing colon.
+     * @param {string} key - English text to translate.
+     * @param {Record<string, string>} map - Translation map.
+     * @param {Pattern[]} patterns - Regex pattern array.
+     * @returns {string|null} Translated text, or null if no strategy matched.
+     */
+    const resolveTranslation = (key, map, patterns) => {
+        if (!key) return null;
+        const altKey = normalizeForLookup(key);
+        const candidates = altKey && altKey !== key ? [key, altKey] : [key];
+        const demixed = demixForLookup(altKey || key);
+        if (demixed && !candidates.includes(demixed)) candidates.push(demixed);
+
+        // Compute map-eligibility flags once, up front.
+        const useMapFlags = candidates.map((k) => shouldUseHardcodedMap(k));
+        const useMap = useMapFlags.some(Boolean);
+
+        // Pipeline: try each strategy in order, return first non-null result.
+        return resolveFromInlineOverrides(candidates, map)
+            ?? resolveFromDirectMap(candidates, map)
+            ?? resolveFromCasefoldIndex(candidates, map)
+            ?? resolveFromPunctFoldIndex(candidates, map)
+            ?? (useMap ? resolveFromPokemonDict(candidates, map) : null)
+            ?? (useMap ? resolveFromHumanifiedEnum(candidates, useMapFlags, map) : null)
+            ?? (useMap ? resolveFromPatterns(candidates, patterns, map) : null)
+            ?? (useMap ? resolveFromBadgeSuffix(candidates, map) : null)
+            ?? (useMap ? resolveFromTrailingColon(candidates, map, patterns) : null);
+    };
+
+    /**
+     * Fallback translator for mixed English/Chinese text segments.
+     * Splits input on English runs, resolves each piece independently.
+     * @param {string} text - Text to translate.
+     * @param {Record<string, string>} map - Translation map.
+     * @param {Pattern[]} patterns - Regex pattern array.
+     * @param {TranslationCache} cache - LRU-style translation cache.
+     * @returns {string|null} Translated text, or null if nothing changed.
+     */
     const translateSegmentsFallback = (text, map, patterns, cache) => {
         let input = String(text ?? '');
         if (!input) return null;
@@ -1475,13 +1640,13 @@
             return out === piece ? piece : out;
         };
 
-        const englishRunRe = /[A-Za-zÉé][A-Za-z0-9Éé\s,.%\"'’!?():/\\-]*/g;
+        ENGLISH_RUN_RE.lastIndex = 0;
         let out = '';
         let lastIndex = 0;
         let changed = false;
         let m;
         // eslint-disable-next-line no-cond-assign
-        while (m = englishRunRe.exec(input)) {
+        while (m = ENGLISH_RUN_RE.exec(input)) {
             const before = input.slice(lastIndex, m.index);
             const beforeOut = translatePiece(before);
             if (beforeOut !== before) changed = true;
@@ -1503,29 +1668,31 @@
         return changed ? out : null;
     };
 
+    // ═══════════════════════════════════════════════
+    // 6. DOM 翻译 (DOM Translation)
+    // ═══════════════════════════════════════════════
+
+    let _cacheHits = 0;
+    let _cacheMisses = 0;
+
     /** Resolve a translation key through the cache, returning the result or null. */
     const cachedResolve = (lookupKey, map, patterns, cache) => {
         if (cache.has(lookupKey)) {
+            _cacheHits++;
             const v = cache.get(lookupKey);
             return v || null;
         }
+        _cacheMisses++;
         const resolved = resolveTranslation(lookupKey, map, patterns);
         cache.set(lookupKey, resolved ?? '');
         return resolved || null;
     };
 
-    const applyMapToTextNode = (textNode, map, patterns, cache) => {
-        if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
-        if (shouldSkipNode(textNode)) return;
-        const rawNodeValue = String(textNode.nodeValue ?? '');
-        if (processedTextNodeValues.get(textNode) === rawNodeValue) return;
-        processedTextNodeValues.set(textNode, rawNodeValue);
-        if (isHotkeyValueNode(textNode)) return;
-        if (!LATIN_RE.test(rawNodeValue)) return;
-
-        // In a few places, the game builds English plurals by appending a separate "s" node.
-        // When the base word is translated to Chinese (e.g. "Dungeon" -> "迷宫"), the leftover "s" becomes visible ("迷宫s").
-        // Strip such orphan plural suffixes when they directly follow a CJK text node.
+    /**
+     * Strip orphan plural "s" suffix that follows a CJK text node.
+     * @returns {boolean} true if handled (caller should return early).
+     */
+    const stripOrphanPluralSuffix = (textNode) => {
         try {
             const rawNode = String(textNode.nodeValue ?? '');
             const rawTrimmed = rawNode.replace(/\u00A0/g, ' ').trim();
@@ -1536,22 +1703,21 @@
                     if (/[\u4E00-\u9FFF]$/.test(prevText)) {
                         textNode.nodeValue = rawNode.replace(/s/g, '');
                         processedTextNodeValues.set(textNode, String(textNode.nodeValue ?? ''));
-                        return;
+                        return true;
                     }
                 }
             }
         } catch {
             // ignore
         }
+        return false;
+    };
 
-        const raw = String(textNode.nodeValue ?? '');
-        const { leading, core, trailing } = splitOuterWhitespace(raw);
-        const key = normalizeText(core);
-        if (!key) return;
-
-        // Context override:
-        // Underground → Treasures groups "Gem" valueType items, which are actually Arceus Plates.
-        // Keep global "Gem" (= 属性宝石) intact, but show context-specific label for this group title.
+    /**
+     * Context override for Underground → Treasures "Gem" group title.
+     * @returns {boolean} true if handled.
+     */
+    const handleTreasuresGemOverride = (textNode, key, leading, trailing, raw) => {
         try {
             if (key === 'Gem' && treasuresGemOverride) {
                 const parent = textNode.parentElement;
@@ -1567,12 +1733,121 @@
                         textNode.nodeValue = out;
                         processedTextNodeValues.set(textNode, out);
                     }
-                    return;
+                    return true;
                 }
             }
         } catch {
             // ignore
         }
+        return false;
+    };
+
+    /**
+     * Translate a multi-line text node by resolving each line independently.
+     * @returns {boolean} true if any translation was applied.
+     */
+    const translateMultilineTextNode = (textNode, core, leading, trailing, raw, lookupKey, map, patterns, cache) => {
+        if (!/[\r\n]/.test(core)) return false;
+
+        const parts = core.split(/(\r?\n+)/);
+        let changed = false;
+        for (let i = 0; i < parts.length; i += 1) {
+            const part = parts[i];
+            if (!part || /^\r?\n+$/.test(part)) continue;
+            const { leading: l, core: c, trailing: t } = splitOuterWhitespace(part);
+            const partKey = normalizeText(c);
+            if (!partKey) continue;
+
+            let partCached = cache.get(partKey);
+            if (partCached == null) {
+                const resolved = resolveTranslation(partKey, map, patterns);
+                cache.set(partKey, resolved ?? '');
+                partCached = resolved ?? '';
+            }
+
+            if (partCached) {
+                const outPart = `${l}${partCached}${t}`;
+                if (outPart !== part) {
+                    parts[i] = outPart;
+                    changed = true;
+                }
+                continue;
+            }
+
+            const segOut = translateSegmentsFallback(c, map, patterns, cache);
+            if (segOut) {
+                const outPart = `${l}${segOut}${t}`;
+                if (outPart !== part) {
+                    parts[i] = outPart;
+                    changed = true;
+                }
+            }
+        }
+
+        if (changed) {
+            const newCore = parts.join('');
+            cache.set(lookupKey, newCore);
+            const out = `${leading}${newCore}${trailing}`;
+            if (out !== raw) {
+                textNode.nodeValue = out;
+                processedTextNodeValues.set(textNode, out);
+            }
+        }
+        return changed;
+    };
+
+    /**
+     * Try resolving via inline wrapper tags (e.g. `<i>text</i>` as map key).
+     * @returns {boolean} true if handled.
+     */
+    const tryInlineWrapperFallback = (textNode, key, lookupKey, leading, trailing, raw, map, patterns, cache) => {
+        try {
+            const wrappedKey = buildInlineWrapperKey(textNode, key);
+            if (wrappedKey) {
+                const wrapped = resolveTranslation(wrappedKey, map, patterns);
+                const wrappedText = extractTextFromHtml(wrapped);
+                if (wrappedText) {
+                    cache.set(lookupKey, wrappedText);
+                    const out = `${leading}${wrappedText}${trailing}`;
+                    if (out !== raw) {
+                        textNode.nodeValue = out;
+                        processedTextNodeValues.set(textNode, out);
+                    }
+                    return true;
+                }
+            }
+        } catch {
+            // ignore
+        }
+        return false;
+    };
+
+    /**
+     * Translate a single DOM text node in-place.
+     * Tries full-key resolution, multi-line splitting, segment fallback,
+     * and inline wrapper fallback before giving up.
+     * @param {Text} textNode - DOM text node.
+     * @param {Record<string, string>} map - Translation map.
+     * @param {Pattern[]} patterns - Regex pattern array.
+     * @param {TranslationCache} cache - LRU-style translation cache.
+     */
+    const applyMapToTextNode = (textNode, map, patterns, cache) => {
+        if (!textNode || textNode.nodeType !== Node.TEXT_NODE) return;
+        if (shouldSkipNode(textNode)) return;
+        const rawNodeValue = String(textNode.nodeValue ?? '');
+        if (processedTextNodeValues.get(textNode) === rawNodeValue) return;
+        processedTextNodeValues.set(textNode, rawNodeValue);
+        if (isHotkeyValueNode(textNode)) return;
+        if (!LATIN_RE.test(rawNodeValue)) return;
+
+        if (stripOrphanPluralSuffix(textNode)) return;
+
+        const raw = String(textNode.nodeValue ?? '');
+        const { leading, core, trailing } = splitOuterWhitespace(raw);
+        const key = normalizeText(core);
+        if (!key) return;
+
+        if (handleTreasuresGemOverride(textNode, key, leading, trailing, raw)) return;
 
         const lookupKey = getWeatherTypeLookupKey(key, { textNode });
 
@@ -1586,53 +1861,7 @@
             return;
         }
 
-        if (/[\r\n]/.test(core)) {
-            const parts = core.split(/(\r?\n+)/);
-            let changed = false;
-            for (let i = 0; i < parts.length; i += 1) {
-                const part = parts[i];
-                if (!part || /^\r?\n+$/.test(part)) continue;
-                const { leading: l, core: c, trailing: t } = splitOuterWhitespace(part);
-                const partKey = normalizeText(c);
-                if (!partKey) continue;
-
-                let partCached = cache.get(partKey);
-                if (partCached == null) {
-                    const resolved = resolveTranslation(partKey, map, patterns);
-                    cache.set(partKey, resolved ?? '');
-                    partCached = resolved ?? '';
-                }
-
-                if (partCached) {
-                    const outPart = `${l}${partCached}${t}`;
-                    if (outPart !== part) {
-                        parts[i] = outPart;
-                        changed = true;
-                    }
-                    continue;
-                }
-
-                const segOut = translateSegmentsFallback(c, map, patterns, cache);
-                if (segOut) {
-                    const outPart = `${l}${segOut}${t}`;
-                    if (outPart !== part) {
-                        parts[i] = outPart;
-                        changed = true;
-                    }
-                }
-            }
-
-            if (changed) {
-                const newCore = parts.join('');
-                cache.set(lookupKey, newCore);
-                const out = `${leading}${newCore}${trailing}`;
-                if (out !== raw) {
-                    textNode.nodeValue = out;
-                    processedTextNodeValues.set(textNode, out);
-                }
-                return;
-            }
-        }
+        if (translateMultilineTextNode(textNode, core, leading, trailing, raw, lookupKey, map, patterns, cache)) return;
 
         const segOut = translateSegmentsFallback(core, map, patterns, cache);
         if (segOut) {
@@ -1645,28 +1874,7 @@
             return;
         }
 
-        // Inline wrapper fallback:
-        // Some upstream strings are HTML fragments like `<i>...</i>` / `<b><i>...</i></b>`.
-        // When inserted via `innerHTML`, our DOM walker sees only the inner text node,
-        // while the translation map may contain the wrapped HTML string as the key.
-        try {
-            const wrappedKey = buildInlineWrapperKey(textNode, key);
-            if (wrappedKey) {
-                const wrapped = resolveTranslation(wrappedKey, map, patterns);
-                const wrappedText = extractTextFromHtml(wrapped);
-                if (wrappedText) {
-                    cache.set(lookupKey, wrappedText);
-                    const out = `${leading}${wrappedText}${trailing}`;
-                    if (out !== raw) {
-                        textNode.nodeValue = out;
-                        processedTextNodeValues.set(textNode, out);
-                    }
-                    return;
-                }
-            }
-        } catch {
-            // ignore
-        }
+        if (tryInlineWrapperFallback(textNode, key, lookupKey, leading, trailing, raw, map, patterns, cache)) return;
 
         if (shouldUseHardcodedMap(lookupKey)) recordMissing(lookupKey);
     };
@@ -1786,10 +1994,33 @@
         }
     };
 
+    // ═══════════════════════════════════════════════
+    // 7. 初始化与观察器 (Initialization & Observer)
+    // ═══════════════════════════════════════════════
+
     const start = async () => {
         if (DEBUG) {
             log.info(window.PokeClickerZhHans.getConfig());
         }
+
+        // Show a loading banner while translations are being fetched.
+        let loadingBanner = null;
+        try {
+            loadingBanner = document.createElement('div');
+            loadingBanner.id = 'pkc-zh-hans-loading';
+            loadingBanner.textContent = '正在加载中文翻译...';
+            loadingBanner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:99999;' +
+                'background:#1a73e8;color:#fff;text-align:center;padding:4px 0;font-size:13px;' +
+                'font-family:system-ui,sans-serif;opacity:0.92;';
+            (document.body || document.documentElement).appendChild(loadingBanner);
+        } catch {
+            loadingBanner = null;
+        }
+
+        const removeLoadingBanner = () => {
+            try { loadingBanner?.remove(); } catch { /* ignore */ }
+            loadingBanner = null;
+        };
 
         const config = await loadUserscriptConfig();
         if (config) {
@@ -2000,6 +2231,29 @@
             log.error('Failed to load translation resources:', e);
         }
 
+        // Load user-defined translation overrides from localStorage.
+        // Must run BEFORE casefold/punctfold index building so overrides are included.
+        try {
+            const raw = localStorage.getItem('pokeclickerZhHansUserOverrides');
+            if (raw) {
+                const overrides = JSON.parse(raw);
+                if (overrides && typeof overrides === 'object') {
+                    let count = 0;
+                    for (const [k, v] of Object.entries(overrides)) {
+                        if (typeof k === 'string' && k && typeof v === 'string' && v) {
+                            map[k] = v;
+                            count++;
+                        }
+                    }
+                    if (DEBUG && count > 0) {
+                        log.info('Loaded user overrides:', count, 'entries');
+                    }
+                }
+            }
+        } catch {
+            // ignore invalid JSON
+        }
+
         // Build a safe case-insensitive index for translation lookups.
         // If multiple keys collide case-insensitively, we skip the entire group.
         try {
@@ -2080,6 +2334,7 @@
         }
 
         const patterns = buildPatterns(map);
+        Object.defineProperty(patterns, '__pkcIndex', { value: buildPatternIndex(patterns) });
         const cache = new TranslationCache(50000);
 
         const translateWithFallback = (text) => {
@@ -2127,6 +2382,41 @@
         translateForNotifier = translateForNotifierImpl;
         window.PokeClickerZhHans.lookup = translateForNotifierImpl;
         window.PokeClickerZhHans.getBundleMeta = () => bundleMeta;
+
+        /**
+         * Persist a user-defined translation override.
+         * @param {string} en - English key.
+         * @param {string} zh - Chinese translation value.
+         */
+        window.PokeClickerZhHans.setOverride = (en, zh) => {
+            if (typeof en !== 'string' || !en) return;
+            if (typeof zh !== 'string' || !zh) return;
+            try {
+                const raw = localStorage.getItem('pokeclickerZhHansUserOverrides');
+                const overrides = raw ? JSON.parse(raw) : {};
+                overrides[en] = zh;
+                localStorage.setItem('pokeclickerZhHansUserOverrides', JSON.stringify(overrides));
+                map[en] = zh;
+                cache.delete(en);
+                cache.delete(normalizeForLookup(en));
+            } catch {
+                // ignore
+            }
+        };
+
+        /** Return translation runtime statistics. */
+        window.PokeClickerZhHans.stats = () => ({
+            mapSize: Object.keys(map).length,
+            cacheSize: cache.size,
+            cacheHits: _cacheHits,
+            cacheMisses: _cacheMisses,
+            cacheHitRate: (_cacheHits + _cacheMisses) > 0
+                ? (_cacheHits / (_cacheHits + _cacheMisses) * 100).toFixed(1) + '%'
+                : 'N/A',
+            missingCount: missingSet.size,
+            patternCount: patterns.length,
+            normCacheSize: _normCache.size,
+        });
 
         // Patch the Knockout tooltip binding so titles are translated before Bootstrap renders them.
         // This covers dynamic HTML tooltips like DayCycle.tooltip() in `townMap.html`.
@@ -2254,6 +2544,7 @@
         pollUntil(tryPatchSpecialEvents);
 
         applyMapToRoot(document.documentElement, map, patterns, cache);
+        removeLoadingBanner();
 
         const pendingRoots = new Set();
         const pendingAttrs = new Set();
@@ -2262,6 +2553,8 @@
 
         const addRoot = (node) => {
             if (!node) return;
+            // If document.body is already queued, any child is redundant.
+            if (pendingRoots.has(document.body) && document.body?.contains?.(node)) return;
             // Skip if an existing root already covers this node.
             for (const r of pendingRoots) {
                 if (r === node) return;
@@ -2279,6 +2572,17 @@
             scheduled = true;
             const flush = () => {
                 scheduled = false;
+
+                // If pending items exceed a threshold, merge into a single full-document traversal.
+                const totalPending = pendingRoots.size + pendingAttrs.size + pendingText.size;
+                if (totalPending > 200) {
+                    pendingRoots.clear();
+                    pendingAttrs.clear();
+                    pendingText.clear();
+                    applyMapToRoot(document.documentElement, map, patterns, cache);
+                    return;
+                }
+
                 const roots = Array.from(pendingRoots);
                 const attrs = Array.from(pendingAttrs);
                 const textNodes = Array.from(pendingText);

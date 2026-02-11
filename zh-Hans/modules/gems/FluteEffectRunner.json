@@ -80,10 +80,6 @@
       "translation": "99小时+",
       "line": 157
     },
-    "${...}h": {
-      "translation": "${...}小时",
-      "line": 159
-    },
     "<div><strong>Consumes:</strong></div>": {
       "translation": "",
       "line": 182

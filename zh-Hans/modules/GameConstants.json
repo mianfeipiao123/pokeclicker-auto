@@ -208,10 +208,6 @@
       "_rematchedFrom": "${...}d",
       "_confidence": 0.85
     },
-    "${...}h": {
-      "translation": "${...}小时",
-      "line": 588
-    },
     "${...}m": {
       "translation": "${...}m",
       "line": 593,

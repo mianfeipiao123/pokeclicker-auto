@@ -43,12 +43,6 @@
     "99h+": {
       "translation": "99小时+",
       "line": 69
-    },
-    "${...}h": {
-      "translation": "${...}小时",
-      "line": 71,
-      "_rematchedFrom": "${...}h",
-      "_confidence": 0.85
     }
   }
 }

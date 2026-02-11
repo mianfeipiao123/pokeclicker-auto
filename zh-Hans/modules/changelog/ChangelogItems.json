@@ -223,7 +223,7 @@
       "line": 67
     },
     "Magikarp Jump subregion no longer affected by the regional debuff": {
-      "translation": "鲤鱼跳跃分区不再受区域减益影响",
+      "translation": "《跳跃吧！鲤鱼王》子区域不再受区域减益影响",
       "line": 68
     },
     "Currency display module will now dynamically show additional currencies as they are unlocked or earned": {
@@ -251,7 +251,7 @@
       "line": 75
     },
     "Fixed EV count display on routes with duplicate Pokémon (Magikarp Jump)": {
-      "translation": "修复了具有重复宝可梦（鲤鱼王 Jump）的路线上的努力值计数显示",
+      "translation": "修复了具有重复宝可梦（《跳跃吧！鲤鱼王》）的路线上的努力值计数显示",
       "line": 76
     },
     "Fixed potential softlock in the An Unrivaled Power quest line": {
@@ -523,7 +523,7 @@
       "line": 157
     },
     "Fish Pond safari area in Magikarp Jump sub-region": {
-      "translation": "鲤鱼王 Jump 次区域的鱼池游猎区",
+      "translation": "《跳跃吧！鲤鱼王》子区域的鱼池游猎区",
       "line": 158
     },
     "Setting to disable auto-save": {
@@ -1283,7 +1283,7 @@
       "line": 426
     },
     "Added Magikarp Jump Subregion": {
-      "translation": "添加了鲤鱼跳跃分区",
+      "translation": "添加了《跳跃吧！鲤鱼王》子区域",
       "line": 427
     },
     "Added new Vitamins": {

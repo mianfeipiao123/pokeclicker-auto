@@ -9252,6 +9252,7 @@
     "Oak Items": "大木博士道具",
     "Oak Items are disabled.": "大木博士道具被禁用。",
     "Oak Items Equipped:": "装备的大木博士道具：",
+    "Oak Items Equipped: ": "装备的大木博士道具：",
     "Oak Items Equipped: ${...}": "装备的大木博士道具：${...}",
     "Oak Items now have 5 loadouts": "大木博士道具现在有5个装载",
     "Oak items upgraded currency shows correct currency": "大木博士道具升级货币显示正确的货币",

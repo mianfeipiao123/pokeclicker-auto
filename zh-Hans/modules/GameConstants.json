@@ -1425,19 +1425,19 @@
       "line": 972
     },
     "Ruins of Conflict": {
-      "translation": "冲突废墟",
+      "translation": "战争遗迹",
       "line": 972
     },
     "Ruins of Life": {
-      "translation": "生命的废墟",
+      "translation": "生命遗迹",
       "line": 972
     },
     "Ruins of Abundance": {
-      "translation": "丰饶废墟",
+      "translation": "丰收遗迹",
       "line": 972
     },
     "Ruins of Hope": {
-      "translation": "希望的废墟",
+      "translation": "彼岸遗迹",
       "line": 972
     },
     "Rose Tower": {
@@ -1585,7 +1585,7 @@
       "line": 1041
     },
     "Upgrade": {
-      "translation": "升级",
+      "translation": "升级数据",
       "line": 1042
     },
     "Dragon_scale": {
@@ -1897,7 +1897,7 @@
       "line": 1136
     },
     "Silvally (Dark) 1": {
-      "translation": "银伴战兽（深色）1",
+      "translation": "银伴战兽（恶）1",
       "line": 1137
     },
     "Silvally (Fairy) 1": {
@@ -1937,7 +1937,7 @@
       "line": 1146
     },
     "Silvally (Poison) 1": {
-      "translation": "银伴战兽（毒药）1",
+      "translation": "银伴战兽（毒）1",
       "line": 1147
     },
     "Silvally (Ghost) 1": {
@@ -1945,7 +1945,7 @@
       "line": 1148
     },
     "Silvally (Psychic) 1": {
-      "translation": "银伴战兽（心灵）1",
+      "translation": "银伴战兽（超能力）1",
       "line": 1149
     },
     "Silvally (Steel) 1": {
@@ -1965,7 +1965,7 @@
       "line": 1153
     },
     "Silvally (Dark) 2": {
-      "translation": "银伴战兽（黑暗）2",
+      "translation": "银伴战兽（恶）2",
       "line": 1154
     },
     "Silvally (Fairy) 2": {
@@ -2005,7 +2005,7 @@
       "line": 1163
     },
     "Silvally (Poison) 2": {
-      "translation": "银伴战兽（毒药）2",
+      "translation": "银伴战兽（毒）2",
       "line": 1164
     },
     "Silvally (Ghost) 2": {
@@ -2617,7 +2617,7 @@
       "line": 1817
     },
     "Twinleaf Town": {
-      "translation": "真砂镇",
+      "translation": "双叶镇",
       "line": 1818
     },
     "Vaniville Town": {
@@ -3217,11 +3217,11 @@
       "line": 1995
     },
     "Courtney 1": {
-      "translation": "考特尼1",
+      "translation": "火雁1",
       "line": 1996
     },
     "Matt 1": {
-      "translation": "马特1",
+      "translation": "阿潮1",
       "line": 1997
     },
     "Zinnia 1": {
@@ -3241,11 +3241,11 @@
       "line": 2001
     },
     "Courtney 2": {
-      "translation": "考特尼2",
+      "translation": "火雁2",
       "line": 2002
     },
     "Matt 2": {
-      "translation": "马特2",
+      "translation": "阿潮2",
       "line": 2003
     },
     "Delta Wallace": {
@@ -3301,11 +3301,11 @@
       "line": 2016
     },
     "Matt 3": {
-      "translation": "马特3",
+      "translation": "阿潮3",
       "line": 2017
     },
     "Courtney 3": {
-      "translation": "考特尼3",
+      "translation": "火雁3",
       "line": 2018
     },
     "Hoenn Stone Salesman": {
@@ -3545,7 +3545,7 @@
       "line": 2078
     },
     "Melemele Spearow": {
-      "translation": "梅勒梅勒·斯皮罗",
+      "translation": "美乐美乐烈雀",
       "line": 2079
     },
     "Hau 2": {
@@ -3725,7 +3725,7 @@
       "line": 2123
     },
     "Anabel": {
-      "translation": "丽拉",
+      "translation": "莉拉",
       "line": 2124
     },
     "Captain Mina UB": {

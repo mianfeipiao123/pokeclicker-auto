@@ -23,19 +23,19 @@
       "line": 15
     },
     "Added quest line <b>Destiny Deoxys</b>, available at the Unova bulletin board after completing <i>Hollow Truth and Ideals</i>": {
-      "translation": "",
+      "translation": "添加了任务线 <b>裂空的访问者 代欧奇希斯</b>，完成 <i>真实的虚假</i> 后可在合众地区公告栏接取",
       "line": 16
     },
     "Removed <i>Incomplete Area</i> status from Battle Café": {
-      "translation": "",
+      "translation": "移除了对战咖啡厅的 <i>未完成区域</i> 状态",
       "line": 17
     },
     "Secret achievements are now only shown when the <i>Secret</i> category is selected": {
-      "translation": "",
+      "translation": "秘密成就现在只在选择 <i>秘密</i> 类别时显示",
       "line": 18
     },
     "Adjusted requirement for <i>Blue is my favorite color</i> secret achievement (1,000,000 → 123,456)": {
-      "translation": "",
+      "translation": "调整了 <i>蓝色是我最喜欢的颜色</i> 秘密成就的要求（1,000,000 → 123,456）",
       "line": 19
     },
     "Pokémon search fields now support searching by nickname, current language name, and English name": {
@@ -43,7 +43,7 @@
       "line": 20
     },
     "Reduced clear requirement for Castelia Sewers in <i>Hollow Truth and Ideals</i> (10 → 1)": {
-      "translation": "",
+      "translation": "降低了 <i>真实的虚假</i> 中飞云下水道的通关要求（10 → 1）",
       "line": 21
     },
     "Farm mutation indicator will now appear even if the player has not discovered the hint for the mutated berry": {
@@ -59,7 +59,7 @@
       "line": 24
     },
     "Fixed ability to sell/trade fractional items": {
-      "translation": "",
+      "translation": "修复了可以出售/交易部分物品的问题",
       "line": 25
     },
     "Fixed issues with several secret achievements": {

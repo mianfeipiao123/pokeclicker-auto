@@ -735,7 +735,7 @@
       "line": 194
     },
     "Whirl Guardian": {
-      "translation": "漩涡守护者",
+      "translation": "旋风守护者",
       "line": 194
     },
     "Clear_Bell_Hooh": {
@@ -1855,11 +1855,11 @@
       "line": 332
     },
     "Lime_shard": {
-      "translation": "青柠碎片",
+      "translation": "石灰碎片",
       "line": 333
     },
     "Lime Shard": {
-      "translation": "青柠碎片",
+      "translation": "石灰碎片",
       "line": 333
     },
     "White_shard": {
@@ -2139,7 +2139,7 @@
       "line": 404
     },
     "Silvally (Dark) 1": {
-      "translation": "银伴战兽（深色）1",
+      "translation": "银伴战兽（恶）1",
       "line": 406
     },
     "Silvally (Dark)": {
@@ -2147,7 +2147,7 @@
       "line": 406
     },
     "Silvally (Dark) 2": {
-      "translation": "银伴战兽（黑暗）2",
+      "translation": "银伴战兽（恶）2",
       "line": 408
     },
     "Silvally (Fairy) 1": {
@@ -2259,7 +2259,7 @@
       "line": 444
     },
     "Silvally (Poison) 1": {
-      "translation": "银伴战兽（毒药）1",
+      "translation": "银伴战兽（毒）1",
       "line": 446
     },
     "Silvally (Poison)": {
@@ -2267,7 +2267,7 @@
       "line": 446
     },
     "Silvally (Poison) 2": {
-      "translation": "银伴战兽（毒药）2",
+      "translation": "银伴战兽（毒）2",
       "line": 448
     },
     "Silvally (Ghost) 1": {
@@ -2283,7 +2283,7 @@
       "line": 452
     },
     "Silvally (Psychic) 1": {
-      "translation": "银伴战兽（心灵）1",
+      "translation": "银伴战兽（超能力）1",
       "line": 454
     },
     "Silvally (Psychic)": {

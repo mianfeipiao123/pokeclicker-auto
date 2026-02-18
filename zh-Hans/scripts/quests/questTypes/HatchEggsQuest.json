@@ -15,7 +15,7 @@
       "line": 27
     },
     "Hatch ${...} ${...}.": {
-      "translation": "孵化 ${...} 枚蛋。",
+      "translation": "孵化 ${...} 枚${...}。",
       "line": 27,
       "_rematchedFrom": "Hatch ${...} ${...}.",
       "_confidence": 0.85

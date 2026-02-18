@@ -2445,7 +2445,7 @@
       "line": 1928
     },
     "baby": {
-      "translation": "婴儿",
+      "translation": "幼年",
       "line": 1929
     },
     "New Bark Town": {
@@ -9993,7 +9993,7 @@
       "line": 7615
     },
     "Captain Acerola": {
-      "translation": "阿塞罗拉队长",
+      "translation": "考验队长阿塞萝拉",
       "line": 7618
     },
     "Hey there, $playername$! Have you checked out the trail behind the 超值超市（废弃店） lately? It's been pretty wild! I ventured there the other day and stumbled upon a Mimikyu holding a Silvally Memory. It was quite a challenge to retrieve it, but I managed to befriend it and recover the disk eventually. I love the thrill of exploring new places and discovering new stuff, don't you?": {
@@ -10469,7 +10469,7 @@
       "line": 7890
     },
     "Ruins of Conflict": {
-      "translation": "冲突废墟",
+      "translation": "战争遗迹",
       "line": 7894
     },
     "Verdant Cavern": {
@@ -10905,11 +10905,11 @@
       "line": 8388
     },
     "Ruins of Abundance": {
-      "translation": "丰饶遗迹",
+      "translation": "丰收遗迹",
       "line": 8394
     },
     "Ruins of Hope": {
-      "translation": "希望遗迹",
+      "translation": "彼岸遗迹",
       "line": 8400
     },
     "Poni Meadow": {
@@ -11909,7 +11909,7 @@
       "line": 8987
     },
     "Whew! This place is quite a trek from Freezington.": {
-      "translation": "哇！这个地方从冰砌镇出发需要一段长途跋涉。",
+      "translation": "哇！这个地方从冻凝村出发需要一段长途跋涉。",
       "line": 8993
     },
     "I've heard that a rare Pokémon sometimes hides in the chests here. I was told that it is incredibly rare, but can't be found anywhere else!": {
@@ -11917,7 +11917,7 @@
       "line": 8994
     },
     "Freezington Mayor": {
-      "translation": "冰砌镇镇长",
+      "translation": "冻凝村村长",
       "line": 8998
     },
     "If my eyes didn't deceive me, I saw a rare Pokémon at {ROUTE_NAME}. Go and see if you can find it if you're interested.": {
@@ -12313,11 +12313,11 @@
       "line": 9229
     },
     "Slumbering Weald": {
-      "translation": "沉睡的原野",
+      "translation": "微寐森林",
       "line": 9238
     },
     "Slumbering Weald Shrine": {
-      "translation": "沉睡的荒原神殿",
+      "translation": "微寐森林神殿",
       "line": 9242
     },
     "Hop 1": {
@@ -12405,7 +12405,7 @@
       "line": 9313
     },
     "Hammerlocke": {
-      "translation": "宫门市",
+      "translation": "拳关市",
       "line": 9318
     },
     "Rampaging Haxorus": {
@@ -12417,7 +12417,7 @@
       "line": 9321
     },
     "Circhester": {
-      "translation": "拳关市",
+      "translation": "战竞镇",
       "line": 9329
     },
     "Rampaging Gigalith": {
@@ -12441,7 +12441,7 @@
       "line": 9344
     },
     "Wyndon": {
-      "translation": "温登",
+      "translation": "宫门市",
       "line": 9349
     },
     "Rose Tower": {
@@ -12501,7 +12501,7 @@
       "line": 9400
     },
     "Freezington": {
-      "translation": "冰砌镇",
+      "translation": "冻凝村",
       "line": 9410
     },
     "Elite Trainer Peony": {
@@ -13173,23 +13173,23 @@
       "line": 10189
     },
     "Segin Squad's Base": {
-      "translation": "塞金小队基地",
+      "translation": "阁道二小队基地",
       "line": 10194
     },
     "Schedar Squad's Base": {
-      "translation": "施达小队基地",
+      "translation": "王良四小队基地",
       "line": 10203
     },
     "Navi Squad's Base": {
-      "translation": "导航小队的基地",
+      "translation": "策星小队基地",
       "line": 10212
     },
     "Ruchbah Squad's Base": {
-      "translation": "鲁奇巴小队基地",
+      "translation": "阁道三小队基地",
       "line": 10221
     },
     "Caph Squad's Base": {
-      "translation": "卡夫小队的基地",
+      "translation": "王良一小队基地",
       "line": 10230
     },
     "Zero Gate": {

@@ -1645,7 +1645,7 @@
       "line": 1128
     },
     "Valley Windworks": {
-      "translation": "谷间发电厂",
+      "translation": "谷间发电所",
       "line": 1130
     },
     "Team Galactic is stealing energy. Clear Valley Windworks.": {
@@ -1653,7 +1653,7 @@
       "line": 1130
     },
     "Team Galactic Eterna Building": {
-      "translation": "银河队百代大楼",
+      "translation": "银河队百代大厦",
       "line": 1133
     },
     "Team Galactic is kidnapping Pokémon now. Clear Team Galactic Eterna Building in Eterna City.": {
@@ -2985,7 +2985,7 @@
       "line": 1900
     },
     "Team Flare Celosia": {
-      "translation": "闪焰队塞洛西娅",
+      "translation": "闪焰队鸡冠花",
       "line": 1901
     },
     "You should be halfway through. Go further in the Team Flare Secret HQ! Third step: Beating Team Flare Bryony.": {
@@ -3089,7 +3089,7 @@
       "line": 1968
     },
     "Courtney 1": {
-      "translation": "考特尼1",
+      "translation": "火雁1",
       "line": 1971
     },
     "Defeat Courtney": {
@@ -3097,7 +3097,7 @@
       "line": 1971
     },
     "Matt 1": {
-      "translation": "马特1",
+      "translation": "阿潮1",
       "line": 1972
     },
     "Defeat Matt": {
@@ -3197,11 +3197,11 @@
       "line": 2036
     },
     "Courtney 2": {
-      "translation": "考特尼2",
+      "translation": "火雁2",
       "line": 2038
     },
     "Matt 2": {
-      "translation": "马特2",
+      "translation": "阿潮2",
       "line": 2039
     },
     "Defeat the admins trying to take over the Mossdeep Space Center.": {
@@ -3881,7 +3881,7 @@
       "line": 2429
     },
     "Unrivaled Red": {
-      "translation": "无与伦比的红色",
+      "translation": "无可匹敌的赤红",
       "line": 2431
     },
     "Red might know something. Fight him at Indigo Plateau Kanto then ask him what he knows.": {
@@ -4021,11 +4021,11 @@
       "line": 2532
     },
     "Melemele Spearow": {
-      "translation": "梅勒梅勒·斯皮罗",
+      "translation": "美乐美乐烈雀",
       "line": 2534
     },
     "Protect the mysterious girl's Pokémon! Battle the Spearow near the Ruins of Conflict.": {
-      "translation": "保护神秘少女的宝可梦！在冲突废墟附近与烈雀战斗。",
+      "translation": "保护神秘少女的宝可梦！在战争遗迹附近与烈雀战斗。",
       "line": 2534
     },
     "<i>The bridge collapses and you and the floating Pokémon start falling to your doom... But you are saved by a mysterious Pokémon!</i>": {
@@ -4753,7 +4753,7 @@
       "line": 2934
     },
     "Captain Mina": {
-      "translation": "考验队长茉莉",
+      "translation": "茉莉队长",
       "line": 2936
     },
     "Defeat Captain Mina in Seafolk Village.": {
@@ -4761,7 +4761,7 @@
       "line": 2936
     },
     "Captain Ilima": {
-      "translation": "考验队长伊利马",
+      "translation": "伊利马队长",
       "line": 2939
     },
     "Defeat Captain Ilima in Hau'oli Cemetery.": {
@@ -4769,7 +4769,7 @@
       "line": 2939
     },
     "Captain Mallow": {
-      "translation": "考验队长玛奥",
+      "translation": "玛奥队长",
       "line": 2942
     },
     "Defeat Captain Mallow in Lush Jungle.": {
@@ -4777,7 +4777,7 @@
       "line": 2942
     },
     "Captain Lana": {
-      "translation": "考验队长水莲",
+      "translation": "水莲队长",
       "line": 2945
     },
     "Defeat Captain Lana in Lush Jungle.": {
@@ -4785,7 +4785,7 @@
       "line": 2945
     },
     "Captain Kiawe": {
-      "translation": "考验队长卡奇",
+      "translation": "卡奇队长",
       "line": 2948
     },
     "Defeat Captain Kiawe in Wela Volcano Park.": {
@@ -4793,7 +4793,7 @@
       "line": 2948
     },
     "Captain Sophocles": {
-      "translation": "考验队长马玛内",
+      "translation": "马玛内队长",
       "line": 2951
     },
     "Defeat Captain Sophocles in Hokulani Observatory.": {
@@ -4809,7 +4809,7 @@
       "line": 2954
     },
     "Typing some Memories": {
-      "translation": "打字一些记忆",
+      "translation": "收集存储碟",
       "line": 2963
     },
     "Help Gladion restore his Silvally's memories.": {
@@ -5691,7 +5691,7 @@
       "line": 3568
     },
     "Energy Plant": {
-      "translation": "能源工厂",
+      "translation": "能源厂",
       "line": 3571
     },
     "Unfortunately, all you found at the Slumbering Weald was a rusty sword and shield. Go to the Energy Plant in Hammerlocke to put an end to Chairman Rose's plans!": {
@@ -6171,7 +6171,7 @@
       "line": 3880
     },
     "After growing both carrots, Calyrex has returned to Freezington. Talk to it.": {
-      "translation": "种完两根胡萝卜后，蕾冠王回到了冰砌镇。和它说话。",
+      "translation": "种完两根胡萝卜后，蕾冠王回到了冻凝村。和它说话。",
       "line": 3886
     },
     "Spectrier": {
@@ -6191,7 +6191,7 @@
       "line": 3890
     },
     "Fight Calyrex's steeds to get them out of Freezington!": {
-      "translation": "与蕾冠王的坐骑战斗，把它们赶出冰砌镇！",
+      "translation": "与蕾冠王的坐骑战斗，把它们赶出冻凝村！",
       "line": 3895
     },
     "Talk to Calyrex again.": {
@@ -6423,7 +6423,7 @@
       "line": 4052
     },
     "Peony's daughter, Peonia, wants to talk to you in Freezington.": {
-      "translation": "皮欧尼的女儿夏科娅想在冰砌镇和你谈谈。",
+      "translation": "皮欧尼的女儿夏科娅想在冻凝村和你谈谈。",
       "line": 4054
     },
     "Max Lair": {

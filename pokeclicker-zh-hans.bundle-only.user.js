@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.70
-// @description  从 GitHub 仓库加载 zh-Hans/bundle.json（单文件），并替换页面中仍以英文显示的文本
+// @version      0.1.71
+// @description  为 PokéClicker 提供全面的简体中文翻译，覆盖界面、对话、物品等内容
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
 // @match        https://www.pokeclicker.com/*
@@ -84,7 +84,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.69';
+    const SCRIPT_VERSION = '0.1.71';
 
     // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
     // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。
@@ -974,8 +974,9 @@
     class TranslationCache extends Map {
         constructor(limit) {
             super();
-            this.limit = Number.isFinite(limit) && limit > 0 ? limit : 50000;
+            this.limit = Number.isFinite(limit) && limit > 0 ? limit : 30000;
             this._accessCount = 0;
+            this._evictionCount = 0;
         }
 
         get(key) {
@@ -985,18 +986,25 @@
         set(key, value) {
             super.set(key, value);
             if (super.size > this.limit) {
-                // Evict oldest 25% to amortize cost instead of evicting per-insert.
-                const evictCount = Math.floor(this.limit * 0.25);
+                // Evict oldest 30% to amortize cost and reduce eviction frequency.
+                const evictCount = Math.floor(this.limit * 0.30);
                 let removed = 0;
                 for (const k of super.keys()) {
                     if (removed >= evictCount) break;
                     super.delete(k);
                     removed += 1;
                 }
+                this._evictionCount += 1;
             }
             return this;
         }
     }
+
+    // Negative cache: track text that doesn't need translation to avoid repeated lookups.
+    // This significantly improves performance for English abbreviations, numbers, etc.
+    const noTranslationNeeded = new Set();
+    const NO_TRANSLATION_CACHE_LIMIT = 10000;
+    let _negativeCacheHits = 0;
 
     /** @type {Record<string,string>} */
     let typeTranslations = {};
@@ -1696,6 +1704,12 @@
 
     /** Resolve a translation key through the cache, returning the result or null. */
     const cachedResolve = (lookupKey, map, patterns, cache) => {
+        // Check negative cache first (text that doesn't need translation).
+        if (noTranslationNeeded.has(lookupKey)) {
+            _negativeCacheHits++;
+            return null;
+        }
+
         if (cache.has(lookupKey)) {
             _cacheHits++;
             const v = cache.get(lookupKey);
@@ -1703,7 +1717,31 @@
         }
         _cacheMisses++;
         const resolved = resolveTranslation(lookupKey, map, patterns);
-        cache.set(lookupKey, resolved ?? '');
+
+        if (resolved) {
+            cache.set(lookupKey, resolved);
+        } else {
+            // Add to negative cache if no translation found and text looks like it doesn't need translation.
+            // (pure numbers, short abbreviations, already translated, etc.)
+            const isLikelyNoTranslation =
+                /^[\d,.\s%+\-×/]+$/.test(lookupKey) ||  // Pure numbers/symbols
+                /^[A-Z]{2,5}$/.test(lookupKey) ||       // Short abbreviations
+                /^[\u4e00-\u9fa5]+$/.test(lookupKey);   // Pure Chinese
+
+            if (isLikelyNoTranslation) {
+                // Evict oldest entries if negative cache is full.
+                if (noTranslationNeeded.size >= NO_TRANSLATION_CACHE_LIMIT) {
+                    const evictCount = Math.floor(NO_TRANSLATION_CACHE_LIMIT * 0.25);
+                    let removed = 0;
+                    for (const k of noTranslationNeeded) {
+                        if (removed >= evictCount) break;
+                        noTranslationNeeded.delete(k);
+                        removed++;
+                    }
+                }
+                noTranslationNeeded.add(lookupKey);
+            }
+        }
         return resolved || null;
     };
 
@@ -2429,11 +2467,15 @@
         window.PokeClickerZhHans.stats = () => ({
             mapSize: Object.keys(map).length,
             cacheSize: cache.size,
+            cacheLimit: cache.limit,
+            cacheEvictions: cache._evictionCount,
             cacheHits: _cacheHits,
             cacheMisses: _cacheMisses,
             cacheHitRate: (_cacheHits + _cacheMisses) > 0
                 ? (_cacheHits / (_cacheHits + _cacheMisses) * 100).toFixed(1) + '%'
                 : 'N/A',
+            negativeCacheSize: noTranslationNeeded.size,
+            negativeCacheHits: _negativeCacheHits,
             missingCount: missingSet.size,
             patternCount: patterns.length,
             normCacheSize: _normCache.size,
@@ -2571,6 +2613,8 @@
         const pendingAttrs = new Set();
         const pendingText = new Set();
         let scheduled = false;
+        let lastFlushTime = 0;
+        const MIN_DEBOUNCE_MS = 32; // Minimum 32ms between flushes (~30fps max)
 
         const addRoot = (node) => {
             if (!node) return;
@@ -2591,8 +2635,10 @@
         const scheduleFlush = () => {
             if (scheduled) return;
             scheduled = true;
+
             const flush = () => {
                 scheduled = false;
+                lastFlushTime = Date.now();
 
                 // If pending items exceed a threshold, merge into a single full-document traversal.
                 const totalPending = pendingRoots.size + pendingAttrs.size + pendingText.size;
@@ -2622,9 +2668,23 @@
                 }
             };
 
+            // Use debouncing to avoid excessive processing during rapid DOM changes.
+            const now = Date.now();
+            const timeSinceLastFlush = now - lastFlushTime;
+            const delay = Math.max(0, MIN_DEBOUNCE_MS - timeSinceLastFlush);
+
             const raf = window.requestAnimationFrame?.bind(window);
-            if (raf) raf(flush);
-            else setTimeout(flush, 16);
+            if (delay > 0) {
+                // Debounce: wait before flushing to batch rapid mutations.
+                setTimeout(() => {
+                    if (raf) raf(flush);
+                    else flush();
+                }, delay);
+            } else if (raf) {
+                raf(flush);
+            } else {
+                setTimeout(flush, 16);
+            }
         };
 
         const observer = new MutationObserver((mutations) => {

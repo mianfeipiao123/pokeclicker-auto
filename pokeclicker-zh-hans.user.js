@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.68
+// @version      0.1.70
 // @description  PokeClicker 宝可梦点击 全面汉化
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -84,7 +84,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.68';
+    const SCRIPT_VERSION = '0.1.69';
 
     // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
     // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。
@@ -1635,7 +1635,21 @@
 
             let cached = cache.get(pieceKey);
             if (cached == null) {
-                const resolved = resolveTranslation(pieceKey, map, patterns);
+                let resolved = resolveTranslation(pieceKey, map, patterns);
+                // If lookup failed and key ends with punctuation, try stripping it.
+                // This handles cases like "Rare Candy." where the dict has "Rare Candy".
+                if (!resolved) {
+                    const trailingPunctMatch = pieceKey.match(/^(.+?)([.!?,;:]+)$/);
+                    if (trailingPunctMatch) {
+                        const baseKey = trailingPunctMatch[1];
+                        const punct = trailingPunctMatch[2];
+                        const baseResolved = resolveTranslation(baseKey, map, patterns);
+                        if (baseResolved) {
+                            // Append the punctuation to the translated text
+                            resolved = baseResolved + punct;
+                        }
+                    }
+                }
                 cache.set(pieceKey, resolved ?? '');
                 cached = resolved ?? '';
             }

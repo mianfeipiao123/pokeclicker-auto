@@ -23,15 +23,31 @@
 
 安装完成后，访问 [pokeclicker.com](https://www.pokeclicker.com/) 即可自动生效，游戏界面将显示为简体中文。
 
+## 桌面端汉化
 
-## 更新脚本
+如果你使用的是 [PokéClicker Desktop](https://github.com/RedSparr0w/pokeclicker-desktop) 桌面客户端，可以通过以下方式启用中文翻译：
 
-Tampermonkey 会自动检查脚本更新。如需手动更新：
+### 使用方法
 
-1. 点击浏览器中的 Tampermonkey 图标
-2. 选择「管理面板」
-3. 找到「PokéClicker 简体中文」脚本
-4. 点击「检查更新」
+1. 下载 [`inject-desktop-translation.bat`](./inject-desktop-translation.bat)
+2. 双击运行（可放在任意位置）
+3. 启动 PokéClicker Desktop
+
+### 注意事项
+
+- 首次加载需要网络连接（下载翻译数据约 1.4MB）
+- 翻译数据会缓存到本地，后续启动更快
+- **游戏更新后需重新运行注入脚本**
+
+### 恢复原版
+
+脚本会自动备份原文件。如需恢复英文版，运行：
+
+```batch
+copy "%APPDATA%\pokeclicker-desktop\pokeclicker-master\docs\index.html.backup" "%APPDATA%\pokeclicker-desktop\pokeclicker-master\docs\index.html"
+```
+
+
 
 ## 问题反馈
 

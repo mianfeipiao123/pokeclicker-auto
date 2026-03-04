@@ -29,7 +29,7 @@
 
 ### 使用方法
 
-1. 下载 [`inject-desktop-translation.bat`](./inject-desktop-translation.bat)
+1. 下载 [`inject-desktop-translation.bat`](https://github.com/mianfeipiao123/pokeclicker-auto/blob/main/inject-desktop-translation.bat)
 2. 双击运行（可放在任意位置）
 3. 启动 PokéClicker Desktop
 

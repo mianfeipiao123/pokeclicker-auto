@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.75
+// @version      0.1.76
 // @description  为 PokéClicker 提供全面的简体中文翻译，覆盖界面、对话、物品等内容
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -84,7 +84,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.75';
+    const SCRIPT_VERSION = '0.1.76';
 
     // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
     // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。
@@ -1918,6 +1918,119 @@
         return false;
     };
 
+    const translateLogbookHybridCore = (core, map, patterns, cache) => {
+        const translatePart = (value) => {
+            if (typeof value !== 'string' || !value) return value;
+            const normalized = normalizeText(value);
+            if (!normalized) return value;
+            const resolved = cachedResolve(normalized, map, patterns, cache);
+            if (resolved) return resolved;
+            return translateSegmentsFallback(value, map, patterns, cache) || value;
+        };
+
+        let match = core.match(/^获得成就"(.+)"[。.] ?$/);
+        if (match) {
+            const name = translatePart(match[1]);
+            return `获得成就“${name}”。`;
+        }
+
+        match = core.match(/^已完成"(.+)"$/);
+        if (match) {
+            const quest = translatePart(match[1]);
+            return `已完成“${quest}”`;
+        }
+
+        match = core.match(/^完成"(.+)"\s*[，,]?\s*获得\s*([^\s]+)\s*任务点数[。.] ?$/);
+        if (match) {
+            const quest = translatePart(match[1]);
+            return `完成“${quest}”，获得 ${match[2]} 任务点数。`;
+        }
+
+        match = core.match(/^你捕捉到了\s+(.+)[。.] ?$/);
+        if (match) {
+            const pokemon = translatePart(match[1]);
+            return `你捕获了 ${pokemon}。`;
+        }
+
+        match = core.match(/^你捕捉到了闪光\s*(.+)[!！] ?$/);
+        if (match) {
+            const pokemon = translatePart(match[1]);
+            return `你捕获了闪光${pokemon}！`;
+        }
+
+        match = core.match(/^你捕捉到了暗影\s+(.+)[!！] ?$/);
+        if (match) {
+            const pokemon = translatePart(match[1]);
+            return `你捕获了暗影 ${pokemon}！`;
+        }
+
+        match = core.match(/^【(.+)】你遇到了一只野生闪光\s*(.+)[。.] ?$/);
+        if (match) {
+            const location = translatePart(match[1]);
+            const pokemon = translatePart(match[2]);
+            return `【${location}】你遇到了一只野生闪光${pokemon}。`;
+        }
+
+        match = core.match(/^【(.+)】你遇到了一只野生\s+(.+)[。.] ?$/);
+        if (match) {
+            const location = translatePart(match[1]);
+            const pokemon = translatePart(match[2]);
+            return `【${location}】你遇到了一只野生 ${pokemon}。`;
+        }
+
+        match = core.match(/^【(.+)】你遇到了一只游走的闪光\s*(.+)[。.] ?$/);
+        if (match) {
+            const location = translatePart(match[1]);
+            const pokemon = translatePart(match[2]);
+            return `【${location}】你遇到了一只游走的闪光${pokemon}。`;
+        }
+
+        match = core.match(/^【(.+)】你遇到了一只游走的\s+(.+)[。.] ?$/);
+        if (match) {
+            const location = translatePart(match[1]);
+            const pokemon = translatePart(match[2]);
+            return `【${location}】你遇到了一只游走的 ${pokemon}。`;
+        }
+
+        match = core.match(/^野生\s+(.+)\s+挣脱了[!！] ?$/);
+        if (match) {
+            const pokemon = translatePart(match[1]);
+            return `野生 ${pokemon} 逃走了！`;
+        }
+
+        match = core.match(/^闪光\s*(.+)\s+挣脱了[!！] ?$/);
+        if (match) {
+            const pokemon = translatePart(match[1]);
+            return `闪光${pokemon} 逃走了！`;
+        }
+
+        match = core.match(/^一只野生\s+(.+)\s+来到了农场[!！] ?$/);
+        if (match) {
+            const pokemon = translatePart(match[1]);
+            return `一只野生 ${pokemon} 来到了农场！`;
+        }
+
+        match = core.match(/^一只闪光\s*(.+)\s+来到了农场[!！] ?$/);
+        if (match) {
+            const pokemon = translatePart(match[1]);
+            return `一只闪光${pokemon} 来到了农场！`;
+        }
+
+        match = core.match(/^你的\s*(.+)\s+进化为闪光\s*(.+)[!！] ?$/);
+        if (match) {
+            const basePokemon = translatePart(match[1]);
+            const evolvedPokemon = translatePart(match[2]);
+            return `你的${basePokemon}进化成了闪光${evolvedPokemon}！`;
+        }
+
+        match = core.match(/^任务等级提升为\s*(.+)\s*级[!！] ?$/);
+        if (match) {
+            return `任务等级提升至 ${match[1]} 级！`;
+        }
+
+        return null;
+    };
+
     /**
      * Translate a single DOM text node in-place.
      * Tries full-key resolution, multi-line splitting, segment fallback,
@@ -1946,6 +2059,17 @@
         if (handleTreasuresGemOverride(textNode, key, leading, trailing, raw)) return;
 
         const lookupKey = getWeatherTypeLookupKey(key, { textNode });
+
+        const hybridOut = translateLogbookHybridCore(core, map, patterns, cache);
+        if (hybridOut && hybridOut !== core) {
+            cache.set(lookupKey, hybridOut);
+            const out = `${leading}${hybridOut}${trailing}`;
+            if (out !== raw) {
+                textNode.nodeValue = out;
+                processedTextNodeValues.set(textNode, out);
+            }
+            return;
+        }
 
         const cached = cachedResolve(lookupKey, map, patterns, cache);
         if (cached) {

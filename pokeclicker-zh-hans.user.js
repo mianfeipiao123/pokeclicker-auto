@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.76
+// @version      0.1.77
 // @description  为 PokéClicker 提供全面的简体中文翻译，覆盖界面、对话、物品等内容
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -84,7 +84,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.76';
+    const SCRIPT_VERSION = '0.1.77';
 
     // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
     // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。

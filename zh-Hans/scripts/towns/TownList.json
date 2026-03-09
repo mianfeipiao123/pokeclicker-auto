@@ -247,7 +247,7 @@
       "line": 328
     },
     "Then one day, all my progress was gone. I don't know exactly what happened. Something updated, some cookies got cleaned up, I don't know. I had to start all over from the beginning.": {
-      "translation": "然后有一天，我所有的进步都消失了。我不知道到底发生了什么。更新了一些东西，一些cookie被清理了，我不知道。我必须从头开始。",
+      "translation": "然后有一天，我所有的进度都消失了。我也说不清到底发生了什么。也许是更新了什么东西，也许是浏览器的 Cookie 被清掉了，总之我只能从头再来。",
       "line": 329
     },
     "That day I learned that I should frequently download a save.": {
@@ -343,7 +343,7 @@
       "line": 376
     },
     "Let me tell you though, in my youth, I was strong enough to beat Viridian City's Gym, so don't expect me to be a pushover.": {
-      "translation": "不过我告诉你，在我年轻的时候，我的实力足以击败常磐市的道馆，所以你别指望我是个容易被欺负的人。",
+      "translation": "不过我告诉你，在我年轻的时候，我的实力足以击败常青市的道馆，所以你别指望我是个容易被欺负的人。",
       "line": 377
     },
     "As I said, that was one of the best battles I've ever had.": {
@@ -411,7 +411,7 @@
       "line": 412
     },
     "Are you looking for some Shards? You can find them in many Dungeons! Except in Viridian Forest and Mt. Moon. I've never found any Shards there for some reason.": {
-      "translation": "你在寻找碎片吗？你可以在许多迷宫中找到它们！除了常磐森林和月亮山。由于某种原因，我从未在那里找到过任何碎片。",
+      "translation": "你在寻找碎片吗？你可以在许多迷宫中找到它们！除了常青森林和月见山。由于某种原因，我从未在那里找到过任何碎片。",
       "line": 413
     },
     "I happen to know that there are some Yellow and Blue Shards in Diglett's Cave. Just look inside the chests!": {
@@ -519,7 +519,7 @@
       "line": 457
     },
     "Oh! I'm sorry, I almost dozed off. I was reminiscing about my stroll in Viridian Forest earlier today. I came across the loveliest patch of flowers over there and...": {
-      "translation": "哦！对不起，我差点打瞌睡了。我回忆起今天早些时候在常磐森林漫步的情景。我在那里发现了最美丽的一片花，然后……",
+      "translation": "哦！对不起，我差点打瞌睡了。我回忆起今天早些时候在常青森林漫步的情景。我在那里发现了最美丽的一片花，然后……",
       "line": 458
     },
     "Zzz... Hm? Oh yes, the forest. It was most peculiar - when I laid down upon the flowerbed I had the strangest dream of a basket full of Pokémon. At least, I think it was a dream... It did not strike me as one of the usual inhabitants of the area.": {
@@ -643,7 +643,7 @@
       "line": 506
     },
     "Speaking of, our very own Kanto is home to three: the Helix Fossil, Dome Fossil, and Old Amber! You can revive them into living Pokémon using techniques developed by the Devon Corporation and a research laboratory on Cinnabar Island! There are also other scientists around the Pokémon world who can revive Fossils using these techniques.": {
-      "translation": "说到这里，我们自己的关都拥有三种化石：螺旋化石、圆顶化石和老琥珀！你可以使用德文郡公司和红莲岛研究实验室开发的技术将它们复活为活的宝可梦！宝可梦世界中还有其他科学家可以使用这些技术复活化石。",
+      "translation": "说到这里，我们自己的关都拥有三种化石：螺旋化石、圆顶化石和老琥珀！你可以使用德文郡公司和红莲研究所开发的技术将它们复活为活的宝可梦！宝可梦世界中还有其他科学家可以使用这些技术复活化石。",
       "line": 507
     },
     "assets/images/npcs/Ruin Maniac gen3.png": {
@@ -1391,7 +1391,7 @@
       "line": 899
     },
     "Viridian City": {
-      "translation": "常磐市",
+      "translation": "常青市",
       "line": 908
     },
     "Unrivaled Blue": {
@@ -1399,11 +1399,11 @@
       "line": 912
     },
     "Pewter City": {
-      "translation": "尼比市",
+      "translation": "深灰市",
       "line": 918
     },
     "Viridian Forest": {
-      "translation": "常磐森林",
+      "translation": "常青森林",
       "line": 926
     },
     "Route 4 Pokémon Center": {
@@ -1435,7 +1435,7 @@
       "line": 984
     },
     "Rock Tunnel": {
-      "translation": "岩石隧道",
+      "translation": "岩山隧道",
       "line": 986
     },
     "Celadon City": {
@@ -1475,7 +1475,7 @@
       "line": 1032
     },
     "Cinnabar Island": {
-      "translation": "红莲岛",
+      "translation": "红莲镇",
       "line": 1036
     },
     "Palaeontologist": {
@@ -1483,15 +1483,15 @@
       "line": 1040
     },
     "FossilCinnabarLab": {
-      "translation": "化石朱砂实验室",
+      "translation": "化石红莲研究所",
       "line": 1040
     },
     "Cinnabar Lab": {
-      "translation": "朱砂实验室",
+      "translation": "红莲研究所",
       "line": 1040
     },
     "Pokémon Mansion": {
-      "translation": "宝可梦洋馆",
+      "translation": "宝可梦屋",
       "line": 1040
     },
     "Indigo Plateau Kanto": {
@@ -1571,7 +1571,7 @@
       "line": 1096
     },
     "Cue Ball Paxton": {
-      "translation": "帕克斯顿母球",
+      "translation": "光头男帕克斯顿",
       "line": 1096
     },
     "Professor Ivy's Lab": {
@@ -1683,7 +1683,7 @@
       "line": 1246
     },
     "Mt. Moon": {
-      "translation": "月亮山",
+      "translation": "月见山",
       "line": 1260
     },
     "Silver 6": {
@@ -1699,11 +1699,11 @@
       "line": 1296
     },
     "Power Plant": {
-      "translation": "发电厂",
+      "translation": "无人发电厂",
       "line": 1308
     },
     "Seafoam Islands": {
-      "translation": "海泡沫群岛",
+      "translation": "双子岛",
       "line": 1317
     },
     "Berry Forest": {
@@ -2035,7 +2035,7 @@
       "line": 1697
     },
     "...I understand that there is a wonderful Pharmacy in Cianwood... But that's across the sea... And I can't leave Amphy unattended...": {
-      "translation": "……我知道湛蓝市有很棒的药房……可那在海对岸……我又不能让安菲无人照看……",
+      "translation": "……我知道湛蓝市有很棒的药房……可那在海对岸……我又不能把安菲丢在这里不管……",
       "line": 1698
     },
     "May I ask you to get some medicine for me? Please?": {
@@ -2071,7 +2071,7 @@
       "line": 1715
     },
     "Give medicine to Amphy": {
-      "translation": "给安菲喂药",
+      "translation": "把药交给安菲",
       "line": 1721
     },
     "Palu! Palulu!": {
@@ -2317,7 +2317,7 @@
       "line": 1866
     },
     "You have a certain look... You're the kid who stood in front of me in Viridian City! I'm on my way to Goldenrod City to answer the call and join my team. Are you going to get in my way?": {
-      "translation": "你长得有一定的样子……你就是在常磐市站在我面前的那个小子！我正在前往满金市的路上，接听电话并加入我的团队。你要妨碍我吗？",
+      "translation": "你长得有一定的样子……你就是在常青市站在我面前的那个小子！我正在前往满金市的路上，接听电话并加入我的团队。你要妨碍我吗？",
       "line": 1867
     },
     "assets/images/npcs/other/Tohjo Falls.png": {
@@ -2917,7 +2917,7 @@
       "line": 2478
     },
     "My eyes didn't deceive me. Thanks to your help, Sootopolis...": {
-      "translation": "我的眼睛没有欺骗我。感谢你的帮助，Sootopolis...",
+      "translation": "我的眼睛没有欺骗我。多亏了你，琉璃市……",
       "line": 2482
     },
     "No, all of Hoenn was saved. On behalf of the people, I thank you.": {
@@ -3347,7 +3347,7 @@
       "line": 2707
     },
     "You must be $playername$, the trainer Wa... People are talking about.": {
-      "translation": "你一定是$playername$，训练家Wa...人们正在谈论。",
+      "translation": "你一定就是大家口中常提到的那位训练家，$playername$吧。",
       "line": 2708
     },
     "If you're here, it means you've heard the same news that I have: a meteor is headed towards this island.": {
@@ -3423,7 +3423,7 @@
       "line": 2737
     },
     "Ringing Holo Caster": {
-      "translation": "响铃全息脚轮",
+      "translation": "响起的全像投影通讯器",
       "line": 2742
     },
     "Hello? Is that you, $playername$? It's me. Steven. Have you been doing well?": {
@@ -3431,7 +3431,7 @@
       "line": 2743
     },
     "I imagine you must be quite shocked. This is a communication mode that Devon is still currently developing. It comes installed on every Holo Caster. I thought I would only use it if I needed to contact you urgently.": {
-      "translation": "我想你一定很震惊。这是Devon目前仍在开发的一种沟通模式。它安装在每个 Holo Caster 上。我以为只有当我需要紧急联系你时我才会使用它。",
+      "translation": "我想你一定很震惊。这是德文公司目前仍在开发的一种通讯模式。它安装在每一台全像投影通讯器上。我本以为只有在需要紧急联系你时才会用到它。",
       "line": 2744
     },
     "But it looks as though that time has already come. I'm sorry to ask this of you, but I need your help getting some materials for Devon Corporation's new rocket project. We think we can help Dr. Cozmo stop the incoming meteor.": {
@@ -4399,7 +4399,7 @@
       "line": 3190
     },
     "Yes, I heard that Professor Krane was kidnapped from the Pokémon HQ Lab. There's some shady characters up on Mount Battle who might know more.": {
-      "translation": "是的，我听说克雷因博士被从宝可梦总部实验室绑架了。 Mount Battle 上有一些可疑的人物可能知道更多。",
+      "translation": "是的，我听说克雷因博士被从宝可梦总部实验室绑架了。巴特尔山上有一些可疑人物也许知道更多内情。",
       "line": 3191
     },
     "Cipher Admin Lovrina": {
@@ -4519,7 +4519,7 @@
       "line": 3239
     },
     "$playername$! Thank you for rescuing me from those fiends!": {
-      "translation": "$playername$！谢谢你把我从那些恶魔手中救了出来！",
+      "translation": "$playername$！谢谢你把我从那群恶徒手中救了出来！",
       "line": 3240
     },
     "In my time in captivity, I learned that the new Grand Master of Team Cipher has used a powerful Shadow Pokémon to kidnap all the trainers and Pokémon from the S. S. Libra and has taken them to Citadark Island!": {
@@ -4951,11 +4951,11 @@
       "line": 3582
     },
     "Realgam Tower": {
-      "translation": "瑞金大厦",
+      "translation": "瑞尔加塔",
       "line": 3600
     },
     "Realgam Tower Battles": {
-      "translation": "Realgam 塔战",
+      "translation": "瑞尔加塔之战",
       "line": 3604
     },
     "Realgam Colosseum": {
@@ -5647,13 +5647,13 @@
       "line": 4369
     },
     "I was robbed of a precious Pokémon Egg by the Go-Rock Squad! The egg was coloured a transparent blue... Like the colour of the sea!": {
-      "translation": "我被岩石小队抢走了珍贵的宝可梦蛋！蛋的颜色是透明的蓝色……就像大海的颜色！",
+      "translation": "我被暴走族抢走了珍贵的宝可梦蛋！那颗蛋是透明的蓝色……就像大海的颜色一样！",
       "line": 4370,
       "_rematchedFrom": "I was robbed of a precious Pokémon Egg by the Go-Rock Squad! The egg was coloured a transparent blue... Like the colour of the sea!",
       "_confidence": 0.95
     },
     "The Go-Rock Squad were troublemakers the Pokémon Rangers dealt with in my home region. I don't know why they took it, but the Go-Rock Squad is trying to regroup!": {
-      "translation": "Go-Rock 小队是宝可梦游骑兵队在我家乡对付的麻烦制造者。我不知道他们为什么要拿走它，但岩石小队正在尝试重新集结！",
+      "translation": "暴走族是宝可梦巡护员在我家乡对付的麻烦制造者。我不知道他们为什么要抢走它，但他们似乎又打算重新集结了！",
       "line": 4371
     },
     "I was robbed in the forest to the north. Please, you have to hurry!": {
@@ -5673,11 +5673,11 @@
       "line": 4379
     },
     "The Go-Rock Squad was already beaten once. That was probably their very last gasp of trouble-making.": {
-      "translation": "岩石小队已经被打败过一次了。这可能是他们制造麻烦的最后一口气。",
+      "translation": "暴走族已经被打败过一次了。这大概就是他们最后一次垂死挣扎。",
       "line": 4380
     },
     "While you were gone I discovered that the egg belongs to Manaphy! No wonder the Go-Rock Squad was after it.": {
-      "translation": "你走后我发现那颗蛋是玛纳霏的！难怪岩石小队会追捕它。",
+      "translation": "你走后我发现那颗蛋竟然是玛纳霏的！难怪暴走族会一路追着它不放。",
       "line": 4381
     },
     "Canalave's Library has several books detailing the legends of Manaphy. Perhaps one of them can help us find out how to hatch this egg.": {
@@ -5733,7 +5733,7 @@
       "line": 4412
     },
     "Go-Rock Commander": {
-      "translation": "岩石指挥官",
+      "translation": "暴走族指挥官",
       "line": 4416
     },
     "You... are you a Pokémon Ranger? ...No? Well, no matter.": {
@@ -5753,7 +5753,7 @@
       "line": 4420
     },
     "<i>The Commander flees into the forest, with the Go-Rock Grunts covering his escape!</i>": {
-      "translation": "<i>指挥官逃进森林，岩石手下掩护他撤退！</i>",
+      "translation": "<i>指挥官逃进森林，暴走族小兵掩护他撤退！</i>",
       "line": 4421
     },
     "assets/images/npcs/Go-Rock Squad Commander.png": {
@@ -5761,7 +5761,7 @@
       "line": 4423
     },
     "Go-Rock Grunt": {
-      "translation": "岩石手下",
+      "translation": "暴走族小兵",
       "line": 4427
     },
     "Huff... huff... we should have been out of the forest by now!": {
@@ -5825,7 +5825,7 @@
       "line": 4450
     },
     "<i>If it has a better sense of direction than the Go-Rock Squad, it'll probably pop out at Eterna City.</i>": {
-      "translation": "<i>如果它比岩石小队的方向感更好，估计会出现在百代市。</i>",
+      "translation": "<i>如果它比暴走族的方向感更好，估计会出现在百代市。</i>",
       "line": 4451
     },
     "assets/images/npcs/Lady.png": {
@@ -6027,7 +6027,7 @@
       "line": 4556
     },
     "Manaphy Go-Rock Pincher": {
-      "translation": "玛纳霏 Go-Rock Pincher",
+      "translation": "玛纳霏暴走族宝可梦掠夺者",
       "line": 4560
     },
     "Santa's Secret Daycare": {
@@ -6191,27 +6191,27 @@
       "line": 4779
     },
     "Manaphy Go-Rock MGrunt 1": {
-      "translation": "玛纳霏 Go-Rock MGrunt 1",
+      "translation": "玛纳霏暴走族男小兵1",
       "line": 4796
     },
     "Manaphy Go-Rock MGrunt 2": {
-      "translation": "玛纳霏 Go-Rock MGrunt 2",
+      "translation": "玛纳霏暴走族男小兵2",
       "line": 4796
     },
     "Manaphy Go-Rock MGrunt 3": {
-      "translation": "玛纳霏 Go-Rock MGrunt 3",
+      "translation": "玛纳霏暴走族男小兵3",
       "line": 4796
     },
     "Manaphy Go-Rock MGrunt 4": {
-      "translation": "玛纳霏 Go-Rock MGrunt 4",
+      "translation": "玛纳霏暴走族男小兵4",
       "line": 4796
     },
     "Manaphy Go-Rock FGrunt 1": {
-      "translation": "玛纳霏 Go-Rock FGrunt 1",
+      "translation": "玛纳霏暴走族女小兵1",
       "line": 4796
     },
     "Manaphy Go-Rock FGrunt 2": {
-      "translation": "玛纳霏 Go-Rock FGrunt 2",
+      "translation": "玛纳霏暴走族女小兵2",
       "line": 4796
     },
     "Old Chateau": {
@@ -6219,7 +6219,7 @@
       "line": 4801
     },
     "Manaphy Go-Rock Commander": {
-      "translation": "玛纳霏岩石指挥官",
+      "translation": "玛纳霏暴走族指挥官",
       "line": 4809
     },
     "Wayward Cave": {
@@ -7263,7 +7263,7 @@
       "line": 6032
     },
     "Hi $playername$, I just saw Diantha, a really cool and pretty actress, talking with a funny looking guy with orange spiky hair.": {
-      "translation": "嗨，$playername$，我刚刚看到 Diantha，一位非常酷且漂亮的女演员，正在和一个长相滑稽、留着橙色尖刺头发的家伙交谈。",
+      "translation": "嗨，$playername$，我刚刚看到卡露妮，那位又酷又漂亮的女演员，正在和一个长相滑稽、留着橙色尖刺头发的家伙交谈。",
       "line": 6033
     },
     "He was such a weirdo. He kept telling her how everything should be beautiful forever and how he would end the world in an instant so that beauty never fades.": {
@@ -7503,7 +7503,7 @@
       "line": 6143
     },
     "There are rumors that the energy calls some legendary birds to roam Kalos!": {
-      "translation": "有传言称，这种能量会召唤一些传说中的鸟类在卡洛斯漫游！",
+      "translation": "有传言说，那股能量会引来传说中的鸟宝可梦在卡洛斯四处徘徊！",
       "line": 6144
     },
     "Electric Trainer": {
@@ -7511,7 +7511,7 @@
       "line": 6147
     },
     "My Ampharos has gotten a boost since a friendly soul gave me an Ampharosite!": {
-      "translation": "自从一个友好的灵魂给了我一个电龙石以来，我的电龙石得到了提升！",
+      "translation": "自从有位好心人送给我电龙进化石后，我的电龙变得更强了！",
       "line": 6148
     },
     "Luckily my Ampharos was already strong enough to use it!": {
@@ -7523,11 +7523,11 @@
       "line": 6150
     },
     "Diantha": {
-      "translation": "卡露乃",
+      "translation": "卡露妮",
       "line": 6153
     },
     "Bonds... They really are important to us all, aren't they? When I'm acting, I think I'm always trying to forge a bond between myself and the character I'm playing.": {
-      "translation": "债券……它们对我们所有人来说确实很重要，不是吗？当我表演时，我想我总是试图在自己和我扮演的角色之间建立联系。",
+      "translation": "羁绊……对我们所有人来说都很重要，不是吗？演戏的时候，我总会试着在自己与所饰演的角色之间建立羁绊。",
       "line": 6154
     },
     "If all I think about is how I'm nothing like a character, then I'll just hate playing it.": {
@@ -7583,7 +7583,7 @@
       "line": 6178
     },
     "What the king of Kalos did was reprehensible, but... The ultimate weapon did manage to wash the world clean of that era's filth. Thank you for listening.": {
-      "translation": "卡洛斯之王的所作所为是应该受到谴责的，但是……终极武器确实成功地清洗了世界上那个时代的污秽。感谢你的聆听。",
+      "translation": "卡洛斯之王的所作所为确实应受谴责，但是……终极武器也的确将那个时代的污秽从世界上抹去了。感谢你的聆听。",
       "line": 6179
     },
     "Sage Chen": {
@@ -7671,7 +7671,7 @@
       "line": 6215
     },
     "My partner Medicham and I are always training to become the strongest in the world.": {
-      "translation": "我和我的搭档麦迪查姆一直在训练，以成为世界上最强的人。",
+      "translation": "我和我的搭档恰雷姆一直都在为了成为世界最强而训练。",
       "line": 6221
     },
     "Our favorite way to train is by doing quests. Someday my Medicham even found a Mega Stone while claiming some.": {
@@ -7711,7 +7711,7 @@
       "line": 6237
     },
     "Dog Pokémon are the best of all! I'm particularly fond of Houndour - I've caught about five hundred of them.": {
-      "translation": "狗宝可梦是所有宝可梦中最好的！我特别喜欢猎犬——我已经抓到了大约五百只。",
+      "translation": "狗宝可梦是所有宝可梦中最棒的！我尤其喜欢戴鲁比——我已经抓了大约五百只。",
       "line": 6238
     },
     "There's no such thing as a cold night in my house, no sir! The most fierce chill of winter is completely defeated by their warm, cozy presence.": {
@@ -7731,7 +7731,7 @@
       "line": 6242
     },
     "You could build your own Houndour pack and find out, but if it's strong enough to call five hundred Pokémon, it probably wouldn't give anyone weaker than Diantha the time of day.": {
-      "translation": "你也可以自己凑一支戴鲁比的群体去调查，但如果它强到能召集五百只宝可梦，恐怕实力不及卡露乃的人，它根本不会理会。",
+      "translation": "你也可以自己培养一群落雷兽去调查，但如果它光凭气场就能召集如此凶猛的族群，恐怕除了卡露妮本人之外，没人应付得了。",
       "line": 6243
     },
     "Worrisome Wolf-loving Woman": {
@@ -7759,7 +7759,7 @@
       "line": 6252
     },
     "I've been debating asking someone else to collect five hundred of their own Electrike and investigate, but if it can call such a fearsome pack with its presence alone, I don't imagine anyone less than Diantha herself could handle it.": {
-      "translation": "我一直在考虑让其他人收集五百辆他们自己的落雷兽并进行调查，但如果它能够单独召唤出如此可怕的包，我不认为除了黛安莎本人之外还有人可以处理它。",
+      "translation": "我一直在考虑让别人自己培养五百只落雷兽来调查这件事，但如果它光凭气场就能召集如此凶猛的族群，恐怕除了卡露妮本人之外，没人应付得了。",
       "line": 6253
     },
     "assets/images/npcs/Madame.png": {
@@ -8027,7 +8027,7 @@
       "line": 6369
     },
     "Millis and Argus Steels' Aeglislash": {
-      "translation": "米利斯和阿格斯钢公司的 Aeglislash",
+      "translation": "米利斯和阿格斯钢铁公司的坚盾剑怪",
       "line": 6372
     },
     "<i>Aegislash wants to join you on your adventure.</i>": {
@@ -8499,7 +8499,7 @@
       "line": 6556
     },
     "Grand Duchess Diantha": {
-      "translation": "女大公卡露乃",
+      "translation": "女大公卡露妮",
       "line": 6556
     },
     "Camphrier Town": {
@@ -8627,7 +8627,7 @@
       "line": 6707
     },
     "Champion Diantha": {
-      "translation": "冠军卡露乃",
+      "translation": "冠军卡露妮",
       "line": 6707
     },
     "Calem 5": {
@@ -9141,7 +9141,7 @@
       "line": 7152
     },
     "Yes, in short, it makes it possible for Necrozma to fuse with the light of the Legendary Pokémon Solgaleo! This is the Colress Machine No. 1198, officially dubbed the N-Solarizer!": {
-      "translation": "是的，简而言之，它使得奈克洛兹玛能够与传奇宝可梦索尔迦雷欧的光芒融合！这是Colress Machine No. 1198，正式名称为N-Solarizer！",
+      "translation": "是的，简而言之，它能让奈克洛兹玛与传说的宝可梦索尔迦雷欧的光合体！这是阿克罗玛机器 No.1198，正式名称为奈克洛索尔合体器！",
       "line": 7153
     },
     "<img src=\"assets/images/npcs/textbody/N-Lunarizer.png\">": {
@@ -9153,7 +9153,7 @@
       "line": 7154
     },
     "In addition, this is the Colress Machine No. 1199, officially dubbed the N-Lunarizer! It makes it possible for Necrozma to fuse with the light of the Legendary Pokémon, Lunala!": {
-      "translation": "另外，这就是Colress Machine No.1199，正式名称为N-Lunarizer！它使奈克洛兹玛能够与传奇宝可梦露娜拉的光融合！",
+      "translation": "另外，这就是阿克罗玛机器 No.1199，正式名称为奈克洛露奈合体器！它能让奈克洛兹玛与传说的宝可梦露奈雅拉的光合体！",
       "line": 7155
     },
     "If you wish to make use of them, you will require light from Solgaleo and Lunala respectively. I believe that they may drop the crystallised form of this light if you defeat them in battle! I believe each of them will be able to make good use of their own light, as well.": {
@@ -9577,7 +9577,7 @@
       "line": 7397
     },
     "$playername$! Stop the president!!! If we don't, Alola will be flooded with beasts!": {
-      "translation": "$playername$！阻止理事长！！！不然阿罗拉就会被究极异兽淹没！",
+      "translation": "$playername$！快阻止理事长！！！否则阿罗拉会被究极异兽淹没！",
       "line": 7398
     },
     "assets/images/npcs/Gladion (stance).png": {
@@ -10061,11 +10061,11 @@
       "line": 7643
     },
     "A Dragon-type Silvally Memory, you say? Rock on! I had a feeling it was something rare and powerful, but I never would have guessed it was a Silvally Memory! But now that I know what I have, I can't simply give it to you. I'm a rock star, not a trial captain! We're on stage and the crowd wants a show!": {
-      "translation": "你说的是龙属性银伴战兽记忆？Rock on！我就觉得这东西罕见又强大，可万万没想到竟然是银伴战兽的记忆！不过既然我知道它是什么，就不能随随便便给你了。我是摇滚明星，不是考验队长！我们在舞台上，观众想看一场表演！",
+      "translation": "你说的是龙属性银伴战兽记忆？这可太对味了！我就觉得这东西罕见又强大，可万万没想到竟然会是银伴战兽的记忆！不过既然我知道它是什么，就不能随随便便交给你了。我是摇滚明星，不是考验队长！我们站在舞台上，观众想看的是一场精彩演出！",
       "line": 7644
     },
     "If you want this Silvally Memory, you have to defeat me in a burning hot battle! It won't be easy, mind you. My babies are dying to play a set, and I won't be holding back! But if you truly have what it takes to be the champion, then you should be up for the challenge, yeah? Right on! Let's rock!": {
-      "translation": "如果你想要这份银伴战兽记忆，就必须在一场激烈的战斗中击败我！请注意，这并不容易。我的宝宝们非常想玩一套，我不会退缩的！但如果你真的有成为冠军的能力，那么你应该准备好迎接挑战，是吗？就在！让我们岩石吧！",
+      "translation": "如果你想要这份银伴战兽记忆，就必须在一场火热的对战中击败我！先提醒你，这可不轻松。我的宝可梦们早就迫不及待想好好来上一场了，我也绝不会手下留情！不过如果你真的有冠军的实力，那你就该接下这个挑战，对吧？来吧，让我们狠狠干一场——不，让我们狠狠干一场摇滚对决！",
       "line": 7645
     },
     "assets/images/npcs/Ryuki.png": {
@@ -10077,7 +10077,7 @@
       "line": 7651
     },
     "And... seeing my buddy suffer like that made me consider how many new memories I've been taking for granted... I'm glad to have met you, Hau... everyone. Like Hau said, people can achieve more if they do something together. Thank you for reminding me of that.": {
-      "translation": "而且......看到我的朋友那样受苦，让我想起了我一直认为理所当然的许多新回忆......我很高兴见到你，Hau......大家。就像 Hau 所说，如果人们一起做某事，就能取得更多成就。谢谢你提醒我这一点。",
+      "translation": "而且……看到我的伙伴那样受苦，让我开始重新思考，自己有多少新的回忆一直被视作理所当然……我很高兴能遇见你，哈乌……还有大家。就像哈乌说的那样，只要大家一起努力，就能办成更多事情。谢谢你提醒了我这一点。",
       "line": 7652
     },
     "I can see what Lillie saw in you now... You've been a true inspiration to me too. I hope our paths cross again someday. Until then... See you around.": {
@@ -11097,7 +11097,7 @@
       "line": 8594
     },
     "<i>It's Stow-on-Side's famous mural.</i>": {
-      "translation": "<i>这是拳关市著名的壁画。</i>",
+      "translation": "<i>这是溯传镇著名的壁画。</i>",
       "line": 8595
     },
     "<i>It's said to be a very deep work of art...</i>": {
@@ -11109,7 +11109,7 @@
       "line": 8598
     },
     "The Darkest Day": {
-      "translation": "最黑暗的一天",
+      "translation": "至暗之日",
       "line": 8599
     },
     "Ancient Mural Ruins": {
@@ -11117,7 +11117,7 @@
       "line": 8602
     },
     "<i>It's the statues that were hidden behind Stow-on-Side's famous mural.</i>": {
-      "translation": "<i>这是藏在拳关市著名壁画背后的雕像。</i>",
+      "translation": "<i>这是藏在溯传镇著名壁画背后的雕像。</i>",
       "line": 8603
     },
     "<i>They depict two heroes and two Pokémon.</i>": {
@@ -11297,7 +11297,7 @@
       "line": 8670
     },
     "That video stream... That was from Hammerlocke Stadium, right? What in the world did the chairman do...?": {
-      "translation": "那个视频流……是来自宫门竞技场，对吧？洛兹会长到底做了什么……？",
+      "translation": "那个视频流……是来自拳关竞技场，对吧？洛兹会长到底做了什么……？",
       "line": 8675
     },
     "I want to help my brother! I've got to! But I can't even manage to beat you, so what sort of help could I ever be...?": {
@@ -11477,7 +11477,7 @@
       "line": 8744
     },
     "We know all the Wishing Stars that Chairman Rose had gathered are here. We celebrities have an advanced level of insight into such things!": {
-      "translation": "我们知道洛兹会长聚集的所有许愿星都在这里。我们名人对于这些事情的洞察力是非常高的！",
+      "translation": "我们知道洛兹会长收集的许愿星全都在这里。我们这些名人对这种事的嗅觉可是一流的！",
       "line": 8749
     },
     "You non-celebrities are not suited to having such valuable things. Hand them over to us.": {
@@ -11593,7 +11593,7 @@
       "line": 8806
     },
     "Mustard": {
-      "translation": "芥末",
+      "translation": "马士德",
       "line": 8808
     },
     "... ... ... Why hello there! My name is Mustard! I'm rather good at Pokémon battles, you know! I'm pleased as cheese that you could join us!": {
@@ -11621,7 +11621,7 @@
       "line": 8817
     },
     "For the first trial, my students... You've all gotta defeat 6 of those fast Galarian Slowpoke, trained with care by little old me! But that's not all... You need to catch them, too!": {
-      "translation": "第一个考验，学生们……你们都得打倒我这把老骨头精心训练的6只快速伽勒尔呆呆兽！但这还没完……你们还得把它们抓住！",
+      "translation": "第一个考验，学生们……你们都得打倒我精心训练的6只跑得飞快的伽勒尔呆呆兽！但这还没完……你们还得把它们抓住！",
       "line": 8818
     },
     "Well mustered! You cleared the first trial like it was nothing! Why, I think this is the first time since Leon that someone was able to handle all six fast Slowpoke on their own! The rest of you tried very hard, too! You were able to catch up to the Slowpoke, but I guess you couldn't defeat them.": {
@@ -12213,11 +12213,11 @@
       "line": 9169
     },
     "Hey, what's that purple glow? It looks to be around... Hammerlocke?": {
-      "translation": "嘿，那紫色的光芒是什么？看起来是在……宫门市附近？",
+      "translation": "嘿，那团紫色的光芒是什么？看起来好像是在……拳关市那边？",
       "line": 9170
     },
     "Hang on, this looks a lot like when uncle Rose started the Darkest Day! You were the one who stopped that whole thing, right? You should probably get going!": {
-      "translation": "等一下，这看起来很像罗斯叔叔开始《至暗之日》时的情况！是你阻止了整件事，对吧？你也许应该出发了！",
+      "translation": "等一下，这看起来很像洛兹叔叔引发“至暗之日”时的情况！是你阻止了整件事，对吧？你也许该赶紧过去了！",
       "line": 9171
     },
     "Champion?! What are you.... no matter, I'm glad you're here!": {
@@ -12225,7 +12225,7 @@
       "line": 9177
     },
     "Eternamax Eternatus has appeared again! There is no time to talk! Let's fight it together!": {
-      "translation": "无极巨化无极汰那再次出现！没时间说话了！让我们一起战斗吧！",
+      "translation": "无极巨化无极汰那再次出现了！没时间解释了！我们一起上吧！",
       "line": 9178
     },
     "Wow. You're just as amazing as ever. You're truly worthy of your title.": {
@@ -12241,7 +12241,7 @@
       "line": 9186
     },
     "Anyway, thanks for your help! Feel free to come over to Wyndon Stadium anytime if you fancy a match!": {
-      "translation": "不管怎样，谢谢你的帮助！如果你喜欢观看比赛，请随时来温登体育场！",
+      "translation": "总之，谢啦！要是你想再战一场，随时都可以来宫门竞技场找我！",
       "line": 9187
     },
     "So it really was Eternatus again? Given that the purple glow has vanished, I guess you've already taken care of it. Congrats!": {
@@ -12249,7 +12249,7 @@
       "line": 9193
     },
     "Actually, I just saw some purple and red Pokémon fly into the caves. Maybe that was Eternatus? I think this place might let it return to its Eternamax form. Maybe you can catch it!": {
-      "translation": "不过我刚才看见一些紫红色的宝可梦飞进了洞窟。也许那就是无极汰那？我觉得这里可能会让它恢复无极巨化形态。也许你能抓到它！",
+      "translation": "刚才我看见一只紫红色的宝可梦飞进了洞窟。也许那就是无极汰那？我觉得这里也许会让它再次变成无极巨化形态，说不定你能抓到它！",
       "line": 9194
     },
     "At any rate, I'm real thankful for all your help. There's so many more people coming here now there's more Gigantamax Pokémon to find. It's been a lot of fun!": {
@@ -12265,7 +12265,7 @@
       "line": 9201
     },
     "I have some good news for you though! It seems that those you've already caught will show up less often. That should make it easier to catch 'em all!": {
-      "translation": "不过我有一些好消息要告诉你！看来你已经抓到的那些人会出现得更少了。这应该会让你更容易抓住他们！",
+      "translation": "不过我有个好消息！看来你已经抓到的那些宝可梦，之后出现的频率会降低。这下应该更容易把它们全部收服了！",
       "line": 9202
     },
     "Prof. Magnolia": {
@@ -12377,11 +12377,11 @@
       "line": 9301
     },
     "Stow-on-Side1": {
-      "translation": "侧面存放1",
+      "translation": "溯传镇1",
       "line": 9301
     },
     "Stow-on-Side2": {
-      "translation": "侧面存放2",
+      "translation": "溯传镇2",
       "line": 9301
     },
     "FossilMasterGalarRoute6": {
@@ -12445,11 +12445,11 @@
       "line": 9349
     },
     "Rose Tower": {
-      "translation": "玫瑰塔",
+      "translation": "洛兹大厦",
       "line": 9352
     },
     "Wyndon Stadium": {
-      "translation": "温登体育场",
+      "translation": "宫门竞技场",
       "line": 9358
     },
     "Elite Trainer Marnie": {
@@ -12457,7 +12457,7 @@
       "line": 9362
     },
     "Elite Gym Leader Bede": {
-      "translation": "精英道馆领队Bede",
+      "translation": "精英道馆馆主彼特",
       "line": 9362
     },
     "Elite Trainer Hop": {
@@ -12481,11 +12481,11 @@
       "line": 9389
     },
     "Elite Gym Leader Klara": {
-      "translation": "精英道馆领队克拉拉",
+      "translation": "精英道馆馆主克拉拉",
       "line": 9393
     },
     "Elite Gym Leader Avery": {
-      "translation": "精英道馆领队艾弗里",
+      "translation": "精英道馆馆主艾弗里",
       "line": 9393
     },
     "Elite Dojo Matron Honey": {
@@ -12493,7 +12493,7 @@
       "line": 9393
     },
     "Elite Dojo Master Mustard": {
-      "translation": "精英道场芥末大师",
+      "translation": "精英道场大师马士德",
       "line": 9393
     },
     "Crown Tundra Station": {
@@ -12525,7 +12525,7 @@
       "line": 9432
     },
     "Bede 1": {
-      "translation": "贝德1",
+      "translation": "彼特1",
       "line": 9437
     },
     "Galar Mine No. 2": {
@@ -12533,7 +12533,7 @@
       "line": 9439
     },
     "Bede 2": {
-      "translation": "贝德2号",
+      "translation": "彼特2",
       "line": 9444
     },
     "Zarude Tribe 1": {

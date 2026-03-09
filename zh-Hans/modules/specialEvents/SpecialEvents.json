@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": "src/modules/specialEvents/SpecialEvents.ts",
-    "lastUpdated": "2026-01-01",
-    "totalStrings": 26,
-    "translatedCount": 23
+    "lastUpdated": "2026-03-09",
+    "totalStrings": 27,
+    "translatedCount": 24
   },
   "entries": {
     "knockout": {
@@ -91,6 +91,10 @@
       "line": 170
     },
     "Spooky Pokémon are trick-or-treating for a limited time around Kanto, Johto and Hoenn.": {
+      "translation": "幽灵宝可梦在关都、城都和丰缘地区限时举办“不给糖就捣蛋”活动。",
+      "line": 170
+    },
+    "Encounter Spooky Pokémon for a limited time around Kanto, Johto and Hoenn.": {
       "translation": "幽灵宝可梦在关都、城都和丰缘地区限时举办“不给糖就捣蛋”活动。",
       "line": 170
     },

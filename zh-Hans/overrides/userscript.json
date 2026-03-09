@@ -1,9 +1,9 @@
 {
   "_meta": {
     "sourceFile": null,
-    "lastUpdated": "2026-02-10",
-    "totalStrings": 43,
-    "translatedCount": 43,
+    "lastUpdated": "2026-03-09",
+    "totalStrings": 59,
+    "translatedCount": 59,
     "note": "Userscript-specific UI strings (CSS pseudo-elements, early hooks, and dynamic segment helpers)."
   },
   "entries": {
@@ -51,133 +51,197 @@
       "translation": "{{routeNumber}}号道路（{{regionOrSub}}）",
       "line": 24
     },
+    "__userscript.time.now": {
+      "translation": "现在",
+      "line": 25
+    },
+    "__userscript.time.lessThanPrefix": {
+      "translation": "不到 ",
+      "line": 26
+    },
+    "__userscript.time.unit.day": {
+      "translation": "天",
+      "line": 27
+    },
+    "__userscript.time.unit.days": {
+      "translation": "天",
+      "line": 28
+    },
+    "__userscript.time.unit.hour": {
+      "translation": "小时",
+      "line": 29
+    },
+    "__userscript.time.unit.hours": {
+      "translation": "小时",
+      "line": 30
+    },
+    "__userscript.time.unit.min": {
+      "translation": "分钟",
+      "line": 31
+    },
+    "__userscript.time.unit.mins": {
+      "translation": "分钟",
+      "line": 32
+    },
+    "__userscript.time.unit.minute": {
+      "translation": "分钟",
+      "line": 33
+    },
+    "__userscript.time.unit.minutes": {
+      "translation": "分钟",
+      "line": 34
+    },
+    "__userscript.time.unit.sec": {
+      "translation": "秒",
+      "line": 35
+    },
+    "__userscript.time.unit.secs": {
+      "translation": "秒",
+      "line": 36
+    },
+    "__userscript.time.unit.second": {
+      "translation": "秒",
+      "line": 37
+    },
+    "__userscript.time.unit.seconds": {
+      "translation": "秒",
+      "line": 38
+    },
+    "__userscript.time.unit.week": {
+      "translation": "周",
+      "line": 39
+    },
+    "__userscript.time.unit.weeks": {
+      "translation": "周",
+      "line": 40
+    },
     "__userscript.demix.replacements": {
       "translation": "图鉴=Pokédex\n宝可币=Poké Coins\n宝可币=Pokédollars\n超极巨化=Gigantamax\n无极巨化=Eternamax\n暗影=Shadow\n平柑=Pinkan\n胆小虫=胆小虫",
-      "line": 25
+      "line": 41
     },
     "__userscript.type.None": {
       "translation": "无属性",
-      "line": 30
+      "line": 46
     },
     "__userscript.type.Normal": {
       "translation": "一般",
-      "line": 31
+      "line": 47
     },
     "__userscript.type.Fire": {
       "translation": "火",
-      "line": 32
+      "line": 48
     },
     "__userscript.type.Water": {
       "translation": "水",
-      "line": 33
+      "line": 49
     },
     "__userscript.type.Grass": {
       "translation": "草",
-      "line": 34
+      "line": 50
     },
     "__userscript.type.Electric": {
       "translation": "电",
-      "line": 35
+      "line": 51
     },
     "__userscript.type.Ice": {
       "translation": "冰",
-      "line": 36
+      "line": 52
     },
     "__userscript.type.Fighting": {
       "translation": "格斗",
-      "line": 37
+      "line": 53
     },
     "__userscript.type.Poison": {
       "translation": "毒",
-      "line": 38
+      "line": 54
     },
     "__userscript.type.Ground": {
       "translation": "地面",
-      "line": 39
+      "line": 55
     },
     "__userscript.type.Flying": {
       "translation": "飞行",
-      "line": 40
+      "line": 56
     },
     "__userscript.type.Psychic": {
       "translation": "超能力",
-      "line": 41
+      "line": 57
     },
     "__userscript.type.Bug": {
       "translation": "虫",
-      "line": 42
+      "line": 58
     },
     "__userscript.type.Rock": {
       "translation": "岩石",
-      "line": 43
+      "line": 59
     },
     "__userscript.type.Ghost": {
       "translation": "幽灵",
-      "line": 44
+      "line": 60
     },
     "__userscript.type.Dragon": {
       "translation": "龙",
-      "line": 45
+      "line": 61
     },
     "__userscript.type.Dark": {
       "translation": "恶",
-      "line": 46
+      "line": 62
     },
     "__userscript.type.Steel": {
       "translation": "钢",
-      "line": 47
+      "line": 63
     },
     "__userscript.type.Fairy": {
       "translation": "妖精",
-      "line": 48
+      "line": 64
     },
     "__userscript.context.treasures.gem": {
       "translation": "石板",
-      "line": 50
+      "line": 66
     },
     "__userscript.weatherType.Clear": {
       "translation": "晴朗",
-      "line": 60
+      "line": 76
     },
     "__userscript.weatherType.Overcast": {
       "translation": "阴天",
-      "line": 61
+      "line": 77
     },
     "__userscript.weatherType.Rain": {
       "translation": "雨天",
-      "line": 62
+      "line": 78
     },
     "__userscript.weatherType.Thunderstorm": {
       "translation": "雷暴",
-      "line": 63
+      "line": 79
     },
     "__userscript.weatherType.Snow": {
       "translation": "雪",
-      "line": 64
+      "line": 80
     },
     "__userscript.weatherType.Hail": {
       "translation": "冰雹",
-      "line": 65
+      "line": 81
     },
     "__userscript.weatherType.Blizzard": {
       "translation": "暴风雪",
-      "line": 66
+      "line": 82
     },
     "__userscript.weatherType.Harsh Sunlight": {
       "translation": "烈日",
-      "line": 67
+      "line": 83
     },
     "__userscript.weatherType.Sandstorm": {
       "translation": "沙暴",
-      "line": 68
+      "line": 84
     },
     "__userscript.weatherType.Fog": {
       "translation": "浓雾",
-      "line": 69
+      "line": 85
     },
     "__userscript.weatherType.Windy": {
       "translation": "大风",
-      "line": 70
+      "line": 86
     }
   }
 }

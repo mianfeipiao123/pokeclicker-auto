@@ -99,7 +99,7 @@
       "line": 42
     },
     "Freeze_Mulch": {
-      "translation": "冷冻肥料",
+      "translation": "冷冻肥",
       "line": 43
     },
     "Gooey_Mulch": {
@@ -435,7 +435,7 @@
       "line": 126
     },
     "Water_egg": {
-      "translation": "水之蛋",
+      "translation": "水蛋",
       "line": 127
     },
     "Grass_egg": {
@@ -443,7 +443,7 @@
       "line": 128
     },
     "Fighting_egg": {
-      "translation": "战斗蛋",
+      "translation": "格斗蛋",
       "line": 129
     },
     "Electric_egg": {
@@ -475,11 +475,11 @@
       "line": 136
     },
     "GS_Ball_Celebi": {
-      "translation": "GS球时拉比",
+      "translation": "GS球（时拉比）",
       "line": 137
     },
     "Eon_Ticket_Latis": {
-      "translation": "无限船票拉帝亚斯拉帝欧斯",
+      "translation": "无限船票（拉帝亚斯／拉帝欧斯）",
       "line": 138
     },
     "Celios_Errand_Ruby": {
@@ -491,67 +491,67 @@
       "line": 140
     },
     "Crystalline_Cocoon_Jirachi": {
-      "translation": "水晶茧基拉祈",
+      "translation": "水晶茧（基拉祈）",
       "line": 141
     },
     "Meteorite_Shard_Delta": {
-      "translation": "陨石碎片代欧奇希斯",
+      "translation": "陨石碎片（代欧奇希斯）",
       "line": 142
     },
     "Mysterious_Vial_Detective_Pikachu": {
-      "translation": "神秘瓶侦探皮卡丘",
+      "translation": "神秘的小瓶（名侦探皮卡丘）",
       "line": 143
     },
     "Heart_Diamond_Diancie": {
-      "translation": "心之钻石蒂安希",
+      "translation": "心形钻石（蒂安希）",
       "line": 144
     },
     "Red_Petal_Mina": {
-      "translation": "红花瓣茉莉",
+      "translation": "红色花瓣（茉莉）",
       "line": 145
     },
     "Orange_Petal_Mina": {
-      "translation": "橙色花瓣茉莉",
+      "translation": "橙色花瓣（茉莉）",
       "line": 146
     },
     "Yellow_Petal_Mina": {
-      "translation": "黄色花瓣茉莉",
+      "translation": "黄色花瓣（茉莉）",
       "line": 147
     },
     "Green_Petal_Mina": {
-      "translation": "绿花瓣茉莉",
+      "translation": "绿色花瓣（茉莉）",
       "line": 148
     },
     "Blue_Petal_Mina": {
-      "translation": "蓝色花瓣茉莉",
+      "translation": "蓝色花瓣（茉莉）",
       "line": 149
     },
     "Purple_Petal_Mina": {
-      "translation": "紫色花瓣茉莉",
+      "translation": "紫色花瓣（茉莉）",
       "line": 150
     },
     "Pink_Petal_Mina": {
-      "translation": "粉色花瓣茉莉",
+      "translation": "粉色花瓣（茉莉）",
       "line": 151
     },
     "Sand_Bag_Magikarp_Jump": {
-      "translation": "沙袋鲤鱼王跳跃",
+      "translation": "沙袋（跳跃！鲤鱼王）",
       "line": 152
     },
     "Jump_Counter_Magikarp_Jump": {
-      "translation": "跳跃计数器鲤鱼王跳跃",
+      "translation": "跳跃计数器（跳跃！鲤鱼王）",
       "line": 153
     },
     "Timber_Magikarp_Jump": {
-      "translation": "木材鲤鱼王跳跃",
+      "translation": "木材（跳跃！鲤鱼王）",
       "line": 154
     },
     "Rock_Cruncher_Magikarp_Jump": {
-      "translation": "碎岩机鲤鱼王跳跃",
+      "translation": "碎岩机（跳跃！鲤鱼王）",
       "line": 155
     },
     "Power_Generator_Magikarp_Jump": {
-      "translation": "发电机鲤鱼王跳跃",
+      "translation": "发电机（跳跃！鲤鱼王）",
       "line": 156
     },
     "Pokeball_Smash_Magikarp_Jump": {
@@ -1559,7 +1559,7 @@
       "line": 407
     },
     "Black_augurite": {
-      "translation": "黑铁榴石",
+      "translation": "黑奇石",
       "line": 408
     },
     "Peat_block": {
@@ -1567,11 +1567,11 @@
       "line": 409
     },
     "Auspicious_armor": {
-      "translation": "吉祥铠甲",
+      "translation": "庆祝之铠",
       "line": 410
     },
     "Malicious_armor": {
-      "translation": "恶意装甲",
+      "translation": "咒术之铠",
       "line": 411
     },
     "Leaders_crest": {
@@ -1579,19 +1579,19 @@
       "line": 412
     },
     "Gimmighoul_coin": {
-      "translation": "索财灵硬币",
+      "translation": "索财灵的硬币",
       "line": 413
     },
     "Syrupy_apple": {
-      "translation": "糖苹果",
+      "translation": "蜜汁苹果",
       "line": 414
     },
     "Unremarkable_teacup": {
-      "translation": "平凡茶杯",
+      "translation": "凡作茶碗",
       "line": 415
     },
     "Metal_alloy": {
-      "translation": "金属合金",
+      "translation": "复合金属",
       "line": 416
     },
     "FarmHandBailey": {

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.74
+// @version      0.1.75
 // @description  为 PokéClicker 提供全面的简体中文翻译，覆盖界面、对话、物品等内容
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -84,7 +84,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.74';
+    const SCRIPT_VERSION = '0.1.75';
 
     // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
     // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。
@@ -2632,9 +2632,122 @@
         };
         pollUntil(tryPatchBootstrapTooltip);
 
-        // Patch App.translation.get to translate logbook variables (achievement names, quest descriptions, locations, etc.)
-        // The game's i18next only has a 'pokemon' formatter, so variables like {{ name }}, {{ quest }}, {{ location }}
-        // are inserted as-is without translation. We intercept App.translation.get to translate these vars first.
+        const LOGBOOK_POKEMON_VAR_KEYS = new Set(['pokemon', 'basePokemon', 'evolvedPokemon']);
+
+        const translateLogbookString = (text) => {
+            if (typeof text !== 'string' || !text) return text;
+            const lookupKey = normalizeText(text);
+            if (!lookupKey) return text;
+
+            const resolved = cachedResolve(lookupKey, map, patterns, cache);
+            if (resolved && resolved !== lookupKey) return resolved;
+
+            const fallback = translateSegmentsFallback(text, map, patterns, cache);
+            return fallback || text;
+        };
+
+        const translateLogbookRuntimeValue = (value, keyHint = '') => {
+            if (typeof value === 'string') {
+                if (LOGBOOK_POKEMON_VAR_KEYS.has(keyHint)) {
+                    return { value, changed: false };
+                }
+                const translated = translateLogbookString(value);
+                return {
+                    value: translated,
+                    changed: translated !== value,
+                };
+            }
+
+            if (Array.isArray(value)) {
+                let changed = false;
+                const translatedArray = value.map((item) => {
+                    const result = translateLogbookRuntimeValue(item, keyHint);
+                    if (result.changed) changed = true;
+                    return result.value;
+                });
+                return changed ? { value: translatedArray, changed: true } : { value, changed: false };
+            }
+
+            if (value && typeof value === 'object') {
+                let changed = false;
+                const translatedObject = {};
+                for (const [nestedKey, nestedValue] of Object.entries(value)) {
+                    const result = translateLogbookRuntimeValue(nestedValue, nestedKey);
+                    translatedObject[nestedKey] = result.value;
+                    if (result.changed) changed = true;
+                }
+                return changed ? { value: translatedObject, changed: true } : { value, changed: false };
+            }
+
+            return { value, changed: false };
+        };
+
+        const translateLogbookContentInPlace = (content) => {
+            if (!content || typeof content !== 'object') return false;
+
+            let changed = false;
+
+            if (content.key === 'notTranslated' && typeof content.vars?.text === 'string') {
+                const translatedText = translateLogbookString(content.vars.text);
+                if (translatedText !== content.vars.text) {
+                    content.vars.text = translatedText;
+                    changed = true;
+                }
+            }
+
+            if (content.vars && typeof content.vars === 'object') {
+                for (const [varKey, varValue] of Object.entries(content.vars)) {
+                    const result = translateLogbookRuntimeValue(varValue, varKey);
+                    if (result.changed) {
+                        content.vars[varKey] = result.value;
+                        changed = true;
+                    }
+                }
+            }
+
+            return changed;
+        };
+
+        const refreshLogbookEntryDescription = (entry) => {
+            if (!entry?.content) return;
+
+            if (entry.content.key === 'notTranslated') {
+                if (typeof entry.content.vars?.text === 'string') {
+                    entry.description = entry.content.vars.text;
+                }
+                return;
+            }
+
+            if (window.App?.translation?.get) {
+                entry.description = window.App.translation.get(entry.content.key, 'logbook', entry.content.vars);
+            }
+        };
+
+        const sweepExistingLogbookEntries = (logbook) => {
+            try {
+                const entries = typeof logbook?.logs === 'function' ? logbook.logs() : [];
+                if (!Array.isArray(entries) || !entries.length) return false;
+
+                let changed = false;
+                for (const entry of entries) {
+                    if (!entry?.content) continue;
+                    const entryChanged = translateLogbookContentInPlace(entry.content);
+                    if (entryChanged) {
+                        refreshLogbookEntryDescription(entry);
+                        changed = true;
+                    }
+                }
+
+                if (changed && typeof logbook.logs.valueHasMutated === 'function') {
+                    logbook.logs.valueHasMutated();
+                }
+                return true;
+            } catch {
+                return false;
+            }
+        };
+
+        // Patch App.translation.get to translate logbook variables recursively before rendering.
         const tryPatchAppTranslationGet = () => {
             try {
                 if (!window.App?.translation?.get) return false;
@@ -2642,42 +2755,11 @@
 
                 const originalGet = window.App.translation.get;
 
-                // Variables that should be translated in logbook entries
-                const logbookVarsToTranslate = new Set([
-                    'name',       // achievement names
-                    'quest',      // quest descriptions
-                    'location',   // location names
-                    'item',       // item names
-                    'reward',     // reward descriptions
-                    'berry',      // berry names
-                    'flute',      // flute names
-                    'currency',   // currency names
-                    'stage',      // battle frontier stage
-                ]);
-
                 const wrappedGet = function (key, namespace, vars) {
-                    // Only process logbook namespace with vars
                     if (namespace === 'logbook' && vars && typeof vars === 'object') {
-                        const translatedVars = { ...vars };
-                        let anyTranslated = false;
-
-                        for (const [varKey, varValue] of Object.entries(vars)) {
-                            // Skip pokemon vars - they're handled by the game's pokemon formatter
-                            if (varKey === 'pokemon' || varKey === 'basePokemon' || varKey === 'evolvedPokemon') {
-                                continue;
-                            }
-
-                            if (logbookVarsToTranslate.has(varKey) && typeof varValue === 'string' && varValue) {
-                                const translated = translateWithFallback(varValue);
-                                if (translated && translated !== varValue) {
-                                    translatedVars[varKey] = translated;
-                                    anyTranslated = true;
-                                }
-                            }
-                        }
-
-                        if (anyTranslated) {
-                            return originalGet.call(window.App.translation, key, namespace, translatedVars);
+                        const translatedVars = translateLogbookRuntimeValue(vars);
+                        if (translatedVars.changed) {
+                            return originalGet.call(window.App.translation, key, namespace, translatedVars.value);
                         }
                     }
 
@@ -2699,6 +2781,45 @@
             }
         };
         pollUntil(tryPatchAppTranslationGet);
+
+        const tryPatchLogbookRuntime = () => {
+            try {
+                const logbook = window.App?.game?.logbook;
+                if (!logbook?.logs || typeof logbook.newLog !== 'function') return false;
+
+                if (!logbook.__pkcZhHansPatched) {
+                    const originalNewLog = logbook.newLog.bind(logbook);
+                    logbook.newLog = function (type, content) {
+                        translateLogbookContentInPlace(content);
+                        const result = originalNewLog(type, content);
+                        try {
+                            const latestEntry = typeof logbook.logs === 'function' ? logbook.logs()[0] : null;
+                            if (latestEntry) refreshLogbookEntryDescription(latestEntry);
+                        } catch {
+                            // ignore
+                        }
+                        return result;
+                    };
+
+                    if (typeof logbook.fromJSON === 'function') {
+                        const originalFromJSON = logbook.fromJSON.bind(logbook);
+                        logbook.fromJSON = function (json) {
+                            const result = originalFromJSON(json);
+                            sweepExistingLogbookEntries(logbook);
+                            return result;
+                        };
+                    }
+
+                    Object.defineProperty(logbook, '__pkcZhHansPatched', { value: true });
+                }
+
+                sweepExistingLogbookEntries(logbook);
+                return true;
+            } catch {
+                return false;
+            }
+        };
+        pollUntil(tryPatchLogbookRuntime);
 
         if (DEBUG) {
             log.info('bundle meta:', bundleMeta);

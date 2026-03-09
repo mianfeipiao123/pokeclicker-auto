@@ -171,7 +171,7 @@
       "line": 106
     },
     "Talk to the Old Man in Viridian City to learn about catching.": {
-      "translation": "与常磐市的老人交谈，学习捕捉的知识。",
+      "translation": "与常青市的老人交谈，学习捕捉的知识。",
       "line": 112
     },
     "Pidgey": {
@@ -183,15 +183,15 @@
       "line": 115
     },
     "Buy the Dungeon Ticket from Viridian City Shop.": {
-      "translation": "从常磐市商店购买迷宫门票。",
+      "translation": "从常青市商店购买迷宫门票。",
       "line": 120
     },
     "Viridian Forest": {
-      "translation": "常磐森林",
+      "translation": "常青森林",
       "line": 126
     },
     "Gather 50 Dungeon Tokens by (re)capturing Pokémon, then clear the Viridian Forest dungeon.": {
-      "translation": "通过（重新）捕获宝可梦收集50个迷宫代币，然后通关常磐森林迷宫。",
+      "translation": "通过（重新）捕获宝可梦收集50个迷宫代币，然后通关常青森林迷宫。",
       "line": 126
     },
     "Tutorial completed!": {
@@ -227,11 +227,11 @@
       "line": 140
     },
     "Pewter City": {
-      "translation": "尼比市",
+      "translation": "深灰市",
       "line": 145
     },
     "Defeat Pewter City Gym. Click the town on the map to move there, then click the Gym button to start the battle.": {
-      "translation": "击败白镴城道馆。点击地图上的城镇移动到那里，然后点击道馆按钮开始战斗。",
+      "translation": "击败深灰道馆。点击地图上的城镇移动到那里，然后点击道馆按钮开始战斗。",
       "line": 145
     },
     "Bill's Grandpa Treasure Hunt": {
@@ -431,11 +431,11 @@
       "line": 284
     },
     "Viridian City": {
-      "translation": "常磐市",
+      "translation": "常青市",
       "line": 290
     },
     "If you take down Team Rocket's leader one more time they will surely never come back from this! Clear Viridian City Gym.": {
-      "translation": "如果你再击败一次火箭队的老大，他们肯定就再也回不来了！挑战并战胜常磐市道馆。",
+      "translation": "如果你再击败一次火箭队的老大，他们肯定就再也回不来了！挑战并战胜常青市道馆。",
       "line": 290
     },
     "Mining Expedition": {
@@ -447,11 +447,11 @@
       "line": 298
     },
     "Buy the Explorer Kit from Cinnabar Island Shop.": {
-      "translation": "从红莲岛商店购买探险家套件。",
+      "translation": "从红莲镇商店购买探险家套件。",
       "line": 301
     },
     "You have gained an Old Amber! <i>Have a look around Cinnabar island to revive this fossil.</i>": {
-      "translation": "你获得了一块秘琥珀！\n<i>去红莲岛附近看看，可以复活这块化石。</i>",
+      "translation": "你获得了一块秘琥珀！\n<i>去红莲镇附近看看，可以复活这块化石。</i>",
       "line": 310
     },
     "Collect all buried treasure 5 times in the Underground mines.": {
@@ -491,7 +491,7 @@
       "line": 334
     },
     "Cue Ball Paxton": {
-      "translation": "帕克斯顿母球",
+      "translation": "光头男帕克斯顿",
       "line": 338
     },
     "Defeat the biker gang's leader.": {
@@ -531,7 +531,7 @@
       "line": 367
     },
     "Talk to the Gem Scientist in Pewter City.": {
-      "translation": "与白镴城的宝石科学家交谈。",
+      "translation": "与深灰市的宝石科学家交谈。",
       "line": 370
     },
     "The Sick Ampharos": {
@@ -563,11 +563,11 @@
       "line": 391
     },
     "The Pharmacist said he needs some time to finish Amphys medicine. Clear the Cianwood City Gym in the meantime.": {
-      "translation": "药剂师说他需要一些时间才能完成安菲斯药物。同时清理湛蓝市道馆。",
+      "translation": "药剂师说他还需要一点时间调配给电龙的药。在这期间先通关湛蓝道馆。",
       "line": 391
     },
     "Give Amphy their medicine in the Olivine Lighthouse.": {
-      "translation": "在浅葱灯塔给安菲提供药物。",
+      "translation": "在浅葱灯塔把药交给电龙。",
       "line": 397
     },
     "Team Rocket Again": {
@@ -1613,15 +1613,15 @@
       "line": 1105
     },
     "Realgam Tower Battles": {
-      "translation": "Realgam 塔战",
+      "translation": "瑞尔加塔之战",
       "line": 1109
     },
     "Team Cipher has taken over Realgam Tower! Fight to kick them out!": {
-      "translation": "暗影密码团已经占领 Realgam Tower！奋力将他们赶出去！",
+      "translation": "暗影密码团已经占领瑞尔加塔！奋力把他们赶出去！",
       "line": 1109
     },
     "From the top of Realgam Tower, you see Mayor Es Cade. Go ask him for help.": {
-      "translation": "从 Realgam 塔顶，你可以看到市长艾斯·凯德 (Es Cade)。去找他寻求帮助吧。",
+      "translation": "从瑞尔加塔顶，你可以看到市长艾斯·凯德。去找他寻求帮助吧。",
       "line": 1112
     },
     "Realgam Colosseum": {
@@ -1629,11 +1629,11 @@
       "line": 1115
     },
     "Team Cipher's leaders have holed up in the Realgam Colosseum. Fight them to end this once and for all!": {
-      "translation": "暗影密码团的领导者躲藏在 Realgam 竞技场中。与他们战斗，一劳永逸地结束这一切！",
+      "translation": "暗影密码团的首脑躲在瑞尔加竞技场里。与他们战斗，彻底结束这一切！",
       "line": 1115
     },
     "Just when you have him cornered, Evice calls in a helicopter. Watch him escape the Realgam Colosseum.": {
-      "translation": "就在你把他逼到绝境时，埃维斯叫来了一架直升机。看着他逃离 Realgam 斗兽场。",
+      "translation": "就在你把他逼到绝境时，埃维斯叫来了一架直升机。眼看着他逃离了瑞尔加竞技场。",
       "line": 1118
     },
     "A New World": {
@@ -1757,7 +1757,7 @@
       "line": 1189
     },
     "Manaphy Go-Rock MGrunt 1": {
-      "translation": "玛纳霏 Go-Rock MGrunt 1",
+      "translation": "玛纳霏暴走族男小兵1",
       "line": 1192
     },
     "Time to give those mysterious boulders the soaking of their life! Return to the Eterna Forest, and prepare for a battle.": {
@@ -1765,35 +1765,35 @@
       "line": 1192
     },
     "Speak to the Go-Rock Commander in the Eterna Forest.": {
-      "translation": "与百代森林中的岩石指挥官交谈。",
+      "translation": "与百代森林中的暴走族指挥官交谈。",
       "line": 1195
     },
     "Manaphy Go-Rock FGrunt 1": {
-      "translation": "玛纳霏 Go-Rock FGrunt 1",
+      "translation": "玛纳霏暴走族女小兵1",
       "line": 1198
     },
     "Chase the fleeing Go-Rock Squad through the Eterna Forest!": {
-      "translation": "在百代森林中追击逃跑的岩石小队！",
+      "translation": "在百代森林中追击逃跑的暴走族！",
       "line": 1198
     },
     "Keep chasing the Go-Rock Squad through the Eterna Forest, but... didn't they already pass that tree?": {
-      "translation": "继续追着岩石小队穿过百代森林，但是……他们不是已经路过那棵树了吗？",
+      "translation": "继续追着暴走族穿过百代森林，但是……他们不是已经路过那棵树了吗？",
       "line": 1201
     },
     "Manaphy Go-Rock MGrunt 2": {
-      "translation": "玛纳霏 Go-Rock MGrunt 2",
+      "translation": "玛纳霏暴走族男小兵2",
       "line": 1202
     },
     "Manaphy Go-Rock MGrunt 3": {
-      "translation": "玛纳霏 Go-Rock MGrunt 3",
+      "translation": "玛纳霏暴走族男小兵3",
       "line": 1203
     },
     "Manaphy Go-Rock FGrunt 2": {
-      "translation": "玛纳霏 Go-Rock FGrunt 2",
+      "translation": "玛纳霏暴走族女小兵2",
       "line": 1204
     },
     "The Go-Rock Squad are definitely going in circles, but they're too dumb to realise it. Interrogate one on their method of navigating the Eterna Forest!": {
-      "translation": "岩石小队肯定是在兜圈子，但他们太笨了，根本没意识到。问问他们是怎么在百代森林里辨别方向的！",
+      "translation": "暴走族肯定是在兜圈子，但他们太笨了，根本没意识到。问问他们是怎么在百代森林里辨别方向的！",
       "line": 1208
     },
     "Eterna Forest": {
@@ -1809,7 +1809,7 @@
       "line": 1211
     },
     "Manaphy Go-Rock MGrunt 4": {
-      "translation": "玛纳霏 Go-Rock MGrunt 4",
+      "translation": "玛纳霏暴走族男小兵4",
       "line": 1214
     },
     "Now you've muddied the path, continue the Eterna Forest chase!": {
@@ -1817,11 +1817,11 @@
       "line": 1214
     },
     "Manaphy Go-Rock Commander": {
-      "translation": "玛纳霏岩石指挥官",
+      "translation": "玛纳霏暴走族指挥官",
       "line": 1217
     },
     "You've cornered the Go-Rock Commander outside the Old Chateau! Time to finish this.": {
-      "translation": "你已将 Go-Rock 指挥官逼到了森之洋馆外！是时候完成这件事了。",
+      "translation": "你已经把暴走族指挥官逼到森之洋馆外了！是时候做个了断了。",
       "line": 1217
     },
     "Return the egg to Professor Hastings in Sandgem Town.": {
@@ -1871,11 +1871,11 @@
       "line": 1251
     },
     "Manaphy Go-Rock Pincher": {
-      "translation": "玛纳霏 Go-Rock Pincher",
+      "translation": "玛纳霏暴走族宝可梦掠夺者",
       "line": 1254
     },
     "An ex-Go-Rock in Sandgem Town has turned to Pokémon Pinching, and wants to steal the egg first. But after all you've been through to get it, he's in for a rude awakening": {
-      "translation": "真砂镇的一名前 Go-Rock 转向了宝可梦捏捏，并想先偷蛋。但在你经历了一切才得到它之后，他猛然醒悟",
+      "translation": "真砂镇的一名前暴走族成员干起了宝可梦掠夺的勾当，还想先把蛋偷走。不过在你历尽辛苦才找回这颗蛋之后，他恐怕不会有好下场。",
       "line": 1254
     },
     "After leaving Sandgem, the Happiny went south-east, across the water. There's only one place it could be now...": {
@@ -2837,7 +2837,7 @@
       "line": 1805
     },
     "You heard rumors of Diantha being in Coumarine City. Go there to check if you can see her.": {
-      "translation": "你听说过黛安莎在比翼市的传闻。去那里看看你是否能看到她。",
+      "translation": "你听说卡露妮人在比翼市。去那里看看能不能见到她。",
       "line": 1808
     },
     "Lysandre is calling you while you are standing in Coumarine City, pick up the phone.": {
@@ -3045,7 +3045,7 @@
       "line": 1939
     },
     "Champion Diantha": {
-      "translation": "冠军卡露乃",
+      "translation": "冠军卡露妮",
       "line": 1942
     },
     "You did it! You saved Kalos! There is nothing else to do except to continue your journey to beat the Kalos Pokémon League!": {
@@ -3109,7 +3109,7 @@
       "line": 1978
     },
     "Answer your ringing Holo Caster.": {
-      "translation": "接听正在响铃的 Holo Caster。",
+      "translation": "接听响起的全像投影通讯器。",
       "line": 1980
     },
     "Talk to Wally.": {
@@ -3117,7 +3117,7 @@
       "line": 1981
     },
     "Talk to Wally and answer your ringing Holo Caster in Petalburg City.": {
-      "translation": "与沃利交谈并接听橙华市响铃的全息施法者的电话。",
+      "translation": "与沃利交谈，并在橙华市接听响起的全像投影通讯器。",
       "line": 1987
     },
     "Granite Cave": {
@@ -3905,11 +3905,11 @@
       "line": 2449
     },
     "Blue has contacted you, saying he knows something but wants a fight first. He is at Viridian City.": {
-      "translation": "Blue 已经联系了你，说他知道一些事情，但想先打一场。他在常磐市。",
+      "translation": "青绿已经联系过你了，说他知道些什么，不过想先和你打一场。他人在常青市。",
       "line": 2449
     },
     "Talk to Blue in Viridian City.": {
-      "translation": "与常磐市的小蓝交谈。",
+      "translation": "与常青市的小蓝交谈。",
       "line": 2452
     },
     "Cerulean Cave": {
@@ -5527,7 +5527,7 @@
       "line": 3460
     },
     "Catch or hatch 10 Forretress.": {
-      "translation": "捕获或孵化10只 Fortress。",
+      "translation": "捕获或孵化10只佛烈托斯。",
       "line": 3460
     },
     "Golem": {
@@ -5579,7 +5579,7 @@
       "line": 3501
     },
     "The Darkest Day": {
-      "translation": "最黑暗的一天",
+      "translation": "至暗之日",
       "line": 3512
     },
     "Stop the return of the Darkest Day!": {
@@ -5587,15 +5587,15 @@
       "line": 3512
     },
     "Check out Stow-on-Side's mural.": {
-      "translation": "查看 Stow-on-Side 的壁画。",
+      "translation": "查看溯传镇的壁画。",
       "line": 3514
     },
     "Bede 3": {
-      "translation": "贝德3",
+      "translation": "彼特3",
       "line": 3517
     },
     "Stop Bede from destroying the mural!": {
-      "translation": "阻止贝德毁坏壁画！",
+      "translation": "阻止彼特毁坏壁画！",
       "line": 3517
     },
     "Talk to Sonia.": {
@@ -5647,11 +5647,11 @@
       "line": 3547
     },
     "Elite Gym Leader Bede": {
-      "translation": "精英道馆领队Bede",
+      "translation": "精英道馆馆主彼特",
       "line": 3550
     },
     "Defeat Bede to reach the semi-finals of the Champion Cup.": {
-      "translation": "击败贝德进入冠军杯半决赛。",
+      "translation": "击败彼特进入冠军杯半决赛。",
       "line": 3550
     },
     "Elite Trainer Hop": {
@@ -5663,11 +5663,11 @@
       "line": 3553
     },
     "Rose Tower": {
-      "translation": "玫瑰塔",
+      "translation": "洛兹大厦",
       "line": 3556
     },
     "Champion Leon was seen heading to Rose Tower. Ascend Rose Tower so you can find him.": {
-      "translation": "有人看到冠军丹帝前往玫瑰塔。登上玫瑰塔就能找到他。",
+      "translation": "有人看到冠军丹帝前往洛兹大厦。登上洛兹大厦就能找到他。",
       "line": 3556
     },
     "The Championship Match is about to start, but Chairman Rose is broadcasting something to the Stadium? Listen to the broadcast.": {
@@ -5683,7 +5683,7 @@
       "line": 3565
     },
     "Chairman Rose has interrupted your fight with Leon and brought about the Darkest Day. Clear Slumbering Weald Shrine.": {
-      "translation": "洛兹会长打断了你与丹帝的对战，并引发了“黑暗之日”。通关微寐森林神殿。",
+      "translation": "洛兹会长打断了你与丹帝的对战，并引发了“至暗之日”。通关微寐森林神殿。",
       "line": 3565
     },
     "Talk to Hop in Slumbering Weald Shrine.": {
@@ -5699,7 +5699,7 @@
       "line": 3571
     },
     "Talk to Chairman Rose in Energy Plant": {
-      "translation": "在能源工厂与罗斯董事长交谈",
+      "translation": "在能源工厂与洛兹会长交谈",
       "line": 3574
     },
     "Eternatus": {
@@ -5711,7 +5711,7 @@
       "line": 3577
     },
     "Eternatus has ascended to its Eternamax form! Catch it to put an end to the Darkest Day!": {
-      "translation": "无极汰那已提升至无极巨化形态！抓住它，结束最黑暗的一天！",
+      "translation": "无极汰那变成了无极巨化形态！抓住它，终结“至暗之日”！",
       "line": 3590
     },
     "After all those interruptions, it's finally time for the Championship match! Talk to Leon at Wyndon Stadium.": {
@@ -5823,7 +5823,7 @@
       "line": 3639
     },
     "Sordward and Shielbert have forced a Conkeldurr and a Dusknoir to rampage in Stow-on-Side Stadium. Defeat them both.": {
-      "translation": "索德沃德和希尔伯特迫使修建老匠和黑夜魔灵在拳关市竞技场横冲直撞。把它们都打倒吧。",
+      "translation": "索德沃德和希尔伯特迫使修建老匠和黑夜魔灵在溯传镇竞技场横冲直撞。把它们都打倒吧。",
       "line": 3644
     },
     "Gym Leader Bede": {
@@ -5831,7 +5831,7 @@
       "line": 3646
     },
     "There were rampaging Pokémon at Ballonlea Stadium, but Bede already defeated them. There are no more rampaging Pokémon for now, and he wants to battle.": {
-      "translation": "舞姿镇竞技场里有狂暴的宝可梦，但贝德已经打败了它们。现在已经没有狂暴的宝可梦了，他想要战斗。",
+      "translation": "舞姿镇竞技场里曾有狂暴的宝可梦，但彼特已经把它们打倒了。现在已经没有狂暴的宝可梦了，他想和你对战。",
       "line": 3646
     },
     "Rampaging Gigalith": {
@@ -5939,15 +5939,15 @@
       "line": 3701
     },
     "Talk to Mustard at the Master Dojo.": {
-      "translation": "在大师道场与芥末交谈。",
+      "translation": "在大师道场与马士德交谈。",
       "line": 3703
     },
     "Mustard": {
-      "translation": "芥末",
+      "translation": "马士德",
       "line": 3706
     },
     "Mustard wants to test your ability at the Master Dojo. Defeat him.": {
-      "translation": "芥末想要在大师道场测试一下你的能力。打败他。",
+      "translation": "马士德想要在大师道场测试一下你的能力。打败他。",
       "line": 3706
     },
     "Galarian Slowpoke": {
@@ -5955,7 +5955,7 @@
       "line": 3712
     },
     "It seems Mustard still wants to talk to you? Talk to Mustard again at the Master Dojo.": {
-      "translation": "看来芥末还想跟你说话？在大师道场再次与芥末交谈。",
+      "translation": "看来马士德还想跟你说话？在大师道场再次与马士德交谈。",
       "line": 3718
     },
     "Talk to Klara.": {
@@ -6043,7 +6043,7 @@
       "line": 3797
     },
     "Talk to Mustard at one of the Towers of Two Fists.": {
-      "translation": "在两拳塔之一与芥末交谈。",
+      "translation": "在双拳之塔之一与马士德交谈。",
       "line": 3799
     },
     "Secrets of the Jungle": {
@@ -6571,7 +6571,7 @@
       "line": 4100
     },
     "Eternamax Eternatus has appeared in the Energy Plant yet again! Bring it down once more.": {
-      "translation": "无极巨化无极汰那再次出现在能源工厂中！再把它放下来。",
+      "translation": "无极巨化无极汰那再次出现在能源工厂！再一次把它击倒。",
       "line": 4100
     },
     "You defeated Eternamax Eternatus once more. Talk to Leon in Energy Plant.": {

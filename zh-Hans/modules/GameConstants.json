@@ -361,11 +361,11 @@
       "line": 811
     },
     "Power Plant": {
-      "translation": "发电厂",
+      "translation": "无人发电厂",
       "line": 811
     },
     "Pokémon Mansion": {
-      "translation": "宝可梦洋馆",
+      "translation": "宝可梦屋",
       "line": 811
     },
     "Indigo Plateau": {
@@ -589,7 +589,7 @@
       "line": 830
     },
     "Mt. Moon": {
-      "translation": "月亮山",
+      "translation": "月见山",
       "line": 835
     },
     "Diglett's Cave": {
@@ -597,11 +597,11 @@
       "line": 835
     },
     "Rock Tunnel": {
-      "translation": "岩石隧道",
+      "translation": "岩山隧道",
       "line": 835
     },
     "Seafoam Islands": {
-      "translation": "海泡沫群岛",
+      "translation": "双子岛",
       "line": 835
     },
     "Victory Road": {
@@ -1077,7 +1077,7 @@
       "line": 896
     },
     "Cinnabar Island": {
-      "translation": "红莲岛",
+      "translation": "红莲镇",
       "line": 900
     },
     "Mt. Ember": {
@@ -1113,7 +1113,7 @@
       "line": 911
     },
     "Viridian Forest": {
-      "translation": "常磐森林",
+      "translation": "常青森林",
       "line": 911
     },
     "Berry Forest": {
@@ -1205,7 +1205,7 @@
       "line": 918
     },
     "Pewter City": {
-      "translation": "尼比市",
+      "translation": "深灰市",
       "line": 922
     },
     "Cianwood City": {
@@ -1237,7 +1237,7 @@
       "line": 927
     },
     "Viridian City": {
-      "translation": "常磐市",
+      "translation": "常青市",
       "line": 933
     },
     "Blackthorn City": {
@@ -1313,7 +1313,7 @@
       "line": 957
     },
     "Realgam Tower Battles": {
-      "translation": "Realgam 塔战",
+      "translation": "瑞尔加塔之战",
       "line": 957
     },
     "Realgam Colosseum": {
@@ -1441,7 +1441,7 @@
       "line": 972
     },
     "Rose Tower": {
-      "translation": "玫瑰塔",
+      "translation": "洛兹大厦",
       "line": 973
     },
     "Hammerlocke": {
@@ -2269,7 +2269,7 @@
       "line": 1395
     },
     "Champion Diantha": {
-      "translation": "冠军卡露乃",
+      "translation": "冠军卡露妮",
       "line": 1396
     },
     "Iki Town": {
@@ -2313,11 +2313,11 @@
       "line": 1412
     },
     "Stow-on-Side1": {
-      "translation": "侧面存放1",
+      "translation": "溯传镇1",
       "line": 1415
     },
     "Stow-on-Side2": {
-      "translation": "侧面存放2",
+      "translation": "溯传镇2",
       "line": 1416
     },
     "Circhester1": {
@@ -2333,7 +2333,7 @@
       "line": 1422
     },
     "Elite Gym Leader Bede": {
-      "translation": "精英道馆领队Bede",
+      "translation": "精英道馆馆主彼特",
       "line": 1423
     },
     "Elite Trainer Hop": {
@@ -2345,11 +2345,11 @@
       "line": 1425
     },
     "Elite Gym Leader Klara": {
-      "translation": "精英道馆领队克拉拉",
+      "translation": "精英道馆馆主克拉拉",
       "line": 1426
     },
     "Elite Gym Leader Avery": {
-      "translation": "精英道馆领队艾弗里",
+      "translation": "精英道馆馆主艾弗里",
       "line": 1427
     },
     "Elite Dojo Matron Honey": {
@@ -2357,7 +2357,7 @@
       "line": 1428
     },
     "Elite Dojo Master Mustard": {
-      "translation": "精英道场芥末大师",
+      "translation": "精英道场大师马士德",
       "line": 1429
     },
     "Elite Trainer Peony": {
@@ -2697,7 +2697,7 @@
       "line": 1865
     },
     "Cue Ball Paxton": {
-      "translation": "帕克斯顿母球",
+      "translation": "光头男帕克斯顿",
       "line": 1866
     },
     "Ash Ketchum New Island": {
@@ -2997,35 +2997,35 @@
       "line": 1940
     },
     "Manaphy Go-Rock MGrunt 1": {
-      "translation": "玛纳霏 Go-Rock MGrunt 1",
+      "translation": "玛纳霏暴走族男小兵1",
       "line": 1941
     },
     "Manaphy Go-Rock MGrunt 2": {
-      "translation": "玛纳霏 Go-Rock MGrunt 2",
+      "translation": "玛纳霏暴走族男小兵2",
       "line": 1942
     },
     "Manaphy Go-Rock MGrunt 3": {
-      "translation": "玛纳霏 Go-Rock MGrunt 3",
+      "translation": "玛纳霏暴走族男小兵3",
       "line": 1943
     },
     "Manaphy Go-Rock MGrunt 4": {
-      "translation": "玛纳霏 Go-Rock MGrunt 4",
+      "translation": "玛纳霏暴走族男小兵4",
       "line": 1944
     },
     "Manaphy Go-Rock FGrunt 1": {
-      "translation": "玛纳霏 Go-Rock FGrunt 1",
+      "translation": "玛纳霏暴走族女小兵1",
       "line": 1945
     },
     "Manaphy Go-Rock FGrunt 2": {
-      "translation": "玛纳霏 Go-Rock FGrunt 2",
+      "translation": "玛纳霏暴走族女小兵2",
       "line": 1946
     },
     "Manaphy Go-Rock Commander": {
-      "translation": "玛纳霏岩石指挥官",
+      "translation": "玛纳霏暴走族指挥官",
       "line": 1947
     },
     "Manaphy Go-Rock Pincher": {
-      "translation": "玛纳霏 Go-Rock Pincher",
+      "translation": "玛纳霏暴走族宝可梦掠夺者",
       "line": 1948
     },
     "Manaphy Egg Protectors": {
@@ -3493,7 +3493,7 @@
       "line": 2065
     },
     "Grand Duchess Diantha": {
-      "translation": "女大公卡露乃",
+      "translation": "女大公卡露妮",
       "line": 2066
     },
     "Team Flare Boss Lysandre 2": {
@@ -3877,7 +3877,7 @@
       "line": 2161
     },
     "Bede 1": {
-      "translation": "贝德1",
+      "translation": "彼特1",
       "line": 2162
     },
     "Hop 4": {
@@ -3885,7 +3885,7 @@
       "line": 2163
     },
     "Bede 2": {
-      "translation": "贝德2号",
+      "translation": "彼特2",
       "line": 2164
     },
     "Marnie 1": {
@@ -3897,7 +3897,7 @@
       "line": 2166
     },
     "Bede 3": {
-      "translation": "贝德3",
+      "translation": "彼特3",
       "line": 2167
     },
     "Hop 6": {
@@ -3917,7 +3917,7 @@
       "line": 2171
     },
     "The Darkest Day": {
-      "translation": "最黑暗的一天",
+      "translation": "至暗之日",
       "line": 2172
     },
     "Hop 8": {
@@ -4001,7 +4001,7 @@
       "line": 2192
     },
     "Mustard": {
-      "translation": "芥末",
+      "translation": "马士德",
       "line": 2193
     },
     "Klara 2": {

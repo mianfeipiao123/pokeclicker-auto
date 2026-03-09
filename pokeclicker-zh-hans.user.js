@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PokeClicker 宝可梦点击 简体中文补全
 // @namespace    https://github.com/mianfeipiao123/pokeclicker-auto
-// @version      0.1.71
+// @version      0.1.74
 // @description  为 PokéClicker 提供全面的简体中文翻译，覆盖界面、对话、物品等内容
 // @homepageURL  https://github.com/mianfeipiao123/pokeclicker-auto
 // @supportURL   https://github.com/mianfeipiao123/pokeclicker-auto/issues
@@ -84,7 +84,7 @@
 
     pollUntil(hookNotifier, 50, 10000);
 
-    const SCRIPT_VERSION = '0.1.71';
+    const SCRIPT_VERSION = '0.1.74';
 
     // 是否启用“分文件翻译”回退（当 bundle.json 加载失败时）
     // bundle-only 版本会将该项设为 false，以保证只使用 bundle.json。
@@ -317,6 +317,12 @@
 
     /** @type {{ badgeSuffix: string | null }} */
     let userscriptCssLabels = { badgeSuffix: null };
+
+    let shortTimeLabels = {
+        now: null,
+        lessThanPrefix: null,
+        units: {},
+    };
 
     let DEBUG = false;
     try {
@@ -1102,6 +1108,11 @@
                 context: {
                     treasuresGem: getEntry('__userscript.context.treasures.gem') ?? null,
                 },
+                time: {
+                    now: getEntry('__userscript.time.now') ?? null,
+                    lessThanPrefix: getEntry('__userscript.time.lessThanPrefix') ?? null,
+                    units: {},
+                },
             };
 
             // Extract TYPE_KEYS dynamically from __userscript.type.* entries
@@ -1130,6 +1141,14 @@
                 config.weatherTypeKeys = weatherKeysFromConfig;
             }
 
+            for (const key of Object.keys(entries)) {
+                if (!key.startsWith('__userscript.time.unit.')) continue;
+                const unitName = key.slice('__userscript.time.unit.'.length).toLowerCase();
+                if (!unitName) continue;
+                const v = getEntry(key);
+                if (typeof v === 'string' && v) config.time.units[unitName] = v;
+            }
+
             return config;
         } catch {
             return null;
@@ -1141,6 +1160,21 @@
             const v = vars?.[k];
             return typeof v === 'string' || typeof v === 'number' ? String(v) : m;
         });
+
+    const translateShortTimeWords = (segment) => {
+        const key = normalizeText(segment);
+        if (!key) return null;
+        if (/^now$/i.test(key)) return shortTimeLabels.now;
+
+        const shortTimeMatch = key.match(/^(<\s*)?(\d+)\s+(day|days|hour|hours|min|mins|minute|minutes|sec|secs|second|seconds|week|weeks)$/i);
+        if (!shortTimeMatch) return null;
+
+        const unit = shortTimeLabels.units?.[shortTimeMatch[3].toLowerCase()];
+        if (!unit) return null;
+
+        const prefix = shortTimeMatch[1] ? (shortTimeLabels.lessThanPrefix ?? '') : '';
+        return `${prefix}${shortTimeMatch[2]}${unit}`;
+    };
 
     const resolveI18NextNesting = (text, dict, fallbackDict) => {
         let out = String(text ?? '');
@@ -1194,6 +1228,9 @@
         if (key === 'a' || key === 'an') {
             return '';
         }
+
+        const shortTime = translateShortTimeWords(key);
+        if (shortTime) return shortTime;
 
         // Weather enums are displayed via `humanifyString(WeatherType[...])`, which can collide with badges
         // (e.g. Rain/Fog). Prefer `weatherType::...` when available.
@@ -1552,6 +1589,8 @@
      */
     const resolveTranslation = (key, map, patterns) => {
         if (!key) return null;
+        const shortTime = translateShortTimeWords(key);
+        if (shortTime) return shortTime;
         const altKey = normalizeForLookup(key);
         const candidates = altKey && altKey !== key ? [key, altKey] : [key];
         const demixed = demixForLookup(altKey || key);
@@ -2101,6 +2140,13 @@
             if (typeof config.context?.treasuresGem === 'string' && config.context.treasuresGem) {
                 treasuresGemOverride = config.context.treasuresGem;
             }
+            if (config.time && typeof config.time === 'object') {
+                shortTimeLabels = {
+                    now: typeof config.time.now === 'string' && config.time.now ? config.time.now : null,
+                    lessThanPrefix: typeof config.time.lessThanPrefix === 'string' ? config.time.lessThanPrefix : null,
+                    units: config.time.units && typeof config.time.units === 'object' ? { ...config.time.units } : {},
+                };
+            }
             injectCssOverrides(config.css);
         } else {
             injectCssOverrides(null);
@@ -2585,6 +2631,74 @@
             }
         };
         pollUntil(tryPatchBootstrapTooltip);
+
+        // Patch App.translation.get to translate logbook variables (achievement names, quest descriptions, locations, etc.)
+        // The game's i18next only has a 'pokemon' formatter, so variables like {{ name }}, {{ quest }}, {{ location }}
+        // are inserted as-is without translation. We intercept App.translation.get to translate these vars first.
+        const tryPatchAppTranslationGet = () => {
+            try {
+                if (!window.App?.translation?.get) return false;
+                if (window.App.translation.get.__pkcZhHansPatched) return true;
+
+                const originalGet = window.App.translation.get;
+
+                // Variables that should be translated in logbook entries
+                const logbookVarsToTranslate = new Set([
+                    'name',       // achievement names
+                    'quest',      // quest descriptions
+                    'location',   // location names
+                    'item',       // item names
+                    'reward',     // reward descriptions
+                    'berry',      // berry names
+                    'flute',      // flute names
+                    'currency',   // currency names
+                    'stage',      // battle frontier stage
+                ]);
+
+                const wrappedGet = function (key, namespace, vars) {
+                    // Only process logbook namespace with vars
+                    if (namespace === 'logbook' && vars && typeof vars === 'object') {
+                        const translatedVars = { ...vars };
+                        let anyTranslated = false;
+
+                        for (const [varKey, varValue] of Object.entries(vars)) {
+                            // Skip pokemon vars - they're handled by the game's pokemon formatter
+                            if (varKey === 'pokemon' || varKey === 'basePokemon' || varKey === 'evolvedPokemon') {
+                                continue;
+                            }
+
+                            if (logbookVarsToTranslate.has(varKey) && typeof varValue === 'string' && varValue) {
+                                const translated = translateWithFallback(varValue);
+                                if (translated && translated !== varValue) {
+                                    translatedVars[varKey] = translated;
+                                    anyTranslated = true;
+                                }
+                            }
+                        }
+
+                        if (anyTranslated) {
+                            return originalGet.call(window.App.translation, key, namespace, translatedVars);
+                        }
+                    }
+
+                    return originalGet.apply(window.App.translation, arguments);
+                };
+
+                Object.defineProperty(wrappedGet, '__pkcZhHansPatched', { value: true });
+                window.App.translation.get = wrappedGet;
+
+                if (DEBUG) {
+                    log.info('Patched App.translation.get for logbook variable translation');
+                }
+                return true;
+            } catch (e) {
+                if (DEBUG) {
+                    log.warn('Failed to patch App.translation.get:', e);
+                }
+                return false;
+            }
+        };
+        pollUntil(tryPatchAppTranslationGet);
 
         if (DEBUG) {
             log.info('bundle meta:', bundleMeta);

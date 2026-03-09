@@ -7,7 +7,7 @@
   },
   "entries": {
     "Pewter City": {
-      "translation": "尼比市",
+      "translation": "深灰市",
       "line": 6
     },
     "Brock": {
@@ -159,7 +159,7 @@
       "line": 96
     },
     "Cinnabar Island": {
-      "translation": "红莲岛",
+      "translation": "红莲镇",
       "line": 99
     },
     "Blaine": {
@@ -187,7 +187,7 @@
       "line": 110
     },
     "Pokémon Mansion": {
-      "translation": "宝可梦洋馆",
+      "translation": "宝可梦屋",
       "line": 111
     },
     "Bill's Errand": {
@@ -195,7 +195,7 @@
       "line": 113
     },
     "Viridian City": {
-      "translation": "常磐市",
+      "translation": "常青市",
       "line": 116
     },
     "Giovanni": {
@@ -2229,11 +2229,11 @@
       "line": 1423
     },
     "Champion Diantha": {
-      "translation": "冠军卡露乃",
+      "translation": "冠军卡露妮",
       "line": 1428
     },
     "Diantha": {
-      "translation": "卡露乃",
+      "translation": "卡露妮",
       "line": 1429
     },
     "Tyrantrum": {
@@ -2837,15 +2837,15 @@
       "line": 1874
     },
     "The Darkest Day": {
-      "translation": "最黑暗的一天",
+      "translation": "至暗之日",
       "line": 1878
     },
     "Bea's Stow-on-Side Gym": {
-      "translation": "比亚的侧边存放道馆",
+      "translation": "彩豆的溯传镇道馆",
       "line": 1880
     },
     "Stow-on-Side2": {
-      "translation": "侧面存放2",
+      "translation": "溯传镇2",
       "line": 1882
     },
     "Allister": {
@@ -2873,7 +2873,7 @@
       "line": 1893
     },
     "Allister's Stow-on-Side Gym": {
-      "translation": "阿利斯特的侧边存放道馆",
+      "translation": "欧尼奥的溯传镇道馆",
       "line": 1900
     },
     "Opal": {
@@ -3033,7 +3033,7 @@
       "line": 1987
     },
     "Elite Gym Leader Bede": {
-      "translation": "精英道馆领队Bede",
+      "translation": "精英道馆馆主彼特",
       "line": 1990
     },
     "Bede": {
@@ -3137,7 +3137,7 @@
       "line": 2043
     },
     "Elite Gym Leader Klara": {
-      "translation": "精英道馆领队克拉拉",
+      "translation": "精英道馆馆主克拉拉",
       "line": 2050
     },
     "Klara": {
@@ -3165,7 +3165,7 @@
       "line": 2063
     },
     "Elite Gym Leader Avery": {
-      "translation": "精英道馆领队艾弗里",
+      "translation": "精英道馆馆主艾弗里",
       "line": 2065
     },
     "Avery": {
@@ -3201,11 +3201,11 @@
       "line": 2093
     },
     "Elite Dojo Master Mustard": {
-      "translation": "精英道场芥末大师",
+      "translation": "精英道场大师马士德",
       "line": 2101
     },
     "Mustard": {
-      "translation": "芥末",
+      "translation": "马士德",
       "line": 2102
     },
     "Lycanroc (Midday)": {
@@ -3229,7 +3229,7 @@
       "line": 2114
     },
     "Mustard Elite": {
-      "translation": "芥末精英",
+      "translation": "马士德精英",
       "line": 2118
     },
     "Elite Trainer Peony": {

@@ -35,7 +35,7 @@
       "line": 22
     },
     "Viridian City": {
-      "translation": "常磐市",
+      "translation": "常青市",
       "line": 23
     },
     "Blue1": {
@@ -207,7 +207,7 @@
       "line": 166
     },
     "I'm moving on up and ahead! I'm going to the Pokémon League to boot out the Elite Four! I'll become the world's most powerful Trainer! Well, good luck to you! Don't sweat it! Smell ya!": {
-      "translation": "我要继续前进！我要去宝可梦联盟淘汰精英四人组！我要成为世界上最强的训练家！好吧，祝你好运！别出汗！闻闻呀！",
+      "translation": "我要继续一路向前！我要去宝可梦联盟打倒四天王！我要成为世界上最强的训练家！好吧，祝你好运！别太紧张！回头见啦！",
       "line": 169
     },
     "Team Rocket": {
@@ -251,7 +251,7 @@
       "line": 202
     },
     "Cue Ball Paxton": {
-      "translation": "帕克斯顿母球",
+      "translation": "光头男帕克斯顿",
       "line": 213
     },
     "Weezing": {
@@ -327,7 +327,7 @@
       "line": 260
     },
     "That loosened me up. I'm ready for the Pokémon League! You need more practice! But hey, you know that! I'm out of here. Smell ya!": {
-      "translation": "这让我松了口气。我已经准备好参加宝可梦联盟了！你需要更多的练习！但是嘿，你知道的！我要离开这里了闻闻呀！",
+      "translation": "这下我放开手脚了。我已经准备好去挑战宝可梦联盟了！你还得多练练！不过嘛，你自己也知道。我要先走一步了，回头见啦！",
       "line": 275
     },
     "Santa Jynx 1": {
@@ -1639,7 +1639,7 @@
       "line": 1540
     },
     "Manaphy Go-Rock MGrunt 1": {
-      "translation": "玛纳霏 Go-Rock MGrunt 1",
+      "translation": "玛纳霏暴走族男小兵1",
       "line": 1544
     },
     "Graveler": {
@@ -1655,15 +1655,15 @@
       "line": 1552
     },
     "Go-Rock Squad Grunt": {
-      "translation": "岩石小队步兵",
+      "translation": "暴走族小兵",
       "line": 1555
     },
     "Go-Rock Squad Grunt (male)": {
-      "translation": "Go-Rock 小队手下（男）",
+      "translation": "暴走族男小兵",
       "line": 1556
     },
     "Manaphy Go-Rock FGrunt 1": {
-      "translation": "玛纳霏 Go-Rock FGrunt 1",
+      "translation": "玛纳霏暴走族女小兵1",
       "line": 1560
     },
     "Your battling skills are solid...": {
@@ -1671,11 +1671,11 @@
       "line": 1568
     },
     "Go-Rock Squad Grunt (female)": {
-      "translation": "Go-Rock 小队手下（女）",
+      "translation": "暴走族女小兵",
       "line": 1573
     },
     "Manaphy Go-Rock MGrunt 2": {
-      "translation": "玛纳霏 Go-Rock MGrunt 2",
+      "translation": "玛纳霏暴走族男小兵2",
       "line": 1577
     },
     "Darn it! You better remember this!": {
@@ -1683,15 +1683,15 @@
       "line": 1585
     },
     "Manaphy Go-Rock MGrunt 3": {
-      "translation": "玛纳霏 Go-Rock MGrunt 3",
+      "translation": "玛纳霏暴走族男小兵3",
       "line": 1594
     },
     "The Go-Rock Squad's future looks bleak...": {
-      "translation": "Go-Rock 小队的未来看起来很黯淡……",
+      "translation": "暴走族的前景看起来一片黯淡……",
       "line": 1601
     },
     "Manaphy Go-Rock FGrunt 2": {
-      "translation": "玛纳霏 Go-Rock FGrunt 2",
+      "translation": "玛纳霏暴走族女小兵2",
       "line": 1610
     },
     "Scyther": {
@@ -1703,7 +1703,7 @@
       "line": 1613
     },
     "Manaphy Go-Rock MGrunt 4": {
-      "translation": "玛纳霏 Go-Rock MGrunt 4",
+      "translation": "玛纳霏暴走族男小兵4",
       "line": 1622
     },
     "Politoed": {
@@ -1715,7 +1715,7 @@
       "line": 1630
     },
     "Manaphy Go-Rock Commander": {
-      "translation": "玛纳霏岩石指挥官",
+      "translation": "玛纳霏暴走族指挥官",
       "line": 1639
     },
     "Owowow! Okay, okay, I got it! You can have your stupid egg!": {
@@ -1723,11 +1723,11 @@
       "line": 1646
     },
     "Go-Rock Squad Commander": {
-      "translation": "岩石小队队长",
+      "translation": "暴走族指挥官",
       "line": 1650
     },
     "Manaphy Go-Rock Pincher": {
-      "translation": "玛纳霏 Go-Rock Pincher",
+      "translation": "玛纳霏暴走族宝可梦掠夺者",
       "line": 1655
     },
     "Poochyena": {
@@ -1735,11 +1735,11 @@
       "line": 1658
     },
     "Argh! With that Manaphy Egg, I thought even an ex-Go-Rock like me could live out the rest of my life in ease! That Happiny took the egg to the south-east, across the water. I wanted to pursue it, but Carvanha are not... comfortable to ride on.": {
-      "translation": "啊！有了这颗玛纳霏之蛋，我还以为像我这种前岩石小队的人也能轻松过完后半辈子！那只小福蛋带着蛋往东南跑了，越过了水域。我本想追上去，可鲨牙子……骑起来真不舒服。",
+      "translation": "啊！有了这颗玛纳霏之蛋，我还以为像我这种前暴走族成员也能舒舒服服过完下半辈子！那只小福蛋带着蛋往东南边跑了，越过了水域。我本想追上去，可鲨牙子……骑起来实在不舒服。",
       "line": 1661
     },
     "Go-Rock Pokémon Pincher": {
-      "translation": "Go-Rock 宝可梦钳",
+      "translation": "暴走族宝可梦掠夺者",
       "line": 1665
     },
     "Manaphy Egg Protectors": {
@@ -2731,11 +2731,11 @@
       "line": 2543
     },
     "Aqua Admin Matt": {
-      "translation": "Aqua 管理员马特",
+      "translation": "海洋队干部阿潮",
       "line": 2547
     },
     "Aqua Admin (matt)": {
-      "translation": "Aqua 管理员（哑光）",
+      "translation": "海洋队干部（阿潮）",
       "line": 2548
     },
     "Zinnia 1": {
@@ -3031,7 +3031,7 @@
       "line": 2771
     },
     "Aqua Admin (shelly)": {
-      "translation": "Aqua 管理员（雪莉）",
+      "translation": "海洋队干部（阿泉）",
       "line": 2772
     },
     "Icy Boulder": {
@@ -3863,7 +3863,7 @@
       "line": 3563
     },
     "Hey, what gives? I was just trying to relax here!": {
-      "translation": "嘿，什么给？我只是想在这里放松一下！",
+      "translation": "喂，这算什么啊？我只是想在这里放松一下！",
       "line": 3565
     },
     "Mistralton City": {
@@ -3995,7 +3995,7 @@
       "line": 3665
     },
     "Grand Duchess Diantha": {
-      "translation": "女大公卡露乃",
+      "translation": "女大公卡露妮",
       "line": 3670
     },
     "Gourgeist (Average)": {
@@ -4015,7 +4015,7 @@
       "line": 3678
     },
     "Diantha": {
-      "translation": "卡露乃",
+      "translation": "卡露妮",
       "line": 3683
     },
     "Team Flare Boss Lysandre 2": {
@@ -4875,7 +4875,7 @@
       "line": 4412
     },
     "Well! Once again, you certainly reeled me in. Please have a good time with Kiawe.": {
-      "translation": "出色地！再次，你确实让我着迷。请与 Kiawe 度过愉快的时光。",
+      "translation": "漂亮！你又一次让我大开眼界。接下来就去和卡奇好好较量一番吧。",
       "line": 4414
     },
     "Lana": {
@@ -5483,7 +5483,7 @@
       "line": 4956
     },
     "Hey, would you mind letting minnow when you want to rematch?": {
-      "translation": "嘿，当你想重赛时，你介意让米诺鱼吗？",
+      "translation": "嘿，等你想再战的时候，记得告诉我一声，好吗？",
       "line": 4957
     },
     "Karson": {
@@ -5699,7 +5699,7 @@
       "line": 5300
     },
     "And I even got my Pokéball throw perfect too!": {
-      "translation": "我的精灵球投掷也很完美！",
+      "translation": "而且我的精灵球也投得完美无缺！",
       "line": 5305
     },
     "Professor Magnolia's House": {
@@ -5719,7 +5719,7 @@
       "line": 5328
     },
     "Bede 1": {
-      "translation": "贝德1",
+      "translation": "彼特1",
       "line": 5332
     },
     "Solosis": {
@@ -5743,7 +5743,7 @@
       "line": 5340
     },
     "Pokémon Trainer Bede": {
-      "translation": "宝可梦训练家贝德",
+      "translation": "宝可梦训练家彼特",
       "line": 5343
     },
     "Bede": {
@@ -5779,7 +5779,7 @@
       "line": 5361
     },
     "Bede 2": {
-      "translation": "贝德2号",
+      "translation": "彼特2",
       "line": 5365
     },
     "Galarian Ponyta": {
@@ -5847,7 +5847,7 @@
       "line": 5411
     },
     "Bede 3": {
-      "translation": "贝德3",
+      "translation": "彼特3",
       "line": 5415
     },
     "Duosion": {
@@ -5867,7 +5867,7 @@
       "line": 5423
     },
     "The Darkest Day": {
-      "translation": "最黑暗的一天",
+      "translation": "至暗之日",
       "line": 5424
     },
     "Hop 6": {
@@ -6243,7 +6243,7 @@
       "line": 5776
     },
     "Mustard": {
-      "translation": "芥末",
+      "translation": "马士德",
       "line": 5780
     },
     "Shinx": {
@@ -6259,7 +6259,7 @@
       "line": 5786
     },
     "Dojo Master Mustard": {
-      "translation": "道场大师芥末",
+      "translation": "道场大师马士德",
       "line": 5789
     },
     "Klara 2": {
